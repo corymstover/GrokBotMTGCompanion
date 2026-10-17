@@ -1,0 +1,4776 @@
+{
+ "candidates": [
+  {
+   "card": "You Find Some Prisoners",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "You Find Some Prisoners",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:b0ca0bb3925e"
+   }
+  },
+  {
+   "card": "Fathom Feeder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fathom Feeder",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:11940d1253c9"
+   }
+  },
+  {
+   "card": "Black Widow, Super Spy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Widow, Super Spy",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Widow, Super Spy",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:78c624749625"
+    },
+    "swap": "swap:the-madcap-jester:m5:3cb8571edbff"
+   }
+  },
+  {
+   "card": "Cunning Rhetoric",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cunning Rhetoric",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cunning Rhetoric",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:8d8e86f09ddb"
+    },
+    "swap": "swap:the-madcap-jester:m5:fe3c60212ccd"
+   }
+  },
+  {
+   "card": "Thief of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thief of Sanity",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thief of Sanity",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:0b217e099011"
+    },
+    "swap": "swap:the-madcap-jester:m5:d9e226b97fe0"
+   }
+  },
+  {
+   "card": "Ashiok, Nightmare Muse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashiok, Nightmare Muse",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:9d8659363406"
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:11b9009f63e9"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:7808d3b621d0"
+   }
+  },
+  {
+   "card": "Dream Harvest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Harvest",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Harvest",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:dc2b808731cb"
+    },
+    "swap": "swap:the-madcap-jester:m5:f7197e14bde2"
+   }
+  },
+  {
+   "card": "Keeper of Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keeper of Secrets",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keeper of Secrets",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:a9966a854f11"
+    },
+    "swap": "swap:the-madcap-jester:m5:8379918233e5"
+   }
+  },
+  {
+   "card": "Raven Guild Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raven Guild Master",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:60058fc6a11a"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Brainstealer Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstealer Dragon",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstealer Dragon",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:bc45c1ddf53d"
+    },
+    "swap": "swap:the-madcap-jester:m5:e6e9f20a426f"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:52f3195aeb38"
+    },
+    "swap": "swap:the-madcap-jester:m5:8d95b3d5d29d"
+   }
+  },
+  {
+   "card": "Jeleva, Nephalia's Scourge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeleva, Nephalia's Scourge",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:52234e1feb51"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Etali, Primal Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etali, Primal Storm",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etali, Primal Storm",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:5962e2e6c936"
+    },
+    "swap": "swap:the-madcap-jester:m5:3a9c27e0ca2c"
+   }
+  },
+  {
+   "card": "Mist Intruder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mist Intruder",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:8c47c4d7371a"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Fellwar Stone",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:26bb6ea9a9a4"
+    },
+    "swap": "swap:the-madcap-jester:m5:04fbbbe4a67f"
+   }
+  },
+  {
+   "card": "Rootwater Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootwater Thief",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:5ffa769dcea4"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:9e594605343d"
+   }
+  },
+  {
+   "card": "Talisman of Creativity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Creativity",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Talisman of Creativity",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:cd00350f0307"
+    },
+    "swap": "swap:the-madcap-jester:m5:1a777e3c1b2c"
+   }
+  },
+  {
+   "card": "Benthic Infiltrator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Benthic Infiltrator",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:3b721bccaa82"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:c3c1586f07e8"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:2698a9462dfe"
+   }
+  },
+  {
+   "card": "Oblivion Sower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oblivion Sower",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:b9db65c70d52"
+   }
+  },
+  {
+   "card": "Stolen Strategy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Strategy",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Strategy",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:27ceb6f16c92"
+    },
+    "swap": "swap:the-madcap-jester:m5:0190296838fb"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:a968daab4ac4"
+   }
+  },
+  {
+   "card": "Opposition Agent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opposition Agent",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opposition Agent",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:51e68d585256"
+    },
+    "swap": "swap:the-madcap-jester:m5:d9d020a3461c"
+   }
+  },
+  {
+   "card": "Urabrask, Heretic Praetor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urabrask, Heretic Praetor",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:bd89d35d1ea0"
+   }
+  },
+  {
+   "card": "Grenzo, Havoc Raiser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grenzo, Havoc Raiser",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grenzo, Havoc Raiser",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:8b8fad9f8501"
+    },
+    "swap": "swap:the-madcap-jester:m5:ce83a770328a"
+   }
+  },
+  {
+   "card": "Nathan Drake, Treasure Hunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nathan Drake, Treasure Hunter",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:ebd46bbc22c8"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:8d50ca95416e"
+   }
+  },
+  {
+   "card": "Scrib Nibblers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrib Nibblers",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrib Nibblers",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:9e6a82d4ec6c"
+    },
+    "swap": "swap:the-madcap-jester:m5:598307d9c1e9"
+   }
+  },
+  {
+   "card": "Fortune Teller's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fortune Teller's Talent",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:28c6fec76888"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:d62560d212fa"
+   }
+  },
+  {
+   "card": "Wand of Wonder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wand of Wonder",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wand of Wonder",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:50fbb4b03338"
+    },
+    "swap": "swap:the-madcap-jester:m5:3447f2526b83"
+   }
+  },
+  {
+   "card": "Share the Spoils",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Share the Spoils",
+       "cut": "Circu, Dimir Lobotomist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Share the Spoils",
+       "cut": "Beseech the Mirror"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:f26f0dd48943"
+    },
+    "swap": "swap:the-madcap-jester:m5:c05ddad4e051"
+   }
+  },
+  {
+   "card": "Crumbling Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Sanctuary",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Sanctuary",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:c1d19f498f0d"
+    },
+    "swap": "swap:the-madcap-jester:m5:f0d17b3f90f4"
+   }
+  },
+  {
+   "card": "Charred Foyer // Warped Space",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Charred Foyer // Warped Space",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:2e8cd9853142"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:d3aba7923033"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:b079846f1b8f"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:e694a09059a9"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:445791161db5"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:c150c4c287ed"
+   }
+  },
+  {
+   "card": "Tasha, the Witch Queen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:aa750227f5eb"
+   }
+  },
+  {
+   "card": "The Lost and the Damned",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Lost and the Damned",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:cf00dfd1bd21"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:52ccfd419cb5"
+   }
+  },
+  {
+   "card": "Uba Mask",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uba Mask",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:41e14e9b6ee2"
+   }
+  },
+  {
+   "card": "Mana Geyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Geyser",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:fabe661dd16f"
+   }
+  },
+  {
+   "card": "Brotherhood Regalia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brotherhood Regalia",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:218b30e44830"
+   }
+  },
+  {
+   "card": "Access Tunnel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Access Tunnel",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:6b2e02a03932"
+   }
+  },
+  {
+   "card": "Professional Face-Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Professional Face-Breaker",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:7018581e8b26"
+   }
+  },
+  {
+   "card": "Bismuth Mindrender",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bismuth Mindrender",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:29d11bbbf70a"
+   }
+  },
+  {
+   "card": "Hexing Squelcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hexing Squelcher",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:59d8db921b96"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:131feda19873"
+   }
+  },
+  {
+   "card": "Rev, Tithe Extractor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rev, Tithe Extractor",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:55b444626efb"
+   }
+  },
+  {
+   "card": "Doomsday Excruciator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doomsday Excruciator",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:972471f8b843"
+   }
+  },
+  {
+   "card": "Rogue Class",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue Class",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:890e43a2d75b"
+   }
+  },
+  {
+   "card": "Grimoire Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grimoire Thief",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:f4fc998f8afd"
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:eb905a1ecf00"
+   }
+  },
+  {
+   "card": "Shizo, Death's Storehouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shizo, Death's Storehouse",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:89bda655bc54"
+   }
+  },
+  {
+   "card": "Aqueous Form",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aqueous Form",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:0ca89156be14"
+   }
+  },
+  {
+   "card": "Dimir Machinations",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Machinations",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:b23affb3bcb9"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:6df1714cf6e3"
+   }
+  },
+  {
+   "card": "Salvage Drone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Salvage Drone",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:8604d0fccce1"
+   }
+  },
+  {
+   "card": "Wizard's Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard's Staff",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:f4339c9cbc9a"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:5bf5ed9acacb"
+   }
+  },
+  {
+   "card": "Nico Minoru, Runaway",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nico Minoru, Runaway",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:ac6796ad0ee9"
+   }
+  },
+  {
+   "card": "Gonti, Lord of Luxury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gonti, Lord of Luxury",
+       "cut": "Circu, Dimir Lobotomist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:6521499a6c18"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:156a3a532690"
+   }
+  },
+  {
+   "card": "Triple Triad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Triple Triad",
+       "cut": "Circu, Dimir Lobotomist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:f2a6ea030294"
+   }
+  },
+  {
+   "card": "Arena of Glory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arena of Glory",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:a2cd52493ab0"
+   }
+  },
+  {
+   "card": "Sage of the Beyond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sage of the Beyond",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:3b77edcdf1b7"
+   }
+  },
+  {
+   "card": "Leyline of the Void",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leyline of the Void",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:ba024ea20017"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:78880cb51d0c"
+   }
+  },
+  {
+   "card": "Interdimensional Web Watch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Interdimensional Web Watch",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:36921adf502d"
+   }
+  },
+  {
+   "card": "Spider-Verse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spider-Verse",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:639e4579d986"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Dynamo",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:4f1dc319b510"
+   }
+  },
+  {
+   "card": "Silver Shroud Costume",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silver Shroud Costume",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:4500f99872d5"
+   }
+  },
+  {
+   "card": "Siphon Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siphon Insight",
+       "cut": "Circu, Dimir Lobotomist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:562d2d8ff4ce"
+   }
+  },
+  {
+   "card": "Advanced Reconstruction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Advanced Reconstruction",
+       "cut": "Circu, Dimir Lobotomist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:e7654b219310"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:806338fd8648"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:e1b362599e08"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:ea72f14b11ff"
+   }
+  },
+  {
+   "card": "Memory Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Vessel",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:4cf99342b788"
+   }
+  },
+  {
+   "card": "Nightveil Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightveil Specter",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:ee16e55ef1b6"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:778bfb31eab0"
+    },
+    "swap": "swap:the-madcap-jester:m5:18e64ff59c58"
+   }
+  },
+  {
+   "card": "Harmonic Prodigy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Harmonic Prodigy",
+       "cut": "Bilbo, Thief in the Night"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:d480e0fb64d9"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:84fd169144b3"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:42271bba5744"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:45d2fcf2ff4c"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:a3d5f1faeaca"
+   }
+  },
+  {
+   "card": "The Ruinous Powers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Ruinous Powers",
+       "cut": "Circu, Dimir Lobotomist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:3308266e13ae"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:be0560dd6358"
+   }
+  },
+  {
+   "card": "Mnemonic Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Song",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:789855aabd21"
+   }
+  },
+  {
+   "card": "Court of Locthwain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Court of Locthwain",
+       "cut": "Circu, Dimir Lobotomist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:37aba60df064"
+   }
+  },
+  {
+   "card": "Mind's Dilation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind's Dilation",
+       "cut": "Necropotence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:8fa1195cc900"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:f649049673ee"
+   }
+  },
+  {
+   "card": "Red Elemental Blast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Red Elemental Blast",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:805f16fc3079"
+   }
+  },
+  {
+   "card": "Kozilek, the Great Distortion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kozilek, the Great Distortion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:de3b3c9483ef"
+   }
+  },
+  {
+   "card": "Flusterstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flusterstorm",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:55e2a2c6bc8a"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:5eb6f3972a63"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:4062e44375f7"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:df9fb9d26dbe"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:3b4dcc2f114c"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:f76b5a77f69f"
+    },
+    "swap": "swap:the-madcap-jester:m5:0faf3563949b"
+   }
+  },
+  {
+   "card": "Thranduil's Decree",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thranduil's Decree",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:f80e33a2c07f"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Dragon's Smile"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:fcb36a69ff07"
+    },
+    "swap": "swap:the-madcap-jester:m5:549aebbdd64e"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Pact of Negation"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:3fa6b33071e8"
+    },
+    "swap": "swap:the-madcap-jester:m5:ebedd1665907"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Imperial Seal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:a7f69ca96fe1"
+    },
+    "swap": "swap:the-madcap-jester:m5:962321e4fe1d"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:2cd581fe4e78"
+    },
+    "swap": "swap:the-madcap-jester:m5:6fdfa57b32b5"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:e126a4fcd20b"
+    },
+    "swap": "swap:the-madcap-jester:m5:7989918ee372"
+   }
+  },
+  {
+   "card": "Kheru Spellsnatcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kheru Spellsnatcher",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:fd908e55f4b9"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:086c307b375f"
+    },
+    "swap": "swap:the-madcap-jester:m5:c9ae9c2180c2"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:e30690351828"
+    },
+    "swap": "swap:the-madcap-jester:m5:a486a3e7a173"
+   }
+  },
+  {
+   "card": "Spelljack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spelljack",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:c388a5dd94ec"
+   }
+  },
+  {
+   "card": "Infinite Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infinite Reflection",
+       "cut": "Necropotence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Infinite Reflection",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:d4c89cfee705"
+    },
+    "swap": "swap:the-madcap-jester:m5:8ce3f5685a4a"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:7b143ecd2863"
+    },
+    "swap": "swap:the-madcap-jester:m5:b8e6689337fd"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Pact of Negation"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:232c2dd0f4c0"
+    },
+    "swap": "swap:the-madcap-jester:m5:f53c8f90ecfe"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Bilbo, Thief in the Night"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-madcap-jester:m5:98abc01acc8b"
+    },
+    "swap": "swap:the-madcap-jester:m5:ada09289ebeb"
+   }
+  },
+  {
+   "card": "Mindreaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindreaver",
+       "cut": "Pact of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-madcap-jester:m5:584eddd57464"
+   }
+  },
+  {
+   "card": "Breach",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  }
+ ],
+ "deck_id": "The_Madcap_Jester",
+ "list_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "slug": "the-madcap-jester",
+ "swaps": [
+  {
+   "adds": [
+    "You Find Some Prisoners"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:b0ca0bb3925e"
+  },
+  {
+   "adds": [
+    "Fathom Feeder"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:11940d1253c9"
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:3cb8571edbff"
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:78c624749625"
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:fe3c60212ccd"
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:8d8e86f09ddb"
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:d9e226b97fe0"
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:0b217e099011"
+  },
+  {
+   "adds": [
+    "Ashiok, Nightmare Muse"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:9d8659363406"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:11b9009f63e9"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-madcap-jester:m5:7808d3b621d0"
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:f7197e14bde2"
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:dc2b808731cb"
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:8379918233e5"
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:a9966a854f11"
+  },
+  {
+   "adds": [
+    "Raven Guild Master"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:60058fc6a11a"
+  },
+  {
+   "adds": [
+    "Brainstealer Dragon"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:e6e9f20a426f"
+  },
+  {
+   "adds": [
+    "Brainstealer Dragon"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:bc45c1ddf53d"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:8d95b3d5d29d"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:52f3195aeb38"
+  },
+  {
+   "adds": [
+    "Jeleva, Nephalia's Scourge"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:52234e1feb51"
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:3a9c27e0ca2c"
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:5962e2e6c936"
+  },
+  {
+   "adds": [
+    "Mist Intruder"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:8c47c4d7371a"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:04fbbbe4a67f"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:26bb6ea9a9a4"
+  },
+  {
+   "adds": [
+    "Rootwater Thief"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:5ffa769dcea4"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-madcap-jester:m5:9e594605343d"
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:1a777e3c1b2c"
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:cd00350f0307"
+  },
+  {
+   "adds": [
+    "Benthic Infiltrator"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:3b721bccaa82"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:c3c1586f07e8"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:2698a9462dfe"
+  },
+  {
+   "adds": [
+    "Oblivion Sower"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:b9db65c70d52"
+  },
+  {
+   "adds": [
+    "Stolen Strategy"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:0190296838fb"
+  },
+  {
+   "adds": [
+    "Stolen Strategy"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:27ceb6f16c92"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:a968daab4ac4"
+  },
+  {
+   "adds": [
+    "Opposition Agent"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:d9d020a3461c"
+  },
+  {
+   "adds": [
+    "Opposition Agent"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:51e68d585256"
+  },
+  {
+   "adds": [
+    "Urabrask, Heretic Praetor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:bd89d35d1ea0"
+  },
+  {
+   "adds": [
+    "Grenzo, Havoc Raiser"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ce83a770328a"
+  },
+  {
+   "adds": [
+    "Grenzo, Havoc Raiser"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:8b8fad9f8501"
+  },
+  {
+   "adds": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:ebd46bbc22c8"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:8d50ca95416e"
+  },
+  {
+   "adds": [
+    "Scrib Nibblers"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:598307d9c1e9"
+  },
+  {
+   "adds": [
+    "Scrib Nibblers"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:9e6a82d4ec6c"
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:28c6fec76888"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:d62560d212fa"
+  },
+  {
+   "adds": [
+    "Wand of Wonder"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:3447f2526b83"
+  },
+  {
+   "adds": [
+    "Wand of Wonder"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:50fbb4b03338"
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:c05ddad4e051"
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:the-madcap-jester:m5:f26f0dd48943"
+  },
+  {
+   "adds": [
+    "Crumbling Sanctuary"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:f0d17b3f90f4"
+  },
+  {
+   "adds": [
+    "Crumbling Sanctuary"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:c1d19f498f0d"
+  },
+  {
+   "adds": [
+    "Charred Foyer // Warped Space"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:2e8cd9853142"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:d3aba7923033"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:b079846f1b8f"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:e694a09059a9"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:445791161db5"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:c150c4c287ed"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:the-madcap-jester:m5:aa750227f5eb"
+  },
+  {
+   "adds": [
+    "The Lost and the Damned"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:cf00dfd1bd21"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:52ccfd419cb5"
+  },
+  {
+   "adds": [
+    "Uba Mask"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:41e14e9b6ee2"
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:fabe661dd16f"
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:218b30e44830"
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:6b2e02a03932"
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:7018581e8b26"
+  },
+  {
+   "adds": [
+    "Bismuth Mindrender"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:29d11bbbf70a"
+  },
+  {
+   "adds": [
+    "Hexing Squelcher"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:59d8db921b96"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:131feda19873"
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:55b444626efb"
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:972471f8b843"
+  },
+  {
+   "adds": [
+    "Rogue Class"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:890e43a2d75b"
+  },
+  {
+   "adds": [
+    "Grimoire Thief"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:f4fc998f8afd"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:eb905a1ecf00"
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:89bda655bc54"
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:0ca89156be14"
+  },
+  {
+   "adds": [
+    "Dimir Machinations"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:b23affb3bcb9"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:6df1714cf6e3"
+  },
+  {
+   "adds": [
+    "Salvage Drone"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:8604d0fccce1"
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:f4339c9cbc9a"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:5bf5ed9acacb"
+  },
+  {
+   "adds": [
+    "Nico Minoru, Runaway"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ac6796ad0ee9"
+  },
+  {
+   "adds": [
+    "Gonti, Lord of Luxury"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:6521499a6c18"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:156a3a532690"
+  },
+  {
+   "adds": [
+    "Triple Triad"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:f2a6ea030294"
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:a2cd52493ab0"
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:3b77edcdf1b7"
+  },
+  {
+   "adds": [
+    "Leyline of the Void"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:ba024ea20017"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:78880cb51d0c"
+  },
+  {
+   "adds": [
+    "Interdimensional Web Watch"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:36921adf502d"
+  },
+  {
+   "adds": [
+    "Spider-Verse"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:639e4579d986"
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:4f1dc319b510"
+  },
+  {
+   "adds": [
+    "Silver Shroud Costume"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-madcap-jester:m5:4500f99872d5"
+  },
+  {
+   "adds": [
+    "Siphon Insight"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:562d2d8ff4ce"
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:e7654b219310"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:806338fd8648"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:e1b362599e08"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:ea72f14b11ff"
+  },
+  {
+   "adds": [
+    "Memory Vessel"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:4cf99342b788"
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ee16e55ef1b6"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:18e64ff59c58"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:778bfb31eab0"
+  },
+  {
+   "adds": [
+    "Harmonic Prodigy"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:d480e0fb64d9"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:84fd169144b3"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:42271bba5744"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:45d2fcf2ff4c"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:a3d5f1faeaca"
+  },
+  {
+   "adds": [
+    "The Ruinous Powers"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:3308266e13ae"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:be0560dd6358"
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:789855aabd21"
+  },
+  {
+   "adds": [
+    "Court of Locthwain"
+   ],
+   "cuts": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "id": "swap:the-madcap-jester:m5:37aba60df064"
+  },
+  {
+   "adds": [
+    "Mind's Dilation"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:8fa1195cc900"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:f649049673ee"
+  },
+  {
+   "adds": [
+    "Red Elemental Blast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:805f16fc3079"
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:de3b3c9483ef"
+  },
+  {
+   "adds": [
+    "Flusterstorm"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:55e2a2c6bc8a"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:the-madcap-jester:m5:5eb6f3972a63"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:the-madcap-jester:m5:4062e44375f7"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:df9fb9d26dbe"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-madcap-jester:m5:3b4dcc2f114c"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:0faf3563949b"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:the-madcap-jester:m5:f76b5a77f69f"
+  },
+  {
+   "adds": [
+    "Thranduil's Decree"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:f80e33a2c07f"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:the-madcap-jester:m5:549aebbdd64e"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Dragon's Smile"
+   ],
+   "id": "swap:the-madcap-jester:m5:fcb36a69ff07"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:ebedd1665907"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:the-madcap-jester:m5:3fa6b33071e8"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:the-madcap-jester:m5:962321e4fe1d"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:the-madcap-jester:m5:a7f69ca96fe1"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:6fdfa57b32b5"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:2cd581fe4e78"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:7989918ee372"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:e126a4fcd20b"
+  },
+  {
+   "adds": [
+    "Kheru Spellsnatcher"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:fd908e55f4b9"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:c9ae9c2180c2"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:086c307b375f"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:a486a3e7a173"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:e30690351828"
+  },
+  {
+   "adds": [
+    "Spelljack"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:c388a5dd94ec"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:the-madcap-jester:m5:8ce3f5685a4a"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:the-madcap-jester:m5:d4c89cfee705"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:b8e6689337fd"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:7b143ecd2863"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:f53c8f90ecfe"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:the-madcap-jester:m5:232c2dd0f4c0"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Bilbo, Thief in the Night"
+   ],
+   "id": "swap:the-madcap-jester:m5:ada09289ebeb"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:the-madcap-jester:m5:98abc01acc8b"
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Pact of Negation"
+   ],
+   "id": "swap:the-madcap-jester:m5:584eddd57464"
+  }
+ ]
+}

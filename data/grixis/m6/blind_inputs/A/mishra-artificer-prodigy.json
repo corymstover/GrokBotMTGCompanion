@@ -1,0 +1,9359 @@
+{
+ "candidates": [
+  {
+   "card": "Sai, Master Thopterist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sai, Master Thopterist",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Sai, Master Thopterist",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:6d91e45abe47"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:0e9b1f7c00ae"
+   }
+  },
+  {
+   "card": "Padeem, Consul of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Padeem, Consul of Innovation",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:efc3ba3113c6"
+   }
+  },
+  {
+   "card": "Master Transmuter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Master Transmuter",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1976-5078-5243",
+         "2146-5078-5243",
+         "4908-5078-5243",
+         "777-5078-5243"
+        ]
+       },
+       "add": "Master Transmuter",
+       "cut": "The Reality Chip"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:e50fb7f5a34f"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5c93c5b0953c"
+   }
+  },
+  {
+   "card": "Buried Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Buried Ruin",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:b1686f15bb1a"
+   }
+  },
+  {
+   "card": "Crystal Skull, Isu Spyglass",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crystal Skull, Isu Spyglass",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "Crystal Skull, Isu Spyglass",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:fa09b6da9e25"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:47dc62f079d0"
+   }
+  },
+  {
+   "card": "Jhoira's Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jhoira's Familiar",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Jhoira's Familiar",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:2c97e34cbb0e"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c5b22a4d8cc4"
+   }
+  },
+  {
+   "card": "Vedalken Archmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vedalken Archmage",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:25841b82da8a"
+   }
+  },
+  {
+   "card": "Darksteel Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Citadel",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:00ab6677c477"
+   }
+  },
+  {
+   "card": "Unwinding Clock",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unwinding Clock",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:8f33fcbf7558"
+   }
+  },
+  {
+   "card": "Biotransference",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Biotransference",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5959bdc7961c"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:99de02cf091a"
+   }
+  },
+  {
+   "card": "Thada Adel, Acquisitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thada Adel, Acquisitor",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7c6f0604585b"
+   }
+  },
+  {
+   "card": "Spine of Ish Sah",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spine of Ish Sah",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2552-3263"
+        ]
+       },
+       "add": "Spine of Ish Sah",
+       "cut": "Vandalblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:7eb3ca7f83f0"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:b26a5ed0e671"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:8891fe44b7c9"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:04961c00bd2b"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1976-5078-5243",
+         "2146-5078-5243",
+         "4908-5078-5243",
+         "777-5078-5243"
+        ]
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "The Reality Chip"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:f944021804a9"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Silverbluff Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silverbluff Bridge",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:8b6fa3396d02"
+   }
+  },
+  {
+   "card": "Mistvault Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mistvault Bridge",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f4b34b1fd881"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:1233b16b4417"
+   }
+  },
+  {
+   "card": "Shimmer Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shimmer Myr",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:3bb05398625f"
+   }
+  },
+  {
+   "card": "Mirrorworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirrorworks",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Mirrorworks",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:e1e81956abf3"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:369fe303e696"
+   }
+  },
+  {
+   "card": "Thoughtcast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thoughtcast",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:72d3bcf38f53"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:792c4e3cde82"
+   }
+  },
+  {
+   "card": "Forensic Gadgeteer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forensic Gadgeteer",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Forensic Gadgeteer",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:363c0bfa66a4"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2e0d46bfa3c5"
+   }
+  },
+  {
+   "card": "Semblance Anvil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Semblance Anvil",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Semblance Anvil",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:35da0e37e37a"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:a945f33fdda9"
+   }
+  },
+  {
+   "card": "Drossforge Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drossforge Bridge",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:99f0e13c054c"
+   }
+  },
+  {
+   "card": "Simulacrum Synthesizer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Simulacrum Synthesizer",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5076101d8fa5"
+   }
+  },
+  {
+   "card": "Mirrodin Besieged",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirrodin Besieged",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Mirrodin Besieged",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ee38ea0c06fb"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c9e360e319d2"
+   }
+  },
+  {
+   "card": "Fateful Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fateful Discovery",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Fateful Discovery",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:d9618bdf68e6"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:4707cf3568d3"
+   }
+  },
+  {
+   "card": "Darksteel Forge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Forge",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:fd2d5622b8ce"
+   }
+  },
+  {
+   "card": "Wurmcoil Engine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wurmcoil Engine",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:faad3044e190"
+   }
+  },
+  {
+   "card": "Portal to Phyrexia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Portal to Phyrexia",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f0ff63899ed5"
+   }
+  },
+  {
+   "card": "Reckless Fireweaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reckless Fireweaver",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7c49e64c464a"
+   }
+  },
+  {
+   "card": "Mishra's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mishra's Bauble",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:8860850cb7ff"
+   }
+  },
+  {
+   "card": "Ice Cave",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ice Cave",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:181247c74592"
+   }
+  },
+  {
+   "card": "Blightsteel Colossus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blightsteel Colossus",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:deea5dfe5773"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:6d8020837115"
+   }
+  },
+  {
+   "card": "Mm'menon, the Right Hand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mm'menon, the Right Hand",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "Mm'menon, the Right Hand",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:6c53771c0a0e"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:aa56509895f0"
+   }
+  },
+  {
+   "card": "Ultron, Artificial Malevolence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ultron, Artificial Malevolence",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Ultron, Artificial Malevolence",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:927e11431c37"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c65b355b730b"
+   }
+  },
+  {
+   "card": "Daretti, Scrap Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Daretti, Scrap Savant",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:72ea0b250aab"
+   }
+  },
+  {
+   "card": "Kuldotha Forgemaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kuldotha Forgemaster",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:500617c8fb13"
+   }
+  },
+  {
+   "card": "Helm of Awakening",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of Awakening",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Helm of Awakening",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:7208a0e50c9a"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:082afd22a1d7"
+   }
+  },
+  {
+   "card": "Ichor Wellspring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ichor Wellspring",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:675f0c8d1824"
+   }
+  },
+  {
+   "card": "Archway of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archway of Innovation",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f1dd250226bf"
+   }
+  },
+  {
+   "card": "Scroll Rack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scroll Rack",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:18a37eebc000"
+   }
+  },
+  {
+   "card": "Lotus Petal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lotus Petal",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f104328d626e"
+   }
+  },
+  {
+   "card": "Uthros, Titanic Godcore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uthros, Titanic Godcore",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:ab03946be9ff"
+   }
+  },
+  {
+   "card": "Nevinyrral's Disk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nevinyrral's Disk",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f57fbb0debda"
+   }
+  },
+  {
+   "card": "The Mycosynth Gardens",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mycosynth Gardens",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5bca99cfddd5"
+   }
+  },
+  {
+   "card": "Otawara, Soaring City",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Otawara, Soaring City",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:19eb49eabdff"
+   }
+  },
+  {
+   "card": "Thran Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Dynamo",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:57f1c0b76b37"
+   }
+  },
+  {
+   "card": "Trinket Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trinket Mage",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:cb144257416c"
+   }
+  },
+  {
+   "card": "Imotekh the Stormlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Imotekh the Stormlord",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Imotekh the Stormlord",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:cd4dcc12a020"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:26ce10a42bb8"
+   }
+  },
+  {
+   "card": "Chromatic Star",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Star",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Chromatic Star",
+       "cut": "Sol Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:86b27b4c0a63"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e3c0f2bb195f"
+   }
+  },
+  {
+   "card": "Reshape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reshape",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:370c1ce74ebf"
+   }
+  },
+  {
+   "card": "Staff of Domination",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Staff of Domination",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Staff of Domination",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:26220a9e159d"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:a19d8d1ab0b9"
+   }
+  },
+  {
+   "card": "Efficient Construction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Efficient Construction",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Efficient Construction",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:79e67be5dbe0"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:290db028eefa"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:78b3526241ad"
+   }
+  },
+  {
+   "card": "Hellkite Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Tyrant",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:3a1a1ae4e2ad"
+   }
+  },
+  {
+   "card": "Gilded Lotus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gilded Lotus",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5c45600a0d12"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:80c79dad1129"
+   }
+  },
+  {
+   "card": "Beseech the Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Beseech the Mirror",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:3d5fe65701f0"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:cacf7d19cc3e"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:a1a0b20d427d"
+   }
+  },
+  {
+   "card": "Hurkyl's Recall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hurkyl's Recall",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:35dd20fe8208"
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9bba67ae9f93"
+   }
+  },
+  {
+   "card": "Scour for Scrap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scour for Scrap",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:575e9a809bc4"
+   }
+  },
+  {
+   "card": "Thornbite Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thornbite Staff",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2552-3263"
+        ]
+       },
+       "add": "Thornbite Staff",
+       "cut": "Vandalblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ad090d3483e1"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:b44871b0615f"
+   }
+  },
+  {
+   "card": "Repurposing Bay",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repurposing Bay",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c030587e2dfa"
+   }
+  },
+  {
+   "card": "Jin-Gitaxias, Progress Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jin-Gitaxias, Progress Tyrant",
+       "cut": "Force of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9a3c0d7106b8"
+   }
+  },
+  {
+   "card": "Ashnod's Altar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashnod's Altar",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "Ashnod's Altar",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:75df6cce17b6"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:fac78c2ad9c4"
+   }
+  },
+  {
+   "card": "Steel Hellkite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Steel Hellkite",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:35926f7c5105"
+   }
+  },
+  {
+   "card": "Aether Spellbomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Spellbomb",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:42cae665de17"
+   }
+  },
+  {
+   "card": "Shuri, Wakandan Inventor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shuri, Wakandan Inventor",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Shuri, Wakandan Inventor",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:9be147b91a4f"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:0c3a30708584"
+   }
+  },
+  {
+   "card": "Bilbo, Thief in the Night",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bilbo, Thief in the Night",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Bilbo, Thief in the Night",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:8e1778caede0"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:725bbf70fa71"
+   }
+  },
+  {
+   "card": "Fomori Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fomori Vault",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:58fda58511e9"
+   }
+  },
+  {
+   "card": "Duplicant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Duplicant",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e781ec2f0bb1"
+   }
+  },
+  {
+   "card": "The Vision and Scarlet Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Vision and Scarlet Witch",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "The Vision and Scarlet Witch",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:1cd5183bd0b6"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:09669792d3d3"
+   }
+  },
+  {
+   "card": "Armor Wars",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Armor Wars",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Armor Wars",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ad608e14ec36"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:1e85dc7508af"
+   }
+  },
+  {
+   "card": "Glimmervoid",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimmervoid",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:056f7637dff8"
+   }
+  },
+  {
+   "card": "Iron Lad, Young Avenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iron Lad, Young Avenger",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Iron Lad, Young Avenger",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:5f43d7a3c399"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:0103a05127b6"
+   }
+  },
+  {
+   "card": "Time Sieve",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f0cd9cf627a9"
+   }
+  },
+  {
+   "card": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:d1ec21f32d66"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:caef094337f4"
+   }
+  },
+  {
+   "card": "Noxious Gearhulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Noxious Gearhulk",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:b01d4fdc5754"
+   }
+  },
+  {
+   "card": "Transit Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Transit Mage",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:deb8d0ee69f4"
+   }
+  },
+  {
+   "card": "Knowledge Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Knowledge Pool",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:834e81a95bbf"
+   }
+  },
+  {
+   "card": "Yotia Declares War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yotia Declares War",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2552-3263"
+        ]
+       },
+       "add": "Yotia Declares War",
+       "cut": "Vandalblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ca743b095418"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9ad1ec64b2d6"
+   }
+  },
+  {
+   "card": "Cyberdrive Awakener",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyberdrive Awakener",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Cyberdrive Awakener",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:67c0433cfca3"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c44baec5824d"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:fd0f3e193568"
+   }
+  },
+  {
+   "card": "Crime Novelist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crime Novelist",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Crime Novelist",
+       "cut": "Sol Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:9385fbedca16"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:53b346ec44c6"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7fed5ab74266"
+   }
+  },
+  {
+   "card": "Goblin Artisans",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Artisans",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:eb48cec3559e"
+   }
+  },
+  {
+   "card": "Lithoform Engine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lithoform Engine",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Lithoform Engine",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:f5a7df9e4a89"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f19e3ed502a2"
+   }
+  },
+  {
+   "card": "Umbral Mantle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Umbral Mantle",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Umbral Mantle",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ef151ae2c6b7"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:aa38ffb40cfc"
+   }
+  },
+  {
+   "card": "The Immortal Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Immortal Sun",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "The Immortal Sun",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:a2794c68f2ac"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:57932b614cc8"
+   }
+  },
+  {
+   "card": "Weapons Manufacturing",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Weapons Manufacturing",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9f1962de1ea8"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:45a9c70c7102"
+   }
+  },
+  {
+   "card": "Mycosynth Golem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mycosynth Golem",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Mycosynth Golem",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:820fe4e6982c"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c16337eb79e2"
+   }
+  },
+  {
+   "card": "Tezzeret, Betrayer of Flesh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Betrayer of Flesh",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Tezzeret, Betrayer of Flesh",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:acc8aabf66ce"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:0d19959c6024"
+   }
+  },
+  {
+   "card": "Flooded Strand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flooded Strand",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:4f9189e64b10"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c606ab78440e"
+   }
+  },
+  {
+   "card": "Liquimetal Torque",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Reckless Handling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reckless Handling",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7a5c4af3d7ac"
+   }
+  },
+  {
+   "card": "Sword of the Paruns",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of the Paruns",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Sword of the Paruns",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:e19f05921053"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2c963043c1c9"
+   }
+  },
+  {
+   "card": "Blazing Sunsteel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Blazing Sunsteel",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:25889bd24895"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9c2c52e635e6"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:7518d48426eb"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:652838df40b1"
+   }
+  },
+  {
+   "card": "The Peregrine Dynamo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Peregrine Dynamo",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "The Peregrine Dynamo",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:38cd9d286dd3"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:74488aa9084b"
+   }
+  },
+  {
+   "card": "Ballad of the Black Flag",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ballad of the Black Flag",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Ballad of the Black Flag",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:06fac5b4c510"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:d277fb2d28da"
+   }
+  },
+  {
+   "card": "Treasure Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Mage",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e6d96b36ba14"
+   }
+  },
+  {
+   "card": "Drafna, Founder of Lat-Nam",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drafna, Founder of Lat-Nam",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Drafna, Founder of Lat-Nam",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:03a21b5ff939"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:94ed51f43cda"
+   }
+  },
+  {
+   "card": "Chrome Dome",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chrome Dome",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Chrome Dome",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:a274299f9a4a"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:b1b2202eb7c0"
+   }
+  },
+  {
+   "card": "Misty Rainforest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Misty Rainforest",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:98873f09eaac"
+   }
+  },
+  {
+   "card": "Myr Welder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myr Welder",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Myr Welder",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:c302e3d4b0fb"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c8f25c0b9a4b"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:bff8533c78ce"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5f1225e054a7"
+   }
+  },
+  {
+   "card": "Rook Turret",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rook Turret",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Rook Turret",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:c97e779be92f"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:a960fac5106e"
+   }
+  },
+  {
+   "card": "Voltaic Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voltaic Construct",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Voltaic Construct",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:5862ce49644b"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c5db13f74e22"
+   }
+  },
+  {
+   "card": "Katsumasa, the Animator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Katsumasa, the Animator",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Katsumasa, the Animator",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:76ba3b996a99"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:139b49e86796"
+   }
+  },
+  {
+   "card": "Mirran Spy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirran Spy",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Mirran Spy",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:876b40c09860"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:fb354d0445f2"
+   }
+  },
+  {
+   "card": "Sewer-veillance Cam",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sewer-veillance Cam",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Sewer-veillance Cam",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:321b901352a5"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:cffe1d51c567"
+   }
+  },
+  {
+   "card": "Technomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Technomancer",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Technomancer",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:339e15918a1e"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:cab9c9bda358"
+   }
+  },
+  {
+   "card": "Scrap Welder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrap Welder",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Scrap Welder",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:1f7c29334a49"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9a80db2c1f2d"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:e56bdf479863"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:184a9bff3255"
+   }
+  },
+  {
+   "card": "Transplant Theorist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Transplant Theorist",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Transplant Theorist",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:0e287b1c7383"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:af42feb2d5c1"
+   }
+  },
+  {
+   "card": "Pyrite Spellbomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pyrite Spellbomb",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:0219838f338f"
+   }
+  },
+  {
+   "card": "Mishra, Eminent One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mishra, Eminent One",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Mishra, Eminent One",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:cd642ec7522e"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:3067cdb8ec83"
+   }
+  },
+  {
+   "card": "Trazyn the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trazyn the Infinite",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Trazyn the Infinite",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:5770f990304c"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:564c50380b95"
+   }
+  },
+  {
+   "card": "Dross Scorpion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dross Scorpion",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Dross Scorpion",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:b3ac2e596976"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:6aff13d0e75a"
+   }
+  },
+  {
+   "card": "The Lunar Whale",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Lunar Whale",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "The Lunar Whale",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:c8ee909e814f"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c9cd5e6f47d7"
+   }
+  },
+  {
+   "card": "Karn, Silver Golem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karn, Silver Golem",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Karn, Silver Golem",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:3e677c8cc50c"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e7b3bf37ffae"
+   }
+  },
+  {
+   "card": "Golem's Heart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Golem's Heart",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Golem's Heart",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:9ed22d2a8bca"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:51540fa1e8f7"
+   }
+  },
+  {
+   "card": "Karn, Legacy Reforged",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cogwork Assembler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cogwork Assembler",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Cogwork Assembler",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:e76db86254fd"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5f5f4ecb2162"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:52e03b2fe1fa"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:df5be07c816b"
+   }
+  },
+  {
+   "card": "Tezzeret, Agent of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Agent of Bolas",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Tezzeret, Agent of Bolas",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:2182c1a4e724"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:96f5e367f24d"
+   }
+  },
+  {
+   "card": "March of the Machines",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "March of the Machines",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:15148c8ea783"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5e2a849866ab"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Skyswimmer Koi",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skyswimmer Koi",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Skyswimmer Koi",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:0b095605e701"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:788f65b9d489"
+   }
+  },
+  {
+   "card": "Treasure Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Vault",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:21a093b11543"
+   }
+  },
+  {
+   "card": "Kurkesh, Onakke Ancient",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kurkesh, Onakke Ancient",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Kurkesh, Onakke Ancient",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:cdd72e861e41"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:69559e036845"
+   }
+  },
+  {
+   "card": "Toymaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toymaker",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Toymaker",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:36504c30aaf8"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:4be83f2de989"
+   }
+  },
+  {
+   "card": "Stone Calendar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stone Calendar",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Stone Calendar",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:92d99e936688"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e56ee37b2ffa"
+   }
+  },
+  {
+   "card": "Xenic Poltergeist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xenic Poltergeist",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Xenic Poltergeist",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:767aa435f250"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9f1a9d4685b2"
+   }
+  },
+  {
+   "card": "Planar Gate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Gate",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Planar Gate",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:08ad5f0def74"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:83d4a2bce9d2"
+   }
+  },
+  {
+   "card": "Skilled Animator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skilled Animator",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Skilled Animator",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:2d127648880d"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:00cf7275386a"
+   }
+  },
+  {
+   "card": "Saheeli, Sublime Artificer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Animate Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Artifact",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Animate Artifact",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:de2ff20d0159"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:024ba368b79e"
+   }
+  },
+  {
+   "card": "Karn's Touch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karn's Touch",
+       "cut": "Tezzeret, Cruel Captain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Karn's Touch",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:5103ddc3d9e7"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e23cc89348cb"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2552-3263"
+        ]
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Vandalblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:e63d6e417479"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7f05d69baf0a"
+   }
+  },
+  {
+   "card": "Imperial Seal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Imperial Seal",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:349c2b69b4c5"
+   }
+  },
+  {
+   "card": "Everflowing Chalice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Terisiare's Devastation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terisiare's Devastation",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e0267935bbc0"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:649166e77e09"
+   }
+  },
+  {
+   "card": "Verdant Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Verdant Catacombs",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:c7f0d2bd51f4"
+   }
+  },
+  {
+   "card": "Anzrag's Rampage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anzrag's Rampage",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:6269e31cf833"
+   }
+  },
+  {
+   "card": "Nihil Spellbomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nihil Spellbomb",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:a3045af9e5c7"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:48805c4c8daf"
+   }
+  },
+  {
+   "card": "Machine God's Effigy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Urza's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Bauble",
+       "cut": "Uthros Research Craft"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:8bb34efe5c6d"
+   }
+  },
+  {
+   "card": "Trading Post",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Ugin, the Ineffable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ugin, the Ineffable",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2552-3263"
+        ]
+       },
+       "add": "Ugin, the Ineffable",
+       "cut": "Vandalblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:943618f4a434"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:53629d623eee"
+   }
+  },
+  {
+   "card": "Hammerhead, Maggia Boss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hammerhead, Maggia Boss",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:ce5f70964961"
+   }
+  },
+  {
+   "card": "Marsh Flats",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marsh Flats",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f95bdac126c3"
+   }
+  },
+  {
+   "card": "Pemmin's Aura",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pemmin's Aura",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2888c8dbf39b"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2552-3263"
+        ]
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Vandalblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:0932f7cc3bfc"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:128af98061c4"
+   }
+  },
+  {
+   "card": "Counterbalance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterbalance",
+       "cut": "Force of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7937bea3e0ba"
+   }
+  },
+  {
+   "card": "Geist of Saint Thalia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geist of Saint Thalia",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Geist of Saint Thalia",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:a8d0fc0834ba"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:acc2fc027b2a"
+   }
+  },
+  {
+   "card": "Advanced Reconstruction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Advanced Reconstruction",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:031ad90c33ea"
+   }
+  },
+  {
+   "card": "Valeria Richards, Precocious",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Valeria Richards, Precocious",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Valeria Richards, Precocious",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:199c8a578c7d"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2025e6fb6210"
+   }
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:680c9e60875b"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:3f35e15ab076"
+   }
+  },
+  {
+   "card": "Exquisite Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exquisite Blood",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:1603c29dbe59"
+   }
+  },
+  {
+   "card": "Displacer Kitten",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Displacer Kitten",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Displacer Kitten",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:26137510ef86"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:25ca51deb79e"
+   }
+  },
+  {
+   "card": "Gravecrawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gravecrawler",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Gravecrawler",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:18e95d46d230"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:abff6de608a7"
+   }
+  },
+  {
+   "card": "Reassembling Skeleton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reassembling Skeleton",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Reassembling Skeleton",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:241a213b8741"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:d7d384d1b2ed"
+   }
+  },
+  {
+   "card": "Brash Taunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brash Taunter",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Brash Taunter",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:aac07a70b2ec"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:887384da6ac5"
+   }
+  },
+  {
+   "card": "Bloodthirsty Conqueror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthirsty Conqueror",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Bloodthirsty Conqueror",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:99daebbf9b1d"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:37000549b7bc"
+   }
+  },
+  {
+   "card": "Glaring Fleshraker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glaring Fleshraker",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Glaring Fleshraker",
+       "cut": "Sol Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:74101c34f977"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:bad8a3f5d259"
+   }
+  },
+  {
+   "card": "Echoes of Eternity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Echoes of Eternity",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:96bdd8300875"
+   }
+  },
+  {
+   "card": "Deadeye Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Deadeye Navigator",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:523cfcd12058"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9ce9a1606ee7"
+   }
+  },
+  {
+   "card": "Artist's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Artist's Talent",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Artist's Talent",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:53f5c158a24f"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:0083d951474c"
+   }
+  },
+  {
+   "card": "Freed from the Real",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Freed from the Real",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f3bea9789895"
+   }
+  },
+  {
+   "card": "Intruder Alarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Intruder Alarm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:158c7827902f"
+   }
+  },
+  {
+   "card": "Retreat to Coralhelm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retreat to Coralhelm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:fa394d182fdc"
+   }
+  },
+  {
+   "card": "Drivnod, Carnage Dominus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drivnod, Carnage Dominus",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1976-5078-5243",
+         "2146-5078-5243",
+         "4908-5078-5243",
+         "777-5078-5243"
+        ]
+       },
+       "add": "Drivnod, Carnage Dominus",
+       "cut": "The Reality Chip"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:abb2c40b3307"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:fb958ead6f37"
+   }
+  },
+  {
+   "card": "One with the Multiverse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "One with the Multiverse",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:796d6b9e9401"
+   }
+  },
+  {
+   "card": "Treasonous Ogre",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasonous Ogre",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "Treasonous Ogre",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:c84869d0098a"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:bd5763596d84"
+   }
+  },
+  {
+   "card": "Rakdos, Lord of Riots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos, Lord of Riots",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1976-5078-5243",
+         "2146-5078-5243",
+         "4908-5078-5243",
+         "777-5078-5243"
+        ]
+       },
+       "add": "Rakdos, Lord of Riots",
+       "cut": "The Reality Chip"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:109d16f4ac28"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:36b4632eaf81"
+   }
+  },
+  {
+   "card": "Gwenom, Remorseless",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gwenom, Remorseless",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Gwenom, Remorseless",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:b6549dd2119a"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:3076116933df"
+   }
+  },
+  {
+   "card": "Longshot, Rebel Bowman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Longshot, Rebel Bowman",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Longshot, Rebel Bowman",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:542496a236ab"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5c9b0fbad2f2"
+   }
+  },
+  {
+   "card": "Skirge Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skirge Familiar",
+       "cut": "Mox Amber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034",
+         "1020-1976-2866-4659",
+         "1020-2146-2866-4659",
+         "1020-2866-4659-4908",
+         "1329-3363-4659",
+         "777-1020-2866-4659"
+        ]
+       },
+       "add": "Skirge Familiar",
+       "cut": "Krark-Clan Ironworks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:799d1cf6d5e3"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:7fc9584873b5"
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Goblin Welder"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:6cbca11b8da8"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2840913c4651"
+   }
+  },
+  {
+   "card": "Fortune Teller's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fortune Teller's Talent",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:9e56556a8ff7"
+   }
+  },
+  {
+   "card": "Bloodsoaked Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ad520fed0369"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5e096e32fcfd"
+   }
+  },
+  {
+   "card": "Sage of the Beyond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sage of the Beyond",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Sage of the Beyond",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:431d5d03c703"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:e36407dd3371"
+   }
+  },
+  {
+   "card": "Gran-Gran",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gran-Gran",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Gran-Gran",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:7207e6328e75"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:eefe99d9e521"
+   }
+  },
+  {
+   "card": "Herald of Kozilek",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Herald of Kozilek",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Herald of Kozilek",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:baf3b0b8f960"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:ed93644853ee"
+   }
+  },
+  {
+   "card": "Glistening Oil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glistening Oil",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:8b6806bd4e12"
+   }
+  },
+  {
+   "card": "Future Sight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Future Sight",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5dd613c06ffe"
+   }
+  },
+  {
+   "card": "Starving Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starving Revenant",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Starving Revenant",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:a32bc07723ca"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:ce5a22e3f16d"
+   }
+  },
+  {
+   "card": "The Sibsig Ceremony",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Sibsig Ceremony",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2c3f9f9c0457"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Guile",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:4a5997cc0895"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:312536317968"
+   }
+  },
+  {
+   "card": "Madame Web, Clairvoyant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Madame Web, Clairvoyant",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Madame Web, Clairvoyant",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:cac22f383924"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2f4575321415"
+   }
+  },
+  {
+   "card": "Mortuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mortuary",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:edda54bd4d6f"
+   }
+  },
+  {
+   "card": "Tenacious Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tenacious Dead",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Tenacious Dead",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:489881eb1581"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2bcdb64a38a1"
+   }
+  },
+  {
+   "card": "Experimental Frenzy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Experimental Frenzy",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:02043a0de5f8"
+   }
+  },
+  {
+   "card": "Ringing Strike Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ringing Strike Mastery",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:37823e830289"
+   }
+  },
+  {
+   "card": "Magus of the Future",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Future",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Magus of the Future",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:ca8bde66fefb"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:450d2cfaabc0"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Goblin Welder"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:072ca9325a48"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:d6963e361c61"
+   }
+  },
+  {
+   "card": "Words of Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Words of Wind",
+       "cut": "Uthros Research Craft"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1329-3363-4659"
+        ]
+       },
+       "add": "Words of Wind",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:4fd7ce219363"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:4567851590c6"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:680a765c37ff"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:901ccd26d80a"
+   }
+  },
+  {
+   "card": "Second Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Second Wind",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:70550ae39ea5"
+   }
+  },
+  {
+   "card": "Despondency",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Despondency",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:67ca16a8b366"
+   }
+  },
+  {
+   "card": "Cheering Fanatic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cheering Fanatic",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Cheering Fanatic",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:5d38c224b1bd"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:5a9d46b1e8f4"
+   }
+  },
+  {
+   "card": "Sluggishness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sluggishness",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:f76a68d6bb3e"
+   }
+  },
+  {
+   "card": "Launch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Launch",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:eb839dd0fe2a"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Phyrexian Metamorph"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1020-1117-2866-4659-5034"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Junk Diver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:mishra-artificer-prodigy:m5:231c3565441f"
+    },
+    "swap": "swap:mishra-artificer-prodigy:m5:2467d545b7f3"
+   }
+  }
+ ],
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "list_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "slug": "mishra-artificer-prodigy",
+ "swaps": [
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0e9b1f7c00ae"
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6d91e45abe47"
+  },
+  {
+   "adds": [
+    "Padeem, Consul of Innovation"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:efc3ba3113c6"
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5c93c5b0953c"
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e50fb7f5a34f"
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b1686f15bb1a"
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:47dc62f079d0"
+  },
+  {
+   "adds": [
+    "Crystal Skull, Isu Spyglass"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fa09b6da9e25"
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c5b22a4d8cc4"
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2c97e34cbb0e"
+  },
+  {
+   "adds": [
+    "Vedalken Archmage"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:25841b82da8a"
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:00ab6677c477"
+  },
+  {
+   "adds": [
+    "Unwinding Clock"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8f33fcbf7558"
+  },
+  {
+   "adds": [
+    "Biotransference"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5959bdc7961c"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:99de02cf091a"
+  },
+  {
+   "adds": [
+    "Thada Adel, Acquisitor"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7c6f0604585b"
+  },
+  {
+   "adds": [
+    "Spine of Ish Sah"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b26a5ed0e671"
+  },
+  {
+   "adds": [
+    "Spine of Ish Sah"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7eb3ca7f83f0"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8891fe44b7c9"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:04961c00bd2b"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f944021804a9"
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8b6fa3396d02"
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f4b34b1fd881"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1233b16b4417"
+  },
+  {
+   "adds": [
+    "Shimmer Myr"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3bb05398625f"
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:369fe303e696"
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e1e81956abf3"
+  },
+  {
+   "adds": [
+    "Thoughtcast"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:72d3bcf38f53"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:792c4e3cde82"
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2e0d46bfa3c5"
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:363c0bfa66a4"
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a945f33fdda9"
+  },
+  {
+   "adds": [
+    "Semblance Anvil"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:35da0e37e37a"
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:99f0e13c054c"
+  },
+  {
+   "adds": [
+    "Simulacrum Synthesizer"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5076101d8fa5"
+  },
+  {
+   "adds": [
+    "Mirrodin Besieged"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c9e360e319d2"
+  },
+  {
+   "adds": [
+    "Mirrodin Besieged"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ee38ea0c06fb"
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4707cf3568d3"
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d9618bdf68e6"
+  },
+  {
+   "adds": [
+    "Darksteel Forge"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fd2d5622b8ce"
+  },
+  {
+   "adds": [
+    "Wurmcoil Engine"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:faad3044e190"
+  },
+  {
+   "adds": [
+    "Portal to Phyrexia"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f0ff63899ed5"
+  },
+  {
+   "adds": [
+    "Reckless Fireweaver"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7c49e64c464a"
+  },
+  {
+   "adds": [
+    "Mishra's Bauble"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8860850cb7ff"
+  },
+  {
+   "adds": [
+    "Ice Cave"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:181247c74592"
+  },
+  {
+   "adds": [
+    "Blightsteel Colossus"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:deea5dfe5773"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6d8020837115"
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:aa56509895f0"
+  },
+  {
+   "adds": [
+    "Mm'menon, the Right Hand"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6c53771c0a0e"
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c65b355b730b"
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:927e11431c37"
+  },
+  {
+   "adds": [
+    "Daretti, Scrap Savant"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:72ea0b250aab"
+  },
+  {
+   "adds": [
+    "Kuldotha Forgemaster"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:500617c8fb13"
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:082afd22a1d7"
+  },
+  {
+   "adds": [
+    "Helm of Awakening"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7208a0e50c9a"
+  },
+  {
+   "adds": [
+    "Ichor Wellspring"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:675f0c8d1824"
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f1dd250226bf"
+  },
+  {
+   "adds": [
+    "Scroll Rack"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:18a37eebc000"
+  },
+  {
+   "adds": [
+    "Lotus Petal"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f104328d626e"
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ab03946be9ff"
+  },
+  {
+   "adds": [
+    "Nevinyrral's Disk"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f57fbb0debda"
+  },
+  {
+   "adds": [
+    "The Mycosynth Gardens"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5bca99cfddd5"
+  },
+  {
+   "adds": [
+    "Otawara, Soaring City"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:19eb49eabdff"
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:57f1c0b76b37"
+  },
+  {
+   "adds": [
+    "Trinket Mage"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cb144257416c"
+  },
+  {
+   "adds": [
+    "Imotekh the Stormlord"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:26ce10a42bb8"
+  },
+  {
+   "adds": [
+    "Imotekh the Stormlord"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cd4dcc12a020"
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e3c0f2bb195f"
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Sol Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:86b27b4c0a63"
+  },
+  {
+   "adds": [
+    "Reshape"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:370c1ce74ebf"
+  },
+  {
+   "adds": [
+    "Staff of Domination"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a19d8d1ab0b9"
+  },
+  {
+   "adds": [
+    "Staff of Domination"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:26220a9e159d"
+  },
+  {
+   "adds": [
+    "Efficient Construction"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:290db028eefa"
+  },
+  {
+   "adds": [
+    "Efficient Construction"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:79e67be5dbe0"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:78b3526241ad"
+  },
+  {
+   "adds": [
+    "Hellkite Tyrant"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3a1a1ae4e2ad"
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5c45600a0d12"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:80c79dad1129"
+  },
+  {
+   "adds": [
+    "Beseech the Mirror"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3d5fe65701f0"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cacf7d19cc3e"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a1a0b20d427d"
+  },
+  {
+   "adds": [
+    "Hurkyl's Recall"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:35dd20fe8208"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9bba67ae9f93"
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:575e9a809bc4"
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b44871b0615f"
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ad090d3483e1"
+  },
+  {
+   "adds": [
+    "Repurposing Bay"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c030587e2dfa"
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Progress Tyrant"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9a3c0d7106b8"
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fac78c2ad9c4"
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:75df6cce17b6"
+  },
+  {
+   "adds": [
+    "Steel Hellkite"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:35926f7c5105"
+  },
+  {
+   "adds": [
+    "Aether Spellbomb"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:42cae665de17"
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0c3a30708584"
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9be147b91a4f"
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:725bbf70fa71"
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8e1778caede0"
+  },
+  {
+   "adds": [
+    "Fomori Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:58fda58511e9"
+  },
+  {
+   "adds": [
+    "Duplicant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e781ec2f0bb1"
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:09669792d3d3"
+  },
+  {
+   "adds": [
+    "The Vision and Scarlet Witch"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1cd5183bd0b6"
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1e85dc7508af"
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ad608e14ec36"
+  },
+  {
+   "adds": [
+    "Glimmervoid"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:056f7637dff8"
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0103a05127b6"
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5f43d7a3c399"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f0cd9cf627a9"
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:caef094337f4"
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d1ec21f32d66"
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b01d4fdc5754"
+  },
+  {
+   "adds": [
+    "Transit Mage"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:deb8d0ee69f4"
+  },
+  {
+   "adds": [
+    "Knowledge Pool"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:834e81a95bbf"
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9ad1ec64b2d6"
+  },
+  {
+   "adds": [
+    "Yotia Declares War"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ca743b095418"
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c44baec5824d"
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:67c0433cfca3"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fd0f3e193568"
+  },
+  {
+   "adds": [
+    "Crime Novelist"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:53b346ec44c6"
+  },
+  {
+   "adds": [
+    "Crime Novelist"
+   ],
+   "cuts": [
+    "Sol Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9385fbedca16"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7fed5ab74266"
+  },
+  {
+   "adds": [
+    "Goblin Artisans"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:eb48cec3559e"
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f19e3ed502a2"
+  },
+  {
+   "adds": [
+    "Lithoform Engine"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f5a7df9e4a89"
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:aa38ffb40cfc"
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ef151ae2c6b7"
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:57932b614cc8"
+  },
+  {
+   "adds": [
+    "The Immortal Sun"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a2794c68f2ac"
+  },
+  {
+   "adds": [
+    "Weapons Manufacturing"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9f1962de1ea8"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:45a9c70c7102"
+  },
+  {
+   "adds": [
+    "Mycosynth Golem"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c16337eb79e2"
+  },
+  {
+   "adds": [
+    "Mycosynth Golem"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:820fe4e6982c"
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0d19959c6024"
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:acc8aabf66ce"
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4f9189e64b10"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c606ab78440e"
+  },
+  {
+   "adds": [
+    "Reckless Handling"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7a5c4af3d7ac"
+  },
+  {
+   "adds": [
+    "Sword of the Paruns"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2c963043c1c9"
+  },
+  {
+   "adds": [
+    "Sword of the Paruns"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e19f05921053"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9c2c52e635e6"
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:25889bd24895"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:652838df40b1"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7518d48426eb"
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:74488aa9084b"
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:38cd9d286dd3"
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d277fb2d28da"
+  },
+  {
+   "adds": [
+    "Ballad of the Black Flag"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:06fac5b4c510"
+  },
+  {
+   "adds": [
+    "Treasure Mage"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e6d96b36ba14"
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:94ed51f43cda"
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:03a21b5ff939"
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b1b2202eb7c0"
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a274299f9a4a"
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:98873f09eaac"
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c8f25c0b9a4b"
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c302e3d4b0fb"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5f1225e054a7"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:bff8533c78ce"
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a960fac5106e"
+  },
+  {
+   "adds": [
+    "Rook Turret"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c97e779be92f"
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c5db13f74e22"
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5862ce49644b"
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:139b49e86796"
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:76ba3b996a99"
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fb354d0445f2"
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:876b40c09860"
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cffe1d51c567"
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:321b901352a5"
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cab9c9bda358"
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:339e15918a1e"
+  },
+  {
+   "adds": [
+    "Scrap Welder"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9a80db2c1f2d"
+  },
+  {
+   "adds": [
+    "Scrap Welder"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1f7c29334a49"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:184a9bff3255"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e56bdf479863"
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:af42feb2d5c1"
+  },
+  {
+   "adds": [
+    "Transplant Theorist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0e287b1c7383"
+  },
+  {
+   "adds": [
+    "Pyrite Spellbomb"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0219838f338f"
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3067cdb8ec83"
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cd642ec7522e"
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:564c50380b95"
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5770f990304c"
+  },
+  {
+   "adds": [
+    "Dross Scorpion"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6aff13d0e75a"
+  },
+  {
+   "adds": [
+    "Dross Scorpion"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b3ac2e596976"
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c9cd5e6f47d7"
+  },
+  {
+   "adds": [
+    "The Lunar Whale"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c8ee909e814f"
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e7b3bf37ffae"
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3e677c8cc50c"
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:51540fa1e8f7"
+  },
+  {
+   "adds": [
+    "Golem's Heart"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9ed22d2a8bca"
+  },
+  {
+   "adds": [
+    "Cogwork Assembler"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5f5f4ecb2162"
+  },
+  {
+   "adds": [
+    "Cogwork Assembler"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e76db86254fd"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:df5be07c816b"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:52e03b2fe1fa"
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:96f5e367f24d"
+  },
+  {
+   "adds": [
+    "Tezzeret, Agent of Bolas"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2182c1a4e724"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5e2a849866ab"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:15148c8ea783"
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:788f65b9d489"
+  },
+  {
+   "adds": [
+    "Skyswimmer Koi"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0b095605e701"
+  },
+  {
+   "adds": [
+    "Treasure Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:21a093b11543"
+  },
+  {
+   "adds": [
+    "Kurkesh, Onakke Ancient"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:69559e036845"
+  },
+  {
+   "adds": [
+    "Kurkesh, Onakke Ancient"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cdd72e861e41"
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4be83f2de989"
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:36504c30aaf8"
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e56ee37b2ffa"
+  },
+  {
+   "adds": [
+    "Stone Calendar"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:92d99e936688"
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9f1a9d4685b2"
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:767aa435f250"
+  },
+  {
+   "adds": [
+    "Planar Gate"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:83d4a2bce9d2"
+  },
+  {
+   "adds": [
+    "Planar Gate"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:08ad5f0def74"
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:00cf7275386a"
+  },
+  {
+   "adds": [
+    "Skilled Animator"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2d127648880d"
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:024ba368b79e"
+  },
+  {
+   "adds": [
+    "Animate Artifact"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:de2ff20d0159"
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e23cc89348cb"
+  },
+  {
+   "adds": [
+    "Karn's Touch"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5103ddc3d9e7"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7f05d69baf0a"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e63d6e417479"
+  },
+  {
+   "adds": [
+    "Imperial Seal"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:349c2b69b4c5"
+  },
+  {
+   "adds": [
+    "Terisiare's Devastation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e0267935bbc0"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:649166e77e09"
+  },
+  {
+   "adds": [
+    "Verdant Catacombs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c7f0d2bd51f4"
+  },
+  {
+   "adds": [
+    "Anzrag's Rampage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6269e31cf833"
+  },
+  {
+   "adds": [
+    "Nihil Spellbomb"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a3045af9e5c7"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:48805c4c8daf"
+  },
+  {
+   "adds": [
+    "Urza's Bauble"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8bb34efe5c6d"
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:53629d623eee"
+  },
+  {
+   "adds": [
+    "Ugin, the Ineffable"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:943618f4a434"
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ce5f70964961"
+  },
+  {
+   "adds": [
+    "Marsh Flats"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f95bdac126c3"
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2888c8dbf39b"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:128af98061c4"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Vandalblast"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0932f7cc3bfc"
+  },
+  {
+   "adds": [
+    "Counterbalance"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7937bea3e0ba"
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:acc2fc027b2a"
+  },
+  {
+   "adds": [
+    "Geist of Saint Thalia"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a8d0fc0834ba"
+  },
+  {
+   "adds": [
+    "Advanced Reconstruction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:031ad90c33ea"
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2025e6fb6210"
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:199c8a578c7d"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3f35e15ab076"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:680c9e60875b"
+  },
+  {
+   "adds": [
+    "Exquisite Blood"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:1603c29dbe59"
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:25ca51deb79e"
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:26137510ef86"
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:abff6de608a7"
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:18e95d46d230"
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d7d384d1b2ed"
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:241a213b8741"
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:887384da6ac5"
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:aac07a70b2ec"
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:37000549b7bc"
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:99daebbf9b1d"
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:bad8a3f5d259"
+  },
+  {
+   "adds": [
+    "Glaring Fleshraker"
+   ],
+   "cuts": [
+    "Sol Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:74101c34f977"
+  },
+  {
+   "adds": [
+    "Echoes of Eternity"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:96bdd8300875"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9ce9a1606ee7"
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:523cfcd12058"
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:0083d951474c"
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:53f5c158a24f"
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f3bea9789895"
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:158c7827902f"
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fa394d182fdc"
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:fb958ead6f37"
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:abb2c40b3307"
+  },
+  {
+   "adds": [
+    "One with the Multiverse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:796d6b9e9401"
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:bd5763596d84"
+  },
+  {
+   "adds": [
+    "Treasonous Ogre"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:c84869d0098a"
+  },
+  {
+   "adds": [
+    "Rakdos, Lord of Riots"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:36b4632eaf81"
+  },
+  {
+   "adds": [
+    "Rakdos, Lord of Riots"
+   ],
+   "cuts": [
+    "The Reality Chip"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:109d16f4ac28"
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:3076116933df"
+  },
+  {
+   "adds": [
+    "Gwenom, Remorseless"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:b6549dd2119a"
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5c9b0fbad2f2"
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:542496a236ab"
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7fc9584873b5"
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:799d1cf6d5e3"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Goblin Welder"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2840913c4651"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:6cbca11b8da8"
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:9e56556a8ff7"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5e096e32fcfd"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ad520fed0369"
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:e36407dd3371"
+  },
+  {
+   "adds": [
+    "Sage of the Beyond"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:431d5d03c703"
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:eefe99d9e521"
+  },
+  {
+   "adds": [
+    "Gran-Gran"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:7207e6328e75"
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ed93644853ee"
+  },
+  {
+   "adds": [
+    "Herald of Kozilek"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:baf3b0b8f960"
+  },
+  {
+   "adds": [
+    "Glistening Oil"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:8b6806bd4e12"
+  },
+  {
+   "adds": [
+    "Future Sight"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5dd613c06ffe"
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ce5a22e3f16d"
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:a32bc07723ca"
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2c3f9f9c0457"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:312536317968"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4a5997cc0895"
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2f4575321415"
+  },
+  {
+   "adds": [
+    "Madame Web, Clairvoyant"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:cac22f383924"
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:edda54bd4d6f"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2bcdb64a38a1"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:489881eb1581"
+  },
+  {
+   "adds": [
+    "Experimental Frenzy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:02043a0de5f8"
+  },
+  {
+   "adds": [
+    "Ringing Strike Mastery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:37823e830289"
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:450d2cfaabc0"
+  },
+  {
+   "adds": [
+    "Magus of the Future"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:ca8bde66fefb"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Goblin Welder"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:d6963e361c61"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:072ca9325a48"
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Uthros Research Craft"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4567851590c6"
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:4fd7ce219363"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:901ccd26d80a"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:680a765c37ff"
+  },
+  {
+   "adds": [
+    "Second Wind"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:70550ae39ea5"
+  },
+  {
+   "adds": [
+    "Despondency"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:67ca16a8b366"
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5a9d46b1e8f4"
+  },
+  {
+   "adds": [
+    "Cheering Fanatic"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:5d38c224b1bd"
+  },
+  {
+   "adds": [
+    "Sluggishness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:f76a68d6bb3e"
+  },
+  {
+   "adds": [
+    "Launch"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:eb839dd0fe2a"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Phyrexian Metamorph"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:2467d545b7f3"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Junk Diver"
+   ],
+   "id": "swap:mishra-artificer-prodigy:m5:231c3565441f"
+  }
+ ]
+}

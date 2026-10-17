@@ -1,0 +1,9125 @@
+{
+ "candidates": [
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5ddd1e61e46f"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Trade Secrets"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:88f9a448ec61"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:cde8ad10749d"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:74973b6d2633"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:913aec9bd437"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:82f3c844ac57"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5457099b2eb7"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ab8bf14939c7"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2a4acde65123"
+   }
+  },
+  {
+   "card": "Body of Knowledge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Body of Knowledge",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Body of Knowledge",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6740631d70a9"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7cfd921732f9"
+   }
+  },
+  {
+   "card": "Fevered Suspicion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fevered Suspicion",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:51084cfc520a"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:451e738279dc"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d66815f59a0c"
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1d8efd1d9fdf"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Ponder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ponder",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ponder",
+       "cut": "Trade Secrets"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:8fea7f51d9a3"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:467321f69c7a"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:caca48b0c7f5"
+   }
+  },
+  {
+   "card": "Thousand-Year Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:08a337078fe0"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:bd2c87d2fe85"
+   }
+  },
+  {
+   "card": "Wisdom of Ages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wisdom of Ages",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ed95e06126cb"
+   }
+  },
+  {
+   "card": "Hit the Mother Lode",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hit the Mother Lode",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7890b917e8a5"
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Cormela, Glamour Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:690949663273"
+   }
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:409403067aa6"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2b14e50026e6"
+   }
+  },
+  {
+   "card": "Wizard Class",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard Class",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard Class",
+       "cut": "Yawgmoth's Bargain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c2cc19dade36"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9a050fb6ed84"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Yawgmoth's Bargain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:a629c6fb3caa"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3495a6f31f80"
+   }
+  },
+  {
+   "card": "Double Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Double Vision",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e61c50faca91"
+   }
+  },
+  {
+   "card": "Improvisation Capstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Improvisation Capstone",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f2836bcabe8d"
+   }
+  },
+  {
+   "card": "Prismari Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari Command",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:856d5216d3b7"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Trade Secrets"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0d8e8fab9691"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:69ad7cb55ef8"
+   }
+  },
+  {
+   "card": "Treasure Cruise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Cruise",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Cruise",
+       "cut": "Trade Secrets"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:98f4d497e658"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:695050066b1a"
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7ffaa4b51ee3"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:af296ab95b9c"
+   }
+  },
+  {
+   "card": "Aminatou's Augury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aminatou's Augury",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:39b8aa9f4fd3"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:cb01d9f91d67"
+   }
+  },
+  {
+   "card": "Smaug, Wicked Worm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smaug, Wicked Worm",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:834eec9a3c90"
+   }
+  },
+  {
+   "card": "Flame of Anor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Yawgmoth's Bargain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e07ecd8e1f93"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ce2e45b1e21a"
+   }
+  },
+  {
+   "card": "Curiosity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curiosity",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Curiosity",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:4ff50e704c4b"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d97708481e86"
+   }
+  },
+  {
+   "card": "Orcish Bowmasters",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orcish Bowmasters",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Orcish Bowmasters",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2d1d9932aa49"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0eec9b31d027"
+   }
+  },
+  {
+   "card": "Preordain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Preordain",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0a4990bffa04"
+   }
+  },
+  {
+   "card": "Dark Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Ritual",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:81ddf6ab1183"
+   }
+  },
+  {
+   "card": "Mana Drain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Drain",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:fa5341db46d4"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:58b6678fcd2a"
+   }
+  },
+  {
+   "card": "Swan Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swan Song",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9872e2a4edc4"
+   }
+  },
+  {
+   "card": "Scrawling Crawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrawling Crawler",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Scrawling Crawler",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1cd33e236e91"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f49af8310768"
+   }
+  },
+  {
+   "card": "Decorum Dissertation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decorum Dissertation",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d2515996226e"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:34237b8379fd"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:59c5f5551364"
+   }
+  },
+  {
+   "card": "Prismari, the Inspiration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari, the Inspiration",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ea26993237ab"
+   }
+  },
+  {
+   "card": "Deflecting Swat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deflecting Swat",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:17705cbeba18"
+   }
+  },
+  {
+   "card": "Maestros Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Confluence",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:cdf25172b22e"
+   }
+  },
+  {
+   "card": "Galazeth Prismari",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Galazeth Prismari",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:4862d988ae8c"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:924bfce200db"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b8e232153e84"
+   }
+  },
+  {
+   "card": "Night's Whisper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night's Whisper",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:61650dc62e03"
+   }
+  },
+  {
+   "card": "Revel in Riches",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Revel in Riches",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9b64a608fa1d"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5cbf0b19944d"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:fa65ddd6642d"
+   }
+  },
+  {
+   "card": "Flusterstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flusterstorm",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c820f85b9976"
+   }
+  },
+  {
+   "card": "Faerie Mastermind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faerie Mastermind",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9d3dcea4f7b7"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:a9393eeb5d5b"
+   }
+  },
+  {
+   "card": "Alhammarret's Archive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alhammarret's Archive",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Alhammarret's Archive",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:02e9504f92ba"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2f1e68e33aa7"
+   }
+  },
+  {
+   "card": "Lion's Eye Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lion's Eye Diamond",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Lion's Eye Diamond",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:76181ee3b7e0"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:8aeaf570eb8e"
+   }
+  },
+  {
+   "card": "Razorkin Needlehead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Razorkin Needlehead",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Razorkin Needlehead",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f624b797d530"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b6da8ff6b797"
+   }
+  },
+  {
+   "card": "Cryogen Relic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryogen Relic",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:cbb65269ee1b"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d97bd705b55d"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7c58d82cea9f"
+   }
+  },
+  {
+   "card": "Treasure Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Vault",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:88e47fabe786"
+   }
+  },
+  {
+   "card": "Professional Face-Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Professional Face-Breaker",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0d7ccc884ca1"
+   }
+  },
+  {
+   "card": "Opt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opt",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1d4ae2802ba9"
+   }
+  },
+  {
+   "card": "Ophidian Eye",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ophidian Eye",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Ophidian Eye",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:25031fc45b6c"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0fe8f84d1201"
+   }
+  },
+  {
+   "card": "Twenty-Toed Toad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twenty-Toed Toad",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Twenty-Toed Toad",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d5b083402805"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9286f1dff89e"
+   }
+  },
+  {
+   "card": "Psychic Corrosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:199dfa3ddcb3"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:695c18e975d0"
+   }
+  },
+  {
+   "card": "Gamble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gamble",
+       "cut": "Goblin Engineer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6aebb3ec27a8"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Visionary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Visionary",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Niv-Mizzet, Visionary",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2253294c2558"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:4612be5a9168"
+   }
+  },
+  {
+   "card": "Wizard's Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard's Staff",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:57a98c24d3df"
+   }
+  },
+  {
+   "card": "Tandem Lookout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tandem Lookout",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Tandem Lookout",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b58f69ca35bc"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d0e33700880a"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9287c696c3f4"
+   }
+  },
+  {
+   "card": "Izzet Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Charm",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1ffc88ae464e"
+   }
+  },
+  {
+   "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6a5b8e5d06fa"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3b0d005954f0"
+   }
+  },
+  {
+   "card": "Sticky Fingers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sticky Fingers",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:10d5a09d02b9"
+   }
+  },
+  {
+   "card": "Vnwxt, Verbose Host",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vnwxt, Verbose Host",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Vnwxt, Verbose Host",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:08af75b26de6"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ce9105c4f3ea"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Trade Secrets"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b13d6aebd412"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:8744e2677cb3"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5d5d340874df"
+   }
+  },
+  {
+   "card": "Nekusar, the Mindrazer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nekusar, the Mindrazer",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Nekusar, the Mindrazer",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:56d84bc7c847"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:414db364b499"
+   }
+  },
+  {
+   "card": "Helm of the Ghastlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of the Ghastlord",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Helm of the Ghastlord",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d22e6e264a75"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ae2467c7a035"
+   }
+  },
+  {
+   "card": "Loyal Apprentice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Xorn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xorn",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:578b1392751d"
+   }
+  },
+  {
+   "card": "Force of Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b33b58710677"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:58b665d3d205"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d429fd18ac0d"
+   }
+  },
+  {
+   "card": "Laboratory Maniac",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laboratory Maniac",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ddc4be30e870"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c48b4b5b88a3"
+   }
+  },
+  {
+   "card": "Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sign in Blood",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:16edac6470ae"
+   }
+  },
+  {
+   "card": "Aether Syphon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Syphon",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Aether Syphon",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0db670a0d3b5"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:650b016290a0"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d49e4692402c"
+   }
+  },
+  {
+   "card": "Saw in Half",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saw in Half",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saw in Half",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:827e8616f9df"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3fa01047a99c"
+   }
+  },
+  {
+   "card": "Thought Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Reflection",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Thought Reflection",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b4e9eed2fa90"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:4afb9cea7e8a"
+   }
+  },
+  {
+   "card": "The Misty Mountains Cold",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Misty Mountains Cold",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6e8f9e524b97"
+   }
+  },
+  {
+   "card": "Unexpected Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e2d450218ce9"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:a6a4af8454b2"
+   }
+  },
+  {
+   "card": "Nivix Guildmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nivix Guildmage",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nivix Guildmage",
+       "cut": "Trade Secrets"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5587e1954577"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3585539d362d"
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1f17266440ac"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c09d2c847d2b"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d8260fe72ef4"
+   }
+  },
+  {
+   "card": "Twinflame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twinflame",
+       "cut": "Cruel Ultimatum"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Twinflame",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5e4a4da3507d"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9385741ecb52"
+   }
+  },
+  {
+   "card": "Fevered Visions",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fevered Visions",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:782ba9cd0f46"
+   }
+  },
+  {
+   "card": "Thieves' Tools",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thieves' Tools",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9e6904127745"
+   }
+  },
+  {
+   "card": "Return the Favor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Return the Favor",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:205d0ac2c327"
+   }
+  },
+  {
+   "card": "Molten Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Duplication",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Molten Duplication",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c8022a5554a1"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1768efaf721a"
+   }
+  },
+  {
+   "card": "Ornithopter of Paradise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ornithopter of Paradise",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:02790a1a4dba"
+   }
+  },
+  {
+   "card": "Goldspan Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goldspan Dragon",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:86865f8d687b"
+   }
+  },
+  {
+   "card": "Dragon's Rage Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Cormela, Glamour Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:a9b47e2f667f"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:90af2539c200"
+   }
+  },
+  {
+   "card": "Seize the Spoils",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Spoils",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3b47055b55f1"
+   }
+  },
+  {
+   "card": "Tablet of Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tablet of Discovery",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ebedfb21cbd3"
+   }
+  },
+  {
+   "card": "Redirect Lightning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Redirect Lightning",
+       "cut": "Lightning Greaves"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e8ec5bf94636"
+   }
+  },
+  {
+   "card": "Potioner's Trove",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Potioner's Trove",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:517d1ae0e82e"
+   }
+  },
+  {
+   "card": "Consecrated Sphinx",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consecrated Sphinx",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:839262b65551"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:76f6bb3b7808"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b2583e731553"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:8485ed1947b7"
+   }
+  },
+  {
+   "card": "Great Furnace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Furnace",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:11483fba4ae4"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Cormela, Glamour Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b8efcef9842c"
+   }
+  },
+  {
+   "card": "Chain of Smog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Chain of Smog",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:8561ce659f94"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e1193fa17d31"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e61ab4b5006c"
+   }
+  },
+  {
+   "card": "Heat Shimmer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heat Shimmer",
+       "cut": "Cruel Ultimatum"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Heat Shimmer",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:de57c096deb1"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:619a9063ecc6"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:83261769b5db"
+   }
+  },
+  {
+   "card": "Archmage of Runes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage of Runes",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9c1aeaef1482"
+   }
+  },
+  {
+   "card": "Getaway Barrel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Getaway Barrel",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c89134587641"
+   }
+  },
+  {
+   "card": "Lotus Petal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lotus Petal",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:572d457fb7a4"
+   }
+  },
+  {
+   "card": "Haze of Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Haze of Rage",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:738c59deca6b"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6e3806dd9efa"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:824ab0166486"
+   }
+  },
+  {
+   "card": "Access Tunnel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Access Tunnel",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:63443906c18d"
+   }
+  },
+  {
+   "card": "Bonus Round",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bonus Round",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Bonus Round",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:31d64ba07ffd"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:563e45091a8a"
+   }
+  },
+  {
+   "card": "Alania, Divergent Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alania, Divergent Storm",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ca082f7b5f19"
+   }
+  },
+  {
+   "card": "Chasm Skulker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chasm Skulker",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3eadecef92b9"
+   }
+  },
+  {
+   "card": "Call Forth the Tempest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Metallurgic Summonings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Metallurgic Summonings",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5b103655f24e"
+   }
+  },
+  {
+   "card": "Deadly Rollick",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fury Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Fury Storm",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:13123c65be9e"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c7fa519f4d3d"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:0cc9c959768a"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:68b1e494bdf9"
+   }
+  },
+  {
+   "card": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:06b68b73b021"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:62606fcbb959"
+   }
+  },
+  {
+   "card": "Seat of the Synod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seat of the Synod",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6fe542570c82"
+   }
+  },
+  {
+   "card": "Shiny Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shiny Impetus",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:dd4cb9b9d229"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, the Firemind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f2791c451af0"
+   }
+  },
+  {
+   "card": "Disrupt Decorum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disrupt Decorum",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f8567f49448a"
+   }
+  },
+  {
+   "card": "The Magic Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Magic Mirror",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:574faa3f79e0"
+   }
+  },
+  {
+   "card": "Academy Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Academy Ruins",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:3fc2f517a4a0"
+   }
+  },
+  {
+   "card": "Descent into Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Descent into Avernus",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e23fa9c8d410"
+   }
+  },
+  {
+   "card": "Mischievous Quanar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mischievous Quanar",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Mischievous Quanar",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:527129c8874f"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7deeb4840dac"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e5eba75c0b9c"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5cced045a8c9"
+   }
+  },
+  {
+   "card": "Demonic Consultation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Demonic Consultation",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d2eb07cb7b90"
+   }
+  },
+  {
+   "card": "Ragavan, Nimble Pilferer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ragavan, Nimble Pilferer",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:751121af3b26"
+   }
+  },
+  {
+   "card": "View from Above",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "View from Above",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "View from Above",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:be125f881c93"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:99f5127eb003"
+   }
+  },
+  {
+   "card": "Wishclaw Talisman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wishclaw Talisman",
+       "cut": "Goblin Engineer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:dcd03d051753"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcatch Mentor",
+       "cut": "Cormela, Glamour Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5141a2e3aa1c"
+   }
+  },
+  {
+   "card": "Force of Negation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mox Amber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mox Amber",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7307da9f6988"
+   }
+  },
+  {
+   "card": "Krark-Clan Ironworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krark-Clan Ironworks",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:906307ef40a0"
+   }
+  },
+  {
+   "card": "Thopter Spy Network",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thopter Spy Network",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:498df8a7c192"
+   }
+  },
+  {
+   "card": "My Precious // Allure of Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "My Precious // Allure of Power",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e7bc6b654351"
+   }
+  },
+  {
+   "card": "Arcane Endeavor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Endeavor",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:65f091dc5d35"
+   }
+  },
+  {
+   "card": "Underworld Dreams",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Dreams",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2d440a7c2172"
+   }
+  },
+  {
+   "card": "Hex Magic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hex Magic",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:4a6bd35c3051"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:394d7e725740"
+   }
+  },
+  {
+   "card": "Wan Shi Tong, Librarian",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wan Shi Tong, Librarian",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:dccee5e9a025"
+   }
+  },
+  {
+   "card": "Guild Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guild Artisan",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:41bbb4e05455"
+   }
+  },
+  {
+   "card": "Nerd Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nerd Rage",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7ef68e3705ae"
+   }
+  },
+  {
+   "card": "Pact of Negation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pact of Negation",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:545be5a6309a"
+   }
+  },
+  {
+   "card": "Teferi's Puzzle Box",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teferi's Puzzle Box",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6af230882187"
+   }
+  },
+  {
+   "card": "Blood for the Blood God!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood for the Blood God!",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1492a18c464f"
+   }
+  },
+  {
+   "card": "Mana Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Vault",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d4b73f386a61"
+   }
+  },
+  {
+   "card": "Cabal Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cabal Ritual",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:616529ce6cf2"
+   }
+  },
+  {
+   "card": "Drown in Dreams",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drown in Dreams",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b0191867f244"
+   }
+  },
+  {
+   "card": "Mental Misstep",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mental Misstep",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9d765b1f6a21"
+   }
+  },
+  {
+   "card": "Chrome Mox",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chrome Mox",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d03bae8a638a"
+   }
+  },
+  {
+   "card": "Scavenger Grounds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scavenger Grounds",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:cd4177796bc0"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6d1571b89939"
+   }
+  },
+  {
+   "card": "Bident of Thassa",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bident of Thassa",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:cd316cb40710"
+   }
+  },
+  {
+   "card": "Vault of Whispers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vault of Whispers",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:bbea3e3f981f"
+   }
+  },
+  {
+   "card": "Folio of Fancies",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Folio of Fancies",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e0eb4a6230eb"
+   }
+  },
+  {
+   "card": "Splatter Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splatter Technique",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:58bcaaf05c0e"
+   }
+  },
+  {
+   "card": "Confusticate and Bebother",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Confusticate and Bebother",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:90bad3e9a557"
+   }
+  },
+  {
+   "card": "Stroke of Genius",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stroke of Genius",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d70e89c5cf94"
+   }
+  },
+  {
+   "card": "Consider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consider",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f9fa48b2c707"
+   }
+  },
+  {
+   "card": "Recurring Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Recurring Insight",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:20c5f4293c81"
+   }
+  },
+  {
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ob Nixilis, the Hate-Twisted",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ed7ed602216e"
+   }
+  },
+  {
+   "card": "Old Fat Spider Can't See Me",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Old Fat Spider Can't See Me",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6ed71fbbbd02"
+   }
+  },
+  {
+   "card": "The Echoverse Fulcrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Echoverse Fulcrum",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b77536a566c8"
+   }
+  },
+  {
+   "card": "Black Mage's Rod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mox Opal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mox Opal",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ddcfff150dab"
+   }
+  },
+  {
+   "card": "Rise of the Deathbringer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rise of the Deathbringer",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6ac85b026c35"
+   }
+  },
+  {
+   "card": "Davros, Dalek Creator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Davros, Dalek Creator",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:58016c2dcf54"
+   }
+  },
+  {
+   "card": "Theorix Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Theorix Charm",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:aa3209ab4122"
+   }
+  },
+  {
+   "card": "Aetherflux Reservoir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherflux Reservoir",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:53b867002dde"
+   }
+  },
+  {
+   "card": "Basilisk Collar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basilisk Collar",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:33e92cb1e378"
+   }
+  },
+  {
+   "card": "Eruth, Tormented Prophet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eruth, Tormented Prophet",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:514e83fc7986"
+   }
+  },
+  {
+   "card": "Phyrexia's Core",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexia's Core",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:fa30bb221aa4"
+   }
+  },
+  {
+   "card": "The Soul Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Soul Stone",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9f6080dea33b"
+   }
+  },
+  {
+   "card": "Padeem, Consul of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Padeem, Consul of Innovation",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:a6ae065f16f0"
+   }
+  },
+  {
+   "card": "Bloodthirsty Blade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Three Steps Ahead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:182cc3ab02fe"
+   }
+  },
+  {
+   "card": "Mox Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mox Diamond",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:4c72c10107da"
+   }
+  },
+  {
+   "card": "Hammerhead, Maggia Boss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hammerhead, Maggia Boss",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f901bca04b51"
+   }
+  },
+  {
+   "card": "Flooded Strand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flooded Strand",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9e55d3301a9a"
+   }
+  },
+  {
+   "card": "Skullclamp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skullclamp",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:bf7af58b2ced"
+   }
+  },
+  {
+   "card": "Vexing Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vexing Bauble",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:76232dc0a34a"
+   }
+  },
+  {
+   "card": "Misty Rainforest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Misty Rainforest",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6e32ce658ddb"
+   }
+  },
+  {
+   "card": "Sword of Fire and Ice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Fire and Ice",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:fb06ac647a68"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:368c33074b1e"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:ac2a2c484f1b"
+   }
+  },
+  {
+   "card": "Bothersome Quasit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bothersome Quasit",
+       "cut": "Cormela, Glamour Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:8dbc350809d1"
+   }
+  },
+  {
+   "card": "Mystic Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Confluence",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d7b703fcd2d0"
+   }
+  },
+  {
+   "card": "Longshot, Rebel Bowman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Longshot, Rebel Bowman",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:9d411d8a5a82"
+   }
+  },
+  {
+   "card": "Fire Nation Palace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Nation Palace",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:90e63fa1bbc7"
+   }
+  },
+  {
+   "card": "Kozilek, the Great Distortion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kozilek, the Great Distortion",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:47ff1f17006c"
+   }
+  },
+  {
+   "card": "Cryptic Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptic Command",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5d8b354a7f88"
+   }
+  },
+  {
+   "card": "Sublime Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sublime Epiphany",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:71d11a9220d7"
+   }
+  },
+  {
+   "card": "Archmage's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage's Charm",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:736becebf689"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Takenuma, Abandoned Mire"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2df8fe1eac06"
+   }
+  },
+  {
+   "card": "Fast Forward",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fast Forward",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5ba35eddaefd"
+   }
+  },
+  {
+   "card": "Refute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Refute",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:62dbb46176e9"
+   }
+  },
+  {
+   "card": "Warping Wail",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warping Wail",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6d0ab80e0848"
+   }
+  },
+  {
+   "card": "Coercive Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coercive Impetus",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:27f88b143fc8"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:d44e61385cee"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6946e914e4e3"
+   }
+  },
+  {
+   "card": "Bloodletter of Aclazotz",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Cormela, Glamour Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:b26358f9ecbc"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:34f67765b1d9"
+   }
+  },
+  {
+   "card": "Xantcha, Sleeper Agent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xantcha, Sleeper Agent",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5b29b70979e3"
+   }
+  },
+  {
+   "card": "Karazikar, the Eye Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karazikar, the Eye Tyrant",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2895bd6adccd"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6a5fe06cc3ac"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e6657c4a5a5f"
+   }
+  },
+  {
+   "card": "Khârn the Betrayer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Khârn the Betrayer",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:919a999819b0"
+   }
+  },
+  {
+   "card": "Choreographed Sparks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choreographed Sparks",
+       "cut": "Cruel Ultimatum"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:04c328c4df9d"
+   }
+  },
+  {
+   "card": "Firkraag, Cunning Instigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firkraag, Cunning Instigator",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:5c38f9cf5d94"
+   }
+  },
+  {
+   "card": "Red Death, Shipwrecker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Red Death, Shipwrecker",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:13c32223f83f"
+   }
+  },
+  {
+   "card": "Anje's Ravager",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anje's Ravager",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c88f431d28b4"
+   }
+  },
+  {
+   "card": "Feast of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast of Sanity",
+       "cut": "Cyclonic Rift"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast of Sanity",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:f1fa5366f8d7"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e2747a72053b"
+   }
+  },
+  {
+   "card": "Drowned Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Secrets",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Secrets",
+       "cut": "Yawgmoth's Bargain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:7034e40a7d8a"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:c86e03f3e8ed"
+   }
+  },
+  {
+   "card": "Vislor Turlough",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vislor Turlough",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:13e04cbbff62"
+   }
+  },
+  {
+   "card": "Mystic Redaction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Redaction",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Redaction",
+       "cut": "Yawgmoth's Bargain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:1552b0b68f32"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:083637255a55"
+   }
+  },
+  {
+   "card": "The Master, Mesmerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Mesmerist",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e994bb0eb4b3"
+   }
+  },
+  {
+   "card": "Maeve, Insidious Singer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maeve, Insidious Singer",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:72b7bb4371a7"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Cormela, Glamour Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:2843b9c9e12b"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:6ae775e5f248"
+   }
+  },
+  {
+   "card": "Boiling Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boiling Blood",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:93693d7a215a"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Cormela, Glamour Thief"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1561-2384"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Psychosis Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:828e09265b14"
+    },
+    "swap": "swap:bjorna-nightfall-alchemist-cecily:m5:e04ea9974f44"
+   }
+  }
+ ],
+ "deck_id": "Cecily__Bjorna__Lutri",
+ "list_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+ "slug": "bjorna-nightfall-alchemist-cecily",
+ "swaps": [
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5ddd1e61e46f"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cde8ad10749d"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:88f9a448ec61"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:74973b6d2633"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:82f3c844ac57"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:913aec9bd437"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5457099b2eb7"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2a4acde65123"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ab8bf14939c7"
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7cfd921732f9"
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6740631d70a9"
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:51084cfc520a"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:451e738279dc"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d66815f59a0c"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1d8efd1d9fdf"
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:467321f69c7a"
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8fea7f51d9a3"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:caca48b0c7f5"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:bd2c87d2fe85"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:08a337078fe0"
+  },
+  {
+   "adds": [
+    "Wisdom of Ages"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ed95e06126cb"
+  },
+  {
+   "adds": [
+    "Hit the Mother Lode"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7890b917e8a5"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:690949663273"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2b14e50026e6"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:409403067aa6"
+  },
+  {
+   "adds": [
+    "Wizard Class"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9a050fb6ed84"
+  },
+  {
+   "adds": [
+    "Wizard Class"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c2cc19dade36"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3495a6f31f80"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a629c6fb3caa"
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e61c50faca91"
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f2836bcabe8d"
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:856d5216d3b7"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:69ad7cb55ef8"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0d8e8fab9691"
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:695050066b1a"
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:98f4d497e658"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7ffaa4b51ee3"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:af296ab95b9c"
+  },
+  {
+   "adds": [
+    "Aminatou's Augury"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:39b8aa9f4fd3"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cb01d9f91d67"
+  },
+  {
+   "adds": [
+    "Smaug, Wicked Worm"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:834eec9a3c90"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ce2e45b1e21a"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e07ecd8e1f93"
+  },
+  {
+   "adds": [
+    "Curiosity"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d97708481e86"
+  },
+  {
+   "adds": [
+    "Curiosity"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4ff50e704c4b"
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0eec9b31d027"
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2d1d9932aa49"
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0a4990bffa04"
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:81ddf6ab1183"
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fa5341db46d4"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58b6678fcd2a"
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9872e2a4edc4"
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f49af8310768"
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1cd33e236e91"
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d2515996226e"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:34237b8379fd"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:59c5f5551364"
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ea26993237ab"
+  },
+  {
+   "adds": [
+    "Deflecting Swat"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:17705cbeba18"
+  },
+  {
+   "adds": [
+    "Maestros Confluence"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cdf25172b22e"
+  },
+  {
+   "adds": [
+    "Galazeth Prismari"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4862d988ae8c"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:924bfce200db"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b8e232153e84"
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:61650dc62e03"
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9b64a608fa1d"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5cbf0b19944d"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fa65ddd6642d"
+  },
+  {
+   "adds": [
+    "Flusterstorm"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c820f85b9976"
+  },
+  {
+   "adds": [
+    "Faerie Mastermind"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9d3dcea4f7b7"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a9393eeb5d5b"
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2f1e68e33aa7"
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:02e9504f92ba"
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8aeaf570eb8e"
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:76181ee3b7e0"
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b6da8ff6b797"
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f624b797d530"
+  },
+  {
+   "adds": [
+    "Cryogen Relic"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cbb65269ee1b"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d97bd705b55d"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7c58d82cea9f"
+  },
+  {
+   "adds": [
+    "Treasure Vault"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:88e47fabe786"
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0d7ccc884ca1"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1d4ae2802ba9"
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0fe8f84d1201"
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:25031fc45b6c"
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9286f1dff89e"
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d5b083402805"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:695c18e975d0"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:199dfa3ddcb3"
+  },
+  {
+   "adds": [
+    "Gamble"
+   ],
+   "cuts": [
+    "Goblin Engineer"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6aebb3ec27a8"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4612be5a9168"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2253294c2558"
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:57a98c24d3df"
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d0e33700880a"
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b58f69ca35bc"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9287c696c3f4"
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1ffc88ae464e"
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3b0d005954f0"
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6a5b8e5d06fa"
+  },
+  {
+   "adds": [
+    "Sticky Fingers"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:10d5a09d02b9"
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ce9105c4f3ea"
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:08af75b26de6"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8744e2677cb3"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b13d6aebd412"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5d5d340874df"
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:414db364b499"
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:56d84bc7c847"
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ae2467c7a035"
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d22e6e264a75"
+  },
+  {
+   "adds": [
+    "Xorn"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:578b1392751d"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58b665d3d205"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b33b58710677"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d429fd18ac0d"
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ddc4be30e870"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c48b4b5b88a3"
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:16edac6470ae"
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:650b016290a0"
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0db670a0d3b5"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d49e4692402c"
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3fa01047a99c"
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:827e8616f9df"
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4afb9cea7e8a"
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b4e9eed2fa90"
+  },
+  {
+   "adds": [
+    "The Misty Mountains Cold"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6e8f9e524b97"
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e2d450218ce9"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a6a4af8454b2"
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3585539d362d"
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Trade Secrets"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5587e1954577"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c09d2c847d2b"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1f17266440ac"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d8260fe72ef4"
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Cruel Ultimatum"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9385741ecb52"
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5e4a4da3507d"
+  },
+  {
+   "adds": [
+    "Fevered Visions"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:782ba9cd0f46"
+  },
+  {
+   "adds": [
+    "Thieves' Tools"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9e6904127745"
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:205d0ac2c327"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1768efaf721a"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c8022a5554a1"
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:02790a1a4dba"
+  },
+  {
+   "adds": [
+    "Goldspan Dragon"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:86865f8d687b"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:90af2539c200"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a9b47e2f667f"
+  },
+  {
+   "adds": [
+    "Seize the Spoils"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3b47055b55f1"
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ebedfb21cbd3"
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e8ec5bf94636"
+  },
+  {
+   "adds": [
+    "Potioner's Trove"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:517d1ae0e82e"
+  },
+  {
+   "adds": [
+    "Consecrated Sphinx"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:839262b65551"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:76f6bb3b7808"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8485ed1947b7"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b2583e731553"
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:11483fba4ae4"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b8efcef9842c"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e1193fa17d31"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8561ce659f94"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e61ab4b5006c"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Cruel Ultimatum"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:619a9063ecc6"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:de57c096deb1"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:83261769b5db"
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9c1aeaef1482"
+  },
+  {
+   "adds": [
+    "Getaway Barrel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c89134587641"
+  },
+  {
+   "adds": [
+    "Lotus Petal"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:572d457fb7a4"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6e3806dd9efa"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:738c59deca6b"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:824ab0166486"
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:63443906c18d"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:563e45091a8a"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:31d64ba07ffd"
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ca082f7b5f19"
+  },
+  {
+   "adds": [
+    "Chasm Skulker"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3eadecef92b9"
+  },
+  {
+   "adds": [
+    "Metallurgic Summonings"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5b103655f24e"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c7fa519f4d3d"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:13123c65be9e"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:68b1e494bdf9"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:0cc9c959768a"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:62606fcbb959"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:06b68b73b021"
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6fe542570c82"
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:dd4cb9b9d229"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f2791c451af0"
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f8567f49448a"
+  },
+  {
+   "adds": [
+    "The Magic Mirror"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:574faa3f79e0"
+  },
+  {
+   "adds": [
+    "Academy Ruins"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:3fc2f517a4a0"
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e23fa9c8d410"
+  },
+  {
+   "adds": [
+    "Mischievous Quanar"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7deeb4840dac"
+  },
+  {
+   "adds": [
+    "Mischievous Quanar"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:527129c8874f"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5cced045a8c9"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e5eba75c0b9c"
+  },
+  {
+   "adds": [
+    "Demonic Consultation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d2eb07cb7b90"
+  },
+  {
+   "adds": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:751121af3b26"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:99f5127eb003"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:be125f881c93"
+  },
+  {
+   "adds": [
+    "Wishclaw Talisman"
+   ],
+   "cuts": [
+    "Goblin Engineer"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:dcd03d051753"
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5141a2e3aa1c"
+  },
+  {
+   "adds": [
+    "Mox Amber"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7307da9f6988"
+  },
+  {
+   "adds": [
+    "Krark-Clan Ironworks"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:906307ef40a0"
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:498df8a7c192"
+  },
+  {
+   "adds": [
+    "My Precious // Allure of Power"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e7bc6b654351"
+  },
+  {
+   "adds": [
+    "Arcane Endeavor"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:65f091dc5d35"
+  },
+  {
+   "adds": [
+    "Underworld Dreams"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2d440a7c2172"
+  },
+  {
+   "adds": [
+    "Hex Magic"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4a6bd35c3051"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:394d7e725740"
+  },
+  {
+   "adds": [
+    "Wan Shi Tong, Librarian"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:dccee5e9a025"
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:41bbb4e05455"
+  },
+  {
+   "adds": [
+    "Nerd Rage"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7ef68e3705ae"
+  },
+  {
+   "adds": [
+    "Pact of Negation"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:545be5a6309a"
+  },
+  {
+   "adds": [
+    "Teferi's Puzzle Box"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6af230882187"
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1492a18c464f"
+  },
+  {
+   "adds": [
+    "Mana Vault"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d4b73f386a61"
+  },
+  {
+   "adds": [
+    "Cabal Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:616529ce6cf2"
+  },
+  {
+   "adds": [
+    "Drown in Dreams"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b0191867f244"
+  },
+  {
+   "adds": [
+    "Mental Misstep"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9d765b1f6a21"
+  },
+  {
+   "adds": [
+    "Chrome Mox"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d03bae8a638a"
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cd4177796bc0"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6d1571b89939"
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:cd316cb40710"
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:bbea3e3f981f"
+  },
+  {
+   "adds": [
+    "Folio of Fancies"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e0eb4a6230eb"
+  },
+  {
+   "adds": [
+    "Splatter Technique"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58bcaaf05c0e"
+  },
+  {
+   "adds": [
+    "Confusticate and Bebother"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:90bad3e9a557"
+  },
+  {
+   "adds": [
+    "Stroke of Genius"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d70e89c5cf94"
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f9fa48b2c707"
+  },
+  {
+   "adds": [
+    "Recurring Insight"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:20c5f4293c81"
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Hate-Twisted"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ed7ed602216e"
+  },
+  {
+   "adds": [
+    "Old Fat Spider Can't See Me"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6ed71fbbbd02"
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b77536a566c8"
+  },
+  {
+   "adds": [
+    "Mox Opal"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ddcfff150dab"
+  },
+  {
+   "adds": [
+    "Rise of the Deathbringer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6ac85b026c35"
+  },
+  {
+   "adds": [
+    "Davros, Dalek Creator"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:58016c2dcf54"
+  },
+  {
+   "adds": [
+    "Theorix Charm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:aa3209ab4122"
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:53b867002dde"
+  },
+  {
+   "adds": [
+    "Basilisk Collar"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:33e92cb1e378"
+  },
+  {
+   "adds": [
+    "Eruth, Tormented Prophet"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:514e83fc7986"
+  },
+  {
+   "adds": [
+    "Phyrexia's Core"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fa30bb221aa4"
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9f6080dea33b"
+  },
+  {
+   "adds": [
+    "Padeem, Consul of Innovation"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:a6ae065f16f0"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:182cc3ab02fe"
+  },
+  {
+   "adds": [
+    "Mox Diamond"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:4c72c10107da"
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f901bca04b51"
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9e55d3301a9a"
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:bf7af58b2ced"
+  },
+  {
+   "adds": [
+    "Vexing Bauble"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:76232dc0a34a"
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6e32ce658ddb"
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:fb06ac647a68"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:368c33074b1e"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:ac2a2c484f1b"
+  },
+  {
+   "adds": [
+    "Bothersome Quasit"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:8dbc350809d1"
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d7b703fcd2d0"
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:9d411d8a5a82"
+  },
+  {
+   "adds": [
+    "Fire Nation Palace"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:90e63fa1bbc7"
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:47ff1f17006c"
+  },
+  {
+   "adds": [
+    "Cryptic Command"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5d8b354a7f88"
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:71d11a9220d7"
+  },
+  {
+   "adds": [
+    "Archmage's Charm"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:736becebf689"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2df8fe1eac06"
+  },
+  {
+   "adds": [
+    "Fast Forward"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5ba35eddaefd"
+  },
+  {
+   "adds": [
+    "Refute"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:62dbb46176e9"
+  },
+  {
+   "adds": [
+    "Warping Wail"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6d0ab80e0848"
+  },
+  {
+   "adds": [
+    "Coercive Impetus"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:27f88b143fc8"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6946e914e4e3"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:d44e61385cee"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:34f67765b1d9"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:b26358f9ecbc"
+  },
+  {
+   "adds": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5b29b70979e3"
+  },
+  {
+   "adds": [
+    "Karazikar, the Eye Tyrant"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2895bd6adccd"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e6657c4a5a5f"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6a5fe06cc3ac"
+  },
+  {
+   "adds": [
+    "Khârn the Betrayer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:919a999819b0"
+  },
+  {
+   "adds": [
+    "Choreographed Sparks"
+   ],
+   "cuts": [
+    "Cruel Ultimatum"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:04c328c4df9d"
+  },
+  {
+   "adds": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:5c38f9cf5d94"
+  },
+  {
+   "adds": [
+    "Red Death, Shipwrecker"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:13c32223f83f"
+  },
+  {
+   "adds": [
+    "Anje's Ravager"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c88f431d28b4"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e2747a72053b"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:f1fa5366f8d7"
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:c86e03f3e8ed"
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:7034e40a7d8a"
+  },
+  {
+   "adds": [
+    "Vislor Turlough"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:13e04cbbff62"
+  },
+  {
+   "adds": [
+    "Mystic Redaction"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:083637255a55"
+  },
+  {
+   "adds": [
+    "Mystic Redaction"
+   ],
+   "cuts": [
+    "Yawgmoth's Bargain"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:1552b0b68f32"
+  },
+  {
+   "adds": [
+    "The Master, Mesmerist"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e994bb0eb4b3"
+  },
+  {
+   "adds": [
+    "Maeve, Insidious Singer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:72b7bb4371a7"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:6ae775e5f248"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:2843b9c9e12b"
+  },
+  {
+   "adds": [
+    "Boiling Blood"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:93693d7a215a"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:e04ea9974f44"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Psychosis Crawler"
+   ],
+   "id": "swap:bjorna-nightfall-alchemist-cecily:m5:828e09265b14"
+  }
+ ]
+}

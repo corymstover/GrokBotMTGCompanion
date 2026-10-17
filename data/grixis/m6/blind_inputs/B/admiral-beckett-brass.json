@@ -1,0 +1,5723 @@
+{
+ "deck_id": "Admiral_Beckett_Brass",
+ "list_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+ "slug": "admiral-beckett-brass",
+ "swaps": [
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:78f9307bce16",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bc38014085f1bbe0"
+   ]
+  },
+  {
+   "adds": [
+    "Slippery Scoundrel"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f01c06a357aa",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:88b3c5926d1d8401"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Daredevil"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b00fbec916ca",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f5f5e2fb8f7f4b3e"
+   ]
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d73a200899cd",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:23d049fddaf61fd3"
+   ]
+  },
+  {
+   "adds": [
+    "Gemcutter Buccaneer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cf32ecd14c13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Departed Deckhand"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ae49d9aaa63d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:545ce6f080349b8d"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0ae998c1b1e4",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d66ce1a4de88c929"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Neckbreaker"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:efe1f16c758e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:18c142d0e3f7097b"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ec62e57bd58c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:49125975c216d5c9"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath's Marauders"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f0f8ad071e8b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:39d8b883bcd2f66d"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3968c44f2ba0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f88f4db27c55c950"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Vargus Wrath"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6077c8cef877",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a29ae44ea244ceb3"
+   ]
+  },
+  {
+   "adds": [
+    "Coastal Piracy"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:54328b7f0f58",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e5ec33e267f18d48"
+   ]
+  },
+  {
+   "adds": [
+    "Coastal Piracy"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:76ef28ca2516",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b7d80d5c82af9cdf"
+   ]
+  },
+  {
+   "adds": [
+    "Protean Raider"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1666419330be",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4fbb634ba67ee22b"
+   ]
+  },
+  {
+   "adds": [
+    "Skeleton Crew"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:83239765b08e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9e9753d3aafef386"
+   ]
+  },
+  {
+   "adds": [
+    "Fell Flagship"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:647b973c44b5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fell Flagship"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:78081135cbf7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cb14f9ec71c61753"
+   ]
+  },
+  {
+   "adds": [
+    "Lookout's Dispersal"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:dd91ad92cf6c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:afaf699bf8498747"
+   ]
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:15693da54869",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cb740e16e8cffd3b"
+   ]
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0b6f5d898105",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b97e229c5bac6c41"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6ea70778d760",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1042a4f9f261b700"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ff449b9b4876",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f8861f8b0baebb47"
+   ]
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2e249cd76a0a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2adf35503176fb4d"
+   ]
+  },
+  {
+   "adds": [
+    "Vanquisher's Banner"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7898580399bc",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4a9473b888b805bb"
+   ]
+  },
+  {
+   "adds": [
+    "Vanquisher's Banner"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e73e5224df7f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:46c8ccbe88435663"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ca5fff533299",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mary Read and Anne Bonny"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:647970de115f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0c46309222ae",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:427205bd9de4840d"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7f1e37c390fe",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a80631bc8e94dde3"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:10750d15bdc5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9dda62ffe04a3f53"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8c71a57a63a8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ce2c6590009882e3"
+   ]
+  },
+  {
+   "adds": [
+    "Shared Animosity"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e206f06b056a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shared Animosity"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e0dd01e429bc",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c45d3967fcaa064d"
+   ]
+  },
+  {
+   "adds": [
+    "Back in Town"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d792c9710c85",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Amphin Mutineer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:bc26c0ef5a54",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f389049acc95dac1"
+   ]
+  },
+  {
+   "adds": [
+    "Coastline Marauders"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5ec9810e9c93",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:07135e5db3ce7dfb"
+   ]
+  },
+  {
+   "adds": [
+    "Impulsive Pilferer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8d59bef9f8ad",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e19dc45879704e76"
+   ]
+  },
+  {
+   "adds": [
+    "Chart a Course"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8e5e33411687",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:074bc8ecbba8440f"
+   ]
+  },
+  {
+   "adds": [
+    "Chart a Course"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e1e7ce2958a5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:26903ac41cc87aac"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Plunderers"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:601593dd25d7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b4890026b23c4a82"
+   ]
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ad974df9ee8e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spell Swindle"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:436e44c14024",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Angrath, Minotaur Pirate"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ca905b9001b8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7e29c0b630f70d23"
+   ]
+  },
+  {
+   "adds": [
+    "Broadside Bombardiers"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:440bee5ec34f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:68a5767cac2b1560"
+   ]
+  },
+  {
+   "adds": [
+    "Vaan, Street Thief"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6c4041198d4a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Azure Fleet Admiral"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f9c319e3e7fb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a02ac162b8e79557"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Plank"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:61ac9ea16a16",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c7ddd9d0f38aba47"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b18fbc81324f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a17e92e00f743fbc"
+   ]
+  },
+  {
+   "adds": [
+    "Malcolm, the Eyes"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c8d314ee1ff5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d94f1e6fbb396ee7"
+   ]
+  },
+  {
+   "adds": [
+    "Crafty Cutpurse"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2a55922a0ea8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:aa64b0c6c48c48d9"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Tracker"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d1d79a6cfb1f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6d3f90038e0e5ed4"
+   ]
+  },
+  {
+   "adds": [
+    "Ghost of Ramirez DePietro"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:485d2a0e7f99",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:75429638f001d576"
+   ]
+  },
+  {
+   "adds": [
+    "The Belligerent"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a6fb5588207c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e2d5467bb640",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8457906668997f5c"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:78f5611f1bf7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:010538a0c3f13a7c"
+   ]
+  },
+  {
+   "adds": [
+    "Dreamcaller Siren"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e3d0fdf703b1",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f068f59ad824e14f"
+   ]
+  },
+  {
+   "adds": [
+    "Admiral's Order"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8cf94c1c08cd",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a59569acaa630b02"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Negotiator"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5586015addb4",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1910e5a89b45c49c"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Brawler"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2a7b4a8df910",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:456d1924dd54e00b"
+   ]
+  },
+  {
+   "adds": [
+    "Adéwalé, Breaker of Chains"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5674452aa4d2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a438a88b06af45be"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9c16b2374604",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f273e2f9c0c97c4d"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f1da6e3f9a25",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:995c6e02ec990fa9"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:315852a822db",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:73dacea37126e2b6"
+   ]
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:46c9154128e9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2e8466f28aa89b7b"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ace21432b202",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1f8ab5509b189101"
+   ]
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:847a556d2541",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e1e2439e4e763213"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:12deb33a5d1c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b17183914974789f"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Aerialist"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0b4c5e142436",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:138f6b9c01fceb96"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Corsair"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:59f661f3fbae",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d8ee45016a0d0b5e"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:50f1a1125e37",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0b24c474ac5b48f5"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fbeb96f3f50c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:358120e3b3294d47"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9120d032bb5d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d08538caea1b8ce0"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:541c2e9d3796",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c5c6421979f43805"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate's Prize"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:bd9f7fdbc833",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ae9a636ccf6d8abf"
+   ]
+  },
+  {
+   "adds": [
+    "Secret Tunnel"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f243145b994e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6e14adfd0e19024e"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate's Cutlass"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0163f1309f62",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5ed279bc09f7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:76424d2a4faf8f77"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:347408be70e8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f7956f8ef8bc9a25"
+   ]
+  },
+  {
+   "adds": [
+    "Jackdaw"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ba4fb688efb6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bd2e0df82cd2a4b3"
+   ]
+  },
+  {
+   "adds": [
+    "Distant Melody"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3eefd6250b66",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bf583cca64a8eb67"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:37a86c4ef02c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:439933b2fac5e6da"
+   ]
+  },
+  {
+   "adds": [
+    "Kukemssa Pirates"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0e1c778288a0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:725011e02a261b22"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9386f0ad912f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fd04cc3cf2d1859b"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1e7e0c1780ff",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5f9f49e22a960d8d"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1400b9d04982",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fe6a518edbc81332"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c3012c40ea6c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5beddba89e847d39"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:86aa65043a38",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:19d6d8474528512e"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:071eedac2973",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fd1de52baeff5f9b"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:365f8bd9fe6e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:63a0e9b6ae723aed"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ee6a575f7c89",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:104df6e24a810465"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e4900044535d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:24aea1f812ab0c83"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0edd023a00b6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f6a495f578d8901c"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cbe038173494",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d9d5a19c732910c5"
+   ]
+  },
+  {
+   "adds": [
+    "Prying Blade"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:753410c3dd25",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6d2e2d3d0a645f7a"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:01eb02b03ac0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:069d0cfa2c426ce6"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cf17c0cd0e0d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4b750a4563f7f94c"
+   ]
+  },
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7742551e0811",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:94e8458f0b2a681c"
+   ]
+  },
+  {
+   "adds": [
+    "Calamity, Galloping Inferno"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:718af53ee78a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3d37c1310e5e9237"
+   ]
+  },
+  {
+   "adds": [
+    "Calamity, Galloping Inferno"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f990c322d16d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ac6da4fa6fa0db26"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5e8d086e59f4",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:67bd46b806223ffe"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9342cd0019cf",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c62a05d63180348c"
+   ]
+  },
+  {
+   "adds": [
+    "Higure, the Still Wind"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:47c2de4b11a6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:33cefce497a7c492"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:04b2be3b3b80",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phantom Steed"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:68258f23e3ad",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:aa0c577c26cecac8"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Steed"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d8ddd01a4909",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e065ff4ce4e39e36"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:faa699fbf503",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:56a4cbe2d886",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:329187b7f9fbfb3c"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:93529f9f8e49",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4d68f8a88fe91b0e"
+   ]
+  },
+  {
+   "adds": [
+    "Samut, Hazoret's Champion"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:089fac2d0740",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dfaa911cf07f6052"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:19b8472824f3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d46d53af1b95117b"
+   ]
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b3e9073e86b6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3468326ad6b71efb"
+   ]
+  },
+  {
+   "adds": [
+    "Cynical Loner"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:bdfd3cce07e8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8a736ed4263afbd7"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Quartermaster"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a279a0fef99c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c1c1c0b086aba0a7"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d7de37540feb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b7d78cb1cd2968c4"
+   ]
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2ff3e3bc1a55",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1f645f3395a4e723"
+   ]
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:96d9535e4367",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:93228f5b5f5258e6"
+   ]
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2a0e645fa42c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:430ec7709d18ac34"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4e8636abbaa3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:784bb79d1e803bce"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4e34de03313e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bfaaf72e1b6f0e19"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2ff2ce545db0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:53bd56b2c9100b73"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6d1fdcfab875",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3c11abdb91ce",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fd7c61cb0d04644f"
+   ]
+  },
+  {
+   "adds": [
+    "Dead Man's Chest"
+   ],
+   "cuts": [
+    "Don Andres, the Renegade"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cc3ed30d7146",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9bab2f2076c05ba9"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0f9ace346059",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8c9862112e411431"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:eb6f895d0a61",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:51d851edb2f132a1"
+   ]
+  },
+  {
+   "adds": [
+    "Photon, Mighty Marvel"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:add0cf15488d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9f77a637be144b62"
+   ]
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4e56fdfe5bff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Wasp, Winsome Avenger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:87b0e326f934",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b630c79a53133274"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:99b0eefd0170",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:87ebf21985729b7e"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:feabfcdba3e6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cf93556e8bce8aeb"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:eee9e7cc4372",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8fe43169d5f06a68"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a4f307d51848",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1a62a74496e51586"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ce3d47485d47",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a788701a1862940e"
+   ]
+  },
+  {
+   "adds": [
+    "Titania, Proud Pummeler"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a7a0ccf27214",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:12b1a1814ba91d92"
+   ]
+  },
+  {
+   "adds": [
+    "Firebird, Blazing Ranger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0cf87fbd9a3a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8aec8f1b7cff9419"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Deadly Hunter"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fa45d544754f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d8a6e4fc13155f0a"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:aaa7683b930d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:64805cf81d5d8152"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b73f9aaeb489",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8002e81872e9d071"
+   ]
+  },
+  {
+   "adds": [
+    "Daredevil, Fearless Fighter"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c42c73e33b97",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4865648e4a6afbc7"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0d8d9e7cda47",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9010a6764c0dd08d"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:118e30bd9d67",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d2fa797433a81926"
+   ]
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ecec53bea975",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4462f78a0e2132ae"
+   ]
+  },
+  {
+   "adds": [
+    "Stilt-Man, Towering Terror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:11ee9afb561b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ddd0f96d130199b5"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:834d726446fe",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0295e25558b0367a"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5b76075da8be",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:139148e414c730cb"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8f5a5fa67a0d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dd0d62a292ddbf57"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:955dd3740edb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0f2c9531e613a901"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a918c54fc1ec",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5498e20fcc671426"
+   ]
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3887063fb8fc",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bae4a4f9f37a38b2"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:799e77440b42",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c239fa32dac66a6f"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e9d59919b6d1",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:140c0e3fa9073ff7"
+   ]
+  },
+  {
+   "adds": [
+    "Whiplash, Vengeful Engineer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:13903de72988",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:95906193d7ebb3d6"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:85e9096e182f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e03a6f52082eb20a"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5277ad3a9c71",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1f4f49b378d7cb40"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Web-Spinner"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2d7478aa0097",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9a3513a32d3966f0"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1f47c8c12c61",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0edb8e0796e8b132"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:586e56902da8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:72c4314f466aa833"
+   ]
+  },
+  {
+   "adds": [
+    "Ghost, Spectral Saboteur"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8ab8f6176f81",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:eaf5329ee266aa35"
+   ]
+  },
+  {
+   "adds": [
+    "Radioactive Man"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7259c872051f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7791f6aa8938aa64"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7ca8cdc421ee",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2afb823a3b8b4169"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:315702ef089a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4b4cb6de1466cde7"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b045b2362f64",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a45590cdbfe9833e"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:624dc92d6b52",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e0673509a9f21089"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:435b39dcec82",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f9c746753da3e959"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9c1ff69bcb5f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b08ea8f710ec33d0"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin Cliffrider"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:955cf21fdc50",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:642a0c5fdb522313"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:00e73aca2eec",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:394fbc2350e15ed7"
+   ]
+  },
+  {
+   "adds": [
+    "Graviton, Fundamental Force"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c0ed0f468518",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1cd8be99e1d15e65"
+   ]
+  },
+  {
+   "adds": [
+    "Bob, Reluctant HYDRA Agent"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1d079eff3a4b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:96c8f48b014f6e50"
+   ]
+  },
+  {
+   "adds": [
+    "Boomerang, Blade Flinger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3a02947fc0f8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5bad09fe249d46a0"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:79aaef6c5663",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a7685e475fef5164"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b5ebe8fab02c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4e33473048ad49bc"
+   ]
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4c7c5504bdfd",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b7b8f56a49d63408"
+   ]
+  },
+  {
+   "adds": [
+    "Diamond Pick-Axe"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9c842d269bfe",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:feb689d757285ce6"
+   ]
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c9866e1f6013",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:274d3cf78a02294c"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f38ae66d96ef",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c67b86ca3fa84bd0"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a4506f62e3b2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:07a7d05341a7b22f"
+   ]
+  },
+  {
+   "adds": [
+    "Matterbending Mage"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:14493d1a416f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e2cf7ca78d23fec6"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fc596531f5ca",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c8cc874cd39547ff"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:87a119f6a895",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8c771343d32724b5"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Hometown Hero"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3dcbdb541acc",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8d273aebf698ad45"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d0449f7004ec",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7e6d7c809208e0ef"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:41fe4afd839b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5fb37d8505174231"
+   ]
+  },
+  {
+   "adds": [
+    "Wasp, Shrinking Savior"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6a75334d9cc9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:116baaa891e7e59b"
+   ]
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7158f9fbdb3a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:60a3c9da0ae99668"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1e34ad60f854",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3a69e1dfeebff328"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f9d623a1cc40",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:82d36f1ab1973cb6"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:33e34b3b4cf9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2720727279830d58"
+   ]
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:566492605635",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c20ce15ee1148459"
+   ]
+  },
+  {
+   "adds": [
+    "The Whizzer, Classic Speedster"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3fbc1dfc59b5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:45f665985c5bf0a6"
+   ]
+  },
+  {
+   "adds": [
+    "Eardrum Rattler"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4b4acde6a4ea",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0d04c847de1e9fce"
+   ]
+  },
+  {
+   "adds": [
+    "Armed Assailant"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e22404f98a9f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:256f621e5cecc87c"
+   ]
+  },
+  {
+   "adds": [
+    "Insurrection"
+   ],
+   "cuts": [
+    "Don Andres, the Renegade"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:662f88447214",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a9a31346eb9bc2b6"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Grapplers"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:215847cb2d5e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:871729247461f5fb"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:48c2189e8972",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smuggler Captain"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0550c74d0bc4",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:83a57cd945224fe6"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fc309e39dacf",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e59af9c20860f607"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:58ab2efb6231",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:16892743db12543f"
+   ]
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5042e5031778",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8bdc0f676a12714c"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f606b4da7f72",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6d7692a488df7605"
+   ]
+  },
+  {
+   "adds": [
+    "Blatant Thievery"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d43eccee2b98",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d24d23ef20e2f283"
+   ]
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6021eca47db6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6c23d38b8fc7bf67"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c6cf3f45741d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:620d1113fdca102b"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Fugitive"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:76ebf5b8fd69",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7698ae59264b9dba"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:45adb38dfa3d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:eb196ef146e322c1"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:da9c30b3119d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cc27a8c4b4b9ca59"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:22955fc55995",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:009ec169dd75310f"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5355f465f022",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a346384adc6930d8"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c8436b0064a6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6aa3cde1f19a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5c84ad0f4e139042"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a35306a4cdfc",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:71cc9d94907a3050"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:322f81d6b6c0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:16db178ff5069e53"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cbf8b29132c5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:be2b36dca8ad8b28"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4a516f903b8e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f134fa50d91f30af"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2d4bc169002d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0c7edd243d6cdd5d"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3ae603c75f3d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dcf7c24761688601"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ed85d4462675",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:70289cd663a17539"
+   ]
+  },
+  {
+   "adds": [
+    "The Lord of Pain"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:da6b468bcaaf",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:852a9978d2719cb7"
+   ]
+  },
+  {
+   "adds": [
+    "Yuriko, the Tiger's Shadow"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:62fd8baa8c05",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f2a524f7aa091a25"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f2f341bba89e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6b8680bd73a0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:62234b71cf77d836"
+   ]
+  },
+  {
+   "adds": [
+    "Invisible Stalker"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3d256396ee29",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c53a1e65c482830b"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3c2de48d5aa0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ffcd17b5964203e8"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fa841bbe0b75",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4e34bc9899825ba3"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:405bfbd7cee7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4eb120bd5e782c25"
+   ]
+  },
+  {
+   "adds": [
+    "Blighted Agent"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d99347327196",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fe98e20ec9564e9d"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:24bc8d5a99e6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:158792c76266975b"
+   ]
+  },
+  {
+   "adds": [
+    "Otepec Huntmaster"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:12260d5e58d3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:891851109422ee10"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:51a1810e71e1",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f625eedbbf735f32"
+   ]
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9507f6c4ef51",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0bf1317d5e898282"
+   ]
+  },
+  {
+   "adds": [
+    "Frontier Warmonger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:eedd1c614e31",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fb40394f8cfa4d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a66975d8507e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9f84bc77c53bb510"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fca9a74e4da3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1cd1b3e1831123a7"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7ad43e77a22d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:733a834eb4ec94b4"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:893e2ddd170b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0f4c12905fb21fe3"
+   ]
+  },
+  {
+   "adds": [
+    "Mistblade Shinobi"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:bde44bf2b9e8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a65b4fefaa6dc3d0"
+   ]
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a70f59f0a6e4",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d19b011f4b3234f4"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a2349b65be34",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f4bb93b24a264d12"
+   ]
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e453117547b8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1d8ef6976f2e35c4"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:409a88ead77b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spider-Punk"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2f431ab26883",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:91e9b25b074bbe5e"
+   ]
+  },
+  {
+   "adds": [
+    "Ninja of the Deep Hours"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5d615aa3fe1f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7dc1cbcbfeee81f4"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a239b425e816",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3e1b270210be7424"
+   ]
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:480b232f9c7a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a78e137411a21144"
+   ]
+  },
+  {
+   "adds": [
+    "Rikku, Resourceful Guardian"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9d7c6dea8b2f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a0e5faa369501b3a"
+   ]
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cfffe129f095",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:fdb28f61dfbc9e15"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:12d91dbb364f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5e1baf4191f0e6d5"
+   ]
+  },
+  {
+   "adds": [
+    "Marauding Mako"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:700b8b0cc73c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cf43fd7afc0c8300"
+   ]
+  },
+  {
+   "adds": [
+    "Enterprising Scallywag"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:68a6e22db192",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yuffie, Materia Hunter"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:26acc46b3ca7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:38a7359b6e1c6d5d"
+   ]
+  },
+  {
+   "adds": [
+    "Varchild, Betrayer of Kjeldor"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:db20ff6c0d6d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3a797e497d0712ca"
+   ]
+  },
+  {
+   "adds": [
+    "Willbreaker"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5835d699b953",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:72ec6084de304981"
+   ]
+  },
+  {
+   "adds": [
+    "Scrounging Skyray"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f0d3ab355295",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b62d10fa4d426aad"
+   ]
+  },
+  {
+   "adds": [
+    "Dargo, the Shipwrecker"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0531a18d84ef",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6ab40f976fbbb696"
+   ]
+  },
+  {
+   "adds": [
+    "Wily Goblin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:31d92c2a2696",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6c29276c9c5d928d"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning-Rig Crew"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:06b2167fc9e2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8d0d58817db90356"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Knave"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:16d96231061d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:475055bfc5b2ed81"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Ozai"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4a5c3aa57f1d",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:082c69e0d955fdb2"
+   ]
+  },
+  {
+   "adds": [
+    "Brineborn Cutthroat"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ee25b323f6f5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:32ff736f9421013c"
+   ]
+  },
+  {
+   "adds": [
+    "Oaken Siren"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:358475baeef3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:28687853cdafe0ee"
+   ]
+  },
+  {
+   "adds": [
+    "Staunch Crewmate"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b02e9af9e731",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:78ad3a7de3e540ec"
+   ]
+  },
+  {
+   "adds": [
+    "Beguiler of Wills"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ef08ea650a06",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c01df780a287b6e7"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Hoarder"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:cfaffb628a21",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:752e7cee6ea293be"
+   ]
+  },
+  {
+   "adds": [
+    "Garland, Royal Kidnapper"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4a30125e1b7a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e89026ae81340b51"
+   ]
+  },
+  {
+   "adds": [
+    "Gutless Plunderer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fec195a10685",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:10c81304151b44b2"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Thief"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9e09351d08f7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:185c56ba02362e70"
+   ]
+  },
+  {
+   "adds": [
+    "Edea, Possessed Sorceress"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7ef78921315b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b885b3250f9701a5"
+   ]
+  },
+  {
+   "adds": [
+    "Cytoplast Manipulator"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:78db61c77443",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f8548e041a5847df"
+   ]
+  },
+  {
+   "adds": [
+    "Bigfin Bouncer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c4e43ddac822",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dd1079f6cddf105d"
+   ]
+  },
+  {
+   "adds": [
+    "Sailor of Means"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:632f5b73c0b7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0ee4afe5ccdf748a"
+   ]
+  },
+  {
+   "adds": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5d89994a9774",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3159fd061a6a04a1"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Fleet Commodore"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b92502a30544",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8075fbc1d35ef6f1"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate Peddlers"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d8e4c392fbc6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:12b3ecf8d216ec13"
+   ]
+  },
+  {
+   "adds": [
+    "Plundering Pirate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8d0dad3625b5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:e381faf204ccb77e"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderhead Gunner"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9502b749a1d8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:27298546f879f577"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Pirates"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9aea60bde02e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:52460760b502461e"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Boarders"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:84a73b757059",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bc4cd72e9597a368"
+   ]
+  },
+  {
+   "adds": [
+    "Rangers of Ithilien"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:175982f68a43",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7a6815291d0e00d3"
+   ]
+  },
+  {
+   "adds": [
+    "Iguana Parrot"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7c0b75db0b8c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:74166ae2446d5c44"
+   ]
+  },
+  {
+   "adds": [
+    "Master Thief"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2339a79a0d94",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:500299a4afea8586"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Ripley Vance"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5d1663f0ef19",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2a7345929979366c"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Pirates"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6512746f41fb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9c1af10aadaf7cc3"
+   ]
+  },
+  {
+   "adds": [
+    "Captain of Umbar"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:dbb471aa3eb8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bcdd7c355782e837"
+   ]
+  },
+  {
+   "adds": [
+    "Burdened Aerialist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:da4591840388",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f63d188dbf0975ce"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:aade4d9dec7a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2b86851932a8c489"
+   ]
+  },
+  {
+   "adds": [
+    "Mine Raider"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:96556b70b416",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d736c87fd7dc3d4f"
+   ]
+  },
+  {
+   "adds": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c765e84ac510",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:033c67add223f795"
+   ]
+  },
+  {
+   "adds": [
+    "Brazen Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:69ebf9630dc6",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ffd43b771f6da4cf"
+   ]
+  },
+  {
+   "adds": [
+    "Ruin Raider"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b775e00defcb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8c7e41b00e64f85a"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Entrancer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ec8fe5458030",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b43ac10c0e32f07a"
+   ]
+  },
+  {
+   "adds": [
+    "Rigging Runner"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5e9e814017d2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:bffa6c54eca8f25b"
+   ]
+  },
+  {
+   "adds": [
+    "Rishadan Cutpurse"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8702d27a5d6a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:5502c465070f5c06"
+   ]
+  },
+  {
+   "adds": [
+    "Keen Buccaneer"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c7e601309d98",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a788511d71b3490f"
+   ]
+  },
+  {
+   "adds": [
+    "Rishadan Footpad"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f147520c6752",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ad46557af3a59b6b"
+   ]
+  },
+  {
+   "adds": [
+    "Akroan Conscriptor"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2c5aaa6cfe46",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8ea6a4c5a809a2d7"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnbroker"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7ed38685cc99",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:1fd7c7dd78563860"
+   ]
+  },
+  {
+   "adds": [
+    "Grasping Scoundrel"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:459b52fea3f2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cd848dd3afde1d3a"
+   ]
+  },
+  {
+   "adds": [
+    "Siren Lookout"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ba4eab721a30",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4cd083219efbc239"
+   ]
+  },
+  {
+   "adds": [
+    "Strongbox Raider"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4d028d88bf30",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:22c17d50929a2f5c"
+   ]
+  },
+  {
+   "adds": [
+    "Waylaying Pirates"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ce83dec8fa10",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:68dc7916e93dee7f"
+   ]
+  },
+  {
+   "adds": [
+    "Wanted Scoundrels"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7b686d3378f9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:274521698e65d8fa"
+   ]
+  },
+  {
+   "adds": [
+    "Marauding Looter"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:766bed2b94cb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6609fae95df5d9b3"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate Ship"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a6b67ee26fb3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:00e48ade998a8baf"
+   ]
+  },
+  {
+   "adds": [
+    "Rishadan Brigand"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ef17ab6d8cf1",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:66676a58a6b7d9ac"
+   ]
+  },
+  {
+   "adds": [
+    "Aladdin"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a6285cca1420",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:01873dbfe96dae06"
+   ]
+  },
+  {
+   "adds": [
+    "Howler's Heavy"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7eaf3aee396e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2b94bd7860713f7e"
+   ]
+  },
+  {
+   "adds": [
+    "Skyship Buccaneer"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5f1a521eed10",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b139ade720daef9d"
+   ]
+  },
+  {
+   "adds": [
+    "Gorehorn Raider"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4bfccb26e40c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cbf03f792572ef1a"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Buccaneer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9f7782a177c9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a7b750a2357d47c7"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Unseen"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:2b9e39dfcd92",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:25ea589927cf0e5c"
+   ]
+  },
+  {
+   "adds": [
+    "Enthralling Victor"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f83cc55d4126",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:809b8d59bf147823"
+   ]
+  },
+  {
+   "adds": [
+    "Rowdy Crew"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e3ea38c04c53",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:a547aefe49814c06"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Mind"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:7d61d546179c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:106a4fb8acc49f2b"
+   ]
+  },
+  {
+   "adds": [
+    "Rona, Disciple of Gix"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:9242b2583eec",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2c284c51545d256e"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Looter"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:ee4401bdfc53",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:270c7775826b062d"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Arsonist"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e2bc7ef9dcaf",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:80e3f947ddf252d8"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Spy"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0e7d6b363f8b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c20adf2b95083cdc"
+   ]
+  },
+  {
+   "adds": [
+    "Tolarian Entrancer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:be9d086e07f4",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f000cf205ee6a7fc"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Sentry"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:89213a379b01",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c35b0891437a95c0"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Tormentor"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f5586d1655d2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:9e73ddce0d783936"
+   ]
+  },
+  {
+   "adds": [
+    "Keldon Overseer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:75fb63ed817f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:79f1c5a8714d34a9"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Explorer"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:a384ff3241d2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cd9ff65fd3d0f4eb"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Rig-Hauler"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d0c846a5382f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:aa51abac4c7bb04b"
+   ]
+  },
+  {
+   "adds": [
+    "Swab Goblin"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d7f7470d05d0",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:503f3aae8becbbb6"
+   ]
+  },
+  {
+   "adds": [
+    "Smelt-Ward Gatekeepers"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:dd1490c000f2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f49c9b4a78c6b2dc"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Pyromancer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3555d67b06b7",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ba840528cbf393c9"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Cutthroat"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e6685a684c45",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:381634e7b5d19699"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Warmonger"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4b6de6dea622",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cc964ba2a89198f1"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Lookout"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:5a5302a2cac8",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:009cdbd33ecb3e6c"
+   ]
+  },
+  {
+   "adds": [
+    "Cunning Bandit // Azamuki, Treachery Incarnate"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:dc2e0d9f71f5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dc108cfab9a04a9a"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Firebrand"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:18e1a4e5de52",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:99d728f349288bba"
+   ]
+  },
+  {
+   "adds": [
+    "Swaggering Corsair"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:34d2b8d24758",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:f58f2bddab2ec616"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Scout"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:0057e26a2112",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dff658df57eec004"
+   ]
+  },
+  {
+   "adds": [
+    "Reef Pirates"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c5de28903ecf",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dbdf7787d12c4db2"
+   ]
+  },
+  {
+   "adds": [
+    "Siren Reaver"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:411818455afb",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:0db2048a55e5fbdc"
+   ]
+  },
+  {
+   "adds": [
+    "Rishadan Airship"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c7c547aff900",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b8e18deec728473c"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Castaways"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:c3956ab0ac00",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:938f9a801e86709e"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Boarder"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:785f628cc2c3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:13b6d5d57fa3ba62"
+   ]
+  },
+  {
+   "adds": [
+    "Ramirez DePietro"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4983e572eca3",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:842cbc551d8aa4c0"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Researcher"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6db5f0b95f1f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:acbd010baadaf605"
+   ]
+  },
+  {
+   "adds": [
+    "Armored Galleon"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:21048b6af3b9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:4a172f713cb440be"
+   ]
+  },
+  {
+   "adds": [
+    "Dinosaur Hunter"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:8874395270a5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b71c4d972f02aa8a"
+   ]
+  },
+  {
+   "adds": [
+    "Steam Frigate"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:fb18f3074d80",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:48db01d53253ef88"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Air Ship"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:20966ee7ea47",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:ec45812f60521779"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath's Ambusher"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:b9ce4f23c2fc",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:59ff6472051678be"
+   ]
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:bb0ed797eb18",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8bcd836e997c2ca5"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Merchant"
+   ],
+   "cuts": [
+    "Zara, Renegade Recruiter"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:4c3ff3707d47",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:cb3a9fa995a25fbf"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3f3d90dc921a",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:b550f0e20db441c3"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:af80e68d593e",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:3d16d5e82eb08553"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Lightning Greaves"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:e058eb6f3b98",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:2c68bd6302dacd73"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:821e59f8da4c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:d2e03fe94c01c120"
+   ]
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Daring Saboteur"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:28440c684808",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:c2ad74ab9de94919"
+   ]
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Open into Wonder"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:d9e534df797f",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:41d6f6f9f78f2b36"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Chest"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:81be1fd96acb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:6602c8ad08db",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:121ae38c7becffe4"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Dire Fleet Captain"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:3432995c1600",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6f7994c190bb0eb8"
+   ]
+  },
+  {
+   "adds": [
+    "Sandstorm Crasher"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:bdc6c6ea8e4b",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:190af2b81a3fbcfa"
+   ]
+  },
+  {
+   "adds": [
+    "Sandstorm Crasher"
+   ],
+   "cuts": [
+    "Dire Fleet Captain"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:28dfc8cac3f2",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:309471315acbb5af"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:81ac62b5d63c",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:7ba8098749ce5c76"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Dire Fleet Captain"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:1a76e7778492",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:6c5e5ca4d3a41bfe"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:296d8967ba36",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:73f1291dfe02287a"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dire Fleet Captain"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:847530679eb9",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:241bcb261e8ee7f9"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:f1cd404741a5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:dfa1dd65c77ee17f"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dire Fleet Captain"
+   ],
+   "id": "swap:admiral-beckett-brass:m5:968ca0af1ac5",
+   "tests": [
+    "test:admiral-beckett-brass:goldfish:8d292963e22edecb"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bc38014085f1bbe0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:88b3c5926d1d8401",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f5f5e2fb8f7f4b3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:23d049fddaf61fd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:545ce6f080349b8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d66ce1a4de88c929",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:18c142d0e3f7097b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:49125975c216d5c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:39d8b883bcd2f66d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f88f4db27c55c950",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a29ae44ea244ceb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e5ec33e267f18d48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b7d80d5c82af9cdf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4fbb634ba67ee22b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9e9753d3aafef386",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cb14f9ec71c61753",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:afaf699bf8498747",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cb740e16e8cffd3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b97e229c5bac6c41",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1042a4f9f261b700",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f8861f8b0baebb47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2adf35503176fb4d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4a9473b888b805bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:46c8ccbe88435663",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:427205bd9de4840d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a80631bc8e94dde3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9dda62ffe04a3f53",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ce2c6590009882e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c45d3967fcaa064d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f389049acc95dac1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:07135e5db3ce7dfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e19dc45879704e76",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:074bc8ecbba8440f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:26903ac41cc87aac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b4890026b23c4a82",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7e29c0b630f70d23",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:68a5767cac2b1560",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a02ac162b8e79557",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c7ddd9d0f38aba47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a17e92e00f743fbc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d94f1e6fbb396ee7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:aa64b0c6c48c48d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6d3f90038e0e5ed4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:75429638f001d576",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8457906668997f5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:010538a0c3f13a7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f068f59ad824e14f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a59569acaa630b02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1910e5a89b45c49c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:456d1924dd54e00b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a438a88b06af45be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f273e2f9c0c97c4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:995c6e02ec990fa9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:73dacea37126e2b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2e8466f28aa89b7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1f8ab5509b189101",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e1e2439e4e763213",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b17183914974789f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:138f6b9c01fceb96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d8ee45016a0d0b5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0b24c474ac5b48f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:358120e3b3294d47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d08538caea1b8ce0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c5c6421979f43805",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ae9a636ccf6d8abf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6e14adfd0e19024e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:76424d2a4faf8f77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f7956f8ef8bc9a25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bd2e0df82cd2a4b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bf583cca64a8eb67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:439933b2fac5e6da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:725011e02a261b22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fd04cc3cf2d1859b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5f9f49e22a960d8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fe6a518edbc81332",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5beddba89e847d39",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:19d6d8474528512e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fd1de52baeff5f9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:63a0e9b6ae723aed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:104df6e24a810465",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:24aea1f812ab0c83",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f6a495f578d8901c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d9d5a19c732910c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6d2e2d3d0a645f7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:069d0cfa2c426ce6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4b750a4563f7f94c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:94e8458f0b2a681c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3d37c1310e5e9237",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ac6da4fa6fa0db26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:67bd46b806223ffe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c62a05d63180348c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:33cefce497a7c492",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:aa0c577c26cecac8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e065ff4ce4e39e36",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:329187b7f9fbfb3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4d68f8a88fe91b0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dfaa911cf07f6052",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d46d53af1b95117b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3468326ad6b71efb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8a736ed4263afbd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c1c1c0b086aba0a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b7d78cb1cd2968c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1f645f3395a4e723",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:93228f5b5f5258e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:430ec7709d18ac34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:784bb79d1e803bce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bfaaf72e1b6f0e19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:53bd56b2c9100b73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fd7c61cb0d04644f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9bab2f2076c05ba9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8c9862112e411431",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:51d851edb2f132a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9f77a637be144b62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b630c79a53133274",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:87ebf21985729b7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cf93556e8bce8aeb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8fe43169d5f06a68",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1a62a74496e51586",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a788701a1862940e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:12b1a1814ba91d92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8aec8f1b7cff9419",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d8a6e4fc13155f0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:64805cf81d5d8152",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8002e81872e9d071",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4865648e4a6afbc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9010a6764c0dd08d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d2fa797433a81926",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4462f78a0e2132ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ddd0f96d130199b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0295e25558b0367a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:139148e414c730cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dd0d62a292ddbf57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0f2c9531e613a901",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5498e20fcc671426",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bae4a4f9f37a38b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c239fa32dac66a6f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:140c0e3fa9073ff7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:95906193d7ebb3d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e03a6f52082eb20a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1f4f49b378d7cb40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9a3513a32d3966f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0edb8e0796e8b132",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:72c4314f466aa833",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:eaf5329ee266aa35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7791f6aa8938aa64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2afb823a3b8b4169",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4b4cb6de1466cde7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a45590cdbfe9833e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e0673509a9f21089",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f9c746753da3e959",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b08ea8f710ec33d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:642a0c5fdb522313",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:394fbc2350e15ed7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1cd8be99e1d15e65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:96c8f48b014f6e50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5bad09fe249d46a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a7685e475fef5164",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4e33473048ad49bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b7b8f56a49d63408",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:feb689d757285ce6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:274d3cf78a02294c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c67b86ca3fa84bd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:07a7d05341a7b22f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e2cf7ca78d23fec6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c8cc874cd39547ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8c771343d32724b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8d273aebf698ad45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7e6d7c809208e0ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5fb37d8505174231",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:116baaa891e7e59b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:60a3c9da0ae99668",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3a69e1dfeebff328",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:82d36f1ab1973cb6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2720727279830d58",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c20ce15ee1148459",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:45f665985c5bf0a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0d04c847de1e9fce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:256f621e5cecc87c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a9a31346eb9bc2b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:871729247461f5fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:83a57cd945224fe6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e59af9c20860f607",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:16892743db12543f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8bdc0f676a12714c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6d7692a488df7605",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d24d23ef20e2f283",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6c23d38b8fc7bf67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:620d1113fdca102b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7698ae59264b9dba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:eb196ef146e322c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cc27a8c4b4b9ca59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:009ec169dd75310f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a346384adc6930d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5c84ad0f4e139042",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:71cc9d94907a3050",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:16db178ff5069e53",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:be2b36dca8ad8b28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f134fa50d91f30af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0c7edd243d6cdd5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dcf7c24761688601",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:70289cd663a17539",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:852a9978d2719cb7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f2a524f7aa091a25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:62234b71cf77d836",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c53a1e65c482830b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ffcd17b5964203e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4e34bc9899825ba3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4eb120bd5e782c25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fe98e20ec9564e9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:158792c76266975b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:891851109422ee10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f625eedbbf735f32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0bf1317d5e898282",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fb40394f8cfa4d4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9f84bc77c53bb510",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1cd1b3e1831123a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:733a834eb4ec94b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0f4c12905fb21fe3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a65b4fefaa6dc3d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d19b011f4b3234f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f4bb93b24a264d12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1d8ef6976f2e35c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:91e9b25b074bbe5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7dc1cbcbfeee81f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3e1b270210be7424",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a78e137411a21144",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a0e5faa369501b3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:fdb28f61dfbc9e15",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5e1baf4191f0e6d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cf43fd7afc0c8300",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:38a7359b6e1c6d5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3a797e497d0712ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:72ec6084de304981",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b62d10fa4d426aad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6ab40f976fbbb696",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6c29276c9c5d928d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8d0d58817db90356",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:475055bfc5b2ed81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:082c69e0d955fdb2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:32ff736f9421013c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:28687853cdafe0ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:78ad3a7de3e540ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c01df780a287b6e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:752e7cee6ea293be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e89026ae81340b51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:10c81304151b44b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:185c56ba02362e70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b885b3250f9701a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f8548e041a5847df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dd1079f6cddf105d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0ee4afe5ccdf748a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3159fd061a6a04a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8075fbc1d35ef6f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:12b3ecf8d216ec13",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:e381faf204ccb77e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:27298546f879f577",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:52460760b502461e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bc4cd72e9597a368",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7a6815291d0e00d3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:74166ae2446d5c44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:500299a4afea8586",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2a7345929979366c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9c1af10aadaf7cc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bcdd7c355782e837",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f63d188dbf0975ce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2b86851932a8c489",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d736c87fd7dc3d4f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:033c67add223f795",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ffd43b771f6da4cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8c7e41b00e64f85a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b43ac10c0e32f07a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:bffa6c54eca8f25b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:5502c465070f5c06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a788511d71b3490f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ad46557af3a59b6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8ea6a4c5a809a2d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:1fd7c7dd78563860",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cd848dd3afde1d3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4cd083219efbc239",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:22c17d50929a2f5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:68dc7916e93dee7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:274521698e65d8fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6609fae95df5d9b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:00e48ade998a8baf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:66676a58a6b7d9ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:01873dbfe96dae06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2b94bd7860713f7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b139ade720daef9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cbf03f792572ef1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a7b750a2357d47c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:25ea589927cf0e5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:809b8d59bf147823",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:a547aefe49814c06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:106a4fb8acc49f2b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2c284c51545d256e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:270c7775826b062d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:80e3f947ddf252d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c20adf2b95083cdc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f000cf205ee6a7fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c35b0891437a95c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:9e73ddce0d783936",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:79f1c5a8714d34a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cd9ff65fd3d0f4eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:aa51abac4c7bb04b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:503f3aae8becbbb6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f49c9b4a78c6b2dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ba840528cbf393c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:381634e7b5d19699",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cc964ba2a89198f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:009cdbd33ecb3e6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dc108cfab9a04a9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:99d728f349288bba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:f58f2bddab2ec616",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dff658df57eec004",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dbdf7787d12c4db2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:0db2048a55e5fbdc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b8e18deec728473c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:938f9a801e86709e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:13b6d5d57fa3ba62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:842cbc551d8aa4c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:acbd010baadaf605",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:4a172f713cb440be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b71c4d972f02aa8a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:48db01d53253ef88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:ec45812f60521779",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:59ff6472051678be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8bcd836e997c2ca5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:cb3a9fa995a25fbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:b550f0e20db441c3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:3d16d5e82eb08553",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:2c68bd6302dacd73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:d2e03fe94c01c120",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:c2ad74ab9de94919",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:41d6f6f9f78f2b36",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:121ae38c7becffe4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6f7994c190bb0eb8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:190af2b81a3fbcfa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:309471315acbb5af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:7ba8098749ce5c76",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:6c5e5ca4d3a41bfe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:73f1291dfe02287a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:241bcb261e8ee7f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:dfa1dd65c77ee17f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-beckett-brass:goldfish:8d292963e22edecb",
+   "verdict": "inconclusive"
+  }
+ ]
+}

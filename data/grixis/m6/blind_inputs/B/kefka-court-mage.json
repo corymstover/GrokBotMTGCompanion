@@ -1,0 +1,3281 @@
+{
+ "deck_id": "Kefka__Court_Mage",
+ "list_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "slug": "kefka-court-mage",
+ "swaps": [
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:036dc04df106",
+   "tests": [
+    "test:kefka-court-mage:goldfish:5a1db1ff4fbabc6c"
+   ]
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:661c0c7d98d1",
+   "tests": [
+    "test:kefka-court-mage:goldfish:6c51bf70c8bdf006"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:b83e99de2f9c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:665ffab8815bb97b"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:6a2279227f21",
+   "tests": [
+    "test:kefka-court-mage:goldfish:0d070dda26f62043"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:623bbf2cd5d0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:98850e135f49eb45"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:6ab8cbdba0dc",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a469bfe93d1036b7"
+   ]
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:59ed3d6aca1d",
+   "tests": [
+    "test:kefka-court-mage:goldfish:59e25ecc048156bc"
+   ]
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:cc3525ef48ab",
+   "tests": [
+    "test:kefka-court-mage:goldfish:837330c8d320920f"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:88fdfe2fe452",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d4bfe49642baec3e"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:5ce1be370829",
+   "tests": [
+    "test:kefka-court-mage:goldfish:07f1d5711a7fcfa2"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana's Caress"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:ccc35f868213",
+   "tests": [
+    "test:kefka-court-mage:goldfish:967b081b145f0151"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana's Caress"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:2b483d803800",
+   "tests": [
+    "test:kefka-court-mage:goldfish:1bb97c03eeca3da7"
+   ]
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:3d4f4669c46f",
+   "tests": [
+    "test:kefka-court-mage:goldfish:3602026ad8ed3b37"
+   ]
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:c967172a1ae8",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a13d725ea1a270c4"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:1bd7f9af62ac",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d75c2503b7daa4dc"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:fafd755c1ad7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:8104b1da264b26b8"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:6ddec6979433",
+   "tests": [
+    "test:kefka-court-mage:goldfish:fe2671b61522a7ec"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:71d163f0901c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:d72960b1fe24",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c2d233336ea24738"
+   ]
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:82838c452b4c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9e5d2a7788051bc8"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:278e4484a3c8",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d115bc6f42e8f345"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:kefka-court-mage:m5:31f216cd6578",
+   "tests": [
+    "test:kefka-court-mage:goldfish:76d62800b0ea283a"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Dancing Mad"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:e9d72bdd1885",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:a9815f95b849",
+   "tests": [
+    "test:kefka-court-mage:goldfish:54b5ac3aa9b1dbcd"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:f138f8ed4fbe",
+   "tests": [
+    "test:kefka-court-mage:goldfish:8e4ec59819755eb4"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:1242d1ce9f7f",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9123d35292a28606"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:bb1f943e6d45",
+   "tests": [
+    "test:kefka-court-mage:goldfish:202d66d256da0eb9"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kefka-court-mage:m5:de9746e93a1f",
+   "tests": [
+    "test:kefka-court-mage:goldfish:f7710a0b68b8e6ae"
+   ]
+  },
+  {
+   "adds": [
+    "Laughing Mad"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:1e4509676005",
+   "tests": [
+    "test:kefka-court-mage:goldfish:07a59056da4ba638"
+   ]
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:15487c946752",
+   "tests": [
+    "test:kefka-court-mage:goldfish:f5b3d4d4634e29aa"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:ad463635fc5b",
+   "tests": [
+    "test:kefka-court-mage:goldfish:962fe9048626c3ec"
+   ]
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:0ac34be3c96a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:da78abc12f7c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4846d232dd316475"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:e8a3efd3b05f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:kefka-court-mage:m5:2a4fe10887c9",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ebb1bd73b27a4d58"
+   ]
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:c208683e10e0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e1499874fe2245a2"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:7e0d3bcc9c60",
+   "tests": [
+    "test:kefka-court-mage:goldfish:212c74fcb0e44efb"
+   ]
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:38c511597574",
+   "tests": [
+    "test:kefka-court-mage:goldfish:98f90b58e47e077a"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:576cc2cc3744",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e984f59482ae7d04"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:b81402df6382",
+   "tests": [
+    "test:kefka-court-mage:goldfish:365b44431bfc9c09"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:dcac689dbca9",
+   "tests": [
+    "test:kefka-court-mage:goldfish:61ae42b4bcaf4c2c"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:e946c24b66cf",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ac61b6ddbca6cf3e"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:b1140c1870b0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9e793514e3ba5912"
+   ]
+  },
+  {
+   "adds": [
+    "Espers to Magicite"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:cfa0799d8f59",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a0c0056cd616f495"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:0d91e55fefc2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:fab67fce0d8c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:5ac334080b0932fa"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:a1a7822ac5db",
+   "tests": [
+    "test:kefka-court-mage:goldfish:fb70456e4ffa1a02"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8c593afb4166",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geth's Grimoire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:30da2d5372b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:8a3d1398f5f3",
+   "tests": [
+    "test:kefka-court-mage:goldfish:577bb8c03cf8452f"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:ea7ba65d35aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:2dd45f94c371",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4a1531e577e45e7c"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:kefka-court-mage:m5:4ecf7d6cdb81",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a15e40376fe6f5d8"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Rollick"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:bdaf7f920913",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kefka-court-mage:m5:d8d6339a73ef",
+   "tests": [
+    "test:kefka-court-mage:goldfish:dc96b6e1ad99db06"
+   ]
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:d684fcf97b21",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ab4a6cb6a13a3a3c"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:d91736bc3f7a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:be8b6b97ef70e26f"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:af71ea58a6de",
+   "tests": [
+    "test:kefka-court-mage:goldfish:05ad136593150168"
+   ]
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:kefka-court-mage:m5:4ee6568e0b60",
+   "tests": [
+    "test:kefka-court-mage:goldfish:0106ab4369930ba5"
+   ]
+  },
+  {
+   "adds": [
+    "Circle of Power"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:9122d2c963a8",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ebdca6d3c05026b1"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:32b2aa9b1010",
+   "tests": [
+    "test:kefka-court-mage:goldfish:734d6e2d915f2da8"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:e39b7ba59dc2",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d4dccdff507028df"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:3830504e51e7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:3d3fa489264dc2b0"
+   ]
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:12ec89537a6d",
+   "tests": [
+    "test:kefka-court-mage:goldfish:6a8484651807ffd9"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:53e9a01a0154",
+   "tests": [
+    "test:kefka-court-mage:goldfish:986d9ae53669ca87"
+   ]
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:210e75430699",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:171ea8f663e2",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e36b7b68a8f9a5ab"
+   ]
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:5abec73f273b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Necromancy"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:0d5bae052e75",
+   "tests": [
+    "test:kefka-court-mage:goldfish:b1f9506d7c1ca456"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:cb190e4683bd",
+   "tests": [
+    "test:kefka-court-mage:goldfish:39c205efb114c35b"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:kefka-court-mage:m5:bc4f8b95e2dc",
+   "tests": [
+    "test:kefka-court-mage:goldfish:7a02a6319f5ae7ba"
+   ]
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:ecd44f91bb34",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:090c8442ec02",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ba24a9e7cb580ec7"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:0fc9ead49480",
+   "tests": [
+    "test:kefka-court-mage:goldfish:56f42904dd1e6b50"
+   ]
+  },
+  {
+   "adds": [
+    "Generator Servant"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:658a177928fa",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ca42175fe2ac1b95"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:81d0879b7e59",
+   "tests": [
+    "test:kefka-court-mage:goldfish:7a703977d92e5b0b"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:8e158fdbd80e",
+   "tests": [
+    "test:kefka-court-mage:goldfish:8ba7de1aa8824f5b"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:0fe7d6d6cca8",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e7d4511f424637b3"
+   ]
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8c985346214a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:kefka-court-mage:m5:34888aef5b30",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ce630e413502db69"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:732c84050c4b",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9c2b70bc6a956bc2"
+   ]
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:29811565aec8",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c81fda8fe356b352"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:fb6a9d99ec96",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:f211b84823dc",
+   "tests": [
+    "test:kefka-court-mage:goldfish:aeb0b31f91b1a352"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:5c0ee1bba1fb",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9707c759fe93bbe5"
+   ]
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:c9c41ce4b71c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ea4d4a94c9acf8a9"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:3e828dc3b3d9",
+   "tests": [
+    "test:kefka-court-mage:goldfish:922045f2f390a4a4"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:7d47e9658c18",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a54548c8ea96de00"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:70c4ce29de3c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ab48b91fe1df4c31"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:8fe2570cbd2f",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9d2c01933c4b30de"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:355e472cf65e",
+   "tests": [
+    "test:kefka-court-mage:goldfish:dd874dc7bbf448b6"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:973337290768",
+   "tests": [
+    "test:kefka-court-mage:goldfish:7b4eb0f03d211efc"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:c7c84a43d581",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4d203f0b8c730f76"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:968d912faae6",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4253477ae5c7928f"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:7ec7c71d0eda",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ae0fcc23725fc5fb"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:kefka-court-mage:m5:b20a68593850",
+   "tests": [
+    "test:kefka-court-mage:goldfish:2f3900aa7779e106"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:b6c7456285d2",
+   "tests": [
+    "test:kefka-court-mage:goldfish:32ff407fec01171e"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:e359a4ffa307",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ddc9214062eeeb2d"
+   ]
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:c6466208e4bb",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a46cb6e9bd5b40bd"
+   ]
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:547f9e886d59",
+   "tests": [
+    "test:kefka-court-mage:goldfish:778edbd0fbcfd943"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana of the Veil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:f4bdad26fe40",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:18d4ddd91039",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4a8522b24a37927c"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:f102e081276f",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ccaedff5daa09461"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:1b245a2e0450",
+   "tests": [
+    "test:kefka-court-mage:goldfish:5a052a858c2c5349"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kefka-court-mage:m5:53fb52544d92",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:57909940fdc0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:160c4ea31bfb1f19"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Mox Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:d286606dca4e",
+   "tests": [
+    "test:kefka-court-mage:goldfish:505436ae798fb8e1"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:4022ff33af98",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d23a0d6fa4d24d6e"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:d8971864434a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:8536698b1f1a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:628731b9ca856d8a"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:ed4414a6a39d",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e941f3ac179af776"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:672e1b635c2d",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c0f3d4c3b65781dd"
+   ]
+  },
+  {
+   "adds": [
+    "Tinybones, Trinket Thief"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8ce926ca48d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:032486cb5b5a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:910f05796c8080bc"
+   ]
+  },
+  {
+   "adds": [
+    "Crypt Champion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:38e232fb8fdb",
+   "tests": [
+    "test:kefka-court-mage:goldfish:38192b92b841332a"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:43b1a049769a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:22cb24f9e9b4270b"
+   ]
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:c391062a5e97",
+   "tests": [
+    "test:kefka-court-mage:goldfish:138ae1ca29f98786"
+   ]
+  },
+  {
+   "adds": [
+    "Poison the Waters"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:57727856334e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:928a3b5f62b7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ba2594544f5c2fed"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:8ff31bd0b89d",
+   "tests": [
+    "test:kefka-court-mage:goldfish:779bb8d1a88ba574"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:9b8ec9059d94",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a4ea028421a9df1b"
+   ]
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:88fa14680f36",
+   "tests": [
+    "test:kefka-court-mage:goldfish:8254fe2ac463e92a"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:8a547edc1efd",
+   "tests": [
+    "test:kefka-court-mage:goldfish:5692d76341e771ad"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:6db24825f3ce",
+   "tests": [
+    "test:kefka-court-mage:goldfish:cf2a650f4c49679f"
+   ]
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:30b49d5e1d5b",
+   "tests": [
+    "test:kefka-court-mage:goldfish:dd0721261588b38e"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:3fe7eac2bdc7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:96d94ec1e906507e"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror of Fate"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:kefka-court-mage:m5:ad1cf2bb8ce0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:15ccd86675066f5f"
+   ]
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:dda75b12da27",
+   "tests": [
+    "test:kefka-court-mage:goldfish:455eb2c76bd57951"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:8a3168edb5b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kefka-court-mage:m5:fcd5b91c59c1",
+   "tests": [
+    "test:kefka-court-mage:goldfish:f846abb02c15e54a"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:9febe3efb06c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:280e44584b49c29e"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:47bbd98dd89a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:6b0ec271533a3f34"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:kefka-court-mage:m5:d6a6f7683bff",
+   "tests": [
+    "test:kefka-court-mage:goldfish:2b128a052563e9a9"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:04f0f685fe7f",
+   "tests": [
+    "test:kefka-court-mage:goldfish:389848c05b24d599"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:9659e942c156",
+   "tests": [
+    "test:kefka-court-mage:goldfish:bb1b62a8d9978985"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:8f18ee6414ef",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a08d55acb76a4471"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:7be36770523e",
+   "tests": [
+    "test:kefka-court-mage:goldfish:3c2ca48a6d370a27"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:803ae4fc1ec3",
+   "tests": [
+    "test:kefka-court-mage:goldfish:55f5afa74094bfda"
+   ]
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kefka-court-mage:m5:528f522792d0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:bfe2814ed6f737c9"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:3a1f3a9249f4",
+   "tests": [
+    "test:kefka-court-mage:goldfish:b85abd2374f7ba24"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:068ff2e18ff6",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9028e6c8bfb5730a"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kefka-court-mage:m5:be3ba7892b4d",
+   "tests": [
+    "test:kefka-court-mage:goldfish:da7b3d1765ddafc9"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:15b7239dc154",
+   "tests": [
+    "test:kefka-court-mage:goldfish:be4c216cfa662084"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:a027a7c34089",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4b6adb223a0a2e02"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:62edfc953429",
+   "tests": [
+    "test:kefka-court-mage:goldfish:6eac05bd4ffb4964"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:4afc9cb0fd6a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ab0c803576012e3f"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:69f58879c645",
+   "tests": [
+    "test:kefka-court-mage:goldfish:2f0abda3fd9c1e13"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:79dd88a1ea1b",
+   "tests": [
+    "test:kefka-court-mage:goldfish:8f56f91d2b3b50ac"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:22ec036daf43",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c764e12cf4324fbe"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:30d3cf4a303a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d504b55c3ede15e1"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:ce0b49cfc89c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:cf406f497b79e692"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:bd2654cdea87",
+   "tests": [
+    "test:kefka-court-mage:goldfish:3506e3f25875b8e5"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:0b00174b45d3",
+   "tests": [
+    "test:kefka-court-mage:goldfish:5a60f960d6afc3e1"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:7253353145db",
+   "tests": [
+    "test:kefka-court-mage:goldfish:fadad4aedca6f54f"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:4cea26f9e112",
+   "tests": [
+    "test:kefka-court-mage:goldfish:10a3f58af926599d"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:89a014632f0a",
+   "tests": [
+    "test:kefka-court-mage:goldfish:edb943a593a56a47"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:9be2a4a1a07c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9a8acac42073ca1e"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:20cf5b46cdc1",
+   "tests": [
+    "test:kefka-court-mage:goldfish:d9fd1cc5a98c7238"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:71ac46784ae3",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e5a164a43f15df2d"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:kefka-court-mage:m5:c4ec3deb5f71",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ef100d97c018435a"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:6392d3829216",
+   "tests": [
+    "test:kefka-court-mage:goldfish:b33a4308ded00a9b"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:6d87e7c02ffc",
+   "tests": [
+    "test:kefka-court-mage:goldfish:24d7448cccfcc1aa"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:84415670b2bf",
+   "tests": [
+    "test:kefka-court-mage:goldfish:fef3eff236f19a6f"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:f971d09bc570",
+   "tests": [
+    "test:kefka-court-mage:goldfish:959464bc9b9bc192"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:dbe90544aea3",
+   "tests": [
+    "test:kefka-court-mage:goldfish:6e4f7951eb73aadc"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:f41c7655dc65",
+   "tests": [
+    "test:kefka-court-mage:goldfish:924b0e56b4e0975f"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:kefka-court-mage:m5:5df97c908319",
+   "tests": [
+    "test:kefka-court-mage:goldfish:93b68ab45b6cda48"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kefka-court-mage:m5:350781a0c7c7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:94501899f3dbb3c6"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:56bce2c750b7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a13eb77461dbc085"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:84ca486a1330",
+   "tests": [
+    "test:kefka-court-mage:goldfish:f34d0a1c9252c010"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:86f97c92a404",
+   "tests": [
+    "test:kefka-court-mage:goldfish:19beb4cf469fd7db"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:kefka-court-mage:m5:0e512103c88b",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a42228fbb5b123c5"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:c51f330d1fd0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:2d677f60a01eaa5d"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:66578a67b648",
+   "tests": [
+    "test:kefka-court-mage:goldfish:21672e493f4eb75c"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:9fb89d2fafc2",
+   "tests": [
+    "test:kefka-court-mage:goldfish:2b4fb69ad450d937"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:8f3e36a49f64",
+   "tests": [
+    "test:kefka-court-mage:goldfish:84d160679a5e7b67"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:eef726f6205c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:11b9454bc047fc92"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:6bdfda73ff51",
+   "tests": [
+    "test:kefka-court-mage:goldfish:09b904bd73bb6409"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kefka-court-mage:m5:92d95e63bdd5",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9798547f8b0eb763"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:2c907e1b3bf0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c662694a6cfff485"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kefka-court-mage:m5:77b267a42f40",
+   "tests": [
+    "test:kefka-court-mage:goldfish:eb2b92061eb495f6"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:e64e1dee72ef",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e9214ad1827214c0"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:8c356bcd1d1c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:638f1c2a53b69dd2"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:73a47646e914",
+   "tests": [
+    "test:kefka-court-mage:goldfish:7ddf7b179ea6b21a"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:d5501af864b9",
+   "tests": [
+    "test:kefka-court-mage:goldfish:5008a8603171e7a4"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:77b16e3133a7",
+   "tests": [
+    "test:kefka-court-mage:goldfish:11fffacd54ccf6d8"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:2a02b489f725",
+   "tests": [
+    "test:kefka-court-mage:goldfish:b5c0ace33fed9f3b"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:84ac3af6f8ad",
+   "tests": [
+    "test:kefka-court-mage:goldfish:ae490e82f1e52473"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:2dd8c07e9449",
+   "tests": [
+    "test:kefka-court-mage:goldfish:f859b44fed0890b0"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:002061f07bcc",
+   "tests": [
+    "test:kefka-court-mage:goldfish:06e993171028e185"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kefka-court-mage:m5:6d3d1f0061e1",
+   "tests": [
+    "test:kefka-court-mage:goldfish:2e60315e2b0386f9"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:kefka-court-mage:m5:1b87b594ed00",
+   "tests": [
+    "test:kefka-court-mage:goldfish:38dfd8d5f1bccd26"
+   ]
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:e3878d9f0e25",
+   "tests": [
+    "test:kefka-court-mage:goldfish:4a4a461208638756"
+   ]
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:aa6166c6d2c4",
+   "tests": [
+    "test:kefka-court-mage:goldfish:08bb36c51268ea12"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:7a0bad7f266e",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a32f5c9c5aaec70e"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:62b2ffd066aa",
+   "tests": [
+    "test:kefka-court-mage:goldfish:dde83b25b645488e"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:7eb79e2489ab",
+   "tests": [
+    "test:kefka-court-mage:goldfish:7f7b9c604f576f5f"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:93977c1fd102",
+   "tests": [
+    "test:kefka-court-mage:goldfish:de9be8cdb73c8f5b"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:5e5a7a8dd4d9",
+   "tests": [
+    "test:kefka-court-mage:goldfish:b2dba7263e57eb70"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:2ffdb881fffd",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c14f1b0f8024ed87"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:d8279d04f9da",
+   "tests": [
+    "test:kefka-court-mage:goldfish:75841c805fe8454e"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:62ad11c3f724",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e7ca879b2978329a"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:93da4cee3b0e",
+   "tests": [
+    "test:kefka-court-mage:goldfish:87e2ae9f39b20e1d"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:ac4503d2de1b",
+   "tests": [
+    "test:kefka-court-mage:goldfish:710cc205cb839ceb"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:034367f689ea",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9a2c1c6b42f596bc"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:e38a973a7a13",
+   "tests": [
+    "test:kefka-court-mage:goldfish:07a50d7f0461bc0d"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:77feb1b4b054",
+   "tests": [
+    "test:kefka-court-mage:goldfish:e6699422c0f3c6f5"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:8e95d1101ee0",
+   "tests": [
+    "test:kefka-court-mage:goldfish:b5bf9ddc8fd389d6"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kefka-court-mage:m5:ea4a68079c49",
+   "tests": [
+    "test:kefka-court-mage:goldfish:9538a6e351c16c19"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:kefka-court-mage:m5:95eeb2460c3c",
+   "tests": [
+    "test:kefka-court-mage:goldfish:c072b112a7529bff"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:kefka-court-mage:m5:8e5c03548524",
+   "tests": [
+    "test:kefka-court-mage:goldfish:1caca70671d4834c"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:kefka-court-mage:m5:b8876c826009",
+   "tests": [
+    "test:kefka-court-mage:goldfish:a20a7df5ca64aa61"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:kefka-court-mage:goldfish:5a1db1ff4fbabc6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:6c51bf70c8bdf006",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:665ffab8815bb97b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:0d070dda26f62043",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:98850e135f49eb45",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a469bfe93d1036b7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:59e25ecc048156bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:837330c8d320920f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d4bfe49642baec3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:07f1d5711a7fcfa2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:967b081b145f0151",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:1bb97c03eeca3da7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:3602026ad8ed3b37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a13d725ea1a270c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d75c2503b7daa4dc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:8104b1da264b26b8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:fe2671b61522a7ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c2d233336ea24738",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9e5d2a7788051bc8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d115bc6f42e8f345",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:76d62800b0ea283a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:54b5ac3aa9b1dbcd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:8e4ec59819755eb4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9123d35292a28606",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:202d66d256da0eb9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:f7710a0b68b8e6ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:07a59056da4ba638",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:f5b3d4d4634e29aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:962fe9048626c3ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4846d232dd316475",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ebb1bd73b27a4d58",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e1499874fe2245a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:212c74fcb0e44efb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:98f90b58e47e077a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e984f59482ae7d04",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:365b44431bfc9c09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:61ae42b4bcaf4c2c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ac61b6ddbca6cf3e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9e793514e3ba5912",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a0c0056cd616f495",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:5ac334080b0932fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:fb70456e4ffa1a02",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:577bb8c03cf8452f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4a1531e577e45e7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a15e40376fe6f5d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:dc96b6e1ad99db06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ab4a6cb6a13a3a3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:be8b6b97ef70e26f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:05ad136593150168",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:0106ab4369930ba5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ebdca6d3c05026b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:734d6e2d915f2da8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d4dccdff507028df",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:3d3fa489264dc2b0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:6a8484651807ffd9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:986d9ae53669ca87",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e36b7b68a8f9a5ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:b1f9506d7c1ca456",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:39c205efb114c35b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:7a02a6319f5ae7ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ba24a9e7cb580ec7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:56f42904dd1e6b50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ca42175fe2ac1b95",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:7a703977d92e5b0b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:8ba7de1aa8824f5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e7d4511f424637b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ce630e413502db69",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9c2b70bc6a956bc2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c81fda8fe356b352",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:aeb0b31f91b1a352",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9707c759fe93bbe5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ea4d4a94c9acf8a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:922045f2f390a4a4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a54548c8ea96de00",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ab48b91fe1df4c31",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9d2c01933c4b30de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:dd874dc7bbf448b6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:7b4eb0f03d211efc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4d203f0b8c730f76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4253477ae5c7928f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ae0fcc23725fc5fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:2f3900aa7779e106",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:32ff407fec01171e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ddc9214062eeeb2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a46cb6e9bd5b40bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:778edbd0fbcfd943",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4a8522b24a37927c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ccaedff5daa09461",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:5a052a858c2c5349",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:160c4ea31bfb1f19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:505436ae798fb8e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d23a0d6fa4d24d6e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:628731b9ca856d8a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e941f3ac179af776",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c0f3d4c3b65781dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:910f05796c8080bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:38192b92b841332a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:22cb24f9e9b4270b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:138ae1ca29f98786",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ba2594544f5c2fed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:779bb8d1a88ba574",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a4ea028421a9df1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:8254fe2ac463e92a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:5692d76341e771ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:cf2a650f4c49679f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:dd0721261588b38e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:96d94ec1e906507e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:15ccd86675066f5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:455eb2c76bd57951",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:f846abb02c15e54a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:280e44584b49c29e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:6b0ec271533a3f34",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:2b128a052563e9a9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:389848c05b24d599",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:bb1b62a8d9978985",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a08d55acb76a4471",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:3c2ca48a6d370a27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:55f5afa74094bfda",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:bfe2814ed6f737c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:b85abd2374f7ba24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9028e6c8bfb5730a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:da7b3d1765ddafc9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:be4c216cfa662084",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4b6adb223a0a2e02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:6eac05bd4ffb4964",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ab0c803576012e3f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:2f0abda3fd9c1e13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:8f56f91d2b3b50ac",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c764e12cf4324fbe",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d504b55c3ede15e1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:cf406f497b79e692",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:3506e3f25875b8e5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:5a60f960d6afc3e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:fadad4aedca6f54f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:10a3f58af926599d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:edb943a593a56a47",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9a8acac42073ca1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:d9fd1cc5a98c7238",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e5a164a43f15df2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ef100d97c018435a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:b33a4308ded00a9b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:24d7448cccfcc1aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:fef3eff236f19a6f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:959464bc9b9bc192",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:6e4f7951eb73aadc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:924b0e56b4e0975f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:93b68ab45b6cda48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:94501899f3dbb3c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a13eb77461dbc085",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:f34d0a1c9252c010",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:19beb4cf469fd7db",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a42228fbb5b123c5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:2d677f60a01eaa5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:21672e493f4eb75c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:2b4fb69ad450d937",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:84d160679a5e7b67",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:11b9454bc047fc92",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:09b904bd73bb6409",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9798547f8b0eb763",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c662694a6cfff485",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:eb2b92061eb495f6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e9214ad1827214c0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:638f1c2a53b69dd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:7ddf7b179ea6b21a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:5008a8603171e7a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:11fffacd54ccf6d8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:b5c0ace33fed9f3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:ae490e82f1e52473",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:f859b44fed0890b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:06e993171028e185",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:2e60315e2b0386f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:38dfd8d5f1bccd26",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:4a4a461208638756",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:08bb36c51268ea12",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a32f5c9c5aaec70e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:dde83b25b645488e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:7f7b9c604f576f5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:de9be8cdb73c8f5b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:b2dba7263e57eb70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c14f1b0f8024ed87",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:75841c805fe8454e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e7ca879b2978329a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:87e2ae9f39b20e1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:710cc205cb839ceb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9a2c1c6b42f596bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:07a50d7f0461bc0d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:e6699422c0f3c6f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:b5bf9ddc8fd389d6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:9538a6e351c16c19",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:c072b112a7529bff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:1caca70671d4834c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kefka-court-mage:goldfish:a20a7df5ca64aa61",
+   "verdict": "inconclusive"
+  }
+ ]
+}

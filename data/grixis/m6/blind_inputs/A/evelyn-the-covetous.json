@@ -1,0 +1,6915 @@
+{
+ "candidates": [
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:67b85e22c7c4"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:2bce155bde25"
+   }
+  },
+  {
+   "card": "Blood Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Artist",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fd54290d8dd1"
+   }
+  },
+  {
+   "card": "Cordial Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cordial Vampire",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:892583f3774a"
+   }
+  },
+  {
+   "card": "Captivating Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captivating Vampire",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1691cae03458"
+   }
+  },
+  {
+   "card": "Olivia's Wrath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia's Wrath",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia's Wrath",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:1ccbb15ae69a"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:af863dcfbcb5"
+   }
+  },
+  {
+   "card": "Stromkirk Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stromkirk Captain",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:2c14ec4a3e40"
+   }
+  },
+  {
+   "card": "Indulgent Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Indulgent Aristocrat",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:58811419431f"
+   }
+  },
+  {
+   "card": "Voldaren Estate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voldaren Estate",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6f88d1b9781d"
+   }
+  },
+  {
+   "card": "Glass-Cast Heart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glass-Cast Heart",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Glass-Cast Heart",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:c87226d1874c"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:850198cdb681"
+   }
+  },
+  {
+   "card": "Don Andres, the Renegade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Don Andres, the Renegade",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Don Andres, the Renegade",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:978aeb690769"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:8bd52b2579c7"
+   }
+  },
+  {
+   "card": "Sanctum Seeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sanctum Seeker",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6caf553a2c1b"
+   }
+  },
+  {
+   "card": "Markov Baron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Markov Baron",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:2eac8b8f42ce"
+   }
+  },
+  {
+   "card": "Bloodline Necromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Bloodline Necromancer",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:8a8d924a6206"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:3f40a0b057f1"
+   }
+  },
+  {
+   "card": "Viscera Seer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Viscera Seer",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:8c00a9313f86"
+   }
+  },
+  {
+   "card": "Malakir Bloodwitch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Malakir Bloodwitch",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:9b972eeb2c6e"
+   }
+  },
+  {
+   "card": "Patron of the Vein",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Patron of the Vein",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:a28db60b6527"
+   }
+  },
+  {
+   "card": "Twilight Prophet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twilight Prophet",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:651c59469692"
+   }
+  },
+  {
+   "card": "Preacher of the Schism",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Preacher of the Schism",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Preacher of the Schism",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:18bb3eb8671c"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:98959bc3bfdd"
+   }
+  },
+  {
+   "card": "Champion of Dusk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Champion of Dusk",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Champion of Dusk",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:267ee1b17df3"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:d8b7930788ae"
+   }
+  },
+  {
+   "card": "Scion of Opulence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scion of Opulence",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Scion of Opulence",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:b4361da8fbc4"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ae5961803da1"
+   }
+  },
+  {
+   "card": "Drana, Liberator of Malakir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drana, Liberator of Malakir",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:370d4bd37692"
+   }
+  },
+  {
+   "card": "Vampire Socialite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Socialite",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:89d4be2d68b8"
+   }
+  },
+  {
+   "card": "Dusk Legion Zealot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dusk Legion Zealot",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dusk Legion Zealot",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:4b302dd514a5"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b500ddd02c2f"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:66dd0b5cc855"
+   }
+  },
+  {
+   "card": "Vampire Nighthawk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Nighthawk",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:88f137b72462"
+   }
+  },
+  {
+   "card": "Vampire of the Dire Moon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire of the Dire Moon",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:d6feaafedb0b"
+   }
+  },
+  {
+   "card": "Crossway Troublemakers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crossway Troublemakers",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crossway Troublemakers",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:bf30fc648810"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:dd6cc46d5d5e"
+   }
+  },
+  {
+   "card": "Nighthawk Scavenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nighthawk Scavenger",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:91b8790a1739"
+   }
+  },
+  {
+   "card": "Florian, Voldaren Scion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Florian, Voldaren Scion",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:bdca1a84e370"
+   }
+  },
+  {
+   "card": "Voldaren Epicure",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Voldaren Epicure",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e1bb4b5503f8"
+   }
+  },
+  {
+   "card": "Bloodghast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Bloodghast",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:87c10821d982"
+   }
+  },
+  {
+   "card": "Olivia, Crimson Bride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Olivia, Crimson Bride",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:3a65fbc84366"
+   }
+  },
+  {
+   "card": "Dusk Legion Sergeant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Dusk Legion Sergeant",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6a0ab11648be"
+   }
+  },
+  {
+   "card": "New Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "New Blood",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:0ab701ddf8d2"
+   }
+  },
+  {
+   "card": "Anje, Maid of Dishonor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anje, Maid of Dishonor",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6f31fdb76889"
+   }
+  },
+  {
+   "card": "Molten Echoes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Echoes",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3605-4846"
+        ]
+       },
+       "add": "Molten Echoes",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:7b08a02d2919"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:da46625c6fa5"
+   }
+  },
+  {
+   "card": "Strefan, Maurer Progenitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strefan, Maurer Progenitor",
+       "cut": "Redirect Lightning"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1ca01ce454ed"
+   }
+  },
+  {
+   "card": "Reflections of Littjara",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reflections of Littjara",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3605-4846"
+        ]
+       },
+       "add": "Reflections of Littjara",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:ef5693d3e85a"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ca3edc357515"
+   }
+  },
+  {
+   "card": "Vito, Thorn of the Dusk Rose",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vito, Thorn of the Dusk Rose",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:755a4c34fd67"
+   }
+  },
+  {
+   "card": "Panharmonicon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Panharmonicon",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Panharmonicon",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:8ad47625b2ad"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:22a679615321"
+   }
+  },
+  {
+   "card": "Anowon, the Ruin Sage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anowon, the Ruin Sage",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1316d264aa31"
+   }
+  },
+  {
+   "card": "Lord Xander, the Collector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lord Xander, the Collector",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:09955cd0e1fc"
+   }
+  },
+  {
+   "card": "Dominating Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dominating Vampire",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6095a07fedd6"
+   }
+  },
+  {
+   "card": "Corpse Appraiser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corpse Appraiser",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fa25c9532bae"
+   }
+  },
+  {
+   "card": "Nullpriest of Oblivion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Nullpriest of Oblivion",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e323d3b7e4f8"
+   }
+  },
+  {
+   "card": "Master of Dark Rites",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Master of Dark Rites",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Master of Dark Rites",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:5e83d056f16d"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:42f0dd6bc2bd"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Rakdos Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:358f55c47aee"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:49d584b6c9c1"
+   }
+  },
+  {
+   "card": "Displacer Kitten",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Displacer Kitten",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:51a7be4c02f6"
+   }
+  },
+  {
+   "card": "Prosper, Tome-Bound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prosper, Tome-Bound",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Prosper, Tome-Bound",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:546d840cd0c2"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:a93fc2ad9a09"
+   }
+  },
+  {
+   "card": "Blood Seeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Seeker",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:25651bdb4334"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Dimir Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:8b1ed0008491"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:69dd62cac4ba"
+   }
+  },
+  {
+   "card": "Yahenni, Undying Partisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yahenni, Undying Partisan",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1b1235465ebe"
+   }
+  },
+  {
+   "card": "Call the Bloodline",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Call the Bloodline",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3605-4846"
+        ]
+       },
+       "add": "Call the Bloodline",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:98451e85b926"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:052afcb19746"
+   }
+  },
+  {
+   "card": "Black Market Connections",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Market Connections",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Black Market Connections",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:0e933e389c62"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:9f727d9c4249"
+   }
+  },
+  {
+   "card": "Bloodthirsty Conqueror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthirsty Conqueror",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b9ef08f16588"
+   }
+  },
+  {
+   "card": "Stensia Masquerade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stensia Masquerade",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b68a987b4b17"
+   }
+  },
+  {
+   "card": "Roaming Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Roaming Throne",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:5fe6b85da39a"
+   }
+  },
+  {
+   "card": "Qarsi Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Qarsi Revenant",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b1701bac7140"
+   }
+  },
+  {
+   "card": "Bloodtithe Harvester",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodtithe Harvester",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:5fbfc5135531"
+   }
+  },
+  {
+   "card": "Sorin, Imperious Bloodlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sorin, Imperious Bloodlord",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:3152f18d84d3"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:25a3f5e06a7a"
+   }
+  },
+  {
+   "card": "Creeping Bloodsucker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Creeping Bloodsucker",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:8a5e0b2442fc"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:345e0412b23f"
+   }
+  },
+  {
+   "card": "Callous Bloodmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Callous Bloodmage",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e96a5c7065fb"
+   }
+  },
+  {
+   "card": "Olivia Voldaren",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia Voldaren",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:9a672f890ac6"
+   }
+  },
+  {
+   "card": "Rakish Heir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakish Heir",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:f20736876f73"
+   }
+  },
+  {
+   "card": "Butcher of Malakir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Butcher of Malakir",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:4a833f364324"
+   }
+  },
+  {
+   "card": "Charred Foyer // Warped Space",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Charred Foyer // Warped Space",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:f6b1dc03c371"
+   }
+  },
+  {
+   "card": "Essence Flux",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Flux",
+       "cut": "Redirect Lightning"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fb4b34ac97bc"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:56e8fab40e98"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:16dae7be44d8"
+   }
+  },
+  {
+   "card": "Passionate Archaeologist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Passionate Archaeologist",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:36e6482d15b3"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6eeaa529a19c"
+   }
+  },
+  {
+   "card": "Knight of the Ebon Legion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Knight of the Ebon Legion",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:0ac5707fdb92"
+   }
+  },
+  {
+   "card": "Herald's Horn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Herald's Horn",
+       "cut": "Mox Opal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:da853992985a"
+   }
+  },
+  {
+   "card": "Markov Enforcer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Markov Enforcer",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ba34758f5e7c"
+   }
+  },
+  {
+   "card": "Unclaimed Territory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unclaimed Territory",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:4e88d506aa1b"
+   }
+  },
+  {
+   "card": "Victimize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Victimize",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:d7ff05a9056a"
+   }
+  },
+  {
+   "card": "Queen's Bay Paladin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Queen's Bay Paladin",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fe70ab05fa98"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:809b4c10e64f"
+   }
+  },
+  {
+   "card": "Midnight Arsonist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Midnight Arsonist",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:08ea633ffe65"
+   }
+  },
+  {
+   "card": "Secluded Courtyard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Secluded Courtyard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:698383776ebf"
+   }
+  },
+  {
+   "card": "Accursed Duneyard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Accursed Duneyard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:f44d0b84b320"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Redirect Lightning"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:87173181ba3e"
+   }
+  },
+  {
+   "card": "Gifted Aetherborn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gifted Aetherborn",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:f0bf7fe80988"
+   }
+  },
+  {
+   "card": "Necropolis Regent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necropolis Regent",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:f2fca4d7f843"
+   }
+  },
+  {
+   "card": "Kindred Discovery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kindred Discovery",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:5323df009d7e"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1edd32d47cd5"
+   }
+  },
+  {
+   "card": "Vampires' Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampires' Vengeance",
+       "cut": "Redirect Lightning"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:c2489fe1f4c5"
+   }
+  },
+  {
+   "card": "Planar Incision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Incision",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:465a685bcbc8"
+   }
+  },
+  {
+   "card": "Bloodline Bidding",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodline Bidding",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:592bb5bdc073"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ea9b3306f765"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:0e2bd4236501"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:16aaadf510de"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:88b137084172"
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e745d5eb88ae"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:7d676072db7f"
+   }
+  },
+  {
+   "card": "Kindred Dominance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kindred Dominance",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:961f7ec338c0"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:7d8cf49fe7ec"
+   }
+  },
+  {
+   "card": "Sorin the Mirthless",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sorin the Mirthless",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6ed2eb34fd91"
+   }
+  },
+  {
+   "card": "Spark Double",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spark Double",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:84f999a82650"
+   }
+  },
+  {
+   "card": "Morphic Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Morphic Pool",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:7280976d3b5c"
+   }
+  },
+  {
+   "card": "Talisman of Creativity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Creativity",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:aab0f2d501fa"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Guile",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:015494684b87"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b1f1b98af9d4"
+   }
+  },
+  {
+   "card": "Cunning Rhetoric",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cunning Rhetoric",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:80c075ff5941"
+   }
+  },
+  {
+   "card": "Luxury Suite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxury Suite",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:764378d6ba55"
+   }
+  },
+  {
+   "card": "Patchwork Banner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Patchwork Banner",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b4711da1fc74"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e9f854e3d962"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b30df61a4c46"
+   }
+  },
+  {
+   "card": "Last Voyage of the _____",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4812-4846"
+        ]
+       },
+       "add": "Last Voyage of the _____",
+       "cut": "Animate Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:d4d7856413f1"
+   }
+  },
+  {
+   "card": "Vampire Charmseeker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Charmseeker",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Vampire Charmseeker",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:6328083b193e"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:4365e5d3e170"
+   }
+  },
+  {
+   "card": "Fake Your Own Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fake Your Own Death",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:40ae6481506b"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:24573d2e315f"
+   }
+  },
+  {
+   "card": "Blood Tribute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Tribute",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:0011f2663be9"
+   }
+  },
+  {
+   "card": "Kederekt Leviathan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kederekt Leviathan",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:92a4198be273"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:702b03c4fb5e"
+   }
+  },
+  {
+   "card": "Cavern of Souls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern of Souls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:72698af3ea5e"
+   }
+  },
+  {
+   "card": "Three Tree City",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Tree City",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:5271666e8d5e"
+   }
+  },
+  {
+   "card": "Divining Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Divining Witch",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:21c3d5e1113d"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:528a0cdd9083"
+   }
+  },
+  {
+   "card": "Vampire Nocturnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vampire Nocturnus",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:94d7e5589a67"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fef8f7d15b79"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:98f299942dec"
+   }
+  },
+  {
+   "card": "Jeska's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeska's Will",
+       "cut": "Culling the Weak"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:853262a99764"
+   }
+  },
+  {
+   "card": "Leyline of Transformation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leyline of Transformation",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:a84ce644cab0"
+   }
+  },
+  {
+   "card": "Emeritus of Woe // Demonic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emeritus of Woe // Demonic Tutor",
+       "cut": "Imperial Seal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fcfc399b8a02"
+   }
+  },
+  {
+   "card": "Memory Lapse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Lapse",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:52760943b03c"
+   }
+  },
+  {
+   "card": "Worldfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "Worldfire",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:64da9d483e88"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:c5eb3f58b683"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:6415f6d4e09c"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1a9adc07779d"
+   }
+  },
+  {
+   "card": "Pinnacle Monk // Mystic Peak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pinnacle Monk // Mystic Peak",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Pinnacle Monk // Mystic Peak",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:0ade03ddaea5"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:2f620622505f"
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:8cc7a1a0bc1a"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1ee7fd8ac761"
+   }
+  },
+  {
+   "card": "Stitcher's Supplier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:5921540f1aa1"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:4af73f581aa8"
+   }
+  },
+  {
+   "card": "Zealous Lorecaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zealous Lorecaster",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Zealous Lorecaster",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:093fa73b7e5d"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e52b496d1c92"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:33f85ebc5926"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:1e560a73998d"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Archaeomancer",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:4989e09bc482"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:8b3bd15f3433"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:c808c193324a"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fa0f10fbf206"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Faerie Mastermind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:b0956075df15"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:91a384486326"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:c91752e83c12"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:53633259d425"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:acb512cb0677"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:bc731584813f"
+   }
+  },
+  {
+   "card": "Flameshadow Conjuring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flameshadow Conjuring",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3605-4846"
+        ]
+       },
+       "add": "Flameshadow Conjuring",
+       "cut": "Dance of the Dead"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:5f4f3080f8f0"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:4073f9901436"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:be85feef950d"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Redirect Lightning"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Retraction Helix",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:661b4551df4d"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:9959487b4d75"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:0e01a8859761"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:fd145a02887c"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:63d1df1ad5a0"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:7de0f41efbd5"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:39d311387087"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:743d5ccb45a7"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:d3f7515f2363"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ff6884d94e38"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:a60cfe9c512f"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:b7eb894202a0"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:e16531fa6263"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:c7ed12d9072a"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Redirect Lightning"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Banishing Knack",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:682b25a3d47e"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:f0bfd21535dd"
+   }
+  },
+  {
+   "card": "Mnemonic Wall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:75ffbac16123"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:cffb22816a84"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:a9675ea4fe6b"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:de87bef6bb15"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Faerie Mastermind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:594e9a68b657"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ce095960e906"
+   }
+  },
+  {
+   "card": "Ardent Elementalist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ardent Elementalist",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ardent Elementalist",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:3991fadfb4cf"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:eef2e360f2ba"
+   }
+  },
+  {
+   "card": "Shipwreck Dowser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:8aec5e354eea"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:37a8de6df214"
+   }
+  },
+  {
+   "card": "Scholar of the Ages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scholar of the Ages",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Scholar of the Ages",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:98d096046ee9"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:dc92d1702e15"
+   }
+  },
+  {
+   "card": "Revolutionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Revolutionist",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Revolutionist",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:2f3b8e46550f"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:047adb9ce708"
+   }
+  },
+  {
+   "card": "Salvager of Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Salvager of Secrets",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Salvager of Secrets",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:0efa7d074e0a"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:c888c382e29f"
+   }
+  },
+  {
+   "card": "Minion Reflector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Minion Reflector",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Minion Reflector",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:b4a1b535fb54"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:739fbf91671a"
+   }
+  },
+  {
+   "card": "Parnesse, the Subtle Brush",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Parnesse, the Subtle Brush",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:evelyn-the-covetous:m5:d3d30e08a6f2"
+   }
+  },
+  {
+   "card": "Izzet Chronarch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Chronarch",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Izzet Chronarch",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:2e925c0dfd91"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:a69a0f5e52a3"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:2f4b5caad270"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:4bcb2b5df8a4"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Faithless Looting"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:c184cbb6b03c"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:2e906be5bc43"
+   }
+  },
+  {
+   "card": "Possessed Skaab",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Possessed Skaab",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Possessed Skaab",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:e2f5a82baa8a"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:ccd9d6628df3"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Rite of Flame"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:5655324400a5"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e0e957db2ba7"
+   }
+  },
+  {
+   "card": "Scrivener",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrivener",
+       "cut": "Ragavan, Nimble Pilferer"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Scrivener",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:e2d5293e41c1"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:989f58991cac"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Redirect Lightning"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:evelyn-the-covetous:m5:c1fc74ecacf2"
+    },
+    "swap": "swap:evelyn-the-covetous:m5:e7b2845c9826"
+   }
+  }
+ ],
+ "deck_id": "Evelyn__the_Covetous",
+ "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "slug": "evelyn-the-covetous",
+ "swaps": [
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2bce155bde25"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:67b85e22c7c4"
+  },
+  {
+   "adds": [
+    "Blood Artist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fd54290d8dd1"
+  },
+  {
+   "adds": [
+    "Cordial Vampire"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:892583f3774a"
+  },
+  {
+   "adds": [
+    "Captivating Vampire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1691cae03458"
+  },
+  {
+   "adds": [
+    "Olivia's Wrath"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:af863dcfbcb5"
+  },
+  {
+   "adds": [
+    "Olivia's Wrath"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1ccbb15ae69a"
+  },
+  {
+   "adds": [
+    "Stromkirk Captain"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2c14ec4a3e40"
+  },
+  {
+   "adds": [
+    "Indulgent Aristocrat"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:58811419431f"
+  },
+  {
+   "adds": [
+    "Voldaren Estate"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6f88d1b9781d"
+  },
+  {
+   "adds": [
+    "Glass-Cast Heart"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:850198cdb681"
+  },
+  {
+   "adds": [
+    "Glass-Cast Heart"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c87226d1874c"
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8bd52b2579c7"
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:978aeb690769"
+  },
+  {
+   "adds": [
+    "Sanctum Seeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6caf553a2c1b"
+  },
+  {
+   "adds": [
+    "Markov Baron"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2eac8b8f42ce"
+  },
+  {
+   "adds": [
+    "Bloodline Necromancer"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8a8d924a6206"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3f40a0b057f1"
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8c00a9313f86"
+  },
+  {
+   "adds": [
+    "Malakir Bloodwitch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9b972eeb2c6e"
+  },
+  {
+   "adds": [
+    "Patron of the Vein"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a28db60b6527"
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:651c59469692"
+  },
+  {
+   "adds": [
+    "Preacher of the Schism"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98959bc3bfdd"
+  },
+  {
+   "adds": [
+    "Preacher of the Schism"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:18bb3eb8671c"
+  },
+  {
+   "adds": [
+    "Champion of Dusk"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d8b7930788ae"
+  },
+  {
+   "adds": [
+    "Champion of Dusk"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:267ee1b17df3"
+  },
+  {
+   "adds": [
+    "Scion of Opulence"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ae5961803da1"
+  },
+  {
+   "adds": [
+    "Scion of Opulence"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b4361da8fbc4"
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:370d4bd37692"
+  },
+  {
+   "adds": [
+    "Vampire Socialite"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:89d4be2d68b8"
+  },
+  {
+   "adds": [
+    "Dusk Legion Zealot"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b500ddd02c2f"
+  },
+  {
+   "adds": [
+    "Dusk Legion Zealot"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4b302dd514a5"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:66dd0b5cc855"
+  },
+  {
+   "adds": [
+    "Vampire Nighthawk"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:88f137b72462"
+  },
+  {
+   "adds": [
+    "Vampire of the Dire Moon"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d6feaafedb0b"
+  },
+  {
+   "adds": [
+    "Crossway Troublemakers"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:dd6cc46d5d5e"
+  },
+  {
+   "adds": [
+    "Crossway Troublemakers"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:bf30fc648810"
+  },
+  {
+   "adds": [
+    "Nighthawk Scavenger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:91b8790a1739"
+  },
+  {
+   "adds": [
+    "Florian, Voldaren Scion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:bdca1a84e370"
+  },
+  {
+   "adds": [
+    "Voldaren Epicure"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e1bb4b5503f8"
+  },
+  {
+   "adds": [
+    "Bloodghast"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:87c10821d982"
+  },
+  {
+   "adds": [
+    "Olivia, Crimson Bride"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3a65fbc84366"
+  },
+  {
+   "adds": [
+    "Dusk Legion Sergeant"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6a0ab11648be"
+  },
+  {
+   "adds": [
+    "New Blood"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0ab701ddf8d2"
+  },
+  {
+   "adds": [
+    "Anje, Maid of Dishonor"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6f31fdb76889"
+  },
+  {
+   "adds": [
+    "Molten Echoes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:da46625c6fa5"
+  },
+  {
+   "adds": [
+    "Molten Echoes"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7b08a02d2919"
+  },
+  {
+   "adds": [
+    "Strefan, Maurer Progenitor"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1ca01ce454ed"
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ca3edc357515"
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ef5693d3e85a"
+  },
+  {
+   "adds": [
+    "Vito, Thorn of the Dusk Rose"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:755a4c34fd67"
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:22a679615321"
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8ad47625b2ad"
+  },
+  {
+   "adds": [
+    "Anowon, the Ruin Sage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1316d264aa31"
+  },
+  {
+   "adds": [
+    "Lord Xander, the Collector"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:09955cd0e1fc"
+  },
+  {
+   "adds": [
+    "Dominating Vampire"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6095a07fedd6"
+  },
+  {
+   "adds": [
+    "Corpse Appraiser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fa25c9532bae"
+  },
+  {
+   "adds": [
+    "Nullpriest of Oblivion"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e323d3b7e4f8"
+  },
+  {
+   "adds": [
+    "Master of Dark Rites"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:42f0dd6bc2bd"
+  },
+  {
+   "adds": [
+    "Master of Dark Rites"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5e83d056f16d"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:49d584b6c9c1"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:358f55c47aee"
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:51a7be4c02f6"
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a93fc2ad9a09"
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:546d840cd0c2"
+  },
+  {
+   "adds": [
+    "Blood Seeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:25651bdb4334"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:69dd62cac4ba"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8b1ed0008491"
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1b1235465ebe"
+  },
+  {
+   "adds": [
+    "Call the Bloodline"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:052afcb19746"
+  },
+  {
+   "adds": [
+    "Call the Bloodline"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98451e85b926"
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9f727d9c4249"
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0e933e389c62"
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b9ef08f16588"
+  },
+  {
+   "adds": [
+    "Stensia Masquerade"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b68a987b4b17"
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5fe6b85da39a"
+  },
+  {
+   "adds": [
+    "Qarsi Revenant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b1701bac7140"
+  },
+  {
+   "adds": [
+    "Bloodtithe Harvester"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5fbfc5135531"
+  },
+  {
+   "adds": [
+    "Sorin, Imperious Bloodlord"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3152f18d84d3"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:25a3f5e06a7a"
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8a5e0b2442fc"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:345e0412b23f"
+  },
+  {
+   "adds": [
+    "Callous Bloodmage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e96a5c7065fb"
+  },
+  {
+   "adds": [
+    "Olivia Voldaren"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9a672f890ac6"
+  },
+  {
+   "adds": [
+    "Rakish Heir"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f20736876f73"
+  },
+  {
+   "adds": [
+    "Butcher of Malakir"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4a833f364324"
+  },
+  {
+   "adds": [
+    "Charred Foyer // Warped Space"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f6b1dc03c371"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fb4b34ac97bc"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:56e8fab40e98"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:16dae7be44d8"
+  },
+  {
+   "adds": [
+    "Passionate Archaeologist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:36e6482d15b3"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6eeaa529a19c"
+  },
+  {
+   "adds": [
+    "Knight of the Ebon Legion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0ac5707fdb92"
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:da853992985a"
+  },
+  {
+   "adds": [
+    "Markov Enforcer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ba34758f5e7c"
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4e88d506aa1b"
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d7ff05a9056a"
+  },
+  {
+   "adds": [
+    "Queen's Bay Paladin"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fe70ab05fa98"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:809b4c10e64f"
+  },
+  {
+   "adds": [
+    "Midnight Arsonist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:08ea633ffe65"
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:698383776ebf"
+  },
+  {
+   "adds": [
+    "Accursed Duneyard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f44d0b84b320"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:87173181ba3e"
+  },
+  {
+   "adds": [
+    "Gifted Aetherborn"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f0bf7fe80988"
+  },
+  {
+   "adds": [
+    "Necropolis Regent"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f2fca4d7f843"
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5323df009d7e"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1edd32d47cd5"
+  },
+  {
+   "adds": [
+    "Vampires' Vengeance"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c2489fe1f4c5"
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:465a685bcbc8"
+  },
+  {
+   "adds": [
+    "Bloodline Bidding"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:592bb5bdc073"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ea9b3306f765"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0e2bd4236501"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:16aaadf510de"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:88b137084172"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e745d5eb88ae"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7d676072db7f"
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:961f7ec338c0"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7d8cf49fe7ec"
+  },
+  {
+   "adds": [
+    "Sorin the Mirthless"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6ed2eb34fd91"
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:84f999a82650"
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7280976d3b5c"
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:aab0f2d501fa"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b1f1b98af9d4"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:015494684b87"
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:80c075ff5941"
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:764378d6ba55"
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b4711da1fc74"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e9f854e3d962"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b30df61a4c46"
+  },
+  {
+   "adds": [
+    "Last Voyage of the _____"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d4d7856413f1"
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4365e5d3e170"
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6328083b193e"
+  },
+  {
+   "adds": [
+    "Fake Your Own Death"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:40ae6481506b"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:24573d2e315f"
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0011f2663be9"
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:92a4198be273"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:702b03c4fb5e"
+  },
+  {
+   "adds": [
+    "Cavern of Souls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:72698af3ea5e"
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5271666e8d5e"
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:21c3d5e1113d"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:528a0cdd9083"
+  },
+  {
+   "adds": [
+    "Vampire Nocturnus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:94d7e5589a67"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fef8f7d15b79"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98f299942dec"
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:853262a99764"
+  },
+  {
+   "adds": [
+    "Leyline of Transformation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a84ce644cab0"
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fcfc399b8a02"
+  },
+  {
+   "adds": [
+    "Memory Lapse"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:52760943b03c"
+  },
+  {
+   "adds": [
+    "Worldfire"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:64da9d483e88"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6415f6d4e09c"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c5eb3f58b683"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1a9adc07779d"
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2f620622505f"
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0ade03ddaea5"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1ee7fd8ac761"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8cc7a1a0bc1a"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4af73f581aa8"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5921540f1aa1"
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e52b496d1c92"
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:093fa73b7e5d"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1e560a73998d"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:33f85ebc5926"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8b3bd15f3433"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4989e09bc482"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fa0f10fbf206"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c808c193324a"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Faerie Mastermind"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:91a384486326"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b0956075df15"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:53633259d425"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c91752e83c12"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:bc731584813f"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:acb512cb0677"
+  },
+  {
+   "adds": [
+    "Flameshadow Conjuring"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4073f9901436"
+  },
+  {
+   "adds": [
+    "Flameshadow Conjuring"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5f4f3080f8f0"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:be85feef950d"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9959487b4d75"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:661b4551df4d"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fd145a02887c"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0e01a8859761"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7de0f41efbd5"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:63d1df1ad5a0"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:743d5ccb45a7"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:39d311387087"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ff6884d94e38"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d3f7515f2363"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b7eb894202a0"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a60cfe9c512f"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c7ed12d9072a"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e16531fa6263"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f0bfd21535dd"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:682b25a3d47e"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:cffb22816a84"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:75ffbac16123"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:de87bef6bb15"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a9675ea4fe6b"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Faerie Mastermind"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ce095960e906"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:594e9a68b657"
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:eef2e360f2ba"
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3991fadfb4cf"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:37a8de6df214"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8aec5e354eea"
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:dc92d1702e15"
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98d096046ee9"
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:047adb9ce708"
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2f3b8e46550f"
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c888c382e29f"
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0efa7d074e0a"
+  },
+  {
+   "adds": [
+    "Minion Reflector"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:739fbf91671a"
+  },
+  {
+   "adds": [
+    "Minion Reflector"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b4a1b535fb54"
+  },
+  {
+   "adds": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d3d30e08a6f2"
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a69a0f5e52a3"
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2e925c0dfd91"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4bcb2b5df8a4"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2f4b5caad270"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2e906be5bc43"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c184cbb6b03c"
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ccd9d6628df3"
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e2f5a82baa8a"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e0e957db2ba7"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5655324400a5"
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:989f58991cac"
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e2d5293e41c1"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e7b2845c9826"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c1fc74ecacf2"
+  }
+ ]
+}

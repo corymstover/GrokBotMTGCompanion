@@ -1,0 +1,3185 @@
+{
+ "deck_id": "Evelyn__the_Covetous",
+ "list_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "slug": "evelyn-the-covetous",
+ "swaps": [
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2bce155bde25",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ea6c0e86de9e9b10"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:67b85e22c7c4",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:3c4aed69dfc12d24"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Artist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fd54290d8dd1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cordial Vampire"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:892583f3774a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captivating Vampire"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1691cae03458",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Olivia's Wrath"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:af863dcfbcb5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:adcaff0061af2e3e"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia's Wrath"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1ccbb15ae69a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0be53043df56e92d"
+   ]
+  },
+  {
+   "adds": [
+    "Stromkirk Captain"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2c14ec4a3e40",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Indulgent Aristocrat"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:58811419431f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Voldaren Estate"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6f88d1b9781d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2103513ede4aae95"
+   ]
+  },
+  {
+   "adds": [
+    "Glass-Cast Heart"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:850198cdb681",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:39678346d54af041"
+   ]
+  },
+  {
+   "adds": [
+    "Glass-Cast Heart"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c87226d1874c",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8ec3e4039b0f6e1e"
+   ]
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8bd52b2579c7",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:93eeb0879312a494"
+   ]
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:978aeb690769",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:123cb5c519eeecc3"
+   ]
+  },
+  {
+   "adds": [
+    "Sanctum Seeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6caf553a2c1b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Markov Baron"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2eac8b8f42ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodline Necromancer"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8a8d924a6206",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:844d81b2e5ce0d96"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3f40a0b057f1",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:52660e2299f23cff"
+   ]
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8c00a9313f86",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Malakir Bloodwitch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9b972eeb2c6e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Patron of the Vein"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a28db60b6527",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:651c59469692",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Preacher of the Schism"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98959bc3bfdd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Preacher of the Schism"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:18bb3eb8671c",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d9e6f56bbdfc2974"
+   ]
+  },
+  {
+   "adds": [
+    "Champion of Dusk"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d8b7930788ae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Champion of Dusk"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:267ee1b17df3",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0a0198711dfd9e2b"
+   ]
+  },
+  {
+   "adds": [
+    "Scion of Opulence"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ae5961803da1",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e9943cb962733f98"
+   ]
+  },
+  {
+   "adds": [
+    "Scion of Opulence"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b4361da8fbc4",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0ae8936334d71142"
+   ]
+  },
+  {
+   "adds": [
+    "Drana, Liberator of Malakir"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:370d4bd37692",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vampire Socialite"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:89d4be2d68b8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dusk Legion Zealot"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b500ddd02c2f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6c64a54e9ada799e"
+   ]
+  },
+  {
+   "adds": [
+    "Dusk Legion Zealot"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4b302dd514a5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f74fd2cb22ecc892"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:66dd0b5cc855",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d34ee15778d9efc8"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Nighthawk"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:88f137b72462",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vampire of the Dire Moon"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d6feaafedb0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crossway Troublemakers"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:dd6cc46d5d5e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crossway Troublemakers"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:bf30fc648810",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7d1d9e0b7dd9f300"
+   ]
+  },
+  {
+   "adds": [
+    "Nighthawk Scavenger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:91b8790a1739",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Florian, Voldaren Scion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:bdca1a84e370",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Voldaren Epicure"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e1bb4b5503f8",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7cb907e7614704dd"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodghast"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:87c10821d982",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:dbe6168ef1eabc26"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia, Crimson Bride"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3a65fbc84366",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e09d5f7179b39061"
+   ]
+  },
+  {
+   "adds": [
+    "Dusk Legion Sergeant"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6a0ab11648be",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:4fff1fca6f0be3f6"
+   ]
+  },
+  {
+   "adds": [
+    "New Blood"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0ab701ddf8d2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Anje, Maid of Dishonor"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6f31fdb76889",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Echoes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:da46625c6fa5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0798c46d8bed5d27"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Echoes"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7b08a02d2919",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:da87d61762310554"
+   ]
+  },
+  {
+   "adds": [
+    "Strefan, Maurer Progenitor"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1ca01ce454ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ca3edc357515",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ef5693d3e85a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:84957867abed5dd7"
+   ]
+  },
+  {
+   "adds": [
+    "Vito, Thorn of the Dusk Rose"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:755a4c34fd67",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:22a679615321",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d1fe433762350e29"
+   ]
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8ad47625b2ad",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d08864fddd0a71bf"
+   ]
+  },
+  {
+   "adds": [
+    "Anowon, the Ruin Sage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1316d264aa31",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lord Xander, the Collector"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:09955cd0e1fc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dominating Vampire"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6095a07fedd6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corpse Appraiser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fa25c9532bae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nullpriest of Oblivion"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e323d3b7e4f8",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ecb504de80311f24"
+   ]
+  },
+  {
+   "adds": [
+    "Master of Dark Rites"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:42f0dd6bc2bd",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8ba01285995eed61"
+   ]
+  },
+  {
+   "adds": [
+    "Master of Dark Rites"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5e83d056f16d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:752589cf8093e05d"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:49d584b6c9c1",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6673b8e27ae38f06"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:358f55c47aee",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:da7af587094be508"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:51a7be4c02f6",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8fbf9e4cfa574905"
+   ]
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a93fc2ad9a09",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:b3536d71ad45edaf"
+   ]
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:546d840cd0c2",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:5c9391a0dd55f31f"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Seeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:25651bdb4334",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:69dd62cac4ba",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f0b586ed630d8a4f"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8b1ed0008491",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e5c66e4df6bc71d9"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1b1235465ebe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Call the Bloodline"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:052afcb19746",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Call the Bloodline"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98451e85b926",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7e57b03895303cb3"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9f727d9c4249",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2ddb850f97e3bf67"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0e933e389c62",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:1cafa07ea5a03aa6"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Conqueror"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b9ef08f16588",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stensia Masquerade"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b68a987b4b17",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5fe6b85da39a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Qarsi Revenant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b1701bac7140",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodtithe Harvester"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5fbfc5135531",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:64740ef2faeb3386"
+   ]
+  },
+  {
+   "adds": [
+    "Sorin, Imperious Bloodlord"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3152f18d84d3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:25a3f5e06a7a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8b5b32996bcdbcc4"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8a5e0b2442fc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:345e0412b23f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:804270eac39603c8"
+   ]
+  },
+  {
+   "adds": [
+    "Callous Bloodmage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e96a5c7065fb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Olivia Voldaren"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9a672f890ac6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakish Heir"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f20736876f73",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Butcher of Malakir"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4a833f364324",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Charred Foyer // Warped Space"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f6b1dc03c371",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fb4b34ac97bc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:56e8fab40e98",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8360a07e28354373"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:16dae7be44d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Passionate Archaeologist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:36e6482d15b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6eeaa529a19c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Knight of the Ebon Legion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0ac5707fdb92",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:da853992985a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8a468aaa63d83b95"
+   ]
+  },
+  {
+   "adds": [
+    "Markov Enforcer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ba34758f5e7c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4e88d506aa1b",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:855f4f7726119029"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d7ff05a9056a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:c93a9cb4a93545c2"
+   ]
+  },
+  {
+   "adds": [
+    "Queen's Bay Paladin"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fe70ab05fa98",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:809b4c10e64f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d724b66896209e7a"
+   ]
+  },
+  {
+   "adds": [
+    "Midnight Arsonist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:08ea633ffe65",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:698383776ebf",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:9f0e57d347a0b118"
+   ]
+  },
+  {
+   "adds": [
+    "Accursed Duneyard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f44d0b84b320",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:75733b386d252ee3"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:87173181ba3e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gifted Aetherborn"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f0bf7fe80988",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Necropolis Regent"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f2fca4d7f843",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5323df009d7e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1edd32d47cd5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:745816083ee76aa1"
+   ]
+  },
+  {
+   "adds": [
+    "Vampires' Vengeance"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c2489fe1f4c5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0e4ebc77a53c2881"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:465a685bcbc8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodline Bidding"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:592bb5bdc073",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e96e525f25a48f20"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ea9b3306f765",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:c5461c4766fb9dc5"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0e2bd4236501",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e465f7d79d7c4520"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:16aaadf510de",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:761f74457e915408"
+   ]
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:88b137084172",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:3345c62111f56d1f"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e745d5eb88ae",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8212fb0fc444701b"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7d676072db7f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:1c98fb77bea29846"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:961f7ec338c0",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ec557d472c8a8590"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7d8cf49fe7ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sorin the Mirthless"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6ed2eb34fd91",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:84f999a82650",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7280976d3b5c",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:36b41b53c721d532"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:aab0f2d501fa",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:5d281b23aaabbcc8"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b1f1b98af9d4",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6c080ce7c1827def"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:015494684b87",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ce0fe12df48654c5"
+   ]
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:80c075ff5941",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:764378d6ba55",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:4c65be28fc712592"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b4711da1fc74",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7835955901cd3de3"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e9f854e3d962",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:092f274e0fcac981"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b30df61a4c46",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:dbedcb4791c8c4c3"
+   ]
+  },
+  {
+   "adds": [
+    "Last Voyage of the _____"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d4d7856413f1",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d3805d58445c1442"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4365e5d3e170",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:44b40216970684a3"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6328083b193e",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:c3121c63901e27b1"
+   ]
+  },
+  {
+   "adds": [
+    "Fake Your Own Death"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:40ae6481506b",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ee40c179892b5a39"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:24573d2e315f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0011f2663be9",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:06b55aa685c49113"
+   ]
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:92a4198be273",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:023cf5adec822d30"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:702b03c4fb5e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cavern of Souls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:72698af3ea5e",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:661e277c63bc03a8"
+   ]
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5271666e8d5e",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6c9b59477f32a053"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:21c3d5e1113d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2f45d6b6c98d4a0f"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:528a0cdd9083",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vampire Nocturnus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:94d7e5589a67",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fef8f7d15b79",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98f299942dec",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6ce99d824fd1f05e"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:853262a99764",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8f3788c791206af5"
+   ]
+  },
+  {
+   "adds": [
+    "Leyline of Transformation"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a84ce644cab0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fcfc399b8a02",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7437950652386a12"
+   ]
+  },
+  {
+   "adds": [
+    "Memory Lapse"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:52760943b03c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worldfire"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:64da9d483e88",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:df076c7be47c6425"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:6415f6d4e09c",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f025e8a98f4c03aa"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c5eb3f58b683",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:4155db2e01f50789"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1a9adc07779d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:119fbc6643db4d84"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2f620622505f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:70a0c12743ca30a6"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0ade03ddaea5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6b48364c8d8e271d"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1ee7fd8ac761",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:aeee09f43a716760"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8cc7a1a0bc1a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ce16b3930293af2b"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4af73f581aa8",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:63075fa6f35add3b"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5921540f1aa1",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6d7c14bd6c2c938e"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e52b496d1c92",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:3e861d0dcc6d54f5"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:093fa73b7e5d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7158c59653a0950f"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:1e560a73998d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:a2e989969114d5e9"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:33f85ebc5926",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0f28c5e4ff721b26"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8b3bd15f3433",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:35a2bd087c9e606a"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4989e09bc482",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:9d41561a67522649"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fa0f10fbf206",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8dad5e492d6c7de7"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c808c193324a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e15b61087ca036b8"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Faerie Mastermind"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:91a384486326",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2e0120733163aed8"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b0956075df15",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:b9fbf4468f956c11"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:53633259d425",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2a5edb9af1ff4d82"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c91752e83c12",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:71abda05d971be2f"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:bc731584813f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:97501ad0ec72e43d"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:acb512cb0677",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6490c4f5ab0fc28d"
+   ]
+  },
+  {
+   "adds": [
+    "Flameshadow Conjuring"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4073f9901436",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f2e4d284e7e929a0"
+   ]
+  },
+  {
+   "adds": [
+    "Flameshadow Conjuring"
+   ],
+   "cuts": [
+    "Dance of the Dead"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5f4f3080f8f0",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f79c3820c5d90c8a"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:be85feef950d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:47f4791bac3e609d"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:9959487b4d75",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:73f741fbbe7554b1"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:661b4551df4d",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:dbb6b490c708edb1"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:fd145a02887c",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8286c48a52221185"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0e01a8859761",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f209f9507d0d63aa"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:7de0f41efbd5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:db77d9e60b7e6693"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:63d1df1ad5a0",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:5936d41dd5998fd2"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:743d5ccb45a7",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ef0d39dd49db6006"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:39d311387087",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:c92d5845d071b5f3"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ff6884d94e38",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7a94be6ccee22ca8"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d3f7515f2363",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:b79ba99a1712bdc0"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b7eb894202a0",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:02766230e90a8da3"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a60cfe9c512f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:1a571e9b9e40f18d"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c7ed12d9072a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:be9ebdd4686810fe"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e16531fa6263",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:a561b831206af2aa"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:f0bfd21535dd",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:be4245d3b186b300"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:682b25a3d47e",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:88e34f1a05972ef7"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:cffb22816a84",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d614ab77f2357f11"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:75ffbac16123",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:6df05d3d1a045792"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:de87bef6bb15",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2ce0762e06c052f2"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a9675ea4fe6b",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:95a97e919a3b753d"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Faerie Mastermind"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ce095960e906",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:caea9c90f84921e0"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:594e9a68b657",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7997f48a5b1876dc"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:eef2e360f2ba",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:391bbf4676395132"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:3991fadfb4cf",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2a6b9c38a0f863cc"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:37a8de6df214",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:f46e8fa1e7ce0069"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:8aec5e354eea",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7e09c2ddd2f8b76c"
+   ]
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:dc92d1702e15",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:0fff43d576fdb970"
+   ]
+  },
+  {
+   "adds": [
+    "Scholar of the Ages"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:98d096046ee9",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:dd514596e57c2d93"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:047adb9ce708",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:481643250c0a6627"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2f3b8e46550f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:a6c6389d6e0f9771"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c888c382e29f",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:7162d2083e7c981f"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:0efa7d074e0a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:454b8d7c225f1c37"
+   ]
+  },
+  {
+   "adds": [
+    "Minion Reflector"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:739fbf91671a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:74d502bfa8b1c1e0"
+   ]
+  },
+  {
+   "adds": [
+    "Minion Reflector"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:b4a1b535fb54",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:47a3727b672afff7"
+   ]
+  },
+  {
+   "adds": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:d3d30e08a6f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:a69a0f5e52a3",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:481b5860114c1b2e"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2e925c0dfd91",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e027bf1cf8828751"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:4bcb2b5df8a4",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:fb1422cb0cabac08"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2f4b5caad270",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:29a1ab74a44bd699"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:2e906be5bc43",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:8cb24123b8c67e4b"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Faithless Looting"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c184cbb6b03c",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:2367350f1808dc4f"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:ccd9d6628df3",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:19814fd562b6f0d5"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e2f5a82baa8a",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:e243854a0a29229f"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e0e957db2ba7",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:9fa05124c0a9205f"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:5655324400a5",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:9fd3be47b5ca08cc"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:989f58991cac",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:d97d8a1cb97d8e23"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e2d5293e41c1",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:9368ddf5aa682d56"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Redirect Lightning"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:e7b2845c9826",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:ec28a649de88798c"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:evelyn-the-covetous:m5:c1fc74ecacf2",
+   "tests": [
+    "test:evelyn-the-covetous:goldfish:b0caf6eb473f7b47"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ea6c0e86de9e9b10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:3c4aed69dfc12d24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:adcaff0061af2e3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0be53043df56e92d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2103513ede4aae95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:39678346d54af041",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8ec3e4039b0f6e1e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:93eeb0879312a494",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:123cb5c519eeecc3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:844d81b2e5ce0d96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:52660e2299f23cff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d9e6f56bbdfc2974",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0a0198711dfd9e2b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e9943cb962733f98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0ae8936334d71142",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6c64a54e9ada799e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f74fd2cb22ecc892",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d34ee15778d9efc8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7d1d9e0b7dd9f300",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7cb907e7614704dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:dbe6168ef1eabc26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e09d5f7179b39061",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:4fff1fca6f0be3f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0798c46d8bed5d27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:da87d61762310554",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:84957867abed5dd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d1fe433762350e29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d08864fddd0a71bf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ecb504de80311f24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8ba01285995eed61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:752589cf8093e05d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6673b8e27ae38f06",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:da7af587094be508",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8fbf9e4cfa574905",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:b3536d71ad45edaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:5c9391a0dd55f31f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f0b586ed630d8a4f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e5c66e4df6bc71d9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7e57b03895303cb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2ddb850f97e3bf67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:1cafa07ea5a03aa6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:64740ef2faeb3386",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8b5b32996bcdbcc4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:804270eac39603c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8360a07e28354373",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8a468aaa63d83b95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:855f4f7726119029",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:c93a9cb4a93545c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d724b66896209e7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:9f0e57d347a0b118",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:75733b386d252ee3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:745816083ee76aa1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0e4ebc77a53c2881",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e96e525f25a48f20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:c5461c4766fb9dc5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e465f7d79d7c4520",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:761f74457e915408",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:3345c62111f56d1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8212fb0fc444701b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:1c98fb77bea29846",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ec557d472c8a8590",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:36b41b53c721d532",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:5d281b23aaabbcc8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6c080ce7c1827def",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ce0fe12df48654c5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:4c65be28fc712592",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7835955901cd3de3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:092f274e0fcac981",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:dbedcb4791c8c4c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d3805d58445c1442",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:44b40216970684a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:c3121c63901e27b1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ee40c179892b5a39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:06b55aa685c49113",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:023cf5adec822d30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:661e277c63bc03a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6c9b59477f32a053",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2f45d6b6c98d4a0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6ce99d824fd1f05e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8f3788c791206af5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7437950652386a12",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:df076c7be47c6425",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f025e8a98f4c03aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:4155db2e01f50789",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:119fbc6643db4d84",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:70a0c12743ca30a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6b48364c8d8e271d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:aeee09f43a716760",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ce16b3930293af2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:63075fa6f35add3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6d7c14bd6c2c938e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:3e861d0dcc6d54f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7158c59653a0950f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:a2e989969114d5e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0f28c5e4ff721b26",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:35a2bd087c9e606a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:9d41561a67522649",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8dad5e492d6c7de7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e15b61087ca036b8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2e0120733163aed8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:b9fbf4468f956c11",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2a5edb9af1ff4d82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:71abda05d971be2f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:97501ad0ec72e43d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6490c4f5ab0fc28d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f2e4d284e7e929a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f79c3820c5d90c8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:47f4791bac3e609d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:73f741fbbe7554b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:dbb6b490c708edb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8286c48a52221185",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f209f9507d0d63aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:db77d9e60b7e6693",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:5936d41dd5998fd2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ef0d39dd49db6006",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:c92d5845d071b5f3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7a94be6ccee22ca8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:b79ba99a1712bdc0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:02766230e90a8da3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:1a571e9b9e40f18d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:be9ebdd4686810fe",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:a561b831206af2aa",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:be4245d3b186b300",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:88e34f1a05972ef7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d614ab77f2357f11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:6df05d3d1a045792",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2ce0762e06c052f2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:95a97e919a3b753d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:caea9c90f84921e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7997f48a5b1876dc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:391bbf4676395132",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2a6b9c38a0f863cc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:f46e8fa1e7ce0069",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7e09c2ddd2f8b76c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:0fff43d576fdb970",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:dd514596e57c2d93",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:481643250c0a6627",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:a6c6389d6e0f9771",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:7162d2083e7c981f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:454b8d7c225f1c37",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:74d502bfa8b1c1e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:47a3727b672afff7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:481b5860114c1b2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e027bf1cf8828751",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:fb1422cb0cabac08",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:29a1ab74a44bd699",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:8cb24123b8c67e4b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:2367350f1808dc4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:19814fd562b6f0d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:e243854a0a29229f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:9fa05124c0a9205f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:9fd3be47b5ca08cc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:d97d8a1cb97d8e23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:9368ddf5aa682d56",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:ec28a649de88798c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:evelyn-the-covetous:goldfish:b0caf6eb473f7b47",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

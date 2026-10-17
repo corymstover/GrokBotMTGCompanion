@@ -1,0 +1,4967 @@
+{
+ "deck_id": "Dr__Eggman",
+ "list_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+ "slug": "dr-eggman",
+ "swaps": [
+  {
+   "adds": [
+    "Steel Overseer"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:bfdb537db801",
+   "tests": [
+    "test:dr-eggman:goldfish:b4c5a584f4fb8851"
+   ]
+  },
+  {
+   "adds": [
+    "Steel Overseer"
+   ],
+   "cuts": [
+    "Thunderhawk Gunship"
+   ],
+   "id": "swap:dr-eggman:m5:d4ca8ce55c6f",
+   "tests": [
+    "test:dr-eggman:goldfish:fb3c79f3f1f0c296"
+   ]
+  },
+  {
+   "adds": [
+    "Torrential Gearhulk"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:aaf734ffbf9b",
+   "tests": [
+    "test:dr-eggman:goldfish:adb1035b93aa8613"
+   ]
+  },
+  {
+   "adds": [
+    "Torrential Gearhulk"
+   ],
+   "cuts": [
+    "Thunderhawk Gunship"
+   ],
+   "id": "swap:dr-eggman:m5:47c6e8d7ab8f",
+   "tests": [
+    "test:dr-eggman:goldfish:be9a0a2b8f1542cf"
+   ]
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:85e2fea22a7d",
+   "tests": [
+    "test:dr-eggman:goldfish:2cefbc725b2f2f25"
+   ]
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b4ad265aef08",
+   "tests": [
+    "test:dr-eggman:goldfish:f1f9de123fa689e7"
+   ]
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Thunderhawk Gunship"
+   ],
+   "id": "swap:dr-eggman:m5:92f235b50f86",
+   "tests": [
+    "test:dr-eggman:goldfish:67f5b920d5b5b33a"
+   ]
+  },
+  {
+   "adds": [
+    "Great Intelligence's Plan"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:6cbcaf256831",
+   "tests": [
+    "test:dr-eggman:goldfish:cf71893aa017646f"
+   ]
+  },
+  {
+   "adds": [
+    "Damocles Base, Sword of Kang"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:e71d453fec8d",
+   "tests": [
+    "test:dr-eggman:goldfish:dd92b61aaca4a368"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:3575af3157f6",
+   "tests": [
+    "test:dr-eggman:goldfish:3d1df23fac21d66c"
+   ]
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Entropic Battlecruiser"
+   ],
+   "id": "swap:dr-eggman:m5:4815f119a074",
+   "tests": [
+    "test:dr-eggman:goldfish:93c9d564f9da6d79"
+   ]
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Tinybones, Bauble Burglar"
+   ],
+   "id": "swap:dr-eggman:m5:552a48a82c0c",
+   "tests": [
+    "test:dr-eggman:goldfish:a8a7e62eecad0df8"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:bcf2c87fbd1a",
+   "tests": [
+    "test:dr-eggman:goldfish:7fb96909a67d6e25"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Spy Network"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:1e2e736f5547",
+   "tests": [
+    "test:dr-eggman:goldfish:1136c4799b662860"
+   ]
+  },
+  {
+   "adds": [
+    "Tri-Sentinel, Act of Vengeance"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:4e2a6c480904",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Barbed Servitor"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:12fbf5f4d25f",
+   "tests": [
+    "test:dr-eggman:goldfish:911c6b4c4d4c4819"
+   ]
+  },
+  {
+   "adds": [
+    "Etherium Sculptor"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:a38430097873",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Etherium Sculptor"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:263630ac8e72",
+   "tests": [
+    "test:dr-eggman:goldfish:6989549b3cd5577a"
+   ]
+  },
+  {
+   "adds": [
+    "Big Mother Mouser"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:cc9031dfcaf9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pinnacle Emissary"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:0f107527aa7c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reaver Titan"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:5a19a95d906b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reaver Titan"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:1e5ce0c794ec",
+   "tests": [
+    "test:dr-eggman:goldfish:50404057157de13f"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:dr-eggman:m5:a235f6a35b22",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Diversion Unit"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:dr-eggman:m5:8609b63b9ae3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "Davros, Dalek Creator"
+   ],
+   "id": "swap:dr-eggman:m5:0cb7df6c65c3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Desynchronization"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:dr-eggman:m5:f8ef2c82944c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Desynchronization"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:dr-eggman:m5:78c96c373113",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ruin Grinder"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:899f3a5afa4b",
+   "tests": [
+    "test:dr-eggman:goldfish:8cee2780c205805c"
+   ]
+  },
+  {
+   "adds": [
+    "Weatherlight"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:5fd89eaf9128",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Weatherlight"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:96e7c6ccd18a",
+   "tests": [
+    "test:dr-eggman:goldfish:fe499f36de3a53b2"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:b206ab5d808b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scavenged Brawler"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8d401980051a",
+   "tests": [
+    "test:dr-eggman:goldfish:e2748bb6dbd347c4"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:cca90f94d489",
+   "tests": [
+    "test:dr-eggman:goldfish:6357b90f53fcf459"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:a9e38ea513ea",
+   "tests": [
+    "test:dr-eggman:goldfish:b4b68fa3fc820827"
+   ]
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:79e3c9fce245",
+   "tests": [
+    "test:dr-eggman:goldfish:0d9383a3dd62e2c2"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:93b2a8a45a54",
+   "tests": [
+    "test:dr-eggman:goldfish:d85d7fee2d3eef4f"
+   ]
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:d65127b0cb97",
+   "tests": [
+    "test:dr-eggman:goldfish:e7adc07a72574ab3"
+   ]
+  },
+  {
+   "adds": [
+    "Ravenous Robots"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:559752a89065",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Interceptor Mechan"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:2b859940b987",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Enthusiastic Mechanaut"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:31119561a783",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Enthusiastic Mechanaut"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:17a3059a391e",
+   "tests": [
+    "test:dr-eggman:goldfish:22d5fc5c9a7e6eed"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:88b30eb4f03c",
+   "tests": [
+    "test:dr-eggman:goldfish:1687f7c828c7c9f0"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:0636e06275d8",
+   "tests": [
+    "test:dr-eggman:goldfish:c758a5c4d1a5ade7"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron the Annihilator"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:088a289d4c98",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Su-Chi Cave Guard"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:dd2cfef1b336",
+   "tests": [
+    "test:dr-eggman:goldfish:cc1e4e1c570db019"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:a49ad1be349a",
+   "tests": [
+    "test:dr-eggman:goldfish:f7acdc5fe087e83b"
+   ]
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:5cfccf308a8f",
+   "tests": [
+    "test:dr-eggman:goldfish:6d43b9aa1cece9f8"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:db5ba6c5aa82",
+   "tests": [
+    "test:dr-eggman:goldfish:5b7276937d59004f"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:9505c9d370c9",
+   "tests": [
+    "test:dr-eggman:goldfish:fa079d3ce7bee765"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:36c5df8458e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emissary Escort"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:59b533f031cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rose, Cutthroat Raider"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:cfdcbaf21370",
+   "tests": [
+    "test:dr-eggman:goldfish:39e7db889a4236ed"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:4e43dcd46a38",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Delete"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:4da7404a58a9",
+   "tests": [
+    "test:dr-eggman:goldfish:eb5a0375a9a4856d"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttling Doom Engine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2e056997777b",
+   "tests": [
+    "test:dr-eggman:goldfish:9ea663cc9589914d"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:b0838b47f7a6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:f22844a7184c",
+   "tests": [
+    "test:dr-eggman:goldfish:31f4fe9c091fb87e"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:dr-eggman:m5:15ee14cfd0e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:9c70fd109978",
+   "tests": [
+    "test:dr-eggman:goldfish:275cf4a0eac06f7b"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:cfc43f1db096",
+   "tests": [
+    "test:dr-eggman:goldfish:08bf3c38a5306d3a"
+   ]
+  },
+  {
+   "adds": [
+    "The Fire Nation Drill"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:fbf1df048014",
+   "tests": []
+  },
+  {
+   "adds": [
+    "RMS Titanic"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:2696564ce9da",
+   "tests": [
+    "test:dr-eggman:goldfish:8657d062bc31af04"
+   ]
+  },
+  {
+   "adds": [
+    "Mechtitan Core"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:dr-eggman:m5:d3f60904c956",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:b457e4f980b5",
+   "tests": [
+    "test:dr-eggman:goldfish:5be75d5b209e9f68"
+   ]
+  },
+  {
+   "adds": [
+    "Virulent Silencer"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:2a47b73e9795",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Imposter Mech"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:7c7c2406a7a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:dr-eggman:m5:10c389aae43a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:167215a58166",
+   "tests": [
+    "test:dr-eggman:goldfish:bfb54a69abb617ea"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thunderhawk Gunship"
+   ],
+   "id": "swap:dr-eggman:m5:0b36a4649456",
+   "tests": [
+    "test:dr-eggman:goldfish:04e0a8c9b6f1f015"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:466a2a87b2bf",
+   "tests": [
+    "test:dr-eggman:goldfish:be9c1de14f92feb0"
+   ]
+  },
+  {
+   "adds": [
+    "Panther Robot"
+   ],
+   "cuts": [
+    "Mechan Assembler"
+   ],
+   "id": "swap:dr-eggman:m5:435894c3ba47",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "cuts": [
+    "Kuldotha Forgemaster"
+   ],
+   "id": "swap:dr-eggman:m5:764ad04a19de",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:06839f0d7d08",
+   "tests": [
+    "test:dr-eggman:goldfish:f484496895a2fe25"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Kuldotha Forgemaster"
+   ],
+   "id": "swap:dr-eggman:m5:b063bc47d96d",
+   "tests": [
+    "test:dr-eggman:goldfish:133e076c3bacf962"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:903ffe53df91",
+   "tests": [
+    "test:dr-eggman:goldfish:3ef703cc433c1f38"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Entropic Battlecruiser"
+   ],
+   "id": "swap:dr-eggman:m5:9d5a58428b63",
+   "tests": [
+    "test:dr-eggman:goldfish:cf5283f8b6e3ed49"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Tinybones, Bauble Burglar"
+   ],
+   "id": "swap:dr-eggman:m5:09a5629953aa",
+   "tests": [
+    "test:dr-eggman:goldfish:bdba8eb1d03f2187"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:597236654a9e",
+   "tests": [
+    "test:dr-eggman:goldfish:8c79ee568001154e"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:029d58884b52",
+   "tests": [
+    "test:dr-eggman:goldfish:1395194c36d18900"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:6bf91d18e80e",
+   "tests": [
+    "test:dr-eggman:goldfish:ea3d4a0ffe725b2b"
+   ]
+  },
+  {
+   "adds": [
+    "Walking Skyscraper"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:dr-eggman:m5:6ac6772950f1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:56f098acb0f4",
+   "tests": [
+    "test:dr-eggman:goldfish:1d9d6722b2d3ed6c"
+   ]
+  },
+  {
+   "adds": [
+    "The Indomitable"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:15702607b30d",
+   "tests": [
+    "test:dr-eggman:goldfish:f35cd991abaaf451"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:d20b71171282",
+   "tests": [
+    "test:dr-eggman:goldfish:a382b254d48fa50f"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:f82c5d9d1403",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:6ccc325aee4f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Entropic Battlecruiser"
+   ],
+   "id": "swap:dr-eggman:m5:98d5aa2f2533",
+   "tests": [
+    "test:dr-eggman:goldfish:93d65faa23041999"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Tinybones, Bauble Burglar"
+   ],
+   "id": "swap:dr-eggman:m5:f9bdbdafd1cb",
+   "tests": [
+    "test:dr-eggman:goldfish:352f4caeccd86a6c"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Entropic Battlecruiser"
+   ],
+   "id": "swap:dr-eggman:m5:5b1dd5132c77",
+   "tests": [
+    "test:dr-eggman:goldfish:fc9bd5b010a2c9c2"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Tinybones, Bauble Burglar"
+   ],
+   "id": "swap:dr-eggman:m5:ca0f557e7570",
+   "tests": [
+    "test:dr-eggman:goldfish:9a9fd0629fe6ae99"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:d537a3228fa1",
+   "tests": [
+    "test:dr-eggman:goldfish:f37ff1bad20cd2b9"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:6b75ffc46c0c",
+   "tests": [
+    "test:dr-eggman:goldfish:d2f728efd4b615ac"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:40fec0bc7696",
+   "tests": [
+    "test:dr-eggman:goldfish:1c1bcd2f10840690"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:276a3de166b0",
+   "tests": [
+    "test:dr-eggman:goldfish:be10823b84071437"
+   ]
+  },
+  {
+   "adds": [
+    "Craterclaw Colossus"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:32c39dacd777",
+   "tests": [
+    "test:dr-eggman:goldfish:5f7cd220c54bb450"
+   ]
+  },
+  {
+   "adds": [
+    "Genesis of the Daleks"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:dr-eggman:m5:2185e903c014",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fomori Vault"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:5fb3e129dfd0",
+   "tests": [
+    "test:dr-eggman:goldfish:74292dcb16969f11"
+   ]
+  },
+  {
+   "adds": [
+    "Shrine Steward"
+   ],
+   "cuts": [
+    "Kuldotha Forgemaster"
+   ],
+   "id": "swap:dr-eggman:m5:c8c33b1ea431",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Walking Ballista"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:3a8fae6ac9ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Page, Loose Leaf"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:2a82eb7354da",
+   "tests": [
+    "test:dr-eggman:goldfish:101a3d58848df3e9"
+   ]
+  },
+  {
+   "adds": [
+    "Volatile Rig"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:dr-eggman:m5:b9a249ecceb3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Biblioplex Tomekeeper"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:746fa38773c9",
+   "tests": [
+    "test:dr-eggman:goldfish:6ae5e874ea7c8b33"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:f05ade185892",
+   "tests": [
+    "test:dr-eggman:goldfish:1288605a460b8124"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:99707ec00bc5",
+   "tests": [
+    "test:dr-eggman:goldfish:dc17c586b93f7b31"
+   ]
+  },
+  {
+   "adds": [
+    "Traxos, Academy Guardian"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:f158022568f7",
+   "tests": [
+    "test:dr-eggman:goldfish:da68e74cb7bff56e"
+   ]
+  },
+  {
+   "adds": [
+    "Traxos, Scourge Eternal"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:124798bdb32e",
+   "tests": [
+    "test:dr-eggman:goldfish:3e5fc0c810da90b5"
+   ]
+  },
+  {
+   "adds": [
+    "Mage Tower Referee"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:1b725be62b39",
+   "tests": [
+    "test:dr-eggman:goldfish:7158079840d10dae"
+   ]
+  },
+  {
+   "adds": [
+    "Street Sweeper"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:dr-eggman:m5:05f4fe49c6e8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:92a12171c787",
+   "tests": [
+    "test:dr-eggman:goldfish:a38f4bd6c6c12ed9"
+   ]
+  },
+  {
+   "adds": [
+    "Silent Arbiter"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2952431e0a67",
+   "tests": [
+    "test:dr-eggman:goldfish:142117f38cf09151"
+   ]
+  },
+  {
+   "adds": [
+    "Millikin"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:81247cfae40c",
+   "tests": [
+    "test:dr-eggman:goldfish:e94d87b0c9b59b8b"
+   ]
+  },
+  {
+   "adds": [
+    "Cultivator's Caravan"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:28c530233a4f",
+   "tests": [
+    "test:dr-eggman:goldfish:0cd0de4a02bb4401"
+   ]
+  },
+  {
+   "adds": [
+    "Hangarback Walker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a4562693716d",
+   "tests": [
+    "test:dr-eggman:goldfish:129ac9956777453a"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b0dcb1b3f87e",
+   "tests": [
+    "test:dr-eggman:goldfish:94a45c34d7928a94"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:b4e875abb9be",
+   "tests": [
+    "test:dr-eggman:goldfish:df8a8406049a1d60"
+   ]
+  },
+  {
+   "adds": [
+    "Adaptive Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:01d0099736a7",
+   "tests": [
+    "test:dr-eggman:goldfish:4806de19be58c8e9"
+   ]
+  },
+  {
+   "adds": [
+    "Containment Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b7d4fc58e8f8",
+   "tests": [
+    "test:dr-eggman:goldfish:c96c77b6f88e461e"
+   ]
+  },
+  {
+   "adds": [
+    "Stuffy Doll"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:d40a6ec8051c",
+   "tests": [
+    "test:dr-eggman:goldfish:e3dc61899c39c2b2"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:44104a6dbbc7",
+   "tests": [
+    "test:dr-eggman:goldfish:55ce617c293a68df"
+   ]
+  },
+  {
+   "adds": [
+    "PuPu UFO"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:599e01ec83b2",
+   "tests": [
+    "test:dr-eggman:goldfish:cb7611dc702152c7"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:5066359acb18",
+   "tests": [
+    "test:dr-eggman:goldfish:ab2b7be65b8a0810"
+   ]
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:d2835380c2e8",
+   "tests": [
+    "test:dr-eggman:goldfish:00727c3f599a95ee"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:07edb7f0e191",
+   "tests": [
+    "test:dr-eggman:goldfish:51c46c88a9e3aef5"
+   ]
+  },
+  {
+   "adds": [
+    "Zenith Chronicler"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:38528507ff5b",
+   "tests": [
+    "test:dr-eggman:goldfish:49042f53af152eda"
+   ]
+  },
+  {
+   "adds": [
+    "Crystalline Crawler"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:50da202f32b5",
+   "tests": [
+    "test:dr-eggman:goldfish:1902e1a7dc644aa4"
+   ]
+  },
+  {
+   "adds": [
+    "Walking Atlas"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:9353bcabaac0",
+   "tests": [
+    "test:dr-eggman:goldfish:fa9036bf8ec452c7"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Walker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a6eedb266d30",
+   "tests": [
+    "test:dr-eggman:goldfish:84034564b7d741a6"
+   ]
+  },
+  {
+   "adds": [
+    "Tiller Engine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:70a4c6d98b34",
+   "tests": [
+    "test:dr-eggman:goldfish:8ea583e17592545c"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:dr-eggman:m5:ee9f913ea97d",
+   "tests": [
+    "test:dr-eggman:goldfish:aa8469939cc160e3"
+   ]
+  },
+  {
+   "adds": [
+    "Metalworker"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:86d3fa02a1ba",
+   "tests": [
+    "test:dr-eggman:goldfish:e5259c9330c74475"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Crawler"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:bc9dd4705626",
+   "tests": [
+    "test:dr-eggman:goldfish:3a68733a5b700f91"
+   ]
+  },
+  {
+   "adds": [
+    "Marketback Walker"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:e1107e2f1371",
+   "tests": [
+    "test:dr-eggman:goldfish:baa31a1beaf19965"
+   ]
+  },
+  {
+   "adds": [
+    "Traxos, Scourge of Kroog"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:69d016d7e0e6",
+   "tests": [
+    "test:dr-eggman:goldfish:854763d9f8598ada"
+   ]
+  },
+  {
+   "adds": [
+    "Workshop Assistant"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:9518e8c91dfc",
+   "tests": [
+    "test:dr-eggman:goldfish:52f6bd244bdfeb42"
+   ]
+  },
+  {
+   "adds": [
+    "Rug of Smothering"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8be30e0ee4d3",
+   "tests": [
+    "test:dr-eggman:goldfish:05ae9db732ea6821"
+   ]
+  },
+  {
+   "adds": [
+    "Manakin"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:5d8701f02357",
+   "tests": [
+    "test:dr-eggman:goldfish:41f8782e9933f78b"
+   ]
+  },
+  {
+   "adds": [
+    "Unruly Catapult"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:d0468312e50f",
+   "tests": [
+    "test:dr-eggman:goldfish:c1811028270f4498"
+   ]
+  },
+  {
+   "adds": [
+    "Triskelion"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:da7e0e92a85a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Phyrexian Soulgorger"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e81a81632d29",
+   "tests": [
+    "test:dr-eggman:goldfish:3441dce1dddbd3cf"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Apprentice"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c677cd62d4a9",
+   "tests": [
+    "test:dr-eggman:goldfish:817304c3a0b0a423"
+   ]
+  },
+  {
+   "adds": [
+    "The Peregrine Dynamo"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2c6a87a4af3e",
+   "tests": [
+    "test:dr-eggman:goldfish:88d1deec5a177489"
+   ]
+  },
+  {
+   "adds": [
+    "Skitterbeam Battalion"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:7a6acb89ab8d",
+   "tests": [
+    "test:dr-eggman:goldfish:c47f3c06238ae516"
+   ]
+  },
+  {
+   "adds": [
+    "Marching Duodrone"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:4fecad2cd471",
+   "tests": [
+    "test:dr-eggman:goldfish:c93fcd982f95f6b0"
+   ]
+  },
+  {
+   "adds": [
+    "Armory Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c0a8f5fb8f91",
+   "tests": [
+    "test:dr-eggman:goldfish:e1821c8fbeca2436"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2e8d587b11ca",
+   "tests": [
+    "test:dr-eggman:goldfish:ba8757431e4d4f4d"
+   ]
+  },
+  {
+   "adds": [
+    "Towashi Guide-Bot"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:e8ba702703d5",
+   "tests": [
+    "test:dr-eggman:goldfish:ac4658e9068c87cb"
+   ]
+  },
+  {
+   "adds": [
+    "Grid Monitor"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3e2447e41fa4",
+   "tests": [
+    "test:dr-eggman:goldfish:450edb6910d53603"
+   ]
+  },
+  {
+   "adds": [
+    "Arcbound Worker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8438a74629fb",
+   "tests": [
+    "test:dr-eggman:goldfish:82e1eeb5e3638c59"
+   ]
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:11ec1733de2c",
+   "tests": [
+    "test:dr-eggman:goldfish:5b645b2faae68f18"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:992ece71f784",
+   "tests": [
+    "test:dr-eggman:goldfish:835b5155e13be2e9"
+   ]
+  },
+  {
+   "adds": [
+    "Creepy Doll"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e2745c4fe4c9",
+   "tests": [
+    "test:dr-eggman:goldfish:a56353c8cdbd166d"
+   ]
+  },
+  {
+   "adds": [
+    "Corridor Monitor"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b5840f9fb5f4",
+   "tests": [
+    "test:dr-eggman:goldfish:6475d6f979406066"
+   ]
+  },
+  {
+   "adds": [
+    "Lupine Prototype"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:633ab4fa8794",
+   "tests": [
+    "test:dr-eggman:goldfish:c53370c523e598b1"
+   ]
+  },
+  {
+   "adds": [
+    "Cathodion"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:a4b06b59613d",
+   "tests": [
+    "test:dr-eggman:goldfish:397868dbf721ca00"
+   ]
+  },
+  {
+   "adds": [
+    "Technodrome"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:fb3f5300a65a",
+   "tests": [
+    "test:dr-eggman:goldfish:aabc64a4db01bdb9"
+   ]
+  },
+  {
+   "adds": [
+    "Bronze Bombshell"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:7ec306087cdb",
+   "tests": [
+    "test:dr-eggman:goldfish:e77e6d2c8758588d"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Servant"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c3aa66c771eb",
+   "tests": [
+    "test:dr-eggman:goldfish:14d50d04ad1ec7e9"
+   ]
+  },
+  {
+   "adds": [
+    "Gate Colossus"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:fff97a72d00b",
+   "tests": [
+    "test:dr-eggman:goldfish:2bad85c156f61ec0"
+   ]
+  },
+  {
+   "adds": [
+    "Viseling"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:7085ac333a3b",
+   "tests": [
+    "test:dr-eggman:goldfish:6955d3eb71bc2522"
+   ]
+  },
+  {
+   "adds": [
+    "Shambling Suit"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:9945077cca88",
+   "tests": [
+    "test:dr-eggman:goldfish:2078cd744b109252"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Keeper"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:bef76eb892bd",
+   "tests": [
+    "test:dr-eggman:goldfish:f4487f3a9f017843"
+   ]
+  },
+  {
+   "adds": [
+    "Pentavus"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3dd069e90d55",
+   "tests": [
+    "test:dr-eggman:goldfish:9196bae8963dc050"
+   ]
+  },
+  {
+   "adds": [
+    "Electrostatic Pummeler"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:15205184d072",
+   "tests": [
+    "test:dr-eggman:goldfish:e1decacfbc178cc0"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b5ea873cadc0",
+   "tests": [
+    "test:dr-eggman:goldfish:254dc5f3bd8ef84d"
+   ]
+  },
+  {
+   "adds": [
+    "Pit Automaton"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:ef7a74b6d217",
+   "tests": [
+    "test:dr-eggman:goldfish:db87594c175e9dbd"
+   ]
+  },
+  {
+   "adds": [
+    "Skittering Surveyor"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:37c19cc207ad",
+   "tests": [
+    "test:dr-eggman:goldfish:375f86a424a39e42"
+   ]
+  },
+  {
+   "adds": [
+    "Valkyrie Aerial Unit"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:60deabe03ca6",
+   "tests": [
+    "test:dr-eggman:goldfish:5af5064ae4c01a3e"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Statue // Forsaken Thresher"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:012503d3ec55",
+   "tests": [
+    "test:dr-eggman:goldfish:6d69189396b91342"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Courier"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:3015d57104aa",
+   "tests": [
+    "test:dr-eggman:goldfish:7cca3a303d133338"
+   ]
+  },
+  {
+   "adds": [
+    "Marut"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:fffd18ffafd9",
+   "tests": [
+    "test:dr-eggman:goldfish:dcf0970a31a3b916"
+   ]
+  },
+  {
+   "adds": [
+    "Magic Pot"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:7a2b03c54253",
+   "tests": [
+    "test:dr-eggman:goldfish:e30bde075bea507b"
+   ]
+  },
+  {
+   "adds": [
+    "Exterminator Magmarch"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:991a047f423c",
+   "tests": [
+    "test:dr-eggman:goldfish:b8d5f335e93a62cf"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Digester"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:eadfb71707f7",
+   "tests": [
+    "test:dr-eggman:goldfish:926457f0ed85be3f"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:443a310e8bca",
+   "tests": [
+    "test:dr-eggman:goldfish:786e019d245fc7fe"
+   ]
+  },
+  {
+   "adds": [
+    "Runed Servitor"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:f35986a44522",
+   "tests": [
+    "test:dr-eggman:goldfish:c97929cc5c01060b"
+   ]
+  },
+  {
+   "adds": [
+    "Epochrasite"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8571404c5c92",
+   "tests": [
+    "test:dr-eggman:goldfish:7573290d4dad14a3"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Ruin"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:96c2cdbf981c",
+   "tests": [
+    "test:dr-eggman:goldfish:5157e118eb09ad90"
+   ]
+  },
+  {
+   "adds": [
+    "Surge Engine"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:b2ae691a2682",
+   "tests": [
+    "test:dr-eggman:goldfish:cc23ca61c3e7d1e1"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Marauder"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:4e25fbed6884",
+   "tests": [
+    "test:dr-eggman:goldfish:aec05bbbcdd8d5fc"
+   ]
+  },
+  {
+   "adds": [
+    "Reito Sentinel"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:ea56b7389b45",
+   "tests": [
+    "test:dr-eggman:goldfish:580d0f555604c435"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitive Puppet"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:becad794435a",
+   "tests": [
+    "test:dr-eggman:goldfish:5e5efa402bb42479"
+   ]
+  },
+  {
+   "adds": [
+    "Staunch Throneguard"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:fb2dc4b22657",
+   "tests": [
+    "test:dr-eggman:goldfish:f232997ac23d0d2a"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:56013a492427",
+   "tests": [
+    "test:dr-eggman:goldfish:b05c57b77b84686a"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:dr-eggman:m5:da691ba052f3",
+   "tests": [
+    "test:dr-eggman:goldfish:33bb8d6b697f9b6b"
+   ]
+  },
+  {
+   "adds": [
+    "Sparring Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a3c18475ec20",
+   "tests": [
+    "test:dr-eggman:goldfish:964e668da5e6cb8f"
+   ]
+  },
+  {
+   "adds": [
+    "Magnetic Snuffler"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3416b4f75e9c",
+   "tests": [
+    "test:dr-eggman:goldfish:27e11d3152c069bb"
+   ]
+  },
+  {
+   "adds": [
+    "Eager Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8b3e4a5dd058",
+   "tests": [
+    "test:dr-eggman:goldfish:91eb32e5756818d9"
+   ]
+  },
+  {
+   "adds": [
+    "Monoskelion"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:e01caaa3145d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stone Retrieval Unit"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3d75fd1bab35",
+   "tests": [
+    "test:dr-eggman:goldfish:ddea5e2be11db360"
+   ]
+  },
+  {
+   "adds": [
+    "News Helicopter"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:82e3711c5b09",
+   "tests": [
+    "test:dr-eggman:goldfish:0e43f31484edecb0"
+   ]
+  },
+  {
+   "adds": [
+    "Camera Launcher"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:68163696a44e",
+   "tests": [
+    "test:dr-eggman:goldfish:01dddea0da99c35a"
+   ]
+  },
+  {
+   "adds": [
+    "Blitz Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:54d931f356d4",
+   "tests": [
+    "test:dr-eggman:goldfish:d84b50bd1f345847"
+   ]
+  },
+  {
+   "adds": [
+    "Malevolent Chandelier"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a8ef32137141",
+   "tests": [
+    "test:dr-eggman:goldfish:284ee257b0902888"
+   ]
+  },
+  {
+   "adds": [
+    "Terror Ballista"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:779e792c7c3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Multiform Wonder"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:45f1dd45d91d",
+   "tests": [
+    "test:dr-eggman:goldfish:16c70b9eaaf96b23"
+   ]
+  },
+  {
+   "adds": [
+    "Triskelavus"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:c0d1c4e30171",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scrapheap Scrounger"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2474080333e1",
+   "tests": [
+    "test:dr-eggman:goldfish:85d9c04042a24a8b"
+   ]
+  },
+  {
+   "adds": [
+    "Accomplished Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b9550edc821d",
+   "tests": [
+    "test:dr-eggman:goldfish:2099bcde379d38f1"
+   ]
+  },
+  {
+   "adds": [
+    "Merchant's Dockhand"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8133059d1432",
+   "tests": [
+    "test:dr-eggman:goldfish:7734fdc30aba9d3d"
+   ]
+  },
+  {
+   "adds": [
+    "Serrated Biskelion"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:db6b9f2f4dcf",
+   "tests": [
+    "test:dr-eggman:goldfish:bcc89786b2031f30"
+   ]
+  },
+  {
+   "adds": [
+    "Automatic Librarian"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:83de686e5330",
+   "tests": [
+    "test:dr-eggman:goldfish:5c917fe29e8b7ece"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Harvester"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:79c9be50de92",
+   "tests": [
+    "test:dr-eggman:goldfish:a27f717d497365f6"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatist's Puppet"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:412381719d5b",
+   "tests": [
+    "test:dr-eggman:goldfish:dd12f5586e825b1f"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Trash-Bot"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2f75bd562221",
+   "tests": [
+    "test:dr-eggman:goldfish:abbcbbd9eb7e1ea1"
+   ]
+  },
+  {
+   "adds": [
+    "Goring Warplow"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:6c63e5a8e9ea",
+   "tests": [
+    "test:dr-eggman:goldfish:dfb9771337c54468"
+   ]
+  },
+  {
+   "adds": [
+    "Thermal Navigator"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:5fabf4da626f",
+   "tests": [
+    "test:dr-eggman:goldfish:e01cc9cd637accfa"
+   ]
+  },
+  {
+   "adds": [
+    "Solarion"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:462e941a0779",
+   "tests": [
+    "test:dr-eggman:goldfish:cb968c78910d4514"
+   ]
+  },
+  {
+   "adds": [
+    "Armored Transport"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:4da88e469469",
+   "tests": [
+    "test:dr-eggman:goldfish:bf76b8ede5982009"
+   ]
+  },
+  {
+   "adds": [
+    "Jangling Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:1d20414182c0",
+   "tests": [
+    "test:dr-eggman:goldfish:63f4eb4a6c015316"
+   ]
+  },
+  {
+   "adds": [
+    "Sanitation Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3b1c272ca06e",
+   "tests": [
+    "test:dr-eggman:goldfish:0e3c7e97a900f1c1"
+   ]
+  },
+  {
+   "adds": [
+    "Su-Chi"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:dr-eggman:m5:9a94f5069d4d",
+   "tests": [
+    "test:dr-eggman:goldfish:b032c9b2a2fda7ba"
+   ]
+  },
+  {
+   "adds": [
+    "Bonded Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3385db2a6761",
+   "tests": [
+    "test:dr-eggman:goldfish:141341a9b85aaa55"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:08a7a980e17c",
+   "tests": [
+    "test:dr-eggman:goldfish:834f3f2d5bfe11f4"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:dr-eggman:m5:085ddaf278d3",
+   "tests": [
+    "test:dr-eggman:goldfish:7ff58f9bd5bfcb8e"
+   ]
+  },
+  {
+   "adds": [
+    "Canal Dredger"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:83e14d89d4fa",
+   "tests": [
+    "test:dr-eggman:goldfish:bfa6db1b2f0b9168"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Archivist"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a6c55d87655d",
+   "tests": [
+    "test:dr-eggman:goldfish:9f9b967bc0305197"
+   ]
+  },
+  {
+   "adds": [
+    "Guardians of Koilos"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8fe4150ed9f2",
+   "tests": [
+    "test:dr-eggman:goldfish:d588380711effe62"
+   ]
+  },
+  {
+   "adds": [
+    "Pierce Strider"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:bad5174586f6",
+   "tests": [
+    "test:dr-eggman:goldfish:099927455d6d2518"
+   ]
+  },
+  {
+   "adds": [
+    "Aesthir Glider"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:bf07639baa2b",
+   "tests": [
+    "test:dr-eggman:goldfish:568b1530331b3e74"
+   ]
+  },
+  {
+   "adds": [
+    "Soliton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c81f650a8036",
+   "tests": [
+    "test:dr-eggman:goldfish:7570d9ea5337580c"
+   ]
+  },
+  {
+   "adds": [
+    "Rackling"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:25feafc4bda3",
+   "tests": [
+    "test:dr-eggman:goldfish:c070924c2fa35fc8"
+   ]
+  },
+  {
+   "adds": [
+    "Spincrusher"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:6280ac19c508",
+   "tests": [
+    "test:dr-eggman:goldfish:ef62850f462e7409"
+   ]
+  },
+  {
+   "adds": [
+    "Reservoir Walker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:d1c975548ee6",
+   "tests": [
+    "test:dr-eggman:goldfish:f8087cf5638497ac"
+   ]
+  },
+  {
+   "adds": [
+    "Suncrusher"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:4a4989220e15",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Living Lectern"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:9540b636e886",
+   "tests": [
+    "test:dr-eggman:goldfish:6f4221e4099b47dc"
+   ]
+  },
+  {
+   "adds": [
+    "Prizefighter Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:16bb6eb4d813",
+   "tests": [
+    "test:dr-eggman:goldfish:d559b5c2c33b5c1c"
+   ]
+  },
+  {
+   "adds": [
+    "Salvaged Manaworker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:d3140e3d8322",
+   "tests": [
+    "test:dr-eggman:goldfish:b73536dbf910cbed"
+   ]
+  },
+  {
+   "adds": [
+    "Tetravus"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e194a818e896",
+   "tests": [
+    "test:dr-eggman:goldfish:791d722ddaaac1f3"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Archivist"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e87e46d11ced",
+   "tests": [
+    "test:dr-eggman:goldfish:f50b2f8b85988686"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Scrabbler"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:1650c041efb3",
+   "tests": [
+    "test:dr-eggman:goldfish:94e09ae34b2af415"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Rover"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b294be04a9cc",
+   "tests": [
+    "test:dr-eggman:goldfish:c43c7d6453d41bbc"
+   ]
+  },
+  {
+   "adds": [
+    "Iron League Steed"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:21769225dae5",
+   "tests": [
+    "test:dr-eggman:goldfish:2ad86fe7b3d37323"
+   ]
+  },
+  {
+   "adds": [
+    "Sliver Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:9fe9af60c845",
+   "tests": [
+    "test:dr-eggman:goldfish:984ca1cecd1dc0ad"
+   ]
+  },
+  {
+   "adds": [
+    "Welder Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:978abbedc097",
+   "tests": [
+    "test:dr-eggman:goldfish:395dea8fb3508182"
+   ]
+  },
+  {
+   "adds": [
+    "Heavyweight Demolisher"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b7739569cff2",
+   "tests": [
+    "test:dr-eggman:goldfish:a9c9bb2a608f2bd7"
+   ]
+  },
+  {
+   "adds": [
+    "Battering Ram"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a950ccc522c6",
+   "tests": [
+    "test:dr-eggman:goldfish:de5bb1b7b90d2566"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Ironfoot"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b37b85a0c3b7",
+   "tests": [
+    "test:dr-eggman:goldfish:7b6f67a318fc4fc7"
+   ]
+  },
+  {
+   "adds": [
+    "Peace Strider"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:626d3b49bbb2",
+   "tests": [
+    "test:dr-eggman:goldfish:fa08a4cd84a2812f"
+   ]
+  },
+  {
+   "adds": [
+    "Slag Fiend"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:dcab4083516c",
+   "tests": [
+    "test:dr-eggman:goldfish:3a5b124c1c6664de"
+   ]
+  },
+  {
+   "adds": [
+    "Gemini Engine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:a6f24c9d6c1a",
+   "tests": [
+    "test:dr-eggman:goldfish:deebc69f4d883e98"
+   ]
+  },
+  {
+   "adds": [
+    "Brass Man"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c6919f47ef05",
+   "tests": [
+    "test:dr-eggman:goldfish:2934c8732a79fb0b"
+   ]
+  },
+  {
+   "adds": [
+    "Anodet Lurker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:0521a0e12b33",
+   "tests": [
+    "test:dr-eggman:goldfish:c93d9762aa153232"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttling Butler"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:61997d5caacc",
+   "tests": [
+    "test:dr-eggman:goldfish:8042f73d7300f27b"
+   ]
+  },
+  {
+   "adds": [
+    "Ambulatory Edifice"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c785c08a78cb",
+   "tests": [
+    "test:dr-eggman:goldfish:bf5a2d6bc6b3ef20"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon Engine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:7dbdc74e2383",
+   "tests": [
+    "test:dr-eggman:goldfish:908142e7223adb6d"
+   ]
+  },
+  {
+   "adds": [
+    "Guardian Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:d315be06085d",
+   "tests": [
+    "test:dr-eggman:goldfish:01f40c38d0b7e02b"
+   ]
+  },
+  {
+   "adds": [
+    "Trespassing Souleater"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:316cd44d5aa9",
+   "tests": [
+    "test:dr-eggman:goldfish:6dbf3f3a9003071d"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Guardian"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:10b714191427",
+   "tests": [
+    "test:dr-eggman:goldfish:ee6cca3b0234ac96"
+   ]
+  },
+  {
+   "adds": [
+    "Night Market Guard"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:ceb3a93b7ae8",
+   "tests": [
+    "test:dr-eggman:goldfish:7ad6ff7a17f94f9f"
+   ]
+  },
+  {
+   "adds": [
+    "Augmenting Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:0e7e204e3029",
+   "tests": [
+    "test:dr-eggman:goldfish:69ec6acad4079c26"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin's Construct"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:b170c95a25ec",
+   "tests": [
+    "test:dr-eggman:goldfish:b6db53fb1b90b9be"
+   ]
+  },
+  {
+   "adds": [
+    "Geistcatcher's Rig"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:20f05011ef5c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brass Secretary"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:e050732fe852",
+   "tests": [
+    "test:dr-eggman:goldfish:71d0c8881c60ee52"
+   ]
+  },
+  {
+   "adds": [
+    "Sawtooth Thresher"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:97c33abd35f4",
+   "tests": [
+    "test:dr-eggman:goldfish:cbc5eb0909557d5f"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Carriage"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:4752d2a063be",
+   "tests": [
+    "test:dr-eggman:goldfish:e9a66ab0726e55ee"
+   ]
+  },
+  {
+   "adds": [
+    "Watchful Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:440bd49300c8",
+   "tests": [
+    "test:dr-eggman:goldfish:169c51df64aa709a"
+   ]
+  },
+  {
+   "adds": [
+    "Razorfield Thresher"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:107eb526fe82",
+   "tests": [
+    "test:dr-eggman:goldfish:96f433fe05d5bcef"
+   ]
+  },
+  {
+   "adds": [
+    "Snapsail Glider"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:4d338633ec8b",
+   "tests": [
+    "test:dr-eggman:goldfish:0dcb8a455f57c0e1"
+   ]
+  },
+  {
+   "adds": [
+    "Gearsmith Guardian"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:25c688478c8d",
+   "tests": [
+    "test:dr-eggman:goldfish:8338f39de4055f2b"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Searcher"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:8ea781abf4c4",
+   "tests": [
+    "test:dr-eggman:goldfish:d5697220881b7daf"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Replicator"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:524af00ffbff",
+   "tests": [
+    "test:dr-eggman:goldfish:614e9baa883134e5"
+   ]
+  },
+  {
+   "adds": [
+    "Grapeshot Catapult"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:ee5c14e7fc8a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Onulet"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:90a95cf55a83",
+   "tests": [
+    "test:dr-eggman:goldfish:43ff958f7256c889"
+   ]
+  },
+  {
+   "adds": [
+    "Agent of Acquisitions"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:3caa12e61c13",
+   "tests": [
+    "test:dr-eggman:goldfish:804e7f60a75690a2"
+   ]
+  },
+  {
+   "adds": [
+    "Kiln Walker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e0e9196cd649",
+   "tests": [
+    "test:dr-eggman:goldfish:a35196213ac0b33e"
+   ]
+  },
+  {
+   "adds": [
+    "Whispergear Sneak"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:027f7bb82d92",
+   "tests": [
+    "test:dr-eggman:goldfish:acc428d1a8f79028"
+   ]
+  },
+  {
+   "adds": [
+    "Diabolic Machine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:09fe5daae086",
+   "tests": [
+    "test:dr-eggman:goldfish:96bd311c78bd4380"
+   ]
+  },
+  {
+   "adds": [
+    "Duskworker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:096aaddb365b",
+   "tests": [
+    "test:dr-eggman:goldfish:919a71132686e83c"
+   ]
+  },
+  {
+   "adds": [
+    "Hopping Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:70a7ba237084",
+   "tests": [
+    "test:dr-eggman:goldfish:52a5790725b8669d"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Librarian"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:42629f5e31d4",
+   "tests": [
+    "test:dr-eggman:goldfish:10d81ed02063c98c"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Dirigible"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:ea12d9d53ce1",
+   "tests": [
+    "test:dr-eggman:goldfish:500bed30a69d02d1"
+   ]
+  },
+  {
+   "adds": [
+    "Synod Centurion"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:9aff312d4622",
+   "tests": [
+    "test:dr-eggman:goldfish:d3325ac3bfd04320"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Grinder"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e0e86d6384f8",
+   "tests": [
+    "test:dr-eggman:goldfish:45d42c22c20f87b2"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Spy"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e25466921dcc",
+   "tests": [
+    "test:dr-eggman:goldfish:d3633abe89101a1b"
+   ]
+  },
+  {
+   "adds": [
+    "Cogwork Tracker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:fea33655903b",
+   "tests": [
+    "test:dr-eggman:goldfish:bea028dfd3c614f1"
+   ]
+  },
+  {
+   "adds": [
+    "Lore Seeker"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:69890b28d35b",
+   "tests": [
+    "test:dr-eggman:goldfish:cf1fbf64db3a7805"
+   ]
+  },
+  {
+   "adds": [
+    "Lurking Automaton"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:bfd7f2a295d1",
+   "tests": [
+    "test:dr-eggman:goldfish:2ea8c9596b60a711"
+   ]
+  },
+  {
+   "adds": [
+    "Narstad Scrapper"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:c96eed40a627",
+   "tests": [
+    "test:dr-eggman:goldfish:6cc2cd5ebe9db0ea"
+   ]
+  },
+  {
+   "adds": [
+    "Spin Engine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:e0f8e2af3327",
+   "tests": [
+    "test:dr-eggman:goldfish:26c878c649629731"
+   ]
+  },
+  {
+   "adds": [
+    "Thran War Machine"
+   ],
+   "cuts": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "id": "swap:dr-eggman:m5:2fc552fadc7e",
+   "tests": [
+    "test:dr-eggman:goldfish:16d33afe596b6be0"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:7232957c6f34",
+   "tests": [
+    "test:dr-eggman:goldfish:fe631516febae2d2"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:d331cd4a0a4f",
+   "tests": [
+    "test:dr-eggman:goldfish:b902bfd5db4027cb"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:992dd74f9810",
+   "tests": [
+    "test:dr-eggman:goldfish:71fea2c702856303"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Geth's Grimoire"
+   ],
+   "id": "swap:dr-eggman:m5:056afcfa56f8",
+   "tests": [
+    "test:dr-eggman:goldfish:fa82cbdb4d1c1566"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:a2d0f9f149d5",
+   "tests": [
+    "test:dr-eggman:goldfish:9cc9d2c970d6c651"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:af973510de01",
+   "tests": [
+    "test:dr-eggman:goldfish:63f2803603820ec7"
+   ]
+  },
+  {
+   "adds": [
+    "Clock of Omens"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:9eae83374a81",
+   "tests": [
+    "test:dr-eggman:goldfish:37be3b70464e6b09"
+   ]
+  },
+  {
+   "adds": [
+    "Clock of Omens"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:fa238e760459",
+   "tests": [
+    "test:dr-eggman:goldfish:d41e43903b7075a6"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:72adca56a6a7",
+   "tests": [
+    "test:dr-eggman:goldfish:16f0d6b50e52d503"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:dr-eggman:m5:9d22f4123fab",
+   "tests": [
+    "test:dr-eggman:goldfish:09ee702fe309e8b8"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:0293e556654f",
+   "tests": [
+    "test:dr-eggman:goldfish:95fb3b204b715fb0"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:dr-eggman:m5:0fcbdca3bd5b",
+   "tests": [
+    "test:dr-eggman:goldfish:459a5b8dbe4fa549"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:64a338f6d22b",
+   "tests": [
+    "test:dr-eggman:goldfish:9474ba6ac7c77553"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:5d28783bb198",
+   "tests": [
+    "test:dr-eggman:goldfish:48b4c689a68dda63"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:3a8e2ac747a4",
+   "tests": [
+    "test:dr-eggman:goldfish:cb655c9374769961"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:729d2fec000a",
+   "tests": [
+    "test:dr-eggman:goldfish:289952fec6d294df"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:d1f307902076",
+   "tests": [
+    "test:dr-eggman:goldfish:499fd3010580e0b7"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Waste Not"
+   ],
+   "id": "swap:dr-eggman:m5:4e6be74a7a31",
+   "tests": [
+    "test:dr-eggman:goldfish:93c7378eae922775"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:ed3342a558ae",
+   "tests": [
+    "test:dr-eggman:goldfish:b8f36ca5d556e355"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:dr-eggman:m5:976c2b17f23c",
+   "tests": [
+    "test:dr-eggman:goldfish:eb5ea53bc2cf3df1"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:13fac1fcea66",
+   "tests": [
+    "test:dr-eggman:goldfish:959958af6aa67119"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:dr-eggman:m5:7314a65162d3",
+   "tests": [
+    "test:dr-eggman:goldfish:71b9bf19d945a47e"
+   ]
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Thoughtcast"
+   ],
+   "id": "swap:dr-eggman:m5:452dc4ef4e15",
+   "tests": [
+    "test:dr-eggman:goldfish:7d87626cc9b5c864"
+   ]
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Geth's Grimoire"
+   ],
+   "id": "swap:dr-eggman:m5:ecd64f48f61e",
+   "tests": [
+    "test:dr-eggman:goldfish:3fb7196555c29ead"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Weapons Manufacturing"
+   ],
+   "id": "swap:dr-eggman:m5:86079ca07f44",
+   "tests": [
+    "test:dr-eggman:goldfish:5cb1355278d06443"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:dr-eggman:m5:650d4460e65a",
+   "tests": [
+    "test:dr-eggman:goldfish:9cb041579a1ac73a"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:d6ab84f3a895",
+   "tests": [
+    "test:dr-eggman:goldfish:08dd217f2dbd9874"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:0379f54eccb9",
+   "tests": [
+    "test:dr-eggman:goldfish:24cc87a5e0f36382"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:1c0477ef451b",
+   "tests": [
+    "test:dr-eggman:goldfish:ae71b65ec2ae5a46"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:6f9047174ec2",
+   "tests": [
+    "test:dr-eggman:goldfish:48d232e016918a51"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:7e688e0c1b84",
+   "tests": [
+    "test:dr-eggman:goldfish:75453598cb541a43"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:d0665f41a65e",
+   "tests": [
+    "test:dr-eggman:goldfish:41250161673810a3"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:2f62aa2de259",
+   "tests": [
+    "test:dr-eggman:goldfish:39e5d88bcf4ded5f"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:6c876971a572",
+   "tests": [
+    "test:dr-eggman:goldfish:e2ffd8f2bd91aa60"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:ee374fd010a6",
+   "tests": [
+    "test:dr-eggman:goldfish:208f416f73c536a1"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:f4ca5b1fff80",
+   "tests": [
+    "test:dr-eggman:goldfish:288494a07b36b5b6"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:95672a616d60",
+   "tests": [
+    "test:dr-eggman:goldfish:04719eef05836f9a"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:749bbf2b68a0",
+   "tests": [
+    "test:dr-eggman:goldfish:706356f715efdc8c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:57fc4378d74a",
+   "tests": [
+    "test:dr-eggman:goldfish:fbb0d52a50cc2f85"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:b2074ce98347",
+   "tests": [
+    "test:dr-eggman:goldfish:30bef939144c1fe9"
+   ]
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:7e4c40831556",
+   "tests": [
+    "test:dr-eggman:goldfish:804a22d2d959da05"
+   ]
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:24c24405e975",
+   "tests": [
+    "test:dr-eggman:goldfish:696b59eb15e0d5d6"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Thopter Fabricator"
+   ],
+   "id": "swap:dr-eggman:m5:a658a19c5cb7",
+   "tests": [
+    "test:dr-eggman:goldfish:1efcdd467cbf5a94"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:58b620ef51eb",
+   "tests": [
+    "test:dr-eggman:goldfish:8c0ed4d053a9b8d4"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Master Transmuter"
+   ],
+   "id": "swap:dr-eggman:m5:0070d01d24d2",
+   "tests": [
+    "test:dr-eggman:goldfish:b0414f71482538f4"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:dr-eggman:m5:cc47f3b7030c",
+   "tests": [
+    "test:dr-eggman:goldfish:05c1516aece6908e"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:dr-eggman:goldfish:b4c5a584f4fb8851",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fb3c79f3f1f0c296",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:adb1035b93aa8613",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:be9a0a2b8f1542cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2cefbc725b2f2f25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f1f9de123fa689e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:67f5b920d5b5b33a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cf71893aa017646f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:dd92b61aaca4a368",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3d1df23fac21d66c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:93c9d564f9da6d79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a8a7e62eecad0df8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7fb96909a67d6e25",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1136c4799b662860",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:911c6b4c4d4c4819",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6989549b3cd5577a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:50404057157de13f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8cee2780c205805c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fe499f36de3a53b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e2748bb6dbd347c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6357b90f53fcf459",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b4b68fa3fc820827",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:0d9383a3dd62e2c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d85d7fee2d3eef4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e7adc07a72574ab3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:22d5fc5c9a7e6eed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1687f7c828c7c9f0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c758a5c4d1a5ade7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cc1e4e1c570db019",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f7acdc5fe087e83b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6d43b9aa1cece9f8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5b7276937d59004f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fa079d3ce7bee765",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:39e7db889a4236ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:eb5a0375a9a4856d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9ea663cc9589914d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:31f4fe9c091fb87e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:275cf4a0eac06f7b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:08bf3c38a5306d3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8657d062bc31af04",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5be75d5b209e9f68",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bfb54a69abb617ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:04e0a8c9b6f1f015",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:be9c1de14f92feb0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f484496895a2fe25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:133e076c3bacf962",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3ef703cc433c1f38",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cf5283f8b6e3ed49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bdba8eb1d03f2187",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8c79ee568001154e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1395194c36d18900",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ea3d4a0ffe725b2b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1d9d6722b2d3ed6c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f35cd991abaaf451",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a382b254d48fa50f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:93d65faa23041999",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:352f4caeccd86a6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fc9bd5b010a2c9c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9a9fd0629fe6ae99",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f37ff1bad20cd2b9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d2f728efd4b615ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1c1bcd2f10840690",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:be10823b84071437",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5f7cd220c54bb450",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:74292dcb16969f11",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:101a3d58848df3e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6ae5e874ea7c8b33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1288605a460b8124",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:dc17c586b93f7b31",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:da68e74cb7bff56e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3e5fc0c810da90b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7158079840d10dae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a38f4bd6c6c12ed9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:142117f38cf09151",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e94d87b0c9b59b8b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:0cd0de4a02bb4401",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:129ac9956777453a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:94a45c34d7928a94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:df8a8406049a1d60",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:4806de19be58c8e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c96c77b6f88e461e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e3dc61899c39c2b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:55ce617c293a68df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cb7611dc702152c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ab2b7be65b8a0810",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:00727c3f599a95ee",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:51c46c88a9e3aef5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:49042f53af152eda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1902e1a7dc644aa4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fa9036bf8ec452c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:84034564b7d741a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8ea583e17592545c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:aa8469939cc160e3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e5259c9330c74475",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3a68733a5b700f91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:baa31a1beaf19965",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:854763d9f8598ada",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:52f6bd244bdfeb42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:05ae9db732ea6821",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:41f8782e9933f78b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c1811028270f4498",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3441dce1dddbd3cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:817304c3a0b0a423",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:88d1deec5a177489",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c47f3c06238ae516",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c93fcd982f95f6b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e1821c8fbeca2436",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ba8757431e4d4f4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ac4658e9068c87cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:450edb6910d53603",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:82e1eeb5e3638c59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5b645b2faae68f18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:835b5155e13be2e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a56353c8cdbd166d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6475d6f979406066",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c53370c523e598b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:397868dbf721ca00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:aabc64a4db01bdb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e77e6d2c8758588d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:14d50d04ad1ec7e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2bad85c156f61ec0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6955d3eb71bc2522",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2078cd744b109252",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f4487f3a9f017843",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9196bae8963dc050",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e1decacfbc178cc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:254dc5f3bd8ef84d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:db87594c175e9dbd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:375f86a424a39e42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5af5064ae4c01a3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6d69189396b91342",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7cca3a303d133338",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:dcf0970a31a3b916",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e30bde075bea507b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b8d5f335e93a62cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:926457f0ed85be3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:786e019d245fc7fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c97929cc5c01060b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7573290d4dad14a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5157e118eb09ad90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cc23ca61c3e7d1e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:aec05bbbcdd8d5fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:580d0f555604c435",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5e5efa402bb42479",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f232997ac23d0d2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b05c57b77b84686a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:33bb8d6b697f9b6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:964e668da5e6cb8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:27e11d3152c069bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:91eb32e5756818d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ddea5e2be11db360",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:0e43f31484edecb0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:01dddea0da99c35a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d84b50bd1f345847",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:284ee257b0902888",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:16c70b9eaaf96b23",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:85d9c04042a24a8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2099bcde379d38f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7734fdc30aba9d3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bcc89786b2031f30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5c917fe29e8b7ece",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a27f717d497365f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:dd12f5586e825b1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:abbcbbd9eb7e1ea1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:dfb9771337c54468",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e01cc9cd637accfa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cb968c78910d4514",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bf76b8ede5982009",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:63f4eb4a6c015316",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:0e3c7e97a900f1c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b032c9b2a2fda7ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:141341a9b85aaa55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:834f3f2d5bfe11f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7ff58f9bd5bfcb8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bfa6db1b2f0b9168",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9f9b967bc0305197",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d588380711effe62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:099927455d6d2518",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:568b1530331b3e74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7570d9ea5337580c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c070924c2fa35fc8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ef62850f462e7409",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f8087cf5638497ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6f4221e4099b47dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d559b5c2c33b5c1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b73536dbf910cbed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:791d722ddaaac1f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:f50b2f8b85988686",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:94e09ae34b2af415",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c43c7d6453d41bbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2ad86fe7b3d37323",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:984ca1cecd1dc0ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:395dea8fb3508182",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a9c9bb2a608f2bd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:de5bb1b7b90d2566",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7b6f67a318fc4fc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fa08a4cd84a2812f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3a5b124c1c6664de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:deebc69f4d883e98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2934c8732a79fb0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:c93d9762aa153232",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8042f73d7300f27b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bf5a2d6bc6b3ef20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:908142e7223adb6d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:01f40c38d0b7e02b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6dbf3f3a9003071d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ee6cca3b0234ac96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7ad6ff7a17f94f9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:69ec6acad4079c26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b6db53fb1b90b9be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:71d0c8881c60ee52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cbc5eb0909557d5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e9a66ab0726e55ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:169c51df64aa709a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:96f433fe05d5bcef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:0dcb8a455f57c0e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8338f39de4055f2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d5697220881b7daf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:614e9baa883134e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:43ff958f7256c889",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:804e7f60a75690a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:a35196213ac0b33e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:acc428d1a8f79028",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:96bd311c78bd4380",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:919a71132686e83c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:52a5790725b8669d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:10d81ed02063c98c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:500bed30a69d02d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d3325ac3bfd04320",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:45d42c22c20f87b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d3633abe89101a1b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:bea028dfd3c614f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cf1fbf64db3a7805",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:2ea8c9596b60a711",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:6cc2cd5ebe9db0ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:26c878c649629731",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:16d33afe596b6be0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fe631516febae2d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b902bfd5db4027cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:71fea2c702856303",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fa82cbdb4d1c1566",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9cc9d2c970d6c651",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:63f2803603820ec7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:37be3b70464e6b09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:d41e43903b7075a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:16f0d6b50e52d503",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:09ee702fe309e8b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:95fb3b204b715fb0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:459a5b8dbe4fa549",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9474ba6ac7c77553",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:48b4c689a68dda63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:cb655c9374769961",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:289952fec6d294df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:499fd3010580e0b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:93c7378eae922775",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b8f36ca5d556e355",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:eb5ea53bc2cf3df1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:959958af6aa67119",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:71b9bf19d945a47e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:7d87626cc9b5c864",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:3fb7196555c29ead",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:5cb1355278d06443",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:9cb041579a1ac73a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:08dd217f2dbd9874",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:24cc87a5e0f36382",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:ae71b65ec2ae5a46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:48d232e016918a51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:75453598cb541a43",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:41250161673810a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:39e5d88bcf4ded5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:e2ffd8f2bd91aa60",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:208f416f73c536a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:288494a07b36b5b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:04719eef05836f9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:706356f715efdc8c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:fbb0d52a50cc2f85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:30bef939144c1fe9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:804a22d2d959da05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:696b59eb15e0d5d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:1efcdd467cbf5a94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:8c0ed4d053a9b8d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:b0414f71482538f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:dr-eggman:goldfish:05c1516aece6908e",
+   "verdict": "inconclusive"
+  }
+ ]
+}

@@ -1,0 +1,3001 @@
+{
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "slug": "marchesa-dealer-of-death",
+ "swaps": [
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c1553f4a0e41",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:1af5cee04ab3299c"
+   ]
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4842b2d7a8d1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:994bdb105cf4",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:47a06fd3e39d0fe9"
+   ]
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:bdb40a2136ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f588b1aaeb33",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f2c083daa13f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:75ac0166030f7cdc"
+   ]
+  },
+  {
+   "adds": [
+    "Gitaxian Probe"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:18fc05b59548",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0c82b1272ac3679d"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a0608ea8caa0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Eroded Canyon"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3669fa1b39b4",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a6dc6618eb31dab8"
+   ]
+  },
+  {
+   "adds": [
+    "Soured Springs"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0c25371272fb",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:dd56775f985c2524"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a5016841f248",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jagged Barrens"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:137525447bb1",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:dadb2af4168daf20"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:bd61dfda62a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lazav, Familiar Stranger"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:497b8f7e5be5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lazav, Familiar Stranger"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:11c8b1bf3b81",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:3767366047df7263"
+   ]
+  },
+  {
+   "adds": [
+    "Kaervek, the Punisher"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ef414ae57b3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kaervek, the Punisher"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:582009cedb8e",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6380c4b5d84956a6"
+   ]
+  },
+  {
+   "adds": [
+    "At Knifepoint"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c7aabe66f054",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glasses of Urza"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:87964226400e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghost Vacuum"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:cc5cb3170f3f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0e0c9d03bb41640c"
+   ]
+  },
+  {
+   "adds": [
+    "Ghost Vacuum"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e2bc5d2da97b",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c0cd9e4127415657"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7c40a8bf3c5f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:31809973d9e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2e9db3fcb35e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d8d3f8e1506e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1747921a3367",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:57312e14d30ce3f4"
+   ]
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:b06ef2fa98c3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f7b6b6fc7b3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:42e57fccab20",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a3bade692b24",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Duelist of the Mind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:66adb9a28e2c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Death, Shipwrecker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9cf1718f43e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Death, Shipwrecker"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:713a26561bc1",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:78aae4e0b3cece91"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9134d5f17c1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9406e5481270",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:df84f7239cdda427"
+   ]
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f709721aba94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:cb71c4f867c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Liquimetal Torque"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:16b17de9d12e",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:dba8c32eb6aa857b"
+   ]
+  },
+  {
+   "adds": [
+    "Liquimetal Torque"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:362b7ff7f6d1",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:70d47ef35ee698fb"
+   ]
+  },
+  {
+   "adds": [
+    "Codex Shredder"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:41c153983ef9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Codex Shredder"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5b2f371c9d57",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a927edecb3202855"
+   ]
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0481edacf0e4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c42e662f3c07",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ef42781053c894a8"
+   ]
+  },
+  {
+   "adds": [
+    "Shoot the Sheriff"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9837f4b6d8e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:297a10dccb10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vadmir, New Blood"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:eb755ccf2027",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iridescent Vinelasher"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a450dfe82ce3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a09ebe4e2414",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:fde4cdba5f50",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f64204e2c207",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:f8a7fe1830927603"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:652af78c9f09",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e79d9c9b1595dcbc"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ebf78a763a8d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5e0082056e84",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:20cf83d325bd0192"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirsty Blade"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:b611a44ee3b8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bandit's Haul"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:03fe28c5530c",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ba03d282731e99c8"
+   ]
+  },
+  {
+   "adds": [
+    "Bandit's Haul"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6b0a8f1746b5",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:1102233dbcd0749d"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8df67da279b0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raven of Fell Omens"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:43f9e8db1df0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8dbdb582a429",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:95bd77a05c24541e"
+   ]
+  },
+  {
+   "adds": [
+    "Otawara, Soaring City"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:59b5725a528f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:7aabcb3308d06fec"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:33b959d0884f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6d6da630224984a3"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:95350f6939d9",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ce43f5908dbb84ca"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:829214b24702",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:00984477f1f37a88"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f61d177d2e6d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0e8252fca214",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:57a47c517ef57375"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1778e5d97ac7",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:9a71dcd6a1032484"
+   ]
+  },
+  {
+   "adds": [
+    "Necromancy"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d1a854657368",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5260e0965989",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:734abac74c1f3705"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6f57a346eced",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:3eab66a00ba8e25d"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0f74709cec11",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a5c8b5511374a934"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, God of Mischief"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:01ac6579aff6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scrabbling Claws"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6d156c791db5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e8b3388be82e",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:271ef7234bf16db5"
+   ]
+  },
+  {
+   "adds": [
+    "Tinybones Joins Up"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e1d6ca9723c4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4cb45cb4a01b",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b7288e0387bc5298"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:37b00d8e0c6a",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6308225d1d84c8ea"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3c7c11e565cf",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:da20c8685a41491c"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Progenitus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0c4aadc6fb87",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abyssal Harvester"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a66d6aefcfd3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2ea01ff34794",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:34eb6b8249477adf"
+   ]
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:23d7958d9ba6",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0686f9dc3dc086ec"
+   ]
+  },
+  {
+   "adds": [
+    "Drown in the Loch"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:69b2d36beb5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:98b312ad8400",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8bc018bf194b",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:4a8d1959d9bb9fd0"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:019decbb89a5",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ebad7e87519af835"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1d706b315255",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:61b4e2d49b5d26c7"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Scour"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:13cd070f3ee0",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c1854b86402b4ec3"
+   ]
+  },
+  {
+   "adds": [
+    "Strix Serenade"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:05f77b2dd2ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9a393256c5bb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8fb1a48e2670",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:550d8d3e78df5b3d"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7f5e803cda47",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:97d86a5cdf293834"
+   ]
+  },
+  {
+   "adds": [
+    "Bounty Board"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:aaf91a0427a2",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:13aff49831a9e33e"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra's Bauble"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:946d52b85947",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8f0b2bc6c80b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nowhere to Run"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c5005ddb1b4b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:681ca6a60c60",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a523e89bfefbd0b9"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8da2b7c32506",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b9f0519b133aba98"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4617a7b3b2cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5186b2a363d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8de60a628491",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:32dcff5a99864bb0"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f8c0f40abb2a",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d4f2475d8849a83d"
+   ]
+  },
+  {
+   "adds": [
+    "Entomb"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e26aa7c00b79",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:bc69a1db38554f64"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7730db21f712",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ffde41ed79ca33d5"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f62a0de82eb9",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:f10e6e74070baba4"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:42171a7b2eef",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b5f62ae86577bfff"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5ced49642ab6",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b7b63c7af2f74d44"
+   ]
+  },
+  {
+   "adds": [
+    "Lively Dirge"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:97e62043980a",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:72fc0e89c08368ee"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0401933aa07c",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e90d7afdcc1c64c5"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d3f84a5682ea",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:9f58eaf092d61a87"
+   ]
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:de283a7fd96a",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:368e243db408bb11"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d4e8390ec04b",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d099169d1873bbd2"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:49d6cf25f759",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:96be007f298cd4d8"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a378362bde83",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e79b27d6ff2f40b7"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7d8263abf787",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ccdb2032935d83bb"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7d5272fc70b3",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0cdfd7d247ec432b"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:083405838af6",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d607047fd68d2353"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:93430b592dc7",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:23705effc7032b0c"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:df2573f3dc2f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d58479f1749c7bb8"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:60f809b786a8",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:3ebc56d15583f8fb"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:dccfbffd9b97",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:31d6b17fe397a7f2"
+   ]
+  },
+  {
+   "adds": [
+    "Exhibition Tidecaller"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9f22b20d2bab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:31198086ab29",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c839c0de87165846"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a462c48db8d7",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:53cbb124b40efee4"
+   ]
+  },
+  {
+   "adds": [
+    "Insatiable Avarice"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d19748a9d1d6",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:fff8b2009aced0b0"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:48b6c60ec764",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b2aebab40673e6e8"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:54a96a79d79e",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c358241fa2b3ecd2"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0a330a9efae7",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:67e3471b58162871"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5129b85c65fc",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6433c8c3f337fb9d"
+   ]
+  },
+  {
+   "adds": [
+    "Singularity Rupture"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4f21d4483b38",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:391c37beaf6bee04"
+   ]
+  },
+  {
+   "adds": [
+    "Marauding Sphinx"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:be6ef847bee6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:af3bc8ad6091",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:1bc2e2140cbd9ca7"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:24ccc0c098e9",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:92862bd73677a861"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:dbd156c0b801",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:5c556cae42ddc69e"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:73d1da4b4d00",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:bf6d40054c4becfe"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:820b117f6afd",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b2959f6ee4f17fcc"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9c0782f0b1ff",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c758a8f74dde5fcb"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:57c619b3cf72",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:de4928da0a921130"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:16937c86c99f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:baec0a087d756a2a"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ba643ffdb905",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:044732f04c263b8c"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6ab7cefe3989",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:510b9880904bad26"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5a9186fcdc80",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:400b269f407d3fc7"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1361a5e8a841",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6414e5cdd41007b7"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:511f96aff932",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e8eec8639f2842fd"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2f976d2733d8",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:feb9bab5b1e30170"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:41af071b9a15",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d50cb612fb6fa456"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f5c98c9a5ffc",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e8cffd0a364f2949"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e3e87ddc30d3",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b2d39ac811a0f326"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0e7ba7940c38",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:92ada8c5a95328f7"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0998f0c9c926",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:962c48ccc7155b11"
+   ]
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:80a7fe03956b",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d523e7df74e12e5c"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3483bda0fd44",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0113cf75a28a1c37"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a901c04b5414",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:f2d8216ec3b58c01"
+   ]
+  },
+  {
+   "adds": [
+    "Sunscorched Desert"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1371688ae700",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:5e2ab7c08a98e576"
+   ]
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5010c1cd15ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4a0c8181ed56",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:23be598a111da1c5"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a7f7d156bcd4",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:f409cbdd824315e2"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f8f911b4559d",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ee3fe250ca7ef704"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e83463a6b01c",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0e730490310f7f47"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:b48c1bda8815",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:71aab7b600063aa1"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3d5ea8bb99f3",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6b6baff692e393aa"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4ffd352595b2",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a1432eb82a869cbd"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d661f264d63f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6145be429517f5d4"
+   ]
+  },
+  {
+   "adds": [
+    "Gamble"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2db7a567e219",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:2f0ba0a6c7e6c4e8"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f599b22c9b33",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:22fac7418dd178a6"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9f3df78cfad4",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:1fe92f59f0aa155e"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d7c0e031c88b",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:d3a2d2992605a1cf"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:de33585ff264",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:6c7269e146fe007d"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ee82e4964869",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:8b8f83712294bd9f"
+   ]
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ebbd3fa0ae44",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d28c3c20e2d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5ce1a94e8529",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:cfd67e02fb49aa0f"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7b1a01c3f91c",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a70050ec8ff8889d"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:674fb2c3ebe1",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e21c590060625854"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:aaa196d6edd0",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b0c88c585180c621"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2f10bbe22146",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:a743c1f704fc0178"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0dbd96b334cc",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:7a922db5d9aa4729"
+   ]
+  },
+  {
+   "adds": [
+    "Pigment Wrangler // Striking Palette"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2f9c99670fe9",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:ec361bf5f97d325a"
+   ]
+  },
+  {
+   "adds": [
+    "Pigment Wrangler // Striking Palette"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:01bb05ba84ca",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c6f9b7675d9aea39"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f450c108271e",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:24bbe1929e36d7e0"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:702fd62807b9",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:828bab9e3cf9421a"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:170c5c84a411",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:4f3afa3de5a9dcbf"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6817f1011f88",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:888e7f1ce353de83"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a125d03a1584",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:c6e18e6a438fd02e"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9655ce66fdd7",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:16a064f1fc820181"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:43df910ebe0f",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:84d5d3e58a328187"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f71602f529fa",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e1559a0663952f6d"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:401ff2e82d8e",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:391fca490e2c59f2"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4e9fbaecfbd6",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:bb07a7d16099af8f"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6ae16f51b935",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e6260bf36e65f87d"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c8a231dbff91",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:86aa7cd621863459"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:856fe724f37c",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:712c1bc6ba76bd00"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a2c97719cc2c",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:8df7c5fe8924896d"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:faf180041184",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:97070c0754ffaaa5"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4dded84edeb5",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:08f75fa8fb50c9ea"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:229515e3824a",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:604df59bed3c81d3"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:32212469f5f8",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:34b1af98e4bc7828"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:86306eb256b1",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:1e6d8c175663e33b"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4725ed170d10",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:548ac83bb2d9d2de"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4205d36eca56",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:dabcd8baa5ed3059"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7a87fcf654c3",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:89abe4a4e1409d67"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e9c72eeb0942",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:f0d19c428830cc92"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6b491a274ae1",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:9a3e8cf2b604a55b"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:699d85646f51",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:e4e26ee257c7d379"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:efedf0a57538",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:8bfd44f39cae9ce8"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9ef207eeaca2",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:93dd8f2e4a6d0e10"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8ba8fc13a2a7",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:b11f94f900f4c249"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:aadd1941bd6d",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:0eb2c230bb4f6743"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6d9c5c4166a6",
+   "tests": [
+    "test:marchesa-dealer-of-death:goldfish:09c6ced9da9c7f7f"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:1af5cee04ab3299c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:47a06fd3e39d0fe9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:75ac0166030f7cdc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0c82b1272ac3679d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a6dc6618eb31dab8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:dd56775f985c2524",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:dadb2af4168daf20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:3767366047df7263",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6380c4b5d84956a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0e0c9d03bb41640c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c0cd9e4127415657",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:57312e14d30ce3f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:78aae4e0b3cece91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:df84f7239cdda427",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:dba8c32eb6aa857b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:70d47ef35ee698fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a927edecb3202855",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ef42781053c894a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:f8a7fe1830927603",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e79d9c9b1595dcbc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:20cf83d325bd0192",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ba03d282731e99c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:1102233dbcd0749d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:95bd77a05c24541e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:7aabcb3308d06fec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6d6da630224984a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ce43f5908dbb84ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:00984477f1f37a88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:57a47c517ef57375",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:9a71dcd6a1032484",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:734abac74c1f3705",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:3eab66a00ba8e25d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a5c8b5511374a934",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:271ef7234bf16db5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b7288e0387bc5298",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6308225d1d84c8ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:da20c8685a41491c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:34eb6b8249477adf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0686f9dc3dc086ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:4a8d1959d9bb9fd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ebad7e87519af835",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:61b4e2d49b5d26c7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c1854b86402b4ec3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:550d8d3e78df5b3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:97d86a5cdf293834",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:13aff49831a9e33e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a523e89bfefbd0b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b9f0519b133aba98",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:32dcff5a99864bb0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d4f2475d8849a83d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:bc69a1db38554f64",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ffde41ed79ca33d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:f10e6e74070baba4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b5f62ae86577bfff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b7b63c7af2f74d44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:72fc0e89c08368ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e90d7afdcc1c64c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:9f58eaf092d61a87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:368e243db408bb11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d099169d1873bbd2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:96be007f298cd4d8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e79b27d6ff2f40b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ccdb2032935d83bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0cdfd7d247ec432b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d607047fd68d2353",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:23705effc7032b0c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d58479f1749c7bb8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:3ebc56d15583f8fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:31d6b17fe397a7f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c839c0de87165846",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:53cbb124b40efee4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:fff8b2009aced0b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b2aebab40673e6e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c358241fa2b3ecd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:67e3471b58162871",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6433c8c3f337fb9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:391c37beaf6bee04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:1bc2e2140cbd9ca7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:92862bd73677a861",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:5c556cae42ddc69e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:bf6d40054c4becfe",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b2959f6ee4f17fcc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c758a8f74dde5fcb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:de4928da0a921130",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:baec0a087d756a2a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:044732f04c263b8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:510b9880904bad26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:400b269f407d3fc7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6414e5cdd41007b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e8eec8639f2842fd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:feb9bab5b1e30170",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d50cb612fb6fa456",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e8cffd0a364f2949",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b2d39ac811a0f326",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:92ada8c5a95328f7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:962c48ccc7155b11",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d523e7df74e12e5c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0113cf75a28a1c37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:f2d8216ec3b58c01",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:5e2ab7c08a98e576",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:23be598a111da1c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:f409cbdd824315e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ee3fe250ca7ef704",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0e730490310f7f47",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:71aab7b600063aa1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6b6baff692e393aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a1432eb82a869cbd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6145be429517f5d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:2f0ba0a6c7e6c4e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:22fac7418dd178a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:1fe92f59f0aa155e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:d3a2d2992605a1cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:6c7269e146fe007d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:8b8f83712294bd9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:cfd67e02fb49aa0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a70050ec8ff8889d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e21c590060625854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b0c88c585180c621",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:a743c1f704fc0178",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:7a922db5d9aa4729",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:ec361bf5f97d325a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c6f9b7675d9aea39",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:24bbe1929e36d7e0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:828bab9e3cf9421a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:4f3afa3de5a9dcbf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:888e7f1ce353de83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:c6e18e6a438fd02e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:16a064f1fc820181",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:84d5d3e58a328187",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e1559a0663952f6d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:391fca490e2c59f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:bb07a7d16099af8f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e6260bf36e65f87d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:86aa7cd621863459",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:712c1bc6ba76bd00",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:8df7c5fe8924896d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:97070c0754ffaaa5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:08f75fa8fb50c9ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:604df59bed3c81d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:34b1af98e4bc7828",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:1e6d8c175663e33b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:548ac83bb2d9d2de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:dabcd8baa5ed3059",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:89abe4a4e1409d67",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:f0d19c428830cc92",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:9a3e8cf2b604a55b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:e4e26ee257c7d379",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:8bfd44f39cae9ce8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:93dd8f2e4a6d0e10",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:b11f94f900f4c249",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:0eb2c230bb4f6743",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:marchesa-dealer-of-death:goldfish:09c6ced9da9c7f7f",
+   "verdict": "fail"
+  }
+ ]
+}

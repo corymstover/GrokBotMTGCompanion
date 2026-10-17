@@ -1,0 +1,7270 @@
+{
+ "candidates": [
+  {
+   "card": "Unexpected Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unexpected Windfall",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:5ea15a2831e2"
+    },
+    "swap": "swap:norman-osborn:m5:503780221e85"
+   }
+  },
+  {
+   "card": "Monument to Endurance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monument to Endurance",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monument to Endurance",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:3a5c2b3a4513"
+    },
+    "swap": "swap:norman-osborn:m5:12bc4a526cb4"
+   }
+  },
+  {
+   "card": "Thrill of Possibility",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:b6afa8a8d569"
+    },
+    "swap": "swap:norman-osborn:m5:2fe21213b1c4"
+   }
+  },
+  {
+   "card": "Bone Miser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bone Miser",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bone Miser",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:5df3753cda8b"
+    },
+    "swap": "swap:norman-osborn:m5:9d2531e92496"
+   }
+  },
+  {
+   "card": "Secrets of the Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Secrets of the Dead",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Secrets of the Dead",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:40816b673876"
+    },
+    "swap": "swap:norman-osborn:m5:94e12e3b086b"
+   }
+  },
+  {
+   "card": "Green Goblin, Revenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Green Goblin, Revenant",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Green Goblin, Revenant",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:1b72f961b1ab"
+    },
+    "swap": "swap:norman-osborn:m5:534f9221238f"
+   }
+  },
+  {
+   "card": "Captain Howler, Sea Scourge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain Howler, Sea Scourge",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Captain Howler, Sea Scourge",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:faff1ce602f1"
+    },
+    "swap": "swap:norman-osborn:m5:8bd83db3ac86"
+   }
+  },
+  {
+   "card": "Archfiend of Ifnir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archfiend of Ifnir",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Archfiend of Ifnir",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:785e599fcff8"
+    },
+    "swap": "swap:norman-osborn:m5:6e44668ff44c"
+   }
+  },
+  {
+   "card": "Chainer, Nightmare Adept",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chainer, Nightmare Adept",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:96189055a109"
+   }
+  },
+  {
+   "card": "Chameleon, Master of Disguise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chameleon, Master of Disguise",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Chameleon, Master of Disguise",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:8230efd907e2"
+    },
+    "swap": "swap:norman-osborn:m5:c9e15253a476"
+   }
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:187f591d542f"
+    },
+    "swap": "swap:norman-osborn:m5:ad782ef0fcd8"
+   }
+  },
+  {
+   "card": "Oscorp Industries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oscorp Industries",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5d6e6317752d"
+   }
+  },
+  {
+   "card": "Emet-Selch of the Third Seat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emet-Selch of the Third Seat",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Emet-Selch of the Third Seat",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:a7e2bb9b151e"
+    },
+    "swap": "swap:norman-osborn:m5:3d82c097cd56"
+   }
+  },
+  {
+   "card": "Ultimate Green Goblin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ultimate Green Goblin",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ultimate Green Goblin",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:4636222e0ac7"
+    },
+    "swap": "swap:norman-osborn:m5:4d9ebb2b4316"
+   }
+  },
+  {
+   "card": "Green Goblin, Nemesis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Green Goblin, Nemesis",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Green Goblin, Nemesis",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:fd0a937018f6"
+    },
+    "swap": "swap:norman-osborn:m5:cbd0c0da51d6"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Cool but Rude",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:c4a1b817eea8"
+    },
+    "swap": "swap:norman-osborn:m5:f91899556eb7"
+   }
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:bff11cd8543e"
+    },
+    "swap": "swap:norman-osborn:m5:79ec884f2353"
+   }
+  },
+  {
+   "card": "Skirge Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skirge Familiar",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skirge Familiar",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:17c196a11569"
+    },
+    "swap": "swap:norman-osborn:m5:5fa905d1ad16"
+   }
+  },
+  {
+   "card": "Leader, Super-Genius",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leader, Super-Genius",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Leader, Super-Genius",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:e3de15a9d92e"
+    },
+    "swap": "swap:norman-osborn:m5:c6714aa5e732"
+   }
+  },
+  {
+   "card": "Anger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anger",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:bc3351b86208"
+   }
+  },
+  {
+   "card": "Laughing Mad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laughing Mad",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Laughing Mad",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:fd677c965b6d"
+    },
+    "swap": "swap:norman-osborn:m5:7b6421a5673c"
+   }
+  },
+  {
+   "card": "Likeness Looter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Likeness Looter",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Likeness Looter",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:3c85754e4800"
+    },
+    "swap": "swap:norman-osborn:m5:cbcddfb09bff"
+   }
+  },
+  {
+   "card": "Bitter Triumph",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bitter Triumph",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:015c6df9254f"
+   }
+  },
+  {
+   "card": "Pumpkin Bombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pumpkin Bombs",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Pumpkin Bombs",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:5e089267f4dd"
+    },
+    "swap": "swap:norman-osborn:m5:eeee4f4d3ef2"
+   }
+  },
+  {
+   "card": "Surly Badgersaur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surly Badgersaur",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surly Badgersaur",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:4479bdd831c6"
+    },
+    "swap": "swap:norman-osborn:m5:4c260ab29c46"
+   }
+  },
+  {
+   "card": "Cryptcaller Chariot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptcaller Chariot",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:68bf5165164e"
+   }
+  },
+  {
+   "card": "Hobgoblin, Mantled Marauder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hobgoblin, Mantled Marauder",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:0ff96419bb66"
+   }
+  },
+  {
+   "card": "Carnage, Crimson Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carnage, Crimson Chaos",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Carnage, Crimson Chaos",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:ec002207c881"
+    },
+    "swap": "swap:norman-osborn:m5:877163636689"
+   }
+  },
+  {
+   "card": "Villainous Hideout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Villainous Hideout",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:19bde9cfab5f"
+   }
+  },
+  {
+   "card": "Ledger Shredder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ledger Shredder",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Ledger Shredder",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:fff97e63ba62"
+    },
+    "swap": "swap:norman-osborn:m5:f694e135f711"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:dd92e7d822b0"
+   }
+  },
+  {
+   "card": "Rocket-Powered Goblin Glider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rocket-Powered Goblin Glider",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:ac8224de3a33"
+   }
+  },
+  {
+   "card": "Baron Strucker, HYDRA Overlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baron Strucker, HYDRA Overlord",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Baron Strucker, HYDRA Overlord",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:636d6ad2e948"
+    },
+    "swap": "swap:norman-osborn:m5:f4cea21d8e1d"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reanimate",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:e9f799280c02"
+    },
+    "swap": "swap:norman-osborn:m5:4586c261d867"
+   }
+  },
+  {
+   "card": "Doctor Octopus, Master Planner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doctor Octopus, Master Planner",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Doctor Octopus, Master Planner",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:77a3d4ce50b0"
+    },
+    "swap": "swap:norman-osborn:m5:c452a8e41b56"
+   }
+  },
+  {
+   "card": "River Kelpie",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "River Kelpie",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:b59046342ce2"
+   }
+  },
+  {
+   "card": "Behold the Sinister Six!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Behold the Sinister Six!",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Behold the Sinister Six!",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:84e01a8c56c4"
+    },
+    "swap": "swap:norman-osborn:m5:4964021d6d34"
+   }
+  },
+  {
+   "card": "Romantic Rendezvous",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Romantic Rendezvous",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:2bace6318f8d"
+   }
+  },
+  {
+   "card": "Prowler, Clawed Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prowler, Clawed Thief",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:b39cc14a65b2"
+   }
+  },
+  {
+   "card": "Tombstone, Career Criminal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tombstone, Career Criminal",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Tombstone, Career Criminal",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:c13e7eb4eb2c"
+    },
+    "swap": "swap:norman-osborn:m5:d37224ab804c"
+   }
+  },
+  {
+   "card": "Cephalid Coliseum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Coliseum",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:2d3a7b82197d"
+   }
+  },
+  {
+   "card": "Pumpkin Bombardment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pumpkin Bombardment",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:e20f640e1c4d"
+   }
+  },
+  {
+   "card": "Ultron, Unlimited",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ultron, Unlimited",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5f75c2b06bee"
+   }
+  },
+  {
+   "card": "Doctor Doom, King of Latveria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doctor Doom, King of Latveria",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:a2f9673f9305"
+   }
+  },
+  {
+   "card": "Kang, Temporal Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kang, Temporal Tyrant",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:172ee945c4ad"
+   }
+  },
+  {
+   "card": "Shriek, Treblemaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shriek, Treblemaker",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Shriek, Treblemaker",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:8b5023212fe4"
+    },
+    "swap": "swap:norman-osborn:m5:6df19fb56f95"
+   }
+  },
+  {
+   "card": "Iron Monger, Sadistic Tycoon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iron Monger, Sadistic Tycoon",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Iron Monger, Sadistic Tycoon",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:5a1c96f44a0d"
+    },
+    "swap": "swap:norman-osborn:m5:5cbaaedbef89"
+   }
+  },
+  {
+   "card": "Geier Reach Sanitarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geier Reach Sanitarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5cb0ff60bdcd"
+   }
+  },
+  {
+   "card": "The Squadron Sinister",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Squadron Sinister",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:6ca97fad46da"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:fd76dbaba2de"
+   }
+  },
+  {
+   "card": "M.O.D.O.K.",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "M.O.D.O.K.",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:94c5498c79d0"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:a0ee147c76c0"
+   }
+  },
+  {
+   "card": "Change of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Change of Fortune",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:834fe9a5c803"
+   }
+  },
+  {
+   "card": "Demand Answers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Demand Answers",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:035204f99ffb"
+   }
+  },
+  {
+   "card": "Teval's Judgment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teval's Judgment",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teval's Judgment",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:7d9f61dcbff2"
+    },
+    "swap": "swap:norman-osborn:m5:6bbe8b6c3dfc"
+   }
+  },
+  {
+   "card": "Brallin, Skyshark Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brallin, Skyshark Rider",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:2000438dd187"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Burning Inquiry",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:9eb542080818"
+    },
+    "swap": "swap:norman-osborn:m5:9f59f055fa47"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:3c94e798e8ac"
+    },
+    "swap": "swap:norman-osborn:m5:bc36dc20af3e"
+   }
+  },
+  {
+   "card": "Villainous Wrath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "Villainous Wrath",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:bc009f45ea87"
+   }
+  },
+  {
+   "card": "Prison Break",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prison Break",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:e463f8305835"
+   }
+  },
+  {
+   "card": "Lethal Scheme",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lethal Scheme",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:68e843fd208e"
+   }
+  },
+  {
+   "card": "Burning Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Vengeance",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:a7212573abda"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:61e61deed610"
+    },
+    "swap": "swap:norman-osborn:m5:1b953a834939"
+   }
+  },
+  {
+   "card": "Vohar, Vodalian Desecrator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vohar, Vodalian Desecrator",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:dfefc20ab6b0"
+   }
+  },
+  {
+   "card": "Wheel of Misfortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Misfortune",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:635f51ab2b2b"
+   }
+  },
+  {
+   "card": "Green Goblin, Back for More",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Green Goblin, Back for More",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:908d5c10b58f"
+   }
+  },
+  {
+   "card": "Living Laser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Living Laser",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:89eedd3881d4"
+   }
+  },
+  {
+   "card": "Abomination, World Ravager",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abomination, World Ravager",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:d29ec2066a01"
+   }
+  },
+  {
+   "card": "Loki, the Deceiver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki, the Deceiver",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:278a2604523a"
+   }
+  },
+  {
+   "card": "The Death of Gwen Stacy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Death of Gwen Stacy",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:b2852e06f091"
+   }
+  },
+  {
+   "card": "Seize the Spoils",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Spoils",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5b413efbe3d1"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:dc1f00526250"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:1f9005ffe875"
+   }
+  },
+  {
+   "card": "Glorious Purpose",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glorious Purpose",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:b7e15efb5399"
+   }
+  },
+  {
+   "card": "Madame Hydra",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Madame Hydra",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:c260e4b062f0"
+   }
+  },
+  {
+   "card": "Luxury Suite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxury Suite",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:e11727ff179e"
+   }
+  },
+  {
+   "card": "Spymaster's Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spymaster's Vault",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:a9560b65f376"
+   }
+  },
+  {
+   "card": "Cathartic Reunion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathartic Reunion",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:44a805f62b07"
+   }
+  },
+  {
+   "card": "Scorpion, Seething Striker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scorpion, Seething Striker",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:6091efe9b8b4"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:a9d9c74facc8"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:3d6b991c95e3"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:4f6eb8ae55f5"
+   }
+  },
+  {
+   "card": "Sandman's Quicksand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sandman's Quicksand",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:8e8a285190e2"
+   }
+  },
+  {
+   "card": "Whispering Madness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispering Madness",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:ccf3b1f2af06"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:e0e52aa61399"
+   }
+  },
+  {
+   "card": "Undercity Sewers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undercity Sewers",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:0ee36eb28a29"
+   }
+  },
+  {
+   "card": "The Soul Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Soul Stone",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:80ac9f2302b0"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:babb7b21de48"
+   }
+  },
+  {
+   "card": "Morphic Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Morphic Pool",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:d4d6441081be"
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:511afbf3896f"
+   }
+  },
+  {
+   "card": "Sinister Hideout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sinister Hideout",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:f1546972b3be"
+   }
+  },
+  {
+   "card": "Decaying Time Loop",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decaying Time Loop",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:c6e7e2fc41bc"
+   }
+  },
+  {
+   "card": "Neerdiv, Devious Diver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neerdiv, Devious Diver",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:4c003f6aae0a"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:ac01372428eb"
+   }
+  },
+  {
+   "card": "Key to the City",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Key to the City",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:8eb90a27acf6"
+   }
+  },
+  {
+   "card": "Raging Goblinoids",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Ominous Asylum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ominous Asylum",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:64cbe74fa0fe"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:18b3eaec1df0"
+   }
+  },
+  {
+   "card": "Steal the Show",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Steal the Show",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:77f0ab539ddc"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:cf151476ffeb"
+   }
+  },
+  {
+   "card": "Wonder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wonder",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:95b017168ad9"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:1616a0413bcf"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:e3db520af883"
+   }
+  },
+  {
+   "card": "Electro's Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electro's Bolt",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:62bccd61e8f3"
+   }
+  },
+  {
+   "card": "Desolate Lighthouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desolate Lighthouse",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:51d69be460a0"
+   }
+  },
+  {
+   "card": "Circular Logic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Circular Logic",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:2c2f0e9771ac"
+   }
+  },
+  {
+   "card": "Inner Demons Gangsters",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Lórien Revealed",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lórien Revealed",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:6b3c382b6d70"
+   }
+  },
+  {
+   "card": "Stitcher's Supplier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:c33bac95bf85"
+    },
+    "swap": "swap:norman-osborn:m5:bff98c41775e"
+   }
+  },
+  {
+   "card": "Construct a Cosmic Cube",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Construct a Cosmic Cube",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:3ce11d0000b8"
+   }
+  },
+  {
+   "card": "Bone Shards",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bone Shards",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:3b658b4057b9"
+   }
+  },
+  {
+   "card": "Grab the Prize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grab the Prize",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:f7e5c960aae0"
+   }
+  },
+  {
+   "card": "Dragon's Rage Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:f16cf2ac7e9c"
+    },
+    "swap": "swap:norman-osborn:m5:fa6d5db23353"
+   }
+  },
+  {
+   "card": "Risky Research",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Risky Research",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:0ffb969289d5"
+   }
+  },
+  {
+   "card": "Electro, Assaulting Battery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electro, Assaulting Battery",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:0f6902a7b7a5"
+   }
+  },
+  {
+   "card": "Collector's Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Collector's Vault",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:17ef2e0d6a70"
+   }
+  },
+  {
+   "card": "Winternight Stories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Winternight Stories",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:cb5219f5aabc"
+   }
+  },
+  {
+   "card": "Archnemesis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archnemesis",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:61bdda45e071"
+   }
+  },
+  {
+   "card": "Scarlet Spider, Kaine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:1a59bbd6557b"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:aab0ab28b0c9"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:492f601f697f"
+   }
+  },
+  {
+   "card": "Agna Qel'a",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agna Qel'a",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5b1521553130"
+   }
+  },
+  {
+   "card": "Avengers: Under Siege",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Avengers: Under Siege",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:25d2cc2fc44e"
+   }
+  },
+  {
+   "card": "Spider-Sense",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spider-Sense",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:41a5030e7980"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:9bca5b6e0214"
+   }
+  },
+  {
+   "card": "Loki's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki's Scepter",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:dd2054a8b031"
+   }
+  },
+  {
+   "card": "Mysterio's Mirage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mysterio's Mirage",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:0c72deab02dd"
+   }
+  },
+  {
+   "card": "Toxic Deluge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toxic Deluge",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:ad24792b68c6"
+   }
+  },
+  {
+   "card": "Pirate's Pillage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pirate's Pillage",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5ef977d11ed2"
+   }
+  },
+  {
+   "card": "Reforge the Soul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reforge the Soul",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:5de3d9a4a515"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:bfb7eb410f76"
+   }
+  },
+  {
+   "card": "Snort",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snort",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:b719f32a313e"
+   }
+  },
+  {
+   "card": "Feast of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast of Sanity",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:6cabf3280b64"
+   }
+  },
+  {
+   "card": "My Precious // Allure of Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "My Precious // Allure of Power",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:f4406ab6e114"
+   }
+  },
+  {
+   "card": "The Spot's Portal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dack Fayden",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dack Fayden",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:cc9cde6fb40a"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:08221456ec4a"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:cc3f8eb73b58"
+   }
+  },
+  {
+   "card": "Currency Converter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Currency Converter",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:082cb572763a"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:2ce31d1c99ad"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:d59e29fabde2"
+   }
+  },
+  {
+   "card": "Crucible of Worlds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crucible of Worlds",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:f38f7598967d"
+   }
+  },
+  {
+   "card": "The Clone Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Clone Saga",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:a4250f08182d"
+   }
+  },
+  {
+   "card": "Taskmaster, Mercenary Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Taskmaster, Mercenary Mimic",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:8db7bdd55f3c"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:1d64312274e3"
+    },
+    "swap": "swap:norman-osborn:m5:82a1bf1ebfe3"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:922fbaf1e14d"
+   }
+  },
+  {
+   "card": "The Echoverse Fulcrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Echoverse Fulcrum",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:0aca16a058b0"
+   }
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Takenuma, Abandoned Mire",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:1ea2124bed36"
+   }
+  },
+  {
+   "card": "Divining Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Divining Witch",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:23485b84aaf9"
+   }
+  },
+  {
+   "card": "Doom's Time Platform",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doom's Time Platform",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:139dda48fbdb"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:98a286902a04"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:4ce340e0858b"
+   }
+  },
+  {
+   "card": "Sword of Fire and Ice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Fire and Ice",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:f32031d9b306"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Gitaxian Probe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:8c57297fb6ac"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:a35da86e6aad"
+    },
+    "swap": "swap:norman-osborn:m5:919e64b8d845"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:f12ed085e218"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Enter the Infinite",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:91e66b9b68c3"
+    },
+    "swap": "swap:norman-osborn:m5:88c6aa6a382b"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:c0b35ae6fea8"
+    },
+    "swap": "swap:norman-osborn:m5:3a4d23d38513"
+   }
+  },
+  {
+   "card": "High Tide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "High Tide",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "High Tide",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:1adbfabd036a"
+    },
+    "swap": "swap:norman-osborn:m5:7e081b7c01aa"
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3698--44"
+        ]
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Grinding Station"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:5b430708fae4"
+    },
+    "swap": "swap:norman-osborn:m5:3b2bf73cfaa5"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:f5004d1a430e"
+    },
+    "swap": "swap:norman-osborn:m5:4b9cfd9c7054"
+   }
+  },
+  {
+   "card": "Thousand-Year Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:2c1905bdd364"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:7b16425c8e43"
+    },
+    "swap": "swap:norman-osborn:m5:16235a2b432e"
+   }
+  },
+  {
+   "card": "Memnite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memnite",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:8f3778dcdcf9"
+   }
+  },
+  {
+   "card": "Saheeli, Sublime Artificer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:fcdd0d03f2a8"
+    },
+    "swap": "swap:norman-osborn:m5:03700d796fbd"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:729c590d318a"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Retraction Helix",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:f00593214ed6"
+    },
+    "swap": "swap:norman-osborn:m5:2f11af2a535f"
+   }
+  },
+  {
+   "card": "Bonus Round",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bonus Round",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Bonus Round",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:e21dd5211bb9"
+    },
+    "swap": "swap:norman-osborn:m5:f2b2fa7deb2c"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:2348653286dd"
+    },
+    "swap": "swap:norman-osborn:m5:0abf7871744e"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Gitaxian Probe"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:e590ea8369b5"
+    },
+    "swap": "swap:norman-osborn:m5:ad945072eba2"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:3d7714413979"
+    },
+    "swap": "swap:norman-osborn:m5:c87e38cde0e2"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:653f0780e8d2"
+    },
+    "swap": "swap:norman-osborn:m5:818eb24bde69"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:8aee87bf33a0"
+    },
+    "swap": "swap:norman-osborn:m5:a9e63a602d41"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Banishing Knack",
+       "cut": "Tainted Pact"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:11e5fec5fffb"
+    },
+    "swap": "swap:norman-osborn:m5:7e6c516aa7e4"
+   }
+  },
+  {
+   "card": "Grinning Ignus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Culling the Weak"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Mox Amber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:cda59ed94d2a"
+    },
+    "swap": "swap:norman-osborn:m5:a78e75f2c14a"
+   }
+  },
+  {
+   "card": "Drowned Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Secrets",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:norman-osborn:m5:afd1ead1c2da"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856",
+         "1368-3698--44"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:0dfe622c50e7"
+    },
+    "swap": "swap:norman-osborn:m5:a91c424eca71"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:norman-osborn:m5:14a23f7ba8ad"
+    },
+    "swap": "swap:norman-osborn:m5:2c41b79d6315"
+   }
+  }
+ ],
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "list_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "slug": "norman-osborn",
+ "swaps": [
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:503780221e85"
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:5ea15a2831e2"
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:12bc4a526cb4"
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:3a5c2b3a4513"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:2fe21213b1c4"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:b6afa8a8d569"
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:9d2531e92496"
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:5df3753cda8b"
+  },
+  {
+   "adds": [
+    "Secrets of the Dead"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:94e12e3b086b"
+  },
+  {
+   "adds": [
+    "Secrets of the Dead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:40816b673876"
+  },
+  {
+   "adds": [
+    "Green Goblin, Revenant"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:534f9221238f"
+  },
+  {
+   "adds": [
+    "Green Goblin, Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:1b72f961b1ab"
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8bd83db3ac86"
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:faff1ce602f1"
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6e44668ff44c"
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:785e599fcff8"
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:96189055a109"
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:c9e15253a476"
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:8230efd907e2"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:ad782ef0fcd8"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:187f591d542f"
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:5d6e6317752d"
+  },
+  {
+   "adds": [
+    "Emet-Selch of the Third Seat"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:3d82c097cd56"
+  },
+  {
+   "adds": [
+    "Emet-Selch of the Third Seat"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:a7e2bb9b151e"
+  },
+  {
+   "adds": [
+    "Ultimate Green Goblin"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4d9ebb2b4316"
+  },
+  {
+   "adds": [
+    "Ultimate Green Goblin"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:4636222e0ac7"
+  },
+  {
+   "adds": [
+    "Green Goblin, Nemesis"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:cbd0c0da51d6"
+  },
+  {
+   "adds": [
+    "Green Goblin, Nemesis"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:fd0a937018f6"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f91899556eb7"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:c4a1b817eea8"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:79ec884f2353"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:bff11cd8543e"
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5fa905d1ad16"
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:17c196a11569"
+  },
+  {
+   "adds": [
+    "Leader, Super-Genius"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:c6714aa5e732"
+  },
+  {
+   "adds": [
+    "Leader, Super-Genius"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:e3de15a9d92e"
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:bc3351b86208"
+  },
+  {
+   "adds": [
+    "Laughing Mad"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:7b6421a5673c"
+  },
+  {
+   "adds": [
+    "Laughing Mad"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:fd677c965b6d"
+  },
+  {
+   "adds": [
+    "Likeness Looter"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:cbcddfb09bff"
+  },
+  {
+   "adds": [
+    "Likeness Looter"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:3c85754e4800"
+  },
+  {
+   "adds": [
+    "Bitter Triumph"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:015c6df9254f"
+  },
+  {
+   "adds": [
+    "Pumpkin Bombs"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:eeee4f4d3ef2"
+  },
+  {
+   "adds": [
+    "Pumpkin Bombs"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:5e089267f4dd"
+  },
+  {
+   "adds": [
+    "Surly Badgersaur"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4c260ab29c46"
+  },
+  {
+   "adds": [
+    "Surly Badgersaur"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:4479bdd831c6"
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:68bf5165164e"
+  },
+  {
+   "adds": [
+    "Hobgoblin, Mantled Marauder"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:0ff96419bb66"
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:877163636689"
+  },
+  {
+   "adds": [
+    "Carnage, Crimson Chaos"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:ec002207c881"
+  },
+  {
+   "adds": [
+    "Villainous Hideout"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:19bde9cfab5f"
+  },
+  {
+   "adds": [
+    "Ledger Shredder"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:f694e135f711"
+  },
+  {
+   "adds": [
+    "Ledger Shredder"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:fff97e63ba62"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:norman-osborn:m5:dd92e7d822b0"
+  },
+  {
+   "adds": [
+    "Rocket-Powered Goblin Glider"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:ac8224de3a33"
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:f4cea21d8e1d"
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:636d6ad2e948"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4586c261d867"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:e9f799280c02"
+  },
+  {
+   "adds": [
+    "Doctor Octopus, Master Planner"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:c452a8e41b56"
+  },
+  {
+   "adds": [
+    "Doctor Octopus, Master Planner"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:77a3d4ce50b0"
+  },
+  {
+   "adds": [
+    "River Kelpie"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:b59046342ce2"
+  },
+  {
+   "adds": [
+    "Behold the Sinister Six!"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:4964021d6d34"
+  },
+  {
+   "adds": [
+    "Behold the Sinister Six!"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:84e01a8c56c4"
+  },
+  {
+   "adds": [
+    "Romantic Rendezvous"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:2bace6318f8d"
+  },
+  {
+   "adds": [
+    "Prowler, Clawed Thief"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:b39cc14a65b2"
+  },
+  {
+   "adds": [
+    "Tombstone, Career Criminal"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:d37224ab804c"
+  },
+  {
+   "adds": [
+    "Tombstone, Career Criminal"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:c13e7eb4eb2c"
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:2d3a7b82197d"
+  },
+  {
+   "adds": [
+    "Pumpkin Bombardment"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:e20f640e1c4d"
+  },
+  {
+   "adds": [
+    "Ultron, Unlimited"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:5f75c2b06bee"
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:a2f9673f9305"
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:172ee945c4ad"
+  },
+  {
+   "adds": [
+    "Shriek, Treblemaker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6df19fb56f95"
+  },
+  {
+   "adds": [
+    "Shriek, Treblemaker"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:8b5023212fe4"
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5cbaaedbef89"
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:5a1c96f44a0d"
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:5cb0ff60bdcd"
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:6ca97fad46da"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:fd76dbaba2de"
+  },
+  {
+   "adds": [
+    "M.O.D.O.K."
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:94c5498c79d0"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:a0ee147c76c0"
+  },
+  {
+   "adds": [
+    "Change of Fortune"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:834fe9a5c803"
+  },
+  {
+   "adds": [
+    "Demand Answers"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:035204f99ffb"
+  },
+  {
+   "adds": [
+    "Teval's Judgment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6bbe8b6c3dfc"
+  },
+  {
+   "adds": [
+    "Teval's Judgment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:7d9f61dcbff2"
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:2000438dd187"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:9f59f055fa47"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:9eb542080818"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:bc36dc20af3e"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:3c94e798e8ac"
+  },
+  {
+   "adds": [
+    "Villainous Wrath"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:norman-osborn:m5:bc009f45ea87"
+  },
+  {
+   "adds": [
+    "Prison Break"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:e463f8305835"
+  },
+  {
+   "adds": [
+    "Lethal Scheme"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:68e843fd208e"
+  },
+  {
+   "adds": [
+    "Burning Vengeance"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:a7212573abda"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:1b953a834939"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:61e61deed610"
+  },
+  {
+   "adds": [
+    "Vohar, Vodalian Desecrator"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:dfefc20ab6b0"
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:635f51ab2b2b"
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:908d5c10b58f"
+  },
+  {
+   "adds": [
+    "Living Laser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:89eedd3881d4"
+  },
+  {
+   "adds": [
+    "Abomination, World Ravager"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:d29ec2066a01"
+  },
+  {
+   "adds": [
+    "Loki, the Deceiver"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:278a2604523a"
+  },
+  {
+   "adds": [
+    "The Death of Gwen Stacy"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:b2852e06f091"
+  },
+  {
+   "adds": [
+    "Seize the Spoils"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5b413efbe3d1"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:dc1f00526250"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:norman-osborn:m5:1f9005ffe875"
+  },
+  {
+   "adds": [
+    "Glorious Purpose"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:b7e15efb5399"
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:c260e4b062f0"
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:e11727ff179e"
+  },
+  {
+   "adds": [
+    "Spymaster's Vault"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:a9560b65f376"
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:44a805f62b07"
+  },
+  {
+   "adds": [
+    "Scorpion, Seething Striker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:6091efe9b8b4"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:a9d9c74facc8"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:3d6b991c95e3"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:4f6eb8ae55f5"
+  },
+  {
+   "adds": [
+    "Sandman's Quicksand"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8e8a285190e2"
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:ccf3b1f2af06"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:e0e52aa61399"
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:0ee36eb28a29"
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:80ac9f2302b0"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:norman-osborn:m5:babb7b21de48"
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:d4d6441081be"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:511afbf3896f"
+  },
+  {
+   "adds": [
+    "Sinister Hideout"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:f1546972b3be"
+  },
+  {
+   "adds": [
+    "Decaying Time Loop"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:c6e7e2fc41bc"
+  },
+  {
+   "adds": [
+    "Neerdiv, Devious Diver"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:4c003f6aae0a"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:ac01372428eb"
+  },
+  {
+   "adds": [
+    "Key to the City"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8eb90a27acf6"
+  },
+  {
+   "adds": [
+    "Ominous Asylum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:64cbe74fa0fe"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:18b3eaec1df0"
+  },
+  {
+   "adds": [
+    "Steal the Show"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:77f0ab539ddc"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:cf151476ffeb"
+  },
+  {
+   "adds": [
+    "Wonder"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:95b017168ad9"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:1616a0413bcf"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:e3db520af883"
+  },
+  {
+   "adds": [
+    "Electro's Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:62bccd61e8f3"
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:51d69be460a0"
+  },
+  {
+   "adds": [
+    "Circular Logic"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:norman-osborn:m5:2c2f0e9771ac"
+  },
+  {
+   "adds": [
+    "Lórien Revealed"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:6b3c382b6d70"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:bff98c41775e"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:c33bac95bf85"
+  },
+  {
+   "adds": [
+    "Construct a Cosmic Cube"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:3ce11d0000b8"
+  },
+  {
+   "adds": [
+    "Bone Shards"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:3b658b4057b9"
+  },
+  {
+   "adds": [
+    "Grab the Prize"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f7e5c960aae0"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:fa6d5db23353"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:norman-osborn:m5:f16cf2ac7e9c"
+  },
+  {
+   "adds": [
+    "Risky Research"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:0ffb969289d5"
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:0f6902a7b7a5"
+  },
+  {
+   "adds": [
+    "Collector's Vault"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:17ef2e0d6a70"
+  },
+  {
+   "adds": [
+    "Winternight Stories"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:cb5219f5aabc"
+  },
+  {
+   "adds": [
+    "Archnemesis"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:61bdda45e071"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:1a59bbd6557b"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:aab0ab28b0c9"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:492f601f697f"
+  },
+  {
+   "adds": [
+    "Agna Qel'a"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:5b1521553130"
+  },
+  {
+   "adds": [
+    "Avengers: Under Siege"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:25d2cc2fc44e"
+  },
+  {
+   "adds": [
+    "Spider-Sense"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:norman-osborn:m5:41a5030e7980"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:9bca5b6e0214"
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:dd2054a8b031"
+  },
+  {
+   "adds": [
+    "Mysterio's Mirage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:0c72deab02dd"
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:ad24792b68c6"
+  },
+  {
+   "adds": [
+    "Pirate's Pillage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:5ef977d11ed2"
+  },
+  {
+   "adds": [
+    "Reforge the Soul"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:5de3d9a4a515"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:bfb7eb410f76"
+  },
+  {
+   "adds": [
+    "Snort"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:b719f32a313e"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:6cabf3280b64"
+  },
+  {
+   "adds": [
+    "My Precious // Allure of Power"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f4406ab6e114"
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:cc9cde6fb40a"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:08221456ec4a"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:cc3f8eb73b58"
+  },
+  {
+   "adds": [
+    "Currency Converter"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:082cb572763a"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:2ce31d1c99ad"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:d59e29fabde2"
+  },
+  {
+   "adds": [
+    "Crucible of Worlds"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:f38f7598967d"
+  },
+  {
+   "adds": [
+    "The Clone Saga"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:a4250f08182d"
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:8db7bdd55f3c"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:82a1bf1ebfe3"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:1d64312274e3"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:922fbaf1e14d"
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:0aca16a058b0"
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:1ea2124bed36"
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:23485b84aaf9"
+  },
+  {
+   "adds": [
+    "Doom's Time Platform"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:norman-osborn:m5:139dda48fbdb"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:98a286902a04"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:norman-osborn:m5:4ce340e0858b"
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f32031d9b306"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:8c57297fb6ac"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:919e64b8d845"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:a35da86e6aad"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:f12ed085e218"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:88c6aa6a382b"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:91e66b9b68c3"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:3a4d23d38513"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:c0b35ae6fea8"
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:7e081b7c01aa"
+  },
+  {
+   "adds": [
+    "High Tide"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:1adbfabd036a"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:norman-osborn:m5:3b2bf73cfaa5"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:norman-osborn:m5:5b430708fae4"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:4b9cfd9c7054"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:f5004d1a430e"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:norman-osborn:m5:2c1905bdd364"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:16235a2b432e"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:7b16425c8e43"
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:8f3778dcdcf9"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:03700d796fbd"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:fcdd0d03f2a8"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:norman-osborn:m5:729c590d318a"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:2f11af2a535f"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:f00593214ed6"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:f2b2fa7deb2c"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:e21dd5211bb9"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:0abf7871744e"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:2348653286dd"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Gitaxian Probe"
+   ],
+   "id": "swap:norman-osborn:m5:ad945072eba2"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:norman-osborn:m5:e590ea8369b5"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:c87e38cde0e2"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:3d7714413979"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:818eb24bde69"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:653f0780e8d2"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:a9e63a602d41"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:8aee87bf33a0"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:7e6c516aa7e4"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Tainted Pact"
+   ],
+   "id": "swap:norman-osborn:m5:11e5fec5fffb"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Culling the Weak"
+   ],
+   "id": "swap:norman-osborn:m5:a78e75f2c14a"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:norman-osborn:m5:cda59ed94d2a"
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:norman-osborn:m5:afd1ead1c2da"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:norman-osborn:m5:a91c424eca71"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:norman-osborn:m5:0dfe622c50e7"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:norman-osborn:m5:2c41b79d6315"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:norman-osborn:m5:14a23f7ba8ad"
+  }
+ ]
+}

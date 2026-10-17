@@ -1,0 +1,3091 @@
+{
+ "deck_id": "Mairsil__the_Pretender",
+ "list_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "slug": "mairsil-the-pretender",
+ "swaps": [
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:921c60764096",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:111742f59a537b10"
+   ]
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b3ab955282fa",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:861989f7f1faca0f"
+   ]
+  },
+  {
+   "adds": [
+    "Pendant of Prosperity"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:69d83bd35e66",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:dbfb57381d38",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:236fb1df2ea6e2ca"
+   ]
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:58f627c4ae90",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:82df3e9995981bb1"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2e7895546deb",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:888817d3be029b13"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1c514e3e5e55",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f968380533667179"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8bc823e0f19d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:85f8323f12c4",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:e70e1ff4dbe884c2"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1f12d0ed3a13",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:dc55d72ff593e6cf"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a415e0204c9c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9d73c242b0493959"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3c7fe32a687a",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:fa4bb2d6cf093074"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mirror"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:531c1bd0c5f4",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:fd4f56793e1921f5"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Laboratory"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:45bc5203ed8b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:e178d08402da23ba"
+   ]
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3282dad547b4",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7d47325a42060326"
+   ]
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cf30e5fabac6",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:13d2a3f1994e1543"
+   ]
+  },
+  {
+   "adds": [
+    "Jace's Archivist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e9f1044ce035",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0119c448140d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:8324751b3762aa07"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ea89cbbcf092",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c0a576e3338e28a9"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:617a90406dcf",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:62d769903a27846e"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f81b02763aa7",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:21e59460b8b9e334"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:599268319863",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:21d26f465292b153"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:40a3cd3f144c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:234c9aaa804db702"
+   ]
+  },
+  {
+   "adds": [
+    "Coveted Jewel"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9149c2cda9ae",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:3eec843c8ce5ba53"
+   ]
+  },
+  {
+   "adds": [
+    "Ulamog's Dreadsire"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:376a3d55e862",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:59359576539fc5e5"
+   ]
+  },
+  {
+   "adds": [
+    "Ulamog's Dreadsire"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8b3310dc7914",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:e51d54a4bf500018"
+   ]
+  },
+  {
+   "adds": [
+    "Mercurial Chemister"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fd25f6c4d3ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Avatar of Woe"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7ca8efc79858",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:155c3487633b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ba0078238a9f615d"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Time Twist"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fbe7f403fd75",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ac8b304eebcc77fd"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:45cdeb16a726",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spikeshot Elder"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7625aab93423",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:66cba5e489125724"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a899edb9a348",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:8772292e3d7f34da"
+   ]
+  },
+  {
+   "adds": [
+    "Ovinomancer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c6affcab4c70",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ovinomancer"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:34546041920d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f8660ec50c155777"
+   ]
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3f7f26a528c1",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1662ac9ba2b93b20"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6df56073eca4",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:efe8883441b0e1e9"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:891bfd0438ed",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:4786f69c4d31c1b4"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:755cf15b29ba",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:6b9a57d02805f7ed"
+   ]
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9734b265d3cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Vassal"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:22bff62209e4",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:af382418b4996f3d"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Vassal"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e4872f524865",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d268898bc79736f3"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d8af70916b23",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9804e6f8e243c793"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:81e5df61a0eb",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:aaf9642a5dd5b034"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:66ed101d7aa6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9d38f0da9bc9",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:a2b985fd09599ad0"
+   ]
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:edab9721a5db",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c4ea779d3251c498"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fc81862c4e0c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:728b380ca1a1d794"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d6bee4702330",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a2b119b53a86",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:4d5dbd547817ebd7"
+   ]
+  },
+  {
+   "adds": [
+    "Necrotic Ooze"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e11769f76da6",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f152295165889c93"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:49d965a9a983",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:778f6466743d088a"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:28bd22bde68f",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:b75e9d6ff1dd1953"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:aeb295b9d837",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:473f4240a3b63e89"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:01e92375d818",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:972a8fce5b01a3e1"
+   ]
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7eaca5fa2033",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:6135208f05d87b6f"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:91d14843a5f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cinderhaze Wretch"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:921e72abb0cb",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:5c0ce27069133d7a"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:97270e443168",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c47f4d9c3903974c"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c19f027e1b43",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ec5406c035695c5d"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:510d38ed1efd",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:64d2026cdd232581"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b6ed88949429",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:da294e31a3969de4"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:94131d112e9e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seat of the Synod"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:98f81ed7d010",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1b3d09b37c9ebf54"
+   ]
+  },
+  {
+   "adds": [
+    "Fabricate"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:986ddba18b20",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1ab62c442903ee19"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:96ee5b33b1e8",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f39fef6753c9f84d"
+   ]
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:37f6613a6a6e",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:cea4179920cb19da"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cb7fbec1c2cb",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:3577be249b3a1fa1"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e8939d3ba20b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:94dd6e986fb3bc15"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b1475f65ceca",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:efa8a0b59368332b"
+   ]
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:aba849f1ce98",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:32b2a7d81045278e"
+   ]
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7bbff137f81f",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:223f5d854bccc539"
+   ]
+  },
+  {
+   "adds": [
+    "Nyx Lotus"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8451b919e575",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:3fbaf6bb5dc605c4"
+   ]
+  },
+  {
+   "adds": [
+    "Nyx Lotus"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ef08a08e4ffc",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9b3d3f893ab80716"
+   ]
+  },
+  {
+   "adds": [
+    "Paradise Mantle"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ed1400ab3629",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:e7d44934a3b6027b"
+   ]
+  },
+  {
+   "adds": [
+    "Paradise Mantle"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3a93b1496755",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:cf874df8604ea2d0"
+   ]
+  },
+  {
+   "adds": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8dde491cbf3c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1763a6b6c72675ca"
+   ]
+  },
+  {
+   "adds": [
+    "Amaranthine Wall"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ce8de249bf23",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blighted Bat"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5733860c9861",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:6139f432b3c4e427"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:77ecc037fa23",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reckless Handling"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d137d15c9af9",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7925711804b085ef"
+   ]
+  },
+  {
+   "adds": [
+    "Collector's Vault"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:bd1f1f36d9b1",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:41515bd33e3e6a19"
+   ]
+  },
+  {
+   "adds": [
+    "Great Furnace"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:64410e562bf3",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ca951e8abed63789"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8dbd43e05a70",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:dd8fc1251d05c06c"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1febc7c21d4e",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d18b2b1babf56788"
+   ]
+  },
+  {
+   "adds": [
+    "Lively Dirge"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d11b3aa250a1",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ae5f786bb7d6466f"
+   ]
+  },
+  {
+   "adds": [
+    "Metalworker"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f26d93f818e6",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1f80e1f215713a9e"
+   ]
+  },
+  {
+   "adds": [
+    "Metalworker"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8f791e1af12a",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:5303772147ec40ca"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:41c26a76df58",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:5fb99c00dc7211ef"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:54b1d38c2730",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7155627317f436d1"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b53fcbf675f7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vault of Whispers"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:712a1aae3740",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:6e0744e6366192c6"
+   ]
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:416edc5a727c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:a2bfc7142bfbf05c"
+   ]
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1fdf15c62332",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:fcb0d3966c359193"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:aca568a39919",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:85c146de31146441"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4d75a6bb6570",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7f0f87314a38e891"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:42e0006ba580",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:de9759687e6c98dc"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0dd07e40320f",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:b04eeb7b5746255c"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:974ddc75c304",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c80f3618fde1b18f"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c16eda0b4092",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9030461263289a80"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:dc8b48eb0473",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:67034d4d7e44b28b"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:dd5deb3b6f36",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f12fe60a77d686d2"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:49062bc91842",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:8517d420c253e5e4"
+   ]
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2c5ce758b7ff",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9933f522881a36d9"
+   ]
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:875004fc0c54",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1f46b3390b656d8d"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9bce89a5d58a",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ceb29f5cee575620"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:183027dda280",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:0e20b1252d8c604c"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8dd8c8e2fe75",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d15b2f5adb9c2602"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c6352507b1c2",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:79b380158d0fe3f8"
+   ]
+  },
+  {
+   "adds": [
+    "Trazyn the Infinite"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:54bc91591ed7",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:2bbe7f57e1623841"
+   ]
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:77c2814029ae",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d05632eaa1f583e1"
+   ]
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:69fc2565d749",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:008b6007dfcb10e2"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d896c448e5ec",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1d2614c1ae028c3d"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Rings of Brighthearth"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8d35e0a33012",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d08ddd104f0b4480"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:224e8eb9c3a2",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d786cfa8ee32e582"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2a8f2b1845c4",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:acb812bf635084f6"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Devourer"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:37642d4f9f3e",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f87b8509ebe34b70"
+   ]
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4c257756f290",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:324793211bc5b84f"
+   ]
+  },
+  {
+   "adds": [
+    "Spaceshift"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c6a597d9809b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Anthroplasm"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:eb1b8c20c427",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:cf1e87936ea1d8f2"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ead2859616fe",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f96d751183f65c2f"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5de17a9e1db2",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:18b83bc21265e5be"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cc059b6d3a3d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:248673279c64d0f3"
+   ]
+  },
+  {
+   "adds": [
+    "Sanctum of Eternity"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fe6ab238e610",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1ca4b61b3e702f67"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4a148750335f",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7a7226b0f7901912"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4d3a9acee8cf",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ea54af4be37cc221"
+   ]
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:95da0a962f7d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c8ada439c9f472e0"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:69dfae3cd7ff",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:203eb5c282e2750a"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c88f26030530",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1294c3495f1437c0"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ebbe593c37bf",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:06e56f86514cd1c7"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c3e12961e32b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:dbbdd8aad291583f"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cfba712b0517",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d52791b5c7fbb7a6"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:94949a1a8682",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:8328767c4b3aeaf6"
+   ]
+  },
+  {
+   "adds": [
+    "Kozilek, the Great Distortion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1bf60c279ad2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mephidross Vampire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6cc24dbe1a17",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:abd01cf32907dde8"
+   ]
+  },
+  {
+   "adds": [
+    "Mephidross Vampire"
+   ],
+   "cuts": [
+    "Nevinyrral's Disk"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:98c98bfab86c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:99ce0ffcc4757b2c"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8edcabe4d16d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:99ebb7d8ad030caf"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9a3feb718130",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:60584796779820fe"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d9f4948d2803",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:44c42a945b5f20b3"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5f371b027b47",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:dfc228b19557a593"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ceab3d8059da",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ae6d17936a030e45"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ed2b061e2628",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:792ec09cd3ad599c"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c9e39036fca3",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:4de5f63a6aa93a2a"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:44cab1cbbd6e",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c48739d36ed6ee66"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:291147f734ba",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:b1b388745289ec8d"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:74361dae57b2",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:488b11e044edcb0e"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fcc9dca9384d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ffd011c72d2eb784"
+   ]
+  },
+  {
+   "adds": [
+    "Wound Reflection"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:cf9d6f7e0cbd",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:4218b7067bb1f77c"
+   ]
+  },
+  {
+   "adds": [
+    "Archfiend of Despair"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6a37e095767d",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:b989297303171cb2"
+   ]
+  },
+  {
+   "adds": [
+    "Archfiend of Despair"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:03ffa36b0ad8",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:6980cc48525aee2e"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b205a9649c8e",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:42ff743f7452090f"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6536c271bf76",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1233829e0eda62df"
+   ]
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:651239aa8416",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f468f560c6cd80a5"
+   ]
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Morphling"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:bc535f7a58cf",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f3ceaffbcb638fef"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:546bd0296f7b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:06d2bf1f105f68b4"
+   ]
+  },
+  {
+   "adds": [
+    "Skirge Familiar"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4db91cd17278",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:b78a2c32fa44481a"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f58d5ea1fa17",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:73a0847e650de562"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:d20ed6ff6cfe",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:0661817bc40591fe"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e9145b4d0c1b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9d5dc091cf05b89b"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3413b95052ff",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:67fbb4e1006d3ce1"
+   ]
+  },
+  {
+   "adds": [
+    "Jaws of Defeat"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0b2f88b78364",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:e79b7c187d617aa3"
+   ]
+  },
+  {
+   "adds": [
+    "Phenax, God of Deception"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:1f3d02096087",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7e34d10953296a91"
+   ]
+  },
+  {
+   "adds": [
+    "Phenax, God of Deception"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5200bf5dade0",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d7053b95d91c00a7"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3b38d91d2fe5",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:45f529690e599ff4"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:37d59a4373cc",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ca683cc93bf4f2c2"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b17e3cb3be57",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7807134379fb0030"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Coffers"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:967a1aeaea0c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1018d44ff9a1a551"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Coffers"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:00691219222b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:8eb22a1dc037fe61"
+   ]
+  },
+  {
+   "adds": [
+    "Soul Immolation"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:a9acd14631ff",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:134aae90facf915e"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:77980c830e1e",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:609bb88e9fe407f9"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c2c8586614ff",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:306658918a398e10"
+   ]
+  },
+  {
+   "adds": [
+    "Warlock Class"
+   ],
+   "cuts": [
+    "Training Grounds"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0d72b7d143e3",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1b722e49825e1578"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Speculation"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0cb58e107865",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ec439374494692b4"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:f95b205aebf7",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:a8397235761c8903"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:6b0c5951c1ed",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:899643d6ebfb1a62"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4610175eb268",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9f5b573bc4d457ea"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:7c6b521454a7",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c463295ac0d90ec0"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:c5c330626c5a",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:af9ee186a7c6c201"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:14141b809543",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:a45361ddc9e7e647"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:ec33c86a69ff",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:7b66de453d460bf6"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4eccd31fa506",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:3f22dcec7a11ad53"
+   ]
+  },
+  {
+   "adds": [
+    "Whim of Volrath"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9fac1fb6738f",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:20d316ceec8c9067"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:597ddf237fdd",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:4f88d32182321fb9"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:e9f1ae504f1c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:1fb5805d10be90c7"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:b536fb1e9b53",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:c0f43fa2545e02b7"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:5693c2ba3516",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:6503ad56ef556082"
+   ]
+  },
+  {
+   "adds": [
+    "Overeager Apprentice"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:18cc48637a86",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:794330c169cfe932"
+   ]
+  },
+  {
+   "adds": [
+    "Overeager Apprentice"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:8ce3b07feb01",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:adf29559e6a04e9f"
+   ]
+  },
+  {
+   "adds": [
+    "Vhal, Candlekeep Researcher"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:bfb6ea22b610",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:d7d5722e8daea59a"
+   ]
+  },
+  {
+   "adds": [
+    "Vhal, Candlekeep Researcher"
+   ],
+   "cuts": [
+    "Gilded Lotus"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:0e4df4959aeb",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:83e852b3b6a1c161"
+   ]
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:9667380994af",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:4012bdcb071c2afa"
+   ]
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Staff of Domination"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:27ece8058201",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:e8eab3cb556d045b"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:fa68cbcd4f95",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:9ee1eb96bea302ef"
+   ]
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Walking Ballista"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:3f03485f3b4c",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:ad3eb606a112e8d5"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:869210253234",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:f2cc72951f50a2bb"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:2b6ce0e646a9",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:bbbd4b9ecf322c36"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:90597a241a8a",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:45f21d728ddc7a1d"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4bebb71df7b5",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:10d17ec56c66180c"
+   ]
+  },
+  {
+   "adds": [
+    "Mimic"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:mairsil-the-pretender:m5:4f4571e8c35b",
+   "tests": [
+    "test:mairsil-the-pretender:goldfish:735236e89042e3ae"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:mairsil-the-pretender:goldfish:111742f59a537b10",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:861989f7f1faca0f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:236fb1df2ea6e2ca",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:82df3e9995981bb1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:888817d3be029b13",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f968380533667179",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:e70e1ff4dbe884c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:dc55d72ff593e6cf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9d73c242b0493959",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:fa4bb2d6cf093074",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:fd4f56793e1921f5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:e178d08402da23ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7d47325a42060326",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:13d2a3f1994e1543",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:8324751b3762aa07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c0a576e3338e28a9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:62d769903a27846e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:21e59460b8b9e334",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:21d26f465292b153",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:234c9aaa804db702",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:3eec843c8ce5ba53",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:59359576539fc5e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:e51d54a4bf500018",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ba0078238a9f615d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ac8b304eebcc77fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:66cba5e489125724",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:8772292e3d7f34da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f8660ec50c155777",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1662ac9ba2b93b20",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:efe8883441b0e1e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:4786f69c4d31c1b4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:6b9a57d02805f7ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:af382418b4996f3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d268898bc79736f3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9804e6f8e243c793",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:aaf9642a5dd5b034",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:a2b985fd09599ad0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c4ea779d3251c498",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:728b380ca1a1d794",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:4d5dbd547817ebd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f152295165889c93",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:778f6466743d088a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:b75e9d6ff1dd1953",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:473f4240a3b63e89",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:972a8fce5b01a3e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:6135208f05d87b6f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:5c0ce27069133d7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c47f4d9c3903974c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ec5406c035695c5d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:64d2026cdd232581",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:da294e31a3969de4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1b3d09b37c9ebf54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1ab62c442903ee19",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f39fef6753c9f84d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:cea4179920cb19da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:3577be249b3a1fa1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:94dd6e986fb3bc15",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:efa8a0b59368332b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:32b2a7d81045278e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:223f5d854bccc539",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:3fbaf6bb5dc605c4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9b3d3f893ab80716",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:e7d44934a3b6027b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:cf874df8604ea2d0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1763a6b6c72675ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:6139f432b3c4e427",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7925711804b085ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:41515bd33e3e6a19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ca951e8abed63789",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:dd8fc1251d05c06c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d18b2b1babf56788",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ae5f786bb7d6466f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1f80e1f215713a9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:5303772147ec40ca",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:5fb99c00dc7211ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7155627317f436d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:6e0744e6366192c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:a2bfc7142bfbf05c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:fcb0d3966c359193",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:85c146de31146441",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7f0f87314a38e891",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:de9759687e6c98dc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:b04eeb7b5746255c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c80f3618fde1b18f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9030461263289a80",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:67034d4d7e44b28b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f12fe60a77d686d2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:8517d420c253e5e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9933f522881a36d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1f46b3390b656d8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ceb29f5cee575620",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:0e20b1252d8c604c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d15b2f5adb9c2602",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:79b380158d0fe3f8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:2bbe7f57e1623841",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d05632eaa1f583e1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:008b6007dfcb10e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1d2614c1ae028c3d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d08ddd104f0b4480",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d786cfa8ee32e582",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:acb812bf635084f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f87b8509ebe34b70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:324793211bc5b84f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:cf1e87936ea1d8f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f96d751183f65c2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:18b83bc21265e5be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:248673279c64d0f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1ca4b61b3e702f67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7a7226b0f7901912",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ea54af4be37cc221",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c8ada439c9f472e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:203eb5c282e2750a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1294c3495f1437c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:06e56f86514cd1c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:dbbdd8aad291583f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d52791b5c7fbb7a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:8328767c4b3aeaf6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:abd01cf32907dde8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:99ce0ffcc4757b2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:99ebb7d8ad030caf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:60584796779820fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:44c42a945b5f20b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:dfc228b19557a593",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ae6d17936a030e45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:792ec09cd3ad599c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:4de5f63a6aa93a2a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c48739d36ed6ee66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:b1b388745289ec8d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:488b11e044edcb0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ffd011c72d2eb784",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:4218b7067bb1f77c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:b989297303171cb2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:6980cc48525aee2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:42ff743f7452090f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1233829e0eda62df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f468f560c6cd80a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f3ceaffbcb638fef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:06d2bf1f105f68b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:b78a2c32fa44481a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:73a0847e650de562",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:0661817bc40591fe",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9d5dc091cf05b89b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:67fbb4e1006d3ce1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:e79b7c187d617aa3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7e34d10953296a91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d7053b95d91c00a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:45f529690e599ff4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ca683cc93bf4f2c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7807134379fb0030",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1018d44ff9a1a551",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:8eb22a1dc037fe61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:134aae90facf915e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:609bb88e9fe407f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:306658918a398e10",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1b722e49825e1578",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ec439374494692b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:a8397235761c8903",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:899643d6ebfb1a62",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9f5b573bc4d457ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c463295ac0d90ec0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:af9ee186a7c6c201",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:a45361ddc9e7e647",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:7b66de453d460bf6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:3f22dcec7a11ad53",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:20d316ceec8c9067",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:4f88d32182321fb9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:1fb5805d10be90c7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:c0f43fa2545e02b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:6503ad56ef556082",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:794330c169cfe932",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:adf29559e6a04e9f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:d7d5722e8daea59a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:83e852b3b6a1c161",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:4012bdcb071c2afa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:e8eab3cb556d045b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:9ee1eb96bea302ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:ad3eb606a112e8d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:f2cc72951f50a2bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:bbbd4b9ecf322c36",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:45f21d728ddc7a1d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:10d17ec56c66180c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:mairsil-the-pretender:goldfish:735236e89042e3ae",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

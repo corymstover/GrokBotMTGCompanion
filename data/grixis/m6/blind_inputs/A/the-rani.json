@@ -1,0 +1,5264 @@
+{
+ "candidates": [
+  {
+   "card": "Alexios, Deimos of Kosmos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alexios, Deimos of Kosmos",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alexios, Deimos of Kosmos",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:44ebe80a1930"
+    },
+    "swap": "swap:the-rani:m5:2d7da92938f8"
+   }
+  },
+  {
+   "card": "Agitator Ant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agitator Ant",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agitator Ant",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:eea4eb80cdba"
+    },
+    "swap": "swap:the-rani:m5:2bf9e6d74cd4"
+   }
+  },
+  {
+   "card": "Parasitic Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Parasitic Impetus",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Parasitic Impetus",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:dff2696bb37e"
+    },
+    "swap": "swap:the-rani:m5:23ef9f789a9a"
+   }
+  },
+  {
+   "card": "Renegade Silent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Renegade Silent",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Renegade Silent",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:8ab931c0324d"
+    },
+    "swap": "swap:the-rani:m5:a4110e18a218"
+   }
+  },
+  {
+   "card": "Tamiyo's Journal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tamiyo's Journal",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:b6ece43e1995"
+   }
+  },
+  {
+   "card": "Laser Screwdriver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laser Screwdriver",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:4235a989bedd"
+   }
+  },
+  {
+   "card": "Life of the Party",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Life of the Party",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Life of the Party",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:343fa8a72f51"
+    },
+    "swap": "swap:the-rani:m5:a55f0057a3ac"
+   }
+  },
+  {
+   "card": "Geode Rager",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geode Rager",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:5263cc9d9e3a"
+   }
+  },
+  {
+   "card": "Frenzied Gorespawn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frenzied Gorespawn",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:5dc1457feb44"
+   }
+  },
+  {
+   "card": "Sly Instigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sly Instigator",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:792a722b256b"
+   }
+  },
+  {
+   "card": "Komainu Battle Armor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Komainu Battle Armor",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:8d85d23e4b63"
+   }
+  },
+  {
+   "card": "Coronation of Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coronation of Chaos",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:4b1b5ca7bfe8"
+   }
+  },
+  {
+   "card": "Day of the Moon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Day of the Moon",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:05a463de0c2b"
+   }
+  },
+  {
+   "card": "Martha Jones",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Martha Jones",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:c08c254347a0"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:95ead446867f"
+   }
+  },
+  {
+   "card": "Piper Wright, Publick Reporter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Piper Wright, Publick Reporter",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Piper Wright, Publick Reporter",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:91c72128f4f2"
+    },
+    "swap": "swap:the-rani:m5:a9ddd29c93a7"
+   }
+  },
+  {
+   "card": "Xantcha, Sleeper Agent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xantcha, Sleeper Agent",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:0703b01ab411"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:57e0313b2ded"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:4840431b79d9"
+   }
+  },
+  {
+   "card": "Mob Rule",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mob Rule",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:d6c06aeeae0e"
+   }
+  },
+  {
+   "card": "Insurrection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insurrection",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:489fdb5576a7"
+   }
+  },
+  {
+   "card": "Fast Forward",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fast Forward",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:9a140a759118"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:98e20eca7bcb"
+   }
+  },
+  {
+   "card": "Vislor Turlough",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vislor Turlough",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:d09dcd0d8363"
+   }
+  },
+  {
+   "card": "Deadly Dispute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Dispute",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:91ef98cebfae"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:9688d8bd9f86"
+   }
+  },
+  {
+   "card": "Conjurer's Closet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conjurer's Closet",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conjurer's Closet",
+       "cut": "Time Sieve"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:7e501b776ede"
+    },
+    "swap": "swap:the-rani:m5:0f040481b1fa"
+   }
+  },
+  {
+   "card": "Idol of Oblivion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Idol of Oblivion",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:df97ac142cd3"
+   }
+  },
+  {
+   "card": "Popular Entertainer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Popular Entertainer",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:6b4bcc76441a"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:3ec6a360c776"
+   }
+  },
+  {
+   "card": "Maeve, Insidious Singer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maeve, Insidious Singer",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:d13d08fb7533"
+   }
+  },
+  {
+   "card": "Archway of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archway of Innovation",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:c656e1a2062d"
+   }
+  },
+  {
+   "card": "Kang Dynasty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kang Dynasty",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:fae6832ec8e0"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:9d5454de2e85"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:e7c0a8e9a13f"
+   }
+  },
+  {
+   "card": "Mirkwood Bats",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirkwood Bats",
+       "cut": "Curse of Opulence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:8d64b3ca68f9"
+   }
+  },
+  {
+   "card": "Acquired Mutation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Acquired Mutation",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:dd374e019f0e"
+   }
+  },
+  {
+   "card": "Curse of Verbosity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Verbosity",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:1dab1c33a117"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:1b6bc14009e5"
+   }
+  },
+  {
+   "card": "Mister Fantastic, Reed Richards",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mister Fantastic, Reed Richards",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:0f24ecac2df5"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:fe0378863090"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:55a9b7d61c9a"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:df03370cf48e"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:3cf971ec4617"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:26f3738a3216"
+   }
+  },
+  {
+   "card": "Laurine, the Diversion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laurine, the Diversion",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:bde6dff6ec39"
+   }
+  },
+  {
+   "card": "Sontaran General",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sontaran General",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:51a6288e9efa"
+   }
+  },
+  {
+   "card": "Fell Beast's Shriek",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fell Beast's Shriek",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:fb855dbb5503"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:6a693a433136"
+   }
+  },
+  {
+   "card": "Essence Flux",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Flux",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:73c4cad51103"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:7b3d3fa55694"
+   }
+  },
+  {
+   "card": "Trenzalore Clocktower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trenzalore Clocktower",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:86f5a838ade6"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:26c855fd7a32"
+   }
+  },
+  {
+   "card": "Braids, Arisen Nightmare",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Braids, Arisen Nightmare",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:dcb172079847"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:cbab2e96c9b2"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:a30a72c0ebcd"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:ac840defed0c"
+   }
+  },
+  {
+   "card": "Shadowblood Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowblood Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:c933ec364290"
+   }
+  },
+  {
+   "card": "Sword of Hearth and Home",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Hearth and Home",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:38681bc4ae48"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:87380ead7e01"
+   }
+  },
+  {
+   "card": "Auton Soldier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Auton Soldier",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:204350805aa1"
+   }
+  },
+  {
+   "card": "Havoc Eater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Havoc Eater",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:77e33a8b8ba6"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherize",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:11889e32e547"
+   }
+  },
+  {
+   "card": "Taunting Kobold",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Taunting Kobold",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:5b45b93ae9e1"
+   }
+  },
+  {
+   "card": "Nettling Nuisance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nettling Nuisance",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:f41e2a9a71c6"
+   }
+  },
+  {
+   "card": "Goblin Glasswright // Craft with Pride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:7299ba93c7d8"
+    },
+    "swap": "swap:the-rani:m5:af33e288f324"
+   }
+  },
+  {
+   "card": "Glóin, Dwarf Emissary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glóin, Dwarf Emissary",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:22835b5fea58"
+   }
+  },
+  {
+   "card": "Ant-Man, Elusive Avenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ant-Man, Elusive Avenger",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ant-Man, Elusive Avenger",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:03ee09d31d76"
+    },
+    "swap": "swap:the-rani:m5:b5c7cc4b5378"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:1ff520db4128"
+    },
+    "swap": "swap:the-rani:m5:837f81617c78"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:ddc2160c3c84"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:503451cd14b5"
+    },
+    "swap": "swap:the-rani:m5:a53723b9254c"
+   }
+  },
+  {
+   "card": "Grim Hireling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grim Hireling",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grim Hireling",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:e7eaac3c1df7"
+    },
+    "swap": "swap:the-rani:m5:39dbcfd5bb1d"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:97f59e8c4df2"
+    },
+    "swap": "swap:the-rani:m5:1da77f41fe30"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:8988df450540"
+   }
+  },
+  {
+   "card": "Cybermen Squadron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermen Squadron",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybermen Squadron",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:1973525178fd"
+    },
+    "swap": "swap:the-rani:m5:a9441fdd5976"
+   }
+  },
+  {
+   "card": "Seifer, Balamb Rival",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seifer, Balamb Rival",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:409d6731ad9c"
+   }
+  },
+  {
+   "card": "Shizo, Death's Storehouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shizo, Death's Storehouse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:d097664ac693"
+   }
+  },
+  {
+   "card": "Maximum Carnage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maximum Carnage",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:2f39e63f07fa"
+   }
+  },
+  {
+   "card": "Malcolm, Keen-Eyed Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Malcolm, Keen-Eyed Navigator",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Malcolm, Keen-Eyed Navigator",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:90bd69511240"
+    },
+    "swap": "swap:the-rani:m5:43e7697b3f83"
+   }
+  },
+  {
+   "card": "Guild Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guild Artisan",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guild Artisan",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:4fca63c1ceb4"
+    },
+    "swap": "swap:the-rani:m5:c43d7e7b7a13"
+   }
+  },
+  {
+   "card": "Professional Face-Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Professional Face-Breaker",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:442de0964a85"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:66b3814d4bc5"
+    },
+    "swap": "swap:the-rani:m5:79dc022ac0cd"
+   }
+  },
+  {
+   "card": "Thopter Assembly",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thopter Assembly",
+       "cut": "Curse of Opulence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thopter Assembly",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:73e7c7e6e6c6"
+    },
+    "swap": "swap:the-rani:m5:b1d0a8f8aef3"
+   }
+  },
+  {
+   "card": "Edward Kenway",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Edward Kenway",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Edward Kenway",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:67feb6cd09c4"
+    },
+    "swap": "swap:the-rani:m5:02d8c25351e7"
+   }
+  },
+  {
+   "card": "Burakos, Party Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burakos, Party Leader",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burakos, Party Leader",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:1ae66a7955ef"
+    },
+    "swap": "swap:the-rani:m5:30f0249d077d"
+   }
+  },
+  {
+   "card": "Drafna, Founder of Lat-Nam",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drafna, Founder of Lat-Nam",
+       "cut": "Curse of Opulence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drafna, Founder of Lat-Nam",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:8a831cd906c6"
+    },
+    "swap": "swap:the-rani:m5:225ed1a7c9c4"
+   }
+  },
+  {
+   "card": "Exsanguinator Cavalry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exsanguinator Cavalry",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exsanguinator Cavalry",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:adcb5dc8b2d0"
+    },
+    "swap": "swap:the-rani:m5:447337e08eb7"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:42ea7385895b"
+    },
+    "swap": "swap:the-rani:m5:f2e3ffe4de15"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:eea2f32e0a0a"
+    },
+    "swap": "swap:the-rani:m5:c8f5da4cdb87"
+   }
+  },
+  {
+   "card": "Olivia's Attendants",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia's Attendants",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Olivia's Attendants",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:e8d70cf395ab"
+    },
+    "swap": "swap:the-rani:m5:3a07d05a03b4"
+   }
+  },
+  {
+   "card": "Brotherhood Regalia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brotherhood Regalia",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:799d5ae6fde5"
+   }
+  },
+  {
+   "card": "Safana, Calimport Cutthroat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Safana, Calimport Cutthroat",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Safana, Calimport Cutthroat",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:95e74d9d62d8"
+    },
+    "swap": "swap:the-rani:m5:68b90358139e"
+   }
+  },
+  {
+   "card": "Inquisitor Eisenhorn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inquisitor Eisenhorn",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inquisitor Eisenhorn",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:6ab30dcce361"
+    },
+    "swap": "swap:the-rani:m5:2722fe897c45"
+   }
+  },
+  {
+   "card": "Multiversal Recruitment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Multiversal Recruitment",
+       "cut": "Curse of Opulence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:1a2393700e5c"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:579d79b837fa"
+   }
+  },
+  {
+   "card": "Cursed Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cursed Mirror",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:a8ff0e325479"
+   }
+  },
+  {
+   "card": "Arena of Glory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arena of Glory",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:a63ec6efafc3"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:019a0129ebd4"
+   }
+  },
+  {
+   "card": "Changing Loyalty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Changing Loyalty",
+       "cut": "Curse of Opulence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:1bdce690602a"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:a63e8565b859"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:3d95a8324375"
+   }
+  },
+  {
+   "card": "Public Enemy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Public Enemy",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:06ff93126e63"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:8ea5476dd3a1"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:21dc294e27c8"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:0bbe4feb8b47"
+   }
+  },
+  {
+   "card": "Besmirch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Besmirch",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:43a947027c3a"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "The One Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:9463493b316f"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:2aaba9303616"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:2cab34bcc55d"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:fe1a7886e6d4"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:0724008078f2"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:the-rani:m5:a0b19afd1ca0"
+   }
+  },
+  {
+   "card": "Blazing Firesinger // Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:db35dd95bbf5"
+    },
+    "swap": "swap:the-rani:m5:3f2c93ea48c0"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Coercive Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:029f2fc1f85d"
+    },
+    "swap": "swap:the-rani:m5:6315bd34771e"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:52c102072d5e"
+    },
+    "swap": "swap:the-rani:m5:21db33a4f490"
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Shiny Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:d043721eed33"
+    },
+    "swap": "swap:the-rani:m5:fd1cdb42c594"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:71c43560149f"
+    },
+    "swap": "swap:the-rani:m5:87a4f7220175"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:4494642d83ca"
+    },
+    "swap": "swap:the-rani:m5:6ef4d433eb28"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Rakdos Charm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:1b4e56315a92"
+    },
+    "swap": "swap:the-rani:m5:2a99dbcb9aa4"
+   }
+  },
+  {
+   "card": "Pili-Pala",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pili-Pala",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pili-Pala",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:3acecb1cbdaf"
+    },
+    "swap": "swap:the-rani:m5:13a04382bbfb"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Incriminating Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:319557950b20"
+    },
+    "swap": "swap:the-rani:m5:d025802f3c59"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:e52d4e45a094"
+    },
+    "swap": "swap:the-rani:m5:7eaaf67d598c"
+   }
+  },
+  {
+   "card": "Farmstead Gleaner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Farmstead Gleaner",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Farmstead Gleaner",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:6616987f59c9"
+    },
+    "swap": "swap:the-rani:m5:83e913e8a613"
+   }
+  },
+  {
+   "card": "Chancellor of the Spires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:22b66edd87d9"
+    },
+    "swap": "swap:the-rani:m5:481f71d1f039"
+   }
+  },
+  {
+   "card": "Filigree Sages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Filigree Sages",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Filigree Sages",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:6d186e630e0e"
+    },
+    "swap": "swap:the-rani:m5:788409de6b76"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:299b732b3bb1"
+    },
+    "swap": "swap:the-rani:m5:8531de9c8d1d"
+   }
+  },
+  {
+   "card": "Words of Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Words of Wind",
+       "cut": "The One Ring"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Words of Wind",
+       "cut": "Coercive Impetus"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:cd28ef6ec138"
+    },
+    "swap": "swap:the-rani:m5:6012298af5fe"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:a4ffe5c245fa"
+    },
+    "swap": "swap:the-rani:m5:3b5965cb68bc"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Bjorna, Nightfall Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:the-rani:m5:adf772788dd0"
+    },
+    "swap": "swap:the-rani:m5:8c688543ef45"
+   }
+  }
+ ],
+ "deck_id": "The_Rani",
+ "list_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+ "slug": "the-rani",
+ "swaps": [
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:2d7da92938f8"
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:44ebe80a1930"
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:2bf9e6d74cd4"
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:eea4eb80cdba"
+  },
+  {
+   "adds": [
+    "Parasitic Impetus"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:23ef9f789a9a"
+  },
+  {
+   "adds": [
+    "Parasitic Impetus"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:dff2696bb37e"
+  },
+  {
+   "adds": [
+    "Renegade Silent"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a4110e18a218"
+  },
+  {
+   "adds": [
+    "Renegade Silent"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:8ab931c0324d"
+  },
+  {
+   "adds": [
+    "Tamiyo's Journal"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:the-rani:m5:b6ece43e1995"
+  },
+  {
+   "adds": [
+    "Laser Screwdriver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:4235a989bedd"
+  },
+  {
+   "adds": [
+    "Life of the Party"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a55f0057a3ac"
+  },
+  {
+   "adds": [
+    "Life of the Party"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:343fa8a72f51"
+  },
+  {
+   "adds": [
+    "Geode Rager"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:5263cc9d9e3a"
+  },
+  {
+   "adds": [
+    "Frenzied Gorespawn"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:5dc1457feb44"
+  },
+  {
+   "adds": [
+    "Sly Instigator"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:792a722b256b"
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:8d85d23e4b63"
+  },
+  {
+   "adds": [
+    "Coronation of Chaos"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:4b1b5ca7bfe8"
+  },
+  {
+   "adds": [
+    "Day of the Moon"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:05a463de0c2b"
+  },
+  {
+   "adds": [
+    "Martha Jones"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:c08c254347a0"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:95ead446867f"
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a9ddd29c93a7"
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:91c72128f4f2"
+  },
+  {
+   "adds": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:0703b01ab411"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:57e0313b2ded"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:4840431b79d9"
+  },
+  {
+   "adds": [
+    "Mob Rule"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:d6c06aeeae0e"
+  },
+  {
+   "adds": [
+    "Insurrection"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:489fdb5576a7"
+  },
+  {
+   "adds": [
+    "Fast Forward"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:9a140a759118"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:98e20eca7bcb"
+  },
+  {
+   "adds": [
+    "Vislor Turlough"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:d09dcd0d8363"
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:91ef98cebfae"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:9688d8bd9f86"
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:0f040481b1fa"
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Time Sieve"
+   ],
+   "id": "swap:the-rani:m5:7e501b776ede"
+  },
+  {
+   "adds": [
+    "Idol of Oblivion"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:df97ac142cd3"
+  },
+  {
+   "adds": [
+    "Popular Entertainer"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:6b4bcc76441a"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-rani:m5:3ec6a360c776"
+  },
+  {
+   "adds": [
+    "Maeve, Insidious Singer"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:d13d08fb7533"
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:c656e1a2062d"
+  },
+  {
+   "adds": [
+    "Kang Dynasty"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:fae6832ec8e0"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:9d5454de2e85"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:e7c0a8e9a13f"
+  },
+  {
+   "adds": [
+    "Mirkwood Bats"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:8d64b3ca68f9"
+  },
+  {
+   "adds": [
+    "Acquired Mutation"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:dd374e019f0e"
+  },
+  {
+   "adds": [
+    "Curse of Verbosity"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:1dab1c33a117"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:1b6bc14009e5"
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:0f24ecac2df5"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:the-rani:m5:fe0378863090"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:55a9b7d61c9a"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:df03370cf48e"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:3cf971ec4617"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-rani:m5:26f3738a3216"
+  },
+  {
+   "adds": [
+    "Laurine, the Diversion"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:bde6dff6ec39"
+  },
+  {
+   "adds": [
+    "Sontaran General"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:51a6288e9efa"
+  },
+  {
+   "adds": [
+    "Fell Beast's Shriek"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:fb855dbb5503"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:6a693a433136"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:73c4cad51103"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:the-rani:m5:7b3d3fa55694"
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:86f5a838ade6"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:26c855fd7a32"
+  },
+  {
+   "adds": [
+    "Braids, Arisen Nightmare"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:dcb172079847"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:cbab2e96c9b2"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a30a72c0ebcd"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:ac840defed0c"
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:c933ec364290"
+  },
+  {
+   "adds": [
+    "Sword of Hearth and Home"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:38681bc4ae48"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:the-rani:m5:87380ead7e01"
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:204350805aa1"
+  },
+  {
+   "adds": [
+    "Havoc Eater"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:77e33a8b8ba6"
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:11889e32e547"
+  },
+  {
+   "adds": [
+    "Taunting Kobold"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:5b45b93ae9e1"
+  },
+  {
+   "adds": [
+    "Nettling Nuisance"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:f41e2a9a71c6"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:af33e288f324"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:7299ba93c7d8"
+  },
+  {
+   "adds": [
+    "Glóin, Dwarf Emissary"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:22835b5fea58"
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:b5c7cc4b5378"
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:03ee09d31d76"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:837f81617c78"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:1ff520db4128"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:ddc2160c3c84"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:a53723b9254c"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:503451cd14b5"
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:39dbcfd5bb1d"
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:e7eaac3c1df7"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:1da77f41fe30"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:97f59e8c4df2"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:8988df450540"
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:a9441fdd5976"
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:1973525178fd"
+  },
+  {
+   "adds": [
+    "Seifer, Balamb Rival"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:409d6731ad9c"
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:d097664ac693"
+  },
+  {
+   "adds": [
+    "Maximum Carnage"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:2f39e63f07fa"
+  },
+  {
+   "adds": [
+    "Malcolm, Keen-Eyed Navigator"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:43e7697b3f83"
+  },
+  {
+   "adds": [
+    "Malcolm, Keen-Eyed Navigator"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:90bd69511240"
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:c43d7e7b7a13"
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:4fca63c1ceb4"
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:442de0964a85"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:79dc022ac0cd"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:66b3814d4bc5"
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:b1d0a8f8aef3"
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:73e7c7e6e6c6"
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:02d8c25351e7"
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:67feb6cd09c4"
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:30f0249d077d"
+  },
+  {
+   "adds": [
+    "Burakos, Party Leader"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:1ae66a7955ef"
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:225ed1a7c9c4"
+  },
+  {
+   "adds": [
+    "Drafna, Founder of Lat-Nam"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:8a831cd906c6"
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:447337e08eb7"
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:adcb5dc8b2d0"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:f2e3ffe4de15"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:42ea7385895b"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:c8f5da4cdb87"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:eea2f32e0a0a"
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:3a07d05a03b4"
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:e8d70cf395ab"
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:799d5ae6fde5"
+  },
+  {
+   "adds": [
+    "Safana, Calimport Cutthroat"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:68b90358139e"
+  },
+  {
+   "adds": [
+    "Safana, Calimport Cutthroat"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:95e74d9d62d8"
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:2722fe897c45"
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:6ab30dcce361"
+  },
+  {
+   "adds": [
+    "Multiversal Recruitment"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:1a2393700e5c"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:579d79b837fa"
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:a8ff0e325479"
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a63ec6efafc3"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:019a0129ebd4"
+  },
+  {
+   "adds": [
+    "Changing Loyalty"
+   ],
+   "cuts": [
+    "Curse of Opulence"
+   ],
+   "id": "swap:the-rani:m5:1bdce690602a"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a63e8565b859"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:3d95a8324375"
+  },
+  {
+   "adds": [
+    "Public Enemy"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:06ff93126e63"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:8ea5476dd3a1"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:21dc294e27c8"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:0bbe4feb8b47"
+  },
+  {
+   "adds": [
+    "Besmirch"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:43a947027c3a"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:9463493b316f"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:2aaba9303616"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:2cab34bcc55d"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:fe1a7886e6d4"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:0724008078f2"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:the-rani:m5:a0b19afd1ca0"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:3f2c93ea48c0"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:db35dd95bbf5"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:6315bd34771e"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Coercive Impetus"
+   ],
+   "id": "swap:the-rani:m5:029f2fc1f85d"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:21db33a4f490"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:52c102072d5e"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:the-rani:m5:fd1cdb42c594"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Shiny Impetus"
+   ],
+   "id": "swap:the-rani:m5:d043721eed33"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-rani:m5:87a4f7220175"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:71c43560149f"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:6ef4d433eb28"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:4494642d83ca"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:the-rani:m5:2a99dbcb9aa4"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:1b4e56315a92"
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:13a04382bbfb"
+  },
+  {
+   "adds": [
+    "Pili-Pala"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:3acecb1cbdaf"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:the-rani:m5:d025802f3c59"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Incriminating Impetus"
+   ],
+   "id": "swap:the-rani:m5:319557950b20"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:7eaaf67d598c"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:e52d4e45a094"
+  },
+  {
+   "adds": [
+    "Farmstead Gleaner"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:83e913e8a613"
+  },
+  {
+   "adds": [
+    "Farmstead Gleaner"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:6616987f59c9"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:481f71d1f039"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:22b66edd87d9"
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:788409de6b76"
+  },
+  {
+   "adds": [
+    "Filigree Sages"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:6d186e630e0e"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:8531de9c8d1d"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:299b732b3bb1"
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "The One Ring"
+   ],
+   "id": "swap:the-rani:m5:6012298af5fe"
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Coercive Impetus"
+   ],
+   "id": "swap:the-rani:m5:cd28ef6ec138"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:3b5965cb68bc"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:a4ffe5c245fa"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Slicer, Hired Muscle // Slicer, High-Speed Antagonist"
+   ],
+   "id": "swap:the-rani:m5:8c688543ef45"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Bjorna, Nightfall Alchemist"
+   ],
+   "id": "swap:the-rani:m5:adf772788dd0"
+  }
+ ]
+}

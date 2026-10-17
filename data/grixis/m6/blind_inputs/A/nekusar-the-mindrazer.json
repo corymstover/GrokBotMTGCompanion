@@ -1,0 +1,9679 @@
+{
+ "candidates": [
+  {
+   "card": "Psychosis Crawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychosis Crawler",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Psychosis Crawler",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:6a817b35b528"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:711b24342960"
+   }
+  },
+  {
+   "card": "Ob Nixilis, the Hate-Twisted",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ob Nixilis, the Hate-Twisted",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5064b50ddb5d"
+   }
+  },
+  {
+   "card": "Forced Fruition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forced Fruition",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forced Fruition",
+       "cut": "Echo of Eons"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:1f8ace964146"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4ac22e7f7c0c"
+   }
+  },
+  {
+   "card": "Howling Mine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howling Mine",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howling Mine",
+       "cut": "Echo of Eons"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:3f74a192b1cf"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:56f3a130219b"
+   }
+  },
+  {
+   "card": "Dictate of Kruphix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dictate of Kruphix",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dictate of Kruphix",
+       "cut": "Echo of Eons"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:2fd028fa1e37"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:663c5a2f17e8"
+   }
+  },
+  {
+   "card": "Master of the Feast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Master of the Feast",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:3db0b15acf09"
+   }
+  },
+  {
+   "card": "Prosperity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prosperity",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ce8770e87c13"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c5c760b70379"
+   }
+  },
+  {
+   "card": "Temple Bell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple Bell",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:2f53d3253108"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:694795b74f50"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:268264ca42d7"
+   }
+  },
+  {
+   "card": "Faerie Mastermind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faerie Mastermind",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:80b114ccf0a4"
+   }
+  },
+  {
+   "card": "Seizan, Perverter of Truth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seizan, Perverter of Truth",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:47377f5fcb81"
+   }
+  },
+  {
+   "card": "Megrim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:97556a201d7d"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Ghyrson Starn, Kelermorph"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:b86538ae857a"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:bc2b6481e26e"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:228c24619dbc"
+   }
+  },
+  {
+   "card": "Font of Mythos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Font of Mythos",
+       "cut": "Talisman of Indulgence"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:f38ffa35d336"
+   }
+  },
+  {
+   "card": "Wheel of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fate",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:24207c690e04"
+   }
+  },
+  {
+   "card": "Vision Skeins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vision Skeins",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:2ad33d725e8b"
+   }
+  },
+  {
+   "card": "The Locust God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:069e662bbba2"
+   }
+  },
+  {
+   "card": "Baleful Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Mastery",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:512fe5c1a76e"
+   }
+  },
+  {
+   "card": "Niv-Mizzet, the Firemind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Niv-Mizzet, the Firemind",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:339098d6838d"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a7e4e4edb0e3"
+   }
+  },
+  {
+   "card": "Time Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Reversal",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:018242538475"
+   }
+  },
+  {
+   "card": "Solphim, Mayhem Dominus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solphim, Mayhem Dominus",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:085448b73606"
+   }
+  },
+  {
+   "card": "Dragon Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon Mage",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cce5bf4947c2"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:9363ee2072a2"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:58b3b2c1d01d"
+   }
+  },
+  {
+   "card": "Jace Beleren",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace Beleren",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5c1dbbac42d0"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:1872cd441553"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:00044bb5e5cb"
+   }
+  },
+  {
+   "card": "Dream Fracture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Fracture",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:51be49c86473"
+   }
+  },
+  {
+   "card": "Incendiary Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Incendiary Command",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:576d6d71a4b2"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0007af92b04d"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:093768f21690"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0953efd3b77c"
+   }
+  },
+  {
+   "card": "Folio of Fancies",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Folio of Fancies",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:619f18945c94"
+   }
+  },
+  {
+   "card": "Whirlpool Warrior",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whirlpool Warrior",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d480bfa434ad"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b0895da64c3c"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Chaos Warp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:8822871c7461"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:428c257d306d"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5cea19176247"
+   }
+  },
+  {
+   "card": "Decanter of Endless Water",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Damnable Pact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Damnable Pact",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4fa62564f98e"
+   }
+  },
+  {
+   "card": "Day's Undoing",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Day's Undoing",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:10138750a421"
+   }
+  },
+  {
+   "card": "Phyresis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyresis",
+       "cut": "Rhystic Study"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:72c610f7a1d4"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Visionary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Niv-Mizzet, Visionary",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Niv-Mizzet, Visionary",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:0ece1960c879"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0e2fcbaa438f"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7f944fad66b1"
+   }
+  },
+  {
+   "card": "Kess, Dissident Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:6b4b3aa848da"
+   }
+  },
+  {
+   "card": "Cerebral Vortex",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cerebral Vortex",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b2f14796c557"
+   }
+  },
+  {
+   "card": "Chasm Skulker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chasm Skulker",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ec617c1ce9c7"
+   }
+  },
+  {
+   "card": "Time Spiral",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Spiral",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b53e1f4a125f"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e691c988a1f4"
+   }
+  },
+  {
+   "card": "Commit // Memory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commit // Memory",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:07345dbbe878"
+   }
+  },
+  {
+   "card": "Gixian Puppeteer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gixian Puppeteer",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:511b7bf59507"
+   }
+  },
+  {
+   "card": "Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sign in Blood",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:f062dd2b1e7e"
+   }
+  },
+  {
+   "card": "Helm of the Ghastlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of the Ghastlord",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Helm of the Ghastlord",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:95c765f4960b"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:102616893387"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:dc1826b47eaa"
+   }
+  },
+  {
+   "card": "Teferi's Ageless Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teferi's Ageless Insight",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Teferi's Ageless Insight",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:ff6432aaa904"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:08457ff67535"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Minds Aglow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Minds Aglow",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:3578b7c53a81"
+   }
+  },
+  {
+   "card": "Skyscribing",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skyscribing",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0a84b3d96602"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:6ceb191ec10c"
+   }
+  },
+  {
+   "card": "Decorum Dissertation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decorum Dissertation",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e06482fdc207"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4ceb3fbe5c52"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0c6aec6106ae"
+   }
+  },
+  {
+   "card": "Fascination",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fascination",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4b05b5f53535"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Well of Ideas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Well of Ideas",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d208937d5756"
+   }
+  },
+  {
+   "card": "Reflecting Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reflecting Pool",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:caff8b008ef1"
+   }
+  },
+  {
+   "card": "Memory Jar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Jar",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:27d501ca08da"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:70f1b7a0785a"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Chaos Warp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b797807fc9be"
+   }
+  },
+  {
+   "card": "Bloodletter of Aclazotz",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:8187f6664f93"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a96d2519b9fb"
+   }
+  },
+  {
+   "card": "Mindcrank",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindcrank",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindcrank",
+       "cut": "Scrawling Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:8d520920d375"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7967834fd138"
+   }
+  },
+  {
+   "card": "Otherworld Atlas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Otherworld Atlas",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:382a978d864c"
+   }
+  },
+  {
+   "card": "Timetwister",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timetwister",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:9005d0a135d7"
+   }
+  },
+  {
+   "card": "Blue Sun's Zenith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blue Sun's Zenith",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:42a848bb1933"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Chaos Warp"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5ca158402a27"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:6e0782983399"
+   }
+  },
+  {
+   "card": "Struggle for Project Purity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Struggle for Project Purity",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e5fa22725b5b"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cb22dd90ca95"
+   }
+  },
+  {
+   "card": "Magus of the Jar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Jar",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:2538edce2bcb"
+   }
+  },
+  {
+   "card": "Laboratory Maniac",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laboratory Maniac",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ce7c238495d1"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:713da20642d9"
+   }
+  },
+  {
+   "card": "The Master of Lake-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "The Master of Lake-town",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:94337c8d0b5e"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:194139ca840b"
+   }
+  },
+  {
+   "card": "Insatiable Avarice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insatiable Avarice",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:20d6e7375277"
+   }
+  },
+  {
+   "card": "Deadly Rollick",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Alhammarret's Archive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alhammarret's Archive",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Alhammarret's Archive",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:1a47dd31bb22"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:fa71d4b4e25f"
+   }
+  },
+  {
+   "card": "Vilis, Broker of Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Vilis, Broker of Blood",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:880f74ec7508"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c718cc53a456"
+   }
+  },
+  {
+   "card": "Ophidian Eye",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ophidian Eye",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Ophidian Eye",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:c91d8b59f068"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c900ad7dc3ac"
+   }
+  },
+  {
+   "card": "Twenty-Toed Toad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twenty-Toed Toad",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Twenty-Toed Toad",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:5dbd243fc502"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b59ce855b06e"
+   }
+  },
+  {
+   "card": "Psychic Corrosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:f3a29c967e3e"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ff18aa39f506"
+   }
+  },
+  {
+   "card": "Scheming Silvertongue // Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scheming Silvertongue // Sign in Blood",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7d73b22b2613"
+   }
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:7104fff71cdc"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cc58839589cb"
+   }
+  },
+  {
+   "card": "Body of Knowledge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Body of Knowledge",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Body of Knowledge",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:fe1abc5e1643"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:967b11125c95"
+   }
+  },
+  {
+   "card": "Tandem Lookout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tandem Lookout",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Tandem Lookout",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:034104ae6185"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:31076cfe1d6d"
+   }
+  },
+  {
+   "card": "Emeritus of Ideation // Ancestral Recall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emeritus of Ideation // Ancestral Recall",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:61e74e66dfe9"
+   }
+  },
+  {
+   "card": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+       "cut": "Curiosity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:35644b8f547c"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:acfc70e58c10"
+   }
+  },
+  {
+   "card": "Ashling's Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashling's Command",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:145f96178240"
+   }
+  },
+  {
+   "card": "Storm-Kiln Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:78d70565ed0a"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4ffe921e8dfb"
+   }
+  },
+  {
+   "card": "Asmodeus the Archfiend",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Asmodeus the Archfiend",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5358631bc041"
+   }
+  },
+  {
+   "card": "Vnwxt, Verbose Host",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vnwxt, Verbose Host",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Vnwxt, Verbose Host",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:280d5513d5b8"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:9038778d380d"
+   }
+  },
+  {
+   "card": "Naktamun Lorespinner // Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naktamun Lorespinner // Wheel of Fortune",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:75a94b9d46a3"
+   }
+  },
+  {
+   "card": "Dirgur Focusmage // Braingeyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dirgur Focusmage // Braingeyser",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e59e5c64e530"
+   }
+  },
+  {
+   "card": "Worldfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldfire",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ad6ae0fa86da"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Chaos Warp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:29b2a0fdc05b"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:8beb248e719c"
+   }
+  },
+  {
+   "card": "Ominous Harvest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ominous Harvest",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b4ac7a5a6719"
+   }
+  },
+  {
+   "card": "Cost of Brilliance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cost of Brilliance",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:22f2b505596f"
+   }
+  },
+  {
+   "card": "Armor Wars",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Armor Wars",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:1a22232ecc50"
+   }
+  },
+  {
+   "card": "Bloodline Recollector // Ancestral Craving",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodline Recollector // Ancestral Craving",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d6e1978d3e5b"
+   }
+  },
+  {
+   "card": "Diabolic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:ac7a55678194"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:503e526e369b"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:c9493d617fc4"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b3820cac454f"
+   }
+  },
+  {
+   "card": "Marina Vendrell's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:7bd9e2b3948a"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:fb97e4c5c32b"
+   }
+  },
+  {
+   "card": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:8a813ee0397f"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:488bcc1c8581"
+   }
+  },
+  {
+   "card": "Lich's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Lich's Mastery",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:4a50416d2bd6"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:199780720db9"
+   }
+  },
+  {
+   "card": "Sapphire Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sapphire Charm",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:396d08ef6f0d"
+   }
+  },
+  {
+   "card": "Together as One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Together as One",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:15a053b9e410"
+   }
+  },
+  {
+   "card": "Reverent Howl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reverent Howl",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:264de9e2a1d7"
+   }
+  },
+  {
+   "card": "Variable Chaser // Arc of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Variable Chaser // Arc of Fortune",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:dbbafab4b28a"
+   }
+  },
+  {
+   "card": "Aether Syphon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Syphon",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Aether Syphon",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:ce760af38640"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:89d7515814a2"
+   }
+  },
+  {
+   "card": "Manhole Cover",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Manhole Cover",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:3e7997a265fe"
+   }
+  },
+  {
+   "card": "Winter Sky",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Winter Sky",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:264b5a9bdee4"
+   }
+  },
+  {
+   "card": "Turtles in Time",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Turtles in Time",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:8a89c41f88fd"
+   }
+  },
+  {
+   "card": "Immortus, Master of Eternity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Immortus, Master of Eternity",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:12ed28fd32b0"
+   }
+  },
+  {
+   "card": "Arcane Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Artisan",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cef88ded75f0"
+   }
+  },
+  {
+   "card": "Thought Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Reflection",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Thought Reflection",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:083cc777998e"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:9e230e164f5c"
+   }
+  },
+  {
+   "card": "Midnight Clock",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Midnight Clock",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f"
+   }
+  },
+  {
+   "card": "Ral, Caller of Storms",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ral, Caller of Storms",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4adabdaf5fb7"
+   }
+  },
+  {
+   "card": "Homesickness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Homesickness",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:427380273a40"
+   }
+  },
+  {
+   "card": "Lion's Eye Diamond",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lion's Eye Diamond",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lion's Eye Diamond",
+       "cut": "Scrawling Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:bcfd866f3fd4"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:865151e2c0c7"
+   }
+  },
+  {
+   "card": "Cephalid Coliseum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Coliseum",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:af575bc2af08"
+   }
+  },
+  {
+   "card": "Nefarious Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Nefarious Lich",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:43f969072cd0"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7c6901b05108"
+   }
+  },
+  {
+   "card": "Jace, Wielder of Mysteries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, Wielder of Mysteries",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:651070a77dce"
+   }
+  },
+  {
+   "card": "Prismari Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari Command",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c0f3c4f5809e"
+   }
+  },
+  {
+   "card": "Electro, Assaulting Battery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electro, Assaulting Battery",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Electro, Assaulting Battery",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:f0901d7a7c9f"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:94ac5b856689"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:56c76a3e2dda"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:550b8155838f"
+   }
+  },
+  {
+   "card": "Deep Analysis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deep Analysis",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:808dd1f1da6b"
+   }
+  },
+  {
+   "card": "Ugin, the Spirit Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ugin, the Spirit Dragon",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:712c388fc9cc"
+   }
+  },
+  {
+   "card": "Runaway Steam-Kin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Runaway Steam-Kin",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Runaway Steam-Kin",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:26d1c9dd99ad"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:12a30983b2c4"
+   }
+  },
+  {
+   "card": "Sublime Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sublime Epiphany",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:07e35247c99b"
+   }
+  },
+  {
+   "card": "Jin-Gitaxias, Core Augur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jin-Gitaxias, Core Augur",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:50335fc8e15c"
+   }
+  },
+  {
+   "card": "Flame of Anor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a2e0b5848780"
+   }
+  },
+  {
+   "card": "Archmage's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage's Charm",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:de3a2c84f7bd"
+   }
+  },
+  {
+   "card": "Drown in Dreams",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drown in Dreams",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:2d21348879f8"
+   }
+  },
+  {
+   "card": "Rise of the Eldrazi",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rise of the Eldrazi",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d143e65ca829"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Talisman of Indulgence"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Scrawling Crawler"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:9095642fc00f"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0aa26158eaa4"
+   }
+  },
+  {
+   "card": "Mind's Eye",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind's Eye",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:9302d27a2d27"
+   }
+  },
+  {
+   "card": "Pact of the Serpent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pact of the Serpent",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:13d8aa18f99c"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Wheel and Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:54a30d85bf75"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d018d9ee73be"
+   }
+  },
+  {
+   "card": "The Unagi of Kyoshi Island",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Unagi of Kyoshi Island",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:728869f7025d"
+   }
+  },
+  {
+   "card": "Ancestral Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Vision",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0095f24bfd99"
+   }
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:86dca15af4b5"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:91c1513732c5"
+   }
+  },
+  {
+   "card": "Spirit Water Revival",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spirit Water Revival",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7863e6e91cab"
+   }
+  },
+  {
+   "card": "Blood Pact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Pact",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:f958289a004b"
+   }
+  },
+  {
+   "card": "Stroke of Genius",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stroke of Genius",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a9281fa724cc"
+   }
+  },
+  {
+   "card": "Bloodgift Demon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodgift Demon",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:682b8e45115d"
+   }
+  },
+  {
+   "card": "Expansion // Explosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expansion // Explosion",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:12e658659de7"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Chaos Warp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:61be40e82ac1"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a418ebba2609"
+   }
+  },
+  {
+   "card": "Sazacap's Brew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sazacap's Brew",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d6c870023f8a"
+   }
+  },
+  {
+   "card": "Will of the Temur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Will of the Temur",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:6f9543690d6d"
+   }
+  },
+  {
+   "card": "Compulsive Research",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Compulsive Research",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c"
+   }
+  },
+  {
+   "card": "Brallin, Skyshark Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brallin, Skyshark Rider",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Brallin, Skyshark Rider",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:5ec5c937dba9"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:98ff06df9cc3"
+   }
+  },
+  {
+   "card": "Trenzalore Clocktower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trenzalore Clocktower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:30130ceef60a"
+   }
+  },
+  {
+   "card": "Ruin Grinder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ruin Grinder",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:9bfcfb06ab3f"
+   }
+  },
+  {
+   "card": "Combat Tutorial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combat Tutorial",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:3eaaf9be83af"
+   }
+  },
+  {
+   "card": "Zurzoth, Chaos Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zurzoth, Chaos Rider",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:01a969a85c4b"
+   }
+  },
+  {
+   "card": "Aetherflux Conduit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherflux Conduit",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:4a399efa8fb6"
+   }
+  },
+  {
+   "card": "Fell Stinger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fell Stinger",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:1b4df4cb0075"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "An Offer You Can't Refuse"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:4d6f76460de7"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:963f0971ebef"
+   }
+  },
+  {
+   "card": "Howling Golem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howling Golem",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:fe82a046d9e0"
+   }
+  },
+  {
+   "card": "Dack Fayden",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dack Fayden",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:adcbfca232d0"
+   }
+  },
+  {
+   "card": "Feast of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast of Sanity",
+       "cut": "Chaos Warp"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Feast of Sanity",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:4c53d84965de"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:2de8cbf1a5c8"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Mind Over Matter",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:3e2ed57894bc"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0339269e37d7"
+   }
+  },
+  {
+   "card": "Unstable Experiment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unstable Experiment",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a73e3b203c9d"
+   }
+  },
+  {
+   "card": "Commander's Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Insight",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:386a736e5127"
+   }
+  },
+  {
+   "card": "Ob Nixilis, the Adversary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ob Nixilis, the Adversary",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:966356d9c375"
+   }
+  },
+  {
+   "card": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Consecrated Sphinx"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1089-2353"
+        ]
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Niv-Mizzet, Parun"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:f2158c2d6e23"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ecdb96948d70"
+   }
+  },
+  {
+   "card": "Etched Oracle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etched Oracle",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:f3c66a951768"
+   }
+  },
+  {
+   "card": "Monumental Corruption",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monumental Corruption",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:702040d8cbc5"
+   }
+  },
+  {
+   "card": "Storm Fleet Negotiator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm Fleet Negotiator",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:127a8af3e7a1"
+   }
+  },
+  {
+   "card": "Here Comes a New Hero!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Here Comes a New Hero!",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:97bc438b3e44"
+   }
+  },
+  {
+   "card": "Browbeat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Browbeat",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:1535021388e2"
+   }
+  },
+  {
+   "card": "Friendly Teddy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Friendly Teddy",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a8f39191f264"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Rhystic Study"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:nekusar-the-mindrazer:m5:a5e1d40e1805"
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:27c0da6b2601"
+   }
+  },
+  {
+   "card": "Krav, the Unredeemed",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krav, the Unredeemed",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:8e8587d99ead"
+   }
+  },
+  {
+   "card": "Channeled Force",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Channeled Force",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e89f40a02190"
+   }
+  },
+  {
+   "card": "Cutthroat Negotiator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cutthroat Negotiator",
+       "cut": "An Offer You Can't Refuse"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:14054cfe8c60"
+   }
+  },
+  {
+   "card": "Foreboding Fruit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Fruit",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:74d7833e59ff"
+   }
+  },
+  {
+   "card": "Survey Mechan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Survey Mechan",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cc9806a3e336"
+   }
+  },
+  {
+   "card": "Lore Broker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lore Broker",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:19e12f36d324"
+   }
+  },
+  {
+   "card": "Step Between Worlds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Step Between Worlds",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:419564193de2"
+   }
+  },
+  {
+   "card": "Game Plan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Game Plan",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5e0ac3704698"
+   }
+  },
+  {
+   "card": "Caress of Phyrexia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Caress of Phyrexia",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7d49a3e70c54"
+   }
+  },
+  {
+   "card": "Dakra Mystic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dakra Mystic",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:37ac74ba2fe4"
+   }
+  },
+  {
+   "card": "Raphael's Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raphael's Technique",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:f51c38457e99"
+   }
+  },
+  {
+   "card": "Stunning Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stunning Reversal",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:0dd305d162ca"
+   }
+  },
+  {
+   "card": "Braingeyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Braingeyser",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b0a809af2f4f"
+   }
+  },
+  {
+   "card": "Eldritch Pact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eldritch Pact",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c948b9463d72"
+   }
+  },
+  {
+   "card": "Clockwork Fox",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clockwork Fox",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:1425c9be8a5b"
+   }
+  },
+  {
+   "card": "Overflowing Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Overflowing Insight",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:42872905cbfc"
+   }
+  },
+  {
+   "card": "Painful Lesson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Lesson",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:8935e465d013"
+   }
+  },
+  {
+   "card": "Whirlwind Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whirlwind Technique",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:50f5f29533e1"
+   }
+  },
+  {
+   "card": "Chandra, Flame's Catalyst",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chandra, Flame's Catalyst",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5916224f092f"
+   }
+  },
+  {
+   "card": "Heaven Sent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heaven Sent",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:ceeab6fa4ccb"
+   }
+  },
+  {
+   "card": "Kumena's Awakening",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kumena's Awakening",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d83a31fa0422"
+   }
+  },
+  {
+   "card": "Will Kenrith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Will Kenrith",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:91baf4c3ee10"
+   }
+  },
+  {
+   "card": "Nicol Bolas, the Deceiver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nicol Bolas, the Deceiver",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:adfff834d146"
+   }
+  },
+  {
+   "card": "Runehorn Hellkite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Runehorn Hellkite",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a64cc68ce295"
+   }
+  },
+  {
+   "card": "Unscrupulous Contractor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unscrupulous Contractor",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:866808fdeda6"
+   }
+  },
+  {
+   "card": "Wretched Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wretched Confluence",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:78719abf7232"
+   }
+  },
+  {
+   "card": "Mathise, Surge Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mathise, Surge Channeler",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:10d68f14ee57"
+   }
+  },
+  {
+   "card": "Tallyman of Nurgle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tallyman of Nurgle",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c4ceef11f1ea"
+   }
+  },
+  {
+   "card": "Lich's Mirror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mirror",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d2da713c5573"
+   }
+  },
+  {
+   "card": "Mind Spiral",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Spiral",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:aa75e99df824"
+   }
+  },
+  {
+   "card": "Metamorphic Blast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Metamorphic Blast",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:741e82ed8102"
+   }
+  },
+  {
+   "card": "Weftwalking",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Weftwalking",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a9729656f029"
+   }
+  },
+  {
+   "card": "Careful Consideration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Careful Consideration",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d7c2ba0ccb86"
+   }
+  },
+  {
+   "card": "Chandra Ablaze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chandra Ablaze",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:09ca1d7f47f5"
+   }
+  },
+  {
+   "card": "Opportunity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opportunity",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e8cbae47a2c7"
+   }
+  },
+  {
+   "card": "Runed Servitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Runed Servitor",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c2575d421856"
+   }
+  },
+  {
+   "card": "Shredder's Revenge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shredder's Revenge",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7a8df3270313"
+   }
+  },
+  {
+   "card": "Jace, the Living Guildpact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace, the Living Guildpact",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:22ecfa1e93e9"
+   }
+  },
+  {
+   "card": "Reckless Scholar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reckless Scholar",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b7d9d600c42b"
+   }
+  },
+  {
+   "card": "Oona's Grace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oona's Grace",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:56d91459a131"
+   }
+  },
+  {
+   "card": "Nothic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nothic",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e19f702213ef"
+   }
+  },
+  {
+   "card": "Sensation Gorger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensation Gorger",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:e1d7339e6e49"
+   }
+  },
+  {
+   "card": "Cephalid Broker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Broker",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a00ceaa994d0"
+   }
+  },
+  {
+   "card": "Cybernetica Datasmith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cybernetica Datasmith",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a6d40fed6f43"
+   }
+  },
+  {
+   "card": "Temporal Cascade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temporal Cascade",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:6fe93721320f"
+   }
+  },
+  {
+   "card": "Sway of the Stars",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sway of the Stars",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:38fb24540f8e"
+   }
+  },
+  {
+   "card": "Noggle Ransacker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Noggle Ransacker",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a14e6ace0b11"
+   }
+  },
+  {
+   "card": "Vault Plunderer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vault Plunderer",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:3fcf8a169671"
+   }
+  },
+  {
+   "card": "Depth Defiler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Depth Defiler",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:695cb4231037"
+   }
+  },
+  {
+   "card": "Cephalid Looter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Looter",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:54fa92885c66"
+   }
+  },
+  {
+   "card": "Jushi Apprentice // Tomoya the Revealer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jushi Apprentice // Tomoya the Revealer",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:961344caf424"
+   }
+  },
+  {
+   "card": "Donnie & April, Adorkable Duo",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Donnie & April, Adorkable Duo",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:fd9d79f241d6"
+   }
+  },
+  {
+   "card": "Path of the Enigma",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Enigma",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:8c408285415d"
+   }
+  },
+  {
+   "card": "Toil // Trouble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toil // Trouble",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:a7a6e2374de0"
+   }
+  },
+  {
+   "card": "Inspiration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inspiration",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:2dfdc267a5df"
+   }
+  },
+  {
+   "card": "Comparative Analysis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Comparative Analysis",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:89a8b8b42fc5"
+   }
+  },
+  {
+   "card": "Lore Weaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lore Weaver",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:07312257d6da"
+   }
+  },
+  {
+   "card": "Allied Strategies",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Allied Strategies",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:87feb69a7235"
+   }
+  },
+  {
+   "card": "Dimir Guildmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Guildmage",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:c85d3f8a493d"
+   }
+  },
+  {
+   "card": "Laquatus's Creativity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laquatus's Creativity",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d4285cdb0e42"
+   }
+  },
+  {
+   "card": "Consult the Necrosages",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Consult the Necrosages",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:5c8cbf124468"
+   }
+  },
+  {
+   "card": "Urza's Guilt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Guilt",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d10cf81b5ca8"
+   }
+  },
+  {
+   "card": "Soaring Show-Off",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soaring Show-Off",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7e5a84ec5f0a"
+   }
+  },
+  {
+   "card": "Wistful Thinking",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wistful Thinking",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:d2f6e6f59248"
+   }
+  },
+  {
+   "card": "Harrowing Journey",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Harrowing Journey",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:76d3c7b8d8fc"
+   }
+  },
+  {
+   "card": "Saltwater Stalwart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saltwater Stalwart",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:7e2e1962f30a"
+   }
+  },
+  {
+   "card": "Roiling Waters",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Roiling Waters",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:f537a7f83d9d"
+   }
+  },
+  {
+   "card": "Drastic Revelation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drastic Revelation",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cbbd41ed9139"
+   }
+  },
+  {
+   "card": "Lumengrid Augur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lumengrid Augur",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:b1850392bbd1"
+   }
+  },
+  {
+   "card": "Limestone Golem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Limestone Golem",
+       "cut": "Consecrated Sphinx"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:nekusar-the-mindrazer:m5:cf5f7b8ee215"
+   }
+  }
+ ],
+ "deck_id": "Nekusar__the_Mindrazer",
+ "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "slug": "nekusar-the-mindrazer",
+ "swaps": [
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:711b24342960"
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6a817b35b528"
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Hate-Twisted"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5064b50ddb5d"
+  },
+  {
+   "adds": [
+    "Forced Fruition"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4ac22e7f7c0c"
+  },
+  {
+   "adds": [
+    "Forced Fruition"
+   ],
+   "cuts": [
+    "Echo of Eons"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1f8ace964146"
+  },
+  {
+   "adds": [
+    "Howling Mine"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:56f3a130219b"
+  },
+  {
+   "adds": [
+    "Howling Mine"
+   ],
+   "cuts": [
+    "Echo of Eons"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3f74a192b1cf"
+  },
+  {
+   "adds": [
+    "Dictate of Kruphix"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:663c5a2f17e8"
+  },
+  {
+   "adds": [
+    "Dictate of Kruphix"
+   ],
+   "cuts": [
+    "Echo of Eons"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2fd028fa1e37"
+  },
+  {
+   "adds": [
+    "Master of the Feast"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3db0b15acf09"
+  },
+  {
+   "adds": [
+    "Prosperity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ce8770e87c13"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c5c760b70379"
+  },
+  {
+   "adds": [
+    "Temple Bell"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2f53d3253108"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:694795b74f50"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:268264ca42d7"
+  },
+  {
+   "adds": [
+    "Faerie Mastermind"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:80b114ccf0a4"
+  },
+  {
+   "adds": [
+    "Seizan, Perverter of Truth"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:47377f5fcb81"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:97556a201d7d"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:bc2b6481e26e"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Ghyrson Starn, Kelermorph"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b86538ae857a"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:228c24619dbc"
+  },
+  {
+   "adds": [
+    "Font of Mythos"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f38ffa35d336"
+  },
+  {
+   "adds": [
+    "Wheel of Fate"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:24207c690e04"
+  },
+  {
+   "adds": [
+    "Vision Skeins"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2ad33d725e8b"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:069e662bbba2"
+  },
+  {
+   "adds": [
+    "Baleful Mastery"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:512fe5c1a76e"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a7e4e4edb0e3"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:339098d6838d"
+  },
+  {
+   "adds": [
+    "Time Reversal"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:018242538475"
+  },
+  {
+   "adds": [
+    "Solphim, Mayhem Dominus"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:085448b73606"
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cce5bf4947c2"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9363ee2072a2"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:58b3b2c1d01d"
+  },
+  {
+   "adds": [
+    "Jace Beleren"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5c1dbbac42d0"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1872cd441553"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:00044bb5e5cb"
+  },
+  {
+   "adds": [
+    "Dream Fracture"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:51be49c86473"
+  },
+  {
+   "adds": [
+    "Incendiary Command"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:576d6d71a4b2"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0007af92b04d"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:093768f21690"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0953efd3b77c"
+  },
+  {
+   "adds": [
+    "Folio of Fancies"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:619f18945c94"
+  },
+  {
+   "adds": [
+    "Whirlpool Warrior"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d480bfa434ad"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b0895da64c3c"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8822871c7461"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:428c257d306d"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5cea19176247"
+  },
+  {
+   "adds": [
+    "Damnable Pact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4fa62564f98e"
+  },
+  {
+   "adds": [
+    "Day's Undoing"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:10138750a421"
+  },
+  {
+   "adds": [
+    "Phyresis"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:72c610f7a1d4"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0e2fcbaa438f"
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0ece1960c879"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7f944fad66b1"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6b4b3aa848da"
+  },
+  {
+   "adds": [
+    "Cerebral Vortex"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b2f14796c557"
+  },
+  {
+   "adds": [
+    "Chasm Skulker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ec617c1ce9c7"
+  },
+  {
+   "adds": [
+    "Time Spiral"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b53e1f4a125f"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e691c988a1f4"
+  },
+  {
+   "adds": [
+    "Commit // Memory"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:07345dbbe878"
+  },
+  {
+   "adds": [
+    "Gixian Puppeteer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:511b7bf59507"
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f062dd2b1e7e"
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:102616893387"
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:95c765f4960b"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:dc1826b47eaa"
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:08457ff67535"
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ff6432aaa904"
+  },
+  {
+   "adds": [
+    "Minds Aglow"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3578b7c53a81"
+  },
+  {
+   "adds": [
+    "Skyscribing"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0a84b3d96602"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6ceb191ec10c"
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e06482fdc207"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4ceb3fbe5c52"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0c6aec6106ae"
+  },
+  {
+   "adds": [
+    "Fascination"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4b05b5f53535"
+  },
+  {
+   "adds": [
+    "Well of Ideas"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d208937d5756"
+  },
+  {
+   "adds": [
+    "Reflecting Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:caff8b008ef1"
+  },
+  {
+   "adds": [
+    "Memory Jar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:27d501ca08da"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:70f1b7a0785a"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b797807fc9be"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a96d2519b9fb"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8187f6664f93"
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7967834fd138"
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Scrawling Crawler"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8d520920d375"
+  },
+  {
+   "adds": [
+    "Otherworld Atlas"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:382a978d864c"
+  },
+  {
+   "adds": [
+    "Timetwister"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9005d0a135d7"
+  },
+  {
+   "adds": [
+    "Blue Sun's Zenith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:42a848bb1933"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5ca158402a27"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6e0782983399"
+  },
+  {
+   "adds": [
+    "Struggle for Project Purity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e5fa22725b5b"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cb22dd90ca95"
+  },
+  {
+   "adds": [
+    "Magus of the Jar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2538edce2bcb"
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ce7c238495d1"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:713da20642d9"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:194139ca840b"
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:94337c8d0b5e"
+  },
+  {
+   "adds": [
+    "Insatiable Avarice"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:20d6e7375277"
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fa71d4b4e25f"
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1a47dd31bb22"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c718cc53a456"
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:880f74ec7508"
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c900ad7dc3ac"
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c91d8b59f068"
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b59ce855b06e"
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5dbd243fc502"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ff18aa39f506"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f3a29c967e3e"
+  },
+  {
+   "adds": [
+    "Scheming Silvertongue // Sign in Blood"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7d73b22b2613"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cc58839589cb"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7104fff71cdc"
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:967b11125c95"
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fe1abc5e1643"
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:31076cfe1d6d"
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:034104ae6185"
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:61e74e66dfe9"
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:acfc70e58c10"
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:35644b8f547c"
+  },
+  {
+   "adds": [
+    "Ashling's Command"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:145f96178240"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4ffe921e8dfb"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:78d70565ed0a"
+  },
+  {
+   "adds": [
+    "Asmodeus the Archfiend"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5358631bc041"
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9038778d380d"
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:280d5513d5b8"
+  },
+  {
+   "adds": [
+    "Naktamun Lorespinner // Wheel of Fortune"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:75a94b9d46a3"
+  },
+  {
+   "adds": [
+    "Dirgur Focusmage // Braingeyser"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e59e5c64e530"
+  },
+  {
+   "adds": [
+    "Worldfire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ad6ae0fa86da"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8beb248e719c"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:29b2a0fdc05b"
+  },
+  {
+   "adds": [
+    "Ominous Harvest"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b4ac7a5a6719"
+  },
+  {
+   "adds": [
+    "Cost of Brilliance"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:22f2b505596f"
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1a22232ecc50"
+  },
+  {
+   "adds": [
+    "Bloodline Recollector // Ancestral Craving"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d6e1978d3e5b"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:503e526e369b"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ac7a55678194"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b3820cac454f"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c9493d617fc4"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fb97e4c5c32b"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7bd9e2b3948a"
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:488bcc1c8581"
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8a813ee0397f"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:199780720db9"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4a50416d2bd6"
+  },
+  {
+   "adds": [
+    "Sapphire Charm"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:396d08ef6f0d"
+  },
+  {
+   "adds": [
+    "Together as One"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:15a053b9e410"
+  },
+  {
+   "adds": [
+    "Reverent Howl"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:264de9e2a1d7"
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:dbbafab4b28a"
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:89d7515814a2"
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ce760af38640"
+  },
+  {
+   "adds": [
+    "Manhole Cover"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3e7997a265fe"
+  },
+  {
+   "adds": [
+    "Winter Sky"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:264b5a9bdee4"
+  },
+  {
+   "adds": [
+    "Turtles in Time"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8a89c41f88fd"
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:12ed28fd32b0"
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cef88ded75f0"
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9e230e164f5c"
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:083cc777998e"
+  },
+  {
+   "adds": [
+    "Midnight Clock"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f"
+  },
+  {
+   "adds": [
+    "Ral, Caller of Storms"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4adabdaf5fb7"
+  },
+  {
+   "adds": [
+    "Homesickness"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:427380273a40"
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:865151e2c0c7"
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Scrawling Crawler"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:bcfd866f3fd4"
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:af575bc2af08"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7c6901b05108"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:43f969072cd0"
+  },
+  {
+   "adds": [
+    "Jace, Wielder of Mysteries"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:651070a77dce"
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c0f3c4f5809e"
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:94ac5b856689"
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f0901d7a7c9f"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:550b8155838f"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:56c76a3e2dda"
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:808dd1f1da6b"
+  },
+  {
+   "adds": [
+    "Ugin, the Spirit Dragon"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:712c388fc9cc"
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:12a30983b2c4"
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:26d1c9dd99ad"
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:07e35247c99b"
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:50335fc8e15c"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a2e0b5848780"
+  },
+  {
+   "adds": [
+    "Archmage's Charm"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:de3a2c84f7bd"
+  },
+  {
+   "adds": [
+    "Drown in Dreams"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2d21348879f8"
+  },
+  {
+   "adds": [
+    "Rise of the Eldrazi"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d143e65ca829"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0aa26158eaa4"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Scrawling Crawler"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9095642fc00f"
+  },
+  {
+   "adds": [
+    "Mind's Eye"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9302d27a2d27"
+  },
+  {
+   "adds": [
+    "Pact of the Serpent"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:13d8aa18f99c"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d018d9ee73be"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Wheel and Deal"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:54a30d85bf75"
+  },
+  {
+   "adds": [
+    "The Unagi of Kyoshi Island"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:728869f7025d"
+  },
+  {
+   "adds": [
+    "Ancestral Vision"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0095f24bfd99"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:91c1513732c5"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:86dca15af4b5"
+  },
+  {
+   "adds": [
+    "Spirit Water Revival"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7863e6e91cab"
+  },
+  {
+   "adds": [
+    "Blood Pact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f958289a004b"
+  },
+  {
+   "adds": [
+    "Stroke of Genius"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a9281fa724cc"
+  },
+  {
+   "adds": [
+    "Bloodgift Demon"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:682b8e45115d"
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:12e658659de7"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a418ebba2609"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:61be40e82ac1"
+  },
+  {
+   "adds": [
+    "Sazacap's Brew"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d6c870023f8a"
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6f9543690d6d"
+  },
+  {
+   "adds": [
+    "Compulsive Research"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c"
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:98ff06df9cc3"
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5ec5c937dba9"
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:30130ceef60a"
+  },
+  {
+   "adds": [
+    "Ruin Grinder"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9bfcfb06ab3f"
+  },
+  {
+   "adds": [
+    "Combat Tutorial"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3eaaf9be83af"
+  },
+  {
+   "adds": [
+    "Zurzoth, Chaos Rider"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:01a969a85c4b"
+  },
+  {
+   "adds": [
+    "Aetherflux Conduit"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4a399efa8fb6"
+  },
+  {
+   "adds": [
+    "Fell Stinger"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1b4df4cb0075"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:963f0971ebef"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4d6f76460de7"
+  },
+  {
+   "adds": [
+    "Howling Golem"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fe82a046d9e0"
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:adcbfca232d0"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2de8cbf1a5c8"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4c53d84965de"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0339269e37d7"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3e2ed57894bc"
+  },
+  {
+   "adds": [
+    "Unstable Experiment"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a73e3b203c9d"
+  },
+  {
+   "adds": [
+    "Commander's Insight"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:386a736e5127"
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Adversary"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:966356d9c375"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ecdb96948d70"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f2158c2d6e23"
+  },
+  {
+   "adds": [
+    "Etched Oracle"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f3c66a951768"
+  },
+  {
+   "adds": [
+    "Monumental Corruption"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:702040d8cbc5"
+  },
+  {
+   "adds": [
+    "Storm Fleet Negotiator"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:127a8af3e7a1"
+  },
+  {
+   "adds": [
+    "Here Comes a New Hero!"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:97bc438b3e44"
+  },
+  {
+   "adds": [
+    "Browbeat"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1535021388e2"
+  },
+  {
+   "adds": [
+    "Friendly Teddy"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a8f39191f264"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:27c0da6b2601"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a5e1d40e1805"
+  },
+  {
+   "adds": [
+    "Krav, the Unredeemed"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8e8587d99ead"
+  },
+  {
+   "adds": [
+    "Channeled Force"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e89f40a02190"
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:14054cfe8c60"
+  },
+  {
+   "adds": [
+    "Foreboding Fruit"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:74d7833e59ff"
+  },
+  {
+   "adds": [
+    "Survey Mechan"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cc9806a3e336"
+  },
+  {
+   "adds": [
+    "Lore Broker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:19e12f36d324"
+  },
+  {
+   "adds": [
+    "Step Between Worlds"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:419564193de2"
+  },
+  {
+   "adds": [
+    "Game Plan"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5e0ac3704698"
+  },
+  {
+   "adds": [
+    "Caress of Phyrexia"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7d49a3e70c54"
+  },
+  {
+   "adds": [
+    "Dakra Mystic"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:37ac74ba2fe4"
+  },
+  {
+   "adds": [
+    "Raphael's Technique"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f51c38457e99"
+  },
+  {
+   "adds": [
+    "Stunning Reversal"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0dd305d162ca"
+  },
+  {
+   "adds": [
+    "Braingeyser"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b0a809af2f4f"
+  },
+  {
+   "adds": [
+    "Eldritch Pact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c948b9463d72"
+  },
+  {
+   "adds": [
+    "Clockwork Fox"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1425c9be8a5b"
+  },
+  {
+   "adds": [
+    "Overflowing Insight"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:42872905cbfc"
+  },
+  {
+   "adds": [
+    "Painful Lesson"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8935e465d013"
+  },
+  {
+   "adds": [
+    "Whirlwind Technique"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:50f5f29533e1"
+  },
+  {
+   "adds": [
+    "Chandra, Flame's Catalyst"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5916224f092f"
+  },
+  {
+   "adds": [
+    "Heaven Sent"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ceeab6fa4ccb"
+  },
+  {
+   "adds": [
+    "Kumena's Awakening"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d83a31fa0422"
+  },
+  {
+   "adds": [
+    "Will Kenrith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:91baf4c3ee10"
+  },
+  {
+   "adds": [
+    "Nicol Bolas, the Deceiver"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:adfff834d146"
+  },
+  {
+   "adds": [
+    "Runehorn Hellkite"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a64cc68ce295"
+  },
+  {
+   "adds": [
+    "Unscrupulous Contractor"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:866808fdeda6"
+  },
+  {
+   "adds": [
+    "Wretched Confluence"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:78719abf7232"
+  },
+  {
+   "adds": [
+    "Mathise, Surge Channeler"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:10d68f14ee57"
+  },
+  {
+   "adds": [
+    "Tallyman of Nurgle"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c4ceef11f1ea"
+  },
+  {
+   "adds": [
+    "Lich's Mirror"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d2da713c5573"
+  },
+  {
+   "adds": [
+    "Mind Spiral"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:aa75e99df824"
+  },
+  {
+   "adds": [
+    "Metamorphic Blast"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:741e82ed8102"
+  },
+  {
+   "adds": [
+    "Weftwalking"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a9729656f029"
+  },
+  {
+   "adds": [
+    "Careful Consideration"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d7c2ba0ccb86"
+  },
+  {
+   "adds": [
+    "Chandra Ablaze"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:09ca1d7f47f5"
+  },
+  {
+   "adds": [
+    "Opportunity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e8cbae47a2c7"
+  },
+  {
+   "adds": [
+    "Runed Servitor"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c2575d421856"
+  },
+  {
+   "adds": [
+    "Shredder's Revenge"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7a8df3270313"
+  },
+  {
+   "adds": [
+    "Jace, the Living Guildpact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:22ecfa1e93e9"
+  },
+  {
+   "adds": [
+    "Reckless Scholar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b7d9d600c42b"
+  },
+  {
+   "adds": [
+    "Oona's Grace"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:56d91459a131"
+  },
+  {
+   "adds": [
+    "Nothic"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e19f702213ef"
+  },
+  {
+   "adds": [
+    "Sensation Gorger"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e1d7339e6e49"
+  },
+  {
+   "adds": [
+    "Cephalid Broker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a00ceaa994d0"
+  },
+  {
+   "adds": [
+    "Cybernetica Datasmith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a6d40fed6f43"
+  },
+  {
+   "adds": [
+    "Temporal Cascade"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6fe93721320f"
+  },
+  {
+   "adds": [
+    "Sway of the Stars"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:38fb24540f8e"
+  },
+  {
+   "adds": [
+    "Noggle Ransacker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a14e6ace0b11"
+  },
+  {
+   "adds": [
+    "Vault Plunderer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3fcf8a169671"
+  },
+  {
+   "adds": [
+    "Depth Defiler"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:695cb4231037"
+  },
+  {
+   "adds": [
+    "Cephalid Looter"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:54fa92885c66"
+  },
+  {
+   "adds": [
+    "Jushi Apprentice // Tomoya the Revealer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:961344caf424"
+  },
+  {
+   "adds": [
+    "Donnie & April, Adorkable Duo"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fd9d79f241d6"
+  },
+  {
+   "adds": [
+    "Path of the Enigma"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8c408285415d"
+  },
+  {
+   "adds": [
+    "Toil // Trouble"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a7a6e2374de0"
+  },
+  {
+   "adds": [
+    "Inspiration"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2dfdc267a5df"
+  },
+  {
+   "adds": [
+    "Comparative Analysis"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:89a8b8b42fc5"
+  },
+  {
+   "adds": [
+    "Lore Weaver"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:07312257d6da"
+  },
+  {
+   "adds": [
+    "Allied Strategies"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:87feb69a7235"
+  },
+  {
+   "adds": [
+    "Dimir Guildmage"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c85d3f8a493d"
+  },
+  {
+   "adds": [
+    "Laquatus's Creativity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d4285cdb0e42"
+  },
+  {
+   "adds": [
+    "Consult the Necrosages"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5c8cbf124468"
+  },
+  {
+   "adds": [
+    "Urza's Guilt"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d10cf81b5ca8"
+  },
+  {
+   "adds": [
+    "Soaring Show-Off"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7e5a84ec5f0a"
+  },
+  {
+   "adds": [
+    "Wistful Thinking"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d2f6e6f59248"
+  },
+  {
+   "adds": [
+    "Harrowing Journey"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:76d3c7b8d8fc"
+  },
+  {
+   "adds": [
+    "Saltwater Stalwart"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7e2e1962f30a"
+  },
+  {
+   "adds": [
+    "Roiling Waters"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f537a7f83d9d"
+  },
+  {
+   "adds": [
+    "Drastic Revelation"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cbbd41ed9139"
+  },
+  {
+   "adds": [
+    "Lumengrid Augur"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b1850392bbd1"
+  },
+  {
+   "adds": [
+    "Limestone Golem"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cf5f7b8ee215"
+  }
+ ]
+}

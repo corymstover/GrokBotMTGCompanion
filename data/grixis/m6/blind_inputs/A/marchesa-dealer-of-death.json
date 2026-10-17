@@ -1,0 +1,6885 @@
+{
+ "candidates": [
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:c1553f4a0e41"
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reanimate",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:994bdb105cf4"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4842b2d7a8d1"
+   }
+  },
+  {
+   "card": "Abrade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abrade",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:bdb40a2136ec"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f588b1aaeb33"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f2c083daa13f"
+   }
+  },
+  {
+   "card": "Gitaxian Probe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gitaxian Probe",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:18fc05b59548"
+   }
+  },
+  {
+   "card": "Animate Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animate Dead",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a0608ea8caa0"
+   }
+  },
+  {
+   "card": "Eroded Canyon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Eroded Canyon",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:3669fa1b39b4"
+   }
+  },
+  {
+   "card": "Soured Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soured Springs",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0c25371272fb"
+   }
+  },
+  {
+   "card": "Snap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snap",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a5016841f248"
+   }
+  },
+  {
+   "card": "Jagged Barrens",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jagged Barrens",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:137525447bb1"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:bd61dfda62a1"
+   }
+  },
+  {
+   "card": "Lazav, Familiar Stranger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lazav, Familiar Stranger",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Lazav, Familiar Stranger",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:11c8b1bf3b81"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:497b8f7e5be5"
+   }
+  },
+  {
+   "card": "Kaervek, the Punisher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kaervek, the Punisher",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Kaervek, the Punisher",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:582009cedb8e"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:ef414ae57b3b"
+   }
+  },
+  {
+   "card": "At Knifepoint",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "At Knifepoint",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:c7aabe66f054"
+   }
+  },
+  {
+   "card": "Glasses of Urza",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glasses of Urza",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:87964226400e"
+   }
+  },
+  {
+   "card": "Ghost Vacuum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghost Vacuum",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Ghost Vacuum",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:e2bc5d2da97b"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:cc5cb3170f3f"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:7c40a8bf3c5f"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Counterbalance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:31809973d9e5"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Counterbalance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:2e9db3fcb35e"
+   }
+  },
+  {
+   "card": "Kess, Dissident Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:1747921a3367"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d8d3f8e1506e"
+   }
+  },
+  {
+   "card": "Laughing Jasper Flint",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Laughing Jasper Flint",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:b06ef2fa98c3"
+   }
+  },
+  {
+   "card": "Gisa, the Hellraiser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gisa, the Hellraiser",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f7b6b6fc7b3d"
+   }
+  },
+  {
+   "card": "Victimize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Victimize",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:42e57fccab20"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a3bade692b24"
+   }
+  },
+  {
+   "card": "Duelist of the Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Duelist of the Mind",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:66adb9a28e2c"
+   }
+  },
+  {
+   "card": "Red Death, Shipwrecker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Red Death, Shipwrecker",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Red Death, Shipwrecker",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:713a26561bc1"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9cf1718f43e5"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9134d5f17c1e"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9406e5481270"
+   }
+  },
+  {
+   "card": "Pongify",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pongify",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f709721aba94"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:cb71c4f867c0"
+   }
+  },
+  {
+   "card": "Liquimetal Torque",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liquimetal Torque",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Liquimetal Torque",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:362b7ff7f6d1"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:16b17de9d12e"
+   }
+  },
+  {
+   "card": "Codex Shredder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Codex Shredder",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Codex Shredder",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:5b2f371c9d57"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:41c153983ef9"
+   }
+  },
+  {
+   "card": "Return the Favor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Return the Favor",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0481edacf0e4"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:c42e662f3c07"
+   }
+  },
+  {
+   "card": "Shoot the Sheriff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shoot the Sheriff",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9837f4b6d8e5"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:297a10dccb10"
+   }
+  },
+  {
+   "card": "Vadmir, New Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vadmir, New Blood",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:eb755ccf2027"
+   }
+  },
+  {
+   "card": "Iridescent Vinelasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Iridescent Vinelasher",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a450dfe82ce3"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a09ebe4e2414"
+   }
+  },
+  {
+   "card": "Infernal Grasp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Archon of Cruelty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Stitch Together",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitch Together",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Stitch Together",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:f64204e2c207"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:fde4cdba5f50"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:652af78c9f09"
+   }
+  },
+  {
+   "card": "Generous Plunderer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Generous Plunderer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Generous Plunderer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:5e0082056e84"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:ebf78a763a8d"
+   }
+  },
+  {
+   "card": "Bloodthirsty Blade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthirsty Blade",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:b611a44ee3b8"
+   }
+  },
+  {
+   "card": "Bandit's Haul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bandit's Haul",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Bandit's Haul",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:6b0a8f1746b5"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:03fe28c5530c"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8df67da279b0"
+   }
+  },
+  {
+   "card": "Raven of Fell Omens",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raven of Fell Omens",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:43f9e8db1df0"
+   }
+  },
+  {
+   "card": "Rakdos, Patron of Chaos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Niv-Mizzet, Parun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8dbdb582a429"
+   }
+  },
+  {
+   "card": "Otawara, Soaring City",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Otawara, Soaring City",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:59b5725a528f"
+   }
+  },
+  {
+   "card": "Frantic Search",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frantic Search",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:33b959d0884f"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:95350f6939d9"
+   }
+  },
+  {
+   "card": "Raucous Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raucous Theater",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:829214b24702"
+   }
+  },
+  {
+   "card": "Forsaken Miner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forsaken Miner",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f61d177d2e6d"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0e8252fca214"
+   }
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:1778e5d97ac7"
+   }
+  },
+  {
+   "card": "Necromancy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necromancy",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d1a854657368"
+   }
+  },
+  {
+   "card": "Servant of the Stinger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Servant of the Stinger",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:5260e0965989"
+   }
+  },
+  {
+   "card": "Prismari Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari Command",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6f57a346eced"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0f74709cec11"
+   }
+  },
+  {
+   "card": "Loki, God of Mischief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki, God of Mischief",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:01ac6579aff6"
+   }
+  },
+  {
+   "card": "Blood Hustler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Scrabbling Claws",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrabbling Claws",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6d156c791db5"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:e8b3388be82e"
+   }
+  },
+  {
+   "card": "Rattleback Apothecary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Tinybones Joins Up",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tinybones Joins Up",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:e1d6ca9723c4"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4cb45cb4a01b"
+   }
+  },
+  {
+   "card": "Three Steps Ahead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:37b00d8e0c6a"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:3c7c11e565cf"
+   }
+  },
+  {
+   "card": "Relic of Progenitus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Progenitus",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0c4aadc6fb87"
+   }
+  },
+  {
+   "card": "Sepulchral Primordial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Blood Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Abyssal Harvester",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abyssal Harvester",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a66d6aefcfd3"
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:2ea01ff34794"
+   }
+  },
+  {
+   "card": "Toxic Deluge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toxic Deluge",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:23d7958d9ba6"
+   }
+  },
+  {
+   "card": "Drown in the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drown in the Loch",
+       "cut": "Counterbalance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:69b2d36beb5b"
+   }
+  },
+  {
+   "card": "Cyclonic Rift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonic Rift",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:98b312ad8400"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8bc018bf194b"
+   }
+  },
+  {
+   "card": "Nimble Brigand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Slick Sequence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:019decbb89a5"
+   }
+  },
+  {
+   "card": "Izzet Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:1d706b315255"
+   }
+  },
+  {
+   "card": "Intimidation Campaign",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Thought Scour",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Scour",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:13cd070f3ee0"
+   }
+  },
+  {
+   "card": "Strix Serenade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strix Serenade",
+       "cut": "Counterbalance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:05f77b2dd2ee"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9a393256c5bb"
+   }
+  },
+  {
+   "card": "Adventurous Eater // Have a Bite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Adventurous Eater // Have a Bite",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Adventurous Eater // Have a Bite",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:7f5e803cda47"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8fb1a48e2670"
+   }
+  },
+  {
+   "card": "Bounty Board",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bounty Board",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:aaf91a0427a2"
+   }
+  },
+  {
+   "card": "Mishra's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mishra's Bauble",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:946d52b85947"
+   }
+  },
+  {
+   "card": "Seize the Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8f0b2bc6c80b"
+   }
+  },
+  {
+   "card": "Nowhere to Run",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nowhere to Run",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:c5005ddb1b4b"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Archaeomancer",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:8da2b7c32506"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:681ca6a60c60"
+   }
+  },
+  {
+   "card": "Siphon Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mayhem Devil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sheoldred, Whispering One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, Whispering One",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4617a7b3b2cc"
+   }
+  },
+  {
+   "card": "Invert Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invert Polarity",
+       "cut": "Counterbalance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:5186b2a363d5"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8de60a628491"
+   }
+  },
+  {
+   "card": "Aether Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Channeler",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f8c0f40abb2a"
+   }
+  },
+  {
+   "card": "Entomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Entomb",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:e26aa7c00b79"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:7730db21f712"
+   }
+  },
+  {
+   "card": "Treasure Cruise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Cruise",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f62a0de82eb9"
+   }
+  },
+  {
+   "card": "Venser, Shaper Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:42171a7b2eef"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:5ced49642ab6"
+   }
+  },
+  {
+   "card": "Lively Dirge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lively Dirge",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:97e62043980a"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:d3f84a5682ea"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0401933aa07c"
+   }
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Takenuma, Abandoned Mire",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:de283a7fd96a"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:49d6cf25f759"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d4e8390ec04b"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a378362bde83"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:7d8263abf787"
+   }
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Tezzeret, Master of the Bridge",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:083405838af6"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:7d5272fc70b3"
+   }
+  },
+  {
+   "card": "Chain of Smog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chain of Smog",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Chain of Smog",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:df2573f3dc2f"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:93430b592dc7"
+   }
+  },
+  {
+   "card": "Unctus, Grand Metatect",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:60f809b786a8"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:dccfbffd9b97"
+   }
+  },
+  {
+   "card": "Exhibition Tidecaller",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exhibition Tidecaller",
+       "cut": "Mana Drain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9f22b20d2bab"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Retraction Helix",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:a462c48db8d7"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:31198086ab29"
+   }
+  },
+  {
+   "card": "Insatiable Avarice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insatiable Avarice",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d19748a9d1d6"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:48b6c60ec764"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:0a330a9efae7"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:54a96a79d79e"
+   }
+  },
+  {
+   "card": "Brinelin, the Moon Kraken",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brinelin, the Moon Kraken",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:5129b85c65fc"
+   }
+  },
+  {
+   "card": "Singularity Rupture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Singularity Rupture",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4f21d4483b38"
+   }
+  },
+  {
+   "card": "Marauding Sphinx",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marauding Sphinx",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:be6ef847bee6"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Banishing Knack",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:24ccc0c098e9"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:af3bc8ad6091"
+   }
+  },
+  {
+   "card": "Mnemonic Wall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mnemonic Wall",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:73d1da4b4d00"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:dbd156c0b801"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:820b117f6afd"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9c0782f0b1ff"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:16937c86c99f"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:57c619b3cf72"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:ba643ffdb905"
+   }
+  },
+  {
+   "card": "Fury Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fury Storm",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Fury Storm",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:5a9186fcdc80"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6ab7cefe3989"
+   }
+  },
+  {
+   "card": "Hellspur Posse Boss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shipwreck Dowser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Shipwreck Dowser",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:511f96aff932"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:1361a5e8a841"
+   }
+  },
+  {
+   "card": "Azure Beastbinder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bothersome Quasit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:2f976d2733d8"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:41af071b9a15"
+   }
+  },
+  {
+   "card": "Lord Xander, the Collector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Chancellor of the Spires",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Chancellor of the Spires",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:e3e87ddc30d3"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f5c98c9a5ffc"
+   }
+  },
+  {
+   "card": "Rootha, Mercurial Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:0998f0c9c926"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:0e7ba7940c38"
+   }
+  },
+  {
+   "card": "Hangar Scrounger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hangar Scrounger",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:80a7fe03956b"
+   }
+  },
+  {
+   "card": "View from Above",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "View from Above",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "View from Above",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:a901c04b5414"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:3483bda0fd44"
+   }
+  },
+  {
+   "card": "Sunscorched Desert",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunscorched Desert",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:1371688ae700"
+   }
+  },
+  {
+   "card": "Persist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Persist",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:5010c1cd15ea"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:a7f7d156bcd4"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4a0c8181ed56"
+   }
+  },
+  {
+   "card": "Tidewater Minion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidewater Minion",
+       "cut": "Mana Drain"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Tidewater Minion",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:e83463a6b01c"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f8f911b4559d"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:b48c1bda8815"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:3d5ea8bb99f3"
+   }
+  },
+  {
+   "card": "Deadeye Duelist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4ffd352595b2"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d661f264d63f"
+   }
+  },
+  {
+   "card": "Gamble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gamble",
+       "cut": "Tezzeret, Cruel Captain"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:2db7a567e219"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f599b22c9b33"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:9f3df78cfad4"
+   }
+  },
+  {
+   "card": "Divining Witch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Divining Witch",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d7c0e031c88b"
+   }
+  },
+  {
+   "card": "Cruel Ultimatum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:de33585ff264"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Misty Rainforest"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:ee82e4964869"
+   }
+  },
+  {
+   "card": "Palantír of Orthanc",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palantír of Orthanc",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:ebbd3fa0ae44"
+   }
+  },
+  {
+   "card": "Archmage Emeritus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:d28c3c20e2d9"
+   }
+  },
+  {
+   "card": "Blazing Firesinger // Seething Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Blazing Firesinger // Seething Song",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:7b1a01c3f91c"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:5ce1a94e8529"
+   }
+  },
+  {
+   "card": "Skycoach Conductor // All Aboard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skycoach Conductor // All Aboard",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Skycoach Conductor // All Aboard",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:aaa196d6edd0"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:674fb2c3ebe1"
+   }
+  },
+  {
+   "card": "Goblin Glasswright // Craft with Pride",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Goblin Glasswright // Craft with Pride",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:0dbd96b334cc"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:2f10bbe22146"
+   }
+  },
+  {
+   "card": "Pigment Wrangler // Striking Palette",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pigment Wrangler // Striking Palette",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Pigment Wrangler // Striking Palette",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:01bb05ba84ca"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:2f9c99670fe9"
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:f450c108271e"
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:170c5c84a411"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:702fd62807b9"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6817f1011f88"
+   }
+  },
+  {
+   "card": "Illusionist's Bracers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Illusionist's Bracers",
+       "cut": "Mox Opal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Illusionist's Bracers",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:9655ce66fdd7"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a125d03a1584"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:f71602f529fa"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:43df910ebe0f"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:401ff2e82d8e"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4e9fbaecfbd6"
+   }
+  },
+  {
+   "card": "Haze of Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haze of Rage",
+       "cut": "Rite of Flame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6ae16f51b935"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:856fe724f37c"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:c8a231dbff91"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:faf180041184"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:a2c97719cc2c"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:229515e3824a"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4dded84edeb5"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Ancestral Statue",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:86306eb256b1"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:32212469f5f8"
+   }
+  },
+  {
+   "card": "Neera, Wild Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Neera, Wild Mage",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:4205d36eca56"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:4725ed170d10"
+   }
+  },
+  {
+   "card": "Grinning Ignus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Grinning Ignus",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:e9c72eeb0942"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:7a87fcf654c3"
+   }
+  },
+  {
+   "card": "Invasion of Arcavios // Invocation of the Founders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "4091-7786"
+        ]
+       },
+       "add": "Guile",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:699d85646f51"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6b491a274ae1"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:9ef207eeaca2"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:efedf0a57538"
+   }
+  },
+  {
+   "card": "Wake Thrasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake Thrasher",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093"
+        ]
+       },
+       "add": "Wake Thrasher",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:marchesa-dealer-of-death:m5:aadd1941bd6d"
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:8ba8fc13a2a7"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:marchesa-dealer-of-death:m5:6d9c5c4166a6"
+   }
+  }
+ ],
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "list_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "slug": "marchesa-dealer-of-death",
+ "swaps": [
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c1553f4a0e41"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4842b2d7a8d1"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:994bdb105cf4"
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:bdb40a2136ec"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f588b1aaeb33"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f2c083daa13f"
+  },
+  {
+   "adds": [
+    "Gitaxian Probe"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:18fc05b59548"
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a0608ea8caa0"
+  },
+  {
+   "adds": [
+    "Eroded Canyon"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3669fa1b39b4"
+  },
+  {
+   "adds": [
+    "Soured Springs"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0c25371272fb"
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a5016841f248"
+  },
+  {
+   "adds": [
+    "Jagged Barrens"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:137525447bb1"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:bd61dfda62a1"
+  },
+  {
+   "adds": [
+    "Lazav, Familiar Stranger"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:497b8f7e5be5"
+  },
+  {
+   "adds": [
+    "Lazav, Familiar Stranger"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:11c8b1bf3b81"
+  },
+  {
+   "adds": [
+    "Kaervek, the Punisher"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ef414ae57b3b"
+  },
+  {
+   "adds": [
+    "Kaervek, the Punisher"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:582009cedb8e"
+  },
+  {
+   "adds": [
+    "At Knifepoint"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c7aabe66f054"
+  },
+  {
+   "adds": [
+    "Glasses of Urza"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:87964226400e"
+  },
+  {
+   "adds": [
+    "Ghost Vacuum"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:cc5cb3170f3f"
+  },
+  {
+   "adds": [
+    "Ghost Vacuum"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e2bc5d2da97b"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7c40a8bf3c5f"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:31809973d9e5"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2e9db3fcb35e"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d8d3f8e1506e"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1747921a3367"
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:b06ef2fa98c3"
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f7b6b6fc7b3d"
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:42e57fccab20"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a3bade692b24"
+  },
+  {
+   "adds": [
+    "Duelist of the Mind"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:66adb9a28e2c"
+  },
+  {
+   "adds": [
+    "Red Death, Shipwrecker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9cf1718f43e5"
+  },
+  {
+   "adds": [
+    "Red Death, Shipwrecker"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:713a26561bc1"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9134d5f17c1e"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9406e5481270"
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f709721aba94"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:cb71c4f867c0"
+  },
+  {
+   "adds": [
+    "Liquimetal Torque"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:16b17de9d12e"
+  },
+  {
+   "adds": [
+    "Liquimetal Torque"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:362b7ff7f6d1"
+  },
+  {
+   "adds": [
+    "Codex Shredder"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:41c153983ef9"
+  },
+  {
+   "adds": [
+    "Codex Shredder"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5b2f371c9d57"
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0481edacf0e4"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c42e662f3c07"
+  },
+  {
+   "adds": [
+    "Shoot the Sheriff"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9837f4b6d8e5"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:297a10dccb10"
+  },
+  {
+   "adds": [
+    "Vadmir, New Blood"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:eb755ccf2027"
+  },
+  {
+   "adds": [
+    "Iridescent Vinelasher"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a450dfe82ce3"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a09ebe4e2414"
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:fde4cdba5f50"
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f64204e2c207"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:652af78c9f09"
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ebf78a763a8d"
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5e0082056e84"
+  },
+  {
+   "adds": [
+    "Bloodthirsty Blade"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:b611a44ee3b8"
+  },
+  {
+   "adds": [
+    "Bandit's Haul"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:03fe28c5530c"
+  },
+  {
+   "adds": [
+    "Bandit's Haul"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6b0a8f1746b5"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8df67da279b0"
+  },
+  {
+   "adds": [
+    "Raven of Fell Omens"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:43f9e8db1df0"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8dbdb582a429"
+  },
+  {
+   "adds": [
+    "Otawara, Soaring City"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:59b5725a528f"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:33b959d0884f"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:95350f6939d9"
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:829214b24702"
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f61d177d2e6d"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0e8252fca214"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1778e5d97ac7"
+  },
+  {
+   "adds": [
+    "Necromancy"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d1a854657368"
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5260e0965989"
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6f57a346eced"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0f74709cec11"
+  },
+  {
+   "adds": [
+    "Loki, God of Mischief"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:01ac6579aff6"
+  },
+  {
+   "adds": [
+    "Scrabbling Claws"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6d156c791db5"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e8b3388be82e"
+  },
+  {
+   "adds": [
+    "Tinybones Joins Up"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e1d6ca9723c4"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4cb45cb4a01b"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:37b00d8e0c6a"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3c7c11e565cf"
+  },
+  {
+   "adds": [
+    "Relic of Progenitus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0c4aadc6fb87"
+  },
+  {
+   "adds": [
+    "Abyssal Harvester"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a66d6aefcfd3"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2ea01ff34794"
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:23d7958d9ba6"
+  },
+  {
+   "adds": [
+    "Drown in the Loch"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:69b2d36beb5b"
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:98b312ad8400"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8bc018bf194b"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:019decbb89a5"
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1d706b315255"
+  },
+  {
+   "adds": [
+    "Thought Scour"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:13cd070f3ee0"
+  },
+  {
+   "adds": [
+    "Strix Serenade"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:05f77b2dd2ee"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9a393256c5bb"
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8fb1a48e2670"
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7f5e803cda47"
+  },
+  {
+   "adds": [
+    "Bounty Board"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:aaf91a0427a2"
+  },
+  {
+   "adds": [
+    "Mishra's Bauble"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:946d52b85947"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8f0b2bc6c80b"
+  },
+  {
+   "adds": [
+    "Nowhere to Run"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c5005ddb1b4b"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:681ca6a60c60"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8da2b7c32506"
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4617a7b3b2cc"
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Counterbalance"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5186b2a363d5"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8de60a628491"
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f8c0f40abb2a"
+  },
+  {
+   "adds": [
+    "Entomb"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e26aa7c00b79"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7730db21f712"
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f62a0de82eb9"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:42171a7b2eef"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5ced49642ab6"
+  },
+  {
+   "adds": [
+    "Lively Dirge"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:97e62043980a"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0401933aa07c"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d3f84a5682ea"
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:de283a7fd96a"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d4e8390ec04b"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:49d6cf25f759"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a378362bde83"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7d8263abf787"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7d5272fc70b3"
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:083405838af6"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:93430b592dc7"
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:df2573f3dc2f"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:60f809b786a8"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:dccfbffd9b97"
+  },
+  {
+   "adds": [
+    "Exhibition Tidecaller"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9f22b20d2bab"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:31198086ab29"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a462c48db8d7"
+  },
+  {
+   "adds": [
+    "Insatiable Avarice"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d19748a9d1d6"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:48b6c60ec764"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:54a96a79d79e"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0a330a9efae7"
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5129b85c65fc"
+  },
+  {
+   "adds": [
+    "Singularity Rupture"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4f21d4483b38"
+  },
+  {
+   "adds": [
+    "Marauding Sphinx"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:be6ef847bee6"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:af3bc8ad6091"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:24ccc0c098e9"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:dbd156c0b801"
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:73d1da4b4d00"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:820b117f6afd"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9c0782f0b1ff"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:57c619b3cf72"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:16937c86c99f"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ba643ffdb905"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6ab7cefe3989"
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5a9186fcdc80"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1361a5e8a841"
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:511f96aff932"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2f976d2733d8"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:41af071b9a15"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f5c98c9a5ffc"
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e3e87ddc30d3"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0e7ba7940c38"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0998f0c9c926"
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:80a7fe03956b"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3483bda0fd44"
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a901c04b5414"
+  },
+  {
+   "adds": [
+    "Sunscorched Desert"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:1371688ae700"
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5010c1cd15ea"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4a0c8181ed56"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a7f7d156bcd4"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f8f911b4559d"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e83463a6b01c"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:b48c1bda8815"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:3d5ea8bb99f3"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4ffd352595b2"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d661f264d63f"
+  },
+  {
+   "adds": [
+    "Gamble"
+   ],
+   "cuts": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2db7a567e219"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f599b22c9b33"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9f3df78cfad4"
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d7c0e031c88b"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:de33585ff264"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Misty Rainforest"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ee82e4964869"
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:ebbd3fa0ae44"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:d28c3c20e2d9"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:5ce1a94e8529"
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7b1a01c3f91c"
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:674fb2c3ebe1"
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:aaa196d6edd0"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2f10bbe22146"
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:0dbd96b334cc"
+  },
+  {
+   "adds": [
+    "Pigment Wrangler // Striking Palette"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:2f9c99670fe9"
+  },
+  {
+   "adds": [
+    "Pigment Wrangler // Striking Palette"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:01bb05ba84ca"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f450c108271e"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:702fd62807b9"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:170c5c84a411"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6817f1011f88"
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a125d03a1584"
+  },
+  {
+   "adds": [
+    "Illusionist's Bracers"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9655ce66fdd7"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:43df910ebe0f"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:f71602f529fa"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:401ff2e82d8e"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4e9fbaecfbd6"
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6ae16f51b935"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:c8a231dbff91"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:856fe724f37c"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:a2c97719cc2c"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:faf180041184"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4dded84edeb5"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:229515e3824a"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:32212469f5f8"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:86306eb256b1"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4725ed170d10"
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:4205d36eca56"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:7a87fcf654c3"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:e9c72eeb0942"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6b491a274ae1"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:699d85646f51"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:efedf0a57538"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:9ef207eeaca2"
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:8ba8fc13a2a7"
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:aadd1941bd6d"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:marchesa-dealer-of-death:m5:6d9c5c4166a6"
+  }
+ ]
+}

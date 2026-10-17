@@ -1,0 +1,9320 @@
+{
+ "candidates": [
+  {
+   "card": "Mask of Griselbrand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mask of Griselbrand",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:620d6a2b38f2"
+   }
+  },
+  {
+   "card": "Temur Battle Rage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temur Battle Rage",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temur Battle Rage",
+       "cut": "Uncaged Fury"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:1d65d46fcc30"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2731420284e6"
+   }
+  },
+  {
+   "card": "Aqueous Form",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aqueous Form",
+       "cut": "Bitterblossom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Aqueous Form",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b3f301fb96c9"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b8e4b9fac125"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:af0d14a69f0b"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:29063241e218"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c46ed3c19b56"
+   }
+  },
+  {
+   "card": "Psychotic Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychotic Fury",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:725956ac3521"
+   }
+  },
+  {
+   "card": "Ornithopter of Paradise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ornithopter of Paradise",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Ornithopter of Paradise",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:10d955befb77"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:09ff1bba6e0d"
+   }
+  },
+  {
+   "card": "Grafted Exoskeleton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grafted Exoskeleton",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Grafted Exoskeleton",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4982e2327069"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:451ea42a4260"
+   }
+  },
+  {
+   "card": "Distortion Strike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Distortion Strike",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:1abd2e94bf2f"
+   }
+  },
+  {
+   "card": "Embercleave",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Embercleave",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "Embercleave",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:679f12761244"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:95ab08573ae8"
+   }
+  },
+  {
+   "card": "Dreadhorde Invasion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dreadhorde Invasion",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Dreadhorde Invasion",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c569835e339e"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d9db3d8ff8cd"
+   }
+  },
+  {
+   "card": "Diregraf Colossus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diregraf Colossus",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Diregraf Colossus",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f3e5e3ec2cfe"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2570862d2bcc"
+   }
+  },
+  {
+   "card": "Cemetery Reaper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cemetery Reaper",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Cemetery Reaper",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:782bfe71909c"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:cb4419af6bc9"
+   }
+  },
+  {
+   "card": "Lizard Blades",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lizard Blades",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Lizard Blades",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:dc0dfd5a4c76"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:eeddaaa950b9"
+   }
+  },
+  {
+   "card": "Relentless Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relentless Dead",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Relentless Dead",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:ea81d5c1565b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:6f2d5ea598ae"
+   }
+  },
+  {
+   "card": "Kher Keep",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kher Keep",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b65539d9ffb7"
+   }
+  },
+  {
+   "card": "Leaden Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Leaden Myr",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:dc1fe801aa52"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:994e6ee650d0"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9c0fad805a92"
+   }
+  },
+  {
+   "card": "Lazotep Plating",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lazotep Plating",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a82c8f9fd618"
+   }
+  },
+  {
+   "card": "Silver Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Midnight Reaper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Midnight Reaper",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:028b9145ae68"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d7bdf23e5785"
+   }
+  },
+  {
+   "card": "Slip Through Space",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slip Through Space",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:71cba4f962a0"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f0bf9175f1d4"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Muddle the Mixture"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7cf41de695c1"
+   }
+  },
+  {
+   "card": "Iron Myr",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Filth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Filth",
+       "cut": "Nether Traitor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:76f8d4704459"
+   }
+  },
+  {
+   "card": "Skullclamp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skullclamp",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:363435fa099d"
+   }
+  },
+  {
+   "card": "Tribute Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tribute Mage",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a7d496f4bfea"
+   }
+  },
+  {
+   "card": "Defabricate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Defabricate",
+       "cut": "Muddle the Mixture"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:4e23be58136a"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:95f6ab26a5f1"
+   }
+  },
+  {
+   "card": "Cryptbreaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptbreaker",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:178333670eff"
+   }
+  },
+  {
+   "card": "Impulsive Pilferer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Impulsive Pilferer",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b135327cf0b7"
+   }
+  },
+  {
+   "card": "Funeral Room // Awakening Hall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Funeral Room // Awakening Hall",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:bca8b98db96c"
+   }
+  },
+  {
+   "card": "Fabled Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabled Passage",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:282bc1c63e01"
+   }
+  },
+  {
+   "card": "Unholy Grotto",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unholy Grotto",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:808e81dab29d"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:baf2cadef115"
+   }
+  },
+  {
+   "card": "Mandate of Abaddon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mandate of Abaddon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e7e46199a643"
+   }
+  },
+  {
+   "card": "Bolt Bend",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolt Bend",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:8c60ffef2842"
+   }
+  },
+  {
+   "card": "Zombie Master",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zombie Master",
+       "cut": "Nether Traitor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c7ce50aa14eb"
+   }
+  },
+  {
+   "card": "Arnyn, Deathbloom Botanist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arnyn, Deathbloom Botanist",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Arnyn, Deathbloom Botanist",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:78f8c21e2e85"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:05de6eb03e66"
+   }
+  },
+  {
+   "card": "Tombstone Stairwell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tombstone Stairwell",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a11125aa2c0d"
+   }
+  },
+  {
+   "card": "Leyline Axe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bastion of Remembrance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bastion of Remembrance",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Bastion of Remembrance",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:493fbe576261"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b8b14f5a704d"
+   }
+  },
+  {
+   "card": "Field of the Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Field of the Dead",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2a047d2e9089"
+   }
+  },
+  {
+   "card": "Garrison Excavator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Garrison Excavator",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Garrison Excavator",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:1bd1831aba4b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f366a44a99b6"
+   }
+  },
+  {
+   "card": "Hammerhead, Maggia Boss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hammerhead, Maggia Boss",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Hammerhead, Maggia Boss",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:a0dd3c2f24d4"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:146147d33fbc"
+   }
+  },
+  {
+   "card": "Altar of Dementia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Altar of Dementia",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Altar of Dementia",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:6c11c02ce87e"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:029ada0a674c"
+   }
+  },
+  {
+   "card": "Ayara, First of Locthwain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ayara, First of Locthwain",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f3bd39d209f9"
+   }
+  },
+  {
+   "card": "Yahenni, Undying Partisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Yahenni, Undying Partisan",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Yahenni, Undying Partisan",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:15814348a69e"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b34473c03763"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:fff3af65c270"
+   }
+  },
+  {
+   "card": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2b30eab1d400"
+   }
+  },
+  {
+   "card": "Umbral Collar Zealot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Umbral Collar Zealot",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Umbral Collar Zealot",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:23b3399d881f"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:932db0c8b0e7"
+   }
+  },
+  {
+   "card": "Black Market Connections",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Black Market Connections",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2461d0161a10"
+   }
+  },
+  {
+   "card": "Liliana, Dreadhorde General",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana, Dreadhorde General",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0650aea232fd"
+   }
+  },
+  {
+   "card": "Pawn of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pawn of Ulamog",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Pawn of Ulamog",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:2213c6776c42"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9dd614a1d008"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:1372a9df8c25"
+   }
+  },
+  {
+   "card": "Woe Strider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Woe Strider",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Woe Strider",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:18746029a031"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d88a38b94047"
+   }
+  },
+  {
+   "card": "Grave Pact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grave Pact",
+       "cut": "Sheoldred's Edict"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:94cb265d71f4"
+   }
+  },
+  {
+   "card": "Vengeful Bloodwitch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vengeful Bloodwitch",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Vengeful Bloodwitch",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:9e2af930e750"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:be5333c05541"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:33df19bbd46b"
+   }
+  },
+  {
+   "card": "Ogre Slumlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ogre Slumlord",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Ogre Slumlord",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:5ed9b7106f2d"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c5950a8cd433"
+   }
+  },
+  {
+   "card": "Falkenrath Noble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Falkenrath Noble",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Falkenrath Noble",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4f0c25ef6103"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e55f04b0dcd0"
+   }
+  },
+  {
+   "card": "Chthonian Nightmare",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chthonian Nightmare",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Chthonian Nightmare",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:aa7bbd868483"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d141cb2071f9"
+   }
+  },
+  {
+   "card": "Pashalik Mons",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pashalik Mons",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Pashalik Mons",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:aa348449d914"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:bd5cdccc82ba"
+   }
+  },
+  {
+   "card": "Vein Ripper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vein Ripper",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Vein Ripper",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:905b2bdfb060"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c27c0db6c61f"
+   }
+  },
+  {
+   "card": "Mirror Room // Fractured Realm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror Room // Fractured Realm",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Mirror Room // Fractured Realm",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:d768b67c5674"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:803672900dcf"
+   }
+  },
+  {
+   "card": "Sokenzan, Crucible of Defiance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sokenzan, Crucible of Defiance",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d121d7feece4"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d9d4d46ef802"
+   }
+  },
+  {
+   "card": "Blasting Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasting Station",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Blasting Station",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:643461765baf"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:19b7ddbf4c28"
+   }
+  },
+  {
+   "card": "Sifter of Skulls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sifter of Skulls",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Sifter of Skulls",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:45a0df4dd2dd"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:863e14abbbd2"
+   }
+  },
+  {
+   "card": "Tormod, the Desecrator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tormod, the Desecrator",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Tormod, the Desecrator",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:45bb06da3a4b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:4238dcc3380d"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:fa4498603eaf"
+   }
+  },
+  {
+   "card": "Open the Graves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Open the Graves",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Open the Graves",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c4cf051c7137"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:62ad13df92fb"
+   }
+  },
+  {
+   "card": "Blight Mound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blight Mound",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Blight Mound",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c9fbefde597e"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c17155940c29"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:259f9b5c17a3"
+   }
+  },
+  {
+   "card": "Grave Venerations",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grave Venerations",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Grave Venerations",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b384aeb29d3b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9567dde3bf84"
+   }
+  },
+  {
+   "card": "Spawning Pit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawning Pit",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Spawning Pit",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:d508eb0eb4e8"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:4be4f9149b3e"
+   }
+  },
+  {
+   "card": "Animation Module",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Animation Module",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Animation Module",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:89c7963f1a8f"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d0a2023fe552"
+   }
+  },
+  {
+   "card": "Desecrated Tomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desecrated Tomb",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Desecrated Tomb",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:88a8b0c7992c"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e4bfebfede77"
+   }
+  },
+  {
+   "card": "Vindictive Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vindictive Vampire",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Vindictive Vampire",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f77c03d76efe"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:04245a003409"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:aa492bf74ad3"
+   }
+  },
+  {
+   "card": "Fumulus, the Infestation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fumulus, the Infestation",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Fumulus, the Infestation",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:434ad3b9d96b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:5010cec6f653"
+   }
+  },
+  {
+   "card": "Venerated Stormsinger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venerated Stormsinger",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Venerated Stormsinger",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:170c7b3d1575"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b491a9d7b1f7"
+   }
+  },
+  {
+   "card": "Deathgreeter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deathgreeter",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Deathgreeter",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f5da936ff79c"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:3976fc528b9b"
+   }
+  },
+  {
+   "card": "South Wind Avatar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "South Wind Avatar",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "South Wind Avatar",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:e54c8fce665c"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7d514d274032"
+   }
+  },
+  {
+   "card": "Al Bhed Salvagers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Al Bhed Salvagers",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Al Bhed Salvagers",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:66fef6da4b02"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0389b9d6db4f"
+   }
+  },
+  {
+   "card": "Skeleton Crew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skeleton Crew",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Skeleton Crew",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:934b545b8de5"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0d35aa44cf85"
+   }
+  },
+  {
+   "card": "Acererak the Archlich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Acererak the Archlich",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Acererak the Archlich",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4a757fa01949"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:8caba3989ef3"
+   }
+  },
+  {
+   "card": "Grimgrin, Corpse-Born",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grimgrin, Corpse-Born",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Grimgrin, Corpse-Born",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f90260b43063"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d7cb2c7610a5"
+   }
+  },
+  {
+   "card": "Susurian Voidborn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Susurian Voidborn",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Susurian Voidborn",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:d0aa2b3bf8a7"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c08a5befcd66"
+   }
+  },
+  {
+   "card": "Poppet Stitcher // Poppet Factory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poppet Stitcher // Poppet Factory",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Poppet Stitcher // Poppet Factory",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b1f34112475a"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:bc1de2d9dae6"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:cb86907e4191"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a1ea0f52ba1f"
+   }
+  },
+  {
+   "card": "Anax, Hardened in the Forge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anax, Hardened in the Forge",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Anax, Hardened in the Forge",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f7c8ec87db25"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:bcf8103c9320"
+   }
+  },
+  {
+   "card": "Liliana, Death's Majesty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana, Death's Majesty",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e9f0715f4a81"
+   }
+  },
+  {
+   "card": "Evereth, Viceroy of Plunder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evereth, Viceroy of Plunder",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Evereth, Viceroy of Plunder",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:1e994e51e8a9"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:4d0f4275ecd3"
+   }
+  },
+  {
+   "card": "Krenko, Baron of Tin Street",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Krenko, Baron of Tin Street",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Krenko, Baron of Tin Street",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:136b8d299763"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9cdeeccf381d"
+   }
+  },
+  {
+   "card": "Moonstone Eulogist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Moonstone Eulogist",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Moonstone Eulogist",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:0891e2dfa8b6"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b3f2e37eb140"
+   }
+  },
+  {
+   "card": "Bloodflow Connoisseur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodflow Connoisseur",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Bloodflow Connoisseur",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:485f50751a3d"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:95a593a60081"
+   }
+  },
+  {
+   "card": "Bloodthrone Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthrone Vampire",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Bloodthrone Vampire",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:98ab0823b9e8"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:93d6263202f6"
+   }
+  },
+  {
+   "card": "Nantuko Husk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nantuko Husk",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Nantuko Husk",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f9351fdae8aa"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:6c2e0f8971a6"
+   }
+  },
+  {
+   "card": "The Sibsig Ceremony",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Sibsig Ceremony",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "The Sibsig Ceremony",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4920cbfbc0dd"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:377a737f1ecd"
+   }
+  },
+  {
+   "card": "Rat King, Pale Piper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rat King, Pale Piper",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:fd2265fad73d"
+   }
+  },
+  {
+   "card": "Totentanz, Swarm Piper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Totentanz, Swarm Piper",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Totentanz, Swarm Piper",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:5e62c6841cc9"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:91244ad07c81"
+   }
+  },
+  {
+   "card": "Skittering Precursor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skittering Precursor",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Skittering Precursor",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:bcd2423c0af7"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e1c4f7698d53"
+   }
+  },
+  {
+   "card": "Thermopod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thermopod",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1385-2577-5670",
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Thermopod",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:ab5ef6f2efd1"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:efafaec6f9e7"
+   }
+  },
+  {
+   "card": "Ozox, the Clattering King",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ozox, the Clattering King",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Ozox, the Clattering King",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:fecca74b44af"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f37f144ee754"
+   }
+  },
+  {
+   "card": "Relic Vial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic Vial",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:29ccbfe1a0f6"
+   }
+  },
+  {
+   "card": "Oathkeeper, Takeno's Daisho",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:5f774cc78e74"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:1073e305ff9c"
+   }
+  },
+  {
+   "card": "Joo Dee, One of Many",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Joo Dee, One of Many",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Joo Dee, One of Many",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:1d6669dea0a8"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:119662e07693"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1385-2577-5670",
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Warren Soultrader"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b5f01f5fe0df"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2584be391b31"
+   }
+  },
+  {
+   "card": "Phantom Train",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phantom Train",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Phantom Train",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c50ae5075e74"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7a84c3b3f286"
+   }
+  },
+  {
+   "card": "The Ghoul, Gunslinger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Ghoul, Gunslinger",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "The Ghoul, Gunslinger",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:8d398b086786"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f90cd5d65bcd"
+   }
+  },
+  {
+   "card": "Summoning Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Summoning Station",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Summoning Station",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:a385c0754a28"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b263440890e4"
+   }
+  },
+  {
+   "card": "Popular Egotist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Popular Egotist",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0a661cce1ac6"
+   }
+  },
+  {
+   "card": "Fling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fling",
+       "cut": "Sheoldred's Edict"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2108ffb979eb"
+   }
+  },
+  {
+   "card": "Tenacious Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tenacious Dead",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Tenacious Dead",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:0e7a2a176cee"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c873f71d033c"
+   }
+  },
+  {
+   "card": "Phyrexian Ghoul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Ghoul",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Phyrexian Ghoul",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:642d3e27ab58"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:efae521a1628"
+   }
+  },
+  {
+   "card": "Raptor Hatchling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:45c2dc231952"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:6950e24358b1"
+   }
+  },
+  {
+   "card": "Dark Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Ritual",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0d46d39bc5b3"
+   }
+  },
+  {
+   "card": "Dross Harvester",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dross Harvester",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Dross Harvester",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:9e01a5a0ccdd"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2233ef23c06b"
+   }
+  },
+  {
+   "card": "Bridge from Below",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bridge from Below",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Bridge from Below",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:2d7559f57456"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7a3fa508a07e"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:98ce2f57ba07"
+   }
+  },
+  {
+   "card": "Volcano Hellion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volcano Hellion",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Volcano Hellion",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:1df9f382e938"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0e94b7e1ae0b"
+   }
+  },
+  {
+   "card": "Phenomenon Investigators",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phenomenon Investigators",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a1112061e598"
+   }
+  },
+  {
+   "card": "Corpse Blockade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corpse Blockade",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Corpse Blockade",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:75b51e67ac33"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:74196a3f78ce"
+   }
+  },
+  {
+   "card": "Magus of the Bridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Bridge",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Magus of the Bridge",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:29e18d728d18"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:474b3621cde0"
+   }
+  },
+  {
+   "card": "Initiates of the Ebon Hand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Initiates of the Ebon Hand",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Initiates of the Ebon Hand",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:33f70e624f1c"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f2e33e53149c"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b477eff66dc2"
+   }
+  },
+  {
+   "card": "Nim Shambler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nim Shambler",
+       "cut": "Sheoldred's Edict"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Nim Shambler",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:d2125da9ea71"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:393864a10289"
+   }
+  },
+  {
+   "card": "Sundial of the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Village Rites",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Village Rites",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b1b12bd5703e"
+   }
+  },
+  {
+   "card": "Fireshrieker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Reanimate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reanimate",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0347f655164e"
+   }
+  },
+  {
+   "card": "Gleaming Overseer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gleaming Overseer",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:44b9661f83a6"
+   }
+  },
+  {
+   "card": "Diabolic Intent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diabolic Intent",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c85c45b29675"
+   }
+  },
+  {
+   "card": "Deadly Dispute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Dispute",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f19f54ca6f83"
+   }
+  },
+  {
+   "card": "Glistening Oil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glistening Oil",
+       "cut": "Bitterblossom"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:6c0590c712ef"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:6767f0416c16"
+   }
+  },
+  {
+   "card": "Flooded Strand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flooded Strand",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:3b60b827eac3"
+   }
+  },
+  {
+   "card": "Victimize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Victimize",
+       "cut": "Sheoldred's Edict"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c9fdec27a590"
+   }
+  },
+  {
+   "card": "Unleash Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unleash Fury",
+       "cut": "Sheoldred's Edict"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:59d75b0ed3eb"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:29d59e30976d"
+   }
+  },
+  {
+   "card": "Cathedral of War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathedral of War",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:84ea39dedf05"
+   }
+  },
+  {
+   "card": "Wooded Foothills",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wooded Foothills",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9115f028c98a"
+   }
+  },
+  {
+   "card": "Verdant Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Verdant Catacombs",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e10e2e2d9456"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:1be03e74f4f5"
+   }
+  },
+  {
+   "card": "Arid Mesa",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arid Mesa",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c617562b046a"
+   }
+  },
+  {
+   "card": "City of Brass",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "City of Brass",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f1d4b3bea186"
+   }
+  },
+  {
+   "card": "Fabricate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Reflecting Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reflecting Pool",
+       "cut": "High Market"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:3081a3ba92e5"
+   }
+  },
+  {
+   "card": "Living Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Living Death",
+       "cut": "Sheoldred's Edict"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b0b2d1c89d15"
+   }
+  },
+  {
+   "card": "Buried Alive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Roaming Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Roaming Throne",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Roaming Throne",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:7be8988f00f1"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:aa22db8e7a2a"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:5e250fc6b980"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c70b913c537a"
+   }
+  },
+  {
+   "card": "Night of Souls' Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night of Souls' Betrayal",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:4056fb85bd94"
+   }
+  },
+  {
+   "card": "Draconic Visitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Draconic Visitor",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Draconic Visitor",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c78aa53d72db"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:096d78321d85"
+   }
+  },
+  {
+   "card": "Aetherflux Reservoir",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherflux Reservoir",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Aetherflux Reservoir",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4e7a8f596ad3"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:246301c4c66e"
+   }
+  },
+  {
+   "card": "Bontu's Monument",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bontu's Monument",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "Bontu's Monument",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c15fccd06d1b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:907790844997"
+   }
+  },
+  {
+   "card": "Chromatic Orrery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:bd950200424b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9d0ae7a0f765"
+   }
+  },
+  {
+   "card": "Stridehangar Automaton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stridehangar Automaton",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871"
+        ]
+       },
+       "add": "Stridehangar Automaton",
+       "cut": "Reassembling Skeleton"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:1a583eba7a87"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:67c30779c3a1"
+   }
+  },
+  {
+   "card": "Drivnod, Carnage Dominus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drivnod, Carnage Dominus",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Drivnod, Carnage Dominus",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:64827b2acb1a"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:4d3387031c2b"
+   }
+  },
+  {
+   "card": "Mycosynth Lattice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mycosynth Lattice",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "Mycosynth Lattice",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c276b3fa7f8c"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:422061e9bec8"
+   }
+  },
+  {
+   "card": "Forsaken Miner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forsaken Miner",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2292-2452-2577",
+         "2292-2577-4871"
+        ]
+       },
+       "add": "Forsaken Miner",
+       "cut": "Viscera Seer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:bb0c37b67a5a"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:07c5b921dede"
+   }
+  },
+  {
+   "card": "Dawnsire, Sunstar Dreadnought",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dawnsire, Sunstar Dreadnought",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "Dawnsire, Sunstar Dreadnought",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:0df5152ce746"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b1c86a2215f4"
+   }
+  },
+  {
+   "card": "Heartless Summoning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Summoning",
+       "cut": "Bitterblossom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Heartless Summoning",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:e7841e9da19b"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f2fe556ded3c"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Bitterblossom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Repercussion",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:84a460dde0d2"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:001922fce95e"
+   }
+  },
+  {
+   "card": "Nim Deathmantle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nim Deathmantle",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "Nim Deathmantle",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4159d7a77cc8"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:44b8a8a34939"
+   }
+  },
+  {
+   "card": "The Masamune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Masamune",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "The Masamune",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:36f852d07165"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7c40a2f5fabf"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c0ae90f01251"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:00917a4da13f"
+   }
+  },
+  {
+   "card": "Bloodsoaked Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2292-2452-2577",
+         "2292-2577-4871"
+        ]
+       },
+       "add": "Bloodsoaked Champion",
+       "cut": "Viscera Seer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:d0003a9122e5"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a4a413485043"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:fd8091f89898"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9d95a6e7a821"
+   }
+  },
+  {
+   "card": "Havengul Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Havengul Lich",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Havengul Lich",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b237317f2953"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:685526e788c0"
+   }
+  },
+  {
+   "card": "Oathsworn Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathsworn Vampire",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2292-2452-2577",
+         "2292-2577-4871"
+        ]
+       },
+       "add": "Oathsworn Vampire",
+       "cut": "Viscera Seer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:7b59b4523487"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7d0a45a688b0"
+   }
+  },
+  {
+   "card": "Ebondeath, Dracolich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ebondeath, Dracolich",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Ebondeath, Dracolich",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:747b8d7071b2"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d60962a7988e"
+   }
+  },
+  {
+   "card": "Liliana, Untouched by Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Ill-Tempered Loner // Howlpack Avenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ill-Tempered Loner // Howlpack Avenger",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Ill-Tempered Loner // Howlpack Avenger",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:d3b317f8b473"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e3b543fef324"
+   }
+  },
+  {
+   "card": "Cult Conscript",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cult Conscript",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2292-2452-2577",
+         "2292-2577-4871"
+        ]
+       },
+       "add": "Cult Conscript",
+       "cut": "Viscera Seer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:3827d2e416e8"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:2fbafb9204d2"
+   }
+  },
+  {
+   "card": "Haunt of the Dead Marshes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunt of the Dead Marshes",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Haunt of the Dead Marshes",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:0cb134892027"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:67574389a851"
+   }
+  },
+  {
+   "card": "Kaervek, the Spiteful",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kaervek, the Spiteful",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Kaervek, the Spiteful",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:943478aacce3"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9c5ea28177da"
+   }
+  },
+  {
+   "card": "Glitch Interpreter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glitch Interpreter",
+       "cut": "Wilhelt, the Rotcleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:7bf0643fe0b1"
+   }
+  },
+  {
+   "card": "Razorlash Transmogrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Razorlash Transmogrant",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Razorlash Transmogrant",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:70504353f960"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:5b16a11e9fac"
+   }
+  },
+  {
+   "card": "Carnival of Souls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Carnival of Souls",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Carnival of Souls",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:2cff6f533de0"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:e7dfd30d9c48"
+   }
+  },
+  {
+   "card": "Embalmer's Tools",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Embalmer's Tools",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2034-4871",
+         "2034-2452-2577",
+         "2034-2577-4871"
+        ]
+       },
+       "add": "Embalmer's Tools",
+       "cut": "Ashnod's Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:7ab53542a6b8"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:92939d37fc7a"
+   }
+  },
+  {
+   "card": "Undead Sprinter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Undead Sprinter",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Undead Sprinter",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:5fb63f4df47d"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:d08c9f4ba737"
+   }
+  },
+  {
+   "card": "Gemstone Array",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gemstone Array",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-4050-4871",
+         "2577-4050"
+        ]
+       },
+       "add": "Gemstone Array",
+       "cut": "Phyrexian Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:05738cf7e97d"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:158a0e2a1835"
+   }
+  },
+  {
+   "card": "Marang River Prowler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marang River Prowler",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Marang River Prowler",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:a082017bb9bb"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:402d7b4a444d"
+   }
+  },
+  {
+   "card": "Prismite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismite",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Prismite",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:db07f7b7c13a"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f47ad60c7e36"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:e73a3fe8f977"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:0eed75c4171a"
+   }
+  },
+  {
+   "card": "March of the Machines",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of the Machines",
+       "cut": "Bitterblossom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "March of the Machines",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:c12f9f3c7b51"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:a2132a958710"
+   }
+  },
+  {
+   "card": "Stonework Packbeast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stonework Packbeast",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Stonework Packbeast",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:fd11ddaed202"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:fe673c1cccf2"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:4bd394a46c85"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:8df6c7df91be"
+   }
+  },
+  {
+   "card": "Crossroads Candleguide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crossroads Candleguide",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Crossroads Candleguide",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:7b1352e83595"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:956f1889f6a3"
+   }
+  },
+  {
+   "card": "Bog Initiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bog Initiate",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1385-1580-4871-5670",
+         "1580-2034-4871",
+         "1580-2842-4871-5670",
+         "1580-4050-4871",
+         "2034-2577-4871",
+         "2292-2577-4871",
+         "2438-2577-4871",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Bog Initiate",
+       "cut": "Pitiless Plunderer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:56f19a5b8cc2"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:cf2fbf211165"
+   }
+  },
+  {
+   "card": "Signpost Scarecrow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Signpost Scarecrow",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Signpost Scarecrow",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b3bbeae1123d"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:9b4bf4cb68ee"
+   }
+  },
+  {
+   "card": "Geth, Thane of Contracts",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geth, Thane of Contracts",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Geth, Thane of Contracts",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:8679fb3150ff"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:319ea470aef7"
+   }
+  },
+  {
+   "card": "Engineered Plague",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Engineered Plague",
+       "cut": "Bitterblossom"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Engineered Plague",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b97b70289a99"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:b3a523443c34"
+   }
+  },
+  {
+   "card": "Sedraxis Alchemist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sedraxis Alchemist",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2452-2577-5147",
+         "2577-4871-5147"
+        ]
+       },
+       "add": "Sedraxis Alchemist",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:f114ebe120f1"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:52a21feec7c6"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b4f02038012d"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:8fe0dd41774e"
+   }
+  },
+  {
+   "card": "Lava Zombie",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lava Zombie",
+       "cut": "Nether Traitor"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1580-2842-4871-5670",
+         "2577-2842-5670"
+        ]
+       },
+       "add": "Lava Zombie",
+       "cut": "Blood Artist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:lord-of-tresserhorn:m5:b51256b3bc9f"
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:c166c0b40070"
+   }
+  },
+  {
+   "card": "Crosis's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis's Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:lord-of-tresserhorn:m5:f357e79baad0"
+   }
+  }
+ ],
+ "deck_id": "Lord_of_Tresserhorn",
+ "list_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+ "slug": "lord-of-tresserhorn",
+ "swaps": [
+  {
+   "adds": [
+    "Mask of Griselbrand"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:620d6a2b38f2"
+  },
+  {
+   "adds": [
+    "Temur Battle Rage"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2731420284e6"
+  },
+  {
+   "adds": [
+    "Temur Battle Rage"
+   ],
+   "cuts": [
+    "Uncaged Fury"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1d65d46fcc30"
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Bitterblossom"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b8e4b9fac125"
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b3f301fb96c9"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:af0d14a69f0b"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c46ed3c19b56"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:29063241e218"
+  },
+  {
+   "adds": [
+    "Psychotic Fury"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:725956ac3521"
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:09ff1bba6e0d"
+  },
+  {
+   "adds": [
+    "Ornithopter of Paradise"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:10d955befb77"
+  },
+  {
+   "adds": [
+    "Grafted Exoskeleton"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:451ea42a4260"
+  },
+  {
+   "adds": [
+    "Grafted Exoskeleton"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4982e2327069"
+  },
+  {
+   "adds": [
+    "Distortion Strike"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1abd2e94bf2f"
+  },
+  {
+   "adds": [
+    "Embercleave"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:95ab08573ae8"
+  },
+  {
+   "adds": [
+    "Embercleave"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:679f12761244"
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d9db3d8ff8cd"
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c569835e339e"
+  },
+  {
+   "adds": [
+    "Diregraf Colossus"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2570862d2bcc"
+  },
+  {
+   "adds": [
+    "Diregraf Colossus"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f3e5e3ec2cfe"
+  },
+  {
+   "adds": [
+    "Cemetery Reaper"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:cb4419af6bc9"
+  },
+  {
+   "adds": [
+    "Cemetery Reaper"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:782bfe71909c"
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:eeddaaa950b9"
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:dc0dfd5a4c76"
+  },
+  {
+   "adds": [
+    "Relentless Dead"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:6f2d5ea598ae"
+  },
+  {
+   "adds": [
+    "Relentless Dead"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:ea81d5c1565b"
+  },
+  {
+   "adds": [
+    "Kher Keep"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b65539d9ffb7"
+  },
+  {
+   "adds": [
+    "Leaden Myr"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:dc1fe801aa52"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:994e6ee650d0"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9c0fad805a92"
+  },
+  {
+   "adds": [
+    "Lazotep Plating"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a82c8f9fd618"
+  },
+  {
+   "adds": [
+    "Midnight Reaper"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:028b9145ae68"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d7bdf23e5785"
+  },
+  {
+   "adds": [
+    "Slip Through Space"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:71cba4f962a0"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f0bf9175f1d4"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Muddle the Mixture"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7cf41de695c1"
+  },
+  {
+   "adds": [
+    "Filth"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:76f8d4704459"
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:363435fa099d"
+  },
+  {
+   "adds": [
+    "Tribute Mage"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a7d496f4bfea"
+  },
+  {
+   "adds": [
+    "Defabricate"
+   ],
+   "cuts": [
+    "Muddle the Mixture"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4e23be58136a"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:95f6ab26a5f1"
+  },
+  {
+   "adds": [
+    "Cryptbreaker"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:178333670eff"
+  },
+  {
+   "adds": [
+    "Impulsive Pilferer"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b135327cf0b7"
+  },
+  {
+   "adds": [
+    "Funeral Room // Awakening Hall"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bca8b98db96c"
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:282bc1c63e01"
+  },
+  {
+   "adds": [
+    "Unholy Grotto"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:808e81dab29d"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:baf2cadef115"
+  },
+  {
+   "adds": [
+    "Mandate of Abaddon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e7e46199a643"
+  },
+  {
+   "adds": [
+    "Bolt Bend"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:8c60ffef2842"
+  },
+  {
+   "adds": [
+    "Zombie Master"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c7ce50aa14eb"
+  },
+  {
+   "adds": [
+    "Arnyn, Deathbloom Botanist"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:05de6eb03e66"
+  },
+  {
+   "adds": [
+    "Arnyn, Deathbloom Botanist"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:78f8c21e2e85"
+  },
+  {
+   "adds": [
+    "Tombstone Stairwell"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a11125aa2c0d"
+  },
+  {
+   "adds": [
+    "Bastion of Remembrance"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b8b14f5a704d"
+  },
+  {
+   "adds": [
+    "Bastion of Remembrance"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:493fbe576261"
+  },
+  {
+   "adds": [
+    "Field of the Dead"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2a047d2e9089"
+  },
+  {
+   "adds": [
+    "Garrison Excavator"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f366a44a99b6"
+  },
+  {
+   "adds": [
+    "Garrison Excavator"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1bd1831aba4b"
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:146147d33fbc"
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a0dd3c2f24d4"
+  },
+  {
+   "adds": [
+    "Altar of Dementia"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:029ada0a674c"
+  },
+  {
+   "adds": [
+    "Altar of Dementia"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:6c11c02ce87e"
+  },
+  {
+   "adds": [
+    "Ayara, First of Locthwain"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f3bd39d209f9"
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b34473c03763"
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:15814348a69e"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fff3af65c270"
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2b30eab1d400"
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:932db0c8b0e7"
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:23b3399d881f"
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2461d0161a10"
+  },
+  {
+   "adds": [
+    "Liliana, Dreadhorde General"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0650aea232fd"
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9dd614a1d008"
+  },
+  {
+   "adds": [
+    "Pawn of Ulamog"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2213c6776c42"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1372a9df8c25"
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d88a38b94047"
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:18746029a031"
+  },
+  {
+   "adds": [
+    "Grave Pact"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:94cb265d71f4"
+  },
+  {
+   "adds": [
+    "Vengeful Bloodwitch"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:be5333c05541"
+  },
+  {
+   "adds": [
+    "Vengeful Bloodwitch"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9e2af930e750"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:33df19bbd46b"
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c5950a8cd433"
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5ed9b7106f2d"
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e55f04b0dcd0"
+  },
+  {
+   "adds": [
+    "Falkenrath Noble"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4f0c25ef6103"
+  },
+  {
+   "adds": [
+    "Chthonian Nightmare"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d141cb2071f9"
+  },
+  {
+   "adds": [
+    "Chthonian Nightmare"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:aa7bbd868483"
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bd5cdccc82ba"
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:aa348449d914"
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c27c0db6c61f"
+  },
+  {
+   "adds": [
+    "Vein Ripper"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:905b2bdfb060"
+  },
+  {
+   "adds": [
+    "Mirror Room // Fractured Realm"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:803672900dcf"
+  },
+  {
+   "adds": [
+    "Mirror Room // Fractured Realm"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d768b67c5674"
+  },
+  {
+   "adds": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d121d7feece4"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d9d4d46ef802"
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:19b7ddbf4c28"
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:643461765baf"
+  },
+  {
+   "adds": [
+    "Sifter of Skulls"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:863e14abbbd2"
+  },
+  {
+   "adds": [
+    "Sifter of Skulls"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:45a0df4dd2dd"
+  },
+  {
+   "adds": [
+    "Tormod, the Desecrator"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4238dcc3380d"
+  },
+  {
+   "adds": [
+    "Tormod, the Desecrator"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:45bb06da3a4b"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fa4498603eaf"
+  },
+  {
+   "adds": [
+    "Open the Graves"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:62ad13df92fb"
+  },
+  {
+   "adds": [
+    "Open the Graves"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c4cf051c7137"
+  },
+  {
+   "adds": [
+    "Blight Mound"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c17155940c29"
+  },
+  {
+   "adds": [
+    "Blight Mound"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c9fbefde597e"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:259f9b5c17a3"
+  },
+  {
+   "adds": [
+    "Grave Venerations"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9567dde3bf84"
+  },
+  {
+   "adds": [
+    "Grave Venerations"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b384aeb29d3b"
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4be4f9149b3e"
+  },
+  {
+   "adds": [
+    "Spawning Pit"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d508eb0eb4e8"
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d0a2023fe552"
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:89c7963f1a8f"
+  },
+  {
+   "adds": [
+    "Desecrated Tomb"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e4bfebfede77"
+  },
+  {
+   "adds": [
+    "Desecrated Tomb"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:88a8b0c7992c"
+  },
+  {
+   "adds": [
+    "Vindictive Vampire"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:04245a003409"
+  },
+  {
+   "adds": [
+    "Vindictive Vampire"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f77c03d76efe"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:aa492bf74ad3"
+  },
+  {
+   "adds": [
+    "Fumulus, the Infestation"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5010cec6f653"
+  },
+  {
+   "adds": [
+    "Fumulus, the Infestation"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:434ad3b9d96b"
+  },
+  {
+   "adds": [
+    "Venerated Stormsinger"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b491a9d7b1f7"
+  },
+  {
+   "adds": [
+    "Venerated Stormsinger"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:170c7b3d1575"
+  },
+  {
+   "adds": [
+    "Deathgreeter"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:3976fc528b9b"
+  },
+  {
+   "adds": [
+    "Deathgreeter"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f5da936ff79c"
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7d514d274032"
+  },
+  {
+   "adds": [
+    "South Wind Avatar"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e54c8fce665c"
+  },
+  {
+   "adds": [
+    "Al Bhed Salvagers"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0389b9d6db4f"
+  },
+  {
+   "adds": [
+    "Al Bhed Salvagers"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:66fef6da4b02"
+  },
+  {
+   "adds": [
+    "Skeleton Crew"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0d35aa44cf85"
+  },
+  {
+   "adds": [
+    "Skeleton Crew"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:934b545b8de5"
+  },
+  {
+   "adds": [
+    "Acererak the Archlich"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:8caba3989ef3"
+  },
+  {
+   "adds": [
+    "Acererak the Archlich"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4a757fa01949"
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d7cb2c7610a5"
+  },
+  {
+   "adds": [
+    "Grimgrin, Corpse-Born"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f90260b43063"
+  },
+  {
+   "adds": [
+    "Susurian Voidborn"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c08a5befcd66"
+  },
+  {
+   "adds": [
+    "Susurian Voidborn"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d0aa2b3bf8a7"
+  },
+  {
+   "adds": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bc1de2d9dae6"
+  },
+  {
+   "adds": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b1f34112475a"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a1ea0f52ba1f"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:cb86907e4191"
+  },
+  {
+   "adds": [
+    "Anax, Hardened in the Forge"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bcf8103c9320"
+  },
+  {
+   "adds": [
+    "Anax, Hardened in the Forge"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f7c8ec87db25"
+  },
+  {
+   "adds": [
+    "Liliana, Death's Majesty"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e9f0715f4a81"
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4d0f4275ecd3"
+  },
+  {
+   "adds": [
+    "Evereth, Viceroy of Plunder"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1e994e51e8a9"
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9cdeeccf381d"
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:136b8d299763"
+  },
+  {
+   "adds": [
+    "Moonstone Eulogist"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b3f2e37eb140"
+  },
+  {
+   "adds": [
+    "Moonstone Eulogist"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0891e2dfa8b6"
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:95a593a60081"
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:485f50751a3d"
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:93d6263202f6"
+  },
+  {
+   "adds": [
+    "Bloodthrone Vampire"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:98ab0823b9e8"
+  },
+  {
+   "adds": [
+    "Nantuko Husk"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:6c2e0f8971a6"
+  },
+  {
+   "adds": [
+    "Nantuko Husk"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f9351fdae8aa"
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:377a737f1ecd"
+  },
+  {
+   "adds": [
+    "The Sibsig Ceremony"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4920cbfbc0dd"
+  },
+  {
+   "adds": [
+    "Rat King, Pale Piper"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fd2265fad73d"
+  },
+  {
+   "adds": [
+    "Totentanz, Swarm Piper"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:91244ad07c81"
+  },
+  {
+   "adds": [
+    "Totentanz, Swarm Piper"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5e62c6841cc9"
+  },
+  {
+   "adds": [
+    "Skittering Precursor"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e1c4f7698d53"
+  },
+  {
+   "adds": [
+    "Skittering Precursor"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bcd2423c0af7"
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:efafaec6f9e7"
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:ab5ef6f2efd1"
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f37f144ee754"
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fecca74b44af"
+  },
+  {
+   "adds": [
+    "Relic Vial"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:29ccbfe1a0f6"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1073e305ff9c"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5f774cc78e74"
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:119662e07693"
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1d6669dea0a8"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2584be391b31"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Warren Soultrader"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b5f01f5fe0df"
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7a84c3b3f286"
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c50ae5075e74"
+  },
+  {
+   "adds": [
+    "The Ghoul, Gunslinger"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f90cd5d65bcd"
+  },
+  {
+   "adds": [
+    "The Ghoul, Gunslinger"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:8d398b086786"
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b263440890e4"
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a385c0754a28"
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0a661cce1ac6"
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2108ffb979eb"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c873f71d033c"
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0e7a2a176cee"
+  },
+  {
+   "adds": [
+    "Phyrexian Ghoul"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:efae521a1628"
+  },
+  {
+   "adds": [
+    "Phyrexian Ghoul"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:642d3e27ab58"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:6950e24358b1"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:45c2dc231952"
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0d46d39bc5b3"
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2233ef23c06b"
+  },
+  {
+   "adds": [
+    "Dross Harvester"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9e01a5a0ccdd"
+  },
+  {
+   "adds": [
+    "Bridge from Below"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7a3fa508a07e"
+  },
+  {
+   "adds": [
+    "Bridge from Below"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2d7559f57456"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:98ce2f57ba07"
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0e94b7e1ae0b"
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1df9f382e938"
+  },
+  {
+   "adds": [
+    "Phenomenon Investigators"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a1112061e598"
+  },
+  {
+   "adds": [
+    "Corpse Blockade"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:74196a3f78ce"
+  },
+  {
+   "adds": [
+    "Corpse Blockade"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:75b51e67ac33"
+  },
+  {
+   "adds": [
+    "Magus of the Bridge"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:474b3621cde0"
+  },
+  {
+   "adds": [
+    "Magus of the Bridge"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:29e18d728d18"
+  },
+  {
+   "adds": [
+    "Initiates of the Ebon Hand"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f2e33e53149c"
+  },
+  {
+   "adds": [
+    "Initiates of the Ebon Hand"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:33f70e624f1c"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b477eff66dc2"
+  },
+  {
+   "adds": [
+    "Nim Shambler"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:393864a10289"
+  },
+  {
+   "adds": [
+    "Nim Shambler"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d2125da9ea71"
+  },
+  {
+   "adds": [
+    "Village Rites"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b1b12bd5703e"
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0347f655164e"
+  },
+  {
+   "adds": [
+    "Gleaming Overseer"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:44b9661f83a6"
+  },
+  {
+   "adds": [
+    "Diabolic Intent"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c85c45b29675"
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f19f54ca6f83"
+  },
+  {
+   "adds": [
+    "Glistening Oil"
+   ],
+   "cuts": [
+    "Bitterblossom"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:6c0590c712ef"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:6767f0416c16"
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:3b60b827eac3"
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c9fdec27a590"
+  },
+  {
+   "adds": [
+    "Unleash Fury"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:59d75b0ed3eb"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:29d59e30976d"
+  },
+  {
+   "adds": [
+    "Cathedral of War"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:84ea39dedf05"
+  },
+  {
+   "adds": [
+    "Wooded Foothills"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9115f028c98a"
+  },
+  {
+   "adds": [
+    "Verdant Catacombs"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e10e2e2d9456"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1be03e74f4f5"
+  },
+  {
+   "adds": [
+    "Arid Mesa"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c617562b046a"
+  },
+  {
+   "adds": [
+    "City of Brass"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f1d4b3bea186"
+  },
+  {
+   "adds": [
+    "Reflecting Pool"
+   ],
+   "cuts": [
+    "High Market"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:3081a3ba92e5"
+  },
+  {
+   "adds": [
+    "Living Death"
+   ],
+   "cuts": [
+    "Sheoldred's Edict"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b0b2d1c89d15"
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:aa22db8e7a2a"
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7be8988f00f1"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c70b913c537a"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5e250fc6b980"
+  },
+  {
+   "adds": [
+    "Night of Souls' Betrayal"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4056fb85bd94"
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:096d78321d85"
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c78aa53d72db"
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:246301c4c66e"
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4e7a8f596ad3"
+  },
+  {
+   "adds": [
+    "Bontu's Monument"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:907790844997"
+  },
+  {
+   "adds": [
+    "Bontu's Monument"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c15fccd06d1b"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9d0ae7a0f765"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bd950200424b"
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:67c30779c3a1"
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Reassembling Skeleton"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:1a583eba7a87"
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4d3387031c2b"
+  },
+  {
+   "adds": [
+    "Drivnod, Carnage Dominus"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:64827b2acb1a"
+  },
+  {
+   "adds": [
+    "Mycosynth Lattice"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:422061e9bec8"
+  },
+  {
+   "adds": [
+    "Mycosynth Lattice"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c276b3fa7f8c"
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:07c5b921dede"
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Viscera Seer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:bb0c37b67a5a"
+  },
+  {
+   "adds": [
+    "Dawnsire, Sunstar Dreadnought"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b1c86a2215f4"
+  },
+  {
+   "adds": [
+    "Dawnsire, Sunstar Dreadnought"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0df5152ce746"
+  },
+  {
+   "adds": [
+    "Heartless Summoning"
+   ],
+   "cuts": [
+    "Bitterblossom"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f2fe556ded3c"
+  },
+  {
+   "adds": [
+    "Heartless Summoning"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e7841e9da19b"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Bitterblossom"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:001922fce95e"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:84a460dde0d2"
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:44b8a8a34939"
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4159d7a77cc8"
+  },
+  {
+   "adds": [
+    "The Masamune"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7c40a2f5fabf"
+  },
+  {
+   "adds": [
+    "The Masamune"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:36f852d07165"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:00917a4da13f"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c0ae90f01251"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a4a413485043"
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Viscera Seer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d0003a9122e5"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9d95a6e7a821"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fd8091f89898"
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:685526e788c0"
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b237317f2953"
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7d0a45a688b0"
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Viscera Seer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7b59b4523487"
+  },
+  {
+   "adds": [
+    "Ebondeath, Dracolich"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d60962a7988e"
+  },
+  {
+   "adds": [
+    "Ebondeath, Dracolich"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:747b8d7071b2"
+  },
+  {
+   "adds": [
+    "Ill-Tempered Loner // Howlpack Avenger"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e3b543fef324"
+  },
+  {
+   "adds": [
+    "Ill-Tempered Loner // Howlpack Avenger"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d3b317f8b473"
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2fbafb9204d2"
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Viscera Seer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:3827d2e416e8"
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:67574389a851"
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0cb134892027"
+  },
+  {
+   "adds": [
+    "Kaervek, the Spiteful"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9c5ea28177da"
+  },
+  {
+   "adds": [
+    "Kaervek, the Spiteful"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:943478aacce3"
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Wilhelt, the Rotcleaver"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7bf0643fe0b1"
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5b16a11e9fac"
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:70504353f960"
+  },
+  {
+   "adds": [
+    "Carnival of Souls"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e7dfd30d9c48"
+  },
+  {
+   "adds": [
+    "Carnival of Souls"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:2cff6f533de0"
+  },
+  {
+   "adds": [
+    "Embalmer's Tools"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:92939d37fc7a"
+  },
+  {
+   "adds": [
+    "Embalmer's Tools"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7ab53542a6b8"
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:d08c9f4ba737"
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:5fb63f4df47d"
+  },
+  {
+   "adds": [
+    "Gemstone Array"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:158a0e2a1835"
+  },
+  {
+   "adds": [
+    "Gemstone Array"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:05738cf7e97d"
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:402d7b4a444d"
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a082017bb9bb"
+  },
+  {
+   "adds": [
+    "Prismite"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f47ad60c7e36"
+  },
+  {
+   "adds": [
+    "Prismite"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:db07f7b7c13a"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:0eed75c4171a"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:e73a3fe8f977"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Bitterblossom"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:a2132a958710"
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c12f9f3c7b51"
+  },
+  {
+   "adds": [
+    "Stonework Packbeast"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fe673c1cccf2"
+  },
+  {
+   "adds": [
+    "Stonework Packbeast"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:fd11ddaed202"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:8df6c7df91be"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:4bd394a46c85"
+  },
+  {
+   "adds": [
+    "Crossroads Candleguide"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:956f1889f6a3"
+  },
+  {
+   "adds": [
+    "Crossroads Candleguide"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:7b1352e83595"
+  },
+  {
+   "adds": [
+    "Bog Initiate"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:cf2fbf211165"
+  },
+  {
+   "adds": [
+    "Bog Initiate"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:56f19a5b8cc2"
+  },
+  {
+   "adds": [
+    "Signpost Scarecrow"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:9b4bf4cb68ee"
+  },
+  {
+   "adds": [
+    "Signpost Scarecrow"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b3bbeae1123d"
+  },
+  {
+   "adds": [
+    "Geth, Thane of Contracts"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:319ea470aef7"
+  },
+  {
+   "adds": [
+    "Geth, Thane of Contracts"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:8679fb3150ff"
+  },
+  {
+   "adds": [
+    "Engineered Plague"
+   ],
+   "cuts": [
+    "Bitterblossom"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b3a523443c34"
+  },
+  {
+   "adds": [
+    "Engineered Plague"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b97b70289a99"
+  },
+  {
+   "adds": [
+    "Sedraxis Alchemist"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:52a21feec7c6"
+  },
+  {
+   "adds": [
+    "Sedraxis Alchemist"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f114ebe120f1"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:8fe0dd41774e"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b4f02038012d"
+  },
+  {
+   "adds": [
+    "Lava Zombie"
+   ],
+   "cuts": [
+    "Nether Traitor"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:c166c0b40070"
+  },
+  {
+   "adds": [
+    "Lava Zombie"
+   ],
+   "cuts": [
+    "Blood Artist"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:b51256b3bc9f"
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:lord-of-tresserhorn:m5:f357e79baad0"
+  }
+ ]
+}

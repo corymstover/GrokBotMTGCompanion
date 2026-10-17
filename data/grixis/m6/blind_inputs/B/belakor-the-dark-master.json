@@ -1,0 +1,4755 @@
+{
+ "deck_id": "Be_lakor__the_Dark_Master",
+ "list_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+ "slug": "belakor-the-dark-master",
+ "swaps": [
+  {
+   "adds": [
+    "Varragoth, Bloodsky Sire"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7a2274fc49ef",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3daf8a743c169b4a"
+   ]
+  },
+  {
+   "adds": [
+    "Varragoth, Bloodsky Sire"
+   ],
+   "cuts": [
+    "Archfiend of Despair"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:21d8f7e1c903",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d7038b7cf61f2ad6"
+   ]
+  },
+  {
+   "adds": [
+    "Harvester of Souls"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:56123acee71d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Harvester of Souls"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f7df45bd9f0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Plague Drone"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7c042b01c1ee",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:32e80a1bae8f675b"
+   ]
+  },
+  {
+   "adds": [
+    "Plague Drone"
+   ],
+   "cuts": [
+    "Archfiend of Despair"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:19db49768aea",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:5038355492d8a85c"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodcrusher of Khorne"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dea78921ebd0",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:7f296253160f22a0"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodcrusher of Khorne"
+   ],
+   "cuts": [
+    "Archfiend of Despair"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:342a653d670c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:dc9bbe9b9983fd0b"
+   ]
+  },
+  {
+   "adds": [
+    "Lord Xander, the Collector"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d123eb4ff0f1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f5e59e4bea425442"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodgift Demon"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:592816b6b173",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bf12ab2b680c45ca"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodgift Demon"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c38e230b38ed",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2c13c021f5dcb88b"
+   ]
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8dee2889183c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a65b73b9e08f1fa2"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:58c4717c4f61",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raphael, Fiendish Savior"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:80819d82463f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raphael, Fiendish Savior"
+   ],
+   "cuts": [
+    "Archfiend of Despair"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a9d6cc4c9744",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3b377dd5f7277d61"
+   ]
+  },
+  {
+   "adds": [
+    "Reaper from the Abyss"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:797080b7eeee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ob Nixilis, Unshackled"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ff1e02f4b8b9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bad4aed3bdaf675a"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:46777ec226a5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:41ba81019f35f787"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Urza's Incubator"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2dac535829a9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:171dbd471f6f",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:31cd05d8a39653a5"
+   ]
+  },
+  {
+   "adds": [
+    "Venomcrawler"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9320d280d62c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:09bc06f8acf9c3e9"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3304d7b984d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Séance Board"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d8d86503bd8a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bab539f3fe429fea"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of the Void"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:eb3e511f4325",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2e3023a227034b3b"
+   ]
+  },
+  {
+   "adds": [
+    "Indulgent Tormentor"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5a92e4e1cf5f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aspiring Champion"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2d3c8288d83b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Valgavoth, Harrower of Souls"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:24fd32bba968",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Heralds of Tzeentch"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9490ed4a5554",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:8d43156bd65c6653"
+   ]
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7d4d138d1e49",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Razaketh, the Foulblooded"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7a6c91f432a4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:538d0039052cb872"
+   ]
+  },
+  {
+   "adds": [
+    "Demonlord Belzenlok"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dca08d4f350a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:7098362437971ceb"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:96da35290826",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seeker of Slaanesh"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0b0934a5b372",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:7734d9961734dd20"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowgrange Archfiend"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:05e93c1cb790",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:24d1a2d7f5ce7e5b"
+   ]
+  },
+  {
+   "adds": [
+    "Master of Cruelties"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8125db74c537",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:67e7c2a1f338195f"
+   ]
+  },
+  {
+   "adds": [
+    "Mandate of Abaddon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:710213387335",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:fbb3042eda54",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:fd4b8d7a9a87",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:ce296b3c9b356040"
+   ]
+  },
+  {
+   "adds": [
+    "Prince of Thralls"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:354afa10d1b5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:1e8392c072d31235"
+   ]
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7e55cf278244",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f6b0ae63a8c1a111"
+   ]
+  },
+  {
+   "adds": [
+    "Nightmare Shepherd"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8f14ce41ac35",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3c258b1cb48e85fe"
+   ]
+  },
+  {
+   "adds": [
+    "Pink Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c2ae944110da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Balrog of Moria"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:290e5305be89",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3b0d71e1c37b425c"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e9da94ba6ca1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c02550bebba1d583"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4cd9ab87b676",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:dbb1799ea894f27b"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c6b632bf252b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Overseer of the Damned"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d9261cc2c214",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mortarion, Daemon Primarch"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1129c1dd4cf9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fca527f60f86ffdb"
+   ]
+  },
+  {
+   "adds": [
+    "Rot-Curse Rakshasa"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c46980f0b3e0",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:5390e5c9d192b97a"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7056ca666345",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d41bac47de6b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crabomination"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c314b81c0d02",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9cd00c5b5b951ea9"
+   ]
+  },
+  {
+   "adds": [
+    "Rakshasa Debaser"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c8351d0da8c5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:34b7e21441f154ec"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dcf452fb5457",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b41cc2bc98c83348"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Covenant"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:82da33cdd0de",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hidetsugu and Kairi"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8e6650d3e96b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d20febce02b3d437"
+   ]
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:695357e3ab4f",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:ba0461a73f5cc01c"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b353001c8acc",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3d6e95cad959416d"
+   ]
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9eeff3fca55d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2475806360384689"
+   ]
+  },
+  {
+   "adds": [
+    "Immersturm Raider"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:fabeb7fd1e36",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:8a40f8fb849e08e2"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4486a7f0548e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9b636c42395cb187"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Bidding"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7585c2c6239e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9d5b02f956fb",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:ac531602a4da921c"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3f6d6e2a7bc2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d4a12f4c12ef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2a6a862e6179",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a9828377480a20c9"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:03c1fd29cb7e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:75527fdd06ad3073"
+   ]
+  },
+  {
+   "adds": [
+    "Haunting Voyage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0b6190979b2b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Speaker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d2cc427f7d1a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0e94174ed30c519b"
+   ]
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:63035cba203a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:df864cb83d1f41d9"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1e8732cb78f4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:790b2fc29558ddfb"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dd37018a0e5d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e469b9bb5f28ac51"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:649ceea0f79f",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:244b4ada8f4b52e9"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a745e9c1f41a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fd401a4fb1cb87fe"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3ac22b945ee2",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b8a0e4b0dc4802d5"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a5166bbe8d64",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d9fcc0dafd20f44c"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1d35ca655023",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9318bcd9849560a0"
+   ]
+  },
+  {
+   "adds": [
+    "Nurgle's Rot"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:54cf76990a96",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b9468847b242",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ef71d4b4ca8c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:21a85f01d06aa622"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3dbb0e29eb61",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c99027e4ab9f3bfc"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9952ad2b4551",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cabal Coffers"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:cfaefeb333a9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f3110c72051f04f3"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:27360d2c23e5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:ff8a7d17972d4b40"
+   ]
+  },
+  {
+   "adds": [
+    "Defiling Daemogoth"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8e25fc0792dd",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b94e3d9e52de2edc"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e06d96f49bd6",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3047795dd40c277d"
+   ]
+  },
+  {
+   "adds": [
+    "Pestilence Demon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ebd254d5b299",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reiver Demon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:44df5017fcf2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Ghostly Flicker"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1e604fd47e3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dread Cacodemon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9d0b99647930",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tragedy Feaster"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:03217da12256",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:822c7418fb4e0dbb"
+   ]
+  },
+  {
+   "adds": [
+    "Curse-Marred Demon"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e8d37aae4d2d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b42c486ac209df3f"
+   ]
+  },
+  {
+   "adds": [
+    "Death-Rattle Oni"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7ef4e847df5d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kagemaro, First to Suffer"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0c64194c67f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hezrou // Demonic Stench"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e6e1b158caec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Havoc Demon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1706ecf75973",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ea8cd19c78db",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c11fdd04e55f8a5d"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7e3ae9643401",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archfiend of Ifnir"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8720d58ea82b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d1be029200b50334"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:57d4c92a193e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:8f930b4050cfa52f"
+   ]
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Fallen"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4b29e08dbd3e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:afb222899821f54e"
+   ]
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9933dc793d25",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:98254009560f4ea1"
+   ]
+  },
+  {
+   "adds": [
+    "Nalfeshnee"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:418bfa6d07be",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:37950481cd5e7141"
+   ]
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Adversary"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3667d63335e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Silent-Blade Oni"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8e88cf4c3deb",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9956fb707088112a"
+   ]
+  },
+  {
+   "adds": [
+    "Bothersome Quasit"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a3953ca30224",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:aa4fb6eacc6c83fc"
+   ]
+  },
+  {
+   "adds": [
+    "Demon of Fate's Design"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:10aa680ab0bf",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:aa5329e9a096d991"
+   ]
+  },
+  {
+   "adds": [
+    "Seizan, Perverter of Truth"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0274cce7643f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ob Nixilis, Captive Kingpin"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9ab3f3e5db52",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:4d962ffddde167eb"
+   ]
+  },
+  {
+   "adds": [
+    "Master of the Feast"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:947ad8636b43",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bringer of the Last Gift"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:43a4cdcd2137",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bb0e2ea890e2eea2"
+   ]
+  },
+  {
+   "adds": [
+    "Carnifex Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:78959ae04df6",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:57156c3b4153cea9"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos, the Muscle"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:76bf4f1e9fa3",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:5bead183bb44ae21"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Excruciator"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:67753b654dbd",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:de218372e6251cdb"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadhound"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:646b240e74b9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fc972ac50bcc855d"
+   ]
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f1586cffab64",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abhorrent Overlord"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:6adc261313c2",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e99572153bafa759"
+   ]
+  },
+  {
+   "adds": [
+    "The Speed Demon"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1a80df4f74ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abyssal Persecutor"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d5dec0e285c5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3859dbf8b1bee01f"
+   ]
+  },
+  {
+   "adds": [
+    "Vile Mutilator"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:bf97fd00b527",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0c940fbc3eab8393"
+   ]
+  },
+  {
+   "adds": [
+    "Summon: G.F. Ifrit"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:52e8815148a6",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:273adfa36c9157eb"
+   ]
+  },
+  {
+   "adds": [
+    "The Balrog, Durin's Bane"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9df144e9fc8e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archfiend of the Dross"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4356ca4a9e81",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bab6a6c146c5c729"
+   ]
+  },
+  {
+   "adds": [
+    "Taborax, Hope's Demise"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:26672cc9e049",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Imskir Iron-Eater"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:bf32bec29dac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Demon of Loathing"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7648df542fb4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2015c49362147f3d"
+   ]
+  },
+  {
+   "adds": [
+    "Desecration Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:108162135c44",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2ad73c9549ca9010"
+   ]
+  },
+  {
+   "adds": [
+    "Sire of Insanity"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:91342bdc14e5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b607498cd46ac7c3"
+   ]
+  },
+  {
+   "adds": [
+    "Kothophed, Soul Hoarder"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dffd39e9079b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archfiend of Spite"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:61242d2e3115",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:babeb5c15d9ba91d"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of the Forsaken"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1f02c3382aca",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b5752a0a8e0e327e"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Taskmaster"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:762600ab7c25",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bd0e3cee39d6e2bf"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Null, Power Broker"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ebb1a8670e84",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:8cd78b3e89701d5b"
+   ]
+  },
+  {
+   "adds": [
+    "Arbiter of Woe"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:07d6e5f25da6",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b0e0f90b014f94fe"
+   ]
+  },
+  {
+   "adds": [
+    "Krav, the Unredeemed"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d5c70b2e7190",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blade of the Oni"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:28388c9c676b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6d4ccceec1f45d0c"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Giant"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3c3bfadd73b8",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fc68ea456c3c57f0"
+   ]
+  },
+  {
+   "adds": [
+    "Spawn of Mayhem"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5a5722ab739c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e9a31a067a34cfd6"
+   ]
+  },
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:56d5643d21ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ammit Eternal"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0d45b8c7722b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:381403d87db57dd0"
+   ]
+  },
+  {
+   "adds": [
+    "Hidetsugu, Devouring Chaos"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9048cd8591e1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:38f814b1e222bf0f"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Anguish"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1f5495c635e2",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d294f13d32962b0c"
+   ]
+  },
+  {
+   "adds": [
+    "Infernal Sovereign"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f39060e8749b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lord of the Pit"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8180b20f75b3",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fb9f6c556d40be85"
+   ]
+  },
+  {
+   "adds": [
+    "Hellcarver Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:030996ee9892",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c3bb0e0f62b68f3f"
+   ]
+  },
+  {
+   "adds": [
+    "Dreadfeast Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:20e40c1bc8ed",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:afa4569dea997bf0"
+   ]
+  },
+  {
+   "adds": [
+    "Demon of Death's Gate"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7b8469bc4a2b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:de4f759bb0472c98"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Hearth and Home"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3b112106edf3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goremand"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:04d4afd3b922",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:550394f12ec26ba1"
+   ]
+  },
+  {
+   "adds": [
+    "Savanti Romero, Time's Exile"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:22dfaffa0585",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Orca, Siege Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:63050d6d73ee",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:898581d161cd2eec"
+   ]
+  },
+  {
+   "adds": [
+    "Malfegor"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d1a324164af0",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:efa3e98903ae97d0"
+   ]
+  },
+  {
+   "adds": [
+    "Demon of Wailing Agonies"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e9ce53183a08",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c67cd1e891e405a5"
+   ]
+  },
+  {
+   "adds": [
+    "Sloppity Bilepiper"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a35655d2050b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:efad98467501436b"
+   ]
+  },
+  {
+   "adds": [
+    "Gray Merchant of Asphodel"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5f740fd3e9a1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3a0679758c1c066e"
+   ]
+  },
+  {
+   "adds": [
+    "Gray Merchant of Asphodel"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9e4d4d1deb17",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:07092aeb43041269"
+   ]
+  },
+  {
+   "adds": [
+    "Demon of Catastrophes"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:61f0786cd153",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f5105f7f815bc407"
+   ]
+  },
+  {
+   "adds": [
+    "Soul Swindler"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:94311f2bd8a8",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:271c28fabc035980"
+   ]
+  },
+  {
+   "adds": [
+    "Apocalypse Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:77c028d9930d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fa2cd81913005b62"
+   ]
+  },
+  {
+   "adds": [
+    "Demon Wall"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:6a666f2ac223",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a6b432b850c277a6"
+   ]
+  },
+  {
+   "adds": [
+    "Shefet Archfiend"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:cfd0aac2e87c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fd186138a9d3fbeb"
+   ]
+  },
+  {
+   "adds": [
+    "Embodiment of Agonies"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:021dade0527a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9be0d575ebd4bdcb"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos the Defiler"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:58144119a2b3",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:206b1e8291e4a0e8"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowborn Demon"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2d41bbaadb38",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Liege of the Pit"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:35ec9258c22b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:85db59e8bcc9a131"
+   ]
+  },
+  {
+   "adds": [
+    "Eater of Hope"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:785b6ed61f2e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e4e129c4d7c1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2ef861fcaa05631c"
+   ]
+  },
+  {
+   "adds": [
+    "Vrock"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:58a85a201fbb",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0f222cb9ccbda57f"
+   ]
+  },
+  {
+   "adds": [
+    "Yukora, the Prisoner"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3897f8f8a21a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:57cec79c4a774bbd"
+   ]
+  },
+  {
+   "adds": [
+    "Kuro, Pitlord"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:70ac3e180754",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:800b695d582fc5ca"
+   ]
+  },
+  {
+   "adds": [
+    "Necropolis Fiend"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:202f5402babe",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:98d247ade55b6918"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarox, Overlord of Grixis"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dd3bdf295f2f",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:acb6bb8f508fd8f6"
+   ]
+  },
+  {
+   "adds": [
+    "Xathrid Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:93f713eea811",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3116a657aa9c8d97"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:52a63a6a3442",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:de7e9b6d265dd399"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Patriarch's Bidding"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:23f3ff0182a4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b7605cf8858f2e3b"
+   ]
+  },
+  {
+   "adds": [
+    "Herald of Torment"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4576f71b5c7a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:1ba6b6b653a343bb"
+   ]
+  },
+  {
+   "adds": [
+    "Kyoki, Sanity's Eclipse"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:de6220857086",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:55efeb3d1d385543"
+   ]
+  },
+  {
+   "adds": [
+    "Miasma Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8ef52f212fd4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6302fba6f56e0bcf"
+   ]
+  },
+  {
+   "adds": [
+    "Spirit of the Night"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e6681b44df74",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0081a87de729700b"
+   ]
+  },
+  {
+   "adds": [
+    "Mindwrack Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f0d896be593e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2219a7538f40ac98"
+   ]
+  },
+  {
+   "adds": [
+    "Sol'kanar the Swamp King"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a3541e56a66a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:76ca5b4d1c81e9a3"
+   ]
+  },
+  {
+   "adds": [
+    "Soulstinger"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9d6224c0c8c7",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:8daeba2910ce6f96"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Ammit"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:6e33723963c9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:190619b009d4ccc8"
+   ]
+  },
+  {
+   "adds": [
+    "Painwracker Oni"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8a70d45ce872",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c0f6542a233d4332"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d01e27464670",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6c0fd75a14fc3483"
+   ]
+  },
+  {
+   "adds": [
+    "Soulflayer"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ef1bf39ba118",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f270ce88bf4eff10"
+   ]
+  },
+  {
+   "adds": [
+    "Tyrannical Pitlord"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:79e9cf714d4f",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f4374c787ae7eb9b"
+   ]
+  },
+  {
+   "adds": [
+    "Feaster of Fools"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:db4617806276",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2d68a6d612e5c1e2"
+   ]
+  },
+  {
+   "adds": [
+    "The Balrog, Flame of Udûn"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:66e2ec931fbb",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:65ab9dab1da9c274"
+   ]
+  },
+  {
+   "adds": [
+    "Thraxodemon"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:bbe259c42cf8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gurmag Rakshasa"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3df3c87eebb9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:158397517bd519f7"
+   ]
+  },
+  {
+   "adds": [
+    "Soulcage Fiend"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:440ba84ce9aa",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:80ee3766aaf957d1"
+   ]
+  },
+  {
+   "adds": [
+    "Woebringer Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:76c0b724e576",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b6d0357e8ab6d8d4"
+   ]
+  },
+  {
+   "adds": [
+    "Conductor of Cacophony"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:223d7b96ab75",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3e90d848944b201c"
+   ]
+  },
+  {
+   "adds": [
+    "Stronghold Overseer"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4ea052d829e8",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f73776956fbc2c00"
+   ]
+  },
+  {
+   "adds": [
+    "Defiler of Souls"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f89be3548016",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bd66b1bfc5151196"
+   ]
+  },
+  {
+   "adds": [
+    "Minion of Leshrac"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e9396e6a38c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Etched Host Doombringer"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d2d1be3de2d1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:97e3895cbaf73c23"
+   ]
+  },
+  {
+   "adds": [
+    "Rakshasa Gravecaller"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b6c777dd1a32",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e2188ea88f91b114"
+   ]
+  },
+  {
+   "adds": [
+    "Ravenous Demon // Archdemon of Greed"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c86a4853d711",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fa9936e2d0d2e149"
+   ]
+  },
+  {
+   "adds": [
+    "Oni of Wild Places"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b0424c83257b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:519c673412e7f7ca"
+   ]
+  },
+  {
+   "adds": [
+    "Tombstalker"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:64e20bc81225",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:4c325ff589a7e1c0"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Hordes"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:20f5596cfbf2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gutwrencher Oni"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2107f213c5a9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:bf1061f1c7dbca4a"
+   ]
+  },
+  {
+   "adds": [
+    "Archdemon of Unx"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3a3bc023325a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2c62f41ad3489c51"
+   ]
+  },
+  {
+   "adds": [
+    "Rafter Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:65795d8870a8",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0b07b252434ed0b3"
+   ]
+  },
+  {
+   "adds": [
+    "Enemy of Enlightenment"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:375d51337c9d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2e1ee72a7a520174"
+   ]
+  },
+  {
+   "adds": [
+    "Shimatsu the Bloodcloaked"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3c420fd2326e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:458cb48ce0e5d623"
+   ]
+  },
+  {
+   "adds": [
+    "Hollowborn Barghest"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4ab0eea7f6f1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:41c0cb72235216f2"
+   ]
+  },
+  {
+   "adds": [
+    "Frenzied Raider"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c640b3d97a02",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:1dc1ead4fff7c5f7"
+   ]
+  },
+  {
+   "adds": [
+    "Infernal Denizen"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0418003826fd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Halo Hunter"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0129cc81b8ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Wretched"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:aaef28b198d9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:11366417d862462a"
+   ]
+  },
+  {
+   "adds": [
+    "Renegade Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3aeba67cebde",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e26d0e744801e818"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Orca"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0354b3612af6",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d691bf7e1992262f"
+   ]
+  },
+  {
+   "adds": [
+    "Yawgmoth Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:cfabb299eb02",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:973755efa5902b90"
+   ]
+  },
+  {
+   "adds": [
+    "Pit Spawn"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:97684d18a32b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:da99f879079580ad"
+   ]
+  },
+  {
+   "adds": [
+    "Razorjaw Oni"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b8afeea32837",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6e64f44be25c5274"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of Numai"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:048dd2740db9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b343d26ae4160e2e"
+   ]
+  },
+  {
+   "adds": [
+    "Archdemon of Paliano"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:adc6b146d846",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3afd01a70607c924"
+   ]
+  },
+  {
+   "adds": [
+    "Minion of Tevesh Szat"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e6cb091d1ae8",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fba07657ca960307"
+   ]
+  },
+  {
+   "adds": [
+    "Illusory Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:20bbbe4122ef",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:1a8763a9d3532bfa"
+   ]
+  },
+  {
+   "adds": [
+    "Mold Demon"
+   ],
+   "cuts": [
+    "Sower of Discord"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:54153c1d8473",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:5b2886e6b2f1ce5f"
+   ]
+  },
+  {
+   "adds": [
+    "Terror of the Peaks"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7bcf1b61e677",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:69204503dae27c31"
+   ]
+  },
+  {
+   "adds": [
+    "Terror of the Peaks"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8fb92555b877",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c252e8bc28c9bd12"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ceb016775929",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3a306836a3cbb122"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dfea847cb212",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:993ff0b5af892d6a"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d04c7fd7c6e6",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a268ef07f74380f7"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:6de0952e1837",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0fc3a1b72933089b"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5deb71809e56",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e7c0a3142a47e3cc"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:376345a43765",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d3ed8b3b2d7a14bb"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of Valkas"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:72a09f40c6a9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2fb5a383b05a9cfc"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0b386307fdbe",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d2053d780c169685"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Liliana's Contract"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b319e78e514e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:02310df95dd5107d"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:85de96d10e89",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:11d9737a7cae4bbd"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8e8e8a507e2a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:04b1119cae8a3cb6"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:b9ab3eb90466",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2dfd2f516681d4ba"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2059ab04fc1a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0fdf48abe18126a6"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Urza's Incubator"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ea48d3817d16",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9e1a5d38e4997d52"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5d4b2170668a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d40edd90475797d8"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:93fb5ac62202",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f74e06613cbbfd73"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f3b04570333a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b63bcd7472139adc"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Ancient Cellarspawn"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2bfbd752645d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:7bfa274a63055b01"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3ec6b21f61d8",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:28ece1094b9448c2"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:75f140ee5edb",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0c34ac446b5849bd"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:565ddcd569f0",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c6e82755858decca"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Ancient Cellarspawn"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:82f7780fa647",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2694e017ff2160aa"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c9a4f5d5a131",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:116775a387fa5724"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:80a794b9f26a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e8b3a3233391bd26"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Urza's Incubator"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7570ad01b4ea",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:997eae46d684e687"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7ed9255d616d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:94253ec531cacc45"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4bb77bb557fc",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d03ac0e5bd9fc126"
+   ]
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:653c848e4347",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:104067985344231b"
+   ]
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Patriarch's Bidding"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a5d834275076",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d8917dca4c8ed05a"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:fc87039772e3",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d49916ab89534823"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d2c9a97975e3",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:425c3f4184dd84c5"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2d96093ab73e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:170ba2704ea3e931"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1a45f5cabacb",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:7a2ed45e02e75990"
+   ]
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:959e5ea50e41",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:20455a9a2bd80e6a"
+   ]
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Liliana's Contract"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:6b9a9bbbeafe",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0feedc87c7b0e71f"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0cccd1dc4c87",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:093b56e2626fe898"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Patriarch's Bidding"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:136336e4497b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fdee4c47a62e3504"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4bfc9878c134",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a1007f6a3ba52f87"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5dc1fae7bbfc",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:95778f7e19300681"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:af68392818b4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c45513df4c698875"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f2b21ea12984",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:040c3464656cc5dc"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of Fool's Wisdom"
+   ],
+   "cuts": [
+    "Unholy Annex // Ritual Chamber"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:cf7aedf611d5",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:578e4f248cc0b2d8"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of Fool's Wisdom"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0b9ab8729808",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:11abd0aac65928c4"
+   ]
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Ancient Cellarspawn"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:95d6d4f33cca",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6e0dfd2b7e348791"
+   ]
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:19e3bf724895",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:0dca2a2ff115f42d"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a3638df0c737",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b9e09010e8e88c7f"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4b76a559fc12",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:09bb0f19e3c17a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c30d00f0c3f1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a4af62ad3fe290a6"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:dcb37cc5c209",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:101234a48078b583"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9a9fb06595da",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:4eea805ad8c5ee4a"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Urza's Incubator"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2c18233646d7",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:fac252e1d6c31782"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5221e6a565dc",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6afaa6fde92f15a3"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:bce929d4ec3b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:171f8a1255fa61c8"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d2647ab17516",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b4324c2685016147"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:0cc3facf727a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3651e855aa9bc58d"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:aabec0bf513a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2610618844ff5bec"
+   ]
+  },
+  {
+   "adds": [
+    "Havoc Festival"
+   ],
+   "cuts": [
+    "Ancient Cellarspawn"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:2a387083ebb9",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:30066f216e2a3252"
+   ]
+  },
+  {
+   "adds": [
+    "Havoc Festival"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:4212db20826e",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e2a25df3c4bc6aec"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:f1f795e22e00",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:23f674cade101c6e"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c3ed583abc1b",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:5bccb67fa5c327ce"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ea566347014a",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c73133b8241128af"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Patriarch's Bidding"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:abeb937a03ac",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c36e5969c5b3d1d3"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a914563083e4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:04f228aeeb6c201d"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:813801a468d1",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9495ce0f00a13c30"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:3204e73cd324",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d871a5ff3ebb5100"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:efb32bd8d6c7",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:acdd939b0e73fa6c"
+   ]
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d9eea5c7a471",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e759f678e634609b"
+   ]
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8bbe224141bc",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:4e8f20f70873baae"
+   ]
+  },
+  {
+   "adds": [
+    "Mistbind Clique"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8ed49506f4dd",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3bfa52b6628e6128"
+   ]
+  },
+  {
+   "adds": [
+    "Mistbind Clique"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:8f769c05c1ba",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a77ce0eabe660700"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:5ec7c761631d",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:25f0756bafcb34f5"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:9268936e0926",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6e85a3e244df7b71"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:a7b0c37d8dac",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:a9861094ba27bc01"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:23ede2d0f992",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:6163982c7c37e844"
+   ]
+  },
+  {
+   "adds": [
+    "Changeling Berserker"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e6565503ec3c",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c1edf04863d47f22"
+   ]
+  },
+  {
+   "adds": [
+    "Changeling Berserker"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e2f9ebca51f4",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:8dfb1e04a345ef62"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:1ee6ab95f0fa",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:f7e9e6c77ea41211"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:749b4f141e34",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:61975af3b4d45c9f"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Crafter"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:d62363c68025",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:9cbe606604c5b8f0"
+   ]
+  },
+  {
+   "adds": [
+    "Boggart Mob"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:83cc34825dff",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:11efaeb526cc13f5"
+   ]
+  },
+  {
+   "adds": [
+    "Boggart Mob"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:fc4762345e88",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:3f522b705edfdeea"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e294f4de7a36",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:ebf7c7600f20034e"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c8a351d52232",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:2f904ec6aa8ef712"
+   ]
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:41d6c90f0f70",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:413e01f033b23fbc"
+   ]
+  },
+  {
+   "adds": [
+    "Volcano Hellion"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:c768f8e976cd",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:66670b6e5993e988"
+   ]
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:bf1568e68094",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:653350449f7414ba"
+   ]
+  },
+  {
+   "adds": [
+    "Raving Dead"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:924494348f2f",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:e3f24708b5617cf0"
+   ]
+  },
+  {
+   "adds": [
+    "Nova Chaser"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ae60ebbf6aaf",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:5eb4e2446069b0a2"
+   ]
+  },
+  {
+   "adds": [
+    "Nova Chaser"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:262f74c94bae",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:c24409d1f50a747e"
+   ]
+  },
+  {
+   "adds": [
+    "Supreme Exemplar"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:49f2c4df4e58",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:d4d75e1ad266e9b6"
+   ]
+  },
+  {
+   "adds": [
+    "Supreme Exemplar"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:ff4c46c92afa",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b797cd8c07696291"
+   ]
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Demon of Dark Schemes"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:7986ede11a35",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:b4b2789867d4ce16"
+   ]
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:belakor-the-dark-master:m5:e4ebdc8f4fec",
+   "tests": [
+    "test:belakor-the-dark-master:goldfish:52e998c2eb70b003"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3daf8a743c169b4a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d7038b7cf61f2ad6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:32e80a1bae8f675b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:5038355492d8a85c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:7f296253160f22a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:dc9bbe9b9983fd0b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f5e59e4bea425442",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bf12ab2b680c45ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2c13c021f5dcb88b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a65b73b9e08f1fa2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3b377dd5f7277d61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bad4aed3bdaf675a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:41ba81019f35f787",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:31cd05d8a39653a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:09bc06f8acf9c3e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bab539f3fe429fea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2e3023a227034b3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:8d43156bd65c6653",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:538d0039052cb872",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:7098362437971ceb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:7734d9961734dd20",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:24d1a2d7f5ce7e5b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:67e7c2a1f338195f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:ce296b3c9b356040",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:1e8392c072d31235",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f6b0ae63a8c1a111",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3c258b1cb48e85fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3b0d71e1c37b425c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c02550bebba1d583",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:dbb1799ea894f27b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fca527f60f86ffdb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:5390e5c9d192b97a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9cd00c5b5b951ea9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:34b7e21441f154ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b41cc2bc98c83348",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d20febce02b3d437",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:ba0461a73f5cc01c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3d6e95cad959416d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2475806360384689",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:8a40f8fb849e08e2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9b636c42395cb187",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:ac531602a4da921c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a9828377480a20c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:75527fdd06ad3073",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0e94174ed30c519b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:df864cb83d1f41d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:790b2fc29558ddfb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e469b9bb5f28ac51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:244b4ada8f4b52e9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fd401a4fb1cb87fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b8a0e4b0dc4802d5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d9fcc0dafd20f44c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9318bcd9849560a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:21a85f01d06aa622",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c99027e4ab9f3bfc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f3110c72051f04f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:ff8a7d17972d4b40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b94e3d9e52de2edc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3047795dd40c277d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:822c7418fb4e0dbb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b42c486ac209df3f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c11fdd04e55f8a5d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d1be029200b50334",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:8f930b4050cfa52f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:afb222899821f54e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:98254009560f4ea1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:37950481cd5e7141",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9956fb707088112a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:aa4fb6eacc6c83fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:aa5329e9a096d991",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:4d962ffddde167eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bb0e2ea890e2eea2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:57156c3b4153cea9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:5bead183bb44ae21",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:de218372e6251cdb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fc972ac50bcc855d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e99572153bafa759",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3859dbf8b1bee01f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0c940fbc3eab8393",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:273adfa36c9157eb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bab6a6c146c5c729",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2015c49362147f3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2ad73c9549ca9010",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b607498cd46ac7c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:babeb5c15d9ba91d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b5752a0a8e0e327e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bd0e3cee39d6e2bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:8cd78b3e89701d5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b0e0f90b014f94fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6d4ccceec1f45d0c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fc68ea456c3c57f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e9a31a067a34cfd6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:381403d87db57dd0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:38f814b1e222bf0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d294f13d32962b0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fb9f6c556d40be85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c3bb0e0f62b68f3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:afa4569dea997bf0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:de4f759bb0472c98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:550394f12ec26ba1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:898581d161cd2eec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:efa3e98903ae97d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c67cd1e891e405a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:efad98467501436b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3a0679758c1c066e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:07092aeb43041269",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f5105f7f815bc407",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:271c28fabc035980",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fa2cd81913005b62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a6b432b850c277a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fd186138a9d3fbeb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9be0d575ebd4bdcb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:206b1e8291e4a0e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:85db59e8bcc9a131",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2ef861fcaa05631c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0f222cb9ccbda57f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:57cec79c4a774bbd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:800b695d582fc5ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:98d247ade55b6918",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:acb6bb8f508fd8f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3116a657aa9c8d97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:de7e9b6d265dd399",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b7605cf8858f2e3b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:1ba6b6b653a343bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:55efeb3d1d385543",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6302fba6f56e0bcf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0081a87de729700b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2219a7538f40ac98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:76ca5b4d1c81e9a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:8daeba2910ce6f96",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:190619b009d4ccc8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c0f6542a233d4332",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6c0fd75a14fc3483",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f270ce88bf4eff10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f4374c787ae7eb9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2d68a6d612e5c1e2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:65ab9dab1da9c274",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:158397517bd519f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:80ee3766aaf957d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b6d0357e8ab6d8d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3e90d848944b201c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f73776956fbc2c00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bd66b1bfc5151196",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:97e3895cbaf73c23",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e2188ea88f91b114",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fa9936e2d0d2e149",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:519c673412e7f7ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:4c325ff589a7e1c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:bf1061f1c7dbca4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2c62f41ad3489c51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0b07b252434ed0b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2e1ee72a7a520174",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:458cb48ce0e5d623",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:41c0cb72235216f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:1dc1ead4fff7c5f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:11366417d862462a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e26d0e744801e818",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d691bf7e1992262f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:973755efa5902b90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:da99f879079580ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6e64f44be25c5274",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b343d26ae4160e2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3afd01a70607c924",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fba07657ca960307",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:1a8763a9d3532bfa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:5b2886e6b2f1ce5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:69204503dae27c31",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c252e8bc28c9bd12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3a306836a3cbb122",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:993ff0b5af892d6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a268ef07f74380f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0fc3a1b72933089b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e7c0a3142a47e3cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d3ed8b3b2d7a14bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2fb5a383b05a9cfc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d2053d780c169685",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:02310df95dd5107d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:11d9737a7cae4bbd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:04b1119cae8a3cb6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2dfd2f516681d4ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0fdf48abe18126a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9e1a5d38e4997d52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d40edd90475797d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f74e06613cbbfd73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b63bcd7472139adc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:7bfa274a63055b01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:28ece1094b9448c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0c34ac446b5849bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c6e82755858decca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2694e017ff2160aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:116775a387fa5724",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e8b3a3233391bd26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:997eae46d684e687",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:94253ec531cacc45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d03ac0e5bd9fc126",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:104067985344231b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d8917dca4c8ed05a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d49916ab89534823",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:425c3f4184dd84c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:170ba2704ea3e931",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:7a2ed45e02e75990",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:20455a9a2bd80e6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0feedc87c7b0e71f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:093b56e2626fe898",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fdee4c47a62e3504",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a1007f6a3ba52f87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:95778f7e19300681",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c45513df4c698875",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:040c3464656cc5dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:578e4f248cc0b2d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:11abd0aac65928c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6e0dfd2b7e348791",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:0dca2a2ff115f42d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b9e09010e8e88c7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:09bb0f19e3c17a2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a4af62ad3fe290a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:101234a48078b583",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:4eea805ad8c5ee4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:fac252e1d6c31782",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6afaa6fde92f15a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:171f8a1255fa61c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b4324c2685016147",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3651e855aa9bc58d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2610618844ff5bec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:30066f216e2a3252",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e2a25df3c4bc6aec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:23f674cade101c6e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:5bccb67fa5c327ce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c73133b8241128af",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c36e5969c5b3d1d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:04f228aeeb6c201d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9495ce0f00a13c30",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d871a5ff3ebb5100",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:acdd939b0e73fa6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e759f678e634609b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:4e8f20f70873baae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3bfa52b6628e6128",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a77ce0eabe660700",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:25f0756bafcb34f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6e85a3e244df7b71",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:a9861094ba27bc01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:6163982c7c37e844",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c1edf04863d47f22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:8dfb1e04a345ef62",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:f7e9e6c77ea41211",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:61975af3b4d45c9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:9cbe606604c5b8f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:11efaeb526cc13f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:3f522b705edfdeea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:ebf7c7600f20034e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:2f904ec6aa8ef712",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:413e01f033b23fbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:66670b6e5993e988",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:653350449f7414ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:e3f24708b5617cf0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:5eb4e2446069b0a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:c24409d1f50a747e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:d4d75e1ad266e9b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b797cd8c07696291",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:b4b2789867d4ce16",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:belakor-the-dark-master:goldfish:52e998c2eb70b003",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

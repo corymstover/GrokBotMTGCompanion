@@ -1,0 +1,4863 @@
+{
+ "candidates": [
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:75dac09407dc"
+   }
+  },
+  {
+   "card": "Lizard Blades",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lizard Blades",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lizard Blades",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:b9c0220d2b46"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b8b8c88b1932"
+   }
+  },
+  {
+   "card": "Seize the Day",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Day",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seize the Day",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:6949dafe91f9"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b9033453d58c"
+   }
+  },
+  {
+   "card": "Pact Weapon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pact Weapon",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:d054c7b76ef1"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:0a2f995f118c"
+   }
+  },
+  {
+   "card": "Magnetic Theft",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magnetic Theft",
+       "cut": "Brainstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magnetic Theft",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:1a1b68e5e535"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:0ce3c48a6760"
+   }
+  },
+  {
+   "card": "Slip Out the Back",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Slip Out the Back",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:e602170aa1ce"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Drach'Nyen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drach'Nyen",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5763c02eca2d"
+   }
+  },
+  {
+   "card": "Komainu Battle Armor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Komainu Battle Armor",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Komainu Battle Armor",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:90c66f56eb73"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:8d3dec0eb88d"
+   }
+  },
+  {
+   "card": "Shizo, Death's Storehouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shizo, Death's Storehouse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:740f038d0f3d"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:6927cbab3c9c"
+   }
+  },
+  {
+   "card": "Helm of the Host",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of the Host",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of the Host",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:82cd600a371f"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b9a989142da9"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:021421d4a33d"
+   }
+  },
+  {
+   "card": "Sword of Hearth and Home",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Hearth and Home",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:0bec97720725"
+   }
+  },
+  {
+   "card": "Relentless Assault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relentless Assault",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relentless Assault",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:62fa7765b2e2"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:94ea0dd647da"
+   }
+  },
+  {
+   "card": "Blackblade Reforged",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blackblade Reforged",
+       "cut": "Swordsman's Steel"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blackblade Reforged",
+       "cut": "Leyline Axe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:07fe1af8d8e4"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:d98b30533243"
+   }
+  },
+  {
+   "card": "Sword of Wealth and Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Wealth and Power",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:a41f711921ec"
+   }
+  },
+  {
+   "card": "Mask of Riddles",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mask of Riddles",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:c6c4191da9bd"
+   }
+  },
+  {
+   "card": "Blade of the Oni",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blade of the Oni",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blade of the Oni",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:e3df441ac077"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:0915c07f65db"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b3dc9255c355"
+   }
+  },
+  {
+   "card": "Unscythe, Killer of Kings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unscythe, Killer of Kings",
+       "cut": "Swordsman's Steel"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unscythe, Killer of Kings",
+       "cut": "Leyline Axe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:65a1611e0e5c"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:c47456c8574b"
+   }
+  },
+  {
+   "card": "Shadowspear",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowspear",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:4b1014a6b427"
+   }
+  },
+  {
+   "card": "Champion's Helm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Champion's Helm",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:4e869eaff000"
+   }
+  },
+  {
+   "card": "Wizard's Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard's Staff",
+       "cut": "Brainstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard's Staff",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:6733336024c6"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:d9c2a1cbd5bc"
+   }
+  },
+  {
+   "card": "Tainted Strike",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tainted Strike",
+       "cut": "Brainstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tainted Strike",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:b8bc7313d631"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:3b5284c9768b"
+   }
+  },
+  {
+   "card": "One with the Machine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "One with the Machine",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f1a48731fd05"
+   }
+  },
+  {
+   "card": "Jhoira, Ageless Innovator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jhoira, Ageless Innovator",
+       "cut": "Padeem, Consul of Innovation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:00214327c318"
+   }
+  },
+  {
+   "card": "Night's Whisper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Night's Whisper",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:157a8a016e1f"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:21801c83236f"
+   }
+  },
+  {
+   "card": "Silent Arbiter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Karlach, Fury of Avernus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karlach, Fury of Avernus",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Karlach, Fury of Avernus",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:130e1e85ecb5"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:fda0fd3129f5"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:98fc8c111b98"
+   }
+  },
+  {
+   "card": "Sword of Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Vengeance",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Vengeance",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:0430572703c9"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:4edee48b8e5e"
+   }
+  },
+  {
+   "card": "Chart a Course",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chart a Course",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f445c46eea73"
+   }
+  },
+  {
+   "card": "Mjölnir, Hammer of Thor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mjölnir, Hammer of Thor",
+       "cut": "Blasphemous Act"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:001bab35a514"
+   }
+  },
+  {
+   "card": "Nazgûl Battle-Mace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nazgûl Battle-Mace",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nazgûl Battle-Mace",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:5a30b3ff4027"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:38ef8380702e"
+   }
+  },
+  {
+   "card": "Dragonfire Blade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonfire Blade",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:4143436341ff"
+   }
+  },
+  {
+   "card": "Acquisition Octopus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Acquisition Octopus",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:9de9fd100db7"
+   }
+  },
+  {
+   "card": "Emry, Lurker of the Loch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Emry, Lurker of the Loch",
+       "cut": "Padeem, Consul of Innovation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:e82dc9130c1a"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:49bbdbbf2594"
+   }
+  },
+  {
+   "card": "Sign in Blood",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sign in Blood",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:c9a4070303f6"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b2202ac4c7a9"
+   }
+  },
+  {
+   "card": "Thran Power Suit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Power Suit",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:320bc17bb626"
+   }
+  },
+  {
+   "card": "Jeska's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeska's Will",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b55f02e84228"
+   }
+  },
+  {
+   "card": "Glamdring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glamdring",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glamdring",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:a2ec4f337fd9"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:91447c90dd5d"
+   }
+  },
+  {
+   "card": "Ponder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ponder",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5e278ff73572"
+   }
+  },
+  {
+   "card": "The Key to the Vault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Key to the Vault",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:91e8e17ad1bd"
+   }
+  },
+  {
+   "card": "Untimely Malfunction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Untimely Malfunction",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:552c2d16f7e7"
+   }
+  },
+  {
+   "card": "Brotherhood Regalia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brotherhood Regalia",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:88b7569a55a6"
+   }
+  },
+  {
+   "card": "Sword of Once and Future",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Once and Future",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5b1eab254dba"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:1548139aebd8"
+   }
+  },
+  {
+   "card": "Buried Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Buried Ruin",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:23bf4765f0a6"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:6a833bbf485e"
+   }
+  },
+  {
+   "card": "Umezawa's Jitte",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Umezawa's Jitte",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:89c310adc7a9"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:d2844b751abf"
+   }
+  },
+  {
+   "card": "Tenza, Godo's Maul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tenza, Godo's Maul",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:7473ed88b792"
+   }
+  },
+  {
+   "card": "Forensic Gadgeteer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forensic Gadgeteer",
+       "cut": "Padeem, Consul of Innovation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:17f0563b9e61"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:112a196b3d91"
+   }
+  },
+  {
+   "card": "Foundry Inspector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foundry Inspector",
+       "cut": "Padeem, Consul of Innovation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:51d53e6149b7"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:1124789e0f73"
+   }
+  },
+  {
+   "card": "Archway of Innovation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archway of Innovation",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f8dd964433db"
+   }
+  },
+  {
+   "card": "Sword of Forge and Frontier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sword of Forge and Frontier",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:32f947364589"
+   }
+  },
+  {
+   "card": "Grafted Exoskeleton",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grafted Exoskeleton",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:043a180e3a90"
+   }
+  },
+  {
+   "card": "Preordain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Preordain",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:3a680ccadbf0"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:fa51aaaec8ea"
+   }
+  },
+  {
+   "card": "Mana Drain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Drain",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:9ca0e75e4852"
+   }
+  },
+  {
+   "card": "Trophy Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Trophy Mage",
+       "cut": "Anchor to Reality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:cd4a6326582b"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5de153827cba"
+   }
+  },
+  {
+   "card": "Thorin, Company's Leader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Thorin, Company's Leader",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:5a3f97cfa6ff"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:e7de607d2695"
+   }
+  },
+  {
+   "card": "Ancient Copper Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Ancient Copper Dragon",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:417129ef7add"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:cf540afa1f46"
+   }
+  },
+  {
+   "card": "Plaza of Heroes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plaza of Heroes",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:cbe51daa28f8"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:46e3cba18665"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5ed96f585523"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:02c90f69f770"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b16867eba814"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:bc2292848929"
+   }
+  },
+  {
+   "card": "Shinka, the Bloodsoaked Keep",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shinka, the Bloodsoaked Keep",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:2bc5a15c2c2a"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:2eaa7958903d"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:6aff09259205"
+   }
+  },
+  {
+   "card": "Toxic Deluge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toxic Deluge",
+       "cut": "Blasphemous Act"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:41ba95d5f3f9"
+   }
+  },
+  {
+   "card": "Rionya, Fire Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rionya, Fire Dancer",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rionya, Fire Dancer",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:9c34cb8358bd"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7"
+   }
+  },
+  {
+   "card": "Howlsquad Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Howlsquad Heavy",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:4f2426ff174d"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f2a12c0932ca"
+   }
+  },
+  {
+   "card": "Inventors' Fair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inventors' Fair",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b2d97b6bfa36"
+   }
+  },
+  {
+   "card": "Neheb, Dreadhorde Champion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, Dreadhorde Champion",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:e341fc7b833c"
+   }
+  },
+  {
+   "card": "Demonic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Demonic Tutor",
+       "cut": "Anchor to Reality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:43cc408ca500"
+   }
+  },
+  {
+   "card": "Surge to Victory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surge to Victory",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surge to Victory",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:39b9e708331e"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:706029979f6e"
+   }
+  },
+  {
+   "card": "Stella Lee, Wild Card",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Brainstorm"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:f6eaf534c248"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:6eed754932b1"
+   }
+  },
+  {
+   "card": "Hoard Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hoard Hauler",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Hoard Hauler",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:6ae1e5dbaf01"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:13f8260869b7"
+   }
+  },
+  {
+   "card": "Scour for Scrap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scour for Scrap",
+       "cut": "Anchor to Reality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:ad408291dbb7"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:36cfc8baa30f"
+   }
+  },
+  {
+   "card": "March of Swirling Mist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "March of Swirling Mist",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:c4e90ad17568"
+   }
+  },
+  {
+   "card": "Luxurious Locomotive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Luxurious Locomotive",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:ae7f04dd1af9"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e"
+   }
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "J. Jonah Jameson",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:955aae7f6d63"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:ec89f9c28e79"
+   }
+  },
+  {
+   "card": "Magar of the Magic Strings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magar of the Magic Strings",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magar of the Magic Strings",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:a08e85efe7f7"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:de2862b432de"
+   }
+  },
+  {
+   "card": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:2b68cfa93df2"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:a0c3c1902a17"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Damnation",
+       "cut": "Blasphemous Act"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:82048bd3a77d"
+   }
+  },
+  {
+   "card": "Spellbinder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spellbinder",
+       "cut": "Sword of Fire and Ice"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spellbinder",
+       "cut": "World at War"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:b90fd1e0fa88"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:cd583fe559b4"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:711a9b047c8c"
+   }
+  },
+  {
+   "card": "Deadly Rollick",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Rollick",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:b7c7262ad825"
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Windfall",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Windfall",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:cb2dbe3d8036"
+   }
+  },
+  {
+   "card": "Opt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opt",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:5c9acd5415f1"
+   }
+  },
+  {
+   "card": "Arena of Glory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arena of Glory",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:8b6e88e6f603"
+   }
+  },
+  {
+   "card": "Deadeye Quartermaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Rakdos Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:c11a6434648c"
+   }
+  },
+  {
+   "card": "Swan Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swan Song",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:72263c44ce93"
+   }
+  },
+  {
+   "card": "Diabolic Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diabolic Tutor",
+       "cut": "Anchor to Reality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:312566140242"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:fdf2e53976f1"
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:d855ed0c718b"
+   }
+  },
+  {
+   "card": "Ashnod's Altar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashnod's Altar",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Ashnod's Altar",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:f1900c1fd5e3"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:8358260ad930"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:ee3503eb7f18"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:6e51015e32f8"
+   }
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Neheb, the Eternal",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:87afc8f3523d"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:fca99dc57cf6"
+   }
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:0b0ac6b42b89"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:fa1230c5cb71"
+   }
+  },
+  {
+   "card": "Sphinx of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sphinx of the Second Sun",
+       "cut": "Padeem, Consul of Innovation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:96662accc80f"
+   }
+  },
+  {
+   "card": "Time Sieve",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Swordsman's Steel"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Sieve",
+       "cut": "Leyline Axe"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:4c99a9c690ec"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:0332917a1f86"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f92643d1dd43"
+   }
+  },
+  {
+   "card": "Irma, Part-Time Mutant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Irma, Part-Time Mutant",
+       "cut": "Padeem, Consul of Innovation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:fc701ff28962"
+   }
+  },
+  {
+   "card": "Shadow of the Second Sun",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadow of the Second Sun",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:24c2585c59c5"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:ed425abe74f4"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f30c0f085bac"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Sword of Fire and Ice"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:8debee7486b3"
+   }
+  },
+  {
+   "card": "Alena, Kessig Trapper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Alena, Kessig Trapper",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:3fa3e71f4a1c"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:f9713e71b639"
+   }
+  },
+  {
+   "card": "Poetic Ingenuity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "Rakdos Signet"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "3750-5039"
+        ]
+       },
+       "add": "Poetic Ingenuity",
+       "cut": "The Reaver Cleaver"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-imperial-champion:m5:46663d1cd9e9"
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:1cbb9b523872"
+   }
+  },
+  {
+   "card": "Words of Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Words of Wind",
+       "cut": "Swordsman's Steel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4"
+   }
+  }
+ ],
+ "deck_id": "Tetsuo__Imperial_Champion",
+ "list_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+ "slug": "tetsuo-imperial-champion",
+ "swaps": [
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:75dac09407dc"
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b8b8c88b1932"
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b9c0220d2b46"
+  },
+  {
+   "adds": [
+    "Seize the Day"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b9033453d58c"
+  },
+  {
+   "adds": [
+    "Seize the Day"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6949dafe91f9"
+  },
+  {
+   "adds": [
+    "Pact Weapon"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d054c7b76ef1"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0a2f995f118c"
+  },
+  {
+   "adds": [
+    "Magnetic Theft"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0ce3c48a6760"
+  },
+  {
+   "adds": [
+    "Magnetic Theft"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1a1b68e5e535"
+  },
+  {
+   "adds": [
+    "Slip Out the Back"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e602170aa1ce"
+  },
+  {
+   "adds": [
+    "Drach'Nyen"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5763c02eca2d"
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8d3dec0eb88d"
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:90c66f56eb73"
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:740f038d0f3d"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6927cbab3c9c"
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b9a989142da9"
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:82cd600a371f"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:021421d4a33d"
+  },
+  {
+   "adds": [
+    "Sword of Hearth and Home"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0bec97720725"
+  },
+  {
+   "adds": [
+    "Relentless Assault"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:94ea0dd647da"
+  },
+  {
+   "adds": [
+    "Relentless Assault"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:62fa7765b2e2"
+  },
+  {
+   "adds": [
+    "Blackblade Reforged"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d98b30533243"
+  },
+  {
+   "adds": [
+    "Blackblade Reforged"
+   ],
+   "cuts": [
+    "Leyline Axe"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:07fe1af8d8e4"
+  },
+  {
+   "adds": [
+    "Sword of Wealth and Power"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a41f711921ec"
+  },
+  {
+   "adds": [
+    "Mask of Riddles"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c6c4191da9bd"
+  },
+  {
+   "adds": [
+    "Blade of the Oni"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0915c07f65db"
+  },
+  {
+   "adds": [
+    "Blade of the Oni"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e3df441ac077"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b3dc9255c355"
+  },
+  {
+   "adds": [
+    "Unscythe, Killer of Kings"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c47456c8574b"
+  },
+  {
+   "adds": [
+    "Unscythe, Killer of Kings"
+   ],
+   "cuts": [
+    "Leyline Axe"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:65a1611e0e5c"
+  },
+  {
+   "adds": [
+    "Shadowspear"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4b1014a6b427"
+  },
+  {
+   "adds": [
+    "Champion's Helm"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4e869eaff000"
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d9c2a1cbd5bc"
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6733336024c6"
+  },
+  {
+   "adds": [
+    "Tainted Strike"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:3b5284c9768b"
+  },
+  {
+   "adds": [
+    "Tainted Strike"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b8bc7313d631"
+  },
+  {
+   "adds": [
+    "One with the Machine"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f1a48731fd05"
+  },
+  {
+   "adds": [
+    "Jhoira, Ageless Innovator"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:00214327c318"
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:157a8a016e1f"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:21801c83236f"
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fda0fd3129f5"
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:130e1e85ecb5"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:98fc8c111b98"
+  },
+  {
+   "adds": [
+    "Sword of Vengeance"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4edee48b8e5e"
+  },
+  {
+   "adds": [
+    "Sword of Vengeance"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0430572703c9"
+  },
+  {
+   "adds": [
+    "Chart a Course"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f445c46eea73"
+  },
+  {
+   "adds": [
+    "Mjölnir, Hammer of Thor"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:001bab35a514"
+  },
+  {
+   "adds": [
+    "Nazgûl Battle-Mace"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:38ef8380702e"
+  },
+  {
+   "adds": [
+    "Nazgûl Battle-Mace"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5a30b3ff4027"
+  },
+  {
+   "adds": [
+    "Dragonfire Blade"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4143436341ff"
+  },
+  {
+   "adds": [
+    "Acquisition Octopus"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:9de9fd100db7"
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e82dc9130c1a"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:49bbdbbf2594"
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c9a4070303f6"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b2202ac4c7a9"
+  },
+  {
+   "adds": [
+    "Thran Power Suit"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:320bc17bb626"
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b55f02e84228"
+  },
+  {
+   "adds": [
+    "Glamdring"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:91447c90dd5d"
+  },
+  {
+   "adds": [
+    "Glamdring"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a2ec4f337fd9"
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5e278ff73572"
+  },
+  {
+   "adds": [
+    "The Key to the Vault"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:91e8e17ad1bd"
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:552c2d16f7e7"
+  },
+  {
+   "adds": [
+    "Brotherhood Regalia"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:88b7569a55a6"
+  },
+  {
+   "adds": [
+    "Sword of Once and Future"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5b1eab254dba"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1548139aebd8"
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:23bf4765f0a6"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6a833bbf485e"
+  },
+  {
+   "adds": [
+    "Umezawa's Jitte"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:89c310adc7a9"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d2844b751abf"
+  },
+  {
+   "adds": [
+    "Tenza, Godo's Maul"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:7473ed88b792"
+  },
+  {
+   "adds": [
+    "Forensic Gadgeteer"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:17f0563b9e61"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:112a196b3d91"
+  },
+  {
+   "adds": [
+    "Foundry Inspector"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:51d53e6149b7"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1124789e0f73"
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f8dd964433db"
+  },
+  {
+   "adds": [
+    "Sword of Forge and Frontier"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:32f947364589"
+  },
+  {
+   "adds": [
+    "Grafted Exoskeleton"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:043a180e3a90"
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:3a680ccadbf0"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fa51aaaec8ea"
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:9ca0e75e4852"
+  },
+  {
+   "adds": [
+    "Trophy Mage"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cd4a6326582b"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5de153827cba"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e7de607d2695"
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5a3f97cfa6ff"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cf540afa1f46"
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:417129ef7add"
+  },
+  {
+   "adds": [
+    "Plaza of Heroes"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cbe51daa28f8"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5ed96f585523"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:46e3cba18665"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b16867eba814"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:02c90f69f770"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:bc2292848929"
+  },
+  {
+   "adds": [
+    "Shinka, the Bloodsoaked Keep"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:2bc5a15c2c2a"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6aff09259205"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:2eaa7958903d"
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:41ba95d5f3f9"
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cc7c82b1c6b7"
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:9c34cb8358bd"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f2a12c0932ca"
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4f2426ff174d"
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b2d97b6bfa36"
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:e341fc7b833c"
+  },
+  {
+   "adds": [
+    "Demonic Tutor"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:43cc408ca500"
+  },
+  {
+   "adds": [
+    "Surge to Victory"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:706029979f6e"
+  },
+  {
+   "adds": [
+    "Surge to Victory"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:39b9e708331e"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Brainstorm"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6eed754932b1"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f6eaf534c248"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:13f8260869b7"
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6ae1e5dbaf01"
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ad408291dbb7"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:36cfc8baa30f"
+  },
+  {
+   "adds": [
+    "March of Swirling Mist"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c4e90ad17568"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5a5ace7bbb5e"
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ae7f04dd1af9"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ec89f9c28e79"
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:955aae7f6d63"
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:de2862b432de"
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a08e85efe7f7"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:a0c3c1902a17"
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:2b68cfa93df2"
+  },
+  {
+   "adds": [
+    "Damnation"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:82048bd3a77d"
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c54d0d6a1bf4"
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "World at War"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b90fd1e0fa88"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cd583fe559b4"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:711a9b047c8c"
+  },
+  {
+   "adds": [
+    "Deadly Rollick"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:b7c7262ad825"
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:cb2dbe3d8036"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:5c9acd5415f1"
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8b6e88e6f603"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:c11a6434648c"
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:72263c44ce93"
+  },
+  {
+   "adds": [
+    "Diabolic Tutor"
+   ],
+   "cuts": [
+    "Anchor to Reality"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:312566140242"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fdf2e53976f1"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:d855ed0c718b"
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8358260ad930"
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f1900c1fd5e3"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ee3503eb7f18"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:6e51015e32f8"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fca99dc57cf6"
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:87afc8f3523d"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fa1230c5cb71"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0b0ac6b42b89"
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:96662accc80f"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:0332917a1f86"
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Leyline Axe"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:4c99a9c690ec"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f92643d1dd43"
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:fc701ff28962"
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:24c2585c59c5"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:ed425abe74f4"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f30c0f085bac"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:8debee7486b3"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:f9713e71b639"
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:3fa3e71f4a1c"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Rakdos Signet"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:1cbb9b523872"
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "The Reaver Cleaver"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:46663d1cd9e9"
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Swordsman's Steel"
+   ],
+   "id": "swap:tetsuo-imperial-champion:m5:bb4e26b8a8f4"
+  }
+ ]
+}

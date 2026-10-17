@@ -1,0 +1,5879 @@
+{
+ "deck_id": "Wick__the_Whorled_Mind",
+ "list_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "slug": "wick-the-whorled-mind",
+ "swaps": [
+  {
+   "adds": [
+    "Shoreline Looter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a6c465082a42",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Azure Beastbinder"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cc2c81aff773",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:28e84f7215f9f19a"
+   ]
+  },
+  {
+   "adds": [
+    "Typhoid Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:da5367ab01f8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:59dc029fddb0ddf4"
+   ]
+  },
+  {
+   "adds": [
+    "Burglar Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:eb8f5d16752d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:12e59330bcfb5381"
+   ]
+  },
+  {
+   "adds": [
+    "Swarmyard Massacre"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d271f09656e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Plague of Vermin"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e4a8b3a6ac75",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:42bb627c086dbaf6"
+   ]
+  },
+  {
+   "adds": [
+    "Plague of Vermin"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cc06f09da629",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7230bd2a93517388"
+   ]
+  },
+  {
+   "adds": [
+    "Rat Colony"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2704a0e50f9b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:17283ead1b86a14d"
+   ]
+  },
+  {
+   "adds": [
+    "Ink-Eyes, Servant of Oni"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7a6b05b5ad13",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:9fa9135871ab19a8"
+   ]
+  },
+  {
+   "adds": [
+    "Taurean Mauler"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:08f639f75ffd",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:09c508d58bb2ec54"
+   ]
+  },
+  {
+   "adds": [
+    "Taurean Mauler"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ba4b63292034",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2de28b036821047a"
+   ]
+  },
+  {
+   "adds": [
+    "Mindwhisker"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c2e092249bf2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7d3cc8763c32c063"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Pretender"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3c7cd82f7f50",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3e7d5d0321413c63"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Pretender"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7b80d8db3492",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0fe53352cd916232"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1f3357ca2cdd",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e2c82be01d519f25"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Slumlord"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:97824417f86e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:adae1ae907e0fa52"
+   ]
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ab79efcd6eaa",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dbc03a82f4b73a8e"
+   ]
+  },
+  {
+   "adds": [
+    "Nashi, Moon Sage's Scion"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f3c99718988e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:79cbf207335fb3ca"
+   ]
+  },
+  {
+   "adds": [
+    "Revenge of the Rats"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0705813194b8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:95050a5606a40b0b"
+   ]
+  },
+  {
+   "adds": [
+    "Revenge of the Rats"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6f683e296d58",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6da68b189cd19796"
+   ]
+  },
+  {
+   "adds": [
+    "Mad Ratter"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:79fc8ed1be8b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:41edb989b722d16d"
+   ]
+  },
+  {
+   "adds": [
+    "Mad Ratter"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6df4f01b8569",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:bfe73e6144e92d16"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Chitterlord"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:96272789b802",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ac7063ff1dc14dab"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Chitterlord"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ff26a5dd097e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:eb23d7fb6cc202c9"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:dec4a6826328",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:de23e213bb990441"
+   ]
+  },
+  {
+   "adds": [
+    "Twisted Sewer-Witch"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c2c94ca812be",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5ffedfd90f64dd09"
+   ]
+  },
+  {
+   "adds": [
+    "Twisted Sewer-Witch"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b1b8e46cf2d9",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0f873966c6fde4b2"
+   ]
+  },
+  {
+   "adds": [
+    "Gnawing Crescendo"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:85cc25aa84bd",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4dd8d63ed378dc8d"
+   ]
+  },
+  {
+   "adds": [
+    "Gnawing Crescendo"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9171c44c637c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:89d5f59d35546bdd"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:08a20506e999",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:54a999d24741c9eb"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:70a00388181d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:698aee80c8dca5d6"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9a432fdfc4ba",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f39ed46378799306"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8f4a5eb72340",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:035f2cdf9a28cda1"
+   ]
+  },
+  {
+   "adds": [
+    "Blightbelly Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:fea2583f7937",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6924abea138938f8"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e60d6682527a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2cd0130e523bfc7b"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Prowler"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:29c7c064c5d0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6bebc11d63545acd"
+   ]
+  },
+  {
+   "adds": [
+    "Tidecaller Mentor"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:86ee96aaadb1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:31e752905086fcd4"
+   ]
+  },
+  {
+   "adds": [
+    "Crypt Rats"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9e767ea3b67c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c6885f1c710c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b7e283198d3fe4a5"
+   ]
+  },
+  {
+   "adds": [
+    "Engine Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:62c2a492f9d3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b1e7dc0a838244d3"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:331259171bd1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4dce0785fda0cd99"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b471094920d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lilypad Village"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:adc381b368ae",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:df92e61a21d9f975"
+   ]
+  },
+  {
+   "adds": [
+    "Changeling Outcast"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3b7df3686dd8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c021655bd8f5c0a3"
+   ]
+  },
+  {
+   "adds": [
+    "Changeling Outcast"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a1baa839a7b6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a525f669892295cf"
+   ]
+  },
+  {
+   "adds": [
+    "Rat Out"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9b69d50394a8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:cdb416af65e00d68"
+   ]
+  },
+  {
+   "adds": [
+    "Rat Out"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4934e5ce835b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:678cd18b10e552c2"
+   ]
+  },
+  {
+   "adds": [
+    "Wave of Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:381751470f9c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:99abae4dede7756c"
+   ]
+  },
+  {
+   "adds": [
+    "Gnat Miser"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:540786ae906e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:58d4d8d7870222e2"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:40be323d828d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3845d30331bf4b57"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ed6c2e5d7a1a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e8dc450962fdac8b"
+   ]
+  },
+  {
+   "adds": [
+    "Village Rites"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7fb2a1626189",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ec56a9fcacc80696"
+   ]
+  },
+  {
+   "adds": [
+    "Shared Animosity"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:16f57f46afbb",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ff90012b3d9262ff"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Dire Rat"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3b16bf034a52",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:af261f7010f60906"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Dire Rat"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:95669741b44d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3401ec9eb637bbfb"
+   ]
+  },
+  {
+   "adds": [
+    "Thornplate Intimidator"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cbde0c737b69",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:97c17a2856b6ba4a"
+   ]
+  },
+  {
+   "adds": [
+    "Ratcatcher"
+   ],
+   "cuts": [
+    "Diabolic Intent"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5415d341f0b8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3f674c20f9594300"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Bidding"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:da08a0467a6f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a98b6e556e06",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4fbaf640be18b44f"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm of Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c6fbe64b1255",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:8b13c3b80d4ec028"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Informant"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:067181d933f2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7878f7d9f8132430"
+   ]
+  },
+  {
+   "adds": [
+    "Unleash Fury"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0dda1dc3e3ea",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:939addcae7ea1ea0"
+   ]
+  },
+  {
+   "adds": [
+    "Nightwhorl Hermit"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a7e777444779",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6c51a935d4780828"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ed07c7a98b85",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ceb2046d0f9ece46"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f48fae61a230",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Daggerfang Duo"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:24aadcf6eb13",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:591415b0d07065ef"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1949bd119c04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Big Apple, 3 a.m."
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5d039422f7e6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fb85220971914c50"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0c07e7a8730f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:30a85852f39fb6df"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:faf1b50c5295",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fec34ce4f9889fa6"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Shucker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3e03ea3eef89",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:bb8f056623a7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:87e27dbc09ca216b"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Drill Assailant"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:66a78d3b2417",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ab3d05af67cf4620"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f218066db204",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4f7cee8b84bf5140"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2a543a123511",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7750fd4b9f9564bd"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ff3b3878e10d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:28ddd9de5b5cf0d2"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0bc3dcd7dc49",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:74da26bde06ed5ac"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6776d5f75f86",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3c02f0f381433f0d"
+   ]
+  },
+  {
+   "adds": [
+    "Gnawing Vermin"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9b916b5f9c6b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f5dc90db18df5783"
+   ]
+  },
+  {
+   "adds": [
+    "Throat Slitter"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:456c20e1d824",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pestilence Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:114cc25e4175",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7dca26c55dc4f823"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f4c0302b6132",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ba0972ca7b476a95"
+   ]
+  },
+  {
+   "adds": [
+    "Innocuous Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0fd77f45da6b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:eafb3e993d0a85c0"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3653639e17de",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e9557ce8715d0cf1"
+   ]
+  },
+  {
+   "adds": [
+    "Rancid Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8017dec5bc60",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:af88d94b086dcd25"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:bc4257552657",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:859762c3d8f8fb3a"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b7bdc3871dac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3e43956c2696",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ruthless Radrat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2ed40eb6fd76",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:94c1187adb50d506"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:00f2ed43b382",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7fc3b6d12f0f6cd4"
+   ]
+  },
+  {
+   "adds": [
+    "Wick's Patrol"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:78730fb4fe80",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:38468ab7719b1840"
+   ]
+  },
+  {
+   "adds": [
+    "Nashi, Searcher in the Dark"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7d901f09d3a7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:cf69fde77a7077d9"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of the Squeak"
+   ],
+   "cuts": [
+    "Chittering Witch"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:44c2b958a440",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c0d5edb3b61e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4ddc23399f7146fe"
+   ]
+  },
+  {
+   "adds": [
+    "Refurbished Familiar"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6d4665f59de6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8262f7dec0d1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6ffd3b7a7a17fb0a"
+   ]
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2b2ea329a910",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0225363a3a0ef844"
+   ]
+  },
+  {
+   "adds": [
+    "Gossip's Talent"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0beb8bedfac5",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c8a3a41351c9bd48"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0b5b199d5136",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:1a8c81e749f34980"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ae7e74f3605b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dcf89aeb476e7187"
+   ]
+  },
+  {
+   "adds": [
+    "Shore Up"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:bd9d34e45d97",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:15f9be2f974e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:94300e1386be6e85"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:921f72c5273a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:729238762f0aeb02"
+   ]
+  },
+  {
+   "adds": [
+    "Yahenni, Undying Partisan"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:084c76617b6d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c660b29fb5663251"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Mob Boss"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6dd6360e7478",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:98ef9b62b29d5902"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Mob Boss"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8a4bc1369ef7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7fa23f79d343d7ce"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f712f3a0b138",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c8e1633b6acc60df"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:46db6a062c03",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5f7a65d160104b6d"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:74b0af1b0654",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:40e77497be0fdd21"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9038cfc04b02",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2e7d63b7390bac78"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:03bbe198ff9e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:28ceb5288d5ebdb1"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9b19b61550ec",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:da8684869075a130"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e0ce05810fa0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f20f5a65e52037c4"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Welder"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ec30b92f83de",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:73cb05f7d404a939"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Welder"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:81977ba19236",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:80b4c8608adee1e3"
+   ]
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d2f0a3f92543",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:837c7d82cf08a241"
+   ]
+  },
+  {
+   "adds": [
+    "Woe Strider"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:afd8b48334db",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ff02250f386ac6c1"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c1eb260e1b45",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:1533d6243f2c13e7"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e927160ec280",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f81da8ebcfd634c2"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d6be5c2e2009",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c9c2461756ccff23"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:780e9f287a8b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:01962228c1c952e9"
+   ]
+  },
+  {
+   "adds": [
+    "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b9848029956d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7c43ee3ab9ed5bd3"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3ddf36f08613",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:21b1de472ff8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:77d583e42a58e1f4"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:88701c31f3cf",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:65fef80bac4c1bac"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e1e9f6a4e236",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:caddbc97180c902c"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:352ece7893c7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6d859004b5bd58e0"
+   ]
+  },
+  {
+   "adds": [
+    "Nether Traitor"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c43b7055b721",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:039f0fc3546eaa31"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:10c04de7cf2d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5467276331b0caa2"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c010e3b9bf5c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e94ed573a4e68744"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7ae79aed10ad",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:82ce12829930ad30"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Keeper // Lord of Lineage"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:26335f958ef1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e212e6c20fb67a04"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodline Keeper // Lord of Lineage"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:61e175a9ccb2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0dfc976808a99012"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e7e1d1b29a7d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d19f97099ff47262"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f994193f07a6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:be163e58de23201f"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cadd5430f7bd",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:cd68a6a94b47b6f4"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a1d0bc2fdb5a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c5879f61465cd701"
+   ]
+  },
+  {
+   "adds": [
+    "Firdoch Core"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:71d18cfb4765",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:68e8dafed7501000"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d8fa8672218d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5e371f966c56b492"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:bf4f0cbd93ae",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:1a7cdd942579beba"
+   ]
+  },
+  {
+   "adds": [
+    "Blasting Station"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:88668744bf71",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:167285f0caf9c4b3"
+   ]
+  },
+  {
+   "adds": [
+    "Ulamog's Dreadsire"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b99552bb31d4",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b60cef33d59362ef"
+   ]
+  },
+  {
+   "adds": [
+    "Ulamog's Dreadsire"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:10dffa0e921b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fea1e093846ca9c2"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:29bfee93dae7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e844853f427bab8c"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Pack Rat"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:94e7f41dfb13",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0b78c5f50f287f77"
+   ]
+  },
+  {
+   "adds": [
+    "Rise and Shine"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:94356164c80f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:701cc8c3789b3da5"
+   ]
+  },
+  {
+   "adds": [
+    "Rise and Shine"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d2bd257cc911",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:19e54abfcb740cdd"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d69c84be5a61",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:98691769e6566cac"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e8acabc8cec1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:74da252160617305"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6ec8e4b9ed82",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4dee5b402261c31b"
+   ]
+  },
+  {
+   "adds": [
+    "Grave Pact"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9f4f754081a2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:efb434b3b8d5f9fd"
+   ]
+  },
+  {
+   "adds": [
+    "Xu-Ifit, Osteoharmonist"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d9d0c0b6c732",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3c500e82adff85d1"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, the Sun's Brilliance"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:fd0b50a35a0d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:cdcc74d69c502c8a"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, the Sun's Brilliance"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ba242a2666bf",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b089a412315b5426"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ac31c729e3cf",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:813388a04c839bb8"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:efa0451e831f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:bda9085c3044623b"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:79075030f605",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0eb43f926a643a7a"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c817a4f34e63",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7b8244fd151b3ba3"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:206f33e6c250",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6a9a4915aa81c0b9"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6b304802ffa6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0366722e1cbdc607"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Diabolic Intent"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f91728f1e785",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f07fa3a5c4f0264f"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4d491782681f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:49fca913d6b5f4ea"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodflow Connoisseur"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2a60fefff564",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d7bedc8e1548fe7e"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ee7aed538ad8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ff7aff1a63d7dd19"
+   ]
+  },
+  {
+   "adds": [
+    "Katsumasa, the Animator"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4ca4a8824436",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fcc9c489b1b29bbf"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:35526e040a2d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:100581ab9925f3d6"
+   ]
+  },
+  {
+   "adds": [
+    "Elemental Mastery"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:aa777b38b6ac",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c2be699bf1d68f5d"
+   ]
+  },
+  {
+   "adds": [
+    "Elemental Mastery"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7a1658a39cb0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6dcbbac990af2858"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f17922bd707c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7dbcc7f19b5fc785"
+   ]
+  },
+  {
+   "adds": [
+    "Hell's Caretaker"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8d37ce3c599e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:53b39f99c59ad0e6"
+   ]
+  },
+  {
+   "adds": [
+    "Hell's Caretaker"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5d53a2391047",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a07dcfa9359e1187"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:03d89944dd87",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ab8b94b95b270c6e"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:58875ba86d60",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0a581f4b9cd64abb"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Matrix"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a2436fb30e92",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d9381e1f9c0758fd"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Matrix"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a6690bf9d740",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:8606480bb67972fd"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Propagator"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:47051ba20058",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:9b5569f32b2dd2bd"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Propagator"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:68eef0afc3a8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:236b1bcfad4b09e0"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3b5f7f433f04",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:14cdadb5b05338f9"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:26256b3dafb0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:90e344f16a50ba9a"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:9fde5f573c89",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:018a073c9f0b1155"
+   ]
+  },
+  {
+   "adds": [
+    "Thermopod"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:86ed445904d3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4f8e83b74bb65ad5"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f0c9f0701966",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dd49d0543c429742"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5cf6741926df",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:62ae96992bfe5664"
+   ]
+  },
+  {
+   "adds": [
+    "Xathrid Necromancer"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ee392c9df72b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f7c992cd830a79b6"
+   ]
+  },
+  {
+   "adds": [
+    "Xathrid Necromancer"
+   ],
+   "cuts": [
+    "Diabolic Intent"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8d1e7c9196e3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e05747f8af1a7887"
+   ]
+  },
+  {
+   "adds": [
+    "Skirsdag High Priest"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f53e9eae90b1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ce9fcd2551863dcd"
+   ]
+  },
+  {
+   "adds": [
+    "Skirsdag High Priest"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c1c2456fc354",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c32359282e90bcd2"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:262a8c224a9f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7e9f9c6cc468f8eb"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b8fcf0e82265",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a0ce810a773b5244"
+   ]
+  },
+  {
+   "adds": [
+    "Pentavus"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:48f2c6e58703",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2a1b6f328b2837c5"
+   ]
+  },
+  {
+   "adds": [
+    "Pentavus"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f24f06136666",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d680487a69d393ee"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0660584027be",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:210c1136749bd741"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:bcc4215ad690",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:42ff951cdea37e87"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:40e9e7b507bd",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:955ae3ca8258601b"
+   ]
+  },
+  {
+   "adds": [
+    "Aethersnipe"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7fc35e361399",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:92967696a10b54f2"
+   ]
+  },
+  {
+   "adds": [
+    "Aethersnipe"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6b328036a519",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:179ac062efeb4cf3"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:20d388867e47",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:48b16e4e51294548"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Train"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5f4e0cc6d786",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2a22c1b5df40a52b"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8f778b616a0f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:860a746556054f9e"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:19865a44623f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:19c822fa4fda5b17"
+   ]
+  },
+  {
+   "adds": [
+    "Lich Lord of Unx"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:63ba62583604",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3343d70fbe98cfb0"
+   ]
+  },
+  {
+   "adds": [
+    "Lich Lord of Unx"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:48db160de8be",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2972c2b331333152"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b0e21ddb7908",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3e82049c2c00180d"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e49febac8e5a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ff258c562b4f22b4"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e98edeed82b8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4e87ae612402b3bf"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Diabolic Intent"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8c5d2f46cc1b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:57dc854775841f66"
+   ]
+  },
+  {
+   "adds": [
+    "Lab Rats"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:884a313871c7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c869e9dc77e94f44"
+   ]
+  },
+  {
+   "adds": [
+    "Lab Rats"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2a38caf2daaf",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b5b743ea80877f6f"
+   ]
+  },
+  {
+   "adds": [
+    "Donatello, Mutant Mechanic"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1f965331c472",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c182d1a5bf82e34b"
+   ]
+  },
+  {
+   "adds": [
+    "Donatello, Mutant Mechanic"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:11ba3ce061e7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d452d4cc3312757d"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a16ccaa1b6a6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:639e3aeb8df0ef13"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0ae02dec3991",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:168345f1a02fb458"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:43443e2b5773",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b183b28fe7f47593"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Diabolic Intent"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:150f47a9da43",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d9f743eb7a0fad0f"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:200abe3622e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4eeeaddeec23",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:bbfa672bdd0df924"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b5a2e746e39a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:88d71831912291c3"
+   ]
+  },
+  {
+   "adds": [
+    "Does Machines"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:467aec3f4ab8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fcbc88e15087d069"
+   ]
+  },
+  {
+   "adds": [
+    "Does Machines"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f3cc280ba395",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:61b88bdb05b109d5"
+   ]
+  },
+  {
+   "adds": [
+    "Young Necromancer"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7df250601ab6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4648883130ba97f4"
+   ]
+  },
+  {
+   "adds": [
+    "Workshop Elders"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4777c47c7f3e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3ec931ed3a2ae0ac"
+   ]
+  },
+  {
+   "adds": [
+    "Workshop Elders"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:15553f469f9e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c606a81810b6d9f7"
+   ]
+  },
+  {
+   "adds": [
+    "Xerex Strobe-Knight"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:04dd2524b754",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e94a7c9687b9dde6"
+   ]
+  },
+  {
+   "adds": [
+    "Xerex Strobe-Knight"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:181b10c091de",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4eed5bcf0b10f41f"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e7464b7c3e00",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:158d8b0b1429c57f"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:80b75799bccc",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2f8d9dd081d11973"
+   ]
+  },
+  {
+   "adds": [
+    "Rotlung Reanimator"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2c93cdc54f3f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e188e4b5781d212a"
+   ]
+  },
+  {
+   "adds": [
+    "Rotlung Reanimator"
+   ],
+   "cuts": [
+    "Diabolic Intent"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:571b55082722",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e60284f71bd7800a"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Squadron"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:dc034015b705",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3936f5765eb565f2"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Squadron"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:400ec4efcd9f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:8527d53fee09e322"
+   ]
+  },
+  {
+   "adds": [
+    "Cybernetica Datasmith"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:62470ffbe445",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2de5054207b14e83"
+   ]
+  },
+  {
+   "adds": [
+    "Cybernetica Datasmith"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4c98dc57db60",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0c927965a47c3ce1"
+   ]
+  },
+  {
+   "adds": [
+    "Faces of the Past"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:73b99911c97a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:afd06e5be1c245e7"
+   ]
+  },
+  {
+   "adds": [
+    "Faces of the Past"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0c17d35f2925",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:49c204cbcf6b8bcb"
+   ]
+  },
+  {
+   "adds": [
+    "Rakka Mar"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b27efce2405d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3afcace7900652e0"
+   ]
+  },
+  {
+   "adds": [
+    "Rakka Mar"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5057897ebd53",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c42b0eb01d46b776"
+   ]
+  },
+  {
+   "adds": [
+    "Wall of Kelp"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cea7ecac1d1f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f3b623f0e3ce8782"
+   ]
+  },
+  {
+   "adds": [
+    "Wall of Kelp"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5411fb8dc4a7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e77e8a6200d7430f"
+   ]
+  },
+  {
+   "adds": [
+    "Animating Faerie // Bring to Life"
+   ],
+   "cuts": [
+    "Redcap Gutter-Dweller"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1e0d25c3cfdc",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:118b98123972f366"
+   ]
+  },
+  {
+   "adds": [
+    "Animating Faerie // Bring to Life"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:580c5e86227b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:85b848a0132bdf8a"
+   ]
+  },
+  {
+   "adds": [
+    "Avacyn's Collar"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3002c268bda7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d6802f96de5fb406"
+   ]
+  },
+  {
+   "adds": [
+    "Avacyn's Collar"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c4bfccd02394",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:2367116ef3360d17"
+   ]
+  },
+  {
+   "adds": [
+    "Triskelavus"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:113a80f47533",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:88726d34ce301b87"
+   ]
+  },
+  {
+   "adds": [
+    "Triskelavus"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5137c2ac563d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:549f18025a03a8fc"
+   ]
+  },
+  {
+   "adds": [
+    "The Blackstaff of Waterdeep"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f2137c516241",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c24357a659674765"
+   ]
+  },
+  {
+   "adds": [
+    "The Blackstaff of Waterdeep"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a7e1d4bb032b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ec75590662d324f7"
+   ]
+  },
+  {
+   "adds": [
+    "Drana's Chosen"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6ab7306927e4",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dbdf258bec9ccab8"
+   ]
+  },
+  {
+   "adds": [
+    "Drana's Chosen"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:29e779915ce5",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0cf12480b8371d45"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Conjurer"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2d0d026e6b40",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d646794f7df4ea8f"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Conjurer"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8ec6e27e52a7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:de679aaebd6c27bf"
+   ]
+  },
+  {
+   "adds": [
+    "Rank Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:256ccfd0fd1f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:47cd80d827e88ef1"
+   ]
+  },
+  {
+   "adds": [
+    "Infected Vermin"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8f37d30e362b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:dcf54ac57269",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:73b71c37a7175326"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:505de11f7dec",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fa1d74d43eb916a5"
+   ]
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f4552c2e4176",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5a44e718ab6a8167"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b0c7b796316c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:17891e8f33a07dbb"
+   ]
+  },
+  {
+   "adds": [
+    "Echoing Assault"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2d87a4421e8e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:543cbdec7d941015"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Whorl"
+   ],
+   "cuts": [
+    "Chittering Witch"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6ffc1abc3d58",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wooded Foothills"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c69acdd3b005",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0ebfc68db4acfa9b"
+   ]
+  },
+  {
+   "adds": [
+    "Verdant Catacombs"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:642da5fbb462",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6efeea4e3901846c"
+   ]
+  },
+  {
+   "adds": [
+    "Arid Mesa"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:61107fb27b45",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:989263152a3ff7ff"
+   ]
+  },
+  {
+   "adds": [
+    "Whip of Erebos"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1a5c9963ce5b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d2fafd2497244d3a"
+   ]
+  },
+  {
+   "adds": [
+    "Silver-Fur Master"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:dca46ac04db8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:96cce2940d9a9abe"
+   ]
+  },
+  {
+   "adds": [
+    "Ichor Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:fc10c489aa35",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:30a66b6225d71dac"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Rat King, Verminister"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:713a84ed0b29",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:15e8301f4fa60714"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a03c6bff2ab6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:faaeb12772333b32"
+   ]
+  },
+  {
+   "adds": [
+    "Freya Crescent"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f72708a819ca",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d4a2ae991966783b"
+   ]
+  },
+  {
+   "adds": [
+    "Skullsnatcher"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:944baf74fc54",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c77eaf4f560fbce0"
+   ]
+  },
+  {
+   "adds": [
+    "Stronghold Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2fc8de144ae3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f4e3397e0f0fb5f9"
+   ]
+  },
+  {
+   "adds": [
+    "Rotting Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:4415e1d08bc8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a4ccb38d3ef1a5bc"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter, Hamato Yoshi"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:11c7c58002de",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a0aee05ec484c09f"
+   ]
+  },
+  {
+   "adds": [
+    "Okiba-Gang Shinobi"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:bba8d620b35b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4c34080a4bec4e24"
+   ]
+  },
+  {
+   "adds": [
+    "Septic Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:129f1792edfc",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:417e3e86c7b12190"
+   ]
+  },
+  {
+   "adds": [
+    "Mukotai Ambusher"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f08095245e85",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:da488e5f2f5804ee"
+   ]
+  },
+  {
+   "adds": [
+    "Lightshell Duo"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7342566ac8ed",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d666b89c5876060e"
+   ]
+  },
+  {
+   "adds": [
+    "Relentless Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b22928f23d64",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:384acaa8372881f9"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Graverobber // Nighteyes the Desecrator"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c9dcbbff8c58",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:61434554f6d31811"
+   ]
+  },
+  {
+   "adds": [
+    "Ravenous Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:90bfcf3c650c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3ff11ac39775e7df"
+   ]
+  },
+  {
+   "adds": [
+    "Locust Miser"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f2bb5a3c5699",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5ef154fbc89ad271"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Bladeblesser"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:887cb3f80220",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7d3c26666a361f0d"
+   ]
+  },
+  {
+   "adds": [
+    "Scrib Nibblers"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8aa37a5ac16e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f4e7d9f31db68846"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Shortfang // Stabwhisker the Odious"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c7eb6280c7b1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6db352a43cc69529"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Cutthroat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6a66a643fc94",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:31084869db87db06"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a72e3a17e911",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a1f35aa961a79e25"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5bc7401bfecb",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:060b7229c1dfadd4"
+   ]
+  },
+  {
+   "adds": [
+    "Chittering Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f74b8db11dd6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7d90566fe0ed097a"
+   ]
+  },
+  {
+   "adds": [
+    "Graf Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3894dadb1d50",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:225ad0a944c9481a"
+   ]
+  },
+  {
+   "adds": [
+    "Razortooth Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:40ec7b493f25",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c5dcb3469b0de85c"
+   ]
+  },
+  {
+   "adds": [
+    "Bog Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a7e00c831ec0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:63c3a2856283caef"
+   ]
+  },
+  {
+   "adds": [
+    "Ossuary Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:fa54d1c741fe",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e550af87c1320078"
+   ]
+  },
+  {
+   "adds": [
+    "Kuro's Taken"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a76aac8a107e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:8d0e1993ada4067d"
+   ]
+  },
+  {
+   "adds": [
+    "Elephant-Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b9ecc8a5f560",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6c55b9cd32917095"
+   ]
+  },
+  {
+   "adds": [
+    "Carrion Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3a323c247f8b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4ebd07671e42e17e"
+   ]
+  },
+  {
+   "adds": [
+    "Earsplitting Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1573292b8a50",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f1d3bd8bd302304d"
+   ]
+  },
+  {
+   "adds": [
+    "Muck Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ce36808dc65f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c1ce9a9d58d83ed6"
+   ]
+  },
+  {
+   "adds": [
+    "Tunnel Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c32bd525211d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:bf0ff23663335bd7"
+   ]
+  },
+  {
+   "adds": [
+    "Gutter Skulk"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8521b8ef61b2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f32299523df1d170"
+   ]
+  },
+  {
+   "adds": [
+    "Sewer Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:51f5cfe6134a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:43051ec0c7c78508"
+   ]
+  },
+  {
+   "adds": [
+    "Zodiac Rat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:fc95d4cb78d3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4ba48ee960b19329"
+   ]
+  },
+  {
+   "adds": [
+    "Diseased Vermin"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e050a69225f3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b90113f0c22c4ca7"
+   ]
+  },
+  {
+   "adds": [
+    "Hellhole Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b94289d999d8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e83f303881bef82a"
+   ]
+  },
+  {
+   "adds": [
+    "Rabid Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7c27efa365b2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:1c328c5b6365b844"
+   ]
+  },
+  {
+   "adds": [
+    "Rats of Rath"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:984733f1c219",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dirty Wererat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cab42dbfbcf8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f9b494dcbe1c4bfb"
+   ]
+  },
+  {
+   "adds": [
+    "Nezumi Ronin"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3fd67f9d8343",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:716d6e95914533a7"
+   ]
+  },
+  {
+   "adds": [
+    "Plague Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:983e19ad9340",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3686446fcbd06bfe"
+   ]
+  },
+  {
+   "adds": [
+    "Deathmask Nezumi"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d230e55f042e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7c5d60c1ff3bf3c3"
+   ]
+  },
+  {
+   "adds": [
+    "Gobhobbler Rats"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1e8f3974ff7a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:93cb2262219320a0"
+   ]
+  },
+  {
+   "adds": [
+    "Sanity Gnawers"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f5860b9201a6",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:1e5eb894573dc813"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Zulaport Cutthroat"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c85db5cd1c88",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:387b35114bcc3558"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b51e639bca93",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:735af30dce1db6f6"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5444c80246aa",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ce032be45af8920e"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberdrive Awakener"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2501a1166729",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:c2248a62fa1b28d0"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:74aa0adcc89e",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ad6d3df50633fa79"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2faaca218596",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f8b067e0659c9a1f"
+   ]
+  },
+  {
+   "adds": [
+    "Zul Ashur, Lich Lord"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8f6404698fa5",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:9cbf1b21e48f850f"
+   ]
+  },
+  {
+   "adds": [
+    "Zul Ashur, Lich Lord"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:66f8da0927f5",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:8c3596c09ae212ce"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c73f1e349ff0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:6fc5a757cd019988"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2f20f3471212",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:24e5e6df919710cd"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7eeb7aa2e72f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f3054706f1b216b3"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2a4becc2aaac",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b4a67d10b6ce8536"
+   ]
+  },
+  {
+   "adds": [
+    "Conspiracy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8be5a11ad137",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dbafc9a0b96c2fe8"
+   ]
+  },
+  {
+   "adds": [
+    "Conspiracy"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:963807f9290d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d0c01c9522ee288f"
+   ]
+  },
+  {
+   "adds": [
+    "Satoru Umezawa"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1d43a5e4ebda",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:79c0acddfac66c2b"
+   ]
+  },
+  {
+   "adds": [
+    "Satoru Umezawa"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a3469ddd6b5b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dace4cf71b4fcbf7"
+   ]
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:83ad1827bc75",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:08b145e78a8212a3"
+   ]
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b91468b2b1d2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d0efccb82e95b2f2"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2b2aa4c1af99",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0616e0a2105b1631"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d506b7b8394f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:26e47b8f93612ba1"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:98338367eded",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:1750af3d822aca14"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Betrayer of Flesh"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b9242fbdde33",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5a3f7e7d62a64602"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a126692cedaf",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d37c34ec987f4c16"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c472ef4d714c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4c42fafbc0a3d4d4"
+   ]
+  },
+  {
+   "adds": [
+    "Shrieking Drake"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:6757cd97df44",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ec39808dadd27958"
+   ]
+  },
+  {
+   "adds": [
+    "Shrieking Drake"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:23694847781a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:524a538c56645d4b"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f509c8acab4f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a9f724c1fcc5789b"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:990cd8b2728b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:977f5685faf1a0c5"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e9bbdd93502b",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dfbe4013ad7d9b70"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:737187a671e0",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:b237b2a5718a8e29"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of the Paruns"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a38e4ec78438",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:75c7e1fd418934cb"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of the Paruns"
+   ],
+   "cuts": [
+    "Altar of Dementia"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5aa2f5ac1142",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3823a27124a64e78"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Mirkwood Bats"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a224127cd232",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:acbc83993f45ea78"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:f583b21d9bb3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:533dae41536b6afb"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:13a2d1c9d1f2",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:4cf6415d89f2fd97"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b840dd3d6e44",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:fd73a0eab334079e"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:fc22c46b74c5",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0ff78462d4e7b466"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:852294df0c9c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f3b164f79968679c"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:495465733060",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:029a528a278ee348"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Welder"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:646a274907fc",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:66889c5decdebd7a"
+   ]
+  },
+  {
+   "adds": [
+    "Gravespawn Sovereign"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:734a118d10bb",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f65c3e47542142f2"
+   ]
+  },
+  {
+   "adds": [
+    "Gravespawn Sovereign"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:d9f32e3a717c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:faf26e278de53e03"
+   ]
+  },
+  {
+   "adds": [
+    "Man-o'-War"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:3789e3d5f96f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:a557d8af6b69a20b"
+   ]
+  },
+  {
+   "adds": [
+    "Man-o'-War"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:2b31223ed3ff",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:16c705949885a018"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0eef57c22350",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:43541ffd47f747e8"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Lord Skitter's Butcher"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:480402ceff1a",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3d990d108e3fc315"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:ab1183f71c72",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:7c80763cf5025d91"
+   ]
+  },
+  {
+   "adds": [
+    "Karn, Silver Golem"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e777d917196c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f22c87a9aac9c756"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Zulaport Cutthroat"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:94ceacaf7250",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:e2059dc0213fb867"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:b0f24c69e666",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:d12e8bd8a6e929e5"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Stalker"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:254d13b046c7",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:5308839d903022a2"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Stalker"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:76ab72fc015d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:cced94eda94b4954"
+   ]
+  },
+  {
+   "adds": [
+    "Xenograft"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:c61a66f742c8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:0a31ed246977881f"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7a28ec8e5cf3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:f47f64bd6503caf2"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:5dc457f026e8",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:dbb46e28ef738f6b"
+   ]
+  },
+  {
+   "adds": [
+    "Living Brain, Mechanical Marvel"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:78305594f878",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:af948977703ff305"
+   ]
+  },
+  {
+   "adds": [
+    "Living Brain, Mechanical Marvel"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:970652e4007d",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:32a1922a7d7a521c"
+   ]
+  },
+  {
+   "adds": [
+    "Vedalken Mastermind"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:cd417656704f",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:bb560a20738c829d"
+   ]
+  },
+  {
+   "adds": [
+    "Vedalken Mastermind"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e97ab42ff758",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:286fee41ab2aeebd"
+   ]
+  },
+  {
+   "adds": [
+    "Ensoul Artifact"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:1a7c4c81328c",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:9da2bcf1cf12f4f4"
+   ]
+  },
+  {
+   "adds": [
+    "Ensoul Artifact"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:0f7b4b2e36f3",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:420402ffbeca87a6"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:8c7d04139549",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:452ce24a59ae76e3"
+   ]
+  },
+  {
+   "adds": [
+    "Toymaker"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:e3d550bc6ab5",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:3a835164b5e116a0"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:7f95f14a14e1",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:022279cb55b81635"
+   ]
+  },
+  {
+   "adds": [
+    "Xenic Poltergeist"
+   ],
+   "cuts": [
+    "Carrion Feeder"
+   ],
+   "id": "swap:wick-the-whorled-mind:m5:a52b4320de82",
+   "tests": [
+    "test:wick-the-whorled-mind:goldfish:ebd5480288d84860"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:28e84f7215f9f19a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:59dc029fddb0ddf4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:12e59330bcfb5381",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:42bb627c086dbaf6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7230bd2a93517388",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:17283ead1b86a14d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:9fa9135871ab19a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:09c508d58bb2ec54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2de28b036821047a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7d3cc8763c32c063",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3e7d5d0321413c63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0fe53352cd916232",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e2c82be01d519f25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:adae1ae907e0fa52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dbc03a82f4b73a8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:79cbf207335fb3ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:95050a5606a40b0b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6da68b189cd19796",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:41edb989b722d16d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:bfe73e6144e92d16",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ac7063ff1dc14dab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:eb23d7fb6cc202c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:de23e213bb990441",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5ffedfd90f64dd09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0f873966c6fde4b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4dd8d63ed378dc8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:89d5f59d35546bdd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:54a999d24741c9eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:698aee80c8dca5d6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f39ed46378799306",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:035f2cdf9a28cda1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6924abea138938f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2cd0130e523bfc7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6bebc11d63545acd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:31e752905086fcd4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b7e283198d3fe4a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b1e7dc0a838244d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4dce0785fda0cd99",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:df92e61a21d9f975",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c021655bd8f5c0a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a525f669892295cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:cdb416af65e00d68",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:678cd18b10e552c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:99abae4dede7756c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:58d4d8d7870222e2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3845d30331bf4b57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e8dc450962fdac8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ec56a9fcacc80696",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ff90012b3d9262ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:af261f7010f60906",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3401ec9eb637bbfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:97c17a2856b6ba4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3f674c20f9594300",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4fbaf640be18b44f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:8b13c3b80d4ec028",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7878f7d9f8132430",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:939addcae7ea1ea0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6c51a935d4780828",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ceb2046d0f9ece46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:591415b0d07065ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fb85220971914c50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:30a85852f39fb6df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fec34ce4f9889fa6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:87e27dbc09ca216b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ab3d05af67cf4620",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4f7cee8b84bf5140",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7750fd4b9f9564bd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:28ddd9de5b5cf0d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:74da26bde06ed5ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3c02f0f381433f0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f5dc90db18df5783",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7dca26c55dc4f823",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ba0972ca7b476a95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:eafb3e993d0a85c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e9557ce8715d0cf1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:af88d94b086dcd25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:859762c3d8f8fb3a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:94c1187adb50d506",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7fc3b6d12f0f6cd4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:38468ab7719b1840",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:cf69fde77a7077d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4ddc23399f7146fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6ffd3b7a7a17fb0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0225363a3a0ef844",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c8a3a41351c9bd48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:1a8c81e749f34980",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dcf89aeb476e7187",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:94300e1386be6e85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:729238762f0aeb02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c660b29fb5663251",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:98ef9b62b29d5902",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7fa23f79d343d7ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c8e1633b6acc60df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5f7a65d160104b6d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:40e77497be0fdd21",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2e7d63b7390bac78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:28ceb5288d5ebdb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:da8684869075a130",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f20f5a65e52037c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:73cb05f7d404a939",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:80b4c8608adee1e3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:837c7d82cf08a241",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ff02250f386ac6c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:1533d6243f2c13e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f81da8ebcfd634c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c9c2461756ccff23",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:01962228c1c952e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7c43ee3ab9ed5bd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:77d583e42a58e1f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:65fef80bac4c1bac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:caddbc97180c902c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6d859004b5bd58e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:039f0fc3546eaa31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5467276331b0caa2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e94ed573a4e68744",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:82ce12829930ad30",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e212e6c20fb67a04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0dfc976808a99012",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d19f97099ff47262",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:be163e58de23201f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:cd68a6a94b47b6f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c5879f61465cd701",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:68e8dafed7501000",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5e371f966c56b492",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:1a7cdd942579beba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:167285f0caf9c4b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b60cef33d59362ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fea1e093846ca9c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e844853f427bab8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0b78c5f50f287f77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:701cc8c3789b3da5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:19e54abfcb740cdd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:98691769e6566cac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:74da252160617305",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4dee5b402261c31b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:efb434b3b8d5f9fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3c500e82adff85d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:cdcc74d69c502c8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b089a412315b5426",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:813388a04c839bb8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:bda9085c3044623b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0eb43f926a643a7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7b8244fd151b3ba3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6a9a4915aa81c0b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0366722e1cbdc607",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f07fa3a5c4f0264f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:49fca913d6b5f4ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d7bedc8e1548fe7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ff7aff1a63d7dd19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fcc9c489b1b29bbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:100581ab9925f3d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c2be699bf1d68f5d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6dcbbac990af2858",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7dbcc7f19b5fc785",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:53b39f99c59ad0e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a07dcfa9359e1187",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ab8b94b95b270c6e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0a581f4b9cd64abb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d9381e1f9c0758fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:8606480bb67972fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:9b5569f32b2dd2bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:236b1bcfad4b09e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:14cdadb5b05338f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:90e344f16a50ba9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:018a073c9f0b1155",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4f8e83b74bb65ad5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dd49d0543c429742",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:62ae96992bfe5664",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f7c992cd830a79b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e05747f8af1a7887",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ce9fcd2551863dcd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c32359282e90bcd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7e9f9c6cc468f8eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a0ce810a773b5244",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2a1b6f328b2837c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d680487a69d393ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:210c1136749bd741",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:42ff951cdea37e87",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:955ae3ca8258601b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:92967696a10b54f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:179ac062efeb4cf3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:48b16e4e51294548",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2a22c1b5df40a52b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:860a746556054f9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:19c822fa4fda5b17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3343d70fbe98cfb0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2972c2b331333152",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3e82049c2c00180d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ff258c562b4f22b4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4e87ae612402b3bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:57dc854775841f66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c869e9dc77e94f44",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b5b743ea80877f6f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c182d1a5bf82e34b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d452d4cc3312757d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:639e3aeb8df0ef13",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:168345f1a02fb458",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b183b28fe7f47593",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d9f743eb7a0fad0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:bbfa672bdd0df924",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:88d71831912291c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fcbc88e15087d069",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:61b88bdb05b109d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4648883130ba97f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3ec931ed3a2ae0ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c606a81810b6d9f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e94a7c9687b9dde6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4eed5bcf0b10f41f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:158d8b0b1429c57f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2f8d9dd081d11973",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e188e4b5781d212a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e60284f71bd7800a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3936f5765eb565f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:8527d53fee09e322",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2de5054207b14e83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0c927965a47c3ce1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:afd06e5be1c245e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:49c204cbcf6b8bcb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3afcace7900652e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c42b0eb01d46b776",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f3b623f0e3ce8782",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e77e8a6200d7430f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:118b98123972f366",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:85b848a0132bdf8a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d6802f96de5fb406",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:2367116ef3360d17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:88726d34ce301b87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:549f18025a03a8fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c24357a659674765",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ec75590662d324f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dbdf258bec9ccab8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0cf12480b8371d45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d646794f7df4ea8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:de679aaebd6c27bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:47cd80d827e88ef1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:73b71c37a7175326",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fa1d74d43eb916a5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5a44e718ab6a8167",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:17891e8f33a07dbb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:543cbdec7d941015",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0ebfc68db4acfa9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6efeea4e3901846c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:989263152a3ff7ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d2fafd2497244d3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:96cce2940d9a9abe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:30a66b6225d71dac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:15e8301f4fa60714",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:faaeb12772333b32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d4a2ae991966783b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c77eaf4f560fbce0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f4e3397e0f0fb5f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a4ccb38d3ef1a5bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a0aee05ec484c09f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4c34080a4bec4e24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:417e3e86c7b12190",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:da488e5f2f5804ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d666b89c5876060e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:384acaa8372881f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:61434554f6d31811",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3ff11ac39775e7df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5ef154fbc89ad271",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7d3c26666a361f0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f4e7d9f31db68846",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6db352a43cc69529",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:31084869db87db06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a1f35aa961a79e25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:060b7229c1dfadd4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7d90566fe0ed097a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:225ad0a944c9481a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c5dcb3469b0de85c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:63c3a2856283caef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e550af87c1320078",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:8d0e1993ada4067d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6c55b9cd32917095",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4ebd07671e42e17e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f1d3bd8bd302304d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c1ce9a9d58d83ed6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:bf0ff23663335bd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f32299523df1d170",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:43051ec0c7c78508",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4ba48ee960b19329",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b90113f0c22c4ca7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e83f303881bef82a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:1c328c5b6365b844",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f9b494dcbe1c4bfb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:716d6e95914533a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3686446fcbd06bfe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7c5d60c1ff3bf3c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:93cb2262219320a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:1e5eb894573dc813",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:387b35114bcc3558",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:735af30dce1db6f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ce032be45af8920e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:c2248a62fa1b28d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ad6d3df50633fa79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f8b067e0659c9a1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:9cbf1b21e48f850f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:8c3596c09ae212ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:6fc5a757cd019988",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:24e5e6df919710cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f3054706f1b216b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b4a67d10b6ce8536",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dbafc9a0b96c2fe8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d0c01c9522ee288f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:79c0acddfac66c2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dace4cf71b4fcbf7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:08b145e78a8212a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d0efccb82e95b2f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0616e0a2105b1631",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:26e47b8f93612ba1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:1750af3d822aca14",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5a3f7e7d62a64602",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d37c34ec987f4c16",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4c42fafbc0a3d4d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ec39808dadd27958",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:524a538c56645d4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a9f724c1fcc5789b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:977f5685faf1a0c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dfbe4013ad7d9b70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:b237b2a5718a8e29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:75c7e1fd418934cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3823a27124a64e78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:acbc83993f45ea78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:533dae41536b6afb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:4cf6415d89f2fd97",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:fd73a0eab334079e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0ff78462d4e7b466",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f3b164f79968679c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:029a528a278ee348",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:66889c5decdebd7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f65c3e47542142f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:faf26e278de53e03",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:a557d8af6b69a20b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:16c705949885a018",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:43541ffd47f747e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3d990d108e3fc315",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:7c80763cf5025d91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f22c87a9aac9c756",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:e2059dc0213fb867",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:d12e8bd8a6e929e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:5308839d903022a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:cced94eda94b4954",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:0a31ed246977881f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:f47f64bd6503caf2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:dbb46e28ef738f6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:af948977703ff305",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:32a1922a7d7a521c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:bb560a20738c829d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:286fee41ab2aeebd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:9da2bcf1cf12f4f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:420402ffbeca87a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:452ce24a59ae76e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:3a835164b5e116a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:022279cb55b81635",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:wick-the-whorled-mind:goldfish:ebd5480288d84860",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

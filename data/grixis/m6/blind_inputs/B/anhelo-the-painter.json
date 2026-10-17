@@ -1,0 +1,6605 @@
+{
+ "deck_id": "Anhelo__the_Painter",
+ "list_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "slug": "anhelo-the-painter",
+ "swaps": [
+  {
+   "adds": [
+    "Sinister Concierge"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e8b61ba04f19",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:286103019a6f8d2f"
+   ]
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e97bf614c63e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e84544ea9b560da9"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d72d7645d142",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:668126442fcd7c97"
+   ]
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b67d7101aaa8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1804d8f85f5d73e1"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinate"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:63f8930831c3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:41068093890abf61"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinate"
+   ],
+   "cuts": [
+    "Time Warp"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ac887921307b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:610076c319d7b420"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c9a8ba495109",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2b6bced499cf01d9"
+   ]
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:465e3e634eda",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:677dcb2e87b1777b"
+   ]
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Time Warp"
+   ],
+   "id": "swap:anhelo-the-painter:m5:81d15523a625",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:67bcf68d4414e068"
+   ]
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9c3f899f059d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:df362841c5ca31f9"
+   ]
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ba9bce51ba0a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c43e9c8dae2c1a7b"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:517fd20f081f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:679549ebacfa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c7564125ec2412a1"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d157fbdbc212",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:84d1dda857eeebe0"
+   ]
+  },
+  {
+   "adds": [
+    "River's Rebuke"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:219720fb59f9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ffc930b987bc5499"
+   ]
+  },
+  {
+   "adds": [
+    "Make an Example"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1396260347cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dogged Detective"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:17833fd28841",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:129eb3bd724b3b65"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:160757c261a7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b6a819a03ab3e5ef"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b41b80e7b2fd",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:91e4dd851b9f723f"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6a30dc300eec",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cfbaf93d6f404cec"
+   ]
+  },
+  {
+   "adds": [
+    "Tragic Slip"
+   ],
+   "cuts": [
+    "Time Warp"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a7889e6cd0fd",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1ce48f127097d01a"
+   ]
+  },
+  {
+   "adds": [
+    "Syphon Mind"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e3af7d9bbd80",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:215749676a005bd3"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3ec5dd35228e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:00fc4ab6d4b6bf1f"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e5c3de4bf92e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e224884216f1f8dd"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5c86bf3294aa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:33c41ffbcbc428a6"
+   ]
+  },
+  {
+   "adds": [
+    "Metallurgic Summonings"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:281bb3233569",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4d7667a349935c40"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Confluence"
+   ],
+   "cuts": [
+    "Time Warp"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6d47637960c3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c14a42b7b472d6ad"
+   ]
+  },
+  {
+   "adds": [
+    "Lier, Disciple of the Drowned"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:761879996249",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:48119d12ff9b038d"
+   ]
+  },
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d598deecfa20",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6e65fa0dd8a7fefe"
+   ]
+  },
+  {
+   "adds": [
+    "Errant, Street Artist"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c638737b2cea",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5f70975dadaa67c5"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d0c4b66c7b07",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f9916c80b9c6a17d"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:48987b22001a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:71d704aa1f955333"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:67f89f068f57",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:92e00ab88e17e011"
+   ]
+  },
+  {
+   "adds": [
+    "Drawn from Dreams"
+   ],
+   "cuts": [
+    "Time Warp"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7f44737744f8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:29844b5e396f2fa0"
+   ]
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b07fcb72a636",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bae5693703f7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:210b08ef742052f0"
+   ]
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1801b0f08ccc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2a90708c7baf",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c0414a1393b68f66"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6818a89a3ca8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9feece985682dcfa"
+   ]
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:anhelo-the-painter:m5:01c6b2f4f768",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:958d79d660aa302c"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bc5803ad14af",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8299e5e8f211ff42"
+   ]
+  },
+  {
+   "adds": [
+    "Chain Reaction"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b79cfa538a60",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9cf0273537c26ee0"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:213959607397",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0054f68a326212b7"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4cd5d431c9fe",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a2a4b1a448aff838"
+   ]
+  },
+  {
+   "adds": [
+    "Waste Management"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1bf2cfefb1ef",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:227769f02acab3fe"
+   ]
+  },
+  {
+   "adds": [
+    "Squee, the Immortal"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:efb007398c35",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bfd39638ed9f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:35af627bb2f5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:fb69392cf039f812"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6be61bc67596",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:931a13887a8650d2"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bcb1d9d789b2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:48f7259ae6c17e14"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2f3596eaffe2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:84da920b7975e299"
+   ]
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:fb5608f28be4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:73b0a7500b928df6"
+   ]
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5d145f0edd3d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e355570dd6d7d4b0"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate's Pillage"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0b27d032b9c8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3fad87551d774534"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Summons"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f877d7cf7551",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seize the Spoils"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8b95b949ff25",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:88ce66b6302d750b"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Time Warp"
+   ],
+   "id": "swap:anhelo-the-painter:m5:42921c169541",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e89be6469e61f205"
+   ]
+  },
+  {
+   "adds": [
+    "Shark Typhoon"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4d646aca1224",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:07b180a79a61",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:725003b20f625b8d"
+   ]
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:89de06f3f7da",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:62435a95221ad1cd"
+   ]
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1984bbfa4755",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:286d141aeab8af25"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1bbee8134a4e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b77f2768b6456c07"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:778e772aec39",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:00c57585893d611b"
+   ]
+  },
+  {
+   "adds": [
+    "Grixis Panorama"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c87faea76aa4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:653486b3d24255b5"
+   ]
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:861933f6a01c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e94de43132a9c8ea"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e7556826061b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:20373218cec01e63"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ce45e1e053bf",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e32344b56463a952"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:cca0e1dd2f4e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:89b30f4248849fa6"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Army of the Damned"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b9de24f42388",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:76a9834ca82e7992"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:348ada82f8bf",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8388c1eb56c87bdf"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:anhelo-the-painter:m5:183ae26d4c4f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:dd3007d7fc963b1f"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d9a89d4c7f1b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:dc8794479bd20111"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a8abceedf834",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6a44989160002be2"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:314fc26d883f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b9648a836ee9e9e4"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Army of the Damned"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4b6eca0ea067",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2b952cb97f8dc99e"
+   ]
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c5593afc43ae",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f5234a5ce849cf9e"
+   ]
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6fe37c261696",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1bfe35b40f41dc11"
+   ]
+  },
+  {
+   "adds": [
+    "Rotten Reunion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e0c2243c7ef6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:af1e794e6b7f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:22f9afa18d4ac145"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Army of the Damned"
+   ],
+   "id": "swap:anhelo-the-painter:m5:254b577cdd48",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e43d8a019bdbe864"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bc30ae0d6229",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0d34f12e653e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b4ddd1f3eb7d63e5"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Army of the Damned"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8063d49fc10d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:24b3f865dfbcda55"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2f7d51b948c9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d088ad8d1363168e"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9565e57f9fe0",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:80cc59a93fc1f0d9"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Army of the Damned"
+   ],
+   "id": "swap:anhelo-the-painter:m5:07d7521ebcf1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0f779b36633d42f8"
+   ]
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b55db52964eb",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6b60f6c02adb21ea"
+   ]
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ed18d1f0f4ad",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0c642fde41ba9c93"
+   ]
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0e4741de1e3d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:35cdc45690abdcd9"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bb4ff39583fb",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:87f89ce3062026b4"
+   ]
+  },
+  {
+   "adds": [
+    "Sea Gate Stormcaller"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:06c6b08dee35",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9d101f57f98cb7c9"
+   ]
+  },
+  {
+   "adds": [
+    "Sea Gate Stormcaller"
+   ],
+   "cuts": [
+    "Army of the Damned"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e0535326e4d4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:113ae96dd13757ae"
+   ]
+  },
+  {
+   "adds": [
+    "Morbid Opportunist"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:cf24cabdc0e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spellbinding Soprano"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:69e593549b92",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6d7126ae5cda8d52"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:eb1e150bee60",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:416072e28f57ea26"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:afa08835a46c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6fa7c73d88934d2c"
+   ]
+  },
+  {
+   "adds": [
+    "Necromantic Selection"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3da3809ebfd7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d5291b1553b8985c"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:38b3d3090434",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5200020b10b609ff"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:639d47f1bdfe",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b3f794eb322eb57e"
+   ]
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6e300fe71e60",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8d923db096b8204a"
+   ]
+  },
+  {
+   "adds": [
+    "Jaya's Immolating Inferno"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:78646e3857f1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:bf75675c1f94b366"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:fd509ace3a87",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:899da4aee9be157b"
+   ]
+  },
+  {
+   "adds": [
+    "Abstract Paintmage"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a95cdc850e69",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:55bb5c16741e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:eeb19ed2a7522349"
+   ]
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:893667d98f00",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ec855bb9c99e6b60"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b7dba4b61a59",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:908cfd2dd27c1a17"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c522b48d6b47",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a958a88d67ae000b"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c2555a9fdf19",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f24e0e03314d5eae"
+   ]
+  },
+  {
+   "adds": [
+    "Insidious Will"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b84dca23e0b1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0418daf9a9c09dd0"
+   ]
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:759c3597de1c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:424a6dafaaa2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:de3d1ad99aac4040"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:404b04d64933",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0b5cb18b5b8e4ae9"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2e45938b790a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0bd7a39c4dc0c3de"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Desire"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e9ccc28b7225",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4bd84e8cccf4bba3"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Desire"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f016d0e71836",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:54198310609997e1"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9d00f0306ba7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6e9a40c764367648"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c573874b1eb9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:aed5cddff862474d"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:988346710161",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:70b844a77605a382"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:511e1fb8ca8b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3c8144ed8b68f78e"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:345cd38d442c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c441f984de5c460b"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0b854e14632f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c61fd0ac2a950805"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:efd525bef87d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:11506cf91f3c925e"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9aad234b6422",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:177f8eefa50a1f0b"
+   ]
+  },
+  {
+   "adds": [
+    "Isochron Scepter"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8f8d1ede9530",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:31a63d357972dcb5"
+   ]
+  },
+  {
+   "adds": [
+    "Isochron Scepter"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6e721c02394c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:81530b07c5f95dac"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f1ea3c636341",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a2f017a259fa9c59"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e61910a6040e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b0e1d212e59bd2aa"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:996125e0aee4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7e97461a257f3d51"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e68fad967d4d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:312f30a6f792a368"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e12fa9f2397a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b3265675ca867b93"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ce9ef2beb625",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:343892dbf52840a3"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f7601cdef667",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d56972b61300d301"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:baac41bc695e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cb544a17efe93995"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:69cc31f241de",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6e77f310df17d9e3"
+   ]
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9d2f82e2143b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:518de044bbe87f95"
+   ]
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8c59474c7b0e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:82649a05e4a20a35"
+   ]
+  },
+  {
+   "adds": [
+    "Flow State"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ed8c1ceaef66",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c9aad773dc778816"
+   ]
+  },
+  {
+   "adds": [
+    "Séance Board"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3e1cfd820568",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:082243db16992fcd"
+   ]
+  },
+  {
+   "adds": [
+    "Battle Hymn"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a5be0b4228f3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a12bd8ae50753881"
+   ]
+  },
+  {
+   "adds": [
+    "Battle Hymn"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:802a90589972",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d6330591f7be30e5"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:97b5427ca947",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cdcfa61d9ef423df"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:95b68e29ce4c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:78997de288ccfcc9"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:38603280c32e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:db28b969333de254"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a6e13b609cf4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9db8953229e0a75e"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4c808202fa12",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:99c50dc45020aa04"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:67a0ec36f585",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a47d1db298f56467"
+   ]
+  },
+  {
+   "adds": [
+    "Traumatic Critique"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c7225424a6a5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7ce39aad6a571a0a"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:78fd037bd24a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d3169d0cd7ad240d"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0d45de40e5a3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f7f60b359b284726"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2abcad0ccb91",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a4f5246af9add8b2"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:807e01243912",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0faae1fc8dccfad1"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5eb730b09027",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:594f7a315566b271"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:904a67d727c5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1eb9705c421e8b07"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3e6a4842f76d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9b8945eef1d454cd"
+   ]
+  },
+  {
+   "adds": [
+    "Brightstone Ritual"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0d9fa169275c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:00c0a22d03ea2ed9"
+   ]
+  },
+  {
+   "adds": [
+    "Brightstone Ritual"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8f8297471412",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:765bc0892a6f087a"
+   ]
+  },
+  {
+   "adds": [
+    "Rousing Refrain"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:33d05039f5a0",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:72174bf332e1083b"
+   ]
+  },
+  {
+   "adds": [
+    "Rousing Refrain"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:178edd29737d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6a3c031ab79fe6e8"
+   ]
+  },
+  {
+   "adds": [
+    "Pyromancer's Goggles"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2e1bd31fa33a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c4ab58e3c747f451"
+   ]
+  },
+  {
+   "adds": [
+    "Pyromancer's Goggles"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:92300cfb5a3c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cdf918034e1ddf12"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:735095c1488d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e8be02b4a63e3f54"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a199a30523ef",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2682a6b62d6ffd05"
+   ]
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:051af468c4a4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b29875b8b9f1b065"
+   ]
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:90a9b8b79404",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:db56e3e870130b7e"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:287431e47885",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:04feab3c0095943c"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:da52a390ee78",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e9d06b3568afcba6"
+   ]
+  },
+  {
+   "adds": [
+    "Burnt Offering"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a5da3732c47d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c11476bd9e9bc83d"
+   ]
+  },
+  {
+   "adds": [
+    "Burnt Offering"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5e7e90b73e8b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c916ad3947992531"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Thunderclap Drake"
+   ],
+   "id": "swap:anhelo-the-painter:m5:be9b36ec0f17",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c562009ec7f4c0d0"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:52551ef2c88f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a775529c346d6cd3"
+   ]
+  },
+  {
+   "adds": [
+    "Parnesse, the Subtle Brush"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b87e7f383013",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:bc515c0016c96571"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3871d802391a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:91c1e6b00b7cd7fd"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4bd27a67907b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c0195fd5a89a9a6b"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:77c66a780305",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:50bd930d0a017e5c"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:98d83bae33e0",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5f166784a2bb2428"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b5c3f6beaa95",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2993312380b35bb9"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:08fb4183ba7d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:26829b6687161c1e"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:59b6c1bfb3ac",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8cb5f40abf345b80"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:eaa3c364f06b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0a885ee75a372eba"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4634f438351f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:68ab7472ddaf7353"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:005758b12056",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:349fecc5ed6495f5"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a52b9fa16181",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1931ad9843656058"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:34e149586318",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a463efb38262b340"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:11e7ec88079a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1011644d65184330"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b2e6a502dfd4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cf50e921b39bbc6a"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:38cd5bba24aa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:65457f9df2504a9d"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:30b09ba5886a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b9483b2d4522fc73"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:531bee250590",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c17a25b3c1b40d58"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Isle"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0ccc1511e2a5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:62dfd1a919f21e85"
+   ]
+  },
+  {
+   "adds": [
+    "Hidden Strings"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:74b4693f7405",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:81bfca30dc356340"
+   ]
+  },
+  {
+   "adds": [
+    "Hidden Strings"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ba0e902e1592",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:99902d4bdd9c7892"
+   ]
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:303e0755c7be",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3c6348e73d9a2273"
+   ]
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8548a65ee6a5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6448ded6d918bdc3"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2c9c02bcf110",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a92863dd7d473e2b"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9a20739f729f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5612e6cc3beaa4bb"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:86fc95c1d938",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d807f1a2c50cbca4"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:262a93739bc5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4b5cefc69ff783d7"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bf730a2b6e8e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c97302a9af275711"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c90485a15110",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6686f774d5a4c31b"
+   ]
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ae36d9c72e5b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:dc5d90a473facd43"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bc05b6048716",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:09767d3d7dfea4a8"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8d69dfeeb231",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:946eb32b853bd575"
+   ]
+  },
+  {
+   "adds": [
+    "Audacious Swap"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0c0b99722130",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c3b729f6b9080bef"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1c095d61469b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:08fc402129db0bf2"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c93814ce7c21",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4642e1969a109b39"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a89a2e30f72d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:668934f064edf519"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:434a120c4cf2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f806e6007c33618a"
+   ]
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d93ef9193751",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7c25eca13a47a960"
+   ]
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6bbba99bc921",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:aede935bae4dd47b"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:805cc8732aa8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cf1ce7511af75b48"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5e5eb60fc588",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:13ba1a0057d12e24"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f5eb3a0655b3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:438807f117d3dad1"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:88afb5691698",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:bc55519a3d1e5bb8"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:74c33b43d7e0",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:89ace86f6f6064d7"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f6b0715b039b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c2558f4c52b7f013"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ecb6886767bc",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:62a4681913d49534"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:45b0cb092c81",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:abb8634a74cdcd55"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e1017bfab2a1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:37582ce4d3c09158"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8335e97c492c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:566bbfad5741f917"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6a02cd3c1270",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:fe58913418b6c1a8"
+   ]
+  },
+  {
+   "adds": [
+    "Charmbreaker Devils"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:61f848fc33aa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b9ededc595f11b3f"
+   ]
+  },
+  {
+   "adds": [
+    "Charmbreaker Devils"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:63d97781d9d9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9632cc9501650bd1"
+   ]
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:be54d9557c99",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:eb37f60bbf8895f9"
+   ]
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:07222e93d113",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4a4afb6d78356769"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e8746f358bae",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2e86f470e0ea9fe0"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d756c7683ea2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:78f989756c672dd3"
+   ]
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:18f7fc58e5c7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7586a2afd40a2863"
+   ]
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:49b7bab30c1c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3f77272502b3afa4"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:96033d61599b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f4a5dd48dc01803d"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:91e6c2db84f1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c4ffe7cef96e7277"
+   ]
+  },
+  {
+   "adds": [
+    "Case of the Stashed Skeleton"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:anhelo-the-painter:m5:efc8617ea4bf",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cec74d59322221cb"
+   ]
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:123e78ad4c3b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c67640bc5b986be8"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:75d8ef25254d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b70ccdafef497835"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:16768fa863c1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e538a9ae9eb3e555"
+   ]
+  },
+  {
+   "adds": [
+    "Panoptic Mirror"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:fc4d865db9cb",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:83b9a854a95a2e9b"
+   ]
+  },
+  {
+   "adds": [
+    "Panoptic Mirror"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d712e9365e77",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8ebf72bf955f3da2"
+   ]
+  },
+  {
+   "adds": [
+    "Dual Strike"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:aa283f6896fc",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:260686eb5ba74f83"
+   ]
+  },
+  {
+   "adds": [
+    "Dual Strike"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:dd9c2b2c024a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ed5b26c1ba74c86d"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7d7466b73c14",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0eada57f33119d93"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ee66001f671d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e6eac3bad51b10f9"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Spasm"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bff0160bcc5e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ecd9e7cd368a2e0b"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Spasm"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:63464fc0ff73",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7483d148b5e61ad3"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7cbe692b64a9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:243ed81570da8510"
+   ]
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bc807e765ffd",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9c6a41509b9c3805"
+   ]
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f15835331af3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:50c1604635dc1bf7"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:52b7b536a0f3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4487a195312d5f18"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8f51ca00d906",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8179ebd7cc10b2b6"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:56b54fa96219",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3446c3a807a37eca"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e99b6935a64c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reset"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:96983635c594",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:70cbe56d458dfaac"
+   ]
+  },
+  {
+   "adds": [
+    "Reset"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2b8a4ba05066",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:64c209a3a52fc762"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1780f8f2eaef",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:938e88379f700947"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1a320cc51904",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c9ad704d51d53843"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Bluff"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:fd2b6e78dcc7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:270ca2f2af522ab0"
+   ]
+  },
+  {
+   "adds": [
+    "Zulaport Cutthroat"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c898d87a2e7f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ec85b6602deca458"
+   ]
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:41c647ede796",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0400c6408f54203b"
+   ]
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1d0721c58f56",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:82a1dd366a7f91ee"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:anhelo-the-painter:m5:57d50ea55aca",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5c70212a63af7726"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b41c28802877",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3dc9ddf14d8faa79"
+   ]
+  },
+  {
+   "adds": [
+    "Explosive Welcome"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4eb7be1e8d61",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a3eeb20dd211b2ef"
+   ]
+  },
+  {
+   "adds": [
+    "Explosive Welcome"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:aab34ef427fc",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1fed67f2c568e5c2"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c7eae1803b98",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b02d9f51e5036c5f"
+   ]
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0e084a7ed0a3",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ce3fa7ec0057fbf6"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a279ce1300b7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:62fd3516f1d8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:39179b4e19e0a7a9"
+   ]
+  },
+  {
+   "adds": [
+    "Djinn Illuminatus"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f9101bbe4f65",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:24ce13567d2436f6"
+   ]
+  },
+  {
+   "adds": [
+    "Djinn Illuminatus"
+   ],
+   "cuts": [
+    "Reiterate"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ec58a0782193",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0494157f29ba35c6"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ef9133f77692",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3d395b35fc78eb91"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7cc566bcd7bf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ironheart, Clever Champion"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:823a6ce293fd",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ec10159ab16f002f"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:80a81a0c035f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e94962329b0d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:532aadb30cf01ac4"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:80fe06529c59",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Echo, Perceptive Prodigy"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6d245f65d3fa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cf218b0bd713c9bd"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f5ed8a4f8528",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e28fbc30e03a3527"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:96c59a3c9599",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7179bab6f28071a3"
+   ]
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0f98597953b6",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ca402fb1358cb4ad"
+   ]
+  },
+  {
+   "adds": [
+    "Zaffai and the Tempests"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2be052b3e02e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:bbfadb30abed7491"
+   ]
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:21ad070552e7",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:09861b806bfe3584"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:58dddad107a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f451e5e4731e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f4265d8c91272b83"
+   ]
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3d4e847378eb",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:de46448bfca04995"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c4e1d8188f35",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4f260840760ffd67"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:15da977c5361",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1643b9c77224",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:99019731d5c2eb1c"
+   ]
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:46767dddc85a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9a09f13d2fa6e88b"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:be2e53cb384e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tomik, Izzet Sparkmage"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:755cf42c6687",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8e9b82388c657d5b"
+   ]
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ef6bfce356a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e8e2b1e08f7c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f626a5504a0df056"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:77dfc0b8088c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3f849fe840154960"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6374be0c9239",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b7507275e06ce77f"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:830dc69dc2b2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:54634f47827dc917"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c3fb01e0301c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8005099d46228a7b"
+   ]
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:da915f9271c4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:93b663fe44a39adf"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2ae308f35e9b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:07d3592b1e3b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3e55bec2c0f3bcde"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:671316581f9f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5084d56e7f057941"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:aeee3b11141c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b4a5e9338f0a872b"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e049987e14bb",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:bf016941b94cfedf"
+   ]
+  },
+  {
+   "adds": [
+    "Stilt-Man, Towering Terror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2e3c28108d8b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0faff86236811a19"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:cd8e2a67b80b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b0c410db66e433d1"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ab09d1a382fc",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ec86edf282d998d4"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0eb9083b385b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a53513294ca9e365"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6942dc362d52",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5b25738c85cee3ac"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e5e47a0c9e55",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f67db45e4dfa52c4"
+   ]
+  },
+  {
+   "adds": [
+    "Lecturing Scornmage"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:30d27db371eb",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2caf56975007acae"
+   ]
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c50a88003ccd",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0327ce5822e59030"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Avenging Archer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:94e9664576f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:dcea19d2a4fa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c4c6386cc85102c4"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:be3607d58f99",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:95af8a11e5c39c4f"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0bd8a84d02d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Massacre Girl, Most Wanted"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9c9c73e40163",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a2eae4acfb0b99a3"
+   ]
+  },
+  {
+   "adds": [
+    "Ophiomancer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6647e90d1ea4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5475368b9b9fd674"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin, Shadow Stalker"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6af6907f7718",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:94c86c35f7078d96"
+   ]
+  },
+  {
+   "adds": [
+    "Harmonic Prodigy"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:12eb12aa80a5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:728ae7dc84e67a7a"
+   ]
+  },
+  {
+   "adds": [
+    "Plaguecrafter"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:723b8354ffde",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:729a7cd380d6b09b"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b5d71d8093c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d508a7952ba5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a3a8ae4288ea1962"
+   ]
+  },
+  {
+   "adds": [
+    "Winter, Tormented Loner"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:856b8fe2d462",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8ab3725f335207ca"
+   ]
+  },
+  {
+   "adds": [
+    "Deluge Virtuoso"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:939e078211a2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cf7e2115634edd4f"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d672e3a8d137",
+   "tests": []
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0ad7717647a6",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ea407749d7ef5e73"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:31c9bc888838",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1db8428c0ccf0a1f"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:546916fd24f8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9850962f965eac37"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Fist, Hero for Hire"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b9825ec54842",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:dcbca4468bae710f"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9501afe04522",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:43b8c4de45e67989"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:4d3be0f74bc6",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:be8d10df23b80706"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:57f6742c7fa6",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a52e9966890890a5"
+   ]
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:01a7ef97d80b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:28867a1d9c9abfe0"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1cce93ec21b9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:db6e98f624bcac4e"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8dbf60c9d99c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8ab1c2967da3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:633623044916",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d08ae98a09f7bf1a"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8612e0b463a0",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d1a8907d58012fd7"
+   ]
+  },
+  {
+   "adds": [
+    "Winter, Team Player"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:066ba82e8a54",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:57cac12f92f794de"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:679673b5d2a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a2413ff16622",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:49abd7ea5f556047"
+   ]
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:b9fb3ed9ccb1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baneblade Scoundrel // Baneclaw Marauder"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:aee4f8ab0b03",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a5999a2352bf65c4"
+   ]
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:489997afa4fc",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:c8c485cb8c7721f5"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:65afedac9e9c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8471d23c66dd920d"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e38888615e9e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:d2f4d06152744fff"
+   ]
+  },
+  {
+   "adds": [
+    "Sorcerer Class"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c2782bfb3821",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:59a74bde2418a10d"
+   ]
+  },
+  {
+   "adds": [
+    "Martyr of Ashes"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:anhelo-the-painter:m5:31ee7d219485",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b83468d9bd52047e"
+   ]
+  },
+  {
+   "adds": [
+    "Count Nefaria"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8ea4046f77a2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:dea0190e5673bcce"
+   ]
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:62e15bc1c69b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8379a26ede74abc3"
+   ]
+  },
+  {
+   "adds": [
+    "Cryotheory Adept"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3c2c7d66f983",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0fd2fe9bfbf146a4"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7540aeeabf8e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:bd3251b07f1961bb"
+   ]
+  },
+  {
+   "adds": [
+    "Spellseeker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a2fbd3985a62",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:cac4da0a251e06cb"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a9f7d0bc2f5b",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:482b05262b6552c6"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9a4bf50b1aff",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ad075eab3bb6deca"
+   ]
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:21abec7c386d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:430fcafd25391bf1"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:612bd666cc04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:86e30b54f527",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7a4ddd17cb11",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:06267e5b6c38d6e9"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bafbab18cd8c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flux Channeler"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3cc5e7437090",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:20c78a05e43f6cb9"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:fb140f952cd2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:59aa4776f87d579f"
+   ]
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:39c93eee1ab2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:8200fb7dd8e0a3f4"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "id": "swap:anhelo-the-painter:m5:207a8334c6e4",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:7ad816f287960763"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5dd635a24843",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:32a455670b0efd6e"
+   ]
+  },
+  {
+   "adds": [
+    "Priest of Forgotten Gods"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:378b552bac4a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:434960b037f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:77816b79bd2a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5efeec9c53a99b2d"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:52f5455e878d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:88361dfd2bb099be"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8191f788d7e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ff9f84546f10",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:dca8db0da4ce5a1f"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:012d9629cc8f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:31fe42592939dde7"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9b4645258cc0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0d5670fd3de1",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:eb05d662c18689b5"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ea6e7930dbff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thermo-Alchemist"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:76fa70ee52d5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6d25a032236a0646"
+   ]
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3ae21585bdd2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:00f2e688dc11f52d"
+   ]
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1d230411e3e6",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e58920f333cd7e0f"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima the Impostor"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1da0d08e2711",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:410aa8ce1604a5b3"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a39fbd5b2a92",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7bb644ecb98c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3e743df946650956"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d40ce7a609f8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Demon's Disciple"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:5970e349d90a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3abea2240ba099ee"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8f0f8e137481",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5dce3843ee0d8036"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0bc323bd5902",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1e757db4666a376d"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:49d7d6c69704",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5dc3d2ba070452f5"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f8f4ab320f5d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2a770827f864494a"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:db47899daa13",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:5d7d5e36e632851b"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:03b26ab75d5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6b3d430738d6",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:50703b3d769c987e"
+   ]
+  },
+  {
+   "adds": [
+    "Witch of the Moors"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:bfa1d9082baa",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e7d6409bd957007a"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:aa91f438700d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:66fdb79a12619757"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:25f0e5b68042",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9c7c6b0c6142c321"
+   ]
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:3366058f2ec5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3ea460c99273c873"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:18757f37cf92",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b70bbd7018dd5130"
+   ]
+  },
+  {
+   "adds": [
+    "Longshot, Rebel Bowman"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c8138d18a141",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:51c0b9cc2da73dc1"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, Glorious Resurrector"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d9fae57b8547",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:b74d18272c104697"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:8bd4f4638a52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6170f66d8a20",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f71a42b349be37c8"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:ae61f4b07daf",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:6125cb928417cb75"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:cd600c0e0d8c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4ded53fa16644308"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:88b7da47fbb2",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:a470eae975f2ed50"
+   ]
+  },
+  {
+   "adds": [
+    "Endrek Sahr, Master Breeder"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d9d979219292",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2bf7e92627b08766"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:2e544200d886",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e1732cbca15c46f4"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:6e93174e2983",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f59b5aa90098dfd3"
+   ]
+  },
+  {
+   "adds": [
+    "Chittering Witch"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:24c6e0acca8e",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:0b791eb5a8ce9f5a"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Daredevil"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:cba9d98622ae",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:89350a9071c55184"
+   ]
+  },
+  {
+   "adds": [
+    "Dockside Chef"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:de9b51d404e4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:886ba66501eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:acaea7ca21f5",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:4caa189cf90ac554"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c1641911b562",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shadowheart, Dark Justiciar"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:468ee25047a6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:eccfbccd3f02",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e86c5a81bb010e1d"
+   ]
+  },
+  {
+   "adds": [
+    "Species Specialist"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e37a9fdfa484",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Progress Tyrant"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e10f8d8c449c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e038411824073c93"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, Bloodfist of Keld"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:f43103f59e68",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c0b6ce6facb9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sakashima's Student"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:afe6281e345c",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:eab5c2b87c87b48b"
+   ]
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:0afde49ea229",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:9749fee814186fe0"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Poppet Stitcher // Poppet Factory"
+   ],
+   "id": "swap:anhelo-the-painter:m5:08d5f3e9c72d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:73ee9f830b2eda05"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a13282c71267",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3d9a909979eafc10"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:e4265ede872d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e59b5647e3356b73"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:a9d8397404b9",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:efe4c06d4c8a2d9f"
+   ]
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:anhelo-the-painter:m5:95586baa388d",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f6b0ceb14fc4890f"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:9a9434be3bfd",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:763bb14d31ce462e"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:c780ca8f5a44",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:ba43ca2c166e2b58"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:522dde1c6733",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:15bb402f213dba74"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:anhelo-the-painter:m5:7b4002b44605",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:3b5496315da188e3"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:anhelo-the-painter:m5:d0084fa7d639",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:1d241ee10dcf21b9"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:54c31af2c657",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:2bbfde8e0560bf4a"
+   ]
+  },
+  {
+   "adds": [
+    "Conqueror's Galleon // Conqueror's Foothold"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:anhelo-the-painter:m5:1e644013fa28",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:f6dfca9d2f5447a9"
+   ]
+  },
+  {
+   "adds": [
+    "Conqueror's Galleon // Conqueror's Foothold"
+   ],
+   "cuts": [
+    "Mana Geyser"
+   ],
+   "id": "swap:anhelo-the-painter:m5:85b8efe74f7a",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:eab631b2fc409876"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:anhelo-the-painter:m5:91993f66d9b8",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:67ce7597d53b8867"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:anhelo-the-painter:m5:fd9a46b2a06f",
+   "tests": [
+    "test:anhelo-the-painter:goldfish:e1f5834c504b491f"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:anhelo-the-painter:goldfish:286103019a6f8d2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e84544ea9b560da9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:668126442fcd7c97",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1804d8f85f5d73e1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:41068093890abf61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:610076c319d7b420",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2b6bced499cf01d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:677dcb2e87b1777b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:67bcf68d4414e068",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:df362841c5ca31f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c43e9c8dae2c1a7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c7564125ec2412a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:84d1dda857eeebe0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ffc930b987bc5499",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:129eb3bd724b3b65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b6a819a03ab3e5ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:91e4dd851b9f723f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cfbaf93d6f404cec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1ce48f127097d01a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:215749676a005bd3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:00fc4ab6d4b6bf1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e224884216f1f8dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:33c41ffbcbc428a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4d7667a349935c40",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c14a42b7b472d6ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:48119d12ff9b038d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6e65fa0dd8a7fefe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5f70975dadaa67c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f9916c80b9c6a17d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:71d704aa1f955333",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:92e00ab88e17e011",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:29844b5e396f2fa0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:210b08ef742052f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c0414a1393b68f66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9feece985682dcfa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:958d79d660aa302c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8299e5e8f211ff42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9cf0273537c26ee0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0054f68a326212b7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a2a4b1a448aff838",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:227769f02acab3fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:fb69392cf039f812",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:931a13887a8650d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:48f7259ae6c17e14",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:84da920b7975e299",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:73b0a7500b928df6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e355570dd6d7d4b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3fad87551d774534",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:88ce66b6302d750b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e89be6469e61f205",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:725003b20f625b8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:62435a95221ad1cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:286d141aeab8af25",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b77f2768b6456c07",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:00c57585893d611b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:653486b3d24255b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e94de43132a9c8ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:20373218cec01e63",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e32344b56463a952",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:89b30f4248849fa6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:76a9834ca82e7992",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8388c1eb56c87bdf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:dd3007d7fc963b1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:dc8794479bd20111",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6a44989160002be2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b9648a836ee9e9e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2b952cb97f8dc99e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f5234a5ce849cf9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1bfe35b40f41dc11",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:22f9afa18d4ac145",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e43d8a019bdbe864",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b4ddd1f3eb7d63e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:24b3f865dfbcda55",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d088ad8d1363168e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:80cc59a93fc1f0d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0f779b36633d42f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6b60f6c02adb21ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0c642fde41ba9c93",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:35cdc45690abdcd9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:87f89ce3062026b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9d101f57f98cb7c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:113ae96dd13757ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6d7126ae5cda8d52",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:416072e28f57ea26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6fa7c73d88934d2c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d5291b1553b8985c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5200020b10b609ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b3f794eb322eb57e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8d923db096b8204a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:bf75675c1f94b366",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:899da4aee9be157b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:eeb19ed2a7522349",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ec855bb9c99e6b60",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:908cfd2dd27c1a17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a958a88d67ae000b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f24e0e03314d5eae",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0418daf9a9c09dd0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:de3d1ad99aac4040",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0b5cb18b5b8e4ae9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0bd7a39c4dc0c3de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4bd84e8cccf4bba3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:54198310609997e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6e9a40c764367648",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:aed5cddff862474d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:70b844a77605a382",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3c8144ed8b68f78e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c441f984de5c460b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c61fd0ac2a950805",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:11506cf91f3c925e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:177f8eefa50a1f0b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:31a63d357972dcb5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:81530b07c5f95dac",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a2f017a259fa9c59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b0e1d212e59bd2aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7e97461a257f3d51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:312f30a6f792a368",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b3265675ca867b93",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:343892dbf52840a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d56972b61300d301",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cb544a17efe93995",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6e77f310df17d9e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:518de044bbe87f95",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:82649a05e4a20a35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c9aad773dc778816",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:082243db16992fcd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a12bd8ae50753881",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d6330591f7be30e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cdcfa61d9ef423df",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:78997de288ccfcc9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:db28b969333de254",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9db8953229e0a75e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:99c50dc45020aa04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a47d1db298f56467",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7ce39aad6a571a0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d3169d0cd7ad240d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f7f60b359b284726",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a4f5246af9add8b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0faae1fc8dccfad1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:594f7a315566b271",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1eb9705c421e8b07",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9b8945eef1d454cd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:00c0a22d03ea2ed9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:765bc0892a6f087a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:72174bf332e1083b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6a3c031ab79fe6e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c4ab58e3c747f451",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cdf918034e1ddf12",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e8be02b4a63e3f54",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2682a6b62d6ffd05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b29875b8b9f1b065",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:db56e3e870130b7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:04feab3c0095943c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e9d06b3568afcba6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c11476bd9e9bc83d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c916ad3947992531",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c562009ec7f4c0d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a775529c346d6cd3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:bc515c0016c96571",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:91c1e6b00b7cd7fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c0195fd5a89a9a6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:50bd930d0a017e5c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5f166784a2bb2428",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2993312380b35bb9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:26829b6687161c1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8cb5f40abf345b80",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0a885ee75a372eba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:68ab7472ddaf7353",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:349fecc5ed6495f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1931ad9843656058",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a463efb38262b340",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1011644d65184330",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cf50e921b39bbc6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:65457f9df2504a9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b9483b2d4522fc73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c17a25b3c1b40d58",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:62dfd1a919f21e85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:81bfca30dc356340",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:99902d4bdd9c7892",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3c6348e73d9a2273",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6448ded6d918bdc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a92863dd7d473e2b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5612e6cc3beaa4bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d807f1a2c50cbca4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4b5cefc69ff783d7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c97302a9af275711",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6686f774d5a4c31b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:dc5d90a473facd43",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:09767d3d7dfea4a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:946eb32b853bd575",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c3b729f6b9080bef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:08fc402129db0bf2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4642e1969a109b39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:668934f064edf519",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f806e6007c33618a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7c25eca13a47a960",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:aede935bae4dd47b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cf1ce7511af75b48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:13ba1a0057d12e24",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:438807f117d3dad1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:bc55519a3d1e5bb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:89ace86f6f6064d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c2558f4c52b7f013",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:62a4681913d49534",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:abb8634a74cdcd55",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:37582ce4d3c09158",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:566bbfad5741f917",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:fe58913418b6c1a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b9ededc595f11b3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9632cc9501650bd1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:eb37f60bbf8895f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4a4afb6d78356769",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2e86f470e0ea9fe0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:78f989756c672dd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7586a2afd40a2863",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3f77272502b3afa4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f4a5dd48dc01803d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c4ffe7cef96e7277",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cec74d59322221cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c67640bc5b986be8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b70ccdafef497835",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e538a9ae9eb3e555",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:83b9a854a95a2e9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8ebf72bf955f3da2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:260686eb5ba74f83",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ed5b26c1ba74c86d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0eada57f33119d93",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e6eac3bad51b10f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ecd9e7cd368a2e0b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7483d148b5e61ad3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:243ed81570da8510",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9c6a41509b9c3805",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:50c1604635dc1bf7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4487a195312d5f18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8179ebd7cc10b2b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3446c3a807a37eca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:70cbe56d458dfaac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:64c209a3a52fc762",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:938e88379f700947",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c9ad704d51d53843",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:270ca2f2af522ab0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ec85b6602deca458",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0400c6408f54203b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:82a1dd366a7f91ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5c70212a63af7726",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3dc9ddf14d8faa79",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a3eeb20dd211b2ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1fed67f2c568e5c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b02d9f51e5036c5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ce3fa7ec0057fbf6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:39179b4e19e0a7a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:24ce13567d2436f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0494157f29ba35c6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3d395b35fc78eb91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ec10159ab16f002f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:532aadb30cf01ac4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cf218b0bd713c9bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e28fbc30e03a3527",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7179bab6f28071a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ca402fb1358cb4ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:bbfadb30abed7491",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:09861b806bfe3584",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f4265d8c91272b83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:de46448bfca04995",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4f260840760ffd67",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:99019731d5c2eb1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9a09f13d2fa6e88b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8e9b82388c657d5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f626a5504a0df056",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3f849fe840154960",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b7507275e06ce77f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:54634f47827dc917",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8005099d46228a7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:93b663fe44a39adf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3e55bec2c0f3bcde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5084d56e7f057941",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b4a5e9338f0a872b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:bf016941b94cfedf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0faff86236811a19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b0c410db66e433d1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ec86edf282d998d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a53513294ca9e365",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5b25738c85cee3ac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f67db45e4dfa52c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2caf56975007acae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0327ce5822e59030",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c4c6386cc85102c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:95af8a11e5c39c4f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a2eae4acfb0b99a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5475368b9b9fd674",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:94c86c35f7078d96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:728ae7dc84e67a7a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:729a7cd380d6b09b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a3a8ae4288ea1962",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8ab3725f335207ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cf7e2115634edd4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ea407749d7ef5e73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1db8428c0ccf0a1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9850962f965eac37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:dcbca4468bae710f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:43b8c4de45e67989",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:be8d10df23b80706",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a52e9966890890a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:28867a1d9c9abfe0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:db6e98f624bcac4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d08ae98a09f7bf1a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d1a8907d58012fd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:57cac12f92f794de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:49abd7ea5f556047",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a5999a2352bf65c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:c8c485cb8c7721f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8471d23c66dd920d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:d2f4d06152744fff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:59a74bde2418a10d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b83468d9bd52047e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:dea0190e5673bcce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8379a26ede74abc3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0fd2fe9bfbf146a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:bd3251b07f1961bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:cac4da0a251e06cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:482b05262b6552c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ad075eab3bb6deca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:430fcafd25391bf1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:06267e5b6c38d6e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:20c78a05e43f6cb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:59aa4776f87d579f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:8200fb7dd8e0a3f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:7ad816f287960763",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:32a455670b0efd6e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5efeec9c53a99b2d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:88361dfd2bb099be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:dca8db0da4ce5a1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:31fe42592939dde7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:eb05d662c18689b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6d25a032236a0646",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:00f2e688dc11f52d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e58920f333cd7e0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:410aa8ce1604a5b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3e743df946650956",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3abea2240ba099ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5dce3843ee0d8036",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1e757db4666a376d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5dc3d2ba070452f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2a770827f864494a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:5d7d5e36e632851b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:50703b3d769c987e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e7d6409bd957007a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:66fdb79a12619757",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9c7c6b0c6142c321",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3ea460c99273c873",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b70bbd7018dd5130",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:51c0b9cc2da73dc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:b74d18272c104697",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f71a42b349be37c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:6125cb928417cb75",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4ded53fa16644308",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:a470eae975f2ed50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2bf7e92627b08766",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e1732cbca15c46f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f59b5aa90098dfd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:0b791eb5a8ce9f5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:89350a9071c55184",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:4caa189cf90ac554",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e86c5a81bb010e1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e038411824073c93",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:eab5c2b87c87b48b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:9749fee814186fe0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:73ee9f830b2eda05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3d9a909979eafc10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e59b5647e3356b73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:efe4c06d4c8a2d9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f6b0ceb14fc4890f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:763bb14d31ce462e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:ba43ca2c166e2b58",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:15bb402f213dba74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:3b5496315da188e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:1d241ee10dcf21b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:2bbfde8e0560bf4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:f6dfca9d2f5447a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:eab631b2fc409876",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:67ce7597d53b8867",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:anhelo-the-painter:goldfish:e1f5834c504b491f",
+   "verdict": "inconclusive"
+  }
+ ]
+}

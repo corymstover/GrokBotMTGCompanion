@@ -1,0 +1,3189 @@
+{
+ "deck_id": "Don_Andres__the_Renegade",
+ "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "slug": "don-andres-the-renegade",
+ "swaps": [
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f568522f6ea6",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:493c2ba830b2a9c2"
+   ]
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5df7326087b6",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0fbbae69d8302981"
+   ]
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e7bd62e24ab2",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4d9d571780527456"
+   ]
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1a49ed917614",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:72e1861798cb5705"
+   ]
+  },
+  {
+   "adds": [
+    "Siren Stormtamer"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:da71590fbc30",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0f29d30a822a39c5"
+   ]
+  },
+  {
+   "adds": [
+    "Gemcutter Buccaneer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c51839a30dd5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gonti, Lord of Luxury"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e7341eb581e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:48c73263906b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c5da850cb3a0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mob Rule"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:274eaf515eaf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4ea85af83503",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Indomitable"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7e857318ad98",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Indomitable"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:efc635f648f8",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:37597d77bbb01ce8"
+   ]
+  },
+  {
+   "adds": [
+    "Memory Plunder"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:64a3316dbc0f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corsair Captain"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bc26583383cf",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:a09547672c2880b3"
+   ]
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:277841efd751",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8225a24da65e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:99fd091f71f1",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:6f8522bd23470373"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f4c010aff20a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:2cb26cb0fe3b25e6"
+   ]
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ce642793cf06",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5916721edad3",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:f8769709ab0d6ba4"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3f94b06e137a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:3816388d920c2e5b"
+   ]
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4186cf44c0e6",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0b5d7f128a511e8e"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5309555cc86d",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:f59661bcb6838526"
+   ]
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7f420a3a557b",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:ff4e069c85f1f86d"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c4d96ae7fca2",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:5932be1ea3560132"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d80fec3a910c",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:fbe2cc5cd47bda49"
+   ]
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e6143c523c83",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:862758d9277b3e29"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:95ede5ff3a63",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:6d08eb9bce317f9c"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:93a759f4466b",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:7d2ba87be4603579"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8a4bf408d95b",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:1b838bb7a012283d"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Larcenist"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:cf2eb48dba80",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:038fa3dcae64c0e3"
+   ]
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8370c76f43f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind's Dilation"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:39aa13454922",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:7d7bf2c2f551db15"
+   ]
+  },
+  {
+   "adds": [
+    "Forerunner of the Coalition"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f3136b8629cd",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:bffd80f21eb8071e"
+   ]
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0e4b76abdb96",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bf1052d4c965",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:51164c990d10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:28a003124035",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:073a8fa6e573713e"
+   ]
+  },
+  {
+   "adds": [
+    "Cruelclaw's Heist"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:db726ce1157c",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0d66d3a7a87a8926"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e7d1524ab28e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4eb15bc58526538a"
+   ]
+  },
+  {
+   "adds": [
+    "Broadside Bombardiers"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0635f1f663f7",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:ceca5dd69de673aa"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2d05ebc69e6c",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:d11901823931aa90"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8fb57b7aac18",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:a6dc81fe7d65ea3a"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d67f666bb0e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4cd620d74847",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4eed76d17e7c5e39"
+   ]
+  },
+  {
+   "adds": [
+    "Francisco, Fowl Marauder"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:db6fb6e892c8",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:bb628d26c9b2987f"
+   ]
+  },
+  {
+   "adds": [
+    "Francisco, Fowl Marauder"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f87160a4b0c3",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:021be65299bba736"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2c4f0f81e804",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:8af4b70baddc8c7e"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9cb7ad033605",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0efa122520ddae8c"
+   ]
+  },
+  {
+   "adds": [
+    "Xanathar, Guild Kingpin"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7963375cabb2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xanathar, Guild Kingpin"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:46330e62dd5e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:9d4fccfd0ebc310c"
+   ]
+  },
+  {
+   "adds": [
+    "Merchant Raiders"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b3c6802e4b0a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:03f78792a8de0245"
+   ]
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1d5fdc54668a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:236a4d2cf1c0",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:3b8391bba60b9eb9"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Conscription"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3ba42f817618",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:63bdaf9b1954d0de"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:73f115e5a94d",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e7139e54a968e976"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:eb5e46b7b2a7",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e35d9eaf4553289c"
+   ]
+  },
+  {
+   "adds": [
+    "King Narfi's Betrayal"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:78fe7ddab37e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e2b013360d9a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:ef44803b0bec81f8"
+   ]
+  },
+  {
+   "adds": [
+    "Staff of Eden, Vault's Key"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5b5e07217e1e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:928f7cdc4126e387"
+   ]
+  },
+  {
+   "adds": [
+    "Fallen Shinobi"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a0e7ad275f8a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fallen Shinobi"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:328c94cb9299",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:88b8cfca3df7e981"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Powers"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:60f669f1a4fa",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:2ed588422bf465ef"
+   ]
+  },
+  {
+   "adds": [
+    "Desertion"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e642d48874b8",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:c8eb8c8f0556d7ff"
+   ]
+  },
+  {
+   "adds": [
+    "Tinybones, the Pickpocket"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7f8e4c44ed7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tinybones, the Pickpocket"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a37f0bab22e3",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4486062958b252e7"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:02ad44e40163",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b572e9b4b92a092d"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:fd9eb2f08242",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:fefff5b75f3c",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:61d710bb1d6e78ad"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:33acd91a8a86",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b835b7e1f3173dea"
+   ]
+  },
+  {
+   "adds": [
+    "Malcolm, Alluring Scoundrel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b960b8182cf8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:205d97275059",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nashi, Moon Sage's Scion"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b26e7ea851e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d66a0c306c03",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:a800c31ba05da35f"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:68163a271483",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:09a71a2c817860c1"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9508e1b350a0",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:56c653363685aeec"
+   ]
+  },
+  {
+   "adds": [
+    "Elder Brain"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7777fbdecc1d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1b311e13aece",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:c74a315f561469b7"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:50300ac554c2",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:bddc14f6773ff0f0"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:33182b949583",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:aa1fde3f4160d555"
+   ]
+  },
+  {
+   "adds": [
+    "Mass Mutiny"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9c619aa79fe9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:739e13550ba0",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b1bfd0a76b4e41c5"
+   ]
+  },
+  {
+   "adds": [
+    "Arvinox, the Mind Flail"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7843a422464e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a9eaccaec72a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e3c7524bc05e4d19"
+   ]
+  },
+  {
+   "adds": [
+    "Rain of Riches"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ff51aa2302e1",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:1c8c2fb01c592ac8"
+   ]
+  },
+  {
+   "adds": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d947488c519b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:339ffcedeef9",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:53ee6e70fefb6a6a"
+   ]
+  },
+  {
+   "adds": [
+    "Inevitable Betrayal"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:003e2a0cab37",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:99e2132dd59f85e9"
+   ]
+  },
+  {
+   "adds": [
+    "Act of Treason"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:87e5801dd80a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Furnace Reins"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5289aaaa8e92",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e84dc17434f88723"
+   ]
+  },
+  {
+   "adds": [
+    "Call for Aid"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f5e82043f13b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Changing Loyalty"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d446f1af043e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dac522b8e9a6",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0ca1b52dee3a031a"
+   ]
+  },
+  {
+   "adds": [
+    "Dead Man's Chest"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:89a37a467a6d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dd800034d754",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:d4e1e992cdc7c8a0"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4af8ae1aef8c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:86a18038ab6a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:1392efbc46e3cc5f"
+   ]
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ed25ee35a55f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:409113ebf91b",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:1723001e919751ce"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7d849984e6e8",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:23a6f794ca757969"
+   ]
+  },
+  {
+   "adds": [
+    "Blatant Thievery"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:93152937af13",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:100f0ba2081723ba"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5c3b99c30c90",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:61605160b4a499b4"
+   ]
+  },
+  {
+   "adds": [
+    "Mutinous Massacre"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dece5783bb3a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a21cf116b087",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:91d1e066e934bebf"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2db315ce7a54",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:467d0b8cf4e041c0"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:690f2f07b6d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Intellect Devourer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0b382c4dfaaf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:15bce87204de",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4e4d95fdb0e2ba95"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1f5d006aef16",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e6658faaae6bc63a"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f2f54d4b8e1b",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:6123f0f025aaa70d"
+   ]
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d5ca13ea0fb6",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:32a9b2ab4c6f197d"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:72030b65fd25",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:9929fd17b85bb7cc"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c0d602854b92",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:581765aa29b9d234"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bace373d5d54",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3b2899899483",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b1a6cdcf1f4f5edc"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c1f3fa66b80e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:1febb2784aaf5792"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Quartermaster"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d4698f561416",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:1be89908ec06fca9"
+   ]
+  },
+  {
+   "adds": [
+    "Sanar, Unfinished Genius // Wild Idea"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f25be61a54d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:31c7b7cc9a1f",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:61a9226fb20e7d33"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6bc270360baf",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:70a9d128a63d4327"
+   ]
+  },
+  {
+   "adds": [
+    "Smuggler Captain"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b849093bafc4",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:45093a836da3b0eb"
+   ]
+  },
+  {
+   "adds": [
+    "Impulsive Pilferer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d785705d57b1",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:c326141995227ec6"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d4fe36052275",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:38e4efafa741cbde"
+   ]
+  },
+  {
+   "adds": [
+    "The Horus Heresy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:697977d2ea04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spectral Sailor"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:64ae691e4456",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f2c4e983d1d4",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e34f184543d49e6d"
+   ]
+  },
+  {
+   "adds": [
+    "Claim the Firstborn"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6ac8b661c74f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5ff0053fc626",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e06eae38a94267db"
+   ]
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3929370174f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:df3acff1a110",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:aab5c0489dc3e318"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath's Marauders"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9552cfad6726",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:ec40d86f1222d66c"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:34a2ec9cb98d",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:852f4efe0a7b9a41"
+   ]
+  },
+  {
+   "adds": [
+    "Waterlogged Teachings // Inundated Archive"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f360c3e77922",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:79926dcd2563adb7"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dbeafc049f33",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4e01119cbd1c2fbc"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Isle"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5785a8b4545f",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:3e0a018c4f682dce"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dcb4ebffc172",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b7eb4408c39b3e48"
+   ]
+  },
+  {
+   "adds": [
+    "Extract Power"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:262dc8c95fd8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thriving Bluff"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2bb50cd3dfcf",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:40915634a368f973"
+   ]
+  },
+  {
+   "adds": [
+    "Amphin Mutineer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f09e316da0fa",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:f905d1f3134f74b1"
+   ]
+  },
+  {
+   "adds": [
+    "Warping Wail"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2ccc5470de57",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:01af21c4db96",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marauding Mako"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f0b0e6ee8be9",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:514555625dc51e74"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7f0d2f68c542",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:d4e89818073e1694"
+   ]
+  },
+  {
+   "adds": [
+    "Warkite Marauder"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f4e762aada60",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:8254d0d1ec094d92"
+   ]
+  },
+  {
+   "adds": [
+    "Scrounging Skyray"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e9899baa31a9",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:59c8dedd65544020"
+   ]
+  },
+  {
+   "adds": [
+    "Fanatical Firebrand"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7af3685ab879",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:cd2d33caef73fa35"
+   ]
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8d99d0d5fced",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Departed Deckhand"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:84cfb4c00079",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:60ddf0c7aa8875b4"
+   ]
+  },
+  {
+   "adds": [
+    "Brineborn Cutthroat"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:978a29da6f2f",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e6da167fbcf1f9cf"
+   ]
+  },
+  {
+   "adds": [
+    "Fearless Swashbuckler"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c5c356f5b5ba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oaken Siren"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3b2e0318ebb5",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:520fb47bef9be8c4"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Saboteur"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5d50cb95c419",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Staunch Crewmate"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8b8e483ebe65",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:85528f8e9bea9055"
+   ]
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f185bd8d6857",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0d0ce5ddb3a1141c"
+   ]
+  },
+  {
+   "adds": [
+    "Valki, God of Lies // Tibalt, Cosmic Impostor"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9ee6ebf3e279",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain Vargus Wrath"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0b7e666e84ca",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:10a46be470b1cd90"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Freebooter"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:74e28fe9a4ad",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:68b64cd190d63ea6"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Tracker"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:333d3aed08c7",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:8e41fd01b44453d5"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Poisoner"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d9205559db17",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:10179114b2329460"
+   ]
+  },
+  {
+   "adds": [
+    "Bigfin Bouncer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7c802bfbdb3f",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:9c77d4a300e45fe3"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderhead Gunner"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:635fe2747ee9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dire Fleet Captain"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bcd973374dfa",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:eaee8172bbd62d76"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Tomb Raider"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d402c52f0312",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:70c5b1ded13eb692"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Trailblazer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7990ac57575e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:a6011a6a2c9559a9"
+   ]
+  },
+  {
+   "adds": [
+    "Skyship Plunderer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c088bb36eda5",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:f9554a355a681f56"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Pirates"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d60d899315e9",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:0d60a43b13def480"
+   ]
+  },
+  {
+   "adds": [
+    "Captain of Umbar"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c66d72f309bd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4b39f057e5ab",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:f600f13606abcd49"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3e0f84bb3516",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:22b78a21fb3ca947"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Corsair"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a0741d41fa4e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:977523a18623446e"
+   ]
+  },
+  {
+   "adds": [
+    "Rigging Runner"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6085be11e320",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:24f5a12b846b866b"
+   ]
+  },
+  {
+   "adds": [
+    "Keen Buccaneer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9f59d2e0c003",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deadeye Brawler"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:90158d268db7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grasping Scoundrel"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:139bfaac8759",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:71d085fde1c9bb34"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Aerialist"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f658109c3dc7",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:a38cb06b66bbf86a"
+   ]
+  },
+  {
+   "adds": [
+    "Marauding Looter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5bec94e08a39",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pirate Ship"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6175bedcf3a1",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:bd193b440c89147f"
+   ]
+  },
+  {
+   "adds": [
+    "Skyship Buccaneer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:308d5cb9d7b8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gorehorn Raider"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:32972e184b0a",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:6883e5729cf81bae"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Buccaneer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d62020f3acde",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:9b10deb8b0d667e4"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Swashbuckler"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e0e9f2edf074",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:7d7761eb5176b34e"
+   ]
+  },
+  {
+   "adds": [
+    "Kukemssa Pirates"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bd9f82ac11f5",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:df6783086fe74b62"
+   ]
+  },
+  {
+   "adds": [
+    "Rowdy Crew"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:816eea680c84",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b88cd023a84ca2c0"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Looter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:545a1ded1c9c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Storm Fleet Spy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2def2633645e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Sentry"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:03180e24f294",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:5838ac60a21b66b4"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Explorer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3fbc917e6ec8",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:fed8582be9ff3cf3"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Rig-Hauler"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c4d5d59c99e9",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:603b1c2da8f0fa79"
+   ]
+  },
+  {
+   "adds": [
+    "Swab Goblin"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:95b01b650ae6",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:762709032373562a"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Pyromancer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:05c30068386f",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:769662b30a7afa15"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Cutthroat"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9176e44608d5",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:c92dc70d7e7185f7"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Firebrand"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e9a616ac1d13",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:e6b79fa99f31a6da"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Scout"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d612aba7bc2f",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:910a5a2750b7872d"
+   ]
+  },
+  {
+   "adds": [
+    "Stardew Valley"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:65619ab87429",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:efd66af5cadfa1a6"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Castaways"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3fc556b30b43",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:75aa1a7135c4eeb8"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Researcher"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f637ed51c7d6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dinosaur Hunter"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d1b25bd6bd87",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:86e6bb237f52264b"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Merchant"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5da62a2a521d",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:5aaa0ff902ddb8b2"
+   ]
+  },
+  {
+   "adds": [
+    "Vraska, Betrayal's Sting"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6ee15921450e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:2460264f802af35a"
+   ]
+  },
+  {
+   "adds": [
+    "Glittering Stockpile"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:71ad508b7766",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:ced8b4da1273222b"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a68dfa299a48",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:8562f3e238417709"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6491d5327c24",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:3cdb989f0678e813"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d9bdad1f9bbf",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:9ab49b59affaf229"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a29c272dda12",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:65b5ef1c991fc222"
+   ]
+  },
+  {
+   "adds": [
+    "Goldhound"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4e27dcc89e88",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4a613aba0243ef03"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f22338cf2bc7",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:49421ca8639f40ed"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:249e2dff4438",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:7112cea162a8674b"
+   ]
+  },
+  {
+   "adds": [
+    "Song-Mad Treachery // Song-Mad Ruins"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:cdad7995efca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Involuntary Employment"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:925ee4ad2dac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Discreet Retreat"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0e2957888245",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:a30e4c007d1859a8"
+   ]
+  },
+  {
+   "adds": [
+    "Korvold and the Noble Thief"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ddc83e6add38",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:fba4d992c2cdc3f2"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Treasure"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:82c66fcbd1cc",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:764470229056cd13"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b8bd97b79d94",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:b093081c0cf212bf"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b5ec3629c519",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:4598ef4081fa0d7b"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:98912ea16e04",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:2859ba9f3cc1d512"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:cbb12908319e",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:291758c5b9084da9"
+   ]
+  },
+  {
+   "adds": [
+    "Mimic"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:96c837708c2b",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:6ded97bdd7200f8e"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Mimic"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:961c25ad8576",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:5597e8eaa4fd01c6"
+   ]
+  },
+  {
+   "adds": [
+    "Ice Cauldron"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:48d7830de85c",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:2f6aed901cf84f6c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1e4f09e653b4",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:d2d5a6d00d2537b7"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9bafabe53578",
+   "tests": [
+    "test:don-andres-the-renegade:goldfish:dc65932ccbf7c32e"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:don-andres-the-renegade:goldfish:493c2ba830b2a9c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0fbbae69d8302981",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4d9d571780527456",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:72e1861798cb5705",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0f29d30a822a39c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:37597d77bbb01ce8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:a09547672c2880b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:6f8522bd23470373",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:2cb26cb0fe3b25e6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:f8769709ab0d6ba4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:3816388d920c2e5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0b5d7f128a511e8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:f59661bcb6838526",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:ff4e069c85f1f86d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:5932be1ea3560132",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:fbe2cc5cd47bda49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:862758d9277b3e29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:6d08eb9bce317f9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:7d2ba87be4603579",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:1b838bb7a012283d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:038fa3dcae64c0e3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:7d7bf2c2f551db15",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:bffd80f21eb8071e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:073a8fa6e573713e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0d66d3a7a87a8926",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4eb15bc58526538a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:ceca5dd69de673aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:d11901823931aa90",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:a6dc81fe7d65ea3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4eed76d17e7c5e39",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:bb628d26c9b2987f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:021be65299bba736",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:8af4b70baddc8c7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0efa122520ddae8c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:9d4fccfd0ebc310c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:03f78792a8de0245",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:3b8391bba60b9eb9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:63bdaf9b1954d0de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e7139e54a968e976",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e35d9eaf4553289c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:ef44803b0bec81f8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:928f7cdc4126e387",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:88b8cfca3df7e981",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:2ed588422bf465ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:c8eb8c8f0556d7ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4486062958b252e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b572e9b4b92a092d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:61d710bb1d6e78ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b835b7e1f3173dea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:a800c31ba05da35f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:09a71a2c817860c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:56c653363685aeec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:c74a315f561469b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:bddc14f6773ff0f0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:aa1fde3f4160d555",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b1bfd0a76b4e41c5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e3c7524bc05e4d19",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:1c8c2fb01c592ac8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:53ee6e70fefb6a6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:99e2132dd59f85e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e84dc17434f88723",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0ca1b52dee3a031a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:d4e1e992cdc7c8a0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:1392efbc46e3cc5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:1723001e919751ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:23a6f794ca757969",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:100f0ba2081723ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:61605160b4a499b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:91d1e066e934bebf",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:467d0b8cf4e041c0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4e4d95fdb0e2ba95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e6658faaae6bc63a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:6123f0f025aaa70d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:32a9b2ab4c6f197d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:9929fd17b85bb7cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:581765aa29b9d234",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b1a6cdcf1f4f5edc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:1febb2784aaf5792",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:1be89908ec06fca9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:61a9226fb20e7d33",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:70a9d128a63d4327",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:45093a836da3b0eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:c326141995227ec6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:38e4efafa741cbde",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e34f184543d49e6d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e06eae38a94267db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:aab5c0489dc3e318",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:ec40d86f1222d66c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:852f4efe0a7b9a41",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:79926dcd2563adb7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4e01119cbd1c2fbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:3e0a018c4f682dce",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b7eb4408c39b3e48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:40915634a368f973",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:f905d1f3134f74b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:514555625dc51e74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:d4e89818073e1694",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:8254d0d1ec094d92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:59c8dedd65544020",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:cd2d33caef73fa35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:60ddf0c7aa8875b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e6da167fbcf1f9cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:520fb47bef9be8c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:85528f8e9bea9055",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0d0ce5ddb3a1141c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:10a46be470b1cd90",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:68b64cd190d63ea6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:8e41fd01b44453d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:10179114b2329460",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:9c77d4a300e45fe3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:eaee8172bbd62d76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:70c5b1ded13eb692",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:a6011a6a2c9559a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:f9554a355a681f56",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:0d60a43b13def480",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:f600f13606abcd49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:22b78a21fb3ca947",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:977523a18623446e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:24f5a12b846b866b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:71d085fde1c9bb34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:a38cb06b66bbf86a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:bd193b440c89147f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:6883e5729cf81bae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:9b10deb8b0d667e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:7d7761eb5176b34e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:df6783086fe74b62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b88cd023a84ca2c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:5838ac60a21b66b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:fed8582be9ff3cf3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:603b1c2da8f0fa79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:762709032373562a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:769662b30a7afa15",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:c92dc70d7e7185f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:e6b79fa99f31a6da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:910a5a2750b7872d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:efd66af5cadfa1a6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:75aa1a7135c4eeb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:86e6bb237f52264b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:5aaa0ff902ddb8b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:2460264f802af35a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:ced8b4da1273222b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:8562f3e238417709",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:3cdb989f0678e813",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:9ab49b59affaf229",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:65b5ef1c991fc222",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4a613aba0243ef03",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:49421ca8639f40ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:7112cea162a8674b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:a30e4c007d1859a8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:fba4d992c2cdc3f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:764470229056cd13",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:b093081c0cf212bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:4598ef4081fa0d7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:2859ba9f3cc1d512",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:291758c5b9084da9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:6ded97bdd7200f8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:5597e8eaa4fd01c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:2f6aed901cf84f6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:d2d5a6d00d2537b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:don-andres-the-renegade:goldfish:dc65932ccbf7c32e",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

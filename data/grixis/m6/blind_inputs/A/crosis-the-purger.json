@@ -1,0 +1,3801 @@
+{
+ "candidates": [
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:e8018a879df4"
+    },
+    "swap": "swap:crosis-the-purger:m5:cf84655f0ea9"
+   }
+  },
+  {
+   "card": "Painful Quandary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Quandary",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Painful Quandary",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:5bc50b7ffde7"
+    },
+    "swap": "swap:crosis-the-purger:m5:ae9546367ff9"
+   }
+  },
+  {
+   "card": "Sangromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sangromancer",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sangromancer",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:5d0140f7f5ae"
+    },
+    "swap": "swap:crosis-the-purger:m5:d80ef6253e78"
+   }
+  },
+  {
+   "card": "Cruel Ultimatum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:86b87bc0dc4f"
+    },
+    "swap": "swap:crosis-the-purger:m5:612c43f1c5ab"
+   }
+  },
+  {
+   "card": "Megrim",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Megrim",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:87671c4e2092"
+    },
+    "swap": "swap:crosis-the-purger:m5:ec342d122fb5"
+   }
+  },
+  {
+   "card": "Perplex",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Perplex",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:e8d40a467411"
+   }
+  },
+  {
+   "card": "Raiders' Wake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raiders' Wake",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raiders' Wake",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:9c8f06281f91"
+    },
+    "swap": "swap:crosis-the-purger:m5:118476449844"
+   }
+  },
+  {
+   "card": "Hypnotic Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hypnotic Specter",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hypnotic Specter",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:9bbcf0bb3787"
+    },
+    "swap": "swap:crosis-the-purger:m5:b123536f7385"
+   }
+  },
+  {
+   "card": "Blazing Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Specter",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blazing Specter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:9203b033eb05"
+    },
+    "swap": "swap:crosis-the-purger:m5:7a6b1860885a"
+   }
+  },
+  {
+   "card": "Scythe Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scythe Specter",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scythe Specter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:0a498a78176e"
+    },
+    "swap": "swap:crosis-the-purger:m5:9e7888256854"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:7d4c4b454eb1"
+   }
+  },
+  {
+   "card": "Abyssal Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abyssal Specter",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abyssal Specter",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:32c592e7852b"
+    },
+    "swap": "swap:crosis-the-purger:m5:a287ce363195"
+   }
+  },
+  {
+   "card": "Dimir Cutpurse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Cutpurse",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Cutpurse",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:3527a83b0caf"
+    },
+    "swap": "swap:crosis-the-purger:m5:b53f6328467d"
+   }
+  },
+  {
+   "card": "Guul Draz Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guul Draz Specter",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guul Draz Specter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:e231cd4ea2ad"
+    },
+    "swap": "swap:crosis-the-purger:m5:ee18348ee844"
+   }
+  },
+  {
+   "card": "Doomsday Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doomsday Specter",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Doomsday Specter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:150f03e2fdc9"
+    },
+    "swap": "swap:crosis-the-purger:m5:79c138decbe2"
+   }
+  },
+  {
+   "card": "Urgoros, the Empty One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urgoros, the Empty One",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urgoros, the Empty One",
+       "cut": "Tinybones, Trinket Thief"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:de0970f63987"
+    },
+    "swap": "swap:crosis-the-purger:m5:8b09903d1ef8"
+   }
+  },
+  {
+   "card": "Liliana's Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana's Specter",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:b3026842526c"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:435ae9309bb1"
+   }
+  },
+  {
+   "card": "The Haunt of Hightower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Haunt of Hightower",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Haunt of Hightower",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:0b8ae28bb481"
+    },
+    "swap": "swap:crosis-the-purger:m5:ad5f35458cdb"
+   }
+  },
+  {
+   "card": "Nightveil Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightveil Specter",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightveil Specter",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:bd0b0c949a5d"
+    },
+    "swap": "swap:crosis-the-purger:m5:f42a0566971a"
+   }
+  },
+  {
+   "card": "Crosis's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis's Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:a32c47d8f83d"
+   }
+  },
+  {
+   "card": "Quest for the Nihil Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quest for the Nihil Stone",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quest for the Nihil Stone",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:d675f7e009a1"
+    },
+    "swap": "swap:crosis-the-purger:m5:0b9c93a1c9d0"
+   }
+  },
+  {
+   "card": "Telepathy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Telepathy",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Telepathy",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:b4498fe0f19a"
+    },
+    "swap": "swap:crosis-the-purger:m5:1d2d1022f94b"
+   }
+  },
+  {
+   "card": "Entropic Battlecruiser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Entropic Battlecruiser",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Entropic Battlecruiser",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:813ca3b56b00"
+    },
+    "swap": "swap:crosis-the-purger:m5:e3a5714df806"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Kroxa, Titan of Death's Hunger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:16d7ca161b70"
+    },
+    "swap": "swap:crosis-the-purger:m5:1f0bc34441f9"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:de8d20e34e59"
+   }
+  },
+  {
+   "card": "Crosis's Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis's Catacombs",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:d43886ef322c"
+   }
+  },
+  {
+   "card": "Skull Rend",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skull Rend",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:b7b11562c08c"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Thief of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thief of Sanity",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thief of Sanity",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:a2d421b460e9"
+    },
+    "swap": "swap:crosis-the-purger:m5:c4a0908c7d6a"
+   }
+  },
+  {
+   "card": "Blightning",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blightning",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:0989d6fede89"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:0138a3bad36d"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:70236b2fecfa"
+   }
+  },
+  {
+   "card": "Whispering Madness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispering Madness",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:1d02222c4183"
+   }
+  },
+  {
+   "card": "Magus of the Wheel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Wheel",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:97b1720ba4ab"
+   }
+  },
+  {
+   "card": "Rix Maadi, Dungeon Palace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rix Maadi, Dungeon Palace",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:b2a4dda04370"
+   }
+  },
+  {
+   "card": "Pain Magnification",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pain Magnification",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:17441c4d8dc1"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shrieking Affliction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shrieking Affliction",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shrieking Affliction",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:9c876a013d81"
+    },
+    "swap": "swap:crosis-the-purger:m5:638ca51304ed"
+   }
+  },
+  {
+   "card": "Duress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Duress",
+       "cut": "Dark Deal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Duress",
+       "cut": "Bottomless Pit"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:917560cf7d68"
+    },
+    "swap": "swap:crosis-the-purger:m5:20a0ce5eaa81"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:d06298d2a2b7"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:eb868ffc8fec"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:084f8d32f693"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:013ede3de0ec"
+   }
+  },
+  {
+   "card": "Dragon Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon Mage",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:69e9cc1f033e"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:f2a3cc5c7751"
+   }
+  },
+  {
+   "card": "Angrath, the Flame-Chained",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Angrath, the Flame-Chained",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Angrath, the Flame-Chained",
+       "cut": "Sword of Feast and Famine"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:498af3a33b58"
+    },
+    "swap": "swap:crosis-the-purger:m5:3081afe1aaba"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:b2efcc3ad104"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:345c9e4fd4e5"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:b73b158acbf8"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:8751331cf66b"
+   }
+  },
+  {
+   "card": "Specter's Shroud",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Specter's Shroud",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:74bc009cd6fe"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:b636b0dde1cd"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:41cb8fecd369"
+   }
+  },
+  {
+   "card": "Soul Manipulation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soul Manipulation",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:fab3ba915412"
+   }
+  },
+  {
+   "card": "Obelisk of Grixis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Obelisk of Grixis",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:a54ea6788fd5"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:62454885dd78"
+   }
+  },
+  {
+   "card": "Torment of Hailfire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Torment of Hailfire",
+       "cut": "Dark Deal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:acbf0c68fc37"
+   }
+  },
+  {
+   "card": "Jace's Archivist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jace's Archivist",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:f6182ff6146d"
+   }
+  },
+  {
+   "card": "Court of Ambition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:b40a76b4ae30"
+   }
+  },
+  {
+   "card": "Lavaborn Muse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lavaborn Muse",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:a8d2ec29d0b9"
+   }
+  },
+  {
+   "card": "Rankle, Master of Pranks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rankle, Master of Pranks",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:2e5c64b173e4"
+   }
+  },
+  {
+   "card": "Aggravated Assault",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aggravated Assault",
+       "cut": "Kroxa, Titan of Death's Hunger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:d6efdb7f829a"
+    },
+    "swap": "swap:crosis-the-purger:m5:c9940c5a1dcd"
+   }
+  },
+  {
+   "card": "Bloodchief Ascension",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodchief Ascension",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:ec1bc394c167"
+   }
+  },
+  {
+   "card": "Hellkite Charger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hellkite Charger",
+       "cut": "Kroxa, Titan of Death's Hunger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:c8130f0f2d44"
+    },
+    "swap": "swap:crosis-the-purger:m5:8951bb972736"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:1310c240dd98"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherize",
+       "cut": "Damnation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:483bdbd7192e"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Damnation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:e1c3e54f4a91"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:0ba8ff970b2d"
+   }
+  },
+  {
+   "card": "Hollow Marauder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hollow Marauder",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:56946a7800f4"
+   }
+  },
+  {
+   "card": "Narset, Parter of Veils",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Bident of Thassa",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bident of Thassa",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:ab8691154cac"
+   }
+  },
+  {
+   "card": "Reconnaissance Mission",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reconnaissance Mission",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:4a32c8e8a773"
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:41ff2e0533e9"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:358e00eef664"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:b75057874278"
+   }
+  },
+  {
+   "card": "Ajani Unrelenting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ajani Unrelenting",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:6e71d2ed71b7"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:99623d24c67b"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:394a6fd628fa"
+   }
+  },
+  {
+   "card": "Liliana Vess",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana Vess",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:53eb3e2a1de6"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:1484290a774c"
+   }
+  },
+  {
+   "card": "Reforge the Soul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reforge the Soul",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:2cbb7827033a"
+   }
+  },
+  {
+   "card": "The Echoverse Fulcrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Echoverse Fulcrum",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:072d74e51feb"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Marsh Flats"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:9ae257f7c550"
+   }
+  },
+  {
+   "card": "Silumgar, the Drifting Death",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Silumgar, the Drifting Death",
+       "cut": "Tergrid, God of Fright // Tergrid's Lantern"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:a0fd05f3f42f"
+   }
+  },
+  {
+   "card": "Crux of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:3d5f5a2d5239"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:1cbcb5e5de1d"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2286-3221"
+        ]
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Teferi's Puzzle Box"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:dca87422555e"
+    },
+    "swap": "swap:crosis-the-purger:m5:d140dfda9ed6"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:e6f8cf053a32"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2286-3221"
+        ]
+       },
+       "add": "Requiem Monolith",
+       "cut": "Teferi's Puzzle Box"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:31da3ad2954b"
+    },
+    "swap": "swap:crosis-the-purger:m5:928db9b246f3"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Orcish Bowmasters"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:crosis-the-purger:m5:240746f79b30"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Kroxa, Titan of Death's Hunger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:eb014e7ec6d8"
+    },
+    "swap": "swap:crosis-the-purger:m5:b91299eb7c7e"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Kroxa, Titan of Death's Hunger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:793c5cdcdaa8"
+    },
+    "swap": "swap:crosis-the-purger:m5:b22745ae84e9"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Orcish Bowmasters"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Kroxa, Titan of Death's Hunger"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:c03bcbb82307"
+    },
+    "swap": "swap:crosis-the-purger:m5:7c310fcbd750"
+   }
+  },
+  {
+   "card": "Grindstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grindstone",
+       "cut": "Lotus Petal"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "2286-3221"
+        ]
+       },
+       "add": "Grindstone",
+       "cut": "Teferi's Puzzle Box"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:crosis-the-purger:m5:2b94d744c02a"
+    },
+    "swap": "swap:crosis-the-purger:m5:b9c649873062"
+   }
+  }
+ ],
+ "deck_id": "Crosis__the_Purger",
+ "list_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+ "slug": "crosis-the-purger",
+ "swaps": [
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:crosis-the-purger:m5:cf84655f0ea9"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:e8018a879df4"
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:ae9546367ff9"
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:5bc50b7ffde7"
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:d80ef6253e78"
+  },
+  {
+   "adds": [
+    "Sangromancer"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:5d0140f7f5ae"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:612c43f1c5ab"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:crosis-the-purger:m5:86b87bc0dc4f"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:ec342d122fb5"
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:87671c4e2092"
+  },
+  {
+   "adds": [
+    "Perplex"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:e8d40a467411"
+  },
+  {
+   "adds": [
+    "Raiders' Wake"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:118476449844"
+  },
+  {
+   "adds": [
+    "Raiders' Wake"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:9c8f06281f91"
+  },
+  {
+   "adds": [
+    "Hypnotic Specter"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:b123536f7385"
+  },
+  {
+   "adds": [
+    "Hypnotic Specter"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:9bbcf0bb3787"
+  },
+  {
+   "adds": [
+    "Blazing Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:7a6b1860885a"
+  },
+  {
+   "adds": [
+    "Blazing Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:9203b033eb05"
+  },
+  {
+   "adds": [
+    "Scythe Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:9e7888256854"
+  },
+  {
+   "adds": [
+    "Scythe Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:0a498a78176e"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:7d4c4b454eb1"
+  },
+  {
+   "adds": [
+    "Abyssal Specter"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:a287ce363195"
+  },
+  {
+   "adds": [
+    "Abyssal Specter"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:32c592e7852b"
+  },
+  {
+   "adds": [
+    "Dimir Cutpurse"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b53f6328467d"
+  },
+  {
+   "adds": [
+    "Dimir Cutpurse"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:crosis-the-purger:m5:3527a83b0caf"
+  },
+  {
+   "adds": [
+    "Guul Draz Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:ee18348ee844"
+  },
+  {
+   "adds": [
+    "Guul Draz Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:e231cd4ea2ad"
+  },
+  {
+   "adds": [
+    "Doomsday Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:79c138decbe2"
+  },
+  {
+   "adds": [
+    "Doomsday Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:150f03e2fdc9"
+  },
+  {
+   "adds": [
+    "Urgoros, the Empty One"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:8b09903d1ef8"
+  },
+  {
+   "adds": [
+    "Urgoros, the Empty One"
+   ],
+   "cuts": [
+    "Tinybones, Trinket Thief"
+   ],
+   "id": "swap:crosis-the-purger:m5:de0970f63987"
+  },
+  {
+   "adds": [
+    "Liliana's Specter"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:b3026842526c"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:435ae9309bb1"
+  },
+  {
+   "adds": [
+    "The Haunt of Hightower"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:ad5f35458cdb"
+  },
+  {
+   "adds": [
+    "The Haunt of Hightower"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:0b8ae28bb481"
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:f42a0566971a"
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:bd0b0c949a5d"
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:a32c47d8f83d"
+  },
+  {
+   "adds": [
+    "Quest for the Nihil Stone"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:0b9c93a1c9d0"
+  },
+  {
+   "adds": [
+    "Quest for the Nihil Stone"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:d675f7e009a1"
+  },
+  {
+   "adds": [
+    "Telepathy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:1d2d1022f94b"
+  },
+  {
+   "adds": [
+    "Telepathy"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:b4498fe0f19a"
+  },
+  {
+   "adds": [
+    "Entropic Battlecruiser"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:e3a5714df806"
+  },
+  {
+   "adds": [
+    "Entropic Battlecruiser"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:813ca3b56b00"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:1f0bc34441f9"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:16d7ca161b70"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:de8d20e34e59"
+  },
+  {
+   "adds": [
+    "Crosis's Catacombs"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:d43886ef322c"
+  },
+  {
+   "adds": [
+    "Skull Rend"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:b7b11562c08c"
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:c4a0908c7d6a"
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:a2d421b460e9"
+  },
+  {
+   "adds": [
+    "Blightning"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:0989d6fede89"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:0138a3bad36d"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:70236b2fecfa"
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:1d02222c4183"
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:97b1720ba4ab"
+  },
+  {
+   "adds": [
+    "Rix Maadi, Dungeon Palace"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:b2a4dda04370"
+  },
+  {
+   "adds": [
+    "Pain Magnification"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:17441c4d8dc1"
+  },
+  {
+   "adds": [
+    "Shrieking Affliction"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:638ca51304ed"
+  },
+  {
+   "adds": [
+    "Shrieking Affliction"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:9c876a013d81"
+  },
+  {
+   "adds": [
+    "Duress"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:20a0ce5eaa81"
+  },
+  {
+   "adds": [
+    "Duress"
+   ],
+   "cuts": [
+    "Bottomless Pit"
+   ],
+   "id": "swap:crosis-the-purger:m5:917560cf7d68"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:d06298d2a2b7"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:eb868ffc8fec"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:084f8d32f693"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:013ede3de0ec"
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:69e9cc1f033e"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:f2a3cc5c7751"
+  },
+  {
+   "adds": [
+    "Angrath, the Flame-Chained"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:3081afe1aaba"
+  },
+  {
+   "adds": [
+    "Angrath, the Flame-Chained"
+   ],
+   "cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "id": "swap:crosis-the-purger:m5:498af3a33b58"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:b2efcc3ad104"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:345c9e4fd4e5"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:b73b158acbf8"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:8751331cf66b"
+  },
+  {
+   "adds": [
+    "Specter's Shroud"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:74bc009cd6fe"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b636b0dde1cd"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:41cb8fecd369"
+  },
+  {
+   "adds": [
+    "Soul Manipulation"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:crosis-the-purger:m5:fab3ba915412"
+  },
+  {
+   "adds": [
+    "Obelisk of Grixis"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:a54ea6788fd5"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:62454885dd78"
+  },
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Dark Deal"
+   ],
+   "id": "swap:crosis-the-purger:m5:acbf0c68fc37"
+  },
+  {
+   "adds": [
+    "Jace's Archivist"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:f6182ff6146d"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b40a76b4ae30"
+  },
+  {
+   "adds": [
+    "Lavaborn Muse"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:a8d2ec29d0b9"
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:2e5c64b173e4"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:c9940c5a1dcd"
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:d6efdb7f829a"
+  },
+  {
+   "adds": [
+    "Bloodchief Ascension"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:ec1bc394c167"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:8951bb972736"
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:c8130f0f2d44"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:1310c240dd98"
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Damnation"
+   ],
+   "id": "swap:crosis-the-purger:m5:483bdbd7192e"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Damnation"
+   ],
+   "id": "swap:crosis-the-purger:m5:e1c3e54f4a91"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:0ba8ff970b2d"
+  },
+  {
+   "adds": [
+    "Hollow Marauder"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:56946a7800f4"
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:ab8691154cac"
+  },
+  {
+   "adds": [
+    "Reconnaissance Mission"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:4a32c8e8a773"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:41ff2e0533e9"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:358e00eef664"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:b75057874278"
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:6e71d2ed71b7"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:99623d24c67b"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:394a6fd628fa"
+  },
+  {
+   "adds": [
+    "Liliana Vess"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:crosis-the-purger:m5:53eb3e2a1de6"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:1484290a774c"
+  },
+  {
+   "adds": [
+    "Reforge the Soul"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:2cbb7827033a"
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:072d74e51feb"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Marsh Flats"
+   ],
+   "id": "swap:crosis-the-purger:m5:9ae257f7c550"
+  },
+  {
+   "adds": [
+    "Silumgar, the Drifting Death"
+   ],
+   "cuts": [
+    "Tergrid, God of Fright // Tergrid's Lantern"
+   ],
+   "id": "swap:crosis-the-purger:m5:a0fd05f3f42f"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:3d5f5a2d5239"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:1cbcb5e5de1d"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:d140dfda9ed6"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "id": "swap:crosis-the-purger:m5:dca87422555e"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:e6f8cf053a32"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:crosis-the-purger:m5:928db9b246f3"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "id": "swap:crosis-the-purger:m5:31da3ad2954b"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:240746f79b30"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:b91299eb7c7e"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:eb014e7ec6d8"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:b22745ae84e9"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:793c5cdcdaa8"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:crosis-the-purger:m5:7c310fcbd750"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Kroxa, Titan of Death's Hunger"
+   ],
+   "id": "swap:crosis-the-purger:m5:c03bcbb82307"
+  },
+  {
+   "adds": [
+    "Grindstone"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:crosis-the-purger:m5:b9c649873062"
+  },
+  {
+   "adds": [
+    "Grindstone"
+   ],
+   "cuts": [
+    "Teferi's Puzzle Box"
+   ],
+   "id": "swap:crosis-the-purger:m5:2b94d744c02a"
+  }
+ ]
+}

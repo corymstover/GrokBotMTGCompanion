@@ -1,0 +1,4085 @@
+{
+ "deck_id": "Nekusar__the_Mindrazer",
+ "list_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "slug": "nekusar-the-mindrazer",
+ "swaps": [
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:711b24342960",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4537bbdc6f3ee4ef"
+   ]
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6a817b35b528",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:dd676f31d4e40673"
+   ]
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Hate-Twisted"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5064b50ddb5d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2edd5bd46e14f65b"
+   ]
+  },
+  {
+   "adds": [
+    "Forced Fruition"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4ac22e7f7c0c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Forced Fruition"
+   ],
+   "cuts": [
+    "Echo of Eons"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1f8ace964146",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:028463f9330f1232"
+   ]
+  },
+  {
+   "adds": [
+    "Howling Mine"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:56f3a130219b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Howling Mine"
+   ],
+   "cuts": [
+    "Echo of Eons"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3f74a192b1cf",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:849cc3ad6df0ce08"
+   ]
+  },
+  {
+   "adds": [
+    "Dictate of Kruphix"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:663c5a2f17e8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dictate of Kruphix"
+   ],
+   "cuts": [
+    "Echo of Eons"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2fd028fa1e37",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:8815cb7d30ce4e05"
+   ]
+  },
+  {
+   "adds": [
+    "Master of the Feast"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3db0b15acf09",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prosperity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ce8770e87c13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c5c760b70379",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ac26c5ad2d20bd0b"
+   ]
+  },
+  {
+   "adds": [
+    "Temple Bell"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2f53d3253108",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:694795b74f50",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:268264ca42d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Faerie Mastermind"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:80b114ccf0a4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seizan, Perverter of Truth"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:47377f5fcb81",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Megrim"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:97556a201d7d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:bc2b6481e26e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Ghyrson Starn, Kelermorph"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b86538ae857a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:63626e522ffa21a0"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:228c24619dbc",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:8517df42c07881f1"
+   ]
+  },
+  {
+   "adds": [
+    "Font of Mythos"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f38ffa35d336",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2aab524515b5cb27"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Fate"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:24207c690e04",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:af7f9d36c8d8e6a7"
+   ]
+  },
+  {
+   "adds": [
+    "Vision Skeins"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2ad33d725e8b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:304e0d4b9ed17d07"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:069e662bbba2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baleful Mastery"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:512fe5c1a76e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a7e4e4edb0e3",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:d9ceda20454571c2"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:339098d6838d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3e7d3699f63dfe62"
+   ]
+  },
+  {
+   "adds": [
+    "Time Reversal"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:018242538475",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:7d2d6007db741145"
+   ]
+  },
+  {
+   "adds": [
+    "Solphim, Mayhem Dominus"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:085448b73606",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cce5bf4947c2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9363ee2072a2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:58b3b2c1d01d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:0d6ba0445197ce16"
+   ]
+  },
+  {
+   "adds": [
+    "Jace Beleren"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5c1dbbac42d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1872cd441553",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3474234c1af02437"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:00044bb5e5cb",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2c5a8638ebccd192"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Fracture"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:51be49c86473",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:a423f41bcec24230"
+   ]
+  },
+  {
+   "adds": [
+    "Incendiary Command"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:576d6d71a4b2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0007af92b04d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e7185edf975b265a"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:093768f21690",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:5447555af2904a5c"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0953efd3b77c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4b9da4a1e3edf873"
+   ]
+  },
+  {
+   "adds": [
+    "Folio of Fancies"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:619f18945c94",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:16a6d13a902a361f"
+   ]
+  },
+  {
+   "adds": [
+    "Whirlpool Warrior"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d480bfa434ad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b0895da64c3c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:17c536085c9a7717"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8822871c7461",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:428c257d306d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b55090ba9a27d6ec"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5cea19176247",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:f100006ea0703c82"
+   ]
+  },
+  {
+   "adds": [
+    "Damnable Pact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4fa62564f98e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Day's Undoing"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:10138750a421",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:bd95f55dcc5b141e"
+   ]
+  },
+  {
+   "adds": [
+    "Phyresis"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:72c610f7a1d4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e409b3da1090a2ce"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0e2fcbaa438f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:6501e2b501fb5d01"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0ece1960c879",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4607a8b9d9d5972b"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7f944fad66b1",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b6afb7eec26dbbb3"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6b4b3aa848da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cerebral Vortex"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b2f14796c557",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ca52c290c8026b28"
+   ]
+  },
+  {
+   "adds": [
+    "Chasm Skulker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ec617c1ce9c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Time Spiral"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b53e1f4a125f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:6af70c59fa3c5e14"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e691c988a1f4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:fa30dc7699989420"
+   ]
+  },
+  {
+   "adds": [
+    "Commit // Memory"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:07345dbbe878",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gixian Puppeteer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:511b7bf59507",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f062dd2b1e7e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:eb7a70c16061013e"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:102616893387",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b97edf5b2f46c624"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Ghastlord"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:95c765f4960b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:84b90eb482fe2f5e"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:dc1826b47eaa",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:29a06cf83fbae302"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:08457ff67535",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:7fef5922de34681f"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ff6432aaa904",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2b0824760a96fc38"
+   ]
+  },
+  {
+   "adds": [
+    "Minds Aglow"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3578b7c53a81",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skyscribing"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0a84b3d96602",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6ceb191ec10c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:f85b5997ec77d923"
+   ]
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e06482fdc207",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e6d605822f5c9719"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4ceb3fbe5c52",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e460b756c9a77a0f"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0c6aec6106ae",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:28c73e805261b186"
+   ]
+  },
+  {
+   "adds": [
+    "Fascination"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4b05b5f53535",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Well of Ideas"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d208937d5756",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2a0ac311badd0fec"
+   ]
+  },
+  {
+   "adds": [
+    "Reflecting Pool"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:caff8b008ef1",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:d1ca3e980effb8f6"
+   ]
+  },
+  {
+   "adds": [
+    "Memory Jar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:27d501ca08da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:70f1b7a0785a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:10870c710cf473b0"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b797807fc9be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a96d2519b9fb",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ebbb97118672f052"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8187f6664f93",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:232a51af30a6bbc1"
+   ]
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7967834fd138",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:364a961bea3c6658"
+   ]
+  },
+  {
+   "adds": [
+    "Mindcrank"
+   ],
+   "cuts": [
+    "Scrawling Crawler"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8d520920d375",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:efb37cdf5367802d"
+   ]
+  },
+  {
+   "adds": [
+    "Otherworld Atlas"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:382a978d864c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Timetwister"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9005d0a135d7",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ee8630771789a3bd"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Zenith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:42a848bb1933",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5ca158402a27",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6e0782983399",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:55b362c33dfa7868"
+   ]
+  },
+  {
+   "adds": [
+    "Struggle for Project Purity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e5fa22725b5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cb22dd90ca95",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:1fad204443812063"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Jar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2538edce2bcb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ce7c238495d1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:713da20642d9",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:64ee019a9b9220c6"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:194139ca840b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:171cf3d5ffa48e0c"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:94337c8d0b5e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:841ddc9a8c086e2f"
+   ]
+  },
+  {
+   "adds": [
+    "Insatiable Avarice"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:20d6e7375277",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:1911f02a21066298"
+   ]
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fa71d4b4e25f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:950c243b8197c32c"
+   ]
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1a47dd31bb22",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:26f03fec2444233c"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c718cc53a456",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ae3a83d1d605df77"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:880f74ec7508",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:9341e0f5a2495f29"
+   ]
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c900ad7dc3ac",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:79f8355c73f1459a"
+   ]
+  },
+  {
+   "adds": [
+    "Ophidian Eye"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c91d8b59f068",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:7cf727e8aa23d3ea"
+   ]
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b59ce855b06e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:1ebe4491852ec820"
+   ]
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5dbd243fc502",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:28ed27395026e8b5"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ff18aa39f506",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:04f2f4520352574e"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f3a29c967e3e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:feb82ebd1f03e582"
+   ]
+  },
+  {
+   "adds": [
+    "Scheming Silvertongue // Sign in Blood"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7d73b22b2613",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cc58839589cb",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3797d9141ec0d117"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7104fff71cdc",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:c21c8dab51bbdf64"
+   ]
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:967b11125c95",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:57f08448ca516bf5"
+   ]
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fe1abc5e1643",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:454cdfa783b822bd"
+   ]
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:31076cfe1d6d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:101f96d97bed8f62"
+   ]
+  },
+  {
+   "adds": [
+    "Tandem Lookout"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:034104ae6185",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3d1c8412bdb21b44"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:61e74e66dfe9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:acfc70e58c10",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:046c99bcc0ee1cb3"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Curiosity"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:35644b8f547c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b143bd45014ec270"
+   ]
+  },
+  {
+   "adds": [
+    "Ashling's Command"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:145f96178240",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:81d8f8773c4b2d87"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4ffe921e8dfb",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3c0a264fd0fd3b39"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:78d70565ed0a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b3d93544ed4327f5"
+   ]
+  },
+  {
+   "adds": [
+    "Asmodeus the Archfiend"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5358631bc041",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9038778d380d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:a57f3d434c8e3d71"
+   ]
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:280d5513d5b8",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:84ad8124d352e06e"
+   ]
+  },
+  {
+   "adds": [
+    "Naktamun Lorespinner // Wheel of Fortune"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:75a94b9d46a3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dirgur Focusmage // Braingeyser"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e59e5c64e530",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worldfire"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ad6ae0fa86da",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:a15cd9cd1d56a682"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8beb248e719c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2d14754c365e1f98"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:29b2a0fdc05b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:fd0f884d62d314de"
+   ]
+  },
+  {
+   "adds": [
+    "Ominous Harvest"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b4ac7a5a6719",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:2f6ca11aed6a96d0"
+   ]
+  },
+  {
+   "adds": [
+    "Cost of Brilliance"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:22f2b505596f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:737c59b14c317abd"
+   ]
+  },
+  {
+   "adds": [
+    "Armor Wars"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1a22232ecc50",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodline Recollector // Ancestral Craving"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d6e1978d3e5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:503e526e369b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:d3660c03dc7a4a73"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ac7a55678194",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ebaac34b315f2cd8"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b3820cac454f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:565922850cb6b28f"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c9493d617fc4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4066cd074cd3d70f"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fb97e4c5c32b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:f6083dff82556ee6"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7bd9e2b3948a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:099a060723f8f49a"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:488bcc1c8581",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:1a0d7cf5e6745fdb"
+   ]
+  },
+  {
+   "adds": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8a813ee0397f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:cd1ee6ea09a09a44"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:199780720db9",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:1a736c14ac6d74ec"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4a50416d2bd6",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:1e15d79c4a0a58d8"
+   ]
+  },
+  {
+   "adds": [
+    "Sapphire Charm"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:396d08ef6f0d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:71c01cf0d0e258b4"
+   ]
+  },
+  {
+   "adds": [
+    "Together as One"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:15a053b9e410",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reverent Howl"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:264de9e2a1d7",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:c2b15367b4298985"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:dbbafab4b28a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:89d7515814a2",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:8ebdaf81813ad344"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ce760af38640",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:37d0523b173ae9b9"
+   ]
+  },
+  {
+   "adds": [
+    "Manhole Cover"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3e7997a265fe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Winter Sky"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:264b5a9bdee4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:0a206808a5c0f42b"
+   ]
+  },
+  {
+   "adds": [
+    "Turtles in Time"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8a89c41f88fd",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e22de666cca7e397"
+   ]
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:12ed28fd32b0",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ec685f3bf7f5b225"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cef88ded75f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9e230e164f5c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b829d5942fc62a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:083cc777998e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3551fd6d768d516a"
+   ]
+  },
+  {
+   "adds": [
+    "Midnight Clock"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7a6e6a43fa6f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:c727a55b9ec61757"
+   ]
+  },
+  {
+   "adds": [
+    "Ral, Caller of Storms"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4adabdaf5fb7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Homesickness"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:427380273a40",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b41904b9820e642f"
+   ]
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:865151e2c0c7",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:853fc5d1687e3e3e"
+   ]
+  },
+  {
+   "adds": [
+    "Lion's Eye Diamond"
+   ],
+   "cuts": [
+    "Scrawling Crawler"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:bcfd866f3fd4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:57dd3af086506902"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:af575bc2af08",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:092ad4ea33237985"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7c6901b05108",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4376042cdc205dd7"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:43f969072cd0",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:9ca5860ad82dfa39"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, Wielder of Mysteries"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:651070a77dce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c0f3c4f5809e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:d09f8f84a9fc7ac4"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:94ac5b856689",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e10b6ef51ad9f8a1"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f0901d7a7c9f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:8ac3106441361687"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:550b8155838f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b75733e81033fd01"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:56c76a3e2dda",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:0d2ab358949bcde7"
+   ]
+  },
+  {
+   "adds": [
+    "Deep Analysis"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:808dd1f1da6b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:6606b4cb41cd5656"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin, the Spirit Dragon"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:712c388fc9cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:12a30983b2c4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:595375455d103a34"
+   ]
+  },
+  {
+   "adds": [
+    "Runaway Steam-Kin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:26d1c9dd99ad",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3b7c7d98230f02dd"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:07e35247c99b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b2ba68b929fa1ab8"
+   ]
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Core Augur"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:50335fc8e15c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a2e0b5848780",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:75fe504bf78957ec"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage's Charm"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:de3a2c84f7bd",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4d27a9a87e284d11"
+   ]
+  },
+  {
+   "adds": [
+    "Drown in Dreams"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2d21348879f8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rise of the Eldrazi"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d143e65ca829",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:5a9776e28aba349c"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0aa26158eaa4",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:134a56f5f0f7ff3a"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Scrawling Crawler"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9095642fc00f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:695ebf8979c25384"
+   ]
+  },
+  {
+   "adds": [
+    "Mind's Eye"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9302d27a2d27",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pact of the Serpent"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:13d8aa18f99c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d018d9ee73be",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:7e29f69c684edce2"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Wheel and Deal"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:54a30d85bf75",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ae923e20afb28495"
+   ]
+  },
+  {
+   "adds": [
+    "The Unagi of Kyoshi Island"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:728869f7025d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ancestral Vision"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0095f24bfd99",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3167e35d79e3f8de"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:91c1513732c5",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:555d76c7b26d5e8a"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:86dca15af4b5",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:61f5de15b98c71b5"
+   ]
+  },
+  {
+   "adds": [
+    "Spirit Water Revival"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7863e6e91cab",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:edf1f20ff69c31ad"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Pact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f958289a004b",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4ad6d39159ba8897"
+   ]
+  },
+  {
+   "adds": [
+    "Stroke of Genius"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a9281fa724cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodgift Demon"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:682b8e45115d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:6276dafb8b1302f5"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:12e658659de7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a418ebba2609",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:357177c2425638d8"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:61be40e82ac1",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:06216f30d2eb8b02"
+   ]
+  },
+  {
+   "adds": [
+    "Sazacap's Brew"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d6c870023f8a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:212a98e53775c71c"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6f9543690d6d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Compulsive Research"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:63ab0e6d2f7c",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:7ad580a989988ed2"
+   ]
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:98ff06df9cc3",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:84938bb50593c00e"
+   ]
+  },
+  {
+   "adds": [
+    "Brallin, Skyshark Rider"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5ec5c937dba9",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:886779992ab5be1c"
+   ]
+  },
+  {
+   "adds": [
+    "Trenzalore Clocktower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:30130ceef60a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:39847d3251501d97"
+   ]
+  },
+  {
+   "adds": [
+    "Ruin Grinder"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:9bfcfb06ab3f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Combat Tutorial"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3eaaf9be83af",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:6f0a2550f7093a5f"
+   ]
+  },
+  {
+   "adds": [
+    "Zurzoth, Chaos Rider"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:01a969a85c4b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aetherflux Conduit"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4a399efa8fb6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fell Stinger"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1b4df4cb0075",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:963f0971ebef",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:fe4ff0e14bc689f5"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4d6f76460de7",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:52aae92d89d7540a"
+   ]
+  },
+  {
+   "adds": [
+    "Howling Golem"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fe82a046d9e0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:adcbfca232d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Chaos Warp"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2de8cbf1a5c8",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:b2e3d9b2ed5257eb"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:4c53d84965de",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:695dab04c57eb6b5"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0339269e37d7",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4f8987331105d464"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3e2ed57894bc",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e6b1c35e425c4dcf"
+   ]
+  },
+  {
+   "adds": [
+    "Unstable Experiment"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a73e3b203c9d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:08ddd956a33b456d"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Insight"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:386a736e5127",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ob Nixilis, the Adversary"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:966356d9c375",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ecdb96948d70",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:a2f02aa822cd1ab7"
+   ]
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Niv-Mizzet, Parun"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f2158c2d6e23",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3f8aae1928b86119"
+   ]
+  },
+  {
+   "adds": [
+    "Etched Oracle"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f3c66a951768",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Monumental Corruption"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:702040d8cbc5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Storm Fleet Negotiator"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:127a8af3e7a1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Here Comes a New Hero!"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:97bc438b3e44",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Browbeat"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1535021388e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Friendly Teddy"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a8f39191f264",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:27c0da6b2601",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:da211ce1e2d735a8"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a5e1d40e1805",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ad19e5f9137bafdc"
+   ]
+  },
+  {
+   "adds": [
+    "Krav, the Unredeemed"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8e8587d99ead",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Channeled Force"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e89f40a02190",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:14054cfe8c60",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Foreboding Fruit"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:74d7833e59ff",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:54685a43b4a2b8d2"
+   ]
+  },
+  {
+   "adds": [
+    "Survey Mechan"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cc9806a3e336",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lore Broker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:19e12f36d324",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Step Between Worlds"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:419564193de2",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:029e5be7aaa85a59"
+   ]
+  },
+  {
+   "adds": [
+    "Game Plan"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5e0ac3704698",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:5c697255ac9cea50"
+   ]
+  },
+  {
+   "adds": [
+    "Caress of Phyrexia"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7d49a3e70c54",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:eee8db598a7c3749"
+   ]
+  },
+  {
+   "adds": [
+    "Dakra Mystic"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:37ac74ba2fe4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raphael's Technique"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f51c38457e99",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:fbd2fa86dc987d6a"
+   ]
+  },
+  {
+   "adds": [
+    "Stunning Reversal"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:0dd305d162ca",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:77e1e1e371a6b75b"
+   ]
+  },
+  {
+   "adds": [
+    "Braingeyser"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b0a809af2f4f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Eldritch Pact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c948b9463d72",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Clockwork Fox"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:1425c9be8a5b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Overflowing Insight"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:42872905cbfc",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:80907e82a5a5ea73"
+   ]
+  },
+  {
+   "adds": [
+    "Painful Lesson"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8935e465d013",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:33032d28cfffe3e0"
+   ]
+  },
+  {
+   "adds": [
+    "Whirlwind Technique"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:50f5f29533e1",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:c9a980156748282c"
+   ]
+  },
+  {
+   "adds": [
+    "Chandra, Flame's Catalyst"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5916224f092f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Heaven Sent"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:ceeab6fa4ccb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kumena's Awakening"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d83a31fa0422",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e445bdac2cdd2786"
+   ]
+  },
+  {
+   "adds": [
+    "Will Kenrith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:91baf4c3ee10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nicol Bolas, the Deceiver"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:adfff834d146",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Runehorn Hellkite"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a64cc68ce295",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unscrupulous Contractor"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:866808fdeda6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wretched Confluence"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:78719abf7232",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:077e66be106a1a30"
+   ]
+  },
+  {
+   "adds": [
+    "Mathise, Surge Channeler"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:10d68f14ee57",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tallyman of Nurgle"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c4ceef11f1ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lich's Mirror"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d2da713c5573",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind Spiral"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:aa75e99df824",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:777ad8eca7e7c193"
+   ]
+  },
+  {
+   "adds": [
+    "Metamorphic Blast"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:741e82ed8102",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:3e61a4dc3f1ce1ea"
+   ]
+  },
+  {
+   "adds": [
+    "Weftwalking"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a9729656f029",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:4e12e7993262f235"
+   ]
+  },
+  {
+   "adds": [
+    "Careful Consideration"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d7c2ba0ccb86",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:8726d21668da36b1"
+   ]
+  },
+  {
+   "adds": [
+    "Chandra Ablaze"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:09ca1d7f47f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Opportunity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e8cbae47a2c7",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:759795edd0a7be0d"
+   ]
+  },
+  {
+   "adds": [
+    "Runed Servitor"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c2575d421856",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shredder's Revenge"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7a8df3270313",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:02018f9eaaef4043"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, the Living Guildpact"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:22ecfa1e93e9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reckless Scholar"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b7d9d600c42b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oona's Grace"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:56d91459a131",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:45254b9b44f50452"
+   ]
+  },
+  {
+   "adds": [
+    "Nothic"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e19f702213ef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sensation Gorger"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:e1d7339e6e49",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Broker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a00ceaa994d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cybernetica Datasmith"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a6d40fed6f43",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temporal Cascade"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:6fe93721320f",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:0c18e6d503f5c894"
+   ]
+  },
+  {
+   "adds": [
+    "Sway of the Stars"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:38fb24540f8e",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e9bcf841bd7d23bd"
+   ]
+  },
+  {
+   "adds": [
+    "Noggle Ransacker"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a14e6ace0b11",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ed8e181ad38444f5"
+   ]
+  },
+  {
+   "adds": [
+    "Vault Plunderer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:3fcf8a169671",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Depth Defiler"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:695cb4231037",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Looter"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:54fa92885c66",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jushi Apprentice // Tomoya the Revealer"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:961344caf424",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Donnie & April, Adorkable Duo"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:fd9d79f241d6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of the Enigma"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:8c408285415d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:ab91eaadd6a6d1f9"
+   ]
+  },
+  {
+   "adds": [
+    "Toil // Trouble"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:a7a6e2374de0",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e60ce342d91702b5"
+   ]
+  },
+  {
+   "adds": [
+    "Inspiration"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:2dfdc267a5df",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:7fc0d823ec39f239"
+   ]
+  },
+  {
+   "adds": [
+    "Comparative Analysis"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:89a8b8b42fc5",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:83456249bd12b279"
+   ]
+  },
+  {
+   "adds": [
+    "Lore Weaver"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:07312257d6da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Allied Strategies"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:87feb69a7235",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:e749487d462fcb22"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Guildmage"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:c85d3f8a493d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laquatus's Creativity"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d4285cdb0e42",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Consult the Necrosages"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:5c8cbf124468",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:21713be752710f59"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Guilt"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d10cf81b5ca8",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:56bf49673dc6b3d5"
+   ]
+  },
+  {
+   "adds": [
+    "Soaring Show-Off"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7e5a84ec5f0a",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:f635113431ce0257"
+   ]
+  },
+  {
+   "adds": [
+    "Wistful Thinking"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:d2f6e6f59248",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:a6487e50b3c91fa3"
+   ]
+  },
+  {
+   "adds": [
+    "Harrowing Journey"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:76d3c7b8d8fc",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:bd80cf389e7ab722"
+   ]
+  },
+  {
+   "adds": [
+    "Saltwater Stalwart"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:7e2e1962f30a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Roiling Waters"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:f537a7f83d9d",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:f974426b6deca602"
+   ]
+  },
+  {
+   "adds": [
+    "Drastic Revelation"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cbbd41ed9139",
+   "tests": [
+    "test:nekusar-the-mindrazer:goldfish:a7559657a6e6eb90"
+   ]
+  },
+  {
+   "adds": [
+    "Lumengrid Augur"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:b1850392bbd1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Limestone Golem"
+   ],
+   "cuts": [
+    "Consecrated Sphinx"
+   ],
+   "id": "swap:nekusar-the-mindrazer:m5:cf5f7b8ee215",
+   "tests": []
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4537bbdc6f3ee4ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:dd676f31d4e40673",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2edd5bd46e14f65b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:028463f9330f1232",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:849cc3ad6df0ce08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:8815cb7d30ce4e05",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ac26c5ad2d20bd0b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:63626e522ffa21a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:8517df42c07881f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2aab524515b5cb27",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:af7f9d36c8d8e6a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:304e0d4b9ed17d07",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:d9ceda20454571c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3e7d3699f63dfe62",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:7d2d6007db741145",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:0d6ba0445197ce16",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3474234c1af02437",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2c5a8638ebccd192",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:a423f41bcec24230",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e7185edf975b265a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:5447555af2904a5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4b9da4a1e3edf873",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:16a6d13a902a361f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:17c536085c9a7717",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b55090ba9a27d6ec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:f100006ea0703c82",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:bd95f55dcc5b141e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e409b3da1090a2ce",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:6501e2b501fb5d01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4607a8b9d9d5972b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b6afb7eec26dbbb3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ca52c290c8026b28",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:6af70c59fa3c5e14",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:fa30dc7699989420",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:eb7a70c16061013e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b97edf5b2f46c624",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:84b90eb482fe2f5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:29a06cf83fbae302",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:7fef5922de34681f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2b0824760a96fc38",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:f85b5997ec77d923",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e6d605822f5c9719",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e460b756c9a77a0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:28c73e805261b186",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2a0ac311badd0fec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:d1ca3e980effb8f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:10870c710cf473b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ebbb97118672f052",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:232a51af30a6bbc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:364a961bea3c6658",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:efb37cdf5367802d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ee8630771789a3bd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:55b362c33dfa7868",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:1fad204443812063",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:64ee019a9b9220c6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:171cf3d5ffa48e0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:841ddc9a8c086e2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:1911f02a21066298",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:950c243b8197c32c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:26f03fec2444233c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ae3a83d1d605df77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:9341e0f5a2495f29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:79f8355c73f1459a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:7cf727e8aa23d3ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:1ebe4491852ec820",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:28ed27395026e8b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:04f2f4520352574e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:feb82ebd1f03e582",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3797d9141ec0d117",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:c21c8dab51bbdf64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:57f08448ca516bf5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:454cdfa783b822bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:101f96d97bed8f62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3d1c8412bdb21b44",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:046c99bcc0ee1cb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b143bd45014ec270",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:81d8f8773c4b2d87",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3c0a264fd0fd3b39",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b3d93544ed4327f5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:a57f3d434c8e3d71",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:84ad8124d352e06e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:a15cd9cd1d56a682",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2d14754c365e1f98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:fd0f884d62d314de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:2f6ca11aed6a96d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:737c59b14c317abd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:d3660c03dc7a4a73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ebaac34b315f2cd8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:565922850cb6b28f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4066cd074cd3d70f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:f6083dff82556ee6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:099a060723f8f49a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:1a0d7cf5e6745fdb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:cd1ee6ea09a09a44",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:1a736c14ac6d74ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:1e15d79c4a0a58d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:71c01cf0d0e258b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:c2b15367b4298985",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:8ebdaf81813ad344",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:37d0523b173ae9b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:0a206808a5c0f42b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e22de666cca7e397",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ec685f3bf7f5b225",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b829d5942fc62a2d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3551fd6d768d516a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:c727a55b9ec61757",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b41904b9820e642f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:853fc5d1687e3e3e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:57dd3af086506902",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:092ad4ea33237985",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4376042cdc205dd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:9ca5860ad82dfa39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:d09f8f84a9fc7ac4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e10b6ef51ad9f8a1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:8ac3106441361687",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b75733e81033fd01",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:0d2ab358949bcde7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:6606b4cb41cd5656",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:595375455d103a34",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3b7c7d98230f02dd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b2ba68b929fa1ab8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:75fe504bf78957ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4d27a9a87e284d11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:5a9776e28aba349c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:134a56f5f0f7ff3a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:695ebf8979c25384",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:7e29f69c684edce2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ae923e20afb28495",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3167e35d79e3f8de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:555d76c7b26d5e8a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:61f5de15b98c71b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:edf1f20ff69c31ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4ad6d39159ba8897",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:6276dafb8b1302f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:357177c2425638d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:06216f30d2eb8b02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:212a98e53775c71c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:7ad580a989988ed2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:84938bb50593c00e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:886779992ab5be1c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:39847d3251501d97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:6f0a2550f7093a5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:fe4ff0e14bc689f5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:52aae92d89d7540a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:b2e3d9b2ed5257eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:695dab04c57eb6b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4f8987331105d464",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e6b1c35e425c4dcf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:08ddd956a33b456d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:a2f02aa822cd1ab7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3f8aae1928b86119",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:da211ce1e2d735a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ad19e5f9137bafdc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:54685a43b4a2b8d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:029e5be7aaa85a59",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:5c697255ac9cea50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:eee8db598a7c3749",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:fbd2fa86dc987d6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:77e1e1e371a6b75b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:80907e82a5a5ea73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:33032d28cfffe3e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:c9a980156748282c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e445bdac2cdd2786",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:077e66be106a1a30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:777ad8eca7e7c193",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:3e61a4dc3f1ce1ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:4e12e7993262f235",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:8726d21668da36b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:759795edd0a7be0d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:02018f9eaaef4043",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:45254b9b44f50452",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:0c18e6d503f5c894",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e9bcf841bd7d23bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ed8e181ad38444f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:ab91eaadd6a6d1f9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e60ce342d91702b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:7fc0d823ec39f239",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:83456249bd12b279",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:e749487d462fcb22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:21713be752710f59",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:56bf49673dc6b3d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:f635113431ce0257",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:a6487e50b3c91fa3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:bd80cf389e7ab722",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:f974426b6deca602",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nekusar-the-mindrazer:goldfish:a7559657a6e6eb90",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

@@ -1,0 +1,6036 @@
+{
+ "candidates": [
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e934d07d6f4f"
+   }
+  },
+  {
+   "card": "Mulldrifter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mulldrifter",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e24bab6fde7c"
+   }
+  },
+  {
+   "card": "Noxious Gearhulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Noxious Gearhulk",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Noxious Gearhulk",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:910dc688acf0"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:13d79172649b"
+   }
+  },
+  {
+   "card": "Combustible Gearhulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combustible Gearhulk",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b8cc939b6e11"
+   }
+  },
+  {
+   "card": "Fact or Fiction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:072672002230"
+   }
+  },
+  {
+   "card": "Conjurer's Closet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conjurer's Closet",
+       "cut": "Ashnod's Altar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4cccbd776fb4"
+   }
+  },
+  {
+   "card": "Gyruda, Doom of Depths",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gyruda, Doom of Depths",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b5c3d47f90ed"
+   }
+  },
+  {
+   "card": "Gray Merchant of Asphodel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gray Merchant of Asphodel",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:f78ea6c04eb5"
+   }
+  },
+  {
+   "card": "Embalmer's Tools",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Embalmer's Tools",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e45a7c7013bd"
+   }
+  },
+  {
+   "card": "Thrill of Possibility",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thrill of Possibility",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:314e623d813d"
+   }
+  },
+  {
+   "card": "Ravenous Chupacabra",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ravenous Chupacabra",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ravenous Chupacabra",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:0f81d7fab6be"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:cb3627274944"
+   }
+  },
+  {
+   "card": "Lord Xander, the Collector",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lord Xander, the Collector",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:3882c72fe734"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:7c9fac6427ae"
+   }
+  },
+  {
+   "card": "Thassa, Deep-Dwelling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thassa, Deep-Dwelling",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thassa, Deep-Dwelling",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:58b4f50cbe87"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:717a012c9c90"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:8a607ab74340"
+   }
+  },
+  {
+   "card": "Thundering Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thundering Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:813262191e42"
+   }
+  },
+  {
+   "card": "Diluvian Primordial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diluvian Primordial",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:03bb6befaba5"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:6d2e3ff847d1"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:edd3e7dd94b3"
+   }
+  },
+  {
+   "card": "Bladewing, Deathless Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing, Deathless Tyrant",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:ffac7537152e"
+   }
+  },
+  {
+   "card": "Persist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Persist",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:613a40ab5bea"
+   }
+  },
+  {
+   "card": "Phyrexian Delver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Delver",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:c7579b929ac8"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:5f287b26e3f5"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:20c829ad6992"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:181a6c212722"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:70c4b8e2bdef"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:55fe8ec36ec9"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:40778c845909"
+   }
+  },
+  {
+   "card": "Disciple of Bolas",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Disciple of Bolas",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b46aee35c7a0"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:cf65a9e14a27"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:00dc905042d5"
+   }
+  },
+  {
+   "card": "Careful Study",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Careful Study",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:f6282a94657e"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:66215340a3ce"
+   }
+  },
+  {
+   "card": "Molten Primordial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Primordial",
+       "cut": "Unmarked Grave"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:8c739836280c"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b088e38de1e2"
+   }
+  },
+  {
+   "card": "Gravebreaker Lamia",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gravebreaker Lamia",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e28758dc91f9"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e3bd0e237a16"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:22af33e9155d"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:c6e39dd0baec"
+   }
+  },
+  {
+   "card": "Magus of the Wheel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magus of the Wheel",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1d6d8fe9673f"
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e355f1431eee"
+   }
+  },
+  {
+   "card": "Singularity Rupture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Singularity Rupture",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:752b43f2cfa7"
+   }
+  },
+  {
+   "card": "Kederekt Leviathan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kederekt Leviathan",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:556e91fd334e"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:a2089dfb5c9c"
+   }
+  },
+  {
+   "card": "Cathartic Reunion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cathartic Reunion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:afdce793337a"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:2aa6e189e8f2"
+   }
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldgorger Dragon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6ac3f938dd7e"
+   }
+  },
+  {
+   "card": "Izzet Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Charm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:dee36ae51bfa"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6e65faada6a8"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:97e12ad8ee63"
+   }
+  },
+  {
+   "card": "Geier Reach Sanitarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geier Reach Sanitarium",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:342f922a0f53"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:8f6c5dd2592e"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:4ccf205cffe3"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:91c256e1de76"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1bb6dbde972c"
+   }
+  },
+  {
+   "card": "Urza, Lord High Artificer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza, Lord High Artificer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:731754aa32df"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Sepulchral Primordial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:0c9a92846767"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:c554e8a96aff"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:724d728b6f33"
+   }
+  },
+  {
+   "card": "Cloud of Faeries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloud of Faeries",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Cloud of Faeries",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:26a906a1efce"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b68e1751d8cb"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:fb130ff50572"
+   }
+  },
+  {
+   "card": "Relic of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relic of Sauron",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:9e06db147487"
+   }
+  },
+  {
+   "card": "Venser, Shaper Savant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Venser, Shaper Savant",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:a5b1571b5677"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:7c12a55eb1ea"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Anger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anger",
+       "cut": "Vile Entomber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1e23909080b0"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:0067c8bcf4f5"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:de032ccd1ea9"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:2d1571e421f4"
+   }
+  },
+  {
+   "card": "Charming Scoundrel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Charming Scoundrel",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:84cc971fd8c3"
+   }
+  },
+  {
+   "card": "Nim Deathmantle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nim Deathmantle",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nim Deathmantle",
+       "cut": "Sepulchral Primordial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:5a95cbf3455d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:769e00aa3007"
+   }
+  },
+  {
+   "card": "Rapacious Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rapacious Dragon",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:fa6d77aafeed"
+   }
+  },
+  {
+   "card": "Patron of the Arts",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Patron of the Arts",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:10dbb310b623"
+   }
+  },
+  {
+   "card": "Swashbuckler Extraordinaire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swashbuckler Extraordinaire",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:577352a7c9c6"
+   }
+  },
+  {
+   "card": "Kalain, Reclusive Painter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kalain, Reclusive Painter",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:0b972577bd84"
+   }
+  },
+  {
+   "card": "Plundering Barbarian",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plundering Barbarian",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:bf9863bc3464"
+   }
+  },
+  {
+   "card": "Shrieking Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shrieking Drake",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shrieking Drake",
+       "cut": "Sepulchral Primordial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:d1a5c5f5489d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:54470fea21bb"
+   }
+  },
+  {
+   "card": "Liliana, Death's Majesty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Liliana, Death's Majesty",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b293e5baf361"
+   }
+  },
+  {
+   "card": "Corsair Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corsair Captain",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:43b92e9297a4"
+   }
+  },
+  {
+   "card": "Dakmor Salvage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dakmor Salvage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:8b2cf1a1c46a"
+   }
+  },
+  {
+   "card": "Galazeth Prismari",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Galazeth Prismari",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1e331b6118b8"
+   }
+  },
+  {
+   "card": "Big Score",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Big Score",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:f418a345809e"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:d75ea99e56af"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6bd1dd86bb8c"
+   }
+  },
+  {
+   "card": "Skullport Merchant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skullport Merchant",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:01bff344856e"
+   }
+  },
+  {
+   "card": "Ancestral Statue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ancestral Statue",
+       "cut": "Sepulchral Primordial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:4e23e18c2b21"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:21801ec750c3"
+   }
+  },
+  {
+   "card": "Palinchron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Palinchron",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:4fe647050b6d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:3b488382cef6"
+   }
+  },
+  {
+   "card": "Man-o'-War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Man-o'-War",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Man-o'-War",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:129a7a97539c"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:f67136e143cf"
+   }
+  },
+  {
+   "card": "Wily Goblin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wily Goblin",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:fb7dc283e168"
+   }
+  },
+  {
+   "card": "Spider-Man 2099, Miguel O'Hara",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spider-Man 2099, Miguel O'Hara",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spider-Man 2099, Miguel O'Hara",
+       "cut": "Archon of Cruelty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:ccc14ab814be"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:7e6df9f44778"
+   }
+  },
+  {
+   "card": "Great Whale",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Whale",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Great Whale",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:0e9b0d5431fa"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:a8a664f0da90"
+   }
+  },
+  {
+   "card": "Perigee Beckoner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Perigee Beckoner",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Perigee Beckoner",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:a9d6c56edc78"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:c818da9ee645"
+   }
+  },
+  {
+   "card": "Obsessive Stitcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Obsessive Stitcher",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4110702ddaad"
+   }
+  },
+  {
+   "card": "Boommobile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boommobile",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Boommobile",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:ea7640da8d19"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:9a21d9e99c7f"
+   }
+  },
+  {
+   "card": "Dream Stalker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Stalker",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Stalker",
+       "cut": "Sepulchral Primordial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:095af46de291"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4eb2591a0629"
+   }
+  },
+  {
+   "card": "Sailor of Means",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sailor of Means",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:3ed8369d3c2d"
+   }
+  },
+  {
+   "card": "Redcap Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Redcap Thief",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:415bbe0f39c8"
+   }
+  },
+  {
+   "card": "Plundering Pirate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plundering Pirate",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:0f51588c6870"
+   }
+  },
+  {
+   "card": "Prosperous Pirates",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prosperous Pirates",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:40a69788f6f6"
+   }
+  },
+  {
+   "card": "Cavern Harpy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern Harpy",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern Harpy",
+       "cut": "Sepulchral Primordial"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:2fbe59e97d83"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:eb3879738682"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:9331429f8852"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1900c225091a"
+   }
+  },
+  {
+   "card": "Exhibition Magician",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exhibition Magician",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:2ae1cc28fc8e"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b719f0f62f8f"
+   }
+  },
+  {
+   "card": "Faceless Butcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faceless Butcher",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:7abf6e5a03f6"
+   }
+  },
+  {
+   "card": "Burdened Aerialist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burdened Aerialist",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:17369e21b953"
+   }
+  },
+  {
+   "card": "Infinite Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infinite Reflection",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Infinite Reflection",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:8a333300341e"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1a831fe07e3c"
+   }
+  },
+  {
+   "card": "Brazen Freebooter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brazen Freebooter",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:2fea437352cf"
+   }
+  },
+  {
+   "card": "Meticulous Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Meticulous Artisan",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:727185d881ef"
+   }
+  },
+  {
+   "card": "Wonder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wonder",
+       "cut": "Vile Entomber"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:3aef4214c8d7"
+   }
+  },
+  {
+   "card": "Wormfang Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wormfang Drake",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Wormfang Drake",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:69b5c8fe9700"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6372d130cbc0"
+   }
+  },
+  {
+   "card": "Maestros Theater",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maestros Theater",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6d9e2fb51942"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Unmarked Grave"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:95d9fc7b55c7"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:80e71397d280"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:0d51c6de9382"
+   }
+  },
+  {
+   "card": "Crypt of Agadeem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crypt of Agadeem",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:49c2c426522e"
+   }
+  },
+  {
+   "card": "Dark Ritual",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dark Ritual",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:7f7748455da2"
+   }
+  },
+  {
+   "card": "Oscorp Industries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oscorp Industries",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:aa1b1bc87888"
+   }
+  },
+  {
+   "card": "Out of the Tombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Out of the Tombs",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:df3900970c57"
+   }
+  },
+  {
+   "card": "Essence Flux",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Flux",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:947af4473fde"
+   }
+  },
+  {
+   "card": "Tomb Fortress",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tomb Fortress",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:90a28c8e186d"
+   }
+  },
+  {
+   "card": "Darksteel Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Angel",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darksteel Angel",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:4f951b146980"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:f34d30fb0b88"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:c2930959af96"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6670de1e54d2"
+   }
+  },
+  {
+   "card": "Spark Double",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spark Double",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spark Double",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:170190e72989"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:2d6598a982f7"
+   }
+  },
+  {
+   "card": "Rite of Replication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Replication",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4017a7947b14"
+   }
+  },
+  {
+   "card": "Metallic Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Metallic Mimic",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Metallic Mimic",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:5217d88ed71d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:8da9fdd4dcc3"
+   }
+  },
+  {
+   "card": "Vivi Ornitier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vivi Ornitier",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vivi Ornitier",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:bdac7d556e9c"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:899a3b223879"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:104956bec4fe"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:39bd9ee8d2c1"
+   }
+  },
+  {
+   "card": "Mikaeus, the Unhallowed",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mikaeus, the Unhallowed",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mikaeus, the Unhallowed",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:b052ebb9140e"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:2e7c9ffe265c"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:43132e0a5408"
+   }
+  },
+  {
+   "card": "Intruder Alarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Intruder Alarm",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Intruder Alarm",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:29193efd728a"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4f978478f1a7"
+   }
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:3a8bddf5e965"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:3279532b1420"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:88bccd3c130d"
+   }
+  },
+  {
+   "card": "Rionya, Fire Dancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rionya, Fire Dancer",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Rionya, Fire Dancer",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:dd5824bf9b6d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:086e7e9d9973"
+   }
+  },
+  {
+   "card": "Uncivil Unrest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uncivil Unrest",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:91438169e562"
+   }
+  },
+  {
+   "card": "Devastating Onslaught",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Devastating Onslaught",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:69357f1ae0df"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:dd878ed1535b"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:1189fd05d01d"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:e17819d31614"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4161b6370f16"
+   }
+  },
+  {
+   "card": "Body Double",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Body Double",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Body Double",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:7821a4efce49"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:25aab187262b"
+   }
+  },
+  {
+   "card": "Thran Vigil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thran Vigil",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:be97d7cc1c91"
+   }
+  },
+  {
+   "card": "Gev, Scaled Scorch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gev, Scaled Scorch",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gev, Scaled Scorch",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:ff150adc3a2c"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:eda08d7fefea"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:49fac154bb10"
+   }
+  },
+  {
+   "card": "Sage of Fables",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sage of Fables",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sage of Fables",
+       "cut": "Archon of Cruelty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:9303321ee420"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:7faff6d5eaee"
+   }
+  },
+  {
+   "card": "Hexavus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hexavus",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hexavus",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:a577b738693d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:19be512b746c"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:37b2d3aa6395"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:e8ab77ef8616"
+   }
+  },
+  {
+   "card": "First Day of Class",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "First Day of Class",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:3d6d09f0077d"
+   }
+  },
+  {
+   "card": "Oathkeeper, Takeno's Daisho",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oathkeeper, Takeno's Daisho",
+       "cut": "Izzet Signet"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:bd8c571ecab3"
+   }
+  },
+  {
+   "card": "Prowling Geistcatcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prowling Geistcatcher",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prowling Geistcatcher",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:acc213e9520d"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b8da5fc6596e"
+   }
+  },
+  {
+   "card": "Corpse Dance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corpse Dance",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:b74ffeb66460"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:8e208b70b172"
+   }
+  },
+  {
+   "card": "Rootha, Mercurial Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:2fd77616fa9f"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:a88efb1390bf"
+   }
+  },
+  {
+   "card": "Raptor Hatchling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Raptor Hatchling",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:c40074d6c0b0"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:4351bfe7d276"
+   }
+  },
+  {
+   "card": "Fool's Demise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fool's Demise",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fool's Demise",
+       "cut": "Goblin Bombardment"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:f59397e0c92e"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:58100f0245b6"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:e3d0bb1354e8"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:9228cb835eed"
+   }
+  },
+  {
+   "card": "The Master, Formed Anew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Formed Anew",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Formed Anew",
+       "cut": "Terror of the Peaks"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:e01c1bab6d0b"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:c032d9bd0ba7"
+   }
+  },
+  {
+   "card": "Casey & Raph, Hotheads",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Casey & Raph, Hotheads",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:62aeccb8ec4e"
+   }
+  },
+  {
+   "card": "Nested Ghoul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nested Ghoul",
+       "cut": "Vile Entomber"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1409-3821"
+        ]
+       },
+       "add": "Nested Ghoul",
+       "cut": "Peregrine Drake"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sedris-the-traitor-king:m5:8bd997b4faf6"
+    },
+    "swap": "swap:sedris-the-traitor-king:m5:6ead0c20384d"
+   }
+  }
+ ],
+ "deck_id": "Sedris__the_Traitor_King",
+ "list_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+ "slug": "sedris-the-traitor-king",
+ "swaps": [
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e934d07d6f4f"
+  },
+  {
+   "adds": [
+    "Mulldrifter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e24bab6fde7c"
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:13d79172649b"
+  },
+  {
+   "adds": [
+    "Noxious Gearhulk"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:910dc688acf0"
+  },
+  {
+   "adds": [
+    "Combustible Gearhulk"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b8cc939b6e11"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:072672002230"
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Ashnod's Altar"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4cccbd776fb4"
+  },
+  {
+   "adds": [
+    "Gyruda, Doom of Depths"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b5c3d47f90ed"
+  },
+  {
+   "adds": [
+    "Gray Merchant of Asphodel"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f78ea6c04eb5"
+  },
+  {
+   "adds": [
+    "Embalmer's Tools"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e45a7c7013bd"
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:314e623d813d"
+  },
+  {
+   "adds": [
+    "Ravenous Chupacabra"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:cb3627274944"
+  },
+  {
+   "adds": [
+    "Ravenous Chupacabra"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0f81d7fab6be"
+  },
+  {
+   "adds": [
+    "Lord Xander, the Collector"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3882c72fe734"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7c9fac6427ae"
+  },
+  {
+   "adds": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:717a012c9c90"
+  },
+  {
+   "adds": [
+    "Thassa, Deep-Dwelling"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:58b4f50cbe87"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8a607ab74340"
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:813262191e42"
+  },
+  {
+   "adds": [
+    "Diluvian Primordial"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:03bb6befaba5"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:edd3e7dd94b3"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6d2e3ff847d1"
+  },
+  {
+   "adds": [
+    "Bladewing, Deathless Tyrant"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ffac7537152e"
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:613a40ab5bea"
+  },
+  {
+   "adds": [
+    "Phyrexian Delver"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c7579b929ac8"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:5f287b26e3f5"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:20c829ad6992"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:181a6c212722"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:70c4b8e2bdef"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:55fe8ec36ec9"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:40778c845909"
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b46aee35c7a0"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:cf65a9e14a27"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:00dc905042d5"
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f6282a94657e"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:66215340a3ce"
+  },
+  {
+   "adds": [
+    "Molten Primordial"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8c739836280c"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b088e38de1e2"
+  },
+  {
+   "adds": [
+    "Gravebreaker Lamia"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e28758dc91f9"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e3bd0e237a16"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:22af33e9155d"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c6e39dd0baec"
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1d6d8fe9673f"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e355f1431eee"
+  },
+  {
+   "adds": [
+    "Singularity Rupture"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:752b43f2cfa7"
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:556e91fd334e"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a2089dfb5c9c"
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:afdce793337a"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2aa6e189e8f2"
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6ac3f938dd7e"
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:dee36ae51bfa"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6e65faada6a8"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:97e12ad8ee63"
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:342f922a0f53"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8f6c5dd2592e"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:91c256e1de76"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4ccf205cffe3"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1bb6dbde972c"
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:731754aa32df"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c554e8a96aff"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0c9a92846767"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:724d728b6f33"
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b68e1751d8cb"
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:26a906a1efce"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:fb130ff50572"
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9e06db147487"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7c12a55eb1ea"
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a5b1571b5677"
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1e23909080b0"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0067c8bcf4f5"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:de032ccd1ea9"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2d1571e421f4"
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:84cc971fd8c3"
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:769e00aa3007"
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:5a95cbf3455d"
+  },
+  {
+   "adds": [
+    "Rapacious Dragon"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:fa6d77aafeed"
+  },
+  {
+   "adds": [
+    "Patron of the Arts"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:10dbb310b623"
+  },
+  {
+   "adds": [
+    "Swashbuckler Extraordinaire"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:577352a7c9c6"
+  },
+  {
+   "adds": [
+    "Kalain, Reclusive Painter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0b972577bd84"
+  },
+  {
+   "adds": [
+    "Plundering Barbarian"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:bf9863bc3464"
+  },
+  {
+   "adds": [
+    "Shrieking Drake"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:54470fea21bb"
+  },
+  {
+   "adds": [
+    "Shrieking Drake"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:d1a5c5f5489d"
+  },
+  {
+   "adds": [
+    "Liliana, Death's Majesty"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b293e5baf361"
+  },
+  {
+   "adds": [
+    "Corsair Captain"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:43b92e9297a4"
+  },
+  {
+   "adds": [
+    "Dakmor Salvage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8b2cf1a1c46a"
+  },
+  {
+   "adds": [
+    "Galazeth Prismari"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1e331b6118b8"
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f418a345809e"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6bd1dd86bb8c"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:d75ea99e56af"
+  },
+  {
+   "adds": [
+    "Skullport Merchant"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:01bff344856e"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:21801ec750c3"
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4e23e18c2b21"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3b488382cef6"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4fe647050b6d"
+  },
+  {
+   "adds": [
+    "Man-o'-War"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f67136e143cf"
+  },
+  {
+   "adds": [
+    "Man-o'-War"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:129a7a97539c"
+  },
+  {
+   "adds": [
+    "Wily Goblin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:fb7dc283e168"
+  },
+  {
+   "adds": [
+    "Spider-Man 2099, Miguel O'Hara"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7e6df9f44778"
+  },
+  {
+   "adds": [
+    "Spider-Man 2099, Miguel O'Hara"
+   ],
+   "cuts": [
+    "Archon of Cruelty"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ccc14ab814be"
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a8a664f0da90"
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0e9b0d5431fa"
+  },
+  {
+   "adds": [
+    "Perigee Beckoner"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c818da9ee645"
+  },
+  {
+   "adds": [
+    "Perigee Beckoner"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a9d6c56edc78"
+  },
+  {
+   "adds": [
+    "Obsessive Stitcher"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4110702ddaad"
+  },
+  {
+   "adds": [
+    "Boommobile"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9a21d9e99c7f"
+  },
+  {
+   "adds": [
+    "Boommobile"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ea7640da8d19"
+  },
+  {
+   "adds": [
+    "Dream Stalker"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4eb2591a0629"
+  },
+  {
+   "adds": [
+    "Dream Stalker"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:095af46de291"
+  },
+  {
+   "adds": [
+    "Sailor of Means"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3ed8369d3c2d"
+  },
+  {
+   "adds": [
+    "Redcap Thief"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:415bbe0f39c8"
+  },
+  {
+   "adds": [
+    "Plundering Pirate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0f51588c6870"
+  },
+  {
+   "adds": [
+    "Prosperous Pirates"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:40a69788f6f6"
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:eb3879738682"
+  },
+  {
+   "adds": [
+    "Cavern Harpy"
+   ],
+   "cuts": [
+    "Sepulchral Primordial"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2fbe59e97d83"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1900c225091a"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9331429f8852"
+  },
+  {
+   "adds": [
+    "Exhibition Magician"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2ae1cc28fc8e"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b719f0f62f8f"
+  },
+  {
+   "adds": [
+    "Faceless Butcher"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7abf6e5a03f6"
+  },
+  {
+   "adds": [
+    "Burdened Aerialist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:17369e21b953"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1a831fe07e3c"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8a333300341e"
+  },
+  {
+   "adds": [
+    "Brazen Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2fea437352cf"
+  },
+  {
+   "adds": [
+    "Meticulous Artisan"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:727185d881ef"
+  },
+  {
+   "adds": [
+    "Wonder"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3aef4214c8d7"
+  },
+  {
+   "adds": [
+    "Wormfang Drake"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6372d130cbc0"
+  },
+  {
+   "adds": [
+    "Wormfang Drake"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:69b5c8fe9700"
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6d9e2fb51942"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Unmarked Grave"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:80e71397d280"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:95d9fc7b55c7"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:0d51c6de9382"
+  },
+  {
+   "adds": [
+    "Crypt of Agadeem"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:49c2c426522e"
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7f7748455da2"
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:aa1b1bc87888"
+  },
+  {
+   "adds": [
+    "Out of the Tombs"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:df3900970c57"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:947af4473fde"
+  },
+  {
+   "adds": [
+    "Tomb Fortress"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:90a28c8e186d"
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f34d30fb0b88"
+  },
+  {
+   "adds": [
+    "Darksteel Angel"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4f951b146980"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6670de1e54d2"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c2930959af96"
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2d6598a982f7"
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:170190e72989"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4017a7947b14"
+  },
+  {
+   "adds": [
+    "Metallic Mimic"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8da9fdd4dcc3"
+  },
+  {
+   "adds": [
+    "Metallic Mimic"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:5217d88ed71d"
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:899a3b223879"
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:bdac7d556e9c"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:39bd9ee8d2c1"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:104956bec4fe"
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2e7c9ffe265c"
+  },
+  {
+   "adds": [
+    "Mikaeus, the Unhallowed"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b052ebb9140e"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:43132e0a5408"
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4f978478f1a7"
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:29193efd728a"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3279532b1420"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3a8bddf5e965"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:88bccd3c130d"
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:086e7e9d9973"
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:dd5824bf9b6d"
+  },
+  {
+   "adds": [
+    "Uncivil Unrest"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:91438169e562"
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:69357f1ae0df"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:1189fd05d01d"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:dd878ed1535b"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4161b6370f16"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e17819d31614"
+  },
+  {
+   "adds": [
+    "Body Double"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:25aab187262b"
+  },
+  {
+   "adds": [
+    "Body Double"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7821a4efce49"
+  },
+  {
+   "adds": [
+    "Thran Vigil"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:be97d7cc1c91"
+  },
+  {
+   "adds": [
+    "Gev, Scaled Scorch"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:eda08d7fefea"
+  },
+  {
+   "adds": [
+    "Gev, Scaled Scorch"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:ff150adc3a2c"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:49fac154bb10"
+  },
+  {
+   "adds": [
+    "Sage of Fables"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:7faff6d5eaee"
+  },
+  {
+   "adds": [
+    "Sage of Fables"
+   ],
+   "cuts": [
+    "Archon of Cruelty"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9303321ee420"
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:19be512b746c"
+  },
+  {
+   "adds": [
+    "Hexavus"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a577b738693d"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e8ab77ef8616"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:37b2d3aa6395"
+  },
+  {
+   "adds": [
+    "First Day of Class"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:3d6d09f0077d"
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Izzet Signet"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:bd8c571ecab3"
+  },
+  {
+   "adds": [
+    "Prowling Geistcatcher"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b8da5fc6596e"
+  },
+  {
+   "adds": [
+    "Prowling Geistcatcher"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:acc213e9520d"
+  },
+  {
+   "adds": [
+    "Corpse Dance"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:b74ffeb66460"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8e208b70b172"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:a88efb1390bf"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:2fd77616fa9f"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:4351bfe7d276"
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c40074d6c0b0"
+  },
+  {
+   "adds": [
+    "Fool's Demise"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:58100f0245b6"
+  },
+  {
+   "adds": [
+    "Fool's Demise"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:f59397e0c92e"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:9228cb835eed"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e3d0bb1354e8"
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:c032d9bd0ba7"
+  },
+  {
+   "adds": [
+    "The Master, Formed Anew"
+   ],
+   "cuts": [
+    "Terror of the Peaks"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:e01c1bab6d0b"
+  },
+  {
+   "adds": [
+    "Casey & Raph, Hotheads"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:62aeccb8ec4e"
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Vile Entomber"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:6ead0c20384d"
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Peregrine Drake"
+   ],
+   "id": "swap:sedris-the-traitor-king:m5:8bd997b4faf6"
+  }
+ ]
+}

@@ -1,0 +1,6671 @@
+{
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "list_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "slug": "inalla-archmage-ritualist",
+ "swaps": [
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a2469e90ef1d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:89e5f0e1e514840b"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:52b0d832b761",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9c78acf551c5389a"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1d5472f68221",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:02e117daab092981"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c850a038a68e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0ebb5e97276f41d0"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4e65bd3bbd08",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:19d6b845c51bd7b3"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:de530fb69fc4",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9b8892e46d89fee8"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8049a9f78c14",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1e399039eb12038e"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:96576b27f49c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:54da458a815b3703"
+   ]
+  },
+  {
+   "adds": [
+    "Harmonic Prodigy"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:94ef2477348a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:35924b8ef5ce",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3f09396554dc537f"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:37fa85874c05",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8e94843bd0fa95d7"
+   ]
+  },
+  {
+   "adds": [
+    "Stonybrook Banneret"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c78080b3a624",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Azami, Lady of Scrolls"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b9c477098445",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8e3aab12c060bf70"
+   ]
+  },
+  {
+   "adds": [
+    "Azami, Lady of Scrolls"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:773d04c37247",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:cf9ff0dae974a063"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage of Echoes"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:260b8aef874f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Naban, Dean of Iteration"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:89b6c8bafde3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mysidian Elder"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7640ea0af3fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ffda70b1a7b2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4562f4d3624c7edd"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4ec637507390",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:52ad7462a07fd2f2"
+   ]
+  },
+  {
+   "adds": [
+    "Puppeteer Clique"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5ae70d9a5be9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:22dc9fba0746",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a9ba1184f1e60f4b"
+   ]
+  },
+  {
+   "adds": [
+    "Dour Port-Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3a6d99ea2747",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a31dff7339506fba"
+   ]
+  },
+  {
+   "adds": [
+    "Dour Port-Mage"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:98d551393ea3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3ab66d436f3e2800"
+   ]
+  },
+  {
+   "adds": [
+    "Sea Gate Oracle"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6048e5f0e9e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cyclone Summoner"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7eb2eb37eb14",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:75a27f4e17f8f206"
+   ]
+  },
+  {
+   "adds": [
+    "Ertai Resurrected"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ee6c95d530b8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:247d8dff0b799689"
+   ]
+  },
+  {
+   "adds": [
+    "Ertai Resurrected"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2135ddd66257",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:66a8e8df466ef7d9"
+   ]
+  },
+  {
+   "adds": [
+    "Watcher for Tomorrow"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:43e3289bf0a9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wizard's Retort"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:abcd7d490a62",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:50ec4cb2f97a8471"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:349f16923f7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:40916ce5f7d4",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f81ff2c2a7ec8e5d"
+   ]
+  },
+  {
+   "adds": [
+    "Black Waltz No. 3"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4e14199720aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f6fc4af247ea",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:33474be9d3c6208c"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9adee6df4114",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f6370d3cb34f66df"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Laboratory"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:bcfa6d8c536d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f761eac43e9e952d"
+   ]
+  },
+  {
+   "adds": [
+    "Galecaster Colossus"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:01cd2fc57485",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:6829a03b63a79768"
+   ]
+  },
+  {
+   "adds": [
+    "Galecaster Colossus"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9ea167280615",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:eff9ddd2693752ca"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a21748994999",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Finale of Promise"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c907edf5acbc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reflections of Littjara"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9da970ad6f69",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9c398d1c5ee581c9"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Ravager"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:58790af1fd20",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b7f83dec9879bb5d"
+   ]
+  },
+  {
+   "adds": [
+    "Basalt Ravager"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2bd00963ed38",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0e0263ca8058c066"
+   ]
+  },
+  {
+   "adds": [
+    "Cloudkin Seer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9e47fb9d5c47",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:17743dc0e034ab25"
+   ]
+  },
+  {
+   "adds": [
+    "Cloudkin Seer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6cdea1945735",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7bdb36ce76a1ebe1"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Echoes"
+   ],
+   "cuts": [
+    "Finale of Promise"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0766f62af442",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Echoes"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:781701b5f7ac",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:515782d76aba79ad"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:37196a9facf0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:475fa9164317e926"
+   ]
+  },
+  {
+   "adds": [
+    "Tribute Mage"
+   ],
+   "cuts": [
+    "Hoarding Broodlord"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c518952f1985",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a419598379159fd8"
+   ]
+  },
+  {
+   "adds": [
+    "Circle of Power"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:475661c242f0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:59151ed170c6e1a1"
+   ]
+  },
+  {
+   "adds": [
+    "Circle of Power"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9f1fae8214a3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:45369b4eb2db6fd3"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4000477d9b07",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:990289ffb76e8deb"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b08fb2e67e76",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fddb5016ac241616"
+   ]
+  },
+  {
+   "adds": [
+    "Anathemancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d281391885b5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:94d772650a0b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:665422f9d69ab6f0"
+   ]
+  },
+  {
+   "adds": [
+    "Panharmonicon"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d2028985c019",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:30608241292117f1"
+   ]
+  },
+  {
+   "adds": [
+    "Obeka, Brute Chronologist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7cf3e4342476",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8ed16b1412b9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:533c9ecc8c789d0c"
+   ]
+  },
+  {
+   "adds": [
+    "Cornered by Black Mages"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7e8374090825",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cornered by Black Mages"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:53bf26e719f0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:32659a9924c5f464"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:851ae3c6e94b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2b827732fa80238c"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:bbb83f76fe85",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d29275ab49670028"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:fd0b05e49c06",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4308e4e42b1bf1e6"
+   ]
+  },
+  {
+   "adds": [
+    "Vivi Ornitier"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:655b12b5f13f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Patron Wizard"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:dbf1d5afdc57",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3c73c73ceee6f16e"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0c8a2fa58f31",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a2cdf76bb8440a0c"
+   ]
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9e54b1e38ac7",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:eb3401712f4774f2"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:dfc0996dbc6f",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:42f6c9c6cb43b2c0"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:50d9e4c06167",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:aa16df0416c7df00"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowmage Infiltrator"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ed6d05ef6db0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:67578c3ade928470"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowmage Infiltrator"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:032313b339a7",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:54367b9c0c511dce"
+   ]
+  },
+  {
+   "adds": [
+    "Serum Visionary"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d889374b8e21",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:39680b065c13f6b2"
+   ]
+  },
+  {
+   "adds": [
+    "Serum Visionary"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:970064dd8421",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8fed1ada9418e249"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c4fe96a30e34",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5e61dbdb0dbcf69e"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b990fdb95a39",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:292a8d26b5f86d3a"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0ed930f59164",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:997ec7f79d5d5c94"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:786eb2083939",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5df7e0dbe63f8bbe"
+   ]
+  },
+  {
+   "adds": [
+    "Snapcaster Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8b6711cd2329",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3de698b3be03",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:26b176b3af95cd73"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:915390e9d587",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e5451e29d3aac49f"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b831b7a08b29",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:360a1b88093d50ac"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b9e520aa547e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0fd192780bcfa8a3"
+   ]
+  },
+  {
+   "adds": [
+    "Marchesa, the Black Rose"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:de7cefedef3f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Trophy Mage"
+   ],
+   "cuts": [
+    "Hoarding Broodlord"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:64aa863aa89a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:43380c936989a118"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Adept"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b7ea33cc5422",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e4404407400466e1"
+   ]
+  },
+  {
+   "adds": [
+    "Portal Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1fedafb0fcd9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vela the Night-Clad"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3af6b2cb5579",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:201cfc43452c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcanis the Omnipotent"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:38177516ec7a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3f4634fafbad2dce"
+   ]
+  },
+  {
+   "adds": [
+    "Arcanis the Omnipotent"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:61428ddab70b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:60b198a2307bd125"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4822e4a6cc60",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1215146c2a4b71bd"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Discovery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:96ba13fb8241",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:54bb37beb1e997a1"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of Fables"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6ecb115ed616",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4513df66efcf27c5"
+   ]
+  },
+  {
+   "adds": [
+    "Sage of Fables"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:80063a2250a9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:673ca7261a3aece2"
+   ]
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Step Through"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2d0d5259592e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dire Fleet Ravager"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0cbadf4b38ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vindictive Lich"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d211a40241af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2a25a9a7c0fe",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:261456864a140c6b"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:de36e7af507b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:52ffac4249427b09"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f2f4560466d8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:27d887d21e45ec46"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d90ece26297f",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4cebf931cd012c6c"
+   ]
+  },
+  {
+   "adds": [
+    "Black Mage's Rod"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9a610cea96f5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:31401d56e886",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9dbf19c06afea468"
+   ]
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:377f7636ab40",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7a39e32088cf1fff"
+   ]
+  },
+  {
+   "adds": [
+    "Tishana's Tidebinder"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a9ac05f3a17d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Merchant of Secrets"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:13880453c8fc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c3a97268c11e6b09"
+   ]
+  },
+  {
+   "adds": [
+    "Coruscation Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:63a08dd13de9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f963c400237e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2fa4af0deb0cf811"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:edb25a47407a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f77835d53d750f5c"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3eddea7e3199",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c2568e4b631b876a"
+   ]
+  },
+  {
+   "adds": [
+    "Queen Brahne"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ebe592d825e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Havengul Lich"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9cde806522a3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d14ce9050e2b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ccbccdad8238b4ec"
+   ]
+  },
+  {
+   "adds": [
+    "Sower of Temptation"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9042e134a6e0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4855d8d620523c9b"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:61145d7a80d1",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4f813cada9c0e5f0"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, the Firemind"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:43a446a02b22",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0f3ed5e0feef1427"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2d827fdc9a4b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2a54bb6854aaff5e"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c2e6b622446c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:10a438d46c38811f"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6353eb23365c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:db5542a01ce6b7cf"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9a8556c9a90d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8780f977ad33b99e"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1ce36bc26245",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:46ea80ecb017bfad"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a0ad0b959136",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f34a91288364bfcc"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b0cedc4c0dac",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:dddf9b258c7b3af4"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4613c4bb1938",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:72a7e030daac993b"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:367c5dde8e29",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a47d293224ebace6"
+   ]
+  },
+  {
+   "adds": [
+    "Revolutionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1c3086bcb1b6",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e44baea27a1855d5"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod the Uncaring"
+   ],
+   "cuts": [
+    "Hoarding Broodlord"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:99b91db2d95f",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7e80384584303e3b"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod the Uncaring"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5d83cfccb6ca",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2d85d05bd6b02d31"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:22abfd613d48",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a9116bcd1f71ea5e"
+   ]
+  },
+  {
+   "adds": [
+    "Salvager of Secrets"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:12f11206e882",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:029ff954f5d3a0bd"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a5f0c101ffd9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f540c94e8a1dfbbc"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Chronarch"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:264fab977d60",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4a9b21c6b6581901"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:dea07285e84e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b71c38bef3040403"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4c892a9b36d3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fc5b847d27b7a3a5"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:dca41bc9982d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f60c815cb9e21bd8"
+   ]
+  },
+  {
+   "adds": [
+    "Scrivener"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:12055f3a8474",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9edc525ea9affdb1"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:79608ff70731",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d11487b56be12a7a"
+   ]
+  },
+  {
+   "adds": [
+    "Vampire Charmseeker"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:271bc783aae5",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:6c13ea03171aee37"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:905132827048",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c8ff53b8cb5f5709"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:74c51b9cc878",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:24612816806b0ece"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:015475081e8e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7195c69e80b0d7f1"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Incubator"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6c9d52f05fc9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:643331d19555835e"
+   ]
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:98208013df95",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:951a3fb019de2d42"
+   ]
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:22c36629e412",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:49ea1f0abe3372ef"
+   ]
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a31e584e5306",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:41047e8fcf6b2d3a"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7bebc34be5a9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9e81dcec13e69839"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:07699f583b3b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f700f070a5fc851f"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:99afefb94bf4",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:aeefa9516815cc49"
+   ]
+  },
+  {
+   "adds": [
+    "Roaming Throne"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:441c0d8a289e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Triskaidekaphile"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7867508c58fd",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7046ad3cc4dc8f13"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1475bc196b1f",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:48815127b0e1b2b6"
+   ]
+  },
+  {
+   "adds": [
+    "Dread Return"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:601db53e302c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:127ed905708e449d"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b263c833fb5b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9680109195b10b37"
+   ]
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:86ab42eaa4c9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:131d053e71c0d5a3"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Shift"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:59d3336bec96",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:57245d19a013d998"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a11843664e05",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:06b4e367277a1934"
+   ]
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:08beefc50d8d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3ed408826b25c902"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5094675dfe80",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:40c8bbbffb50b78b"
+   ]
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8355e29f1c84",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:282175e05ae66fb3"
+   ]
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:955d7c69fd24",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:cbc5199249416983"
+   ]
+  },
+  {
+   "adds": [
+    "Stitch Together"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:12dde6233986",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a5a988c9829cdb26"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:19e4345cd65e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3b7936ea8327cfdb"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f9fc95d07999",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ba6348294849a0fc"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Finale of Promise"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:fedd5204ee0c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4c813d0d1142c2fc"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d384d16e51dd",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0c679820f83682fc"
+   ]
+  },
+  {
+   "adds": [
+    "Zombify"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4ffddac2d215",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b546809928b1c396"
+   ]
+  },
+  {
+   "adds": [
+    "Zombify"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3bbd2f859d7b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:70623a804a4910c7"
+   ]
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Finale of Promise"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:395759e707a8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:6af57bb874287e26"
+   ]
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3ce4858ec366",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3db3e1b6439a43db"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8d0c06bc54c0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:14cfe07e447243dc"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:020eab8d3e04",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b28311a52e41eeca"
+   ]
+  },
+  {
+   "adds": [
+    "Notorious Throng"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:97eb3f7e1609",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e1d37634b14b1892"
+   ]
+  },
+  {
+   "adds": [
+    "Notorious Throng"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:cb6c2331c54c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:79e1084bcbd46917"
+   ]
+  },
+  {
+   "adds": [
+    "Three Tree City"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ce2f03407f00",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b85bf527f778715d"
+   ]
+  },
+  {
+   "adds": [
+    "Invasion of Segovia // Caetus, Sea Tyrant of Segovia"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4e08e0685b55",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1b0863dccb107e57"
+   ]
+  },
+  {
+   "adds": [
+    "Invasion of Segovia // Caetus, Sea Tyrant of Segovia"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c77fbda215cc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7ffac248abc3525d"
+   ]
+  },
+  {
+   "adds": [
+    "Gleaming Overseer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:663435d1c99e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4d91c5519014",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ea51f0f5554871a8"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7081487bea08",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5a8b3e2cf4419c6d"
+   ]
+  },
+  {
+   "adds": [
+    "Into the Flood Maw"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c4bb4215136a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f2b3753f5f64a950"
+   ]
+  },
+  {
+   "adds": [
+    "Harmonized Trio // Brainstorm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a2539bb3c84b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:88b2386c02264c80"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:963fa81d994c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:cd976423423139f5"
+   ]
+  },
+  {
+   "adds": [
+    "Pensive Professor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b400d4fc458e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:05621fd3f6c3f854"
+   ]
+  },
+  {
+   "adds": [
+    "Prison Break"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f333defb65c2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a2a9ec6d3b9a4971"
+   ]
+  },
+  {
+   "adds": [
+    "Prison Break"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:20d372991911",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:439c40cb410c559b"
+   ]
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7ffb82af0d8b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:72595a012b72c1af"
+   ]
+  },
+  {
+   "adds": [
+    "Return Upon the Tide"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:51175b79ca8b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3fced874e8726087"
+   ]
+  },
+  {
+   "adds": [
+    "Return Upon the Tide"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ddf0dfab3a99",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0c0b5dbebf08ec30"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:832d7d945329",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Corpse Dance"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:507892c04279",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:aa337b23b685fca0"
+   ]
+  },
+  {
+   "adds": [
+    "Corpse Dance"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:85adb9ee06ce",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:efb0ae39a22e8cfe"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonologist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:db0e9dc22675",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f6ed384abc22",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Footsteps of the Goryo"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:eebf298bf58b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c03b7821a59bd05c"
+   ]
+  },
+  {
+   "adds": [
+    "Footsteps of the Goryo"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8511d2edb606",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2ace14148b96a508"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d657bcb485df",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:44b8bea55c49",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c3720d3dcf5ff8e8"
+   ]
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:217e55a1ecd0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:173f2803b24c2703"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9e551a0e59af",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e1d6c18a7a81b941"
+   ]
+  },
+  {
+   "adds": [
+    "Fearsome Awakening"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:bf180f8420fa",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4e2b438cd89f9d9b"
+   ]
+  },
+  {
+   "adds": [
+    "Fearsome Awakening"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6d8529a7d025",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:122331bb07ffbc91"
+   ]
+  },
+  {
+   "adds": [
+    "Unbreakable Bond"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7eefd3ec862d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3fc61c12d1258789"
+   ]
+  },
+  {
+   "adds": [
+    "Unbreakable Bond"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a4b5a43c640d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c58b231d9cd0410b"
+   ]
+  },
+  {
+   "adds": [
+    "Bond of Revival"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d03e84d3273b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:06ffa6f7676f09c6"
+   ]
+  },
+  {
+   "adds": [
+    "Bond of Revival"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2a7f54703b85",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7ae7ad321b130b45"
+   ]
+  },
+  {
+   "adds": [
+    "Owlin Spiralmancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9ad1c9b49f42",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Naktamun Lorespinner // Wheel of Fortune"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c140394477fb",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:95a50ce4daafb6d8"
+   ]
+  },
+  {
+   "adds": [
+    "Exhibition Tidecaller"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:43675effdf13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:593792684a8c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gandalf, Goblins' Bane // Flameshape"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:cb768cb7999d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dose of Dawnglow"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a2b6293223fb",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:771e52ed35da8923"
+   ]
+  },
+  {
+   "adds": [
+    "Dose of Dawnglow"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5a799bff0ff4",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:55b5f4cf4d1136e9"
+   ]
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a728c9387186",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1708e8c4e76d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:235e5ab55f8abe79"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of the Unreal"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5f8417c38ae4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:95fc44f44d35",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rise Again"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a32af16883a1",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:452cd9fb82968ee2"
+   ]
+  },
+  {
+   "adds": [
+    "Rise Again"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:625c70783712",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5a2e1fedabb85cb7"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5355e9fce184",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Torrent of Souls"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:70560806b91c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:28258f0e5e90febb"
+   ]
+  },
+  {
+   "adds": [
+    "Torrent of Souls"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a986e1d16642",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:bde324f44238e140"
+   ]
+  },
+  {
+   "adds": [
+    "Makeshift Mannequin"
+   ],
+   "cuts": [
+    "Essence Flux"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d194633a7f32",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c9d40c3785457567"
+   ]
+  },
+  {
+   "adds": [
+    "Makeshift Mannequin"
+   ],
+   "cuts": [
+    "Shallow Grave"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c364ba296718",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8ffc9fbbf78061d7"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6cfec59861f3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:57a6f3fd1207c7ec"
+   ]
+  },
+  {
+   "adds": [
+    "Memnarch, the Warden"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8a302ef7b63a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5aa0dd5204e556de"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:489d4d0886b9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e55f3aadde6110f3"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:52518ff8cbf8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:80be4af62be9789c"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9bf6193a181a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2b9a656bf9bd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inspired Skypainter // Maestro's Gift"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:96a2e023b7c4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Echo, Perceptive Prodigy"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:634eacb35fa6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:55c68c1d8196",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1a472dc91e11",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:15de14ee6929",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:48d4ef8beb29",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7077cd4f4331",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hydro-Channeler"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7aa40c4958d2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a6064c50ca064408"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana the Repentant"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2cb37783c070",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:60f8f1b4969a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a539399f8eff0344"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a68a754e2b66",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ec2073de9b5094d2"
+   ]
+  },
+  {
+   "adds": [
+    "Warren Soultrader"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:190ccb7d0d3f",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:dfe5c63a5a386cd8"
+   ]
+  },
+  {
+   "adds": [
+    "Muse Seeker"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:abb3deb3b091",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4f5ce6d20b38da31"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:633456820a69",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5f8547efa5f7bd85"
+   ]
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:71dc3b6b4eb8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:224ae308d3b0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gandalf, Shadow's Foe"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:83e2a248e4ac",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1cbca021dbf2dcff"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a45b6f17f883",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tomik, Izzet Sparkmage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e8b704b9d404",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:156903277fb8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:57b0045c7738",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:87435c12965d13cb"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:14b5feef59aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:cd45b49532c1",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:806312a556b8fd59"
+   ]
+  },
+  {
+   "adds": [
+    "Encouraging Aviator // Jump"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1108de8f8252",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a3b72af0ca55",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4db04bbdc6de",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9f2da78ca53d9e8a"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:248c51548f33",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:6ad9071a442469bc"
+   ]
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:294fcc6f1f9c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fedd8cea160e89dd"
+   ]
+  },
+  {
+   "adds": [
+    "Soratami Rainshaper"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1152cfd71b7b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spellbook Seeker // Careful Study"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:193f9a329be3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0089e6bc61df0d97"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:42877d898937",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9e550928f13ee8eb"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c2cea114f210",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:18a68037d1ac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:fe44d05db7aa",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7c8f3e5a2d5230c9"
+   ]
+  },
+  {
+   "adds": [
+    "Diviner of Victory // Unwind History"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6c9845fc8428",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0c5e58124644525b"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c0373211b189",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Wizard"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:71581a340a47",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:06d94d5c1c3e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lyra, Tolarian Archangel"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c88411f62a38",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c244e234ccd04e8e"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:43d5c58dbb1e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Textbook Tabulator"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e9a0986a6fe7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vodalian Illusionist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c941cd2508fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Landscape Painter // Vibrant Idea"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:081647cf1024",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:66d45f2904f9a18b"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0722ba1925fc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:36a29007afc9ee31"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e64f71265728",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0d083ce6faf7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:52556402152a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9663074695103a10"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:63da5099eb17",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emry, Lurker of the Loch"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:46e3696e4166",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9595b39536c9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:13389f564bd327e7"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:fdfc56ef1ee5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Illusion Spinners"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8b03a00ab4ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ophiomancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:99ecc49cda1f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tester of the Tangential"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ed0da383991e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:22ab7a216c54",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1f6f21d8c02b2230"
+   ]
+  },
+  {
+   "adds": [
+    "Gandalf, Spark Starter"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:501093ed5c91",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:01830ce97832",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4625d116d0f538d0"
+   ]
+  },
+  {
+   "adds": [
+    "Deluge Virtuoso"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:35c4b5fd3fa3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:97681e4b9de6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gandalf, Wandering Wizard"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8741bb34628e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:db70d875964938e7"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f784326e340e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seasoned Cryomancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c9b180ea10fa",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2d23854c62a3c2dd"
+   ]
+  },
+  {
+   "adds": [
+    "Paradox Shaper // Omit Variables"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:79e29d8ad3c9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tibor and Lumia"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:60f452eee763",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5b092f67c4dc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fc8346e723e76f4b"
+   ]
+  },
+  {
+   "adds": [
+    "Hapatra, the Desert Frost"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3d0314f470cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lake-town Mariners // Gone Fishing"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:69d023bcbea9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:658bcb6676c0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8cf95cc01823",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3e0635e9d074",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ruric Thar, Biomagus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:bc3abff4f3f9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:07172300141aa4e7"
+   ]
+  },
+  {
+   "adds": [
+    "Valley Floodcaller"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:58b7e57fea37",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3667a2502301",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Matterbending Mage"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7245b5901365",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goblin Pyromancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ac1a1bf7e44c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9d946d299a6b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e904a4399b02e2da"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a2accae39f5c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b5ce1ff6f920",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d237057f68f3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0d92efe044c4dd7c"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Duelist"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:20227a2a83e2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3f22515d38e6934a"
+   ]
+  },
+  {
+   "adds": [
+    "High Fae Trickster"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5f8583110476",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Theorix Metamage // Omit Variables"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ee91ee234162",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:35c2c0cab7e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hakim, Loreweaver"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f1c72756ae10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d6c8e50e2e91",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:5112914a65edbdc5"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b491e8604626",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f686661c22b306c0"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5de314f8bdae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cryotheory Adept"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b6f82b89ee9f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Minotaur Illusionist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3b079136f8e1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0b7d1ab9d11a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:60d854487374",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c973fcf3c2ab5e25"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d7050c73246a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e32a3f3937cad1f6"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:997f8e00dac7",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d1dbe59937f59d36"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:487c24ef41b5",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fc69cba8a571cfc7"
+   ]
+  },
+  {
+   "adds": [
+    "Siren Stormtamer"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0f3c9dfd877e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c803c8c999950a8d"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Confidant"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9c71451fc395",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pollywog Prodigy"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ca1c0fb05a89",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d1cff26319d12b1a"
+   ]
+  },
+  {
+   "adds": [
+    "Flux Channeler"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b8b0230d7f7d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b986bce82269",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e982a4cb90ede2bf"
+   ]
+  },
+  {
+   "adds": [
+    "Jadar, Ghoulcaller of Nephalia"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d8e1f1e25437",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c8ffe5845d4d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1772d5fb798d96ca"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7a1444f62d3f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ae09fd5e0c1d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1691a9333b35",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:29953b36f17c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:45a31f696c77",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Strike It Rich"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9a8266a2b76c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raise the Palisade"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5c9901ca9964",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:387db43fe467422b"
+   ]
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d014ee46461e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:07489c704cc22330"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:18726c958541",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curiosity Crafter"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:660eb553c5c6",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:27b1eaa11dfb758c"
+   ]
+  },
+  {
+   "adds": [
+    "Death Baron"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3313e894d8f3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Glen Elendra Archmage"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1b6965bd6b26",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b9da21649f6a3ec9"
+   ]
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:aa183da5bc31",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1bb11522fcca",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:87ec6c026d749f02"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Augur"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8aac9fe6d52d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7166a1bdb42ac92f"
+   ]
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d40afd547460",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archetype of Imagination"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a7ab3578adbd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jace's Archivist"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:912d15a4478a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4f170684273a79c6"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima the Impostor"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:38ff8750e539",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:af599c9ef316",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Trinket Mage"
+   ],
+   "cuts": [
+    "Hoarding Broodlord"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6e339b02b1a3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:809eeec43a24fc39"
+   ]
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:df9128a852d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Party Thrasher"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1d19d3706a62",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Balmor, Battlemage Captain"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e62bc754f79c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b793ca17b9b9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Master of Etherium"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:13a203e7a2b1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Visionary"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:428bef3bf135",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:86c201a046379dc2"
+   ]
+  },
+  {
+   "adds": [
+    "Sundial of the Infinite"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:19f2edbf9e1d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:6298e108ce220d89"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:47d9036ba000",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:db83abe73616bf14"
+   ]
+  },
+  {
+   "adds": [
+    "Lier, Disciple of the Drowned"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9ba1a79813ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d5cab4d9a83b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:92f69cc16ca8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:65197096eeb7a7c1"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:9bfafdd9b36c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3aea1c3b5501",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a17948882fc5e728"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d38a610c87b6",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fc4668c60009d37c"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:98bac7c8b8af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1900534a1a80",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Faerie Seer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1c6fbd564915",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alandra, Sky Dreamer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b312ee467131",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gogo, Mysterious Mime"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4df2f15375ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3135a24e66ae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:531d627fe121",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:46ef9cabe0dd8b1a"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7ed51a2a7be0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fc247939cbeba6b5"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f1118d0935ba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5ccef5e60161",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:54df2ecd1f00",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c1d50f6fe978",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gisa, Glorious Resurrector"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:dae923fc9800",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Metamorphosis Fanatic"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:998c29919fa7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emet-Selch of the Third Seat"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c71dbecccdf0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragon Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:04fb45ffadd2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1b6977162f9db546"
+   ]
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2b0c5296e8e5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Hoarding Broodlord"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7f6ec9f43268",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:86caebe3283b6eb2"
+   ]
+  },
+  {
+   "adds": [
+    "Vedalken Archmage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d18c99a44870",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f7b429ff8bba09ad"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8b13a6510f0e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ba01a3364f0cf332"
+   ]
+  },
+  {
+   "adds": [
+    "Fandaniel, Telophoroi Ascian"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2964593d1828",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Keen Duelist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8b5d41e35408",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Redoubled Stormsinger"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5a6a3e7f8c0a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Endrek Sahr, Master Breeder"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5c181a6cb247",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hermes, Overseer of Elpis"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2a4b2c5c4bde",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b474642fae9a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:02ed13bbb90c99e6"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f0a56b8f8a23",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2c4eb6f7831a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b5941810db69ee41"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:fb18e0b5c504",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7371d697b579",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:201f131c43292f25"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a26e64960a4d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gogo, Master of Mimicry"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d0daf9133ef2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chittering Witch"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2b44c8b41c54",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:cdab782a1aad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:25e6127af8f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f545171ff2b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magus of the Moon"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c4626ed2f310",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ae979fba1d2a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rona, Herald of Invasion // Rona, Tolarian Obliterator"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c440ed3e7c30",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:41c0f8dac639e9f6"
+   ]
+  },
+  {
+   "adds": [
+    "Krark, the Thumbless"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:68f51c7ca800",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5962f66c8648",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:905a0f270cc253ee"
+   ]
+  },
+  {
+   "adds": [
+    "Spellstutter Sprite"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:bc0d8a47c907",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:83d7e6bb18634331"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d2731dc037c6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saruman, the White Hand"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d95842590127",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tormod, the Desecrator"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:cd953bea914d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sakashima's Student"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e4e0d9e6d64a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5571c3f8a90d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7fb61c768220508c"
+   ]
+  },
+  {
+   "adds": [
+    "Warden of Evos Isle"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e834c6400419",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Experimental Confectioner"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e62eee863867",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vohar, Vodalian Desecrator"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:86d1d5618dbb",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:64ceb6ed2ce8c801"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:552b8639e8eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Harbinger of the Seas"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:dc8725ba8497",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kefka, Dancing Mad"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a522b04eeeb9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1f8ae6bf69d6",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0433b7b4c6ef163b"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:69aebac158f2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:250f934f315d99b9"
+   ]
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f96f394dd881",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4d92ef4013ae9072"
+   ]
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:7c53af905da3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8f58757304505766"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:47d88ce95451",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:37260742264cd8a7"
+   ]
+  },
+  {
+   "adds": [
+    "Pinnacle Monk // Mystic Peak"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f591ca9173b2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1984d759001360e1"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:eaabc045d0e0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:4d5c9c6d7324ee01"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c623700dd06c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7c9226a14fa42185"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a39f15e41a0b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2031017851ae4f99"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Lorecaster"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1b0145396508",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0cab17faa8e226ad"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8304b51d4e87",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0e0de623173e4b0d"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e1f5dea08de2",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ed678124dac00fe2"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3685e1a75baf",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d3fa3fb3ddc0bff5"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5267f77722ca",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:36b37534ddf56f78"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a71870b17cca",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9fa7ce1677a2dd9c"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:5e9189c7462a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b6382377ad15c99f"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:665911f8e3c9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:872c635deebd5f28"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:480320c791d0",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3ee60377c85ee38e"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:183aa13e267c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ee4222034fd9cf5b"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6c1c94bdc2f4",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:0dc55aa6d30a5a33"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e3235db47f66",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2f40ef0d98e2f009"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c503efb85cb5",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f809e070899b1981"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ac94ade27263",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:37f924cb204fa798"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:219ca72057f3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:e0e62fd2ef9b79a3"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:b25813b8eeb9",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:52d0cc3c99fdb9ca"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e0403a85c0dc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f5c04048506e52bc"
+   ]
+  },
+  {
+   "adds": [
+    "Exhume"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:495295fc2c1e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d43f6fdeca293e1a"
+   ]
+  },
+  {
+   "adds": [
+    "Exhume"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:3448ca049766",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b4429345c2c2ccda"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a232ce6ebd55",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:2743e9acc46597c4"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:c618d19334b8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:d774b84bd22ce807"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6019d8966c06",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a3fa0ec0e3a7c655"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:e42fbb1a5bc7",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:9f3e6a715f6ebef7"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:601c2027e0b1",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:b34c6ba4338da0b5"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a607a482c179",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:44985558457f21c4"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:02e424c287b8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:a25aa34d1590c031"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:854d49534882",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:810de0396e73e66b"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:8659ab88eeea",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ccbf6187abc94a97"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:a1a8d57134a4",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1a6ad0d423eaf5f9"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2efa0dbbfe2f",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7bc53799157ad147"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4340bf8a776c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:68c85dc272d13164"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:58e3361bab03",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:1489497e032c9b72"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:22df067c6817",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:7854ba3ad431a1da"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:015d8c19954e",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c7ee6acb3d7c137c"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:2fd1a3b85ec8",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:3b9ce973060bc253"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:6514572007dc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:875aa38f8008e757"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:417f3f634c1c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ddaf3fe58d6263b0"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:97b53e9ebcd3",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:c9eadfa30e9b7ac0"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ce49e34f5271",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fa37beaac71fcadf"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:0f6057ef150d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:fd70c8bb8636ec6b"
+   ]
+  },
+  {
+   "adds": [
+    "Starving Revenant"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:99c3a5a00dff",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:38ae751d27eb1fca"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Red Elemental Blast"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:d274b39899ff",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:ba30c911e1ed0663"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Saw in Half"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:61f0dacf53de",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:33d7e4384b82208f"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:f7f008a9a6f1",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:8e25e382f80b084a"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:ad7f175c020c",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:40f30ed7bc755580"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:26fe9f77d47a",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:24f53b3d7d4c60ba"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:907832c45f93",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f17cf785a90fedd9"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Blood Pet"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:20f3aad23155",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:153458b5455b7694"
+   ]
+  },
+  {
+   "adds": [
+    "Possessed Skaab"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:46151826503d",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f085e7cbc6ea63bb"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4aebb60a1e09",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:092d8ee5838f8c3b"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:1c14a9f4d115",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:bf78a7f6041ea7d3"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:4e0b738357fc",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:f93068126f7ea6d3"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Sacrifice"
+   ],
+   "id": "swap:inalla-archmage-ritualist:m5:272dffaabc4b",
+   "tests": [
+    "test:inalla-archmage-ritualist:goldfish:349a58b273caa439"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:89e5f0e1e514840b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9c78acf551c5389a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:02e117daab092981",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0ebb5e97276f41d0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:19d6b845c51bd7b3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9b8892e46d89fee8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1e399039eb12038e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:54da458a815b3703",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3f09396554dc537f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8e94843bd0fa95d7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8e3aab12c060bf70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:cf9ff0dae974a063",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4562f4d3624c7edd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:52ad7462a07fd2f2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a9ba1184f1e60f4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a31dff7339506fba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3ab66d436f3e2800",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:75a27f4e17f8f206",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:247d8dff0b799689",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:66a8e8df466ef7d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:50ec4cb2f97a8471",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f81ff2c2a7ec8e5d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:33474be9d3c6208c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f6370d3cb34f66df",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f761eac43e9e952d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:6829a03b63a79768",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:eff9ddd2693752ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9c398d1c5ee581c9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b7f83dec9879bb5d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0e0263ca8058c066",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:17743dc0e034ab25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7bdb36ce76a1ebe1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:515782d76aba79ad",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:475fa9164317e926",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a419598379159fd8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:59151ed170c6e1a1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:45369b4eb2db6fd3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:990289ffb76e8deb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fddb5016ac241616",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:665422f9d69ab6f0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:30608241292117f1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:533c9ecc8c789d0c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:32659a9924c5f464",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2b827732fa80238c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d29275ab49670028",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4308e4e42b1bf1e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3c73c73ceee6f16e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a2cdf76bb8440a0c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:eb3401712f4774f2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:42f6c9c6cb43b2c0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:aa16df0416c7df00",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:67578c3ade928470",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:54367b9c0c511dce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:39680b065c13f6b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8fed1ada9418e249",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5e61dbdb0dbcf69e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:292a8d26b5f86d3a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:997ec7f79d5d5c94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5df7e0dbe63f8bbe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:26b176b3af95cd73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e5451e29d3aac49f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:360a1b88093d50ac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0fd192780bcfa8a3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:43380c936989a118",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e4404407400466e1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3f4634fafbad2dce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:60b198a2307bd125",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1215146c2a4b71bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:54bb37beb1e997a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4513df66efcf27c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:673ca7261a3aece2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:261456864a140c6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:52ffac4249427b09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:27d887d21e45ec46",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4cebf931cd012c6c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9dbf19c06afea468",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7a39e32088cf1fff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c3a97268c11e6b09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2fa4af0deb0cf811",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f77835d53d750f5c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c2568e4b631b876a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ccbccdad8238b4ec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4855d8d620523c9b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4f813cada9c0e5f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0f3ed5e0feef1427",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2a54bb6854aaff5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:10a438d46c38811f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:db5542a01ce6b7cf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8780f977ad33b99e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:46ea80ecb017bfad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f34a91288364bfcc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:dddf9b258c7b3af4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:72a7e030daac993b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a47d293224ebace6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e44baea27a1855d5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7e80384584303e3b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2d85d05bd6b02d31",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a9116bcd1f71ea5e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:029ff954f5d3a0bd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f540c94e8a1dfbbc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4a9b21c6b6581901",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b71c38bef3040403",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fc5b847d27b7a3a5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f60c815cb9e21bd8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9edc525ea9affdb1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d11487b56be12a7a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:6c13ea03171aee37",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c8ff53b8cb5f5709",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:24612816806b0ece",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7195c69e80b0d7f1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:643331d19555835e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:951a3fb019de2d42",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:49ea1f0abe3372ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:41047e8fcf6b2d3a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9e81dcec13e69839",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f700f070a5fc851f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:aeefa9516815cc49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7046ad3cc4dc8f13",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:48815127b0e1b2b6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:127ed905708e449d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9680109195b10b37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:131d053e71c0d5a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:57245d19a013d998",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:06b4e367277a1934",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3ed408826b25c902",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:40c8bbbffb50b78b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:282175e05ae66fb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:cbc5199249416983",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a5a988c9829cdb26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3b7936ea8327cfdb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ba6348294849a0fc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4c813d0d1142c2fc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0c679820f83682fc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b546809928b1c396",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:70623a804a4910c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:6af57bb874287e26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3db3e1b6439a43db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:14cfe07e447243dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b28311a52e41eeca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e1d37634b14b1892",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:79e1084bcbd46917",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b85bf527f778715d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1b0863dccb107e57",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7ffac248abc3525d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ea51f0f5554871a8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5a8b3e2cf4419c6d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f2b3753f5f64a950",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:88b2386c02264c80",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:cd976423423139f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:05621fd3f6c3f854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a2a9ec6d3b9a4971",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:439c40cb410c559b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:72595a012b72c1af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3fced874e8726087",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0c0b5dbebf08ec30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:aa337b23b685fca0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:efb0ae39a22e8cfe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c03b7821a59bd05c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2ace14148b96a508",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c3720d3dcf5ff8e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:173f2803b24c2703",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e1d6c18a7a81b941",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4e2b438cd89f9d9b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:122331bb07ffbc91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3fc61c12d1258789",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c58b231d9cd0410b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:06ffa6f7676f09c6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7ae7ad321b130b45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:95a50ce4daafb6d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:771e52ed35da8923",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:55b5f4cf4d1136e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:235e5ab55f8abe79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:452cd9fb82968ee2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5a2e1fedabb85cb7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:28258f0e5e90febb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:bde324f44238e140",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c9d40c3785457567",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8ffc9fbbf78061d7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:57a6f3fd1207c7ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5aa0dd5204e556de",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e55f3aadde6110f3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:80be4af62be9789c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a6064c50ca064408",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a539399f8eff0344",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ec2073de9b5094d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:dfe5c63a5a386cd8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4f5ce6d20b38da31",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5f8547efa5f7bd85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1cbca021dbf2dcff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:87435c12965d13cb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:806312a556b8fd59",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9f2da78ca53d9e8a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:6ad9071a442469bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fedd8cea160e89dd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0089e6bc61df0d97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9e550928f13ee8eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7c8f3e5a2d5230c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0c5e58124644525b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c244e234ccd04e8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:66d45f2904f9a18b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:36a29007afc9ee31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9663074695103a10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:13389f564bd327e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1f6f21d8c02b2230",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4625d116d0f538d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:db70d875964938e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2d23854c62a3c2dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fc8346e723e76f4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:07172300141aa4e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e904a4399b02e2da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0d92efe044c4dd7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3f22515d38e6934a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:5112914a65edbdc5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f686661c22b306c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c973fcf3c2ab5e25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e32a3f3937cad1f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d1dbe59937f59d36",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fc69cba8a571cfc7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c803c8c999950a8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d1cff26319d12b1a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e982a4cb90ede2bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1772d5fb798d96ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:387db43fe467422b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:07489c704cc22330",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:27b1eaa11dfb758c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b9da21649f6a3ec9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:87ec6c026d749f02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7166a1bdb42ac92f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4f170684273a79c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:809eeec43a24fc39",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:86c201a046379dc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:6298e108ce220d89",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:db83abe73616bf14",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:65197096eeb7a7c1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a17948882fc5e728",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fc4668c60009d37c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:46ef9cabe0dd8b1a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fc247939cbeba6b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1b6977162f9db546",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:86caebe3283b6eb2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f7b429ff8bba09ad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ba01a3364f0cf332",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:02ed13bbb90c99e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b5941810db69ee41",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:201f131c43292f25",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:41c0f8dac639e9f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:905a0f270cc253ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:83d7e6bb18634331",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7fb61c768220508c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:64ceb6ed2ce8c801",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0433b7b4c6ef163b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:250f934f315d99b9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4d92ef4013ae9072",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8f58757304505766",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:37260742264cd8a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1984d759001360e1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:4d5c9c6d7324ee01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7c9226a14fa42185",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2031017851ae4f99",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0cab17faa8e226ad",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0e0de623173e4b0d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ed678124dac00fe2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d3fa3fb3ddc0bff5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:36b37534ddf56f78",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9fa7ce1677a2dd9c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b6382377ad15c99f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:872c635deebd5f28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3ee60377c85ee38e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ee4222034fd9cf5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:0dc55aa6d30a5a33",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2f40ef0d98e2f009",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f809e070899b1981",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:37f924cb204fa798",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:e0e62fd2ef9b79a3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:52d0cc3c99fdb9ca",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f5c04048506e52bc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d43f6fdeca293e1a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b4429345c2c2ccda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:2743e9acc46597c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:d774b84bd22ce807",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a3fa0ec0e3a7c655",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:9f3e6a715f6ebef7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:b34c6ba4338da0b5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:44985558457f21c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:a25aa34d1590c031",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:810de0396e73e66b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ccbf6187abc94a97",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1a6ad0d423eaf5f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7bc53799157ad147",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:68c85dc272d13164",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:1489497e032c9b72",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:7854ba3ad431a1da",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c7ee6acb3d7c137c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:3b9ce973060bc253",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:875aa38f8008e757",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ddaf3fe58d6263b0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:c9eadfa30e9b7ac0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fa37beaac71fcadf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:fd70c8bb8636ec6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:38ae751d27eb1fca",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:ba30c911e1ed0663",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:33d7e4384b82208f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:8e25e382f80b084a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:40f30ed7bc755580",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:24f53b3d7d4c60ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f17cf785a90fedd9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:153458b5455b7694",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f085e7cbc6ea63bb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:092d8ee5838f8c3b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:bf78a7f6041ea7d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:f93068126f7ea6d3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:inalla-archmage-ritualist:goldfish:349a58b273caa439",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

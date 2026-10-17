@@ -1,0 +1,1127 @@
+{
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "list_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "slug": "lynde-cheerful-tormentor",
+ "swaps": [
+  {
+   "adds": [
+    "Crystal Chimes"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:bee08d56c3ef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curse of Chaos"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:0c0fb01f596c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a6d75edda551",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:b7b116631c3b4656"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:20fb9b12dcb0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7f5bdfbd45fe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b9fa72204b35",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:8cca0ddb86e42b10"
+   ]
+  },
+  {
+   "adds": [
+    "Protean Thaumaturge"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:78aa5dc32683",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curse of Shallow Graves"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ef6ae4a0da63",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curse of the Nightly Hunt"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:c7b0359cee5a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curse of the Pierced Heart"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5824243e8552",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Extravagant Replication"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:700819c15068",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:8c28f18395c6",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:4294ce406306ec34"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of Stalked Prey"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a84fb335b9d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Curse of Inertia"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:11e192d11ba0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:2090d812aaf2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crawlspace"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:0a0ec01781b0",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:5198e319653781d5"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d2ace3b2cb5f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a80b349ceb24",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Silent Arbiter"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b4701aea0fb8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:dd1a097064a4",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:0769e64872f7db9c"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:add8c7970357",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:889204d8f0d4676b"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:fa3c9b41379e",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:b52253be6ac96cbf"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of the Bloody Tome"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:535bbb140638",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thoughtrender Lamia"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ace4e65396e6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:53a9aa42f72e",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:846f9e8604daba3b"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:95edb628cad1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stuffy Doll"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:e590d17b7a75",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:0389c726c2e8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Imperial Seal"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:26ce1aae4b22",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:c756c7288765763e"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of the Swine"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:65a6440df098",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:724660e0ec13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:2c94c1eb3fc5",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:eedd5040edb95dc2"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:66db4b3ad355",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:dc5a414195d328ae"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:34d2075ffa28",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:8210c773b48f9db1"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:14f1add4d74e",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:bf41d8a98eb2a5f9"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Sanity"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:e126d5a82d07",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:68c925f670fe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fog Bank"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:873432fbb6d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:bd5062133b28",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:a664f4d9b4d0fc0c"
+   ]
+  },
+  {
+   "adds": [
+    "No Mercy"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ac4f12e38747",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d02eb466b068",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:fb198a353258c116"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d91e0d6d93fd",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:b887c7d6e3e3285c"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Vantress"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:4dd51663c4ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b8d459277e87",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:e080d2de81e1a738"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d2289b06007c",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:676d7714ebcc1df3"
+   ]
+  },
+  {
+   "adds": [
+    "Curse of Oblivion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:61fa763d3e8f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a7dfafec9788",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:6384572068332573"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:753b45cf07a8",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:a0b15383a7735412"
+   ]
+  },
+  {
+   "adds": [
+    "Blightcaster"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7ee735f2f2bb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:45322272c3b8",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:890dbd7ce6bcf181"
+   ]
+  },
+  {
+   "adds": [
+    "Brash Taunter"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:635b6c04c92a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:3295aa7e0c1d",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:33a6aeb86de9dbbf"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5536262847ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:9674eeea9fab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7bb120be8248",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:09d567836201b1e4"
+   ]
+  },
+  {
+   "adds": [
+    "Final Vengeance"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:b0b7f97d7fcd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Forgeborn Oreads"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:8b63ac5bdfe2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d4c7dd549c8c",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:22b80cce8c61ada6"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Joins Up"
+   ],
+   "cuts": [
+    "Curse of Fool's Wisdom"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ee4bc28900e8",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:23e0e961e2577f09"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Joins Up"
+   ],
+   "cuts": [
+    "Torment of Scarabs"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:c0b534c851e1",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:29e1a601793489ec"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Curse of Fool's Wisdom"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a49682106930",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:4af1d12b9f970711"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Torment of Scarabs"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d70b035f00a7",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:7e496396542758a8"
+   ]
+  },
+  {
+   "adds": [
+    "Painful Quandary"
+   ],
+   "cuts": [
+    "Curse of Fool's Wisdom"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:cd6872b97be3",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:141dce7713cb7d5f"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:ffc9fb900c8d",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:e90b6d2ed719b4bc"
+   ]
+  },
+  {
+   "adds": [
+    "Ice Out"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d0c05e512a0d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:6227a651b4de",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:01b9397d762299e5"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:199a1905953b340c"
+   ]
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:d6779fb6357a",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:d9a7a1286874806d"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:7b67e8216364",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:7a50274454257748"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Ashiok's Reaper"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:628d5d8a9f80",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:936292f7c53983dd"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Swan Song"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:28f42a935583",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:582e4f0a76acc825"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:a0e7dc59e2ca",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:7a94d6c286b6d5ec"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Curse of Vengeance"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5aef80ce9eb5",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:99c03f10e12dff7c"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:01488caae8db",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:ebc4fdbc1f0b5585"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Ashiok's Reaper"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:8cf52c2e16e1",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:433eb3cb35e2283c"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:737409132ff9",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:27ef4d0e7cb6c3eb"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:3fa38d5b9a52",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:fbcf0bfc7a4bde6d"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:363f901a3f08",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:0399924b89423c31"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Withering Torment"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:189c3996c9d2",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:056e3ad662029352"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Accursed Witch // Infectious Curse"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:5556bafe96fc",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:1eeef7a4c7e48e4e"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Ashiok's Reaper"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:64de238a88ad",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:e6a657bf57b377a4"
+   ]
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:969046a1d1ba",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:9b356f8b22ce846e"
+   ]
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Curse of Vengeance"
+   ],
+   "id": "swap:lynde-cheerful-tormentor:m5:50c3f86d9a5e",
+   "tests": [
+    "test:lynde-cheerful-tormentor:goldfish:72becf416e351525"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:b7b116631c3b4656",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:8cca0ddb86e42b10",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:4294ce406306ec34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:5198e319653781d5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:0769e64872f7db9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:889204d8f0d4676b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:b52253be6ac96cbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:846f9e8604daba3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:c756c7288765763e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:eedd5040edb95dc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:dc5a414195d328ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:8210c773b48f9db1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:bf41d8a98eb2a5f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:a664f4d9b4d0fc0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:fb198a353258c116",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:b887c7d6e3e3285c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:e080d2de81e1a738",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:676d7714ebcc1df3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:6384572068332573",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:a0b15383a7735412",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:890dbd7ce6bcf181",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:33a6aeb86de9dbbf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:09d567836201b1e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:22b80cce8c61ada6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:23e0e961e2577f09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:29e1a601793489ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:4af1d12b9f970711",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:7e496396542758a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:141dce7713cb7d5f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:e90b6d2ed719b4bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:01b9397d762299e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:199a1905953b340c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:d9a7a1286874806d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:7a50274454257748",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:936292f7c53983dd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:582e4f0a76acc825",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:7a94d6c286b6d5ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:99c03f10e12dff7c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:ebc4fdbc1f0b5585",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:433eb3cb35e2283c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:27ef4d0e7cb6c3eb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:fbcf0bfc7a4bde6d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:0399924b89423c31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:056e3ad662029352",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:1eeef7a4c7e48e4e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:e6a657bf57b377a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:9b356f8b22ce846e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:lynde-cheerful-tormentor:goldfish:72becf416e351525",
+   "verdict": "inconclusive"
+  }
+ ]
+}

@@ -1,0 +1,2829 @@
+{
+ "candidates": [
+  {
+   "card": "Backlash",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Backlash",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Backlash",
+       "cut": "Blustersquall"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:609545e9ee03"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:2779ceabe229"
+   }
+  },
+  {
+   "card": "Spectacular Showdown",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spectacular Showdown",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spectacular Showdown",
+       "cut": "Blustersquall"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:00032b25ec45"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:f56337a7c563"
+   }
+  },
+  {
+   "card": "Maeve, Insidious Singer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Maeve, Insidious Singer",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:cebdcc6431a7"
+   }
+  },
+  {
+   "card": "Lightning Bolt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Bolt",
+       "cut": "Bedevil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:0cf85ed7ac5a"
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Red Death, Shipwrecker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:79914c8211f7"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:fdb0fe9cbac3"
+   }
+  },
+  {
+   "card": "Agitator Ant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agitator Ant",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agitator Ant",
+       "cut": "Blustersquall"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:b0a43f053400"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:ed40a4da961a"
+   }
+  },
+  {
+   "card": "Icy Manipulator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Icy Manipulator",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Icy Manipulator",
+       "cut": "Blustersquall"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:26fa697df0e5"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:02d40bfec842"
+   }
+  },
+  {
+   "card": "Cryptic Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptic Command",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:b7592478328e"
+   }
+  },
+  {
+   "card": "Uphill Battle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Uphill Battle",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:355679f06e9d"
+   }
+  },
+  {
+   "card": "Frost Titan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frost Titan",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:acd28f723d04"
+   }
+  },
+  {
+   "card": "Phyrexian Arena",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Arena",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:ad03a4afe40e"
+   }
+  },
+  {
+   "card": "Rhystic Study",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rhystic Study",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:73f1942dad4c"
+   }
+  },
+  {
+   "card": "City of Brass",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "City of Brass",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:00dda51eea7f"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:fd4423f5e4f3"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:074e0635582d"
+   }
+  },
+  {
+   "card": "Komainu Battle Armor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Komainu Battle Armor",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:737d6b1a0041"
+   }
+  },
+  {
+   "card": "Tamiyo, the Moon Sage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tamiyo, the Moon Sage",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:5b2758194cf4"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:ef461f83c50c"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:d6a1f3cdc66a"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:5f50d5409523"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:c1f6574ef719"
+   }
+  },
+  {
+   "card": "Ghoulish Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghoulish Impetus",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:05b91b018aca"
+   }
+  },
+  {
+   "card": "Feed the Swarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feed the Swarm",
+       "cut": "Bedevil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:355e240cd6f3"
+   }
+  },
+  {
+   "card": "Animate Dead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Umezawa's Jitte",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Umezawa's Jitte",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:10842d29f7a0"
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:cea2789f6762"
+   }
+  },
+  {
+   "card": "Mocking Doppelganger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mocking Doppelganger",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:e82ae888d76c"
+   }
+  },
+  {
+   "card": "Death Kiss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Death Kiss",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:87238b1fc5e2"
+   }
+  },
+  {
+   "card": "Scalding Tarn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scalding Tarn",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:1f0b35ee580e"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:dcc31d5a6ba3"
+   }
+  },
+  {
+   "card": "Gilded Lotus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gilded Lotus",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gilded Lotus",
+       "cut": "Red Death, Shipwrecker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:dab56b1256ff"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:54741a0c43f1"
+   }
+  },
+  {
+   "card": "The Master, Mesmerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Mesmerist",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:5508ae584182"
+   }
+  },
+  {
+   "card": "Psychic Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urborg, Tomb of Yawgmoth",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:a1bf50871d80"
+   }
+  },
+  {
+   "card": "Staff of Domination",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Staff of Domination",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:f9c8e63309bf"
+   }
+  },
+  {
+   "card": "Maestros Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Xantcha, Sleeper Agent"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:e730323d7c1d"
+   }
+  },
+  {
+   "card": "Baeloth Barrityl, Entertainer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baeloth Barrityl, Entertainer",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:b8ac4e02565c"
+   }
+  },
+  {
+   "card": "Life of the Party",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Life of the Party",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:dd4ac93fbac9"
+   }
+  },
+  {
+   "card": "Parasitic Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Parasitic Impetus",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:22c5968bea13"
+   }
+  },
+  {
+   "card": "Puppet Strings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rimewind Taskmage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rimewind Taskmage",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "283-4091"
+        ]
+       },
+       "add": "Rimewind Taskmage",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:6a86e53586d4"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:e34b3e1484c3"
+   }
+  },
+  {
+   "card": "Tidewater Minion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidewater Minion",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "283-4091"
+        ]
+       },
+       "add": "Tidewater Minion",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:e7d5b972597a"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:37917626d8b7"
+   }
+  },
+  {
+   "card": "Grim Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grim Monolith",
+       "cut": "Talisman of Creativity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:c91ea174da61"
+   }
+  },
+  {
+   "card": "The Sound of Drums",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Sound of Drums",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:19c815efb36d"
+   }
+  },
+  {
+   "card": "Hot Pursuit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hot Pursuit",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:20d279752d7f"
+   }
+  },
+  {
+   "card": "Ponder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ponder",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:275b71a4c452"
+   }
+  },
+  {
+   "card": "Taunting Kobold",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Taunting Kobold",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:30eb10485f6b"
+   }
+  },
+  {
+   "card": "The Rani",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Popular Entertainer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Popular Entertainer",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:864620243b3d"
+   }
+  },
+  {
+   "card": "Morphic Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Morphic Pool",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:df420da6d009"
+   }
+  },
+  {
+   "card": "Imperial Recruiter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:480e8c82642c"
+   }
+  },
+  {
+   "card": "Aetherize",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aetherize",
+       "cut": "Rakdos Charm"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:78b82c9374f4"
+   }
+  },
+  {
+   "card": "Mystical Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:9e18572d3963"
+   }
+  },
+  {
+   "card": "Chromatic Orrery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Orrery",
+       "cut": "Red Death, Shipwrecker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:328d8b02e89b"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:a8e63c687dfe"
+   }
+  },
+  {
+   "card": "Nevinyrral's Disk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Unctus, Grand Metatect",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unctus, Grand Metatect",
+       "cut": "Firkraag, Cunning Instigator"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:d9f7df301f95"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:e19d589552b9"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Bedevil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:97ef2c08d491"
+   }
+  },
+  {
+   "card": "Hawkeye's Bow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hawkeye's Bow",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:89b7a1c2d859"
+   }
+  },
+  {
+   "card": "Arcane Lighthouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Lighthouse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:b3b7b24ec23a"
+   }
+  },
+  {
+   "card": "Hangar Scrounger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hangar Scrounger",
+       "cut": "Hylda's Crown of Winter"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hangar Scrounger",
+       "cut": "Firkraag, Cunning Instigator"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:b08fd9a5c51f"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:f7c656ef4ec7"
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Hylda's Crown of Winter"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:65a03475c965"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Xantcha, Sleeper Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Puppeteer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:d360f677e420"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:bbc12406a669"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:caa72ac16f7d"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Bedevil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:738d76b7ca71"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Bedevil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:1b6d164dafd9"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Red Death, Shipwrecker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:2c2eee3e0044"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:e805c47c259b"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Bedevil"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:332215019f86"
+   }
+  },
+  {
+   "card": "Spawnsire of Ulamog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Talisman of Creativity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spawnsire of Ulamog",
+       "cut": "Red Death, Shipwrecker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:a6ee151e2a97"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:049f86fe5ef9"
+   }
+  },
+  {
+   "card": "Magosi, the Waterveil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magosi, the Waterveil",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:tetsuo-umezawa:m5:9840e2c42af7"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Xantcha, Sleeper Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Puppeteer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:4e4dece74541"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:c77f2e176c73"
+   }
+  },
+  {
+   "card": "Wake Thrasher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake Thrasher",
+       "cut": "Xantcha, Sleeper Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake Thrasher",
+       "cut": "Puppeteer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:d774d5d563b5"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:60da35da331f"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Xantcha, Sleeper Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "283-4091"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:49325edace00"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:5eea532012b6"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Xantcha, Sleeper Agent"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "283-4091"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Aphetto Alchemist"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:tetsuo-umezawa:m5:92bb1efcae52"
+    },
+    "swap": "swap:tetsuo-umezawa:m5:2c6182a982b5"
+   }
+  }
+ ],
+ "deck_id": "Tetsuo_Umezawa",
+ "list_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+ "slug": "tetsuo-umezawa",
+ "swaps": [
+  {
+   "adds": [
+    "Backlash"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:2779ceabe229"
+  },
+  {
+   "adds": [
+    "Backlash"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:609545e9ee03"
+  },
+  {
+   "adds": [
+    "Spectacular Showdown"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:f56337a7c563"
+  },
+  {
+   "adds": [
+    "Spectacular Showdown"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:00032b25ec45"
+  },
+  {
+   "adds": [
+    "Maeve, Insidious Singer"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:cebdcc6431a7"
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:0cf85ed7ac5a"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:fdb0fe9cbac3"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:79914c8211f7"
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:ed40a4da961a"
+  },
+  {
+   "adds": [
+    "Agitator Ant"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b0a43f053400"
+  },
+  {
+   "adds": [
+    "Icy Manipulator"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:02d40bfec842"
+  },
+  {
+   "adds": [
+    "Icy Manipulator"
+   ],
+   "cuts": [
+    "Blustersquall"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:26fa697df0e5"
+  },
+  {
+   "adds": [
+    "Cryptic Command"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b7592478328e"
+  },
+  {
+   "adds": [
+    "Uphill Battle"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:355679f06e9d"
+  },
+  {
+   "adds": [
+    "Frost Titan"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:acd28f723d04"
+  },
+  {
+   "adds": [
+    "Phyrexian Arena"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:ad03a4afe40e"
+  },
+  {
+   "adds": [
+    "Rhystic Study"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:73f1942dad4c"
+  },
+  {
+   "adds": [
+    "City of Brass"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:00dda51eea7f"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:fd4423f5e4f3"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:074e0635582d"
+  },
+  {
+   "adds": [
+    "Komainu Battle Armor"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:737d6b1a0041"
+  },
+  {
+   "adds": [
+    "Tamiyo, the Moon Sage"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5b2758194cf4"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:ef461f83c50c"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d6a1f3cdc66a"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5f50d5409523"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:c1f6574ef719"
+  },
+  {
+   "adds": [
+    "Ghoulish Impetus"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:05b91b018aca"
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:355e240cd6f3"
+  },
+  {
+   "adds": [
+    "Umezawa's Jitte"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:10842d29f7a0"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:cea2789f6762"
+  },
+  {
+   "adds": [
+    "Mocking Doppelganger"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e82ae888d76c"
+  },
+  {
+   "adds": [
+    "Death Kiss"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:87238b1fc5e2"
+  },
+  {
+   "adds": [
+    "Scalding Tarn"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:1f0b35ee580e"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:dcc31d5a6ba3"
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:54741a0c43f1"
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:dab56b1256ff"
+  },
+  {
+   "adds": [
+    "The Master, Mesmerist"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5508ae584182"
+  },
+  {
+   "adds": [
+    "Urborg, Tomb of Yawgmoth"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:a1bf50871d80"
+  },
+  {
+   "adds": [
+    "Staff of Domination"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:f9c8e63309bf"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e730323d7c1d"
+  },
+  {
+   "adds": [
+    "Baeloth Barrityl, Entertainer"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b8ac4e02565c"
+  },
+  {
+   "adds": [
+    "Life of the Party"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:dd4ac93fbac9"
+  },
+  {
+   "adds": [
+    "Parasitic Impetus"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:22c5968bea13"
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e34b3e1484c3"
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:6a86e53586d4"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:37917626d8b7"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e7d5b972597a"
+  },
+  {
+   "adds": [
+    "Grim Monolith"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:c91ea174da61"
+  },
+  {
+   "adds": [
+    "The Sound of Drums"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:19c815efb36d"
+  },
+  {
+   "adds": [
+    "Hot Pursuit"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:20d279752d7f"
+  },
+  {
+   "adds": [
+    "Ponder"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:275b71a4c452"
+  },
+  {
+   "adds": [
+    "Taunting Kobold"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:30eb10485f6b"
+  },
+  {
+   "adds": [
+    "Popular Entertainer"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:864620243b3d"
+  },
+  {
+   "adds": [
+    "Morphic Pool"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:df420da6d009"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:480e8c82642c"
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:78b82c9374f4"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:9e18572d3963"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:a8e63c687dfe"
+  },
+  {
+   "adds": [
+    "Chromatic Orrery"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:328d8b02e89b"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e19d589552b9"
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d9f7df301f95"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:97ef2c08d491"
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:89b7a1c2d859"
+  },
+  {
+   "adds": [
+    "Arcane Lighthouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b3b7b24ec23a"
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:f7c656ef4ec7"
+  },
+  {
+   "adds": [
+    "Hangar Scrounger"
+   ],
+   "cuts": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:b08fd9a5c51f"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Hylda's Crown of Winter"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:65a03475c965"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:bbc12406a669"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Puppeteer"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d360f677e420"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:caa72ac16f7d"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:738d76b7ca71"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:1b6d164dafd9"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:e805c47c259b"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:2c2eee3e0044"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Bedevil"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:332215019f86"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Talisman of Creativity"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:049f86fe5ef9"
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Red Death, Shipwrecker"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:a6ee151e2a97"
+  },
+  {
+   "adds": [
+    "Magosi, the Waterveil"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:9840e2c42af7"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:c77f2e176c73"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Puppeteer"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:4e4dece74541"
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:60da35da331f"
+  },
+  {
+   "adds": [
+    "Wake Thrasher"
+   ],
+   "cuts": [
+    "Puppeteer"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:d774d5d563b5"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:5eea532012b6"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:49325edace00"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Xantcha, Sleeper Agent"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:2c6182a982b5"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Aphetto Alchemist"
+   ],
+   "id": "swap:tetsuo-umezawa:m5:92bb1efcae52"
+  }
+ ]
+}

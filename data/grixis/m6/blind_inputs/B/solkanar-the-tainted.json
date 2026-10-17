@@ -1,0 +1,1155 @@
+{
+ "deck_id": "Sol_kanar_the_Tainted",
+ "list_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "slug": "solkanar-the-tainted",
+ "swaps": [
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:21c3ddfbea0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:25340d95b4a9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:4afbbb0fb9c6",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:5cb528a25d5f31d0"
+   ]
+  },
+  {
+   "adds": [
+    "Modify Memory"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:b50f901947d7",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:9d5a38de5580c1ab"
+   ]
+  },
+  {
+   "adds": [
+    "Zuko, Conflicted"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:427f32adcfcd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abyssal Persecutor"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:09abdaecf71d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:1c5933a761d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wishclaw Talisman"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9d672ba6a9f2",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:34a1a3a9b17b22c1"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ab812d61f57b",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:293a88f77bb087aa"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d1a8ccf3111b",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:3b081cdde7a4bde9"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:c2a8aa5ce989",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:e8246f15b7436e86"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:95f4b0574cdc",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:37894dd491b96b3d"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Bojuka Bog"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:793a6c20f778",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:18714b62d38e6e9b"
+   ]
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:fe555e7f4284",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:983207fc4bad",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ab842bdb32bd",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:633e00ba941d8f9d"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Bojuka Bog"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a453de145cd5",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:8142ea06666180f5"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7d0a8cc3bc8f",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:459358ebb81f3d37"
+   ]
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Visions of Duplicity"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ef5c9e84144a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Disrupt Decorum"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:fd7049209938",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:c72bcfc4674fac55"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:1b51e77a1b9e",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:64fbe626d94e90c3"
+   ]
+  },
+  {
+   "adds": [
+    "Pendant of Prosperity"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d8ff4f8121c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7dd8efb2d774",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:9012a3ed9a40e3cf"
+   ]
+  },
+  {
+   "adds": [
+    "Hithlain Rope"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a9d839b75aed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Coveted Jewel"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:beb65fd4b516",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:c55e0c51e6e0ae64"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:f6166d89bcb1",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:f392b4c25ad4af3c"
+   ]
+  },
+  {
+   "adds": [
+    "Akroan Horse"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:197055892fa7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d362c6178d52",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:b036b50895517196"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ebcf9c17701c",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:f4aa13111f6614c7"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:769777f6830b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:6af1a18182f5",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:4df3dbe6c690dc4c"
+   ]
+  },
+  {
+   "adds": [
+    "Sleeper Agent"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:87bf927d3b5f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:bcc90bc4044e",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:1e3d29ea61db3fc7"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:de5fc4b0912d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:138f6b12afcc",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:f0bb31369e199e3e"
+   ]
+  },
+  {
+   "adds": [
+    "Candlekeep Sage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9ceea7abb356",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:8baa9a89fe55",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a7d1ba12114f",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:515fa3bde28d8306"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:72a8e5ce67d2",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:ec0044630315e0c8"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:a1fff8d930fc",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:2162ea75db38a415"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:57861a67fb16",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bucknard's Everfull Purse"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:735543f67bb9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:df71cb284c52",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:56c2b67b0a09b574"
+   ]
+  },
+  {
+   "adds": [
+    "Deadpool, Trading Card"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:0a2503c0b2b5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:fb1123c624f5",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:0e911003452cb25c"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Coveted Falcon"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:12c60e95c1d5",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:e860b805133e0478"
+   ]
+  },
+  {
+   "adds": [
+    "Chef's Kiss"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d15e083b7992",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:e49b3da3c8d8",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:2b4e1215a91debe1"
+   ]
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:56b0c6d4d283",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:2b5570ecbf40a8b4"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:8d22af2eb56f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Exchange of Words"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:d06c9e4b81a0",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:6836c6fd1062d184"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7d3465b45a8a",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:c9fcc5bf373c1b73"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:39778211694c",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:48294050467492f7"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftwater Cliffs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:154df81c40e6",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:6f876696a8803234"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:3c549fad82c9",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:c73c556aa674a22b"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:1ae53d6d6352",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:718e6b3d2cc0f42d"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Fire and Ice"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:4192dd08304e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aetherize"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:de11441b5ed3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:92b90a944e5d",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:9a378a927e55c19a"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:97a07445ccbc",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:82d1309f4a630f65"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:aa47a1accdf6",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:fdde06b7cb339e93"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:7d38636e3f5c",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:12ee14f8a20427b1"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:b15a4410a5a1",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:206e83bd7b4d65fb"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:540bce12b51c",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:4084fe66a1475e9c"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:51e5f306fa6f",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:c55c02613e4959b9"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Coveted Falcon"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:ee5c96132f39",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:be0afd8a7ba8e71c"
+   ]
+  },
+  {
+   "adds": [
+    "Body of Knowledge"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:729d022cb459",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:1140509f610a921d"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Spiteful Banditry"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:934f751c22a1",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:724ac9aa504e3691"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Goblin Bombardment"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:411035346a90",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:3f03e51eb6831674"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:af462f2d61c7",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:ae0bf574b9878d37"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:454898cd4556",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:44da44a90fad2ab7"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:2c78aa20a53e",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:8119e1cf01408f33"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:eb884ddc718a",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:2685667c3eda7770"
+   ]
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Ertai Resurrected"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:62d22c7fb2e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9c5561bff0b4",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:6d63d96e74f11582"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:9544cd1d7ae4",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:33cfa0f4d4565898"
+   ]
+  },
+  {
+   "adds": [
+    "Sigil Tracer"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:74dbe6d03da5",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:5dd9ace5783ad6c9"
+   ]
+  },
+  {
+   "adds": [
+    "Sigil Tracer"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:8d28f7718ca5",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:8bed0bd2d85f952c"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:282e28849616",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:a81a6da5d8a59c54"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Bazaar Trader"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:f6c73210cdef",
+   "tests": [
+    "test:solkanar-the-tainted:goldfish:1cf110fadfe9b3fa"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:solkanar-the-tainted:m5:04bdcca230d0",
+   "tests": []
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:solkanar-the-tainted:goldfish:5cb528a25d5f31d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:9d5a38de5580c1ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:34a1a3a9b17b22c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:293a88f77bb087aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:3b081cdde7a4bde9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:e8246f15b7436e86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:37894dd491b96b3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:18714b62d38e6e9b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:633e00ba941d8f9d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:8142ea06666180f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:459358ebb81f3d37",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:c72bcfc4674fac55",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:64fbe626d94e90c3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:9012a3ed9a40e3cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:c55e0c51e6e0ae64",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:f392b4c25ad4af3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:b036b50895517196",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:f4aa13111f6614c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:4df3dbe6c690dc4c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:1e3d29ea61db3fc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:f0bb31369e199e3e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:515fa3bde28d8306",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:ec0044630315e0c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:2162ea75db38a415",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:56c2b67b0a09b574",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:0e911003452cb25c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:e860b805133e0478",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:2b4e1215a91debe1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:2b5570ecbf40a8b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:6836c6fd1062d184",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:c9fcc5bf373c1b73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:48294050467492f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:6f876696a8803234",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:c73c556aa674a22b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:718e6b3d2cc0f42d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:9a378a927e55c19a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:82d1309f4a630f65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:fdde06b7cb339e93",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:12ee14f8a20427b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:206e83bd7b4d65fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:4084fe66a1475e9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:c55c02613e4959b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:be0afd8a7ba8e71c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:1140509f610a921d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:724ac9aa504e3691",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:3f03e51eb6831674",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:ae0bf574b9878d37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:44da44a90fad2ab7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:8119e1cf01408f33",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:2685667c3eda7770",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:6d63d96e74f11582",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:33cfa0f4d4565898",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:5dd9ace5783ad6c9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:8bed0bd2d85f952c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:a81a6da5d8a59c54",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:solkanar-the-tainted:goldfish:1cf110fadfe9b3fa",
+   "verdict": "inconclusive"
+  }
+ ]
+}

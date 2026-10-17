@@ -1,0 +1,8614 @@
+{
+ "candidates": [
+  {
+   "card": "Starwinder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starwinder",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b092dfd4631c"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1eea101e3b4a"
+   }
+  },
+  {
+   "card": "Mulldrifter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mulldrifter",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f4f6ff2853f4"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:08be845fc8c6"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:aa809a9271bf"
+   }
+  },
+  {
+   "card": "Orthion, Hero of Lavabrink",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orthion, Hero of Lavabrink",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b66effd5fc20"
+   }
+  },
+  {
+   "card": "Mimic Vat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mimic Vat",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:cd91c8397fd3"
+   }
+  },
+  {
+   "card": "Zara, Renegade Recruiter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zara, Renegade Recruiter",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:03700b8b0c3e"
+   }
+  },
+  {
+   "card": "Devastating Onslaught",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Devastating Onslaught",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Devastating Onslaught",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:bca505be6038"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:ec2537531e78"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:60492b9390a3"
+   }
+  },
+  {
+   "card": "Sedris, the Traitor King",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sedris, the Traitor King",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8f16c1fd0143"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1580c2d30db3"
+   }
+  },
+  {
+   "card": "Blade of Selves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Whip of Erebos",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:16b44a9618c8"
+   }
+  },
+  {
+   "card": "Dimir Aqueduct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Aqueduct",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:e7112bbefbd8"
+   }
+  },
+  {
+   "card": "Lotus Field",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lotus Field",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:168b4169bd24"
+   }
+  },
+  {
+   "card": "Araumi of the Dead Tide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Araumi of the Dead Tide",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1e172b94a3c6"
+   }
+  },
+  {
+   "card": "Broodbirth Viper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Broodbirth Viper",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:303e0d2086ca"
+   }
+  },
+  {
+   "card": "Firbolg Flutist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Firbolg Flutist",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:c6e56f24470f"
+   }
+  },
+  {
+   "card": "Exotic Orchard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exotic Orchard",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:49177ccec37d"
+   }
+  },
+  {
+   "card": "Archon of Cruelty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archon of Cruelty",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:6eb9e5ec68c0"
+   }
+  },
+  {
+   "card": "Auton Soldier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Auton Soldier",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Auton Soldier",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:ae291e46ba36"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:80aa532e51d0"
+   }
+  },
+  {
+   "card": "Molten Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Molten Duplication",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Molten Duplication",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c00f0956e257"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:27d9dcdedc36"
+   }
+  },
+  {
+   "card": "Cauldron Dance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Red Sun's Twilight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Red Sun's Twilight",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f2044fa65885"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:00c7711a80af"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:2dd36560d484"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:c44438d84d21"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1f508daa7582"
+   }
+  },
+  {
+   "card": "Mirror March",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror March",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:394fdc41e258"
+   }
+  },
+  {
+   "card": "Terror of the Peaks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terror of the Peaks",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Terror of the Peaks",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:7c3c52f2c01b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:d46f12945f21"
+   }
+  },
+  {
+   "card": "Etali, Primal Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etali, Primal Storm",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:348edc591fcc"
+   }
+  },
+  {
+   "card": "Elturel Survivors",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Elturel Survivors",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:51f810cb24bc"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:3d5a66371fc2"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:cf6360ce22f7"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:065ebe89911e"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:cdd7a100a7d5"
+   }
+  },
+  {
+   "card": "Baleful Strix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baleful Strix",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:12219aef57d8"
+   }
+  },
+  {
+   "card": "Time Stop",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Stop",
+       "cut": "Discontinuity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:066fa2b999d5"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:17e2e9737ef2"
+   }
+  },
+  {
+   "card": "Fact or Fiction",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fact or Fiction",
+       "cut": "Discontinuity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:6f292efe0e7a"
+   }
+  },
+  {
+   "card": "Tannuk, Steadfast Second",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tannuk, Steadfast Second",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f769e29584ae"
+   }
+  },
+  {
+   "card": "Zealous Conscripts",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zealous Conscripts",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Zealous Conscripts",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:109bdcf72312"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:7e24e4894d2e"
+   }
+  },
+  {
+   "card": "Anger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Anger",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:bf5b0c9cf812"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:89371f9ae626"
+   }
+  },
+  {
+   "card": "Determined Iteration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Determined Iteration",
+       "cut": "Necromancy"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:fe65ed9dfe0a"
+   }
+  },
+  {
+   "card": "Electroduplicate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Electroduplicate",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Electroduplicate",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:e6d50a043831"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:6d3856178448"
+   }
+  },
+  {
+   "card": "Fatestitcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fatestitcher",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Fatestitcher",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:dd564ec71038"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:afc6bf6872bd"
+   }
+  },
+  {
+   "card": "Voidwalk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:55b0ccbd1184"
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8339fd23cf42"
+   }
+  },
+  {
+   "card": "Mirror Box",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Amphin Mutineer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Foggy Swamp Visions",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Goldlust Triad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Wheel of Fortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Fortune",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:b9d5f8c3ffcd"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4658254c0fb7"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:928fb02d2f43"
+   }
+  },
+  {
+   "card": "Dramatic Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dramatic Reversal",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dramatic Reversal",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:eb411e641477"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4c01724c3482"
+   }
+  },
+  {
+   "card": "Heat Shimmer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heat Shimmer",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Heat Shimmer",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a8e94f0d171b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:d145cb0933b9"
+   }
+  },
+  {
+   "card": "Three Steps Ahead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Three Steps Ahead",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:64e4f850dc2b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:60ea88dc77e2"
+   }
+  },
+  {
+   "card": "Cloud of Faeries",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloud of Faeries",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloud of Faeries",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f2e74338471e"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:2e0c85d3ad4f"
+   }
+  },
+  {
+   "card": "Sublime Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sublime Epiphany",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sublime Epiphany",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:605a10836e34"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:fa523402db7a"
+   }
+  },
+  {
+   "card": "The Master, Multiplied",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Master, Multiplied",
+       "cut": "Purphoros, Bronze-Blooded"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:255ba3e871d7"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f40d3ac2a160"
+   }
+  },
+  {
+   "card": "Blur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blur",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blur",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:b45977e73c5d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:319bbc8a2762"
+   }
+  },
+  {
+   "card": "Fear of Missing Out",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fear of Missing Out",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fear of Missing Out",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:12cc34a9c908"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f6019314ede9"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:9c4a67e560f2"
+   }
+  },
+  {
+   "card": "Agent of Treachery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agent of Treachery",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:37fb7bbe569a"
+   }
+  },
+  {
+   "card": "Splash Portal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splash Portal",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splash Portal",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:eaeac3de346d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:90f6504a5251"
+   }
+  },
+  {
+   "card": "Quasiduplicate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quasiduplicate",
+       "cut": "Avaricious Dragon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quasiduplicate",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:5cab576cf13b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:325cbd01ed6d"
+   }
+  },
+  {
+   "card": "Vizier of Tumbling Sands",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vizier of Tumbling Sands",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vizier of Tumbling Sands",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:33602ce8d84d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f502156b5d68"
+   }
+  },
+  {
+   "card": "Sea-Dasher Octopus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sea-Dasher Octopus",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sea-Dasher Octopus",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:3fa15b63294c"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:288eed78c828"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:128a468fffc5"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:75ef932ade5d"
+   }
+  },
+  {
+   "card": "Siren's Ruse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siren's Ruse",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siren's Ruse",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f9303160a79d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:801056bfb8c2"
+   }
+  },
+  {
+   "card": "Dreamtail Heron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dreamtail Heron",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dreamtail Heron",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:b738ba3a0c91"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:5277fab3a453"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f9a7c9bd3757"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a3b205bbf59e"
+   }
+  },
+  {
+   "card": "Illusionist's Stratagem",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Illusionist's Stratagem",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Illusionist's Stratagem",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:8547cd9100a5"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b530821bde03"
+   }
+  },
+  {
+   "card": "Lich's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:87c750984202"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:7b635ecd76d4"
+   }
+  },
+  {
+   "card": "Muddle the Mixture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Muddle the Mixture",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1b9c112dca17"
+   }
+  },
+  {
+   "card": "Cavern Whisperer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern Whisperer",
+       "cut": "Avaricious Dragon"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern Whisperer",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:8969821f26da"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b5198bf032e2"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:87ff1b08efe9"
+   }
+  },
+  {
+   "card": "Flame of Anor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:57ed93e20ce3"
+   }
+  },
+  {
+   "card": "Cloudpiercer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloudpiercer",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloudpiercer",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:3d2af64f79d2"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8538e7860ae0"
+   }
+  },
+  {
+   "card": "Curse of Obsession",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Curse of Obsession",
+       "cut": "Avaricious Dragon"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b3292c8a0f22"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:7de40d205ea9"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:68f7ba7b69ab"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:0e85005e6f1e"
+   }
+  },
+  {
+   "card": "Ponder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Return the Favor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Return the Favor",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8d12c41c41b2"
+   }
+  },
+  {
+   "card": "Swan Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swan Song",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:3bcefe349d3d"
+   }
+  },
+  {
+   "card": "Saheeli Rai",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli Rai",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:49dd655fc937"
+   }
+  },
+  {
+   "card": "Hide on the Ceiling",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hide on the Ceiling",
+       "cut": "Discontinuity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:2a6740bcd36f"
+   }
+  },
+  {
+   "card": "Urabrask's Forge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Goryo's Vengeance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goryo's Vengeance",
+       "cut": "Discontinuity"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:e35891a8c39a"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:14f0bb431a2e"
+   }
+  },
+  {
+   "card": "Pemmin's Aura",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pemmin's Aura",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:fe4291c503fc"
+   }
+  },
+  {
+   "card": "Necromantic Selection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necromantic Selection",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:caf9e803b469"
+   }
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldgorger Dragon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:895e277ff08f"
+   }
+  },
+  {
+   "card": "Skycoach Conductor // All Aboard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skycoach Conductor // All Aboard",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "282-618"
+        ]
+       },
+       "add": "Skycoach Conductor // All Aboard",
+       "cut": "Delina, Wild Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9bccee3358db"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:7130ca3e28a2"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:55bddda81d85"
+   }
+  },
+  {
+   "card": "Multiversal Incursion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Multiversal Incursion",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Multiversal Incursion",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c7306548bfbe"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:04f2d6e218d7"
+   }
+  },
+  {
+   "card": "Spark Double",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spark Double",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Spark Double",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:b5fcf1fa673c"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:83e08550d477"
+   }
+  },
+  {
+   "card": "Helm of the Host",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Helm of the Host",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1173-2160-5261"
+        ]
+       },
+       "add": "Helm of the Host",
+       "cut": "Sundial of the Infinite"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:4a0d08c181cb"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b126b9c7e116"
+   }
+  },
+  {
+   "card": "Saw in Half",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saw in Half",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:ead1f7d05d39"
+   }
+  },
+  {
+   "card": "Ghostly Flicker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ghostly Flicker",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a52ee9bbf84a"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:fa8fff41edff"
+   }
+  },
+  {
+   "card": "Giant-Sized Flying Ant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Giant-Sized Flying Ant",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Giant-Sized Flying Ant",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:ffdf5789fe8b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1385177a8395"
+   }
+  },
+  {
+   "card": "Brain Freeze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brain Freeze",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brain Freeze",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:054224ad5ece"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:01dd19d564f6"
+   }
+  },
+  {
+   "card": "Rite of Replication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rite of Replication",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Rite of Replication",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a38899f000ec"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:31fb10d53f43"
+   }
+  },
+  {
+   "card": "Essence Flux",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Flux",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Essence Flux",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c01acf923d88"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:7e7a8a839e16"
+   }
+  },
+  {
+   "card": "Peregrine Drake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peregrine Drake",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Peregrine Drake",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:3cdf3844b8fb"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a6f7a32b87d5"
+   }
+  },
+  {
+   "card": "Irenicus's Vile Duplication",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Irenicus's Vile Duplication",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Irenicus's Vile Duplication",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c0a864b06a9e"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:6e176eab2365"
+   }
+  },
+  {
+   "card": "Archaeomancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archaeomancer",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Archaeomancer",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:82d80b5b19c1"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f08fd9ad0cb5"
+   }
+  },
+  {
+   "card": "Combat Celebrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Combat Celebrant",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Combat Celebrant",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9ea8a1bd8830"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a7db47aadde5"
+   }
+  },
+  {
+   "card": "Mesmeric Orb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1173-2160-5261"
+        ]
+       },
+       "add": "Mesmeric Orb",
+       "cut": "Sundial of the Infinite"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:fea5b7418529"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:47de7a3b03e8"
+   }
+  },
+  {
+   "card": "Scourge of the Throne",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Scourge of the Throne",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:5bfec0c3096a"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:2bef58611602"
+   }
+  },
+  {
+   "card": "Tale's End",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tale's End",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:ad97f167b419"
+   }
+  },
+  {
+   "card": "Thousand-Year Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Necromancy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thousand-Year Storm",
+       "cut": "Flameshadow Conjuring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:7bfe09109b2e"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:15b0fcc98884"
+   }
+  },
+  {
+   "card": "Freed from the Real",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Freed from the Real",
+       "cut": "Necromancy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Freed from the Real",
+       "cut": "Flameshadow Conjuring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:680ed642492a"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:1c70ab4a4f1a"
+   }
+  },
+  {
+   "card": "Intruder Alarm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Intruder Alarm",
+       "cut": "Necromancy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Intruder Alarm",
+       "cut": "Flameshadow Conjuring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f50a678b77b2"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:394e5b9f9a52"
+   }
+  },
+  {
+   "card": "Quantum Misalignment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Quantum Misalignment",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Quantum Misalignment",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:74b0fee17c36"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:60a21be096ba"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:af9e06e20112"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:5215ba005f1e"
+   }
+  },
+  {
+   "card": "Dragon's Rage Channeler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Dragon's Rage Channeler",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:1c872089a4ed"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:cc821e172da4"
+   }
+  },
+  {
+   "card": "Port Razer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Port Razer",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Port Razer",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9a88723c29b4"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:83cef2bc1a19"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Fellwar Stone"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1173-2160-5261"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Sundial of the Infinite"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a394a4215467"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b89cf47cd267"
+   }
+  },
+  {
+   "card": "Planar Incision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Planar Incision",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8ae5eb951df0"
+   }
+  },
+  {
+   "card": "Nexus of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nexus of Fate",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nexus of Fate",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:56bc348a7d78"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:aa0b8b26f49e"
+   }
+  },
+  {
+   "card": "Displace",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Displace",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Displace",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9e2733858cdf"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:cb68189d6387"
+   }
+  },
+  {
+   "card": "Hazel's Brewmaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hazel's Brewmaster",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Hazel's Brewmaster",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:e150f236fd95"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:3a5ff94be02d"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:6a0092484f65"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:c285a0ff6899"
+   }
+  },
+  {
+   "card": "Bloodthirster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodthirster",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Bloodthirster",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:60727f90786c"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f6a407d64ad4"
+   }
+  },
+  {
+   "card": "Cackling Counterpart",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cackling Counterpart",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cackling Counterpart",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:0ca39cc040f3"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f85657c7bdb0"
+   }
+  },
+  {
+   "card": "Conspicuous Snoop",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Conspicuous Snoop",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Conspicuous Snoop",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:bb90dfbf3b89"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4deab3b83a2f"
+   }
+  },
+  {
+   "card": "Exalted Flamer of Tzeentch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Exalted Flamer of Tzeentch",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Exalted Flamer of Tzeentch",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:4619eb40d129"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:67ad5d1d1b5d"
+   }
+  },
+  {
+   "card": "Godo, Bandit Warlord",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Godo, Bandit Warlord",
+       "cut": "Gamble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:77d3c260fd16"
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:71d827516fe8"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8e904a72f4fc"
+   }
+  },
+  {
+   "card": "Bladewing the Risen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Bladewing the Risen",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:4bd55022c8ba"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:db68ac4f9ee4"
+   }
+  },
+  {
+   "card": "Coercive Recruiter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Coercive Recruiter",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Coercive Recruiter",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:bd431ed3950a"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a605a0848296"
+   }
+  },
+  {
+   "card": "Baral's Expertise",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Baral's Expertise",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Baral's Expertise",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f677d72cba83"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:7cf04a9b436f"
+   }
+  },
+  {
+   "card": "Relm's Sketching",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Relm's Sketching",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Relm's Sketching",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9c6a2da318af"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:2df97aa6d54f"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:e3f5f548b18e"
+   }
+  },
+  {
+   "card": "Will of the Temur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Will of the Temur",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Will of the Temur",
+       "cut": "Jaxis, the Troublemaker"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c5b62dcb58e3"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:11155509f39e"
+   }
+  },
+  {
+   "card": "Mana Echoes",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Echoes",
+       "cut": "Necromancy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Echoes",
+       "cut": "Flameshadow Conjuring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:42a3e9aec928"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:06b243ee1327"
+   }
+  },
+  {
+   "card": "Akki Battle Squad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Akki Battle Squad",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:5712e367a7b8"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:9a6829382fc1"
+   }
+  },
+  {
+   "card": "Replication Technique",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Replication Technique",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Replication Technique",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:043dc371f2a7"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:357de3240375"
+   }
+  },
+  {
+   "card": "Blue Sun's Twilight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blue Sun's Twilight",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:9bb08f75177f"
+   }
+  },
+  {
+   "card": "Necrotic Ooze",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Necrotic Ooze",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Necrotic Ooze",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c0b20fea6ee9"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:58e78cedf74c"
+   }
+  },
+  {
+   "card": "Kelpie Guide",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kelpie Guide",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Kelpie Guide",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a59943b4f064"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:9d65c3ba1dc6"
+   }
+  },
+  {
+   "card": "Bonus Round",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bonus Round",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Bonus Round",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9f766d7de824"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:2f9f1c6b78bc"
+   }
+  },
+  {
+   "card": "Stolen Identity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Identity",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Stolen Identity",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:45c0f4018888"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:3462a8094953"
+   }
+  },
+  {
+   "card": "Aphetto Alchemist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aphetto Alchemist",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Aphetto Alchemist",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:248db1eb4bf2"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:d540ede6b9c1"
+   }
+  },
+  {
+   "card": "Lightning Runner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Runner",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Lightning Runner",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:d95d356b616c"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a9d85a41082e"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:ad1d569a7b68"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:78f6ac943c71"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:2dba8822bf6f"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:33edc01e585b"
+   }
+  },
+  {
+   "card": "Breath of Fury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breath of Fury",
+       "cut": "Necromancy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breath of Fury",
+       "cut": "Flameshadow Conjuring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:3fce49b12386"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:47c0d7593357"
+   }
+  },
+  {
+   "card": "Beacon of Tomorrows",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Beacon of Tomorrows",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Beacon of Tomorrows",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:2338388797bc"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b6207ff93660"
+   }
+  },
+  {
+   "card": "Naru Meha, Master Wizard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Naru Meha, Master Wizard",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:7686683822cd"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:36d1475aa7aa"
+   }
+  },
+  {
+   "card": "Ember Island Production",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ember Island Production",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Ember Island Production",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f5846e24c221"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f971e44e65d9"
+   }
+  },
+  {
+   "card": "Pouncing Shoreshark",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pouncing Shoreshark",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b2b556a0c781"
+   }
+  },
+  {
+   "card": "Saheeli's Artistry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli's Artistry",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Saheeli's Artistry",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f123ee343adb"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:c34e7b3b43d0"
+   }
+  },
+  {
+   "card": "Palinchron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palinchron",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Palinchron",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:52a6407cdc67"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:cc58fa822b26"
+   }
+  },
+  {
+   "card": "Dirge Bat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dirge Bat",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:e6f654726fa2"
+   }
+  },
+  {
+   "card": "Ardent Elementalist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ardent Elementalist",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Ardent Elementalist",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:82fa16d5f5dc"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:bda4da10f4bb"
+   }
+  },
+  {
+   "card": "Fated Infatuation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fated Infatuation",
+       "cut": "Discontinuity"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fated Infatuation",
+       "cut": "Glorious End"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:cf96f5f6d8c6"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:5fe2ca806bee"
+   }
+  },
+  {
+   "card": "Drowned Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Secrets",
+       "cut": "Necromancy"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Secrets",
+       "cut": "Flameshadow Conjuring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:70e8885781a4"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f8f5da9885b7"
+   }
+  },
+  {
+   "card": "Souvenir Snatcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Souvenir Snatcher",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:96e7a354fd9a"
+   }
+  },
+  {
+   "card": "Corridor Monitor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corridor Monitor",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Corridor Monitor",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c53955adea79"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:da3985b34382"
+   }
+  },
+  {
+   "card": "Chittering Harvester",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chittering Harvester",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Chittering Harvester",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:db05c6001316"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a0e8cb1ab1d8"
+   }
+  },
+  {
+   "card": "Insatiable Hemophage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Insatiable Hemophage",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Insatiable Hemophage",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:beddd777b561"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:c20118f17cbb"
+   }
+  },
+  {
+   "card": "Archipelagore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archipelagore",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Archipelagore",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:13de2c0f6ca4"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:d202ece6bd03"
+   }
+  },
+  {
+   "card": "Release to the Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Release to the Wind",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:283ea402bb4f"
+   }
+  },
+  {
+   "card": "Mirage Mockery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirage Mockery",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Mirage Mockery",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a745e888e847"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8752ba03189b"
+   }
+  },
+  {
+   "card": "Mindleecher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mindleecher",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Mindleecher",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:8f5385917022"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:387cb5a87770"
+   }
+  },
+  {
+   "card": "Self-Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Self-Reflection",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Self-Reflection",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:b5cd5936a9bd"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f4eafb5b6478"
+   }
+  },
+  {
+   "card": "Pestermite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pestermite",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Pestermite",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:d94b28cb0a84"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:e1ba160fd28c"
+   }
+  },
+  {
+   "card": "Magar of the Magic Strings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magar of the Magic Strings",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Magar of the Magic Strings",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:2969c6b236e5"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:fc04f6493120"
+   }
+  },
+  {
+   "card": "Everquill Phoenix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Everquill Phoenix",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Everquill Phoenix",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:6799b7eab804"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:bfd063c09c1f"
+   }
+  },
+  {
+   "card": "Great Whale",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Great Whale",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Great Whale",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:c97ba01352a7"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:ba8d8f4ce853"
+   }
+  },
+  {
+   "card": "Lore Drakkis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lore Drakkis",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Lore Drakkis",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:0801bc85fba8"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:a5ee6fc591c2"
+   }
+  },
+  {
+   "card": "Dominating Vampire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dominating Vampire",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Dominating Vampire",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f04bdc2b0389"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:e37ac709deb6"
+   }
+  },
+  {
+   "card": "Kindle the Inner Flame",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kindle the Inner Flame",
+       "cut": "Reanimate"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Kindle the Inner Flame",
+       "cut": "Twinflame"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:da55bfdd91b9"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:6132bd016e90"
+   }
+  },
+  {
+   "card": "Glamermite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glamermite",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Glamermite",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:e25073304519"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4344d973afee"
+   }
+  },
+  {
+   "card": "Rootha, Mercurial Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Rootha, Mercurial Artist",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:f1779c562c9b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:09a4bfa213d1"
+   }
+  },
+  {
+   "card": "Deceiver Exarch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deceiver Exarch",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Deceiver Exarch",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:ec5b6203b30d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:5ff8ef5ab8aa"
+   }
+  },
+  {
+   "card": "Porcuparrot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Porcuparrot",
+       "cut": "Cyclonic Rift"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:ee75522b8fee"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:eae737b64b64"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:eb5fb359be5f"
+   }
+  },
+  {
+   "card": "Mirror-Mad Phantasm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Mirror-Mad Phantasm",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:33ab3181c6e1"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:f5bd96332d6d"
+   }
+  },
+  {
+   "card": "Breaching Hippocamp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaching Hippocamp",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Breaching Hippocamp",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:908ce643d683"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:49c2f7f34c0d"
+   }
+  },
+  {
+   "card": "Spellbinder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spellbinder",
+       "cut": "Fellwar Stone"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4fe0e16e1668"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:e7bad7fc32e2"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:c1a2b835f396"
+   }
+  },
+  {
+   "card": "Elite Arcanist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Elite Arcanist",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Elite Arcanist",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:9757b529643d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4e7dc12baeb8"
+   }
+  },
+  {
+   "card": "Teardrop Kami",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teardrop Kami",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Teardrop Kami",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:2b30463efad8"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:b499520d8b56"
+   }
+  },
+  {
+   "card": "Tidewater Minion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidewater Minion",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Tidewater Minion",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:a6f8916bf10b"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8b82ffdd4292"
+   }
+  },
+  {
+   "card": "Janjeet Sentry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Janjeet Sentry",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Janjeet Sentry",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:3cdcd754665d"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:4eea15e4f0e5"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Purphoros, Bronze-Blooded"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "147-1235"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Dualcaster Mage"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:obeka-brute-chronologist:m5:b397c40a3efc"
+    },
+    "swap": "swap:obeka-brute-chronologist:m5:8eb3362395d2"
+   }
+  }
+ ],
+ "deck_id": "Obeka__Brute_Chronologist",
+ "list_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "slug": "obeka-brute-chronologist",
+ "swaps": [
+  {
+   "adds": [
+    "Starwinder"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b092dfd4631c"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1eea101e3b4a"
+  },
+  {
+   "adds": [
+    "Mulldrifter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f4f6ff2853f4"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:08be845fc8c6"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:aa809a9271bf"
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b66effd5fc20"
+  },
+  {
+   "adds": [
+    "Mimic Vat"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cd91c8397fd3"
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:03700b8b0c3e"
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ec2537531e78"
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bca505be6038"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60492b9390a3"
+  },
+  {
+   "adds": [
+    "Sedris, the Traitor King"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8f16c1fd0143"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1580c2d30db3"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:16b44a9618c8"
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e7112bbefbd8"
+  },
+  {
+   "adds": [
+    "Lotus Field"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:168b4169bd24"
+  },
+  {
+   "adds": [
+    "Araumi of the Dead Tide"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1e172b94a3c6"
+  },
+  {
+   "adds": [
+    "Broodbirth Viper"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:303e0d2086ca"
+  },
+  {
+   "adds": [
+    "Firbolg Flutist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c6e56f24470f"
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:49177ccec37d"
+  },
+  {
+   "adds": [
+    "Archon of Cruelty"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6eb9e5ec68c0"
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:80aa532e51d0"
+  },
+  {
+   "adds": [
+    "Auton Soldier"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ae291e46ba36"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:27d9dcdedc36"
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c00f0956e257"
+  },
+  {
+   "adds": [
+    "Red Sun's Twilight"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f2044fa65885"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:00c7711a80af"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2dd36560d484"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c44438d84d21"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1f508daa7582"
+  },
+  {
+   "adds": [
+    "Mirror March"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:394fdc41e258"
+  },
+  {
+   "adds": [
+    "Terror of the Peaks"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d46f12945f21"
+  },
+  {
+   "adds": [
+    "Terror of the Peaks"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7c3c52f2c01b"
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:348edc591fcc"
+  },
+  {
+   "adds": [
+    "Elturel Survivors"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:51f810cb24bc"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3d5a66371fc2"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cf6360ce22f7"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:065ebe89911e"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cdd7a100a7d5"
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:12219aef57d8"
+  },
+  {
+   "adds": [
+    "Time Stop"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:066fa2b999d5"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:17e2e9737ef2"
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6f292efe0e7a"
+  },
+  {
+   "adds": [
+    "Tannuk, Steadfast Second"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f769e29584ae"
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7e24e4894d2e"
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:109bdcf72312"
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bf5b0c9cf812"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:89371f9ae626"
+  },
+  {
+   "adds": [
+    "Determined Iteration"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fe65ed9dfe0a"
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6d3856178448"
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e6d50a043831"
+  },
+  {
+   "adds": [
+    "Fatestitcher"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:afc6bf6872bd"
+  },
+  {
+   "adds": [
+    "Fatestitcher"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:dd564ec71038"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:55b0ccbd1184"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8339fd23cf42"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4658254c0fb7"
+  },
+  {
+   "adds": [
+    "Wheel of Fortune"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b9d5f8c3ffcd"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:928fb02d2f43"
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4c01724c3482"
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eb411e641477"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d145cb0933b9"
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a8e94f0d171b"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60ea88dc77e2"
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:64e4f850dc2b"
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2e0c85d3ad4f"
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f2e74338471e"
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fa523402db7a"
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:605a10836e34"
+  },
+  {
+   "adds": [
+    "The Master, Multiplied"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:255ba3e871d7"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f40d3ac2a160"
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:319bbc8a2762"
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b45977e73c5d"
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f6019314ede9"
+  },
+  {
+   "adds": [
+    "Fear of Missing Out"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:12cc34a9c908"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9c4a67e560f2"
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:37fb7bbe569a"
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:90f6504a5251"
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eaeac3de346d"
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Avaricious Dragon"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:325cbd01ed6d"
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5cab576cf13b"
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f502156b5d68"
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:33602ce8d84d"
+  },
+  {
+   "adds": [
+    "Sea-Dasher Octopus"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:288eed78c828"
+  },
+  {
+   "adds": [
+    "Sea-Dasher Octopus"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3fa15b63294c"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:128a468fffc5"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:75ef932ade5d"
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:801056bfb8c2"
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f9303160a79d"
+  },
+  {
+   "adds": [
+    "Dreamtail Heron"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5277fab3a453"
+  },
+  {
+   "adds": [
+    "Dreamtail Heron"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b738ba3a0c91"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f9a7c9bd3757"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a3b205bbf59e"
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b530821bde03"
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8547cd9100a5"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7b635ecd76d4"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:87c750984202"
+  },
+  {
+   "adds": [
+    "Muddle the Mixture"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1b9c112dca17"
+  },
+  {
+   "adds": [
+    "Cavern Whisperer"
+   ],
+   "cuts": [
+    "Avaricious Dragon"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b5198bf032e2"
+  },
+  {
+   "adds": [
+    "Cavern Whisperer"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8969821f26da"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:87ff1b08efe9"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:57ed93e20ce3"
+  },
+  {
+   "adds": [
+    "Cloudpiercer"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8538e7860ae0"
+  },
+  {
+   "adds": [
+    "Cloudpiercer"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3d2af64f79d2"
+  },
+  {
+   "adds": [
+    "Curse of Obsession"
+   ],
+   "cuts": [
+    "Avaricious Dragon"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b3292c8a0f22"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7de40d205ea9"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:68f7ba7b69ab"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:0e85005e6f1e"
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8d12c41c41b2"
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3bcefe349d3d"
+  },
+  {
+   "adds": [
+    "Saheeli Rai"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:49dd655fc937"
+  },
+  {
+   "adds": [
+    "Hide on the Ceiling"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2a6740bcd36f"
+  },
+  {
+   "adds": [
+    "Goryo's Vengeance"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e35891a8c39a"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:14f0bb431a2e"
+  },
+  {
+   "adds": [
+    "Pemmin's Aura"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fe4291c503fc"
+  },
+  {
+   "adds": [
+    "Necromantic Selection"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:caf9e803b469"
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:895e277ff08f"
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7130ca3e28a2"
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Delina, Wild Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9bccee3358db"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:55bddda81d85"
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:04f2d6e218d7"
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c7306548bfbe"
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:83e08550d477"
+  },
+  {
+   "adds": [
+    "Spark Double"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b5fcf1fa673c"
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b126b9c7e116"
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Sundial of the Infinite"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4a0d08c181cb"
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ead1f7d05d39"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fa8fff41edff"
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a52ee9bbf84a"
+  },
+  {
+   "adds": [
+    "Giant-Sized Flying Ant"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1385177a8395"
+  },
+  {
+   "adds": [
+    "Giant-Sized Flying Ant"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ffdf5789fe8b"
+  },
+  {
+   "adds": [
+    "Brain Freeze"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:01dd19d564f6"
+  },
+  {
+   "adds": [
+    "Brain Freeze"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:054224ad5ece"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:31fb10d53f43"
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a38899f000ec"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7e7a8a839e16"
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c01acf923d88"
+  },
+  {
+   "adds": [
+    "Peregrine Drake"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a6f7a32b87d5"
+  },
+  {
+   "adds": [
+    "Peregrine Drake"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3cdf3844b8fb"
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6e176eab2365"
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c0a864b06a9e"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f08fd9ad0cb5"
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:82d80b5b19c1"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a7db47aadde5"
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9ea8a1bd8830"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:47de7a3b03e8"
+  },
+  {
+   "adds": [
+    "Mesmeric Orb"
+   ],
+   "cuts": [
+    "Sundial of the Infinite"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fea5b7418529"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2bef58611602"
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5bfec0c3096a"
+  },
+  {
+   "adds": [
+    "Tale's End"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ad97f167b419"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:15b0fcc98884"
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7bfe09109b2e"
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1c70ab4a4f1a"
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:680ed642492a"
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:394e5b9f9a52"
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f50a678b77b2"
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60a21be096ba"
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:74b0fee17c36"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5215ba005f1e"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:af9e06e20112"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cc821e172da4"
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:1c872089a4ed"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:83cef2bc1a19"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9a88723c29b4"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b89cf47cd267"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Sundial of the Infinite"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a394a4215467"
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8ae5eb951df0"
+  },
+  {
+   "adds": [
+    "Nexus of Fate"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:aa0b8b26f49e"
+  },
+  {
+   "adds": [
+    "Nexus of Fate"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:56bc348a7d78"
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cb68189d6387"
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9e2733858cdf"
+  },
+  {
+   "adds": [
+    "Hazel's Brewmaster"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3a5ff94be02d"
+  },
+  {
+   "adds": [
+    "Hazel's Brewmaster"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e150f236fd95"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c285a0ff6899"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6a0092484f65"
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f6a407d64ad4"
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:60727f90786c"
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f85657c7bdb0"
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:0ca39cc040f3"
+  },
+  {
+   "adds": [
+    "Conspicuous Snoop"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4deab3b83a2f"
+  },
+  {
+   "adds": [
+    "Conspicuous Snoop"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bb90dfbf3b89"
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:67ad5d1d1b5d"
+  },
+  {
+   "adds": [
+    "Exalted Flamer of Tzeentch"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4619eb40d129"
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:77d3c260fd16"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8e904a72f4fc"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:71d827516fe8"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:db68ac4f9ee4"
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4bd55022c8ba"
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a605a0848296"
+  },
+  {
+   "adds": [
+    "Coercive Recruiter"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bd431ed3950a"
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7cf04a9b436f"
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f677d72cba83"
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2df97aa6d54f"
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9c6a2da318af"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e3f5f548b18e"
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:11155509f39e"
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Jaxis, the Troublemaker"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c5b62dcb58e3"
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:06b243ee1327"
+  },
+  {
+   "adds": [
+    "Mana Echoes"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:42a3e9aec928"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9a6829382fc1"
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5712e367a7b8"
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:357de3240375"
+  },
+  {
+   "adds": [
+    "Replication Technique"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:043dc371f2a7"
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9bb08f75177f"
+  },
+  {
+   "adds": [
+    "Necrotic Ooze"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:58e78cedf74c"
+  },
+  {
+   "adds": [
+    "Necrotic Ooze"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c0b20fea6ee9"
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9d65c3ba1dc6"
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a59943b4f064"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2f9f1c6b78bc"
+  },
+  {
+   "adds": [
+    "Bonus Round"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9f766d7de824"
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3462a8094953"
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:45c0f4018888"
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d540ede6b9c1"
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:248db1eb4bf2"
+  },
+  {
+   "adds": [
+    "Lightning Runner"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a9d85a41082e"
+  },
+  {
+   "adds": [
+    "Lightning Runner"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d95d356b616c"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:78f6ac943c71"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ad1d569a7b68"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:33edc01e585b"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2dba8822bf6f"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:47c0d7593357"
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3fce49b12386"
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b6207ff93660"
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2338388797bc"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:36d1475aa7aa"
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:7686683822cd"
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f971e44e65d9"
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f5846e24c221"
+  },
+  {
+   "adds": [
+    "Pouncing Shoreshark"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b2b556a0c781"
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c34e7b3b43d0"
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f123ee343adb"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cc58fa822b26"
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:52a6407cdc67"
+  },
+  {
+   "adds": [
+    "Dirge Bat"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e6f654726fa2"
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bda4da10f4bb"
+  },
+  {
+   "adds": [
+    "Ardent Elementalist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:82fa16d5f5dc"
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Discontinuity"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5fe2ca806bee"
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Glorious End"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:cf96f5f6d8c6"
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Necromancy"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f8f5da9885b7"
+  },
+  {
+   "adds": [
+    "Drowned Secrets"
+   ],
+   "cuts": [
+    "Flameshadow Conjuring"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:70e8885781a4"
+  },
+  {
+   "adds": [
+    "Souvenir Snatcher"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:96e7a354fd9a"
+  },
+  {
+   "adds": [
+    "Corridor Monitor"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:da3985b34382"
+  },
+  {
+   "adds": [
+    "Corridor Monitor"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c53955adea79"
+  },
+  {
+   "adds": [
+    "Chittering Harvester"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a0e8cb1ab1d8"
+  },
+  {
+   "adds": [
+    "Chittering Harvester"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:db05c6001316"
+  },
+  {
+   "adds": [
+    "Insatiable Hemophage"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c20118f17cbb"
+  },
+  {
+   "adds": [
+    "Insatiable Hemophage"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:beddd777b561"
+  },
+  {
+   "adds": [
+    "Archipelagore"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d202ece6bd03"
+  },
+  {
+   "adds": [
+    "Archipelagore"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:13de2c0f6ca4"
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:283ea402bb4f"
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8752ba03189b"
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a745e888e847"
+  },
+  {
+   "adds": [
+    "Mindleecher"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:387cb5a87770"
+  },
+  {
+   "adds": [
+    "Mindleecher"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8f5385917022"
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f4eafb5b6478"
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b5cd5936a9bd"
+  },
+  {
+   "adds": [
+    "Pestermite"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e1ba160fd28c"
+  },
+  {
+   "adds": [
+    "Pestermite"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:d94b28cb0a84"
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:fc04f6493120"
+  },
+  {
+   "adds": [
+    "Magar of the Magic Strings"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2969c6b236e5"
+  },
+  {
+   "adds": [
+    "Everquill Phoenix"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:bfd063c09c1f"
+  },
+  {
+   "adds": [
+    "Everquill Phoenix"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6799b7eab804"
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ba8d8f4ce853"
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c97ba01352a7"
+  },
+  {
+   "adds": [
+    "Lore Drakkis"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a5ee6fc591c2"
+  },
+  {
+   "adds": [
+    "Lore Drakkis"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:0801bc85fba8"
+  },
+  {
+   "adds": [
+    "Dominating Vampire"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e37ac709deb6"
+  },
+  {
+   "adds": [
+    "Dominating Vampire"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f04bdc2b0389"
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:6132bd016e90"
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Twinflame"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:da55bfdd91b9"
+  },
+  {
+   "adds": [
+    "Glamermite"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4344d973afee"
+  },
+  {
+   "adds": [
+    "Glamermite"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e25073304519"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:09a4bfa213d1"
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f1779c562c9b"
+  },
+  {
+   "adds": [
+    "Deceiver Exarch"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:5ff8ef5ab8aa"
+  },
+  {
+   "adds": [
+    "Deceiver Exarch"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ec5b6203b30d"
+  },
+  {
+   "adds": [
+    "Porcuparrot"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:ee75522b8fee"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eb5fb359be5f"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:eae737b64b64"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:f5bd96332d6d"
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:33ab3181c6e1"
+  },
+  {
+   "adds": [
+    "Breaching Hippocamp"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:49c2f7f34c0d"
+  },
+  {
+   "adds": [
+    "Breaching Hippocamp"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:908ce643d683"
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4fe0e16e1668"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:c1a2b835f396"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:e7bad7fc32e2"
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4e7dc12baeb8"
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:9757b529643d"
+  },
+  {
+   "adds": [
+    "Teardrop Kami"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b499520d8b56"
+  },
+  {
+   "adds": [
+    "Teardrop Kami"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:2b30463efad8"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8b82ffdd4292"
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:a6f8916bf10b"
+  },
+  {
+   "adds": [
+    "Janjeet Sentry"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:4eea15e4f0e5"
+  },
+  {
+   "adds": [
+    "Janjeet Sentry"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:3cdcd754665d"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Purphoros, Bronze-Blooded"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:8eb3362395d2"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Dualcaster Mage"
+   ],
+   "id": "swap:obeka-brute-chronologist:m5:b397c40a3efc"
+  }
+ ]
+}

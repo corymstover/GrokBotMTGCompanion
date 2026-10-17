@@ -1,0 +1,4967 @@
+{
+ "candidates": [
+  {
+   "card": "Lord of the Nazgûl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lord of the Nazgûl",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:f5a41c101a06"
+   }
+  },
+  {
+   "card": "One Ring to Rule Them All",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "One Ring to Rule Them All",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:c421f4dfadec"
+   }
+  },
+  {
+   "card": "Orcish Medicine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orcish Medicine",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:dd5a70cb15db"
+   }
+  },
+  {
+   "card": "Gothmog, Morgul Lieutenant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gothmog, Morgul Lieutenant",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gothmog, Morgul Lieutenant",
+       "cut": "Widespread Brutality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:c59222ea3082"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:c8a16d1ebe47"
+   }
+  },
+  {
+   "card": "Corsairs of Umbar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corsairs of Umbar",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:1eecb8e30a7e"
+   }
+  },
+  {
+   "card": "The Balrog of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Balrog of Moria",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:a8a467bab125"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:92b84c17d664"
+   }
+  },
+  {
+   "card": "Grishnákh, Brash Instigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grishnákh, Brash Instigator",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:155f3b0540c0"
+   }
+  },
+  {
+   "card": "The Mouth of Sauron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mouth of Sauron",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Mouth of Sauron",
+       "cut": "Widespread Brutality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:f6d8f74c8676"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:237390ced7f0"
+   }
+  },
+  {
+   "card": "Warg Rider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warg Rider",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:875576fe68b4"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d363657dd7a1"
+   }
+  },
+  {
+   "card": "Cavern-Hoard Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cavern-Hoard Dragon",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:2959068b8c52"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:a2e49dda0977"
+   }
+  },
+  {
+   "card": "Treason of Isengard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treason of Isengard",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treason of Isengard",
+       "cut": "Widespread Brutality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:3bae1991aee3"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:2ebdee56a30d"
+   }
+  },
+  {
+   "card": "Inherited Envelope",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inherited Envelope",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:59339efe992d"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:f94e5c004412"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:f15e3d0237d9"
+   }
+  },
+  {
+   "card": "Palantír of Orthanc",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Palantír of Orthanc",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:9682ce42fd37"
+   }
+  },
+  {
+   "card": "Foray of Orcs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foray of Orcs",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:e741078746af"
+   }
+  },
+  {
+   "card": "Sauron, the Necromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sauron, the Necromancer",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:09af60e36c2e"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:5a202c5ca7cb"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:8cac50c4008f"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4ca4772df63c"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4762964b6fc2"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:73f7ff65b7fc"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:5969c85d56c5"
+   }
+  },
+  {
+   "card": "Dreadhorde Invasion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dreadhorde Invasion",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:6803baedb7ac"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:24f34fcef4ba"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:8752d649b0c2"
+   }
+  },
+  {
+   "card": "Lazotep Plating",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lazotep Plating",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4b99f7a189d7"
+   }
+  },
+  {
+   "card": "Shadowspear",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shadowspear",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:202e182dd82d"
+   }
+  },
+  {
+   "card": "Mines of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mines of Moria",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:c6ea7aed53fc"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:9467ee6e4a5a"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:fb9900c04c79"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:fc83287fa265"
+   }
+  },
+  {
+   "card": "Worn Powerstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worn Powerstone",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d7e891cce6ff"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:7bb75b2213a1"
+   }
+  },
+  {
+   "card": "Bothersome Noisemaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bothersome Noisemaker",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:abfd5b7426e2"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:5d231a4e0d83"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:b695a2b883f6"
+   }
+  },
+  {
+   "card": "Gollum, Patient Plotter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gollum, Patient Plotter",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:318d0f771024"
+   }
+  },
+  {
+   "card": "Smaug, Wicked Worm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smaug, Wicked Worm",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d6333cf162a2"
+   }
+  },
+  {
+   "card": "Witch-king, Bringer of Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Witch-king, Bringer of Ruin",
+       "cut": "Witch-king of Angmar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:e7350b9e48ce"
+   }
+  },
+  {
+   "card": "Gríma, Saruman's Footman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gríma, Saruman's Footman",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:6f7e55407fc1"
+   }
+  },
+  {
+   "card": "Saruman the White",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saruman the White",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:e8de7d96ae3a"
+   }
+  },
+  {
+   "card": "Soothing of Sméagol",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Soothing of Sméagol",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:152401aafe2b"
+   }
+  },
+  {
+   "card": "Path of Ancestry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of Ancestry",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:cdec6540c3cb"
+   }
+  },
+  {
+   "card": "Desolate Lighthouse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desolate Lighthouse",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:cae82b33034b"
+   }
+  },
+  {
+   "card": "Mithril Coat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mithril Coat",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:968db232ddfa"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:8323452e6b52"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4a01e9cf111f"
+   }
+  },
+  {
+   "card": "Witch-king, Sky Scourge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Birthday Escape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Birthday Escape",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:2ab1d5d8e772"
+   }
+  },
+  {
+   "card": "Treasure Nabber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Nabber",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:7818c61406d8"
+   }
+  },
+  {
+   "card": "Field of Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Field of Ruin",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:099e9e7166e0"
+   }
+  },
+  {
+   "card": "Spiteful Banditry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spiteful Banditry",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:fc4b15bb491e"
+   }
+  },
+  {
+   "card": "Too Greedily, Too Deep",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Too Greedily, Too Deep",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:1e8a849fe174"
+   }
+  },
+  {
+   "card": "Ringwraiths",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:a8d52533f5bb"
+   }
+  },
+  {
+   "card": "Azog, Moria's Ruin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Azog, Moria's Ruin",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:334ddbc667b0"
+   }
+  },
+  {
+   "card": "Notion Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Notion Thief",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:c3a6c103bdb0"
+   }
+  },
+  {
+   "card": "There and Back Again",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "There and Back Again",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:af07d22c4373"
+   }
+  },
+  {
+   "card": "Fiery Inscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fiery Inscription",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:9f278e6e4455"
+   }
+  },
+  {
+   "card": "Dunland Crebain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dunland Crebain",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ebc50ee719c5"
+   }
+  },
+  {
+   "card": "Book of Mazarbul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Assault on Osgiliath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Everflowing Chalice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Everflowing Chalice",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:598c7ee2d52b"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d1b0ca0a29c5"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4d50809ef768"
+   }
+  },
+  {
+   "card": "Mordor Muster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mordor Muster",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:448c3441cd37"
+   }
+  },
+  {
+   "card": "Swarming of Moria",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swarming of Moria",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:12325c531581"
+   }
+  },
+  {
+   "card": "The Reaver Cleaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Reaver Cleaver",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d77d35eaf0c4"
+   }
+  },
+  {
+   "card": "Basalt Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Basalt Monolith",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:af182f98fd5b"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:1aaeac933e96"
+   }
+  },
+  {
+   "card": "Rivendell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rivendell",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:58a37459118b"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:9a54f8155c2b"
+   }
+  },
+  {
+   "card": "Bolg of the North",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolg of the North",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:239b7f5d9873"
+   }
+  },
+  {
+   "card": "Gleaming Overseer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gleaming Overseer",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:89c923ed074b"
+   }
+  },
+  {
+   "card": "Surrounded by Orcs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Surrounded by Orcs",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:447aa296fc38"
+   }
+  },
+  {
+   "card": "Glorious Gale",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glorious Gale",
+       "cut": "Force of Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:5553c56e1459"
+   }
+  },
+  {
+   "card": "Goblin-town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin-town",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:6bed8a1ecb3b"
+   }
+  },
+  {
+   "card": "Gathering of Darkness",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gathering of Darkness",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:57f9edea7f36"
+   }
+  },
+  {
+   "card": "Misty Mountains Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Misty Mountains Raider",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:1d2e461120a6"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:08983fbc2198"
+   }
+  },
+  {
+   "card": "Lazotep Chancellor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Phial of Galadriel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phial of Galadriel",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:b9557d5b3926"
+   }
+  },
+  {
+   "card": "Rage into the Valley",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rage into the Valley",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ee32526cd6f0"
+   }
+  },
+  {
+   "card": "The Soul Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Soul Stone",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:575e61e3e9b1"
+   }
+  },
+  {
+   "card": "Warren Soultrader",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warren Soultrader",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:20dc5d8d7592"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ba1330f30952"
+   }
+  },
+  {
+   "card": "Underworld Breach",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underworld Breach",
+       "cut": "Widespread Brutality"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:556b4ef78f35"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:3a61361704cc"
+   }
+  },
+  {
+   "card": "Phyrexian Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Phyrexian Tower",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:51f6de2eb099"
+   }
+  },
+  {
+   "card": "Fearsome Goblin Pair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fearsome Goblin Pair",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:eaad8dc04c2d"
+   }
+  },
+  {
+   "card": "Wake the Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wake the Dragon",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:40a4aef693b7"
+   }
+  },
+  {
+   "card": "Changeling Outcast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Changeling Outcast",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d8bd3160bcf9"
+   }
+  },
+  {
+   "card": "The Balrog, Durin's Bane",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Balrog, Durin's Bane",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:18be61ba5d28"
+   }
+  },
+  {
+   "card": "Along the Crooked Way",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Along the Crooked Way",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:6d14bcd9a390"
+   }
+  },
+  {
+   "card": "Gorbag of Minas Morgul",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gorbag of Minas Morgul",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:95025f8f4804"
+   }
+  },
+  {
+   "card": "Go for the Throat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Go for the Throat",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:74593f3b1f56"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:0c26046771b1"
+   }
+  },
+  {
+   "card": "Sheoldred, Whispering One",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, Whispering One",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:c0c4193935c5"
+   }
+  },
+  {
+   "card": "Diabolic Intent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Diabolic Intent",
+       "cut": "Mystical Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ab7b7370b649"
+   }
+  },
+  {
+   "card": "Gríma Wormtongue",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Tidings of War",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidings of War",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:97e0f54c64ea"
+   }
+  },
+  {
+   "card": "Bone Miser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bone Miser",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:118032e63d9d"
+   }
+  },
+  {
+   "card": "Takenuma, Abandoned Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Takenuma, Abandoned Mire",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4e8e2e306b63"
+   }
+  },
+  {
+   "card": "Shelob, Dread Weaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shelob, Dread Weaver",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d4bbe85fad2e"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:d86c48a231fa"
+   }
+  },
+  {
+   "card": "Command Beacon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Command Beacon",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:c180f078c090"
+   }
+  },
+  {
+   "card": "Goblin Plate Mail",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Plate Mail",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:e4ab083b4712"
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:77fe014170be"
+   }
+  },
+  {
+   "card": "Cabal Coffers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cabal Coffers",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ec863031154e"
+   }
+  },
+  {
+   "card": "Reflecting Pool",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reflecting Pool",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:2214281d4694"
+   }
+  },
+  {
+   "card": "Requiem Monolith",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Wheel of Fortune"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Requiem Monolith",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:c2e8ba7b7ed6"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:852bde639df0"
+   }
+  },
+  {
+   "card": "Marina Vendrell's Grimoire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Wheel of Fortune"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marina Vendrell's Grimoire",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:8608a444c167"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:93cd3e9e01b4"
+   }
+  },
+  {
+   "card": "Mind Over Matter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Over Matter",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ae6d4a79a1d1"
+   }
+  },
+  {
+   "card": "Oliphaunt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oliphaunt",
+       "cut": "Bilbo, Retired Burglar"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:91d863662225"
+   }
+  },
+  {
+   "card": "Necromancy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Monument to Endurance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Monument to Endurance",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:8760992f266e"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ffe2ad7290e7"
+   }
+  },
+  {
+   "card": "Shiny Impetus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shiny Impetus",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:64f519511c6a"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:2faf26486697"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:1a9a2a396919"
+   }
+  },
+  {
+   "card": "Ashnod's Altar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ashnod's Altar",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:71af2ba46aaa"
+   }
+  },
+  {
+   "card": "Hostage Taker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hostage Taker",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:3fc66721a076"
+   }
+  },
+  {
+   "card": "Scavenger Grounds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scavenger Grounds",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:54c4e42cfaa2"
+   }
+  },
+  {
+   "card": "Kederekt Leviathan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kederekt Leviathan",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4a9bb42fae5d"
+   }
+  },
+  {
+   "card": "Languish",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:ff3efea8cf3e"
+   }
+  },
+  {
+   "card": "Goblin Bombardment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Bombardment",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:77dd75619d0b"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:5c772877e09d"
+   }
+  },
+  {
+   "card": "Fabled Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fabled Passage",
+       "cut": "Flooded Strand"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:6ad91f64398e"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:9f88bc8c334b"
+   }
+  },
+  {
+   "card": "Deceive the Messenger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldgorger Dragon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:93f02c8ddd44"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:97054655d00c"
+   }
+  },
+  {
+   "card": "Peer into the Abyss",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Wheel of Fortune"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Peer into the Abyss",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:466b828d7447"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:4c594ca9f07d"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Sauron's Ransom"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:9eae74933221"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:9f3c48f6a7cc"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:0fdce831238b"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:99c9c90172f1"
+   }
+  },
+  {
+   "card": "Lich's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Wheel of Fortune"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich's Mastery",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:a739f84bee77"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:51fc1442725d"
+   }
+  },
+  {
+   "card": "Nefarious Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "Wheel of Fortune"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nefarious Lich",
+       "cut": "Call of the Ring"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:sauron-the-dark-lord:m5:fdea3f69f506"
+    },
+    "swap": "swap:sauron-the-dark-lord:m5:b76873b40778"
+   }
+  }
+ ],
+ "deck_id": "Sauron__the_Dark_Lord",
+ "list_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+ "slug": "sauron-the-dark-lord",
+ "swaps": [
+  {
+   "adds": [
+    "Lord of the Nazgûl"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f5a41c101a06"
+  },
+  {
+   "adds": [
+    "One Ring to Rule Them All"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c421f4dfadec"
+  },
+  {
+   "adds": [
+    "Orcish Medicine"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:dd5a70cb15db"
+  },
+  {
+   "adds": [
+    "Gothmog, Morgul Lieutenant"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c8a16d1ebe47"
+  },
+  {
+   "adds": [
+    "Gothmog, Morgul Lieutenant"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c59222ea3082"
+  },
+  {
+   "adds": [
+    "Corsairs of Umbar"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1eecb8e30a7e"
+  },
+  {
+   "adds": [
+    "The Balrog of Moria"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a8a467bab125"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:92b84c17d664"
+  },
+  {
+   "adds": [
+    "Grishnákh, Brash Instigator"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:155f3b0540c0"
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:237390ced7f0"
+  },
+  {
+   "adds": [
+    "The Mouth of Sauron"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f6d8f74c8676"
+  },
+  {
+   "adds": [
+    "Warg Rider"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:875576fe68b4"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d363657dd7a1"
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2959068b8c52"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a2e49dda0977"
+  },
+  {
+   "adds": [
+    "Treason of Isengard"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2ebdee56a30d"
+  },
+  {
+   "adds": [
+    "Treason of Isengard"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:3bae1991aee3"
+  },
+  {
+   "adds": [
+    "Inherited Envelope"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:59339efe992d"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f94e5c004412"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:f15e3d0237d9"
+  },
+  {
+   "adds": [
+    "Palantír of Orthanc"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9682ce42fd37"
+  },
+  {
+   "adds": [
+    "Foray of Orcs"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e741078746af"
+  },
+  {
+   "adds": [
+    "Sauron, the Necromancer"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:09af60e36c2e"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5a202c5ca7cb"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8cac50c4008f"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4ca4772df63c"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4762964b6fc2"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:73f7ff65b7fc"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5969c85d56c5"
+  },
+  {
+   "adds": [
+    "Dreadhorde Invasion"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6803baedb7ac"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:24f34fcef4ba"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8752d649b0c2"
+  },
+  {
+   "adds": [
+    "Lazotep Plating"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4b99f7a189d7"
+  },
+  {
+   "adds": [
+    "Shadowspear"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:202e182dd82d"
+  },
+  {
+   "adds": [
+    "Mines of Moria"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c6ea7aed53fc"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9467ee6e4a5a"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fb9900c04c79"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fc83287fa265"
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d7e891cce6ff"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:7bb75b2213a1"
+  },
+  {
+   "adds": [
+    "Bothersome Noisemaker"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:abfd5b7426e2"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5d231a4e0d83"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:b695a2b883f6"
+  },
+  {
+   "adds": [
+    "Gollum, Patient Plotter"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:318d0f771024"
+  },
+  {
+   "adds": [
+    "Smaug, Wicked Worm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d6333cf162a2"
+  },
+  {
+   "adds": [
+    "Witch-king, Bringer of Ruin"
+   ],
+   "cuts": [
+    "Witch-king of Angmar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e7350b9e48ce"
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6f7e55407fc1"
+  },
+  {
+   "adds": [
+    "Saruman the White"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e8de7d96ae3a"
+  },
+  {
+   "adds": [
+    "Soothing of Sméagol"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:152401aafe2b"
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:cdec6540c3cb"
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:cae82b33034b"
+  },
+  {
+   "adds": [
+    "Mithril Coat"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:968db232ddfa"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8323452e6b52"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4a01e9cf111f"
+  },
+  {
+   "adds": [
+    "Birthday Escape"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2ab1d5d8e772"
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:7818c61406d8"
+  },
+  {
+   "adds": [
+    "Field of Ruin"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:099e9e7166e0"
+  },
+  {
+   "adds": [
+    "Spiteful Banditry"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fc4b15bb491e"
+  },
+  {
+   "adds": [
+    "Too Greedily, Too Deep"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1e8a849fe174"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a8d52533f5bb"
+  },
+  {
+   "adds": [
+    "Azog, Moria's Ruin"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:334ddbc667b0"
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c3a6c103bdb0"
+  },
+  {
+   "adds": [
+    "There and Back Again"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:af07d22c4373"
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9f278e6e4455"
+  },
+  {
+   "adds": [
+    "Dunland Crebain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ebc50ee719c5"
+  },
+  {
+   "adds": [
+    "Everflowing Chalice"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:598c7ee2d52b"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d1b0ca0a29c5"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4d50809ef768"
+  },
+  {
+   "adds": [
+    "Mordor Muster"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:448c3441cd37"
+  },
+  {
+   "adds": [
+    "Swarming of Moria"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:12325c531581"
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d77d35eaf0c4"
+  },
+  {
+   "adds": [
+    "Basalt Monolith"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:af182f98fd5b"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1aaeac933e96"
+  },
+  {
+   "adds": [
+    "Rivendell"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:58a37459118b"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9a54f8155c2b"
+  },
+  {
+   "adds": [
+    "Bolg of the North"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:239b7f5d9873"
+  },
+  {
+   "adds": [
+    "Gleaming Overseer"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:89c923ed074b"
+  },
+  {
+   "adds": [
+    "Surrounded by Orcs"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:447aa296fc38"
+  },
+  {
+   "adds": [
+    "Glorious Gale"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5553c56e1459"
+  },
+  {
+   "adds": [
+    "Goblin-town"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6bed8a1ecb3b"
+  },
+  {
+   "adds": [
+    "Gathering of Darkness"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:57f9edea7f36"
+  },
+  {
+   "adds": [
+    "Misty Mountains Raider"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1d2e461120a6"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:08983fbc2198"
+  },
+  {
+   "adds": [
+    "Phial of Galadriel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:b9557d5b3926"
+  },
+  {
+   "adds": [
+    "Rage into the Valley"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ee32526cd6f0"
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:575e61e3e9b1"
+  },
+  {
+   "adds": [
+    "Warren Soultrader"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:20dc5d8d7592"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ba1330f30952"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:3a61361704cc"
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Widespread Brutality"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:556b4ef78f35"
+  },
+  {
+   "adds": [
+    "Phyrexian Tower"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:51f6de2eb099"
+  },
+  {
+   "adds": [
+    "Fearsome Goblin Pair"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:eaad8dc04c2d"
+  },
+  {
+   "adds": [
+    "Wake the Dragon"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:40a4aef693b7"
+  },
+  {
+   "adds": [
+    "Changeling Outcast"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d8bd3160bcf9"
+  },
+  {
+   "adds": [
+    "The Balrog, Durin's Bane"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:18be61ba5d28"
+  },
+  {
+   "adds": [
+    "Along the Crooked Way"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6d14bcd9a390"
+  },
+  {
+   "adds": [
+    "Gorbag of Minas Morgul"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:95025f8f4804"
+  },
+  {
+   "adds": [
+    "Go for the Throat"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:74593f3b1f56"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:0c26046771b1"
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c0c4193935c5"
+  },
+  {
+   "adds": [
+    "Diabolic Intent"
+   ],
+   "cuts": [
+    "Mystical Tutor"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ab7b7370b649"
+  },
+  {
+   "adds": [
+    "Tidings of War"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:97e0f54c64ea"
+  },
+  {
+   "adds": [
+    "Bone Miser"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:118032e63d9d"
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4e8e2e306b63"
+  },
+  {
+   "adds": [
+    "Shelob, Dread Weaver"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d4bbe85fad2e"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:d86c48a231fa"
+  },
+  {
+   "adds": [
+    "Command Beacon"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c180f078c090"
+  },
+  {
+   "adds": [
+    "Goblin Plate Mail"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:e4ab083b4712"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:77fe014170be"
+  },
+  {
+   "adds": [
+    "Cabal Coffers"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ec863031154e"
+  },
+  {
+   "adds": [
+    "Reflecting Pool"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2214281d4694"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:852bde639df0"
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:c2e8ba7b7ed6"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:93cd3e9e01b4"
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8608a444c167"
+  },
+  {
+   "adds": [
+    "Mind Over Matter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ae6d4a79a1d1"
+  },
+  {
+   "adds": [
+    "Oliphaunt"
+   ],
+   "cuts": [
+    "Bilbo, Retired Burglar"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:91d863662225"
+  },
+  {
+   "adds": [
+    "Monument to Endurance"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:8760992f266e"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ffe2ad7290e7"
+  },
+  {
+   "adds": [
+    "Shiny Impetus"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:64f519511c6a"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:1a9a2a396919"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:2faf26486697"
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:71af2ba46aaa"
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:3fc66721a076"
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:54c4e42cfaa2"
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4a9bb42fae5d"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:ff3efea8cf3e"
+  },
+  {
+   "adds": [
+    "Goblin Bombardment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:77dd75619d0b"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:5c772877e09d"
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:6ad91f64398e"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9f88bc8c334b"
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:93f02c8ddd44"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:97054655d00c"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:4c594ca9f07d"
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:466b828d7447"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Sauron's Ransom"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9eae74933221"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:0fdce831238b"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:9f3c48f6a7cc"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:99c9c90172f1"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:51fc1442725d"
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:a739f84bee77"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:b76873b40778"
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Call of the Ring"
+   ],
+   "id": "swap:sauron-the-dark-lord:m5:fdea3f69f506"
+  }
+ ]
+}

@@ -1,0 +1,7468 @@
+{
+ "candidates": [
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:9c6e73601633"
+   }
+  },
+  {
+   "card": "In Garruk's Wake",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "In Garruk's Wake",
+       "cut": "Toxic Deluge"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "In Garruk's Wake",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:6dfcbdd3812b"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:4fdbbe1478d7"
+   }
+  },
+  {
+   "card": "Breach the Multiverse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breach the Multiverse",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Breach the Multiverse",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:5b10a860314d"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:fb2128a44057"
+   }
+  },
+  {
+   "card": "Aminatou's Augury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aminatou's Augury",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Aminatou's Augury",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:d34abaa88535"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:9747fd7c23e3"
+   }
+  },
+  {
+   "card": "Army of the Damned",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Army of the Damned",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Army of the Damned",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:b9ad45725b86"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:d7acaa87106b"
+   }
+  },
+  {
+   "card": "Mnemonic Deluge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mnemonic Deluge",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mnemonic Deluge",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:78771a9b1b8f"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8c85f7481a6f"
+   }
+  },
+  {
+   "card": "Fevered Suspicion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fevered Suspicion",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Fevered Suspicion",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:5092809a005a"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:63806d993171"
+   }
+  },
+  {
+   "card": "Cruel Ultimatum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Cruel Ultimatum",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:2770deba8848"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:098e42a73876"
+   }
+  },
+  {
+   "card": "Decree of Pain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Decree of Pain",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Decree of Pain",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:37687770889f"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ab392df435e8"
+   }
+  },
+  {
+   "card": "Dream Harvest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dream Harvest",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Dream Harvest",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:3985f0603493"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:031c4efe9c56"
+   }
+  },
+  {
+   "card": "Spelltwine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spelltwine",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Spelltwine",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:70bb4bd79b97"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ea66913b7dd2"
+   }
+  },
+  {
+   "card": "Blatant Thievery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blatant Thievery",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:3dbdd8cbbd6e"
+   }
+  },
+  {
+   "card": "Etali, Primal Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Etali, Primal Storm",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:533b93a4caa3"
+   }
+  },
+  {
+   "card": "Call Forth the Tempest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Call Forth the Tempest",
+       "cut": "Toxic Deluge"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "Call Forth the Tempest",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:bebc1126beb7"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:504edd51f0ca"
+   }
+  },
+  {
+   "card": "Kess, Dissident Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Kess, Dissident Mage",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:394a7435b32c"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:274d8f7f810d"
+   }
+  },
+  {
+   "card": "Improvisation Capstone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Improvisation Capstone",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Improvisation Capstone",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:b897b1df4d7c"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:d3e51f025cf2"
+   }
+  },
+  {
+   "card": "Hit the Mother Lode",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hit the Mother Lode",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Hit the Mother Lode",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:09285b816cb0"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:fc25178936a4"
+   }
+  },
+  {
+   "card": "Mizzix's Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix's Mastery",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Mizzix's Mastery",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:f86fbd6a439e"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:6cb8cea7968d"
+   }
+  },
+  {
+   "card": "Cormela, Glamour Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Cormela, Glamour Thief",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:7b39a22c9752"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:fb71012536c4"
+   }
+  },
+  {
+   "card": "Rise of the Dark Realms",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rise of the Dark Realms",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Rise of the Dark Realms",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:fa1b1059bfcc"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ca1dac593719"
+   }
+  },
+  {
+   "card": "Riptide Laboratory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Riptide Laboratory",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:14931bdb37fa"
+   }
+  },
+  {
+   "card": "Izzet Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Signet",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Izzet Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:802eb49700cc"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:41df877f1859"
+   }
+  },
+  {
+   "card": "Blasphemous Act",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blasphemous Act",
+       "cut": "Toxic Deluge"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "Blasphemous Act",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:5b244d94f586"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e08e956cc664"
+   }
+  },
+  {
+   "card": "Dimir Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dimir Signet",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Dimir Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:4c5d04c16374"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:51df3468f27b"
+   }
+  },
+  {
+   "card": "Frantic Search",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frantic Search",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Frantic Search",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:f94f4488a41e"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:a01e97e7ee82"
+   }
+  },
+  {
+   "card": "Goblin Electromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Goblin Electromancer",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:fa9e17499e82"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5235d7555f3e"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:53e623cbfefe"
+   }
+  },
+  {
+   "card": "Volcanic Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Volcanic Vision",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Volcanic Vision",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:6db1af3eb01f"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:30cd9fd4d6e1"
+   }
+  },
+  {
+   "card": "Rakdos Signet",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Signet",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Rakdos Signet",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:05d2ebe8a167"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8e7508aab983"
+   }
+  },
+  {
+   "card": "Double Vision",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Double Vision",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Double Vision",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:8730fee00b7e"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:10a389c377e6"
+   }
+  },
+  {
+   "card": "Chaos Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chaos Warp",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:47ac22d4cca0"
+   }
+  },
+  {
+   "card": "Wild-Magic Sorcerer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wild-Magic Sorcerer",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:be143b92f94b"
+   }
+  },
+  {
+   "card": "Brainsurge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainsurge",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Brainsurge",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:46e324c883dc"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:32dfb364c684"
+   }
+  },
+  {
+   "card": "Blood for the Blood God!",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood for the Blood God!",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Blood for the Blood God!",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:42d0ea3ca19e"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8bdb9557c311"
+   }
+  },
+  {
+   "card": "Worst Fears",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worst Fears",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Worst Fears",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:afa5b7bd427c"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ef02afe5d0c7"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:f849c33db6b2"
+   }
+  },
+  {
+   "card": "Memory Plunder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Plunder",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Memory Plunder",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:397ba303372d"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:71d732031204"
+   }
+  },
+  {
+   "card": "Time Stretch",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Stretch",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Time Stretch",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:8107be483ebc"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:43ddd96953c6"
+   }
+  },
+  {
+   "card": "Storm-Kiln Artist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Storm-Kiln Artist",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:c256297964b0"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:a5e8fbeacc5a"
+   }
+  },
+  {
+   "card": "Archmage Emeritus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Archmage Emeritus",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:8447b5bee534"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8d364ee94ec3"
+   }
+  },
+  {
+   "card": "Thief of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thief of Sanity",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:d5fb320b6cd0"
+   }
+  },
+  {
+   "card": "Expropriate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Expropriate",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Expropriate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:3c122b1d92a9"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:97c616d870a0"
+   }
+  },
+  {
+   "card": "Bribery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bribery",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Bribery",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:dd87e24bda71"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:52b06436c7af"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:02d140f199d4"
+   }
+  },
+  {
+   "card": "Oblivion Sower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oblivion Sower",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:6a1ce3646d46"
+   }
+  },
+  {
+   "card": "Clone Legion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clone Legion",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Clone Legion",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:fd19872d8695"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:d0b59e247fa6"
+   }
+  },
+  {
+   "card": "Tasha, the Witch Queen",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tasha, the Witch Queen",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Tasha, the Witch Queen",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:7c82871b2592"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8e81244a7c86"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:bd8e66769782"
+   }
+  },
+  {
+   "card": "Crosis's Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crosis's Charm",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:a3a2d84c3ed4"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:382390190daf"
+   }
+  },
+  {
+   "card": "Siphon Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siphon Insight",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Siphon Insight",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:65fc991c9b60"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:9c8d3470ccf6"
+   }
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Sanctuary",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:37bcd5290353"
+   }
+  },
+  {
+   "card": "Wizard's Staff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wizard's Staff",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:0a9ebcb9de60"
+   }
+  },
+  {
+   "card": "Inevitable Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inevitable Betrayal",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:bb8138207ca0"
+   }
+  },
+  {
+   "card": "Galvanoth",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Galvanoth",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:02e7b93ff173"
+   }
+  },
+  {
+   "card": "Shivan Reef",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shivan Reef",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:c58da457ed85"
+   }
+  },
+  {
+   "card": "Flame of Anor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flame of Anor",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:80d13d57ebf1"
+   }
+  },
+  {
+   "card": "Narset's Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Narset's Reversal",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:dbeed3a92dc3"
+   }
+  },
+  {
+   "card": "Sulfur Falls",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfur Falls",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:0c9e54579eb3"
+   }
+  },
+  {
+   "card": "Fire Lord Azula",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fire Lord Azula",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:a445379cd72a"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1f6268de3c86"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:642461b2117c"
+   }
+  },
+  {
+   "card": "Xander's Lounge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xander's Lounge",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:02a5c8b0a827"
+   }
+  },
+  {
+   "card": "Training Center",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Training Center",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ade17060470d"
+   }
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e5df55a02b19"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e7556b5ef1cd"
+   }
+  },
+  {
+   "card": "Resonating Lute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Resonating Lute",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5a3dd5750750"
+   }
+  },
+  {
+   "card": "Ensnared by the Mara",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ensnared by the Mara",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:2d3ca72cfa01"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:cd4c15a4541a"
+   }
+  },
+  {
+   "card": "Temple of Epiphany",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Epiphany",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:636072427026"
+   }
+  },
+  {
+   "card": "Prosper, Tome-Bound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prosper, Tome-Bound",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:9a09694c231c"
+   }
+  },
+  {
+   "card": "Mystic Confluence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mystic Confluence",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:d3c7d9253db2"
+   }
+  },
+  {
+   "card": "Dualcaster Mage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dualcaster Mage",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:9e0d3e77d000"
+   }
+  },
+  {
+   "card": "Clout of the Dominus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Clout of the Dominus",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e4c79b9c7ec0"
+   }
+  },
+  {
+   "card": "Guttersnipe",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guttersnipe",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:c0e79fbabc71"
+   }
+  },
+  {
+   "card": "Keeper of Secrets",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keeper of Secrets",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:87674fcfd4b6"
+   }
+  },
+  {
+   "card": "Heartless Conscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Singularity Rupture",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Temple of Deceit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Deceit",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:04828ee5f27c"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:c7f9d5712200"
+   }
+  },
+  {
+   "card": "Evacuation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Hurl Through Hell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hurl Through Hell",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:6c417863917a"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e55448b392ab"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:218ad305003f"
+   }
+  },
+  {
+   "card": "Metallurgic Summonings",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Nalfeshnee",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nalfeshnee",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:254eb1f3ed7a"
+   }
+  },
+  {
+   "card": "Plargg and Nassari",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Plargg and Nassari",
+       "cut": "Simian Spirit Guide"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5842f7c6cc34"
+   }
+  },
+  {
+   "card": "Luxury Suite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Luxury Suite",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1a24b52d16f7"
+   }
+  },
+  {
+   "card": "Stolen Identity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stolen Identity",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8860d9b3f9be"
+   }
+  },
+  {
+   "card": "Mana Geyser",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Geyser",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:73a9f4a80ac1"
+   }
+  },
+  {
+   "card": "Necromantic Selection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Whispersilk Cloak",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Whispersilk Cloak",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5ebf5f4dce36"
+   }
+  },
+  {
+   "card": "Serum Visions",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Serum Visions",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:41ae227d8181"
+   }
+  },
+  {
+   "card": "Skull Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skull Storm",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:277abcfc1a14"
+   }
+  },
+  {
+   "card": "Cyclonic Rift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cyclonic Rift",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:579f6148cef5"
+   }
+  },
+  {
+   "card": "Abstract Performance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Abstract Performance",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:f76ae88b9fd6"
+   }
+  },
+  {
+   "card": "Snap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snap",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:a2290daff6e3"
+   }
+  },
+  {
+   "card": "Mana Drain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Drain",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:33b949014daa"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:d6b85e3c9c30"
+   }
+  },
+  {
+   "card": "Damnation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Plague Wind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Temporal Mastery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temporal Mastery",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e8091c0d0f6d"
+   }
+  },
+  {
+   "card": "Bedevil",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bedevil",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:4fbacdd2b21b"
+   }
+  },
+  {
+   "card": "Twenty-Toed Toad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Twenty-Toed Toad",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Twenty-Toed Toad",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:41c2d2dc24d5"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:46f7a01264ce"
+   }
+  },
+  {
+   "card": "Reliquary Tower",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reliquary Tower",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:05e96debce32"
+   }
+  },
+  {
+   "card": "Fallen Shinobi",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fallen Shinobi",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:50bf7099c679"
+   }
+  },
+  {
+   "card": "Temple of Malice",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of Malice",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:c9ecb5ac7d2b"
+   }
+  },
+  {
+   "card": "Propaganda",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Propaganda",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:95b33e6ede80"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Reiterate",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:83cec9d08cfd"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ac0914139114"
+   }
+  },
+  {
+   "card": "Passionate Archaeologist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Passionate Archaeologist",
+       "cut": "Mystic Remora"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:4de91cf0de84"
+   }
+  },
+  {
+   "card": "Beacon of Tomorrows",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Beacon of Tomorrows",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:965e1c384700"
+   }
+  },
+  {
+   "card": "Izzet Boilerworks",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Izzet Boilerworks",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5931cf34b0f2"
+   }
+  },
+  {
+   "card": "Access Tunnel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Access Tunnel",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:874016370752"
+   }
+  },
+  {
+   "card": "Faithless Looting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Faithless Looting",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:26462604233b"
+   }
+  },
+  {
+   "card": "Smoldering Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smoldering Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:aeec025269cf"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Enter the Infinite",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:f78fc725ca34"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:15a63c92889d"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:05a55d2b5301"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1f5e76e9dc4a"
+   }
+  },
+  {
+   "card": "Rise of the Eldrazi",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rise of the Eldrazi",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:357696425627"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Demonic Consultation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:3038a9128709"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:546ca6b894ed"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:6d8699167d46"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e00d5f79bcfd"
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:0bf578fd5817"
+   }
+  },
+  {
+   "card": "Hive Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hive Mind",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Hive Mind",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:a92e468f86b6"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:fa7047fb39fb"
+   }
+  },
+  {
+   "card": "Vandalblast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vandalblast",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:cb27b4cb53a2"
+   }
+  },
+  {
+   "card": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:3130387a3c25"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:626bed91f99e"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:dbf3cf6b8fc8"
+   }
+  },
+  {
+   "card": "Time Warp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Time Warp",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:58517cc095fb"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:96625389feb3"
+   }
+  },
+  {
+   "card": "Tasha's Hideous Laughter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tasha's Hideous Laughter",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5623297c578a"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:2fad0007613d"
+   }
+  },
+  {
+   "card": "Don Andres, the Renegade",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Don Andres, the Renegade",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:77864554f27c"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "False Memories",
+       "cut": "Brain Freeze"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:31206faab5a3"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:a251155b43d3"
+   }
+  },
+  {
+   "card": "Gonti, Night Minister",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gonti, Night Minister",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1ec396bb3bf1"
+   }
+  },
+  {
+   "card": "Underground River",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Underground River",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:394687929f46"
+   }
+  },
+  {
+   "card": "Flamekin Village",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flamekin Village",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:68e8d1b05937"
+   }
+  },
+  {
+   "card": "Praetor's Grasp",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Praetor's Grasp",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:fba4da270dec"
+   }
+  },
+  {
+   "card": "Talent of the Telepath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talent of the Telepath",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:72864e86f879"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:951e949aa93b"
+   }
+  },
+  {
+   "card": "Unsubstantiate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unsubstantiate",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1f3ea6cb1f41"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:f74a6812eb3d"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Cabal Ritual"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5c4e42816cd0"
+   }
+  },
+  {
+   "card": "Reality Shift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reality Shift",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:b18912fc6c7e"
+   }
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Marsh",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1f5ee5bc32a5"
+   }
+  },
+  {
+   "card": "Opt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Opt",
+       "cut": "Borne Upon a Wind"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e4453687daef"
+   }
+  },
+  {
+   "card": "Strionic Resonator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strionic Resonator",
+       "cut": "Grim Monolith"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:f7bb25733a85"
+   }
+  },
+  {
+   "card": "Temple of the False God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Temple of the False God",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:dab686e771a5"
+   }
+  },
+  {
+   "card": "Paradigm Shift",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Paradigm Shift",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:6b9a746e4272"
+   }
+  },
+  {
+   "card": "Rakdos Carnarium",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Carnarium",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:bd1df7262efc"
+   }
+  },
+  {
+   "card": "Stormcatch Mentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Grixis Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grixis Charm",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:23abc77228d1"
+   }
+  },
+  {
+   "card": "Sulfurous Springs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sulfurous Springs",
+       "cut": "Arid Mesa"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:22309ae83775"
+   }
+  },
+  {
+   "card": "Orcish Bowmasters",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orcish Bowmasters",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Orcish Bowmasters",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:2bb8237feebc"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:deeefe82daee"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Cool but Rude",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:63b45f96cf11"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:64a3c787d5bc"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:165ba56892d5"
+   }
+  },
+  {
+   "card": "Psychosis Crawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychosis Crawler",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Psychosis Crawler",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:07ba9372c816"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:f36c092ac23f"
+   }
+  },
+  {
+   "card": "Sheoldred, the Apocalypse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Sheoldred, the Apocalypse",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:59b15f38ceb4"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:ed35dc22461f"
+   }
+  },
+  {
+   "card": "Teferi's Ageless Insight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Teferi's Ageless Insight",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Teferi's Ageless Insight",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:163026f8cf49"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:67b5286d86b5"
+   }
+  },
+  {
+   "card": "Bloodletter of Aclazotz",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Bloodletter of Aclazotz",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:1a1d11c3c2c1"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:4777c1e6add2"
+   }
+  },
+  {
+   "card": "Alhammarret's Archive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alhammarret's Archive",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Alhammarret's Archive",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:b9bab2222aa8"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:3d6c6faf560e"
+   }
+  },
+  {
+   "card": "Razorkin Needlehead",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Razorkin Needlehead",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Razorkin Needlehead",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:4a8548f9800a"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:092ce94f3e0e"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:2da755d9c3d1"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:e6a40024eb58"
+   }
+  },
+  {
+   "card": "Psychic Corrosion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Psychic Corrosion",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:81315fb3de40"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8e3b10f12c45"
+   }
+  },
+  {
+   "card": "Grinding Station",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinding Station",
+       "cut": "Grim Monolith"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Grinding Station",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:108d92b652aa"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:19f28e67c566"
+   }
+  },
+  {
+   "card": "Vnwxt, Verbose Host",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vnwxt, Verbose Host",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Vnwxt, Verbose Host",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:7d14af29fca3"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:1b93fc36c2ac"
+   }
+  },
+  {
+   "card": "Nekusar, the Mindrazer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nekusar, the Mindrazer",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Nekusar, the Mindrazer",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:74909e3b56d9"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:f1e6541d0570"
+   }
+  },
+  {
+   "card": "Fortune Teller's Talent",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fortune Teller's Talent",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Fortune Teller's Talent",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:71504c32e01e"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:54d128b78999"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:71162b1a9e97"
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:76036a83adae"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8d3964e34d8b"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:58e54dc307bb"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:c811b1eac62d"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Cabal Ritual"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Lotus Petal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:d9a5c07935a9"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:4a39644ab068"
+   }
+  },
+  {
+   "card": "Feast of Sanity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Feast of Sanity",
+       "cut": "Pyroblast"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:2b7cc99673d5"
+   }
+  },
+  {
+   "card": "Aether Syphon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Aether Syphon",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Aether Syphon",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:861e53531818"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:15cb546dc67e"
+   }
+  },
+  {
+   "card": "Thought Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Reflection",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Thought Reflection",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:bd0bdbe9d893"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:5fdbc4e321b6"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Mystic Remora"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1414-4856",
+         "1368-1878-2706",
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Underworld Breach"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:fc42d99f1532"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:4b6996ce61af"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Crackdown Construct",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:57875e9ac20d"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:85afddcc19aa"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:7c17ecf3ffb0"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:8d502c50bd50"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:ce49c2fc20d2"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:fcf686d66202"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Borne Upon a Wind"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706",
+         "1368-2706-3518"
+        ]
+       },
+       "add": "Lich",
+       "cut": "Wheel of Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:5519d7108486"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:56e8d2bb993c"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Simian Spirit Guide"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "1295-3189",
+         "742-1295"
+        ]
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:jeleva-nephalias-scourge:m5:7258dfafe825"
+    },
+    "swap": "swap:jeleva-nephalias-scourge:m5:6ba1d1e57d89"
+   }
+  }
+ ],
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "slug": "jeleva-nephalias-scourge",
+ "swaps": [
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9c6e73601633"
+  },
+  {
+   "adds": [
+    "In Garruk's Wake"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4fdbbe1478d7"
+  },
+  {
+   "adds": [
+    "In Garruk's Wake"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6dfcbdd3812b"
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fb2128a44057"
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5b10a860314d"
+  },
+  {
+   "adds": [
+    "Aminatou's Augury"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9747fd7c23e3"
+  },
+  {
+   "adds": [
+    "Aminatou's Augury"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d34abaa88535"
+  },
+  {
+   "adds": [
+    "Army of the Damned"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d7acaa87106b"
+  },
+  {
+   "adds": [
+    "Army of the Damned"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b9ad45725b86"
+  },
+  {
+   "adds": [
+    "Mnemonic Deluge"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8c85f7481a6f"
+  },
+  {
+   "adds": [
+    "Mnemonic Deluge"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:78771a9b1b8f"
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:63806d993171"
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5092809a005a"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:098e42a73876"
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2770deba8848"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ab392df435e8"
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:37687770889f"
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:031c4efe9c56"
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3985f0603493"
+  },
+  {
+   "adds": [
+    "Spelltwine"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ea66913b7dd2"
+  },
+  {
+   "adds": [
+    "Spelltwine"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:70bb4bd79b97"
+  },
+  {
+   "adds": [
+    "Blatant Thievery"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3dbdd8cbbd6e"
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:533b93a4caa3"
+  },
+  {
+   "adds": [
+    "Call Forth the Tempest"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:504edd51f0ca"
+  },
+  {
+   "adds": [
+    "Call Forth the Tempest"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bebc1126beb7"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:274d8f7f810d"
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:394a7435b32c"
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d3e51f025cf2"
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b897b1df4d7c"
+  },
+  {
+   "adds": [
+    "Hit the Mother Lode"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fc25178936a4"
+  },
+  {
+   "adds": [
+    "Hit the Mother Lode"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:09285b816cb0"
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6cb8cea7968d"
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f86fbd6a439e"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fb71012536c4"
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7b39a22c9752"
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ca1dac593719"
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fa1b1059bfcc"
+  },
+  {
+   "adds": [
+    "Riptide Laboratory"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:14931bdb37fa"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:41df877f1859"
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:802eb49700cc"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e08e956cc664"
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5b244d94f586"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:51df3468f27b"
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4c5d04c16374"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a01e97e7ee82"
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f94f4488a41e"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5235d7555f3e"
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fa9e17499e82"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:53e623cbfefe"
+  },
+  {
+   "adds": [
+    "Volcanic Vision"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:30cd9fd4d6e1"
+  },
+  {
+   "adds": [
+    "Volcanic Vision"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6db1af3eb01f"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8e7508aab983"
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:05d2ebe8a167"
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:10a389c377e6"
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8730fee00b7e"
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:47ac22d4cca0"
+  },
+  {
+   "adds": [
+    "Wild-Magic Sorcerer"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:be143b92f94b"
+  },
+  {
+   "adds": [
+    "Brainsurge"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:32dfb364c684"
+  },
+  {
+   "adds": [
+    "Brainsurge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:46e324c883dc"
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8bdb9557c311"
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:42d0ea3ca19e"
+  },
+  {
+   "adds": [
+    "Worst Fears"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ef02afe5d0c7"
+  },
+  {
+   "adds": [
+    "Worst Fears"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:afa5b7bd427c"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f849c33db6b2"
+  },
+  {
+   "adds": [
+    "Memory Plunder"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:71d732031204"
+  },
+  {
+   "adds": [
+    "Memory Plunder"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:397ba303372d"
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:43ddd96953c6"
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8107be483ebc"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a5e8fbeacc5a"
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c256297964b0"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8d364ee94ec3"
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8447b5bee534"
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d5fb320b6cd0"
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:97c616d870a0"
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3c122b1d92a9"
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:52b06436c7af"
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dd87e24bda71"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:02d140f199d4"
+  },
+  {
+   "adds": [
+    "Oblivion Sower"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6a1ce3646d46"
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d0b59e247fa6"
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fd19872d8695"
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8e81244a7c86"
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7c82871b2592"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bd8e66769782"
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a3a2d84c3ed4"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:382390190daf"
+  },
+  {
+   "adds": [
+    "Siphon Insight"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9c8d3470ccf6"
+  },
+  {
+   "adds": [
+    "Siphon Insight"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:65fc991c9b60"
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:37bcd5290353"
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:0a9ebcb9de60"
+  },
+  {
+   "adds": [
+    "Inevitable Betrayal"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bb8138207ca0"
+  },
+  {
+   "adds": [
+    "Galvanoth"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:02e7b93ff173"
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c58da457ed85"
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:80d13d57ebf1"
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dbeed3a92dc3"
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:0c9e54579eb3"
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a445379cd72a"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f6268de3c86"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:642461b2117c"
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:02a5c8b0a827"
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ade17060470d"
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e5df55a02b19"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e7556b5ef1cd"
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5a3dd5750750"
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2d3ca72cfa01"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:cd4c15a4541a"
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:636072427026"
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9a09694c231c"
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d3c7d9253db2"
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9e0d3e77d000"
+  },
+  {
+   "adds": [
+    "Clout of the Dominus"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e4c79b9c7ec0"
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c0e79fbabc71"
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:87674fcfd4b6"
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:04828ee5f27c"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c7f9d5712200"
+  },
+  {
+   "adds": [
+    "Hurl Through Hell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6c417863917a"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e55448b392ab"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:218ad305003f"
+  },
+  {
+   "adds": [
+    "Nalfeshnee"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:254eb1f3ed7a"
+  },
+  {
+   "adds": [
+    "Plargg and Nassari"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5842f7c6cc34"
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1a24b52d16f7"
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8860d9b3f9be"
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:73a9f4a80ac1"
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5ebf5f4dce36"
+  },
+  {
+   "adds": [
+    "Serum Visions"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:41ae227d8181"
+  },
+  {
+   "adds": [
+    "Skull Storm"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:277abcfc1a14"
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:579f6148cef5"
+  },
+  {
+   "adds": [
+    "Abstract Performance"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f76ae88b9fd6"
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a2290daff6e3"
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:33b949014daa"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d6b85e3c9c30"
+  },
+  {
+   "adds": [
+    "Temporal Mastery"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e8091c0d0f6d"
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4fbacdd2b21b"
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:46f7a01264ce"
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:41c2d2dc24d5"
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:05e96debce32"
+  },
+  {
+   "adds": [
+    "Fallen Shinobi"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:50bf7099c679"
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c9ecb5ac7d2b"
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:95b33e6ede80"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ac0914139114"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:83cec9d08cfd"
+  },
+  {
+   "adds": [
+    "Passionate Archaeologist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4de91cf0de84"
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:965e1c384700"
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5931cf34b0f2"
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:874016370752"
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:26462604233b"
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:aeec025269cf"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:15a63c92889d"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f78fc725ca34"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f5e76e9dc4a"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:05a55d2b5301"
+  },
+  {
+   "adds": [
+    "Rise of the Eldrazi"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:357696425627"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:546ca6b894ed"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3038a9128709"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e00d5f79bcfd"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6d8699167d46"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:0bf578fd5817"
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fa7047fb39fb"
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a92e468f86b6"
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:cb27b4cb53a2"
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3130387a3c25"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:626bed91f99e"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dbf3cf6b8fc8"
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:58517cc095fb"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:96625389feb3"
+  },
+  {
+   "adds": [
+    "Tasha's Hideous Laughter"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5623297c578a"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2fad0007613d"
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:77864554f27c"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a251155b43d3"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:31206faab5a3"
+  },
+  {
+   "adds": [
+    "Gonti, Night Minister"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1ec396bb3bf1"
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:394687929f46"
+  },
+  {
+   "adds": [
+    "Flamekin Village"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:68e8d1b05937"
+  },
+  {
+   "adds": [
+    "Praetor's Grasp"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fba4da270dec"
+  },
+  {
+   "adds": [
+    "Talent of the Telepath"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:72864e86f879"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:951e949aa93b"
+  },
+  {
+   "adds": [
+    "Unsubstantiate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f3ea6cb1f41"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f74a6812eb3d"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5c4e42816cd0"
+  },
+  {
+   "adds": [
+    "Reality Shift"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b18912fc6c7e"
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f5ee5bc32a5"
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e4453687daef"
+  },
+  {
+   "adds": [
+    "Strionic Resonator"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f7bb25733a85"
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dab686e771a5"
+  },
+  {
+   "adds": [
+    "Paradigm Shift"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6b9a746e4272"
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bd1df7262efc"
+  },
+  {
+   "adds": [
+    "Grixis Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:23abc77228d1"
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:22309ae83775"
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:deeefe82daee"
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2bb8237feebc"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:64a3c787d5bc"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:63b45f96cf11"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:165ba56892d5"
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f36c092ac23f"
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:07ba9372c816"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ed35dc22461f"
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:59b15f38ceb4"
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:67b5286d86b5"
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:163026f8cf49"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4777c1e6add2"
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1a1d11c3c2c1"
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3d6c6faf560e"
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b9bab2222aa8"
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:092ce94f3e0e"
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4a8548f9800a"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e6a40024eb58"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2da755d9c3d1"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8e3b10f12c45"
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:81315fb3de40"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:19f28e67c566"
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:108d92b652aa"
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1b93fc36c2ac"
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7d14af29fca3"
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f1e6541d0570"
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:74909e3b56d9"
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:54d128b78999"
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:71504c32e01e"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:71162b1a9e97"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8d3964e34d8b"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:76036a83adae"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c811b1eac62d"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:58e54dc307bb"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4a39644ab068"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d9a5c07935a9"
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2b7cc99673d5"
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:15cb546dc67e"
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:861e53531818"
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5fdbc4e321b6"
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bd0bdbe9d893"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4b6996ce61af"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fc42d99f1532"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:85afddcc19aa"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:57875e9ac20d"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8d502c50bd50"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7c17ecf3ffb0"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fcf686d66202"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ce49c2fc20d2"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:56e8d2bb993c"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5519d7108486"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6ba1d1e57d89"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7258dfafe825"
+  }
+ ]
+}

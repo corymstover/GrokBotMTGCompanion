@@ -1,0 +1,2745 @@
+{
+ "deck_id": "Zevlor__Elturel_Exile",
+ "list_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+ "slug": "zevlor-elturel-exile",
+ "swaps": [
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:826676ac93b1",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:7dd7c1e58133263e"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8c01bb21be5c",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:d2d61b5ab20828d2"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:62906e91fb65",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:51bde8a08e18",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:5cbdbaca19e08890"
+   ]
+  },
+  {
+   "adds": [
+    "Mindsplice Apparatus"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:96c49143ec04",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mindsplice Apparatus"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:dd6048594335",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:f360d4f57214e89c"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Goods"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f02dcbae03b8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stolen Goods"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c0b9660b5c1d",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:cbd218cb244f9c92"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Bombardment"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c6d54e0c7df1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:27152f97bf6c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:735d33ae27fd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a21c1731dbf5",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:fea1b866d60ea76a"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ab42d3f683f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a4dacb9e0bca",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:7a60b07296244389"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2b124e07c8ba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:10ab759d174b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f42e7b9503af",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:24a5c663cf3ef2f6"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d1137d5af419",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:a554d1e6c196c670"
+   ]
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7c3a50e323ae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:47de6b98606f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ed0bb90b9ac2",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:cb079a3889056cd5"
+   ]
+  },
+  {
+   "adds": [
+    "Extract Brain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:328da4d79502",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:eeb01637797b",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b27b2e5fabf38e60"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ef2b5bbfeb26",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b292835579314e38"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:aceddf086b97",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e018c017e0ee5334"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e9f7a0438d52",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e8c57da05c34f34a"
+   ]
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7e67677e95f7",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:553e85e01ce4dd2d"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:337140d4c1aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8a1e3bf78930",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:30995345b357259c"
+   ]
+  },
+  {
+   "adds": [
+    "Haughty Djinn"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bb8c60ffda10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:385f89f0fa62",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:4cde01912d540e6f"
+   ]
+  },
+  {
+   "adds": [
+    "Kelpie Guide"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:24956596dd1e",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:da66de9098e1df1a"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9011f10bb449",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Force of Will"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2988dee13ae5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Professor Onyx"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b42297904d27",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:19bcd93443a9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:3ed9c43c513acb62"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c22dadbfa564",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:529226f230355cdf"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9d2e02f67adc",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:06a6cf309c80ab1e"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:06cb15bc5cff",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0cc474b667f77c59"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f31a0528217a",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:597d92ace53c5a4d"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1eaa7be12be9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:4c774be767436ad9"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d451692f7a83",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:89f104b5ead3e28c"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:071c15716ceb",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b202832eee225a23"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c24e5a6e1b93",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e4e187eca11b9d98"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Praetor's Grasp"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0ce67d58e3d9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b9212e0521926346"
+   ]
+  },
+  {
+   "adds": [
+    "Invoke Despair"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:777f12d37325",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b0dbfacb01092d84"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:280a939addd1",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:3cf3007766661fb3"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Dominance"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:20d78ee990a0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:47f68bdf1b392de9"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:91ef05fcad3e",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:aaa9a1205cd39fae"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8b39cfa66d9f",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:ea5fd9d312a59a1d"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:75a346ebf38d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Traumatic Critique"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1b9e7b250cbe",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:6170e407d3e07282"
+   ]
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0fb679dc3f05",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:59ae9c3e6a609d83"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:18ce3759c295",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:27da748e11391918"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d99b1cdd4fee",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:c4335410ad75259c"
+   ]
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:24a77a1c8c6b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a0558ec130fc",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:318e61a77f950854"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b80e05d8895a",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0b02cd8ffb572d74"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0587308ea27c",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:fb1d97b98fae5d12"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d4ee5a3d188c",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:5b07ea4ff2894342"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:00797b697f2f",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b66e6c879db6627a"
+   ]
+  },
+  {
+   "adds": [
+    "Errant, Street Artist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d5143a231b01",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:9a0b6c2f3a740de3"
+   ]
+  },
+  {
+   "adds": [
+    "Gale, Waterdeep Prodigy"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:473c5242466b",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:a46717d9e76cd6e1"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:be9b6918d468",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0c4261884d6d8703"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a19e7c2efab4",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:28aeab88c5531d0c"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a11593385339",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:eb269a6bce6e6dc5"
+   ]
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:20731ee6cfb6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:de65162f53a4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0ef17c80b2bd",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:2979b43e90bf1fd8"
+   ]
+  },
+  {
+   "adds": [
+    "Abstract Paintmage"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:abb2220c1222",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:209f00c1c046ebc7"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:46c3cc31a350",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:01630f6234ef68bb"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Aqueduct"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e912d2ffa2c5",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:4f572670febba445"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e6a9211df735",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:887312e49ee7c09e"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e64929af420e",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:5d5208b50d6e555c"
+   ]
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:45f1410eeb50",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:f132f0b7e98a9294"
+   ]
+  },
+  {
+   "adds": [
+    "Return the Favor"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:366319c53557",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9627fe56b6b3",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:7c9b79c3a5a5be70"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f8dfe937d8f8",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:58b7abff8f18ba02"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ff4684a05dc8",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:f5d5eb32432cb16e"
+   ]
+  },
+  {
+   "adds": [
+    "Banefire"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:448354d05b19",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:3ccf5058eae0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:ea19e2aa8c2a2e11"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bec67e6dc594",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:56db083e0a01af90"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:fb4306226b7b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6aec3ac5a24c",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b1db50af01e9e7d3"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bcdfa9a181fb",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:55bb5e3f2615b2ba"
+   ]
+  },
+  {
+   "adds": [
+    "Freed from the Real"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a5464b9a5ab1",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:a732cb8f2ca4f74b"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0fb5c4cfecfd",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:680f99d07c7f8afc"
+   ]
+  },
+  {
+   "adds": [
+    "The Scarlet Witch"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7e1aa4bd5e3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c7780c926fc0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:aa1b97e37020877d"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0c47d20e54b4",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:d33c86684c74b316"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:48190c8484a9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:2ea7a618a6056e9e"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:87dbe5860de9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:441e25bdb32a4ffe"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:20702ce86072",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:d91dc8524aeb83d7"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b9380045d222",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:fc7325e981551378"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:edb8d8ea53b8",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e82d148a477b75f2"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2d9586973aef",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:d0d7c3e27887f99d"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:4efc15f58f5b",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:c6cb293cd0904900"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c2172151f46a",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e09b0ef9777393d9"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:59bb6b0aa1a3",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:7da2532e815c8ed1"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8ef94f70e139",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:4549bcc872ae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6f273fe5fafa",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e00caa8d5f512a1e"
+   ]
+  },
+  {
+   "adds": [
+    "Samut, Tyrant of Naktamun"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f0d4a032854d",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:728aba7d221480b4"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:cdab83ed9fd3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9503cbf9670d",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:8170c1d762feeda1"
+   ]
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bb1955c69211",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b824fd9a853627f9"
+   ]
+  },
+  {
+   "adds": [
+    "Aphetto Alchemist"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:aba1ea045997",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:f654fa3d09a5bb2a"
+   ]
+  },
+  {
+   "adds": [
+    "Ironheart, Clever Champion"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:08996898bc33",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:82e0b66c1dc09f22"
+   ]
+  },
+  {
+   "adds": [
+    "Valeria Richards, Precocious"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:28e67c3cbc4e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Echo, Perceptive Prodigy"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a6013929d5d3",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:deea3df3b9e0b3b8"
+   ]
+  },
+  {
+   "adds": [
+    "Marchesa, Dealer of Death"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0f669baff602",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0b32480bff7a3f71"
+   ]
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:50ab7b5c13e0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:9562df2b3ec3d145"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a467e11eaaf9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:3234f8edefcc0c5a"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:4b0864fe72ec",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0d4f36bfd5c9fbb4"
+   ]
+  },
+  {
+   "adds": [
+    "Zaffai and the Tempests"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e4ea31f2fabc",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e4809e22b4a3fb05"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b8289980fdfa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rapid Hybridization"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2fef74106652",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:c5591c6714e4",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b5341d2413e694f6"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:499c5479f81b",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:328d539d908af885"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:06b665e3d2dc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:129cdb633a33",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:9bee0d04308ca103"
+   ]
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ba723ad284bd",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:12cb6e34d98955a8"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6a836594246b",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:a65cef8896e4a347"
+   ]
+  },
+  {
+   "adds": [
+    "Tomik, Izzet Sparkmage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:184dc83672ce",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:587f8c9a82dc0c0d"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8e56cb7f23ab",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:eae37d7e90949b57"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:0f13a0680fc1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:89d69da8c144",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:99074846a4fa",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:cd582c470023b556"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7d583df55e9a",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:8a3a9f552f771fb1"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:681be5d94ac2",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:f9437d4821260c67"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a3367c98afc3",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:c19b7e74a605582f"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bb76360756ea",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:8f2af2b01114d1be"
+   ]
+  },
+  {
+   "adds": [
+    "Lecturing Scornmage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ff8dfbe96456",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:70d889a255ac838e"
+   ]
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a30e9c684eb9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:022c07d455ac8a89"
+   ]
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:08ca6d025462",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:189f8f761d9c3b7c"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a073c18a9df7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Harmonic Prodigy"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7c772d12429e",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:1159695d27e27046"
+   ]
+  },
+  {
+   "adds": [
+    "Deluge Virtuoso"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:3acb30049ee6",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:99d0bdcad5d79f51"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e3fb722f83c7",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0bfb6afb1f152a4b"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Fist, Hero for Hire"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bde38033447c",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:3f73e20f4bc69f55"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:41a200148eb3",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:431640caa2f5db3f"
+   ]
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:09a621d698df",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:bb81290fac08d8e2"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b7ec6c8592f6",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:4d62ffb1f62d8540"
+   ]
+  },
+  {
+   "adds": [
+    "Winter, Team Player"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f26d41752762",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:54f45f5a192e1307"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e0954fbe5a24",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:cad5af5f5b01ecc5"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:79e3e2991837",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b355bb8ebbfac598"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ced030fdda38",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:c93041c85f011d56"
+   ]
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:e1703854d2d5",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:081eb9159846252d"
+   ]
+  },
+  {
+   "adds": [
+    "Cryotheory Adept"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:bc602001edc0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:6e62feb8584d3b72"
+   ]
+  },
+  {
+   "adds": [
+    "Rings of Brighthearth"
+   ],
+   "cuts": [
+    "Blue Sun's Twilight"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8be90170f280",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spellseeker"
+   ],
+   "cuts": [
+    "Gamble"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:68b2af58636f",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:7b7cb4f2d5c66f19"
+   ]
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:58c89d8ffc85",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:36112c5edbda1ec3"
+   ]
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:463461c62bc0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:511a052e09e32c9f"
+   ]
+  },
+  {
+   "adds": [
+    "Rimewind Taskmage"
+   ],
+   "cuts": [
+    "Sedgemoor Witch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:3eca8f615988",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0026d02b5f07a211"
+   ]
+  },
+  {
+   "adds": [
+    "Flux Channeler"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:834fb523a7dc",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:c3d8d5dccec9197e"
+   ]
+  },
+  {
+   "adds": [
+    "Electro, Assaulting Battery"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:88b2931589cc",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:2df3d97f6b8be5eb"
+   ]
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f03b75adeb55",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:6d0ab64acb94da4f"
+   ]
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d4069a10d244",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:e948dd8bea8431a6"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7c0a1b105d52",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Boseiju, Who Shelters All"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a681df22cf8d",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:ffff21e1b5da2f74"
+   ]
+  },
+  {
+   "adds": [
+    "Thermo-Alchemist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:18126d68a494",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:bbd3199588009475"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:849688461a85",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:3219a2756d3f5c33"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a9cbf95c1d94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7a6b71a5aad9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:c4454bb60b3a3b0a"
+   ]
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Rakdos Charm"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:a2db0e03840f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:d85ccb56e55d",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:69b9b4c5d4125d14"
+   ]
+  },
+  {
+   "adds": [
+    "Gleeful Arsonist"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:55b69de75728",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:997f665d7c8c2f62"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1d28c38429cb",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:5ade032189b0eca6"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Daredevil"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:63438854a1ce",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:a7da8de8a81885ea"
+   ]
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Archmage Emeritus"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:66082f8ec934",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:1ff7fb493b85a252"
+   ]
+  },
+  {
+   "adds": [
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:cbe1ddd46e89",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6818fc375b2e",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:3c7d633727638c51"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6b6b32b69afe",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:2c8ae8911170570c"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye's Bow"
+   ],
+   "cuts": [
+    "Exterminator Magmarch"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:6fb9b2008b1c",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:467b4764b4a295ec"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:50b4f86bf493",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b8586864e6b0e84c"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:cfeabb6fe9d9",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:d850cbc63d5a6dd7"
+   ]
+  },
+  {
+   "adds": [
+    "Unctus, Grand Metatect"
+   ],
+   "cuts": [
+    "Leadership Vacuum"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:2a64b990024f",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:dbe27b12d141f2f6"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f26ee1327b05",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:ac08e9686359804a"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:f8e9fc1b8d14",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:98613a821268c839"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Abrade"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:1885d180a3a2",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:17d33a361130ccd6"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Dark Ritual"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:ed261553ce87",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:b23e6b12ce20868d"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:8b1ea33e17e4",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:de70dddf6bed6805"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:7cd66f8baa8a",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:16d8011cfe8e3fca"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:b5d78f1f2e0d",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:0c9ab31e038b28fd"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Baral, Chief of Compliance"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:5ec1fae5929b",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:8c4057ad521c1088"
+   ]
+  },
+  {
+   "adds": [
+    "Tidewater Minion"
+   ],
+   "cuts": [
+    "Omen Hawker"
+   ],
+   "id": "swap:zevlor-elturel-exile:m5:9c849d71d8b0",
+   "tests": [
+    "test:zevlor-elturel-exile:goldfish:7a8272fbfb78c6dc"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:7dd7c1e58133263e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:d2d61b5ab20828d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:5cbdbaca19e08890",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:f360d4f57214e89c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:cbd218cb244f9c92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:fea1b866d60ea76a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:7a60b07296244389",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:24a5c663cf3ef2f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:a554d1e6c196c670",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:cb079a3889056cd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b27b2e5fabf38e60",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b292835579314e38",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e018c017e0ee5334",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e8c57da05c34f34a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:553e85e01ce4dd2d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:30995345b357259c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:4cde01912d540e6f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:da66de9098e1df1a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:3ed9c43c513acb62",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:529226f230355cdf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:06a6cf309c80ab1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0cc474b667f77c59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:597d92ace53c5a4d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:4c774be767436ad9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:89f104b5ead3e28c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b202832eee225a23",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e4e187eca11b9d98",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b9212e0521926346",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b0dbfacb01092d84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:3cf3007766661fb3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:47f68bdf1b392de9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:aaa9a1205cd39fae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:ea5fd9d312a59a1d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:6170e407d3e07282",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:59ae9c3e6a609d83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:27da748e11391918",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:c4335410ad75259c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:318e61a77f950854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0b02cd8ffb572d74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:fb1d97b98fae5d12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:5b07ea4ff2894342",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b66e6c879db6627a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:9a0b6c2f3a740de3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:a46717d9e76cd6e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0c4261884d6d8703",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:28aeab88c5531d0c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:eb269a6bce6e6dc5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:2979b43e90bf1fd8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:209f00c1c046ebc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:01630f6234ef68bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:4f572670febba445",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:887312e49ee7c09e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:5d5208b50d6e555c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:f132f0b7e98a9294",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:7c9b79c3a5a5be70",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:58b7abff8f18ba02",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:f5d5eb32432cb16e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:ea19e2aa8c2a2e11",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:56db083e0a01af90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b1db50af01e9e7d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:55bb5e3f2615b2ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:a732cb8f2ca4f74b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:680f99d07c7f8afc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:aa1b97e37020877d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:d33c86684c74b316",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:2ea7a618a6056e9e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:441e25bdb32a4ffe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:d91dc8524aeb83d7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:fc7325e981551378",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e82d148a477b75f2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:d0d7c3e27887f99d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:c6cb293cd0904900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e09b0ef9777393d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:7da2532e815c8ed1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e00caa8d5f512a1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:728aba7d221480b4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:8170c1d762feeda1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b824fd9a853627f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:f654fa3d09a5bb2a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:82e0b66c1dc09f22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:deea3df3b9e0b3b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0b32480bff7a3f71",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:9562df2b3ec3d145",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:3234f8edefcc0c5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0d4f36bfd5c9fbb4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e4809e22b4a3fb05",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b5341d2413e694f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:328d539d908af885",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:9bee0d04308ca103",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:12cb6e34d98955a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:a65cef8896e4a347",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:587f8c9a82dc0c0d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:eae37d7e90949b57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:cd582c470023b556",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:8a3a9f552f771fb1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:f9437d4821260c67",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:c19b7e74a605582f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:8f2af2b01114d1be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:70d889a255ac838e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:022c07d455ac8a89",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:189f8f761d9c3b7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:1159695d27e27046",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:99d0bdcad5d79f51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0bfb6afb1f152a4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:3f73e20f4bc69f55",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:431640caa2f5db3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:bb81290fac08d8e2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:4d62ffb1f62d8540",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:54f45f5a192e1307",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:cad5af5f5b01ecc5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b355bb8ebbfac598",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:c93041c85f011d56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:081eb9159846252d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:6e62feb8584d3b72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:7b7cb4f2d5c66f19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:36112c5edbda1ec3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:511a052e09e32c9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0026d02b5f07a211",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:c3d8d5dccec9197e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:2df3d97f6b8be5eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:6d0ab64acb94da4f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:e948dd8bea8431a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:ffff21e1b5da2f74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:bbd3199588009475",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:3219a2756d3f5c33",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:c4454bb60b3a3b0a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:69b9b4c5d4125d14",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:997f665d7c8c2f62",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:5ade032189b0eca6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:a7da8de8a81885ea",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:1ff7fb493b85a252",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:3c7d633727638c51",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:2c8ae8911170570c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:467b4764b4a295ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b8586864e6b0e84c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:d850cbc63d5a6dd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:dbe27b12d141f2f6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:ac08e9686359804a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:98613a821268c839",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:17d33a361130ccd6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:b23e6b12ce20868d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:de70dddf6bed6805",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:16d8011cfe8e3fca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:0c9ab31e038b28fd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:8c4057ad521c1088",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:zevlor-elturel-exile:goldfish:7a8272fbfb78c6dc",
+   "verdict": "fail"
+  }
+ ]
+}

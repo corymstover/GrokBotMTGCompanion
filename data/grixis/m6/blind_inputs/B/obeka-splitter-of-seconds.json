@@ -1,0 +1,1761 @@
+{
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "list_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "slug": "obeka-splitter-of-seconds",
+ "swaps": [
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:72150fe99dfc",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:97a31294cff0de17"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Dragonfire Blade"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:522e73bce1cc",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:cab94af51dcd6f76"
+   ]
+  },
+  {
+   "adds": [
+    "Lizard Blades"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4e574d9b820f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aether Tunnel"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:32a76c4dc2f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:07198e525ca7",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:54ab90027861d572"
+   ]
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c5863883cb78",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:5d69f919831ff7a6"
+   ]
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:b57ca39affc6",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:e8a7afce60dd16c2"
+   ]
+  },
+  {
+   "adds": [
+    "Trailblazer's Boots"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:76be826f10f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1b71da57c0d3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:cde61fd54626",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:50370232199e48df"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2801738f8ce3",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6cb22667cb7ec8cc"
+   ]
+  },
+  {
+   "adds": [
+    "Skyline Despot"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d6aa7aa77a3c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Skyline Despot"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:61f998e193d5",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:22d2bce021f46a35"
+   ]
+  },
+  {
+   "adds": [
+    "Indulgent Tormentor"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:fd56efd27cb4",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:439b6d87a90c2a83"
+   ]
+  },
+  {
+   "adds": [
+    "Indulgent Tormentor"
+   ],
+   "cuts": [
+    "Thopter Spy Network"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:3f14aea293e6",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:7c3a5bc6c246955e"
+   ]
+  },
+  {
+   "adds": [
+    "Palace Siege"
+   ],
+   "cuts": [
+    "Thopter Spy Network"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:02b272a9f54e",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:efdf492aa3c7c9ac"
+   ]
+  },
+  {
+   "adds": [
+    "Braids, Conjurer Adept"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:340e830d8b8c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Braids, Conjurer Adept"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1129a4f4b82b",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:7fb027239dd13904"
+   ]
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f6c97b5edcfb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:435bc85f66be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Winged Boots"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:900334e820e9",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:eeb88314706517f2"
+   ]
+  },
+  {
+   "adds": [
+    "Winged Boots"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:ba18b35c896e",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:53ed016c0c34edef"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d78a7dfe0566",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:9214f5a77263bf17"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Enigma"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:8d1be067db38",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:753c5d72824c2b0e"
+   ]
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a3d31f305797",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:046b076d80ed43cc"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f66e722d9ae5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Midnight Clock"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:319e717b862a",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:a52ad3fb0f1610bb"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:61f25f0960f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f674d40cf607",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:1223ba71c9ded5b0"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c92fd64a6108",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:7a205d0fc9f0d5b2"
+   ]
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:61b93cf2da5f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:39e01fe92d05",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:b421e9e16e2fac2f"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5a18bb76db4d",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:a48c800163e3d873"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7ebbb89e80c3",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:3bcd0ac654b4c502"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, Whispering One"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9b2418881f89",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d1f4781c58de",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:b62f08df365d040f"
+   ]
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:944902e63b57",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:aa338d5a74700869"
+   ]
+  },
+  {
+   "adds": [
+    "Lavaspur Boots"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4ce94c424b80",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:30a5e305da8c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c2401b9efccd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inevitable Betrayal"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9d9b2f555910",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:06e383d4fd769d22"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d8a747e35502",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:7f00688215081b3e"
+   ]
+  },
+  {
+   "adds": [
+    "Sol Talisman"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:fd0ba1108b71",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:623d56b32f803052"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:cab063e576d9",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:f4c01e7ebadc4d2a"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9ee9e229ad68",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6772aa6446432f4b"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:28bd59f0e617",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:781bd614fb784444"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4a0b0071eb1a",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:765298c634b05781"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a75908e0ca7a",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:252ac7a1bdc504c7"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:5b30e7848461ecd0"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1070b8e93aef",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:c8551c9d35378565"
+   ]
+  },
+  {
+   "adds": [
+    "Doom's Time Platform"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:eadd4797d984",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Slip Out the Back"
+   ],
+   "cuts": [
+    "Hatred"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4139a7eb0669",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:3d6cdaff63560d2a"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1204d414b993",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:cf783d7c600e5dbc"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7f9a495aacf3",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:b3954b070bdafbc3"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:b7e53dca9096",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:5e90c9b2da6a764b"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d12476f329b1",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:f7b65c5e73956f9b"
+   ]
+  },
+  {
+   "adds": [
+    "Robe of the Archmagi"
+   ],
+   "cuts": [
+    "Combat Research"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:f6f9816e82d0",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:426ff33a207cb664"
+   ]
+  },
+  {
+   "adds": [
+    "Reverse the Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0388c3ce48d5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Karlach, Fury of Avernus"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:af78ad9859cd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Tenth Doctor"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9d5bb61e88e3",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:5414ccf244784f5a"
+   ]
+  },
+  {
+   "adds": [
+    "The Tenth Doctor"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:47d81d8b4258",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:cdfec3a8690673d8"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Strobe"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:b03e2a25379c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Leyline Axe"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5d8cfca69550",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fireshrieker"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e44e243c5b90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:458842ea3369",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:973ca9f06fd0da89"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a22251b2332a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0f06e04e9b87",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:3d24eb08b368bbd1"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0d1ceac7062e",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:46b3b1aa32d85e53"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:182b22bc5998",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:e58ed944c7ebbe25"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:521f32c81bd5",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:465394e699f33a46"
+   ]
+  },
+  {
+   "adds": [
+    "The Black Gate"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:db7f9a0c9105",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:d5bab99378d4bcbc"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Battlesphere"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:a98897bb7f5b",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:a891819cf01a219b"
+   ]
+  },
+  {
+   "adds": [
+    "Genji Glove"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5f239b2b7517",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:3aeb01d91aa8",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:25ee79dba97f7433"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:05f4d7377672",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:c71cbbae0b128a6e"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7e8e3c390134",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cybermen Squadron"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:df9fbc236335",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:69163f73ddf4ce3f"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e6b3aff4fe13",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:8722af19f2cf423a"
+   ]
+  },
+  {
+   "adds": [
+    "Great Train Heist"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:124a679d9e9b",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6d46b6308b461056"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2d59d087a92d",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:4db4ded78a9ae905"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:6f1b5c1ff1f5",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:82a4b696419f1dc2"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:31aef19ee8ec",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6cb910af14043f1a"
+   ]
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:1b186d9678d6",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:606399ce58a22d8d"
+   ]
+  },
+  {
+   "adds": [
+    "Edward Kenway"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:995e3e457e95",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6e0fe442d87f586c"
+   ]
+  },
+  {
+   "adds": [
+    "Piper Wright, Publick Reporter"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:7b52e6fd3afe",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:a99340227cf43d7f"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinator Cavalry"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2819b72e8da4",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:f70f9dd3b4999260"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d3a787e7aee0",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:1f2bc5a6b8b0bc9c"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:faf75d115ce2",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:9227d6ec317ca33d"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia's Attendants"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:9c97f2f62e65",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:03f29821354e5f5c"
+   ]
+  },
+  {
+   "adds": [
+    "Wanderwine Prophets"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e8b8603f3f02",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:4c3689f2ae675076"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:18724ca8a8ec",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:c4715a51cb1994a1"
+   ]
+  },
+  {
+   "adds": [
+    "Inquisitor Eisenhorn"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:229db20a565d",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:1db1a21c69e55e10"
+   ]
+  },
+  {
+   "adds": [
+    "Mox Tantalite"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:ff4b22c1ca02",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:ec7e0734a6d577f1"
+   ]
+  },
+  {
+   "adds": [
+    "Minas Morgul, Dark Fortress"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:71e778c3f711",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:eed5331b06cf9b86"
+   ]
+  },
+  {
+   "adds": [
+    "Prowler's Helm"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:8774dadfb6c2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Ring of Valkas"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4b739e620733",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:ef5ec43757fa",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:70bd5adbf00a7d4e"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2981dfc32e51",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:29ce1740b2ca",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:18786be34227a0d1"
+   ]
+  },
+  {
+   "adds": [
+    "Sinister Concierge"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:4747ff780850",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Academy Manufactor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d26d107e8a2a",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:d7e77b2e84fc5cb6"
+   ]
+  },
+  {
+   "adds": [
+    "Academy Manufactor"
+   ],
+   "cuts": [
+    "Replicating Ring"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:76402f37e370",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:df062a449844dc69"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:3c91f1ee4aa6",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:65857abf026292d5"
+   ]
+  },
+  {
+   "adds": [
+    "Inventors' Fair"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:e9cdc0fc566f",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:5a8baf7b6a61d0bc"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Hatred"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5383220fed4a",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:f4b5c355fbc86e8c"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:c346c44e9f45",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:8c869dec58c28e0e"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:da0d4534e384",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:67cfe76dfc9453b1"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:43b83e67bd13",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:8d76fb3135ac2969"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:6cf9af09ca33",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:cece2c91db78667c"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Assembly"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:96a143c2ba2d",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:ad5916cfe71b8221"
+   ]
+  },
+  {
+   "adds": [
+    "Rift Elemental"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:5294cbf5ec27",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:ce0058a70d9d5c36"
+   ]
+  },
+  {
+   "adds": [
+    "Rift Elemental"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:50ee6db120ae",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:5f96de4db7e9b436"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:687d50eaef75",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:4ba6ee4d4c678fd4"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d69d379dd632",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:57895654d4dfe1df"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:d92089306a81",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6bc08fccc6f36eaf"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:314370e1398a",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:8dfa70603ec389b8"
+   ]
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Paradox Haze"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:2383c2973a38",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:6bce2f8ed1f45152"
+   ]
+  },
+  {
+   "adds": [
+    "Second Chance"
+   ],
+   "cuts": [
+    "Thopter Spy Network"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:019597b53427",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:836efea738d12be1"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Bonehoard Dracosaur"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:0e338835ef82",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:1524af540befa004"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:obeka-splitter-of-seconds:m5:160d0a5e5c41",
+   "tests": [
+    "test:obeka-splitter-of-seconds:goldfish:34d434a48c7713ce"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:97a31294cff0de17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:cab94af51dcd6f76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:54ab90027861d572",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:5d69f919831ff7a6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:e8a7afce60dd16c2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:50370232199e48df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6cb22667cb7ec8cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:22d2bce021f46a35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:439b6d87a90c2a83",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:7c3a5bc6c246955e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:efdf492aa3c7c9ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:7fb027239dd13904",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:eeb88314706517f2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:53ed016c0c34edef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:9214f5a77263bf17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:753c5d72824c2b0e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:046b076d80ed43cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:a52ad3fb0f1610bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:1223ba71c9ded5b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:7a205d0fc9f0d5b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:b421e9e16e2fac2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:a48c800163e3d873",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:3bcd0ac654b4c502",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:b62f08df365d040f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:aa338d5a74700869",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:06e383d4fd769d22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:7f00688215081b3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:623d56b32f803052",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:f4c01e7ebadc4d2a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6772aa6446432f4b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:781bd614fb784444",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:765298c634b05781",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:252ac7a1bdc504c7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:5b30e7848461ecd0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:c8551c9d35378565",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:3d6cdaff63560d2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:cf783d7c600e5dbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:b3954b070bdafbc3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:5e90c9b2da6a764b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:f7b65c5e73956f9b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:426ff33a207cb664",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:5414ccf244784f5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:cdfec3a8690673d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:973ca9f06fd0da89",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:3d24eb08b368bbd1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:46b3b1aa32d85e53",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:e58ed944c7ebbe25",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:465394e699f33a46",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:d5bab99378d4bcbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:a891819cf01a219b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:25ee79dba97f7433",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:c71cbbae0b128a6e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:69163f73ddf4ce3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:8722af19f2cf423a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6d46b6308b461056",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:4db4ded78a9ae905",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:82a4b696419f1dc2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6cb910af14043f1a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:606399ce58a22d8d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6e0fe442d87f586c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:a99340227cf43d7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:f70f9dd3b4999260",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:1f2bc5a6b8b0bc9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:9227d6ec317ca33d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:03f29821354e5f5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:4c3689f2ae675076",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:c4715a51cb1994a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:1db1a21c69e55e10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:ec7e0734a6d577f1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:eed5331b06cf9b86",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:70bd5adbf00a7d4e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:18786be34227a0d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:d7e77b2e84fc5cb6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:df062a449844dc69",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:65857abf026292d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:5a8baf7b6a61d0bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:f4b5c355fbc86e8c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:8c869dec58c28e0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:67cfe76dfc9453b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:8d76fb3135ac2969",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:cece2c91db78667c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:ad5916cfe71b8221",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:ce0058a70d9d5c36",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:5f96de4db7e9b436",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:4ba6ee4d4c678fd4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:57895654d4dfe1df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6bc08fccc6f36eaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:8dfa70603ec389b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:6bce2f8ed1f45152",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:836efea738d12be1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:1524af540befa004",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:obeka-splitter-of-seconds:goldfish:34d434a48c7713ce",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

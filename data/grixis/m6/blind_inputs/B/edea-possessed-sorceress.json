@@ -1,0 +1,2899 @@
+{
+ "deck_id": "Edea__Possessed_Sorceress",
+ "list_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "slug": "edea-possessed-sorceress",
+ "swaps": [
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8f8158b031b5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Garland, Royal Kidnapper"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:57b12214f26a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Garland, Royal Kidnapper"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f77772ed196d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Morbid Opportunist"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:487c089182ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:27c183a63e50",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:835b182082fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a83fd7c223b5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nasty End"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4c2a5a2f1c00",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9baf00a07c27839a"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:87802e4653f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:937b9efc17fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e368b27e8c84",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:5c1e84378c416a2d"
+   ]
+  },
+  {
+   "adds": [
+    "Fling"
+   ],
+   "cuts": [
+    "Corrupted Conviction"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:eb8705028442",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:556fda23928384e4"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:41989df5fd01",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:89b6a60209af411c"
+   ]
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3d96dcbed33f",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b60b4dc5d4f321fa"
+   ]
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3de43717633d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Conjurer's Closet"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:986063d78ad1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Susur Secundi, Void Altar"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9d052cd234ae",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:ba7166a0bc5299b4"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e07ac9830bd0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:fec476515d2d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:cbb8dfb5fa371bee"
+   ]
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0ae30054a1f7",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:ee74ba9ff8afffff"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:788e9743075d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:297e8f6de8b3abd5"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowheart, Dark Justiciar"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c65d2ee851d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dauthi Voidwalker"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:81585422bd5f",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8806a87842b08e59"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0eaf2ad99f5e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:fb56eacd9b26e72f"
+   ]
+  },
+  {
+   "adds": [
+    "Marchesa, the Black Rose"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7686127973a5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Marchesa, the Black Rose"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:102b89494e13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a5b602c25f73",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c7a3fa733566f861"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d40a7aa0b7bd",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:71abc97b64f72ef7"
+   ]
+  },
+  {
+   "adds": [
+    "Locke, Treasure Hunter"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:72ccac306e21",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:4b3e375ed7e80540"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f37a5d51e914",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:240411c865c3432e"
+   ]
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5530d83e868c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dark Ritual"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:abea20b5e856",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8ae45b2e605b3b7b"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c9be9317ba83",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:7d4ce2d1924a379a"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:307222971245",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:3f2d16245c75b317"
+   ]
+  },
+  {
+   "adds": [
+    "Abyssal Harvester"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:84116c8d5001",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:09e3f96b4d73",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:16e9c79f7d44e346"
+   ]
+  },
+  {
+   "adds": [
+    "Laughing Jasper Flint"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:087a4b2f7a30",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:470f327b24bd7f15"
+   ]
+  },
+  {
+   "adds": [
+    "Furnace Reins"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:397885b13cad",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b918d13b3f785042"
+   ]
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4831e04f10eb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5ec6297d47bf",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:ccb33890629198bf"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:98219c8d9230",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:268f665c037ca177"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4c96b310f47e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8b86b3d8569cdc9c"
+   ]
+  },
+  {
+   "adds": [
+    "Éomer, Marshal of Rohan"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c6ac3d50a4d2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9ab548f8d225",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:327fe127b933a7af"
+   ]
+  },
+  {
+   "adds": [
+    "Act of Treason"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9e8a3673066e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:96a27f9eed80f48f"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:458b5d6939db",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8990a02951f57099"
+   ]
+  },
+  {
+   "adds": [
+    "The Soul Stone"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:216bd5076c42",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:845c78f957eec333"
+   ]
+  },
+  {
+   "adds": [
+    "Nowhere to Run"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:68187c3a3fba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bb6cccd53a24",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8b2a6cda35a41a3f"
+   ]
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a47fe7b087af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8d5eb69ab9c1",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:75e3c142194bb8cd"
+   ]
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b464ceda9011",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:abaa2d1d2b07483c"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:169d541155b4",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:a6a217ced6712d30"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3418ea9a323c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ed4ae4f28f81",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8ace92b257b6cde6"
+   ]
+  },
+  {
+   "adds": [
+    "Blazemire Verge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:529707fb6761",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:7d139604a2745af0"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:59ec5fa71cf9",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:3f76f226c5031bff"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e963335010bb",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:69d99e68cf2ebce6"
+   ]
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:89e05862f31b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ebdef0d5f4a0",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c885218273742e76"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2f80b37dbe1e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:85e3422cfd5f6eae"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:61a6e96f110c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9d59605497c44ee3"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b840d42849b5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8474a5ed1ea260c3"
+   ]
+  },
+  {
+   "adds": [
+    "Gloomlake Verge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f58c7bee1143",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c21d879fea758b8f"
+   ]
+  },
+  {
+   "adds": [
+    "Forsaken Miner"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a4fcc687d826",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:db988e1eed57e0a2"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9f279afad6ca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Claim the Firstborn"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:435a799b63d5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:f2c3124f43027edf"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c4fd00934708",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:99da4f3fb168",
+   "tests": []
+  },
+  {
+   "adds": [
+    "River Kelpie"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:94fe5fc8c8dc",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:dee2f538b221aa9c"
+   ]
+  },
+  {
+   "adds": [
+    "River Kelpie"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:493cbdbbf472",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:90d0273fc3ef4b3a"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8a386d9139be",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c9c994f7f8bba425"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:6f772b1ade26",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:026f780c72c45625"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8230b82e5cb5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:483e17f0db9a7cb9"
+   ]
+  },
+  {
+   "adds": [
+    "Carrion Feeder"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f437b2dafb68",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a98a8b340d4a",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:2c46a909f25a1f4a"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:dc30ad193e54",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:35d4d650e63556fd"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7205bf059c0d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:32cf5ca77b6fc419"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:02f693e71ea9",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:df07ca62a2102e27"
+   ]
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b825561d35cb",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:d334dc80abc40638"
+   ]
+  },
+  {
+   "adds": [
+    "Lesser Masticore"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1a2795367a39",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:227657e83a86e93e"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f7ced47b3f0d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9e2538eada30bd8d"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:67d462b690df",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9d1e103de22bd820"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8bea507e8363",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:68f330c8a16d3af0"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:fc589c1300b3",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:f5f51973120e0550"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0206d6121131",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:cde4f5bba0956425"
+   ]
+  },
+  {
+   "adds": [
+    "Scuttletide"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:42d60062d194",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:fcf87ee7da724477"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:900801524bae",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:119daaad1f5727a6"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b5ba7c0fa01d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:2531bf75248c22ef"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b0d56686d344",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9403b3015bdd7c6c"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e1f9ab8dafed",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:bdd6b22d4e14351f"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9b3026cd1067",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:a57a8345d44b4e04"
+   ]
+  },
+  {
+   "adds": [
+    "Loki, God of Mischief"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:514fc2fe8412",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:29740953398f",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:da5124ffa1898484"
+   ]
+  },
+  {
+   "adds": [
+    "The Horus Heresy"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:6c2846868ed8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d9b09b1f5c5b",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:998778e221188c94"
+   ]
+  },
+  {
+   "adds": [
+    "Sundial of the Infinite"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:194cba39c3bb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seize the Day"
+   ],
+   "cuts": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:97d34dac9035",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kari Zev's Expertise"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:03806ed6c576",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:e8c74015fdd2526e"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bb1fb042bccc",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:3de75d94a5f88ee0"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b65ba66bf89d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:389121739d51b053"
+   ]
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Captivating Crew"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b6c8bc2b36d1",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:cc7ed19bfe10c53f"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f2ed2a6829ed",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vengeful Possession"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8e864d0aa204",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:a79bc77e45371d55"
+   ]
+  },
+  {
+   "adds": [
+    "Graven Cairns"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:52470fbf966b",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:bc4093b7e6fc4b0b"
+   ]
+  },
+  {
+   "adds": [
+    "Riverpyre Verge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:32c2e2327c23",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b9a1eee6debcffb2"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Ruins"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3d752a3946fa",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:605363aa9b96e2eb"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:320485234958",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:07cbfcdc11d6",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:157203013a3ec093"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4d5f56a4dc66",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c1908608f5343ec1"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:3407109baa14",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:235d5383a5f2ca8b"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c85dffd5ef32",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:39718cc627209aed"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9f638aa96c28",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:4646a739bf9edb32"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:22564fd85a42",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:2c99cd9627b7e5e8"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ff466050daf4",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:f280e98753d4e146"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e107fba355c7",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:824c3613e2f6e81b"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:cd168e5d1518",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:970030fc201c6091"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7fbe4b4d04d5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:76fac20d11992865"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:df8b24b16e7f",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:2dc2055c3d297edb"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Throne"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d08537cf87cf",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8a5930bbdcc61085"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:270a09211a11",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:39d60a48730753ed"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:03db2fce1741",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:7297880a0811b595"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2fd35bff4571",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:320990d6973354b1"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:0e90684a24c5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:49d3efddaf9e33ca"
+   ]
+  },
+  {
+   "adds": [
+    "Glen Elendra Archmage"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b6bf029885f4",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:255b98e60d6742ae"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:eeb3793eff91",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:5c6017b5e93f42dc"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Plan"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8a58f9be6ffc",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b77f28df7a976ca6"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:56e45707a5d0",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:ef81529ea945b424"
+   ]
+  },
+  {
+   "adds": [
+    "Ioreth of the Healing House"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:32275fc177b1",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:79d18fb83bb05dad"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d7700e2c6249",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b9768d799b04cbe5"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a7cc5a3d1db0",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:d297f2d4f6a9a55d"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9ae97a8116f6",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b904f0b6739a679f"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2b54ea9fd54d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:cf6e78b13b6b62d0"
+   ]
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2f9dacdc09c9",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:6d29701555927a7b"
+   ]
+  },
+  {
+   "adds": [
+    "Putrid Goblin"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:28fb6fcded8e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:6e83d8e61b0e7bcd"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5f2787335006",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:29e070cad7ca877e"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bbb754e36f5e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8d7f8cbf7e76d1ee"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c3813a7667c1",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:036d6cc913fc63f4"
+   ]
+  },
+  {
+   "adds": [
+    "Akki Battle Squad"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:20a239982ec9",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:d722f6d467d5f444"
+   ]
+  },
+  {
+   "adds": [
+    "Murderous Redcap"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:73bf7155866f",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8a70e962a13735a2"
+   ]
+  },
+  {
+   "adds": [
+    "Murderous Redcap"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:02cfa97147ed",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:05d157f2d35ac8be"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1b3a4cdedcf3",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:aac3b87da93ebfc6"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1d7ac45a5302",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:a0140b1ba98ac133"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4c9e8467c86b",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:1f5b44b893b33f76"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ecc358c11e3e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:0394b38de7f978b6"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:66513b440edf",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:7d850f2f0cdf9506"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ae84ec70ff40",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:77f52719ede286c9"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5ee5109ada37",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:280caf83000a1481"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:226df82876e6",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:d17589d11cec646a"
+   ]
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9b0c64e143ee",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:7b1041a7919d1005"
+   ]
+  },
+  {
+   "adds": [
+    "Magistrate's Scepter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:2dc22b49a0e9",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:cb0ef625c334c52f"
+   ]
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:8a0ee8c44133",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:104248e1c4b6f6ec"
+   ]
+  },
+  {
+   "adds": [
+    "The Legend of Kuruk // Avatar Kuruk"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:af6b634df06e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:99f8d6a9f3c95f7c"
+   ]
+  },
+  {
+   "adds": [
+    "Eternal Scourge"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4011b27ab1c2",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:f48f1a8ddc6343d2"
+   ]
+  },
+  {
+   "adds": [
+    "Eternal Scourge"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:cb3c58947734",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:4aed1ad4565c0165"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:9fb1607e55eb",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:6098685be2ff2565"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:775ab018bd8c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c70436bb7f83da82"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:54ffc4fd1c1a",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:0a1633a43b210327"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:732c2730464c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:fbd1982d05159b7e"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:369c0a26981e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:bfff074b84a882af"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Pitiless Plunderer"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a518aff3a99c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:da449d452d6bc361"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:12bc75b67650",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:d50511453cbe6470"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:d79418ff69c1",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b2eeeef83bdb29e9"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a8d37265ebcc",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:f7d6618df15f73d3"
+   ]
+  },
+  {
+   "adds": [
+    "Omarthis, Ghostfire Initiate"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:6741b164523a",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:70c2da0a603f60b5"
+   ]
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ec64942fe027",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8ded4962235546af"
+   ]
+  },
+  {
+   "adds": [
+    "Missy"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:f942908cedfa",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:5afb6de61293b627"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:49a238de18b0",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:e7b72e45abb7a9fd"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e4d5f1b4547f",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9c29d8a501f05df8"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7af9784fefbe",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b3882fe671a157b5"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:53db2cfd534c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:3fb6edf5e0e21be0"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ae59d0e20ea5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9865b5d5a0352a84"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:bf5bd8719c3a",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:6f6f821c4c7925e6"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Illuminor Szeras"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:597ed7fc52cb",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c8d0620eb9f958a8"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Seize the Spotlight"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:fda9a16434c3",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c34b22769550d3a1"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:acffb5d8656c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:66fd02a7d20c79fb"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:c005afdb673e",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:07718e9c1af76a35"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e7558d448c70",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:eae9cf2d30b73538"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:5cd74a4f8a64",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:b67713c9b2c4fcf7"
+   ]
+  },
+  {
+   "adds": [
+    "Raptor Hatchling"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:80636b719e64",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:59182fdb396e720a"
+   ]
+  },
+  {
+   "adds": [
+    "Magosi, the Waterveil"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:7bb94aa0c1cf",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:50fdd9a78f60a0f4"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:b06f6e26e02a",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:c002a9c074792e3e"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:ff7e7789b0ad",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:9bd12c4444d906ef"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1224e6bfbbce",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:a2017bd998c5960e"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:90b6cbcee27d",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:3449dc56060b36d0"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:4202e58f1d67",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:0a5553366ade975d"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:a0155632c171",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:f078ded0452347d9"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Industrial Advancement"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e2e8323b34b5",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:71cbfd52a12c920c"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Grave Pact"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:e75d989c31b0",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:8a0eedc28e22aa70"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Grim Haruspex"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:52d95a382f9b",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:82450d4bb4713b68"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:eff1838ce44c",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:7164e2b4e3deb38d"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Skullclamp"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:84810d40481a",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:10e4e314c54151aa"
+   ]
+  },
+  {
+   "adds": [
+    "Sands of Time"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:edea-possessed-sorceress:m5:1c0b1fa06915",
+   "tests": [
+    "test:edea-possessed-sorceress:goldfish:0f713994ad8e99b4"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9baf00a07c27839a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:5c1e84378c416a2d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:556fda23928384e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:89b6a60209af411c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b60b4dc5d4f321fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:ba7166a0bc5299b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:cbb8dfb5fa371bee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:ee74ba9ff8afffff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:297e8f6de8b3abd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8806a87842b08e59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:fb56eacd9b26e72f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c7a3fa733566f861",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:71abc97b64f72ef7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:4b3e375ed7e80540",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:240411c865c3432e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8ae45b2e605b3b7b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:7d4ce2d1924a379a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:3f2d16245c75b317",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:16e9c79f7d44e346",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:470f327b24bd7f15",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b918d13b3f785042",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:ccb33890629198bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:268f665c037ca177",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8b86b3d8569cdc9c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:327fe127b933a7af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:96a27f9eed80f48f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8990a02951f57099",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:845c78f957eec333",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8b2a6cda35a41a3f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:75e3c142194bb8cd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:abaa2d1d2b07483c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:a6a217ced6712d30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8ace92b257b6cde6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:7d139604a2745af0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:3f76f226c5031bff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:69d99e68cf2ebce6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c885218273742e76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:85e3422cfd5f6eae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9d59605497c44ee3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8474a5ed1ea260c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c21d879fea758b8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:db988e1eed57e0a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:f2c3124f43027edf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:dee2f538b221aa9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:90d0273fc3ef4b3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c9c994f7f8bba425",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:026f780c72c45625",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:483e17f0db9a7cb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:2c46a909f25a1f4a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:35d4d650e63556fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:32cf5ca77b6fc419",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:df07ca62a2102e27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:d334dc80abc40638",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:227657e83a86e93e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9e2538eada30bd8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9d1e103de22bd820",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:68f330c8a16d3af0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:f5f51973120e0550",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:cde4f5bba0956425",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:fcf87ee7da724477",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:119daaad1f5727a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:2531bf75248c22ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9403b3015bdd7c6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:bdd6b22d4e14351f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:a57a8345d44b4e04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:da5124ffa1898484",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:998778e221188c94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:e8c74015fdd2526e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:3de75d94a5f88ee0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:389121739d51b053",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:cc7ed19bfe10c53f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:a79bc77e45371d55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:bc4093b7e6fc4b0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b9a1eee6debcffb2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:605363aa9b96e2eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:157203013a3ec093",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c1908608f5343ec1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:235d5383a5f2ca8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:39718cc627209aed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:4646a739bf9edb32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:2c99cd9627b7e5e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:f280e98753d4e146",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:824c3613e2f6e81b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:970030fc201c6091",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:76fac20d11992865",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:2dc2055c3d297edb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8a5930bbdcc61085",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:39d60a48730753ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:7297880a0811b595",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:320990d6973354b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:49d3efddaf9e33ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:255b98e60d6742ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:5c6017b5e93f42dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b77f28df7a976ca6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:ef81529ea945b424",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:79d18fb83bb05dad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b9768d799b04cbe5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:d297f2d4f6a9a55d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b904f0b6739a679f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:cf6e78b13b6b62d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:6d29701555927a7b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:6e83d8e61b0e7bcd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:29e070cad7ca877e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8d7f8cbf7e76d1ee",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:036d6cc913fc63f4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:d722f6d467d5f444",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8a70e962a13735a2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:05d157f2d35ac8be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:aac3b87da93ebfc6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:a0140b1ba98ac133",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:1f5b44b893b33f76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:0394b38de7f978b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:7d850f2f0cdf9506",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:77f52719ede286c9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:280caf83000a1481",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:d17589d11cec646a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:7b1041a7919d1005",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:cb0ef625c334c52f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:104248e1c4b6f6ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:99f8d6a9f3c95f7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:f48f1a8ddc6343d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:4aed1ad4565c0165",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:6098685be2ff2565",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c70436bb7f83da82",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:0a1633a43b210327",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:fbd1982d05159b7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:bfff074b84a882af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:da449d452d6bc361",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:d50511453cbe6470",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b2eeeef83bdb29e9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:f7d6618df15f73d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:70c2da0a603f60b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8ded4962235546af",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:5afb6de61293b627",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:e7b72e45abb7a9fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9c29d8a501f05df8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b3882fe671a157b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:3fb6edf5e0e21be0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9865b5d5a0352a84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:6f6f821c4c7925e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c8d0620eb9f958a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c34b22769550d3a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:66fd02a7d20c79fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:07718e9c1af76a35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:eae9cf2d30b73538",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:b67713c9b2c4fcf7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:59182fdb396e720a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:50fdd9a78f60a0f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:c002a9c074792e3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:9bd12c4444d906ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:a2017bd998c5960e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:3449dc56060b36d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:0a5553366ade975d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:f078ded0452347d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:71cbfd52a12c920c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:8a0eedc28e22aa70",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:82450d4bb4713b68",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:7164e2b4e3deb38d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:10e4e314c54151aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:edea-possessed-sorceress:goldfish:0f713994ad8e99b4",
+   "verdict": "inconclusive"
+  }
+ ]
+}

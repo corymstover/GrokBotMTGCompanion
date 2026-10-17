@@ -1,0 +1,2515 @@
+{
+ "deck_id": "Grixistax___October_2026",
+ "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "slug": "grixistax-october-2026",
+ "swaps": [
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:08d169da6e9a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:cc3fc5335ab6b063"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a1022056d40f",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:54a870d43c299aec"
+   ]
+  },
+  {
+   "adds": [
+    "Thassa's Oracle"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:78e67bd4d3dd",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:92ba13cdfa453ff6"
+   ]
+  },
+  {
+   "adds": [
+    "Thassa's Oracle"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:48d570e78f59",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:fe72082f9fcb3377"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1dc06500ff2f",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d8cca97edb520710"
+   ]
+  },
+  {
+   "adds": [
+    "Simian Spirit Guide"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0b293d9f3dba",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:26ded72ebd1fbea4"
+   ]
+  },
+  {
+   "adds": [
+    "Simian Spirit Guide"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:eafc3bd14fe2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:cabb55c3794c961c"
+   ]
+  },
+  {
+   "adds": [
+    "Cabal Ritual"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:df8d2c184d0c",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:6b4d99d0ebe242ae"
+   ]
+  },
+  {
+   "adds": [
+    "Cabal Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8329b2c85e69",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:6c4166e554c4a25d"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Consultation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1f0006ec4d7d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rite of Flame"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2eb8ed160420",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:56e7084f72a31648"
+   ]
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9e9f6eb4a5f8",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e219076f6121e061"
+   ]
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:7c098ea69910",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Borne Upon a Wind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:23aa922649e3",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b9d956e0d4f88834"
+   ]
+  },
+  {
+   "adds": [
+    "Borne Upon a Wind"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bc9cafc7478f",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:f1125613d38d9966"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c19e37f0e67a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5f26fb93d112ae8b"
+   ]
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f804ae31f713",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:89bc9cc8a2918141"
+   ]
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a685d2103ef1",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:162fb1daa5709081"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:80120dee7b2b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:9ba00ea8152bd0ba"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3275294198a3",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:18728b1a99c4ae4f"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8af674c7bfb8",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:61a7195e0f208ca2"
+   ]
+  },
+  {
+   "adds": [
+    "Ad Nauseam"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:60721ca5d214",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Praetor's Grasp"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f5915cd9464b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:aed625c29620b1da"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:20b7698756fc",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5c71c354b17d7954"
+   ]
+  },
+  {
+   "adds": [
+    "Displacer Kitten"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9518c9ea435c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Valley Floodcaller"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fb5fc7f9e84e",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:11ddba39068c8507"
+   ]
+  },
+  {
+   "adds": [
+    "Valley Floodcaller"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:7b6ef562195b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c8bde234544b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ea40e02b782c6dce"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a5da61df82e3",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d78d19383a92baf7"
+   ]
+  },
+  {
+   "adds": [
+    "Reanimate"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:32ec3d5e09ab",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:a6044a53c67cd563"
+   ]
+  },
+  {
+   "adds": [
+    "City of Traitors"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:646bdfe8bea2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:c610101f53cd2565"
+   ]
+  },
+  {
+   "adds": [
+    "Spire of Industry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fe0921d53a0e",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:0e40391e8685f21a"
+   ]
+  },
+  {
+   "adds": [
+    "Into the Flood Maw"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:607d23c15686",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dispel"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:17ef74fc8337",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gilded Drake"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:750aefb72a61",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:fb910f7d3693bcbc"
+   ]
+  },
+  {
+   "adds": [
+    "Faerie Mastermind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1aa3ddf96d37",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:88f9d7cb61e15143"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:5c62b54e1650",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:3c6e07959028d794"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f4a8dbd551c2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d99bd61cdbc6aac1"
+   ]
+  },
+  {
+   "adds": [
+    "Defense Grid"
+   ],
+   "cuts": [
+    "Chalice of the Void"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8d5c6295b1a2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:9cde070bd32f5725"
+   ]
+  },
+  {
+   "adds": [
+    "Rain of Filth"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bf961d041d7a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:75a7f30d1bc339bf"
+   ]
+  },
+  {
+   "adds": [
+    "Gitaxian Probe"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:248b826edde9",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5459c389f5943404"
+   ]
+  },
+  {
+   "adds": [
+    "Ashnod's Altar"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:56252fe0c4e6",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:cf1e8b3e65a8465f"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Metamorph"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:b429fa11b520",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ca73e18df1d65377"
+   ]
+  },
+  {
+   "adds": [
+    "Hexing Squelcher"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f932f39bfe2b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:6e96cb6a23a78df7"
+   ]
+  },
+  {
+   "adds": [
+    "Animate Dead"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9fca3204cfc2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b8489d64fcfc1489"
+   ]
+  },
+  {
+   "adds": [
+    "Emergence Zone"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:128266d7b957",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5b8347e4af3def54"
+   ]
+  },
+  {
+   "adds": [
+    "Overwrite the Multiverse"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:cdb37e7319a0",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e2c75e2ec3f6c465"
+   ]
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:99f1f0e8e5ff",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:56be24142f97071b"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:651406b3381c",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:23f6c9d4662782d2"
+   ]
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Dauthi Voidwalker"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9b98d68795f3",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:fa8e0691f4e7281f"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8dc0944adf2c",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:21328a32b2c97a7f"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:39b6898b10b9",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:31ff9635c8099bec"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e7fd8c2b5402",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:311c9c267595fefb"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:989b6e18f91e",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e025cb9ef4db57e6"
+   ]
+  },
+  {
+   "adds": [
+    "Vraska, Betrayal's Sting"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0d48a21d6d98",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b5f2bf2b759572cf"
+   ]
+  },
+  {
+   "adds": [
+    "The Theorist, Jace Beleren"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d34533bd0d24",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b1a8e8568166c891"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bc7f05da7f41",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Braids, Arisen Nightmare"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ce08b4d1b4e8",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:f305f26a6adde9ba"
+   ]
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0e0bf37bd34a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:c66d16909c932720"
+   ]
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Karn, the Great Creator"
+   ],
+   "id": "swap:grixistax-october-2026:m5:1bba454eca21",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3fe2ff5a06c6",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ef4f355b209ee2c4"
+   ]
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:550fdee3f1ef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yawgmoth's Will"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:59263d2e9a58",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:edb8b75f4dd80783"
+   ]
+  },
+  {
+   "adds": [
+    "Insurrection"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2dda8ec4e8b0",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:15e3e9ad9cfdabfa"
+   ]
+  },
+  {
+   "adds": [
+    "Volatile Stormdrake"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c19e44542318",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:9e7fbe7895d0980d"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:cdcf06342bec",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:a124effaf4a6f26f"
+   ]
+  },
+  {
+   "adds": [
+    "Strix Serenade"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:104c59ba80de",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Innovative Commons"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ef56d55b482e",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ff362a815eb11046"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:059eeda62de9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "High Market"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:06374369a305",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:c7d378213a393d41"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9507f57025bf",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:6429a1b10614bbd7"
+   ]
+  },
+  {
+   "adds": [
+    "Warren Soultrader"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:67637b90fad2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:87f8b6a65787cd01"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ecf08f18a85e",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:67dceb9a97090fe9"
+   ]
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:26436ce90ae8",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:74bf0ed6d55ffd00"
+   ]
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:5a4b85b8d99c",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:62f17e9e54067e4d"
+   ]
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:352ed9f82c48",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:380a1fb3d39fb3fb"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Coliseum"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3e6e4dc3e592",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:f7f4fd5b6bb60ce3"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0898e0067714",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e8dd8287ac240d48"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4cb7837789c1",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e4c1caf57a3b934b"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c59059916e5e",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:8291c4e7b11fea64"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:63ce335408d2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d85a570fe6237a48"
+   ]
+  },
+  {
+   "adds": [
+    "Dack Fayden"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8b1fc33e3d76",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:71d0872dd689f0ae"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a2b1b0003a4b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:842c2bb2f9a5343d"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:18f2b42cbc5f",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:26383e00da6d2b86"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:27ae587c5fbf",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:acbc6ef6357d06e1"
+   ]
+  },
+  {
+   "adds": [
+    "Mayhem Devil"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fdd7a82ccc79",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Starting Town"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8bff9e1a1650",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:93a265b65489ee57"
+   ]
+  },
+  {
+   "adds": [
+    "Seize the Spotlight"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:cf6e8974ce24",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:70aa1d21d5b19d88"
+   ]
+  },
+  {
+   "adds": [
+    "Act of Treason"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:92d2e5878265",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5f26843916b8c0c2"
+   ]
+  },
+  {
+   "adds": [
+    "Reins of Power"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a0a63be17b1a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Scavenger Grounds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:dc821bbf4451",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:005a44742382a25f"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Altar"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a11f810021b0",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d869476f7bba8dcb"
+   ]
+  },
+  {
+   "adds": [
+    "Claim the Firstborn"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ffc4f5e5b0fc",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:91a23c2a520986fc"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:69c9d3851b4c",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5d216f96164fb4c4"
+   ]
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:8fedc8a1c56a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:a0354e0c36c4c0d3"
+   ]
+  },
+  {
+   "adds": [
+    "Spell Pierce"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d7896e861791",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fabled Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d866425129bd",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b489f0506002e254"
+   ]
+  },
+  {
+   "adds": [
+    "Viscera Seer"
+   ],
+   "cuts": [
+    "Tangle Wire"
+   ],
+   "id": "swap:grixistax-october-2026:m5:873aae50487a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:fc5a43879567ded8"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:6c65ead9730b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:59acf7f1122c2485"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d3769a589917",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:7397d3d414b9e019"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f7b77f88c848",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:0d330a497b4d292d"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, Reality Sculptor"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:539776a3b368",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Necrodominance"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e4b93776e101",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:fdd748d381c5a21a"
+   ]
+  },
+  {
+   "adds": [
+    "Valki, God of Lies // Tibalt, Cosmic Impostor"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:367157d888b6",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:bc8231cf8823b313"
+   ]
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4b1a04c1db29",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b725fad289cd5845"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ef33a761352d",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d1ae19caa61f8bbd"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f238e858fbb6",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:32c5afcc3c1cd5f4"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0a6871701d46",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:636689fbab5e5e41"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:63242df06131",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:72aea9f360f6b26a"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a91ea3bda199",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ec7bd0914fb4c03a"
+   ]
+  },
+  {
+   "adds": [
+    "Stardew Valley"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fd4afac5928b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:bb1d1fc941ee5949"
+   ]
+  },
+  {
+   "adds": [
+    "Thranduil's Decree"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f71572ee72ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Mycosynth Gardens"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:grixistax-october-2026:m5:73eb8dabcb04",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ce3ca9d26f0c399b"
+   ]
+  },
+  {
+   "adds": [
+    "Bazaar of Wonders"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3920106d1014",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:aee739d136dd",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:78628c6faaf3c750"
+   ]
+  },
+  {
+   "adds": [
+    "Vilis, Broker of Blood"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ab489e81a20a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:d48233c5f58b6440"
+   ]
+  },
+  {
+   "adds": [
+    "Jin-Gitaxias, Progress Tyrant"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d4dce484eced",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archmage's Charm"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:94ea16d15889",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:be929d4b751fb0b4"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2cfc652e905d",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:c9e94f0750510296"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2cdb99415282",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:0da4a578c7d019f5"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:bf0d15465256",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:465927efda1f7deb"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4b9b781478fa",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:9ebf229c4a9f3366"
+   ]
+  },
+  {
+   "adds": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d04feed08d1d",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:40e67991456be337"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a4e0d954b859",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:bf2300358ecfcded"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:a5e11aa570b0",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ac6b69b59c24102e"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0a2e8c464009",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5ff923e90ea12904"
+   ]
+  },
+  {
+   "adds": [
+    "Thieving Varmint"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f81f06eac81f",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b6dbf85327643277"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f904a13dd4fe",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:1279cbb73cd054a7"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:52c247c4dd15",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:4d9f62357df43a7c"
+   ]
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:9762cc7de7f6",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:6b44f819242bfc2b"
+   ]
+  },
+  {
+   "adds": [
+    "Ramirez DePietro, Pillager"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0c0bcc1f6797",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:96b7830f0d271e02"
+   ]
+  },
+  {
+   "adds": [
+    "Song-Mad Treachery // Song-Mad Ruins"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3be92c41ae6a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b3b1c6a507917935"
+   ]
+  },
+  {
+   "adds": [
+    "Involuntary Employment"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:b2bb7da89fe7",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:4a4505122c725235"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:49b1aaf9e694",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:1895e04a87ebb556"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:fa3064acfcc2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e51d5b4b769d43b4"
+   ]
+  },
+  {
+   "adds": [
+    "Furnace Reins"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:0acfe6d94445",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:b70d7a6b40914ccc"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4f989ae47914",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:da6cb6995f649b9e"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:7d3582d40c90",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:66abd6c99208229b"
+   ]
+  },
+  {
+   "adds": [
+    "Vaan, Street Thief"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c2c72f89fe70",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:405667d77695cd17"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3cc2ca4b6e36",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:335e595f2a3e1a7e"
+   ]
+  },
+  {
+   "adds": [
+    "Marina Vendrell's Grimoire"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:29a5b1a2550b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:34988c4d513e886d"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:b69789eb16b8",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:e6c41f8e2e2f5b08"
+   ]
+  },
+  {
+   "adds": [
+    "Lich's Mastery"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:950bb73920d2",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:abaf1439aceef62c"
+   ]
+  },
+  {
+   "adds": [
+    "Kheru Spellsnatcher"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e4081b31341e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:5e380e9fdd54",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:3064828b18332142"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Construct"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d2f4cc983cb0",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:c21979d85311bd49"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:grixistax-october-2026:m5:59e7abffbea3",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:f6fb7263a2a68ee5"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Leyline of the Void"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ab0cf9d90370",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:18283737cef92775"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:71bbe238733f",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:dd672abd71831615"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:c87aeecd41bb",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:18cf3bd22234f35d"
+   ]
+  },
+  {
+   "adds": [
+    "Korvold and the Noble Thief"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:ed4f23046446",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:5173e0b229281ad8"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e7bc718c4c12",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:f89ecc38c119a072"
+   ]
+  },
+  {
+   "adds": [
+    "Nefarious Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:grixistax-october-2026:m5:2c15590d7e70",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:9cb44b35bf2fff37"
+   ]
+  },
+  {
+   "adds": [
+    "Amulet of Safekeeping"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e3650a520be9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Magus of the Moon"
+   ],
+   "id": "swap:grixistax-october-2026:m5:4c49c4eb88d8",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:2489c25254d7a481"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "id": "swap:grixistax-october-2026:m5:871833c6f6ee",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:6b6c2011ec257527"
+   ]
+  },
+  {
+   "adds": [
+    "Thrull Wizard"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3476a866f311",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Beseech the Mirror"
+   ],
+   "id": "swap:grixistax-october-2026:m5:aa1cc48025bc",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:ad511f9d25ca6021"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3dfdfe06ba1b",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:4bb1aa15d47b0c7b"
+   ]
+  },
+  {
+   "adds": [
+    "Jester's Scepter"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:d91e433e50ff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grimoire Thief"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:f7b3efef23cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ice Cauldron"
+   ],
+   "cuts": [
+    "Mox Amber"
+   ],
+   "id": "swap:grixistax-october-2026:m5:204058b2274d",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:bdac888028d7a0d0"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:3a45f468c2b4",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:7ae076b28ee56e29"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:grixistax-october-2026:m5:e4756a3f6650",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:4b4535df7f0567cc"
+   ]
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:grixistax-october-2026:m5:428eff15c7e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Redirect Lightning"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:grixistax-october-2026:m5:92091fd2fa9a",
+   "tests": [
+    "test:grixistax-october-2026:goldfish:92b2595958767444"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:grixistax-october-2026:goldfish:cc3fc5335ab6b063",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:54a870d43c299aec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:92ba13cdfa453ff6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:fe72082f9fcb3377",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d8cca97edb520710",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:26ded72ebd1fbea4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:cabb55c3794c961c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:6b4d99d0ebe242ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:6c4166e554c4a25d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:56e7084f72a31648",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e219076f6121e061",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b9d956e0d4f88834",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:f1125613d38d9966",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5f26fb93d112ae8b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:89bc9cc8a2918141",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:162fb1daa5709081",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:9ba00ea8152bd0ba",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:18728b1a99c4ae4f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:61a7195e0f208ca2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:aed625c29620b1da",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5c71c354b17d7954",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:11ddba39068c8507",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ea40e02b782c6dce",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d78d19383a92baf7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:a6044a53c67cd563",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:c610101f53cd2565",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:0e40391e8685f21a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:fb910f7d3693bcbc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:88f9d7cb61e15143",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:3c6e07959028d794",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d99bd61cdbc6aac1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:9cde070bd32f5725",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:75a7f30d1bc339bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5459c389f5943404",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:cf1e8b3e65a8465f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ca73e18df1d65377",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:6e96cb6a23a78df7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b8489d64fcfc1489",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5b8347e4af3def54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e2c75e2ec3f6c465",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:56be24142f97071b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:23f6c9d4662782d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:fa8e0691f4e7281f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:21328a32b2c97a7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:31ff9635c8099bec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:311c9c267595fefb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e025cb9ef4db57e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b5f2bf2b759572cf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b1a8e8568166c891",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:f305f26a6adde9ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:c66d16909c932720",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ef4f355b209ee2c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:edb8b75f4dd80783",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:15e3e9ad9cfdabfa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:9e7fbe7895d0980d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:a124effaf4a6f26f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ff362a815eb11046",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:c7d378213a393d41",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:6429a1b10614bbd7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:87f8b6a65787cd01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:67dceb9a97090fe9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:74bf0ed6d55ffd00",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:62f17e9e54067e4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:380a1fb3d39fb3fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:f7f4fd5b6bb60ce3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e8dd8287ac240d48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e4c1caf57a3b934b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:8291c4e7b11fea64",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d85a570fe6237a48",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:71d0872dd689f0ae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:842c2bb2f9a5343d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:26383e00da6d2b86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:acbc6ef6357d06e1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:93a265b65489ee57",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:70aa1d21d5b19d88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5f26843916b8c0c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:005a44742382a25f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d869476f7bba8dcb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:91a23c2a520986fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5d216f96164fb4c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:a0354e0c36c4c0d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b489f0506002e254",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:fc5a43879567ded8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:59acf7f1122c2485",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:7397d3d414b9e019",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:0d330a497b4d292d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:fdd748d381c5a21a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:bc8231cf8823b313",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b725fad289cd5845",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d1ae19caa61f8bbd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:32c5afcc3c1cd5f4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:636689fbab5e5e41",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:72aea9f360f6b26a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ec7bd0914fb4c03a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:bb1d1fc941ee5949",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ce3ca9d26f0c399b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:78628c6faaf3c750",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:d48233c5f58b6440",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:be929d4b751fb0b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:c9e94f0750510296",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:0da4a578c7d019f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:465927efda1f7deb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:9ebf229c4a9f3366",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:40e67991456be337",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:bf2300358ecfcded",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ac6b69b59c24102e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5ff923e90ea12904",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b6dbf85327643277",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:1279cbb73cd054a7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:4d9f62357df43a7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:6b44f819242bfc2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:96b7830f0d271e02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b3b1c6a507917935",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:4a4505122c725235",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:1895e04a87ebb556",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e51d5b4b769d43b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:b70d7a6b40914ccc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:da6cb6995f649b9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:66abd6c99208229b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:405667d77695cd17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:335e595f2a3e1a7e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:34988c4d513e886d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:e6c41f8e2e2f5b08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:abaf1439aceef62c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:3064828b18332142",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:c21979d85311bd49",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:f6fb7263a2a68ee5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:18283737cef92775",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:dd672abd71831615",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:18cf3bd22234f35d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:5173e0b229281ad8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:f89ecc38c119a072",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:9cb44b35bf2fff37",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:2489c25254d7a481",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:6b6c2011ec257527",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:ad511f9d25ca6021",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:4bb1aa15d47b0c7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:bdac888028d7a0d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:7ae076b28ee56e29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:4b4535df7f0567cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:grixistax-october-2026:goldfish:92b2595958767444",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

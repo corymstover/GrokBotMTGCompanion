@@ -1,0 +1,4743 @@
+{
+ "deck_id": "Nathan_Drake__Treasure_Hunter",
+ "list_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+ "slug": "nathan-drake-treasure-hunter",
+ "swaps": [
+  {
+   "adds": [
+    "Gonti, Lord of Luxury"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b8e9b6d6b3a9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0376ef0a90f20229"
+   ]
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2b0210057717",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:739ddadc972a7bd7"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d3098fa450cc",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:82e180c23ebc71ce"
+   ]
+  },
+  {
+   "adds": [
+    "Whip of Erebos"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ab3a9f515e46",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whip of Erebos"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:9a03ba29ea1a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aqueous Form"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d5c4ffa8fcb1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:330763a05c0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a17a28c584e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:31b95dbafc0b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brainstealer Dragon"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:864bd90c6f0c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5d75b51baddd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chain Reaction"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1875653029ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kefka, Dancing Mad"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:74f0899db6c0",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:96e79d969071ba27"
+   ]
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1f76b5e3c539",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e4a7e3cf4f5e5274"
+   ]
+  },
+  {
+   "adds": [
+    "Midnight Clock"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ac7e5c38cfbc",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9ca3ed013d5aa5ca"
+   ]
+  },
+  {
+   "adds": [
+    "Midnight Clock"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0675fbc57f84",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:ab96a41458ad09e5"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6f45cbe62cb9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:79ed4973c630e958"
+   ]
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e9d931369c70",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue Class"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:940549c9f7f6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:eb5e7c356f1e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4f264f27e44bf113"
+   ]
+  },
+  {
+   "adds": [
+    "Trailblazer's Boots"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:802b503958e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Azula, Cunning Usurper"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e19f518d2f3b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:aeb77c058056b456"
+   ]
+  },
+  {
+   "adds": [
+    "Nashi, Moon Sage's Scion"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:904eec4339fa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Expedition Map"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4c1a46392fda",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6887f0407de684c5"
+   ]
+  },
+  {
+   "adds": [
+    "Staff of Eden, Vault's Key"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7400fe4bba54",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:42cb134a2436",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:45a3a876beefea0d"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Verse"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5882c5f939d6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c98d19bbceac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hurl Through Hell"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:01eef6bf21d0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mind's Dilation"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0a3eac6a571f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bilbo, Thief in the Night"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ca0cd4859b3a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:dbb4e14f396da97a"
+   ]
+  },
+  {
+   "adds": [
+    "Thieves' Tools"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:da1a8cc92036",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b48201efa5897e2c"
+   ]
+  },
+  {
+   "adds": [
+    "Garland, Royal Kidnapper"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d43af2195146",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Outrageous Robbery"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ffe4698360a3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:5b4e492bde14597e"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5cf844e93d94",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:ca6e9989d5608650"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6d478e9020b1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:5824b6c52c60cb08"
+   ]
+  },
+  {
+   "adds": [
+    "Seize the Spotlight"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:00db413fc414",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3cebef17a3118dd1"
+   ]
+  },
+  {
+   "adds": [
+    "Party Thrasher"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b5786bef31a9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4cffeb124f1f354d"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d65840d9c984",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:10032a5e2e900eeb"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Hireling"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a99488ab1c2d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Charred Foyer // Warped Space"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:80a81b9283a3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e92aa12993dedd00"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Heist"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ed563d23eedb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a18c9d4ea2cd",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b48e14c09b47ed4d"
+   ]
+  },
+  {
+   "adds": [
+    "Cruelclaw's Heist"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0d98e376d99f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:13bace6cd6d7c40c"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Daredevil"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d0d95f7cae7a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d035ed0c72bdcc5f"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ea5ed8088412",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0d9a7de3d1cde301"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:27d638bd4124",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Xanathar, Guild Kingpin"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:28ba0c52216a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thada Adel, Acquisitor"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6015c50e5a4c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0d12dd516bde1d1e"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Conscription"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8ebc9867cb1d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c45d7876d1b1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3839ef2775efaecd"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:936fb8337e8a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:27ec5fef96ba8f94"
+   ]
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:411f4a0a1f05",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a58d85e773f8",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:c28c629cd95635b0"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man 2099"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:47059316b29c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:586b0484ba72d04a"
+   ]
+  },
+  {
+   "adds": [
+    "Thieving Skydiver"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ce6c5faf5be2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:98ed33a9fef5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bcb1ef7bbb8f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:8ae59e067cbde732"
+   ]
+  },
+  {
+   "adds": [
+    "Mari, the Killing Quill"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7783e1260ea0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Silver Shroud Costume"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f3182054dc7d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:c5794efb97451b1c"
+   ]
+  },
+  {
+   "adds": [
+    "Goldspan Dragon"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f226fa8f87d9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cb4fcd8e04f1c28f"
+   ]
+  },
+  {
+   "adds": [
+    "Tinybones, Bauble Burglar"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:dab1824c3d24",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:894b3c6c18df06ca"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ca0a18e8e44c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:57e291c804dc",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3c251bf5f5294bdd"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:59ccc95da517",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0fdf65d7839e4aa7"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d7b7162de620",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:baf55049de836418"
+   ]
+  },
+  {
+   "adds": [
+    "Edea, Possessed Sorceress"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:eb272696e0f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oscorp Industries"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f6e110c84a2d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:f133b326ff897c79"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1301974fe159",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9c4687b4217413d9"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6980c3e10521",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0a3d182b97f10769"
+   ]
+  },
+  {
+   "adds": [
+    "Wand of Wonder"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e143272d9d89",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1a8d34b34c3ba457"
+   ]
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:9771a924ea86",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:30dfb37c46acfa4f"
+   ]
+  },
+  {
+   "adds": [
+    "Flaming Tyrannosaurus"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b8c9a30d4d7f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Strago and Relm"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cd748956637a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:32c4bf102baabe2c"
+   ]
+  },
+  {
+   "adds": [
+    "Ramirez DePietro, Pillager"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a11463d2dd31",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:29da04d1fc96c152"
+   ]
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c63518bd4b56",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7cdd7ef45700",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:99962b11bbb8187e"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2d3946299a45",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f4fad97c9a11",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:90531cd5a6f38eee"
+   ]
+  },
+  {
+   "adds": [
+    "Elder Brain"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1b22dc88d018",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:21e46d393111",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d8808617ef964409"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d4afc0deec23",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Petty Larceny"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:44b372e5cd6c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5a98f7457e33",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d78aa3acf0eb1469"
+   ]
+  },
+  {
+   "adds": [
+    "Hellkite Charger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:27c748f8a727",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4c139c49fb1e52a6"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d88e7dbb4485",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:15744bae9d57959b"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5cd2aae8214b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9a2550e556db857e"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c597169c8563",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3437da139723d719"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0ba8a5136190",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a65158c95db8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b092ab2ac476",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6aee32571d37b17f"
+   ]
+  },
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:631a13d6e79f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:357ba545cac5d399"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:983ceab085919093"
+   ]
+  },
+  {
+   "adds": [
+    "Insurrection"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a2dfc998925a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fa7b00feccb9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cf6ac0f120c6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Higure, the Still Wind"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:aad8de996e60",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:19a9063dd3be61ca"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ca5dab3f7296",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1e7bef29ca22",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6d0a8741e13ce205"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:97075fec963d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:aa7b9ea85f23b29a"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:158b9baeaddf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ratcatcher"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fb592ac37246",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:51f8771d108f82f6"
+   ]
+  },
+  {
+   "adds": [
+    "Samut, Hazoret's Champion"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:73446ab46e87",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4265a9d0cec7b845"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b139d45181f6",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1de2e94a2eeebc67"
+   ]
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:71e04774dd0b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:2fe77db14cbe9878"
+   ]
+  },
+  {
+   "adds": [
+    "Cynical Loner"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ba98e2776090",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1c21640b2d58aeb7"
+   ]
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:87f2c77c885b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cb616f2de4ed09f8"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:13be3227bcc3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:571ac6ecc9bc",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3486d4ba9d12ac35"
+   ]
+  },
+  {
+   "adds": [
+    "Bilbo, Luckwearer // Burglar's Plot"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5e98db19b84d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Moonstone, Harsh Mistress"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2ee6cee2e5bd",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:8df838e3a64fafb0"
+   ]
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:22ff470eac7e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:194c155c86882ed0"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a1587e20310c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0b8cc6383fe3c7b0"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e09f82f1a96a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:729a188155e420e9"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b2b7d85256ff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:eca94a43ac13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e7da824b1af4",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3a781a5fd05f5a4d"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cb83379d5df6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Photon, Mighty Marvel"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:87969fb69b4c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:65da16c5a6334555"
+   ]
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5164af3ba809",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Wasp, Winsome Avenger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:616ba305900f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:041ba4be80995ed4"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a5c3ef6254ed",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:829ccfd6157f86d4"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:18a3f44b6a99",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b2035edabce77365"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:11cc4462e16f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3ed3ee9c0f319570"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:aab9fc7580b9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d69994c1a5aa9811"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:771b3cc0ab4d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:905f55df5077c9ed"
+   ]
+  },
+  {
+   "adds": [
+    "Titania, Proud Pummeler"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f8f862b93343",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4333c8b8aa2a8ad1"
+   ]
+  },
+  {
+   "adds": [
+    "Firebird, Blazing Ranger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f554d5c59f40",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:7ad596e033af6616"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Deadly Hunter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7268dfb1c218",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:052f35c3b064",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:983eeebdf29e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6d1e06c9ccc34748"
+   ]
+  },
+  {
+   "adds": [
+    "Daredevil, Fearless Fighter"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7c5384703a1f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e0157c75af82257b"
+   ]
+  },
+  {
+   "adds": [
+    "Klaw, Master of Sound"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2001bd8de137",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6dc15c6ddc1d7420"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:da096434898d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b7aef7a4b541b089"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3e27ae1f0b0d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:67e53ff59d757cd9"
+   ]
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a36416f5e510",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stilt-Man, Towering Terror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7e7230824e57",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1780b31dbef8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:9cd38788bed7",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1ecc06802eba76df"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2193f6a2934c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1db91aadd1986726"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:72b2940f6eb4",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:07a33bf0d2d93985"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bd78020e4c83",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:5b158c2da04cea9c"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:60940dc2bb86",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bilbo Baggins, Burglar // Take a Glance"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:625a660e557a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6aa5649f2c9162a0"
+   ]
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0e5743de4125",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:de375e1970e72473"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bfa408eba366",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4e8d01def17e7ebd"
+   ]
+  },
+  {
+   "adds": [
+    "Kaho, Minamo Historian"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ec0834c00f44",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:18cd501970cc39e6"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:eb32da86ab2a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:2cc7c4248f9a962d"
+   ]
+  },
+  {
+   "adds": [
+    "Whiplash, Vengeful Engineer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0efaea5a29d8",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:8d8c32dca986e5d9"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d43c0e8c78ae",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b0759801eb806cdf"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f8e1b8c85702",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3e8d98460b2d5877"
+   ]
+  },
+  {
+   "adds": [
+    "Jessica Jones, Private Eye"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b9d36191ac9a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:dbe17321f6017afa"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Web-Spinner"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1b1ebacc3050",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0f0f735587464f66"
+   ]
+  },
+  {
+   "adds": [
+    "Delayed Blast Fireball"
+   ],
+   "cuts": [
+    "Interdimensional Web Watch"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d2156ef72990",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:48c967a96063fc32"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:48dc8c753d16",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:7146c2142c6b568c"
+   ]
+  },
+  {
+   "adds": [
+    "Stick, Fearless Mentor"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:03c60c9d92ac",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:aa795828b140ef1b"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6019f8d73ac6",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:935a2074f7678d81"
+   ]
+  },
+  {
+   "adds": [
+    "Ghost, Spectral Saboteur"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8a44a9645726",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:5c9329a01ad965d9"
+   ]
+  },
+  {
+   "adds": [
+    "Radioactive Man"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5fa7db4959df",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cee2ab3e303e6946"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a0f9a9184ccf",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e066addb6754ce84"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c70b9b661cfd",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6c22448b41696b9d"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:413730c09dd3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e19539a1b7a91cfb"
+   ]
+  },
+  {
+   "adds": [
+    "Gundabad Opportunist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d4f2956d62f6",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1e24f54185850e55"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:705efab22560",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:35e90c9f718960d0"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin Cliffrider"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ac625d6ede2f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Victor Mancha, Runaway"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4ce65dd93d4e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cc3ec1ea55295156"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1258ca211ad2",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4977e9133ebbbaa0"
+   ]
+  },
+  {
+   "adds": [
+    "Chase Stein, Runaway"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4e90016d9451",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b0056e92e9e0c760"
+   ]
+  },
+  {
+   "adds": [
+    "Graviton, Fundamental Force"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:82c5b7d7fbab",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:f932dca7b56d7e9f"
+   ]
+  },
+  {
+   "adds": [
+    "Bob, Reluctant HYDRA Agent"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fed7f51c4fde",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:03f395a1db836fcc"
+   ]
+  },
+  {
+   "adds": [
+    "Boomerang, Blade Flinger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:53703e372449",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:fde2c990bbe61105"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c036c2eb55cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bdd28931478e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4d61fb65ac6bbd96"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1f8be428d2c1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:a0c67c6d18ba1c7e"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:aebcfb4508c2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:df4cc6c363f5",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:fcd01c664ec91639"
+   ]
+  },
+  {
+   "adds": [
+    "Atlantean Skirmisher"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0a6ec2209b0b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6308ee3a737d9442"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c9a7c2eac5ef",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:78f85b3aec4efbff"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fd64e03359d3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b7f4b5fde0b6baaa"
+   ]
+  },
+  {
+   "adds": [
+    "Matterbending Mage"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8f8634d0f428",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:bee7d25518eb237a"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:99951cb4eced",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a356f13aba16",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:df6950d20e67",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:618d3818529278bc"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Hometown Hero"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8a15daaa8169",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:2515702c1881638f"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5f9b70b86fc1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:fd16d3aa087933b2"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6b3acf136bd4",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:756203f87bcdd63d"
+   ]
+  },
+  {
+   "adds": [
+    "Wasp, Shrinking Savior"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:9ead29af71af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8d6990d79107",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:922477c1e738742a"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:feba36738113",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b13ed0699097800d"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:91fd31c63949",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Null Summoner"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:be71f0c2e00e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e91b5b87104dfb06"
+   ]
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c8dcb6992262",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b29d5a4241387b90"
+   ]
+  },
+  {
+   "adds": [
+    "The Whizzer, Classic Speedster"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:22b4c4d72f46",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4382dc2e257e3d97"
+   ]
+  },
+  {
+   "adds": [
+    "Eardrum Rattler"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:02031d2c51f1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:7bf1ff4daf3c66a3"
+   ]
+  },
+  {
+   "adds": [
+    "Armed Assailant"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6df07bd54fcb",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0a4f3306eeb6e50f"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Grapplers"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3cef6df6abc2",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:36ae58c8a0863ab9"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8965846d0ca0",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b38d7d7a7b34c66c"
+   ]
+  },
+  {
+   "adds": [
+    "Mask of Riddles"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:29767cfdf931",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:71dd6c30747f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a0d50d7e5859",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:a1f689596264739a"
+   ]
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Court of Locthwain"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d2f05a4ed7ff",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blazemire Verge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:77dec357a00c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:de1b51d1c12177d1"
+   ]
+  },
+  {
+   "adds": [
+    "Rankle, Master of Pranks"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:021f98abf4cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghostly Pilferer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3e26478ed4c1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:480b60254bc3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4d1f2e51e4a25550"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3bd42e746b60",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:191021de35976986"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Fugitive"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7ec2199dd6e1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1c261952b2e158b7"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4593982cb5e9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:96b4964976442bb8"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:99defdab30f1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3a59ba5e97c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Slither Blade"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:48ecb98920d3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:573fbafdffabab7b"
+   ]
+  },
+  {
+   "adds": [
+    "Starfield Vocalist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:48059d5072e9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:f0092eb10ea228f3"
+   ]
+  },
+  {
+   "adds": [
+    "Inti, Seneschal of the Sun"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f35eb0646565",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:dbc7b634de408a6c"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:833c2ee8d3b0",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d52f2fd2dcd7af66"
+   ]
+  },
+  {
+   "adds": [
+    "Triton Shorestalker"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3b08516a9c5d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3baeb1edfc7c8a6b"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4341bcd17606",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:887ac341c38c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6bce5af9c27b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1f0468ba48511f73"
+   ]
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e67ad0549b47",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3320ee1412ef2d77"
+   ]
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5efd124a4a11",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:63724b306ec6",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6dfda9428bb98504"
+   ]
+  },
+  {
+   "adds": [
+    "Secret Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:15c1502a5d09",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:41353492c43e95c4"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f84cfa243cee",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:78b2b3ec3ca6d901"
+   ]
+  },
+  {
+   "adds": [
+    "The Key to the Vault"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8d5ee8414e18",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bd8c00fb5a3a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d95919fae71b7bc1"
+   ]
+  },
+  {
+   "adds": [
+    "The Lord of Pain"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:dd755e0fba96",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:96f10b6cd35229ee"
+   ]
+  },
+  {
+   "adds": [
+    "Yuriko, the Tiger's Shadow"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2f2b3349bf6d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:1f593e26088a75fd"
+   ]
+  },
+  {
+   "adds": [
+    "Invisible Stalker"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:29859449b4b8",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6a45f1a839560819"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6201dbb9807a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gloomlake Verge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7744df7f16f9",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:b185d34614c4b834"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:9eae8d1e9d71",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:65298b429e8e02d2"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fb69728561f2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shoreline Looter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8e55f66f7150",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bria, Riptide Rogue"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ab49345a1b0b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9e8214f315c221d0"
+   ]
+  },
+  {
+   "adds": [
+    "Blighted Agent"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b3819e189cfb",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:df5ccb4e3e8c709a"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fb0bdd2f5176",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:17adb389c1d4729d"
+   ]
+  },
+  {
+   "adds": [
+    "Otepec Huntmaster"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:76121b39052c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:08ef41165bad6820"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0f3438ba2a3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d65aa9a4f653",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frontier Warmonger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:37b954543938",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:a082f5524d73af37"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4acb6b378ae9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:63afea14d291",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:8c4c81558425b881"
+   ]
+  },
+  {
+   "adds": [
+    "Gisa, the Hellraiser"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e78435641a89",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cc54a321eaaeec20"
+   ]
+  },
+  {
+   "adds": [
+    "Mistblade Shinobi"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:954efcf51322",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Satoru, the Infiltrator"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7ab408d13538",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:c8cf1f3b8620",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:51ad698a144e4da4"
+   ]
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bca69b1ceab1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cd1e70ea3666fc8f"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:620bae67fbb9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spider-Punk"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:35c1ffbc875d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:033cda5209af3110"
+   ]
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ba9e9e6efb31",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:5239ae7bc3163ebb"
+   ]
+  },
+  {
+   "adds": [
+    "Ral, Monsoon Mage // Ral, Leyline Prodigy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ad1762d2601f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ninja of the Deep Hours"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:664ecad92d10",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8925559c3267",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rikku, Resourceful Guardian"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6eb12454ea44",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:55dd18d52a2e5bd1"
+   ]
+  },
+  {
+   "adds": [
+    "Ozai, the Phoenix King"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2d169a337797",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:820459d15bfad0a2"
+   ]
+  },
+  {
+   "adds": [
+    "Avenger of the Fallen"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2ad95209997c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:04982919fa6a3dd8"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5d311ee2e8f3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:edaf884abc63c8f9"
+   ]
+  },
+  {
+   "adds": [
+    "Yuffie, Materia Hunter"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cfa59d6db5df",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Varchild, Betrayer of Kjeldor"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:81372db82075",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:a1f26642d25cf1de"
+   ]
+  },
+  {
+   "adds": [
+    "Admiral Beckett Brass"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:dbb9968f4100",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blightwing Bandit"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e7ad5b98d8c1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:34bf9106659e8ff4"
+   ]
+  },
+  {
+   "adds": [
+    "Eruth, Tormented Prophet"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cf6c0e9e3994",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Willbreaker"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f30f98b794c0",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:322fa58082ba84c0"
+   ]
+  },
+  {
+   "adds": [
+    "Breya's Apprentice"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:21a462779b4b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:fc17464bbb600d66"
+   ]
+  },
+  {
+   "adds": [
+    "James, Wandering Dad // Follow Him"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:37d0eef87bd5",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:713d1b286501a8ef"
+   ]
+  },
+  {
+   "adds": [
+    "Embereth Shieldbreaker // Battle Display"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5fe32014e281",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spinneret and Spiderling"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cecd81e57c42",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:70d9b7efe466e460"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Ozai"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a9b251a83536",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9ef13667ad2001e0"
+   ]
+  },
+  {
+   "adds": [
+    "Norin, Swift Survivalist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1f631f30ec55",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:92a9e4644ac62cab"
+   ]
+  },
+  {
+   "adds": [
+    "Order of Midnight // Alter Fate"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bb9b151315c8",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:379d3af82f50e0f5"
+   ]
+  },
+  {
+   "adds": [
+    "Haldan, Avid Arcanist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:8da3f04d85dc",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:f8643e432df3550d"
+   ]
+  },
+  {
+   "adds": [
+    "Ian Malcolm, Chaotician"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:6e534bc6e84f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4d1d4c0a81d5ca94"
+   ]
+  },
+  {
+   "adds": [
+    "Jacob Hauken, Inspector // Hauken's Insight"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ce759ab103b1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Beguiler of Wills"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:aae2766b1893",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Krang & Shredder"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:409f24572c22",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:7f734290837662fe"
+   ]
+  },
+  {
+   "adds": [
+    "Vislor Turlough"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:24abc4300872",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gumdrop Poisoner // Tempt with Treats"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:254aba085419",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4b9a1d1ae5e75ed9"
+   ]
+  },
+  {
+   "adds": [
+    "Mezzio Mugger"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ad23de8fa0ec",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0b72cf9995b56933"
+   ]
+  },
+  {
+   "adds": [
+    "Merchant of the Vale // Haggle"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:122d3823a89c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Daring Thief"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:02a4df985054",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:414906d7fc10193b"
+   ]
+  },
+  {
+   "adds": [
+    "Cytoplast Manipulator"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fed1200afd00",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magmatic Channeler"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:790819497aea",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:bb210807e0ff541a"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Carah, the Bold"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:058ed9530481",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evelyn, the Covetous"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e8e8bcea2c9d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:3869c6562239a3a2"
+   ]
+  },
+  {
+   "adds": [
+    "Superior Foes of Spider-Man"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1722ede12daf",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:ed33659e8754d7b0"
+   ]
+  },
+  {
+   "adds": [
+    "Yasmin Khan"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5ee53f631aaf",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9b56fb2f6dcb21f8"
+   ]
+  },
+  {
+   "adds": [
+    "Rangers of Ithilien"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a87800c7f206",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:fe5a5eecf93ddd30"
+   ]
+  },
+  {
+   "adds": [
+    "Jeering Instigator"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d00593fd8e5e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:f21746fe52e74467"
+   ]
+  },
+  {
+   "adds": [
+    "Master Thief"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:65d5426f31b2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ratcatcher Trainee // Pest Problem"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:06e36c10fadb",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:cc7f54d2d10e3caa"
+   ]
+  },
+  {
+   "adds": [
+    "Hama, the Bloodbender"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:47a4ee9d7a20",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:ab2db6a45456f410"
+   ]
+  },
+  {
+   "adds": [
+    "Infernal Captor"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ba6213ac5571",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:ade30aec4064ca09"
+   ]
+  },
+  {
+   "adds": [
+    "Knacksaw Clique"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:070f6b04a3ae",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:71e2deaa2e337cb9"
+   ]
+  },
+  {
+   "adds": [
+    "Abbot of Keral Keep"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a0aca4cf6f7e",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:4260384060216a2e"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:7c07ef8e6f7c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0993386d0d336856"
+   ]
+  },
+  {
+   "adds": [
+    "Circu, Dimir Lobotomist"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:25399c7a131c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:8a4e5ed2ff12891e"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Entrancer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:4f221edd74b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Endrider Spikespitter"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:93ed7b8cf521",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9985c9dfd0f52b92"
+   ]
+  },
+  {
+   "adds": [
+    "Unlucky Witness"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:f449c7ed5574",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:710c8e70470df8d3"
+   ]
+  },
+  {
+   "adds": [
+    "Akroan Conscriptor"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:928374624eb3",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:205f6f7824eb32ab"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnbroker"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cf509e3f305a",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d6f15fd29fa37739"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Outlaw"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5e6dfd1a3a73",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:aa5291e8ce993394"
+   ]
+  },
+  {
+   "adds": [
+    "Aladdin"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2a56322e44cf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Flame Channeler // Embodiment of Flame"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:244ae8e49fd1",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0302df08f5b6ba19"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Unseen"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:5f1ac6acd371",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:6205716e3bca315f"
+   ]
+  },
+  {
+   "adds": [
+    "Kukemssa Pirates"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:529b357a88d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Enthralling Victor"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d0cd64be6601",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:849aeaffbed5e231"
+   ]
+  },
+  {
+   "adds": [
+    "Grimoire Thief"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ab3acb16478d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:2ea80f0ebf027827"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Mind"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:9ace9f75b3b8",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:0d98f0ac5a8ebb2a"
+   ]
+  },
+  {
+   "adds": [
+    "Rona, Disciple of Gix"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:57052d54b443",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:35283f61bcaea1db"
+   ]
+  },
+  {
+   "adds": [
+    "Tolarian Entrancer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:43856f64379d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:a19cdc96064b8880"
+   ]
+  },
+  {
+   "adds": [
+    "Warehouse Thief"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2528c001ff9c",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:33d3e46b3e982b0c"
+   ]
+  },
+  {
+   "adds": [
+    "Keldon Overseer"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d88525425977",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:f066496a4e4fe3cd"
+   ]
+  },
+  {
+   "adds": [
+    "Tuskeri Firewalker"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:d60f52eeccf7",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:98577d78c69d7b86"
+   ]
+  },
+  {
+   "adds": [
+    "Smelt-Ward Gatekeepers"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:e2e4581f88f0",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:c57873c96e020a32"
+   ]
+  },
+  {
+   "adds": [
+    "Cunning Bandit // Azamuki, Treachery Incarnate"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b8ac5806e391",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:252fea91d644573c"
+   ]
+  },
+  {
+   "adds": [
+    "Voltaic Visionary // Volt-Charged Berserker"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:14c798e001a5",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e226906172d4a170"
+   ]
+  },
+  {
+   "adds": [
+    "Goatnapper"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:1a2a1ee78e2b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:44697129b2d63953"
+   ]
+  },
+  {
+   "adds": [
+    "Aerial Caravan"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:731aac4bc105",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:ad1c32c2c75c9590"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Harlequin"
+   ],
+   "cuts": [
+    "Notion Thief"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0cdeb40ecc0f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:11c7f39d8e4e2ce9"
+   ]
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:03fc83ce2402",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:99721c4c425c74f8"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:bd5abebd4d9d",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:efecee2e433a16e2"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:2550ad4c8571",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:00372dfc7d0113f2"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:ea4c4b6f415b",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:899387fc73d791f3"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:3b7940283e90",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e6deb54404167971"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:0de259d58f98",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:9caa9c64b33d34fb"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b7d421d257c6",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:d0134cba74b988af"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:a0187caf03e2",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e917cc1c46bd0c9d"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b144865d850f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:7f5324173a6fd8fe"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:cf4bdcad8950",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:5fefe31539113dab"
+   ]
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:b4095255769f",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:80c5430358ad9e46"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Nalfeshnee"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:fe9757680744",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:e719245215114929"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:nathan-drake-treasure-hunter:m5:393b1008d363",
+   "tests": [
+    "test:nathan-drake-treasure-hunter:goldfish:8b72e5c5c2ce33f6"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0376ef0a90f20229",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:739ddadc972a7bd7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:82e180c23ebc71ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:96e79d969071ba27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e4a7e3cf4f5e5274",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9ca3ed013d5aa5ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:ab96a41458ad09e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:79ed4973c630e958",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4f264f27e44bf113",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:aeb77c058056b456",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6887f0407de684c5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:45a3a876beefea0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:dbb4e14f396da97a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b48201efa5897e2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:5b4e492bde14597e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:ca6e9989d5608650",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:5824b6c52c60cb08",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3cebef17a3118dd1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4cffeb124f1f354d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:10032a5e2e900eeb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e92aa12993dedd00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b48e14c09b47ed4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:13bace6cd6d7c40c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d035ed0c72bdcc5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0d9a7de3d1cde301",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0d12dd516bde1d1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3839ef2775efaecd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:27ec5fef96ba8f94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:c28c629cd95635b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:586b0484ba72d04a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:8ae59e067cbde732",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:c5794efb97451b1c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cb4fcd8e04f1c28f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:894b3c6c18df06ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3c251bf5f5294bdd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0fdf65d7839e4aa7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:baf55049de836418",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:f133b326ff897c79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9c4687b4217413d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0a3d182b97f10769",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1a8d34b34c3ba457",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:30dfb37c46acfa4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:32c4bf102baabe2c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:29da04d1fc96c152",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:99962b11bbb8187e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:90531cd5a6f38eee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d8808617ef964409",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d78aa3acf0eb1469",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4c139c49fb1e52a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:15744bae9d57959b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9a2550e556db857e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3437da139723d719",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6aee32571d37b17f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:357ba545cac5d399",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:983ceab085919093",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:19a9063dd3be61ca",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6d0a8741e13ce205",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:aa7b9ea85f23b29a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:51f8771d108f82f6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4265a9d0cec7b845",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1de2e94a2eeebc67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:2fe77db14cbe9878",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1c21640b2d58aeb7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cb616f2de4ed09f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3486d4ba9d12ac35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:8df838e3a64fafb0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:194c155c86882ed0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0b8cc6383fe3c7b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:729a188155e420e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3a781a5fd05f5a4d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:65da16c5a6334555",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:041ba4be80995ed4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:829ccfd6157f86d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b2035edabce77365",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3ed3ee9c0f319570",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d69994c1a5aa9811",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:905f55df5077c9ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4333c8b8aa2a8ad1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:7ad596e033af6616",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6d1e06c9ccc34748",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e0157c75af82257b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6dc15c6ddc1d7420",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b7aef7a4b541b089",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:67e53ff59d757cd9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1ecc06802eba76df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1db91aadd1986726",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:07a33bf0d2d93985",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:5b158c2da04cea9c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6aa5649f2c9162a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:de375e1970e72473",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4e8d01def17e7ebd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:18cd501970cc39e6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:2cc7c4248f9a962d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:8d8c32dca986e5d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b0759801eb806cdf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3e8d98460b2d5877",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:dbe17321f6017afa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0f0f735587464f66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:48c967a96063fc32",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:7146c2142c6b568c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:aa795828b140ef1b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:935a2074f7678d81",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:5c9329a01ad965d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cee2ab3e303e6946",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e066addb6754ce84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6c22448b41696b9d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e19539a1b7a91cfb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1e24f54185850e55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:35e90c9f718960d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cc3ec1ea55295156",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4977e9133ebbbaa0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b0056e92e9e0c760",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:f932dca7b56d7e9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:03f395a1db836fcc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:fde2c990bbe61105",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4d61fb65ac6bbd96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:a0c67c6d18ba1c7e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:fcd01c664ec91639",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6308ee3a737d9442",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:78f85b3aec4efbff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b7f4b5fde0b6baaa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:bee7d25518eb237a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:618d3818529278bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:2515702c1881638f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:fd16d3aa087933b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:756203f87bcdd63d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:922477c1e738742a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b13ed0699097800d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e91b5b87104dfb06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b29d5a4241387b90",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4382dc2e257e3d97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:7bf1ff4daf3c66a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0a4f3306eeb6e50f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:36ae58c8a0863ab9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b38d7d7a7b34c66c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:a1f689596264739a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:de1b51d1c12177d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4d1f2e51e4a25550",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:191021de35976986",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1c261952b2e158b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:96b4964976442bb8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:573fbafdffabab7b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:f0092eb10ea228f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:dbc7b634de408a6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d52f2fd2dcd7af66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3baeb1edfc7c8a6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1f0468ba48511f73",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3320ee1412ef2d77",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6dfda9428bb98504",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:41353492c43e95c4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:78b2b3ec3ca6d901",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d95919fae71b7bc1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:96f10b6cd35229ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:1f593e26088a75fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6a45f1a839560819",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:b185d34614c4b834",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:65298b429e8e02d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9e8214f315c221d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:df5ccb4e3e8c709a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:17adb389c1d4729d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:08ef41165bad6820",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:a082f5524d73af37",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:8c4c81558425b881",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cc54a321eaaeec20",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:51ad698a144e4da4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cd1e70ea3666fc8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:033cda5209af3110",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:5239ae7bc3163ebb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:55dd18d52a2e5bd1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:820459d15bfad0a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:04982919fa6a3dd8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:edaf884abc63c8f9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:a1f26642d25cf1de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:34bf9106659e8ff4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:322fa58082ba84c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:fc17464bbb600d66",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:713d1b286501a8ef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:70d9b7efe466e460",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9ef13667ad2001e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:92a9e4644ac62cab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:379d3af82f50e0f5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:f8643e432df3550d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4d1d4c0a81d5ca94",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:7f734290837662fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4b9a1d1ae5e75ed9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0b72cf9995b56933",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:414906d7fc10193b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:bb210807e0ff541a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:3869c6562239a3a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:ed33659e8754d7b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9b56fb2f6dcb21f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:fe5a5eecf93ddd30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:f21746fe52e74467",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:cc7f54d2d10e3caa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:ab2db6a45456f410",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:ade30aec4064ca09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:71e2deaa2e337cb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:4260384060216a2e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0993386d0d336856",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:8a4e5ed2ff12891e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9985c9dfd0f52b92",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:710c8e70470df8d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:205f6f7824eb32ab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d6f15fd29fa37739",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:aa5291e8ce993394",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0302df08f5b6ba19",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:6205716e3bca315f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:849aeaffbed5e231",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:2ea80f0ebf027827",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:0d98f0ac5a8ebb2a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:35283f61bcaea1db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:a19cdc96064b8880",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:33d3e46b3e982b0c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:f066496a4e4fe3cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:98577d78c69d7b86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:c57873c96e020a32",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:252fea91d644573c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e226906172d4a170",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:44697129b2d63953",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:ad1c32c2c75c9590",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:11c7f39d8e4e2ce9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:99721c4c425c74f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:efecee2e433a16e2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:00372dfc7d0113f2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:899387fc73d791f3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e6deb54404167971",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:9caa9c64b33d34fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:d0134cba74b988af",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e917cc1c46bd0c9d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:7f5324173a6fd8fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:5fefe31539113dab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:80c5430358ad9e46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:e719245215114929",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:nathan-drake-treasure-hunter:goldfish:8b72e5c5c2ce33f6",
+   "verdict": "pass"
+  }
+ ]
+}

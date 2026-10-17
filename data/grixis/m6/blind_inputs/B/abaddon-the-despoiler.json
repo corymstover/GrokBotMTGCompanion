@@ -1,0 +1,3383 @@
+{
+ "deck_id": "Abaddon_the_Despoiler",
+ "list_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+ "slug": "abaddon-the-despoiler",
+ "swaps": [
+  {
+   "adds": [
+    "Deny Reality"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:05fa5a31bbd9",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:46e12855b85ec538"
+   ]
+  },
+  {
+   "adds": [
+    "Kill! Maim! Burn!"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c23f3796cc93",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3a47489e6c296326"
+   ]
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fd073262fa95",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Descent into Avernus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:891412e34c0b",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:c1b8f113ae05bb3a"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e00e314ca90b",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:0ffd8810d3957532"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ad35c239c30a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:bd7be6b2aa42a1a4"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:afefcdd9f821",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:edb572e863c57492"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:203758405835",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Creeping Bloodsucker"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3d04d9cbbf32",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8fa2f0e248bcd9a7"
+   ]
+  },
+  {
+   "adds": [
+    "Heralds of Tzeentch"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f953f9ef9c9e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:165f2de86305a030"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:938aae100bfd",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:4ede04e2cabc996f"
+   ]
+  },
+  {
+   "adds": [
+    "Pink Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b5a0de249859",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:0ed49f8004fb028b"
+   ]
+  },
+  {
+   "adds": [
+    "Let the Galaxy Burn"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b9dcdc5c5364",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:c21ee3ca19517603"
+   ]
+  },
+  {
+   "adds": [
+    "Poxwalkers"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:19cc391585d8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Poxwalkers"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:87417c24c794",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:41ae9781962f92d0"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:31aa2924e1ce",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8c2e8aed606b95d2"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e4166fdc2d89",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:2a8a84b6c2c70f4f"
+   ]
+  },
+  {
+   "adds": [
+    "Mandate of Abaddon"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:71f1843310b2",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:c6ab4f24a9955c50"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Ambition"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:51c322035447",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Court of Ambition"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:60d92033bf8e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:4aa6bc8ac6f4effb"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:af32cb8d3968",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:915e2c81dbd3f69e"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Apostle"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ea6730cddbef",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:eaa1cca1cb4243af"
+   ]
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5e3297b3ced6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Twilight Prophet"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9c74e3b04d90",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6c402b1a87b7bd0b"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:91c3845f77b1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodthirster"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:559489ebc2d9",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:7d28f5cf9aac540e"
+   ]
+  },
+  {
+   "adds": [
+    "Mutalith Vortex Beast"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1f031606ff0e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mutalith Vortex Beast"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0413b89b013c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6f8c682ca0458260"
+   ]
+  },
+  {
+   "adds": [
+    "Great Unclean One"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cd1786cf03db",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Great Unclean One"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b6c93cf257c5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6f863796be02d97f"
+   ]
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7b32cde01605",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a3e2736fcd99",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:18e5901068046ced"
+   ]
+  },
+  {
+   "adds": [
+    "Warstorm Surge"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:514abfd0fa53",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Aurora Phoenix"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:adbc9b094818",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e50f82310455f351"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:567d6a6c1ccc",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3923963089e47fd9"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8537514605f5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:2d62b914d9ec1fdc"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8be8462cd1c6",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:7885b8c44e49c8bb"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:24d3fc1b5a24",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:dff05010a560bd04"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cc2de90c6b3b",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9e17280b0605ec56"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2d9b86d2aa6f",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a25eee86384e510a"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:25272330e442",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:af5d173a33d67283"
+   ]
+  },
+  {
+   "adds": [
+    "Plague Drone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c41fb74dfe4e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Plague Drone"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f26fff271455",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3fe28360498ac1d7"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4e68b6cee2f6",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:ae98c3e1f9af61e8"
+   ]
+  },
+  {
+   "adds": [
+    "Lord of Change"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3baea874337a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lord of Change"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d7f615398a83",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9206177283439c07"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:23f4a51d478d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3479b8f33806b40c"
+   ]
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:53debd1d3577",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:98fe4dfc3536",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8cbaf339d7bac509"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d91588c634d6",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:ad9991212cf425e0"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:511921b450ed",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:fca49b4c79dddc70"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:91832c02f56d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e808942f32163e64"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Mutation"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f97d10ded5e7",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e88452fbd0b1c7c4"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Defiler"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:57ef7c568e13",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Defiler"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6a8ccb01103c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5ea1f3b1b8038760"
+   ]
+  },
+  {
+   "adds": [
+    "Chandra, Torch of Defiance"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:dcecc5f26cce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chandra, Torch of Defiance"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d34d88a1623c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:99f0f1e0fcc5aa85"
+   ]
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d0b46968197a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b3ecb6127708",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e0079713d12f7237"
+   ]
+  },
+  {
+   "adds": [
+    "Duskmantle Seer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e729095f6ecb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Duskmantle Seer"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b5cd9b597690",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9c15dffcf53a583f"
+   ]
+  },
+  {
+   "adds": [
+    "Drach'Nyen"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f99decb19881",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:84c37852895b178a"
+   ]
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bf73bf055e1b",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d65781297843a971"
+   ]
+  },
+  {
+   "adds": [
+    "Reverberate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:993e52eb9d6c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e46eb1d7e00443f3"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Terminator Lord"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9f13c3472a3c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Terminator Lord"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:41c3b37e23a3",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:071f901344ec4957"
+   ]
+  },
+  {
+   "adds": [
+    "Blight Grenade"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bd011f2fad4e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:7cbe7d26cf389b38"
+   ]
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fdedfd846c48",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tectonic Giant"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b12e2295bd84",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:42483abfafe846e4"
+   ]
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ccfc4111a889",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5b7c4ee42e99",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a380c5df104f57c1"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:da0de3db43d3",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a0bd2f3871eba3d6"
+   ]
+  },
+  {
+   "adds": [
+    "Keen Duelist"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5ca83bc41328",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Keen Duelist"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c45e6e7b1977",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:60961acc71394027"
+   ]
+  },
+  {
+   "adds": [
+    "Spear Spewer"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2e9718591351",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spear Spewer"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:142529120232",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d3fea0db8ca16896"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodcrusher of Khorne"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f6fb8d44cbaa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bloodcrusher of Khorne"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:da1e3b0993ae",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:708b2590742d5ab0"
+   ]
+  },
+  {
+   "adds": [
+    "Sol Talisman"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:af21ea96cd34",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:88bf664b7e8b3051"
+   ]
+  },
+  {
+   "adds": [
+    "Sol Talisman"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cad284b30b47",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:98580d249da203b8"
+   ]
+  },
+  {
+   "adds": [
+    "Past in Flames"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d0f04b51a2d1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:b199ecd7f38936cd"
+   ]
+  },
+  {
+   "adds": [
+    "Past in Flames"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5e5204ba4044",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:b65ecac16617df61"
+   ]
+  },
+  {
+   "adds": [
+    "Sloppity Bilepiper"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cc1259df8de9",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a180b1ca92743fa2"
+   ]
+  },
+  {
+   "adds": [
+    "Be'lakor, the Dark Master"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bb885b39def8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f4ee5ddb5a61",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Worn Powerstone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e159ccb5d53a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:38db86be70b84ddc"
+   ]
+  },
+  {
+   "adds": [
+    "Florian, Voldaren Scion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:405ef2d57643",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tzaangor Shaman"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c10a798b2070",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Volcanic Torrent"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cd0c31f8dfb5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:db0e0180f330cdb7"
+   ]
+  },
+  {
+   "adds": [
+    "Black Waltz No. 3"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9ed5a9447572",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:81aa05a6f41a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:7e4fcd5f59b44d5b"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftwater Cliffs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4355ffd3ae9c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:54e2b5db79daecce"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:60227c433882",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:2d69059c05ac574e"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8e753052bb92",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6ed502e296aa22b4"
+   ]
+  },
+  {
+   "adds": [
+    "Fiery Confluence"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:378aa7014db7",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:bd2ff73f44759901"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f44170cfabc5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e3d775aaeb7f6cb9"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2110ba388ede",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:fa860a48a18f0db5"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ae5626b8a462",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d48a42e0dd24d4a4"
+   ]
+  },
+  {
+   "adds": [
+    "Palace Siege"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7d88dc804e53",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dismal Backwater"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a937ed169d88",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8015ac7ddbbe6c53"
+   ]
+  },
+  {
+   "adds": [
+    "Tallyman of Nurgle"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:29893bf54ba9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ad1e0c193d33",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:cc60d09ad25db2c1"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3a2a23c25490",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:4b5609b3cabc049f"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:17d8cf801fd4",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:ba9cb24937e77a15"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Slagheap"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d27124442c82",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:cbb88034acc91bc7"
+   ]
+  },
+  {
+   "adds": [
+    "Forgotten Cave"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7ecfd113ec82",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:02d5f609733a0e38"
+   ]
+  },
+  {
+   "adds": [
+    "Leechridden Swamp"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0519487b9426",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6500e4de2e145877"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cd0a896658b9",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:1d1c06635fbf5e28"
+   ]
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e9bcd1c75b04",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3001686119a3eb84"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1b2946245eed",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:eeac6da28a84d289"
+   ]
+  },
+  {
+   "adds": [
+    "Protection Racket"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:16b2af6a00dc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Barren Moor"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c33e8aeef365",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:de62ae3b60813b39"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:392a40e50b82",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:740497e7da02568b"
+   ]
+  },
+  {
+   "adds": [
+    "Chimil, the Inner Sun"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3e2773dfdbec",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:721b090f5220b882"
+   ]
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a422bb219722",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3c8b6b5e2a5e02be"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2eee9afc12a7",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a6b7c5701805ffad"
+   ]
+  },
+  {
+   "adds": [
+    "Lucius the Eternal"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:52a43d870735",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6381c85544de",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:287ac67843878283"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:93cf3635eebe",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5b82b4753462a250"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:007570fbdeab",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:101f27b264a1ee72"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:006f89dd8f41",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:df93fe8e75a7c8b9"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5a4bd17dd19d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:4726e634ac3dec6e"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ccf2e03f1cfe",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8e2333b6d8cf8d40"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:40f7e9b89e9e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:0333b631b1216c20"
+   ]
+  },
+  {
+   "adds": [
+    "Into the Time Vortex"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e98f168928f2",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:4da0df3474e02a78"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:103e85d05a0f",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:20a0808c200c401e"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fd08f27828aa",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e5f2113e1288dbbf"
+   ]
+  },
+  {
+   "adds": [
+    "Impact Tremors"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ff99f4e0fecc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Vivi Ornitier"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:15fc568b5e41",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Lotus Bloom"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:cbc20649378a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e679412908b22303"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e514e56d43f1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:846d8e0888592f00"
+   ]
+  },
+  {
+   "adds": [
+    "Mortarion, Daemon Primarch"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ca82b83b5501",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Throes of Chaos"
+   ],
+   "cuts": [
+    "Call Forth the Tempest"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fffdd96a3699",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:449289f0499d4ea8"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ef288a12ddb8",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:290f8602c7ab010e"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fe788bef5437",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d248586865600d04"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a82883be62cc",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:4f82cee89ce5a6a0"
+   ]
+  },
+  {
+   "adds": [
+    "Pox Plague"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:661f7b9b8a54",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6762c3485811ecdc"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fb5e4ee80c19",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:51aecb20b2537a99"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4b6f1578aaaf",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e45300c482570778"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8e16fddcce96",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:635f6e4361fb4402"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:15b7ad0f2f10",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a60db9a1c5275f8d"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0ce51b9d077c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:6bb9cfd7bf8e6ebd"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8101687e402e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:430d9d3996086e5d"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6432e5a5e524",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5b4a402f9daddc8e"
+   ]
+  },
+  {
+   "adds": [
+    "Unstoppable Slasher"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:233e4c4842b1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9d8ff50b9d6b887b"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f2e3f08ecb7d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a38527bc92f0d97b"
+   ]
+  },
+  {
+   "adds": [
+    "Tree of Perdition"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ba42cedcaa2f",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:11dd41ffe1e4ea3a"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a94c44712fd6",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d3cfdc03acae18e5"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4433178b13db",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:33d577ee63e29874"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:76e9d6f3db633713"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b8c5af2bd237",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:ac91620a6cf7ca87"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b26d1878618d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5254248f4e15b252"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b15913223049",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:57819f9aa31da769"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:655b84003664",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:615addd03175d04c"
+   ]
+  },
+  {
+   "adds": [
+    "Quietus Spike"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:171a976b0f1f",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:bae635f2e2c27d15"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:7c2d9d2dff36",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:86ec22633009b9ea"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3ff7c14b5782",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:1301b88ac6066c8a"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d17609747acc",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:b45a441f5c450116"
+   ]
+  },
+  {
+   "adds": [
+    "Heartless Hidetsugu"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:5ac285a18b7a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:da038ce64fce4ec9"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4c730bb08aec",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5b28a7d6bbb5334e"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Manipulation"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d096604c09fa",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:57cf5651623dbb20"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ca979421a99d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3ea39ae00d03a568"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2411ba2fff20",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:be051b9674e5f9a6"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:2ddc10abdf77",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a2eed08ada6418db"
+   ]
+  },
+  {
+   "adds": [
+    "Grievous Wound"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:dbd469562eea",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:b0c0daab19de4686"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:febcccc050c5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d80d5631d2a46264"
+   ]
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:179bb2733b2b",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d686b7d17b7f3208"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:443bf25a28c4",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:786f4a2fc5c67050"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a179e5940355",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:77eb8765b62dbb6a"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:a19fab6c3afb",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:58f00dbcedbc1db0"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d8e50be9735c",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:e3395e596c1272cd"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b15e4da7e6c9",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:37b6624d9f0379b1"
+   ]
+  },
+  {
+   "adds": [
+    "Capture of Jingzhou"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d89f5548bd46",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9f0cb415bbf496da"
+   ]
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:51fc1ffef16a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:062c3997a844d46e"
+   ]
+  },
+  {
+   "adds": [
+    "Rush of Dread"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f0fa67084d10",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:b979e204106164a1"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f042c87e6e25",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:ce64aa0792aa1de5"
+   ]
+  },
+  {
+   "adds": [
+    "Shredder, Shadow Master"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e03993a91dd5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8fef24c5f958e06e"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:75060c1a0c28",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:f56da6a0e2d8bf74"
+   ]
+  },
+  {
+   "adds": [
+    "Shard of the Nightbringer"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c2f078af7254",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:bd2a6e77eb41ec6f"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ed0467229ea8",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5b909e9d31728a66"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Tribute"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:0f62962f21de",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:f62741b514d1e1ed"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c9182dd51ba0",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:f846a7b09debf637"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6d8de02bac23",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:2095378dcabb116b"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c968f6d13e33",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:628f12df7f7a8132"
+   ]
+  },
+  {
+   "adds": [
+    "Walk the Aeons"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e41dede3c37e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:16ba0007b81900d2"
+   ]
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3a47843171a1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:d0690620b8f8af6e"
+   ]
+  },
+  {
+   "adds": [
+    "Primordial Mist"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:268a7ecc79b6",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:c8aebd7ce29cfe06"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b196e37ba53d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:1baca4685ce32a51"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:144f07bce53a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:cb69727a76ce4322"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:bf73beb77b03",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:cbbaf9bd44400e61"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:473ff77bd648",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:98e9caef218c084e"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Chrome Mox"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6649f3828177",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:dbac0149f4f50d75"
+   ]
+  },
+  {
+   "adds": [
+    "Scytheclaw"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:e7899508f4aa",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:064d4fde51672465"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:314a40ad52ff",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a7e2f081360ca059"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:f6b6c9409f55",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:682693a7f9736ac8"
+   ]
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9d3d5ee0e25e",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:7b764435867741ec"
+   ]
+  },
+  {
+   "adds": [
+    "Quicksilver Elemental"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:aba40f15116f",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:69dde61aa84b7621"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:d33a57451017",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:796397f17ce47be5"
+   ]
+  },
+  {
+   "adds": [
+    "Virtus the Veiled"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c19d306c0a89",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9a5582b3851d6509"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c877ad57943d",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a6ca6ae2909b48dc"
+   ]
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3960d66cebdb",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:c86647ba1b640663"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:ab3edf4b8367",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:0a316aa37c6dfb8b"
+   ]
+  },
+  {
+   "adds": [
+    "Fraying Omnipotence"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:98ee0bbd44e5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:dcc39819694ddbe7"
+   ]
+  },
+  {
+   "adds": [
+    "Forceful Denial"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:fec18aedbcd4",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:f4552d37b81c119d"
+   ]
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3735a01329b1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:3af3d71455541161"
+   ]
+  },
+  {
+   "adds": [
+    "Ebonblade Reaper"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4947451a8b38",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:408e6ef0adb0325c"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:45f7597f51d6",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:758be79a95c1faf0"
+   ]
+  },
+  {
+   "adds": [
+    "Alpharael, Stonechosen"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:4bb72a3b1e56",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:93d1c0a21bf9847e"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:49ad2763f0f9",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:0aa67b94bb8de434"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1c6ff27547f0",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a2603ce1eccf03ec"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1ebc923c1da7",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:c9f6f7cefdcd48fc"
+   ]
+  },
+  {
+   "adds": [
+    "Scourge of the Skyclaves"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:9db35ecfd4d1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:05ab95ebb2027176"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:8c2692798997",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:8031732fb70b06b2"
+   ]
+  },
+  {
+   "adds": [
+    "Torgaar, Famine Incarnate"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:3105f00742f1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:70b9c65475bef004"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:26d15fbf38bd",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:2ccc23f1fae108a5"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:31360aea8d61",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:1a97411af1ccde35"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:46c4cbff4b02",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a4a1ddab70fa336d"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Kessig Flamebreather"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:b41aaea409a1",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:5b8d9fa2551183c8"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Rite of Flame"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:c88a77424a79",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:0079c83713ea9c81"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:efff467752f4",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:a91836fd09a1911e"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:27968b4c963a",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:19652e0dcfd295bc"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:6c94c36e5a91",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:9daf4139c91bd6e7"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Flooded Strand"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:1a21ddd60ea0",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:1975ca2b83771221"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Flusterstorm"
+   ],
+   "id": "swap:abaddon-the-despoiler:m5:dc7a993fe8c5",
+   "tests": [
+    "test:abaddon-the-despoiler:goldfish:7ac27af769ddfe23"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:46e12855b85ec538",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3a47489e6c296326",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:c1b8f113ae05bb3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:0ffd8810d3957532",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:bd7be6b2aa42a1a4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:edb572e863c57492",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8fa2f0e248bcd9a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:165f2de86305a030",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:4ede04e2cabc996f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:0ed49f8004fb028b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:c21ee3ca19517603",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:41ae9781962f92d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8c2e8aed606b95d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:2a8a84b6c2c70f4f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:c6ab4f24a9955c50",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:4aa6bc8ac6f4effb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:915e2c81dbd3f69e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:eaa1cca1cb4243af",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6c402b1a87b7bd0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:7d28f5cf9aac540e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6f8c682ca0458260",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6f863796be02d97f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:18e5901068046ced",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e50f82310455f351",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3923963089e47fd9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:2d62b914d9ec1fdc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:7885b8c44e49c8bb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:dff05010a560bd04",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9e17280b0605ec56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a25eee86384e510a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:af5d173a33d67283",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3fe28360498ac1d7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:ae98c3e1f9af61e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9206177283439c07",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3479b8f33806b40c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8cbaf339d7bac509",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:ad9991212cf425e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:fca49b4c79dddc70",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e808942f32163e64",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e88452fbd0b1c7c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5ea1f3b1b8038760",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:99f0f1e0fcc5aa85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e0079713d12f7237",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9c15dffcf53a583f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:84c37852895b178a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d65781297843a971",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e46eb1d7e00443f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:071f901344ec4957",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:7cbe7d26cf389b38",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:42483abfafe846e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a380c5df104f57c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a0bd2f3871eba3d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:60961acc71394027",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d3fea0db8ca16896",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:708b2590742d5ab0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:88bf664b7e8b3051",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:98580d249da203b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:b199ecd7f38936cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:b65ecac16617df61",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a180b1ca92743fa2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:38db86be70b84ddc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:db0e0180f330cdb7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:7e4fcd5f59b44d5b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:54e2b5db79daecce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:2d69059c05ac574e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6ed502e296aa22b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:bd2ff73f44759901",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e3d775aaeb7f6cb9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:fa860a48a18f0db5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d48a42e0dd24d4a4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8015ac7ddbbe6c53",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:cc60d09ad25db2c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:4b5609b3cabc049f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:ba9cb24937e77a15",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:cbb88034acc91bc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:02d5f609733a0e38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6500e4de2e145877",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:1d1c06635fbf5e28",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3001686119a3eb84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:eeac6da28a84d289",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:de62ae3b60813b39",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:740497e7da02568b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:721b090f5220b882",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3c8b6b5e2a5e02be",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a6b7c5701805ffad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:287ac67843878283",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5b82b4753462a250",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:101f27b264a1ee72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:df93fe8e75a7c8b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:4726e634ac3dec6e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8e2333b6d8cf8d40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:0333b631b1216c20",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:4da0df3474e02a78",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:20a0808c200c401e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e5f2113e1288dbbf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e679412908b22303",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:846d8e0888592f00",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:449289f0499d4ea8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:290f8602c7ab010e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d248586865600d04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:4f82cee89ce5a6a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6762c3485811ecdc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:51aecb20b2537a99",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e45300c482570778",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:635f6e4361fb4402",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a60db9a1c5275f8d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:6bb9cfd7bf8e6ebd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:430d9d3996086e5d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5b4a402f9daddc8e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9d8ff50b9d6b887b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a38527bc92f0d97b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:11dd41ffe1e4ea3a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d3cfdc03acae18e5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:33d577ee63e29874",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:76e9d6f3db633713",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:ac91620a6cf7ca87",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5254248f4e15b252",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:57819f9aa31da769",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:615addd03175d04c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:bae635f2e2c27d15",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:86ec22633009b9ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:1301b88ac6066c8a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:b45a441f5c450116",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:da038ce64fce4ec9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5b28a7d6bbb5334e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:57cf5651623dbb20",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3ea39ae00d03a568",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:be051b9674e5f9a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a2eed08ada6418db",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:b0c0daab19de4686",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d80d5631d2a46264",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d686b7d17b7f3208",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:786f4a2fc5c67050",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:77eb8765b62dbb6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:58f00dbcedbc1db0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:e3395e596c1272cd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:37b6624d9f0379b1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9f0cb415bbf496da",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:062c3997a844d46e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:b979e204106164a1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:ce64aa0792aa1de5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8fef24c5f958e06e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:f56da6a0e2d8bf74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:bd2a6e77eb41ec6f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5b909e9d31728a66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:f62741b514d1e1ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:f846a7b09debf637",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:2095378dcabb116b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:628f12df7f7a8132",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:16ba0007b81900d2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:d0690620b8f8af6e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:c8aebd7ce29cfe06",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:1baca4685ce32a51",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:cb69727a76ce4322",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:cbbaf9bd44400e61",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:98e9caef218c084e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:dbac0149f4f50d75",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:064d4fde51672465",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a7e2f081360ca059",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:682693a7f9736ac8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:7b764435867741ec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:69dde61aa84b7621",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:796397f17ce47be5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9a5582b3851d6509",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a6ca6ae2909b48dc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:c86647ba1b640663",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:0a316aa37c6dfb8b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:dcc39819694ddbe7",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:f4552d37b81c119d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:3af3d71455541161",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:408e6ef0adb0325c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:758be79a95c1faf0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:93d1c0a21bf9847e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:0aa67b94bb8de434",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a2603ce1eccf03ec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:c9f6f7cefdcd48fc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:05ab95ebb2027176",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:8031732fb70b06b2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:70b9c65475bef004",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:2ccc23f1fae108a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:1a97411af1ccde35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a4a1ddab70fa336d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:5b8d9fa2551183c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:0079c83713ea9c81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:a91836fd09a1911e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:19652e0dcfd295bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:9daf4139c91bd6e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:1975ca2b83771221",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:abaddon-the-despoiler:goldfish:7ac27af769ddfe23",
+   "verdict": "inconclusive"
+  }
+ ]
+}

@@ -1,0 +1,8495 @@
+{
+ "candidates": [
+  {
+   "card": "Captivating Crew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captivating Crew",
+       "cut": "Breeches, Eager Pillager"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captivating Crew",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:5df7326087b6"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f568522f6ea6"
+   }
+  },
+  {
+   "card": "Zara, Renegade Recruiter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zara, Renegade Recruiter",
+       "cut": "Breeches, Eager Pillager"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Zara, Renegade Recruiter",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:1a49ed917614"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e7bd62e24ab2"
+   }
+  },
+  {
+   "card": "Siren Stormtamer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Siren Stormtamer",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:da71590fbc30"
+   }
+  },
+  {
+   "card": "Gemcutter Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gemcutter Buccaneer",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c51839a30dd5"
+   }
+  },
+  {
+   "card": "Gonti, Lord of Luxury",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gonti, Lord of Luxury",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e7341eb581e9"
+   }
+  },
+  {
+   "card": "Gríma, Saruman's Footman",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gríma, Saruman's Footman",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:48c73263906b"
+   }
+  },
+  {
+   "card": "Bribery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bribery",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c5da850cb3a0"
+   }
+  },
+  {
+   "card": "Mob Rule",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mob Rule",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:274eaf515eaf"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:4ea85af83503"
+   }
+  },
+  {
+   "card": "The Indomitable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Indomitable",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Indomitable",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:efc635f648f8"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7e857318ad98"
+   }
+  },
+  {
+   "card": "Memory Plunder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memory Plunder",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:64a3316dbc0f"
+   }
+  },
+  {
+   "card": "Corsair Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Corsair Captain",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:bc26583383cf"
+   }
+  },
+  {
+   "card": "Ensnared by the Mara",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ensnared by the Mara",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:277841efd751"
+   }
+  },
+  {
+   "card": "Agent of Treachery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agent of Treachery",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Agent of Treachery",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:99fd091f71f1"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:8225a24da65e"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f4c010aff20a"
+   }
+  },
+  {
+   "card": "Dream Harvest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cunning Rhetoric",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cunning Rhetoric",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cunning Rhetoric",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:5916721edad3"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:ce642793cf06"
+   }
+  },
+  {
+   "card": "Captain Lannery Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain Lannery Storm",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3f94b06e137a"
+   }
+  },
+  {
+   "card": "Invert Polarity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Invert Polarity",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:4186cf44c0e6"
+   }
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crumbling Necropolis",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5309555cc86d"
+   }
+  },
+  {
+   "card": "Pitiless Plunderer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pitiless Plunderer",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7f420a3a557b"
+   }
+  },
+  {
+   "card": "Deadly Dispute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadly Dispute",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c4d96ae7fca2"
+   }
+  },
+  {
+   "card": "Port Razer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Port Razer",
+       "cut": "Breeches, Eager Pillager"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Port Razer",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:e6143c523c83"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d80fec3a910c"
+   }
+  },
+  {
+   "card": "Counterspell",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Counterspell",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:95ede5ff3a63"
+   }
+  },
+  {
+   "card": "Sunken Hollow",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sunken Hollow",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:93a759f4466b"
+   }
+  },
+  {
+   "card": "Rakdos Charm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rakdos Charm",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:8a4bf408d95b"
+   }
+  },
+  {
+   "card": "Kitesail Larcenist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitesail Larcenist",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:cf2eb48dba80"
+   }
+  },
+  {
+   "card": "Prosper, Tome-Bound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prosper, Tome-Bound",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:8370c76f43f4"
+   }
+  },
+  {
+   "card": "Mind's Dilation",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind's Dilation",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:39aa13454922"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Forerunner of the Coalition",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Forerunner of the Coalition",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f3136b8629cd"
+   }
+  },
+  {
+   "card": "Share the Spoils",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Share the Spoils",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:0e4b76abdb96"
+   }
+  },
+  {
+   "card": "Nightveil Specter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightveil Specter",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:bf1052d4c965"
+   }
+  },
+  {
+   "card": "Fevered Suspicion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "The Beast, Deathless Prince",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Beast, Deathless Prince",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Beast, Deathless Prince",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:28a003124035"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:51164c990d10"
+   }
+  },
+  {
+   "card": "Cruelclaw's Heist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cruelclaw's Heist",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:db726ce1157c"
+   }
+  },
+  {
+   "card": "Stormcarved Coast",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stormcarved Coast",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e7d1524ab28e"
+   }
+  },
+  {
+   "card": "Broadside Bombardiers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Broadside Bombardiers",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:0635f1f663f7"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Captain Storm, Cosmium Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain Storm, Cosmium Raider",
+       "cut": "Breeches, Eager Pillager"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain Storm, Cosmium Raider",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:8fb57b7aac18"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:2d05ebc69e6c"
+   }
+  },
+  {
+   "card": "Kellogg, Dangerous Mind",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kellogg, Dangerous Mind",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d67f666bb0e6"
+   }
+  },
+  {
+   "card": "Foreboding Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Foreboding Ruins",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:4cd620d74847"
+   }
+  },
+  {
+   "card": "Francisco, Fowl Marauder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Francisco, Fowl Marauder",
+       "cut": "Breeches, Eager Pillager"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Francisco, Fowl Marauder",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:f87160a4b0c3"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:db6fb6e892c8"
+   }
+  },
+  {
+   "card": "Choked Estuary",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Choked Estuary",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:2c4f0f81e804"
+   }
+  },
+  {
+   "card": "Frostboil Snarl",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Frostboil Snarl",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9cb7ad033605"
+   }
+  },
+  {
+   "card": "Xanathar, Guild Kingpin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xanathar, Guild Kingpin",
+       "cut": "Decadent Dragon // Expensive Taste"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Xanathar, Guild Kingpin",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:46330e62dd5e"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7963375cabb2"
+   }
+  },
+  {
+   "card": "Merchant Raiders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Merchant Raiders",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:b3c6802e4b0a"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Inside Information",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inside Information",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:1d5fdc54668a"
+   }
+  },
+  {
+   "card": "Evolving Wilds",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Evolving Wilds",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:236a4d2cf1c0"
+   }
+  },
+  {
+   "card": "Heartless Conscription",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Heartless Conscription",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3ba42f817618"
+   }
+  },
+  {
+   "card": "Rev, Tithe Extractor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rev, Tithe Extractor",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:73f115e5a94d"
+   }
+  },
+  {
+   "card": "Dragonskull Summit",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dragonskull Summit",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:eb5e46b7b2a7"
+   }
+  },
+  {
+   "card": "King Narfi's Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "King Narfi's Betrayal",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:78fe7ddab37e"
+   }
+  },
+  {
+   "card": "Drowned Catacomb",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Drowned Catacomb",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e2b013360d9a"
+   }
+  },
+  {
+   "card": "Staff of Eden, Vault's Key",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Staff of Eden, Vault's Key",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:5b5e07217e1e"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fallen Shinobi",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fallen Shinobi",
+       "cut": "Decadent Dragon // Expensive Taste"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fallen Shinobi",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:328c94cb9299"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:a0e7ad275f8a"
+   }
+  },
+  {
+   "card": "The Ruinous Powers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Ruinous Powers",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:60f669f1a4fa"
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Desertion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desertion",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e642d48874b8"
+   }
+  },
+  {
+   "card": "Tinybones, the Pickpocket",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tinybones, the Pickpocket",
+       "cut": "Decadent Dragon // Expensive Taste"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tinybones, the Pickpocket",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:a37f0bab22e3"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7f8e4c44ed7f"
+   }
+  },
+  {
+   "card": "Blue Sun's Twilight",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blue Sun's Twilight",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:02ad44e40163"
+   }
+  },
+  {
+   "card": "Nightscape Familiar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nightscape Familiar",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:fd9eb2f08242"
+   }
+  },
+  {
+   "card": "Revel in Riches",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Revel in Riches",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:fefff5b75f3c"
+   }
+  },
+  {
+   "card": "Terminate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terminate",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:33acd91a8a86"
+   }
+  },
+  {
+   "card": "Breach the Multiverse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Malcolm, Alluring Scoundrel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Malcolm, Alluring Scoundrel",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:b960b8182cf8"
+   }
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "An Offer You Can't Refuse",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:205d97275059"
+   }
+  },
+  {
+   "card": "Nashi, Moon Sage's Scion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nashi, Moon Sage's Scion",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:b26e7ea851e3"
+   }
+  },
+  {
+   "card": "Glint-Horn Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glint-Horn Buccaneer",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:68163a271483"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d66a0c306c03"
+   }
+  },
+  {
+   "card": "Admiral Brass, Unsinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Haunted Ridge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Haunted Ridge",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9508e1b350a0"
+   }
+  },
+  {
+   "card": "Elder Brain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Elder Brain",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7777fbdecc1d"
+   }
+  },
+  {
+   "card": "Arcane Denial",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arcane Denial",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:1b311e13aece"
+   }
+  },
+  {
+   "card": "Seething Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Seething Landscape",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:50300ac554c2"
+   }
+  },
+  {
+   "card": "Negate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Negate",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:33182b949583"
+   }
+  },
+  {
+   "card": "Mass Mutiny",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mass Mutiny",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9c619aa79fe9"
+   }
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Terramorphic Expanse",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:739e13550ba0"
+   }
+  },
+  {
+   "card": "Bident of Thassa",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Arvinox, the Mind Flail",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Arvinox, the Mind Flail",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7843a422464e"
+   }
+  },
+  {
+   "card": "Mnemonic Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Loki's Scepter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Loki's Scepter",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:a9eaccaec72a"
+   }
+  },
+  {
+   "card": "Rise of the Dark Realms",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rain of Riches",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rain of Riches",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:ff51aa2302e1"
+   }
+  },
+  {
+   "card": "Stolen Goods",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Nathan Drake, Treasure Hunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Nathan Drake, Treasure Hunter",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d947488c519b"
+   }
+  },
+  {
+   "card": "Extract Brain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Prismari Command",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari Command",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:339ffcedeef9"
+   }
+  },
+  {
+   "card": "Inevitable Betrayal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Inevitable Betrayal",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:003e2a0cab37"
+   }
+  },
+  {
+   "card": "Act of Treason",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Act of Treason",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:87e5801dd80a"
+   }
+  },
+  {
+   "card": "Furnace Reins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Furnace Reins",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5289aaaa8e92"
+   }
+  },
+  {
+   "card": "Dredge the Mire",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Call for Aid",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Call for Aid",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f5e82043f13b"
+   }
+  },
+  {
+   "card": "Changing Loyalty",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Changing Loyalty",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d446f1af043e"
+   }
+  },
+  {
+   "card": "Secluded Courtyard",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Secluded Courtyard",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:dac522b8e9a6"
+   }
+  },
+  {
+   "card": "Dead Man's Chest",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dead Man's Chest",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:89a37a467a6d"
+   }
+  },
+  {
+   "card": "Bojuka Bog",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bojuka Bog",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:dd800034d754"
+   }
+  },
+  {
+   "card": "Treasure Nabber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Treasure Nabber",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:4af8ae1aef8c"
+   }
+  },
+  {
+   "card": "Unclaimed Territory",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Unclaimed Territory",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:86a18038ab6a"
+   }
+  },
+  {
+   "card": "Geyadrone Dihada",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Geyadrone Dihada",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:ed25ee35a55f"
+   }
+  },
+  {
+   "card": "Kiki-Jiki, Mirror Breaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kiki-Jiki, Mirror Breaker",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:409113ebf91b"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7d849984e6e8"
+   }
+  },
+  {
+   "card": "Blatant Thievery",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blatant Thievery",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:93152937af13"
+   }
+  },
+  {
+   "card": "The Locust God",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Locust God",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5c3b99c30c90"
+   }
+  },
+  {
+   "card": "Mutinous Massacre",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mutinous Massacre",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:dece5783bb3a"
+   }
+  },
+  {
+   "card": "Kitsa, Otterball Elite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsa, Otterball Elite",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitsa, Otterball Elite",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:2db315ce7a54"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:a21cf116b087"
+   }
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wayfarer's Bauble",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:690f2f07b6d9"
+   }
+  },
+  {
+   "card": "Intellect Devourer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Intellect Devourer",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:0b382c4dfaaf"
+   }
+  },
+  {
+   "card": "Cryptcaller Chariot",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cryptcaller Chariot",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:15bce87204de"
+   }
+  },
+  {
+   "card": "Stella Lee, Wild Card",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stella Lee, Wild Card",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:1f5d006aef16"
+   }
+  },
+  {
+   "card": "Splinter Twin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Splinter Twin",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f2f54d4b8e1b"
+   }
+  },
+  {
+   "card": "The Watcher in the Water",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Watcher in the Water",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d5ca13ea0fb6"
+   }
+  },
+  {
+   "card": "Fall of Cair Andros",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fall of Cair Andros",
+       "cut": "Admiral Beckett Brass"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:c0d602854b92"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:72030b65fd25"
+   }
+  },
+  {
+   "card": "Predators' Hour",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Lookout's Dispersal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Jeska's Will",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Jeska's Will",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:bace373d5d54"
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3b2899899483"
+   }
+  },
+  {
+   "card": "Infinite Reflection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Infinite Reflection",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c1f3fa66b80e"
+   }
+  },
+  {
+   "card": "Deadeye Quartermaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Quartermaster",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d4698f561416"
+   }
+  },
+  {
+   "card": "Sanar, Unfinished Genius // Wild Idea",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sanar, Unfinished Genius // Wild Idea",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f25be61a54d7"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:31c7b7cc9a1f"
+   }
+  },
+  {
+   "card": "Chromatic Lantern",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Lantern",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:6bc270360baf"
+   }
+  },
+  {
+   "card": "Smuggler Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Smuggler Captain",
+       "cut": "Vampiric Tutor"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:b849093bafc4"
+   }
+  },
+  {
+   "card": "Impulsive Pilferer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Impulsive Pilferer",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d785705d57b1"
+   }
+  },
+  {
+   "card": "Myriad Landscape",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Myriad Landscape",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d4fe36052275"
+   }
+  },
+  {
+   "card": "The Horus Heresy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Horus Heresy",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:697977d2ea04"
+   }
+  },
+  {
+   "card": "Spectral Sailor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spectral Sailor",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:64ae691e4456"
+   }
+  },
+  {
+   "card": "Withering Torment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Withering Torment",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f2c4e983d1d4"
+   }
+  },
+  {
+   "card": "Claim the Firstborn",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Claim the Firstborn",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:6ac8b661c74f"
+   }
+  },
+  {
+   "card": "Greedy Freebooter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Greedy Freebooter",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5ff0053fc626"
+   }
+  },
+  {
+   "card": "Magda, Brazen Outlaw",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magda, Brazen Outlaw",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3929370174f3"
+   }
+  },
+  {
+   "card": "Swan Song",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swan Song",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:df3acff1a110"
+   }
+  },
+  {
+   "card": "Angrath's Marauders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Angrath's Marauders",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9552cfad6726"
+   }
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Darkwater Catacombs",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:34a2ec9cb98d"
+   }
+  },
+  {
+   "card": "Waterlogged Teachings // Inundated Archive",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Waterlogged Teachings // Inundated Archive",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f360c3e77922"
+   }
+  },
+  {
+   "card": "Magmakin Artillerist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Magmakin Artillerist",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:dbeafc049f33"
+   }
+  },
+  {
+   "card": "Thriving Isle",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thriving Isle",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5785a8b4545f"
+   }
+  },
+  {
+   "card": "Back in Town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Mana Sculpt",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mana Sculpt",
+       "cut": "Fierce Guardianship"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:dcb4ebffc172"
+   }
+  },
+  {
+   "card": "Extract Power",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Extract Power",
+       "cut": "Reanimate"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:262dc8c95fd8"
+   }
+  },
+  {
+   "card": "Thriving Bluff",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thriving Bluff",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:2bb50cd3dfcf"
+   }
+  },
+  {
+   "card": "Amphin Mutineer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Amphin Mutineer",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f09e316da0fa"
+   }
+  },
+  {
+   "card": "Warping Wail",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warping Wail",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:2ccc5470de57"
+   }
+  },
+  {
+   "card": "Emberwilde Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Captain N'ghathrod",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Captain Howler, Sea Scourge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain Howler, Sea Scourge",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:01af21c4db96"
+   }
+  },
+  {
+   "card": "Marauding Mako",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marauding Mako",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f0b0e6ee8be9"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7f0d2f68c542"
+   }
+  },
+  {
+   "card": "Warkite Marauder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Warkite Marauder",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f4e762aada60"
+   }
+  },
+  {
+   "card": "Dire Fleet Ravager",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Adéwalé, Breaker of Chains",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Scrounging Skyray",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Scrounging Skyray",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e9899baa31a9"
+   }
+  },
+  {
+   "card": "Fanatical Firebrand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fanatical Firebrand",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7af3685ab879"
+   }
+  },
+  {
+   "card": "Blaster Hulk",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Boarding Party",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Pirated Copy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pirated Copy",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:8d99d0d5fced"
+   }
+  },
+  {
+   "card": "Dargo, the Shipwrecker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Breeches, the Blastmaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Lightning-Rig Crew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Departed Deckhand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Departed Deckhand",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:84cfb4c00079"
+   }
+  },
+  {
+   "card": "Ghost of Ramirez DePietro",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Azure Fleet Admiral",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Brineborn Cutthroat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brineborn Cutthroat",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:978a29da6f2f"
+   }
+  },
+  {
+   "card": "Zephyr Singer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fearless Swashbuckler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fearless Swashbuckler",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c5c356f5b5ba"
+   }
+  },
+  {
+   "card": "Oaken Siren",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Oaken Siren",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3b2e0318ebb5"
+   }
+  },
+  {
+   "card": "Storm Fleet Sprinter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Daring Saboteur",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Daring Saboteur",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5d50cb95c419"
+   }
+  },
+  {
+   "card": "Staunch Crewmate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Staunch Crewmate",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:8b8e483ebe65"
+   }
+  },
+  {
+   "card": "Worldgorger Dragon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Worldgorger Dragon",
+       "cut": "Toxic Deluge"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f185bd8d6857"
+   }
+  },
+  {
+   "card": "Gutless Plunderer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Valki, God of Lies // Tibalt, Cosmic Impostor",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9ee6ebf3e279"
+   }
+  },
+  {
+   "card": "Captain Vargus Wrath",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain Vargus Wrath",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:0b7e666e84ca"
+   }
+  },
+  {
+   "card": "Kitesail Freebooter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitesail Freebooter",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:74e28fe9a4ad"
+   }
+  },
+  {
+   "card": "Protean Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Deadeye Tracker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Tracker",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:333d3aed08c7"
+   }
+  },
+  {
+   "card": "Dire Fleet Poisoner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dire Fleet Poisoner",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d9205559db17"
+   }
+  },
+  {
+   "card": "Bigfin Bouncer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bigfin Bouncer",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7c802bfbdb3f"
+   }
+  },
+  {
+   "card": "Dire Fleet Neckbreaker",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Crimson Fleet Commodore",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Pirate Peddlers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Thunderhead Gunner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thunderhead Gunner",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:635fe2747ee9"
+   }
+  },
+  {
+   "card": "Dire Fleet Captain",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dire Fleet Captain",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:bcd973374dfa"
+   }
+  },
+  {
+   "card": "Goblin Boarders",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Goblin Tomb Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Tomb Raider",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d402c52f0312"
+   }
+  },
+  {
+   "card": "Slippery Scoundrel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Goblin Trailblazer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goblin Trailblazer",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:7990ac57575e"
+   }
+  },
+  {
+   "card": "Skyship Plunderer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skyship Plunderer",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c088bb36eda5"
+   }
+  },
+  {
+   "card": "Captain Ripley Vance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Cloud Pirates",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cloud Pirates",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d60d899315e9"
+   }
+  },
+  {
+   "card": "Captain of Umbar",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Captain of Umbar",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c66d72f309bd"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Admiral Beckett Brass"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:3e0f84bb3516"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:4b39f057e5ab"
+   }
+  },
+  {
+   "card": "Ruin Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Kitesail Corsair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kitesail Corsair",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:a0741d41fa4e"
+   }
+  },
+  {
+   "card": "Rigging Runner",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rigging Runner",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:6085be11e320"
+   }
+  },
+  {
+   "card": "Rishadan Cutpurse",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Keen Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Keen Buccaneer",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9f59d2e0c003"
+   }
+  },
+  {
+   "card": "Rishadan Footpad",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Deadeye Brawler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Brawler",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:90158d268db7"
+   }
+  },
+  {
+   "card": "Dreamcaller Siren",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Grasping Scoundrel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grasping Scoundrel",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:139bfaac8759"
+   }
+  },
+  {
+   "card": "Siren Lookout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Storm Fleet Aerialist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm Fleet Aerialist",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f658109c3dc7"
+   }
+  },
+  {
+   "card": "Strongbox Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Tomb Robber",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Waylaying Pirates",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Marauding Looter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Marauding Looter",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5bec94e08a39"
+   }
+  },
+  {
+   "card": "Brazen Blademaster",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Pirate Ship",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pirate Ship",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:6175bedcf3a1"
+   }
+  },
+  {
+   "card": "Rishadan Brigand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Howler's Heavy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Skyship Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Skyship Buccaneer",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:308d5cb9d7b8"
+   }
+  },
+  {
+   "card": "Gorehorn Raider",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gorehorn Raider",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:32972e184b0a"
+   }
+  },
+  {
+   "card": "Daring Buccaneer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Daring Buccaneer",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d62020f3acde"
+   }
+  },
+  {
+   "card": "Storm Fleet Swashbuckler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm Fleet Swashbuckler",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e0e9f2edf074"
+   }
+  },
+  {
+   "card": "Kukemssa Pirates",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Kukemssa Pirates",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:bd9f82ac11f5"
+   }
+  },
+  {
+   "card": "Rowdy Crew",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rowdy Crew",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:816eea680c84"
+   }
+  },
+  {
+   "card": "Shipwreck Looter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Looter",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:545a1ded1c9c"
+   }
+  },
+  {
+   "card": "Brazen Buccaneers",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Storm Fleet Arsonist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Storm Fleet Spy",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm Fleet Spy",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:2def2633645e"
+   }
+  },
+  {
+   "card": "Dire Fleet Interloper",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Shipwreck Sentry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Shipwreck Sentry",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:03180e24f294"
+   }
+  },
+  {
+   "card": "Deadeye Tormentor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Headstrong Brute",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talas Explorer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talas Explorer",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3fbc917e6ec8"
+   }
+  },
+  {
+   "card": "Deadeye Rig-Hauler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Deadeye Rig-Hauler",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:c4d5d59c99e9"
+   }
+  },
+  {
+   "card": "Swab Goblin",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swab Goblin",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:95b01b650ae6"
+   }
+  },
+  {
+   "card": "Storm Fleet Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Storm Fleet Pyromancer",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:05c30068386f"
+   }
+  },
+  {
+   "card": "Fathom Fleet Cutthroat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fathom Fleet Cutthroat",
+       "cut": "Deadly Rollick"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:9176e44608d5"
+   }
+  },
+  {
+   "card": "Talas Warrior",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dire Fleet Warmonger",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talas Lookout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Fathom Fleet Firebrand",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fathom Fleet Firebrand",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:e9a616ac1d13"
+   }
+  },
+  {
+   "card": "Swaggering Corsair",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talas Scout",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talas Scout",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d612aba7bc2f"
+   }
+  },
+  {
+   "card": "Stardew Valley",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stardew Valley",
+       "cut": "Ancient Tomb"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:65619ab87429"
+   }
+  },
+  {
+   "card": "Reef Pirates",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Siren Reaver",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Rishadan Airship",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Desperate Castaways",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Desperate Castaways",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:3fc556b30b43"
+   }
+  },
+  {
+   "card": "Fathom Fleet Boarder",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Ramirez DePietro",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talas Researcher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talas Researcher",
+       "cut": "Black Market Connections"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f637ed51c7d6"
+   }
+  },
+  {
+   "card": "Armored Galleon",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Dinosaur Hunter",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dinosaur Hunter",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d1b25bd6bd87"
+   }
+  },
+  {
+   "card": "Steam Frigate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talas Air Ship",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Angrath's Ambusher",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Talas Merchant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talas Merchant",
+       "cut": "Breeches, Eager Pillager"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:5da62a2a521d"
+   }
+  },
+  {
+   "card": "Vraska, Betrayal's Sting",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Vraska, Betrayal's Sting",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:6ee15921450e"
+   }
+  },
+  {
+   "card": "Glittering Stockpile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glittering Stockpile",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:71ad508b7766"
+   }
+  },
+  {
+   "card": "Repercussion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Black Market Connections"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Repercussion",
+       "cut": "Kindred Discovery"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:6491d5327c24"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:a68dfa299a48"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Admiral Beckett Brass"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:a29c272dda12"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:d9bdad1f9bbf"
+   }
+  },
+  {
+   "card": "Goldhound",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Goldhound",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:4e27dcc89e88"
+   }
+  },
+  {
+   "card": "Toralf, God of Fury // Toralf's Hammer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Deadly Rollick"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toralf, God of Fury // Toralf's Hammer",
+       "cut": "Admiral Beckett Brass"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:249e2dff4438"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:f22338cf2bc7"
+   }
+  },
+  {
+   "card": "Song-Mad Treachery // Song-Mad Ruins",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Song-Mad Treachery // Song-Mad Ruins",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:cdad7995efca"
+   }
+  },
+  {
+   "card": "Involuntary Employment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Involuntary Employment",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:925ee4ad2dac"
+   }
+  },
+  {
+   "card": "Discreet Retreat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Discreet Retreat",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:0e2957888245"
+   }
+  },
+  {
+   "card": "Korvold and the Noble Thief",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Korvold and the Noble Thief",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:ddc83e6add38"
+   }
+  },
+  {
+   "card": "Buried Treasure",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Buried Treasure",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:82c66fcbd1cc"
+   }
+  },
+  {
+   "card": "Crackdown Construct",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Decadent Dragon // Expensive Taste"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Crackdown Construct",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:b5ec3629c519"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:b8bd97b79d94"
+   }
+  },
+  {
+   "card": "Cephalid Illusionist",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Decadent Dragon // Expensive Taste"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Illusionist",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:cbb12908319e"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:98912ea16e04"
+   }
+  },
+  {
+   "card": "Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mimic",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:96c837708c2b"
+   }
+  },
+  {
+   "card": "Dire Mimic",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dire Mimic",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:961c25ad8576"
+   }
+  },
+  {
+   "card": "Ice Cauldron",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ice Cauldron",
+       "cut": "Decadent Dragon // Expensive Taste"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:don-andres-the-renegade:m5:48d7830de85c"
+   }
+  },
+  {
+   "card": "Cephalid Aristocrat",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Decadent Dragon // Expensive Taste"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cephalid Aristocrat",
+       "cut": "Roaming Throne"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:don-andres-the-renegade:m5:9bafabe53578"
+    },
+    "swap": "swap:don-andres-the-renegade:m5:1e4f09e653b4"
+   }
+  }
+ ],
+ "deck_id": "Don_Andres__the_Renegade",
+ "list_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+ "slug": "don-andres-the-renegade",
+ "swaps": [
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f568522f6ea6"
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5df7326087b6"
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e7bd62e24ab2"
+  },
+  {
+   "adds": [
+    "Zara, Renegade Recruiter"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1a49ed917614"
+  },
+  {
+   "adds": [
+    "Siren Stormtamer"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:da71590fbc30"
+  },
+  {
+   "adds": [
+    "Gemcutter Buccaneer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c51839a30dd5"
+  },
+  {
+   "adds": [
+    "Gonti, Lord of Luxury"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e7341eb581e9"
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:48c73263906b"
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c5da850cb3a0"
+  },
+  {
+   "adds": [
+    "Mob Rule"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:274eaf515eaf"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4ea85af83503"
+  },
+  {
+   "adds": [
+    "The Indomitable"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7e857318ad98"
+  },
+  {
+   "adds": [
+    "The Indomitable"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:efc635f648f8"
+  },
+  {
+   "adds": [
+    "Memory Plunder"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:64a3316dbc0f"
+  },
+  {
+   "adds": [
+    "Corsair Captain"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bc26583383cf"
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:277841efd751"
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8225a24da65e"
+  },
+  {
+   "adds": [
+    "Agent of Treachery"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:99fd091f71f1"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f4c010aff20a"
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ce642793cf06"
+  },
+  {
+   "adds": [
+    "Cunning Rhetoric"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5916721edad3"
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3f94b06e137a"
+  },
+  {
+   "adds": [
+    "Invert Polarity"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4186cf44c0e6"
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5309555cc86d"
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7f420a3a557b"
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c4d96ae7fca2"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d80fec3a910c"
+  },
+  {
+   "adds": [
+    "Port Razer"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e6143c523c83"
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:95ede5ff3a63"
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:93a759f4466b"
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8a4bf408d95b"
+  },
+  {
+   "adds": [
+    "Kitesail Larcenist"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:cf2eb48dba80"
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8370c76f43f4"
+  },
+  {
+   "adds": [
+    "Mind's Dilation"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:39aa13454922"
+  },
+  {
+   "adds": [
+    "Forerunner of the Coalition"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f3136b8629cd"
+  },
+  {
+   "adds": [
+    "Share the Spoils"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0e4b76abdb96"
+  },
+  {
+   "adds": [
+    "Nightveil Specter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bf1052d4c965"
+  },
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:51164c990d10"
+  },
+  {
+   "adds": [
+    "The Beast, Deathless Prince"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:28a003124035"
+  },
+  {
+   "adds": [
+    "Cruelclaw's Heist"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:db726ce1157c"
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e7d1524ab28e"
+  },
+  {
+   "adds": [
+    "Broadside Bombardiers"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0635f1f663f7"
+  },
+  {
+   "adds": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2d05ebc69e6c"
+  },
+  {
+   "adds": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8fb57b7aac18"
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d67f666bb0e6"
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4cd620d74847"
+  },
+  {
+   "adds": [
+    "Francisco, Fowl Marauder"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:db6fb6e892c8"
+  },
+  {
+   "adds": [
+    "Francisco, Fowl Marauder"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f87160a4b0c3"
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2c4f0f81e804"
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9cb7ad033605"
+  },
+  {
+   "adds": [
+    "Xanathar, Guild Kingpin"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7963375cabb2"
+  },
+  {
+   "adds": [
+    "Xanathar, Guild Kingpin"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:46330e62dd5e"
+  },
+  {
+   "adds": [
+    "Merchant Raiders"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b3c6802e4b0a"
+  },
+  {
+   "adds": [
+    "Inside Information"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1d5fdc54668a"
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:236a4d2cf1c0"
+  },
+  {
+   "adds": [
+    "Heartless Conscription"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3ba42f817618"
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:73f115e5a94d"
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:eb5e46b7b2a7"
+  },
+  {
+   "adds": [
+    "King Narfi's Betrayal"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:78fe7ddab37e"
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e2b013360d9a"
+  },
+  {
+   "adds": [
+    "Staff of Eden, Vault's Key"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5b5e07217e1e"
+  },
+  {
+   "adds": [
+    "Fallen Shinobi"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a0e7ad275f8a"
+  },
+  {
+   "adds": [
+    "Fallen Shinobi"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:328c94cb9299"
+  },
+  {
+   "adds": [
+    "The Ruinous Powers"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:60f669f1a4fa"
+  },
+  {
+   "adds": [
+    "Desertion"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e642d48874b8"
+  },
+  {
+   "adds": [
+    "Tinybones, the Pickpocket"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7f8e4c44ed7f"
+  },
+  {
+   "adds": [
+    "Tinybones, the Pickpocket"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a37f0bab22e3"
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:02ad44e40163"
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:fd9eb2f08242"
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:fefff5b75f3c"
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:33acd91a8a86"
+  },
+  {
+   "adds": [
+    "Malcolm, Alluring Scoundrel"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b960b8182cf8"
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:205d97275059"
+  },
+  {
+   "adds": [
+    "Nashi, Moon Sage's Scion"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b26e7ea851e3"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d66a0c306c03"
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:68163a271483"
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9508e1b350a0"
+  },
+  {
+   "adds": [
+    "Elder Brain"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7777fbdecc1d"
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1b311e13aece"
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:50300ac554c2"
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:33182b949583"
+  },
+  {
+   "adds": [
+    "Mass Mutiny"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9c619aa79fe9"
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:739e13550ba0"
+  },
+  {
+   "adds": [
+    "Arvinox, the Mind Flail"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7843a422464e"
+  },
+  {
+   "adds": [
+    "Loki's Scepter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a9eaccaec72a"
+  },
+  {
+   "adds": [
+    "Rain of Riches"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ff51aa2302e1"
+  },
+  {
+   "adds": [
+    "Nathan Drake, Treasure Hunter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d947488c519b"
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:339ffcedeef9"
+  },
+  {
+   "adds": [
+    "Inevitable Betrayal"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:003e2a0cab37"
+  },
+  {
+   "adds": [
+    "Act of Treason"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:87e5801dd80a"
+  },
+  {
+   "adds": [
+    "Furnace Reins"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5289aaaa8e92"
+  },
+  {
+   "adds": [
+    "Call for Aid"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f5e82043f13b"
+  },
+  {
+   "adds": [
+    "Changing Loyalty"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d446f1af043e"
+  },
+  {
+   "adds": [
+    "Secluded Courtyard"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dac522b8e9a6"
+  },
+  {
+   "adds": [
+    "Dead Man's Chest"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:89a37a467a6d"
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dd800034d754"
+  },
+  {
+   "adds": [
+    "Treasure Nabber"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4af8ae1aef8c"
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:86a18038ab6a"
+  },
+  {
+   "adds": [
+    "Geyadrone Dihada"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ed25ee35a55f"
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:409113ebf91b"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7d849984e6e8"
+  },
+  {
+   "adds": [
+    "Blatant Thievery"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:93152937af13"
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5c3b99c30c90"
+  },
+  {
+   "adds": [
+    "Mutinous Massacre"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dece5783bb3a"
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a21cf116b087"
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2db315ce7a54"
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:690f2f07b6d9"
+  },
+  {
+   "adds": [
+    "Intellect Devourer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0b382c4dfaaf"
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:15bce87204de"
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1f5d006aef16"
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f2f54d4b8e1b"
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d5ca13ea0fb6"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:72030b65fd25"
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c0d602854b92"
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bace373d5d54"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3b2899899483"
+  },
+  {
+   "adds": [
+    "Infinite Reflection"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c1f3fa66b80e"
+  },
+  {
+   "adds": [
+    "Deadeye Quartermaster"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d4698f561416"
+  },
+  {
+   "adds": [
+    "Sanar, Unfinished Genius // Wild Idea"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f25be61a54d7"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:31c7b7cc9a1f"
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6bc270360baf"
+  },
+  {
+   "adds": [
+    "Smuggler Captain"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b849093bafc4"
+  },
+  {
+   "adds": [
+    "Impulsive Pilferer"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d785705d57b1"
+  },
+  {
+   "adds": [
+    "Myriad Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d4fe36052275"
+  },
+  {
+   "adds": [
+    "The Horus Heresy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:697977d2ea04"
+  },
+  {
+   "adds": [
+    "Spectral Sailor"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:64ae691e4456"
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f2c4e983d1d4"
+  },
+  {
+   "adds": [
+    "Claim the Firstborn"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6ac8b661c74f"
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5ff0053fc626"
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3929370174f3"
+  },
+  {
+   "adds": [
+    "Swan Song"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:df3acff1a110"
+  },
+  {
+   "adds": [
+    "Angrath's Marauders"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9552cfad6726"
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:34a2ec9cb98d"
+  },
+  {
+   "adds": [
+    "Waterlogged Teachings // Inundated Archive"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f360c3e77922"
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dbeafc049f33"
+  },
+  {
+   "adds": [
+    "Thriving Isle"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5785a8b4545f"
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:dcb4ebffc172"
+  },
+  {
+   "adds": [
+    "Extract Power"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:262dc8c95fd8"
+  },
+  {
+   "adds": [
+    "Thriving Bluff"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2bb50cd3dfcf"
+  },
+  {
+   "adds": [
+    "Amphin Mutineer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f09e316da0fa"
+  },
+  {
+   "adds": [
+    "Warping Wail"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2ccc5470de57"
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:01af21c4db96"
+  },
+  {
+   "adds": [
+    "Marauding Mako"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f0b0e6ee8be9"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7f0d2f68c542"
+  },
+  {
+   "adds": [
+    "Warkite Marauder"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f4e762aada60"
+  },
+  {
+   "adds": [
+    "Scrounging Skyray"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e9899baa31a9"
+  },
+  {
+   "adds": [
+    "Fanatical Firebrand"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7af3685ab879"
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8d99d0d5fced"
+  },
+  {
+   "adds": [
+    "Departed Deckhand"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:84cfb4c00079"
+  },
+  {
+   "adds": [
+    "Brineborn Cutthroat"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:978a29da6f2f"
+  },
+  {
+   "adds": [
+    "Fearless Swashbuckler"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c5c356f5b5ba"
+  },
+  {
+   "adds": [
+    "Oaken Siren"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3b2e0318ebb5"
+  },
+  {
+   "adds": [
+    "Daring Saboteur"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5d50cb95c419"
+  },
+  {
+   "adds": [
+    "Staunch Crewmate"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:8b8e483ebe65"
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f185bd8d6857"
+  },
+  {
+   "adds": [
+    "Valki, God of Lies // Tibalt, Cosmic Impostor"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9ee6ebf3e279"
+  },
+  {
+   "adds": [
+    "Captain Vargus Wrath"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0b7e666e84ca"
+  },
+  {
+   "adds": [
+    "Kitesail Freebooter"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:74e28fe9a4ad"
+  },
+  {
+   "adds": [
+    "Deadeye Tracker"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:333d3aed08c7"
+  },
+  {
+   "adds": [
+    "Dire Fleet Poisoner"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d9205559db17"
+  },
+  {
+   "adds": [
+    "Bigfin Bouncer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7c802bfbdb3f"
+  },
+  {
+   "adds": [
+    "Thunderhead Gunner"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:635fe2747ee9"
+  },
+  {
+   "adds": [
+    "Dire Fleet Captain"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bcd973374dfa"
+  },
+  {
+   "adds": [
+    "Goblin Tomb Raider"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d402c52f0312"
+  },
+  {
+   "adds": [
+    "Goblin Trailblazer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:7990ac57575e"
+  },
+  {
+   "adds": [
+    "Skyship Plunderer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c088bb36eda5"
+  },
+  {
+   "adds": [
+    "Cloud Pirates"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d60d899315e9"
+  },
+  {
+   "adds": [
+    "Captain of Umbar"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c66d72f309bd"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4b39f057e5ab"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3e0f84bb3516"
+  },
+  {
+   "adds": [
+    "Kitesail Corsair"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a0741d41fa4e"
+  },
+  {
+   "adds": [
+    "Rigging Runner"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6085be11e320"
+  },
+  {
+   "adds": [
+    "Keen Buccaneer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9f59d2e0c003"
+  },
+  {
+   "adds": [
+    "Deadeye Brawler"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:90158d268db7"
+  },
+  {
+   "adds": [
+    "Grasping Scoundrel"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:139bfaac8759"
+  },
+  {
+   "adds": [
+    "Storm Fleet Aerialist"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f658109c3dc7"
+  },
+  {
+   "adds": [
+    "Marauding Looter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5bec94e08a39"
+  },
+  {
+   "adds": [
+    "Pirate Ship"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6175bedcf3a1"
+  },
+  {
+   "adds": [
+    "Skyship Buccaneer"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:308d5cb9d7b8"
+  },
+  {
+   "adds": [
+    "Gorehorn Raider"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:32972e184b0a"
+  },
+  {
+   "adds": [
+    "Daring Buccaneer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d62020f3acde"
+  },
+  {
+   "adds": [
+    "Storm Fleet Swashbuckler"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e0e9f2edf074"
+  },
+  {
+   "adds": [
+    "Kukemssa Pirates"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:bd9f82ac11f5"
+  },
+  {
+   "adds": [
+    "Rowdy Crew"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:816eea680c84"
+  },
+  {
+   "adds": [
+    "Shipwreck Looter"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:545a1ded1c9c"
+  },
+  {
+   "adds": [
+    "Storm Fleet Spy"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:2def2633645e"
+  },
+  {
+   "adds": [
+    "Shipwreck Sentry"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:03180e24f294"
+  },
+  {
+   "adds": [
+    "Talas Explorer"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3fbc917e6ec8"
+  },
+  {
+   "adds": [
+    "Deadeye Rig-Hauler"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:c4d5d59c99e9"
+  },
+  {
+   "adds": [
+    "Swab Goblin"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:95b01b650ae6"
+  },
+  {
+   "adds": [
+    "Storm Fleet Pyromancer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:05c30068386f"
+  },
+  {
+   "adds": [
+    "Fathom Fleet Cutthroat"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9176e44608d5"
+  },
+  {
+   "adds": [
+    "Fathom Fleet Firebrand"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:e9a616ac1d13"
+  },
+  {
+   "adds": [
+    "Talas Scout"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d612aba7bc2f"
+  },
+  {
+   "adds": [
+    "Stardew Valley"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:65619ab87429"
+  },
+  {
+   "adds": [
+    "Desperate Castaways"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:3fc556b30b43"
+  },
+  {
+   "adds": [
+    "Talas Researcher"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f637ed51c7d6"
+  },
+  {
+   "adds": [
+    "Dinosaur Hunter"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d1b25bd6bd87"
+  },
+  {
+   "adds": [
+    "Talas Merchant"
+   ],
+   "cuts": [
+    "Breeches, Eager Pillager"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:5da62a2a521d"
+  },
+  {
+   "adds": [
+    "Vraska, Betrayal's Sting"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6ee15921450e"
+  },
+  {
+   "adds": [
+    "Glittering Stockpile"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:71ad508b7766"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Black Market Connections"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a68dfa299a48"
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:6491d5327c24"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:d9bdad1f9bbf"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:a29c272dda12"
+  },
+  {
+   "adds": [
+    "Goldhound"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:4e27dcc89e88"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:f22338cf2bc7"
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Admiral Beckett Brass"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:249e2dff4438"
+  },
+  {
+   "adds": [
+    "Song-Mad Treachery // Song-Mad Ruins"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:cdad7995efca"
+  },
+  {
+   "adds": [
+    "Involuntary Employment"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:925ee4ad2dac"
+  },
+  {
+   "adds": [
+    "Discreet Retreat"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:0e2957888245"
+  },
+  {
+   "adds": [
+    "Korvold and the Noble Thief"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:ddc83e6add38"
+  },
+  {
+   "adds": [
+    "Buried Treasure"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:82c66fcbd1cc"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b8bd97b79d94"
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:b5ec3629c519"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:98912ea16e04"
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:cbb12908319e"
+  },
+  {
+   "adds": [
+    "Mimic"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:96c837708c2b"
+  },
+  {
+   "adds": [
+    "Dire Mimic"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:961c25ad8576"
+  },
+  {
+   "adds": [
+    "Ice Cauldron"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:48d7830de85c"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Decadent Dragon // Expensive Taste"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:1e4f09e653b4"
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Roaming Throne"
+   ],
+   "id": "swap:don-andres-the-renegade:m5:9bafabe53578"
+  }
+ ]
+}

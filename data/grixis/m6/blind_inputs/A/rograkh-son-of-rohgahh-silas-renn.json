@@ -1,0 +1,2772 @@
+{
+ "candidates": [
+  {
+   "card": "Talisman of Indulgence",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Indulgence",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a38c18853c00"
+   }
+  },
+  {
+   "card": "Starting Town",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Starting Town",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b57b3d4eb33c"
+   }
+  },
+  {
+   "card": "Orcish Bowmasters",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Orcish Bowmasters",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e89112b4f5"
+   }
+  },
+  {
+   "card": "Snap",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Snap",
+       "cut": "Into the Flood Maw"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:eaa5683b9cc0"
+   }
+  },
+  {
+   "card": "The One Ring",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The One Ring",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c13db8799341"
+   }
+  },
+  {
+   "card": "Timetwister",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Last Chance",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Last Chance",
+       "cut": "Yawgmoth's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Last Chance",
+       "cut": "Warrior's Oath"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:d562740cf4ea"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8a206d71d87e"
+   }
+  },
+  {
+   "card": "Fellwar Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Fellwar Stone",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a"
+   }
+  },
+  {
+   "card": "Gemstone Mine",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Gemstone Mine",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:51b100949aa4"
+   }
+  },
+  {
+   "card": "Grim Tutor",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grim Tutor",
+       "cut": "Demonic Counsel"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:0d38cf84c611"
+   }
+  },
+  {
+   "card": "Chromatic Star",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Chromatic Star",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2203296d3715"
+   }
+  },
+  {
+   "card": "Flashback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Flashback",
+       "cut": "Into the Flood Maw"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:cdf3fd1bd1b1"
+   }
+  },
+  {
+   "card": "Talisman of Creativity",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Talisman of Creativity",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6"
+   }
+  },
+  {
+   "card": "Strike It Rich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Strike It Rich",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:563d762bf1cf"
+   }
+  },
+  {
+   "card": "Wheel of Misfortune",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Wheel of Misfortune",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7"
+   }
+  },
+  {
+   "card": "Snapback",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Urza's Saga",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Urza's Saga",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2eba5f7b5476"
+   }
+  },
+  {
+   "card": "Pyromancer's Goggles",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Pyromancer's Goggles",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Pyromancer's Goggles",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7e0bb2f3b980"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25"
+   }
+  },
+  {
+   "card": "Guild Artisan",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guild Artisan",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:53209d96175f"
+   }
+  },
+  {
+   "card": "Spire of Industry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Spire of Industry",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ba60e291be4a"
+   }
+  },
+  {
+   "card": "The Enigma Jewel // Locus of Enlightenment",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "The Enigma Jewel // Locus of Enlightenment",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5fc16f7cf91f"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319"
+   }
+  },
+  {
+   "card": "Platinum Angel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Angel",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3698--44"
+        ]
+       },
+       "add": "Platinum Angel",
+       "cut": "Grinding Station"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7ac8f113eafe"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19"
+   }
+  },
+  {
+   "card": "Brainstorm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Brainstorm",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa"
+   }
+  },
+  {
+   "card": "Memnite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Memnite",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Memnite",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:d927664225b2"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd"
+   }
+  },
+  {
+   "card": "Saheeli, Sublime Artificer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Saheeli, Sublime Artificer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-2706-3518",
+         "1368-3518-4856"
+        ]
+       },
+       "add": "Saheeli, Sublime Artificer",
+       "cut": "Lion's Eye Diamond"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7b4088cb70fb"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7"
+   }
+  },
+  {
+   "card": "Misdirection",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": []
+    },
+    "blueprint": {
+     "anti_goal": true,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": null
+   }
+  },
+  {
+   "card": "Platinum Emperion",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Platinum Emperion",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3698--44"
+        ]
+       },
+       "add": "Platinum Emperion",
+       "cut": "Grinding Station"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34939320f55b"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6"
+   }
+  },
+  {
+   "card": "Retraction Helix",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Into the Flood Maw"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Retraction Helix",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47"
+   }
+  },
+  {
+   "card": "Bolas's Citadel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Bolas's Citadel",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:96a0b4c0ec25"
+   }
+  },
+  {
+   "card": "Adaptive Training Post",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Adaptive Training Post",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3698--44"
+        ]
+       },
+       "add": "Adaptive Training Post",
+       "cut": "Grinding Station"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7d1d77680a7f"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a"
+   }
+  },
+  {
+   "card": "Power Artifact",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Power Artifact",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-3698--44"
+        ]
+       },
+       "add": "Power Artifact",
+       "cut": "Grinding Station"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dc44a3182e85"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1"
+   }
+  },
+  {
+   "card": "Guile",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Guile",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b"
+   }
+  },
+  {
+   "card": "Mount Doom",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mount Doom",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45b2f4c30a31"
+   }
+  },
+  {
+   "card": "Breaking // Entering",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Breaking // Entering",
+       "cut": "Ragavan, Nimble Pilferer"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf"
+   }
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Swiftfoot Boots",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:829a99360c93"
+   }
+  },
+  {
+   "card": "Lightning Greaves",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lightning Greaves",
+       "cut": "Deflecting Swat"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:94b11bfe6272"
+   }
+  },
+  {
+   "card": "Dispel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Dispel",
+       "cut": "Force of Negation"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5f7fd42cbbfa"
+   }
+  },
+  {
+   "card": "Sensei's Divining Top",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Sensei's Divining Top",
+       "cut": "Vexing Bauble"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:464c53dc29f5"
+   }
+  },
+  {
+   "card": "Leveler",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Leveler",
+       "cut": "Mnemonic Betrayal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af4ab301bf1b"
+   }
+  },
+  {
+   "card": "Rogue's Passage",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Rogue's Passage",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7d856744a1ed"
+   }
+  },
+  {
+   "card": "Thought Vessel",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Thought Vessel",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:6868baf1064f"
+   }
+  },
+  {
+   "card": "Mind Stone",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mind Stone",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:01d1b22781e0"
+   }
+  },
+  {
+   "card": "Mirror of Fate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mirror of Fate",
+       "cut": "Mnemonic Betrayal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:604c117806e3"
+   }
+  },
+  {
+   "card": "Mistrise Village",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mistrise Village",
+       "cut": "City of Traitors"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:500b4b99ea49"
+   }
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Solemn Simulacrum",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:66abab512288"
+   }
+  },
+  {
+   "card": "Blood Money",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Blood Money",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:54e11923b92a"
+   }
+  },
+  {
+   "card": "Commander's Sphere",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Commander's Sphere",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "partial",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:60874d2da1f2"
+   }
+  },
+  {
+   "card": "Prismari, the Inspiration",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Prismari, the Inspiration",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Prismari, the Inspiration",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086"
+   }
+  },
+  {
+   "card": "Cool but Rude",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Vexing Bauble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Cool but Rude",
+       "cut": "Necrodominance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313"
+   }
+  },
+  {
+   "card": "Hullbreaker Horror",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Hullbreaker Horror",
+       "cut": "Into the Flood Maw"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e"
+   }
+  },
+  {
+   "card": "Path of the Pyromancer",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Path of the Pyromancer",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e93be3bb2ca1"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae"
+   }
+  },
+  {
+   "card": "Grinning Ignus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Grinning Ignus",
+       "cut": "Rain of Filth"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1368-1878-2706"
+        ]
+       },
+       "add": "Grinning Ignus",
+       "cut": "Jeska's Will"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e"
+   }
+  },
+  {
+   "card": "Stitcher's Supplier",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Stitcher's Supplier",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1"
+   }
+  },
+  {
+   "card": "Narset's Reversal",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Narset's Reversal",
+       "cut": "Into the Flood Maw"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Narset's Reversal",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061"
+   }
+  },
+  {
+   "card": "Reiterate",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Into the Flood Maw"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Reiterate",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462"
+   }
+  },
+  {
+   "card": "Burning Inquiry",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Vexing Bauble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Burning Inquiry",
+       "cut": "Necrodominance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef"
+   }
+  },
+  {
+   "card": "Tidespout Tyrant",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Tidespout Tyrant",
+       "cut": "Into the Flood Maw"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4"
+   }
+  },
+  {
+   "card": "Alania, Divergent Storm",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alania, Divergent Storm",
+       "cut": "Vexing Bauble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Alania, Divergent Storm",
+       "cut": "Necrodominance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2"
+   }
+  },
+  {
+   "card": "Enter the Infinite",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Vexing Bauble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Enter the Infinite",
+       "cut": "Necrodominance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a"
+   }
+  },
+  {
+   "card": "Glimpse the Unthinkable",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Yawgmoth's Will"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Glimpse the Unthinkable",
+       "cut": "Warrior's Oath"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f"
+   }
+  },
+  {
+   "card": "Timestream Navigator",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Timestream Navigator",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Timestream Navigator",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890"
+   }
+  },
+  {
+   "card": "Mizzix of the Izmagnus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Mizzix of the Izmagnus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68"
+   }
+  },
+  {
+   "card": "Banishing Knack",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Into the Flood Maw"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Banishing Knack",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129"
+   }
+  },
+  {
+   "card": "Ambassador Laquatus",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": [
+         "1295-3093",
+         "742-1295"
+        ]
+       },
+       "add": "Ambassador Laquatus",
+       "cut": "Thassa's Oracle"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe"
+   }
+  },
+  {
+   "card": "Lich",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Vexing Bauble"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Lich",
+       "cut": "Necrodominance"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e"
+   }
+  },
+  {
+   "card": "False Memories",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Into the Flood Maw"
+      },
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "False Memories",
+       "cut": "Final Fortune"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "strong",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1"
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667"
+   }
+  },
+  {
+   "card": "Toxic Deluge",
+   "full_review": true,
+   "review": {
+    "a_f_evidence": {
+     "hypotheses": [
+      {
+       "D_commander": {
+        "cut_structural_route_ids": []
+       },
+       "add": "Toxic Deluge",
+       "cut": "Mnemonic Betrayal"
+      }
+     ]
+    },
+    "blueprint": {
+     "anti_goal": false,
+     "fit": "none",
+     "named_by": []
+    },
+    "elevated_alternative": {
+     "swap": null
+    },
+    "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c16287cc350e"
+   }
+  }
+ ],
+ "deck_id": "RogSi",
+ "list_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+ "slug": "rograkh-son-of-rohgahh-silas-renn",
+ "swaps": [
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a38c18853c00"
+  },
+  {
+   "adds": [
+    "Starting Town"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b57b3d4eb33c"
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e89112b4f5"
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:eaa5683b9cc0"
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c13db8799341"
+  },
+  {
+   "adds": [
+    "Last Chance"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8a206d71d87e"
+  },
+  {
+   "adds": [
+    "Last Chance"
+   ],
+   "cuts": [
+    "Warrior's Oath"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:d562740cf4ea"
+  },
+  {
+   "adds": [
+    "Fellwar Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2c433fab434a"
+  },
+  {
+   "adds": [
+    "Gemstone Mine"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:51b100949aa4"
+  },
+  {
+   "adds": [
+    "Grim Tutor"
+   ],
+   "cuts": [
+    "Demonic Counsel"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:0d38cf84c611"
+  },
+  {
+   "adds": [
+    "Chromatic Star"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2203296d3715"
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:cdf3fd1bd1b1"
+  },
+  {
+   "adds": [
+    "Talisman of Creativity"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af93d55cb4c6"
+  },
+  {
+   "adds": [
+    "Strike It Rich"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:563d762bf1cf"
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:687b5159bab7"
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:2eba5f7b5476"
+  },
+  {
+   "adds": [
+    "Pyromancer's Goggles"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c553a6261f25"
+  },
+  {
+   "adds": [
+    "Pyromancer's Goggles"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7e0bb2f3b980"
+  },
+  {
+   "adds": [
+    "Guild Artisan"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:53209d96175f"
+  },
+  {
+   "adds": [
+    "Spire of Industry"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ba60e291be4a"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319"
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5fc16f7cf91f"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7a7900f43d19"
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7ac8f113eafe"
+  },
+  {
+   "adds": [
+    "Brainstorm"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:44ffcd0417aa"
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a9fc59022ffd"
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:d927664225b2"
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:f27f480030f7"
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7b4088cb70fb"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:be8b6350c7a6"
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34939320f55b"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:13cfeea48f47"
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45a260d3b1f6"
+  },
+  {
+   "adds": [
+    "Bolas's Citadel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:96a0b4c0ec25"
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:510ebebff89a"
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7d1d77680a7f"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9ef4f3fe6ca1"
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Grinding Station"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dc44a3182e85"
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c39acfe3081b"
+  },
+  {
+   "adds": [
+    "Mount Doom"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:45b2f4c30a31"
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1e938a71e3cf"
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:829a99360c93"
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:94b11bfe6272"
+  },
+  {
+   "adds": [
+    "Dispel"
+   ],
+   "cuts": [
+    "Force of Negation"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5f7fd42cbbfa"
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:464c53dc29f5"
+  },
+  {
+   "adds": [
+    "Leveler"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:af4ab301bf1b"
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:7d856744a1ed"
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:6868baf1064f"
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:01d1b22781e0"
+  },
+  {
+   "adds": [
+    "Mirror of Fate"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:604c117806e3"
+  },
+  {
+   "adds": [
+    "Mistrise Village"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:500b4b99ea49"
+  },
+  {
+   "adds": [
+    "Solemn Simulacrum"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:66abab512288"
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:54e11923b92a"
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:60874d2da1f2"
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:de4f2f714086"
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:57683af729ec"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fee1707d0313"
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:4018891099e6"
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e8041498872e"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:dd2fa23531ae"
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e93be3bb2ca1"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Rain of Filth"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b68b3fbd025e"
+  },
+  {
+   "adds": [
+    "Grinning Ignus"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:84d56b21de69"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:03df05863df1"
+  },
+  {
+   "adds": [
+    "Stitcher's Supplier"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a98b57785b03"
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:52ccfb269061"
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:116e4cbfbace"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8e29237dd462"
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c211d450a50c"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a884ce56dbef"
+  },
+  {
+   "adds": [
+    "Burning Inquiry"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:659ce8811a95"
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:8b466305dfd4"
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ce240d6f6bc2"
+  },
+  {
+   "adds": [
+    "Alania, Divergent Storm"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:a19a6a6d7c10"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:b30832b7103a"
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:3495f5883952"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Yawgmoth's Will"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:34b0e8d72c0f"
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Warrior's Oath"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fb559ce374d0"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:efc1677c5890"
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:04a87b6a7317"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:1aa0b6f9ff68"
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:bc27e6463f98"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:5df5d40b0129"
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:e336fae7debd"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:fbe8e16a6efe"
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c4e7114d84c4"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Vexing Bauble"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:30b98cc74a1e"
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Necrodominance"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:9c0ba7b4db04"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Into the Flood Maw"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:16d20ef7c667"
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Final Fortune"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:39570eedaad1"
+  },
+  {
+   "adds": [
+    "Toxic Deluge"
+   ],
+   "cuts": [
+    "Mnemonic Betrayal"
+   ],
+   "id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c16287cc350e"
+  }
+ ]
+}

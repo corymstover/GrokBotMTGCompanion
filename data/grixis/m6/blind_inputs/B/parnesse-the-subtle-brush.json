@@ -1,0 +1,3921 @@
+{
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "list_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "slug": "parnesse-the-subtle-brush",
+ "swaps": [
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:82997f24312e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:34d654705a2f46f0"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a88eeb761648",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:86abfd15ae81e9c8"
+   ]
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d0e77962d773",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:8a072ddab69c9681"
+   ]
+  },
+  {
+   "adds": [
+    "Wild Ricochet"
+   ],
+   "cuts": [
+    "Return the Favor"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9c544f678e6d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a122227cd3de65b7"
+   ]
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b9a95ae603fe",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:254dce9db0d39758"
+   ]
+  },
+  {
+   "adds": [
+    "Twincast"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:afda8718a484",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:921e83f02a9a9f33"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Bombardment"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d45c363150c9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arcane Bombardment"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dd230a2e7473",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:879dc786a9960b06"
+   ]
+  },
+  {
+   "adds": [
+    "Creative Technique"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6fdc5a1a0e90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Creative Technique"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a11119b73020",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:eab26a452e184440"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c102cf67cb66",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:243d3f25132a0f86"
+   ]
+  },
+  {
+   "adds": [
+    "Expansion // Explosion"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1a803a8f8a11",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b8079db6c71374e7"
+   ]
+  },
+  {
+   "adds": [
+    "Teach by Example"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a04cbd217fbe",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:2e3db724c18386c0"
+   ]
+  },
+  {
+   "adds": [
+    "Teach by Example"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d3c07efd6c1e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:feac55bb8c5c91a8"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4d5f4eac831",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:3fdc40382005b8ad"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4ca6fa285bfb",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:198cf5435a3c24f8"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dda8f22b2131",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d544ed403f59565c"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3decb502d3f0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dual Casting"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7d3e6911113f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dual Casting"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:72eea7a518ff",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b7ca9668d4fbf152"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:495afa65b52e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f97cb6661c773b93"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c5b095e8769d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:8bd3300ad1cd4c93"
+   ]
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7203caff088f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a33cea9d7576",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ed34b421bd74a1a7"
+   ]
+  },
+  {
+   "adds": [
+    "Insidious Will"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f76a9e462028",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:25c7fd91151124bf"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:33745a45f8e4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5c6b65c0822043f1"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1adfe5ea6637",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:148b51ae26b2b239"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:71a199381f4c",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:45fe2595aa4bbee3"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Theater"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:bd63519459a5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:50a8942df4037f61"
+   ]
+  },
+  {
+   "adds": [
+    "Tendrils of Agony"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fcaf5ab6e714",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Twinferno"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ff9c4d918921",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9e6a72547404",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:0fbb5d1a425e7cc3"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f25dc941ea23",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c27e08efca7f91b8"
+   ]
+  },
+  {
+   "adds": [
+    "See Double"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a98eea0164d2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:aa12316b4e5f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:45a0551ef17ad697"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:eadaab4561c4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:62909a726546f671"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c84c4aa33fe2",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9ec477720248c8ee"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:05fe9e77fb1a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:dfb1bf8654383851"
+   ]
+  },
+  {
+   "adds": [
+    "Decorum Dissertation"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6566641795d4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:58706d58e9fd3f0f"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ab63f651994b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:400055337e05b81b"
+   ]
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9bfb179765e7",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:77deb8bb7b38d10d"
+   ]
+  },
+  {
+   "adds": [
+    "Flare of Duplication"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5c89aadcef14",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d851d82105deec87"
+   ]
+  },
+  {
+   "adds": [
+    "Wizards of Thay"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fac864edca76",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:4a27bdd7f9f60f86"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:acfb838a7d3b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5586e50069104a79"
+   ]
+  },
+  {
+   "adds": [
+    "Melek, Izzet Paragon"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e25a2f162638",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:bb6c580774352b78"
+   ]
+  },
+  {
+   "adds": [
+    "Storm of Saruman"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dda184e25ed2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:86b007d4e8aa",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:71f02ef52e1c9869"
+   ]
+  },
+  {
+   "adds": [
+    "Adaptive Training Post"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6a419faef999",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d022b93207a5761b"
+   ]
+  },
+  {
+   "adds": [
+    "Chandra, Hope's Beacon"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0b253ec7a8dd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:87d88397f09e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Deekah, Fractal Theorist"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d542e18daaa0",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e317b58ddc1a4ab7"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:14552d5772d0",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:224b579142d13aed"
+   ]
+  },
+  {
+   "adds": [
+    "Exsanguinate"
+   ],
+   "cuts": [
+    "Mizzix's Mastery"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6528620033f4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f3d16b025e22",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5588fbfb53a4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:879adfc6aa1a2c88"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1afeb03f0efc",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c7b1e4ca8ac34cb2"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mercurial Artist"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:85f1e80cccc3",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:78105973b64d4230"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c2b5e04f66a4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d14354cd6428",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a46637a9013e17be"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4f89d8fd50d7",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:7bb7e7a25997a483"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fd59cc94bc63",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:94edd849991aed25"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:beb0cdaa1a65",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:1e45acacdde1e26f"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f3e8f7c5018a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:4f68befe010834f0"
+   ]
+  },
+  {
+   "adds": [
+    "Transforming Flourish"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:eb09418de1af",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Split Decision"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:84a2819e3845",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:09ea0c853888",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:fa0d5928bcad3c0a"
+   ]
+  },
+  {
+   "adds": [
+    "Sublime Epiphany"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a08bc65a017a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:7aaff3d4423718e9"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f43c02c721ea",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f6ee5e062d83f920"
+   ]
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:20b978c46c63",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a1d88cfbfe43",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:7f745d2728d98504"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7a6187e650de",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e571b0e3223e49e0"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Veyran, Voice of Duality"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1f02a5bc4ebd",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:8c8b1609d252c362"
+   ]
+  },
+  {
+   "adds": [
+    "Radiant Performer"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b7fea2a66e24",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d12cdae6b5efb89a"
+   ]
+  },
+  {
+   "adds": [
+    "Ashling, Flame Dancer"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4be7fb4c3354",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:3d9443b0497733af"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f2dc26174ea6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:bae1308bcba7fdb1"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1daa376ea24d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:62d0495d3e507795"
+   ]
+  },
+  {
+   "adds": [
+    "Coruscation Mage"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ad47daed586b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5e299275eee915c7"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:84bcdccd3e0a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e7679e5c2d01",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:39ced0dadf41a348"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fa09ce95e086",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c042ecb7c5b4ff78"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f8cd783d6d84",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d7413d63a2fe0c35"
+   ]
+  },
+  {
+   "adds": [
+    "Krark, the Thumbless"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d912db383939",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9db6d9a8d8ac21ea"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:798e896c3f10",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:acfe43fcc8da9345"
+   ]
+  },
+  {
+   "adds": [
+    "Will of the Temur"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f7b29aa87d9c",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:93f66245fda16644"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:278c3238cca4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:8d88e598241b9a74"
+   ]
+  },
+  {
+   "adds": [
+    "Skycoach Conductor // All Aboard"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e7cf42c9cd60",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b4df6f5b9f065f8f"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:138d86527826",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:acfd5349d1724e68"
+   ]
+  },
+  {
+   "adds": [
+    "Multiversal Incursion"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:668e753afdaa",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:15b3cae703a9ac74"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:084cb6925741",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:43008e1445424a22"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5e27c41d19a2",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:df92ad278fd3cf91"
+   ]
+  },
+  {
+   "adds": [
+    "Saw in Half"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4c95a05adc9",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:1d703a0b69d47f3a"
+   ]
+  },
+  {
+   "adds": [
+    "Echocasting Symposium"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:2459e159f724",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:371a9d8104ff",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:7517a45acc51baf9"
+   ]
+  },
+  {
+   "adds": [
+    "Irenicus's Vile Duplication"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3bfc53f66a5f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5fc5ec0681256368"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:eebd98b68b80",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:79ffeb5496ab8921"
+   ]
+  },
+  {
+   "adds": [
+    "Twinflame"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0cd00566de4a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:eea4687a390add54"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f62b411bc4db",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:8c36756a8bdb2472"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:269b50235d69",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a8879c531ed7da18"
+   ]
+  },
+  {
+   "adds": [
+    "Ral, Crackling Wit"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:731532ef048d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e1b434103290",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:0bf5528dc36064a0"
+   ]
+  },
+  {
+   "adds": [
+    "Brass's Bounty"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:507e9454cc2f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:53fc6ee9e1682285"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1d33595021de",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f74d98ee8ef01043"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f2d0464131e5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:92917c2bf92450ff"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:61b58e9b1b6c",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a6b637134317088f"
+   ]
+  },
+  {
+   "adds": [
+    "Quantum Misalignment"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:65c2a02703a9",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:db006216181cbd06"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9d81689974c1",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:62ac1cdd8ca6c4fd"
+   ]
+  },
+  {
+   "adds": [
+    "Electroduplicate"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:172673fac432",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:cbaa31120f0406e0"
+   ]
+  },
+  {
+   "adds": [
+    "Virtue of Knowledge // Vantress Visions"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a13cc3b70f25",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:79ad63b9bbde5393"
+   ]
+  },
+  {
+   "adds": [
+    "Virtue of Knowledge // Vantress Visions"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3e52d3cf903f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e0d38b1c33f0eff4"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:134b391c877d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:700581431c9861ca"
+   ]
+  },
+  {
+   "adds": [
+    "Cackling Counterpart"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a04daa3c69e4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:0ae87ffcbb8cd822"
+   ]
+  },
+  {
+   "adds": [
+    "Storm King's Thunder"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:64464d848f3b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:60265f75adaa",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b6b67d109ff47255"
+   ]
+  },
+  {
+   "adds": [
+    "Chain of Smog"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fe0d01c9ea59",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:99bd135350f3c38f"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:8707fd1d2f12",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f4bcbb35ed533e04"
+   ]
+  },
+  {
+   "adds": [
+    "Heat Shimmer"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1dc904882783",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:72fb1ae972c77c79"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b0a2d9720f3f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:236642e950893e6c"
+   ]
+  },
+  {
+   "adds": [
+    "Quasiduplicate"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:439452fd1984",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:200d35b386967e3c"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3d0b6af49bd0",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:de2848abd0a961e0"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:730e5c0ea88b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:841449f67ef0fc74"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:51ae11f5c30a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:baa5220e753e88b9"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9ada388ad6d6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:db136cd8b13498fc"
+   ]
+  },
+  {
+   "adds": [
+    "Hidden Strings"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b53be0953be0",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ab31b01f7a14f8a9"
+   ]
+  },
+  {
+   "adds": [
+    "Hidden Strings"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7939e1520dc5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d490bf9ac889a0ca"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cb8c0469e553",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:3f846a9c1190a8a9"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Sun's Twilight"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6de7c0651e6a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:759165452f5dc8b5"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:de08f6cda8bc",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:193bec7530834f67"
+   ]
+  },
+  {
+   "adds": [
+    "Haze of Rage"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d96ac7f592d8",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9f12491d0d5054fd"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1f710dee8903",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:1131873e501dc00a"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cd7604be017a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9abfe308057d69dc"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:38bd5b02c388",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9bf1a24093d2ae55"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:81c90faecf23",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f200dd7bb0a8ebe0"
+   ]
+  },
+  {
+   "adds": [
+    "Ember Island Production"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9831c58297d5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:6ea10279ce5b7626"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4f252b24aed1",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9dd9848fb8a8fde9"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli's Artistry"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1d036f523cb5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:43ab946eb3aa7167"
+   ]
+  },
+  {
+   "adds": [
+    "The Twelfth Doctor"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ee530497bf68",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:767b782a8ad2b309"
+   ]
+  },
+  {
+   "adds": [
+    "The Twelfth Doctor"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3148d2029fba",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c193615fe524773b"
+   ]
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6c854aa77442",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:20ecee8eea5caa35"
+   ]
+  },
+  {
+   "adds": [
+    "Fork"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e508cbbd8d9a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:6646342c4ea73484"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1120fb96f7ef",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:78690380cd706912"
+   ]
+  },
+  {
+   "adds": [
+    "Fated Infatuation"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9975b5afc69d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:2f21898c5411158f"
+   ]
+  },
+  {
+   "adds": [
+    "Harmonized Trio // Brainstorm"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:25691a532e26",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:663ccc7940b2",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:05ad68abd3051b22"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Mockery"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f057517b578a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f741bcfa74b1fb84"
+   ]
+  },
+  {
+   "adds": [
+    "Dual Strike"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9b396447cc91",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ac03b16fc2372858"
+   ]
+  },
+  {
+   "adds": [
+    "Dual Strike"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:752efe31353c",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:3f04f10f33cb8b2f"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:265676f681e6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:cde8cfb8ed45749d"
+   ]
+  },
+  {
+   "adds": [
+    "Self-Reflection"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:207c3b5db793",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:66b4dcac25d4a1e3"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:084d52bcf1ed",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:76bb50ce63ae6f72"
+   ]
+  },
+  {
+   "adds": [
+    "Kindle the Inner Flame"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:40d963185dd6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ee1e8bd845dcea8f"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:729995e0b235",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Owlin Spiralmancer"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:726c24bc8ed6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:2b52a9d3b8410012"
+   ]
+  },
+  {
+   "adds": [
+    "Naktamun Lorespinner // Wheel of Fortune"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4ece3115927",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Refuse // Cooperate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dc07a946630b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:bef583da9ab8e4d2"
+   ]
+  },
+  {
+   "adds": [
+    "Refuse // Cooperate"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:482ddfa96fbb",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:de0fdb0c06a47585"
+   ]
+  },
+  {
+   "adds": [
+    "Inspired Skypainter // Maestro's Gift"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fecee18cc112",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ad5a376d2a431bae"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:8dc1816149b5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e47ead614e70a33e"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:1eed3264739f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9db81c63c77fbb84"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:25f78701bc9f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b9c5b061c4970d9a"
+   ]
+  },
+  {
+   "adds": [
+    "Amphibian Downpour"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6c2552d54e71",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:77c2e0b4385b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:558b4c14b0d6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:3629b3fa452b0170"
+   ]
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fbc2d492b2ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Encouraging Aviator // Jump"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:87d63bff7c10",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:70d9b68e2ebcbf50"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbook Seeker // Careful Study"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:866155b9486c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c52081d557c4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Diviner of Victory // Unwind History"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:229152702ea7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Landscape Painter // Vibrant Idea"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:30d8dbf7337d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Remand"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ab7301f90aa3",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ad0d930dcb5f274d"
+   ]
+  },
+  {
+   "adds": [
+    "Remand"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:294cc5a1bb81",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:4698b857593fa82d"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:71f5a40e3958",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Incarnation Technique"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c3d83705a1a4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Theorix Metamage // Omit Variables"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:79c0bae87ef5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:0f743b140680fd1e"
+   ]
+  },
+  {
+   "adds": [
+    "Mind's Desire"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:94c3c9d74632",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:dbeda8e00317",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ef0a70d793a7ce12"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d2150213b121",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:79a5c0bd0a15a436"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6c3f2e1fcc1d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d5c6faba5a1f1b84"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c003c00d2d9d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9214a6d806635fcf"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a448d08613a0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Radiate"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:aa1ea3fca423",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gogo, Mysterious Mime"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6ecb67ac6022",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5640cb27683674f7"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:847fbcaee0fe",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:43c8dc7b5e48b5bb"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4d32e264116d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:90e962087067c78c"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:86935a0623ba",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:260b98b5607f60f2"
+   ]
+  },
+  {
+   "adds": [
+    "Redoubled Stormsinger"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4d708a6ca81f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b8fa040e8037fab6"
+   ]
+  },
+  {
+   "adds": [
+    "Gogo, Master of Mimicry"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:73384b71797b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:23e0bac9612131e0"
+   ]
+  },
+  {
+   "adds": [
+    "Lier, Disciple of the Drowned"
+   ],
+   "cuts": [
+    "Wizard's Staff"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b16167d24cdf",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:45c63b066fd3bee5"
+   ]
+  },
+  {
+   "adds": [
+    "Necromantic Selection"
+   ],
+   "cuts": [
+    "Blasphemous Act"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d23de9c32958",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:072f7ef05ca81e32"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0bb880769eca",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:113f810671296eef"
+   ]
+  },
+  {
+   "adds": [
+    "Blur"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c3376750166c",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e33cbf687c0981a9"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b54ecfb1f45e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:63f4cf8411af20a6"
+   ]
+  },
+  {
+   "adds": [
+    "Splash Portal"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cdbfdb521f33",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a5b3399c2b8d8a88"
+   ]
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7362ea3a0cbe",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:273dceed40efab1f"
+   ]
+  },
+  {
+   "adds": [
+    "Molten-Core Maestro"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:abddb1aa3736",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:6ce73f9db893aec4"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:900af5f25fa1",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:02a9e0878fd9667b"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:2dc66a9fad86",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:639d4d9102b243f3"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:88e56cf52d84",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:516776298799240f"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cf2b4c65736d",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:2380cad7d2d14992"
+   ]
+  },
+  {
+   "adds": [
+    "Underworld Breach"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:534ea99c7543",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:80a839bd91500399"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Desire"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9f23232493bd",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a801bd520c11ee22"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Desire"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d18da29c6299",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d0861232d6abb257"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5d7498802bfe",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:1f09dcf5c915d260"
+   ]
+  },
+  {
+   "adds": [
+    "Illusionist's Stratagem"
+   ],
+   "cuts": [
+    "Alania, Divergent Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a862838feec6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:11e3c555e48f6999"
+   ]
+  },
+  {
+   "adds": [
+    "Spelljack"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e820279a258e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f0572532076128fe"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:62f64c63c1ac",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b605b0f5e3c7e9a3"
+   ]
+  },
+  {
+   "adds": [
+    "Ghostly Flicker"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fd652f655729",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:2506ab1d58566443"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:cbe0a7303082",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:34766aff46c4e37e"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f26135b7ae47",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ca3f21ea3421a336"
+   ]
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0dfef0354688",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d0a2c39379ab3adf"
+   ]
+  },
+  {
+   "adds": [
+    "Pyretic Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:20f7bb284dd2",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:159f45d00e9eca89"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:48416e9dafc2",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:9361131c3c5b0892"
+   ]
+  },
+  {
+   "adds": [
+    "Essence Flux"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b2b9e73439f1",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:18638b2988d11b8b"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f6d73c48e4c6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ea817ed8c1140c79"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9fc30cb590dc",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:de9ce3d218af3d5c"
+   ]
+  },
+  {
+   "adds": [
+    "Battle Hymn"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:bcafd46851a3",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:35682377a2b4ca82"
+   ]
+  },
+  {
+   "adds": [
+    "Battle Hymn"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9cf5d519a4b7",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:dc129f75bcd493ab"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ae0ab73cbb27",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:901b71ba37bf4e1f"
+   ]
+  },
+  {
+   "adds": [
+    "Planar Incision"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:216045032d46",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:bf3389350f53fc0a"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:87b31261b056",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:03d22f532a9d2820"
+   ]
+  },
+  {
+   "adds": [
+    "Displace"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:c66f32011c72",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:faed773a4cee1bb2"
+   ]
+  },
+  {
+   "adds": [
+    "Brightstone Ritual"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:6693538730a6",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:160cf6400afa6560"
+   ]
+  },
+  {
+   "adds": [
+    "Brightstone Ritual"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:88374c46a012",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5c92fe93247bc69c"
+   ]
+  },
+  {
+   "adds": [
+    "Rousing Refrain"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:ece3a1b94ea4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c70f85da5a7c5c74"
+   ]
+  },
+  {
+   "adds": [
+    "Rousing Refrain"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:513d9d0dc274",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:0b87ce7767df8c29"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Rhystic Study"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5cb03d27d65c",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:08ce50b4b8accdfe"
+   ]
+  },
+  {
+   "adds": [
+    "Repercussion"
+   ],
+   "cuts": [
+    "Thousand-Year Storm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9dc1ae8858f5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c826d4e7f2d6e8fe"
+   ]
+  },
+  {
+   "adds": [
+    "Burnt Offering"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:82460c9d3488",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:8ae8d5793c2ba525"
+   ]
+  },
+  {
+   "adds": [
+    "Burnt Offering"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:350e7bf11d41",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:695ed2ed714eeec2"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Mizzix's Mastery"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3569dd99f23e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:73af31a21e00554f"
+   ]
+  },
+  {
+   "adds": [
+    "Baral's Expertise"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:16107658cc0f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5157d24cf8086960"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:0c2b96aa6d81",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e6b0fe0da9805b07"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:76e1974269b5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c4511867dac2165f"
+   ]
+  },
+  {
+   "adds": [
+    "Invoke Calamity"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a36ff58dd553",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b6e4c611385825c8"
+   ]
+  },
+  {
+   "adds": [
+    "Invoke Calamity"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:668ab4587082",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b0ce3eb81957a2c5"
+   ]
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d4b4126d0a8e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ab330ae2d3a53c4d"
+   ]
+  },
+  {
+   "adds": [
+    "Turnabout"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:79bb445f22b3",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d5d621f33c1678dd"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:4e50347dfbc9",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:72835adfc71820f6"
+   ]
+  },
+  {
+   "adds": [
+    "Toralf, God of Fury // Toralf's Hammer"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:9b96e3b0599e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a8c8a4eecd0bd3e4"
+   ]
+  },
+  {
+   "adds": [
+    "Unsubstantiate"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:63543c8fc6f9",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e051a97b76072bbb"
+   ]
+  },
+  {
+   "adds": [
+    "Unsubstantiate"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:7c5f7fa878f4",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:56cef83df4c7a89a"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:040a605bf19f",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:587ebff272ae3c19"
+   ]
+  },
+  {
+   "adds": [
+    "Fall of Cair Andros"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b722e1ef12a8",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:d4fb305049044b8d"
+   ]
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Feed the Swarm"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:f4ef75db3d1e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:e13f75eb47fc4361"
+   ]
+  },
+  {
+   "adds": [
+    "Release to the Wind"
+   ],
+   "cuts": [
+    "Grapeshot"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:77ea2bd7ac72",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5e83ce132e2e522d"
+   ]
+  },
+  {
+   "adds": [
+    "Bond of Insight"
+   ],
+   "cuts": [
+    "Mizzix's Mastery"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:d15e9f37f0cc",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:4a008d739c6cd20a"
+   ]
+  },
+  {
+   "adds": [
+    "Bond of Insight"
+   ],
+   "cuts": [
+    "Bonus Round"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:81a06a29de76",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:7c4b85f474e0b455"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Spasm"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:36150b73fc89",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:21136872c958d2a2"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Spasm"
+   ],
+   "cuts": [
+    "Frantic Search"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:596a5f69e962",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b9d1e666ca817d73"
+   ]
+  },
+  {
+   "adds": [
+    "Reset"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:a1beaf1ecb8b",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f03389d5565791e8"
+   ]
+  },
+  {
+   "adds": [
+    "Reset"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:44f8eb79797a",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:75bcef26e9028d38"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Wandering Archaic // Explore the Vastlands"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:b9d79b4055f5",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:c840606f0ee72850"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Prismari, the Inspiration"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:422a80e17101",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:f4ace5ecb5ff6134"
+   ]
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:91f9c7be58ea",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:3f510eca4a52434a"
+   ]
+  },
+  {
+   "adds": [
+    "Blinkmoth Infusion"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:e707dc98d968",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:b2e981a6c325266c"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Display of Power"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3aeb284622f7",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:474f8041ab7bd045"
+   ]
+  },
+  {
+   "adds": [
+    "View from Above"
+   ],
+   "cuts": [
+    "Increasing Vengeance"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:fc9970eac43e",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:a231cf6db7e7cc60"
+   ]
+  },
+  {
+   "adds": [
+    "Explosive Welcome"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:5c36d7029d22",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:ee0418051e62c212"
+   ]
+  },
+  {
+   "adds": [
+    "Explosive Welcome"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:parnesse-the-subtle-brush:m5:3ee9cd9f0375",
+   "tests": [
+    "test:parnesse-the-subtle-brush:goldfish:5cf6f6a3560cc38d"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:34d654705a2f46f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:86abfd15ae81e9c8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:8a072ddab69c9681",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a122227cd3de65b7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:254dce9db0d39758",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:921e83f02a9a9f33",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:879dc786a9960b06",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:eab26a452e184440",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:243d3f25132a0f86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b8079db6c71374e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:2e3db724c18386c0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:feac55bb8c5c91a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:3fdc40382005b8ad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:198cf5435a3c24f8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d544ed403f59565c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b7ca9668d4fbf152",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f97cb6661c773b93",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:8bd3300ad1cd4c93",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ed34b421bd74a1a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:25c7fd91151124bf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5c6b65c0822043f1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:148b51ae26b2b239",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:45fe2595aa4bbee3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:50a8942df4037f61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:0fbb5d1a425e7cc3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c27e08efca7f91b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:45a0551ef17ad697",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:62909a726546f671",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9ec477720248c8ee",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:dfb1bf8654383851",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:58706d58e9fd3f0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:400055337e05b81b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:77deb8bb7b38d10d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d851d82105deec87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:4a27bdd7f9f60f86",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5586e50069104a79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:bb6c580774352b78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:71f02ef52e1c9869",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d022b93207a5761b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e317b58ddc1a4ab7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:224b579142d13aed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:879adfc6aa1a2c88",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c7b1e4ca8ac34cb2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:78105973b64d4230",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a46637a9013e17be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:7bb7e7a25997a483",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:94edd849991aed25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:1e45acacdde1e26f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:4f68befe010834f0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:fa0d5928bcad3c0a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:7aaff3d4423718e9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f6ee5e062d83f920",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:7f745d2728d98504",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e571b0e3223e49e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:8c8b1609d252c362",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d12cdae6b5efb89a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:3d9443b0497733af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:bae1308bcba7fdb1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:62d0495d3e507795",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5e299275eee915c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:39ced0dadf41a348",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c042ecb7c5b4ff78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d7413d63a2fe0c35",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9db6d9a8d8ac21ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:acfe43fcc8da9345",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:93f66245fda16644",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:8d88e598241b9a74",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b4df6f5b9f065f8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:acfd5349d1724e68",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:15b3cae703a9ac74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:43008e1445424a22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:df92ad278fd3cf91",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:1d703a0b69d47f3a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:7517a45acc51baf9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5fc5ec0681256368",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:79ffeb5496ab8921",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:eea4687a390add54",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:8c36756a8bdb2472",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a8879c531ed7da18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:0bf5528dc36064a0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:53fc6ee9e1682285",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f74d98ee8ef01043",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:92917c2bf92450ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a6b637134317088f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:db006216181cbd06",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:62ac1cdd8ca6c4fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:cbaa31120f0406e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:79ad63b9bbde5393",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e0d38b1c33f0eff4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:700581431c9861ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:0ae87ffcbb8cd822",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b6b67d109ff47255",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:99bd135350f3c38f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f4bcbb35ed533e04",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:72fb1ae972c77c79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:236642e950893e6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:200d35b386967e3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:de2848abd0a961e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:841449f67ef0fc74",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:baa5220e753e88b9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:db136cd8b13498fc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ab31b01f7a14f8a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d490bf9ac889a0ca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:3f846a9c1190a8a9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:759165452f5dc8b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:193bec7530834f67",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9f12491d0d5054fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:1131873e501dc00a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9abfe308057d69dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9bf1a24093d2ae55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f200dd7bb0a8ebe0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:6ea10279ce5b7626",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9dd9848fb8a8fde9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:43ab946eb3aa7167",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:767b782a8ad2b309",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c193615fe524773b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:20ecee8eea5caa35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:6646342c4ea73484",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:78690380cd706912",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:2f21898c5411158f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:05ad68abd3051b22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f741bcfa74b1fb84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ac03b16fc2372858",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:3f04f10f33cb8b2f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:cde8cfb8ed45749d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:66b4dcac25d4a1e3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:76bb50ce63ae6f72",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ee1e8bd845dcea8f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:2b52a9d3b8410012",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:bef583da9ab8e4d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:de0fdb0c06a47585",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ad5a376d2a431bae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e47ead614e70a33e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9db81c63c77fbb84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b9c5b061c4970d9a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:3629b3fa452b0170",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:70d9b68e2ebcbf50",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ad0d930dcb5f274d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:4698b857593fa82d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:0f743b140680fd1e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ef0a70d793a7ce12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:79a5c0bd0a15a436",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d5c6faba5a1f1b84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9214a6d806635fcf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5640cb27683674f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:43c8dc7b5e48b5bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:90e962087067c78c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:260b98b5607f60f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b8fa040e8037fab6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:23e0bac9612131e0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:45c63b066fd3bee5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:072f7ef05ca81e32",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:113f810671296eef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e33cbf687c0981a9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:63f4cf8411af20a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a5b3399c2b8d8a88",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:273dceed40efab1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:6ce73f9db893aec4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:02a9e0878fd9667b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:639d4d9102b243f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:516776298799240f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:2380cad7d2d14992",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:80a839bd91500399",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a801bd520c11ee22",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d0861232d6abb257",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:1f09dcf5c915d260",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:11e3c555e48f6999",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f0572532076128fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b605b0f5e3c7e9a3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:2506ab1d58566443",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:34766aff46c4e37e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ca3f21ea3421a336",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d0a2c39379ab3adf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:159f45d00e9eca89",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:9361131c3c5b0892",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:18638b2988d11b8b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ea817ed8c1140c79",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:de9ce3d218af3d5c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:35682377a2b4ca82",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:dc129f75bcd493ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:901b71ba37bf4e1f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:bf3389350f53fc0a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:03d22f532a9d2820",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:faed773a4cee1bb2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:160cf6400afa6560",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5c92fe93247bc69c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c70f85da5a7c5c74",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:0b87ce7767df8c29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:08ce50b4b8accdfe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c826d4e7f2d6e8fe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:8ae8d5793c2ba525",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:695ed2ed714eeec2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:73af31a21e00554f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5157d24cf8086960",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e6b0fe0da9805b07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c4511867dac2165f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b6e4c611385825c8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b0ce3eb81957a2c5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ab330ae2d3a53c4d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d5d621f33c1678dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:72835adfc71820f6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a8c8a4eecd0bd3e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e051a97b76072bbb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:56cef83df4c7a89a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:587ebff272ae3c19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:d4fb305049044b8d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:e13f75eb47fc4361",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5e83ce132e2e522d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:4a008d739c6cd20a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:7c4b85f474e0b455",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:21136872c958d2a2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b9d1e666ca817d73",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f03389d5565791e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:75bcef26e9028d38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:c840606f0ee72850",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:f4ace5ecb5ff6134",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:3f510eca4a52434a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:b2e981a6c325266c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:474f8041ab7bd045",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:a231cf6db7e7cc60",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:ee0418051e62c212",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:parnesse-the-subtle-brush:goldfish:5cf6f6a3560cc38d",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

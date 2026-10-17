@@ -1,0 +1,163 @@
+name: ChatGPT cycle 80 - M6 side-isolated A B replay
+
+on:
+  push:
+    branches:
+      - chatgpt-cycle80-m6-separate-runners
+    paths:
+      - .github/workflows/chatgpt-cycle80-m6-isolation.yml
+      - scripts/grixis_m6_blind_replay.py
+      - tests/test_m6_blind_replay.py
+  workflow_dispatch:
+
+concurrency:
+  group: c80-m6-isolated-pass-runners
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  projection-freeze:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+    outputs:
+      frozen_sha: ${{ steps.freeze.outputs.frozen_sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle80-m6-separate-runners
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial projection-equivalence tests
+        run: python -m unittest discover -s tests -p 'test_m6_blind_replay.py' -v
+      - name: Build redacted, opposite-field-blind inputs
+        run: python scripts/grixis_m6_blind_replay.py --prepare
+      - name: Validate projection source and authority scope
+        run: |
+          python scripts/grixis_m6_blind_replay.py --verify-inputs
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          print('authority constraints PASS')
+          PY
+          changed="$(git diff --name-only)"
+          if printf '%s\n' "$changed" | grep -v '^data/grixis/m6/blind_inputs/' | grep -q .; then
+            echo 'Unexpected modified authority/canonical path' >&2
+            exit 1
+          fi
+      - name: Persist immutable projection checkpoint BEFORE running either optimizer
+        id: freeze
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/blind_inputs
+          if git diff --cached --quiet; then
+            echo 'Blind inputs already byte-identical'
+          else
+            git commit -m 'Cycle 80: freeze 124 sanitized A/B inputs [skip ci]'
+            git pull --rebase origin chatgpt-cycle80-m6-separate-runners
+            git push origin HEAD:chatgpt-cycle80-m6-separate-runners
+          fi
+          echo "frozen_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  independent-pass-a:
+    needs: projection-freeze
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.projection-freeze.outputs.frozen_sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts/grixis_m6_blind_replay.py
+            scripts/grixis_m6_sealed.py
+            scripts/grixis_m6_optimizer.py
+            scripts/grixis_authority.py
+            data/grixis/m6/blind_inputs/A/
+            data/grixis/m6/sealed/A/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify physical runner cannot read B's projected files
+        run: |
+          test ! -e data/grixis/m6/blind_inputs/B
+          test ! -e data/grixis/m6/sealed/B
+          test ! -e data/grixis/birthday_m5
+          test ! -e data/grixis/registry.json
+      - name: Reproduce sealed A using A-only projection
+        run: python scripts/grixis_m6_blind_replay.py --replay-a
+
+  independent-pass-b:
+    needs: projection-freeze
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.projection-freeze.outputs.frozen_sha }}
+          fetch-depth: 1
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            scripts/grixis_m6_blind_replay.py
+            scripts/grixis_m6_sealed.py
+            scripts/grixis_m6_optimizer.py
+            scripts/grixis_authority.py
+            data/grixis/m6/blind_inputs/B/
+            data/grixis/m6/sealed/B/
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify physical runner cannot read A's projected files
+        run: |
+          test ! -e data/grixis/m6/blind_inputs/A
+          test ! -e data/grixis/m6/sealed/A
+          test ! -e data/grixis/birthday_m5
+          test ! -e data/grixis/registry.json
+      - name: Reproduce sealed B using B-only projection
+        run: python scripts/grixis_m6_blind_replay.py --replay-b
+
+  post-reveal-audit:
+    needs: [projection-freeze, independent-pass-a, independent-pass-b]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.projection-freeze.outputs.frozen_sha }}
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Independently reconstruct projections and verify sealed Git commitments
+        run: |
+          python scripts/grixis_m6_blind_replay.py --verify-inputs
+          python scripts/grixis_m6_sealed.py --check
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/sealed/reconciliation_manifest.json').read_text())
+          assert d['counts']['decks']==62
+          assert d['pass_c']['complete'] is False
+          assert d['authority']['can_approve_or_lock'] is False
+          print('separate-runner A and B passed; existing sealed commits unchanged; no M6 acceptance')
+          PY

@@ -1,0 +1,4107 @@
+{
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "list_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "slug": "admiral-brass-unsinkable",
+ "swaps": [
+  {
+   "adds": [
+    "Kitesail Larcenist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:895361d1151e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:696a7dbadb658594"
+   ]
+  },
+  {
+   "adds": [
+    "Warkite Marauder"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:659d4730df8d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f7a45e8eaa534492"
+   ]
+  },
+  {
+   "adds": [
+    "Glint-Horn Buccaneer"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:85afc7e04dd9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:90efbce9f0f34a2c"
+   ]
+  },
+  {
+   "adds": [
+    "Spectral Sailor"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:fffee49ec892",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captivating Crew"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c4491a6de62c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:214657f0114bfb1a"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:dae8c17bfb23",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0d80657521b56850"
+   ]
+  },
+  {
+   "adds": [
+    "Kari Zev, Skyship Raider"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:092add4ceb87",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b24ff54fb8e3d582"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Negotiator"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:75e406fe9b3e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Desolate Lighthouse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d3329cea4c58",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5b35111a87d6b04e"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ef48a4057624",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:41cfd7aa42b85dc0"
+   ]
+  },
+  {
+   "adds": [
+    "Lethal Scheme"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:740722335b64",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:32a46dd53c1e0009"
+   ]
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4b68ea321706",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Port of Karfell"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f56cbdf32e46",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:a53d4b2544068bfd"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Saboteur"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9b16beb4a290",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Grim Captain's Locker"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1a68f308c8ef",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:652f770365c2dcdc"
+   ]
+  },
+  {
+   "adds": [
+    "Departed Deckhand"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:29c45780f78a",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fb41285a09ae04f3"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:72abe186e82a",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cd2383f387a7cb9c"
+   ]
+  },
+  {
+   "adds": [
+    "Windfall"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3098017b85b6",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2f7093ca1b0763dc"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7443876779da",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:43414734a95048b3"
+   ]
+  },
+  {
+   "adds": [
+    "Arm-Mounted Anchor"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9be176e252a5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:a284c178df08",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7877dddf8888",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8e605dc578600795"
+   ]
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:27b336f3f30d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:c4c353df65033f6d"
+   ]
+  },
+  {
+   "adds": [
+    "Vanquisher's Banner"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:453119bceba9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bident of Thassa"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e6a30fb41ea4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Geier Reach Sanitarium"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:75f951431601",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2d1dd0a182b450ed"
+   ]
+  },
+  {
+   "adds": [
+    "Pirated Copy"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:84483031b9c6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Distant Melody"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9278ffe082e0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:26e29af6133209c7"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:298f36c07138",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evacuation"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ec09ee304cbe",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:23a56ba777474423"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5e53b0ed1f49",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:30dbf26aec738f0f"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:14dc913681ea",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:a08ff7c9b5e2ed2c"
+   ]
+  },
+  {
+   "adds": [
+    "Terramorphic Expanse"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2e7aaac99373",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:856bad56db857ce1"
+   ]
+  },
+  {
+   "adds": [
+    "Herald's Horn"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:53ea81fa734d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:a966df4807938edf"
+   ]
+  },
+  {
+   "adds": [
+    "Unclaimed Territory"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f4216820a2ab",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:52c488aa32c5c805"
+   ]
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4047c6cc219e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:36c320a9518afea4"
+   ]
+  },
+  {
+   "adds": [
+    "Foreboding Ruins"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b423fa3f3114",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6f62cfd0dfc39006"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f8b0c088f085",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ee4f784c73cd132f"
+   ]
+  },
+  {
+   "adds": [
+    "Double Down"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0325f0a4503e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nephalia Drownyard"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:aac7290ba3c3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6f3bc8d2d73dd632"
+   ]
+  },
+  {
+   "adds": [
+    "Nesting Grounds"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e88d8d7f12c2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8255426fa8c2b1e0"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Isle"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:92881dcaaeba",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:053b9929a0cc59b7"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Bluff"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:11e7c0a96955",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3e24f19d1229e354"
+   ]
+  },
+  {
+   "adds": [
+    "Thriving Moor"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:034cd49896c3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:00b08726e01a644e"
+   ]
+  },
+  {
+   "adds": [
+    "Back in Town"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:a3c94b69fe29",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cacc904cf9beee47"
+   ]
+  },
+  {
+   "adds": [
+    "Siren's Ruse"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:966a2efac7a4",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3f2358c1fbab4a8c"
+   ]
+  },
+  {
+   "adds": [
+    "Icon of Ancestry"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b8029df9b2a0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:21bebc1bae0e209e"
+   ]
+  },
+  {
+   "adds": [
+    "Soul Diviner"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:44d82489a1a2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Staunch Crewmate"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:378efa24a5fe",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:a6711100c87d0d6a"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ec6c67b02acb",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cc23f15712c0b5b2"
+   ]
+  },
+  {
+   "adds": [
+    "Cutthroat Negotiator"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:04a41ce05417",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9cee167dc4aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Coastal Piracy"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6fc16b62c4f8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain Vargus Wrath"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9f9691daaeb2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:9131d0edd191c13f"
+   ]
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d3779eed92c0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:19b4e13b139dde2e"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Howler, Sea Scourge"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c43e93b557c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Vaan, Street Thief"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:69eacc0019a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dire Fleet Poisoner"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:af14d5b031df",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:7449f85a0cbda911"
+   ]
+  },
+  {
+   "adds": [
+    "Emberwilde Captain"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:655be6cc14bd",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:da43aafcca08d82b"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Captain"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d7571b82e624",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f758578ee307d14b"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Freebooter"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:435cd6fac9fb",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:115572e8182399b3"
+   ]
+  },
+  {
+   "adds": [
+    "Spyglass Siren"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:a4c0ae0a16e3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fa4a06ea6a241c57"
+   ]
+  },
+  {
+   "adds": [
+    "Lookout's Dispersal"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:40ce5a08964c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e6ce38211b3cb197"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c92710a1b3a1",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e9c17b2b54711bc5"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b7a6627dfb2d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:db77607ef663b305"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Drowned"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b36844c8d159",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:eedbda9b20e94983"
+   ]
+  },
+  {
+   "adds": [
+    "Chart a Course"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4ef8f9849455",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:439bdcec132abab9"
+   ]
+  },
+  {
+   "adds": [
+    "King Narfi's Betrayal"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5f799ca7e265",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1e0f0b28c92f842b"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1a8e7ef047b1",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:d9b16cd4ebd61a8e"
+   ]
+  },
+  {
+   "adds": [
+    "The Locust God"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4d5e0627753e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:dff952f2936fa0d1"
+   ]
+  },
+  {
+   "adds": [
+    "Raise the Palisade"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0c3385e9f9b2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ebd858448af1b397"
+   ]
+  },
+  {
+   "adds": [
+    "Fiery Cannonade"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:53e58b4c83e7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Unexpected Windfall"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:70af88a842e0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:dfeba612a6ae0739"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e475b6d786cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pirate's Pillage"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6567e499af53",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:972e8c08afa6fd56"
+   ]
+  },
+  {
+   "adds": [
+    "Patchwork Banner"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d037674915a2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:21593f3fc50e96fc"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:fc1d13b60aac",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b9f8d01f75fc6996"
+   ]
+  },
+  {
+   "adds": [
+    "Jackdaw"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:43c07d890378",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:20e8572adb84",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4a49cb851cef2a95"
+   ]
+  },
+  {
+   "adds": [
+    "Cryptcaller Chariot"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9fcbbdf37cca",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cc3e6016070e0690"
+   ]
+  },
+  {
+   "adds": [
+    "Angrath, Minotaur Pirate"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5c7eaad26575",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:58f87f8a9d53ad1d"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate Hat"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e8d4f1a8b1bc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cover of Darkness"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ba9dfcb0b406",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b9ff2a2792942d1a"
+   ]
+  },
+  {
+   "adds": [
+    "Hell's Caretaker"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1b60e12a1d2f",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:16ca41de5bbaebf7"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0321acb60f8f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chainer, Dementia Master"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3bd705aa606f",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:109f01b7e9ad6e81"
+   ]
+  },
+  {
+   "adds": [
+    "Reconnaissance Mission"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6db5c7d7e28d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3c2ab0cfc77f",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:082a10127b592799"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:72452c340c1b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:dfb393245ee82135"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6764f4b4f677",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:039d1310e01c8d4c"
+   ]
+  },
+  {
+   "adds": [
+    "The Belligerent"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b121945c058d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:090caf3154d9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2c8c37d2eac4b124"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:bea98a4bf351",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6998a2bb1799e570"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:053d4218ff37",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:9b7d6e47285c6f91"
+   ]
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ce0b9bd15c67",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3de62f018cd611b3"
+   ]
+  },
+  {
+   "adds": [
+    "Unmarked Grave"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2f275cbba3bf",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0572443292566547"
+   ]
+  },
+  {
+   "adds": [
+    "Moonstone, Harsh Mistress"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:485f0ef63cb3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:86ccf991b9fc43c2"
+   ]
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2dcf92967480",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2ce0d862950aa068"
+   ]
+  },
+  {
+   "adds": [
+    "Nico Minoru, Runaway"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ea457e6e73f2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fd4e401bbfac5114"
+   ]
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e8418bb83eb4",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:023318657985fb2a"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana the Repentant"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:749cd10acab5",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4dbe5c4b28e7896a"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e453dc00100d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:620c04a5a78f7199"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Reanimate"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:72f0283c0f2b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:149be7091d460913"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e03d7762685b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ed88b99f298bbdee"
+   ]
+  },
+  {
+   "adds": [
+    "Mirage Phalanx"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9e03bd8cf4a9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0f4afa76c3ad54bc"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Knight, Hero for Hire"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:832752d01d25",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:76974a8c9857",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:093b68647e515327"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Master Marksman"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:dc3263826ec2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c316327f9b38",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cff44c1ddcc2d5c7"
+   ]
+  },
+  {
+   "adds": [
+    "The Masters of Evil"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2a97ca703361",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4af8449b5a3f14dc"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, New Champion"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d120107a208a",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:521452131f83633e"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:76cc6d9b2354",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c659c83416c0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e2ae4e7f439f30b6"
+   ]
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:bbda5968f8c0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2b448a03a6001e0d"
+   ]
+  },
+  {
+   "adds": [
+    "Jaya Ballard, Task Mage"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:17b360b40d13",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:03ed4db0123ee05c"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5ddaba48a563",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0eded689811abaa3"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:cfb890273bb5",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e7caebe06ff5d1a1"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3df6c9794968",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:414ffd2ce792",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0e4473385ceb190b"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:aa0cfa5b720b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b53f7f7a3b06e1db"
+   ]
+  },
+  {
+   "adds": [
+    "Diplomatic Escort"
+   ],
+   "cuts": [
+    "Mana Drain"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9987149fbe3f",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:635aaa1806f6aa98"
+   ]
+  },
+  {
+   "adds": [
+    "Red Room Recruit"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:de09e5ca29c1",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3d22aee490d9ff3a"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Matter Manipulator"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:24f57f4b5109",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:580aa208bb6fc4ee"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:111fc2915a72",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:7ba97bc0447d7852"
+   ]
+  },
+  {
+   "adds": [
+    "Kindred Dominance"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b16d8d9bd57c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4c091c80005bad12"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:98c28a0f7ea0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Gideon the Oathless"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:dfdc3e975f77",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b21fbdb940340e19"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b6afa8724f95",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:89a11ba530a2837d"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:36c56ebf971d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f81327a7c6e05919"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:295738ec4d22",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yuriko, Hope from the Shadows"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0d9e404f73b5",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6eca3452f4b99fba"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Scientists"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:77c4c4816790",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:c9a31c2199c15009"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6bc294c66ed9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:da1cc08d68db839a"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c0ce432eef26",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:eb93cb8f4fc28036"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b4f91f55e795",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:47f291bfea6c60c0"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c73c28bcf841",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:de12416b1f41c92c"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Consulting Detective"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:fc59ce12a00e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seasoned Cryomancer"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3ca267d768a3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fcd336b0976b747c"
+   ]
+  },
+  {
+   "adds": [
+    "Valentina Allegra de Fontaine"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4b45dfe9977d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:74ad4d9afd6b6e6c"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Mancha, Runaway"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:a97a94633147",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1f59a449cc12a1c0"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Spider, Maybelle Reilly"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:45d971eb9202",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:19de9f48e34952e4"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9cc1ac2b8d16",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:062401597309bba7"
+   ]
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f5800493cf29",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chase Stein, Runaway"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d9c21c90b7f6",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ecfa8c8988d48fcc"
+   ]
+  },
+  {
+   "adds": [
+    "Hammer Mage"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:61a8cb8352ce",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:093b2ea4eff31812"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:79824113b366",
+   "tests": []
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1212627c2178",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:d5941f9f679b2738"
+   ]
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1a64e7803b8b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:289e754ba24c8358"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Ancient Tomb"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9c8932f29704",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:97dee4a804ced8df"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:dabf0bce6bdb",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ab0b2a60a82621f0"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:aaf50ae92428",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b2729d7ed5c9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1316a83f233b7ad4"
+   ]
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:068098f3c298",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6fd8561b07de3210"
+   ]
+  },
+  {
+   "adds": [
+    "MACH-1, Swooping Scoundrel"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:cce3a0e4e528",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8eebb769120724cd"
+   ]
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c99ccda60dd8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Victor Timely, Wily Tycoon"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c9f77612343d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:a43d16ec377096e8"
+   ]
+  },
+  {
+   "adds": [
+    "Hakim, Loreweaver"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6745fb0014ac",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3a0d68c14bcd3a31"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:aba323abb478",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4d0a9da877e6e8ab"
+   ]
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:040a07f8e12c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:185d64e4404d256d"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d1d72b2be8ad",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1e7d3faf15f624be"
+   ]
+  },
+  {
+   "adds": [
+    "Cryotheory Adept"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0cdaa6002668",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fdaea74ea4f49aca"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:db71e4642ced",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:83a2420e9f6941fe"
+   ]
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2301e4ac8fd3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:7bd7b2bc2d200178"
+   ]
+  },
+  {
+   "adds": [
+    "Kederekt Leviathan"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:91211e77d6a3",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:976f9e2a131d2462"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5432c414359e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:a7611269d96d4735"
+   ]
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4951067c9e7b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f030064324ccd043"
+   ]
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0bc04bcb130d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Snapcaster Mage"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9000fbdd2acf",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f3575db09fd2febb"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:33cc8fa08a04",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1cda2c6f0b25d5c7"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:442fbdee5ef2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:64693ce4abcdd9d0"
+   ]
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4af7cc1faad4",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fb1ae51b4d0758e9"
+   ]
+  },
+  {
+   "adds": [
+    "Impulsive Pilferer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d506c59c8aa1",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cd06fa0dba3f6655"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b36920c6656e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragon's Rage Channeler"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e75cf209bdfd",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cf919b8444b65414"
+   ]
+  },
+  {
+   "adds": [
+    "Inti, Seneschal of the Sun"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d1c91e4265ee",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:316800502c4438e0"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c8df9a679346",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bruvac the Grandiloquent"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1ff13226b507",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:d2603327074108ac"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:8645c7c7062a",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e1d54091c3a6c6ba"
+   ]
+  },
+  {
+   "adds": [
+    "Witch of the Moors"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d3e65d3a9f3d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6037165c1f691469"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:810cf8b567b2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cb9ec381487c0dec"
+   ]
+  },
+  {
+   "adds": [
+    "Metamorphosis Fanatic"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7c20a68cb9a8",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f3b485ca7735d373"
+   ]
+  },
+  {
+   "adds": [
+    "Magmakin Artillerist"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9908cedb8b8a",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b76d359e98d62b29"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d8c4d20811b5",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5768d29d50f32dad"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9e79d4b2b2a4",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fabb7b12c85beb8e"
+   ]
+  },
+  {
+   "adds": [
+    "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:45acd91b45ac",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5d9db1ac11b7ec2c"
+   ]
+  },
+  {
+   "adds": [
+    "Ardyn, the Usurper"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:da51a9517285",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2a0ae92b42a60ff1"
+   ]
+  },
+  {
+   "adds": [
+    "Vizier of Tumbling Sands"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:bfec53678cbf",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0d519879cf3d1814"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:dd57820db4da",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:a8a19a3e87ac",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1216dcccc6f705c1"
+   ]
+  },
+  {
+   "adds": [
+    "Rona, Herald of Invasion // Rona, Tolarian Obliterator"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ee396832cccd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Moon-Circuit Hacker"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:155fcc5abadd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain N'ghathrod"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:00023c0b4a0c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cb7234e412e71e84"
+   ]
+  },
+  {
+   "adds": [
+    "Reckless Lackey"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0897a3010c80",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5490247eb3587373"
+   ]
+  },
+  {
+   "adds": [
+    "Fanatical Firebrand"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:a84baed96270",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:82c5c80682bf7ef6"
+   ]
+  },
+  {
+   "adds": [
+    "Malcolm, the Eyes"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:912edc4abaf0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4bf75708cebcf59e"
+   ]
+  },
+  {
+   "adds": [
+    "Wily Goblin"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e45d42b13241",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:534261768b90c977"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Quartermaster"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3234ae8d08db",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2e408c248a343c3d"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Knave"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6ec970501d7e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:07f5c17e840e8bde"
+   ]
+  },
+  {
+   "adds": [
+    "Brineborn Cutthroat"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:246e5cf36fe1",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e387d6d419d6400c"
+   ]
+  },
+  {
+   "adds": [
+    "Oaken Siren"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f39a41925995",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e2b04be6c786980f"
+   ]
+  },
+  {
+   "adds": [
+    "Worldgorger Dragon"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:954db006fb58",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3502cfa89db609d5"
+   ]
+  },
+  {
+   "adds": [
+    "Dire Fleet Hoarder"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ada4ea9abf34",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:c7fa571af37a6448"
+   ]
+  },
+  {
+   "adds": [
+    "Bigfin Bouncer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b3612c336ca9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5fcb4b81c2a93c8c"
+   ]
+  },
+  {
+   "adds": [
+    "Sailor of Means"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:df87da5d7256",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:93c98abab4601162"
+   ]
+  },
+  {
+   "adds": [
+    "Plundering Pirate"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:53fa0f0b0517",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1046a933da5f63ce"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Plunderers"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:661638dd7c57",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:bc48c030c6f2d283"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Pirates"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:69a2a23dbf54",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:9e69b497775239eb"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Tomb Raider"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0e767dd13720",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b5be1677c93a4853"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Trailblazer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7e12170d9a6c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:43380159d9ea284f"
+   ]
+  },
+  {
+   "adds": [
+    "Skyship Plunderer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:de3cf72fa5a2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:164b171349ddda56"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Pirates"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7c9b2aaccde8",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1575436f15fac28e"
+   ]
+  },
+  {
+   "adds": [
+    "Burdened Aerialist"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:564b7e573240",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f2e953689103f111"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:76050c511309",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:c61a6bd83ee2a648"
+   ]
+  },
+  {
+   "adds": [
+    "Mine Raider"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:138c12e40933",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8ae3d4e8e2167adf"
+   ]
+  },
+  {
+   "adds": [
+    "Brazen Freebooter"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:54dde6045c03",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:32155de246606dec"
+   ]
+  },
+  {
+   "adds": [
+    "Kitesail Corsair"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7030e7c9a4fd",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:9c2656c37fb8bc55"
+   ]
+  },
+  {
+   "adds": [
+    "Rigging Runner"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5cddf43b72be",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:d3ecb34829c943db"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Brawler"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f1e6b57464c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grasping Scoundrel"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:d0b78668de99",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f50fc5e305cb46ca"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Aerialist"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:94e0843d28fd",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:9542caf7292fa393"
+   ]
+  },
+  {
+   "adds": [
+    "Wanted Scoundrels"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e6f64a927fbe",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ac09ff9385bf4375"
+   ]
+  },
+  {
+   "adds": [
+    "Pirate Ship"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:97792192106e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:fbea9466d0c4b90e"
+   ]
+  },
+  {
+   "adds": [
+    "Skyship Buccaneer"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c6e269613b25",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Watcher in the Water"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7960fbe8cd06",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:f84cc41fb5f34cfe"
+   ]
+  },
+  {
+   "adds": [
+    "Gorehorn Raider"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e4cbf64e59fc",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8b4409f5e313614e"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Buccaneer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0f59fb937c1f",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:7f6c28f09b2645e9"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Swashbuckler"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:8e9589ad9331",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5bbf73e27558bc29"
+   ]
+  },
+  {
+   "adds": [
+    "Kukemssa Pirates"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:8a0b9a972a96",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:20e317b762f0af08"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Spy"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1db1c10ddc1f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3c43e00a2051",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4a2b7691604e4800"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Sentry"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:15a8965e2b52",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1bb8fc5ce18c3446"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Explorer"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:46a126bf68ce",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b71b814cbb7f198c"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Rig-Hauler"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b7ac055cc0ec",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8ec99997b7381f0f"
+   ]
+  },
+  {
+   "adds": [
+    "Swab Goblin"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:89008782a4b9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:31b1b55c53c0b86c"
+   ]
+  },
+  {
+   "adds": [
+    "Storm Fleet Pyromancer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b8990b847daf",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:17293d7d9255d741"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Cutthroat"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ff9bf50534f9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2101c9ee6db1cd46"
+   ]
+  },
+  {
+   "adds": [
+    "Fathom Fleet Firebrand"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:935b460613a6",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1e8ef99c12ca67c6"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Scout"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:5a6b0a5e6703",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0aef9c9cd4ed1a5c"
+   ]
+  },
+  {
+   "adds": [
+    "Desperate Castaways"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ff7fa65a3e1d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e3425f54e066d3dc"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Researcher"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:74de2f3a6fa0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dinosaur Hunter"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:43ff181dba2c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:c10ac334a046e575"
+   ]
+  },
+  {
+   "adds": [
+    "Smuggler Captain"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:49c1943f0830",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:4d4bdf7a0181cd52"
+   ]
+  },
+  {
+   "adds": [
+    "Talas Merchant"
+   ],
+   "cuts": [
+    "Mary Read and Anne Bonny"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:1e049ee6475c",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:bb3961c8e9373928"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:9d3430c3928b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:44c8c64d4a842f95"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:cf99579c1366",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:652b90fdbf3d7cf1"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b8716e5fc955",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:2b3c2d8a6c16966b"
+   ]
+  },
+  {
+   "adds": [
+    "Delina, Wild Mage"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c44cbb4af992",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0f5c15bbbe23ebd4"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:8f78e68a5326",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:49fef866cc056d64"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Talisman of Indulgence"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:3f1f13f0ba5d",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:067746a6e12b3ad1"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:4ba9948e4ec2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:80b4663a052ccbec"
+   ]
+  },
+  {
+   "adds": [
+    "Revel in Riches"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ff174da05692",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:0aad92e16a82e017"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e8e6d75d3d08",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:be3d4104e6e78b3d"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Shared Animosity"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:6bb8c1cfda1b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cb743be5e887f905"
+   ]
+  },
+  {
+   "adds": [
+    "Calamity, Galloping Inferno"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0f08a5702450",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1c607e7a498bb04b"
+   ]
+  },
+  {
+   "adds": [
+    "Calamity, Galloping Inferno"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b19a7c5014c0",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:ec23a32874688836"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:11b9705d47ea",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:46f928796fa31e5c"
+   ]
+  },
+  {
+   "adds": [
+    "Koh, the Face Stealer"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:48df5a1827c5",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cbb5368cca6dd901"
+   ]
+  },
+  {
+   "adds": [
+    "Discreet Retreat"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:874218396989",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:bfb562ed1989fec0"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Steed"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:7fcdaf4f79b5",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:d4180221744eb640"
+   ]
+  },
+  {
+   "adds": [
+    "Phantom Steed"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2413a79cd88e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:8ec789347dd02031"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Jeska's Will"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:f17901514d5e",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:26d6efd9f435a3ed"
+   ]
+  },
+  {
+   "adds": [
+    "Sandstorm Crasher"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:0d72f63ab306",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:afc33711b2bb8aca"
+   ]
+  },
+  {
+   "adds": [
+    "Sandstorm Crasher"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b40ec0650b4b",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:da583d7e416df0d4"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:e1c29d7922d9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:23c79b57ddb4354c"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:89534c7c2dc9",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:6f24003d443248b0"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2a5e109a8c73",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:b090332a0b95f28a"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Shared Animosity"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:ebfed5ec8653",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:dd891dfdcb379f4f"
+   ]
+  },
+  {
+   "adds": [
+    "Take the Fall"
+   ],
+   "cuts": [
+    "Kindred Discovery"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b1c5ca07a849",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:cb23870fa00e9297"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Animate Dead"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:37e0e707e7df",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:49e28454714ddc1f"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Warrens"
+   ],
+   "cuts": [
+    "Shared Animosity"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:2c93131e4a01",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:1cdfc28366003f8e"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Edward Kenway"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:c604800c90d2",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:3a8bf8765a8b940c"
+   ]
+  },
+  {
+   "adds": [
+    "Slick Imitator"
+   ],
+   "cuts": [
+    "Angrath's Marauders"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:51bb95db1792",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:5f122723e5ef035b"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:admiral-brass-unsinkable:m5:b75a7624f95f",
+   "tests": [
+    "test:admiral-brass-unsinkable:goldfish:e2376dc43f29d700"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:696a7dbadb658594",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f7a45e8eaa534492",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:90efbce9f0f34a2c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:214657f0114bfb1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0d80657521b56850",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b24ff54fb8e3d582",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5b35111a87d6b04e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:41cfd7aa42b85dc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:32a46dd53c1e0009",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:a53d4b2544068bfd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:652f770365c2dcdc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fb41285a09ae04f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cd2383f387a7cb9c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2f7093ca1b0763dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:43414734a95048b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8e605dc578600795",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:c4c353df65033f6d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2d1dd0a182b450ed",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:26e29af6133209c7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:23a56ba777474423",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:30dbf26aec738f0f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:a08ff7c9b5e2ed2c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:856bad56db857ce1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:a966df4807938edf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:52c488aa32c5c805",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:36c320a9518afea4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6f62cfd0dfc39006",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ee4f784c73cd132f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6f3bc8d2d73dd632",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8255426fa8c2b1e0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:053b9929a0cc59b7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3e24f19d1229e354",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:00b08726e01a644e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cacc904cf9beee47",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3f2358c1fbab4a8c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:21bebc1bae0e209e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:a6711100c87d0d6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cc23f15712c0b5b2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:9131d0edd191c13f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:19b4e13b139dde2e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:7449f85a0cbda911",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:da43aafcca08d82b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f758578ee307d14b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:115572e8182399b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fa4a06ea6a241c57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e6ce38211b3cb197",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e9c17b2b54711bc5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:db77607ef663b305",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:eedbda9b20e94983",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:439bdcec132abab9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1e0f0b28c92f842b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:d9b16cd4ebd61a8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:dff952f2936fa0d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ebd858448af1b397",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:dfeba612a6ae0739",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:972e8c08afa6fd56",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:21593f3fc50e96fc",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b9f8d01f75fc6996",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4a49cb851cef2a95",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cc3e6016070e0690",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:58f87f8a9d53ad1d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b9ff2a2792942d1a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:16ca41de5bbaebf7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:109f01b7e9ad6e81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:082a10127b592799",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:dfb393245ee82135",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:039d1310e01c8d4c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2c8c37d2eac4b124",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6998a2bb1799e570",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:9b7d6e47285c6f91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3de62f018cd611b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0572443292566547",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:86ccf991b9fc43c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2ce0d862950aa068",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fd4e401bbfac5114",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:023318657985fb2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4dbe5c4b28e7896a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:620c04a5a78f7199",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:149be7091d460913",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ed88b99f298bbdee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0f4afa76c3ad54bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:093b68647e515327",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cff44c1ddcc2d5c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4af8449b5a3f14dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:521452131f83633e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e2ae4e7f439f30b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2b448a03a6001e0d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:03ed4db0123ee05c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0eded689811abaa3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e7caebe06ff5d1a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0e4473385ceb190b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b53f7f7a3b06e1db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:635aaa1806f6aa98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3d22aee490d9ff3a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:580aa208bb6fc4ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:7ba97bc0447d7852",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4c091c80005bad12",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b21fbdb940340e19",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:89a11ba530a2837d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f81327a7c6e05919",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6eca3452f4b99fba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:c9a31c2199c15009",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:da1cc08d68db839a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:eb93cb8f4fc28036",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:47f291bfea6c60c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:de12416b1f41c92c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fcd336b0976b747c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:74ad4d9afd6b6e6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1f59a449cc12a1c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:19de9f48e34952e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:062401597309bba7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ecfa8c8988d48fcc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:093b2ea4eff31812",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:d5941f9f679b2738",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:289e754ba24c8358",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:97dee4a804ced8df",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ab0b2a60a82621f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1316a83f233b7ad4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6fd8561b07de3210",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8eebb769120724cd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:a43d16ec377096e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3a0d68c14bcd3a31",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4d0a9da877e6e8ab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:185d64e4404d256d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1e7d3faf15f624be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fdaea74ea4f49aca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:83a2420e9f6941fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:7bd7b2bc2d200178",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:976f9e2a131d2462",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:a7611269d96d4735",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f030064324ccd043",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f3575db09fd2febb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1cda2c6f0b25d5c7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:64693ce4abcdd9d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fb1ae51b4d0758e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cd06fa0dba3f6655",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cf919b8444b65414",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:316800502c4438e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:d2603327074108ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e1d54091c3a6c6ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6037165c1f691469",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cb9ec381487c0dec",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f3b485ca7735d373",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b76d359e98d62b29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5768d29d50f32dad",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fabb7b12c85beb8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5d9db1ac11b7ec2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2a0ae92b42a60ff1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0d519879cf3d1814",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1216dcccc6f705c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cb7234e412e71e84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5490247eb3587373",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:82c5c80682bf7ef6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4bf75708cebcf59e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:534261768b90c977",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2e408c248a343c3d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:07f5c17e840e8bde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e387d6d419d6400c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e2b04be6c786980f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3502cfa89db609d5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:c7fa571af37a6448",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5fcb4b81c2a93c8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:93c98abab4601162",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1046a933da5f63ce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:bc48c030c6f2d283",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:9e69b497775239eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b5be1677c93a4853",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:43380159d9ea284f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:164b171349ddda56",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1575436f15fac28e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f2e953689103f111",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:c61a6bd83ee2a648",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8ae3d4e8e2167adf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:32155de246606dec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:9c2656c37fb8bc55",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:d3ecb34829c943db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f50fc5e305cb46ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:9542caf7292fa393",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ac09ff9385bf4375",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:fbea9466d0c4b90e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:f84cc41fb5f34cfe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8b4409f5e313614e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:7f6c28f09b2645e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5bbf73e27558bc29",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:20e317b762f0af08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4a2b7691604e4800",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1bb8fc5ce18c3446",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b71b814cbb7f198c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8ec99997b7381f0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:31b1b55c53c0b86c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:17293d7d9255d741",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2101c9ee6db1cd46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1e8ef99c12ca67c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0aef9c9cd4ed1a5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e3425f54e066d3dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:c10ac334a046e575",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:4d4bdf7a0181cd52",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:bb3961c8e9373928",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:44c8c64d4a842f95",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:652b90fdbf3d7cf1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:2b3c2d8a6c16966b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0f5c15bbbe23ebd4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:49fef866cc056d64",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:067746a6e12b3ad1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:80b4663a052ccbec",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:0aad92e16a82e017",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:be3d4104e6e78b3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cb743be5e887f905",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1c607e7a498bb04b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:ec23a32874688836",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:46f928796fa31e5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cbb5368cca6dd901",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:bfb562ed1989fec0",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:d4180221744eb640",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:8ec789347dd02031",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:26d6efd9f435a3ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:afc33711b2bb8aca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:da583d7e416df0d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:23c79b57ddb4354c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:6f24003d443248b0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:b090332a0b95f28a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:dd891dfdcb379f4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:cb23870fa00e9297",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:49e28454714ddc1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:1cdfc28366003f8e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:3a8bf8765a8b940c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:5f122723e5ef035b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:admiral-brass-unsinkable:goldfish:e2376dc43f29d700",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}

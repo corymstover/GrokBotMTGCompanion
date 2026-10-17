@@ -1,0 +1,3095 @@
+{
+ "deck_id": "Kess__Dissident_Mage",
+ "list_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+ "slug": "kess-dissident-mage",
+ "swaps": [
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:226210190a77",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6f03ca35d9d51983"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:4c7056770931",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:b2356441ff632e7d"
+   ]
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:288af0598d3f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6fa3a03cf1f789e7"
+   ]
+  },
+  {
+   "adds": [
+    "Preordain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:341041e0a731",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:c17d7814e6b4769e"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2d7d693ae66a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:5d119446506505e8"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:96c5dd1661ca",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:0f980f07be5bdab4"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:af41d3a2895a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:7a14de2af5b1be42"
+   ]
+  },
+  {
+   "adds": [
+    "Jeska's Will"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:9b07e23b7a94",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:bedee423b0b1675d"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:389855049fcb",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:5117c30f8d76e756"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:540f2bda9e10",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a092b0fda4cb7db2"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2c3068af2f31",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:c6b7aaf15b65c736"
+   ]
+  },
+  {
+   "adds": [
+    "Consider"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7866b0fddfa2",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:99c6fc9fe8f71cd2"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3986142fb50c",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9c9606918a5a847a"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0d4c2543274b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:66d7dbe7c6d6628c"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d304ea3e8205",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a28f495decf5",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:163d28bf783fddda"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:9c19ddf90118",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a4752a24b07fdf6a"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Bolt"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:81ed93d9015f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c0a623ea0cb0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:32eea5fe4af3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5ac556da0722",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d6b5855b6d162728"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:57c327263783",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9968e5dc474f61af"
+   ]
+  },
+  {
+   "adds": [
+    "Baral, Chief of Compliance"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b0c72d74a74e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6041bb54bee28df1"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f3034bce7a94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:18504bd9645e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fact or Fiction"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e3cb6f4d1358",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:7cbb7a35977cf86c"
+   ]
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f472083182ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Increasing Vengeance"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f456b9e1e3e2",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:86172abe149744dd"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:eb3735ee0e03",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:df78df7e1075",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:04140a3a2b6642db"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Song"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a06e0062e480",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6701b2e2eec65f93"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:82b562ea5528",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6b8f1a02c587",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0f341ad37af4",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a25c721c4d530f5d"
+   ]
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:fb0f2ef4e99a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:153d7fab4c1109df"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:da75e016153f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:84b3b4d840ab1393"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e38f2fb41cc6",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:83fcf116f0399f9a"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5acf6afdd657",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:988c1c3eb90f0a7b"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0605aedf3ca5",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:cf38041f4f7eac17"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:27de43944aba",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:00917927fb68",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8e0518dbb2a608d9"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:701e19c0026b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:1047657d6bcd71f1"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0018d2165f9b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6f06552632a4439f"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:4ee639ff0c3d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:cfcb9726bae54d3f"
+   ]
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:1d3d12dcc9d8",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6378906c7d1cc312"
+   ]
+  },
+  {
+   "adds": [
+    "Exotic Orchard"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3e89a6d3d6a1",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:048c963eb3be81d9"
+   ]
+  },
+  {
+   "adds": [
+    "See the Truth"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:45ab37249dd2",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8fb5b32e8a99eca4"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:deff5f11e02f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:22a782c03a9ecd65"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:25b23c357be7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thrill of Possibility"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:dede45ee1ad7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:de05552cc215e1a4"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7c53c98acafe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d45cb6f35ee2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bc608d628106",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:221ea65dbc9b1335"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Iteration"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e8d8c416789b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:909458c1c01b0f3e"
+   ]
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0a74ba60ad5c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archmage of Runes"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5ae9b5d9015d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:dbb1aba4b4ec2e3d"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Scour"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:180ff4e11558",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:af39a82bd451f04c"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcatch Mentor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:502be4a784c9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8a4020f2830fd271"
+   ]
+  },
+  {
+   "adds": [
+    "Serum Visions"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:dad8718415d9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e3a2fa47a9e748d6"
+   ]
+  },
+  {
+   "adds": [
+    "Abrade"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:df5374228163",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c512d573c8fa",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:fde9a974db802dff"
+   ]
+  },
+  {
+   "adds": [
+    "Torment of Hailfire"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cde2a369a22a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:984c21bd851aae17"
+   ]
+  },
+  {
+   "adds": [
+    "Undercity Sewers"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ae7029075a3b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:07b0cc6c81a14fd3"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cc3d20e3c81d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:944094d380ad3443"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:113411383924",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a71fd716a2a3d0ee"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:274d4d1d2f0a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:586c0e4d4f17bcc9"
+   ]
+  },
+  {
+   "adds": [
+    "Archaeomancer"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ee2d14f6137e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6d31d7f6a0f9435f"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ac782cb5fd1f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:ac462d6dc21f8bb3"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ced238506dc7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:95b788cc3af3948d"
+   ]
+  },
+  {
+   "adds": [
+    "Solve the Equation"
+   ],
+   "cuts": [
+    "Spellseeker"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2a179cd59b33",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:928ac4dc49c50e65"
+   ]
+  },
+  {
+   "adds": [
+    "Night's Whisper"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:20f4b129a516",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:4a201364a2e7f492"
+   ]
+  },
+  {
+   "adds": [
+    "Thundering Falls"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e0e06d5d306a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:21e6f7560ae729d9"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:410be4327644",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:57233b7d045f8221"
+   ]
+  },
+  {
+   "adds": [
+    "Secrets of the Dead"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cef889d1ac38",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:532853be438c2bc2"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:39d5d1cc12af",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d6a8ee6eccc1845c"
+   ]
+  },
+  {
+   "adds": [
+    "Grapeshot"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:4569b56fe595",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Muddle the Mixture"
+   ],
+   "cuts": [
+    "An Offer You Can't Refuse"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6579081771ea",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:38f4e8f6893b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:180e3179f52d3ef6"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:368be48008e4",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:f34511c3c371c996"
+   ]
+  },
+  {
+   "adds": [
+    "Niv-Mizzet, Parun"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:9e3d04c03feb",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:76dd59fcd4d9223a"
+   ]
+  },
+  {
+   "adds": [
+    "Big Score"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d6108d34127a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:df43210e8246d735"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Charm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a37a0156ea75",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:c68d5c9724ca982d"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d1a1b86ae7ec",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:4d0e472d1a43f44c"
+   ]
+  },
+  {
+   "adds": [
+    "Pongify"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:28eb7268931e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ce5243bd36c2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Coruscation Mage"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6982936c795a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:248ee287ed6f0095"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Command"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3f2be5e2470d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:07d83a3391893440"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Year Storm"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8b3ad2e0fa27",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6f4b45c840d8483e"
+   ]
+  },
+  {
+   "adds": [
+    "Careful Study"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:13ec818a5c63",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9d5e017d62849f2b"
+   ]
+  },
+  {
+   "adds": [
+    "Raucous Theater"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e525ba79be0e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:646e2f779647dd26"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6c0412a97001",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:160af7ba7fa9fa6f"
+   ]
+  },
+  {
+   "adds": [
+    "Peer into the Abyss"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:3d89a1e654a0",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:83e1ce16bb0f2b9b"
+   ]
+  },
+  {
+   "adds": [
+    "Flow State"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:937f43d4e8a3",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d6b1d7c4d5565fe4"
+   ]
+  },
+  {
+   "adds": [
+    "Wheel of Misfortune"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d78a8939a691",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:7fe51dae09662bb3"
+   ]
+  },
+  {
+   "adds": [
+    "Flashback"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:443a2beb0b3c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Veyran, Voice of Duality"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e4ad635b8c5a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:728dbeeed99bb307"
+   ]
+  },
+  {
+   "adds": [
+    "Past in Flames"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e3a816f8793b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Fiery Inscription"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:025224acb9f0",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d34469ac418b1669"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Cruise"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e846f05471fa",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:b2ca1afaff79d15a"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:94bdf6095e2a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:373160a4fb7ad49a"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ddc8cd1445f7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:303407fa415c3e27"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:16cb730d688c",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e299eec829fd2c09"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:efad543eeebb",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:507232f157521c12"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Shift"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:1138593bf6aa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:70684229ad6d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:7764e11daa5518c7"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e31dd340917b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:22cd4f4000987029"
+   ]
+  },
+  {
+   "adds": [
+    "Circle of Power"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cfb6e28078fa",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:f39e81c2a92df165"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari, the Inspiration"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:78d485d5edd5",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:033ff92948236f94"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7b07cbc86433",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d63fd2f78778edc7"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:49904d9f8805",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e5e084546b32e398"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ab479925d8b7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a98bb7b0d38a7289"
+   ]
+  },
+  {
+   "adds": [
+    "Cathartic Reunion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f66da35b38c9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:cd3dfd432a59b859"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:37bdb17d158e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:5f59cf8125e0c023"
+   ]
+  },
+  {
+   "adds": [
+    "Sign in Blood"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:22d9c9daf7c3",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:848aba3b960f47aa"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:159323da2283",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a21dbc058eec5c65"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:57d0741ff2c0",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8d3cc80bf233c4ba"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Sublime Artificer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:f714be47512d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:de72ba05a6fb6382"
+   ]
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:51ea0f391c10",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:322ea5fe5233d604"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:930b68fcc868",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:77ccef8b5411ebaf"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c7718a90ac57",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:86ddf27722bbc4cb"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a1da685b203b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:0820c3562c9a5a7f"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8132b3227070",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e55ab8868960b6f1"
+   ]
+  },
+  {
+   "adds": [
+    "Retraction Helix"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:af2b2597178e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:3eb039dcdb49a277"
+   ]
+  },
+  {
+   "adds": [
+    "Exhibition Tidecaller"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bf0c341bfb50",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:95d7eeb51e162ae5"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:aa6c96585692",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:b03acca90f50e35f"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6c5cfa899ecc",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:038b66b3a6c72b4f"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2679fa8c4176",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8486d3552188eae1"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b02d7e794454",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:f9baac19b5cd2564"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6ffbea94dc96",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:766a2a288c9614de"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0dfb173ae2cd",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9c294c4c8c1d1dd9"
+   ]
+  },
+  {
+   "adds": [
+    "Banishing Knack"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0356e2836f80",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:62bf2d4fde7167b2"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7ef706dbc920",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a326334cafd3c65a"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Wall"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:01ce54f80e56",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:2121cc8a01578524"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:73e0e6fac89e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:04d00e29747e49e8"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Dowser"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e9e1119a38b9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9bd21b4aeddb9250"
+   ]
+  },
+  {
+   "adds": [
+    "Withering Torment"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:230d2d631a87",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Invasion of Arcavios // Invocation of the Founders"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:259a9cc49692",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:4bee88e6c8ea242a"
+   ]
+  },
+  {
+   "adds": [
+    "Invasion of Arcavios // Invocation of the Founders"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c5aff0d3131d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e6962d504f6908dc"
+   ]
+  },
+  {
+   "adds": [
+    "Ral, Crackling Wit"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c3374c802297",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:98806d5898461be5"
+   ]
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d3bf6774bd20",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:64ca65a116817905"
+   ]
+  },
+  {
+   "adds": [
+    "Notion Thief"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bb73af776d49",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:fa04a05bc2a01025"
+   ]
+  },
+  {
+   "adds": [
+    "Laboratory Maniac"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e0031ed410af",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:2fb91bbd696021ee"
+   ]
+  },
+  {
+   "adds": [
+    "Artist's Talent"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c1436e776d01",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:21a446e381485069"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cfaa46b6809c",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:750b6d39e71c3117"
+   ]
+  },
+  {
+   "adds": [
+    "Chancellor of the Spires"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ba5268da1fbd",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:493b4bfe976c51c1"
+   ]
+  },
+  {
+   "adds": [
+    "Thunderclap Drake"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:ad4323e50fd3",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:2e3ed52ff979bbfa"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:fa8c8c8820c9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:11e69cc4b3892eab"
+   ]
+  },
+  {
+   "adds": [
+    "Electrostatic Field"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5a91a224d5ec",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:4802aad26fe43dbf"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:15dfe6b1ba36",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d8fddac5a56a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:3ffd7a57286c4ecc"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:acc53a6c84de",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8c494271247277c7"
+   ]
+  },
+  {
+   "adds": [
+    "Hex Magic"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c32106ba3c38",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d38dd08d5cbfc588"
+   ]
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7deef1ed020c",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:907a9de7a71cf0ed"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d88e1ce0be49",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:ee63e13f55125386"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a4046febb4c9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:060c9b7064aad16d"
+   ]
+  },
+  {
+   "adds": [
+    "Talrand, Sky Summoner"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:323de190336a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:5c1fbe19b16ec49b"
+   ]
+  },
+  {
+   "adds": [
+    "Tablet of Discovery"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:5f7241a1b2ed",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:22a09ea7b20eb3b2"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Alive"
+   ],
+   "cuts": [
+    "Spellseeker"
+   ],
+   "id": "swap:kess-dissident-mage:m5:fbf2cc98e36f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:1ffcd15cc44810d6"
+   ]
+  },
+  {
+   "adds": [
+    "Whispering Madness"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:eb4f1d64a1d8",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:bbc449b6b8424ec1"
+   ]
+  },
+  {
+   "adds": [
+    "Ajani Unrelenting"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8357a29557d6",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9083fcbfb7fb2a07"
+   ]
+  },
+  {
+   "adds": [
+    "Splatter Technique"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:91fedf0bd0b2",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:95b8c00bdd8eb581"
+   ]
+  },
+  {
+   "adds": [
+    "Firebrand Archer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8c7c07868d0d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:1ea716aa7b67536f"
+   ]
+  },
+  {
+   "adds": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:297c30cdda1b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:88e1851a15d506e1"
+   ]
+  },
+  {
+   "adds": [
+    "Jace, Wielder of Mysteries"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d6a7c7ee69d2",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:5d0f0968d5d596bd"
+   ]
+  },
+  {
+   "adds": [
+    "Reforge the Soul"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:907592d8772f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:aee3fdb4639c1c27"
+   ]
+  },
+  {
+   "adds": [
+    "Kessig Flamebreather"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8b035714f62b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:dbe41a234d6c9e5b"
+   ]
+  },
+  {
+   "adds": [
+    "The Echoverse Fulcrum"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e29ff8e3f3fd",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9e8bcdecdbca956b"
+   ]
+  },
+  {
+   "adds": [
+    "Victimize"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b6864278023d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:7db6f2294f35b699"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Deathbringer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:716b6e1896dc",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:8297f7ccfbc81fb8"
+   ]
+  },
+  {
+   "adds": [
+    "Swarm Intelligence"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:31a655e9cf97",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:7732d2631417b505"
+   ]
+  },
+  {
+   "adds": [
+    "Dark Deal"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:11a0cb76fba7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e3a644fa5d56f928"
+   ]
+  },
+  {
+   "adds": [
+    "Paradigm Shift"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:kess-dissident-mage:m5:52602a1c9020",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:4c5ffa0c30bd5997"
+   ]
+  },
+  {
+   "adds": [
+    "Persist"
+   ],
+   "cuts": [
+    "Necropotence"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d05a8b6888f9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Divining Witch"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:kess-dissident-mage:m5:cda8335ab908",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:3c206e70c8f466b6"
+   ]
+  },
+  {
+   "adds": [
+    "Praetor's Grasp"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8af346c93c1b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:cdb26331bf1850e4"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:b425b2d679de",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e71dd6d3ae341175"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "City of Traitors"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d850085d4967",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:613240ffbb156e8f"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2b618aa8c693",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:4494f90f3f15fcf1"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:7f80156a4e29",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:ba694e59bd2430c8"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:a1e42669305b",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:c55ade194b4279d9"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Firesinger // Seething Song"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2bed71738c73",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:62deecdde53b1755"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:e3f68d432119",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:6541ceac12839bc9"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Glasswright // Craft with Pride"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:11430cc7f3d2",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:cca7c511b6613635"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:72559e09397d",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:56de9398948d4ec1"
+   ]
+  },
+  {
+   "adds": [
+    "Requiem Monolith"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:0cf6a0de1178",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:76077a16d73c2e78"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:kess-dissident-mage:m5:8805dd706f64",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d57b8f9afe3d902b"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:kess-dissident-mage:m5:2ddd210cb3da",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:3a1f5d890ffe99b3"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:dbf97df90409",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:b4e8fac98b8fce60"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Shaper Savant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:84e498f96798",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:383e3ab46c618869"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:6ca56ba4d9a3",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d9861a776b8033bc"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:acbbcfb4fc0f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:78f8fd2aaef93687"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:80f0c7345014",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:c86715aaec407078"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:599584b81816",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:a21dbb0e1d44e32a"
+   ]
+  },
+  {
+   "adds": [
+    "Brinelin, the Moon Kraken"
+   ],
+   "cuts": [
+    "Orcish Bowmasters"
+   ],
+   "id": "swap:kess-dissident-mage:m5:65128e3c8b8c",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:501df2ca81a747b3"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:981b398ba4a7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:9e2066eeb79ccce8"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Mox Opal"
+   ],
+   "id": "swap:kess-dissident-mage:m5:469b541a7c0a",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:e51f9f7c912fcc6e"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:18a085a21bc7",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:faecb1452aa10fcf"
+   ]
+  },
+  {
+   "adds": [
+    "Neera, Wild Mage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:66a94402ea1f",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:f812b8013aa545fb"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:kess-dissident-mage:m5:1181827b141e",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:d0844b7998ba2f4b"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:kess-dissident-mage:m5:d19fd759c5ed",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:91af705e80c1a0d5"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:c6a1ce465886",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:1cb06c7eec7fd600"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:kess-dissident-mage:m5:081fe9f023f9",
+   "tests": [
+    "test:kess-dissident-mage:goldfish:5250a266cbe97b74"
+   ]
+  },
+  {
+   "adds": [
+    "Lightning Greaves"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:kess-dissident-mage:m5:bfd26abab25e",
+   "tests": []
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:kess-dissident-mage:goldfish:6f03ca35d9d51983",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:b2356441ff632e7d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6fa3a03cf1f789e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:c17d7814e6b4769e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:5d119446506505e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:0f980f07be5bdab4",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:7a14de2af5b1be42",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:bedee423b0b1675d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:5117c30f8d76e756",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a092b0fda4cb7db2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:c6b7aaf15b65c736",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:99c6fc9fe8f71cd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9c9606918a5a847a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:66d7dbe7c6d6628c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:163d28bf783fddda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a4752a24b07fdf6a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d6b5855b6d162728",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9968e5dc474f61af",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6041bb54bee28df1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:7cbb7a35977cf86c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:86172abe149744dd",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:04140a3a2b6642db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6701b2e2eec65f93",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a25c721c4d530f5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:153d7fab4c1109df",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:84b3b4d840ab1393",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:83fcf116f0399f9a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:988c1c3eb90f0a7b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:cf38041f4f7eac17",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8e0518dbb2a608d9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:1047657d6bcd71f1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6f06552632a4439f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:cfcb9726bae54d3f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6378906c7d1cc312",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:048c963eb3be81d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8fb5b32e8a99eca4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:22a782c03a9ecd65",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:de05552cc215e1a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:221ea65dbc9b1335",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:909458c1c01b0f3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:dbb1aba4b4ec2e3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:af39a82bd451f04c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8a4020f2830fd271",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e3a2fa47a9e748d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:fde9a974db802dff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:984c21bd851aae17",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:07b0cc6c81a14fd3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:944094d380ad3443",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a71fd716a2a3d0ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:586c0e4d4f17bcc9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6d31d7f6a0f9435f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:ac462d6dc21f8bb3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:95b788cc3af3948d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:928ac4dc49c50e65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:4a201364a2e7f492",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:21e6f7560ae729d9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:57233b7d045f8221",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:532853be438c2bc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d6a8ee6eccc1845c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:180e3179f52d3ef6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:f34511c3c371c996",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:76dd59fcd4d9223a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:df43210e8246d735",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:c68d5c9724ca982d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:4d0e472d1a43f44c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:248ee287ed6f0095",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:07d83a3391893440",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6f4b45c840d8483e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9d5e017d62849f2b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:646e2f779647dd26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:160af7ba7fa9fa6f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:83e1ce16bb0f2b9b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d6b1d7c4d5565fe4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:7fe51dae09662bb3",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:728dbeeed99bb307",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d34469ac418b1669",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:b2ca1afaff79d15a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:373160a4fb7ad49a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:303407fa415c3e27",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e299eec829fd2c09",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:507232f157521c12",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:7764e11daa5518c7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:22cd4f4000987029",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:f39e81c2a92df165",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:033ff92948236f94",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d63fd2f78778edc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e5e084546b32e398",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a98bb7b0d38a7289",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:cd3dfd432a59b859",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:5f59cf8125e0c023",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:848aba3b960f47aa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a21dbc058eec5c65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8d3cc80bf233c4ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:de72ba05a6fb6382",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:322ea5fe5233d604",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:77ccef8b5411ebaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:86ddf27722bbc4cb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:0820c3562c9a5a7f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e55ab8868960b6f1",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:3eb039dcdb49a277",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:95d7eeb51e162ae5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:b03acca90f50e35f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:038b66b3a6c72b4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8486d3552188eae1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:f9baac19b5cd2564",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:766a2a288c9614de",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9c294c4c8c1d1dd9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:62bf2d4fde7167b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a326334cafd3c65a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:2121cc8a01578524",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:04d00e29747e49e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9bd21b4aeddb9250",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:4bee88e6c8ea242a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e6962d504f6908dc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:98806d5898461be5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:64ca65a116817905",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:fa04a05bc2a01025",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:2fb91bbd696021ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:21a446e381485069",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:750b6d39e71c3117",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:493b4bfe976c51c1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:2e3ed52ff979bbfa",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:11e69cc4b3892eab",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:4802aad26fe43dbf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:3ffd7a57286c4ecc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8c494271247277c7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d38dd08d5cbfc588",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:907a9de7a71cf0ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:ee63e13f55125386",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:060c9b7064aad16d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:5c1fbe19b16ec49b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:22a09ea7b20eb3b2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:1ffcd15cc44810d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:bbc449b6b8424ec1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9083fcbfb7fb2a07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:95b8c00bdd8eb581",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:1ea716aa7b67536f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:88e1851a15d506e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:5d0f0968d5d596bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:aee3fdb4639c1c27",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:dbe41a234d6c9e5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9e8bcdecdbca956b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:7db6f2294f35b699",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:8297f7ccfbc81fb8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:7732d2631417b505",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e3a644fa5d56f928",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:4c5ffa0c30bd5997",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:3c206e70c8f466b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:cdb26331bf1850e4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e71dd6d3ae341175",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:613240ffbb156e8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:4494f90f3f15fcf1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:ba694e59bd2430c8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:c55ade194b4279d9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:62deecdde53b1755",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:6541ceac12839bc9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:cca7c511b6613635",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:56de9398948d4ec1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:76077a16d73c2e78",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d57b8f9afe3d902b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:3a1f5d890ffe99b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:b4e8fac98b8fce60",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:383e3ab46c618869",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d9861a776b8033bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:78f8fd2aaef93687",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:c86715aaec407078",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:a21dbb0e1d44e32a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:501df2ca81a747b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:9e2066eeb79ccce8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:e51f9f7c912fcc6e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:faecb1452aa10fcf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:f812b8013aa545fb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:d0844b7998ba2f4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:91af705e80c1a0d5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:1cb06c7eec7fd600",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:kess-dissident-mage:goldfish:5250a266cbe97b74",
+   "verdict": "inconclusive"
+  }
+ ]
+}

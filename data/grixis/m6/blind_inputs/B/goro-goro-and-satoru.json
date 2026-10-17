@@ -1,0 +1,5197 @@
+{
+ "deck_id": "Goro_Goro_and_Satoru",
+ "list_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+ "slug": "goro-goro-and-satoru",
+ "swaps": [
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d00febea3df0",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d27939dd8c71e10b"
+   ]
+  },
+  {
+   "adds": [
+    "Orochi Soul-Reaver"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:792dca3ec3f4",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:43962d24df085c4b"
+   ]
+  },
+  {
+   "adds": [
+    "Reinforced Ronin"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:aecc185eaeb9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Silent-Blade Oni"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6b9a5da78e66",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d71b2be944cdbbd8"
+   ]
+  },
+  {
+   "adds": [
+    "Reconnaissance Mission"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e72752518272",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Enduring Courage"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8c72080765ec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ef791b586f2a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Throat Slitter"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c9e3b91282ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rising of the Day"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:00b2a813417a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Higure, the Still Wind"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ce60792822a1",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b9204ec77de2d9de"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c0003a7f7727",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:08f544029e9e702b"
+   ]
+  },
+  {
+   "adds": [
+    "Orthion, Hero of Lavabrink"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4f21d9e5c7e9",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:25a82089e4704b65"
+   ]
+  },
+  {
+   "adds": [
+    "Crux of Fate"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4bffc40601a7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alora, Merry Thief"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:26594b1f79ce",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blade of Selves"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6eab665daa3d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Elturel Survivors"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:cf90da97b6e4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kaito, Dancing Shadow"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6e67d02d95c5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cursed Mirror"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9554c151b45e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:52cd02e2377e7c5f"
+   ]
+  },
+  {
+   "adds": [
+    "Baleful Strix"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3aa006762ba5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f5b91936e14821ca"
+   ]
+  },
+  {
+   "adds": [
+    "Dokuchi Silencer"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:df1e69883f94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mist-Cloaked Herald"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bf19c5af7af7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Goro-Goro, Disciple of Ryusei"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9ff3d717f467",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kolaghan, the Storm's Fury"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d8d70b9e3649",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Moonsnare Specialist"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a01663f0c8f5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:bececfe2a6677133"
+   ]
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Arcane Denial"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b2b6486e3478",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:30d19186ea312a15"
+   ]
+  },
+  {
+   "adds": [
+    "Berserkers' Onslaught"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:cac7d4ac4918",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ink-Eyes, Servant of Oni"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:17c8c6031417",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:31a85ce9cf432cf2"
+   ]
+  },
+  {
+   "adds": [
+    "Tormented Soul"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2166abebf586",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Urabrask the Hidden"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:04d7e4d5aa15",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tin Street Dodger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9b825805107e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sokenzan, Crucible of Defiance"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:47915f2386b1",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b50d002bc57e9730"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Diabolist"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:32a7fb1410ff",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:89a9d4fe9d8a3515"
+   ]
+  },
+  {
+   "adds": [
+    "Maestros Diabolist"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a8001ef070e6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b289a048dd3069b8"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9d01ec2d6a2e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Invisible Stalker"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:25217f895d48",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:73e91a932216985c"
+   ]
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ce707550d42b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d7f002d4c6a795aa"
+   ]
+  },
+  {
+   "adds": [
+    "Dragon's Hoard"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:735f3b6a1105",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1da7936339c78cf0"
+   ]
+  },
+  {
+   "adds": [
+    "Coastal Piracy"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:61a951b73c6a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f6f163aa6569",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:522768c7ec6f26b3"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Enigma"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:720bf5cf3461",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d1520f33950e2d18"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c1a8a2b94ab1",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8ca75fe42a5beb26"
+   ]
+  },
+  {
+   "adds": [
+    "Anger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3c6cb211151c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shivan Devastator"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:51adb4e8c84a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3fae2e8a8c94",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kaito, Cunning Infiltrator"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3551402fa460",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ganax, Astral Hunter"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:fc2daf845190",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:00c62cbc181a9976"
+   ]
+  },
+  {
+   "adds": [
+    "Kaito Shizuki"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3016a0c6e344",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cunning Evasion"
+   ],
+   "cuts": [
+    "Waterbender Ascension"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b041894973d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2f4d556f4aa0",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:ac2d8fa76548f2e7"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c578828d4cc5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:10a101e2c28f3157"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:06182cfca41b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c41c13ef72f6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:95cb7d569d07f873"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1993ff587fb5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:793ae2d45a0024bf"
+   ]
+  },
+  {
+   "adds": [
+    "Helm of the Host"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:89d130c3a8c7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0be76623b8f6b161"
+   ]
+  },
+  {
+   "adds": [
+    "Warstorm Surge"
+   ],
+   "cuts": [
+    "Waterbender Ascension"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2f5ac080547f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Arena of Glory"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c9089f3f4c5a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:2ec112828745efaf"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4e51d5169db6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3266e40c59869884"
+   ]
+  },
+  {
+   "adds": [
+    "Rionya, Fire Dancer"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1e20a8bd11d5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0237e58a30e8d886"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:cc3db942bf8c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3655ac650e845ea8"
+   ]
+  },
+  {
+   "adds": [
+    "Hanweir Garrison"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:eb667b2788d2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:50f96ade22723abb"
+   ]
+  },
+  {
+   "adds": [
+    "Hanweir Garrison"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:159f4dcad4ce",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9a1f63c3879ae814"
+   ]
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f936642e71e5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:21dedaade170d2de"
+   ]
+  },
+  {
+   "adds": [
+    "Yuffie, Materia Hunter"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:dfce20716809",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Perplexing Test"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:deddd54c7836",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1a0dbaeb0b30",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:2bc678694babb10d"
+   ]
+  },
+  {
+   "adds": [
+    "Shark Shredder, Killer Clone"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:195d524fdc4c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f3bab063e20f6286"
+   ]
+  },
+  {
+   "adds": [
+    "Shark Shredder, Killer Clone"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6f95883f34da",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:de58386da7d747cc"
+   ]
+  },
+  {
+   "adds": [
+    "J. Jonah Jameson"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2323a6ce0534",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:50d646a1f8300067"
+   ]
+  },
+  {
+   "adds": [
+    "Donatello, Gadget Master"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:83fa30162ecc",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:035f43104065b721"
+   ]
+  },
+  {
+   "adds": [
+    "Donatello, Gadget Master"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:15dec40aee7b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9a192a6eba17b631"
+   ]
+  },
+  {
+   "adds": [
+    "Valduk, Keeper of the Flame"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ff2d366027e3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a9dd112f0ea7804a"
+   ]
+  },
+  {
+   "adds": [
+    "Valduk, Keeper of the Flame"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4c1752b94068",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a963ab00679a2075"
+   ]
+  },
+  {
+   "adds": [
+    "Moonblade Shinobi"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b593767dc642",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3e915500642f04be"
+   ]
+  },
+  {
+   "adds": [
+    "Moonblade Shinobi"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:786b5c4abff1",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f73dd8b2c50ac552"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e3a55b3eae20",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:77693d5d3e342a9c"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:afe4c9e8e917",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3c1855ab7a5dc6e4"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7bd0abe29f77",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Edea, Possessed Sorceress"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5f72ecfbaab2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:171c2d4cb6ac2922"
+   ]
+  },
+  {
+   "adds": [
+    "Harried Dronesmith"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:071905f59e6b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8607a135a7c10f54"
+   ]
+  },
+  {
+   "adds": [
+    "Harried Dronesmith"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:da6b5d80222f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:922bb80d41824e8c"
+   ]
+  },
+  {
+   "adds": [
+    "Éomer of the Riddermark"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4cae909b5ae4",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:11bfe46c9159cf72"
+   ]
+  },
+  {
+   "adds": [
+    "Éomer of the Riddermark"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7a7d2a26edf6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:add0ce98abad9917"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Hordecaller"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f4f01f2fbe8f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0a06bf0a45b57bc5"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Hordecaller"
+   ],
+   "cuts": [
+    "Raphael, the Nightwatcher"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:67ee10849322",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:c870a7b7bdef2225"
+   ]
+  },
+  {
+   "adds": [
+    "Sword of Feast and Famine"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ec6954c19d84",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:135d476b746c69c3"
+   ]
+  },
+  {
+   "adds": [
+    "Chart a Course"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e5f04f922428",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8cc8da7d71b50ca3"
+   ]
+  },
+  {
+   "adds": [
+    "Firkraag, Cunning Instigator"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b35856f6d93a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Magda, Brazen Outlaw"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1342e290e525",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3ec484c0af5262fd"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9060956f1db3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b505c1452db296d0"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:801f4490c5f1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rootha, Mastering the Moment"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:df3983ee5e20",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:16bb83b5481b4374"
+   ]
+  },
+  {
+   "adds": [
+    "Rootha, Mastering the Moment"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:17fe6bc0a9a2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8d94c04f31b2b9b7"
+   ]
+  },
+  {
+   "adds": [
+    "Indulge // Excess"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5711b2090aba",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:86859250ac1cb683"
+   ]
+  },
+  {
+   "adds": [
+    "Living Laser"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:66d566f00508",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a3426a8b40e0b679"
+   ]
+  },
+  {
+   "adds": [
+    "Living Laser"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5077bb022a08",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:17a6c4d7fc5562eb"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:0358d3da5192",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d3cb52b97fcba0ea"
+   ]
+  },
+  {
+   "adds": [
+    "Thorin, Company's Leader"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8f8e1b9f3589",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f88b28c1e37fe0e8"
+   ]
+  },
+  {
+   "adds": [
+    "The Reaver Cleaver"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bf86660b8d3f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:2d93276fbc58868e"
+   ]
+  },
+  {
+   "adds": [
+    "Untimely Malfunction"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a98f5132f7dd",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ancient Copper Dragon"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:921e59c7d70a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1dc386bc3ac28b56"
+   ]
+  },
+  {
+   "adds": [
+    "Shizo, Death's Storehouse"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c164e00aca02",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7236f203ab26f297"
+   ]
+  },
+  {
+   "adds": [
+    "Rite of Replication"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:290f981d9b97",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:44157c6bfae06150"
+   ]
+  },
+  {
+   "adds": [
+    "Roiling Dragonstorm"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:368b4c0068de",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b475c673aa67ca54"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:229354e67b9f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:025048eec8f4d1b1"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6c14e1924aa6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:5d1c27d747248f59"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8165cf46370d",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9faa01d9d16b906c"
+   ]
+  },
+  {
+   "adds": [
+    "Cavern-Hoard Dragon"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8dc1093b477b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3e5054ad8da9575b"
+   ]
+  },
+  {
+   "adds": [
+    "Grave Titan"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7cad5ec86c54",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:95cb133cc6ca928d"
+   ]
+  },
+  {
+   "adds": [
+    "Grave Titan"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f9813b98114e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d45a490c696f0af5"
+   ]
+  },
+  {
+   "adds": [
+    "Legion Warboss"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d9797870922b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:660bffdff268319b"
+   ]
+  },
+  {
+   "adds": [
+    "Legion Warboss"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3d8b8c01fda8",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7072e8be55d0cd9b"
+   ]
+  },
+  {
+   "adds": [
+    "Threefold Thunderhulk"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:81b0889f275c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:47a62045995a9e3f"
+   ]
+  },
+  {
+   "adds": [
+    "Threefold Thunderhulk"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d1dcbcb9dd2b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:cccf22ba778495f3"
+   ]
+  },
+  {
+   "adds": [
+    "Brudiclad, Telchor Engineer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:76748be1af5b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:eb32c3f0e36cb61d"
+   ]
+  },
+  {
+   "adds": [
+    "Brudiclad, Telchor Engineer"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c282bc18a2f0",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:70e633bfad5ddd4b"
+   ]
+  },
+  {
+   "adds": [
+    "General Kreat, the Boltbringer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a7c83c6abc24",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:28819d741c5d7ea6"
+   ]
+  },
+  {
+   "adds": [
+    "Siege-Gang Lieutenant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a21a04a17034",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f68ad031f2c7f973"
+   ]
+  },
+  {
+   "adds": [
+    "Siege-Gang Lieutenant"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d1967ea88991",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3961ec4b7591cdda"
+   ]
+  },
+  {
+   "adds": [
+    "Howlsquad Heavy"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:fc1bc23f3a52",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:21f40f975d0fbcca"
+   ]
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3c00509360ac",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4b5242d931f249be"
+   ]
+  },
+  {
+   "adds": [
+    "Impostor Syndrome"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:62a73f6a1ac3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:6afca00d02a7d89f"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:60bfe3e0798d",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:36cbffcbd6310d49"
+   ]
+  },
+  {
+   "adds": [
+    "Devastating Onslaught"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a35c0798765b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:5dd2afb0cd27732c"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e59a6e355a90",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Master of Cruelties"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9fe7288d69fe",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:428d571fbdd0668e"
+   ]
+  },
+  {
+   "adds": [
+    "Master of Cruelties"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:19424e042782",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:2f06392a0a412f35"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8041e388c552",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4e4b5e310db4cf6b"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, Dreadhorde Champion"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2afe5a613b71",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:642244b18517feae"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Rabblemaster"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a2c59f4510f8",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:da52b064ce37ff38"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Rabblemaster"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:01be79ac02c2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:35d56a1f18b9319c"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia, Crimson Bride"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6a30acf33c4a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:e2344a81d916bc21"
+   ]
+  },
+  {
+   "adds": [
+    "Olivia, Crimson Bride"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bb6e94f4b598",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a9d9a34da8751fcd"
+   ]
+  },
+  {
+   "adds": [
+    "Battle Cry Goblin"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3d909f622fc7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7979f9c7bf48e017"
+   ]
+  },
+  {
+   "adds": [
+    "Battle Cry Goblin"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:013fc6de1f00",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b63c210feb76968d"
+   ]
+  },
+  {
+   "adds": [
+    "Hoard Hauler"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f5f2800251bd",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:88a40b63e1d32831"
+   ]
+  },
+  {
+   "adds": [
+    "Squee, Dubious Monarch"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:32cbacd51ade",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:341f7f0010ef9305"
+   ]
+  },
+  {
+   "adds": [
+    "Squee, Dubious Monarch"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f740af3a667a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:63916db6b7647259"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ce6435b29a51",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:6696927adaca6ce5"
+   ]
+  },
+  {
+   "adds": [
+    "Splinter Twin"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:346d8f171ff7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a0e4eb1247ef31dd"
+   ]
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f23b45bccf62",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:33c128f5146415e5"
+   ]
+  },
+  {
+   "adds": [
+    "Magnus the Red"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8d7e23b16cab",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f2a26efcb5d48d1d"
+   ]
+  },
+  {
+   "adds": [
+    "Godo, Bandit Warlord"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e3f24b8484e6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7a7049d36022a37b"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing, Deathless Tyrant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c9872a607153",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8859e48f1eeaf040"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing, Deathless Tyrant"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bb47411ee17c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:5707cb233d377ff2"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a5d32f5fda30",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:cb646490a6a06e4c"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara, Widow of the Realm // Ayara, Furnace Queen"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:dd7988c73d27",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d1d72ca806f2b54b"
+   ]
+  },
+  {
+   "adds": [
+    "Slash, Reptile Rampager"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:66b5866d030c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:153c4e6fd8e6c984"
+   ]
+  },
+  {
+   "adds": [
+    "Slash, Reptile Rampager"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:75c124c6d69e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:07db7ae6ab227395"
+   ]
+  },
+  {
+   "adds": [
+    "Poetic Ingenuity"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4f2837332846",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:af1c1567ed80c7d3"
+   ]
+  },
+  {
+   "adds": [
+    "Luxurious Locomotive"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:0742a76b2e88",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:541b32437a4850f7"
+   ]
+  },
+  {
+   "adds": [
+    "Grub, Storied Matriarch // Grub, Notorious Auntie"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:875a85b63d8f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:cb835f7e09afd18a"
+   ]
+  },
+  {
+   "adds": [
+    "Grub, Storied Matriarch // Grub, Notorious Auntie"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b7bd14b55b2d",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:38ac72933def1dd0"
+   ]
+  },
+  {
+   "adds": [
+    "Death Tyrant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:dbef5f8bd8e7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b0d74421d678efa8"
+   ]
+  },
+  {
+   "adds": [
+    "Death Tyrant"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:777aebab2497",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1135fce6174fe512"
+   ]
+  },
+  {
+   "adds": [
+    "Drider"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bdb9b54809b8",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b56bd2175ca1704e"
+   ]
+  },
+  {
+   "adds": [
+    "Drider"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:86d9bb8682d2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:43840e9c61eb8278"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Ideation // Ancestral Recall"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d35f9e94311a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mister Fantastic, Reed Richards"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d393ba82013c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ebf92d27f0f6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dragonologist"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2ec962fc02c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Origin of the Hidden Ones"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e525e907dcb4",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:2b9a7d2ac3790399"
+   ]
+  },
+  {
+   "adds": [
+    "Origin of the Hidden Ones"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9056b066a528",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a132a5a3f4d3f8e5"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7c8dfc541e90",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:493e4d3b50007129"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonus, the Saboteur // Cyclonus, Cybertronian Fighter"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:14b868a6e538",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:eebb303f0894355e"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Chitterlord"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6b5df4ac8a17",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0b2f51dced924d7d"
+   ]
+  },
+  {
+   "adds": [
+    "Ogre Chitterlord"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:35d0d4b8cb0c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:23c666c14d809bce"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e210397e4e82",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pitiless Plunderer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:765a62196cb2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d4a230661b816159"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:fdda8215d0bb",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0f7e5815c2c0eaee"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e997ad3adb31",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:c89c848237236928"
+   ]
+  },
+  {
+   "adds": [
+    "Creeping Tar Pit"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c5b651017b97",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:854803846aa8d1eb"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:32a96018e438",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:81d143982517",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:031864fa9202851f"
+   ]
+  },
+  {
+   "adds": [
+    "Spellbinder"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f19355fb472b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1973cdb2c4ab7af0"
+   ]
+  },
+  {
+   "adds": [
+    "Moira, Urborg Haunt"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:affc2afee5f2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:30324f0f3b61cacb"
+   ]
+  },
+  {
+   "adds": [
+    "Moira, Urborg Haunt"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:74f567a570d4",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:63aef57218648cd2"
+   ]
+  },
+  {
+   "adds": [
+    "Pestered Wellguard"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:261a05825939",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:62410f97ef435797"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e8b2c171ece0",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1e7ffcea72d0b6f9"
+   ]
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:799e623a9473",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:20793f24aacb41be"
+   ]
+  },
+  {
+   "adds": [
+    "Cynical Loner"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:43238f3fe7f7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:19aa528268ffd399"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Bleeding Edge"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:aef9a5a11ace",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7086c6d225ea65a5"
+   ]
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:69458d26dd47",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:ee7207613f8b6591"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ce471086be49",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Pugnacious Pugilist"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:33ad590eee0f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4ba9e5af5ba658a6"
+   ]
+  },
+  {
+   "adds": [
+    "Pugnacious Pugilist"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c827ff3703ae",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9ec149e0a28dfc40"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9ee86a439084",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d5d4002a29a4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e864bcc51753",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:cf4c1c7d8057ae9a"
+   ]
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:51d417e93785",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d6b27cdd602e97b8"
+   ]
+  },
+  {
+   "adds": [
+    "The Squadron Sinister"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e4d07307d4a5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:49eca12c6607e5ce"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c1c8ffb6c2be",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:e9f1cc1629b9d8b2"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:95427b534ce1",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:051afddfa7a5ccc5"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:db573aaeeb36",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:83479486e2cc",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5c46725230d2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0cd5baf259b8b1a8"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonstorm Globe"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5b0c1064d81a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:99dbefbfc9f1b584"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:54ca04420a0b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3fb77293173f4103"
+   ]
+  },
+  {
+   "adds": [
+    "Nested Ghoul"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:713cb12cbbc7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:ba6c36dab051eb86"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:aadc6f342de5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:e0f4226619ec6d09"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7008a312b96e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Photon, Mighty Marvel"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:19dbd3d59ee9",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:80827dffae2ecaca"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1f6a3967e654",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:898b0081ec23",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Wasp, Winsome Avenger"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:98205df24a16",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:6ab72cc1f5da5837"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:424865889323",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:996478df01ae4bac"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b267985a10d4",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:29c78edccf227b78"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:fce6a99b7c62",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:90bc8cb2c740fc34"
+   ]
+  },
+  {
+   "adds": [
+    "Kang Prime"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:95341494ad0d",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:db8ae8e5f835baae"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3192ce10aa87",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f27ad0914949",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:eccbd698f4ccf8a3"
+   ]
+  },
+  {
+   "adds": [
+    "Titania, Proud Pummeler"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9e947eb16728",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:cafd30ae5fa5a9e8"
+   ]
+  },
+  {
+   "adds": [
+    "Firebird, Blazing Ranger"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ee07d4e522ed",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9503f76438992073"
+   ]
+  },
+  {
+   "adds": [
+    "Alena, Kessig Trapper"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c7a04e47138a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:54c806cecf3577d6"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Deadly Hunter"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d5ab06b4aff9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:115e016f73bb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bd2fe1c1769e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8dfb060b052e4873"
+   ]
+  },
+  {
+   "adds": [
+    "Daredevil, Fearless Fighter"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c507906d4420",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:faeafc797d4a7b84"
+   ]
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:dd992d27adeb",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1ddb00b50a529263"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7dfd2ace177e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:fd6b349371645c2e"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b8fe9b953383",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0a1bde796944cc12"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:342ad3d58f1a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0b0b44304ab64481"
+   ]
+  },
+  {
+   "adds": [
+    "Graveyard Trespasser // Graveyard Glutton"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5225a9ddae80",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a7ba36241738",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:e6cfe5c233a297f7"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:47424dafb529",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a433401722beba0b"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:985b998d878a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:46bd21e9b0998c97"
+   ]
+  },
+  {
+   "adds": [
+    "Songbird, Sonic Screamer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5015228a71eb",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:142ca825abc998a7"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ce27b3e5f14d",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d29c5034946859f4"
+   ]
+  },
+  {
+   "adds": [
+    "Astonishing Spider-Man"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4edbe1a1fca7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stingcaster Mage"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b0872fd2fe11",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:96a894de81c5935c"
+   ]
+  },
+  {
+   "adds": [
+    "Green Goblin, Back for More"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4591e276d01a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:db85b06bf8678739"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:98c1eebbab33",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:e3d64bb85b4dfe6a"
+   ]
+  },
+  {
+   "adds": [
+    "Whiplash, Vengeful Engineer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1d59274f4b89",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:06f06ebe6ad72b5d"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:77848a04c304",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:b61210b7f5d59900"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d7756d975685",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Grim Reaper, Lethal Legionnaire"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e0ac015dba15",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:084068afc8951aa3"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Web-Spinner"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:fa92575177fa",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:571a61bb996b4037"
+   ]
+  },
+  {
+   "adds": [
+    "Ophiomancer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:faa6bb4aeb47",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:35674d37f95d7854"
+   ]
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:49c884af8c70",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7979fe79f8dc13e5"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonstorm Forecaster"
+   ],
+   "cuts": [
+    "Vampiric Tutor"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6649508a8b32",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:58b63c3d830c0eb1"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ead9b1bc55ad",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:c933b0288a278fce"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:cd42cee4ae67",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:e17c8eb34d6d4d02"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3d5b2e3e4b5d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Ghost, Spectral Saboteur"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7a69fb8db732",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4cf8746c633eccc7"
+   ]
+  },
+  {
+   "adds": [
+    "Radioactive Man"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:91deca5ef303",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:02f2d6f1cb446cea"
+   ]
+  },
+  {
+   "adds": [
+    "Alex Wilder, Runaway"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d39cb158be89",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:661524b6bc10862f"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9cf1532bcc5c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:52f75b49eb21f242"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Daring Operative"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:37d91ed757cb",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:303e984b394ba191"
+   ]
+  },
+  {
+   "adds": [
+    "Expressive Firedancer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f3b1437f1b6a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3b0c7a332fa8faf9"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin Cliffrider"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c33a701371cb",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Madame Hydra, Reanimated"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4e8666bdf460",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9096e0d94b779ffc"
+   ]
+  },
+  {
+   "adds": [
+    "Arni, Humble Scribe"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3b589cddc70c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Graviton, Fundamental Force"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:cea7c3c67497",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:773575342632e5fd"
+   ]
+  },
+  {
+   "adds": [
+    "Bob, Reluctant HYDRA Agent"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e012b94a1c1b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:131bfd9eed6fd264"
+   ]
+  },
+  {
+   "adds": [
+    "Boomerang, Blade Flinger"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:27311ffe9eca",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:43b9f88e5d5169dd"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:0e5138680444",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9e33d483edb6af07"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:47c091ae6947",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c2a8fc0b1e1a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:900794494c7d2b7f"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e173efb98c8b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:167353773a95d511"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f7849564f42a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:61bccaa426ba754f"
+   ]
+  },
+  {
+   "adds": [
+    "Matterbending Mage"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:48879f2100d1",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:c2a78fd893a0fc5a"
+   ]
+  },
+  {
+   "adds": [
+    "Urza, Lord High Artificer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6a5be9dbb889",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d47cdf60a5d3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "The Immortal Weapons"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:02b41b684077",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3760d5a80700d807"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2112be9ea3c7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ebd1432ee99b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:ec6fcd5c98a26141"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Man, Hometown Hero"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:66c9ce47b2d8",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3e08df410187fc38"
+   ]
+  },
+  {
+   "adds": [
+    "Proft, Sinister Mastermind"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:51d3e994fccc",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:49f5f869ca1df37b"
+   ]
+  },
+  {
+   "adds": [
+    "Tetsuko Umezawa, Pursuer"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:14882bcdc93f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:5ebd2bf43088c432"
+   ]
+  },
+  {
+   "adds": [
+    "Wasp, Shrinking Savior"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c45c296b6848",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hell-Bent Raider"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f932ff04d440",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:867b03107089",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:cb34f19517af8b14"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c709030a6dec",
+   "tests": []
+  },
+  {
+   "adds": [
+    "TVA Bureaucrat"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9b2ec596ed53",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:dc754e54b838557d"
+   ]
+  },
+  {
+   "adds": [
+    "The Whizzer, Classic Speedster"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f1fcfb966453",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:01664e7956418973"
+   ]
+  },
+  {
+   "adds": [
+    "Eardrum Rattler"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3eced486399c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:93ef41c924d0e32e"
+   ]
+  },
+  {
+   "adds": [
+    "Armed Assailant"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4b8a25f0e951",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:f389db9b1cccbaf7"
+   ]
+  },
+  {
+   "adds": [
+    "Glamorous Grapplers"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2487da2d5b68",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:15c52683625fdfaf"
+   ]
+  },
+  {
+   "adds": [
+    "Combat Celebrant"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7f882d802e8f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:55143087bc68c59d"
+   ]
+  },
+  {
+   "adds": [
+    "Cascade Bluffs"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:428c1b71c308",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4f9cb6680a20e80e"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b7a8e5aaf6f3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:eb0270bfb73aaeca"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:784b087c0ae0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:24d983abc30a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a614b176bf28e72b"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b34f0bb1f6df",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Alexios, Deimos of Kosmos"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9ad188d243b9",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a790ddad32e1b423"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonspeaker Shaman"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:eecabb5f3aa2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:42e2e86c207774ff"
+   ]
+  },
+  {
+   "adds": [
+    "Jadar, Ghoulcaller of Nephalia"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d6913666cb8c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:654ebacaff9edc10"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1ac4911ebfd2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:45ea8e25ad6e362c"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3afa9743ac79",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:477c26cbec23c7c6"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c0e0c320abc3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Feldon of the Third Path"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4ee7096cbabd",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1036b1f3e588b0d1"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Master"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:955e413616e9",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7d548142d1a6b5d6"
+   ]
+  },
+  {
+   "adds": [
+    "Chainer, Nightmare Adept"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4066168668ec",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d7f4e766ad99ffc0"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c3d4f6145f16",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:2095bb1c8d4775a0"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:a717d6b7fdef",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Murmuring Mystic"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ded660643bb5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:c52f6cb50e4a8ba7"
+   ]
+  },
+  {
+   "adds": [
+    "Stormfist Crusader"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:6998e984268e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:6d4d51254f4b8be5"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:239d41e21f49",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1fba701543b7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:34e17123d2caffb4"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8085b4d9da20",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Whirler Rogue"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:b3986abcefb6",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3ff7f94037d6de97"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:591870d730ba",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:329e7e082b83cb23"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c6f378998fbb",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:ad8385708fde6974"
+   ]
+  },
+  {
+   "adds": [
+    "Sedgemoor Witch"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c509845655c0",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4fe01382e9fd98e1"
+   ]
+  },
+  {
+   "adds": [
+    "Ghoulcaller Gisa"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:34b4b115d3c3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:7cb0716844467081"
+   ]
+  },
+  {
+   "adds": [
+    "Zealous Conscripts"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:729a6e08db1c",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d434dd9e20dedac9"
+   ]
+  },
+  {
+   "adds": [
+    "The Lord of Pain"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:e78b28961647",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:c1e3f743f63479ee"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d5e3d35a9558",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:2b5a38522ba3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:41a48b3b24fe331f"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:bd56a9bc3570",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d89934cef047",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f13dff5ab114",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:68dbcfc94f3714ef"
+   ]
+  },
+  {
+   "adds": [
+    "Blighted Agent"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:4f7a01153a24",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8ac11501252ed735"
+   ]
+  },
+  {
+   "adds": [
+    "Firebending Student"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:57d6c74ee3d4",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:fa3f2c550c7e1179"
+   ]
+  },
+  {
+   "adds": [
+    "Otepec Huntmaster"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3ba3681d32f2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:ba0ef143885e0ac3"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:50c17d9bf0a8",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9636775b432b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Frontier Warmonger"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:38564d4b2f76",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8989eb49c12b09fb"
+   ]
+  },
+  {
+   "adds": [
+    "Gríma, Saruman's Footman"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c56e4a385e8b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:6097ad9a2c0d40c0"
+   ]
+  },
+  {
+   "adds": [
+    "Endrek Sahr, Master Breeder"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9f8d61112a6b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:0343f091d37bace6"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c7457d2be76a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:54ab50e7208b",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8396f3431ced3ed5"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7975957f8b88",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f126d80f761a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:7e74905bd821",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:11ae5fda9b7c6ae2"
+   ]
+  },
+  {
+   "adds": [
+    "Urza's Saga"
+   ],
+   "cuts": [
+    "Otawara, Soaring City"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:53ff04ec6c06",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:aaf7b2f4787cface"
+   ]
+  },
+  {
+   "adds": [
+    "March of Swirling Mist"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8566bfa37eae",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Malevolent Hermit // Benevolent Geist"
+   ],
+   "cuts": [
+    "Arcane Denial"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:c8c203d81760",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:83b5137ba16ff42d"
+   ]
+  },
+  {
+   "adds": [
+    "Zenos yae Galvus // Shinryu, Transcendent Rival"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ea84dcf99ce5",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a0f1a2e2bb4b4f67"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Claimed by Gix"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:5462fcc16f7e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:662268c006772cd2"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9137558fdadb",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:36ff46122d80263c"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:701d73f451a2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:da9a153d66e8ba8c"
+   ]
+  },
+  {
+   "adds": [
+    "Ninja of the New Moon"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:413cb04bae0a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d3816929f797d0ca"
+   ]
+  },
+  {
+   "adds": [
+    "Covetous Castaway // Ghostly Castigator"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:48a1537b7319",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:012c1e4945edf883"
+   ]
+  },
+  {
+   "adds": [
+    "Kargan Dragonrider"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:16cd84ed90ca",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a2d4710d57f196eb"
+   ]
+  },
+  {
+   "adds": [
+    "Callow Jushi // Jaraku the Interloper"
+   ],
+   "cuts": [
+    "Arcane Denial"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1c6ae754b964",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:dcc4eac84a274771"
+   ]
+  },
+  {
+   "adds": [
+    "Baithook Angler // Hook-Haunt Drifter"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:1706dc6df394",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:d0ab33124b6b2cb6"
+   ]
+  },
+  {
+   "adds": [
+    "Covert Cutpurse // Covetous Geist"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:68d3061ad982",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Cunning Bandit // Azamuki, Treachery Incarnate"
+   ],
+   "cuts": [
+    "Satoru, the Infiltrator"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9ac4b1875305",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:3b1e1cc7a34bb8ef"
+   ]
+  },
+  {
+   "adds": [
+    "Peregrine Drake"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9ba4c8fea049",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1d49d28821c4bdee"
+   ]
+  },
+  {
+   "adds": [
+    "Neheb, the Eternal"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:055cf4fce2e7",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:72d80209734a46c3"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud of Faeries"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:41148ec2b764",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:dd0991736c89a512"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Waterbender Ascension"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:69ca59bf38f2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:acb020e6eb4d8693"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d9282d09cde8",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:a4e89ce38aa80cca"
+   ]
+  },
+  {
+   "adds": [
+    "Kitsa, Otterball Elite"
+   ],
+   "cuts": [
+    "Kaito, Bane of Nightmares"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:f8a133cc1b7e",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:9e66ed19a141ab73"
+   ]
+  },
+  {
+   "adds": [
+    "Sphinx of the Second Sun"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9897a37d10a2",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:1b96637861e8ca78"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Arcane Denial"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:dd021caedaab",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:dc11fb96d374daa9"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Waterbender Ascension"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:ba1c2906c4f3",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:936c60f36ac5fd07"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow of the Second Sun"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:06762c5baa04",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:fd8d727de27e15e8"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Deadly Rollick"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:9855aab5033a",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:8950984b40710a2f"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Dragon Tempest"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:d89ea8aa8ab8",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:4927e06d50459623"
+   ]
+  },
+  {
+   "adds": [
+    "Palinchron"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8ca58e439f1d",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:15675588edad6791"
+   ]
+  },
+  {
+   "adds": [
+    "Great Whale"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:8ec2bb686b50",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:13997ea1900a4015"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:dbe1d2e6b729",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:5039b3d9b6880d69"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:402adf982e82",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:00d4926139082b06"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:goro-goro-and-satoru:m5:3a4ba560149f",
+   "tests": [
+    "test:goro-goro-and-satoru:goldfish:885ad95a637b5c8e"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d27939dd8c71e10b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:43962d24df085c4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d71b2be944cdbbd8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b9204ec77de2d9de",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:08f544029e9e702b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:25a82089e4704b65",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:52cd02e2377e7c5f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f5b91936e14821ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:bececfe2a6677133",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:30d19186ea312a15",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:31a85ce9cf432cf2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b50d002bc57e9730",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:89a9d4fe9d8a3515",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b289a048dd3069b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:73e91a932216985c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d7f002d4c6a795aa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1da7936339c78cf0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:522768c7ec6f26b3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d1520f33950e2d18",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8ca75fe42a5beb26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:00c62cbc181a9976",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:ac2d8fa76548f2e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:10a101e2c28f3157",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:95cb7d569d07f873",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:793ae2d45a0024bf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0be76623b8f6b161",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:2ec112828745efaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3266e40c59869884",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0237e58a30e8d886",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3655ac650e845ea8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:50f96ade22723abb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9a1f63c3879ae814",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:21dedaade170d2de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:2bc678694babb10d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f3bab063e20f6286",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:de58386da7d747cc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:50d646a1f8300067",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:035f43104065b721",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9a192a6eba17b631",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a9dd112f0ea7804a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a963ab00679a2075",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3e915500642f04be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f73dd8b2c50ac552",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:77693d5d3e342a9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3c1855ab7a5dc6e4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:171c2d4cb6ac2922",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8607a135a7c10f54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:922bb80d41824e8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:11bfe46c9159cf72",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:add0ce98abad9917",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0a06bf0a45b57bc5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:c870a7b7bdef2225",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:135d476b746c69c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8cc8da7d71b50ca3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3ec484c0af5262fd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b505c1452db296d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:16bb83b5481b4374",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8d94c04f31b2b9b7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:86859250ac1cb683",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a3426a8b40e0b679",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:17a6c4d7fc5562eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d3cb52b97fcba0ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f88b28c1e37fe0e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:2d93276fbc58868e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1dc386bc3ac28b56",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7236f203ab26f297",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:44157c6bfae06150",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b475c673aa67ca54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:025048eec8f4d1b1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:5d1c27d747248f59",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9faa01d9d16b906c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3e5054ad8da9575b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:95cb133cc6ca928d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d45a490c696f0af5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:660bffdff268319b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7072e8be55d0cd9b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:47a62045995a9e3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:cccf22ba778495f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:eb32c3f0e36cb61d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:70e633bfad5ddd4b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:28819d741c5d7ea6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f68ad031f2c7f973",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3961ec4b7591cdda",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:21f40f975d0fbcca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4b5242d931f249be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:6afca00d02a7d89f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:36cbffcbd6310d49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:5dd2afb0cd27732c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:428d571fbdd0668e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:2f06392a0a412f35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4e4b5e310db4cf6b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:642244b18517feae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:da52b064ce37ff38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:35d56a1f18b9319c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:e2344a81d916bc21",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a9d9a34da8751fcd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7979f9c7bf48e017",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b63c210feb76968d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:88a40b63e1d32831",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:341f7f0010ef9305",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:63916db6b7647259",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:6696927adaca6ce5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a0e4eb1247ef31dd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:33c128f5146415e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f2a26efcb5d48d1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7a7049d36022a37b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8859e48f1eeaf040",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:5707cb233d377ff2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:cb646490a6a06e4c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d1d72ca806f2b54b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:153c4e6fd8e6c984",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:07db7ae6ab227395",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:af1c1567ed80c7d3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:541b32437a4850f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:cb835f7e09afd18a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:38ac72933def1dd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b0d74421d678efa8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1135fce6174fe512",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b56bd2175ca1704e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:43840e9c61eb8278",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:2b9a7d2ac3790399",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a132a5a3f4d3f8e5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:493e4d3b50007129",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:eebb303f0894355e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0b2f51dced924d7d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:23c666c14d809bce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d4a230661b816159",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0f7e5815c2c0eaee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:c89c848237236928",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:854803846aa8d1eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:031864fa9202851f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1973cdb2c4ab7af0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:30324f0f3b61cacb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:63aef57218648cd2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:62410f97ef435797",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1e7ffcea72d0b6f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:20793f24aacb41be",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:19aa528268ffd399",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7086c6d225ea65a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:ee7207613f8b6591",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4ba9e5af5ba658a6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9ec149e0a28dfc40",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:cf4c1c7d8057ae9a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d6b27cdd602e97b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:49eca12c6607e5ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:e9f1cc1629b9d8b2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:051afddfa7a5ccc5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0cd5baf259b8b1a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:99dbefbfc9f1b584",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3fb77293173f4103",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:ba6c36dab051eb86",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:e0f4226619ec6d09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:80827dffae2ecaca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:6ab72cc1f5da5837",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:996478df01ae4bac",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:29c78edccf227b78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:90bc8cb2c740fc34",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:db8ae8e5f835baae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:eccbd698f4ccf8a3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:cafd30ae5fa5a9e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9503f76438992073",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:54c806cecf3577d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8dfb060b052e4873",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:faeafc797d4a7b84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1ddb00b50a529263",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:fd6b349371645c2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0a1bde796944cc12",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0b0b44304ab64481",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:e6cfe5c233a297f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a433401722beba0b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:46bd21e9b0998c97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:142ca825abc998a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d29c5034946859f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:96a894de81c5935c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:db85b06bf8678739",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:e3d64bb85b4dfe6a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:06f06ebe6ad72b5d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:b61210b7f5d59900",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:084068afc8951aa3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:571a61bb996b4037",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:35674d37f95d7854",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7979fe79f8dc13e5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:58b63c3d830c0eb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:c933b0288a278fce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:e17c8eb34d6d4d02",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4cf8746c633eccc7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:02f2d6f1cb446cea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:661524b6bc10862f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:52f75b49eb21f242",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:303e984b394ba191",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3b0c7a332fa8faf9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9096e0d94b779ffc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:773575342632e5fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:131bfd9eed6fd264",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:43b9f88e5d5169dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9e33d483edb6af07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:900794494c7d2b7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:167353773a95d511",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:61bccaa426ba754f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:c2a78fd893a0fc5a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3760d5a80700d807",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:ec6fcd5c98a26141",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3e08df410187fc38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:49f5f869ca1df37b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:5ebd2bf43088c432",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:cb34f19517af8b14",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:dc754e54b838557d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:01664e7956418973",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:93ef41c924d0e32e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:f389db9b1cccbaf7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:15c52683625fdfaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:55143087bc68c59d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4f9cb6680a20e80e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:eb0270bfb73aaeca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a614b176bf28e72b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a790ddad32e1b423",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:42e2e86c207774ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:654ebacaff9edc10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:45ea8e25ad6e362c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:477c26cbec23c7c6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1036b1f3e588b0d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7d548142d1a6b5d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d7f4e766ad99ffc0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:2095bb1c8d4775a0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:c52f6cb50e4a8ba7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:6d4d51254f4b8be5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:34e17123d2caffb4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3ff7f94037d6de97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:329e7e082b83cb23",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:ad8385708fde6974",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4fe01382e9fd98e1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:7cb0716844467081",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d434dd9e20dedac9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:c1e3f743f63479ee",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:41a48b3b24fe331f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:68dbcfc94f3714ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8ac11501252ed735",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:fa3f2c550c7e1179",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:ba0ef143885e0ac3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8989eb49c12b09fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:6097ad9a2c0d40c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:0343f091d37bace6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8396f3431ced3ed5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:11ae5fda9b7c6ae2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:aaf7b2f4787cface",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:83b5137ba16ff42d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a0f1a2e2bb4b4f67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:662268c006772cd2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:36ff46122d80263c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:da9a153d66e8ba8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d3816929f797d0ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:012c1e4945edf883",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a2d4710d57f196eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:dcc4eac84a274771",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:d0ab33124b6b2cb6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:3b1e1cc7a34bb8ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1d49d28821c4bdee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:72d80209734a46c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:dd0991736c89a512",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:acb020e6eb4d8693",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:a4e89ce38aa80cca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:9e66ed19a141ab73",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:1b96637861e8ca78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:dc11fb96d374daa9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:936c60f36ac5fd07",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:fd8d727de27e15e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:8950984b40710a2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:4927e06d50459623",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:15675588edad6791",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:13997ea1900a4015",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:5039b3d9b6880d69",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:00d4926139082b06",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:goro-goro-and-satoru:goldfish:885ad95a637b5c8e",
+   "verdict": "inconclusive"
+  }
+ ]
+}

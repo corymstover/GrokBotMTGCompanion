@@ -1,0 +1,3649 @@
+{
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "list_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+ "slug": "jeleva-nephalias-scourge",
+ "swaps": [
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9c6e73601633",
+   "tests": []
+  },
+  {
+   "adds": [
+    "In Garruk's Wake"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4fdbbe1478d7",
+   "tests": []
+  },
+  {
+   "adds": [
+    "In Garruk's Wake"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6dfcbdd3812b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:7e7a3eca5284ef22"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fb2128a44057",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:b1e9dd4407f6756f"
+   ]
+  },
+  {
+   "adds": [
+    "Breach the Multiverse"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5b10a860314d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:8604a31d0797693b"
+   ]
+  },
+  {
+   "adds": [
+    "Aminatou's Augury"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9747fd7c23e3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:32b40e1f02efab09"
+   ]
+  },
+  {
+   "adds": [
+    "Aminatou's Augury"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d34abaa88535",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:47d83a6e9a8ef77b"
+   ]
+  },
+  {
+   "adds": [
+    "Army of the Damned"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d7acaa87106b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:fa59184fb626132f"
+   ]
+  },
+  {
+   "adds": [
+    "Army of the Damned"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b9ad45725b86",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3f772c38b6962c5c"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Deluge"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8c85f7481a6f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:dcfa7db57d4b6736"
+   ]
+  },
+  {
+   "adds": [
+    "Mnemonic Deluge"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:78771a9b1b8f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3e318aa330546c46"
+   ]
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:63806d993171",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1a9fcc4b290aa96f"
+   ]
+  },
+  {
+   "adds": [
+    "Fevered Suspicion"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5092809a005a",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:a50fed2edfa04e2f"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:098e42a73876",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:604da54f34fa4852"
+   ]
+  },
+  {
+   "adds": [
+    "Cruel Ultimatum"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2770deba8848",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d145c9005f8c4ae8"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ab392df435e8",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f864ebcffdc7fd66"
+   ]
+  },
+  {
+   "adds": [
+    "Decree of Pain"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:37687770889f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3a9070615e63a5f1"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:031c4efe9c56",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3228f2ef7f67220e"
+   ]
+  },
+  {
+   "adds": [
+    "Dream Harvest"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3985f0603493",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:483ef01996fea875"
+   ]
+  },
+  {
+   "adds": [
+    "Spelltwine"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ea66913b7dd2",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:5bc8b8634df0917e"
+   ]
+  },
+  {
+   "adds": [
+    "Spelltwine"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:70bb4bd79b97",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f0cce95421c60762"
+   ]
+  },
+  {
+   "adds": [
+    "Blatant Thievery"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3dbdd8cbbd6e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Etali, Primal Storm"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:533b93a4caa3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Call Forth the Tempest"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:504edd51f0ca",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Call Forth the Tempest"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bebc1126beb7",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:274c7090b01f0c97"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:274d8f7f810d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9c17f5e685534eb2"
+   ]
+  },
+  {
+   "adds": [
+    "Kess, Dissident Mage"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:394a7435b32c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:48af7145dc495ff1"
+   ]
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d3e51f025cf2",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:02625ffcc043757b"
+   ]
+  },
+  {
+   "adds": [
+    "Improvisation Capstone"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b897b1df4d7c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ac85c75502c90217"
+   ]
+  },
+  {
+   "adds": [
+    "Hit the Mother Lode"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fc25178936a4",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:2b9d7c6af1ed7f40"
+   ]
+  },
+  {
+   "adds": [
+    "Hit the Mother Lode"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:09285b816cb0",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:16326b95597b4fda"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6cb8cea7968d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ab060b73030a9ce8"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix's Mastery"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f86fbd6a439e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:0536f98b6b00808e"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fb71012536c4",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:beffa5d61933e8bb"
+   ]
+  },
+  {
+   "adds": [
+    "Cormela, Glamour Thief"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7b39a22c9752",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:2c2165f2ddc41eef"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ca1dac593719",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:bf1012bd01c3e950"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Dark Realms"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fa1b1059bfcc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:fc10729e9aa9f516"
+   ]
+  },
+  {
+   "adds": [
+    "Riptide Laboratory"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:14931bdb37fa",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4620ab5b105765ed"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:41df877f1859",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3205f34dbf5c9f83"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:802eb49700cc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:92980396d1309b0d"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e08e956cc664",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5b244d94f586",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:cb48877d926fcb8f"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:51df3468f27b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:b75dd32002e2ed28"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4c5d04c16374",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:43b93cf181cf3dfb"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a01e97e7ee82",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:084922d59873da39"
+   ]
+  },
+  {
+   "adds": [
+    "Frantic Search"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f94f4488a41e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d9cfd562867c33ed"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5235d7555f3e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:816bb54e08543243"
+   ]
+  },
+  {
+   "adds": [
+    "Goblin Electromancer"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fa9e17499e82",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:88005c5fab523a76"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:53e623cbfefe",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Volcanic Vision"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:30cd9fd4d6e1",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:070dd42f5667cc7b"
+   ]
+  },
+  {
+   "adds": [
+    "Volcanic Vision"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6db1af3eb01f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:332411936b2f87b5"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8e7508aab983",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:31d5cec0ea2235cf"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Signet"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:05d2ebe8a167",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d4a3d55c0b620580"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:10a389c377e6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:719235d83c8e1144"
+   ]
+  },
+  {
+   "adds": [
+    "Double Vision"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8730fee00b7e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:42ef7ac550ed1aaf"
+   ]
+  },
+  {
+   "adds": [
+    "Chaos Warp"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:47ac22d4cca0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wild-Magic Sorcerer"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:be143b92f94b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Brainsurge"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:32dfb364c684",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:bd431494ddd5ebb5"
+   ]
+  },
+  {
+   "adds": [
+    "Brainsurge"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:46e324c883dc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:a1fb9802087b56c2"
+   ]
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8bdb9557c311",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:165727fcb33e095b"
+   ]
+  },
+  {
+   "adds": [
+    "Blood for the Blood God!"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:42d0ea3ca19e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:97017318d9a00720"
+   ]
+  },
+  {
+   "adds": [
+    "Worst Fears"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ef02afe5d0c7",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:e612fd4219bb3ba6"
+   ]
+  },
+  {
+   "adds": [
+    "Worst Fears"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:afa5b7bd427c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4b929bec81a9b62d"
+   ]
+  },
+  {
+   "adds": [
+    "Nightscape Familiar"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f849c33db6b2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Memory Plunder"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:71d732031204",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f5e4e1f682f95cca"
+   ]
+  },
+  {
+   "adds": [
+    "Memory Plunder"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:397ba303372d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9935a96143e45887"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:43ddd96953c6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:992a1c25ba2b3b91"
+   ]
+  },
+  {
+   "adds": [
+    "Time Stretch"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8107be483ebc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1e3f012652c61086"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a5e8fbeacc5a",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:15c4328c1cae39a4"
+   ]
+  },
+  {
+   "adds": [
+    "Storm-Kiln Artist"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c256297964b0",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:7b68c5704bf373a8"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8d364ee94ec3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:cf5ef6f325d609f7"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8447b5bee534",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9677d9137d613e79"
+   ]
+  },
+  {
+   "adds": [
+    "Thief of Sanity"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d5fb320b6cd0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:97c616d870a0",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:01f64db48b9c3f85"
+   ]
+  },
+  {
+   "adds": [
+    "Expropriate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3c122b1d92a9",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:0e137b0ce1f92409"
+   ]
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:52b06436c7af",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:23e4e2b2bab658ae"
+   ]
+  },
+  {
+   "adds": [
+    "Bribery"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dd87e24bda71",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:8f39081277ae4c29"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:02d140f199d4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Oblivion Sower"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6a1ce3646d46",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d0b59e247fa6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4f52fca2ff309e3c"
+   ]
+  },
+  {
+   "adds": [
+    "Clone Legion"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fd19872d8695",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:95d6232e9d78aa72"
+   ]
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8e81244a7c86",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:82eeea76fffaa898"
+   ]
+  },
+  {
+   "adds": [
+    "Tasha, the Witch Queen"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7c82871b2592",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:48eaf65b6e8bc005"
+   ]
+  },
+  {
+   "adds": [
+    "Crumbling Necropolis"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bd8e66769782",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1f1665ae14672739"
+   ]
+  },
+  {
+   "adds": [
+    "Crosis's Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a3a2d84c3ed4",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Terminate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:382390190daf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Siphon Insight"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9c8d3470ccf6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:73ec9ffe01bc501a"
+   ]
+  },
+  {
+   "adds": [
+    "Siphon Insight"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:65fc991c9b60",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c26ff6c1a734f76b"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Sanctuary"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:37bcd5290353",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:6e44cfbe2e47a1b0"
+   ]
+  },
+  {
+   "adds": [
+    "Wizard's Staff"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:0a9ebcb9de60",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:a03b692ca1bfd43f"
+   ]
+  },
+  {
+   "adds": [
+    "Inevitable Betrayal"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bb8138207ca0",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f4001d97d702cdd2"
+   ]
+  },
+  {
+   "adds": [
+    "Galvanoth"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:02e7b93ff173",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3797a4aecaca6656"
+   ]
+  },
+  {
+   "adds": [
+    "Shivan Reef"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c58da457ed85",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:fc12c1655604ff69"
+   ]
+  },
+  {
+   "adds": [
+    "Flame of Anor"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:80d13d57ebf1",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:dbbffce543b8c1a0"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dbeed3a92dc3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:0db1cc95d81572f0"
+   ]
+  },
+  {
+   "adds": [
+    "Sulfur Falls"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:0c9e54579eb3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:98b28b1f2afe1562"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a445379cd72a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bojuka Bog"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f6268de3c86",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1f8271a4b1f75ad4"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:642461b2117c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:fd701959906453e0"
+   ]
+  },
+  {
+   "adds": [
+    "Xander's Lounge"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:02a5c8b0a827",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:dfcc9770c61a318d"
+   ]
+  },
+  {
+   "adds": [
+    "Training Center"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ade17060470d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:de26becd5c669092"
+   ]
+  },
+  {
+   "adds": [
+    "Talisman of Indulgence"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e5df55a02b19",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d1ee0189ea80988c"
+   ]
+  },
+  {
+   "adds": [
+    "Blood Money"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e7556b5ef1cd",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:29c2ba20b3d7930e"
+   ]
+  },
+  {
+   "adds": [
+    "Resonating Lute"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5a3dd5750750",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:65ef055644d2ee0b"
+   ]
+  },
+  {
+   "adds": [
+    "Ensnared by the Mara"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2d3ca72cfa01",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:de070e5fee4ae7ed"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:cd4c15a4541a",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d43a2427a9d23435"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:636072427026",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:0e8983172006658c"
+   ]
+  },
+  {
+   "adds": [
+    "Prosper, Tome-Bound"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9a09694c231c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:b1817d9547f0f154"
+   ]
+  },
+  {
+   "adds": [
+    "Mystic Confluence"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d3c7d9253db2",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:eeac1c7a88788b0e"
+   ]
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:9e0d3e77d000",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:96622868229f0f09"
+   ]
+  },
+  {
+   "adds": [
+    "Clout of the Dominus"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e4c79b9c7ec0",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Guttersnipe"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c0e79fbabc71",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f533e6c7628962ec"
+   ]
+  },
+  {
+   "adds": [
+    "Keeper of Secrets"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:87674fcfd4b6",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:04828ee5f27c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d6221c273e7cc102"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c7f9d5712200",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:687156863566de9f"
+   ]
+  },
+  {
+   "adds": [
+    "Hurl Through Hell"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6c417863917a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e55448b392ab",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Evolving Wilds"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:218ad305003f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1fea919b67bfb938"
+   ]
+  },
+  {
+   "adds": [
+    "Nalfeshnee"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:254eb1f3ed7a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Plargg and Nassari"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5842f7c6cc34",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Luxury Suite"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1a24b52d16f7",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ca74b38cfa147df7"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8860d9b3f9be",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Geyser"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:73a9f4a80ac1",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4cb4f7b2dd385a24"
+   ]
+  },
+  {
+   "adds": [
+    "Whispersilk Cloak"
+   ],
+   "cuts": [
+    "Deflecting Swat"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5ebf5f4dce36",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Serum Visions"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:41ae227d8181",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:522e49844cdf4daf"
+   ]
+  },
+  {
+   "adds": [
+    "Skull Storm"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:277abcfc1a14",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:2e82992da7650891"
+   ]
+  },
+  {
+   "adds": [
+    "Cyclonic Rift"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:579f6148cef5",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Abstract Performance"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f76ae88b9fd6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c62ef29c2574718f"
+   ]
+  },
+  {
+   "adds": [
+    "Snap"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a2290daff6e3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mana Drain"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:33b949014daa",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Rogue's Passage"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d6b85e3c9c30",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:5cd01f40f66df538"
+   ]
+  },
+  {
+   "adds": [
+    "Temporal Mastery"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e8091c0d0f6d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:07bcef028760200e"
+   ]
+  },
+  {
+   "adds": [
+    "Bedevil"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4fbacdd2b21b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:46f7a01264ce",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:db74edc0ddbab402"
+   ]
+  },
+  {
+   "adds": [
+    "Twenty-Toed Toad"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:41c2d2dc24d5",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:15b2fab4b9d958c3"
+   ]
+  },
+  {
+   "adds": [
+    "Reliquary Tower"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:05e96debce32",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:8c28ecc002dbc3c0"
+   ]
+  },
+  {
+   "adds": [
+    "Fallen Shinobi"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:50bf7099c679",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Temple of Malice"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c9ecb5ac7d2b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3e4dfd7622794627"
+   ]
+  },
+  {
+   "adds": [
+    "Propaganda"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:95b33e6ede80",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ac0914139114",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3948e9a36be5f680"
+   ]
+  },
+  {
+   "adds": [
+    "Reiterate"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:83cec9d08cfd",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:8e68072fa7b59519"
+   ]
+  },
+  {
+   "adds": [
+    "Passionate Archaeologist"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4de91cf0de84",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Beacon of Tomorrows"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:965e1c384700",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:cf246a4b5de56f1e"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Boilerworks"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5931cf34b0f2",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:8e0e4e47c0a91e81"
+   ]
+  },
+  {
+   "adds": [
+    "Access Tunnel"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:874016370752",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:a81f484d503392fb"
+   ]
+  },
+  {
+   "adds": [
+    "Faithless Looting"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:26462604233b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3318c36ace9b72cd"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:aeec025269cf",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d7a9cb11300aa520"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:15a63c92889d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:abfc062a263b253c"
+   ]
+  },
+  {
+   "adds": [
+    "Enter the Infinite"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f78fc725ca34",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c489ddfe99ae5308"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f5e76e9dc4a",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1f4ad219faf1630e"
+   ]
+  },
+  {
+   "adds": [
+    "Glimpse the Unthinkable"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:05a55d2b5301",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9f08b4d6c1bfde01"
+   ]
+  },
+  {
+   "adds": [
+    "Rise of the Eldrazi"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:357696425627",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:46d6424e2b887fc4"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:546ca6b894ed",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:84718b54e45899fb"
+   ]
+  },
+  {
+   "adds": [
+    "Mizzix of the Izmagnus"
+   ],
+   "cuts": [
+    "Demonic Consultation"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3038a9128709",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d2534de5b0acf11f"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e00d5f79bcfd",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:faeabe3f678c28e8"
+   ]
+  },
+  {
+   "adds": [
+    "Path of the Pyromancer"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6d8699167d46",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:e1c478b672588e1d"
+   ]
+  },
+  {
+   "adds": [
+    "Mana Sculpt"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:0bf578fd5817",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fa7047fb39fb",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c048065b36011528"
+   ]
+  },
+  {
+   "adds": [
+    "Hive Mind"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a92e468f86b6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:85265d66463fa80b"
+   ]
+  },
+  {
+   "adds": [
+    "Vandalblast"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:cb27b4cb53a2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Blitzwing, Cruel Tormentor // Blitzwing, Adaptive Assailant"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3130387a3c25",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9262bd7ae7cf9941"
+   ]
+  },
+  {
+   "adds": [
+    "Guile"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:626bed91f99e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:b161c4d05289fe67"
+   ]
+  },
+  {
+   "adds": [
+    "Stormcarved Coast"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dbf3cf6b8fc8",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:11f2535dd261cf7c"
+   ]
+  },
+  {
+   "adds": [
+    "Time Warp"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:58517cc095fb",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:6314488f84a0aeeb"
+   ]
+  },
+  {
+   "adds": [
+    "Breaking // Entering"
+   ],
+   "cuts": [
+    "Ragavan, Nimble Pilferer"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:96625389feb3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:93efcd975aa64607"
+   ]
+  },
+  {
+   "adds": [
+    "Tasha's Hideous Laughter"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5623297c578a",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:730dae2ea25f72e8"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Denial"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2fad0007613d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:68e13a4d45c34987"
+   ]
+  },
+  {
+   "adds": [
+    "Don Andres, the Renegade"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:77864554f27c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:6b72e0f741e02571"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:a251155b43d3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:e30319e3e1bd0f75"
+   ]
+  },
+  {
+   "adds": [
+    "False Memories"
+   ],
+   "cuts": [
+    "Brain Freeze"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:31206faab5a3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c7afff7b303a7c08"
+   ]
+  },
+  {
+   "adds": [
+    "Gonti, Night Minister"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1ec396bb3bf1",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4dd20f15e2a7eb62"
+   ]
+  },
+  {
+   "adds": [
+    "Underground River"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:394687929f46",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:428ddc1b332bd157"
+   ]
+  },
+  {
+   "adds": [
+    "Flamekin Village"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:68e8d1b05937",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c52a502eb47e7472"
+   ]
+  },
+  {
+   "adds": [
+    "Praetor's Grasp"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fba4da270dec",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:61770628ab4bf315"
+   ]
+  },
+  {
+   "adds": [
+    "Talent of the Telepath"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:72864e86f879",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:46ac998c30601bf7"
+   ]
+  },
+  {
+   "adds": [
+    "Chromatic Lantern"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:951e949aa93b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:8d1db1e10faef5ef"
+   ]
+  },
+  {
+   "adds": [
+    "Unsubstantiate"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f3ea6cb1f41",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f74a6812eb3d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:a088b1f6e2c987a6"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5c4e42816cd0",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:fb7b9d2522ef0204"
+   ]
+  },
+  {
+   "adds": [
+    "Reality Shift"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b18912fc6c7e",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Shipwreck Marsh"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1f5ee5bc32a5",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:6a93f7cc06947909"
+   ]
+  },
+  {
+   "adds": [
+    "Opt"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e4453687daef",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:bfb2d41337deebc2"
+   ]
+  },
+  {
+   "adds": [
+    "Strionic Resonator"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f7bb25733a85",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:7a77bf41f1e2c236"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of the False God"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:dab686e771a5",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:b156da746f22448f"
+   ]
+  },
+  {
+   "adds": [
+    "Paradigm Shift"
+   ],
+   "cuts": [
+    "Toxic Deluge"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6b9a746e4272",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:61b4a533465f56bd"
+   ]
+  },
+  {
+   "adds": [
+    "Rakdos Carnarium"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bd1df7262efc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:58cdfc7ce1f06643"
+   ]
+  },
+  {
+   "adds": [
+    "Grixis Charm"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:23abc77228d1",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sulfurous Springs"
+   ],
+   "cuts": [
+    "Arid Mesa"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:22309ae83775",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ec57b6cf79b31a4f"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:deeefe82daee",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:856b0ee7f8240161"
+   ]
+  },
+  {
+   "adds": [
+    "Orcish Bowmasters"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2bb8237feebc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:71b41fbdb0966ce6"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:64a3c787d5bc",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f5a4342b17d08021"
+   ]
+  },
+  {
+   "adds": [
+    "Cool but Rude"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:63b45f96cf11",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:e3ed1ee6ce35c5d6"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:165ba56892d5",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:3e4645044bb87c89"
+   ]
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f36c092ac23f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:41a8d77de58d7d2c"
+   ]
+  },
+  {
+   "adds": [
+    "Psychosis Crawler"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:07ba9372c816",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9ff8a0976df04593"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ed35dc22461f",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:43365fc98a7bfd3e"
+   ]
+  },
+  {
+   "adds": [
+    "Sheoldred, the Apocalypse"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:59b15f38ceb4",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:45dbbf1387bde40f"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:67b5286d86b5",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c207d80e020d99ee"
+   ]
+  },
+  {
+   "adds": [
+    "Teferi's Ageless Insight"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:163026f8cf49",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:acaa8c0f51341801"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4777c1e6add2",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f31582c0f2c6b04a"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodletter of Aclazotz"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1a1d11c3c2c1",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:6dbb93844f62f371"
+   ]
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:3d6c6faf560e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1b2b65a8b28e7ea6"
+   ]
+  },
+  {
+   "adds": [
+    "Alhammarret's Archive"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:b9bab2222aa8",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c434c2c465330e35"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:092ce94f3e0e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:6cf2a5c405159649"
+   ]
+  },
+  {
+   "adds": [
+    "Razorkin Needlehead"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4a8548f9800a",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:fc2d0dcc3463059e"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:e6a40024eb58",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ffea3bcc25bdc198"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Angel"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2da755d9c3d1",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:927b6cbb388a36a1"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8e3b10f12c45",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:e894209b9d396c3c"
+   ]
+  },
+  {
+   "adds": [
+    "Psychic Corrosion"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:81315fb3de40",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4ba9be3d46ee0015"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Grim Monolith"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:19f28e67c566",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1e7d5d10e7e12d6c"
+   ]
+  },
+  {
+   "adds": [
+    "Grinding Station"
+   ],
+   "cuts": [
+    "Lion's Eye Diamond"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:108d92b652aa",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:793775bacd6c8884"
+   ]
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:1b93fc36c2ac",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:cdc0b2cff743c354"
+   ]
+  },
+  {
+   "adds": [
+    "Vnwxt, Verbose Host"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7d14af29fca3",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:13918e4ad28f9df9"
+   ]
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:f1e6541d0570",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4e2ddfdc2e0ec5f7"
+   ]
+  },
+  {
+   "adds": [
+    "Nekusar, the Mindrazer"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:74909e3b56d9",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:c6dd27fa675465dd"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:54d128b78999",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:54b8affcb22560b5"
+   ]
+  },
+  {
+   "adds": [
+    "Fortune Teller's Talent"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:71504c32e01e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4ae245af8ab56d3d"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:71162b1a9e97",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:de95dc6ebe8500bc"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8d3964e34d8b",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:4f7acae41e43a066"
+   ]
+  },
+  {
+   "adds": [
+    "Platinum Emperion"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:76036a83adae",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:0b388d1dd0deaebd"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:c811b1eac62d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:97d08f1bdaebb96c"
+   ]
+  },
+  {
+   "adds": [
+    "Timestream Navigator"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:58e54dc307bb",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:62a41a0f61b125ca"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Cabal Ritual"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4a39644ab068",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ce6eb5b3ccd53390"
+   ]
+  },
+  {
+   "adds": [
+    "The Enigma Jewel // Locus of Enlightenment"
+   ],
+   "cuts": [
+    "Lotus Petal"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:d9a5c07935a9",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:91b89ae5d154bea9"
+   ]
+  },
+  {
+   "adds": [
+    "Feast of Sanity"
+   ],
+   "cuts": [
+    "Pyroblast"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:2b7cc99673d5",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:549f28fb5519b897"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:15cb546dc67e",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:0690cc1d3598f012"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Syphon"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:861e53531818",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:f9413afdeee0a199"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5fdbc4e321b6",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:1835a87c968816e4"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Reflection"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:bd0bdbe9d893",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:b2f33238a431770f"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Mystic Remora"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:4b6996ce61af",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:bd507b67713538ff"
+   ]
+  },
+  {
+   "adds": [
+    "Power Artifact"
+   ],
+   "cuts": [
+    "Underworld Breach"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fc42d99f1532",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:bbe06c031f51d714"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:85afddcc19aa",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:ba7e5a7c2fd4e135"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:57875e9ac20d",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:d63d3ac9b10bbca9"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:8d502c50bd50",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:e69f03215fad2730"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7c17ecf3ffb0",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9ccd81b2f0eaa276"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:fcf686d66202",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:dd9cdb71330371e7"
+   ]
+  },
+  {
+   "adds": [
+    "Ambassador Laquatus"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:ce49c2fc20d2",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:531587339675f917"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Borne Upon a Wind"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:56e8d2bb993c",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:86c39b82580604f4"
+   ]
+  },
+  {
+   "adds": [
+    "Lich"
+   ],
+   "cuts": [
+    "Wheel of Fortune"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:5519d7108486",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:58f894912c66c5e5"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Simian Spirit Guide"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:6ba1d1e57d89",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:9b951e5b0182cabd"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Thassa's Oracle"
+   ],
+   "id": "swap:jeleva-nephalias-scourge:m5:7258dfafe825",
+   "tests": [
+    "test:jeleva-nephalias-scourge:goldfish:04a2530c3e3a938b"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:7e7a3eca5284ef22",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:b1e9dd4407f6756f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:8604a31d0797693b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:32b40e1f02efab09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:47d83a6e9a8ef77b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:fa59184fb626132f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3f772c38b6962c5c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:dcfa7db57d4b6736",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3e318aa330546c46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1a9fcc4b290aa96f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:a50fed2edfa04e2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:604da54f34fa4852",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d145c9005f8c4ae8",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f864ebcffdc7fd66",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3a9070615e63a5f1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3228f2ef7f67220e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:483ef01996fea875",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:5bc8b8634df0917e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f0cce95421c60762",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:274c7090b01f0c97",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9c17f5e685534eb2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:48af7145dc495ff1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:02625ffcc043757b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ac85c75502c90217",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:2b9d7c6af1ed7f40",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:16326b95597b4fda",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ab060b73030a9ce8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:0536f98b6b00808e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:beffa5d61933e8bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:2c2165f2ddc41eef",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:bf1012bd01c3e950",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:fc10729e9aa9f516",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4620ab5b105765ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3205f34dbf5c9f83",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:92980396d1309b0d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:cb48877d926fcb8f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:b75dd32002e2ed28",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:43b93cf181cf3dfb",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:084922d59873da39",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d9cfd562867c33ed",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:816bb54e08543243",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:88005c5fab523a76",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:070dd42f5667cc7b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:332411936b2f87b5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:31d5cec0ea2235cf",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d4a3d55c0b620580",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:719235d83c8e1144",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:42ef7ac550ed1aaf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:bd431494ddd5ebb5",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:a1fb9802087b56c2",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:165727fcb33e095b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:97017318d9a00720",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:e612fd4219bb3ba6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4b929bec81a9b62d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f5e4e1f682f95cca",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9935a96143e45887",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:992a1c25ba2b3b91",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1e3f012652c61086",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:15c4328c1cae39a4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:7b68c5704bf373a8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:cf5ef6f325d609f7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9677d9137d613e79",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:01f64db48b9c3f85",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:0e137b0ce1f92409",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:23e4e2b2bab658ae",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:8f39081277ae4c29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4f52fca2ff309e3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:95d6232e9d78aa72",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:82eeea76fffaa898",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:48eaf65b6e8bc005",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1f1665ae14672739",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:73ec9ffe01bc501a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c26ff6c1a734f76b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:6e44cfbe2e47a1b0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:a03b692ca1bfd43f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f4001d97d702cdd2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3797a4aecaca6656",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:fc12c1655604ff69",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:dbbffce543b8c1a0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:0db1cc95d81572f0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:98b28b1f2afe1562",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1f8271a4b1f75ad4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:fd701959906453e0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:dfcc9770c61a318d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:de26becd5c669092",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d1ee0189ea80988c",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:29c2ba20b3d7930e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:65ef055644d2ee0b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:de070e5fee4ae7ed",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d43a2427a9d23435",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:0e8983172006658c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:b1817d9547f0f154",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:eeac1c7a88788b0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:96622868229f0f09",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f533e6c7628962ec",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d6221c273e7cc102",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:687156863566de9f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1fea919b67bfb938",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ca74b38cfa147df7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4cb4f7b2dd385a24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:522e49844cdf4daf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:2e82992da7650891",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c62ef29c2574718f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:5cd01f40f66df538",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:07bcef028760200e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:db74edc0ddbab402",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:15b2fab4b9d958c3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:8c28ecc002dbc3c0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3e4dfd7622794627",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3948e9a36be5f680",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:8e68072fa7b59519",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:cf246a4b5de56f1e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:8e0e4e47c0a91e81",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:a81f484d503392fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3318c36ace9b72cd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d7a9cb11300aa520",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:abfc062a263b253c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c489ddfe99ae5308",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1f4ad219faf1630e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9f08b4d6c1bfde01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:46d6424e2b887fc4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:84718b54e45899fb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d2534de5b0acf11f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:faeabe3f678c28e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:e1c478b672588e1d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c048065b36011528",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:85265d66463fa80b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9262bd7ae7cf9941",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:b161c4d05289fe67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:11f2535dd261cf7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:6314488f84a0aeeb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:93efcd975aa64607",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:730dae2ea25f72e8",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:68e13a4d45c34987",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:6b72e0f741e02571",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:e30319e3e1bd0f75",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c7afff7b303a7c08",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4dd20f15e2a7eb62",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:428ddc1b332bd157",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c52a502eb47e7472",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:61770628ab4bf315",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:46ac998c30601bf7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:8d1db1e10faef5ef",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:a088b1f6e2c987a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:fb7b9d2522ef0204",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:6a93f7cc06947909",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:bfb2d41337deebc2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:7a77bf41f1e2c236",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:b156da746f22448f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:61b4a533465f56bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:58cdfc7ce1f06643",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ec57b6cf79b31a4f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:856b0ee7f8240161",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:71b41fbdb0966ce6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f5a4342b17d08021",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:e3ed1ee6ce35c5d6",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:3e4645044bb87c89",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:41a8d77de58d7d2c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9ff8a0976df04593",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:43365fc98a7bfd3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:45dbbf1387bde40f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c207d80e020d99ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:acaa8c0f51341801",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f31582c0f2c6b04a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:6dbb93844f62f371",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1b2b65a8b28e7ea6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c434c2c465330e35",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:6cf2a5c405159649",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:fc2d0dcc3463059e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ffea3bcc25bdc198",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:927b6cbb388a36a1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:e894209b9d396c3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4ba9be3d46ee0015",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1e7d5d10e7e12d6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:793775bacd6c8884",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:cdc0b2cff743c354",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:13918e4ad28f9df9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4e2ddfdc2e0ec5f7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:c6dd27fa675465dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:54b8affcb22560b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4ae245af8ab56d3d",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:de95dc6ebe8500bc",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:4f7acae41e43a066",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:0b388d1dd0deaebd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:97d08f1bdaebb96c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:62a41a0f61b125ca",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ce6eb5b3ccd53390",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:91b89ae5d154bea9",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:549f28fb5519b897",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:0690cc1d3598f012",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:f9413afdeee0a199",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:1835a87c968816e4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:b2f33238a431770f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:bd507b67713538ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:bbe06c031f51d714",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:ba7e5a7c2fd4e135",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:d63d3ac9b10bbca9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:e69f03215fad2730",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9ccd81b2f0eaa276",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:dd9cdb71330371e7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:531587339675f917",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:86c39b82580604f4",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:58f894912c66c5e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:9b951e5b0182cabd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:jeleva-nephalias-scourge:goldfish:04a2530c3e3a938b",
+   "verdict": "pass"
+  }
+ ]
+}

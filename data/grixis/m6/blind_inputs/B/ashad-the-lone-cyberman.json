@@ -1,0 +1,8071 @@
+{
+ "deck_id": "Ashad__the_Lone_Cyberman",
+ "list_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+ "slug": "ashad-the-lone-cyberman",
+ "swaps": [
+  {
+   "adds": [
+    "Cryptothrall"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8931e3be8454",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:86a3c2c5689fe5b8"
+   ]
+  },
+  {
+   "adds": [
+    "Jadar, Ghoulcaller of Nephalia"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4127940a91a7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d28a2c2ee9bd95c4"
+   ]
+  },
+  {
+   "adds": [
+    "Jadar, Ghoulcaller of Nephalia"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8c0982c69748",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:30fe5cfcb61a264a"
+   ]
+  },
+  {
+   "adds": [
+    "Steel Overseer"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ea64f96b5879",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ccd1bc04a49cd611"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberman Patrol"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c07a401dcd03",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e949cecdb4e9f412"
+   ]
+  },
+  {
+   "adds": [
+    "Cyberman Patrol"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c13dd166ec91",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0a7dff56ac6c8d80"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2dad70aafb22",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4a798c5ddce2e5ae"
+   ]
+  },
+  {
+   "adds": [
+    "Thran Dynamo"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c10429e24fef",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1aa607fbee5d7d46"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:964713dba936",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:42afe87aba5e6ee2"
+   ]
+  },
+  {
+   "adds": [
+    "Ultron, Artificial Malevolence"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5f30b9cb6d2c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:522d72d3a0078b01"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Drone"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9707c0b6ddb2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dalek Drone"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8ab7714631a7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ff01f522f1e224ba"
+   ]
+  },
+  {
+   "adds": [
+    "Combustible Gearhulk"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:201221006136",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f057819112432cf5"
+   ]
+  },
+  {
+   "adds": [
+    "Buried Ruin"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a22a25dc4616",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6c6b060e04b17c29"
+   ]
+  },
+  {
+   "adds": [
+    "Uthros, Titanic Godcore"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3f88641db5f3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8256a2e5f148db26"
+   ]
+  },
+  {
+   "adds": [
+    "Golbez, Crystal Collector"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:34f90e6f34c3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c4299ade309322d8"
+   ]
+  },
+  {
+   "adds": [
+    "Golbez, Crystal Collector"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:503ffd1f2edf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1ee165c414ae7edf"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ce56d13c56c6",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:099ff314a7347ea1"
+   ]
+  },
+  {
+   "adds": [
+    "Mind Stone"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c266607eeda7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:faa0aa5de7bc452b"
+   ]
+  },
+  {
+   "adds": [
+    "Mistvault Bridge"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e426fd777356",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d5b25fa14ab23ff3"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ba3981019dd4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8ed23fd0440462ac"
+   ]
+  },
+  {
+   "adds": [
+    "Stridehangar Automaton"
+   ],
+   "cuts": [
+    "Solemn Simulacrum"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:399c55cb3acd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:896094b5cacf4d26"
+   ]
+  },
+  {
+   "adds": [
+    "Archway of Innovation"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a5492ebb6187",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3ee7a40cdbb41d7f"
+   ]
+  },
+  {
+   "adds": [
+    "Silverbluff Bridge"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0b3faa12c77d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b73707616d74876a"
+   ]
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:40e7281ab794",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cc3be05c365267a7"
+   ]
+  },
+  {
+   "adds": [
+    "Cybership"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:37fabc6af425",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:474f630d4dabe3bc"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:947651481972",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:043a1c36ae5f9a03"
+   ]
+  },
+  {
+   "adds": [
+    "Dalek Squadron"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8ff42bda73e1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4905032e369bc5e8"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5e79bae56102",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9d12859d66bb5760"
+   ]
+  },
+  {
+   "adds": [
+    "Mechanized Production"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ed02c8f54ac9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:09475a62e7ae9685"
+   ]
+  },
+  {
+   "adds": [
+    "Desynchronization"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:26cbf301123f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:095af4b8f5bd4d42"
+   ]
+  },
+  {
+   "adds": [
+    "Desynchronization"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:221dbb134d3d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4570c0c3de8da39f"
+   ]
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:649899a1cdef",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0e8b007746f6d05f"
+   ]
+  },
+  {
+   "adds": [
+    "Weeping Angel"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:52b59d8346c0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ae11974e3ccab11e"
+   ]
+  },
+  {
+   "adds": [
+    "Lagomos, Hand of Hatred"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:13604b3038e3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a2177d254e9777af"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Retriever"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5db7591aa3e9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b7fbe4d1dd20c4b5"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Retriever"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:39813ac3836c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:71ada4a526199482"
+   ]
+  },
+  {
+   "adds": [
+    "Darksteel Citadel"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:03176da48fc6",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6cc3b70f12ed6b35"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6b9c5e226904",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2f4adf0d53a0f6e7"
+   ]
+  },
+  {
+   "adds": [
+    "Shuri, Wakandan Inventor"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e5e9b1e0c486",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0fab70bb47f9e409"
+   ]
+  },
+  {
+   "adds": [
+    "Spire of Industry"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:fc00ab020119",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0462118449245b2f"
+   ]
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c6e8dc9d3089",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ef0e5ed898183a30"
+   ]
+  },
+  {
+   "adds": [
+    "Master Transmuter"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e27c6bad95f4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cb6c38e4a1e5452b"
+   ]
+  },
+  {
+   "adds": [
+    "Haunted Ridge"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:38a0885765f0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2d898b50fd4c1436"
+   ]
+  },
+  {
+   "adds": [
+    "Drossforge Bridge"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9feda1522f51",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:14b4140873006ad7"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:31dd30ceb736",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3a4c3e1cdc82c579"
+   ]
+  },
+  {
+   "adds": [
+    "Technomancer"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cc1f9b3bc47c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:20e57e705c2d887a"
+   ]
+  },
+  {
+   "adds": [
+    "Skullclamp"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3965908cd674",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b07a5e8bd462a46a"
+   ]
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5a14b1edd023",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c62a4a3d5ffcfa1e"
+   ]
+  },
+  {
+   "adds": [
+    "Death in Heaven"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:77448203acdd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4a2970046af91d53"
+   ]
+  },
+  {
+   "adds": [
+    "Liberator, Urza's Battlethopter"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d3a71a437716",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0c3c2c4721b7cb0a"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask's Forge"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9f04856874bd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d15fc796b548d117"
+   ]
+  },
+  {
+   "adds": [
+    "Urabrask's Forge"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9b532d68da73",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d2f086f371d980d4"
+   ]
+  },
+  {
+   "adds": [
+    "Myr Battlesphere"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:950382a501c0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e7a078010117a32a"
+   ]
+  },
+  {
+   "adds": [
+    "Chief of the Foundry"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6d0e8d61b9a4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:63565f991db47d3d"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2ab165624ae7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d409596505d4b38c"
+   ]
+  },
+  {
+   "adds": [
+    "Mishra, Eminent One"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ada8d6fbac5f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:eeaa24dbef5194e6"
+   ]
+  },
+  {
+   "adds": [
+    "Gilded Lotus"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5ece3f30d5da",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7beb02b20381e65f"
+   ]
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7447fa8ba0d8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3b74ae7a86adbadb"
+   ]
+  },
+  {
+   "adds": [
+    "Skorpekh Lord"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:75a5b903543a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f34c559d4be15036"
+   ]
+  },
+  {
+   "adds": [
+    "Royal Warden"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5d650523b710",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1f8e5d4b47a6ac2c"
+   ]
+  },
+  {
+   "adds": [
+    "Royal Warden"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:49efa7d13c6a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4a91f0451fbeca0e"
+   ]
+  },
+  {
+   "adds": [
+    "Idol of Oblivion"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:27d330943d39",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:afeabdd8f2e1d5e6"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0c5198e9c6ea",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2abc3d9521eca33c"
+   ]
+  },
+  {
+   "adds": [
+    "Chrome Dome"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cd7745c4fe10",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ddf9dbf579087bc6"
+   ]
+  },
+  {
+   "adds": [
+    "Anrakyr the Traveller"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:091a57e7d7e0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2bdb4f49d2dda6fe"
+   ]
+  },
+  {
+   "adds": [
+    "Master of Etherium"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b059b79a6d56",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ac1b8f0d97d5fc16"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:64766bde90dd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3b899f3993aca5b9"
+   ]
+  },
+  {
+   "adds": [
+    "Mirrorworks"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:196d6efeb818",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2c64f2c05b0ff15c"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira's Familiar"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e5643e3a2c03",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1838baf8fa721ed9"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodghast"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ef4f2d846101",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:335929ddc485715a"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodghast"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:923f62b5e6f0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7485793d64083411"
+   ]
+  },
+  {
+   "adds": [
+    "Sai, Master Thopterist"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bcb8a06d9bbe",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9697fe88c240cd84"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a07141943c07",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:402dc88bbdab44b8"
+   ]
+  },
+  {
+   "adds": [
+    "Relic of Sauron"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d6e5ffee66ef",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ce6a4b7b5a25549a"
+   ]
+  },
+  {
+   "adds": [
+    "Three Steps Ahead"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b44b791e49b0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2577995d86bf9141"
+   ]
+  },
+  {
+   "adds": [
+    "Cranial Ram"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0d51e01dac39",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:931ac51edede37e9"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:dfd2d6c2242b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:95cf2558c18e269f"
+   ]
+  },
+  {
+   "adds": [
+    "Time Sieve"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1077ff0e9622",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:38633681952298f3"
+   ]
+  },
+  {
+   "adds": [
+    "Cloud Key"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:eb061f08fdec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a3c5932989487bdf"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:00c270ee4690",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2d776331f601b6a7"
+   ]
+  },
+  {
+   "adds": [
+    "Thought Vessel"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:61653ea6e230",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c347bff5553bdf14"
+   ]
+  },
+  {
+   "adds": [
+    "Demonic Junker"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b1fa5b82f518",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Demonic Junker"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3d636a4cf882",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6f8d293c03c8bbb1"
+   ]
+  },
+  {
+   "adds": [
+    "Drowned Catacomb"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:871c46245c9b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0740ae84d89821de"
+   ]
+  },
+  {
+   "adds": [
+    "Scour for Scrap"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2b20d3e08ec1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6803a20b8333c265"
+   ]
+  },
+  {
+   "adds": [
+    "Sunken Hollow"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9d0328099d3b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2555c1b60cdbbcf3"
+   ]
+  },
+  {
+   "adds": [
+    "Counterspell"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2d264ec5f65c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Necron Deathmark"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:44e6e9ad0704",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Darkwater Catacombs"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:04e036dc2719",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:67028cad1263286e"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonskull Summit"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a5fd1f1b7eaf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:960ac27129296a09"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Archive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6ee15c75e103",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:191f6344ceb0f26d"
+   ]
+  },
+  {
+   "adds": [
+    "Smoldering Marsh"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:76d4540f8f47",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2b2adf5643b66d1f"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d8bf040f2316",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:283843129e6b06e6"
+   ]
+  },
+  {
+   "adds": [
+    "Razorlash Transmogrant"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d77067201cc9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:aa1c472bcaa33bf9"
+   ]
+  },
+  {
+   "adds": [
+    "Dimir Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:417076afb524",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d3aec7d0895c1db9"
+   ]
+  },
+  {
+   "adds": [
+    "Sensei's Divining Top"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d0f8e10e2d93",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c00d5cc3b53f5345"
+   ]
+  },
+  {
+   "adds": [
+    "Doomsday Confluence"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ef4c8605e0d8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6e0fee9d62f0f5b9"
+   ]
+  },
+  {
+   "adds": [
+    "Fateful Discovery"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:76be52d4f265",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ee3f2aaa0701c0ea"
+   ]
+  },
+  {
+   "adds": [
+    "Commander's Sphere"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:031daf7f8c58",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3ead14115902ac45"
+   ]
+  },
+  {
+   "adds": [
+    "Feed the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:76a748ddb84a",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4e19af6fa51f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:91b1fe8ccdc3fcdf"
+   ]
+  },
+  {
+   "adds": [
+    "Joo Dee, One of Many"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c8726a953914",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:908b197b7f1428a1"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e787c49355c3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1a902eaa4814aecf"
+   ]
+  },
+  {
+   "adds": [
+    "Crackdown Construct"
+   ],
+   "cuts": [
+    "Solemn Simulacrum"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9cc4a8bea551",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1bc26a4954b2fa16"
+   ]
+  },
+  {
+   "adds": [
+    "Seething Landscape"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:db7fe34b1e7d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e5b3d61f427930db"
+   ]
+  },
+  {
+   "adds": [
+    "Deadly Dispute"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9b08c3091072",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:923895d193efe16c"
+   ]
+  },
+  {
+   "adds": [
+    "Scalding Tarn"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0cf33a4b30ee",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4e50cfa494127563"
+   ]
+  },
+  {
+   "adds": [
+    "Whir of Invention"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3a000fb1ec17",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:dcd089c396ccd336"
+   ]
+  },
+  {
+   "adds": [
+    "Arc Reactor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d21ff21fdc57",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2bed1c63e3a7b3fe"
+   ]
+  },
+  {
+   "adds": [
+    "An Offer You Can't Refuse"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6c5dd17db66b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2ca3ca751454d49e"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Signet"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7ad0e870c75d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:03ae691d38fa8109"
+   ]
+  },
+  {
+   "adds": [
+    "Exterminate!"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:66ccdf4c8685",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Castle Doom"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:63c8d065537d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:53d981c2a0957384"
+   ]
+  },
+  {
+   "adds": [
+    "Repurposing Bay"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f32588271505",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2250224885ed0700"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowblood Ridge"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:91dc2b6e4fbc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:45c3e94ac02590f1"
+   ]
+  },
+  {
+   "adds": [
+    "Wayfarer's Bauble"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5fb313e8beaa",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:94078cc806a39f00"
+   ]
+  },
+  {
+   "adds": [
+    "Endurance Bobblehead"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:29d363da8912",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:97cb291b0aa1b1d2"
+   ]
+  },
+  {
+   "adds": [
+    "Blasphemous Act"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:030f336243d9",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:140d9706bcdb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0190ca1d7aff55c8"
+   ]
+  },
+  {
+   "adds": [
+    "Smaug the Impenetrable"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8fc981ce9b98",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c66f086f14f81e17"
+   ]
+  },
+  {
+   "adds": [
+    "Tezzeret, Cruel Captain"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:24b901b3b059",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3df2870483aa16b1"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4138a25ba60f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c508a9325f1ac79a"
+   ]
+  },
+  {
+   "adds": [
+    "Draconic Visitor"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:863760293392",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5a2936fc0cfbca5e"
+   ]
+  },
+  {
+   "adds": [
+    "Fiery Islet"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4ce2372dd1d4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6aa2d21f209bf0a5"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ed9790e61798",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fbb9c83bb9241bcc"
+   ]
+  },
+  {
+   "adds": [
+    "Aetherflux Reservoir"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:23530a0645ec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8ac622c6428febe7"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Cursed Mirror"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:57c41094a0e7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:876065added9d53d"
+   ]
+  },
+  {
+   "adds": [
+    "Narset's Reversal"
+   ],
+   "cuts": [
+    "Worldwalker Helm"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:537506a96ec3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6d6af43e68e22f58"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Scriptures"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f1c8c2cb4565",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b038fa92bbec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ae1568c8f0e61669"
+   ]
+  },
+  {
+   "adds": [
+    "Kiki-Jiki, Mirror Breaker"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7d8c082e2bcf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9e2a1954a5afb4ff"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cbe5dd4188ec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7667cf7d6764071e"
+   ]
+  },
+  {
+   "adds": [
+    "Molten Duplication"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6457f8c868ee",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6a11d9acd0549691"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:96891e268f15",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d8e6aa9673c5b87c"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Mantle"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d2a8522611a8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:60809a4752bdf283"
+   ]
+  },
+  {
+   "adds": [
+    "Astral Dragon"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3bf3592b45d5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c94222e844fa2d22"
+   ]
+  },
+  {
+   "adds": [
+    "Astral Dragon"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cdbc240a3eea",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:03b5af522a470665"
+   ]
+  },
+  {
+   "adds": [
+    "Spine of Ish Sah"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:089a5859160f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:21974bb2b7e30744"
+   ]
+  },
+  {
+   "adds": [
+    "Spine of Ish Sah"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8ad9c4cf59b9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e215ea8c9b8ceff6"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8b59c8bf64ef",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:52c7f4d78cda183a"
+   ]
+  },
+  {
+   "adds": [
+    "Thornbite Staff"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d1aceeb58538",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f2d6223ddabcb24a"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:67d457a11aed",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d46e821f8b2b333f"
+   ]
+  },
+  {
+   "adds": [
+    "Pashalik Mons"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1289fcdf5299",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4dc73ca7496859a4"
+   ]
+  },
+  {
+   "adds": [
+    "Genesis Chamber"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9ddfc01f74d7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:59fb3afe1ff85d73"
+   ]
+  },
+  {
+   "adds": [
+    "Genesis Chamber"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a1701e9ac2ff",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:79d33f106c9e70b6"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Vantress"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1a2a026c3971",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1c151819b4a9a689"
+   ]
+  },
+  {
+   "adds": [
+    "Court of Vantress"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:056590a497ec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2be792ff3e5123ce"
+   ]
+  },
+  {
+   "adds": [
+    "Black Market Connections"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ad5b39a16838",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b93cb7eb2ad07421"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c3d47fdba28b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b4f6054cbc5f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:63256a58f79d051b"
+   ]
+  },
+  {
+   "adds": [
+    "Nim Deathmantle"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:fbe9bd512c5e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fdb552ccf4a7c8f7"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:dd3ed3650130",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e078d6858ddc5783"
+   ]
+  },
+  {
+   "adds": [
+    "Relm's Sketching"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1ddad0a5e01a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:672d9999f3e9d580"
+   ]
+  },
+  {
+   "adds": [
+    "Trinket Mage"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2ff117a70718",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:97cb3740206fa220"
+   ]
+  },
+  {
+   "adds": [
+    "Tribute Mage"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:07aace09a571",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bb61d9d704f14b9f"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0ee8da478691",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3783e1eb33c31567"
+   ]
+  },
+  {
+   "adds": [
+    "Animation Module"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:288537361e4d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c5842df36b5dd10f"
+   ]
+  },
+  {
+   "adds": [
+    "Trophy Mage"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ac3d8144dd54",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2a59da525a9575ab"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:05f8f46a9f87",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b842aaff9c2ac08e"
+   ]
+  },
+  {
+   "adds": [
+    "Stolen Identity"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:25c771586435",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:37460fd6ee02f6af"
+   ]
+  },
+  {
+   "adds": [
+    "Kuldotha Forgemaster"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6062256800df",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:69e538619fd55659"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e361cf1c0b86",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:023af98ae4e7c3dc"
+   ]
+  },
+  {
+   "adds": [
+    "Silverclad Ferocidons"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:47f0da3a28ec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:84512f8fd3d9b462"
+   ]
+  },
+  {
+   "adds": [
+    "Intelligence Bobblehead"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3cee11d7b02a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:eb954721b2ce108c"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:39c668f673bc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a0c88eab016297d2"
+   ]
+  },
+  {
+   "adds": [
+    "Breath of Fury"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:30c374c2e750",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:dc171385f91a118f"
+   ]
+  },
+  {
+   "adds": [
+    "Swiftfoot Boots"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3df70f6ab9fc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:69776d8f0a4aeaf0"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ec4b80888ee7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:88ee70bbab1ce2e5"
+   ]
+  },
+  {
+   "adds": [
+    "Blazing Sunsteel"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d3800c343498",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0b53649a368148eb"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:acc318249b9d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:dc45830ede72f4a8"
+   ]
+  },
+  {
+   "adds": [
+    "Ancestral Statue"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e0daf755c3bf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:85366ae09db191dc"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin's Nexus"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3860d0e8c5c4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c6ab3691f2fe7a35"
+   ]
+  },
+  {
+   "adds": [
+    "Ugin's Nexus"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bfcdb7961998",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d07203e650643d9c"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Cursed Mirror"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:616f9edf1021",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1dda0b1dfbeeb6e0"
+   ]
+  },
+  {
+   "adds": [
+    "Fury Storm"
+   ],
+   "cuts": [
+    "Worldwalker Helm"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ba4e5e6adb9c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b639102f63e3d823"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2f837d165c00",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:90461f7cf2cd99bc"
+   ]
+  },
+  {
+   "adds": [
+    "Magmatic Galleon"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:91c73661e914",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:50cf4d2660d5bcef"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Epiphany"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4c5969c38784",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:387e842336e63988"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d4fc1d95e305",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:eefb21cc1b884ef5"
+   ]
+  },
+  {
+   "adds": [
+    "Krenko, Baron of Tin Street"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:55d3d0605998",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fe813572b37f23f8"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:53aeae6a3f93",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0e4c981c26b690dc"
+   ]
+  },
+  {
+   "adds": [
+    "Mirran Spy"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7203274bdd0b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e911f200b2a2f49a"
+   ]
+  },
+  {
+   "adds": [
+    "Malevolent Hermit // Benevolent Geist"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e33e139462e2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sewer-veillance Cam"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:89221574db73",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8b30498c914902b9"
+   ]
+  },
+  {
+   "adds": [
+    "Oriq Loremage"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a9796fde03d2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d0a7e4eea32644d0"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d275bd22717d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d6f6b8c91ec54402"
+   ]
+  },
+  {
+   "adds": [
+    "Ozox, the Clattering King"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3b499f3cac92",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0c66b694bad89abc"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Scorpion"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:84db75e7cab4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d74f9c47cb0cb720"
+   ]
+  },
+  {
+   "adds": [
+    "Dross Scorpion"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1488626ee83c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5f010755d85d0f8c"
+   ]
+  },
+  {
+   "adds": [
+    "Transit Mage"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a79b4a250253",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7e9e21f129e900bb"
+   ]
+  },
+  {
+   "adds": [
+    "Pensive Professor"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:deeff4bd002b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c9c2cfed1fb43721"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Inventor"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0ed80e2ff483",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:366431b8d57a8e6b"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b90a00f66d1b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ee99731c35d77cfd"
+   ]
+  },
+  {
+   "adds": [
+    "Oathkeeper, Takeno's Daisho"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b8b9e673b8db",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b8b7f00c972b961d"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Titan of Innovation"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1d6a73e3febb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:831f18420e866965"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e6f6a7a1fa47",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4fb63fa61baa6bd5"
+   ]
+  },
+  {
+   "adds": [
+    "Spawnsire of Ulamog"
+   ],
+   "cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f5341a683a98",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fa25b3a1e98dd113"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Storm"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1b4708d39cd5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b4bddfdc1dc10028"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Storm"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2542c1dbfb16",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:624d85f3d4884e8e"
+   ]
+  },
+  {
+   "adds": [
+    "Blade of Shared Souls"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bc12d0b2496d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9d88f62567ac3619"
+   ]
+  },
+  {
+   "adds": [
+    "Blade of Shared Souls"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:787ec27e3e5a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:607fdb52ba8197e6"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1bdbfaf2705c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:edc7ce8dba7b4a51"
+   ]
+  },
+  {
+   "adds": [
+    "Summoning Station"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8b104e4245fa",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9e707717ed53977d"
+   ]
+  },
+  {
+   "adds": [
+    "Scrapyard Recombiner"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:230ca3316b49",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8a951351627b8e41"
+   ]
+  },
+  {
+   "adds": [
+    "Professional Face-Breaker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b88af5bc752a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:79be3f0a5620aef7"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Kappa Cannoneer"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:97fbdfee56b0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b177c3236a31f9ab"
+   ]
+  },
+  {
+   "adds": [
+    "Undead Sprinter"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:94de048e613f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e39c083064fe3125"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Auton Soldier"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9acea0cabd52",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4b598223a284a953"
+   ]
+  },
+  {
+   "adds": [
+    "Tenacious Dead"
+   ],
+   "cuts": [
+    "Marionette Master"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:86ef8cd669cf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1b32fa9489ddd408"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Specialist"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5ad3a82b942f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:538db70b2e527c62"
+   ]
+  },
+  {
+   "adds": [
+    "Replication Specialist"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:226900dcc3b2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f977574eafc574fd"
+   ]
+  },
+  {
+   "adds": [
+    "Shaun, Father of Synths"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0d004055c557",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Emeritus of Conflict // Lightning Bolt"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:054e6da23111",
+   "tests": []
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b9f979e0ec2c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:add1a3c73ff22544"
+   ]
+  },
+  {
+   "adds": [
+    "March of the Machines"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7151974081a6",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:88ec7546f8bd42b4"
+   ]
+  },
+  {
+   "adds": [
+    "Ayara's Oathsworn"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d26b14a0c308",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:420661f794eb2221"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Armored Avenger"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e86e055b96bc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:02a0cea2dcf61463"
+   ]
+  },
+  {
+   "adds": [
+    "Zulaport Cutthroat"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a481f02922ef",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a7865ced79a2cd4d"
+   ]
+  },
+  {
+   "adds": [
+    "Baron Strucker, HYDRA Overlord"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:416bfb9dca33",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:131f22d9ebc778d0"
+   ]
+  },
+  {
+   "adds": [
+    "Archmage Emeritus"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2c76e29ebb1d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:751578d5ec738990"
+   ]
+  },
+  {
+   "adds": [
+    "Adric, Mathematical Genius"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:151dedef0034",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Thopter Squadron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:14f66440fcbf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e11f38350596bca7"
+   ]
+  },
+  {
+   "adds": [
+    "Thopter Squadron"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9f8a0c90691a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:06fa62458568a358"
+   ]
+  },
+  {
+   "adds": [
+    "Syr Konrad, the Grim"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5b0db1b7309a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:abb913625e71d9f5"
+   ]
+  },
+  {
+   "adds": [
+    "Treasure Mage"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a1709de8f49e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fb74e7c0feeda81b"
+   ]
+  },
+  {
+   "adds": [
+    "Taskmaster, Mercenary Mimic"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a9e872db722a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:90fc6bde0e4dc4af"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom, King of Latveria"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:fbba7b5eaa36",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:32bba27ffbf06033"
+   ]
+  },
+  {
+   "adds": [
+    "The Master of Lake-town"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:43f289b4f2d3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2a86c512ee89755f"
+   ]
+  },
+  {
+   "adds": [
+    "Tony Stark // The Invincible Iron Man"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:29243ee21fa0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:562ab467838fd9fc"
+   ]
+  },
+  {
+   "adds": [
+    "Coveted Jewel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d65447f16f37",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:92f7cb9dc24b2345"
+   ]
+  },
+  {
+   "adds": [
+    "Bloodsoaked Champion"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:133b4e3d8db1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:222c44be563b3679"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Monger, Sadistic Tycoon"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c2bdf920a393",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:42d994b7528b49d2"
+   ]
+  },
+  {
+   "adds": [
+    "Craterclaw Colossus"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f15b0f2e8317",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bad46591a0ce0851"
+   ]
+  },
+  {
+   "adds": [
+    "Kang, Temporal Tyrant"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e36634c8e7cc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4fe2f3ab97ee5c52"
+   ]
+  },
+  {
+   "adds": [
+    "Doctor Doom"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:246d865bed6c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a00843b12c1eebdc"
+   ]
+  },
+  {
+   "adds": [
+    "Ironheart, Clever Champion"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c836eea2d40c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ebced8763f94b9a6"
+   ]
+  },
+  {
+   "adds": [
+    "Puppet Master, String Puller"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b303c694b5ec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:262a61359f71e2da"
+   ]
+  },
+  {
+   "adds": [
+    "Sengir Autocrat"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b28c6975ab31",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Negate"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:dd8fe972ce63",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Servant of the Stinger"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:daa15a7a8d7e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8f8e4da48a3f0fd5"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowborn Apostle"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6add77ebab18",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d192f34e474c2dde"
+   ]
+  },
+  {
+   "adds": [
+    "Temple of Deceit"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f2915d5f1df6",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6418725d82a40d5b"
+   ]
+  },
+  {
+   "adds": [
+    "Echo, Perceptive Prodigy"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:08b91ae52040",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f1b4ed040bb3c268"
+   ]
+  },
+  {
+   "adds": [
+    "Shrine Steward"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6b5478c46ad2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f944cccb86523731"
+   ]
+  },
+  {
+   "adds": [
+    "War Machine, Avenging Arsenal"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3d0d1c316134",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f6aa9413c235c7d0"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Diverging Destiny"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e4f1b74a75e9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e305ea734fb1e252"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Hydra"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bf98397f8638",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2099609181883673"
+   ]
+  },
+  {
+   "adds": [
+    "Shadow-Rite Priest"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:944de87f41cf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:716e3cdc707e23d2"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Master of Machines"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2b64d0856390",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:325bfc5ce9ccfa04"
+   ]
+  },
+  {
+   "adds": [
+    "The One Ring"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a5900d65303c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9c8f5cc3d5e54b57"
+   ]
+  },
+  {
+   "adds": [
+    "Baron Helmut Zemo"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:02cf6b4900ec",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3bb2c3d5b5ce61d6"
+   ]
+  },
+  {
+   "adds": [
+    "Bitterheart Witch"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1188870a0a7d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d3a07a3d934ac4ff"
+   ]
+  },
+  {
+   "adds": [
+    "Council of Reeds"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:508fd0f5f3a1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2116e8f5379fe7f0"
+   ]
+  },
+  {
+   "adds": [
+    "Ant-Man, Elusive Avenger"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:20cb054ce192",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2a7a246295836ec8"
+   ]
+  },
+  {
+   "adds": [
+    "Popular Egotist"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:29fd5f6defe9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e06b76dcd4851906"
+   ]
+  },
+  {
+   "adds": [
+    "Red Ghost, Intangible Genius"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:12734ea72516",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:07a521baba898e46"
+   ]
+  },
+  {
+   "adds": [
+    "Asmoranomardicadaistinaculdacar"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c37e38e5090e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:61fae66395d98a46"
+   ]
+  },
+  {
+   "adds": [
+    "Human Torch, Johnny Storm"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:40332a672830",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ba3aebee0f129f2b"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana the Repentant"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:35fa61bbf66c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:70212162a266c3be"
+   ]
+  },
+  {
+   "adds": [
+    "Jadzi, Steward of Fate // Oracle's Gift"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:70384ae39c8c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:aaa0cd87bb492622"
+   ]
+  },
+  {
+   "adds": [
+    "Walking Ballista"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4ff19cc3f148",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Walking Skyscraper"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4420438452d8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:550b0198183daa9e"
+   ]
+  },
+  {
+   "adds": [
+    "Black Widow, Super Spy"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6b5cd26c02cd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:14babdc302c8a002"
+   ]
+  },
+  {
+   "adds": [
+    "Leitmotif Composer"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8ae088981edc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4687a48f6135ff49"
+   ]
+  },
+  {
+   "adds": [
+    "Leech Collector // Bloodletting"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:27e770d54752",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4f00cfd50aac187d"
+   ]
+  },
+  {
+   "adds": [
+    "Mica, Reader of Ruins"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b440cecc2578",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:699861a195856e98"
+   ]
+  },
+  {
+   "adds": [
+    "Alicia Masters, Skilled Sculptor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:86e9e4f04b42",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b9204a6236aa513c"
+   ]
+  },
+  {
+   "adds": [
+    "Voidmage Prodigy"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a118e4aa8c68",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Killmonger, Ruthless Usurper"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:277d376a7fb2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:15e0797bae015ebc"
+   ]
+  },
+  {
+   "adds": [
+    "Crossbones, Malicious Mercenary"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:caafa6eb2a9e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:44d3480a7847b3a6"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin, Wilson Fisk"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:981e62f18a16",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5ef3a828bc87cb28"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Lad, Young Avenger"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a62197bfc686",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d7da5234fc316279"
+   ]
+  },
+  {
+   "adds": [
+    "Jhoira, Weatherlight Corsair"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cd64cdbd0bf9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6c3caadded7f631a"
+   ]
+  },
+  {
+   "adds": [
+    "Rescue, Pepper Potts"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f9a47f6b9636",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fc17227e4bd2d4d6"
+   ]
+  },
+  {
+   "adds": [
+    "Arco-Flagellant"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e048b4bf4872",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d26a5318237c9d7c"
+   ]
+  },
+  {
+   "adds": [
+    "Renowned Weaponsmith"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a0197c7b9d24",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d65ac720e2635b3b"
+   ]
+  },
+  {
+   "adds": [
+    "Madame Masque"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f0ec86aa1877",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8248ff6366ec9753"
+   ]
+  },
+  {
+   "adds": [
+    "Page, Loose Leaf"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2a3abd8610a2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c4683ade77344579"
+   ]
+  },
+  {
+   "adds": [
+    "Cryogen Relic"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8f9186cd6254",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:50a2069b0d846ddd"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Man, Modern Marvel"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9b2cf04f13ee",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:986c5734d61c1b61"
+   ]
+  },
+  {
+   "adds": [
+    "Crimson Cowl, Master of Evil"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2f3cde613a85",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a83a05646ef9ff3f"
+   ]
+  },
+  {
+   "adds": [
+    "Luke Cage, Hero for Hire"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e8f84dacc98a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b12871ef07bd4d35"
+   ]
+  },
+  {
+   "adds": [
+    "Variable Chaser // Arc of Fortune"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d018dc334e40",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6b60ccbd8dcbe0eb"
+   ]
+  },
+  {
+   "adds": [
+    "Saheeli, Jewel of Avishkar"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:12e9da8c6d11",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8301bda0db62307a"
+   ]
+  },
+  {
+   "adds": [
+    "Scientist Supreme of A.I.M."
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:acf5d982ded3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:896c0c0d80fd699f"
+   ]
+  },
+  {
+   "adds": [
+    "Stark Industries Executive"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:fb92e790739e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:dad037e254bfe99f"
+   ]
+  },
+  {
+   "adds": [
+    "Venser, Fervent Forger"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9c2b51d50c85",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:936d264c152a5494"
+   ]
+  },
+  {
+   "adds": [
+    "Stilt-Man, Towering Terror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6241be4ba14d",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Futurist Paragon"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:19c7ad9aa2f3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0d45c240ba083cba"
+   ]
+  },
+  {
+   "adds": [
+    "Daring Apprentice"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8781e81525ee",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Iron Man, Tony Stark"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4ab5376a5ca5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fcefda75c66f6f10"
+   ]
+  },
+  {
+   "adds": [
+    "Kang the Conqueror"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8a3925ba4ccc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6db97818d8c9c6ca"
+   ]
+  },
+  {
+   "adds": [
+    "White Widow, Yelena Belova"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b5ed2fa00f47",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:214bdc196a2e90d4"
+   ]
+  },
+  {
+   "adds": [
+    "Hammerhead, Maggia Boss"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7be068a54da0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c1c043425a354071"
+   ]
+  },
+  {
+   "adds": [
+    "Helmut Zemo, Mastermind"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d5fe26c9198e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5eb357ef803a5def"
+   ]
+  },
+  {
+   "adds": [
+    "Disciples of Gix"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a4e9d5d33327",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:eb12fbb1b810755b"
+   ]
+  },
+  {
+   "adds": [
+    "Marionette Apprentice"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:749c5a4cd0c3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7e38b629151430ee"
+   ]
+  },
+  {
+   "adds": [
+    "Adventurous Eater // Have a Bite"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:46f73069adcd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:41cfc77d87afb685"
+   ]
+  },
+  {
+   "adds": [
+    "Lecturing Scornmage"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:93c0a5f5eeff",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0bee42eb59e72857"
+   ]
+  },
+  {
+   "adds": [
+    "Volatile Rig"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:edf41bf518b3",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Wonder Man, Hollywood Hero"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:00084df50621",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f3455d34d827c5ed"
+   ]
+  },
+  {
+   "adds": [
+    "Hawkeye, Avenging Archer"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9eb3ae4f9b96",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a422af447824d3f0"
+   ]
+  },
+  {
+   "adds": [
+    "Scrawling Crawler"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2a94aac762d1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:dc9596a5e3fd2910"
+   ]
+  },
+  {
+   "adds": [
+    "Immortus, Master of Eternity"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2ac6f43891b0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b7d83714c0d95f2d"
+   ]
+  },
+  {
+   "adds": [
+    "Maximus, Knight Apparent"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ede935c2f9d2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a17d2749629e9c6c"
+   ]
+  },
+  {
+   "adds": [
+    "Agents of HYDRA"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:39439c4baeac",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:71b9517359263b3c"
+   ]
+  },
+  {
+   "adds": [
+    "Alpine Guide"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6ab2e19635ac",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:28c0050efd776b3e"
+   ]
+  },
+  {
+   "adds": [
+    "Biblioplex Tomekeeper"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:57afb9704768",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a8e8ce7f6d00c0f3"
+   ]
+  },
+  {
+   "adds": [
+    "Stature, Size Shifter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8bb26b468962",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:654ef99445c236c1"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Artisan"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e1033704440e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1ba11aeb626d4680"
+   ]
+  },
+  {
+   "adds": [
+    "Vulture, Feathered Fiend"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0326f3ffe13a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:89ba037565062396"
+   ]
+  },
+  {
+   "adds": [
+    "Red Room Recruit"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:42f88dff5c2e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4571212f3bd9cfed"
+   ]
+  },
+  {
+   "adds": [
+    "Citizen V, Helmut Zemo"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:fa9d9d39acb0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a933202ead658b2b"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Most Wanted"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:10f65e96aced",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bb3c62775c397329"
+   ]
+  },
+  {
+   "adds": [
+    "Ronin, Shadow Stalker"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c27ade6a111a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8168ba77f9d50d61"
+   ]
+  },
+  {
+   "adds": [
+    "Batroc the Leaper"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:017b296de4a5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1b3b73ef5c93d588"
+   ]
+  },
+  {
+   "adds": [
+    "Roxxon Brutes"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8cb756c2d440",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d0f2677c1e746e16"
+   ]
+  },
+  {
+   "adds": [
+    "Swordsman, Sharp Scoundrel"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:30a966d56ec3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b6a27c2f4860a6ba"
+   ]
+  },
+  {
+   "adds": [
+    "The Ruinous Wrecking Crew"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8e231b7f8dbf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:600142aea94187f4"
+   ]
+  },
+  {
+   "adds": [
+    "Lakeshore Apothecary"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:64bbb66147cb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:99df3c97aa06ffd5"
+   ]
+  },
+  {
+   "adds": [
+    "Silumgar Sorcerer"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0f6fb34e6719",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Choked Estuary"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:262ac8033b1d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3d2f6de229fd550d"
+   ]
+  },
+  {
+   "adds": [
+    "Winter, Tormented Loner"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3801ec5aaa69",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a54db45afb37580a"
+   ]
+  },
+  {
+   "adds": [
+    "Glitch Interpreter"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0fd4f5d32b9e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9de7a5b5c1fdc71d"
+   ]
+  },
+  {
+   "adds": [
+    "A.I.M. Scientists"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9e02cb6a224d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8f4a2fdda6901187"
+   ]
+  },
+  {
+   "adds": [
+    "Kingpin's Enforcers"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e5bf029ddc85",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:12f2ac6097684716"
+   ]
+  },
+  {
+   "adds": [
+    "HYDRA Troopers"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6995fff16a60",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1cb93469bc884032"
+   ]
+  },
+  {
+   "adds": [
+    "Bullseye, Death Dealer"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a8257eca3a60",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Dualcaster Mage"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b82fab26743f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:dbd41eea2bb11aaf"
+   ]
+  },
+  {
+   "adds": [
+    "Ninja of the Hand"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:31525b6e2937",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:83924180e120a509"
+   ]
+  },
+  {
+   "adds": [
+    "Martyr of Frost"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5745753a896c",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Proft, Consulting Detective"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6dac34956ba8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7d360ba5fa46f529"
+   ]
+  },
+  {
+   "adds": [
+    "Valentina Allegra de Fontaine"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:740e2e24d438",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c7e45b1929bc5727"
+   ]
+  },
+  {
+   "adds": [
+    "Iron Fist, Hero for Hire"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9c1c338a7dad",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:54c8ecb141249548"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Mancha, Runaway"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:62e61b57788a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6eda825422a39351"
+   ]
+  },
+  {
+   "adds": [
+    "Lady Spider, Maybelle Reilly"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:68cc6ecdc0be",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:def60ad831e55217"
+   ]
+  },
+  {
+   "adds": [
+    "Traxos, Academy Guardian"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:efc8b4856c18",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8c2417af275c3e44"
+   ]
+  },
+  {
+   "adds": [
+    "Traxos, Scourge Eternal"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:dbe95c25592b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c5be62cae2b4ac3c"
+   ]
+  },
+  {
+   "adds": [
+    "Hammer Mage"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7231cb5e604f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Crimson Operative"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:671d018267eb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:019c00f8e188619c"
+   ]
+  },
+  {
+   "adds": [
+    "Loyal Apprentice"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0ceffff24138",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:342b7c9abf338845"
+   ]
+  },
+  {
+   "adds": [
+    "Mage Tower Referee"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bf566f3e3369",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:99fcbc7dc08b3616"
+   ]
+  },
+  {
+   "adds": [
+    "Pia, Determined Rebuilder"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:182521bb0c39",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2de69c76d4022766"
+   ]
+  },
+  {
+   "adds": [
+    "Jiang Yanggu, Alone"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8d35ea16ebdd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:25295522d84a2613"
+   ]
+  },
+  {
+   "adds": [
+    "K'un-Lun Warrior"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e1ddd9e782bb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:18cc3b067c8aa02d"
+   ]
+  },
+  {
+   "adds": [
+    "Tiger Shark, Abyssal Hunter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a75de0a944de",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f5b69c1faff4c63f"
+   ]
+  },
+  {
+   "adds": [
+    "Blue Marvel, Adam Brashear"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1419e112647f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1302347f9255328e"
+   ]
+  },
+  {
+   "adds": [
+    "Falcon, Winged Wonder"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e95f97a7d784",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1db3a70edcd2057b"
+   ]
+  },
+  {
+   "adds": [
+    "Jack of Hearts, Volatile Hero"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6f081b42c1b8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bac9c7238b0121d3"
+   ]
+  },
+  {
+   "adds": [
+    "Pharaoh Rama-Tut"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e9b83390d2c6",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0e632e56cd561cd4"
+   ]
+  },
+  {
+   "adds": [
+    "Fixer, Techno Terror"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:083dff49e82c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e6d13b086549e5e9"
+   ]
+  },
+  {
+   "adds": [
+    "Vat of Rebirth"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:661b3f680e31",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5fed06248aa9558a"
+   ]
+  },
+  {
+   "adds": [
+    "MACH-1, Swooping Scoundrel"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9791c08d81f9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bbd15ec6f0f43cd5"
+   ]
+  },
+  {
+   "adds": [
+    "Brine Shaman"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9079673335bf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Yawgmoth, Thran Physician"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:80d24774c6b1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c7802e06d31dbc45"
+   ]
+  },
+  {
+   "adds": [
+    "Bold Biochemist"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:23e65d092c6c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6820c124ba4db55d"
+   ]
+  },
+  {
+   "adds": [
+    "Baneblade Scoundrel // Baneclaw Marauder"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:15eabe05c019",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Path of Ancestry"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:04a34a2b68ab",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4c6a02cbb8eb9fd1"
+   ]
+  },
+  {
+   "adds": [
+    "Victor Timely, Wily Tycoon"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6fe3ee897421",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5704d2f2c1059c0f"
+   ]
+  },
+  {
+   "adds": [
+    "Young Pyromancer"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bb1a3b11c44e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c61e4492005e7240"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cee3dbf4b7fc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:986b6006c2b7f069"
+   ]
+  },
+  {
+   "adds": [
+    "Marang River Prowler"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d9f4ffa0feb8",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:043d84137233b076"
+   ]
+  },
+  {
+   "adds": [
+    "Teyo, Diamondblade Mage"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a8a81daae081",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cb5b3a10dc823095"
+   ]
+  },
+  {
+   "adds": [
+    "Contract Hero"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2041f4bc75a6",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:290e7bddf7e0a960"
+   ]
+  },
+  {
+   "adds": [
+    "Danitha, Spear of Agony"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d55dde5fee1c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:61033b66be2ece3d"
+   ]
+  },
+  {
+   "adds": [
+    "Demon's Herald"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:53065f696f80",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f8cc33922e683aaf"
+   ]
+  },
+  {
+   "adds": [
+    "Titanium Man"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:87a081923bac",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Martyr of Ashes"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e4967b32c033",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Bog Glider"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5cf2589d5581",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4e64aa844b204274"
+   ]
+  },
+  {
+   "adds": [
+    "Extremis Elite"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2288983b1e37",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Count Nefaria"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:df08d9d3f252",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b20fa31a04e6fd2a"
+   ]
+  },
+  {
+   "adds": [
+    "Age of Ultron"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:317b0fbad3cf",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Mindreaver"
+   ],
+   "cuts": [
+    "Fierce Guardianship"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d007c5da3cc2",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Street Sweeper"
+   ],
+   "cuts": [
+    "Their Name Is Death"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:add050dfd08f",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Sakashima of a Thousand Faces"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:87268a10a76c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c5585ddb5e8487f2"
+   ]
+  },
+  {
+   "adds": [
+    "Grim Haruspex"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f13642953270",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:55267ea91a008603"
+   ]
+  },
+  {
+   "adds": [
+    "Silent Arbiter"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7852ab20a8cd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0cd02337e58789de"
+   ]
+  },
+  {
+   "adds": [
+    "Magus of the Wheel"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:595429c2c41c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9d3990a0eeeb45f9"
+   ]
+  },
+  {
+   "adds": [
+    "Captain Lannery Storm"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c14c133b55df",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:90e05d41ddcc53a2"
+   ]
+  },
+  {
+   "adds": [
+    "Millikin"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8a9d416f1d5b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3f5f59eb30f50a49"
+   ]
+  },
+  {
+   "adds": [
+    "Flooded Strand"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:468b314bdd11",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cb92d46a1675e2bd"
+   ]
+  },
+  {
+   "adds": [
+    "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:753e73bb25cc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9dbc844c0733c3bb"
+   ]
+  },
+  {
+   "adds": [
+    "Flux Channeler"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:275d3f88e8bb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c0145e17e0f31bc1"
+   ]
+  },
+  {
+   "adds": [
+    "Umbral Collar Zealot"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:071027045dae",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4892406a0a0df01e"
+   ]
+  },
+  {
+   "adds": [
+    "Misty Rainforest"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bb7b86c46180",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f84192bf15585727"
+   ]
+  },
+  {
+   "adds": [
+    "Third Path Iconoclast"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e8fdb6b78785",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:28842e9ef97de8ac"
+   ]
+  },
+  {
+   "adds": [
+    "Priest of Forgotten Gods"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1a771d3f8f1e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3571b03d44188f42"
+   ]
+  },
+  {
+   "adds": [
+    "Wooded Foothills"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c0b20858f6aa",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:605601a120d2944f"
+   ]
+  },
+  {
+   "adds": [
+    "Disciple of Bolas"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e9c6b5c64c9a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6f051e93411e9048"
+   ]
+  },
+  {
+   "adds": [
+    "Hangarback Walker"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:427d6bad7c86",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d0b11edbe0af97ce"
+   ]
+  },
+  {
+   "adds": [
+    "Verdant Catacombs"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:842328c35f9a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bdf52c56eaadb67c"
+   ]
+  },
+  {
+   "adds": [
+    "Dragonmaster Outcast"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:050f5a4bcab5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e80a844e4cff07db"
+   ]
+  },
+  {
+   "adds": [
+    "Aether Channeler"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d33fe711f17c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:24108aa5a754bb38"
+   ]
+  },
+  {
+   "adds": [
+    "Marsh Flats"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:74a980f92b5b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:eae8bdbb9a9528c3"
+   ]
+  },
+  {
+   "adds": [
+    "Alesha, Who Laughs at Fate"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e638f438ed4c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:40c2b0ed63d9e71e"
+   ]
+  },
+  {
+   "adds": [
+    "Massacre Girl, Known Killer"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:03d63c037500",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c34987746cb5ca27"
+   ]
+  },
+  {
+   "adds": [
+    "Chameleon, Master of Disguise"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ccd0ee1fe694",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a97788105040adc9"
+   ]
+  },
+  {
+   "adds": [
+    "Jaxis, the Troublemaker"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:376f80aee487",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:70ca787064b69c84"
+   ]
+  },
+  {
+   "adds": [
+    "Arid Mesa"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1e23e7244d12",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3ec8440be3779653"
+   ]
+  },
+  {
+   "adds": [
+    "Adaptive Automaton"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c937944f011e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f422a903b4936c2c"
+   ]
+  },
+  {
+   "adds": [
+    "Juri, Master of the Revue"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6b48feb3cbf0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2c66139c7fcdbb88"
+   ]
+  },
+  {
+   "adds": [
+    "Containment Construct"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1541e7cf182f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:131170892737806b"
+   ]
+  },
+  {
+   "adds": [
+    "Hostage Taker"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a4dd4b87a718",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Inti, Seneschal of the Sun"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:891db6d89033",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c3f2ff4386ebdf10"
+   ]
+  },
+  {
+   "adds": [
+    "Dreamstone Hedron"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:350725c29769",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7f59db3af59fff80"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima the Impostor"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5bcf2eaf4089",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e500e87e275745e7"
+   ]
+  },
+  {
+   "adds": [
+    "Generous Plunderer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ab0ce9deea0f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d240e1d52b1ff703"
+   ]
+  },
+  {
+   "adds": [
+    "Sarkhan, Soul Aflame"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:65e86e61ff96",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f13c8089767e777b"
+   ]
+  },
+  {
+   "adds": [
+    "Ruthless Technomancer"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b1804fd677fb",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ab4f663056ab2297"
+   ]
+  },
+  {
+   "adds": [
+    "Cityscape Leveler"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:627d1688273b",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Stuffy Doll"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:098902b73d34",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3bca9a43740dc22e"
+   ]
+  },
+  {
+   "adds": [
+    "Rev, Tithe Extractor"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ba9918e836e5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5f9439748c0da9f3"
+   ]
+  },
+  {
+   "adds": [
+    "Memnite"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:356793c36f83",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f5f35352a6b4de48"
+   ]
+  },
+  {
+   "adds": [
+    "Greedy Freebooter"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6f67667cd5de",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:50af19e7768649bd"
+   ]
+  },
+  {
+   "adds": [
+    "PuPu UFO"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:14687b255ca1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:3e3411d257cff089"
+   ]
+  },
+  {
+   "adds": [
+    "Harsh Mentor"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a9bef7932f25",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:de48d75f0230aabe"
+   ]
+  },
+  {
+   "adds": [
+    "Kellogg, Dangerous Mind"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1c0b61b7a020",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5f592a50e0239861"
+   ]
+  },
+  {
+   "adds": [
+    "Prosperous Thief"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:496a396a17b9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cfe2d0ce61bbf359"
+   ]
+  },
+  {
+   "adds": [
+    "Mischievous Mystic"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4b9557f18fd2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:a63bfac55c338e2a"
+   ]
+  },
+  {
+   "adds": [
+    "Zenith Chronicler"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6be0e98b5cfc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5cc125e9886610dd"
+   ]
+  },
+  {
+   "adds": [
+    "Thousand-Faced Shadow"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2e8f47cc0b05",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:aec11dd2ffe277eb"
+   ]
+  },
+  {
+   "adds": [
+    "Danny Pink"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6922ee89e1c3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e958e23f1c098587"
+   ]
+  },
+  {
+   "adds": [
+    "Kefka, Court Mage // Kefka, Ruler of Ruin"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d7f48403a944",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:148e9c7c70acb1eb"
+   ]
+  },
+  {
+   "adds": [
+    "Emeritus of Woe // Demonic Tutor"
+   ],
+   "cuts": [
+    "Demonic Tutor"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ee39336ed376",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:df686f30ea374798"
+   ]
+  },
+  {
+   "adds": [
+    "Crystalline Crawler"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:be642da5bacc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8468154aa8ac9c6c"
+   ]
+  },
+  {
+   "adds": [
+    "Walking Atlas"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:dae893fdc2b5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:214400833500d30c"
+   ]
+  },
+  {
+   "adds": [
+    "Phyrexian Walker"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f7749c344a35",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6f70b1c50e98eebf"
+   ]
+  },
+  {
+   "adds": [
+    "Piper of the Swarm"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c16b55799b58",
+   "tests": []
+  },
+  {
+   "adds": [
+    "Basim Ibn Ishaq"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0a3c94684d0c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b130c64a58a104cb"
+   ]
+  },
+  {
+   "adds": [
+    "Ingenious Prodigy"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6046c357e915",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:78b5fcb9913f0685"
+   ]
+  },
+  {
+   "adds": [
+    "Archpriest of Shadows"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cecf3e88c856",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:20396d08cf6facd0"
+   ]
+  },
+  {
+   "adds": [
+    "Tiller Engine"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:db6fc69e90e1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2ac93732401797fa"
+   ]
+  },
+  {
+   "adds": [
+    "Frostboil Snarl"
+   ],
+   "cuts": [
+    "Great Furnace"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:044716b9b8c5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fabb1a2b9132e2fb"
+   ]
+  },
+  {
+   "adds": [
+    "Dockside Chef"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:929bb3357c68",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ed62bc5ae3990a54"
+   ]
+  },
+  {
+   "adds": [
+    "Fain, the Broker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cb3917b85cc9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bd18a54001b49410"
+   ]
+  },
+  {
+   "adds": [
+    "Irma, Part-Time Mutant"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0c645cb074e7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:18781df4eb5302e9"
+   ]
+  },
+  {
+   "adds": [
+    "Lulu, Stern Guardian"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:97e8abe34b9c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:94d05ec8748fe7bb"
+   ]
+  },
+  {
+   "adds": [
+    "Charming Scoundrel"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:413b897169ce",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:eb9448737dea8a54"
+   ]
+  },
+  {
+   "adds": [
+    "Shadowheart, Dark Justiciar"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1e9589a2d236",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:727230166957a08d"
+   ]
+  },
+  {
+   "adds": [
+    "Golgari Thug"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:3edbb95ed408",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b0efb6510ab489d5"
+   ]
+  },
+  {
+   "adds": [
+    "Species Specialist"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8f25c29dd32b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:00ddc026072f7bcb"
+   ]
+  },
+  {
+   "adds": [
+    "Spider-Punk"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4e45d97a46ed",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0739a33f09e8eee7"
+   ]
+  },
+  {
+   "adds": [
+    "Garna, Bloodfist of Keld"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2d4660483a0d",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1ed04777cb5f2a38"
+   ]
+  },
+  {
+   "adds": [
+    "Fire Lord Azula"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8151f398bfb7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:93baf19ea71eef65"
+   ]
+  },
+  {
+   "adds": [
+    "Sakashima's Student"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4750aa5e2e0f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:281130c7ab619955"
+   ]
+  },
+  {
+   "adds": [
+    "Metalworker"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cd510befff38",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cc813321ac05ab74"
+   ]
+  },
+  {
+   "adds": [
+    "Hedron Crawler"
+   ],
+   "cuts": [
+    "Fellwar Stone"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b8b0de521a0e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2b58feaf112c4849"
+   ]
+  },
+  {
+   "adds": [
+    "Marketback Walker"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:67c3204adaa4",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bd5274dea5d12ad6"
+   ]
+  },
+  {
+   "adds": [
+    "Traxos, Scourge of Kroog"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2839cc25a846",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4d09e54782d712ef"
+   ]
+  },
+  {
+   "adds": [
+    "Workshop Assistant"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:fbf616ccd54c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:95ea11bf89caa519"
+   ]
+  },
+  {
+   "adds": [
+    "Rug of Smothering"
+   ],
+   "cuts": [
+    "Cyberdrive Awakener"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bf30da352f2a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:aa6a5e10738fe996"
+   ]
+  },
+  {
+   "adds": [
+    "Taigam, Master Opportunist"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:50f73024a6ad",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e4b82e778e6d421b"
+   ]
+  },
+  {
+   "adds": [
+    "Stella Lee, Wild Card"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:77ca9a9e2d96",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:05f7fbfb8de23633"
+   ]
+  },
+  {
+   "adds": [
+    "Callidus Assassin"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:8c462cc98a67",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5604a299f45e6844"
+   ]
+  },
+  {
+   "adds": [
+    "Naru Meha, Master Wizard"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:e613c96800b1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:ae587ab7609bf33d"
+   ]
+  },
+  {
+   "adds": [
+    "Kaervek, the Punisher"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:40829e735416",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:033d04a27e2dc01c"
+   ]
+  },
+  {
+   "adds": [
+    "Superior Spider-Man"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2702caa84fd2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:23972c68adc77c78"
+   ]
+  },
+  {
+   "adds": [
+    "Jacob Frye"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:02c99a464453",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1833050e1d161833"
+   ]
+  },
+  {
+   "adds": [
+    "Errant, Street Artist"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5f57fb0773a5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9d3b2f4ff7b0ab80"
+   ]
+  },
+  {
+   "adds": [
+    "Crackling Spellslinger"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:bfb3be9fd00b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fa96715a43952697"
+   ]
+  },
+  {
+   "adds": [
+    "Mysterious Stranger"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:41424bb1a68a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:70a2420b77ec10a8"
+   ]
+  },
+  {
+   "adds": [
+    "Donal, Herald of Wings"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:56a5fa15ffba",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c9852ad9f60c9324"
+   ]
+  },
+  {
+   "adds": [
+    "Protean Thaumaturge"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:81c2202d1d0c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8a556824181c676a"
+   ]
+  },
+  {
+   "adds": [
+    "Jeong Jeong, the Deserter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ab04664abda3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:87b33606e6e93bb9"
+   ]
+  },
+  {
+   "adds": [
+    "Radiant Performer"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0fe460bd3ddd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d51e8bbb79db00e6"
+   ]
+  },
+  {
+   "adds": [
+    "Mathise, Surge Channeler"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6200578d96bd",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2eb337d74091dfad"
+   ]
+  },
+  {
+   "adds": [
+    "Myra the Magnificent"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5ee8b98d64ee",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:091e5609f4b6d55c"
+   ]
+  },
+  {
+   "adds": [
+    "Echo Mage"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:763772a6544a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f6a4901b0bad6e79"
+   ]
+  },
+  {
+   "adds": [
+    "Nivix Guildmage"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:af846c91f721",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:7fee237929764acf"
+   ]
+  },
+  {
+   "adds": [
+    "Artisan of Forms"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4177fa7f0fe1",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6601a4442ff73b54"
+   ]
+  },
+  {
+   "adds": [
+    "Elite Arcanist"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:27fc65fc265f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f85112ae87ff69e5"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0b5f7fa202a3",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b3fec5007b6cb9b5"
+   ]
+  },
+  {
+   "adds": [
+    "Hullbreaker Horror"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ef5802862588",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:da5ee9a06aebaa96"
+   ]
+  },
+  {
+   "adds": [
+    "Izzet Guildmage"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6ea4812dd95f",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8ed006b21275c0b4"
+   ]
+  },
+  {
+   "adds": [
+    "Sea Gate Stormcaller"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7bb749e28c55",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bd04761852680ef5"
+   ]
+  },
+  {
+   "adds": [
+    "League Guildmage"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a100d08921b5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:00007fadbed1ca25"
+   ]
+  },
+  {
+   "adds": [
+    "Ludevic, Necrogenius // Olag, Ludevic's Hubris"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:89dc784ee8b9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0dd1ae25105a6601"
+   ]
+  },
+  {
+   "adds": [
+    "Meletis Charlatan"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:16b2696b4cc2",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6c8864e7185d40c2"
+   ]
+  },
+  {
+   "adds": [
+    "Prismari Apprentice"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a876151a16d9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d1745e71f49f03a1"
+   ]
+  },
+  {
+   "adds": [
+    "Bill Potts"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4fdb92a96a3a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:56d4918f20a5e358"
+   ]
+  },
+  {
+   "adds": [
+    "Tilonalli's Skinshifter"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ec752239350e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:bc7f9a668582ad24"
+   ]
+  },
+  {
+   "adds": [
+    "Symmetry Sage"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:889ee3234e57",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:045c63dc4ae7e28d"
+   ]
+  },
+  {
+   "adds": [
+    "Arcane Savant"
+   ],
+   "cuts": [
+    "Phyrexian Altar"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9c15bf8e2d29",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:50f621a08d07eab9"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c3a960016052",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:74df561cd82ee204"
+   ]
+  },
+  {
+   "adds": [
+    "Gravecrawler"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:6d61d529f6db",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d85d964d54b50923"
+   ]
+  },
+  {
+   "adds": [
+    "Dramatic Reversal"
+   ],
+   "cuts": [
+    "Cyber Conversion"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:93a247ec8919",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:16f9bb824ef8085c"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a6a0a9fbaf8a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:174dda566923b315"
+   ]
+  },
+  {
+   "adds": [
+    "Aggravated Assault"
+   ],
+   "cuts": [
+    "Artificer Class"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:4cab96736ae9",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:5844e1e0a9a02690"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c5d30a6dc8bf",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4ef9453ba0c921ac"
+   ]
+  },
+  {
+   "adds": [
+    "Reassembling Skeleton"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1818e3a9ba93",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c54846c17e5c6c27"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b8e6c2455577",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:68dcdb23f6a2e090"
+   ]
+  },
+  {
+   "adds": [
+    "Deadeye Navigator"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1687028d8175",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2eb2a6b75da6f182"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:d4ae6444bafe",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:43dcfa92e4799013"
+   ]
+  },
+  {
+   "adds": [
+    "Intruder Alarm"
+   ],
+   "cuts": [
+    "Artificer Class"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:89a222ce5780",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b0fcf762ceb1b429"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:0ea8961fb27e",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b838411f645d1fef"
+   ]
+  },
+  {
+   "adds": [
+    "Retreat to Coralhelm"
+   ],
+   "cuts": [
+    "Artificer Class"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:2d757a73b209",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:6b01c9096cd9a238"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:539ee2ec37ed",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:f9c6d290bf6bf678"
+   ]
+  },
+  {
+   "adds": [
+    "Bladewing the Risen"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:7353d339146b",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:cb93c51ff52df28c"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Cyclonic Rift"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:b11191b718fa",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:2556466fedf378d1"
+   ]
+  },
+  {
+   "adds": [
+    "Tidespout Tyrant"
+   ],
+   "cuts": [
+    "Mayhem Devil"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c84c22e8173c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:be925e89b75be7ba"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:1edbb73fb959",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:83c45757cba19af2"
+   ]
+  },
+  {
+   "adds": [
+    "Oathsworn Vampire"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:5c35519b1a74",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d1f22520a952973f"
+   ]
+  },
+  {
+   "adds": [
+    "Liliana, Untouched by Death"
+   ],
+   "cuts": [
+    "Tezzeret, Master of the Bridge"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:a7dff4a5b48a",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:e5e4d970af1910ef"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:9ee07fcf198c",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:c376a92c07f3bd7c"
+   ]
+  },
+  {
+   "adds": [
+    "Cult Conscript"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:c141c1b8c261",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:b8c1a9ef24345e9f"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:61f53c872afc",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:4854d7b0bff1aa2f"
+   ]
+  },
+  {
+   "adds": [
+    "Haunt of the Dead Marshes"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:cc006a43db72",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:192b054760b55b67"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Biotransference"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ef78aa01ecca",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:81a3035208632e87"
+   ]
+  },
+  {
+   "adds": [
+    "Mortuary"
+   ],
+   "cuts": [
+    "Artificer Class"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:94503a2b20f7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:9d9f8126bb422148"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:983a12ed5993",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:fcddf0bc020533a2"
+   ]
+  },
+  {
+   "adds": [
+    "Mirror-Mad Phantasm"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:85b0104e04a0",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:d728bd5cfbf6ec2e"
+   ]
+  },
+  {
+   "adds": [
+    "Words of Wind"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:33b645cc41b5",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:0488552cb9f0bb90"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:af219f0fda39",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:8263b34b2be29ae6"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Illusionist"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:319065d557be",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:42a4a4f3ae0a9368"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Padeem, Consul of Innovation"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:ed2e988e1dd7",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:1fdc991e3affc280"
+   ]
+  },
+  {
+   "adds": [
+    "Cephalid Aristocrat"
+   ],
+   "cuts": [
+    "Disciple of the Vault"
+   ],
+   "id": "swap:ashad-the-lone-cyberman:m5:f11c962c2dad",
+   "tests": [
+    "test:ashad-the-lone-cyberman:goldfish:70eb0f332d0ee636"
+   ]
+  }
+ ],
+ "tests": [
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:86a3c2c5689fe5b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d28a2c2ee9bd95c4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:30fe5cfcb61a264a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ccd1bc04a49cd611",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e949cecdb4e9f412",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0a7dff56ac6c8d80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4a798c5ddce2e5ae",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1aa607fbee5d7d46",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:42afe87aba5e6ee2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:522d72d3a0078b01",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ff01f522f1e224ba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f057819112432cf5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6c6b060e04b17c29",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8256a2e5f148db26",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c4299ade309322d8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1ee165c414ae7edf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:099ff314a7347ea1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:faa0aa5de7bc452b",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d5b25fa14ab23ff3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8ed23fd0440462ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:896094b5cacf4d26",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3ee7a40cdbb41d7f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b73707616d74876a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cc3be05c365267a7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:474f630d4dabe3bc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:043a1c36ae5f9a03",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4905032e369bc5e8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9d12859d66bb5760",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:09475a62e7ae9685",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:095af4b8f5bd4d42",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4570c0c3de8da39f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0e8b007746f6d05f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ae11974e3ccab11e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a2177d254e9777af",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b7fbe4d1dd20c4b5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:71ada4a526199482",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6cc3b70f12ed6b35",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2f4adf0d53a0f6e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0fab70bb47f9e409",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0462118449245b2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ef0e5ed898183a30",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cb6c38e4a1e5452b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2d898b50fd4c1436",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:14b4140873006ad7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3a4c3e1cdc82c579",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:20e57e705c2d887a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b07a5e8bd462a46a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c62a4a3d5ffcfa1e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4a2970046af91d53",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0c3c2c4721b7cb0a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d15fc796b548d117",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d2f086f371d980d4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e7a078010117a32a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:63565f991db47d3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d409596505d4b38c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:eeaa24dbef5194e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7beb02b20381e65f",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3b74ae7a86adbadb",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f34c559d4be15036",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1f8e5d4b47a6ac2c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4a91f0451fbeca0e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:afeabdd8f2e1d5e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2abc3d9521eca33c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ddf9dbf579087bc6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2bdb4f49d2dda6fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ac1b8f0d97d5fc16",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3b899f3993aca5b9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2c64f2c05b0ff15c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1838baf8fa721ed9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:335929ddc485715a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7485793d64083411",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9697fe88c240cd84",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:402dc88bbdab44b8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ce6a4b7b5a25549a",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2577995d86bf9141",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:931ac51edede37e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:95cf2558c18e269f",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:38633681952298f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a3c5932989487bdf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2d776331f601b6a7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c347bff5553bdf14",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6f8d293c03c8bbb1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0740ae84d89821de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6803a20b8333c265",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2555c1b60cdbbcf3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:67028cad1263286e",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:960ac27129296a09",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:191f6344ceb0f26d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2b2adf5643b66d1f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:283843129e6b06e6",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:aa1c472bcaa33bf9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d3aec7d0895c1db9",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c00d5cc3b53f5345",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6e0fee9d62f0f5b9",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ee3f2aaa0701c0ea",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3ead14115902ac45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:91b1fe8ccdc3fcdf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:908b197b7f1428a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1a902eaa4814aecf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1bc26a4954b2fa16",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e5b3d61f427930db",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:923895d193efe16c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4e50cfa494127563",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:dcd089c396ccd336",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2bed1c63e3a7b3fe",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2ca3ca751454d49e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:03ae691d38fa8109",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:53d981c2a0957384",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2250224885ed0700",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:45c3e94ac02590f1",
+   "verdict": "pass"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:94078cc806a39f00",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:97cb291b0aa1b1d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0190ca1d7aff55c8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c66f086f14f81e17",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3df2870483aa16b1",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c508a9325f1ac79a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5a2936fc0cfbca5e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6aa2d21f209bf0a5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fbb9c83bb9241bcc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8ac622c6428febe7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:876065added9d53d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6d6af43e68e22f58",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ae1568c8f0e61669",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9e2a1954a5afb4ff",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7667cf7d6764071e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6a11d9acd0549691",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d8e6aa9673c5b87c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:60809a4752bdf283",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c94222e844fa2d22",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:03b5af522a470665",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:21974bb2b7e30744",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e215ea8c9b8ceff6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:52c7f4d78cda183a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f2d6223ddabcb24a",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d46e821f8b2b333f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4dc73ca7496859a4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:59fb3afe1ff85d73",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:79d33f106c9e70b6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1c151819b4a9a689",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2be792ff3e5123ce",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b93cb7eb2ad07421",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:63256a58f79d051b",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fdb552ccf4a7c8f7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e078d6858ddc5783",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:672d9999f3e9d580",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:97cb3740206fa220",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bb61d9d704f14b9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3783e1eb33c31567",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c5842df36b5dd10f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2a59da525a9575ab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b842aaff9c2ac08e",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:37460fd6ee02f6af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:69e538619fd55659",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:023af98ae4e7c3dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:84512f8fd3d9b462",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:eb954721b2ce108c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a0c88eab016297d2",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:dc171385f91a118f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:69776d8f0a4aeaf0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:88ee70bbab1ce2e5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0b53649a368148eb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:dc45830ede72f4a8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:85366ae09db191dc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c6ab3691f2fe7a35",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d07203e650643d9c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1dda0b1dfbeeb6e0",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b639102f63e3d823",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:90461f7cf2cd99bc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:50cf4d2660d5bcef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:387e842336e63988",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:eefb21cc1b884ef5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fe813572b37f23f8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0e4c981c26b690dc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e911f200b2a2f49a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8b30498c914902b9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d0a7e4eea32644d0",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d6f6b8c91ec54402",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0c66b694bad89abc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d74f9c47cb0cb720",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5f010755d85d0f8c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7e9e21f129e900bb",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c9c2cfed1fb43721",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:366431b8d57a8e6b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ee99731c35d77cfd",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b8b7f00c972b961d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:831f18420e866965",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4fb63fa61baa6bd5",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fa25b3a1e98dd113",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b4bddfdc1dc10028",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:624d85f3d4884e8e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9d88f62567ac3619",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:607fdb52ba8197e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:edc7ce8dba7b4a51",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9e707717ed53977d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8a951351627b8e41",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:79be3f0a5620aef7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b177c3236a31f9ab",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e39c083064fe3125",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4b598223a284a953",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1b32fa9489ddd408",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:538db70b2e527c62",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f977574eafc574fd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:add1a3c73ff22544",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:88ec7546f8bd42b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:420661f794eb2221",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:02a0cea2dcf61463",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a7865ced79a2cd4d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:131f22d9ebc778d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:751578d5ec738990",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e11f38350596bca7",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:06fa62458568a358",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:abb913625e71d9f5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fb74e7c0feeda81b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:90fc6bde0e4dc4af",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:32bba27ffbf06033",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2a86c512ee89755f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:562ab467838fd9fc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:92f7cb9dc24b2345",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:222c44be563b3679",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:42d994b7528b49d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bad46591a0ce0851",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4fe2f3ab97ee5c52",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a00843b12c1eebdc",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ebced8763f94b9a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:262a61359f71e2da",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8f8e4da48a3f0fd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d192f34e474c2dde",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6418725d82a40d5b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f1b4ed040bb3c268",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f944cccb86523731",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f6aa9413c235c7d0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e305ea734fb1e252",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2099609181883673",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:716e3cdc707e23d2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:325bfc5ce9ccfa04",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9c8f5cc3d5e54b57",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3bb2c3d5b5ce61d6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d3a07a3d934ac4ff",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2116e8f5379fe7f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2a7a246295836ec8",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e06b76dcd4851906",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:07a521baba898e46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:61fae66395d98a46",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ba3aebee0f129f2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:70212162a266c3be",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:aaa0cd87bb492622",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:550b0198183daa9e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:14babdc302c8a002",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4687a48f6135ff49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4f00cfd50aac187d",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:699861a195856e98",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b9204a6236aa513c",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:15e0797bae015ebc",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:44d3480a7847b3a6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5ef3a828bc87cb28",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d7da5234fc316279",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6c3caadded7f631a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fc17227e4bd2d4d6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d26a5318237c9d7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d65ac720e2635b3b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8248ff6366ec9753",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c4683ade77344579",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:50a2069b0d846ddd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:986c5734d61c1b61",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a83a05646ef9ff3f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b12871ef07bd4d35",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6b60ccbd8dcbe0eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8301bda0db62307a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:896c0c0d80fd699f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:dad037e254bfe99f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:936d264c152a5494",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0d45c240ba083cba",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fcefda75c66f6f10",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6db97818d8c9c6ca",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:214bdc196a2e90d4",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c1c043425a354071",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5eb357ef803a5def",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:eb12fbb1b810755b",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7e38b629151430ee",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:41cfc77d87afb685",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0bee42eb59e72857",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f3455d34d827c5ed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a422af447824d3f0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:dc9596a5e3fd2910",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b7d83714c0d95f2d",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a17d2749629e9c6c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:71b9517359263b3c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:28c0050efd776b3e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a8e8ce7f6d00c0f3",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:654ef99445c236c1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1ba11aeb626d4680",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:89ba037565062396",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4571212f3bd9cfed",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a933202ead658b2b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bb3c62775c397329",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8168ba77f9d50d61",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1b3b73ef5c93d588",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d0f2677c1e746e16",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b6a27c2f4860a6ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:600142aea94187f4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:99df3c97aa06ffd5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3d2f6de229fd550d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a54db45afb37580a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9de7a5b5c1fdc71d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8f4a2fdda6901187",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:12f2ac6097684716",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1cb93469bc884032",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:dbd41eea2bb11aaf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:83924180e120a509",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7d360ba5fa46f529",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c7e45b1929bc5727",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:54c8ecb141249548",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6eda825422a39351",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:def60ad831e55217",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8c2417af275c3e44",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c5be62cae2b4ac3c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:019c00f8e188619c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:342b7c9abf338845",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:99fcbc7dc08b3616",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2de69c76d4022766",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:25295522d84a2613",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:18cc3b067c8aa02d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f5b69c1faff4c63f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1302347f9255328e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1db3a70edcd2057b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bac9c7238b0121d3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0e632e56cd561cd4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e6d13b086549e5e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5fed06248aa9558a",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bbd15ec6f0f43cd5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c7802e06d31dbc45",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6820c124ba4db55d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4c6a02cbb8eb9fd1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5704d2f2c1059c0f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c61e4492005e7240",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:986b6006c2b7f069",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:043d84137233b076",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cb5b3a10dc823095",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:290e7bddf7e0a960",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:61033b66be2ece3d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f8cc33922e683aaf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4e64aa844b204274",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b20fa31a04e6fd2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c5585ddb5e8487f2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:55267ea91a008603",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0cd02337e58789de",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9d3990a0eeeb45f9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:90e05d41ddcc53a2",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3f5f59eb30f50a49",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cb92d46a1675e2bd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9dbc844c0733c3bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c0145e17e0f31bc1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4892406a0a0df01e",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f84192bf15585727",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:28842e9ef97de8ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3571b03d44188f42",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:605601a120d2944f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6f051e93411e9048",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d0b11edbe0af97ce",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bdf52c56eaadb67c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e80a844e4cff07db",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:24108aa5a754bb38",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:eae8bdbb9a9528c3",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:40c2b0ed63d9e71e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c34987746cb5ca27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a97788105040adc9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:70ca787064b69c84",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3ec8440be3779653",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f422a903b4936c2c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2c66139c7fcdbb88",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:131170892737806b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c3f2ff4386ebdf10",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7f59db3af59fff80",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e500e87e275745e7",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d240e1d52b1ff703",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f13c8089767e777b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ab4f663056ab2297",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3bca9a43740dc22e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5f9439748c0da9f3",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f5f35352a6b4de48",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:50af19e7768649bd",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:3e3411d257cff089",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:de48d75f0230aabe",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5f592a50e0239861",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cfe2d0ce61bbf359",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:a63bfac55c338e2a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5cc125e9886610dd",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:aec11dd2ffe277eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e958e23f1c098587",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:148e9c7c70acb1eb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:df686f30ea374798",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8468154aa8ac9c6c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:214400833500d30c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6f70b1c50e98eebf",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b130c64a58a104cb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:78b5fcb9913f0685",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:20396d08cf6facd0",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2ac93732401797fa",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fabb1a2b9132e2fb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ed62bc5ae3990a54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bd18a54001b49410",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:18781df4eb5302e9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:94d05ec8748fe7bb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:eb9448737dea8a54",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:727230166957a08d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b0efb6510ab489d5",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:00ddc026072f7bcb",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0739a33f09e8eee7",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1ed04777cb5f2a38",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:93baf19ea71eef65",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:281130c7ab619955",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cc813321ac05ab74",
+   "verdict": "fail"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2b58feaf112c4849",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bd5274dea5d12ad6",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4d09e54782d712ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:95ea11bf89caa519",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:aa6a5e10738fe996",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e4b82e778e6d421b",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:05f7fbfb8de23633",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5604a299f45e6844",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:ae587ab7609bf33d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:033d04a27e2dc01c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:23972c68adc77c78",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1833050e1d161833",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9d3b2f4ff7b0ab80",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fa96715a43952697",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:70a2420b77ec10a8",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c9852ad9f60c9324",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8a556824181c676a",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:87b33606e6e93bb9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d51e8bbb79db00e6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2eb337d74091dfad",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:091e5609f4b6d55c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f6a4901b0bad6e79",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:7fee237929764acf",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6601a4442ff73b54",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f85112ae87ff69e5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b3fec5007b6cb9b5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:da5ee9a06aebaa96",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8ed006b21275c0b4",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bd04761852680ef5",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:00007fadbed1ca25",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0dd1ae25105a6601",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6c8864e7185d40c2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d1745e71f49f03a1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:56d4918f20a5e358",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:bc7f9a668582ad24",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:045c63dc4ae7e28d",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:50f621a08d07eab9",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:74df561cd82ee204",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d85d964d54b50923",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:16f9bb824ef8085c",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:174dda566923b315",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:5844e1e0a9a02690",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4ef9453ba0c921ac",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c54846c17e5c6c27",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:68dcdb23f6a2e090",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2eb2a6b75da6f182",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:43dcfa92e4799013",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b0fcf762ceb1b429",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b838411f645d1fef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:6b01c9096cd9a238",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:f9c6d290bf6bf678",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:cb93c51ff52df28c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:2556466fedf378d1",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:be925e89b75be7ba",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:83c45757cba19af2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d1f22520a952973f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:e5e4d970af1910ef",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:c376a92c07f3bd7c",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:b8c1a9ef24345e9f",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:4854d7b0bff1aa2f",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:192b054760b55b67",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:81a3035208632e87",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:9d9f8126bb422148",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:fcddf0bc020533a2",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:d728bd5cfbf6ec2e",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:0488552cb9f0bb90",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:8263b34b2be29ae6",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:42a4a4f3ae0a9368",
+   "verdict": "no_detectable_difference"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:1fdc991e3affc280",
+   "verdict": "inconclusive"
+  },
+  {
+   "id": "test:ashad-the-lone-cyberman:goldfish:70eb0f332d0ee636",
+   "verdict": "no_detectable_difference"
+  }
+ ]
+}
