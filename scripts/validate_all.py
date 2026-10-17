@@ -218,6 +218,7 @@ def main(argv):
              ("mana-step", ["scripts/grixis_mana_step.py", "--check"]),  # Step C: cache-independent layers + explicit 68.3 pending/validated closure
              ("commander-step", ["scripts/grixis_commander_step.py", "--check"]),  # Step D: structural/integration layers + explicit local dynamic closure
              ("bracket-stress-step", ["scripts/grixis_stress_step.py", "--check"]),  # Step F: bracket-specific suites/routing/red-team/gain + local module closure
+             ("human-sampling-step", ["scripts/grixis_human_sampling_step.py", "--check"]),  # Step H: frozen sampler, review obligations and oversight gain
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

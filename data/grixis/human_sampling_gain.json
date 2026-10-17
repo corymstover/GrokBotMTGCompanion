@@ -1,0 +1,111 @@
+{
+ "after": {
+  "all_exception_eligible_selected": 5,
+  "all_pending_release_eligible_selected": 2,
+  "dynamic_strata_preregistered": 2,
+  "per_stratum_selected": {
+   "anomaly": 8,
+   "cedh": 8,
+   "exception": 5,
+   "high_optimizer_disagreement": 0,
+   "low_commander_dependence": 8,
+   "major_change": 0,
+   "pending_release": 2,
+   "random": 8,
+   "rules_sensitive": 8
+  },
+  "policy_frozen_before_m6": true,
+  "review_queue_items_pending": 37,
+  "scripts_can_author_judgment": false,
+  "static_strata": 7,
+  "unique_static_decks_selected": 37
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "Oversight-coverage gain is not a deck-quality score and cannot decide a swap."
+ },
+ "baseline": {
+  "all_pending_release_mandatory": false,
+  "all_project_exceptions_mandatory": false,
+  "deterministic_policy_frozen": false,
+  "minimum_static_review_workload": 0,
+  "result_dependent_formulas_preregistered": false,
+  "stage": "before Step H"
+ },
+ "evidence_class": "derived_metric",
+ "gain_claims": [
+  "Pre-M6 oversight changes from no preregistered minimum sample to 37 unique static deck reviews across seven frozen strata.",
+  "All 5 project-exception/authorization decks and all 2 pending-release decks are mandatory rather than sampled away.",
+  "Random sampling supplies an unbiased defect-detection stratum while anomaly, cEDH, commander-dependence and rules-sensitive strata target known risk classes.",
+  "Optimizer-disagreement and major-change selection formulas are executable and frozen before those results exist, preventing result-aware cherry-picking."
+ ],
+ "generated_by": "scripts/grixis_human_sampling_gain.py v1",
+ "limitations": [
+  "More review coverage is not proof that deck decisions are correct.",
+  "Overlap means per-stratum counts must not be summed as unique decks.",
+  "Dynamic strata have no selected decks until their M6-stage inputs exist.",
+  "Unsampled decks are not certified by omission.",
+  "The gain proof measures process/oversight improvement, not multiplayer win rate or power."
+ ],
+ "real_deck_examples": [
+  {
+   "memberships": [
+    "exception",
+    "low_commander_dependence",
+    "rules_sensitive"
+   ],
+   "slug": "bjorna-nightfall-alchemist-cecily"
+  },
+  {
+   "memberships": [
+    "cedh",
+    "exception",
+    "pending_release"
+   ],
+   "slug": "the-madcap-jester"
+  },
+  {
+   "memberships": [
+    "exception",
+    "pending_release",
+    "rules_sensitive"
+   ],
+   "slug": "tresserhorns-lord-returned"
+  },
+  {
+   "memberships": [
+    "low_commander_dependence",
+    "random"
+   ],
+   "slug": "anhelo-the-painter"
+  },
+  {
+   "memberships": [
+    "random",
+    "rules_sensitive"
+   ],
+   "slug": "ashnod-the-uncaring"
+  },
+  {
+   "memberships": [
+    "cedh",
+    "rules_sensitive"
+   ],
+   "slug": "evelyn-the-covetous"
+  },
+  {
+   "memberships": [
+    "cedh",
+    "low_commander_dependence"
+   ],
+   "slug": "rograkh-son-of-rohgahh-silas-renn"
+  },
+  {
+   "memberships": [
+    "rules_sensitive"
+   ],
+   "slug": "abaddon-the-despoiler"
+  }
+ ],
+ "schema_version": 1
+}
