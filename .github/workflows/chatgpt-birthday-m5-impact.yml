@@ -4,6 +4,7 @@ on:
   push:
     branches: [chatgpt-cycle74-birthday-authority]
     paths:
+      - .github/workflows/chatgpt-birthday-m5-impact.yml
       - data/grixis/birthday_authority/manifest.json
       - data/grixis/birthday_authority/delta_vs_snap-20261016.json
       - data/grixis/birthday_authority/edhrec_current.json.gz
