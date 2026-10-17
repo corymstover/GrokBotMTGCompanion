@@ -1,0 +1,24 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema",
+ "$id":"https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/commander_marginal.schema.json",
+ "title":"Step D commander marginal-value evidence vector",
+ "type":"object",
+ "required":["schema_version","deck_id","slug","canonical_hash","status","evidence_class","confidence","authority","accepted_blueprint_role","structural_routes","dynamic_vectors","normal_minus_counterfactual","dimension_status","limitations"],
+ "properties":{
+  "schema_version":{"const":1},"deck_id":{"type":"string"},"slug":{"type":"string"},"canonical_hash":{"type":"string","pattern":"^lh1:"},
+  "status":{"const":"provisional_marginal_value_evidence"},"evidence_class":{"const":"test_result"},"confidence":{"enum":["low","moderate"]},
+  "authority":{"type":"object","required":["can_decide","note"],"properties":{"can_decide":{"const":false},"note":{"type":"string"}},"additionalProperties":false},
+  "accepted_blueprint_role":{"type":"object"},"structural_routes":{"type":"object","required":["summary","wins","engines","combo_routes"]},
+  "dynamic_vectors":{"type":"object","required":["normal","unavailable","taxed","disrupted"],"additionalProperties":{"$ref":"#/$defs/vector"}},
+  "normal_minus_counterfactual":{"type":"object","required":["unavailable","taxed","disrupted"]},
+  "dimension_status":{"type":"object","required":["engines","package_access","card_economy","combo_assembly","meaningful_actions","mana_efficiency","recovery","strategic_routes"],"additionalProperties":{"type":"string"}},
+  "limitations":{"type":"array","minItems":5,"items":{"type":"string"}}
+ },
+ "$defs":{
+  "numNull":{"type":["number","null"]},
+  "vector":{"type":"object","required":["card_economy","mana_efficiency","package_access","combo_access","meaningful_progress_vector","recovery"],"properties":{
+   "card_economy":{"type":"object"},"mana_efficiency":{"type":"object"},"package_access":{"type":"object"},"combo_access":{"type":"object"},"meaningful_progress_vector":{"type":"object"},"recovery":{"type":["object","null"]}
+  },"additionalProperties":false}
+ },
+ "additionalProperties":false
+}

@@ -1,0 +1,101 @@
+{
+ "after": {
+  "implemented": [
+   "62-deck structural route partition with accepted role preserved",
+   "paired normal/unavailable/+2-tax/removal-disruption simulator architecture with common seeds/permutations",
+   "non-collapsed integration vector for card economy, mana efficiency, key-set access, combo access, meaningful progress and recovery"
+  ],
+  "pending": [
+   "Real 62-deck dynamic counterfactual outputs on frozen local Scryfall cache",
+   "Dynamic engine-online probability remains outside v1.1; structural engine dependence is retained instead"
+  ]
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "This proof shows added commander-dependence resolution, not commander-value truth or a deck decision."
+ },
+ "before": {
+  "limitations": [
+   "Accepted Blueprint commander roles existed, but declared wins/engines/packages and Spellbook lines were not systematically partitioned by explicit commander dependence.",
+   "The prior simulator had no commander-unavailable or starting-tax counterfactual mode.",
+   "No single Step D record kept structural strategic routes and dynamic counterfactual dimensions in a common non-scoring evidence vector."
+  ]
+ },
+ "conclusion": "Step D now distinguishes declared commander-linked strategic routes from independent routes and has a paired dynamic counterfactual architecture without collapsing either into a score; full dynamic closure remains an explicit frozen-local-cache item.",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "The demonstrated gain is structural/architectural until real dynamic outputs are generated locally.",
+  "Explicit commander-reference absence is not proof of zero commander value.",
+  "Counterfactual goldfish results will remain bounded test evidence, not multiplayer win rates.",
+  "Meaningful progress remains a vector; heterogeneous events are not summed into a synthetic score.",
+  "Accepted Blueprint commander-role judgments remain higher-value strategic context than these derived counts."
+ ],
+ "measured": {
+  "automatic_deck_decisions": 0,
+  "commander_direct_or_supported_lines": 149,
+  "commander_independent_lines": 269,
+  "structural_decks": 62,
+  "structural_spellbook_lines": 418
+ },
+ "real_deck_examples": [
+  {
+   "accepted_role": "central",
+   "honest_note": "Her permission is once per your own turn at normal timing (M1 kess-01), so it doesn't help on opponents' turns. Oracle + Consultation and the Breach lines still win without her, just less efficiently.",
+   "resolution_gain": "Separates 1 explicit commander win route(s) from 2 structurally independent Blueprint win route(s), and 2 commander-linked Spellbook line(s) from 4 structurally independent line(s), without replacing the accepted role judgment.",
+   "slug": "kess-dissident-mage",
+   "structural_counts": {
+    "blueprint_wins": 3,
+    "blueprint_wins_explicit_commander": 1,
+    "blueprint_wins_structurally_independent": 2,
+    "combo_blueprint_supported": 2,
+    "combo_commander_independent": 4,
+    "combo_direct_commander_piece": 0,
+    "engines": 2,
+    "engines_explicit_commander": 1,
+    "required_packages": 3,
+    "required_packages_explicit_commander": 0,
+    "spellbook_lines": 6
+   }
+  },
+  {
+   "accepted_role": "central",
+   "honest_note": "The threshold resets every turn and only counts life opponents actually lost this turn, so the engine is turn-local and five mana; the Breach combo is the faster kill and is commander-independent.",
+   "resolution_gain": "Separates 1 explicit commander win route(s) from 3 structurally independent Blueprint win route(s), and 0 commander-linked Spellbook line(s) from 4 structurally independent line(s), without replacing the accepted role judgment.",
+   "slug": "abaddon-the-despoiler",
+   "structural_counts": {
+    "blueprint_wins": 4,
+    "blueprint_wins_explicit_commander": 1,
+    "blueprint_wins_structurally_independent": 3,
+    "combo_blueprint_supported": 0,
+    "combo_commander_independent": 4,
+    "combo_direct_commander_piece": 0,
+    "engines": 2,
+    "engines_explicit_commander": 0,
+    "required_packages": 4,
+    "required_packages_explicit_commander": 0,
+    "spellbook_lines": 4
+   }
+  },
+  {
+   "accepted_role": "supporting",
+   "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is.",
+   "resolution_gain": "Separates 1 explicit commander win route(s) from 3 structurally independent Blueprint win route(s), and 1 commander-linked Spellbook line(s) from 2 structurally independent line(s), without replacing the accepted role judgment.",
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "structural_counts": {
+    "blueprint_wins": 4,
+    "blueprint_wins_explicit_commander": 1,
+    "blueprint_wins_structurally_independent": 3,
+    "combo_blueprint_supported": 1,
+    "combo_commander_independent": 2,
+    "combo_direct_commander_piece": 0,
+    "engines": 2,
+    "engines_explicit_commander": 1,
+    "required_packages": 3,
+    "required_packages_explicit_commander": 0,
+    "spellbook_lines": 3
+   }
+  }
+ ],
+ "schema_version": 1,
+ "status": "demonstrated_partial_decision_resolution_gain"
+}

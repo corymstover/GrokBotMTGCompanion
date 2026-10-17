@@ -417,3 +417,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - Metrics remain separated: commander casting, mana available/spent, extra draw, tutors, fast-mana use, first key-set access, combo assembly/win proxy, and disruption/recast recovery. No scalar commander-value score is produced.
 - The legacy simulator does not expose a trustworthy meaningful-action event count, so that dimension is explicitly left unmodeled rather than approximated with an invented composite.
 - Synthetic paired tests validate the four modes in cache-free CI. Real 62-deck output generation requires the frozen local Scryfall cache and remains pending.
+
+
+### Step D batch 69.3: marginal-value integration and gain proof
+
+- `scripts/grixis_commander_marginal.py` keeps Commander Marginal Value dimensions separate: strategic routes/engines, card economy, mana utilization, first key-set access, combo access, meaningful-progress vector and recovery. No scalar commander-value score exists.
+- Meaningful actions are represented as a vector of interpretable progress components rather than summing heterogeneous events. This avoids fake precision while still exposing commander-sensitive action/progress deltas once local dynamic records exist.
+- `commander_marginal_gain.json` demonstrates real structural decision-resolution gain on project decks while explicitly marking real dynamic gain as pending frozen-local-cache generation.
+- `scripts/grixis_commander_step.py --check` is the Step D closure gate: 62 structural records are mandatory; 0 dynamic records is an explicit pending state, 1–61 is invalid, and 62 counterfactual + 62 marginal records are required for full Step D closure.
+- `validate_all` now includes `commander-step`. Step D is code-complete pending the declared local dynamic generation/validation item.
