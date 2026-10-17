@@ -14,6 +14,7 @@ schema: 2
 > Every update records **date · summary · files affected · reason**. Newest first. See [Knowledge Index](Knowledge%20Index.md#maintenance-rules).
 
 ## Contents
+- [2026-10-17 — ChatGPT cycle 75 (M5 accepted)](#2026-10-17--chatgpt-cycle-75-m5-accepted)
 - [2026-10-16 — Bot cycle 63 (M2 and M4 accepted)](#2026-10-16--bot-cycle-63-m2-and-m4-accepted)
 - [2026-10-16 — Bot cycle 62 (M1 and M3 accepted; Cory's blueprint review and corrections)](#2026-10-16--bot-cycle-62-m1-and-m3-accepted-corys-blueprint-review-and-corrections)
 - [2026-10-16 — Bot cycle 61 (M5 constraint fixes)](#2026-10-16--bot-cycle-61-m5-constraint-fixes)
@@ -84,6 +85,12 @@ schema: 2
 - [2026-10-15 — Bot cycle 3 (sprint: lore deepening, all-identity EDH, rules interactions)](#2026-10-15--bot-cycle-3-sprint-lore-deepening-all-identity-edh-rules-interactions)
 - [2026-10-15 — Bot cycle 2 (rulings, Planes, EDH staples, Characters)](#2026-10-15--bot-cycle-2-rulings-planes-edh-staples-characters)
 - [2026-10-15 — Bot cycle 1 (repository bootstrap)](#2026-10-15--bot-cycle-1-repository-bootstrap)
+
+## 2026-10-17 — ChatGPT cycle 75 (M5 accepted)
+
+- **Summary:** recorded Cory's explicit `Accept M5 and proceed` acceptance of M5 at 2026-10-17T14:34:41Z after ChatGPT independently validated the Lift-corrected Birthday M5 corpus (`fcd28daff7d3f7b091de04299699645ba7e47aa2`, snapshot `birthday-20261017-6e5c604e1459`). M5 acceptance is evidence-layer authority only: no swap, challenger, canonical decklist, deck state, approval, or lock changed.
+- **Files:** `data/grixis/registry.json`, `grixis/Grixis Authority Model.md`, `Update Log.md`.
+- **Reason:** close the explicit M5 human gate before the agreed post-M5 Birthday prerequisites and M6 architecture.
 
 ## 2026-10-16 — Bot cycle 63 (M2 and M4 accepted)
 

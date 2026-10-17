@@ -84,11 +84,14 @@
     "scope_note": "Milestone acceptance only; approves no decklist, challenger, swap, M5 conclusion or refinement result, and moves no deck state."
    },
    "M5": {
-    "status": "in_progress",
-    "accepted_by": null,
-    "accepted_date": null,
+    "status": "accepted",
+    "accepted_by": "corymstover",
+    "accepted_date": "2026-10-17",
     "criteria_doc": "grixis/Grixis Authority Model.md#m5",
-    "pending_note": "Exploratory only: candidate universes, screening reviews and swap hypotheses are non-authoritative evidence, regenerated in cycle 62.3 against the corrected blueprints. Awaiting Cory's freshness review and acceptance (t52u sequence: accept M2+M4, review/accept refreshed M5, final clean validation/freeze snapshot, then M6). Not accepted."
+    "accepted_at": "2026-10-17T14:34:41Z",
+    "acceptance_evidence": "In-chat acceptance by Cory on 2026-10-17 at 14:34:41 UTC: 'Accept M5 and proceed'. Acceptance followed ChatGPT's independent Cycle 74b validation of the Lift-corrected Birthday M5 corpus. Accepted evidence corpus: commit fcd28daff7d3f7b091de04299699645ba7e47aa2; snapshot birthday-20261017-6e5c604e1459; summary sha256:dfa23cab773832927eb0a0877f8b425581efe1b2e51dcd32b90c53a66d549046; provenance blob sha1:7442fa72e12a14f628cd9907670c25bdcbc37853; delta sha256:8272791232ed31f2d5d0f02bb750dd1e8396745d18bc27d4f8384e82b585bb91.",
+    "scope_verbatim": "Accept M5 and proceed",
+    "scope_note": "Milestone acceptance only. It accepts the Lift-corrected Birthday M5 evidence corpus for downstream refinement. It approves no card swap, challenger, canonical decklist change, deck state, deck approval or lock. data/grixis/birthday_m5/summary.json intentionally remains accepted_by_cory=false because generated evidence cannot self-accept; this registry entry is the human acceptance authority."
    },
    "M6": {
     "status": "not_started",
