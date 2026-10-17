@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/m6_model_coverage.schema.json",
+  "title": "M6 M5-proxy effect-coverage and positive-claim guard",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "stage": {
+      "const": "M6_M5_proxy_coverage_guard"
+    },
+    "deck_id": {
+      "$ref": "common.schema.json#/$defs/deck_id"
+    },
+    "slug": {
+      "$ref": "common.schema.json#/$defs/slug"
+    },
+    "list_hash": {
+      "$ref": "common.schema.json#/$defs/list_hash"
+    },
+    "packet_sha256": {
+      "$ref": "common.schema.json#/$defs/sha256"
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "hypotheses": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positive_proxy_verdicts": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positive_unmodeled_swap_effects": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "positive_other_or_unknown_coverage": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "claim_eligible_from_M5": {
+          "const": 0
+        }
+      },
+      "required": [
+        "hypotheses",
+        "positive_proxy_verdicts",
+        "positive_unmodeled_swap_effects",
+        "positive_other_or_unknown_coverage",
+        "claim_eligible_from_M5"
+      ],
+      "additionalProperties": false
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "swap_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "review_order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "test_verdicts": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "has_positive_proxy_verdict": {
+            "type": "boolean"
+          },
+          "swapped_effects_unmodeled": {
+            "type": "boolean"
+          },
+          "multiplayer_model_limit": {
+            "type": "boolean"
+          },
+          "supports_improvement_claim": {
+            "const": false
+          },
+          "reason": {
+            "enum": [
+              "M5_goldfish_unmodeled_effects",
+              "M5_goldfish_incomplete_or_unknown_coverage",
+              "M5_exploratory_no_positive_verdict"
+            ]
+          },
+          "required_next": {
+            "const": "Phase-B effect-aware comparisons and named strategic judgment before any improvement claim"
+          }
+        },
+        "required": [
+          "swap_id",
+          "review_order",
+          "test_verdicts",
+          "has_positive_proxy_verdict",
+          "swapped_effects_unmodeled",
+          "multiplayer_model_limit",
+          "supports_improvement_claim",
+          "reason",
+          "required_next"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "can_decide": {
+          "const": false
+        },
+        "can_approve_or_lock": {
+          "const": false
+        },
+        "can_apply_swap": {
+          "const": false
+        }
+      },
+      "required": [
+        "can_decide",
+        "can_approve_or_lock",
+        "can_apply_swap"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "schema_version",
+    "stage",
+    "deck_id",
+    "slug",
+    "list_hash",
+    "packet_sha256",
+    "counts",
+    "items",
+    "authority"
+  ],
+  "additionalProperties": false
+}
