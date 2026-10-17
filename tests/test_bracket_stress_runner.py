@@ -12,15 +12,17 @@ def entry(slug):
     return next((did,e) for did,e in r["decks"].items() if e["slug"]==slug)
 
 
-def test_kess_routes_b5_to_existing_stress_goldfish_and_real_modules():
+def test_kess_routes_b5_to_existing_stress_goldfish_and_executed_real_modules():
     did,e=entry("kess-dissident-mage"); d=br.build_one(did,e)
     by={x["id"]:x for x in d["items"]}
     assert d["suite_family"]=="B5_competitive"
     assert by["first_key_spell_countered"]["evidence"]["status"]=="reused_existing_test_result"
     assert by["turbo_clock"]["evidence"]["status"]=="reused_goldfish_readiness"
     assert by["stack_protection"]["evidence"]["resolved_module_ids"]==["counterspell_density","stack_protection"]
-    assert by["stack_protection"]["evidence"]["status"]=="pending_deck_level_module_execution"
+    assert by["stack_protection"]["evidence"]["status"]=="executed_deck_level_module_result"
+    assert [x["module_id"] for x in by["stack_protection"]["evidence"]["modules"]]==["counterspell_density","stack_protection"]
     assert by["stax_tax"]["evidence"]["resolved_module_ids"]==["stax_tax"]
+    assert by["stax_tax"]["evidence"]["status"]=="executed_deck_level_module_result"
     assert by["protected_win_red_team"]["evidence"]["status"]=="judgment_required"
 
 
@@ -31,7 +33,7 @@ def test_no_weighted_or_aggregate_outcome_score_is_emitted():
     assert d["authority"]["can_decide"] is False
     assert not any(x["decision_authority"] for x in d["items"])
     txt=json.dumps(d).lower()
-    assert 'weighted_score' not in txt and 'win_rate' not in txt
+    assert "weighted_score" not in txt and '"win_rate"' not in txt and '"win_probability"' not in txt
 
 
 def test_b4_judgment_prompts_remain_unanswered():
