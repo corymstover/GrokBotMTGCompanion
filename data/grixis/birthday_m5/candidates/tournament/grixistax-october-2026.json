@@ -1,0 +1,1846 @@
+{
+ "card_window": "ONE_YEAR",
+ "cards": {
+  "Act of Treason": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Ad Nauseam": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Aetherflux Reservoir": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Agent of Treachery": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Ajani Unrelenting": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Ambassador Laquatus": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Amulet of Safekeeping": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Animate Dead": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Arcane Signet": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Archmage's Charm": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Arid Mesa": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Ashnod's Altar": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Bazaar of Wonders": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Beseech the Mirror": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Black Market Connections": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Blood Money": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Bolas's Citadel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Borne Upon a Wind": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   }
+  },
+  "Braids, Arisen Nightmare": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Breaking // Entering": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Cabal Ritual": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Captivating Crew": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Cephalid Coliseum": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Chalice of the Void": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "City of Traitors": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Claim the Firstborn": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Commander's Sphere": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Cool but Rude": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Counterspell": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Dack Fayden": {
+   "withCard": {
+    "conversion": 1,
+    "entries": 1,
+    "top_cuts": 1
+   },
+   "withoutCard": {
+    "conversion": 0.1667,
+    "entries": 6,
+    "top_cuts": 1
+   }
+  },
+  "Deadly Dispute": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Deadly Rollick": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "Decadent Dragon // Expensive Taste": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Defense Grid": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Deflecting Swat": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Demonic Consultation": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Dimir Signet": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Dispel": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Displacer Kitten": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Don Andres, the Renegade": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Emergence Zone": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Exotic Orchard": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Fabled Passage": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Faerie Mastermind": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "False Memories": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Fellwar Stone": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Final Fortune": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Furnace Reins": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Geyadrone Dihada": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Gilded Drake": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Gitaxian Probe": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Glimpse the Unthinkable": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Grimoire Thief": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Grinding Station": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Guile": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Hexing Squelcher": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 3,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.5,
+    "entries": 4,
+    "top_cuts": 2
+   }
+  },
+  "High Market": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Hullbreaker Horror": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   }
+  },
+  "Ice Cauldron": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Innovative Commons": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Insurrection": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Into the Flood Maw": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "Invert Polarity": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Involuntary Employment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Izzet Signet": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Jace, Reality Sculptor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Jester's Scepter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Jin-Gitaxias, Progress Tyrant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Karn, the Great Creator": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Kellogg, Dangerous Mind": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Kheru Spellsnatcher": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Korvold and the Noble Thief": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Lich": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Lich's Mastery": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Loki's Scepter": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Luxury Suite": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Magus of the Moon": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Mana Drain": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Marina Vendrell's Grimoire": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Mayhem Devil": {
+   "withCard": {
+    "conversion": 0.5,
+    "entries": 4,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 3,
+    "top_cuts": 0
+   }
+  },
+  "Mind Stone": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Mindreaver": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Mistrise Village": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Mizzix of the Izmagnus": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Mnemonic Betrayal": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Mox Amber": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Myriad Landscape": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Necrodominance": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Necropotence": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   }
+  },
+  "Nefarious Lich": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Notion Thief": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Overwrite the Multiverse": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Path of the Pyromancer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Peer into the Abyss": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Phyrexian Altar": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Phyrexian Metamorph": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "Power Artifact": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Praetor's Grasp": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   }
+  },
+  "Professional Face-Breaker": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Rain of Filth": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Ramirez DePietro, Pillager": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Reanimate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Redirect Lightning": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Reins of Power": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Reiterate": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Requiem Monolith": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Rev, Tithe Extractor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Rite of Flame": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Scavenger Grounds": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Seize the Spotlight": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Shivan Reef": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Simian Spirit Guide": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "Snap": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Solemn Simulacrum": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Song-Mad Treachery // Song-Mad Ruins": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Spell Pierce": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Spire of Industry": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Stardew Valley": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Starting Town": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "Stitcher's Supplier": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Strix Serenade": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Talisman of Indulgence": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Tangle Wire": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Terramorphic Expanse": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Thassa's Oracle": {
+   "withCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   }
+  },
+  "The Enigma Jewel // Locus of Enlightenment": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "The Mycosynth Gardens": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "The One Ring": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "The Theorist, Jace Beleren": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Thieving Varmint": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Thranduil's Decree": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Thrull Wizard": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Tidespout Tyrant": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Toxic Deluge": {
+   "withCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   }
+  },
+  "Training Center": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   }
+  },
+  "Undercity Sewers": {
+   "withCard": {
+    "conversion": 0.3333,
+    "entries": 6,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 1,
+    "top_cuts": 0
+   }
+  },
+  "Underground River": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Urza's Saga": {
+   "withCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   },
+   "withoutCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   }
+  },
+  "Vaan, Street Thief": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Valki, God of Lies // Tibalt, Cosmic Impostor": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Valley Floodcaller": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   }
+  },
+  "Vilis, Broker of Blood": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Viscera Seer": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Volatile Stormdrake": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Voltaic Construct": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Vraska, Betrayal's Sting": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Warren Soultrader": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Wayfarer's Bauble": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Yawgmoth's Will": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 2,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.4,
+    "entries": 5,
+    "top_cuts": 2
+   }
+  },
+  "Yawgmoth, Thran Physician": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  },
+  "Zealous Conscripts": {
+   "withCard": {
+    "conversion": 0,
+    "entries": 0,
+    "top_cuts": 0
+   },
+   "withoutCard": {
+    "conversion": 0.2857,
+    "entries": 7,
+    "top_cuts": 2
+   }
+  }
+ },
+ "class": "derived_metric",
+ "commander": {
+  "color_id": "UBR",
+  "name": "Kraum, Ludevic's Opus / Tevesh Szat, Doom of Fools",
+  "windows": {
+   "ONE_YEAR": {
+    "conversionRate": 0.2857,
+    "count": 7,
+    "metaShare": 0.0,
+    "topCuts": 2
+   },
+   "SIX_MONTHS": {
+    "conversionRate": 0,
+    "count": 1,
+    "metaShare": 0.0,
+    "topCuts": 0
+   }
+  }
+ },
+ "commander_query": "Kraum, Ludevic's Opus / Tevesh Szat, Doom of Fools",
+ "list_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+ "note": "EDHTop16 aggregates reported cEDH tournament results (entries with and without a card, top cuts, conversion = top cuts / entries). Entries without a submitted decklist count as 'without' the card, so 'without' figures are upper bounds on non-play. Observational, confounded by pilot skill and meta: derived_metric only.",
+ "retrieved": "2026-10-17",
+ "sample_size": 7,
+ "schema_version": 1,
+ "slug": "grixistax-october-2026",
+ "source": "https://edhtop16.com/api/graphql",
+ "status": "collected",
+ "window": "ONE_YEAR"
+}

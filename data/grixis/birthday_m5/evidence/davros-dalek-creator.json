@@ -1,0 +1,3612 @@
+{
+ "counts": {
+  "vectors": 253,
+  "with_edhrec": 253
+ },
+ "cycle": 74,
+ "date": "2026-10-17",
+ "deck_id": "Davros__Dalek_Creator",
+ "edhrec": {
+  "class": "derived_metric",
+  "columns": [
+   "lift",
+   "synergy",
+   "inclusion",
+   "num_decks",
+   "potential_decks",
+   "trend_zscore",
+   "confidence",
+   "flags"
+  ],
+  "method": "single_page",
+  "note": "Fresh Birthday EDHREC derivative. Community data informs screening and never decides.",
+  "pages": [
+   {
+    "page": "davros-dalek-creator",
+    "retrieved": "2026-10-17",
+    "sha256": "sha256:a4f7c8b5b41f8448b0f730e860f42cbf57219a7b59114868f17e342075c8fa9b"
+   }
+  ]
+ },
+ "generated_by": "scripts/grixis_birthday_m5.py v1",
+ "schema_version": 1,
+ "slug": "davros-dalek-creator",
+ "snapshot": {
+  "birthday_authority": "birthday-20261017-6e5c604e1459",
+  "id": "sha256:bfa07da16a9fec9f38a68811567e454c7f8f560f04308a857bb05161f98bf521",
+  "source_artifact": "data/grixis/birthday_authority/edhrec_current.json.gz",
+  "source_sha256": "sha256:d0d4cd57b260ee16da7cd21038694d59d60ebe56b853f699e2a07fd22c5a34f4"
+ },
+ "vectors": [
+  {
+   "card": "Academy Ruins",
+   "edhrec": [
+    2.814,
+    0.07174,
+    0.11128,
+    666,
+    5985,
+    0.402,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "An Offer You Can't Refuse",
+   "edhrec": [
+    0.568,
+    -0.13886,
+    0.18246,
+    1092,
+    5985,
+    0.898,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Arcane Denial",
+   "edhrec": [
+    0.577,
+    -0.12259,
+    0.16708,
+    1000,
+    5985,
+    0.573,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Arcane Signet",
+   "edhrec": [
+    1.058,
+    0.05074,
+    0.933,
+    5584,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Archway of Innovation",
+   "edhrec": [
+    2.765,
+    0.04107,
+    0.06433,
+    385,
+    5985,
+    0.53,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Ashad, the Lone Cyberman",
+   "edhrec": [
+    38.836,
+    0.38596,
+    0.39616,
+    2371,
+    5985,
+    -1.787,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Auton Soldier",
+   "edhrec": [
+    20.097,
+    0.54998,
+    0.57878,
+    3464,
+    5985,
+    -0.353,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Badlands",
+   "edhrec": [
+    0.6,
+    -0.06181,
+    0.0929,
+    556,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Baleful Strix",
+   "edhrec": [
+    1.463,
+    0.04484,
+    0.14169,
+    848,
+    5985,
+    0.215,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Bedevil",
+   "edhrec": [
+    0.362,
+    -0.09933,
+    0.05647,
+    338,
+    5985,
+    0.08,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Biotransference",
+   "edhrec": [
+    10.65,
+    0.06404,
+    0.07068,
+    423,
+    5985,
+    0.127,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Black Market Connections",
+   "edhrec": [
+    0.504,
+    -0.06521,
+    0.06633,
+    397,
+    5985,
+    0.58,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Blasphemous Act",
+   "edhrec": [
+    1.395,
+    0.17679,
+    0.6249,
+    3740,
+    5985,
+    -1.703,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Blazemire Verge",
+   "edhrec": [
+    0.905,
+    -0.00892,
+    0.08505,
+    509,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Blink",
+   "edhrec": [
+    52.448,
+    0.32599,
+    0.33233,
+    1989,
+    5985,
+    -0.823,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Blood Crypt",
+   "edhrec": [
+    0.687,
+    -0.1468,
+    0.32197,
+    1927,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Blood Tithe",
+   "edhrec": [
+    39.075,
+    0.06203,
+    0.06366,
+    381,
+    5985,
+    -0.099,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Bloodchief Ascension",
+   "edhrec": [
+    1.71,
+    0.03122,
+    0.07519,
+    450,
+    5985,
+    -0.446,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Bloodstained Mire",
+   "edhrec": [
+    0.657,
+    -0.12141,
+    0.23208,
+    1389,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Bojuka Bog",
+   "edhrec": [
+    0.683,
+    -0.07598,
+    0.16358,
+    979,
+    5985,
+    0.195,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Boltwave",
+   "edhrec": [
+    20.806,
+    0.29661,
+    0.31158,
+    1848,
+    5931,
+    0.813,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Brainstorm",
+   "edhrec": [
+    0.334,
+    -0.1118,
+    0.05597,
+    335,
+    5985,
+    0.024,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Brudiclad, Telchor Engineer",
+   "edhrec": [
+    11.65,
+    0.24637,
+    0.26951,
+    1613,
+    5985,
+    0.583,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Buried Ruin",
+   "edhrec": [
+    1.56,
+    0.01805,
+    0.05029,
+    301,
+    5985,
+    0.38,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Canyon Slough",
+   "edhrec": [
+    6.781,
+    0.32406,
+    0.38012,
+    2275,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Chaos Warp",
+   "edhrec": [
+    0.686,
+    -0.10894,
+    0.2381,
+    1425,
+    5985,
+    -0.47,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Choked Estuary",
+   "edhrec": [
+    2.537,
+    0.28194,
+    0.46533,
+    2785,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Chromatic Lantern",
+   "edhrec": [
+    0.682,
+    -0.04066,
+    0.08705,
+    521,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Clockwork Droid",
+   "edhrec": [
+    62.735,
+    0.29875,
+    0.30359,
+    1817,
+    5985,
+    -0.136,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Command Tower",
+   "edhrec": [
+    1.038,
+    0.03525,
+    0.95272,
+    5702,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Commander's Sphere",
+   "edhrec": [
+    2.343,
+    0.22996,
+    0.40117,
+    2401,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Counterspell",
+   "edhrec": [
+    0.825,
+    -0.07813,
+    0.36909,
+    2209,
+    5985,
+    0.831,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Court of Ambition",
+   "edhrec": [
+    9.324,
+    0.37291,
+    0.41771,
+    2500,
+    5985,
+    -0.976,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Creeping Tar Pit",
+   "edhrec": [
+    26.19,
+    0.40305,
+    0.41905,
+    2508,
+    5985,
+    -0.659,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Crumbling Necropolis",
+   "edhrec": [
+    1.392,
+    0.20362,
+    0.72314,
+    4328,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Cryptothrall",
+   "edhrec": [
+    6.85,
+    0.10088,
+    0.11813,
+    707,
+    5985,
+    0.484,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Cult of Skaro",
+   "edhrec": [
+    46.807,
+    0.76999,
+    0.7868,
+    4709,
+    5985,
+    -1.112,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Cursed Mirror",
+   "edhrec": [
+    1.609,
+    0.03155,
+    0.08338,
+    499,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Cyber Conversion",
+   "edhrec": [
+    32.361,
+    0.56122,
+    0.57911,
+    3466,
+    5985,
+    -1.188,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Cyberdrive Awakener",
+   "edhrec": [
+    3.737,
+    0.08921,
+    0.1218,
+    729,
+    5985,
+    0.231,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Cyberman Patrol",
+   "edhrec": [
+    36.475,
+    0.74963,
+    0.77076,
+    4613,
+    5985,
+    -0.736,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Cybermat",
+   "edhrec": [
+    46.601,
+    0.42003,
+    0.42924,
+    2569,
+    5985,
+    -2.394,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Cybermen Squadron",
+   "edhrec": [
+    26.187,
+    0.65294,
+    0.67886,
+    4063,
+    5985,
+    -0.823,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Cybership",
+   "edhrec": [
+    19.796,
+    0.26716,
+    0.28137,
+    1684,
+    5985,
+    -1.116,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Cyclonic Rift",
+   "edhrec": [
+    0.66,
+    -0.06711,
+    0.13049,
+    781,
+    5985,
+    0.075,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Dalek Drone",
+   "edhrec": [
+    45.289,
+    0.80113,
+    0.81921,
+    4903,
+    5985,
+    -0.524,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Dalek Squadron",
+   "edhrec": [
+    41.118,
+    0.81005,
+    0.83024,
+    4969,
+    5985,
+    -1.116,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Damocles Base, Sword of Kang",
+   "edhrec": [
+    3.777,
+    0.07296,
+    0.09924,
+    143,
+    1441,
+    3.281,
+    "moderate",
+    [
+     "rising"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Dark Ritual",
+   "edhrec": [
+    0.307,
+    -0.26937,
+    0.11913,
+    713,
+    5985,
+    0.291,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Darkwater Catacombs",
+   "edhrec": [
+    4.496,
+    0.3925,
+    0.50476,
+    3021,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Dauthi Voidwalker",
+   "edhrec": [
+    1.973,
+    0.07077,
+    0.14353,
+    859,
+    5985,
+    -0.254,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Day of the Moon",
+   "edhrec": [
+    35.195,
+    0.13149,
+    0.13534,
+    810,
+    5985,
+    -0.022,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Deadly Rollick",
+   "edhrec": [
+    0.609,
+    -0.07161,
+    0.11161,
+    668,
+    5985,
+    0.411,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Death in Heaven",
+   "edhrec": [
+    35.214,
+    0.41981,
+    0.43208,
+    2586,
+    5985,
+    -2.246,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Deflecting Swat",
+   "edhrec": [
+    0.599,
+    -0.07958,
+    0.11863,
+    710,
+    5985,
+    0.506,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Delete",
+   "edhrec": [
+    31.601,
+    0.67922,
+    0.70142,
+    4198,
+    5985,
+    -1.34,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Demonic Tutor",
+   "edhrec": [
+    0.445,
+    -0.11432,
+    0.09173,
+    549,
+    5985,
+    0.221,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Descent into Avernus",
+   "edhrec": [
+    2.713,
+    0.05107,
+    0.08087,
+    484,
+    5985,
+    0.172,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Desynchronization",
+   "edhrec": [
+    2.511,
+    0.03479,
+    0.05781,
+    346,
+    5985,
+    0.3,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Dimir Signet",
+   "edhrec": [
+    0.563,
+    -0.1432,
+    0.18429,
+    1103,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Don't Blink",
+   "edhrec": [
+    53.901,
+    0.09872,
+    0.10058,
+    602,
+    5985,
+    -0.368,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Doomsday Confluence",
+   "edhrec": [
+    46.212,
+    0.62216,
+    0.63592,
+    3806,
+    5985,
+    -1.166,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Dragon's Approach",
+   "edhrec": [
+    54.989,
+    0.11614,
+    0.1183,
+    708,
+    5985,
+    -0.713,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Dragonskull Summit",
+   "edhrec": [
+    1.503,
+    0.23965,
+    0.71596,
+    4285,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Drowned Catacomb",
+   "edhrec": [
+    1.536,
+    0.23938,
+    0.68622,
+    4107,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Emry, Lurker of the Loch",
+   "edhrec": [
+    2.193,
+    0.04463,
+    0.08204,
+    491,
+    5985,
+    0.234,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Ensnared by the Mara",
+   "edhrec": [
+    15.156,
+    0.53263,
+    0.57026,
+    3413,
+    5985,
+    0.01,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Enthusiastic Mechanaut",
+   "edhrec": [
+    7.623,
+    0.2298,
+    0.26449,
+    1583,
+    5985,
+    0.165,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Entropic Battlecruiser",
+   "edhrec": [
+    6.622,
+    0.1504,
+    0.17715,
+    724,
+    4087,
+    -0.51,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Etherium Sculptor",
+   "edhrec": [
+    5.979,
+    0.19702,
+    0.23659,
+    1416,
+    5985,
+    -0.055,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Evolving Wilds",
+   "edhrec": [
+    0.461,
+    -0.11874,
+    0.10142,
+    607,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Exotic Orchard",
+   "edhrec": [
+    1.319,
+    0.18243,
+    0.75405,
+    4513,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Exsanguinate",
+   "edhrec": [
+    2.399,
+    0.05485,
+    0.09407,
+    563,
+    5985,
+    -0.804,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Exterminate!",
+   "edhrec": [
+    51.366,
+    0.8516,
+    0.8685,
+    5198,
+    5985,
+    0.119,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Fabricate",
+   "edhrec": [
+    1.886,
+    0.03101,
+    0.066,
+    395,
+    5985,
+    0.398,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Fateful Discovery",
+   "edhrec": [
+    6.025,
+    0.06416,
+    0.07692,
+    74,
+    962,
+    2.983,
+    "moderate",
+    [
+     "rising"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Feed the Swarm",
+   "edhrec": [
+    2.124,
+    0.30678,
+    0.57978,
+    3470,
+    5985,
+    -0.966,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Fell the Profane",
+   "edhrec": [
+    0.715,
+    -0.02316,
+    0.05798,
+    347,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Fellwar Stone",
+   "edhrec": [
+    0.641,
+    -0.12822,
+    0.22891,
+    1370,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Fetid Pools",
+   "edhrec": [
+    6.671,
+    0.31774,
+    0.37377,
+    2237,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Fierce Guardianship",
+   "edhrec": [
+    0.598,
+    -0.07719,
+    0.11479,
+    687,
+    5985,
+    0.527,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Fiery Islet",
+   "edhrec": [
+    9.059,
+    0.38959,
+    0.43793,
+    2621,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Flame Rift",
+   "edhrec": [
+    26.787,
+    0.14734,
+    0.15305,
+    916,
+    5985,
+    -0.254,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Foreboding Ruins",
+   "edhrec": [
+    2.467,
+    0.27783,
+    0.46717,
+    2796,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Foundry Inspector",
+   "edhrec": [
+    4.679,
+    0.15423,
+    0.19616,
+    1174,
+    5985,
+    0.593,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Frostboil Snarl",
+   "edhrec": [
+    2.799,
+    0.28599,
+    0.44495,
+    2663,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Gallifrey Council Chamber",
+   "edhrec": [
+    47.736,
+    0.40961,
+    0.41838,
+    2504,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Genesis of the Daleks",
+   "edhrec": [
+    41.723,
+    0.735,
+    0.75305,
+    4507,
+    5985,
+    -2.028,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Geth's Grimoire",
+   "edhrec": [
+    1.539,
+    0.02652,
+    0.07569,
+    453,
+    5985,
+    -0.362,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Gloomlake Verge",
+   "edhrec": [
+    0.849,
+    -0.01383,
+    0.07786,
+    466,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Golbez, Crystal Collector",
+   "edhrec": [
+    4.674,
+    0.09982,
+    0.12699,
+    566,
+    4457,
+    0.115,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Great Furnace",
+   "edhrec": [
+    2.498,
+    0.07586,
+    0.12648,
+    757,
+    5985,
+    0.849,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Great Intelligence's Plan",
+   "edhrec": [
+    15.042,
+    0.45795,
+    0.49056,
+    2936,
+    5985,
+    -2.13,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Haunted Ridge",
+   "edhrec": [
+    3.406,
+    0.5067,
+    0.71729,
+    4293,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Hunted by The Family",
+   "edhrec": [
+    22.265,
+    0.27831,
+    0.2914,
+    1744,
+    5985,
+    -1.5,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Inventors' Fair",
+   "edhrec": [
+    2.001,
+    0.03059,
+    0.06115,
+    366,
+    5985,
+    -0.423,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Irenicus's Vile Duplication",
+   "edhrec": [
+    2.553,
+    0.04503,
+    0.07402,
+    443,
+    5985,
+    0.445,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Island",
+   "edhrec": [
+    1.042,
+    0.03933,
+    0.96992,
+    5805,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Izzet Signet",
+   "edhrec": [
+    0.611,
+    -0.1194,
+    0.1873,
+    1121,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "J. Jonah Jameson",
+   "edhrec": [
+    33.793,
+    0.17346,
+    0.17875,
+    678,
+    3793,
+    0.712,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Jeska's Will",
+   "edhrec": [
+    0.434,
+    -0.09161,
+    0.07018,
+    420,
+    5985,
+    -0.417,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Krang, Utrom Warlord",
+   "edhrec": [
+    4.727,
+    0.07389,
+    0.09372,
+    252,
+    2689,
+    -0.072,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Kroxa, Titan of Death's Hunger",
+   "edhrec": [
+    5.866,
+    0.11851,
+    0.14286,
+    855,
+    5985,
+    -0.82,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Labyrinth Raptor",
+   "edhrec": [
+    70.482,
+    0.36319,
+    0.36842,
+    2205,
+    5985,
+    -0.367,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Laser Screwdriver",
+   "edhrec": [
+    37.447,
+    0.38119,
+    0.39165,
+    2344,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Lavaclaw Reaches",
+   "edhrec": [
+    32.031,
+    0.27242,
+    0.2812,
+    1683,
+    5985,
+    -1.209,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Let's Play a Game",
+   "edhrec": [
+    30.804,
+    0.05674,
+    0.05865,
+    351,
+    5985,
+    0.108,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Lightning Bolt",
+   "edhrec": [
+    1.571,
+    0.06044,
+    0.16625,
+    995,
+    5985,
+    -0.025,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Lightning Greaves",
+   "edhrec": [
+    2.327,
+    0.38646,
+    0.67769,
+    4056,
+    5985,
+    -1.622,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Liliana's Caress",
+   "edhrec": [
+    0.838,
+    -0.0114,
+    0.05881,
+    352,
+    5985,
+    0.013,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Liliana, Waker of the Dead",
+   "edhrec": [
+    18.124,
+    0.06804,
+    0.07201,
+    431,
+    5985,
+    -1.148,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Lithoform Engine",
+   "edhrec": [
+    4.383,
+    0.06758,
+    0.08755,
+    524,
+    5985,
+    -0.776,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Locket of Yesterdays",
+   "edhrec": [
+    56.942,
+    0.05877,
+    0.05982,
+    358,
+    5985,
+    -0.373,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Loyal Subordinate",
+   "edhrec": [
+    37.754,
+    0.61257,
+    0.62924,
+    3766,
+    5985,
+    0.111,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Luxury Suite",
+   "edhrec": [
+    0.777,
+    -0.07256,
+    0.25347,
+    1517,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Maestros Charm",
+   "edhrec": [
+    12.099,
+    0.31038,
+    0.33835,
+    2025,
+    5985,
+    -1.805,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Mana Drain",
+   "edhrec": [
+    0.679,
+    -0.05037,
+    0.10677,
+    639,
+    5985,
+    1.022,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Master of Etherium",
+   "edhrec": [
+    16.914,
+    0.06917,
+    0.07352,
+    440,
+    5985,
+    0.41,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Mechanized Production",
+   "edhrec": [
+    1.937,
+    0.04574,
+    0.09457,
+    566,
+    5985,
+    1.464,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Midnight Crusader Shuttle",
+   "edhrec": [
+    15.56,
+    0.22154,
+    0.23676,
+    1417,
+    5985,
+    -0.574,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Mind Stone",
+   "edhrec": [
+    3.793,
+    0.34697,
+    0.47118,
+    2820,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Missy",
+   "edhrec": [
+    25.727,
+    0.46507,
+    0.48388,
+    2896,
+    5985,
+    -2.29,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Morphic Pool",
+   "edhrec": [
+    0.773,
+    -0.07085,
+    0.2411,
+    1443,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Mountain",
+   "edhrec": [
+    1.06,
+    0.05514,
+    0.97277,
+    5822,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Mystic Forge",
+   "edhrec": [
+    4.272,
+    0.04492,
+    0.05865,
+    351,
+    5985,
+    -0.275,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Mystic Remora",
+   "edhrec": [
+    0.388,
+    -0.09409,
+    0.05965,
+    357,
+    5985,
+    0.648,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Nanogene Conversion",
+   "edhrec": [
+    19.188,
+    0.11181,
+    0.11796,
+    706,
+    5985,
+    -0.802,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Negate",
+   "edhrec": [
+    0.782,
+    -0.04731,
+    0.16942,
+    1014,
+    5985,
+    -1.403,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Neheb, the Eternal",
+   "edhrec": [
+    4.743,
+    0.05077,
+    0.06433,
+    385,
+    5985,
+    -0.533,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Nightscape Familiar",
+   "edhrec": [
+    0.861,
+    -0.0374,
+    0.23074,
+    1381,
+    5985,
+    -1.022,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Ominous Cemetery",
+   "edhrec": [
+    47.674,
+    0.35955,
+    0.36725,
+    2198,
+    5985,
+    -0.952,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Otawara, Soaring City",
+   "edhrec": [
+    0.459,
+    -0.08555,
+    0.07251,
+    434,
+    5985,
+    0.918,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Padeem, Consul of Innovation",
+   "edhrec": [
+    7.432,
+    0.24568,
+    0.28388,
+    1699,
+    5985,
+    0.363,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Pain Magnification",
+   "edhrec": [
+    35.655,
+    0.13755,
+    0.14152,
+    847,
+    5985,
+    -0.429,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Painful Quandary",
+   "edhrec": [
+    3.24,
+    0.07751,
+    0.11211,
+    671,
+    5985,
+    0.432,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Path of Ancestry",
+   "edhrec": [
+    1.793,
+    0.24557,
+    0.55539,
+    3324,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Perforating Artist",
+   "edhrec": [
+    39.912,
+    0.29309,
+    0.30062,
+    1783,
+    5931,
+    0.164,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Phyrexian Arena",
+   "edhrec": [
+    0.788,
+    -0.01867,
+    0.06951,
+    416,
+    5985,
+    0.037,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Phyrexian Scriptures",
+   "edhrec": [
+    13.706,
+    0.06335,
+    0.06834,
+    409,
+    5985,
+    0.576,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Polluted Delta",
+   "edhrec": [
+    0.644,
+    -0.12484,
+    0.2254,
+    1349,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Ponder",
+   "edhrec": [
+    0.663,
+    -0.02808,
+    0.05514,
+    330,
+    5985,
+    -0.239,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Prisoner's Dilemma",
+   "edhrec": [
+    10.406,
+    0.10602,
+    0.11729,
+    702,
+    5985,
+    0.348,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Propaganda",
+   "edhrec": [
+    3.356,
+    0.35963,
+    0.51228,
+    3066,
+    5985,
+    -0.763,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Protection Racket",
+   "edhrec": [
+    5.196,
+    0.04453,
+    0.05514,
+    330,
+    5985,
+    0.733,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Quantum Misalignment",
+   "edhrec": [
+    5.829,
+    0.08956,
+    0.1081,
+    647,
+    5985,
+    0.06,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Rakdos Charm",
+   "edhrec": [
+    1.053,
+    0.00757,
+    0.15121,
+    905,
+    5985,
+    -1.217,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Rakdos Signet",
+   "edhrec": [
+    0.665,
+    -0.10191,
+    0.20217,
+    1210,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Rankle's Prank",
+   "edhrec": [
+    24.627,
+    0.05915,
+    0.06165,
+    369,
+    5985,
+    -0.289,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Rassilon, the War President",
+   "edhrec": [
+    31.903,
+    0.10892,
+    0.11245,
+    673,
+    5985,
+    -0.536,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Reanimate",
+   "edhrec": [
+    0.226,
+    -0.20189,
+    0.05898,
+    353,
+    5985,
+    0.252,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Relic of Sauron",
+   "edhrec": [
+    0.646,
+    -0.06772,
+    0.12348,
+    739,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Reliquary Tower",
+   "edhrec": [
+    2.035,
+    0.35349,
+    0.69507,
+    4160,
+    5985,
+    -1.02,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Renegade Silent",
+   "edhrec": [
+    29.997,
+    0.19608,
+    0.20284,
+    1214,
+    5985,
+    -0.071,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Reverse the Polarity",
+   "edhrec": [
+    6.523,
+    0.05362,
+    0.06332,
+    379,
+    5985,
+    -0.6,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Rhystic Study",
+   "edhrec": [
+    0.631,
+    -0.08202,
+    0.14002,
+    838,
+    5985,
+    -0.02,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "River of Tears",
+   "edhrec": [
+    17.481,
+    0.32151,
+    0.34102,
+    2041,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Roaming Throne",
+   "edhrec": [
+    1.215,
+    0.01887,
+    0.10643,
+    637,
+    5985,
+    -0.196,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Rogue's Passage",
+   "edhrec": [
+    0.484,
+    -0.11335,
+    0.10643,
+    637,
+    5985,
+    0.614,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Ruby Medallion",
+   "edhrec": [
+    3.305,
+    0.03519,
+    0.05046,
+    302,
+    5985,
+    -0.097,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sakashima the Impostor",
+   "edhrec": [
+    4.29,
+    0.05292,
+    0.06901,
+    413,
+    5985,
+    0.221,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Scalding Tarn",
+   "edhrec": [
+    0.666,
+    -0.10791,
+    0.2147,
+    1285,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Scientist Supreme of A.I.M.",
+   "edhrec": [
+    23.668,
+    0.18151,
+    0.18952,
+    282,
+    1488,
+    5.921,
+    "moderate",
+    [
+     "rising"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Seat of the Synod",
+   "edhrec": [
+    2.474,
+    0.08104,
+    0.13601,
+    814,
+    5985,
+    1.109,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Seething Landscape",
+   "edhrec": [
+    0.841,
+    -0.02356,
+    0.12431,
+    744,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Shadowblood Ridge",
+   "edhrec": [
+    5.314,
+    0.40503,
+    0.49891,
+    2986,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Shaun, Father of Synths",
+   "edhrec": [
+    7.036,
+    0.08901,
+    0.10376,
+    621,
+    5985,
+    0.47,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Shipwreck Marsh",
+   "edhrec": [
+    2.936,
+    0.47064,
+    0.71378,
+    4272,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Shivan Reef",
+   "edhrec": [
+    0.643,
+    -0.10684,
+    0.19282,
+    1154,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Shuri, Wakandan Inventor",
+   "edhrec": [
+    15.734,
+    0.1176,
+    0.12558,
+    190,
+    1513,
+    3.891,
+    "moderate",
+    [
+     "rising"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sink into Stupor",
+   "edhrec": [
+    0.555,
+    -0.04405,
+    0.05497,
+    329,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Skorpekh Lord",
+   "edhrec": [
+    26.476,
+    0.09823,
+    0.10209,
+    611,
+    5985,
+    -0.389,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Slagstorm",
+   "edhrec": [
+    33.477,
+    0.07926,
+    0.0817,
+    489,
+    5985,
+    -0.265,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Smoldering Marsh",
+   "edhrec": [
+    1.57,
+    0.21786,
+    0.60033,
+    3593,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Snuff Out",
+   "edhrec": [
+    17.736,
+    0.45833,
+    0.48571,
+    2907,
+    5985,
+    -0.419,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Sol Ring",
+   "edhrec": [
+    1.029,
+    0.0258,
+    0.92297,
+    5524,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Solemn Simulacrum",
+   "edhrec": [
+    4.925,
+    0.41811,
+    0.52464,
+    3140,
+    5985,
+    -2.121,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sonic Screwdriver",
+   "edhrec": [
+    10.927,
+    0.08971,
+    0.09875,
+    591,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sonorous Howlbonder",
+   "edhrec": [
+    66.313,
+    0.07833,
+    0.07953,
+    476,
+    5985,
+    0.596,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sontaran General",
+   "edhrec": [
+    48.923,
+    0.1658,
+    0.16926,
+    1013,
+    5985,
+    -0.534,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Spark Double",
+   "edhrec": [
+    0.992,
+    -0.00071,
+    0.09089,
+    544,
+    5985,
+    0.156,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Steam Vents",
+   "edhrec": [
+    0.672,
+    -0.15159,
+    0.31078,
+    1860,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Steel Overseer",
+   "edhrec": [
+    11.595,
+    0.25726,
+    0.28154,
+    1685,
+    5985,
+    -1.183,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Stormcarved Coast",
+   "edhrec": [
+    2.748,
+    0.46476,
+    0.73066,
+    4373,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Strionic Resonator",
+   "edhrec": [
+    7.476,
+    0.24996,
+    0.28855,
+    1727,
+    5985,
+    -1.005,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Sulfur Falls",
+   "edhrec": [
+    0.494,
+    -0.24636,
+    0.24094,
+    1442,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sulfurous Springs",
+   "edhrec": [
+    0.628,
+    -0.1065,
+    0.17995,
+    1077,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Sunken Hollow",
+   "edhrec": [
+    1.468,
+    0.18753,
+    0.58814,
+    3520,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Suspended Sentence",
+   "edhrec": [
+    4.342,
+    0.0706,
+    0.09173,
+    549,
+    5985,
+    0.274,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Swamp",
+   "edhrec": [
+    1.056,
+    0.05134,
+    0.97477,
+    5834,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Swan Song",
+   "edhrec": [
+    0.53,
+    -0.09472,
+    0.1066,
+    638,
+    5985,
+    1.271,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Swiftfoot Boots",
+   "edhrec": [
+    0.662,
+    -0.09256,
+    0.18095,
+    1083,
+    5985,
+    -0.645,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Sycorax Commander",
+   "edhrec": [
+    22.341,
+    0.37811,
+    0.39582,
+    2369,
+    5985,
+    -2.506,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Sygg, River Cutthroat",
+   "edhrec": [
+    37.037,
+    0.42155,
+    0.43325,
+    2593,
+    5985,
+    -1.716,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Talisman of Creativity",
+   "edhrec": [
+    0.787,
+    -0.09483,
+    0.35021,
+    2096,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Talisman of Dominance",
+   "edhrec": [
+    1.404,
+    0.2044,
+    0.71044,
+    4252,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Talisman of Indulgence",
+   "edhrec": [
+    1.553,
+    0.24809,
+    0.69674,
+    4170,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Tectonic Giant",
+   "edhrec": [
+    33.987,
+    0.17693,
+    0.18229,
+    1091,
+    5985,
+    -0.486,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Temple of Deceit",
+   "edhrec": [
+    3.817,
+    0.32493,
+    0.44027,
+    2635,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Temple of Epiphany",
+   "edhrec": [
+    3.258,
+    0.28983,
+    0.41821,
+    2503,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Temple of Malice",
+   "edhrec": [
+    4.301,
+    0.34061,
+    0.44378,
+    2656,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Temple of the False God",
+   "edhrec": [
+    4.839,
+    0.2724,
+    0.34336,
+    2055,
+    5985,
+    -0.455,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Tergrid, God of Fright",
+   "edhrec": [
+    3.512,
+    0.12991,
+    0.18162,
+    1087,
+    5985,
+    -0.948,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Terminate",
+   "edhrec": [
+    0.446,
+    -0.14461,
+    0.11646,
+    697,
+    5985,
+    -0.388,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Terramorphic Expanse",
+   "edhrec": [
+    2.08,
+    0.20245,
+    0.38997,
+    2334,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Tezzeret, Master of the Bridge",
+   "edhrec": [
+    9.515,
+    0.20829,
+    0.23275,
+    1393,
+    5985,
+    0.012,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "The Beast, Deathless Prince",
+   "edhrec": [
+    7.413,
+    0.07401,
+    0.08555,
+    512,
+    5985,
+    -0.663,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Cyber-Controller",
+   "edhrec": [
+    33.84,
+    0.5333,
+    0.54954,
+    3289,
+    5985,
+    -1.113,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "The Dalek Emperor",
+   "edhrec": [
+    38.985,
+    0.83548,
+    0.85748,
+    5132,
+    5985,
+    -0.272,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "The Flood of Mars",
+   "edhrec": [
+    60.995,
+    0.23649,
+    0.24043,
+    1439,
+    5985,
+    -1.237,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Master, Gallifrey's End",
+   "edhrec": [
+    24.398,
+    0.36486,
+    0.38045,
+    2277,
+    5985,
+    -2.339,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Master, Mesmerist",
+   "edhrec": [
+    23.395,
+    0.14059,
+    0.14687,
+    879,
+    5985,
+    0.394,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Master, Multiplied",
+   "edhrec": [
+    11.922,
+    0.26496,
+    0.28922,
+    1731,
+    5985,
+    -0.7,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Rani",
+   "edhrec": [
+    28.738,
+    0.17046,
+    0.17661,
+    1057,
+    5985,
+    -0.534,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Sound of Drums",
+   "edhrec": [
+    24.818,
+    0.21744,
+    0.22657,
+    1356,
+    5985,
+    -0.097,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Toymaker's Trap",
+   "edhrec": [
+    30.077,
+    0.11889,
+    0.12297,
+    736,
+    5985,
+    0.019,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "The Valeyard",
+   "edhrec": [
+    20.272,
+    0.52688,
+    0.55422,
+    3317,
+    5985,
+    -2.36,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Their Name Is Death",
+   "edhrec": [
+    14.181,
+    0.21587,
+    0.23225,
+    1390,
+    5985,
+    -0.116,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "This Is How It Ends",
+   "edhrec": [
+    24.588,
+    0.57031,
+    0.59449,
+    3558,
+    5985,
+    -2.993,
+    "moderate",
+    [
+     "falling"
+    ]
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Thopter Spy Network",
+   "edhrec": [
+    3.35,
+    0.08333,
+    0.1188,
+    711,
+    5985,
+    0.504,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Thought Vessel",
+   "edhrec": [
+    3.079,
+    0.4354,
+    0.64478,
+    3859,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Thoughtcast",
+   "edhrec": [
+    2.893,
+    0.05248,
+    0.0802,
+    480,
+    5985,
+    0.431,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Thriving Moor",
+   "edhrec": [
+    6.824,
+    0.23144,
+    0.27118,
+    1623,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Thrumming Stone",
+   "edhrec": [
+    20.814,
+    0.05567,
+    0.05848,
+    350,
+    5985,
+    -0.185,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Time Reaper",
+   "edhrec": [
+    60.252,
+    0.09678,
+    0.09841,
+    589,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Torment of Hailfire",
+   "edhrec": [
+    2.224,
+    0.05307,
+    0.09641,
+    577,
+    5985,
+    -0.08,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Toxic Deluge",
+   "edhrec": [
+    0.39,
+    -0.13306,
+    0.08505,
+    509,
+    5985,
+    0.854,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Training Center",
+   "edhrec": [
+    0.805,
+    -0.06086,
+    0.25113,
+    1503,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Truth or Consequences",
+   "edhrec": [
+    17.48,
+    0.12886,
+    0.13668,
+    818,
+    5985,
+    -0.128,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Ultron, Artificial Malevolence",
+   "edhrec": [
+    3.829,
+    0.05842,
+    0.07907,
+    119,
+    1505,
+    1.096,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Underground River",
+   "edhrec": [
+    0.581,
+    -0.12081,
+    0.16742,
+    1002,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Underground Sea",
+   "edhrec": [
+    0.571,
+    -0.06554,
+    0.08739,
+    523,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Unlicensed Disintegration",
+   "edhrec": [
+    43.995,
+    0.28983,
+    0.29657,
+    1775,
+    5985,
+    0.028,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Unwinding Clock",
+   "edhrec": [
+    6.054,
+    0.09332,
+    0.11178,
+    669,
+    5985,
+    0.015,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Urborg, Tomb of Yawgmoth",
+   "edhrec": [
+    0.655,
+    -0.04713,
+    0.08939,
+    535,
+    5985,
+    0.797,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Urza's Saga",
+   "edhrec": [
+    1.082,
+    0.00449,
+    0.05948,
+    356,
+    5985,
+    0.885,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Uthros, Titanic Godcore",
+   "edhrec": [
+    3.529,
+    0.05874,
+    0.08196,
+    339,
+    4136,
+    1.253,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Vampiric Tutor",
+   "edhrec": [
+    0.371,
+    -0.09613,
+    0.05681,
+    340,
+    5985,
+    0.375,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Vandalblast",
+   "edhrec": [
+    0.652,
+    -0.05961,
+    0.11178,
+    669,
+    5985,
+    1.067,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Vashta Nerada",
+   "edhrec": [
+    53.332,
+    0.35266,
+    0.3594,
+    2151,
+    5985,
+    -1.929,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Vault of Whispers",
+   "edhrec": [
+    2.537,
+    0.07835,
+    0.12932,
+    774,
+    5985,
+    0.954,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Vislor Turlough",
+   "edhrec": [
+    27.278,
+    0.07774,
+    0.0807,
+    483,
+    5985,
+    -0.647,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Volcanic Island",
+   "edhrec": [
+    0.577,
+    -0.06451,
+    0.08789,
+    526,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Waste Not",
+   "edhrec": [
+    2.29,
+    0.15775,
+    0.28003,
+    1676,
+    5985,
+    -1.948,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Watery Grave",
+   "edhrec": [
+    0.681,
+    -0.15499,
+    0.33016,
+    1976,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Wayfarer's Bauble",
+   "edhrec": [
+    3.608,
+    0.2483,
+    0.34353,
+    2056,
+    5985,
+    0.429,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Weeping Angel",
+   "edhrec": [
+    38.236,
+    0.44893,
+    0.46099,
+    2759,
+    5985,
+    -1.77,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Will of the Abzan",
+   "edhrec": [
+    7.991,
+    0.0662,
+    0.07566,
+    379,
+    5009,
+    0.821,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Windfall",
+   "edhrec": [
+    0.303,
+    -0.16148,
+    0.07034,
+    421,
+    5985,
+    0.683,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Withering Torment",
+   "edhrec": [
+    0.665,
+    -0.04457,
+    0.08839,
+    529,
+    5985,
+    0.541,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Wound Reflection",
+   "edhrec": [
+    30.131,
+    0.4683,
+    0.48438,
+    2899,
+    5985,
+    -1.771,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Xander's Lounge",
+   "edhrec": [
+    0.852,
+    -0.05802,
+    0.33283,
+    1992,
+    5985,
+    0.0,
+    "moderate",
+    []
+   ],
+   "status": "incumbent"
+  },
+  {
+   "card": "Y'shtola Rhul",
+   "edhrec": [
+    2.054,
+    0.03399,
+    0.06625,
+    307,
+    4634,
+    -0.031,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  },
+  {
+   "card": "Zygon Infiltrator",
+   "edhrec": [
+    61.655,
+    0.17029,
+    0.1731,
+    1036,
+    5985,
+    -0.847,
+    "moderate",
+    []
+   ],
+   "status": "candidate"
+  }
+ ]
+}
