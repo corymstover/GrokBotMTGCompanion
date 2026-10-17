@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parent.parent
@@ -46,28 +47,34 @@ def masks_from_timing(timing,N,include_mdfc=False,field="potential_colors"):
 def one_source_sensitivity(masks,labels,n,requirements):
     """Exact source-presence delta if any one currently useful source is unavailable from the opening deck.
 
-    Absolute delta can be larger in a stronger/redundant mana base simply because its baseline success probability is
-    much higher, so the record also reports delta as a fraction of baseline. Neither quantity is a cut threshold.
+    Sources with the same color mask are mathematically exchangeable in this bounded presence model, so each distinct
+    mask is recomputed once and its delta is assigned to all cards with that mask. This is an exact optimization, not a
+    sampling shortcut. Absolute delta and delta as a fraction of baseline are both retained.
     """
     base=mt.distinct_source_match_probability(masks,n,requirements)
-    rows=[]
+    groups=defaultdict(list)
     for i,m in enumerate(masks):
-        if not m: continue
-        alt=list(masks); alt[i]=""
+        if m: groups[m].append(labels[i] if i<len(labels) else "<source>")
+    rows=[]
+    for mask,names in sorted(groups.items()):
+        alt=list(masks); alt[alt.index(mask)]=""
         p=mt.distinct_source_match_probability(alt,n,requirements)
-        delta=max(0.0,base-p)
-        rows.append((delta,(delta/base if base>0 else 0.0),labels[i] if i<len(labels) else "<source>",m))
+        delta=max(0.0,base-p); rel=(delta/base if base>0 else 0.0)
+        rows.append((delta,rel,names,mask))
+    tested=sum(len(x[2]) for x in rows)
     if not rows:
         return {"baseline":round(base,6),"worst_delta":0.0,"mean_delta":0.0,"worst_relative_delta":0.0,"mean_relative_delta":0.0,"worst_sources":[],"sources_tested":0}
     worst=max(x[0] for x in rows); worst_rel=max(x[1] for x in rows)
+    weighted_abs=sum(x[0]*len(x[2]) for x in rows)/tested
+    weighted_rel=sum(x[1]*len(x[2]) for x in rows)/tested
     return {
         "baseline":round(base,6),
         "worst_delta":round(worst,6),
-        "mean_delta":round(sum(x[0] for x in rows)/len(rows),6),
+        "mean_delta":round(weighted_abs,6),
         "worst_relative_delta":round(worst_rel,6),
-        "mean_relative_delta":round(sum(x[1] for x in rows)/len(rows),6),
-        "worst_sources":sorted({x[2] for x in rows if abs(x[0]-worst)<1e-12}),
-        "sources_tested":len(rows),
+        "mean_relative_delta":round(weighted_rel,6),
+        "worst_sources":sorted({name for x in rows if abs(x[0]-worst)<1e-12 for name in x[2]}),
+        "sources_tested":tested,
     }
 
 
