@@ -1,0 +1,58 @@
+name: Temporary ChatGPT human sampling policy freeze
+
+on:
+  push:
+    branches: [chatgpt-cycle71-1-human-sampling-policy]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle71-1-human-sampling-policy
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Policy regression tests before freeze
+        run: python -m pytest -q tests/test_human_sampling_policy.py
+      - name: Freeze policy against current pre-M6 commit and validate
+        run: |
+          python scripts/grixis_human_sampling_policy.py --freeze --basis-commit "$GITHUB_SHA"
+          python scripts/grixis_human_sampling_policy.py --check
+      - name: Update Step H plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          s=next(x for x in d['steps'] if x['id']=='H'); s['status']='in_progress'; s['batches']=[
+            '71.1 freeze pre-M6 human-sampling policy, seed, quotas, nine strata and future-result formulas with immutable hash record',
+            '71.2 deterministic sampler + static selections + synthetic future-strata execution tests (planned)',
+            '71.3 integration/freeze gate + review-manifest schema (planned)'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 71.1 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='H'); x['batches_done']=1; x['status']='in_progress'; x['note']='1/2.5 batch-equivalents complete: policy/seed/quotas and all nine required strata frozen before M6 outputs, including future optimizer-disagreement and major-change formulas.'
+          tr['batches_done']=40; tr['percent_complete']=64.0
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step H batch 71.1: pre-M6 human-sampling policy freeze'
+          if marker not in t:
+              t += '''\n\n### Step H batch 71.1: pre-M6 human-sampling policy freeze\n\n- `data/grixis/human_sampling_policy.json` freezes the required nine strata before any M6 optimizer output exists: random, anomaly, exception, pending-release, cEDH, low commander dependence, rules-sensitive, high optimizer disagreement and major change.\n- Static strata have fixed quotas/ranking formulas. Exception and pending-release strata select all eligible decks.\n- Future-result strata are frozen now rather than chosen after results: optimizer disagreement is ranked by committed challenger-hash disagreement and swap symmetric difference; major change is triggered/ranked by predeclared win/package/swap/mana-change fields.\n- A deterministic SHA-256 tie-break seed is fixed. Strata may overlap; sampling is a minimum review obligation, never negative evidence about selected decks or a correctness certificate for unselected decks.\n- `human_sampling_freeze.json` records the byte-level policy hash and confirms M6 was not started when frozen. Later mutation requires an explicit superseding version approved by Cory.\n'''
+              md.write_text(t)
+          PY
+      - name: Recheck frozen hash after plan updates
+        run: python scripts/grixis_human_sampling_policy.py --check
+      - name: Commit freeze and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-human-sampling-policy.yml
+          git add data/grixis/human_sampling_freeze.json data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 71.1: freeze pre-M6 human sampling policy [skip ci]"
+          git push
