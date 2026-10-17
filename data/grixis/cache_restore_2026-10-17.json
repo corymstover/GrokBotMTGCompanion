@@ -1,0 +1,37 @@
+{
+ "schema_version": 1,
+ "kind": "cache_restore_audit",
+ "cycle": "ChatGPT/Grok handoff cycle 72.1",
+ "date": "2026-10-17",
+ "git_head": "292af30f197d310a7a9d00d74ea43831e4e1cf92",
+ "status": "hash-verified handoff provenance",
+ "context": "The development machine was restored from an older state; the previous gitignored .cache/ was lost. The frozen historical inputs were reconstructed by exact timestamped artifact and hash verification, then transferred to ChatGPT for reproducible gate execution.",
+ "restored": [
+  {"file": "oracle-cards-20261016090200.jsonl.gz", "sha256": "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483", "verified_against": "data/grixis/dev_snapshot_lock.json", "match": true},
+  {"file": "rulings-20261015090033.jsonl.gz", "sha256": "3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a", "verified_against": "data/grixis/dev_snapshot_lock.json", "match": true},
+  {"file": "default-cards-20261015090541.jsonl.gz", "sha256": "f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8", "verified_against": "data/grixis/dev_snapshot_lock.json", "match": true},
+  {"file": "MagicCompRules-20260925.txt", "sha256": "8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca", "source": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260925.txt", "verification": "Transferred in the handoff core; prior machine checks regenerated Rules Interactions byte-identically and passed grixis_interactions/check_citations."}
+ ],
+ "scryfall_provenance": {
+  "source": "data.scryfall.io exact timestamped filenames",
+  "restored_utc": "2026-10-17T03:29:58Z",
+  "check": "scripts/check_dev_snapshot_lock.py: 3 locked bulk(s), 0 problem(s)",
+  "ruling": "Accepted by Cory as recovery of frozen development snapshot snap-20261016, not refresh."
+ },
+ "handoff_verification": {
+  "core_zip_sha256": "2e93d4dcb4f31282f2034cfc99f23c4e1ec861c3e130e4b4c765a837576cc55c",
+  "bundle_checks": 14,
+  "bundle_errors": 0,
+  "default_cards_transfer": "Transferred as four numbered parts; ChatGPT reassembled them byte-for-byte and verified the reconstructed SHA-256 against dev_snapshot_lock.json. The original core manifest described the unsplit external artifact, so this transfer-layer split is recorded here rather than treated as snapshot drift."
+ },
+ "unresolved_required_inputs": [
+  {"input": ".cache/edhrec/commanders__<slug>.json", "count_with_recorded_hash": 62, "class": "historical EDHREC pages; exact bytes not recovered", "blocks": ["blueprints deterministic rebuild", "grixis-refine deterministic rebuild", "saturation deterministic rebuild", "development-snapshot M5 rebuild"], "does_not_block": ["E", "C", "D", "F"]},
+  {"input": ".cache/edhrec/cards__*.json, .cache/spellbook/card__*.json, .cache/story/extra/*.txt, .cache/story/articles/*.txt", "class": "live-page KB inputs", "blocks": ["card-enrichment rebuild"], "does_not_block": ["E", "C", "D", "F", "M5 decision evidence except card-enrichment KB layer"]}
+ ],
+ "authority": {
+  "can_decide_deck_changes": false,
+  "can_accept_milestones": false,
+  "can_approve_or_lock_decks": false,
+  "note": "This file documents evidence provenance only."
+ }
+}
