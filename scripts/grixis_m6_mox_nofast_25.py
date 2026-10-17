@@ -97,6 +97,7 @@ def records():
             "authority":AUTH,
         }
         out.append(obj)
+        print('checked historical no-fast and corrected Chrome Mox: '+slug, flush=True)
     if len(out)!=25 or len({x["slug"] for x in out})!=25:
         raise ValueError("25 deck audit incomplete")
     return out
