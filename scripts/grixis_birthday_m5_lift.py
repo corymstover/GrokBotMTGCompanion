@@ -1,21 +1,24 @@
 #!/usr/bin/env python3
 """Cycle 74b: current-EDHREC correction for the fresh Birthday M5 runner.
 
-The frozen M5 scorer intentionally remains untouched on its frozen branch.  This
+The frozen M5 scorer intentionally remains untouched on its frozen branch. This
 wrapper changes only the Birthday/current evidence path:
 
 * EDHREC Lift is the current commander-page association metric; retired Synergy
   is not consumed by fresh screening or review evidence.
 * The historical M5 workload calibration is preserved with a Lift-derived
-  association differential: lift_delta = inclusion - inclusion / lift.  This is
+  association differential: lift_delta = inclusion - inclusion / lift. This is
   the same unit as an inclusion-rate difference, is centered at lift=1, and is
-  derived entirely from current Lift + current inclusion.  It is a workload
+  derived entirely from current Lift + current inclusion. It is a workload
   heuristic, never a quality verdict or decision authority.
 * Fresh EDHREC derivative rows keep the legacy `synergy` column position only for
-  schema compatibility and set its value to null.  Raw source bytes remain in
+  schema compatibility and set its value to null. Raw source bytes remain in
   birthday_authority/edhrec_current.json.gz for provenance.
+* Mature candidate-review evidence references are rebound from the frozen M3
+  evidence directory to the fresh Birthday derivative directory.
 * Summary/delta/provenance explicitly record the metric policy and validation
-  fails if a fresh derivative or screening fact leaks a numeric Synergy value.
+  fails if a fresh derivative or screening fact leaks a numeric Synergy value,
+  or if a current candidate review cites the frozen EDHREC evidence path.
 
 This file delegates all authority, saturation, A-F integration, tournament
 convergence, delta, and non-decision invariants to grixis_birthday_m5.py.
@@ -24,13 +27,11 @@ from __future__ import annotations
 
 import gzip
 import json
-import math
-import sys
 from pathlib import Path
 
 import grixis_birthday_m5 as bm
 
-VERSION = 1
+VERSION = 2
 METRIC_POLICY = {
     "current_metric": "lift",
     "retired_metric_used": False,
@@ -41,6 +42,8 @@ METRIC_POLICY = {
 }
 
 _orig_screen = bm.gc.screen
+_orig_full_review = bm.gc.full_review
+_orig_esc_refs = bm.gc.esc_refs
 _orig_build_delta = bm.build_delta
 _orig_build_summary = bm.build_summary
 _orig_semantic_problems = bm.semantic_problems
@@ -93,7 +96,7 @@ def _edh_row_lift(views, method):
         flags.append("falling")
     conf = "low" if set(flags) & {"small_sample", "pooled", "one_page_of_pool"} else "moderate"
     # ge.COLS = lift, synergy, inclusion, num_decks, potential_decks,
-    # trend_zscore, confidence, flags.  The retired field is intentionally null.
+    # trend_zscore, confidence, flags. The retired field is intentionally null.
     return [_r(lift, 3), None, _r(inclusion, 5), n, pd, _r(trend, 3), conf, flags]
 
 
@@ -177,11 +180,35 @@ def screen_lift(D, name, card, src):
     return score, parts, facts
 
 
+def _fresh_ref_prefix(slug):
+    return "evidence:" + bm.rel(bm.EVID / f"{slug}.json")
+
+
+def _rewrite_ref(x, slug):
+    old = f"evidence:data/grixis/evidence/{slug}.json"
+    new = _fresh_ref_prefix(slug)
+    if isinstance(x, str):
+        return x.replace(old, new)
+    if isinstance(x, list):
+        return [_rewrite_ref(v, slug) for v in x]
+    if isinstance(x, tuple):
+        return tuple(_rewrite_ref(v, slug) for v in x)
+    if isinstance(x, dict):
+        return {k: _rewrite_ref(v, slug) for k, v in x.items()}
+    return x
+
+
+def full_review_lift(D, n, c, sc, parts, facts, R):
+    rv, cut, items, alt = _orig_full_review(D, n, c, sc, parts, facts, R)
+    return _rewrite_ref(rv, D.slug), cut, _rewrite_ref(items, D.slug), alt
+
+
+def esc_refs_lift(D, n, reasons, facts):
+    return _rewrite_ref(_orig_esc_refs(D, n, reasons, facts), D.slug)
+
+
 def integrate_doc_lift(doc, af, m):
     doc = _orig_integrate_doc(doc, af, m)
-    # Existing candidate schema already carries screening facts/rules.  Keep the
-    # metric declaration inside the existing snapshot object rather than adding a
-    # second authority surface.
     doc["snapshot"]["edhrec_current_metric"] = "lift"
     doc["snapshot"]["edhrec_retired_synergy_used"] = False
     doc["generated_by"] = f"scripts/grixis_birthday_m5_lift.py v{VERSION} -> " + doc["generated_by"]
@@ -226,6 +253,11 @@ def semantic_problems_lift(m):
             if row and row[si] is not None:
                 probs.append(f"{p.name}/{v.get('card')}: retired Synergy leaked into fresh derivative")
                 break
+    for p in sorted(bm.CANDS.glob("*.json.gz")):
+        slug = p.name[:-8]
+        raw = gzip.decompress(p.read_bytes()).decode("utf-8")
+        if f"evidence:data/grixis/evidence/{slug}.json" in raw:
+            probs.append(f"{p.name}: current candidate review cites frozen EDHREC evidence")
     for p in sorted(bm.REGEN.glob("*.json.gz")):
         d = json.loads(gzip.decompress(p.read_bytes()).decode("utf-8"))
         if d.get("snapshot", {}).get("edhrec_current_metric") != "lift" or d.get("snapshot", {}).get("edhrec_retired_synergy_used") is not False:
@@ -249,6 +281,8 @@ def semantic_problems_lift(m):
 def install():
     bm.prepare_evidence = prepare_evidence_lift
     bm.gc.screen = screen_lift
+    bm.gc.full_review = full_review_lift
+    bm.gc.esc_refs = esc_refs_lift
     bm.integrate_doc = integrate_doc_lift
     bm.build_delta = build_delta_lift
     bm.build_summary = build_summary_lift
