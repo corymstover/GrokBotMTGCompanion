@@ -1,0 +1,27 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "families": [],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/lynde-cheerful-tormentor.json",
+  "combo_quality": "data/grixis/combo_quality/lynde-cheerful-tormentor.json",
+  "power_core": "data/grixis/power_core/lynde-cheerful-tormentor.json"
+ },
+ "schema_version": 1,
+ "slug": "lynde-cheerful-tormentor",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 0,
+  "largest_family_line_count": 0,
+  "line_count": 0,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 0
+ }
+}

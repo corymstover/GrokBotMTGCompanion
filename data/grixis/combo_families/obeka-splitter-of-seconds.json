@@ -1,0 +1,116 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+ "deck_id": "Obeka__Splitter_of_Seconds",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1469-1558-5471",
+    "1558-5085-5471",
+    "1558-5471-7348",
+    "1558-5471-7651",
+    "2047-5471"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/obeka-splitter-of-seconds.json#1469-1558-5471",
+    "combo_quality:data/grixis/combo_quality/obeka-splitter-of-seconds.json#1558-5085-5471",
+    "combo_quality:data/grixis/combo_quality/obeka-splitter-of-seconds.json#1558-5471-7348",
+    "combo_quality:data/grixis/combo_quality/obeka-splitter-of-seconds.json#1558-5471-7651",
+    "combo_quality:data/grixis/combo_quality/obeka-splitter-of-seconds.json#2047-5471",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-splitter-of-seconds.json#1469-1558-5471",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-splitter-of-seconds.json#1558-5085-5471",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-splitter-of-seconds.json#1558-5471-7348",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-splitter-of-seconds.json#1558-5471-7651",
+    "combo_line_semantics:data/grixis/combo_line_semantics/obeka-splitter-of-seconds.json#2047-5471"
+   ],
+   "family_id": "obeka-splitter-of-seconds:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 4,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 5,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "other_infinite": 4
+    },
+    "external_payoff_or_enabler_line_count": 4,
+    "infinite_line_count": 4,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 4,
+     "noninfinite_combo_requires_judgment": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_native_combo": 5
+    }
+   },
+   "line_count": 5,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Court of Vantress",
+     "Mechanized Production",
+     "Replicating Ring",
+     "Smaug the Magnificent",
+     "Thopter Spy Network",
+     "Time Sieve"
+    ],
+    "common_to_every_line": [
+     "Obeka, Splitter of Seconds"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 2,
+    "union": [
+     "Court of Vantress",
+     "Mechanized Production",
+     "Obeka, Splitter of Seconds",
+     "Replicating Ring",
+     "Smaug the Magnificent",
+     "Thopter Spy Network",
+     "Time Sieve"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/obeka-splitter-of-seconds.json",
+  "combo_quality": "data/grixis/combo_quality/obeka-splitter-of-seconds.json",
+  "power_core": "data/grixis/power_core/obeka-splitter-of-seconds.json"
+ },
+ "schema_version": 1,
+ "slug": "obeka-splitter-of-seconds",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 1,
+  "largest_family_line_count": 5,
+  "line_count": 5,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 0,
+  "singleton_family_count": 0
+ }
+}

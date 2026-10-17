@@ -1,0 +1,310 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+ "deck_id": "Mairsil__the_Pretender",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Anger"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1050-4068-4439-5112"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/mairsil-the-pretender.json#1050-4068-4439-5112",
+    "combo_line_semantics:data/grixis/combo_line_semantics/mairsil-the-pretender.json#1050-4068-4439-5112"
+   ],
+   "family_id": "mairsil-the-pretender:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 1,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {},
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 0,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_native_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Aetherling",
+     "Anger",
+     "Mairsil, the Pretender",
+     "Nevinyrral's Disk"
+    ],
+    "max_piece_count": 4,
+    "min_piece_count": 4,
+    "union": [
+     "Aetherling",
+     "Anger",
+     "Mairsil, the Pretender",
+     "Nevinyrral's Disk"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "low_independent_signal_piece_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1369-2645-5112-5116",
+    "1369-3995-5112-5116",
+    "1369-5112-5116-5137"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/mairsil-the-pretender.json#1369-2645-5112-5116",
+    "combo_quality:data/grixis/combo_quality/mairsil-the-pretender.json#1369-3995-5112-5116",
+    "combo_quality:data/grixis/combo_quality/mairsil-the-pretender.json#1369-5112-5116-5137",
+    "combo_line_semantics:data/grixis/combo_line_semantics/mairsil-the-pretender.json#1369-2645-5112-5116",
+    "combo_line_semantics:data/grixis/combo_line_semantics/mairsil-the-pretender.json#1369-3995-5112-5116",
+    "combo_line_semantics:data/grixis/combo_line_semantics/mairsil-the-pretender.json#1369-5112-5116-5137"
+   ],
+   "family_id": "mairsil-the-pretender:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 3,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 3,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "draw": 1,
+     "mana": 3,
+     "untap": 1
+    },
+    "external_payoff_or_enabler_line_count": 3,
+    "infinite_line_count": 3,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 3
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_native_combo": 3
+    }
+   },
+   "line_count": 3,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Horseshoe Crab",
+     "Morphling",
+     "Staff of Domination"
+    ],
+    "common_to_every_line": [
+     "Gilded Lotus",
+     "Mairsil, the Pretender",
+     "Quicksilver Elemental"
+    ],
+    "max_piece_count": 4,
+    "min_piece_count": 4,
+    "union": [
+     "Gilded Lotus",
+     "Horseshoe Crab",
+     "Mairsil, the Pretender",
+     "Morphling",
+     "Quicksilver Elemental",
+     "Staff of Domination"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "2615-4449-5112"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/mairsil-the-pretender.json#2615-4449-5112",
+    "combo_line_semantics:data/grixis/combo_line_semantics/mairsil-the-pretender.json#2615-4449-5112"
+   ],
+   "family_id": "mairsil-the-pretender:family:003",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 1,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {},
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 0,
+    "max_stack_action_proxy": 2,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_native_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Hateflayer",
+     "Mairsil, the Pretender",
+     "Tree of Perdition"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Hateflayer",
+     "Mairsil, the Pretender",
+     "Tree of Perdition"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": []
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 1,
+    "low_independent_signal_pieces": [
+     "Rings of Brighthearth"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "4091-4235-5116"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/mairsil-the-pretender.json#4091-4235-5116",
+    "combo_line_semantics:data/grixis/combo_line_semantics/mairsil-the-pretender.json#4091-4235-5116"
+   ],
+   "family_id": "mairsil-the-pretender:family:004",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "mana": 1,
+     "untap": 1
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 4,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 1,
+    "structural_hints": {
+     "commander_independent_power_package": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Aphetto Alchemist",
+     "Gilded Lotus",
+     "Rings of Brighthearth"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Aphetto Alchemist",
+     "Gilded Lotus",
+     "Rings of Brighthearth"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/mairsil-the-pretender.json",
+  "combo_quality": "data/grixis/combo_quality/mairsil-the-pretender.json",
+  "power_core": "data/grixis/power_core/mairsil-the-pretender.json"
+ },
+ "schema_version": 1,
+ "slug": "mairsil-the-pretender",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 1,
+  "family_count": 4,
+  "largest_family_line_count": 3,
+  "line_count": 6,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 1,
+  "singleton_family_count": 3
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "families": [],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/admiral-brass-unsinkable.json",
+  "combo_quality": "data/grixis/combo_quality/admiral-brass-unsinkable.json",
+  "power_core": "data/grixis/power_core/admiral-brass-unsinkable.json"
+ },
+ "schema_version": 1,
+ "slug": "admiral-brass-unsinkable",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 0,
+  "largest_family_line_count": 0,
+  "line_count": 0,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 0
+ }
+}

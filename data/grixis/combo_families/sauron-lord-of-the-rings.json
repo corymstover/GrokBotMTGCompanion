@@ -1,0 +1,27 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+ "deck_id": "Sauron__Lord_of_the_Rings",
+ "families": [],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/sauron-lord-of-the-rings.json",
+  "combo_quality": "data/grixis/combo_quality/sauron-lord-of-the-rings.json",
+  "power_core": "data/grixis/power_core/sauron-lord-of-the-rings.json"
+ },
+ "schema_version": 1,
+ "slug": "sauron-lord-of-the-rings",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 0,
+  "largest_family_line_count": 0,
+  "line_count": 0,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 0
+ }
+}

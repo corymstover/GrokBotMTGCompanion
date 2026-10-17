@@ -1,0 +1,108 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+ "deck_id": "Sol_kanar_the_Tainted",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "2770-6676",
+    "3090-6676",
+    "3769-6676",
+    "6676-6922"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/solkanar-the-tainted.json#2770-6676",
+    "combo_quality:data/grixis/combo_quality/solkanar-the-tainted.json#3090-6676",
+    "combo_quality:data/grixis/combo_quality/solkanar-the-tainted.json#3769-6676",
+    "combo_quality:data/grixis/combo_quality/solkanar-the-tainted.json#6676-6922",
+    "combo_line_semantics:data/grixis/combo_line_semantics/solkanar-the-tainted.json#2770-6676",
+    "combo_line_semantics:data/grixis/combo_line_semantics/solkanar-the-tainted.json#3090-6676",
+    "combo_line_semantics:data/grixis/combo_line_semantics/solkanar-the-tainted.json#3769-6676",
+    "combo_line_semantics:data/grixis/combo_line_semantics/solkanar-the-tainted.json#6676-6922"
+   ],
+   "family_id": "solkanar-the-tainted:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 4,
+    "declared_mana_line_count": 3,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {},
+    "external_payoff_or_enabler_line_count": 4,
+    "infinite_line_count": 0,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 4
+    },
+    "power_core_review_line_count": 4,
+    "structural_hints": {
+     "commander_independent_power_package": 4
+    }
+   },
+   "line_count": 4,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Blim, Comedic Genius",
+     "Coveted Falcon",
+     "Donate",
+     "Harmless Offering"
+    ],
+    "common_to_every_line": [
+     "Demonic Pact"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Blim, Comedic Genius",
+     "Coveted Falcon",
+     "Demonic Pact",
+     "Donate",
+     "Harmless Offering"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "external_payoff_or_enabler_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/solkanar-the-tainted.json",
+  "combo_quality": "data/grixis/combo_quality/solkanar-the-tainted.json",
+  "power_core": "data/grixis/power_core/solkanar-the-tainted.json"
+ },
+ "schema_version": 1,
+ "slug": "solkanar-the-tainted",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 1,
+  "family_count": 1,
+  "largest_family_line_count": 4,
+  "line_count": 4,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 1,
+  "singleton_family_count": 0
+ }
+}

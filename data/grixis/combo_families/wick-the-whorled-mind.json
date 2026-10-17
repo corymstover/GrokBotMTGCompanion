@@ -1,0 +1,211 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+ "deck_id": "Wick__the_Whorled_Mind",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "1636-3126"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#1636-3126",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#1636-3126"
+   ],
+   "family_id": "wick-the-whorled-mind:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "mana": 1,
+     "tokens": 1,
+     "untap": 1
+    },
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 2,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Intruder Alarm",
+     "Marrow-Gnawer"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Intruder Alarm",
+     "Marrow-Gnawer"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "2034-5853-5929",
+    "2292-5853-5929",
+    "2438-5853-5929",
+    "4050-5853-5929",
+    "5147-5853-5929",
+    "5256-5853-5929",
+    "803-2034-5853",
+    "803-2292-5853",
+    "803-2438-5853",
+    "803-4050-5853",
+    "803-5147-5853",
+    "803-5256-5853"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#2034-5853-5929",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#2292-5853-5929",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#2438-5853-5929",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#4050-5853-5929",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#5147-5853-5929",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#5256-5853-5929",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#803-2034-5853",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#803-2292-5853",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#803-2438-5853",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#803-4050-5853",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#803-5147-5853",
+    "combo_quality:data/grixis/combo_quality/wick-the-whorled-mind.json#803-5256-5853",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#2034-5853-5929",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#2292-5853-5929",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#2438-5853-5929",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#4050-5853-5929",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#5147-5853-5929",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#5256-5853-5929",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#803-2034-5853",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#803-2292-5853",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#803-2438-5853",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#803-4050-5853",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#803-5147-5853",
+    "combo_line_semantics:data/grixis/combo_line_semantics/wick-the-whorled-mind.json#803-5256-5853"
+   ],
+   "family_id": "wick-the-whorled-mind:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 12,
+    "declared_mana_line_count": 12,
+    "direct_commander_piece_line_count": 12,
+    "direct_endpoint_hint_line_count": 6,
+    "endpoint_hints": {
+     "damage": 4,
+     "draw": 2,
+     "etb_ltb_death": 12,
+     "mana": 4,
+     "mill": 2
+    },
+    "external_payoff_or_enabler_line_count": 12,
+    "infinite_line_count": 12,
+    "max_stack_action_proxy": 6,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 12
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_native_combo": 12
+    }
+   },
+   "line_count": 12,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Altar of Dementia",
+     "Arcane Adaptation",
+     "Ashnod's Altar",
+     "Carrion Feeder",
+     "Goblin Bombardment",
+     "Leyline of Transformation",
+     "Phyrexian Altar",
+     "Viscera Seer"
+    ],
+    "common_to_every_line": [
+     "Wick, the Whorled Mind"
+    ],
+    "max_piece_count": 3,
+    "min_piece_count": 3,
+    "union": [
+     "Altar of Dementia",
+     "Arcane Adaptation",
+     "Ashnod's Altar",
+     "Carrion Feeder",
+     "Goblin Bombardment",
+     "Leyline of Transformation",
+     "Phyrexian Altar",
+     "Viscera Seer",
+     "Wick, the Whorled Mind"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/wick-the-whorled-mind.json",
+  "combo_quality": "data/grixis/combo_quality/wick-the-whorled-mind.json",
+  "power_core": "data/grixis/power_core/wick-the-whorled-mind.json"
+ },
+ "schema_version": 1,
+ "slug": "wick-the-whorled-mind",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 2,
+  "largest_family_line_count": 12,
+  "line_count": 13,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 0,
+  "singleton_family_count": 1
+ }
+}

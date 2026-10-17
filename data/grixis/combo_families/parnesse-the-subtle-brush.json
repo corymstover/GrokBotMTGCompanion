@@ -1,0 +1,267 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+ "deck_id": "Parnesse__the_Subtle_Brush",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 2,
+    "low_independent_signal_pieces": [
+     "Prismari, the Inspiration",
+     "Thousand-Year Storm"
+    ],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "11-1484-2196",
+    "11-2492-5195",
+    "11-2539",
+    "11-3368",
+    "11-3584-5195",
+    "11-4285",
+    "11-5026",
+    "11-5940",
+    "1484-2196-3368",
+    "1878-3368",
+    "2091-3368",
+    "3368-3584",
+    "3368-5959",
+    "3368-6790",
+    "3368-7683",
+    "4285-5959",
+    "4285-6790",
+    "4285-7683",
+    "5026-5959",
+    "5026-6790",
+    "5026-7683",
+    "5940-5959",
+    "5940-6790",
+    "5940-7683"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-1484-2196",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-2492-5195",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-2539",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-3368",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-3584-5195",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-4285",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-5026",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#11-5940",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#1484-2196-3368",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#1878-3368",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#2091-3368",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#3368-3584",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#3368-5959",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#3368-6790",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#3368-7683",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#4285-5959",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#4285-6790",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#4285-7683",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#5026-5959",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#5026-6790",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#5026-7683",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#5940-5959",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#5940-6790",
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#5940-7683",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-1484-2196",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-2492-5195",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-2539",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-3368",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-3584-5195",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-4285",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-5026",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#11-5940",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#1484-2196-3368",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#1878-3368",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#2091-3368",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#3368-3584",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#3368-5959",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#3368-6790",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#3368-7683",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#4285-5959",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#4285-6790",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#4285-7683",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#5026-5959",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#5026-6790",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#5026-7683",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#5940-5959",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#5940-6790",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#5940-7683"
+   ],
+   "family_id": "parnesse-the-subtle-brush:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 24,
+    "declared_mana_line_count": 23,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 1,
+    "endpoint_hints": {
+     "draw": 2,
+     "etb_ltb_death": 2,
+     "mana": 5,
+     "mill": 1,
+     "storm": 24,
+     "tokens": 2
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 24,
+    "max_stack_action_proxy": 26,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 24
+    },
+    "power_core_review_line_count": 24,
+    "structural_hints": {
+     "commander_independent_power_package": 24
+    }
+   },
+   "line_count": 24,
+   "pieces": {
+    "alternative_or_bridge_pieces": [
+     "Alania, Divergent Storm",
+     "Bonus Round",
+     "Frantic Search",
+     "Increasing Vengeance",
+     "Jeska's Will",
+     "Mana Geyser",
+     "Narset's Reversal",
+     "Primal Amulet // Primal Wellspring",
+     "Prismari, the Inspiration",
+     "Pyromancer's Goggles",
+     "Reiterate",
+     "Return the Favor",
+     "Reverberate",
+     "Storm-Kiln Artist",
+     "Thousand-Year Storm",
+     "Twinning Staff"
+    ],
+    "common_to_every_line": [],
+    "max_piece_count": 3,
+    "min_piece_count": 2,
+    "union": [
+     "Alania, Divergent Storm",
+     "Bonus Round",
+     "Frantic Search",
+     "Increasing Vengeance",
+     "Jeska's Will",
+     "Mana Geyser",
+     "Narset's Reversal",
+     "Primal Amulet // Primal Wellspring",
+     "Prismari, the Inspiration",
+     "Pyromancer's Goggles",
+     "Reiterate",
+     "Return the Favor",
+     "Reverberate",
+     "Storm-Kiln Artist",
+     "Thousand-Year Storm",
+     "Twinning Staff"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "direct_damage_life_loss_or_mill_endpoint_hint_present",
+    "low_independent_signal_piece_present",
+    "power_core_review_candidate_present"
+   ]
+  },
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "147-1883"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/parnesse-the-subtle-brush.json#147-1883",
+    "combo_line_semantics:data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json#147-1883"
+   ],
+   "family_id": "parnesse-the-subtle-brush:family:002",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 1,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "etb_ltb_death": 1,
+     "storm": 1,
+     "tokens": 1
+    },
+    "external_payoff_or_enabler_line_count": 0,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 4,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_designated_win_line": 1
+    },
+    "power_core_review_line_count": 1,
+    "structural_hints": {
+     "commander_independent_power_package": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Dualcaster Mage",
+     "Replication Technique"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Dualcaster Mage",
+     "Replication Technique"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "commander_independent_power_package_present",
+    "power_core_review_candidate_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/parnesse-the-subtle-brush.json",
+  "combo_quality": "data/grixis/combo_quality/parnesse-the-subtle-brush.json",
+  "power_core": "data/grixis/power_core/parnesse-the-subtle-brush.json"
+ },
+ "schema_version": 1,
+ "slug": "parnesse-the-subtle-brush",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 2,
+  "family_count": 2,
+  "largest_family_line_count": 24,
+  "line_count": 25,
+  "multi_line_family_count": 1,
+  "power_core_family_count": 2,
+  "singleton_family_count": 1
+ }
+}

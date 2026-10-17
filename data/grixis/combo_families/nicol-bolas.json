@@ -1,0 +1,92 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+ "deck_id": "Nicol_Bolas",
+ "families": [
+  {
+   "authority": {
+    "can_decide": false,
+    "classification_status": "unresolved_requires_judgment",
+    "note": "Family synthesis organizes redundancy evidence only; it cannot retain/cut a package or assign final combo priority."
+   },
+   "burden_signals": {
+    "count": 0,
+    "low_independent_signal_pieces": [],
+    "note": "Structural review signal only; this is not a claim that any piece is literally dead."
+   },
+   "combo_ids": [
+    "900-3750"
+   ],
+   "evidence": [
+    "combo_quality:data/grixis/combo_quality/nicol-bolas.json#900-3750",
+    "combo_line_semantics:data/grixis/combo_line_semantics/nicol-bolas.json#900-3750"
+   ],
+   "family_id": "nicol-bolas:family:001",
+   "line_characteristics": {
+    "blueprint_win_linked_count": 1,
+    "declared_mana_line_count": 0,
+    "direct_commander_piece_line_count": 0,
+    "direct_endpoint_hint_line_count": 0,
+    "endpoint_hints": {
+     "other_infinite": 1
+    },
+    "external_payoff_or_enabler_line_count": 1,
+    "infinite_line_count": 1,
+    "max_stack_action_proxy": 3,
+    "missing_step_semantics_line_count": 0,
+    "outcome_hints": {
+     "blueprint_win_requires_external_payoff": 1
+    },
+    "power_core_review_line_count": 0,
+    "structural_hints": {
+     "commander_supported_combo": 1
+    }
+   },
+   "line_count": 1,
+   "pieces": {
+    "alternative_or_bridge_pieces": [],
+    "common_to_every_line": [
+     "Aggravated Assault",
+     "Sword of Feast and Famine"
+    ],
+    "max_piece_count": 2,
+    "min_piece_count": 2,
+    "union": [
+     "Aggravated Assault",
+     "Sword of Feast and Famine"
+    ]
+   },
+   "relation": {
+    "confidence": "high",
+    "evidence_class": "derived_metric",
+    "kind": "connected_component_of_near_variant_lines",
+    "rule": "edge when two lines share at least min(piece_count)-1 pieces, minimum overlap 1",
+    "transitive_component_warning": true
+   },
+   "review_flags": [
+    "external_payoff_or_enabler_present"
+   ]
+  }
+ ],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/nicol-bolas.json",
+  "combo_quality": "data/grixis/combo_quality/nicol-bolas.json",
+  "power_core": "data/grixis/power_core/nicol-bolas.json"
+ },
+ "schema_version": 1,
+ "slug": "nicol-bolas",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 1,
+  "largest_family_line_count": 1,
+  "line_count": 1,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 1
+ }
+}

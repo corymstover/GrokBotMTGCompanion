@@ -1,0 +1,27 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Step B redundancy/package evidence only. No family is automatically a primary, secondary, backup, incidental or removable combo package."
+ },
+ "canonical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+ "deck_id": "Edea__Possessed_Sorceress",
+ "families": [],
+ "generated_by": "scripts/grixis_combo_families.py v1",
+ "inputs": {
+  "combo_line_semantics": "data/grixis/combo_line_semantics/edea-possessed-sorceress.json",
+  "combo_quality": "data/grixis/combo_quality/edea-possessed-sorceress.json",
+  "power_core": "data/grixis/power_core/edea-possessed-sorceress.json"
+ },
+ "schema_version": 1,
+ "slug": "edea-possessed-sorceress",
+ "status": "provisional_evidence",
+ "summary": {
+  "commander_independent_family_count": 0,
+  "family_count": 0,
+  "largest_family_line_count": 0,
+  "line_count": 0,
+  "multi_line_family_count": 0,
+  "power_core_family_count": 0,
+  "singleton_family_count": 0
+ }
+}
