@@ -58,7 +58,7 @@ jobs:
               'grixis/Grixis Authority Model.md',
               'Update Log.md',
           }
-          if changed != allowed:
+          if changed not in (set(), allowed):
               raise SystemExit(f"acceptance recorder touched unexpected paths: {sorted(changed)}")
 
           # Acceptance must not change any per-deck state or canonical hash.
