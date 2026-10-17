@@ -26,12 +26,34 @@ jobs:
           python scripts/grixis_mana_timing.py --build
           python scripts/grixis_mana_timing.py --check
           python scripts/grixis_mana_timing.py --summary
-      - name: Commit generated timing evidence
+      - name: Update Step C plan and Birthday tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          by={x['id']:x for x in d['steps']}
+          c=by['C']; c['status']='in_progress'; c['started']='ChatGPT cycle 68.1'
+          c['completed_batches']=[
+            '68.1 static mana/pip/source baseline across all 62 canonical decks',
+            '68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness'
+          ]
+          c['artifacts']=['data/grixis/mana_base/','data/grixis/mana_timing/']
+          c['next']='68.3 commander casting + commander-tax recovery / fast-mana sequencing; later utility/MDFC opportunity cost and candidate-level mana-base optimizer.'
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 68.2 (2026-10-16)'
+          st={x['id']:x for x in tr['stages']}; st['C']['batches_done']=2; st['C']['status']='in_progress'; st['C']['note']='2/6 batch-equivalents complete: 68.1 static baseline, 68.2 timing/reliability/fetch validation.'
+          tr['batches_done']=sum(float(x['batches_done']) for x in tr['stages'])
+          tr['total_estimated_batches']=sum(float(x['estimated_batches']) for x in tr['stages'])
+          tr['percent_complete']=round(100*tr['batches_done']/tr['total_estimated_batches'],1)
+          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n')
+          print('Birthday Launch',tr['batches_done'],'/',tr['total_estimated_batches'],'=',tr['percent_complete'],'%')
+          PY
+      - name: Commit generated timing evidence and plan state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/grixis/mana_timing
+          git add data/grixis/mana_timing data/grixis/upgrade_plan.json
           if ! git diff --cached --quiet; then
-            git commit -m "ChatGPT cycle 68.2: generate 62 mana timing records [skip ci]"
+            git commit -m "ChatGPT cycle 68.2: record mana timing evidence and tracker state [skip ci]"
             git push
           fi
