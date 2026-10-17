@@ -1,0 +1,87 @@
+{
+ "after": {
+  "available_dimensions": [
+   "land/MDFC counts",
+   "colored pip demand",
+   "source-color inventory",
+   "distinct-source matching",
+   "conditional/unconditional/untapped-capable timing",
+   "fetch/typed-land target topology",
+   "utility-land burden and Commander-first support",
+   "MDFC option value",
+   "land-drop/source-access failure complements",
+   "one-source-unavailable structural sensitivity"
+  ],
+  "model": "Step C batches 68.1/68.2/68.4/68.5 plus 68.3 code pending local-cache output",
+  "pending": [
+   "68.3 actual commander casting, fast-mana delta and tax-recovery records require the frozen local Scryfall cache before Step C can be fully closed."
+  ]
+ },
+ "authority": {
+  "can_decide": false,
+  "note": "This proof demonstrates added decision resolution only; it cannot decide a mana-base swap."
+ },
+ "before": {
+  "limitations": [
+   "No dedicated exact colored-source matching by turn.",
+   "No strict-land vs MDFC optional land-drop separation.",
+   "No fetch-target topology validation against actual typed lands.",
+   "No separate utility-land burden/support vector.",
+   "No one-source-unavailable structural sensitivity.",
+   "No dedicated commander cast/tax recovery layer."
+  ],
+  "model": "pre-Step-C general audit/candidate evidence"
+ },
+ "conclusion": "Step C now resolves timing, MDFC optionality, fetch topology, utility-land tradeoffs and source fragility that static mana counts could not, while making zero automatic land-swap decisions; commander casting/tax evidence remains a declared local-cache closure item.",
+ "evidence_class": "derived_metric",
+ "limitations": [
+  "This is a stated before/after capability comparison on real project decks, not blind benchmark accuracy.",
+  "No-mulligan presence and land-drop values are bounded resource-access proxies, not real-game loss or cast probabilities.",
+  "Conditional sources, sequencing, multiplayer interaction and strategic value still require later evidence/judgment.",
+  "68.3 commander casting/tax recovery remains explicitly pending local frozen-cache generation and validation.",
+  "No Step C artifact may by itself approve, cut, add or lock a card."
+ ],
+ "measured_deltas": {
+  "automatic_land_swap_decisions": 0,
+  "mana_base_decks": 62,
+  "mana_opportunity_decks": 62,
+  "mana_resilience_decks": 62,
+  "mana_timing_decks": 62
+ },
+ "schema_version": 1,
+ "status": "demonstrated_decision_quality_gain",
+ "worked_examples": [
+  {
+   "after": "By turn 2, Step C records potential UBR match 0.564348, unconditional UBR match 0.53466, and untapped-capable UBR match 0.53466 as separate exact no-mulligan presence proxies.",
+   "before": "Static source counts could say a land can make a color but could not separate conditional availability or untapped-capable timing in a distinct-source assignment.",
+   "kind": "timing_and_condition_distinction",
+   "slug": "abaddon-the-despoiler",
+   "why_it_matters": "A nominal colored-source count can otherwise overstate what is available under its own condition or timing burden."
+  },
+  {
+   "after": "At turn 2, the same deck has strict-land-drop probability 0.882395 and flex-land/MDFC probability 0.894597; the MDFC stays an optional layer rather than silently inflating strict land count.",
+   "before": "Treating an MDFC as simply a land or simply a spell loses the option-value tradeoff.",
+   "cards": [
+    "Brass's Tunnel-Grinder // Tecutlan, the Searing Rift"
+   ],
+   "kind": "mdfc_optionality",
+   "slug": "admiral-brass-unsinkable",
+   "why_it_matters": "Candidate review can see the resource benefit of the land face without pretending the spell slot has no opportunity cost."
+  },
+  {
+   "after": "Step C records burdens ['single_color_source'] and Commander-first/support signals ['nonmana_utility_text'] separately for Otawara, Soaring City, with `can_decide: false`.",
+   "before": "A generic utility-land heuristic can flag color/tapped burden or strategic text but has no reason to preserve the two dimensions separately.",
+   "card": "Otawara, Soaring City",
+   "kind": "utility_land_burden_vs_support",
+   "slug": "abaddon-the-despoiler",
+   "why_it_matters": "A land can be structurally expensive and strategically important at the same time; later judgment must compare both instead of auto-cutting it."
+  },
+  {
+   "after": "Step C records bounded fetch/source resilience evidence for this real deck: {'actual_target_colors': 'UBR', 'all_supported_colors_have_redundant_targets': False, 'card': 'Fabled Passage', 'colors_with_only_one_target': {'B': ['Swamp'], 'R': ['Mountain']}, 'single_target': False, 'target_count': 4}.",
+   "before": "Raw source totals and fetch counts do not expose single-target color points or the marginal loss from one source becoming unavailable.",
+   "kind": "source_resilience",
+   "slug": "bjorna-nightfall-alchemist-cecily",
+   "why_it_matters": "This identifies structural fragility without inventing opponent-removal frequency or a universal mana-quality score."
+  }
+ ]
+}

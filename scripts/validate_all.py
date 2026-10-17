@@ -215,6 +215,7 @@ def main(argv):
              ("combo-line-semantics", ["scripts/grixis_combo_steps_quality.py", "--check"]),  # Step B: cached Spellbook line evidence
              ("combo-families", ["scripts/grixis_combo_families.py", "--check"]),  # Step B: near-variant redundancy networks
              ("combo-quality-gain", ["scripts/grixis_combo_quality_gain.py", "--check"]),  # Step B acceptance criterion 9
+             ("mana-step", ["scripts/grixis_mana_step.py", "--check"]),  # Step C: cache-independent layers + explicit 68.3 pending/validated closure
              ("unit-tests", ["scripts/run_tests.py"]),  # Bot cycle 47 (M0): tests/ (hashes, states, approvals, legality vs authorization, schemas)
              ("freshness", None)]
     results = []

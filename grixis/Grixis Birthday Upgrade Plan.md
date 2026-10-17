@@ -391,3 +391,11 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - Records fetch-target redundancy and single-color target points, plus demand/source context. No universal mana-quality score or automatic land cut is produced.
 - All 62 deck records validate against `mana_resilience.schema.json`; focused regression tests pass. The development snapshot metadata is unchanged.
 - 68.3 commander-casting/tax evidence remains code-ready but requires the frozen local Scryfall cache, so it is not counted complete yet.
+
+
+### Step C batch 68.6: integration and decision-resolution gain proof
+
+- `scripts/grixis_mana_step.py --check` is the Step C integration gate. It requires all four cache-independent 62-deck evidence layers plus the gain proof to validate.
+- Commander-mana 68.3 is handled explicitly: zero generated records is `pending_local_cache_validation`, 1–61 is an error, and 62 records are validated normally. CI therefore cannot silently mistake missing local-cache work for completion.
+- `data/grixis/mana_quality_gain.json` demonstrates real before/after decision resolution for timing/conditional sources, MDFC optionality, utility-land burden versus Commander-first support, and source/fetch resilience. It makes zero automatic land-swap decisions.
+- `validate_all` now includes the `mana-step` gate. Step C is code-complete except for the declared 68.3 frozen-local-cache output/validation closure item.
