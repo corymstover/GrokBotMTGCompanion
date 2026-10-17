@@ -1,0 +1,104 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://github.com/corymstover/GrokBotMTGCompanion/data/grixis/schemas/human_review_manifest.schema.json",
+ "title": "Frozen human review-obligation manifest",
+ "type": "object",
+ "required": [
+  "schema_version",
+  "status",
+  "generated_by",
+  "policy_sha256",
+  "sampling_manifest_sha256",
+  "authority",
+  "static_review_queue",
+  "dynamic_review_queues",
+  "review_contract",
+  "limitations"
+ ],
+ "properties": {
+  "schema_version": {"const": 1},
+  "status": {"const": "pre_m6_review_obligations_frozen"},
+  "generated_by": {"type": "string"},
+  "policy_sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+  "sampling_manifest_sha256": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+  "authority": {
+   "type": "object",
+   "required": ["can_decide", "script_may_author_judgment", "human_only_acceptance", "note"],
+   "properties": {
+    "can_decide": {"const": false},
+    "script_may_author_judgment": {"const": false},
+    "human_only_acceptance": {"const": true},
+    "note": {"type": "string"}
+   },
+   "additionalProperties": false
+  },
+  "static_review_queue": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "required": ["review_id", "slug", "memberships", "selection_inputs", "review_requirement"],
+    "properties": {
+     "review_id": {"type": "string", "pattern": "^human-sample-v1:"},
+     "slug": {"type": "string"},
+     "memberships": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+     "selection_inputs": {"type": "object"},
+     "review_requirement": {
+      "type": "object",
+      "required": ["status", "allowed_methods", "script_may_author", "requires_commander_first_context", "requires_evidence_classes", "result_record"],
+      "properties": {
+       "status": {"const": "pending"},
+       "allowed_methods": {"const": ["human", "agent_judgment"]},
+       "script_may_author": {"const": false},
+       "requires_commander_first_context": {"const": true},
+       "requires_evidence_classes": {
+        "type": "array",
+        "minItems": 1,
+        "uniqueItems": true,
+        "items": {"enum": ["fact", "test_result", "strategic_judgment", "approved_decision"]}
+       },
+       "result_record": {"type": "null"}
+      },
+      "additionalProperties": false
+     }
+    },
+    "additionalProperties": false
+   }
+  },
+  "dynamic_review_queues": {
+   "type": "object",
+   "required": ["high_optimizer_disagreement", "major_change"],
+   "properties": {
+    "high_optimizer_disagreement": {"$ref": "#/$defs/dynamicQueue"},
+    "major_change": {"$ref": "#/$defs/dynamicQueue"}
+   },
+   "additionalProperties": false
+  },
+  "review_contract": {
+   "type": "object",
+   "required": ["sampling_is_minimum_not_maximum", "overlap_memberships_preserved", "unsampled_is_not_certified", "actual_review_record_is_separate"],
+   "properties": {
+    "sampling_is_minimum_not_maximum": {"const": true},
+    "overlap_memberships_preserved": {"const": true},
+    "unsampled_is_not_certified": {"const": true},
+    "actual_review_record_is_separate": {"const": true}
+   },
+   "additionalProperties": false
+  },
+  "limitations": {"type": "array", "minItems": 4, "items": {"type": "string"}}
+ },
+ "$defs": {
+  "dynamicQueue": {
+   "type": "object",
+   "required": ["status", "selector_function", "required_fields", "entries"],
+   "properties": {
+    "status": {"const": "awaiting_future_inputs"},
+    "selector_function": {"type": "string"},
+    "required_fields": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
+    "entries": {"const": []}
+   },
+   "additionalProperties": false
+  }
+ },
+ "additionalProperties": false
+}
