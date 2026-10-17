@@ -1,0 +1,136 @@
+name: ChatGPT M5 regeneration
+
+on:
+  push:
+    branches: [chatgpt-cycle73-m5-rebuild]
+    paths: [.github/workflows/chatgpt-m5-regen.yml]
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Build and validate the full 62-deck frozen M5 corpus"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+env:
+  SCRYFALL_OFFLINE: "1"
+
+jobs:
+  m5-regen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle73-m5-rebuild
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+
+      - name: Restore exact frozen development inputs
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, urllib.request
+          files = [
+            ("https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz", "oracle-cards-20261016090200.jsonl.gz", "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483"),
+            ("https://data.scryfall.io/rulings/rulings-20261015090033.jsonl.gz", "rulings-20261015090033.jsonl.gz", "3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a"),
+            ("https://data.scryfall.io/default-cards/default-cards-20261015090541.jsonl.gz", "default-cards-20261015090541.jsonl.gz", "f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8"),
+          ]
+          d=pathlib.Path('.cache'); d.mkdir(exist_ok=True)
+          for url,name,want in files:
+              p=d/name; urllib.request.urlretrieve(url,p)
+              got=hashlib.sha256(p.read_bytes()).hexdigest()
+              if got != want: raise SystemExit(f'HASH MISMATCH {name}: {got}')
+              print('restored+verified',name,p.stat().st_size)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+
+      - name: Verify A-F prerequisites remain closed
+        run: |
+          python scripts/grixis_saturation.py --check
+          python scripts/grixis_combo_step.py --check
+          python scripts/grixis_mana_step.py --check
+          python scripts/grixis_commander_step.py --check
+          python scripts/grixis_mechanics.py --check
+          python scripts/grixis_stress_step.py --check
+          python - <<'PY'
+          import json
+          d=json.load(open('data/grixis/upgrade_plan.json'))
+          state={s['id']:s['status'] for s in d['steps']}
+          for k in ('A','B','E','C','D','F'):
+              if state.get(k) not in ('complete','complete_pending_m5_regeneration'):
+                  raise SystemExit(f'{k} not closed for M5: {state.get(k)}')
+          print({k:state[k] for k in ('A','B','E','C','D','F')})
+          PY
+
+      - name: Smoke-build diverse saturated M5 decks
+        if: ${{ github.event_name == 'push' || inputs.full != 'true' }}
+        run: |
+          python scripts/grixis_m5_regen.py --build --deck kess-dissident-mage,abaddon-the-despoiler,bjorna-nightfall-alchemist-cecily --jobs 3
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,'scripts')
+          import grixis_authority as ga, grixis_candidates as gc, grixis_m5_regen as m
+          slugs=('kess-dissident-mage','abaddon-the-despoiler','bjorna-nightfall-alchemist-cecily')
+          probs=[]
+          for slug in slugs:
+              d=m.read_doc(m.OUT/f'{slug}.json.gz')
+              head={k:v for k,v in d.items() if k not in ('candidates','swaps','tests')}|{'candidates':[],'swaps':[],'tests':[]}
+              probs += [f'{slug}: top: {x}' for x in ga.validate_file(head,'candidate_universe.schema.json')]
+              probs += [f'{slug}: {x}' for x in m.semantic_problems(d)]
+              for c in d['candidates']:
+                  probs += [f'{slug}:{c["card"]}: {x}' for x in ga.validate_file(c,'candidate.schema.json')]
+                  probs += [f'{slug}:{x}' for x in ga.candidate_problems(c)]
+              for sw in d['swaps']:
+                  probs += [f'{slug}:{sw["id"]}: {x}' for x in ga.validate_file(sw,'swap.schema.json')]
+              for t in d['tests']:
+                  probs += [f'{slug}:{t["id"]}: {x}' for x in ga.validate_file(t,'test.schema.json')]
+              print(slug,d['counts'],d['a_f_context']['F']['suite_family'],d['a_f_context']['historical_edhrec'])
+          if probs:
+              print('\n'.join('FAIL '+x for x in probs[:100]))
+              raise SystemExit(f'{len(probs)} smoke problem(s)')
+          print('M5 smoke: PASS')
+          PY
+
+      - name: Full 62-deck frozen M5 regeneration
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full == 'true' }}
+        run: |
+          rm -rf data/grixis/m5_regen
+          python scripts/grixis_m5_regen.py --build --jobs 6
+          python scripts/grixis_m5_regen.py --check
+          python scripts/grixis_m5_regen.py --summary
+
+      - name: Checkpoint full M5 corpus
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full == 'true' }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          for s in d['steps']:
+              if s['id']=='M5_regen':
+                  s['status']='complete'
+                  s['completed']='ChatGPT cycle 73 frozen A-F regeneration'
+          lt=d['launch_tracker']
+          for s in lt['stages']:
+              if s['id']=='rebuild_m5':
+                  s['batches_done']=s['estimated_batches']
+                  s['status']='complete'
+                  s['note']='62-deck uncapped Step-A candidate corpus regenerated on frozen snap-20261016; all escalation queues drained; screening hypotheses bound to validated B-F evidence/review obligations; no decisions or approvals.'
+          lt['batches_done']=sum(float(s['batches_done']) for s in lt['stages'])
+          lt['percent_complete']=round(100*lt['batches_done']/lt['total_estimated_batches'],1)
+          lt['updated']='ChatGPT cycle 73 (2026-10-17)'
+          if lt['percent_complete'] != 75.2:
+              raise SystemExit(f'unexpected tracker after M5 regen: {lt["percent_complete"]}')
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          print('launch',lt['percent_complete'])
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/grixis/m5_regen data/grixis/upgrade_plan.json
+          git commit -m "ChatGPT cycle 73: regenerate frozen A-F M5 corpus [skip ci]"
+          git push origin HEAD:chatgpt-cycle73-m5-rebuild
