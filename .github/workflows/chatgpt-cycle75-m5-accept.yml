@@ -20,10 +20,61 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
+
       - name: Record acceptance
         run: python scripts/chatgpt_cycle75_accept_m5.py
-      - name: Validate repository
-        run: python scripts/validate_all.py
+
+      - name: Verify M5 acceptance authority invariants
+        run: |
+          python - <<'PY'
+          import json, subprocess
+          from pathlib import Path
+
+          reg = json.loads(Path('data/grixis/registry.json').read_text(encoding='utf-8'))
+          m5 = reg['program']['milestones']['M5']
+          m6 = reg['program']['milestones']['M6']
+          if m5.get('status') != 'accepted':
+              raise SystemExit(f"M5 status is not accepted: {m5.get('status')}")
+          if m5.get('accepted_by') != 'corymstover':
+              raise SystemExit(f"M5 accepted_by mismatch: {m5.get('accepted_by')}")
+          if m5.get('accepted_at') != '2026-10-17T14:34:41Z':
+              raise SystemExit(f"M5 accepted_at mismatch: {m5.get('accepted_at')}")
+          if m5.get('scope_verbatim') != 'Accept M5 and proceed':
+              raise SystemExit('M5 verbatim acceptance scope mismatch')
+          if m6.get('status') != 'not_started':
+              raise SystemExit(f"M6 changed during M5 acceptance: {m6.get('status')}")
+
+          fresh = json.loads(Path('data/grixis/birthday_m5/summary.json').read_text(encoding='utf-8'))
+          if fresh.get('authority', {}).get('accepted_by_cory') is not False:
+              raise SystemExit('generated Birthday M5 evidence was mutated into self-acceptance')
+          if fresh.get('status') != 'complete_current_corpus_generated':
+              raise SystemExit(f"Birthday M5 corpus status drifted: {fresh.get('status')}")
+          if len(fresh.get('decks', [])) != 62:
+              raise SystemExit('Birthday M5 corpus no longer covers 62 decks')
+
+          changed = set(subprocess.check_output(['git','diff','--name-only'], text=True).splitlines())
+          allowed = {
+              'data/grixis/registry.json',
+              'grixis/Grixis Authority Model.md',
+              'Update Log.md',
+          }
+          if changed != allowed:
+              raise SystemExit(f"acceptance recorder touched unexpected paths: {sorted(changed)}")
+
+          # Acceptance must not change any per-deck state or canonical hash.
+          base = json.loads(subprocess.check_output(
+              ['git','show','HEAD:data/grixis/registry.json'], text=True
+          ))
+          for deck_id, before in base['decks'].items():
+              after = reg['decks'][deck_id]
+              for field in ('state', 'current_canonical_hash', 'canonical_project_list', 'approval', 'challengers'):
+                  if before.get(field) != after.get(field):
+                      raise SystemExit(f"{deck_id}: authority field changed during M5 acceptance: {field}")
+          print('M5 acceptance invariants PASS')
+          print('decks unchanged', len(reg['decks']))
+          print('M6 remains', m6['status'])
+          PY
+
       - name: Commit acceptance record
         run: |
           git config user.name "github-actions[bot]"
@@ -36,3 +87,13 @@ jobs:
             git pull --rebase origin chatgpt-cycle75-m5-acceptance
             git push origin HEAD:chatgpt-cycle75-m5-acceptance
           fi
+
+      - name: Acceptance summary
+        run: |
+          python - <<'PY'
+          import json
+          m=json.load(open('data/grixis/registry.json'))['program']['milestones']
+          print('M5', m['M5']['status'], m['M5']['accepted_by'], m['M5']['accepted_at'])
+          print('M6', m['M6']['status'])
+          print('No canonical deck authority changed.')
+          PY
