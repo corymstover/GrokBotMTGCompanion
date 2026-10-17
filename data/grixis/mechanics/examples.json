@@ -27,22 +27,202 @@
       }
      },
      "module": "activated_engines"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_range": [
+        -6.3787,
+        -0.3937
+       ]
+      },
+      "4": {
+       "diff_range": [
+        -1.4985,
+        -0.0925
+       ]
+      },
+      "6": {
+       "diff_range": [
+        -2.8957,
+        -0.1787
+       ]
+      },
+      "8": {
+       "diff_range": [
+        -4.5765,
+        -0.2825
+       ]
+      }
+     },
+     "module": "opponent_dependent_draw",
+     "semantics": {
+      "add": null,
+      "cut": {
+       "cards": 1,
+       "scope": "noncreature",
+       "source": "opponent_cast",
+       "tax": "{4}"
+      }
+     },
+     "version": "1"
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
-     "activated_engines"
-    ],
-    "planned": [
-     "death_other",
+     "activated_engines",
      "opponent_dependent_draw"
     ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "death_other": [
+      "Hawkeye, Avenging Archer"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
    "swap": "swap:abaddon-the-despoiler:m5:f2c00d8d2c7b"
+  },
+  {
+   "add": "Malevolent Hermit // Benevolent Geist",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Fierce Guardianship",
+   "deck": "ashad-the-lone-cyberman",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_alt_only_ready_turns": -0.2667,
+       "diff_alt_ready_turns": -0.2667
+      },
+      "4": {
+       "diff_alt_only_ready_turns": -0.0933,
+       "diff_alt_ready_turns": -0.0933
+      },
+      "6": {
+       "diff_alt_only_ready_turns": -0.2033,
+       "diff_alt_ready_turns": -0.2033
+      },
+      "8": {
+       "diff_alt_only_ready_turns": -0.2567,
+       "diff_alt_ready_turns": -0.2567
+      }
+     },
+     "module": "alternate_costs",
+     "semantics": {
+      "Fierce Guardianship": {
+       "not_modelable": null,
+       "rule": {
+        "condition": "commander",
+        "drawback": null,
+        "kind": "free_with_commander",
+        "mana": 0
+       }
+      },
+      "Malevolent Hermit // Benevolent Geist": {
+       "not_modelable": null,
+       "rule": null
+      }
+     },
+     "version": "1"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_ready_turns": -0.2667
+      },
+      "4": {
+       "diff_ready_turns": -0.0933
+      },
+      "6": {
+       "diff_ready_turns": -0.2033
+      },
+      "8": {
+       "diff_ready_turns": -0.2567
+      }
+     },
+     "module": "counterspell_density",
+     "semantics": {
+      "Fierce Guardianship": {
+       "not_modelable": null,
+       "rule": {
+        "free_with_commander": true,
+        "mode": "spell",
+        "scope": [
+         "noncreature_spell"
+        ]
+       }
+      },
+      "Malevolent Hermit // Benevolent Geist": {
+       "not_modelable": "soft counter ('unless ... pays') needs an opponent-mana model",
+       "rule": null
+      }
+     },
+     "version": "1"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_ready_or_active_turns": 0.5733
+      },
+      "4": {
+       "diff_ready_or_active_turns": 0.07
+      },
+      "6": {
+       "diff_ready_or_active_turns": 0.1667
+      },
+      "8": {
+       "diff_ready_or_active_turns": 0.33
+      }
+     },
+     "module": "stack_protection",
+     "semantics": {
+      "Fierce Guardianship": {
+       "not_modelable": null,
+       "rule": null
+      },
+      "Malevolent Hermit // Benevolent Geist": {
+       "not_modelable": null,
+       "rule": {
+        "mode": "static_team",
+        "scope": "team"
+       }
+      }
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "alternate_costs",
+     "counterspell_density",
+     "stack_protection"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {
+     "sacrifice_other": [
+      "Malevolent Hermit // Benevolent Geist"
+     ]
+    },
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:ashad-the-lone-cyberman:m5:e33e139462e2"
   },
   {
    "add": "Stensian Sanguinist // Exsanguinate",
@@ -58,28 +238,39 @@
      "evidence_class": "test_result",
      "metrics": {
       "10": {
-       "diff_nominal": 0.66,
+       "diff_nominal": 0.7867,
        "diff_range": [
-        0.1227,
-        0.66
+        0.2172,
+        0.7867
        ]
       },
       "6": {
-       "diff_nominal": 0.2,
+       "diff_nominal": 0.2467,
        "diff_range": [
-        0.0488,
-        0.2
+        0.0776,
+        0.2467
        ]
       },
       "8": {
-       "diff_nominal": 0.3767,
+       "diff_nominal": 0.47,
        "diff_range": [
-        0.0767,
-        0.3767
+        0.1375,
+        0.47
        ]
       }
      },
-     "module": "attack_trigger_proxy"
+     "module": "attack_trigger_proxy",
+     "semantics": {
+      "Stensian Sanguinist // Exsanguinate": {
+       "not_modelable": null,
+       "scope": "you_attack"
+      },
+      "Vivi Ornitier": {
+       "not_modelable": null,
+       "scope": null
+      }
+     },
+     "version": "2"
     },
     {
      "evidence_class": "test_result",
@@ -101,14 +292,14 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "attack_trigger_proxy",
      "cast_triggers"
     ],
-    "planned": [
-     "life_loss"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {},
     "status": "routed"
    },
    "samples": 300,
@@ -145,18 +336,85 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "cast_triggers"
     ],
-    "planned": [
-     "discard"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {},
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
    "swap": "swap:abaddon-the-despoiler:m5:fd073262fa95"
+  },
+  {
+   "add": "Spell Swindle",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Jeska's Will",
+   "deck": "admiral-beckett-brass",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_ready_turns": 0.0
+      },
+      "4": {
+       "diff_ready_turns": 0.0
+      },
+      "6": {
+       "diff_ready_turns": 0.0
+      },
+      "8": {
+       "diff_ready_turns": 0.0
+      }
+     },
+     "module": "counterspell_density",
+     "semantics": {
+      "Jeska's Will": {
+       "not_modelable": null,
+       "rule": null
+      },
+      "Spell Swindle": {
+       "not_modelable": null,
+       "rule": {
+        "free_with_commander": false,
+        "mode": "spell",
+        "scope": [
+         "spell"
+        ]
+       }
+      }
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "counterspell_density"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {
+     "sacrifice_other": [
+      "Spell Swindle"
+     ],
+     "tokens_other": [
+      "Spell Swindle"
+     ]
+    },
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:admiral-beckett-brass:m5:436e44c14024"
   },
   {
    "add": "Syr Konrad, the Grim",
@@ -254,16 +512,19 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "activated_engines",
      "cast_triggers",
      "death_triggers"
     ],
-    "planned": [
-     "death_other",
-     "graveyard_tutoring"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "death_other": [
+      "Syr Konrad, the Grim"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
@@ -271,7 +532,125 @@
    "swap": "swap:abaddon-the-despoiler:m5:76ca04b0b4e0"
   },
   {
-   "add": "Back in Town",
+   "add": "Tinybones, Pocket Nuisance",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Vivi Ornitier",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": -0.3
+      },
+      "4": {
+       "diff_lower_bound": -0.0167
+      },
+      "6": {
+       "diff_lower_bound": -0.08
+      },
+      "8": {
+       "diff_lower_bound": -0.1433
+      }
+     },
+     "module": "cast_triggers"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "add": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.47,
+        "opponent_demand": 0.47,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.47,
+       "diff_opponent_demand": 0.47,
+       "diff_self_burden": 0.0
+      },
+      "4": {
+       "add": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.16,
+        "opponent_demand": 0.16,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.16,
+       "diff_opponent_demand": 0.16,
+       "diff_self_burden": 0.0
+      },
+      "6": {
+       "add": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.23,
+        "opponent_demand": 0.23,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.23,
+       "diff_opponent_demand": 0.23,
+       "diff_self_burden": 0.0
+      },
+      "8": {
+       "add": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.34,
+        "opponent_demand": 0.34,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "discard",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.34,
+       "diff_opponent_demand": 0.34,
+       "diff_self_burden": 0.0
+      }
+     },
+     "module": "discard"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "cast_triggers",
+     "discard"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:61d3b5d53f94"
+  },
+  {
+   "add": "Along the Crooked Way",
    "authority": {
     "can_decide": false,
     "exploratory": true
@@ -283,6 +662,24 @@
     {
      "evidence_class": "test_result",
      "metrics": {
+      "10": {
+       "diff_lower_bound": 0.4967
+      },
+      "4": {
+       "diff_lower_bound": 0.01
+      },
+      "6": {
+       "diff_lower_bound": 0.0533
+      },
+      "8": {
+       "diff_lower_bound": 0.23
+      }
+     },
+     "module": "activated_engines"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
       "4": {
        "add": {
         "p_live": 0.0,
@@ -293,22 +690,37 @@
       },
       "6": {
        "add": {
-        "p_live": 0.0,
-        "targets_when_live": 0.0
-       },
-       "cut": null,
-       "diff_p_live": 0.0
-      },
-      "8": {
-       "add": {
         "p_live": 0.0033,
         "targets_when_live": 1.0
        },
        "cut": null,
        "diff_p_live": 0.0033
+      },
+      "8": {
+       "add": {
+        "p_live": 0.0133,
+        "targets_when_live": 1.0
+       },
+       "cut": null,
+       "diff_p_live": 0.0133
       }
      },
-     "module": "graveyard_recursion"
+     "module": "graveyard_recursion",
+     "semantics": {
+      "Along the Crooked Way": {
+       "destination": "your hand",
+       "mode": "etb",
+       "target": {
+        "exclude": [],
+        "kind": "type",
+        "types": [
+         "creature"
+        ]
+       }
+      },
+      "Edward Kenway": null
+     },
+     "version": "2"
     },
     {
      "evidence_class": "test_result",
@@ -316,45 +728,429 @@
      "metrics": {
       "4": {
        "diff_lower_bound": 0.0,
-       "diff_mid": 0.0143,
+       "diff_mid": 0.0043,
        "diff_range": [
         0.0,
-        0.0285
+        0.0094
        ]
       },
       "6": {
-       "diff_lower_bound": 0.0,
-       "diff_mid": 0.0204,
+       "diff_lower_bound": 0.0033,
+       "diff_mid": 0.0321,
        "diff_range": [
-        0.0,
-        0.0423
+        0.0033,
+        0.062
        ]
       },
       "8": {
-       "diff_lower_bound": 0.0033,
-       "diff_mid": 0.0282,
+       "diff_lower_bound": 0.0133,
+       "diff_mid": 0.0539,
        "diff_range": [
-        0.0033,
-        0.049
+        0.0133,
+        0.0887
        ]
       }
      },
-     "module": "graveyard_recursion"
+     "module": "graveyard_recursion",
+     "semantics": {
+      "Along the Crooked Way": {
+       "destination": "your hand",
+       "mode": "etb",
+       "target": {
+        "exclude": [],
+        "kind": "type",
+        "types": [
+         "creature"
+        ]
+       }
+      },
+      "Edward Kenway": null
+     },
+     "version": "2"
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
+     "activated_engines",
      "graveyard_recursion"
     ],
-    "planned": [
-     "tokens_other"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "tokens_other": [
+      "Edward Kenway"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
-   "swap": "swap:admiral-beckett-brass:m5:d792c9710c85"
+   "swap": "swap:admiral-beckett-brass:m5:68c7fd734c31"
+  },
+  {
+   "add": "Eye of Jace",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Vivi Ornitier",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": -0.3
+      },
+      "4": {
+       "diff_lower_bound": -0.0167
+      },
+      "6": {
+       "diff_lower_bound": -0.08
+      },
+      "8": {
+       "diff_lower_bound": -0.1433
+      }
+     },
+     "module": "cast_triggers"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_events": 1.05,
+       "diff_graveyard_cards": 0.0,
+       "diff_surveil_capacity": 1.05
+      },
+      "4": {
+       "diff_events": 0.2333,
+       "diff_graveyard_cards": 0.0,
+       "diff_surveil_capacity": 0.2333
+      },
+      "6": {
+       "diff_events": 0.4533,
+       "diff_graveyard_cards": 0.0,
+       "diff_surveil_capacity": 0.4533
+      },
+      "8": {
+       "diff_events": 0.7067,
+       "diff_graveyard_cards": 0.0,
+       "diff_surveil_capacity": 0.7067
+      }
+     },
+     "module": "graveyard_tutoring",
+     "semantics": {
+      "Eye of Jace": {
+       "not_modelable": null,
+       "rule": {
+        "amount": 1,
+        "kind": "surveil",
+        "mode": "upkeep"
+       }
+      },
+      "Vivi Ornitier": {
+       "not_modelable": null,
+       "rule": null
+      }
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "cast_triggers",
+     "graveyard_tutoring"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {
+     "sacrifice_other": [
+      "Eye of Jace"
+     ]
+    },
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:7d6f889501c7"
+  },
+  {
+   "add": "Brain Freeze",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Wandering Archaic // Explore the Vastlands",
+   "deck": "parnesse-the-subtle-brush",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "add": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "cut": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "diff_p_startup_ready": 0.0
+      },
+      "4": {
+       "add": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "cut": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "diff_p_startup_ready": 0.0
+      },
+      "6": {
+       "add": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "cut": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "diff_p_startup_ready": 0.0
+      },
+      "8": {
+       "add": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "cut": {
+        "mean_earliest_turn_when_ready": null,
+        "mean_fuel_margin_when_ready": null,
+        "mean_hand_discard_when_ready": null,
+        "p_startup_ready": 0.0
+       },
+       "diff_p_startup_ready": 0.0
+      }
+     },
+     "module": "led_breach_sequences",
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "led_breach_sequences"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:parnesse-the-subtle-brush:m5:7c25a58ba8be"
+  },
+  {
+   "add": "Creeping Bloodsucker",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Vivi Ornitier",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": -0.3
+      },
+      "4": {
+       "diff_lower_bound": -0.0167
+      },
+      "6": {
+       "diff_lower_bound": -0.08
+      },
+      "8": {
+       "diff_lower_bound": -0.1433
+      }
+     },
+     "module": "cast_triggers"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "add": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.47,
+        "opponent_demand": 2.25,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.47,
+       "diff_opponent_demand": 2.25,
+       "diff_self_burden": 0.0
+      },
+      "4": {
+       "add": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.15,
+        "opponent_demand": 0.3,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.15,
+       "diff_opponent_demand": 0.3,
+       "diff_self_burden": 0.0
+      },
+      "6": {
+       "add": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.22,
+        "opponent_demand": 0.72,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.22,
+       "diff_opponent_demand": 0.72,
+       "diff_self_burden": 0.0
+      },
+      "8": {
+       "add": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.33,
+        "opponent_demand": 1.35,
+        "self_burden": 0.0
+       },
+       "cut": {
+        "kind": "life_loss",
+        "max_same_turn_opponent_demand": 0.0,
+        "opponent_demand": 0.0,
+        "self_burden": 0.0
+       },
+       "diff_max_same_turn": 0.33,
+       "diff_opponent_demand": 1.35,
+       "diff_self_burden": 0.0
+      }
+     },
+     "module": "life_loss"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "cast_triggers",
+     "life_loss"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:203758405835"
+  },
+  {
+   "add": "Mutalith Vortex Beast",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Mystic Remora",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_range": [
+        -6.3787,
+        -0.3937
+       ]
+      },
+      "4": {
+       "diff_range": [
+        -1.4985,
+        -0.0925
+       ]
+      },
+      "6": {
+       "diff_range": [
+        -2.8957,
+        -0.1787
+       ]
+      },
+      "8": {
+       "diff_range": [
+        -4.5765,
+        -0.2825
+       ]
+      }
+     },
+     "module": "opponent_dependent_draw",
+     "semantics": {
+      "add": null,
+      "cut": {
+       "cards": 1,
+       "scope": "noncreature",
+       "source": "opponent_cast",
+       "tax": "{4}"
+      }
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "opponent_dependent_draw"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:1f031606ff0e"
   },
   {
    "add": "Doctor Doom",
@@ -366,6 +1162,46 @@
    "deck": "abaddon-the-despoiler",
    "evidence_class": "test_result",
    "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_range": [
+        -6.3787,
+        -0.3937
+       ]
+      },
+      "4": {
+       "diff_range": [
+        -1.4985,
+        -0.0925
+       ]
+      },
+      "6": {
+       "diff_range": [
+        -2.8957,
+        -0.1787
+       ]
+      },
+      "8": {
+       "diff_range": [
+        -4.5765,
+        -0.2825
+       ]
+      }
+     },
+     "module": "opponent_dependent_draw",
+     "semantics": {
+      "add": null,
+      "cut": {
+       "cards": 1,
+       "scope": "noncreature",
+       "source": "opponent_cast",
+       "tax": "{4}"
+      }
+     },
+     "version": "1"
+    },
     {
      "evidence_class": "test_result",
      "layer": "deaths",
@@ -425,22 +1261,156 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
+     "opponent_dependent_draw",
      "repeatable_draw",
      "token_makers"
     ],
-    "planned": [
-     "life_loss",
-     "opponent_dependent_draw",
-     "stack_protection",
-     "tokens_other"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "tokens_other": [
+      "Doctor Doom"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
    "swap": "swap:abaddon-the-despoiler:m5:64cb53a3113b"
+  },
+  {
+   "add": "Lagomos, Hand of Hatred",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Missy",
+   "deck": "cult-of-skaro",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": 0.4967
+      },
+      "4": {
+       "diff_lower_bound": 0.0167
+      },
+      "6": {
+       "diff_lower_bound": 0.08
+      },
+      "8": {
+       "diff_lower_bound": 0.2433
+      }
+     },
+     "module": "activated_engines"
+    },
+    {
+     "evidence_class": "test_result",
+     "layer": "deaths",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": -0.46,
+       "diff_mid": -0.46,
+       "diff_range": [
+        -0.46,
+        -0.46
+       ]
+      },
+      "4": {
+       "diff_lower_bound": -0.0033,
+       "diff_mid": -0.0033,
+       "diff_range": [
+        -0.0033,
+        -0.0033
+       ]
+      },
+      "6": {
+       "diff_lower_bound": -0.06,
+       "diff_mid": -0.06,
+       "diff_range": [
+        -0.06,
+        -0.06
+       ]
+      },
+      "8": {
+       "diff_lower_bound": -0.2233,
+       "diff_mid": -0.2233,
+       "diff_range": [
+        -0.2233,
+        -0.2233
+       ]
+      }
+     },
+     "module": "repeatable_draw"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_tutor_uses": 0.5067
+      },
+      "4": {
+       "diff_tutor_uses": 0.0167
+      },
+      "6": {
+       "diff_tutor_uses": 0.0833
+      },
+      "8": {
+       "diff_tutor_uses": 0.2533
+      }
+     },
+     "module": "repeatable_tutors",
+     "semantics": {
+      "Lagomos, Hand of Hatred": {
+       "not_modelable": null,
+       "rule": {
+        "cost": {
+         "mana": 0,
+         "tap": true
+        },
+        "destination": "hand",
+        "mode": "activated",
+        "target": {
+         "exclude": [],
+         "kind": "any",
+         "types": []
+        }
+       }
+      },
+      "Missy": {
+       "not_modelable": null,
+       "rule": null
+      }
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "activated_engines",
+     "repeatable_draw",
+     "repeatable_tutors"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {
+     "death_other": [
+      "Missy"
+     ],
+     "tokens_other": [
+      "Lagomos, Hand of Hatred"
+     ]
+    },
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:cult-of-skaro:m5:630276de45bf"
   },
   {
    "add": "Poxwalkers",
@@ -503,14 +1473,14 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "cast_triggers",
      "self_recursion"
     ],
-    "planned": [
-     "discard"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {},
     "status": "routed"
    },
    "samples": 300,
@@ -568,16 +1538,20 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "sacrifice_additional_cost"
     ],
-    "planned": [
-     "life_loss",
-     "sacrifice_other",
-     "stack_protection",
-     "tokens_other"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "sacrifice_other": [
+      "My Precious // Allure of Power"
+     ],
+     "tokens_other": [
+      "Black Market Connections"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
@@ -690,17 +1664,20 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "activated_engines",
      "cast_triggers",
      "sacrifice_costs",
      "self_recursion"
     ],
-    "planned": [
-     "life_loss",
-     "sacrifice_other"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "sacrifice_other": [
+      "Gollum the Abandoned"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
@@ -768,19 +1745,264 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
      "cast_triggers",
      "self_recursion"
     ],
-    "planned": [
-     "discard"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {},
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
    "swap": "swap:abaddon-the-despoiler:m5:19cc391585d8"
+  },
+  {
+   "add": "The One Ring",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Mystic Remora",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": 0.7433
+      },
+      "4": {
+       "diff_lower_bound": 0.0867
+      },
+      "6": {
+       "diff_lower_bound": 0.2467
+      },
+      "8": {
+       "diff_lower_bound": 0.4867
+      }
+     },
+     "module": "activated_engines"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_range": [
+        -6.3787,
+        -0.3937
+       ]
+      },
+      "4": {
+       "diff_range": [
+        -1.4985,
+        -0.0925
+       ]
+      },
+      "6": {
+       "diff_range": [
+        -2.8957,
+        -0.1787
+       ]
+      },
+      "8": {
+       "diff_range": [
+        -4.5765,
+        -0.2825
+       ]
+      }
+     },
+     "module": "opponent_dependent_draw",
+     "semantics": {
+      "add": null,
+      "cut": {
+       "cards": 1,
+       "scope": "noncreature",
+       "source": "opponent_cast",
+       "tax": "{4}"
+      }
+     },
+     "version": "1"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_ready_or_active_turns": 0.8
+      },
+      "4": {
+       "diff_ready_or_active_turns": 0.0967
+      },
+      "6": {
+       "diff_ready_or_active_turns": 0.2667
+      },
+      "8": {
+       "diff_ready_or_active_turns": 0.52
+      }
+     },
+     "module": "stack_protection",
+     "semantics": {
+      "Mystic Remora": {
+       "not_modelable": null,
+       "rule": null
+      },
+      "The One Ring": {
+       "not_modelable": null,
+       "rule": {
+        "mode": "static_self",
+        "scope": "self"
+       }
+      }
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "activated_engines",
+     "opponent_dependent_draw",
+     "stack_protection"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:174950f788d8"
+  },
+  {
+   "add": "Karn, Argent Defender",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "deck": "rograkh-son-of-rohgahh-silas-renn",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_lower_bound": -0.6133
+      },
+      "4": {
+       "diff_lower_bound": -0.08
+      },
+      "6": {
+       "diff_lower_bound": -0.2633
+      },
+      "8": {
+       "diff_lower_bound": -0.4033
+      }
+     },
+     "module": "cast_triggers"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "add_self_burden": true,
+       "cut_self_burden": false,
+       "diff_opponent_draws_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_extra_mana_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_spells_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_static_lock_rounds": 0.9667
+      },
+      "4": {
+       "add_self_burden": true,
+       "cut_self_burden": false,
+       "diff_opponent_draws_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_extra_mana_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_spells_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_static_lock_rounds": 0.1533
+      },
+      "6": {
+       "add_self_burden": true,
+       "cut_self_burden": false,
+       "diff_opponent_draws_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_extra_mana_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_spells_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_static_lock_rounds": 0.3433
+      },
+      "8": {
+       "add_self_burden": true,
+       "cut_self_burden": false,
+       "diff_opponent_draws_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_extra_mana_range": [
+        0.0,
+        0.0
+       ],
+       "diff_opponent_spells_blocked_range": [
+        0.0,
+        0.0
+       ],
+       "diff_static_lock_rounds": 0.6233
+      }
+     },
+     "module": "stax_tax",
+     "semantics": {
+      "add": [
+       {
+        "kind": "creature_etb_trigger_lock",
+        "self_burden": true
+       }
+      ],
+      "cut": null
+     },
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "cast_triggers",
+     "stax_tax"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:rograkh-son-of-rohgahh-silas-renn:m5:ecefb9e8e976"
   },
   {
    "add": "Doctor Doom",
@@ -792,6 +2014,46 @@
    "deck": "abaddon-the-despoiler",
    "evidence_class": "test_result",
    "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_range": [
+        -6.3787,
+        -0.3937
+       ]
+      },
+      "4": {
+       "diff_range": [
+        -1.4985,
+        -0.0925
+       ]
+      },
+      "6": {
+       "diff_range": [
+        -2.8957,
+        -0.1787
+       ]
+      },
+      "8": {
+       "diff_range": [
+        -4.5765,
+        -0.2825
+       ]
+      }
+     },
+     "module": "opponent_dependent_draw",
+     "semantics": {
+      "add": null,
+      "cut": {
+       "cards": 1,
+       "scope": "noncreature",
+       "source": "opponent_cast",
+       "tax": "{4}"
+      }
+     },
+     "version": "1"
+    },
     {
      "evidence_class": "test_result",
      "layer": "deaths",
@@ -851,23 +2113,114 @@
     }
    ],
    "route": {
+    "commander_specific": {},
     "modules": [
+     "opponent_dependent_draw",
      "repeatable_draw",
      "token_makers"
     ],
-    "planned": [
-     "life_loss",
-     "opponent_dependent_draw",
-     "stack_protection",
-     "tokens_other"
-    ],
+    "planned": [],
     "reason": null,
+    "residual": {
+     "tokens_other": [
+      "Doctor Doom"
+     ]
+    },
     "status": "routed"
    },
    "samples": 300,
    "seed": 66,
    "swap": "swap:abaddon-the-despoiler:m5:64cb53a3113b"
+  },
+  {
+   "add": "The Ruinous Wrecking Crew",
+   "authority": {
+    "can_decide": false,
+    "exploratory": true
+   },
+   "cut": "Mystic Remora",
+   "deck": "abaddon-the-despoiler",
+   "evidence_class": "test_result",
+   "results": [
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_range": [
+        -6.3787,
+        -0.3937
+       ]
+      },
+      "4": {
+       "diff_range": [
+        -1.4985,
+        -0.0925
+       ]
+      },
+      "6": {
+       "diff_range": [
+        -2.8957,
+        -0.1787
+       ]
+      },
+      "8": {
+       "diff_range": [
+        -4.5765,
+        -0.2825
+       ]
+      }
+     },
+     "module": "opponent_dependent_draw",
+     "semantics": {
+      "add": null,
+      "cut": {
+       "cards": 1,
+       "scope": "noncreature",
+       "source": "opponent_cast",
+       "tax": "{4}"
+      }
+     },
+     "version": "1"
+    },
+    {
+     "evidence_class": "test_result",
+     "metrics": {
+      "10": {
+       "diff_mean_max_x": 0.3133,
+       "diff_x_ready_turns": 0.2667
+      },
+      "4": {
+       "diff_mean_max_x": 0.0867,
+       "diff_x_ready_turns": 0.1
+      },
+      "6": {
+       "diff_mean_max_x": 0.1833,
+       "diff_x_ready_turns": 0.18
+      },
+      "8": {
+       "diff_mean_max_x": 0.2833,
+       "diff_x_ready_turns": 0.24
+      }
+     },
+     "module": "x_spells",
+     "version": "1"
+    }
+   ],
+   "route": {
+    "commander_specific": {},
+    "modules": [
+     "opponent_dependent_draw",
+     "x_spells"
+    ],
+    "planned": [],
+    "reason": null,
+    "residual": {},
+    "status": "routed"
+   },
+   "samples": 300,
+   "seed": 66,
+   "swap": "swap:abaddon-the-despoiler:m5:0aff7e9e0654"
   }
  ],
- "framework_version": "1.2-mech.3"
+ "framework_version": "1.2-mech.13"
 }

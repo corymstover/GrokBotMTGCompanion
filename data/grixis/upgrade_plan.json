@@ -128,7 +128,7 @@
     "66.12 bounded table life-loss and discard-pressure semantics",
     "66.13 residual/judgment routing closure (no fake generic simulator for residual or commander-specific text)"
    ],
-   "status": "code_complete_pending_local_cache_validation",
+   "status": "complete",
    "depends_on": [
     "A"
    ],
@@ -292,7 +292,8 @@
      "tokens_other"
     ],
     "commander_specific_policy": "Commander-specific hooks remain Commander-first judgment / Step D unless a bounded dedicated module exists."
-   }
+   },
+   "completed": "ChatGPT cycle 72.2 frozen-cache validation"
   },
   {
    "order": 4,
@@ -567,7 +568,7 @@
  ],
  "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
  "launch_tracker": {
-  "updated": "ChatGPT cycle 71.3 (2026-10-16)",
+  "updated": "ChatGPT cycle 72.2 (2026-10-17)",
   "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
   "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
   "stages": [
@@ -588,9 +589,9 @@
    {
     "id": "E",
     "estimated_batches": 16,
-    "batches_done": 15,
-    "status": "code_complete_pending_local_cache_validation",
-    "note": "15 engineering batches/sub-batches complete through 66.13; reserve 1 batch-equivalent for frozen-cache coverage/examples rebuild + full local validation."
+    "batches_done": 16,
+    "status": "complete",
+    "note": "All Step-E semantic/module code plus frozen-cache coverage/examples rebuild validated in ChatGPT cycle 72.2."
    },
    {
     "id": "B",
@@ -664,7 +665,7 @@
    }
   ],
   "total_estimated_batches": 62.5,
-  "batches_done": 41.5,
-  "percent_complete": 66.4
+  "batches_done": 42.5,
+  "percent_complete": 68.0
  }
 }

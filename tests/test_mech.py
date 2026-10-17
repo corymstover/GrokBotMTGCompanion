@@ -48,10 +48,12 @@ def test_router():
 
 
 def test_combat_proxy_bounds():
+    # Cycle 72.2: updated to the cycle-66.5a API (string semantics + card table); the old boolean form no longer exists.
     games = [(None, [{"turn": t, "battlefield": ["Z"] if t >= 3 else [], "graveyard": [], "hand": []} for t in range(1, 11)])]
-    assert combat.triggers(games, "Z", False, 6, 0.0, 1.0) == 3  # lands T3, attacks T4-T6
-    assert combat.triggers(games, "Z", True, 6, 0.0, 1.0) == 4
-    assert combat.triggers(games, "Z", False, 6, 0.5, 0.7) < combat.triggers(games, "Z", False, 6, 0.0, 1.0)
+    cards = {"Z": {"text": "Whenever Z attacks, draw a card.", "type_line": "Creature — Rat"}}
+    assert combat.triggers(games, "Z", "self", 6, 1.0, 1.0, cards) == 3  # lands T3, summoning-sick, attacks T4-T6
+    assert combat.triggers(games, "Z", "another_attacks", 6, 1.0, 1.0, cards) == 0
+    assert combat.triggers(games, "Z", "self", 6, 0.5, 0.7, cards) < combat.triggers(games, "Z", "self", 6, 1.0, 1.0, cards)
 
 
 def test_graveyard_live():

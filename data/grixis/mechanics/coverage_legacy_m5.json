@@ -1,8 +1,7 @@
 {
  "by_status": {
-  "not_modelable": 639,
-  "planned_module": 4048,
-  "routed": 4353
+  "not_modelable": 3313,
+  "routed": 5727
  },
  "death_triggers_not_modelable_card_occurrences": {
   "unrecognised death-trigger wording (e.g. a creature-type filter)": 275,
@@ -12,35 +11,37 @@
  },
  "evidence_class": "derived_metric",
  "not_modelable_swaps": 9040,
- "note": "a swap can route to several families; routing is eligibility to be tested by a module, not a test result",
- "now_routed_share": 0.4815,
- "now_routed_to_implemented_module": 4353,
+ "note": "routing is eligibility to be tested by a declared module, not a test result. Residual review families are explicitly not generic modules and remain not_modelable unless another implemented module handles the card.",
+ "now_routed_share": 0.6335,
+ "now_routed_to_implemented_module": 5727,
  "per_module_family": {
   "activated_engines": 1483,
-  "alternate_costs": 925,
-  "attack_trigger_proxy": 1619,
+  "alternate_costs": 355,
+  "attack_trigger_proxy": 1014,
   "cast_triggers": 792,
-  "counterspell_density": 474,
-  "death_other": 649,
+  "counterspell_density": 421,
   "death_triggers": 129,
-  "discard": 2267,
-  "graveyard_recursion": 492,
-  "graveyard_tutoring": 976,
-  "led_breach_sequences": 113,
-  "life_loss": 1592,
-  "opponent_dependent_draw": 2136,
+  "discard": 168,
+  "graveyard_recursion": 207,
+  "graveyard_tutoring": 281,
+  "led_breach_sequences": 1,
+  "life_loss": 50,
+  "opponent_dependent_draw": 1269,
   "repeatable_draw": 283,
-  "repeatable_tutors": 20,
+  "repeatable_tutors": 1,
   "sacrifice_additional_cost": 109,
   "sacrifice_costs": 236,
-  "sacrifice_other": 1228,
-  "self_recursion": 163,
-  "stack_protection": 865,
-  "stax_tax": 19,
+  "self_recursion": 125,
+  "stack_protection": 471,
+  "stax_tax": 1,
   "token_makers": 535,
-  "tokens_other": 3266,
-  "x_spells": 89
+  "x_spells": 298
  },
- "routed_incl_planned_share": 0.9293,
+ "residual_review_family_swaps": {
+  "death_other": 649,
+  "sacrifice_other": 1228,
+  "tokens_other": 3266
+ },
+ "routed_incl_planned_share": 0.6335,
  "scope": "legacy M5 (capped, Bot cycle 61) swaps with no paired test"
 }
