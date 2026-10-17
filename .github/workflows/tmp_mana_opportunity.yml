@@ -1,0 +1,70 @@
+name: tmp Step C mana opportunity
+on:
+  push:
+    branches: [chatgpt-cycle68-4-mana-opportunity]
+permissions:
+  contents: write
+jobs:
+  opportunity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      SCRYFALL_OFFLINE: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle68-4-mana-opportunity
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema pytest
+      - name: Expand utility detection beyond the 68.1 conservative list
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path('scripts/grixis_mana_opportunity.py'); s=p.read_text()
+          old='''    utilities=[]\n    for name in base["utility_opportunity_cost"]["utility_lands"]:\n        c=byname.get(name); src=srcs.get(name)\n        if c and src: utilities.append(utility_record(name,c,src,blue,nodes.get(name)))\n'''
+          new='''    # 68.1 used a deliberately narrow utility heuristic. 68.4 widens the review population to any strict land\n    # with direct non-mana utility text, while preserving the old list as a signal source.\n    utility_names=set(base["utility_opportunity_cost"]["utility_lands"])\n    for name,c in byname.items():\n        if c["land"] and utility_categories(c): utility_names.add(name)\n    utilities=[]\n    for name in sorted(utility_names):\n        c=byname.get(name); src=srcs.get(name)\n        if c and src: utilities.append(utility_record(name,c,src,blue,nodes.get(name)))\n'''
+          if old in s: s=s.replace(old,new)
+          elif 'utility_names=set(base["utility_opportunity_cost"]["utility_lands"])' not in s: raise SystemExit('utility insertion point changed')
+          p.write_text(s)
+          PY
+      - name: Semantic tests
+        run: pytest -q tests/test_mana_opportunity.py
+      - name: Build and validate all 62 records
+        run: |
+          python scripts/grixis_mana_opportunity.py --build
+          python scripts/grixis_mana_opportunity.py --check
+          python scripts/grixis_mana_opportunity.py --summary
+      - name: Update Step C plan and Birthday tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          by={x['id']:x for x in d['steps']}; c=by['C']; c['status']='in_progress'
+          c['completed_batches']=[
+            '68.1 static mana/pip/source baseline across all 62 canonical decks',
+            '68.2 source reliability, ETB timing, actual fetch-target validation and distinct-source colored readiness',
+            '68.4 utility-land + MDFC opportunity cost and Commander/land-type textual synergy evidence'
+          ]
+          c['pending_local_validation_batches']=[
+            '68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress — code-ready; requires frozen local Oracle bulk to generate/validate real 62-deck evidence'
+          ]
+          arts=list(dict.fromkeys(c.get('artifacts',[])+['data/grixis/mana_opportunity/'])); c['artifacts']=arts
+          c['next']='68.5 candidate-level mana-base optimizer using saturated legal-pool land/mana candidates; run 68.3 frozen-cache gate before final Step C closure.'
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 68.4 (2026-10-16)'; st={x['id']:x for x in tr['stages']}
+          st['C']['batches_done']=3; st['C']['status']='in_progress'; st['C']['note']='3/6 validated batch-equivalents complete (68.1, 68.2, 68.4); 68.3 code-ready but separately pending frozen-local-cache validation.'
+          tr['batches_done']=sum(float(x['batches_done']) for x in tr['stages']); tr['total_estimated_batches']=sum(float(x['estimated_batches']) for x in tr['stages']); tr['percent_complete']=round(100*tr['batches_done']/tr['total_estimated_batches'],1)
+          p.write_text(json.dumps(d,indent=2,ensure_ascii=False)+'\n'); print('Birthday Launch',tr['percent_complete'],'%')
+          PY
+      - name: Commit generated evidence and plan
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add scripts/grixis_mana_opportunity.py data/grixis/mana_opportunity data/grixis/upgrade_plan.json
+          if ! git diff --cached --quiet; then
+            git commit -m "ChatGPT cycle 68.4: generate mana opportunity evidence and tracker [skip ci]"
+            git push
+          fi
