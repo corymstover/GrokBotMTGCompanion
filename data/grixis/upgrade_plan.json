@@ -357,7 +357,11 @@
         "data/grixis/mana_base/",
         "data/grixis/mana_timing/"
       ],
-      "next": "68.3 commander casting + commander-tax recovery / fast-mana sequencing; later utility/MDFC opportunity cost and candidate-level mana-base optimizer."
+      "next": "68.4 utility-land + MDFC opportunity cost and land-type/commander synergies can proceed independently; run the 68.3 frozen-cache gate before final Step C closure.",
+      "pending_local_validation_batches": [
+        "68.3 isolated commander casting, fast-mana contribution and +2/+4 commander-tax recovery stress — code-ready; requires frozen local Oracle bulk to generate/validate real 62-deck evidence"
+      ],
+      "local_validation_gate": "data/grixis/commander_mana/README.md"
     },
     {
       "order": 5,
@@ -553,7 +557,7 @@
   ],
   "m5_candidate_files": "capped legacy, superseded at M5 regeneration",
   "launch_tracker": {
-    "updated": "ChatGPT cycle 68.2 (2026-10-16)",
+    "updated": "ChatGPT cycle 68.3 code-ready gate (2026-10-16)",
     "definition_of_100_percent": "all prerequisite infrastructure finished and validated, M5 accepted on the fresh Birthday snapshot, I/J and K complete, M6 cleared to begin (M6 itself excluded)",
     "weighting": "batch-weighted: estimated batches per stage = midpoint of the plan range (completed stages count their actual batches); percent = done / total",
     "stages": [
@@ -590,7 +594,7 @@
         "estimated_batches": 6,
         "batches_done": 2,
         "status": "in_progress",
-        "note": "2/6 batch-equivalents complete: 68.1 static baseline, 68.2 timing/reliability/fetch validation."
+        "note": "2/6 validated batch-equivalents complete; 68.3 code-ready but deliberately not counted until the frozen-local-cache simulation gate passes."
       },
       {
         "id": "D",
