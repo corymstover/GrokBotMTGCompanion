@@ -83,7 +83,7 @@ jobs:
           PY
 
       - name: Smoke-build diverse saturated M5 decks
-        if: ${{ github.event_name == 'push' || inputs.full != 'true' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full != 'true' }}
         run: |
           python scripts/grixis_m5_regen.py --build --deck kess-dissident-mage,abaddon-the-despoiler,bjorna-nightfall-alchemist-cecily --jobs 3
           python - <<'PY'
@@ -112,7 +112,7 @@ jobs:
           PY
 
       - name: Full 62-deck frozen M5 regeneration
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full == 'true' }}
+        if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.full == 'true') }}
         run: |
           rm -rf data/grixis/m5_regen
           python scripts/grixis_m5_regen.py --build --jobs 6
@@ -120,7 +120,7 @@ jobs:
           python scripts/grixis_m5_regen.py --summary
 
       - name: Checkpoint full M5 corpus
-        if: ${{ github.event_name == 'workflow_dispatch' && inputs.full == 'true' }}
+        if: ${{ github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && inputs.full == 'true') }}
         run: |
           python - <<'PY'
           import json
