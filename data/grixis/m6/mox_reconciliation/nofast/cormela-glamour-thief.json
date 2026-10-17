@@ -1,0 +1,190 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.045911,
+      0.090089
+     ],
+     "value": 0.068
+    },
+    "4": {
+     "ci95": [
+      -0.00796,
+      0.02796
+     ],
+     "value": 0.01
+    },
+    "5": {
+     "ci95": [
+      -0.013196,
+      0.017196
+     ],
+     "value": 0.002
+    },
+    "6": {
+     "ci95": [
+      -0.008404,
+      0.016404
+     ],
+     "value": 0.004
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.992,
+    "2": 0.096,
+    "3": 0.466,
+    "4": 0.856,
+    "5": 0.914,
+    "6": 0.948,
+    "8": 0.97
+   },
+   "commander": "Cormela, Glamour Thief",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.956,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.73,
+     "5": 0.818,
+     "6": 0.858,
+     "8": 0.916
+    },
+    "cast_share_by_turn10": 0.956,
+    "mana_available_by_turn": [
+     0.99,
+     1.994,
+     3.006,
+     3.822,
+     6.654,
+     7.454,
+     8.0,
+     8.476,
+     8.972,
+     9.368
+    ],
+    "mana_spent_by_turn": [
+     0.618,
+     1.062,
+     1.884,
+     3.32,
+     3.62,
+     1.696,
+     1.208,
+     1.256,
+     1.166,
+     1.064
+    ],
+    "mean_turn_when_cast": 4.6172
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:3247d8be559a056761e7b06a86d3f6c055af15a520bb8fde91305ca3917e9272",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.962,
+     "2": 0.0,
+     "3": 0.068,
+     "4": 0.74,
+     "5": 0.82,
+     "6": 0.862,
+     "8": 0.922
+    },
+    "cast_share_by_turn10": 0.962,
+    "mana_available_by_turn": [
+     0.988,
+     2.066,
+     3.092,
+     4.106,
+     6.772,
+     7.566,
+     8.118,
+     8.592,
+     9.11,
+     9.518
+    ],
+    "mana_spent_by_turn": [
+     0.636,
+     1.106,
+     2.028,
+     3.38,
+     3.378,
+     1.576,
+     1.236,
+     1.218,
+     1.13,
+     1.052
+    ],
+    "mean_turn_when_cast": 4.5447
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:5a1cbd724284255d773a0edcd71f876133cfb5497a0fd6b966dc921a73eccb41",
+ "deck_id": "Cormela__Glamour_Thief",
+ "frozen_commander_mana_sha256": "sha256:7b32c8e5878194a8c98b3461d39f42565c8eb41f0611b1ff72a6f82c214916ac",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "cormela-glamour-thief",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

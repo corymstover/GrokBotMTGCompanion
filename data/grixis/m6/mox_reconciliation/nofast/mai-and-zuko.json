@@ -1,0 +1,184 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.06489,
+      0.11511
+     ],
+     "value": 0.09
+    },
+    "4": {
+     "ci95": [
+      0.004103,
+      0.043897
+     ],
+     "value": 0.024
+    },
+    "5": {
+     "ci95": [
+      -0.00394,
+      0.03194
+     ],
+     "value": 0.014
+    },
+    "6": {
+     "ci95": [
+      -0.009534,
+      0.025534
+     ],
+     "value": 0.008
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.988,
+    "2": 0.072,
+    "3": 0.474,
+    "4": 0.816,
+    "5": 0.916,
+    "6": 0.94,
+    "8": 0.974
+   },
+   "commander": "Mai and Zuko",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.944,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.686,
+     "5": 0.816,
+     "6": 0.856,
+     "8": 0.908
+    },
+    "cast_share_by_turn10": 0.944,
+    "mana_available_by_turn": [
+     0.85,
+     2.002,
+     2.99,
+     4.106,
+     4.67,
+     5.104,
+     5.514,
+     5.93,
+     6.28,
+     6.616
+    ],
+    "mana_spent_by_turn": [
+     0.236,
+     1.288,
+     2.66,
+     3.442,
+     3.626,
+     3.502,
+     2.944,
+     2.604,
+     2.456,
+     2.242
+    ],
+    "mean_turn_when_cast": 4.6102
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:6c249f45332816ffb7f2812e529625238a71edd3b091d76da11342f45bfad427",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.952,
+     "2": 0.0,
+     "3": 0.09,
+     "4": 0.71,
+     "5": 0.83,
+     "6": 0.864,
+     "8": 0.914
+    },
+    "cast_share_by_turn10": 0.952,
+    "mana_available_by_turn": [
+     0.852,
+     2.128,
+     3.128,
+     4.218,
+     4.774,
+     5.2,
+     5.626,
+     6.048,
+     6.394,
+     6.75
+    ],
+    "mana_spent_by_turn": [
+     0.302,
+     1.396,
+     2.796,
+     3.438,
+     3.546,
+     3.438,
+     2.914,
+     2.604,
+     2.486,
+     2.178
+    ],
+    "mean_turn_when_cast": 4.4958
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:d7ea7efb07a8156b429aa10b20bab365f9f1b057dbd2b4a2518ac60619ca8e66",
+ "deck_id": "Mai_and_Zuko",
+ "frozen_commander_mana_sha256": "sha256:bd6d588a7389591f408dfdc6db3d0b8c7e251009f5fb4385fb80279852e5eb1a",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "mai-and-zuko",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

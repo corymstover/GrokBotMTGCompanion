@@ -1,0 +1,186 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      -0.000776,
+      0.012776
+     ],
+     "value": 0.006
+    },
+    "4": {
+     "ci95": [
+      0.040125,
+      0.083875
+     ],
+     "value": 0.062
+    },
+    "5": {
+     "ci95": [
+      0.019535,
+      0.060465
+     ],
+     "value": 0.04
+    },
+    "6": {
+     "ci95": [
+      0.001679,
+      0.038321
+     ],
+     "value": 0.02
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.982,
+    "2": 0.056,
+    "3": 0.306,
+    "4": 0.644,
+    "5": 0.842,
+    "6": 0.91,
+    "8": 0.97
+   },
+   "commander": "Sol'kanar the Swamp King",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Dimir Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "The Soul Stone"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.908,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.114,
+     "5": 0.576,
+     "6": 0.74,
+     "8": 0.852
+    },
+    "cast_share_by_turn10": 0.908,
+    "mana_available_by_turn": [
+     0.872,
+     2.022,
+     3.036,
+     3.894,
+     4.64,
+     5.25,
+     5.814,
+     6.328,
+     6.778,
+     7.202
+    ],
+    "mana_spent_by_turn": [
+     0.31,
+     1.242,
+     2.336,
+     3.126,
+     4.006,
+     3.978,
+     3.502,
+     3.204,
+     2.574,
+     2.44
+    ],
+    "mean_turn_when_cast": 5.6278
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Dimir Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Rakdos Signet",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "The Soul Stone"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:0c43866b756cee167e1ee8d30076139216ee8703f1e60a30a8c76bcf3acd8bec",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.92,
+     "2": 0.0,
+     "3": 0.006,
+     "4": 0.176,
+     "5": 0.616,
+     "6": 0.76,
+     "8": 0.864
+    },
+    "cast_share_by_turn10": 0.92,
+    "mana_available_by_turn": [
+     0.866,
+     2.116,
+     3.146,
+     4.0,
+     4.77,
+     5.386,
+     5.952,
+     6.462,
+     6.934,
+     7.372
+    ],
+    "mana_spent_by_turn": [
+     0.364,
+     1.32,
+     2.42,
+     3.22,
+     4.034,
+     3.88,
+     3.364,
+     3.12,
+     2.414,
+     2.332
+    ],
+    "mean_turn_when_cast": 5.4978
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:3bfd07dac71ebacade7d9cd4d8692cb0f11a5b7a858d27943626a961129193c0",
+ "deck_id": "Sol_kanar_the_Swamp_King",
+ "frozen_commander_mana_sha256": "sha256:9177a0a111aef2da9918cabdce03b21081eafc40cb4ca0234026dce7e1c9d109",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "solkanar-the-swamp-king",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

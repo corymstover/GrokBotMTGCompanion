@@ -1,0 +1,180 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.05447,
+      0.10153
+     ],
+     "value": 0.078
+    },
+    "4": {
+     "ci95": [
+      0.008164,
+      0.043836
+     ],
+     "value": 0.026
+    },
+    "5": {
+     "ci95": [
+      0.009983,
+      0.042017
+     ],
+     "value": 0.026
+    },
+    "6": {
+     "ci95": [
+      0.005423,
+      0.034577
+     ],
+     "value": 0.02
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.998,
+    "2": 0.044,
+    "3": 0.504,
+    "4": 0.896,
+    "5": 0.942,
+    "6": 0.968,
+    "8": 0.988
+   },
+   "commander": "Obeka, Brute Chronologist",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.978,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.736,
+     "5": 0.81,
+     "6": 0.872,
+     "8": 0.932
+    },
+    "cast_share_by_turn10": 0.978,
+    "mana_available_by_turn": [
+     0.894,
+     2.04,
+     3.032,
+     3.87,
+     4.54,
+     5.15,
+     5.654,
+     6.148,
+     6.638,
+     7.072
+    ],
+    "mana_spent_by_turn": [
+     0.216,
+     1.282,
+     2.372,
+     3.548,
+     3.55,
+     3.63,
+     3.426,
+     3.034,
+     2.768,
+     2.714
+    ],
+    "mean_turn_when_cast": 4.6708
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Izzet Signet",
+    "Lotus Petal",
+    "Mana Vault",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:afab74b0a17156f8c5ad334b1a2496cd0842817514cd22e32cb84f807f8c4915",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.98,
+     "2": 0.0,
+     "3": 0.078,
+     "4": 0.762,
+     "5": 0.836,
+     "6": 0.892,
+     "8": 0.946
+    },
+    "cast_share_by_turn10": 0.98,
+    "mana_available_by_turn": [
+     0.89,
+     2.13,
+     3.126,
+     3.97,
+     4.646,
+     5.268,
+     5.782,
+     6.292,
+     6.778,
+     7.218
+    ],
+    "mana_spent_by_turn": [
+     0.278,
+     1.372,
+     2.472,
+     3.546,
+     3.54,
+     3.602,
+     3.398,
+     2.836,
+     2.706,
+     2.61
+    ],
+    "mean_turn_when_cast": 4.4878
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:b73cc354bcd56c80d215161c5de83c7f715b01d144623172eb4ef5b579c79ea2",
+ "deck_id": "Obeka__Brute_Chronologist",
+ "frozen_commander_mana_sha256": "sha256:dbc0a1702a91f521faeb6f94dfd038210eca40b6e220dce92bc6c7867e2f61b0",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "obeka-brute-chronologist",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

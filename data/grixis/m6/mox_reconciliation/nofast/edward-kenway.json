@@ -1,0 +1,182 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.002446,
+      0.021554
+     ],
+     "value": 0.012
+    },
+    "4": {
+     "ci95": [
+      0.033654,
+      0.078346
+     ],
+     "value": 0.056
+    },
+    "5": {
+     "ci95": [
+      -0.008798,
+      0.028798
+     ],
+     "value": 0.01
+    },
+    "6": {
+     "ci95": [
+      -0.00394,
+      0.03194
+     ],
+     "value": 0.014
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.988,
+    "2": 0.044,
+    "3": 0.2,
+    "4": 0.586,
+    "5": 0.814,
+    "6": 0.888,
+    "8": 0.96
+   },
+   "commander": "Edward Kenway",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Fellwar Stone",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.932,
+     "2": 0.0,
+     "3": 0.01,
+     "4": 0.204,
+     "5": 0.68,
+     "6": 0.776,
+     "8": 0.888
+    },
+    "cast_share_by_turn10": 0.932,
+    "mana_available_by_turn": [
+     0.93,
+     2.046,
+     3.098,
+     4.068,
+     4.732,
+     5.332,
+     5.874,
+     6.324,
+     6.754,
+     7.202
+    ],
+    "mana_spent_by_turn": [
+     0.266,
+     1.06,
+     2.602,
+     3.51,
+     4.27,
+     4.256,
+     3.81,
+     3.322,
+     2.736,
+     2.656
+    ],
+    "mean_turn_when_cast": 5.3712
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Fellwar Stone",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:949689ceda9bbf5b9c53e8d279d33df0735f2bdf7b7aa1831ce151d3e766e813",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.936,
+     "2": 0.0,
+     "3": 0.022,
+     "4": 0.26,
+     "5": 0.69,
+     "6": 0.79,
+     "8": 0.898
+    },
+    "cast_share_by_turn10": 0.936,
+    "mana_available_by_turn": [
+     0.928,
+     2.132,
+     3.182,
+     4.13,
+     4.802,
+     5.404,
+     5.95,
+     6.398,
+     6.828,
+     7.286
+    ],
+    "mana_spent_by_turn": [
+     0.314,
+     1.168,
+     2.676,
+     3.566,
+     4.226,
+     4.182,
+     3.692,
+     3.162,
+     2.742,
+     2.508
+    ],
+    "mean_turn_when_cast": 5.2543
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:599a6de1bca130c64056cc3044addce858a1b8bf3e39d00a5f37b74cefc61d19",
+ "deck_id": "Edward_Kenway",
+ "frozen_commander_mana_sha256": "sha256:48f1a8a05d2a3f9bfc593b728d679729404d0862ab379252377fcda3aa2fc914",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "edward-kenway",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

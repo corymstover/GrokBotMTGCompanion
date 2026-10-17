@@ -1,0 +1,194 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.010571,
+      0.037429
+     ],
+     "value": 0.024
+    },
+    "4": {
+     "ci95": [
+      0.000367,
+      0.031633
+     ],
+     "value": 0.016
+    },
+    "5": {
+     "ci95": [
+      -0.000752,
+      0.036752
+     ],
+     "value": 0.018
+    },
+    "6": {
+     "ci95": [
+      -0.005517,
+      0.029517
+     ],
+     "value": 0.012
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.976,
+    "2": 0.104,
+    "3": 0.51,
+    "4": 0.78,
+    "5": 0.832,
+    "6": 0.888,
+    "8": 0.948
+   },
+   "commander": "Mishra, Artificer Prodigy",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Great Furnace",
+    "Grim Monolith",
+    "Izzet Signet",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Seat of the Synod",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Vault of Whispers"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.788,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.432,
+     "5": 0.534,
+     "6": 0.598,
+     "8": 0.716
+    },
+    "cast_share_by_turn10": 0.788,
+    "mana_available_by_turn": [
+     0.982,
+     2.12,
+     3.056,
+     3.68,
+     4.166,
+     4.502,
+     4.828,
+     5.132,
+     5.42,
+     5.722
+    ],
+    "mana_spent_by_turn": [
+     0.324,
+     1.338,
+     2.24,
+     2.786,
+     2.822,
+     2.764,
+     2.678,
+     2.546,
+     2.52,
+     2.258
+    ],
+    "mean_turn_when_cast": 5.3198
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Dimir Signet",
+    "Fellwar Stone",
+    "Great Furnace",
+    "Grim Monolith",
+    "Izzet Signet",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Seat of the Synod",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence",
+    "Vault of Whispers"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:ccb80e2dfd364110b644f4fb478738e8cc76f833d851a6b67a046ded9b9c44c7",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.8,
+     "2": 0.0,
+     "3": 0.024,
+     "4": 0.448,
+     "5": 0.552,
+     "6": 0.61,
+     "8": 0.728
+    },
+    "cast_share_by_turn10": 0.8,
+    "mana_available_by_turn": [
+     0.98,
+     2.162,
+     3.086,
+     3.72,
+     4.198,
+     4.542,
+     4.882,
+     5.19,
+     5.494,
+     5.792
+    ],
+    "mana_spent_by_turn": [
+     0.338,
+     1.368,
+     2.262,
+     2.814,
+     2.812,
+     2.792,
+     2.714,
+     2.55,
+     2.496,
+     2.302
+    ],
+    "mean_turn_when_cast": 5.2625
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:c0749d196e7228f5e9bb960a8a1fd0943be2d124c036f233a50ef65ef02fb300",
+ "deck_id": "Mishra__Artificer_Prodigy",
+ "frozen_commander_mana_sha256": "sha256:db0c0dd5ebd03aa88decd726bd3e59248e25906fa0e6e1a098e7b28464cc47b3",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "mishra-artificer-prodigy",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

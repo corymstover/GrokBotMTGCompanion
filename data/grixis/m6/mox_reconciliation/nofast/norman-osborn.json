@@ -1,0 +1,196 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      -0.001739,
+      0.021739
+     ],
+     "value": 0.01
+    },
+    "3": {
+     "ci95": [
+      -0.003076,
+      0.019076
+     ],
+     "value": 0.008
+    },
+    "4": {
+     "ci95": [
+      -0.000364,
+      0.024364
+     ],
+     "value": 0.012
+    },
+    "5": {
+     "ci95": [
+      0.000952,
+      0.023048
+     ],
+     "value": 0.012
+    },
+    "6": {
+     "ci95": [
+      0.000952,
+      0.023048
+     ],
+     "value": 0.012
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.99,
+    "2": 0.896,
+    "3": 0.93,
+    "4": 0.95,
+    "5": 0.97,
+    "6": 0.978,
+    "8": 0.98
+   },
+   "commander": "Norman Osborn // Green Goblin",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.958,
+     "2": 0.78,
+     "3": 0.834,
+     "4": 0.862,
+     "5": 0.882,
+     "6": 0.906,
+     "8": 0.94
+    },
+    "cast_share_by_turn10": 0.958,
+    "mana_available_by_turn": [
+     0.954,
+     1.934,
+     2.796,
+     3.434,
+     3.892,
+     4.294,
+     4.592,
+     4.912,
+     5.24,
+     5.568
+    ],
+    "mana_spent_by_turn": [
+     0.572,
+     1.648,
+     2.008,
+     2.18,
+     1.912,
+     1.546,
+     1.446,
+     1.48,
+     1.458,
+     1.452
+    ],
+    "mean_turn_when_cast": 2.6117
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:b1f88fe940ae5cbcf620dff11590fcf314ae06b9060a54660dabc3ec02bc0f28",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.966,
+     "2": 0.79,
+     "3": 0.842,
+     "4": 0.874,
+     "5": 0.894,
+     "6": 0.918,
+     "8": 0.948
+    },
+    "cast_share_by_turn10": 0.966,
+    "mana_available_by_turn": [
+     0.958,
+     2.048,
+     2.91,
+     3.572,
+     4.044,
+     4.452,
+     4.758,
+     5.09,
+     5.424,
+     5.776
+    ],
+    "mana_spent_by_turn": [
+     0.67,
+     1.688,
+     2.03,
+     2.178,
+     1.884,
+     1.518,
+     1.496,
+     1.522,
+     1.514,
+     1.416
+    ],
+    "mean_turn_when_cast": 2.5176
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:aa574bba4731d399004b2b6215bcc0c266011615685457fbabac1255e42d8022",
+ "deck_id": "Norman_Osborn_Green_Goblin",
+ "frozen_commander_mana_sha256": "sha256:6bda678287ffdd562d6dfe7a4e11dacd3f115183ea6137424696ce8a0ecded30",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "norman-osborn",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

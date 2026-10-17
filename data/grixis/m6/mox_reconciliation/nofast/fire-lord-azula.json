@@ -1,0 +1,192 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.035826,
+      0.076174
+     ],
+     "value": 0.056
+    },
+    "4": {
+     "ci95": [
+      0.005716,
+      0.042284
+     ],
+     "value": 0.024
+    },
+    "5": {
+     "ci95": [
+      0.010624,
+      0.045376
+     ],
+     "value": 0.028
+    },
+    "6": {
+     "ci95": [
+      0.010624,
+      0.045376
+     ],
+     "value": 0.028
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.952,
+    "2": 0.076,
+    "3": 0.428,
+    "4": 0.752,
+    "5": 0.824,
+    "6": 0.862,
+    "8": 0.922
+   },
+   "commander": "Fire Lord Azula",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.826,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.56,
+     "5": 0.632,
+     "6": 0.674,
+     "8": 0.768
+    },
+    "cast_share_by_turn10": 0.826,
+    "mana_available_by_turn": [
+     0.966,
+     1.954,
+     2.824,
+     3.494,
+     3.998,
+     4.372,
+     4.734,
+     4.994,
+     5.284,
+     5.564
+    ],
+    "mana_spent_by_turn": [
+     0.656,
+     1.262,
+     1.69,
+     2.81,
+     2.354,
+     1.962,
+     1.726,
+     1.642,
+     1.46,
+     1.338
+    ],
+    "mean_turn_when_cast": 4.954
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:07b55f1c5619d47996bb6387ab9448c241799f5c32a78a0dace8b742cc0c58bc",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.844,
+     "2": 0.0,
+     "3": 0.056,
+     "4": 0.584,
+     "5": 0.66,
+     "6": 0.702,
+     "8": 0.782
+    },
+    "cast_share_by_turn10": 0.844,
+    "mana_available_by_turn": [
+     0.966,
+     2.046,
+     2.924,
+     3.604,
+     4.132,
+     4.516,
+     4.89,
+     5.156,
+     5.446,
+     5.746
+    ],
+    "mana_spent_by_turn": [
+     0.688,
+     1.298,
+     1.818,
+     2.76,
+     2.36,
+     1.962,
+     1.694,
+     1.606,
+     1.43,
+     1.328
+    ],
+    "mean_turn_when_cast": 4.846
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:6a0fdd4d342f847b956a255caa9a24a16ef3ef64f63ec4af8f2090baf1c0709b",
+ "deck_id": "Fire_Lord_Azula",
+ "frozen_commander_mana_sha256": "sha256:a074913b7ba2374acd65952506764c4d03accba91628d2da3579bd066e3be132",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "fire-lord-azula",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

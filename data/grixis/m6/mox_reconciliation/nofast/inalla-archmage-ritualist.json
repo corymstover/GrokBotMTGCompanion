@@ -1,0 +1,194 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.013525,
+      0.042475
+     ],
+     "value": 0.028
+    },
+    "4": {
+     "ci95": [
+      0.026005,
+      0.061995
+     ],
+     "value": 0.044
+    },
+    "5": {
+     "ci95": [
+      0.013811,
+      0.050189
+     ],
+     "value": 0.032
+    },
+    "6": {
+     "ci95": [
+      0.023599,
+      0.064401
+     ],
+     "value": 0.044
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.944,
+    "2": 0.036,
+    "3": 0.224,
+    "4": 0.54,
+    "5": 0.69,
+    "6": 0.776,
+    "8": 0.874
+   },
+   "commander": "Inalla, Archmage Ritualist",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Blood Pet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.758,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.162,
+     "5": 0.452,
+     "6": 0.526,
+     "8": 0.65
+    },
+    "cast_share_by_turn10": 0.758,
+    "mana_available_by_turn": [
+     0.982,
+     2.07,
+     3.044,
+     3.778,
+     4.262,
+     4.618,
+     4.926,
+     5.222,
+     5.494,
+     5.766
+    ],
+    "mana_spent_by_turn": [
+     0.57,
+     1.33,
+     1.374,
+     1.764,
+     2.498,
+     1.97,
+     1.606,
+     1.402,
+     1.548,
+     1.55
+    ],
+    "mean_turn_when_cast": 5.9235
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Blood Pet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:6fa790d0f76b637a70f5e40ecee91a5c535644ea164ca8658faa9736c90e2048",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.782,
+     "2": 0.0,
+     "3": 0.028,
+     "4": 0.206,
+     "5": 0.484,
+     "6": 0.57,
+     "8": 0.692
+    },
+    "cast_share_by_turn10": 0.782,
+    "mana_available_by_turn": [
+     0.986,
+     2.19,
+     3.172,
+     3.906,
+     4.406,
+     4.768,
+     5.07,
+     5.382,
+     5.656,
+     5.942
+    ],
+    "mana_spent_by_turn": [
+     0.624,
+     1.296,
+     1.428,
+     1.878,
+     2.466,
+     1.98,
+     1.646,
+     1.392,
+     1.516,
+     1.504
+    ],
+    "mean_turn_when_cast": 5.7084
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:8ff373780f1df903fd92c4d57492e4924885528e96a504279dc0badd2e1e7389",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "frozen_commander_mana_sha256": "sha256:06c9005cc7bfe4f5f38dfe0d9abaa2546fb0375fa5d72607be495b890ed3fd97",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "inalla-archmage-ritualist",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

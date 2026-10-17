@@ -1,0 +1,190 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.037491,
+      0.078509
+     ],
+     "value": 0.058
+    },
+    "3": {
+     "ci95": [
+      0.016268,
+      0.051732
+     ],
+     "value": 0.034
+    },
+    "4": {
+     "ci95": [
+      0.005937,
+      0.038063
+     ],
+     "value": 0.022
+    },
+    "5": {
+     "ci95": [
+      -0.002644,
+      0.026644
+     ],
+     "value": 0.012
+    },
+    "6": {
+     "ci95": [
+      -0.00576,
+      0.01776
+     ],
+     "value": 0.006
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.988,
+    "2": 0.182,
+    "3": 0.808,
+    "4": 0.914,
+    "5": 0.936,
+    "6": 0.946,
+    "8": 0.97
+   },
+   "commander": "Marchesa, Dealer of Death",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.956,
+     "2": 0.0,
+     "3": 0.618,
+     "4": 0.832,
+     "5": 0.874,
+     "6": 0.9,
+     "8": 0.922
+    },
+    "cast_share_by_turn10": 0.956,
+    "mana_available_by_turn": [
+     0.97,
+     2.03,
+     2.948,
+     3.708,
+     4.306,
+     4.718,
+     5.076,
+     5.412,
+     5.724,
+     6.032
+    ],
+    "mana_spent_by_turn": [
+     0.684,
+     1.304,
+     2.506,
+     2.75,
+     2.706,
+     2.048,
+     1.64,
+     1.412,
+     1.394,
+     1.338
+    ],
+    "mean_turn_when_cast": 3.7238
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Amber",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:0b2cecdbeab4b96f2bd1f0dae6f6abf44462e4f063f7a228ed1dfad2e8d06841",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.962,
+     "2": 0.058,
+     "3": 0.652,
+     "4": 0.854,
+     "5": 0.886,
+     "6": 0.906,
+     "8": 0.934
+    },
+    "cast_share_by_turn10": 0.962,
+    "mana_available_by_turn": [
+     0.978,
+     2.11,
+     3.034,
+     3.802,
+     4.406,
+     4.83,
+     5.202,
+     5.542,
+     5.858,
+     6.168
+    ],
+    "mana_spent_by_turn": [
+     0.706,
+     1.438,
+     2.536,
+     2.686,
+     2.616,
+     2.002,
+     1.616,
+     1.43,
+     1.326,
+     1.26
+    ],
+    "mean_turn_when_cast": 3.5946
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:abb993f867c5a112b62ff909103319002069b1cf7d528ad717c885ebadea37f5",
+ "deck_id": "Marchesa__Dealer_of_Death",
+ "frozen_commander_mana_sha256": "sha256:82beb0ce837ae211afa42c2432a27e7ca7683b6c6222f304c32be8a7f39ab41e",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "marchesa-dealer-of-death",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

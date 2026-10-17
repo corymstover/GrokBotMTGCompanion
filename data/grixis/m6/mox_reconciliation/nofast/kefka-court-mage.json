@@ -1,0 +1,192 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.003691,
+      0.024309
+     ],
+     "value": 0.014
+    },
+    "4": {
+     "ci95": [
+      0.032519,
+      0.071481
+     ],
+     "value": 0.052
+    },
+    "5": {
+     "ci95": [
+      0.029329,
+      0.070671
+     ],
+     "value": 0.05
+    },
+    "6": {
+     "ci95": [
+      0.02273,
+      0.06127
+     ],
+     "value": 0.042
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.932,
+    "2": 0.046,
+    "3": 0.252,
+    "4": 0.528,
+    "5": 0.698,
+    "6": 0.762,
+    "8": 0.88
+   },
+   "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.774,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.174,
+     "5": 0.46,
+     "6": 0.53,
+     "8": 0.664
+    },
+    "cast_share_by_turn10": 0.774,
+    "mana_available_by_turn": [
+     0.982,
+     2.058,
+     3.024,
+     3.742,
+     4.248,
+     4.672,
+     5.024,
+     5.304,
+     5.558,
+     5.844
+    ],
+    "mana_spent_by_turn": [
+     0.544,
+     1.336,
+     1.834,
+     2.366,
+     2.7,
+     2.164,
+     1.894,
+     1.734,
+     1.694,
+     1.596
+    ],
+    "mean_turn_when_cast": 5.9251
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Grim Monolith",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:399459e6d0e81ac556c6373e22908403daebddd5d875e41c5e4a70778e711b9a",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.81,
+     "2": 0.0,
+     "3": 0.014,
+     "4": 0.226,
+     "5": 0.51,
+     "6": 0.572,
+     "8": 0.704
+    },
+    "cast_share_by_turn10": 0.81,
+    "mana_available_by_turn": [
+     0.978,
+     2.138,
+     3.128,
+     3.864,
+     4.386,
+     4.82,
+     5.176,
+     5.462,
+     5.722,
+     6.008
+    ],
+    "mana_spent_by_turn": [
+     0.564,
+     1.364,
+     1.926,
+     2.478,
+     2.74,
+     2.136,
+     1.916,
+     1.634,
+     1.644,
+     1.546
+    ],
+    "mean_turn_when_cast": 5.7605
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:1ff6d0abc658da5ebee6affc52675a31d6676225568270b2aa339b1df86d2820",
+ "deck_id": "Kefka__Court_Mage",
+ "frozen_commander_mana_sha256": "sha256:4eceadb3421df637b24d8bbe6152696f2f9307ee4889f1d918aa6844d4a265d6",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "kefka-court-mage",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

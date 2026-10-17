@@ -1,0 +1,178 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      -0.001538,
+      0.009538
+     ],
+     "value": 0.004
+    },
+    "4": {
+     "ci95": [
+      0.047613,
+      0.092387
+     ],
+     "value": 0.07
+    },
+    "5": {
+     "ci95": [
+      -0.006155,
+      0.026155
+     ],
+     "value": 0.01
+    },
+    "6": {
+     "ci95": [
+      -0.013593,
+      0.013593
+     ],
+     "value": 0.0
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.98,
+    "2": 0.024,
+    "3": 0.166,
+    "4": 0.54,
+    "5": 0.858,
+    "6": 0.922,
+    "8": 0.972
+   },
+   "commander": "Nekusar, the Mindrazer",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Chrome Mox",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Mana Vault",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.94,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.078,
+     "5": 0.698,
+     "6": 0.792,
+     "8": 0.896
+    },
+    "cast_share_by_turn10": 0.94,
+    "mana_available_by_turn": [
+     0.912,
+     2.044,
+     3.042,
+     3.928,
+     4.75,
+     5.43,
+     6.146,
+     6.766,
+     7.414,
+     8.048
+    ],
+    "mana_spent_by_turn": [
+     0.344,
+     1.306,
+     2.35,
+     2.798,
+     4.174,
+     3.92,
+     3.75,
+     3.474,
+     3.436,
+     3.276
+    ],
+    "mean_turn_when_cast": 5.4872
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Dark Ritual",
+    "Grim Monolith",
+    "Mana Vault",
+    "Sol Ring",
+    "Talisman of Creativity",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:f63e62eed99d79bbb293711dc7930b7b4c58edae06f057019a7118b2462c082e",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.944,
+     "2": 0.0,
+     "3": 0.004,
+     "4": 0.148,
+     "5": 0.708,
+     "6": 0.792,
+     "8": 0.904
+    },
+    "cast_share_by_turn10": 0.944,
+    "mana_available_by_turn": [
+     0.902,
+     2.116,
+     3.122,
+     4.014,
+     4.838,
+     5.512,
+     6.26,
+     6.896,
+     7.566,
+     8.208
+    ],
+    "mana_spent_by_turn": [
+     0.384,
+     1.348,
+     2.332,
+     2.934,
+     4.112,
+     3.848,
+     3.732,
+     3.44,
+     3.358,
+     3.17
+    ],
+    "mean_turn_when_cast": 5.3919
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:505d1886ad6ded11b7f5090746950da66ef805c72d5599414383128dcf866cbb",
+ "deck_id": "Nekusar__the_Mindrazer",
+ "frozen_commander_mana_sha256": "sha256:7d9f107c1fd5607b933b364f03c285965cf5603d4ec131cdf9327f2d9d32e3aa",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "nekusar-the-mindrazer",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}

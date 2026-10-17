@@ -1,0 +1,190 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "canonical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+ "commanders": [
+  {
+   "additional_chrome_mox_disable_impact_old_minus_corrected_by_turn": {
+    "2": {
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "value": 0.0
+    },
+    "3": {
+     "ci95": [
+      0.00127,
+      0.01873
+     ],
+     "value": 0.01
+    },
+    "4": {
+     "ci95": [
+      0.015419,
+      0.052581
+     ],
+     "value": 0.034
+    },
+    "5": {
+     "ci95": [
+      0.017134,
+      0.058866
+     ],
+     "value": 0.038
+    },
+    "6": {
+     "ci95": [
+      0.017134,
+      0.058866
+     ],
+     "value": 0.038
+    }
+   },
+   "baseline_commander_cast_probability_unchanged": {
+    "10": 0.928,
+    "2": 0.05,
+    "3": 0.218,
+    "4": 0.494,
+    "5": 0.662,
+    "6": 0.762,
+    "8": 0.878
+   },
+   "commander": "Evelyn, the Covetous",
+   "corrected_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Chrome Mox",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "corrected_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.73,
+     "2": 0.0,
+     "3": 0.0,
+     "4": 0.18,
+     "5": 0.418,
+     "6": 0.516,
+     "8": 0.628
+    },
+    "cast_share_by_turn10": 0.73,
+    "mana_available_by_turn": [
+     0.95,
+     2.016,
+     2.962,
+     3.618,
+     4.12,
+     4.506,
+     4.81,
+     5.13,
+     5.428,
+     5.714
+    ],
+    "mana_spent_by_turn": [
+     0.652,
+     1.428,
+     1.836,
+     2.27,
+     2.498,
+     2.058,
+     1.806,
+     1.518,
+     1.636,
+     1.572
+    ],
+    "mean_turn_when_cast": 5.8849
+   },
+   "historical_fast_cards": [
+    "Arcane Signet",
+    "Cabal Ritual",
+    "Culling the Weak",
+    "Dark Ritual",
+    "Fellwar Stone",
+    "Lion's Eye Diamond",
+    "Lotus Petal",
+    "Mana Vault",
+    "Mox Diamond",
+    "Mox Opal",
+    "Rite of Flame",
+    "Sol Ring",
+    "Talisman of Dominance",
+    "Talisman of Indulgence"
+   ],
+   "historical_fast_package_report_preserved": true,
+   "historical_no_fast_sha256": "sha256:6734e93b1440768095a2e58e9f3e203f0a9ec558aafe32726ccc087f6350372f",
+   "old_no_fast_mana_counterfactual": {
+    "cast_by_turn": {
+     "10": 0.782,
+     "2": 0.0,
+     "3": 0.01,
+     "4": 0.214,
+     "5": 0.456,
+     "6": 0.554,
+     "8": 0.684
+    },
+    "cast_share_by_turn10": 0.782,
+    "mana_available_by_turn": [
+     0.956,
+     2.12,
+     3.066,
+     3.736,
+     4.258,
+     4.64,
+     4.948,
+     5.278,
+     5.586,
+     5.882
+    ],
+    "mana_spent_by_turn": [
+     0.728,
+     1.434,
+     1.876,
+     2.302,
+     2.55,
+     2.038,
+     1.858,
+     1.528,
+     1.636,
+     1.558
+    ],
+    "mean_turn_when_cast": 5.8005
+   }
+  }
+ ],
+ "corrected_static_sha256": "sha256:d2ad89b69190bab64f35ff740228218831fb8b6a152a3b986c321834b1a36efb",
+ "deck_id": "Evelyn__the_Covetous",
+ "frozen_commander_mana_sha256": "sha256:4097fc2a44471ccbb4ba5977b00f0995e457ed09e0209ea88afde795b19496be",
+ "limitations": [
+  "This repairs a package proxy, NOT a one-card Chrome Mox replacement or multiplayer win rate",
+  "Goldfish engine simplifies imprint and availability; colored-source potential is not guaranteed",
+  "Baseline and removal/tax scenarios remain the historical unchanged reports",
+  "No model of opponents, actual stack decisions or full commander strategy",
+  "Full 62-deck research pipeline not rerun"
+ ],
+ "method": {
+  "comparator": "historical no-fast package vs same package PLUS Chrome Mox disabled",
+  "pairing": "same library permutations and seeded simulator v1.1",
+  "samples": 500,
+  "seed": 6813,
+  "turns": 10
+ },
+ "schema_version": 1,
+ "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+ "slug": "evelyn-the-covetous",
+ "stage": "M6_Chrome_Mox_corrected_paired_nofast_counterfactual",
+ "status": "bounded_package_mana_evidence_no_deck_decision"
+}
