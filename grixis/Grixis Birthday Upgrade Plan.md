@@ -435,3 +435,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - `priority_weight` allocates later review/test attention only. It is never multiplied by stress outcomes into a deck score.
 - Each item declares its executor class: legacy simulator scenario, bounded Step-E mechanic module, goldfish threshold, or judgment-only red-team prompt. Unsupported multiplayer situations stay judgment-only rather than receiving fake simulation.
 - All 62 suite manifests validate and no item has decision authority.
+
+
+### Step F batch 70.2: executable evidence routing
+
+- `scripts/grixis_bracket_stress_runner.py` turns each frozen 70.1 suite into an evidence packet without rerunning or reinterpreting older tests.
+- Legacy simulator stresses reuse the original M3 paired record, original preregistered metric/threshold and verdict. B5 turbo-clock reads the canonical audit goldfish readiness only and remains explicitly non-multiplayer.
+- Step-E items resolve to exact module ids/specifications. The 70.1 conceptual `counterspell_stack_protection` executor resolves transparently to the existing `counterspell_density` + `stack_protection` modules; `stax_tax` resolves directly. No canonical-deck module result is fabricated from swap-level/readiness machinery.
+- Judgment prompts remain `judgment_required` with no automated verdict.
+- Every packet keeps `aggregate_score: null`; priority weights still allocate review effort only.

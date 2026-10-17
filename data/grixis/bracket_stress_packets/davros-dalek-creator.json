@@ -1,0 +1,465 @@
+{
+ "aggregate_score": null,
+ "authority": {
+  "can_decide": false,
+  "note": "The packet routes preregistered stresses to evidence or pending review; it never aggregates outcomes or decides swaps."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B4_resilience",
+  "value": 4
+ },
+ "canonical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+ "deck_id": "Davros__Dalek_Creator",
+ "evidence_class": "derived_metric",
+ "items": [
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "mana_available_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.5
+    },
+    "legacy_verdict": "pass",
+    "primary_result": {
+     "baseline": 7.19,
+     "challenger": 7.116,
+     "ci95": [
+      -0.10395,
+      -0.04405
+     ],
+     "diff": -0.074,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "mana_available_t8"
+    },
+    "record_id": "test:davros-dalek-creator:stress:board_wipe:e6a8fd29462e",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     },
+     {
+      "ci95": [
+       0.9138,
+       0.95774
+      ],
+      "method": "share of games with a commander removal in which the commander was recast by turn 10",
+      "metric": "commander_recast_share",
+      "n": 462,
+      "value": 0.93939
+     },
+     {
+      "ci95": [
+       1.38166,
+       1.57226
+      ],
+      "method": "turns from the first removal (end step) to the recast, among games where it was recast",
+      "metric": "recovery_turns",
+      "n": 434,
+      "value": 1.47696
+     },
+     {
+      "ci95": [
+       0.76662,
+       0.83873
+      ],
+      "method": "share of removal games where the commander was recast within 2 turns",
+      "metric": "recovered_within_2_turns_share",
+      "n": 462,
+      "value": 0.80519
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "board_wipe@T5: every nonland creature you control is destroyed at the end of turn T (commanders go to the command zone)",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:board_wipe:e6a8fd29462e",
+    "status": "reused_existing_test_result"
+   },
+   "id": "board_wipe",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "board_wipe",
+   "priority_weight": 0.15,
+   "question": "Creature-board wipe and rebuilding pressure."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "mana_available_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.5
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 7.19,
+     "challenger": 6.26,
+     "ci95": [
+      -1.01366,
+      -0.84634
+     ],
+     "diff": -0.93,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "mana_available_t8"
+    },
+    "record_id": "test:davros-dalek-creator:stress:artifacts_wiped:52d6c63920b2",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "artifacts_wiped@T4: every nonland artifact you control is destroyed at the end of turn T",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:artifacts_wiped:52d6c63920b2",
+    "status": "reused_existing_test_result"
+   },
+   "id": "artifact_wipe",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "artifacts_wiped",
+   "priority_weight": 0.1,
+   "question": "Artifact wipe / mana-engine disruption."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_bf_turns",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 1.0
+    },
+    "legacy_verdict": "fail",
+    "primary_result": {
+     "baseline": 7.054,
+     "challenger": 2.402,
+     "ci95": [
+      -4.81808,
+      -4.48592
+     ],
+     "diff": -4.652,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_bf_turns"
+    },
+    "record_id": "test:davros-dalek-creator:stress:commander_removed_twice:f99f2e1d3250",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.97961,
+       0.99688
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.992
+     },
+     {
+      "ci95": [
+       0.88978,
+       0.93848
+      ],
+      "method": "share of games with a commander removal in which the commander was recast by turn 10",
+      "metric": "commander_recast_share",
+      "n": 496,
+      "value": 0.91734
+     },
+     {
+      "ci95": [
+       1.78243,
+       2.01097
+      ],
+      "method": "turns from the first removal (end step) to the recast, among games where it was recast",
+      "metric": "recovery_turns",
+      "n": 455,
+      "value": 1.8967
+     },
+     {
+      "ci95": [
+       0.69329,
+       0.77086
+      ],
+      "method": "share of removal games where the commander was recast within 2 turns",
+      "metric": "recovered_within_2_turns_share",
+      "n": 496,
+      "value": 0.73387
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "commander_removed_twice@T4: as once, and again at the end of the first turn after the recast that it is back on the battlefield",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:commander_removed_twice:f99f2e1d3250",
+    "status": "reused_existing_test_result"
+   },
+   "id": "commander_disruption",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "commander_removed_twice",
+   "priority_weight": 0.15,
+   "question": "Repeated commander removal and tax recovery."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "mana_spent_t1_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.5
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 26.89,
+     "challenger": 26.89,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "diff": 0.0,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "mana_spent_t1_t8"
+    },
+    "record_id": "test:davros-dalek-creator:stress:key_engine_exiled:17affa140285",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.41481,
+       0.50183
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.458
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "key_engine_exiled@T1: the first engine card (combo piece or identity-core card) to reach the battlefield is exiled at the end of that turn",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:key_engine_exiled:17affa140285",
+    "status": "reused_existing_test_result"
+   },
+   "id": "key_engine_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "key_engine_exiled",
+   "priority_weight": 0.1,
+   "question": "Central engine removal/exile."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_cast_by_t6",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.05
+    },
+    "legacy_verdict": "pass",
+    "primary_result": {
+     "baseline": 0.946,
+     "challenger": 0.918,
+     "ci95": [
+      -0.04247,
+      -0.01353
+     ],
+     "diff": -0.028,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_cast_by_t6"
+    },
+    "record_id": "test:davros-dalek-creator:stress:mana_screw:cc7665ae7bd5",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.0,
+       0.00762
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "mana_screw@T3: no land drop on turns T and T+1",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:mana_screw:cc7665ae7bd5",
+    "status": "reused_existing_test_result"
+   },
+   "id": "mana_screw",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "mana_screw",
+   "priority_weight": 0.1,
+   "question": "Missed land-drop recovery pressure."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "commander_cast_by_t6",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.05
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 0.946,
+     "challenger": 0.948,
+     "ci95": [
+      -0.00192,
+      0.00592
+     ],
+     "diff": 0.002,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "commander_cast_by_t6"
+    },
+    "record_id": "test:davros-dalek-creator:stress:color_screw:d62a6153c5be",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.0,
+       0.00762
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 0.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "color_screw@T5: the colour the commander needs most produces nothing coloured before turn T (those units become {C})",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:color_screw:d62a6153c5be",
+    "status": "reused_existing_test_result"
+   },
+   "id": "color_screw",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "color_screw",
+   "priority_weight": 0.05,
+   "question": "Temporary pressure on the commander's most-demanded color."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "evidence_class": "test_result",
+    "legacy_preregistered": {
+     "metric": "mana_spent_t1_t8",
+     "registered": "2026-10-16 (Bot cycle 57.4, before any stress run)",
+     "threshold": 0.5
+    },
+    "legacy_verdict": "no_detectable_difference",
+    "primary_result": {
+     "baseline": 26.89,
+     "challenger": 26.89,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "diff": 0.0,
+     "method": "paired: baseline unperturbed, challenger perturbed, same shuffles; diff per game; CI95 normal",
+     "metric": "mana_spent_t1_t8"
+    },
+    "record_id": "test:davros-dalek-creator:stress:graveyard_exiled:c6fcb8d3a5dd",
+    "recovery_metrics": [
+     {
+      "ci95": [
+       0.99238,
+       1.0
+      ],
+      "method": "share of perturbed games in which the scripted event happened (e.g. the commander was on the battlefield to be removed)",
+      "metric": "event_fired_share",
+      "n": 500,
+      "value": 1.0
+     }
+    ],
+    "reuse_note": "Existing M3 paired stress evidence is reused under the Step-F bracket priority; its original preregistration, model and limitations are not rewritten.",
+    "scenario": "graveyard_exiled@T5: your graveyard is exiled at the end of turn T",
+    "source": "data/grixis/stress/davros-dalek-creator.json#test:davros-dalek-creator:stress:graveyard_exiled:c6fcb8d3a5dd",
+    "status": "reused_existing_test_result"
+   },
+   "id": "graveyard_exiled",
+   "kind": "simulator_scenario",
+   "preregistered_executor": "graveyard_exiled",
+   "priority_weight": 0.05,
+   "question": "Graveyard hate/attrition where relevant."
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Can the deck rebuild after repeated removal across multiple permanent types?",
+    "status": "judgment_required"
+   },
+   "id": "repeated_removal_attrition",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.1,
+   "question": "Can the deck rebuild after repeated removal across multiple permanent types?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?",
+    "status": "judgment_required"
+   },
+   "id": "pillowfort",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.08,
+   "question": "Can combat/targeting-dependent routes function through pillowfort or must the deck pivot?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Can the deck progress through token stalls and clogged combat?",
+    "status": "judgment_required"
+   },
+   "id": "token_stall",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.06,
+   "question": "Can the deck progress through token stalls and clogged combat?"
+  },
+  {
+   "decision_authority": false,
+   "evidence": {
+    "automated_verdict": null,
+    "evidence_class": "strategic_judgment",
+    "note": "No automated substitute is allowed for this adversarial prompt.",
+    "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?",
+    "status": "judgment_required"
+   },
+   "id": "artifact_enchantment_interaction",
+   "kind": "judgment_prompt",
+   "preregistered_executor": null,
+   "priority_weight": 0.06,
+   "question": "Does the deck have credible answers/recovery when key artifacts/enchantments are removed or opposing permanents must be answered?"
+  }
+ ],
+ "limitations": [
+  "Existing M3 stress records are reused rather than silently rerun under new thresholds.",
+  "Goldfish readiness is not multiplayer win probability.",
+  "Step-E mechanic modules remain bounded/readiness proxies and may require local deck-level execution.",
+  "Judgment prompts remain unanswered by automation.",
+  "Priority weights allocate attention only and are not outcome weights."
+ ],
+ "schema_version": 1,
+ "slug": "davros-dalek-creator",
+ "status": "evidence_routed",
+ "suite_family": "B4_resilience",
+ "suite_source": "data/grixis/bracket_stress/davros-dalek-creator.json",
+ "weight_semantics": "review_priority_only_not_outcome_score"
+}
