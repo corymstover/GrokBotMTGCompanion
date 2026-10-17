@@ -426,3 +426,12 @@ Step E is code-closed through 66.13 but still waits on one local frozen-cache re
 - `commander_marginal_gain.json` demonstrates real structural decision-resolution gain on project decks while explicitly marking real dynamic gain as pending frozen-local-cache generation.
 - `scripts/grixis_commander_step.py --check` is the Step D closure gate: 62 structural records are mandatory; 0 dynamic records is an explicit pending state, 1–61 is invalid, and 62 counterfactual + 62 marginal records are required for full Step D closure.
 - `validate_all` now includes `commander-step`. Step D is code-complete pending the declared local dynamic generation/validation item.
+
+
+### Step F batch 70.1: bracket-specific stress preregistration
+
+- Every deck receives a frozen pre-result suite selected from its recorded ceiling: B5 competitive pressure versus B4 resilience/attrition pressure.
+- B5 emphasizes turbo clock, stack interaction/protection, stax/tax, fast graveyard hate, commander disruption and protected wins. B4 emphasizes wipes, repeated removal, artifact/enchantment interaction, attrition, rebuilding, commander tax, pillowfort and token stalls.
+- `priority_weight` allocates later review/test attention only. It is never multiplied by stress outcomes into a deck score.
+- Each item declares its executor class: legacy simulator scenario, bounded Step-E mechanic module, goldfish threshold, or judgment-only red-team prompt. Unsupported multiplayer situations stay judgment-only rather than receiving fake simulation.
+- All 62 suite manifests validate and no item has decision authority.

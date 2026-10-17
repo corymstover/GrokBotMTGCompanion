@@ -1,0 +1,106 @@
+{
+ "authority": {
+  "can_decide": false,
+  "note": "Stress priority and test results inform later judgment; neither can decide a swap or approval alone."
+ },
+ "bracket": {
+  "source": "grok_estimated_ceiling",
+  "suite_family": "B5_competitive",
+  "value": 5
+ },
+ "canonical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+ "confidence": "high",
+ "deck_id": "The_Madcap_Jester",
+ "evidence_class": "strategic_judgment",
+ "execution_policy": {
+  "goldfish_threshold": "read declared readiness metrics only; never relabel as multiplayer win probability",
+  "judgment_prompt": "requires later red-team/judgment review; no fake simulator substitute",
+  "mechanic_module": "use the relevant Step-E bounded module; preserve its declared assumptions and category separation",
+  "simulator_scenario": "paired deterministic perturbation against same-seed baseline"
+ },
+ "items": [
+  {
+   "decision_authority": false,
+   "executor": null,
+   "id": "turbo_clock",
+   "kind": "goldfish_threshold",
+   "order": 1,
+   "priority_weight": 0.2,
+   "question": "Pressure to present or meaningfully contest early wins; read existing goldfish/combo readiness, not a multiplayer win rate."
+  },
+  {
+   "decision_authority": false,
+   "executor": "first_key_spell_countered",
+   "id": "first_key_spell_countered",
+   "kind": "simulator_scenario",
+   "order": 2,
+   "priority_weight": 0.15,
+   "question": "First material setup/win spell is countered."
+  },
+  {
+   "decision_authority": false,
+   "executor": "graveyard_exiled",
+   "id": "graveyard_exiled",
+   "kind": "simulator_scenario",
+   "order": 3,
+   "priority_weight": 0.1,
+   "question": "Fast graveyard hate before or during setup."
+  },
+  {
+   "decision_authority": false,
+   "executor": "commander_removed_twice",
+   "id": "commander_disruption",
+   "kind": "simulator_scenario",
+   "order": 4,
+   "priority_weight": 0.1,
+   "question": "Repeated commander disruption/tax pressure."
+  },
+  {
+   "decision_authority": false,
+   "executor": "key_engine_exiled",
+   "id": "key_engine_exiled",
+   "kind": "simulator_scenario",
+   "order": 5,
+   "priority_weight": 0.1,
+   "question": "A central noncommander engine is exiled."
+  },
+  {
+   "decision_authority": false,
+   "executor": "counterspell_stack_protection",
+   "id": "stack_protection",
+   "kind": "mechanic_module",
+   "order": 6,
+   "priority_weight": 0.15,
+   "question": "Can the list protect or force through a compact win under stack interaction?"
+  },
+  {
+   "decision_authority": false,
+   "executor": "stax_tax",
+   "id": "stax_tax",
+   "kind": "mechanic_module",
+   "order": 7,
+   "priority_weight": 0.15,
+   "question": "Sensitivity to relevant stax/tax categories; categories remain separate."
+  },
+  {
+   "decision_authority": false,
+   "executor": null,
+   "id": "protected_win_red_team",
+   "kind": "judgment_prompt",
+   "order": 8,
+   "priority_weight": 0.05,
+   "question": "Adversarial reviewer asks whether primary wins remain executable through realistic protection/interaction windows."
+  }
+ ],
+ "limitations": [
+  "Priority weights allocate review/testing attention and are never multiplied by outcomes into a deck score.",
+  "B5 and B4 intentionally emphasize different failure modes.",
+  "Opponent-facing mechanics use only bounded Step-E proxies where implemented.",
+  "Judgment-only stresses remain judgment-only until a defensible model exists.",
+  "No stress result can approve a deck or independently decide a swap."
+ ],
+ "schema_version": 1,
+ "slug": "the-madcap-jester",
+ "status": "preregistered",
+ "weight_semantics": "review_priority_only_not_outcome_score"
+}
