@@ -1,0 +1,56 @@
+name: Temporary ChatGPT commander structure build
+
+on:
+  push:
+    branches: [chatgpt-cycle69-1-commander-structure]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle69-1-commander-structure
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --disable-pip-version-check pytest jsonschema
+      - name: Focused tests
+        run: python -m pytest -q tests/test_commander_structure.py
+      - name: Build and validate 62 records
+        run: |
+          python scripts/grixis_commander_structure.py --build
+          python scripts/grixis_commander_structure.py --check
+      - name: Update Step D plan and tracker
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('data/grixis/upgrade_plan.json'); d=json.loads(p.read_text())
+          s=next(x for x in d['steps'] if x['id']=='D'); s['status']='in_progress'; s['batches']=[
+            '69.1 structural commander marginality: Blueprint routes, engines/packages and Step-B combo route dependence',
+            '69.2 counterfactual simulator modes: normal / commander unavailable / commander taxed-disrupted (planned)',
+            '69.3 dynamic marginal-value deltas + integration/gain proof (planned; full outputs require frozen local cache)'
+          ]
+          tr=d['launch_tracker']; tr['updated']='ChatGPT cycle 69.1 (2026-10-16)'
+          x=next(x for x in tr['stages'] if x['id']=='D'); x['batches_done']=1; x['status']='in_progress'; x['note']='1/3.5 batch-equivalents complete: 62-deck structural commander-dependence evidence. Dynamic counterfactual simulator/output layers remain.'
+          tr['batches_done']=33; tr['percent_complete']=52.8
+          p.write_text(json.dumps(d,indent=1,ensure_ascii=False)+'\n')
+          md=Path('grixis/Grixis Birthday Upgrade Plan.md'); t=md.read_text(); marker='### Step D batch 69.1: structural commander marginality'
+          if marker not in t:
+              t += '''\n\n### Step D batch 69.1: structural commander marginality\n\n- `scripts/grixis_commander_structure.py` builds one non-deciding record for every canonical deck from accepted Blueprints and Step-B combo-quality evidence.\n- It partitions declared wins, engines/packages and Spellbook lines into explicit commander dependence/support versus structural independence.\n- Accepted Blueprint commander-role judgments are preserved verbatim as context; the script does not replace them with a synthetic score.\n- Absence of an explicit commander reference is not treated as proof of zero commander value. Dynamic card economy/action/combo/recovery deltas are deferred to the counterfactual simulator batches.\n- All 62 records validate; no deck state or decision changes.\n'''
+              md.write_text(t)
+          PY
+      - name: Commit outputs and cleanup
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/chatgpt-commander-structure-build.yml
+          git add data/grixis/commander_structure data/grixis/upgrade_plan.json 'grixis/Grixis Birthday Upgrade Plan.md'
+          git commit -m "ChatGPT cycle 69.1: finalize structural commander marginality [skip ci]"
+          git push
