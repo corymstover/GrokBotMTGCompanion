@@ -35,19 +35,27 @@ jobs:
         run: |
           python - <<'PY'
           import gzip, json
+          from collections import Counter
           from pathlib import Path
           p=Path('data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz')
           with gzip.open(p, 'rt', encoding='utf-8') as f:
               d=json.load(f)
           print('regen top-level keys:', sorted(d))
-          for key in ('candidates','full_reviews','swap_hypotheses'):
-              value=d.get(key, [])
-              print(key, 'len=', len(value))
-              if value:
-                  print(key, 'sample=', json.dumps(value[0], sort_keys=True)[:12000])
-          print('testing_status=', json.dumps(d.get('testing_status'), sort_keys=True)[:16000])
-          print('candidate_policy=', json.dumps(d.get('candidate_policy'), sort_keys=True)[:8000])
-          print('role_quota_status=', json.dumps(d.get('role_quota_status'), sort_keys=True)[:8000])
+          print('candidate_count=', len(d.get('candidates', [])))
+          if d.get('candidates'):
+              print('candidate_sample=', json.dumps(d['candidates'][0], sort_keys=True)[:12000])
+          print('swap_count=', len(d.get('swaps', [])))
+          if d.get('swaps'):
+              print('swap_sample=', json.dumps(d['swaps'][0], sort_keys=True)[:12000])
+              print('swap_keys=', sorted(d['swaps'][0]))
+          print('test_count=', len(d.get('tests', [])))
+          if d.get('tests'):
+              print('test_sample=', json.dumps(d['tests'][0], sort_keys=True)[:12000])
+              print('test_keys=', sorted(d['tests'][0]))
+              print('verdict_counts=', Counter(x.get('verdict') for x in d['tests']))
+          print('counts=', json.dumps(d.get('counts'), sort_keys=True))
+          print('project_requirements=', json.dumps(d.get('project_requirements'), sort_keys=True)[:8000])
+          print('swap_rules=', json.dumps(d.get('swap_rules'), sort_keys=True)[:8000])
           PY
 
       - name: Build and check M6 preflight
