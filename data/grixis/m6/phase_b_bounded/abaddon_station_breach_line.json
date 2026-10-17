@@ -1,0 +1,110 @@
+{
+ "authority": {
+  "can_apply_swap": false,
+  "can_approve_or_lock": false,
+  "can_decide": false
+ },
+ "baseline_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+ "covered_hypothesis": "swap:abaddon-the-despoiler:m5:1eb1c0ea9334",
+ "examples": {
+  "graveyard_exile_replacement": {
+   "brain_freeze_cast": false,
+   "cycles": 1,
+   "escape_casts": 0,
+   "finite_and_library_bounded": true,
+   "library_left": 87,
+   "net_mana": 0,
+   "opponents_milled": 0,
+   "other_graveyard_cards_left": 0,
+   "petal_on_battlefield": false,
+   "self_milled": 3,
+   "station_untapped": false,
+   "storm_added_by_petal_escapes": 0,
+   "win_proven": false
+  },
+  "ninety_card_library": {
+   "brain_freeze_cast": false,
+   "cycles": 30,
+   "escape_casts": 30,
+   "finite_and_library_bounded": true,
+   "library_left": 0,
+   "net_mana": 0,
+   "opponents_milled": 0,
+   "other_graveyard_cards_left": 0,
+   "petal_on_battlefield": true,
+   "self_milled": 90,
+   "station_untapped": true,
+   "storm_added_by_petal_escapes": 30,
+   "win_proven": false
+  },
+  "no_breach": {
+   "cycles": 0,
+   "escape_casts": 0,
+   "library_left": 90,
+   "self_milled": 0,
+   "stopped": "missing_breach_or_station"
+  },
+  "one_card_library": {
+   "brain_freeze_cast": false,
+   "cycles": 1,
+   "escape_casts": 0,
+   "finite_and_library_bounded": true,
+   "library_left": 0,
+   "net_mana": 0,
+   "opponents_milled": 0,
+   "other_graveyard_cards_left": 1,
+   "petal_on_battlefield": false,
+   "self_milled": 1,
+   "station_untapped": false,
+   "storm_added_by_petal_escapes": 0,
+   "win_proven": false
+  },
+  "petal_in_grave_with_three_fuel": {
+   "brain_freeze_cast": false,
+   "cycles": 30,
+   "escape_casts": 31,
+   "finite_and_library_bounded": true,
+   "library_left": 0,
+   "net_mana": 0,
+   "opponents_milled": 0,
+   "other_graveyard_cards_left": 0,
+   "petal_on_battlefield": true,
+   "self_milled": 90,
+   "station_untapped": true,
+   "storm_added_by_petal_escapes": 31,
+   "win_proven": false
+  },
+  "petal_initially_in_grave_with_no_fuel": {
+   "cycles": 0,
+   "escape_casts": 0,
+   "library_left": 90,
+   "self_milled": 0,
+   "stopped": "no_initial_petal_or_escape_fuel"
+  }
+ },
+ "limitations": [
+  "Conditional exact loop only; not a full game, infinite library, or victory proof",
+  "Station can mill at most three fresh cards per sacrifice and the library is finite",
+  "Artifact escape must exile three other cards; interruption/replacement effects may terminate loop",
+  "Does not calculate a probability or value of the proposed replacement cut Chrome Mox"
+ ],
+ "missing_proposed_piece": "Grinding Station",
+ "phase_b_complete": false,
+ "present_baseline_engine": [
+  "Underworld Breach",
+  "Lotus Petal",
+  "Brain Freeze",
+  "Lion's Eye Diamond"
+ ],
+ "required_for_finisher": [
+  "Brain Freeze cast requires {1}{U} (or equivalent) plus priority",
+  "Storm copies and targeting must be sufficient for opponents' actual library sizes",
+  "If Brain Freeze is escaped from graveyard, three OTHER cards and mana must be available",
+  "Petal cannot both pay the Station sacrifice cost and produce mana in the same iteration",
+  "Opponents can respond to spells, abilities and graveyard recursion"
+ ],
+ "schema_version": 1,
+ "slug": "abaddon-the-despoiler",
+ "stage": "M6_Grinding_Station_Breach_conditional_trace",
+ "supports_improvement_claim": false
+}
