@@ -1,0 +1,580 @@
+{
+  "actual_turn_state_effects_supported": true,
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_change_canonical_list": false,
+    "can_decide": false
+  },
+  "baseline_export_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "deck_id": "Abaddon_the_Despoiler",
+  "full_deck_paired_effect_simulator": false,
+  "full_phase_b_complete": false,
+  "limitations": [
+    "Purposefully tiny deterministic effect interpreter, not comprehensive Comprehensive Rules engine",
+    "No opponent AI, multiplayer priorities, responses frequencies, library/mulligan distributions, card draw/selection, tutor policies, or Game Changer bracket probabilities",
+    "Only specifically supported card effects; test-only synthetic spells must not enter real approved decks",
+    "Default trigger stack order deterministic, not an optimal priority/trigger-order search",
+    "No actual comparative deck win rate, no complete M6 Phase B, no Pass C, I/J certificates or candidate improvement proof"
+  ],
+  "plan_sha256": "sha256:5fae5525d22778cf6981fc3803bd8d9ff144b433e20a789a3c3df87103c5c8c1",
+  "prior_cycle_95_sha256": "sha256:547c5812bb430d73dbd617761badf1dd344447444d568b393cb288f78d43f2e2",
+  "scenario_count": 7,
+  "scenarios": [
+    {
+      "events": [
+        {
+          "event": "setup_battlefield",
+          "name": "Abaddon the Despoiler",
+          "turn": 1
+        },
+        {
+          "event": "setup_battlefield",
+          "name": "Kessig Flamebreather",
+          "turn": 1
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 1,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Test Spark",
+          "origin": "hand",
+          "printed_cascade": 0,
+          "threshold_at_cast": 0,
+          "turn": 1
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 3,
+          "opponents": [
+            39,
+            38,
+            30
+          ],
+          "pilot": 40
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Test Spark"
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 1,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Test Spark",
+          "origin": "hand",
+          "printed_cascade": 0,
+          "threshold_at_cast": 3,
+          "turn": 1
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 6,
+          "opponents": [
+            38,
+            37,
+            29
+          ],
+          "pilot": 40
+        },
+        {
+          "event": "cascade_no_cast",
+          "from": "Test Spark",
+          "trigger_source": "abaddon"
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Test Spark"
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 6,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 0,
+          "U": 0
+        },
+        "opponents": [
+          38,
+          37,
+          29
+        ],
+        "pilot": 40,
+        "stack_empty": true
+      },
+      "id": "kessig_order"
+    },
+    {
+      "events": [
+        {
+          "event": "setup_battlefield",
+          "name": "Birgi, God of Storytelling",
+          "turn": 1
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Boltwave",
+          "origin": "hand",
+          "printed_cascade": 0,
+          "threshold_at_cast": 0,
+          "turn": 1
+        },
+        {
+          "event": "birgi_trigger_resolves",
+          "mana": {
+            "B": 0,
+            "C": 0,
+            "R": 1,
+            "U": 0
+          }
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 9,
+          "opponents": [
+            37,
+            36,
+            28
+          ],
+          "pilot": 40
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Boltwave"
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Boltwave",
+          "origin": "hand",
+          "printed_cascade": 0,
+          "threshold_at_cast": 9,
+          "turn": 1
+        },
+        {
+          "event": "birgi_trigger_resolves",
+          "mana": {
+            "B": 0,
+            "C": 0,
+            "R": 1,
+            "U": 0
+          }
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 18,
+          "opponents": [
+            34,
+            33,
+            25
+          ],
+          "pilot": 40
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Boltwave"
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 18,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 1,
+          "U": 0
+        },
+        "opponents": [
+          34,
+          33,
+          25
+        ],
+        "pilot": 40,
+        "stack_empty": true
+      },
+      "id": "birgi_order"
+    },
+    {
+      "events": [
+        {
+          "event": "setup_battlefield",
+          "name": "Heartless Hidetsugu",
+          "turn": 6
+        },
+        {
+          "event": "activate",
+          "name": "Heartless Hidetsugu",
+          "target": 0,
+          "turn": 6
+        },
+        {
+          "event": "remove",
+          "name": "Heartless Hidetsugu",
+          "turn": 6
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 54,
+          "opponents": [
+            20,
+            20,
+            16
+          ],
+          "pilot": 20
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 54,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 0,
+          "U": 0
+        },
+        "opponents": [
+          20,
+          20,
+          16
+        ],
+        "pilot": 20,
+        "stack_empty": true
+      },
+      "id": "heartless_removed"
+    },
+    {
+      "events": [
+        {
+          "event": "setup_battlefield",
+          "name": "Tree of Perdition",
+          "turn": 6
+        },
+        {
+          "event": "activate",
+          "name": "Tree of Perdition",
+          "target": 0,
+          "turn": 6
+        },
+        {
+          "event": "remove",
+          "name": "Tree of Perdition",
+          "turn": 6
+        },
+        {
+          "event": "tree_exchange_failed_source_absent"
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 0,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 0,
+          "U": 0
+        },
+        "opponents": [
+          40,
+          39,
+          31
+        ],
+        "pilot": 40,
+        "stack_empty": true
+      },
+      "id": "tree_removed"
+    },
+    {
+      "events": [
+        {
+          "event": "setup_battlefield",
+          "name": "Abaddon the Despoiler",
+          "turn": 1
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 1,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Bituminous Blast",
+          "origin": "hand",
+          "printed_cascade": 1,
+          "threshold_at_cast": 5,
+          "turn": 1
+        },
+        {
+          "event": "cascade_hit",
+          "from": "Bituminous Blast",
+          "hit": "Test Echo",
+          "trigger_source": "abaddon"
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Test Echo",
+          "origin": "cascade_exile",
+          "printed_cascade": 0,
+          "threshold_at_cast": 5,
+          "turn": 1
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Test Echo"
+        },
+        {
+          "event": "cascade_no_cast",
+          "from": "Bituminous Blast",
+          "trigger_source": "printed"
+        },
+        {
+          "creature_damage": 4,
+          "creature_damage_result_not_modeled": true,
+          "event": "bituminous_blast_resolves"
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Bituminous Blast"
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 5,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 0,
+          "U": 0
+        },
+        "opponents": [
+          40,
+          39,
+          31
+        ],
+        "pilot": 40,
+        "stack_empty": true
+      },
+      "id": "bituminous_double"
+    },
+    {
+      "events": [
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Bituminous Blast",
+          "origin": "hand",
+          "printed_cascade": 1,
+          "threshold_at_cast": 0,
+          "turn": 1
+        },
+        {
+          "event": "cascade_hit",
+          "from": "Bituminous Blast",
+          "hit": "Test Echo",
+          "trigger_source": "printed"
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Test Echo",
+          "origin": "cascade_exile",
+          "printed_cascade": 0,
+          "threshold_at_cast": 0,
+          "turn": 1
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Test Echo"
+        },
+        {
+          "creature_damage": 4,
+          "creature_damage_result_not_modeled": true,
+          "event": "bituminous_blast_resolves"
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Bituminous Blast"
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 0,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 0,
+          "U": 0
+        },
+        "opponents": [
+          40,
+          39,
+          31
+        ],
+        "pilot": 40,
+        "stack_empty": true
+      },
+      "id": "bituminous_printed_only"
+    },
+    {
+      "events": [
+        {
+          "event": "setup_battlefield",
+          "name": "Abaddon the Despoiler",
+          "turn": 1
+        },
+        {
+          "event": "setup_battlefield",
+          "name": "Kessig Flamebreather",
+          "turn": 1
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 1,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Test Spark",
+          "origin": "hand",
+          "printed_cascade": 0,
+          "threshold_at_cast": 3,
+          "turn": 1
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 6,
+          "opponents": [
+            39,
+            38,
+            30
+          ],
+          "pilot": 40
+        },
+        {
+          "event": "cascade_hit",
+          "from": "Test Spark",
+          "hit": "Test Echo",
+          "trigger_source": "abaddon"
+        },
+        {
+          "event": "cast",
+          "granted_cascade": 0,
+          "mana_remaining": {
+            "B": 0,
+            "C": 0,
+            "R": 0,
+            "U": 0
+          },
+          "name": "Test Echo",
+          "origin": "cascade_exile",
+          "printed_cascade": 0,
+          "threshold_at_cast": 6,
+          "turn": 1
+        },
+        {
+          "event": "damage_resolved",
+          "lost_this_turn": 9,
+          "opponents": [
+            38,
+            37,
+            29
+          ],
+          "pilot": 40
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Test Echo"
+        },
+        {
+          "event": "spell_resolves",
+          "name": "Test Spark"
+        }
+      ],
+      "final": {
+        "game_ended": false,
+        "lost_this_turn": 9,
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "R": 0,
+          "U": 0
+        },
+        "opponents": [
+          38,
+          37,
+          29
+        ],
+        "pilot": 40,
+        "stack_empty": true
+      },
+      "id": "cascade_exile_cast"
+    }
+  ],
+  "schema_version": 1,
+  "stage": "M6_Abaddon_deterministic_turn_state_microengine",
+  "supported_cards": [
+    "Abaddon the Despoiler",
+    "Birgi, God of Storytelling",
+    "Bituminous Blast",
+    "Bloodletter of Aclazotz",
+    "Boltwave",
+    "Flame Rift",
+    "Heartless Hidetsugu",
+    "Kessig Flamebreather",
+    "Solphim, Mayhem Dominus",
+    "Test Echo",
+    "Test Land",
+    "Test Spark",
+    "Tree of Perdition"
+  ],
+  "supports_improvement_claim": false
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "cycle": 96,
+  "stage": "M6_Abaddon_deterministic_effect_turn_state",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "baseline_export_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "existing_cycle_94": "data/grixis/m6/phase_b_bounded/abaddon_followthrough_01.json",
+  "existing_cycle_95": "data/grixis/m6/phase_b_bounded/abaddon_deckwide_access_01.json",
+  "preregistration_status": "locked_before_tests",
+  "targeted_cards": [
+    "Abaddon the Despoiler",
+    "Kessig Flamebreather",
+    "Birgi, God of Storytelling",
+    "Heartless Hidetsugu",
+    "Tree of Perdition",
+    "Bituminous Blast",
+    "Boltwave",
+    "Flame Rift",
+    "Solphim, Mayhem Dominus",
+    "Bloodletter of Aclazotz"
+  ],
+  "synthetic_cards": [
+    "Test Spark",
+    "Test Echo"
+  ],
+  "cases": [
+    "Pre-cast threshold snapshot is immutable during triggered ability resolution: first noncreature cast cannot gain Abaddon cascade from Kessig's damage on that same cast",
+    "Subsequent spells from hand can gain Abaddon cascade after Kessig resolves; spells cast from exile never gain it",
+    "Birgi red-mana trigger cannot pay for the spell that triggered it, but its mana can pay for later spells",
+    "Heartless and Tree tap abilities require being controlled since start of the turn absent haste",
+    "Heartless damage trigger persists on stack after Heartless removal while Tree's exchange fails without its source on battlefield",
+    "Bituminous Blast printed cascade exists even if Abaddon absent; two cascade instances possible when qualifying hand cast with Abaddon present",
+    "Cascade finds a strictly lower mana value nonland card; exiled casts resolve using actual cast-from-exile rules and trigger Kessig/Birgi",
+    "Mana payment checks colored requirements, creature target constraints and command-zone tax",
+    "Solphim and Bloodletter require presence on resolution; controller damage is not multiplied by Solphim",
+    "Damage prevention and game-ending state stop further spell actions; next-turn reset clears threshold and floating mana",
+    "Unimplemented real-card effects and unsupported stack actions fail closed rather than silently assuming value"
+  ],
+  "scenarios": [
+    {
+      "id": "kessig_order",
+      "description": "Two one-mana test noncreature spells with Kessig; only second receives granted cascade after first ping resolves"
+    },
+    {
+      "id": "birgi_order",
+      "description": "Pay red for Boltwave; resolve Birgi mana trigger then use that red for later Boltwave"
+    },
+    {
+      "id": "heartless_removed",
+      "description": "Resolve activated Heartless ability after removing its source"
+    },
+    {
+      "id": "tree_removed",
+      "description": "Resolve activated Tree ability after removing its source"
+    },
+    {
+      "id": "bituminous_double",
+      "description": "Bituminous Blast from hand with current threshold at least five and a legal creature target"
+    },
+    {
+      "id": "bituminous_printed_only",
+      "description": "Bituminous Blast from hand without Abaddon, legal creature target"
+    },
+    {
+      "id": "cascade_exile_cast",
+      "description": "Cascade into a lower-mv synthetic noncreature spell from exile and apply noncreature cast triggers"
+    }
+  ],
+  "limits": [
+    "Purposefully tiny deterministic effect interpreter, not comprehensive Comprehensive Rules engine",
+    "No opponent AI, multiplayer priorities, responses frequencies, library/mulligan distributions, card draw/selection, tutor policies, or Game Changer bracket probabilities",
+    "Only specifically supported card effects; test-only synthetic spells must not enter real approved decks",
+    "Default trigger stack order deterministic, not an optimal priority/trigger-order search",
+    "No actual comparative deck win rate, no complete M6 Phase B, no Pass C, I/J certificates or candidate improvement proof"
+  ],
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  }
+}

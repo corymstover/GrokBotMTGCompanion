@@ -1,0 +1,64 @@
+name: ChatGPT cycle 96 - Abaddon effect-aware turn-state microtraces
+on:
+  push:
+    branches:
+      - chatgpt-cycle96-abaddon-turn-state
+    paths:
+      - .github/workflows/chatgpt-cycle96-abaddon-turn-state.yml
+      - scripts/grixis_m6_abaddon_turn_state.py
+      - tests/test_m6_abaddon_turn_state.py
+      - data/grixis/m6/phase_b_plans/abaddon_turn_state_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle96-abaddon-turn-state
+  cancel-in-progress: true
+jobs:
+  turn-state:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle96-abaddon-turn-state
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial bounded cast/stack/mana tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_turn_state.py' -v
+      - name: Build and independently check deterministic actual-effect receipts
+        run: python scripts/grixis_m6_abaddon_turn_state.py --build --check
+      - name: Check no canonical or approval state mutation
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unexpected generated output outside M6';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_turn_state_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert a['scenario_count']==7
+          assert a['actual_turn_state_effects_supported'] is True
+          assert a['full_deck_paired_effect_simulator'] is False
+          assert a['full_phase_b_complete'] is False
+          assert a['supports_improvement_claim'] is False
+          assert all(not v for v in a['authority'].values())
+          PY
+      - name: Commit only regenerated bounded evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_turn_state_01.json
+          if git diff --cached --quiet; then
+            echo 'already current'
+          else
+            git commit -m 'Cycle 96: store deterministic effect-aware Abaddon microtraces [skip ci]'
+            git pull --rebase origin chatgpt-cycle96-abaddon-turn-state
+            git push origin HEAD:chatgpt-cycle96-abaddon-turn-state
+          fi
