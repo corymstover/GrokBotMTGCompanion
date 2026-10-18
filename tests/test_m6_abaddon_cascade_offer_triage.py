@@ -2,7 +2,7 @@
 import sys,unittest
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from grixis_m6_abaddon_cascade_offer_triage import oracle_classification
+from grixis_m6_abaddon_cascade_offer_triage import oracle_classification,classify_card_specific_roles,ROLE_CHECKS
 
 def offer(name="Lightning Bolt",mv=1):
  return {"eligible_name":name,"eligible_mv":mv,"eligible_uid":"m036"}
@@ -41,5 +41,21 @@ class GateTests(unittest.TestCase):
           layout="modal_dfc"),{"Dual Form"})
   self.assertIn("ALTERNATE_CARD_FACE_OR_COMPLEX_LAYOUT",x["relevant_target_or_choice_flags"])
   self.assertEqual(x["spell_legality_if_chosen"],"UNVERIFIED_MAY_REQUIRE_CONTEXT")
+
+class PostResultRoles(unittest.TestCase):
+ def test_seven_exact_cards_are_qualitative_unknowns(self):
+  sources={n:{"oracle_text":" and ".join(v["snippets"])}
+    for n,v in ROLE_CHECKS.items()}
+  classified=classify_card_specific_roles(sources,set(sources))
+  self.assertEqual(len(classified),7)
+  self.assertTrue(all(not x["was_cast_in_source_evidence"] and
+    not x["realized_value_measured"] and x["relative_deck_value"]=="UNKNOWN_NOT_ZERO"
+    for x in classified.values()))
+ def test_missing_printed_mechanic_or_spurious_card_fails(self):
+  sources={n:{"oracle_text":" and ".join(v["snippets"])}
+    for n,v in ROLE_CHECKS.items()}
+  sources["Chrome Mox"]["oracle_text"]="Artifact mana without imprint"
+  with self.assertRaises(ValueError):classify_card_specific_roles(sources,set(sources))
+  with self.assertRaises(ValueError):classify_card_specific_roles(sources,{"Sol Ring"})
 
 if __name__=="__main__":unittest.main()
