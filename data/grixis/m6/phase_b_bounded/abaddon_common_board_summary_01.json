@@ -1,0 +1,28 @@
+{
+  "M6_accepted": false,
+  "comparison_type": "SAME_SEED_INITIAL_HAND_AND_BOARD_SOURCE_RECONCILIATION_NOT_FULL_BALANCED_EFFECT_PLAY",
+  "cycle": 110,
+  "paired_seeds": 240,
+  "relative_deck_strength": "CANNOT_EVALUATE",
+  "role_vector": {
+    "baseline_mana_generated_not_spent": 5,
+    "baseline_real_cascade_spell_resolutions": 4,
+    "baseline_threat_3_3_removed": 7,
+    "baseline_unknown_hit_offers": 3,
+    "baseline_unresolved_mana_vault_upkeeps": 2,
+    "blast_casts": 7,
+    "heartless_activation_opponent_life_lost_conditional": 216,
+    "heartless_cast": 7,
+    "heartless_conditional_tap": 4,
+    "heartless_followup_source_payable": 0,
+    "heartless_self_damage_conditional": 65,
+    "heartless_tap_abaddon_on_board": 4,
+    "tree_activation_opponent_life_lost_conditional": 432,
+    "tree_cast": 19,
+    "tree_conditional_tap": 16,
+    "tree_followup_source_payable": 0,
+    "tree_self_damage_conditional": 0,
+    "tree_tap_abaddon_on_board": 4
+  },
+  "stronger_deck_demonstrated": false
+}
