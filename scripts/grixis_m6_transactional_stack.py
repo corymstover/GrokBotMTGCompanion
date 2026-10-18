@@ -82,7 +82,12 @@ class TransactionalLedger(Ledger):
   return name,spec,printed
 
  def _payment(self,cost,tax=0):
-  units=[frozenset((col,)) for col in MANA for _ in range(self.mana[col])]
+  # Stable preference for colorless when paying GENERIC costs. The frozen
+  # v1.1 can_pay helper breaks equal-flexibility ties by unit input order;
+  # presenting colored units first needlessly burns mana needed by later spells.
+  # Pips still require exact matching, including U/B/R for Abaddon.
+  order=("C","W","U","B","R","G")
+  units=[frozenset((col,)) for col in order for _ in range(self.mana[col])]
   indexes=grixis_sim.can_pay(cost,units,tax=tax)
   if indexes is None:raise BlockedAction("Cannot pay exact colored/generic printed mana and commander tax")
   after=dict(self.mana)
