@@ -65,17 +65,36 @@ class ActualCascade(BlastCascade):
   self.unknown_hits=[]
   self.hit_cascade_triggers_created=0
   self.available_mana_unspent_after_rock=0
+  self.unmodeled_vault_upkeep_triggers=0
 
  @contextmanager
  def atomic(self):
   fields=("executed_hits","unknown_hits","hit_cascade_triggers_created",
-          "available_mana_unspent_after_rock")
+          "available_mana_unspent_after_rock","unmodeled_vault_upkeep_triggers")
   prior={k:copy.deepcopy(getattr(self,k)) for k in fields}
   try:
    with super().atomic():yield
   except Exception:
    for k,v in prior.items():setattr(self,k,v)
    raise
+
+ def next_turn(self):
+  # Unlike normal artifacts, tapped Mana Vault DOES NOT untap naturally.
+  # Its printed upkeep damage trigger is not executed in this abbreviated
+  # no-opponent-turn engine. Count the unresolved event rather than pretending
+  # that the controller received free ready mana or took observed damage.
+  vaults=[u for u in self.zones["battlefield"]
+    if self.cards[u]["name"]=="Mana Vault" and u in self.tapped]
+  with self.atomic():
+   super().next_turn()
+   for uid in vaults:
+    self.tapped.add(uid)
+    self.unmodeled_vault_upkeep_triggers+=1
+    self.outcome_events.append({"event":"mana_vault_upkeep_not_modeled",
+      "physical_uid":uid,"untap_remains_prohibited":True,
+      "damage_trigger_exists_but_not_resolved":True,
+      "turn":self.turn})
+   self.check()
 
  def _cascade_offer(self,frame):
   exiled=[]
@@ -230,7 +249,8 @@ def one_trial(library,commanders,seed,turns,removal):
    "commander_present_at_end":any(t.cards[u]["name"]=="Abaddon the Despoiler" for u in t.zones["battlefield"]),
    "initial_inventory":t.initial_inventory_hash,"zone_counts":t.receipt()["zone_counts"],
    "trigger_count":t.cascade_triggers,"triggers_resolved":t.cascade_resolved,
-   "new_Abaddon_cascades_from_exile":t.hit_cascade_triggers_created}
+   "new_Abaddon_cascades_from_exile":t.hit_cascade_triggers_created,
+   "mana_vault_upkeeps_unresolved":t.unmodeled_vault_upkeep_triggers}
 
 def run():
  plan=load(PLAN);prior=load(C107);audit=load(C108);reg=load(REG)
@@ -273,6 +293,7 @@ def run():
    tot["eligible_offers"]+=len(trial["cascade_offers"])
    tot["unknown_offers_declined"]+=len(trial["declined_unknown_hits"])
    tot["colorless_mana_generated_but_unspent"]+=trial["generated_rock_mana_not_spent_in_followup"]
+   tot["mana_vault_upkeeps_unresolved"]+=trial["mana_vault_upkeeps_unresolved"]
    tot["supported_cascade_from_exile_granted_again"]+=trial["new_Abaddon_cascades_from_exile"]
    rec.append(trial)
   if tot["real_Blast_casts"]!=7 or tot["eligible_offers"]!=7:
@@ -294,6 +315,7 @@ def run():
    "actual_cascade_from_exile_spells_can_resolve":True,
    "four_card_effect_subset_only":True,
    "realized_downstream_deck_win_value":"UNKNOWN_NOT_ZERO",
+   "mana_vault_upkeep_damage_events_not_resolved":True,
    "three_deferred_effects":["Windfall","Chrome Mox","Deflecting Swat"],
    "full_multiplayer_gameplay":False,"balanced_three_variant_phase_b":False,
    "comparative_deck_strength":"CANNOT_EVALUATE",
