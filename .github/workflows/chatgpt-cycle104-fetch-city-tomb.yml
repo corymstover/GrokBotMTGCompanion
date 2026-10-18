@@ -1,0 +1,96 @@
+name: ChatGPT cycle 104 - fetch search City trigger Tomb mana
+on:
+  push:
+    branches:
+      - chatgpt-cycle104-fetch-city-tomb
+    paths:
+      - .github/workflows/chatgpt-cycle104-fetch-city-tomb.yml
+      - data/grixis/m6/phase_b_plans/fetch_city_tomb_62_01.json
+      - scripts/grixis_m6_fetch_city_tomb.py
+      - scripts/grixis_m6_fetch_city_tomb_62.py
+      - tests/test_m6_fetch_city_tomb.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle104-fetch-city-tomb
+  cancel-in-progress: true
+jobs:
+  bounded-search-damage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle104-fetch-city-tomb
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial physical fetch costs, shuffle, City trigger and Tomb mana tests
+        run: python -m unittest discover -s tests -p 'test_m6_fetch_city_tomb.py' -v
+      - name: Restore frozen October 2026 Scryfall cards by exact checksum
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib,urllib.request
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,digest in [
+            ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+            ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+            ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+            p=cache/name
+            urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,p)
+            if hashlib.sha256(p.read_bytes()).hexdigest()!=digest:
+              raise SystemExit('Frozen bulk mismatch '+name)
+            print('verified Scryfall source',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Build 744 access fixtures with actual fetch shuffles and utility damage
+        run: python -u scripts/grixis_m6_fetch_city_tomb_62.py --build
+      - name: Independently replay both detailed and compact evidence
+        run: python -u scripts/grixis_m6_fetch_city_tomb_62.py --check
+      - name: Verify 62 source cards, sample counts, limits and authority
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected file edited';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('data/grixis/m6/phase_b_bounded/fetch_city_tomb_62_01.json').read_text())
+          b=json.loads(Path('data/grixis/m6/phase_b_bounded/fetch_city_tomb_62_summary_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62 and r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert len(a['oracle_verified_new_lands'])==12
+          assert a['decks']==62 and a['samples']==744 and len(a['deck_samples'])==62
+          assert b['samples']==a['samples'] and b['decks']==a['decks']
+          assert b['fetch_resolutions']==a['fetch_searches_resolved']
+          assert b['new_signet_paid']==a['new_signets_paid']
+          assert b['new_signet_seen']==a['new_signets_seen']
+          assert b['post_search_draw_divergences']==a['post_search_draw_divergences']
+          assert b['no_win_probability_or_card_strength_claim']
+          assert not a['full_gameplay_model'] and not a['complete_priority']
+          assert not a['full_phase_b_complete'] and not a['M6_accepted']
+          assert not a['supports_improvement_claim'] and all(not v for v in a['authority'].values())
+          for deck in a['deck_samples']:
+            assert len(deck['samples'])==12
+            for s in deck['samples']:
+              assert len(s['opening_names'])==7 and len(s['draw_step_names'])==4
+              assert sum(s['final_zone_counts'].values())==100
+              assert s['same_physical_inventory'] and s['no_injected_mana']
+              assert s['fetch_activations']==s['fetch_searches_resolved']
+              assert not s['no_real_opponent_actions'] is False
+          PY
+      - name: Commit only bounded Cycle 104 evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/fetch_city_tomb_62_01.json data/grixis/m6/phase_b_bounded/fetch_city_tomb_62_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Evidence already current'
+          else
+            git commit -m 'Cycle104: store real fetch shuffle City trigger and Tomb receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle104-fetch-city-tomb
+            git push origin HEAD:chatgpt-cycle104-fetch-city-tomb
+          fi
