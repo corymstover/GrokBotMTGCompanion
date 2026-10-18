@@ -42,7 +42,7 @@ class TurnState:
   self.library=list(library);self.exile=[];self.graveyard=[]
   self.board={};self.stack=[];self.events=[]
   self.opponents=list(opponents);self.pilot=pilot;self.turn=turn
-  self.lost=0;self.own_turn=True;self.command_casts=0
+  self.lost=0;self.own_turn=True;self.main_phase=True;self.command_casts=0
   self.target_creature=target_creature;self.prevent=set()
   self.rng=random.Random(9617)
   self.over=False;self._cascade_offer=None;self.command_ready=True
@@ -80,6 +80,9 @@ class TurnState:
   if name not in CARDS:raise Unsupported("Unmodeled card cast: "+name)
   card=CARDS[name]
   if card["type"]=="land":raise ValueError("Land cannot be cast")
+  if card["type"] in ("creature","sorcery") and origin!="cascade_exile":
+   if not self.own_turn or not self.main_phase or self.stack:
+    raise ValueError("Ordinary creature/sorcery requires your main phase and empty stack")
   if origin=="hand":
    if name not in self.hand:raise ValueError("Spell not in hand")
    if free:raise ValueError("Free cast requires cascade resolver")
