@@ -1,0 +1,706 @@
+{
+  "approved_list_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_change_canonical_list": false,
+    "can_decide": false
+  },
+  "blocked_ranking": "No win rate, upgrade preference, draw/mulligan/answer probability or deckwide pair comparison",
+  "board_results": [
+    {
+      "id": "fresh_heartless",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": false,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 0,
+        "total_opponent_life_lost": 0
+      },
+      "source": "Heartless Hidetsugu"
+    },
+    {
+      "id": "untapped_heartless",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": true,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": true,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": true,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 20,
+        "total_opponent_life_lost": 54
+      },
+      "source": "Heartless Hidetsugu"
+    },
+    {
+      "id": "heartless_removed_before_activation",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": false,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 0,
+        "total_opponent_life_lost": 0
+      },
+      "source": "Heartless Hidetsugu"
+    },
+    {
+      "id": "heartless_removed_after_activation",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": true,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": true,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": true,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 20,
+        "total_opponent_life_lost": 54
+      },
+      "source": "Heartless Hidetsugu"
+    },
+    {
+      "id": "fresh_tree",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": false,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 0,
+        "total_opponent_life_lost": 0
+      },
+      "source": "Tree of Perdition"
+    },
+    {
+      "id": "untapped_tree",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": true,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": true,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": true,
+        "exchange_resolved": true,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 0,
+        "total_opponent_life_lost": 27
+      },
+      "source": "Tree of Perdition"
+    },
+    {
+      "id": "tree_removed_before_activation",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": false,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 0,
+        "total_opponent_life_lost": 0
+      },
+      "source": "Tree of Perdition"
+    },
+    {
+      "id": "tree_removed_after_activation",
+      "mana_followup": [
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "tight_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "enough_after_commander"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": true,
+          "pool_id": "followup_only"
+        },
+        {
+          "granted_cascade_on_followup": false,
+          "nominal_colored_followup_castable": false,
+          "pool_id": "color_short_after_commander"
+        }
+      ],
+      "observed": {
+        "activation_legal": true,
+        "exchange_resolved": false,
+        "game_continues": true,
+        "opponents_defeated": 0,
+        "pilot_damage": 0,
+        "total_opponent_life_lost": 0
+      },
+      "source": "Tree of Perdition"
+    }
+  ],
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "deck_id": "Abaddon_the_Despoiler",
+  "effect_aware_deckwide_paired_test_executed": false,
+  "full_phase_b_complete": false,
+  "limitations": [
+    "Eight conditional board states; not a sampled 99-card deck, paired Phase-B or multiplayer policy",
+    "Specified prepaid mana pools only; no taxes, alternative costs, draw, counters or protection",
+    "Kessig/Birgi witnesses require source survival and resolving triggers; Harnfel unmodeled",
+    "Printed cascade instance counts do not simulate hits or downstream performance",
+    "Opponent removal and survival scenarios have no estimated frequencies",
+    "No Phase-B, Pass C, I, J, M6, swap or winner certification"
+  ],
+  "preregistration_sha256": "sha256:6d3f5abef699737c9023be045fbb7a5b92c84e7fa4a19cd3093c88adb728ce04",
+  "printed_cascade_cases": [
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 0,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": false,
+      "opponent_life_lost": 0,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 0,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "exile"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 0,
+      "own_turn": false,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 3,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 1,
+        "printed": 0,
+        "total_on_cast": 1
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": false,
+      "opponent_life_lost": 3,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 3,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "exile"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 3,
+      "own_turn": false,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 4,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 1,
+        "printed": 0,
+        "total_on_cast": 1
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": false,
+      "opponent_life_lost": 4,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 4,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "exile"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 4,
+      "own_turn": false,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 1,
+        "printed": 1,
+        "total_on_cast": 2
+      },
+      "commander_present": true,
+      "opponent_life_lost": 5,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 1,
+        "printed": 0,
+        "total_on_cast": 1
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": false,
+      "opponent_life_lost": 5,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 5,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "exile"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 5,
+      "own_turn": false,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 1,
+        "printed": 1,
+        "total_on_cast": 2
+      },
+      "commander_present": true,
+      "opponent_life_lost": 27,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 1,
+        "printed": 0,
+        "total_on_cast": 1
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": false,
+      "opponent_life_lost": 27,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 27,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "exile"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 27,
+      "own_turn": false,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 1,
+        "printed": 1,
+        "total_on_cast": 2
+      },
+      "commander_present": true,
+      "opponent_life_lost": 54,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 1,
+        "printed": 0,
+        "total_on_cast": 1
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": false,
+      "opponent_life_lost": 54,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 54,
+      "own_turn": true,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "exile"
+    },
+    {
+      "bituminous_blast": {
+        "granted_by_abaddon": 0,
+        "printed": 1,
+        "total_on_cast": 1
+      },
+      "commander_present": true,
+      "opponent_life_lost": 54,
+      "own_turn": false,
+      "plain_mv3": {
+        "granted_by_abaddon": 0,
+        "printed": 0,
+        "total_on_cast": 0
+      },
+      "spell_origin": "hand"
+    }
+  ],
+  "prior_rule_grid_sha256": "sha256:a9be828dc4f3cc9190390f526139f14dcc5bbde547c232fbeb622ed22649fd53",
+  "retained_engine_witnesses": {
+    "Birgi, God of Storytelling": {
+      "available_to_pay_same_spells_that_triggered": false,
+      "available_to_pay_subsequent_spells_while_unspent": true,
+      "harnfel_effect_modeled": false,
+      "red_mana_from_cast_triggers_if_resolved": 2,
+      "spells_cast": 2
+    },
+    "Kessig Flamebreather": {
+      "grant_cascade_on_each_cast": [
+        false,
+        true
+      ],
+      "opponents": 3,
+      "requires_opponents_taking_unprevented_damage": true,
+      "spells_cast": 2,
+      "threshold_after_both_trigger_resolutions": 6,
+      "threshold_at_each_mv3_cast": [
+        0,
+        3
+      ]
+    }
+  },
+  "schema_version": 1,
+  "slug": "abaddon-the-despoiler",
+  "source_baseline_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "stage": "M6_Abaddon_bounded_effect_aware_followthrough",
+  "supports_improvement_claim": false
+}
