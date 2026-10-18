@@ -31,20 +31,35 @@ def verify():
  if (p["cycle"]!=100 or p["preregistration_status"]!="registered_before_implementation"
      or p["protected"]!=AUTH or prior["supports_improvement_claim"]
      or len(reg["decks"])!=62 or len(summ)!=62
-     or set(reg["decks"])!=set(summ)
      or reg["program"]["milestones"]["M5"]["status"]!="accepted"
      or reg["program"]["milestones"]["M6"]["accepted_by"] is not None
      or c["roster_decks"]!=62 or c["samples_per_deck"]!=4
      or c["seed"]!=100017 or c["starting_hand_size"]!=7
      or c["draws_after_opening"]!=4):
   raise ValueError("Unaccepted authority, prereg or 62-deck scope drift")
+ # Registry is the authority for normalized deck IDs. The imported source
+ # summary can retain a documented old source ID (Norman was originally Goben).
+ # Match by exact unique slug and confirm the registered source_deck_id alias.
+ summary_by_slug={}
+ for source_id,entry in summ.items():
+  slug=entry["slug"]
+  if slug in summary_by_slug:raise ValueError("Duplicate legacy summary slug: "+slug)
+  summary_by_slug[slug]=(source_id,entry)
+ if set(summary_by_slug)!={v["slug"] for v in reg["decks"].values()}:
+  raise ValueError("Source summary/authority slug set drift")
  resolver=ev.Resolver()
- cards_report=[]
+ cards_report=[];aliases=[]
  all_seeds=set();n_samples=0
- for ordinal,did in enumerate(sorted(summ)):
-  info=summ[did];r=reg["decks"][did]
-  slug=info["slug"]
-  if slug!=r["slug"]:raise ValueError("Slug drift "+did)
+ for ordinal,did in enumerate(sorted(reg["decks"])):
+  r=reg["decks"][did];slug=r["slug"]
+  source_id,info=summary_by_slug[slug]
+  if source_id!=did:
+   prov=r.get("deck_id_provenance") or {}
+   if prov.get("source_deck_id")!=source_id:
+    raise ValueError("Undocumented source summary alias for "+did+": "+source_id)
+   aliases.append({"normalized_deck_id":did,"original_source_id":source_id,
+                   "slug":slug,"provenance_confirmed":True})
+  if slug!=info["slug"]:raise ValueError("Slug drift "+did)
   deck=sim.load_deck(slug,resolver)
   if len(deck.commanders)!=len(info["commanders"]):
    raise ValueError("Commander count mismatch: "+did)
@@ -79,6 +94,8 @@ def verify():
                    "conservation_pass":True})
    n_samples+=1
   cards_report.append({"deck_id":did,"slug":slug,
+       "source_summary_deck_id":source_id,
+       "source_alias_verified":source_id==did or any(x["normalized_deck_id"]==did for x in aliases),
        "commanders":info["commanders"],"main_library_size":len(deck.library),
        "physical_card_count":len(deck.library)+len(deck.commanders),
        "authoritative_baseline_hash":r.get("baseline_hash"),
@@ -93,6 +110,7 @@ def verify():
    "registry_sha256":sha(REG),"summaries_sha256":sha(SUMMARY),
    "cycle99_evidence_sha256":sha(PRIOR),
    "roster_decks":len(cards_report),"total_samples":n_samples,
+   "source_id_aliases":aliases,
    "seed":c["seed"],"opening_hand_size":c["starting_hand_size"],
    "draws_after_opening":c["draws_after_opening"],
    "all_samples_physical_conservation_verified":True,
