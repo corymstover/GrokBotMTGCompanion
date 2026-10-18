@@ -1,0 +1,558 @@
+{
+  "cycle": 103,
+  "decks": 62,
+  "land_play_name_counts": {
+    "Badlands": 81,
+    "Blood Crypt": 67,
+    "Command Tower": 82,
+    "Crumbling Necropolis": 14,
+    "Dragonskull Summit": 9,
+    "Drowned Catacomb": 12,
+    "Island": 142,
+    "Luxury Suite": 58,
+    "Mana Confluence": 78,
+    "Morphic Pool": 84,
+    "Mountain": 131,
+    "Steam Vents": 88,
+    "Sulfur Falls": 16,
+    "Swamp": 154,
+    "Training Center": 70,
+    "Underground Sea": 80,
+    "Volcanic Island": 68,
+    "Watery Grave": 91,
+    "Xander's Lounge": 58
+  },
+  "modeled_land_plays": 1383,
+  "no_game_or_commander_strength_claim": true,
+  "per_deck": [
+    {
+      "deck_id": "Abaddon_the_Despoiler",
+      "land_plays": 18,
+      "nonbasic_plays": 10,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Admiral_Beckett_Brass",
+      "land_plays": 27,
+      "nonbasic_plays": 21,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "land_plays": 27,
+      "nonbasic_plays": 22,
+      "signet_seen": 3,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Anhelo__the_Painter",
+      "land_plays": 22,
+      "nonbasic_plays": 12,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "land_plays": 24,
+      "nonbasic_plays": 15,
+      "signet_seen": 4,
+      "source_paid": 3
+    },
+    {
+      "deck_id": "Ashnod_the_Uncaring",
+      "land_plays": 17,
+      "nonbasic_plays": 11,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "land_plays": 38,
+      "nonbasic_plays": 21,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "land_plays": 27,
+      "nonbasic_plays": 19,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Cormela__Glamour_Thief",
+      "land_plays": 16,
+      "nonbasic_plays": 9,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Crosis__the_Purger",
+      "land_plays": 29,
+      "nonbasic_plays": 16,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Cult_of_Skaro",
+      "land_plays": 30,
+      "nonbasic_plays": 15,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Davros__Dalek_Creator",
+      "land_plays": 26,
+      "nonbasic_plays": 17,
+      "signet_seen": 3,
+      "source_paid": 3
+    },
+    {
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "land_plays": 15,
+      "nonbasic_plays": 14,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Don_Andres__the_Renegade",
+      "land_plays": 25,
+      "nonbasic_plays": 20,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Dr__Eggman",
+      "land_plays": 25,
+      "nonbasic_plays": 17,
+      "signet_seen": 3,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Edea__Possessed_Sorceress",
+      "land_plays": 30,
+      "nonbasic_plays": 20,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Edward_Kenway",
+      "land_plays": 25,
+      "nonbasic_plays": 15,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Evelyn__the_Covetous",
+      "land_plays": 11,
+      "nonbasic_plays": 8,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Fire_Lord_Azula",
+      "land_plays": 11,
+      "nonbasic_plays": 11,
+      "signet_seen": 3,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "land_plays": 21,
+      "nonbasic_plays": 15,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Goro_Goro_and_Satoru",
+      "land_plays": 18,
+      "nonbasic_plays": 14,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Grixistax___October_2026",
+      "land_plays": 17,
+      "nonbasic_plays": 13,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "land_plays": 32,
+      "nonbasic_plays": 20,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "land_plays": 17,
+      "nonbasic_plays": 13,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "land_plays": 17,
+      "nonbasic_plays": 15,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Kefka__Court_Mage",
+      "land_plays": 12,
+      "nonbasic_plays": 12,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Kess__Dissident_Mage",
+      "land_plays": 12,
+      "nonbasic_plays": 12,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Loki__the_Deceiver",
+      "land_plays": 27,
+      "nonbasic_plays": 17,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Lord_Xander__the_Collector",
+      "land_plays": 23,
+      "nonbasic_plays": 14,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Lord_of_Tresserhorn",
+      "land_plays": 13,
+      "nonbasic_plays": 10,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "land_plays": 30,
+      "nonbasic_plays": 19,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "land_plays": 14,
+      "nonbasic_plays": 14,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Mairsil__the_Pretender",
+      "land_plays": 17,
+      "nonbasic_plays": 16,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "land_plays": 15,
+      "nonbasic_plays": 15,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Marchesa__the_Black_Rose",
+      "land_plays": 27,
+      "nonbasic_plays": 20,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "land_plays": 22,
+      "nonbasic_plays": 19,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Mishra__Eminent_One",
+      "land_plays": 19,
+      "nonbasic_plays": 12,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Missy",
+      "land_plays": 26,
+      "nonbasic_plays": 20,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "land_plays": 14,
+      "nonbasic_plays": 11,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Nekusar__the_Mindrazer",
+      "land_plays": 29,
+      "nonbasic_plays": 21,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Nicol_Bolas",
+      "land_plays": 13,
+      "nonbasic_plays": 10,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "land_plays": 21,
+      "nonbasic_plays": 16,
+      "signet_seen": 3,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "land_plays": 11,
+      "nonbasic_plays": 11,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Obeka__Brute_Chronologist",
+      "land_plays": 24,
+      "nonbasic_plays": 19,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "land_plays": 33,
+      "nonbasic_plays": 22,
+      "signet_seen": 3,
+      "source_paid": 3
+    },
+    {
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "land_plays": 23,
+      "nonbasic_plays": 14,
+      "signet_seen": 0,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "RogSi",
+      "land_plays": 8,
+      "nonbasic_plays": 8,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Saruman__the_White_Hand",
+      "land_plays": 27,
+      "nonbasic_plays": 17,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "land_plays": 24,
+      "nonbasic_plays": 19,
+      "signet_seen": 2,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Sauron__the_Dark_Lord",
+      "land_plays": 24,
+      "nonbasic_plays": 14,
+      "signet_seen": 3,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Sedris__the_Traitor_King",
+      "land_plays": 21,
+      "nonbasic_plays": 16,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "land_plays": 24,
+      "nonbasic_plays": 14,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Sol_kanar_the_Tainted",
+      "land_plays": 27,
+      "nonbasic_plays": 14,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "Tetsuo_Umezawa",
+      "land_plays": 36,
+      "nonbasic_plays": 14,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "land_plays": 30,
+      "nonbasic_plays": 13,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "The_Madcap_Jester",
+      "land_plays": 18,
+      "nonbasic_plays": 18,
+      "signet_seen": 2,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "The_Rani",
+      "land_plays": 30,
+      "nonbasic_plays": 21,
+      "signet_seen": 1,
+      "source_paid": 1
+    },
+    {
+      "deck_id": "The_Valeyard",
+      "land_plays": 21,
+      "nonbasic_plays": 11,
+      "signet_seen": 1,
+      "source_paid": 0
+    },
+    {
+      "deck_id": "Thraximundar",
+      "land_plays": 31,
+      "nonbasic_plays": 20,
+      "signet_seen": 4,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "land_plays": 28,
+      "nonbasic_plays": 17,
+      "signet_seen": 3,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Wick__the_Whorled_Mind",
+      "land_plays": 23,
+      "nonbasic_plays": 17,
+      "signet_seen": 2,
+      "source_paid": 2
+    },
+    {
+      "deck_id": "Zevlor__Elturel_Exile",
+      "land_plays": 21,
+      "nonbasic_plays": 16,
+      "signet_seen": 3,
+      "source_paid": 0
+    }
+  ],
+  "prior_basic_only_casts": 12,
+  "samples": 744,
+  "schema_version": 1,
+  "signet_seen": 96,
+  "source_paid_signet_casts": 51,
+  "source_preregistration_sha256": "sha256:cbc11451612011beba179ce0c1987be44a565a71a1781b8455ecdeea98f5c0ad",
+  "supported_nonbasic_plays": 956,
+  "tapped_entries": 97,
+  "unsupported_land_seen_count": {
+    "Academy Ruins": 13,
+    "Ally Encampment": 3,
+    "Ancient Tomb": 74,
+    "Arcane Lighthouse": 1,
+    "Arena of Glory": 9,
+    "Arid Mesa": 20,
+    "Barad-dûr": 7,
+    "Blazemire Verge": 2,
+    "Blightstep Pathway // Searstep Pathway": 9,
+    "Bloodstained Mire": 102,
+    "Bojuka Bog": 18,
+    "Buried Ruin": 3,
+    "Cabal Coffers": 2,
+    "Canyon Slough": 1,
+    "Cavern of Souls": 18,
+    "City of Brass": 60,
+    "City of Traitors": 14,
+    "Clearwater Pathway // Murkwater Pathway": 5,
+    "Command Beacon": 2,
+    "Darksteel Citadel": 2,
+    "Desolate Lighthouse": 1,
+    "Emergence Zone": 1,
+    "Exotic Orchard": 45,
+    "Fabled Passage": 4,
+    "Fiery Islet": 5,
+    "Fire Nation Palace": 2,
+    "Flooded Strand": 53,
+    "Forbidden Orchard": 1,
+    "Geier Reach Sanitarium": 5,
+    "Gemstone Caverns": 21,
+    "Great Furnace": 13,
+    "Hall of Echoes": 5,
+    "Hall of the Bandit Lord": 3,
+    "Haunted Ridge": 9,
+    "High Market": 4,
+    "Homeward Path": 1,
+    "Inventors' Fair": 10,
+    "Karn's Bastion": 2,
+    "Kher Keep": 4,
+    "Marsh Flats": 57,
+    "Mikokoro, Center of the Sea": 1,
+    "Minamo, School at Water's Edge": 6,
+    "Minas Morgul, Dark Fortress": 3,
+    "Mishra's Workshop": 3,
+    "Mistrise Village": 3,
+    "Misty Rainforest": 48,
+    "Mount Doom": 6,
+    "Oscorp Industries": 2,
+    "Otawara, Soaring City": 54,
+    "Path of Ancestry": 9,
+    "Phyrexian Tower": 18,
+    "Plaza of Heroes": 5,
+    "Polluted Delta": 93,
+    "Raucous Theater": 3,
+    "Reflecting Pool": 11,
+    "Reliquary Tower": 1,
+    "Riverglide Pathway // Lavaglide Pathway": 3,
+    "Rogue's Passage": 4,
+    "Scalding Tarn": 69,
+    "Seat of the Synod": 5,
+    "Secluded Courtyard": 4,
+    "Shipwreck Marsh": 19,
+    "Shivan Reef": 28,
+    "Shizo, Death's Storehouse": 11,
+    "Smoldering Marsh": 5,
+    "Sokenzan, Crucible of Defiance": 8,
+    "Spire of Industry": 2,
+    "Starting Town": 6,
+    "Stormcarved Coast": 13,
+    "Sulfurous Springs": 19,
+    "Sunken Hollow": 5,
+    "Sunken Palace": 1,
+    "Swarmyard": 1,
+    "Takenuma, Abandoned Mire": 27,
+    "The Black Gate": 7,
+    "Thundering Falls": 1,
+    "Undercity Sewers": 10,
+    "Underground River": 14,
+    "Urborg": 3,
+    "Urborg, Tomb of Yawgmoth": 29,
+    "Urza's Saga": 12,
+    "Vault of Whispers": 10,
+    "Verdant Catacombs": 48,
+    "Villainous Hideout": 3,
+    "Wooded Foothills": 28
+  }
+}
