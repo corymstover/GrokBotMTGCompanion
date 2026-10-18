@@ -1,0 +1,33 @@
+{
+  "cycle": 107,
+  "status": "preregistered_before_implementation",
+  "source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "prior_evidence": "data/grixis/m6/phase_b_bounded/abaddon_physical_slot_01.json",
+  "seed": 106017,
+  "trials": 240,
+  "turns": 8,
+  "focus": "Actual held mana-paid Bituminous Blast versus externally scripted 3/3 opponent creature; physical cascade offer search.",
+  "scenarios": [
+    "No target removal: damage 4 destroys scripted 3/3 after cascade",
+    "Target removed after cast: cascade resolves, Blast fails",
+    "Commander absent: one printed cascade",
+    "Commander present with prior opponent life loss >= 5: two cascades",
+    "Unsupported cascade hit never counted as zero value; controller declines to cast and records UNKNOWN"
+  ],
+  "gates": [
+    "Exactly same 240 Cycle106 baseline starting hands and source IDs",
+    "Actual hand and modeled land mana rather than injected mana",
+    "Real library top-down exile until lower mana value nonland; deterministic bottom placement",
+    "100 physical IDs conserved, including commander",
+    "No artificial target selection probabilities, opponents, wins, formal Phase B or independent certificates",
+    "No changed approved list or M6 milestone"
+  ],
+  "verdict": "CANNOT_EVALUATE_RELATIVE_DECK_STRENGTH",
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
