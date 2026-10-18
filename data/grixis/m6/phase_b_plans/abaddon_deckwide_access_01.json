@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "cycle": 95,
+  "stage": "M6_Abaddon_two_swap_deckwide_upper_bound_access",
+  "date": "2026-10-17",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "source_baseline_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "approved_source_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "prior_simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "paired_mana_92": "data/grixis/m6/phase_b_bounded/abaddon_threshold_access_01.json",
+  "conditional_rules_94": "data/grixis/m6/phase_b_bounded/abaddon_followthrough_01.json",
+  "samples": 800,
+  "seed": 95017,
+  "turns": 8,
+  "model": "1.1",
+  "paired_method": "Use grixis_paired.align and for each index i the exact same grixis_sim.seed_for(seed,i), library permutation and card policy for baseline and challenger. Baseline and candidate source list are identical except one cut/one addition; 99-library validation required.",
+  "hypotheses": [
+    {
+      "add": "Heartless Hidetsugu",
+      "cut": "Bituminous Blast",
+      "class": "noncore_printed_cascade_control"
+    },
+    {
+      "add": "Tree of Perdition",
+      "cut": "Bituminous Blast",
+      "class": "noncore_printed_cascade_control"
+    }
+  ],
+  "preregistered_metrics": [
+    "commander_cast_by_t4 from M3 v1.1 (paired development only)",
+    "mana_spent_t1_t6 from M3 v1.1 (paired development only)",
+    "candidate_seen_and_gross_mana_at_least_mv_by_t6; NOT actual hand casting",
+    "candidate_delayed_activation_conditional_on_survival_by_t8; assumes accessible source actually resolved",
+    "candidate_post_activation_hand_spell_seen_and_gross_mana_by_t8; NOT playable sequencing",
+    "baseline_bituminous_blast_seen_and_gross_mana_by_t6; requires legal creature target to cast",
+    "baseline_abaddon_present_and_bituminous_cast_access_by_t8, with fixed hypothetical threshold X=0 versus X=5"
+  ],
+  "cascade_probe": {
+    "printed_spell": "Bituminous Blast",
+    "printed_mana_value": 5,
+    "threshold_scenarios": [
+      0,
+      5
+    ],
+    "target_creature_scenarios": [
+      false,
+      true
+    ]
+  },
+  "followup_probes": [
+    {
+      "card": "Ponder",
+      "mana_value": 1
+    },
+    {
+      "card": "Brainstorm",
+      "mana_value": 1
+    }
+  ],
+  "opponents_start_life": [
+    40,
+    39,
+    31
+  ],
+  "pilot_start_life": 40,
+  "activation_policy": {
+    "earliest_next_turn": true,
+    "haste": false,
+    "assume_survival_for_upper_bound": true,
+    "assume_removal_before_activation_for_lower_case": true,
+    "assume_removal_after_activation_separately": true
+  },
+  "interpretation_boundaries": [
+    "All reports derived from full shuffled 99-card canonical/variant libraries and M3 fixed policy, but M3 v1.1 does not simulate the swapped card abilities, cascade, combat, target availability, actual hand retention after first_seen, post-cast leftover mana or opponent interaction.",
+    "Derived effects are rule-accurate only as separately conditional witnesses applied after potential exposure; no simulated new triggered/activated abilities feed back into deck development.",
+    "First-seen and gross mana affordance are NEITHER necessary NOR sufficient conditions for a legal cast: mana may be produced later through rituals or reduced costs, while generic-vs-colored payment, held hand, spent resources, tap/sickness, source survival, and opponent interaction remain unmodeled.",
+    "Do not rank Heartless, Tree or Bituminous Blast on opportunity-event counts; event definitions differ by role.",
+    "No win-rate, holistic deck performance, improvement certificate, formal Phase-B/Pass-C/I/J/M6 acceptance, approval or deck change can follow from this run."
+  ],
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  },
+  "status": "registered_before_test",
+  "methodology_amendment": {
+    "date": "2026-10-17",
+    "reason": "Before reviewer acceptance, correct mistaken characterization of gross M3 start-of-turn mana as a necessary affordability gate; rituals, cost reductions and midturn resource changes make it neither necessary nor sufficient. The historical original preregistration remains recoverable in first commit 259427bd13f33db2e688d92c90270b464734b04c. This amendment changes interpretation only, not hypotheses, seed, sample size or measured outcomes."
+  }
+}

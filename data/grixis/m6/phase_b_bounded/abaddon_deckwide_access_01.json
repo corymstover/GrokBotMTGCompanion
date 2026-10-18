@@ -1,0 +1,267 @@
+{
+  "approved_source_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_change_canonical_list": false,
+    "can_decide": false
+  },
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "effect_aware_deckwide_paired_test_executed": false,
+  "full_phase_b_complete": false,
+  "hard_unclosed_gates": [
+    "Actual hand-held spell casts, life-loss trigger-resolution, cascade hit quality and target availability in paired games are NOT modeled",
+    "Opponent policy, source survival probability and color-accurate spell follow-through are NOT modeled",
+    "Formal independent Pass C, I/J certificates, user acceptance remain pending"
+  ],
+  "hypotheses": [
+    {
+      "add": "Heartless Hidetsugu",
+      "baseline_trace_sha256": "sha256:4734a925b6d3cb265e70e968d6242080009e980c3232d6dc3bb46d49a476ea03",
+      "candidate_conditional_upper_bounds": {
+        "conditional_commander_prior_and_seen_1mv_followup_by_t8": {
+          "ci95": [
+            0.02329,
+            0.04921
+          ],
+          "estimate": 0.03625,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 29,
+          "trials": 800
+        },
+        "conditional_next_turn_activation_by_t8": {
+          "ci95": [
+            0.08602,
+            0.12898
+          ],
+          "estimate": 0.1075,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 86,
+          "trials": 800
+        },
+        "source_gross_castable_by_t6": {
+          "ci95": [
+            0.07354,
+            0.11396
+          ],
+          "estimate": 0.09375,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 75,
+          "trials": 800
+        }
+      },
+      "cut": "Bituminous Blast",
+      "fixed_rule_witness": {
+        "candidate_activation_life_loss_at_40_39_31": 54,
+        "candidate_removed_after_activation_life_loss": 54,
+        "candidate_removed_before_legal_activation_life_loss": 0,
+        "candidate_self_damage": 20,
+        "hypothetical_blast_own_turn_hand_with_X_ge_5_has_two_cascade_triggers": true,
+        "lost_printed_cascade_instances_if_bituminous_cast": 1,
+        "lost_removal_mode": "instant-speed creature damage; cannot cast without legal creature target"
+      },
+      "paired_development": {
+        "commander_cast_by_t4": {
+          "baseline": 0.5325,
+          "challenger": 0.53375,
+          "interpretation": "M3 v1.1 DEVELOPMENT proxy only, not life-loss or winning",
+          "paired_diff": 0.00125,
+          "paired_normal_ci95": [
+            -0.0012,
+            0.0037
+          ],
+          "trials": 800
+        },
+        "mana_spent_t1_t6": {
+          "baseline": 17.3,
+          "challenger": 17.29875,
+          "interpretation": "M3 v1.1 DEVELOPMENT proxy only, not life-loss or winning",
+          "paired_diff": -0.00125,
+          "paired_normal_ci95": [
+            -0.03177,
+            0.02927
+          ],
+          "trials": 800
+        }
+      },
+      "removed_blast_access_upper_bounds": {
+        "double_x0": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 0,
+          "trials": 800
+        },
+        "double_x5": {
+          "ci95": [
+            0.09632,
+            0.14118
+          ],
+          "estimate": 0.11875,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 95,
+          "trials": 800
+        },
+        "printed_no_target": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 0,
+          "trials": 800
+        },
+        "printed_target_present": {
+          "ci95": [
+            0.09977,
+            0.14523
+          ],
+          "estimate": 0.1225,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 98,
+          "trials": 800
+        }
+      },
+      "samples": 800,
+      "seed": 95017,
+      "status": "bounded_observation_not_win_rate_or_swap_verdict"
+    },
+    {
+      "add": "Tree of Perdition",
+      "baseline_trace_sha256": "sha256:4734a925b6d3cb265e70e968d6242080009e980c3232d6dc3bb46d49a476ea03",
+      "candidate_conditional_upper_bounds": {
+        "conditional_commander_prior_and_seen_1mv_followup_by_t8": {
+          "ci95": [
+            0.02329,
+            0.04921
+          ],
+          "estimate": 0.03625,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 29,
+          "trials": 800
+        },
+        "conditional_next_turn_activation_by_t8": {
+          "ci95": [
+            0.09747,
+            0.14253
+          ],
+          "estimate": 0.12,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 96,
+          "trials": 800
+        },
+        "source_gross_castable_by_t6": {
+          "ci95": [
+            0.08602,
+            0.12898
+          ],
+          "estimate": 0.1075,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 86,
+          "trials": 800
+        }
+      },
+      "cut": "Bituminous Blast",
+      "fixed_rule_witness": {
+        "candidate_activation_life_loss_at_40_39_31": 27,
+        "candidate_removed_after_activation_life_loss": 0,
+        "candidate_removed_before_legal_activation_life_loss": 0,
+        "candidate_self_damage": 0,
+        "hypothetical_blast_own_turn_hand_with_X_ge_5_has_two_cascade_triggers": true,
+        "lost_printed_cascade_instances_if_bituminous_cast": 1,
+        "lost_removal_mode": "instant-speed creature damage; cannot cast without legal creature target"
+      },
+      "paired_development": {
+        "commander_cast_by_t4": {
+          "baseline": 0.5325,
+          "challenger": 0.53125,
+          "interpretation": "M3 v1.1 DEVELOPMENT proxy only, not life-loss or winning",
+          "paired_diff": -0.00125,
+          "paired_normal_ci95": [
+            -0.0037,
+            0.0012
+          ],
+          "trials": 800
+        },
+        "mana_spent_t1_t6": {
+          "baseline": 17.3,
+          "challenger": 17.36,
+          "interpretation": "M3 v1.1 DEVELOPMENT proxy only, not life-loss or winning",
+          "paired_diff": 0.06,
+          "paired_normal_ci95": [
+            0.01446,
+            0.10554
+          ],
+          "trials": 800
+        }
+      },
+      "removed_blast_access_upper_bounds": {
+        "double_x0": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 0,
+          "trials": 800
+        },
+        "double_x5": {
+          "ci95": [
+            0.09632,
+            0.14118
+          ],
+          "estimate": 0.11875,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 95,
+          "trials": 800
+        },
+        "printed_no_target": {
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "estimate": 0.0,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 0,
+          "trials": 800
+        },
+        "printed_target_present": {
+          "ci95": [
+            0.09977,
+            0.14523
+          ],
+          "estimate": 0.1225,
+          "kind": "paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient",
+          "successes": 98,
+          "trials": 800
+        }
+      },
+      "samples": 800,
+      "seed": 95017,
+      "status": "bounded_observation_not_win_rate_or_swap_verdict"
+    }
+  ],
+  "limitations": [
+    "All reports derived from full shuffled 99-card canonical/variant libraries and M3 fixed policy, but M3 v1.1 does not simulate the swapped card abilities, cascade, combat, target availability, actual hand retention after first_seen, post-cast leftover mana or opponent interaction.",
+    "Derived effects are rule-accurate only as separately conditional witnesses applied after potential exposure; no simulated new triggered/activated abilities feed back into deck development.",
+    "First-seen and gross mana affordance are NEITHER necessary NOR sufficient conditions for a legal cast: mana may be produced later through rituals or reduced costs, while generic-vs-colored payment, held hand, spent resources, tap/sickness, source survival, and opponent interaction remain unmodeled.",
+    "Do not rank Heartless, Tree or Bituminous Blast on opportunity-event counts; event definitions differ by role.",
+    "No win-rate, holistic deck performance, improvement certificate, formal Phase-B/Pass-C/I/J/M6 acceptance, approval or deck change can follow from this run."
+  ],
+  "model": "1.1",
+  "preregistration_sha256": "sha256:9bb79c86a9aa8a738e88cabdfb7a989f1824ad74e1cc1cc64d65ed50aad3c92e",
+  "prior_rule_grid_sha256": "sha256:3290e44ed5e5c94f4d8d3c036506fe05cdf45d74b903fdcbd4ca466c7098dca2",
+  "samples_per_swap": 800,
+  "schema_version": 1,
+  "seed": 95017,
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "source_baseline_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "stage": "M6_Abaddon_paired_full_99_exposure_proxies_NOT_effect_aware_game_simulation",
+  "supports_improvement_claim": false,
+  "turns": 8
+}
