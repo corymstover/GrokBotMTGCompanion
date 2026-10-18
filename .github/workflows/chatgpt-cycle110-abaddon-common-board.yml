@@ -1,0 +1,81 @@
+name: ChatGPT Cycle110 Abaddon matched board role reconciliation
+on:
+  push:
+    branches: [chatgpt-cycle110-abaddon-common-board]
+    paths:
+      - .github/workflows/chatgpt-cycle110-abaddon-common-board.yml
+      - scripts/grixis_m6_abaddon_common_board.py
+      - tests/test_m6_abaddon_common_board.py
+      - data/grixis/m6/phase_b_plans/abaddon_common_board_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle110-abaddon-common-board
+  cancel-in-progress: true
+jobs:
+  paired-board-source-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle110-abaddon-common-board
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial no-fake-value, response-source and single-slot tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_common_board.py' -v
+      - name: Reconcile 240 paired common-board source histories
+        run: python -u scripts/grixis_m6_abaddon_common_board.py --build
+      - name: Independently reproduce full and compact ledger
+        run: python -u scripts/grixis_m6_abaddon_common_board.py --check
+      - name: Verify 62 protected decks, M6 pending and nonpromoted value
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_common_board_01.json').read_text())
+          s=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_common_board_summary_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert d['paired_seeds']==240 and d['cohort_count']==3
+          assert len(d['paired_records'])==240
+          assert all(q['same_initial_7_except_one_slot'] for q in d['paired_records'])
+          assert d['stress_responses_are_not_equal_opponent_actions']
+          assert d['relative_deck_strength']=='CANNOT_EVALUATE'
+          assert d['comparison_type']=='SAME_SEED_INITIAL_HAND_AND_BOARD_SOURCE_RECONCILIATION_NOT_FULL_BALANCED_EFFECT_PLAY'
+          assert not any(d[k] for k in ('could_approve_any_swap','could_certify_zero_improvement',
+                 'phase_b_complete','formal_independent_review_complete','M6_accepted'))
+          assert all(v is False for v in d['authority'].values())
+          assert s['paired_seeds']==240 and s['role_vector']==d['aggregate_conditioned_role_vectors']
+          assert not s['stronger_deck_demonstrated']
+          assert d['aggregate_conditioned_role_vectors']['baseline_real_cascade_spell_resolutions']==4
+          assert d['aggregate_conditioned_role_vectors']['heartless_conditional_tap']==4
+          assert d['aggregate_conditioned_role_vectors']['tree_conditional_tap']==16
+          for x in d['paired_records']:
+            assert x['comparable_win_outcome'] is None
+            assert x['unmodeled_card_utility_not_zero']
+            assert x['no_response']['Heartless Hidetsugu']['opponent_3_3_alive_after_slot_outcome']
+            assert x['no_response']['Tree of Perdition']['opponent_3_3_alive_after_slot_outcome']
+          print('Cycle110 240 fixed board three-slot source causal receipts; no fake strength verdict')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected tracked source changed';exit 1
+          fi
+      - name: Commit only derived M6 experimental evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_common_board_01.json data/grixis/m6/phase_b_bounded/abaddon_common_board_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Evidence already current'
+          else
+            git commit -m 'Cycle110 paired source-and-board conditional role receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle110-abaddon-common-board
+            git push origin HEAD:chatgpt-cycle110-abaddon-common-board
+          fi

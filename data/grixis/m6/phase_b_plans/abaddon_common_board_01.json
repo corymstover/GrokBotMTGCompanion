@@ -1,0 +1,61 @@
+{
+  "cycle": 110,
+  "status": "preregistered_before_implementation",
+  "milestone": "M6",
+  "stage": "Abaddon three-slot matched common opposing 3-3 causal ledger",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "approved_source_txt_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "seed": 106017,
+  "samples": 240,
+  "slots": [
+    "Bituminous Blast",
+    "Heartless Hidetsugu",
+    "Tree of Perdition"
+  ],
+  "source_cycle106": "data/grixis/m6/phase_b_bounded/abaddon_physical_slot_01.json",
+  "source_cycle107": "data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_01.json",
+  "source_cycle109": "data/grixis/m6/phase_b_bounded/abaddon_exile_resolution_01.json",
+  "source_cycle105": "data/grixis/m6/phase_b_bounded/abaddon_decision_readiness_01.json",
+  "common_fixture": {
+    "opponent_life": [
+      40,
+      39,
+      31
+    ],
+    "opponent_creature": "One abilityless 3/3 controlled by first opponent, available as Bituminous Blast target; always exists initially in all three decks; not inserted among 100 physical pilot cards",
+    "no_response": "Opponent performs no action before card resolutions; candidate activated abilities do not affect creature, Blast deals 4 and kills 3/3 if cast",
+    "alternative_response": "Scripted Blast creature target removal after spell cast vs candidate source removal before activation; these are NOT identical cost/effect responses and must be reported separately as noncomparable stress",
+    "controller": "One pilot, exact baseline controller start 40, fixed lands-first one source-backed spell per turn commander-first policies from source experiments",
+    "hand_alignment": "Same 240 paired original opening seven hands except single slot. Post-source tutoring/cascade legitimate draw differences; do not require same after divergence"
+  },
+  "registered_comparisons": [
+    "Match exact physical one-slot identity and seed for each of 240 samples; fail closed on all cross-source drift",
+    "For no-response identical 3/3 board, record per-slot actual supported cast versus hypothetical slot-ready activation, creature persistence, conditional opponent life loss, pilot damage, and verified physical follow-up",
+    "For Blast, use Cycle109 actual cast and cascade exile resolved physical ID outcomes; distinguish known opponent 3/3 removal from known 4 hit effects and declined 3 unknown offers",
+    "For Heartless, use original Cycle106 no-removal activated ability receipt, require slot actually cast before activation, full next-turn/no-haste, pilot damage as originally modeled; no damage to 3/3",
+    "For Tree, use original Cycle106 no-removal receipt, require slot actually cast then tap later with same single 3/3 remaining, target first opponent's life to 13; no creature removal",
+    "Separate own main-phase legal land-source and conditional branch from complete causal game outcome; no synthetic action is promoted to an observed winning or preferable outcome",
+    "Collect per-trial opponent life and mana contribution vectors but refuse to aggregate unlike dimensions into scalar utility or trade them off without a registered payoff function and actual opponent-response model",
+    "Record mutually exclusive conditional stress responses but do not present them as probabilistically or materially equivalent",
+    "Require realized candidate follow-up with Abaddon present and actual playable cards vs baseline physical tutor/mana followup; no comparison certification if either lacks full effect followthrough",
+    "Issue explicit M6 STOP / strategic handoff recommendation if new source alignment demonstrates the same missing complete game/payoff model instead of scheduling infinite per-card patches"
+  ],
+  "not_claimed": [
+    "Not an independently run balanced end-to-end effect simulation; source-derived causal reconciliation using fixed common opponent initial board",
+    "No threat strategic value, actual four-player gameplay, cast probabilities, opponent removal resource parity, win rates or cEDH performance",
+    "No complete commander first Phase B, legal card auditing, full 62-deck tested-pool verification, independent Pass C/I/J or milestone acceptance",
+    "Candidate Heartless/Tree source activation is hypothetical conditional leaf from same physical access experiment, not realistic observed opponent behavior"
+  ],
+  "unknown_values": {
+    "blast_offers": "3 unmodeled offered card effects; four resolved but unspent mana and uncertain payoff; no numeric card utility",
+    "candidate_followups": "Zero supported Boltwave or Flame Rift followups in Cycle106, all other actual hand spells unsupported; zero observed does not mean zero possible",
+    "candidate_survival": "No sampled opponent response frequency",
+    "relative_advantage": "CANNOT_EVALUATE"
+  },
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
