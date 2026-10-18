@@ -74,7 +74,7 @@ class ThreeCommanderReviews(unittest.TestCase):
   g=" ".join(r["Gwendlyn_Di_Corci"]["commander_specific_rules"])
   self.assertIn("Bracers",g)
   self.assertIn("shroud",g)
-  self.assertIn("own-turn",g)
+  self.assertIn("controller's turn",g)
   for k in r:
    self.assertGreaterEqual(len(r[k]["missing_evidence"]),3)
 
