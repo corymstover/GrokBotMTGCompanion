@@ -58,6 +58,13 @@ class ExileCastTests(unittest.TestCase):
   self.assertEqual(x["colorless_mana_generated"],3)
   self.assertEqual(x["colorless_mana_consumed_in_a_followup_spell"],0)
   self.assertEqual(t.zone_of(u),"battlefield")
+  self.assertIn(u,t.tapped)
+  prior_life=t.pilot
+  t.next_turn()
+  self.assertIn(u,t.tapped) # Mana Vault never untaps naturally.
+  self.assertEqual(t.pilot,prior_life) # Upkeep trigger deliberately unresolved.
+  self.assertEqual(t.unmodeled_vault_upkeep_triggers,1)
+  self.assertEqual(t.outcome_events[-1]["event"],"mana_vault_upkeep_not_modeled")
  def test_demonic_tutor_searches_real_library_to_hand(self):
   t,b,u=fixture("Demonic Tutor")
   t.cast_with_land_sources(b);t.resolve_by_passes()
