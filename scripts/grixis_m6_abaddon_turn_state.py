@@ -45,7 +45,7 @@ class TurnState:
   self.lost=0;self.own_turn=True;self.command_casts=0
   self.target_creature=target_creature;self.prevent=set()
   self.rng=random.Random(9617)
-  self.over=False
+  self.over=False;self._cascade_offer=None;self.command_ready=True
   for n in self.hand+self.library:
    if n not in CARDS:raise Unsupported("Unknown model card: "+n)
 
@@ -54,12 +54,14 @@ class TurnState:
    raise Unsupported("Not a supported permanent: "+name)
   if name in self.board:raise ValueError("Duplicate battlefield permanent in singleton model")
   self.board[name]={"entered":entered,"tapped":False}
+  if name=="Abaddon the Despoiler":self.command_ready=False
   self.events.append({"event":"setup_battlefield","name":name,"turn":self.turn})
 
  def remove(self,name):
   if name not in self.board:raise ValueError("Removal target not present")
   del self.board[name]
-  self.graveyard.append(name)
+  if name=="Abaddon the Despoiler":self.command_ready=True
+  else:self.graveyard.append(name)
   self.events.append({"event":"remove","name":name,"turn":self.turn})
 
  def _damage(self,opponent_amounts,self_amount=0):
@@ -82,10 +84,10 @@ class TurnState:
    if name not in self.hand:raise ValueError("Spell not in hand")
    if free:raise ValueError("Free cast requires cascade resolver")
   elif origin=="command":
-   if name!="Abaddon the Despoiler" or name in self.board or free:
+   if name!="Abaddon the Despoiler" or name in self.board or free or not self.command_ready:
     raise ValueError("Illegal command-zone cast")
   elif origin=="cascade_exile":
-   if not free:raise ValueError("Only a resolving cascade may offer free exile cast")
+   if not free or self._cascade_offer!=name:raise ValueError("Only a resolving cascade may offer free exile cast")
   else:raise ValueError("Unsupported origin")
   if name=="Bituminous Blast" and not self.target_creature:raise ValueError("No legal creature target")
   if not free:
@@ -95,7 +97,7 @@ class TurnState:
    if not options:raise ValueError("Insufficient colored or generic mana")
    self.mana=max(options,key=lambda p:(p["U"]+p["B"]+p["R"],p["C"],p["R"]))
   if origin=="hand":self.hand.remove(name)
-  if origin=="command":self.command_casts+=1
+  if origin=="command":self.command_casts+=1;self.command_ready=False
   threshold=self.lost
   granted=int(bool(self.own_turn and origin=="hand" and "Abaddon the Despoiler" in self.board
                     and threshold>=card["mv"]))
@@ -174,7 +176,9 @@ class TurnState:
    if hit is not None:
     revealed.remove(hit)
     self.events.append({"event":"cascade_hit","from":n,"trigger_source":obj["why"],"hit":hit})
-    self.cast(hit,origin="cascade_exile",free=True)
+    self._cascade_offer=hit
+    try:self.cast(hit,origin="cascade_exile",free=True)
+    finally:self._cascade_offer=None
    else:self.events.append({"event":"cascade_no_cast","from":n,"trigger_source":obj["why"]})
    self.rng.shuffle(revealed);self.library+=revealed
   else:raise Unsupported("Unknown stack object "+k)
@@ -186,6 +190,9 @@ class TurnState:
    steps+=1
    if steps>max_steps:raise ValueError("Stack resolution limit")
    self.resolve_top()
+   if self.over:
+    self.events.append({"event":"game_ended_stack_abandoned","remaining_stack_objects":len(self.stack)})
+    self.stack.clear();break
   return steps
 
  def next_turn(self):
