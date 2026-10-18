@@ -34201,7 +34201,7 @@
   "mulligan_policy_modeled": false,
   "nonbasic_mana_modeled": false,
   "opponent_counterspell_modeled": false,
-  "plan_sha256": "sha256:63c0cf84de2186d5cccd52cd628883717b14e70fdb2e9b5565132ef23e565701",
+  "plan_sha256": "sha256:786e94cc78387ffc4477190ba079635f348bb8f148a90a6b3f6d1cc057db0973",
   "registry_sha256": "sha256:c6004376d9324479d75ed3a94a4a389c600e57a2384bf77cc466ab86e128dba0",
   "sample_count": 744,
   "sampled_signet_basic_casts": 12,
