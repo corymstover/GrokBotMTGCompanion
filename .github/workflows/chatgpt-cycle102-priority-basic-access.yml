@@ -1,0 +1,112 @@
+name: ChatGPT cycle 102 - priority passes and basic-only mana access
+on:
+  push:
+    branches:
+      - chatgpt-cycle102-priority-basic-access
+    paths:
+      - .github/workflows/chatgpt-cycle102-priority-basic-access.yml
+      - data/grixis/m6/phase_b_plans/priority_basic_access_62_01.json
+      - scripts/grixis_m6_priority_basics.py
+      - scripts/grixis_m6_priority_basic_access_62.py
+      - tests/test_m6_priority_basic_access.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle102-priority-basic-access
+  cancel-in-progress: true
+jobs:
+  basic-priority:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle102-priority-basic-access
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial source-backed payment and priority pass tests
+        run: python -m unittest discover -s tests -p 'test_m6_priority_basic_access.py' -v
+      - name: Restore exactly locked October Scryfall snapshot
+        run: |
+          python - <<'PY'
+          import pathlib,hashlib,urllib.request
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,expected in [
+            ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+            ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+            ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+            dest=cache/name
+            urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,dest)
+            if hashlib.sha256(dest.read_bytes()).hexdigest()!=expected:
+              raise SystemExit('Frozen card snapshot checksum drift '+name)
+            print('Verified source',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Build 62-roster 744 actual-basic-source deck-access receipts
+        run: python -u scripts/grixis_m6_priority_basic_access_62.py --build
+      - name: Rerun independent deterministic receipt comparison
+        run: python -u scripts/grixis_m6_priority_basic_access_62.py --check
+      - name: Verify complete authority, card conservation and limited claims
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unexpected write outside experimental M6 data';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/priority_basic_access_62_01.json').read_text())
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/priority_basic_access_62_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62 and r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert p['status']=='preregistered_before_implementation'
+          assert d['deck_count']==62 and d['sample_count']==744
+          sm=json.loads(Path('data/grixis/m6/phase_b_bounded/priority_basic_access_62_summary_01.json').read_text())
+          assert sm['decks']==62 and sm['samples']==744
+          assert sm['signet_seen']==d['sampled_signet_seen']
+          assert sm['signet_paid_from_basic_sources']==d['sampled_signet_basic_casts']
+          assert len(sm['per_deck'])==62
+          assert not sm['no_nonbasic_mana'] is False
+          assert sm['no_wins_or_candidate_comparisons'] is True
+          print('Compact audit:',sm['signet_seen'],'Signets seen,',
+                sm['signet_paid_from_basic_sources'],'source-paid casts across 744 samples')
+          assert len(d['deck_access_receipts'])==62
+          assert sum(len(x['samples']) for x in d['deck_access_receipts'])==744
+          assert not d['uses_injected_mana_in_access_samples']
+          assert not d['full_deck_gameplay_simulator']
+          assert not d['comprehensive_priority_rules']
+          assert not d['opponent_counterspell_modeled']
+          assert not d['nonbasic_mana_modeled']
+          assert not d['mulligan_policy_modeled']
+          assert not d['cascade_execution_modeled']
+          assert not d['supports_improvement_claim']
+          assert not d['full_phase_b_complete']
+          assert not d['formal_independent_pass_c_complete']
+          assert not d['M6_accepted']
+          assert all(v is False for v in d['authority'].values())
+          for deck in d['deck_access_receipts']:
+            assert deck['total_physical_cards']==100
+            for s in deck['samples']:
+              assert len(s['opening_names'])==7 and len(s['draw_step_names'])==4
+              assert sum(s['final_zones'].values())==100
+              assert s['physical_cards_conserved']
+              assert not s['source_injected_mana'] and s['opponent_actions']==0
+              assert len(s['basic_lands_played'])<=4
+          assert d['abaddon_priority_witness']['all_physical_card_ids_conserved']
+          assert not d['abaddon_priority_witness']['actual_opponent_counterspell_cast']
+          PY
+      - name: Commit only derived bounded M6 evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/priority_basic_access_62_01.json data/grixis/m6/phase_b_bounded/priority_basic_access_62_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Evidence already current'
+          else
+            git commit -m 'Cycle102: record source-backed basic access and priority receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle102-priority-basic-access
+            git push origin HEAD:chatgpt-cycle102-priority-basic-access
+          fi

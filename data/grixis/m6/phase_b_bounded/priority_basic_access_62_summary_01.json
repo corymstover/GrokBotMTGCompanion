@@ -1,0 +1,451 @@
+{
+  "cycle": 102,
+  "decks": 62,
+  "description": "Deterministic audit index derived from 744 fixed-seed partial basic-only access samples; NOT game or win percentages",
+  "full_source_sha256": "sha256:786e94cc78387ffc4477190ba079635f348bb8f148a90a6b3f6d1cc057db0973",
+  "no_improvement_claim": true,
+  "no_injected_mana": true,
+  "no_nonbasic_mana": true,
+  "no_wins_or_candidate_comparisons": true,
+  "per_deck": [
+    {
+      "deck_id": "Abaddon_the_Despoiler",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 8
+    },
+    {
+      "deck_id": "Admiral_Beckett_Brass",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 6
+    },
+    {
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 3,
+      "total_basic_land_plays": 6
+    },
+    {
+      "deck_id": "Anhelo__the_Painter",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 2,
+      "signet_seen": 4,
+      "total_basic_land_plays": 9
+    },
+    {
+      "deck_id": "Ashnod_the_Uncaring",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 6
+    },
+    {
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 19
+    },
+    {
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 8
+    },
+    {
+      "deck_id": "Cormela__Glamour_Thief",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 7
+    },
+    {
+      "deck_id": "Crosis__the_Purger",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 13
+    },
+    {
+      "deck_id": "Cult_of_Skaro",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 15
+    },
+    {
+      "deck_id": "Davros__Dalek_Creator",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 3,
+      "total_basic_land_plays": 9
+    },
+    {
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 1
+    },
+    {
+      "deck_id": "Don_Andres__the_Renegade",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 5
+    },
+    {
+      "deck_id": "Dr__Eggman",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 3,
+      "total_basic_land_plays": 8
+    },
+    {
+      "deck_id": "Edea__Possessed_Sorceress",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Edward_Kenway",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Evelyn__the_Covetous",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 3
+    },
+    {
+      "deck_id": "Fire_Lord_Azula",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 3,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 6
+    },
+    {
+      "deck_id": "Goro_Goro_and_Satoru",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 4
+    },
+    {
+      "deck_id": "Grixistax___October_2026",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 4
+    },
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 2,
+      "signet_seen": 2,
+      "total_basic_land_plays": 12
+    },
+    {
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 4
+    },
+    {
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 2
+    },
+    {
+      "deck_id": "Kefka__Court_Mage",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Kess__Dissident_Mage",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Loki__the_Deceiver",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Lord_Xander__the_Collector",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 9
+    },
+    {
+      "deck_id": "Lord_of_Tresserhorn",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 3
+    },
+    {
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 11
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Mairsil__the_Pretender",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 1
+    },
+    {
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Marchesa__the_Black_Rose",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 7
+    },
+    {
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 3
+    },
+    {
+      "deck_id": "Mishra__Eminent_One",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 7
+    },
+    {
+      "deck_id": "Missy",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 7
+    },
+    {
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 3
+    },
+    {
+      "deck_id": "Nekusar__the_Mindrazer",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 8
+    },
+    {
+      "deck_id": "Nicol_Bolas",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 3
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 3,
+      "total_basic_land_plays": 5
+    },
+    {
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Obeka__Brute_Chronologist",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 5
+    },
+    {
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 3,
+      "total_basic_land_plays": 12
+    },
+    {
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 0,
+      "total_basic_land_plays": 9
+    },
+    {
+      "deck_id": "RogSi",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "Saruman__the_White_Hand",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 5
+    },
+    {
+      "deck_id": "Sauron__the_Dark_Lord",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 3,
+      "total_basic_land_plays": 11
+    },
+    {
+      "deck_id": "Sedris__the_Traitor_King",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 5
+    },
+    {
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Sol_kanar_the_Tainted",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 15
+    },
+    {
+      "deck_id": "Tetsuo_Umezawa",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 2,
+      "total_basic_land_plays": 26
+    },
+    {
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 18
+    },
+    {
+      "deck_id": "The_Madcap_Jester",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 2,
+      "total_basic_land_plays": 0
+    },
+    {
+      "deck_id": "The_Rani",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 9
+    },
+    {
+      "deck_id": "The_Valeyard",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 1,
+      "total_basic_land_plays": 10
+    },
+    {
+      "deck_id": "Thraximundar",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 4,
+      "total_basic_land_plays": 11
+    },
+    {
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 3,
+      "total_basic_land_plays": 11
+    },
+    {
+      "deck_id": "Wick__the_Whorled_Mind",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 1,
+      "signet_seen": 2,
+      "total_basic_land_plays": 6
+    },
+    {
+      "deck_id": "Zevlor__Elturel_Exile",
+      "samples": 12,
+      "signet_paid_from_basic_sources": 0,
+      "signet_seen": 3,
+      "total_basic_land_plays": 5
+    }
+  ],
+  "samples": 744,
+  "schema_version": 1,
+  "signet_paid_from_basic_sources": 12,
+  "signet_seen": 96,
+  "total_basic_land_plays": 440
+}
