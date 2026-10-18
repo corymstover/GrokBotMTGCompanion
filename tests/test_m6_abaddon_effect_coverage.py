@@ -88,6 +88,18 @@ class TestCycle98Coverage(unittest.TestCase):
   self.assertIn("A",t.hand)
   self.assertEqual(len([x for x in t.events if x["event"]=="expanded_ponder"]),1)
 
+ def test_brainstorm_can_remove_scripted_followup_from_hand(self):
+  md={"Alpha":{"mv":1,"land":False,"front":"Alpha"},
+      "Beta":{"mv":1,"land":False,"front":"Beta"},
+      "Gamma":{"mv":1,"land":False,"front":"Gamma"},
+      "Flame Rift":{"mv":2,"land":False,"front":"Flame Rift"}}
+  t=obj(["Brainstorm","Flame Rift"],["Alpha","Beta","Gamma"],md)
+  t.cast("Brainstorm");t.resolve_all()
+  self.assertNotIn("Flame Rift",t.hand)
+  self.assertFalse(m.scripted_followup(t))
+  self.assertEqual(sum(x["event"]=="fixed_followup_not_held" for x in t.events),1)
+  self.assertFalse(any(x["event"]=="cast" and x.get("name")=="Flame Rift" for x in t.events))
+
  def test_unknown_effects_remain_declined(self):
   md={"Demonic Tutor":{"mv":2,"land":False,"front":"Demonic Tutor"}}
   t=obj(["Bituminous Blast","Boltwave","Flame Rift"],["Demonic Tutor"],md)
