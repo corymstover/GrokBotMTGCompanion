@@ -30,7 +30,7 @@ def sha(p):return "sha256:"+hashlib.sha256(p.read_bytes()).hexdigest()
 def fmt(x):return json.dumps(x,sort_keys=True,indent=2,ensure_ascii=False)+"\n"
 
 def gate(resolver,plan):
- if set(plan["fetchlands"])!=set(FETCHES) or plan["utility_lands"]!=list(SPECIALS):
+ if set(plan["fetchlands"])!=set(FETCHES) or set(plan["utility_lands"])!=set(SPECIALS):
   raise ValueError("Cycle104 supported fetch/utility names differ from plan")
  results={}
  for name,types in FETCHES.items():
