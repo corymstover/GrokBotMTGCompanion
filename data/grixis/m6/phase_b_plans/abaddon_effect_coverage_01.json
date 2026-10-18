@@ -140,5 +140,14 @@
     "seed_changed": false,
     "measurements_changed": false,
     "recorded_before_successful_evidence_generation": true
+  },
+  "scripted_followup_hand_state_correction": {
+    "basis": "During actual Brainstorm resolution the fixed Flame Rift can legally be returned from hand to the library; Cycle 97's fixed scripted cast policy must not invent a spell still in hand. Use only the new Cycle 98 replay wrapper and log 'fixed_followup_not_held'.",
+    "recorded_after_implementation_but_before_successful_effect_run": true,
+    "seed_changed": false,
+    "samples_changed": false,
+    "hypotheses_changed": false,
+    "authority_changed": false,
+    "historical_cycle_97_code_modified": false
   }
 }
