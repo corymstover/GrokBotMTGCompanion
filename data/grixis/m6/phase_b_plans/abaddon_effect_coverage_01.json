@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "cycle": 98,
+  "stage": "M6_Abaddon_expand_real_cascade_effect_coverage",
+  "date": "2026-10-17",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_txt_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "prior_cycle_97_plan": "data/grixis/m6/phase_b_plans/abaddon_real_library_replay_01.json",
+  "prior_cycle_97_evidence": "data/grixis/m6/phase_b_bounded/abaddon_real_library_replay_01.json",
+  "samples": 240,
+  "seed": 97017,
+  "opponent_profiles": [
+    "no_removal",
+    "remove_added_source_before_t7_activation"
+  ],
+  "hypotheses": [
+    {
+      "cut": "Bituminous Blast",
+      "add": "Heartless Hidetsugu"
+    },
+    {
+      "cut": "Bituminous Blast",
+      "add": "Tree of Perdition"
+    }
+  ],
+  "frozen_oracle_assertions": {
+    "Sol Ring": [
+      "Add {C}{C}."
+    ],
+    "Arcane Signet": [
+      "Add one mana of any color in your commander's color identity."
+    ],
+    "Lotus Petal": [
+      "Sacrifice this artifact",
+      "Add one mana of any color"
+    ],
+    "Talisman of Creativity": [
+      "Add {C}.",
+      "Add {U} or {R}",
+      "This artifact deals 1 damage to you."
+    ],
+    "Talisman of Dominance": [
+      "Add {C}.",
+      "Add {U} or {B}",
+      "This artifact deals 1 damage to you."
+    ],
+    "Talisman of Indulgence": [
+      "Add {C}.",
+      "Add {B} or {R}",
+      "This artifact deals 1 damage to you."
+    ],
+    "Dark Ritual": [
+      "Add {B}{B}{B}."
+    ],
+    "Rite of Flame": [
+      "Add {R}{R}",
+      "for each card named Rite of Flame in each graveyard"
+    ],
+    "Brainstorm": [
+      "Draw three cards",
+      "put two cards from your hand on top of your library in any order"
+    ],
+    "Ponder": [
+      "Look at the top three cards of your library",
+      "You may shuffle",
+      "Draw a card."
+    ]
+  },
+  "implementation_scope": [
+    "Add real type/cost and battlefield-zone persistence for four mana artifacts and three talismans with first-turn artifact tapping (unlike creatures)",
+    "Explicit tapped/sacrificed mana abilities with legal U/B/R/C color choices; tap creature/resource once, talisman self-damage never raises Abaddon opponent-loss threshold",
+    "Support Dark Ritual and Rite of Flame as cast-from-exile resolution effects; Rite of Flame counts any same-named cards in modeled graveyard",
+    "Support Brainstorm draw three/put two on top chosen by fixed descending MV/name policy; support Ponder top three original order, never shuffle, then draw one",
+    "Verify all ten cards against pinned October bulk via ev.Resolver before the run and assert exact Oracle-bearing snippets; refuse drift",
+    "No change to Cycle 96/97 generated accepted evidence; run new Cycle 98 adapter and compare against the same 240 seeded matched-99 library permutations",
+    "Explicit quantitative comparison of resolved-hit coverage; reproducibility and authority gate pass required"
+  ],
+  "deterministic_policies": {
+    "mana_artifact_cast": "In replay, sources enter untapped and remain on battlefield. No automatic taps or optimization; test manual tap separately. Next-turn mana still injected, artifact mana contribution therefore cannot be claimed to improve throughput.",
+    "talisman": "Colorless activation has no damage; colored activation deals one damage to pilot, never to opponents; pilot loses at zero or below.",
+    "brainstorm": "Draw 3 known top cards, return 2 cards from hand with largest printed MV (then alphabetical name) to top of library; this is one legal recorded choice, not optimal.",
+    "ponder": "Keep peeked top 3 in their original order, decline optional shuffle, draw first; this is one legal recorded choice, not optimal.",
+    "cascade_unmodeled": "Log name and decline cast; NEVER assign generic favorable proxy. Preserve role/type and detailed hit coverage",
+    "opponent_response": "Same two fixed scenarios as Cycle 97; response patterns are scripted not sampled probabilities."
+  },
+  "required_negative_tests": [
+    "Source oracle digest and exact data text checks",
+    "All manually tapped artifacts cannot retap in same turn",
+    "Lotus Petal sacrifice moves to graveyard",
+    "Talisman colored self-damage does not raise Abaddon threshold",
+    "Dark Ritual adds exact BBB; Rite of Flame adds RR in singleton scenario",
+    "Brainstorm and Ponder modeled hand/library conservation and deterministic policy",
+    "No cast-from-exile spell receives a second granted Abaddon cascade",
+    "No unsupported ability silently marked resolved",
+    "Full canonical list and source hashes unchanged; test two paired swap profiles reproduce fixed results"
+  ],
+  "safety": [
+    "This is not a complete 99-card gameplay simulation; fixed three-card hand, commander already in play, injected mana, deterministic card choice and no opponent-policies remain.",
+    "Only ten additional named card effects fully implemented under specified policies, not unknown effects; omitted targeted choices and spontaneous spells fail closed.",
+    "No preliminary test, percentage or coverage improvement can prove a decklist upgrade, real win probability or zero-improvement.",
+    "No actual deck changes, M6 acceptance, formal Pass C, I/J, user review, or certificate authority."
+  ],
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  },
+  "status": "pre_registered_before_implementation",
+  "oracle_phrase_correction": {
+    "baseline_preregistration_commit": "dd37967a891703279d943b94b18b1e146732cf12",
+    "reason": "The immutable 2026-10-16 bulk uses updated Oracle noun substitution ('this artifact') for Lotus Petal and the three Talismans. Correct strict text assertions to the exact pinned Oracle without changing any implemented card behavior, candidate, seed, metric or decision authority.",
+    "changes": [
+      {
+        "card": "Lotus Petal",
+        "from": "Sacrifice Lotus Petal",
+        "to": "Sacrifice this artifact"
+      },
+      {
+        "card": "Talisman of Creativity",
+        "from": "deals 1 damage to you.",
+        "to": "This artifact deals 1 damage to you."
+      },
+      {
+        "card": "Talisman of Dominance",
+        "from": "deals 1 damage to you.",
+        "to": "This artifact deals 1 damage to you."
+      },
+      {
+        "card": "Talisman of Indulgence",
+        "from": "deals 1 damage to you.",
+        "to": "This artifact deals 1 damage to you."
+      }
+    ],
+    "frozen_card_data_changed": false,
+    "hypotheses_changed": false,
+    "seed_changed": false,
+    "measurements_changed": false,
+    "recorded_before_successful_evidence_generation": true
+  },
+  "scripted_followup_hand_state_correction": {
+    "basis": "During actual Brainstorm resolution the fixed Flame Rift can legally be returned from hand to the library; Cycle 97's fixed scripted cast policy must not invent a spell still in hand. Use only the new Cycle 98 replay wrapper and log 'fixed_followup_not_held'.",
+    "recorded_after_implementation_but_before_successful_effect_run": true,
+    "seed_changed": false,
+    "samples_changed": false,
+    "hypotheses_changed": false,
+    "authority_changed": false,
+    "historical_cycle_97_code_modified": false
+  }
+}
