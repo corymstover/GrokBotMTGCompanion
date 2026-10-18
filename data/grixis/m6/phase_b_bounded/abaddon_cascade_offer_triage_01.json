@@ -211,6 +211,80 @@
   },
   "paired_seeds": 240,
   "plan_sha256": "sha256:eb25a693be48d8fcc24782901dc8e7eb7b98de93d910ec6c925f3a02feef34d4",
+  "post_result_exploratory_addendum_sha256": "sha256:3fd85bfd65f791a0c9a7b22a74751133247e953f39209ad746b42c96d89df556",
+  "post_result_mechanic_classification_is_not_a_preregistered_effect_result": true,
+  "post_result_specific_oracle_mechanic_roles": {
+    "Chrome Mox": {
+      "conditional_role_not_measured_strength": "artifact imprint-dependent colored acceleration",
+      "oracle_sha256": "sha256:f0a67c470c34d7089eb8828d13620d1712539712b1ebf94bfc2e22abadda5c91",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "qualifying card in hand to imprint, exiled color identity, lost card opportunity cost",
+      "target_or_ETB_qualification": "artifact can enter but useful mana not guaranteed without imprint",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    },
+    "Deflecting Swat": {
+      "conditional_role_not_measured_strength": "stack target-redirection interaction",
+      "oracle_sha256": "sha256:c6a60ec3035447a23e1aadae058b4c602508264c2013df7ef67cbf2fddb18ce4",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "existing spell/ability (Bituminous Blast is on stack), all legal targets and relevance of redirection",
+      "target_or_ETB_qualification": "requires target spell/ability and legal resolution choices",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    },
+    "Demonic Tutor": {
+      "conditional_role_not_measured_strength": "unrestricted library-to-hand tutor",
+      "oracle_sha256": "sha256:e759f75c52513ff4702fecc196ac14e3c579969a34c8470c7f44ded97a3560bd",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "physical library, deterministic/strategic card selection, follow-up cast availability",
+      "target_or_ETB_qualification": "no spell target; needs library selection",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    },
+    "Mana Vault": {
+      "conditional_role_not_measured_strength": "artifact burst mana, delayed upkeep/untap cost",
+      "oracle_sha256": "sha256:8a6a4f7a7efb7d044d8c160481536e3b37ff31d0ee8357673a3203fcbd6293ba",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "artifact resolves; available next spell and mana demand; upkeep cost and future untap unknown",
+      "target_or_ETB_qualification": "printed mana artifact, no target",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    },
+    "Sol Ring": {
+      "conditional_role_not_measured_strength": "artifact two-colorless mana acceleration",
+      "oracle_sha256": "sha256:8310b06afdea748af91bd3f1f23206140bba9309ef34fbd71e3211a8c3542d58",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "artifact resolves and next payable real hand spell exists",
+      "target_or_ETB_qualification": "printed mana artifact, no target",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    },
+    "Vampiric Tutor": {
+      "conditional_role_not_measured_strength": "library-to-top tutor with controller life loss",
+      "oracle_sha256": "sha256:7385e3c971920475e4c1a0d64fe7252e38ae6cab1368987d0bed7822fc90eb27",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "physical library, card choice, 2 life loss on resolution, draw access thereafter",
+      "target_or_ETB_qualification": "no spell target; needs library choice",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    },
+    "Windfall": {
+      "conditional_role_not_measured_strength": "all-player hand reset/card draw",
+      "oracle_sha256": "sha256:da40d57a51263ff9d55ef2822c3809ba6883510de3fd7c47199275c8e13c4b9d",
+      "realized_value_measured": false,
+      "relative_deck_value": "UNKNOWN_NOT_ZERO",
+      "required_game_state_for_realized_value": "four actual hands, hand sizes, discard triggers, and downstream spell options",
+      "target_or_ETB_qualification": "no target printed; requires full hands",
+      "was_cast_in_source_evidence": false,
+      "was_offered": true
+    }
+  },
   "relative_value": "CANNOT_EVALUATE",
   "relevance_and_cast_condition_flags": {
     "LEGAL_TARGET_REQUIRES_STACK_OR_BOARD_CONTEXT": 1,
