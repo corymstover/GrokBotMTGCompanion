@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Cycle 95: paired full-library ACCESS UPPER BOUNDS, not an effect-aware game/win-rate simulator.
+"""Cycle 95: paired full-library gross-exposure proxies, not an effect-aware game/win-rate simulator.
 
 We do not modify frozen grixis_sim 1.1. Its recorded first_seen and gross available mana
-are NECESSARY but not sufficient for casting; no source activation is fed back into games.
+are NEITHER necessary NOR sufficient for legal casting (rituals/reducers/colored pips); no activation feeds back.
 """
 from __future__ import annotations
 import argparse,hashlib,json,random,sys
@@ -25,7 +25,7 @@ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def dump(d):return json.dumps(d,indent=2,sort_keys=True,ensure_ascii=False)+"\n"
 
 def early_seen_gross(rec,name,mv,through):
-    """First opportunity: card has been seen, gross turn mana >= MV; NOT legally cast."""
+    """First gross pre-action exposure (seen and model mana >= MV), NOT a legal-cast gate."""
     seen=rec["first_seen"].get(name)
     if seen is None:return None
     for t in range(max(1,seen),min(through,len(rec["mana"]))+1):
@@ -35,7 +35,7 @@ def early_seen_gross(rec,name,mv,through):
 def summary(values):
     avg,ci=sim.mean_ci(values)
     return {"estimate":round(avg,5),"ci95":[round(ci[0],5),round(ci[1],5)],"successes":sum(values),
-            "trials":len(values),"kind":"paired-draw-model-necessary-access-gate-not-actual-activation"}
+            "trials":len(values),"kind":"paired-draw-model-gross-mana-exposure-neither-necessary-nor-sufficient"}
 
 def diff_stats(baseline,challenger):
     diffs=[b-a for a,b in zip(baseline,challenger)]
@@ -161,7 +161,7 @@ def run():
         assert r["removed_blast_access_upper_bounds"]["printed_no_target"]["successes"]==0
         assert r["removed_blast_access_upper_bounds"]["double_x0"]["successes"]==0
         assert r["candidate_conditional_upper_bounds"]["conditional_commander_prior_and_seen_1mv_followup_by_t8"]["successes"]<=r["candidate_conditional_upper_bounds"]["conditional_next_turn_activation_by_t8"]["successes"]
-    return {"schema_version":1,"stage":"M6_Abaddon_paired_full_99_access_bounds_NOT_effect_aware_game_simulation",
+    return {"schema_version":1,"stage":"M6_Abaddon_paired_full_99_exposure_proxies_NOT_effect_aware_game_simulation",
             "canonical_hash":plan["canonical_hash"],"approved_source_sha256":plan["approved_source_sha256"],
             "source_baseline_sha256":"sha256:"+sha(SOURCE),"preregistration_sha256":"sha256:"+sha(PLAN),
             "prior_rule_grid_sha256":"sha256:"+sha(PRIOR),"simulator_sha256":sim.model_sha256(),
