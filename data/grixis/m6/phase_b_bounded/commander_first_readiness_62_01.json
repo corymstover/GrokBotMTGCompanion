@@ -226,6 +226,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 110
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -417,6 +418,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 434
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -617,6 +619,7 @@
         "P2_commander_named_blueprint_only": 4,
         "P3_commander_fit_only": 29
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -804,6 +807,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 28
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -992,6 +996,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 58
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -1180,6 +1185,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 16
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -1364,6 +1370,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 240
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -1551,6 +1558,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 304
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -1734,6 +1742,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 69
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -1918,6 +1927,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 45
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -2105,6 +2115,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 38
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -2306,6 +2317,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 43
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -2496,6 +2508,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 229
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -2690,6 +2703,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 38
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -2878,6 +2892,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 110
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -3067,6 +3082,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 17
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -3263,6 +3279,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 24
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -3455,6 +3472,17 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 33
       },
+      "source_canonical_legacy_deck_id_provenance": {
+        "corrected_cycle": 55,
+        "corrected_date": "2026-10-16",
+        "evidence": [
+          "source_archive:state/current_deck_overrides.json#Goben__Gene_Splice_Savant",
+          "source_archive:refinement/approvals/Norman_Osborn_Green_Goblin_Approved_2026-10-15.md",
+          "companion:grixis/Grixis Corrections.md#L178"
+        ],
+        "note": "The source keys this deck by the stale tracker id Goben__Gene_Splice_Savant (deck #21), already so in the frozen FINAL baseline. The list, approval record and every refinement artifact are Norman Osborn // Green Goblin (files Norman_Osborn_Green_Goblin_*), so the registry uses the corrected id. The source id is kept as source_deck_id; nothing in the source archive was changed.",
+        "source_deck_id": "Goben__Gene_Splice_Savant"
+      },
       "source_canonical_logical_hash": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -3640,6 +3668,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 90
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -3832,6 +3861,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 36
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -4033,6 +4063,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 47
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -4229,6 +4260,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 23
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -4450,6 +4482,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 19
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -4651,6 +4684,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 60
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -4842,6 +4876,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 37
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -5027,6 +5062,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 243
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -5225,6 +5261,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 51
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -5413,6 +5450,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 44
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -5600,6 +5638,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 156
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -5784,6 +5823,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 237
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
       "tested_pool_zero_improvement_certified": false,
       "tier": "A_source_agreement_low_triage_burden"
@@ -5993,6 +6033,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 64
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -6206,6 +6247,7 @@
         "P2_commander_named_blueprint_only": 3,
         "P3_commander_fit_only": 305
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -6397,6 +6439,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 30
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -6590,6 +6633,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 85
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -6784,6 +6828,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 108
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -6976,6 +7021,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 122
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -7170,6 +7216,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 127
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -7376,6 +7423,7 @@
         "P2_commander_named_blueprint_only": 4,
         "P3_commander_fit_only": 200
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -7565,6 +7613,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 106
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -7777,6 +7826,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 29
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
       "tested_pool_zero_improvement_certified": false,
       "tier": "B_source_agreement_needs_specific_review"
@@ -7969,6 +8019,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 14
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -8169,6 +8220,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 63
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -8361,6 +8413,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 337
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -8556,6 +8609,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 294
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -8743,6 +8797,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 120
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -8929,6 +8984,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 25
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -9120,6 +9176,7 @@
         "P2_commander_named_blueprint_only": 2,
         "P3_commander_fit_only": 265
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -9325,6 +9382,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 210
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -9531,6 +9589,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 298
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -9723,6 +9782,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 36
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -9906,6 +9966,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 102
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -10089,6 +10150,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 33
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -10290,6 +10352,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 122
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -10474,6 +10537,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 150
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -10660,6 +10724,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 128
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -10850,6 +10915,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 44
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -11040,6 +11106,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 273
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -11240,6 +11307,7 @@
         "P2_commander_named_blueprint_only": 2,
         "P3_commander_fit_only": 77
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -11417,6 +11485,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 386
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -11615,6 +11684,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 266
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -11816,6 +11886,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 58
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
@@ -12016,6 +12087,7 @@
         "P2_commander_named_blueprint_only": 0,
         "P3_commander_fit_only": 406
       },
+      "source_canonical_legacy_deck_id_provenance": null,
       "source_canonical_logical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
       "tested_pool_zero_improvement_certified": false,
       "tier": "C_commander_only_or_performance_only"
