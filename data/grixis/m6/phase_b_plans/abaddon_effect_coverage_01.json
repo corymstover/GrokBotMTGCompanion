@@ -34,23 +34,23 @@
       "Add one mana of any color in your commander's color identity."
     ],
     "Lotus Petal": [
-      "Sacrifice Lotus Petal",
+      "Sacrifice this artifact",
       "Add one mana of any color"
     ],
     "Talisman of Creativity": [
       "Add {C}.",
       "Add {U} or {R}",
-      "deals 1 damage to you."
+      "This artifact deals 1 damage to you."
     ],
     "Talisman of Dominance": [
       "Add {C}.",
       "Add {U} or {B}",
-      "deals 1 damage to you."
+      "This artifact deals 1 damage to you."
     ],
     "Talisman of Indulgence": [
       "Add {C}.",
       "Add {B} or {R}",
-      "deals 1 damage to you."
+      "This artifact deals 1 damage to you."
     ],
     "Dark Ritual": [
       "Add {B}{B}{B}."
@@ -109,5 +109,36 @@
     "can_change_canonical_list": false,
     "can_approve_or_lock": false
   },
-  "status": "pre_registered_before_implementation"
+  "status": "pre_registered_before_implementation",
+  "oracle_phrase_correction": {
+    "baseline_preregistration_commit": "dd37967a891703279d943b94b18b1e146732cf12",
+    "reason": "The immutable 2026-10-16 bulk uses updated Oracle noun substitution ('this artifact') for Lotus Petal and the three Talismans. Correct strict text assertions to the exact pinned Oracle without changing any implemented card behavior, candidate, seed, metric or decision authority.",
+    "changes": [
+      {
+        "card": "Lotus Petal",
+        "from": "Sacrifice Lotus Petal",
+        "to": "Sacrifice this artifact"
+      },
+      {
+        "card": "Talisman of Creativity",
+        "from": "deals 1 damage to you.",
+        "to": "This artifact deals 1 damage to you."
+      },
+      {
+        "card": "Talisman of Dominance",
+        "from": "deals 1 damage to you.",
+        "to": "This artifact deals 1 damage to you."
+      },
+      {
+        "card": "Talisman of Indulgence",
+        "from": "deals 1 damage to you.",
+        "to": "This artifact deals 1 damage to you."
+      }
+    ],
+    "frozen_card_data_changed": false,
+    "hypotheses_changed": false,
+    "seed_changed": false,
+    "measurements_changed": false,
+    "recorded_before_successful_evidence_generation": true
+  }
 }
