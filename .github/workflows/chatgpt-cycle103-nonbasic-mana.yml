@@ -1,0 +1,97 @@
+name: ChatGPT cycle 103 - verified Grixis nonbasic land mana
+on:
+  push:
+    branches:
+      - chatgpt-cycle103-nonbasic-mana
+    paths:
+      - .github/workflows/chatgpt-cycle103-nonbasic-mana.yml
+      - scripts/grixis_m6_priority_nonbasic.py
+      - scripts/grixis_m6_nonbasic_land_access_62.py
+      - tests/test_m6_priority_nonbasic.py
+      - data/grixis/m6/phase_b_plans/nonbasic_land_access_62_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle103-nonbasic-mana
+  cancel-in-progress: true
+jobs:
+  real-nonbasic-sources:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle103-nonbasic-mana
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial 19-land entry, life and source-payment tests
+        run: python -m unittest discover -s tests -p 'test_m6_priority_nonbasic.py' -v
+      - name: Restore exact SHA-256 pinned October Scryfall archive
+        run: |
+          python - <<'PY'
+          import pathlib,hashlib,urllib.request
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,expected in [
+            ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+            ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+            ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+            dest=cache/name
+            urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,dest)
+            if hashlib.sha256(dest.read_bytes()).hexdigest()!=expected:
+              raise SystemExit('Snapshot mismatch '+name)
+            print('Verified immutable source:',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Oracle gate and build same-seed 744 actual-land access samples
+        run: python -u scripts/grixis_m6_nonbasic_land_access_62.py --build
+      - name: Independently reproduce exact big and compact results
+        run: python -u scripts/grixis_m6_nonbasic_land_access_62.py --check
+      - name: Verify M6-only scope, counts and source-matched access
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected file modified';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('data/grixis/m6/phase_b_bounded/nonbasic_land_access_62_01.json').read_text())
+          s=json.loads(Path('data/grixis/m6/phase_b_bounded/nonbasic_land_access_62_summary_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert a['deck_count']==62 and a['samples']==744 and len(a['oracle_verified_lands'])==19
+          assert len(a['deck_samples'])==62 and len(s['per_deck'])==62
+          assert s['samples']==a['samples'] and s['signet_seen']==a['signet_seen']
+          assert s['source_paid_signet_casts']==a['signet_cast_with_supported_lands']
+          assert s['prior_basic_only_casts']==a['comparison_basic_only_cycle102_casts']
+          assert s['no_game_or_commander_strength_claim']
+          assert a['candidate_improvement_inferred'] is False
+          assert a['complete_gameplay_model'] is False
+          assert a['phase_b_complete'] is False
+          assert a['M6_accepted'] is False
+          assert all(v is False for v in a['authority'].values())
+          for d in a['deck_samples']:
+            assert len(d['samples'])==12
+            for t in d['samples']:
+              assert len(t['opening_names'])==7 and len(t['draw_step_names'])==4
+              assert t['physical_card_conservation'] is True
+              assert t['source_mana_injected'] is False
+              assert sum(t['final_zone_counts'].values())==100
+          print('Matched 744 hands, 19 Oracle-verified modeled nonbasic lands, no certified deck decisions')
+          PY
+      - name: Commit only derived experimental M6 output
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/nonbasic_land_access_62_01.json data/grixis/m6/phase_b_bounded/nonbasic_land_access_62_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Evidence already current'
+          else
+            git commit -m 'Cycle103: preserve matched nonbasic land access receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle103-nonbasic-mana
+            git push origin HEAD:chatgpt-cycle103-nonbasic-mana
+          fi
