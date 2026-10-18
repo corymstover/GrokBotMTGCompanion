@@ -1,0 +1,1904 @@
+{
+  "M6_accepted": false,
+  "all_98_items_provisional": true,
+  "authority": {
+    "can_approve_or_lock": false,
+    "can_certify_M6": false,
+    "can_change_decklists": false,
+    "can_decide": false
+  },
+  "canonical_deck_id": "Abaddon_the_Despoiler",
+  "cycle": 105,
+  "deep_focus_comparisons": [
+    {
+      "add": "Heartless Hidetsugu",
+      "already_proven_only_as": [
+        "800_paired_development_proxies",
+        "240_scripted_residual_library_replays",
+        "bounded_conditional_life_loss_and_removal_rules"
+      ],
+      "approved_swap": false,
+      "cut": "Bituminous Blast",
+      "finite_cascade_offer_coverage": {
+        "NOT_relative_spell_value_or_a_win_metric": true,
+        "baseline_modeled_casts": 173,
+        "baseline_offers": 480,
+        "baseline_unmodeled_offers": 307,
+        "challenger_modeled_casts": 191,
+        "challenger_offers": 475,
+        "challenger_unmodeled_offers": 284
+      },
+      "hard_gates": {
+        "formal_phase_b_ready": false,
+        "full_color_accurate_mana_and_spell_chain_outcomes_measured": false,
+        "independent_pass_c_complete": false,
+        "legal_tap_activation_turn_and_source_survival_measured": false,
+        "opponent_target_and_priority_policy_measured": false,
+        "printed_cascade_removal_slot_opportunity_cost_measured": false,
+        "real_card_held_at_follow_up_cast_timing_measured": false,
+        "unmodeled_cascade_effects_bounded_for_value_comparison": false
+      },
+      "owner_decision_requested": false,
+      "paired_development_proxy": {
+        "NOT_effect_aware_or_a_win_metric": true,
+        "commander_t4_challenger_proxy": 0.53375,
+        "commander_t4_delta_proxy": 0.00125,
+        "commander_t4_original_proxy": 0.5325,
+        "paired_trials": 800
+      },
+      "phase_b_experiment_priority": "first_comparator",
+      "preliminary_strategic_status": "HOLD_PRINTED_CASCADE_AND_INTERACTION_COST_UNMEASURED",
+      "protected_role_loss": {
+        "cast_time_mana_and_Harnfel_card_access": false,
+        "early_repeatable_spell_damage": false,
+        "printed_cascade_plus_instant_speed_creature_removal": true,
+        "requires_explicit_alternative_role_compensation": true
+      },
+      "registry": {
+        "row": null,
+        "source": "M6_independently_proposed_alt_cut_not_in_98_M5_rows"
+      },
+      "zero_improvement_proven": false
+    },
+    {
+      "add": "Heartless Hidetsugu",
+      "already_proven_only_as": [
+        "M5_screening_not_effect_aware",
+        "commander_role_preliminary_critique"
+      ],
+      "approved_swap": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "finite_cascade_offer_coverage": null,
+      "hard_gates": {
+        "formal_phase_b_ready": false,
+        "full_color_accurate_mana_and_spell_chain_outcomes_measured": false,
+        "independent_pass_c_complete": false,
+        "legal_tap_activation_turn_and_source_survival_measured": false,
+        "opponent_target_and_priority_policy_measured": false,
+        "printed_cascade_removal_slot_opportunity_cost_measured": false,
+        "real_card_held_at_follow_up_cast_timing_measured": false,
+        "unmodeled_cascade_effects_bounded_for_value_comparison": false
+      },
+      "owner_decision_requested": false,
+      "paired_development_proxy": null,
+      "phase_b_experiment_priority": "do_not_promote_before_protected_engine_comparison",
+      "preliminary_strategic_status": "DISFAVOR_PROTECTED_ENGINE_CUT",
+      "protected_role_loss": {
+        "cast_time_mana_and_Harnfel_card_access": true,
+        "early_repeatable_spell_damage": false,
+        "printed_cascade_plus_instant_speed_creature_removal": false,
+        "requires_explicit_alternative_role_compensation": true
+      },
+      "registry": {
+        "row": 13,
+        "source": "M5_review_packet"
+      },
+      "zero_improvement_proven": false
+    },
+    {
+      "add": "Heartless Hidetsugu",
+      "already_proven_only_as": [
+        "M5_screening_not_effect_aware",
+        "commander_role_preliminary_critique"
+      ],
+      "approved_swap": false,
+      "cut": "Kessig Flamebreather",
+      "finite_cascade_offer_coverage": null,
+      "hard_gates": {
+        "formal_phase_b_ready": false,
+        "full_color_accurate_mana_and_spell_chain_outcomes_measured": false,
+        "independent_pass_c_complete": false,
+        "legal_tap_activation_turn_and_source_survival_measured": false,
+        "opponent_target_and_priority_policy_measured": false,
+        "printed_cascade_removal_slot_opportunity_cost_measured": false,
+        "real_card_held_at_follow_up_cast_timing_measured": false,
+        "unmodeled_cascade_effects_bounded_for_value_comparison": false
+      },
+      "owner_decision_requested": false,
+      "paired_development_proxy": null,
+      "phase_b_experiment_priority": "do_not_promote_before_protected_engine_comparison",
+      "preliminary_strategic_status": "DISFAVOR_PROTECTED_ENGINE_CUT",
+      "protected_role_loss": {
+        "cast_time_mana_and_Harnfel_card_access": false,
+        "early_repeatable_spell_damage": true,
+        "printed_cascade_plus_instant_speed_creature_removal": false,
+        "requires_explicit_alternative_role_compensation": true
+      },
+      "registry": {
+        "row": 14,
+        "source": "M5_review_packet"
+      },
+      "zero_improvement_proven": false
+    },
+    {
+      "add": "Tree of Perdition",
+      "already_proven_only_as": [
+        "800_paired_development_proxies",
+        "240_scripted_residual_library_replays",
+        "bounded_conditional_life_loss_and_removal_rules"
+      ],
+      "approved_swap": false,
+      "cut": "Bituminous Blast",
+      "finite_cascade_offer_coverage": {
+        "NOT_relative_spell_value_or_a_win_metric": true,
+        "baseline_modeled_casts": 173,
+        "baseline_offers": 480,
+        "baseline_unmodeled_offers": 307,
+        "challenger_modeled_casts": 194,
+        "challenger_offers": 474,
+        "challenger_unmodeled_offers": 280
+      },
+      "hard_gates": {
+        "formal_phase_b_ready": false,
+        "full_color_accurate_mana_and_spell_chain_outcomes_measured": false,
+        "independent_pass_c_complete": false,
+        "legal_tap_activation_turn_and_source_survival_measured": false,
+        "opponent_target_and_priority_policy_measured": false,
+        "printed_cascade_removal_slot_opportunity_cost_measured": false,
+        "real_card_held_at_follow_up_cast_timing_measured": false,
+        "unmodeled_cascade_effects_bounded_for_value_comparison": false
+      },
+      "owner_decision_requested": false,
+      "paired_development_proxy": {
+        "NOT_effect_aware_or_a_win_metric": true,
+        "commander_t4_challenger_proxy": 0.53125,
+        "commander_t4_delta_proxy": -0.00125,
+        "commander_t4_original_proxy": 0.5325,
+        "paired_trials": 800
+      },
+      "phase_b_experiment_priority": "secondary_control",
+      "preliminary_strategic_status": "HOLD_PRINTED_CASCADE_AND_INTERACTION_COST_UNMEASURED",
+      "protected_role_loss": {
+        "cast_time_mana_and_Harnfel_card_access": false,
+        "early_repeatable_spell_damage": false,
+        "printed_cascade_plus_instant_speed_creature_removal": true,
+        "requires_explicit_alternative_role_compensation": true
+      },
+      "registry": {
+        "row": null,
+        "source": "M6_independently_proposed_alt_cut_not_in_98_M5_rows"
+      },
+      "zero_improvement_proven": false
+    },
+    {
+      "add": "Tree of Perdition",
+      "already_proven_only_as": [
+        "M5_screening_not_effect_aware",
+        "commander_role_preliminary_critique"
+      ],
+      "approved_swap": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "finite_cascade_offer_coverage": null,
+      "hard_gates": {
+        "formal_phase_b_ready": false,
+        "full_color_accurate_mana_and_spell_chain_outcomes_measured": false,
+        "independent_pass_c_complete": false,
+        "legal_tap_activation_turn_and_source_survival_measured": false,
+        "opponent_target_and_priority_policy_measured": false,
+        "printed_cascade_removal_slot_opportunity_cost_measured": false,
+        "real_card_held_at_follow_up_cast_timing_measured": false,
+        "unmodeled_cascade_effects_bounded_for_value_comparison": false
+      },
+      "owner_decision_requested": false,
+      "paired_development_proxy": null,
+      "phase_b_experiment_priority": "do_not_promote_before_protected_engine_comparison",
+      "preliminary_strategic_status": "DISFAVOR_PROTECTED_ENGINE_CUT",
+      "protected_role_loss": {
+        "cast_time_mana_and_Harnfel_card_access": true,
+        "early_repeatable_spell_damage": false,
+        "printed_cascade_plus_instant_speed_creature_removal": false,
+        "requires_explicit_alternative_role_compensation": true
+      },
+      "registry": {
+        "row": 8,
+        "source": "M5_review_packet"
+      },
+      "zero_improvement_proven": false
+    },
+    {
+      "add": "Tree of Perdition",
+      "already_proven_only_as": [
+        "M5_screening_not_effect_aware",
+        "commander_role_preliminary_critique"
+      ],
+      "approved_swap": false,
+      "cut": "Kessig Flamebreather",
+      "finite_cascade_offer_coverage": null,
+      "hard_gates": {
+        "formal_phase_b_ready": false,
+        "full_color_accurate_mana_and_spell_chain_outcomes_measured": false,
+        "independent_pass_c_complete": false,
+        "legal_tap_activation_turn_and_source_survival_measured": false,
+        "opponent_target_and_priority_policy_measured": false,
+        "printed_cascade_removal_slot_opportunity_cost_measured": false,
+        "real_card_held_at_follow_up_cast_timing_measured": false,
+        "unmodeled_cascade_effects_bounded_for_value_comparison": false
+      },
+      "owner_decision_requested": false,
+      "paired_development_proxy": null,
+      "phase_b_experiment_priority": "do_not_promote_before_protected_engine_comparison",
+      "preliminary_strategic_status": "DISFAVOR_PROTECTED_ENGINE_CUT",
+      "protected_role_loss": {
+        "cast_time_mana_and_Harnfel_card_access": false,
+        "early_repeatable_spell_damage": true,
+        "printed_cascade_plus_instant_speed_creature_removal": false,
+        "requires_explicit_alternative_role_compensation": true
+      },
+      "registry": {
+        "row": 9,
+        "source": "M5_review_packet"
+      },
+      "zero_improvement_proven": false
+    }
+  ],
+  "independent_pass_c_completed": false,
+  "independent_phase_b_completed": false,
+  "next_discriminating_experiment": {
+    "name": "Abaddon hand-cast cascade chain: Bituminous Blast printed-cascade/removal baseline vs Heartless Hidetsugu and Tree of Perdition",
+    "preregister_requirements": [
+      "Pair exact 100-card approved baseline and Bituminous Blast -> Heartless challenger, plus Tree secondary control under identical shuffled seeds",
+      "Model turn-based access using real physical IDs, actual legal colored mana sources, commander cast/tax, threshold accumulated before subsequent HAND casts, and summoning sickness",
+      "Use explicit opponent response policies including creature removal BEFORE tap, source removal AFTER tap, damage prevention, spell counter, and actual legal Bituminous Blast creature targets",
+      "Evaluate loss of Bituminous printed cascade/removal, stop if > defined unknown-effect budget and record explicit cannot-evaluate for unsupported effects",
+      "Capture conditional cast-from-exile value, residual hand and mana follow-through, source survival, controller self damage and opponent losses",
+      "Falsify whether Heartless improves measured commander-first outcomes before considering any swap; Tree is a separate secondary comparator",
+      "After a credible discriminating comparison, request named independent Pass C and I/J; user approval is required for any changed list"
+    ],
+    "unsupported_effects_are_not_zero_value": true
+  },
+  "packet_screening_rows": 98,
+  "prereg_sha256": "sha256:0b399a01065a4107ed38e40f155ff29936945e66f0945f1dfc10bb6dc52f1a34",
+  "ready_for_any_card_swap": false,
+  "schema_version": 1,
+  "screening_flags_counts": {
+    "combo_review_required": 87,
+    "elevated_burden": 40,
+    "explicit_judgment_prompts": 98,
+    "mana_delta_required": 49,
+    "mechanics_not_modelable": 36,
+    "structural_route_risk": 23,
+    "test_fail": 1,
+    "test_inconclusive": 16,
+    "test_no_detectable_difference": 15,
+    "test_pass": 65
+  },
+  "screening_queue": [
+    {
+      "add": "Hullbreaker Horror",
+      "candidate_swap_approved": false,
+      "cut": "Pyroblast",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 1,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Tidespout Tyrant",
+      "candidate_swap_approved": false,
+      "cut": "Pyroblast",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 2,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Aggravated Assault",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 3,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Deadeye Navigator",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 4,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Deadeye Navigator",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 5,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Unstoppable Slasher",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 6,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Unstoppable Slasher",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 7,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Tree of Perdition",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 8,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Tree of Perdition",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 9,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Time Warp",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 10,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Grinding Station",
+      "candidate_swap_approved": false,
+      "cut": "Chrome Mox",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 11,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Quietus Spike",
+      "candidate_swap_approved": false,
+      "cut": "Chrome Mox",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 12,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Heartless Hidetsugu",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 13,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Heartless Hidetsugu",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 14,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Temporal Manipulation",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 15,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Grievous Wound",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 16,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Shredder, Shadow Master",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 17,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Shredder, Shadow Master",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 18,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Walk the Aeons",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 19,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Primordial Mist",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 20,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Ancestral Statue",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 21,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Ancestral Statue",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 22,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Scytheclaw",
+      "candidate_swap_approved": false,
+      "cut": "Chrome Mox",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 23,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Quicksilver Elemental",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 24,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Quicksilver Elemental",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 25,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Virtus the Veiled",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 26,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Virtus the Veiled",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 27,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Grinning Ignus",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 28,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Ebonblade Reaper",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 29,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Ebonblade Reaper",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 30,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Alpharael, Stonechosen",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 31,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Alpharael, Stonechosen",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 32,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Scourge of the Skyclaves",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 33,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Scourge of the Skyclaves",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 34,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Torgaar, Famine Incarnate",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 35,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P0_independent_agreement",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Stormfist Crusader",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 36,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Chromatic Lantern",
+      "candidate_swap_approved": false,
+      "cut": "Lotus Petal",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 37,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Mutalith Vortex Beast",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 38,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Commander's Sphere",
+      "candidate_swap_approved": false,
+      "cut": "Lotus Petal",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 39,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Lord of Change",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 40,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Decree of Pain",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 41,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Past in Flames",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 42,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Sensei's Divining Top",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 43,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Pox Plague",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 44,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Aggravated Assault",
+      "candidate_swap_approved": false,
+      "cut": "Underworld Breach",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 45,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Peer into the Abyss",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 46,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Time Warp",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 47,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Grinding Station",
+      "candidate_swap_approved": false,
+      "cut": "Lion's Eye Diamond",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 48,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Quietus Spike",
+      "candidate_swap_approved": false,
+      "cut": "Lion's Eye Diamond",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 49,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Repercussion",
+      "candidate_swap_approved": false,
+      "cut": "Underworld Breach",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 50,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Temporal Manipulation",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 51,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Grievous Wound",
+      "candidate_swap_approved": false,
+      "cut": "Underworld Breach",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 52,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Rush of Dread",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 53,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Walk the Aeons",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 54,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Primordial Mist",
+      "candidate_swap_approved": false,
+      "cut": "Underworld Breach",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 55,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Scytheclaw",
+      "candidate_swap_approved": false,
+      "cut": "Lion's Eye Diamond",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 56,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Grinning Ignus",
+      "candidate_swap_approved": false,
+      "cut": "Lotus Petal",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 57,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Fraying Omnipotence",
+      "candidate_swap_approved": false,
+      "cut": "Wheel of Fortune",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 58,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "structural_route_risk",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Chromatic Lantern",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 59,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Commander's Sphere",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 60,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Temple of the False God",
+      "candidate_swap_approved": false,
+      "cut": "Flooded Strand",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 61,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Drach'Nyen",
+      "candidate_swap_approved": false,
+      "cut": "Pyroblast",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 62,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Rakdos Signet",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 63,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Chimil, the Inner Sun",
+      "candidate_swap_approved": false,
+      "cut": "Call Forth the Tempest",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 64,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Fellwar Stone",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 65,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_pass"
+      ],
+      "screening_source_class": "P1_measured_performance_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Deny Reality",
+      "candidate_swap_approved": false,
+      "cut": "Pyroblast",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 66,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P2_commander_named_blueprint_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Poxwalkers",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 67,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "mana_delta_required"
+      ],
+      "screening_source_class": "P2_commander_named_blueprint_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Poxwalkers",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 68,
+      "screening_flags": [
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P2_commander_named_blueprint_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Aurora Phoenix",
+      "candidate_swap_approved": false,
+      "cut": "Call Forth the Tempest",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 69,
+      "screening_flags": [
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P2_commander_named_blueprint_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Reiterate",
+      "candidate_swap_approved": false,
+      "cut": "Cabal Ritual",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 70,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_fail"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Sensei's Divining Top",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 71,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Toralf, God of Fury // Toralf's Hammer",
+      "candidate_swap_approved": false,
+      "cut": "Pyroblast",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 72,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mechanics_not_modelable",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Fall of Cair Andros",
+      "candidate_swap_approved": false,
+      "cut": "Pyroblast",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 73,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Pox Plague",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 74,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Peer into the Abyss",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 75,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Repercussion",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 76,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Chain of Smog",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 77,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Burning Inquiry",
+      "candidate_swap_approved": false,
+      "cut": "Mystic Remora",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 78,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Haze of Rage",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 79,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Glimpse the Unthinkable",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 80,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Capture of Jingzhou",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 81,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Rush of Dread",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 82,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Shard of the Nightbringer",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 83,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Shard of the Nightbringer",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 84,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Blood Tribute",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 85,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Mizzix of the Izmagnus",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 86,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Mizzix of the Izmagnus",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 87,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Path of the Pyromancer",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 88,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Fury Storm",
+      "candidate_swap_approved": false,
+      "cut": "Cabal Ritual",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 89,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Fraying Omnipotence",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 90,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Guile",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 91,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Guile",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 92,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Torgaar, Famine Incarnate",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 93,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "View from Above",
+      "candidate_swap_approved": false,
+      "cut": "Cabal Ritual",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 94,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Ambassador Laquatus",
+      "candidate_swap_approved": false,
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 95,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Ambassador Laquatus",
+      "candidate_swap_approved": false,
+      "cut": "Kessig Flamebreather",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 96,
+      "screening_flags": [
+        "combo_review_required",
+        "elevated_burden",
+        "explicit_judgment_prompts",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "Breaking // Entering",
+      "candidate_swap_approved": false,
+      "cut": "Rite of Flame",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 97,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "mechanics_not_modelable",
+        "test_no_detectable_difference"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    },
+    {
+      "add": "False Memories",
+      "candidate_swap_approved": false,
+      "cut": "Cabal Ritual",
+      "decision_readiness": "BLOCKED_PENDING_VALID_COMPARISON",
+      "requires_independent_commander_first_review": true,
+      "row": 98,
+      "screening_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "mana_delta_required",
+        "test_inconclusive"
+      ],
+      "screening_source_class": "P3_commander_fit_only",
+      "screening_verdict_not_a_deck_verdict": true
+    }
+  ],
+  "source_approved_list_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_blueprint_sha256": "sha256:6ba92f052b108f4f79792d3ba9ae488d3356e54415ad4207e85b30f1bf7a7f17",
+  "source_cycle104_summary_sha256": "sha256:478474da2be9b0d372c155cbddc6ecfe2274f6d53979be9843fce1dd98e93dcd",
+  "source_dev_sha256": "sha256:547c5812bb430d73dbd617761badf1dd344447444d568b393cb288f78d43f2e2",
+  "source_list_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "source_packet_sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84",
+  "source_partial_effects_sha256": "sha256:87acdad5d9a0c62be533d65d39a60a6622a779f701c78d097965fff3ef88d270",
+  "stage": "M6_Abaddon_evidence_readiness_and_falsification_queue",
+  "status": "decision_gates_open_no_valid_swap_proven",
+  "tested_pool_zero_improvement_certified": false,
+  "true_gameplay_win_rate_available": false
+}
