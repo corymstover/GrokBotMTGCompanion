@@ -1,0 +1,32 @@
+{
+  "cycle": 101,
+  "status": "preregistered_before_implementation",
+  "seed": 101017,
+  "roster": 62,
+  "cards": [
+    "Abaddon the Despoiler",
+    "Kessig Flamebreather",
+    "Dark Ritual",
+    "Boltwave",
+    "Flame Rift",
+    "Arcane Signet"
+  ],
+  "hypotheses": [
+    "Atomic real-card casting and resolution",
+    "Commander tax for Abaddon",
+    "Kessig trigger persists when countered spell is removed",
+    "Blocked unsupported cascade does not mutate ledger",
+    "Static colored cost and restricted sorcery priority",
+    "All 62 source baselines conserve 100 physical cards"
+  ],
+  "limits": [
+    "No full gameplay, opponent policies, or actual cascade effects",
+    "Scripted counter is a bounded response not a complete priority engine",
+    "No deck modification or approval"
+  ],
+  "authority": {
+    "can_decide": false,
+    "can_change_decklists": false,
+    "can_approve_or_lock": false
+  }
+}
