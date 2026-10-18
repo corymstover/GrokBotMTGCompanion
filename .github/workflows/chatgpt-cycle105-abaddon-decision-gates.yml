@@ -1,0 +1,72 @@
+name: ChatGPT cycle 105 - Abaddon commander-first decision readiness
+on:
+  push:
+    branches:
+      - chatgpt-cycle105-abaddon-decision-gates
+    paths:
+      - .github/workflows/chatgpt-cycle105-abaddon-decision-gates.yml
+      - data/grixis/m6/phase_b_plans/abaddon_decision_readiness_01.json
+      - scripts/grixis_m6_abaddon_decision_readiness.py
+      - tests/test_m6_abaddon_decision_readiness.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle105-abaddon-decision-gates
+  cancel-in-progress: true
+jobs:
+  decision-readiness:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle105-abaddon-decision-gates
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial source, scope and nonapproval regressions
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_decision_readiness.py' -v
+      - name: Build full M5 98-item and six-comparator M6 decision gate matrix
+        run: python -u scripts/grixis_m6_abaddon_decision_readiness.py --build
+      - name: Independently recompute source-derived decision gate evidence
+        run: python -u scripts/grixis_m6_abaddon_decision_readiness.py --check
+      - name: Prevent auto decision and protect all authoritative records
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected original/authority modification';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          j=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_decision_readiness_01.json').read_text())
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_decision_readiness_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert j['source_approved_list_sha256']==p['frozen']['approved_list_sha256']
+          assert j['packet_screening_rows']==98
+          assert len(j['screening_queue'])==98 and len(j['deep_focus_comparisons'])==6
+          assert all(z['approved_swap'] is False for z in j['deep_focus_comparisons'])
+          assert all(z['zero_improvement_proven'] is False for z in j['deep_focus_comparisons'])
+          assert all(z['paired_development_proxy'] is None or z['paired_development_proxy']['NOT_effect_aware_or_a_win_metric'] for z in j['deep_focus_comparisons'])
+          for x in ('ready_for_any_card_swap','tested_pool_zero_improvement_certified','independent_phase_b_completed','independent_pass_c_completed','true_gameplay_win_rate_available','M6_accepted'):
+            assert j[x] is False
+          assert all(v is False for v in j['authority'].values())
+          print('Valid source matrix and explicit NO deck decision; 98 provisional plus 6 prioritized comparison gates')
+          PY
+      - name: Commit experimental decision matrix only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_decision_readiness_01.json
+          if git diff --cached --quiet; then
+            echo 'Matrix already current'
+          else
+            git commit -m 'Cycle105: save reproducible Abaddon decision gate matrix [skip ci]'
+            git pull --rebase origin chatgpt-cycle105-abaddon-decision-gates
+            git push origin HEAD:chatgpt-cycle105-abaddon-decision-gates
+          fi
