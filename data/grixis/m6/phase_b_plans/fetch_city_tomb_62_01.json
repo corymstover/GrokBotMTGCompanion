@@ -1,0 +1,97 @@
+{
+  "cycle": 104,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_Oracle_gated_fetch_city_tomb_state",
+  "seed": 102017,
+  "roster": 62,
+  "samples_per_deck": 12,
+  "turns": 4,
+  "opening_cards": 7,
+  "draw_per_turn": 1,
+  "source_baseline": "data/grixis/m6/phase_b_bounded/nonbasic_land_access_62_01.json",
+  "source_cycle103_summary": "data/grixis/m6/phase_b_bounded/nonbasic_land_access_62_summary_01.json",
+  "fetchlands": {
+    "Bloodstained Mire": [
+      "Swamp",
+      "Mountain"
+    ],
+    "Polluted Delta": [
+      "Island",
+      "Swamp"
+    ],
+    "Scalding Tarn": [
+      "Island",
+      "Mountain"
+    ],
+    "Marsh Flats": [
+      "Plains",
+      "Swamp"
+    ],
+    "Flooded Strand": [
+      "Plains",
+      "Island"
+    ],
+    "Misty Rainforest": [
+      "Forest",
+      "Island"
+    ],
+    "Verdant Catacombs": [
+      "Swamp",
+      "Forest"
+    ],
+    "Wooded Foothills": [
+      "Mountain",
+      "Forest"
+    ],
+    "Arid Mesa": [
+      "Mountain",
+      "Plains"
+    ],
+    "Windswept Heath": [
+      "Forest",
+      "Plains"
+    ]
+  },
+  "utility_lands": [
+    "City of Brass",
+    "Ancient Tomb"
+  ],
+  "scenarios": [
+    "Fetch activation requires tap, pay 1 life and sacrifice source as costs before ability enters stack",
+    "Three opponent seats can pass or scripted response before fetch ability resolves; target selected only on resolution",
+    "Fetch searches actual library for basic types including typed duals/trilands and optionally pays 2 life on shock ETB; shuffles remaining cards after moving target to battlefield",
+    "Fetch has no mandatory target and may fail to find; no unsupported utility land can be selected as a fake mana target",
+    "Fetch does not use a land drop for the searched target and keeps every physical ID exactly once",
+    "Ancient Tomb taps for two colorless immediately and deals two damage to its controller as part of mana ability resolution; no opponent-loss contribution",
+    "City of Brass taps for any U/B/R mana with a distinct damage trigger on stack, whose resolution requires four successive player passes, and source removal does not erase trigger",
+    "Casting a spell using City creates the City trigger after the physical cast; mana payment and card/zone changes are atomic; stack ordering is auditable",
+    "The source-backed planner can use one Ancient Tomb for a two-generic Arcane Signet and can account for City mana pending damage",
+    "Every new land checks exact frozen Oracle text/type against October Scryfall; no unregistered land guessed"
+  ],
+  "sample_policy": {
+    "seeds": "Same 744 Cycle103 deck/seed coordinates",
+    "opening": "Exactly identical 7-card opening for every paired seed; subsequent draws may diverge after real fetch shuffle",
+    "land_choice": "First supported land held in hand; include fetches and two utility lands; play one per own turn",
+    "fetch_choice": "Activate on own main phase if modeled legal and controller life > 1; choose from actual library using deterministic first untapped, greatest modeled color flexibility, alphabetic ordering; never fabricate hidden card",
+    "shock_choice": "For a fetched shockland, pay 2 life only if pilot life > 2, then land enters untapped; else tapped",
+    "mana_policy": "Physically tap modeled lands; minimize controller damage, then source count, then stable card IDs; never silently spend unsupported mana",
+    "card_action": "Only actually held Arcane Signet is attempted; no other full deck spells/actions evaluated",
+    "opponents": "Three assumed opponents pass priority unless tests explicitly inject external scripted outcomes",
+    "life_game_end": "Block potentially lethal controller damage to avoid claiming full state-based-action support",
+    "no_optimizing_claim": true
+  },
+  "oracle_gate": "Locked October Scryfall must independently validate card name, land type, ability cost/timing, selector subtypes and utility land source/damage text; frozen checksums apply.",
+  "limits": [
+    "No full Magic multiplayer priority or response spelling, prevention/replacement, life-ending actions, fetchland search choice optimization, opponent AI, win rates or mulligans",
+    "Only ten named fetchlands, City of Brass, Ancient Tomb and Cycle103 modeled basic/nonbasic lands; unsupported fetch target types omitted from limited source availability and explicitly reported",
+    "A fetch's library shuffle causes later draw order to differ from Cycle103, so matching all 4 post-shuffle draws is expressly prohibited",
+    "City damage triggering and Ancient Tomb mana ability have different timing; no generic self-life penalty proxy",
+    "This is engineering coverage only, not any of the 62 independent Commander-first refinement certificates, formal Phase B or Pass C/I/J"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
