@@ -1,0 +1,438 @@
+{
+  "all_source_lists_unchanged": true,
+  "ancient_tomb_taps": 8,
+  "city_damage_resolutions": 4,
+  "cycle": 104,
+  "decks": 62,
+  "fetch_activations": 468,
+  "fetch_resolutions": 468,
+  "new_signet_paid": 75,
+  "new_signet_seen": 93,
+  "no_win_probability_or_card_strength_claim": true,
+  "oracle_verified_lands": [
+    "Ancient Tomb",
+    "Arid Mesa",
+    "Bloodstained Mire",
+    "City of Brass",
+    "Flooded Strand",
+    "Marsh Flats",
+    "Misty Rainforest",
+    "Polluted Delta",
+    "Scalding Tarn",
+    "Verdant Catacombs",
+    "Windswept Heath",
+    "Wooded Foothills"
+  ],
+  "per_deck": [
+    {
+      "deck_id": "Abaddon_the_Despoiler",
+      "fetch_resolutions": 8,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Admiral_Beckett_Brass",
+      "fetch_resolutions": 4,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "fetch_resolutions": 2,
+      "signet_paid": 2,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Anhelo__the_Painter",
+      "fetch_resolutions": 2,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "fetch_resolutions": 3,
+      "signet_paid": 3,
+      "signet_seen": 4
+    },
+    {
+      "deck_id": "Ashnod_the_Uncaring",
+      "fetch_resolutions": 4,
+      "signet_paid": 1,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "fetch_resolutions": 3,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "fetch_resolutions": 7,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Cormela__Glamour_Thief",
+      "fetch_resolutions": 11,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Crosis__the_Purger",
+      "fetch_resolutions": 3,
+      "signet_paid": 1,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Cult_of_Skaro",
+      "fetch_resolutions": 6,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Davros__Dalek_Creator",
+      "fetch_resolutions": 3,
+      "signet_paid": 3,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "fetch_resolutions": 3,
+      "signet_paid": 1,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Don_Andres__the_Renegade",
+      "fetch_resolutions": 7,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Dr__Eggman",
+      "fetch_resolutions": 1,
+      "signet_paid": 3,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Edea__Possessed_Sorceress",
+      "fetch_resolutions": 5,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Edward_Kenway",
+      "fetch_resolutions": 13,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Evelyn__the_Covetous",
+      "fetch_resolutions": 10,
+      "signet_paid": 0,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Fire_Lord_Azula",
+      "fetch_resolutions": 16,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "fetch_resolutions": 6,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Goro_Goro_and_Satoru",
+      "fetch_resolutions": 2,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Grixistax___October_2026",
+      "fetch_resolutions": 12,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "fetch_resolutions": 4,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "fetch_resolutions": 11,
+      "signet_paid": 1,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "fetch_resolutions": 11,
+      "signet_paid": 2,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Kefka__Court_Mage",
+      "fetch_resolutions": 15,
+      "signet_paid": 0,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Kess__Dissident_Mage",
+      "fetch_resolutions": 12,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Loki__the_Deceiver",
+      "fetch_resolutions": 2,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Lord_Xander__the_Collector",
+      "fetch_resolutions": 7,
+      "signet_paid": 0,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Lord_of_Tresserhorn",
+      "fetch_resolutions": 2,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "fetch_resolutions": 4,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "fetch_resolutions": 11,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Mairsil__the_Pretender",
+      "fetch_resolutions": 4,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "fetch_resolutions": 8,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Marchesa__the_Black_Rose",
+      "fetch_resolutions": 9,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "fetch_resolutions": 1,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Mishra__Eminent_One",
+      "fetch_resolutions": 9,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Missy",
+      "fetch_resolutions": 3,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "fetch_resolutions": 16,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Nekusar__the_Mindrazer",
+      "fetch_resolutions": 10,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Nicol_Bolas",
+      "fetch_resolutions": 14,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "fetch_resolutions": 14,
+      "signet_paid": 3,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "fetch_resolutions": 10,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Obeka__Brute_Chronologist",
+      "fetch_resolutions": 7,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "fetch_resolutions": 10,
+      "signet_paid": 3,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "fetch_resolutions": 13,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "RogSi",
+      "fetch_resolutions": 9,
+      "signet_paid": 0,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Saruman__the_White_Hand",
+      "fetch_resolutions": 7,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "fetch_resolutions": 3,
+      "signet_paid": 1,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Sauron__the_Dark_Lord",
+      "fetch_resolutions": 6,
+      "signet_paid": 3,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Sedris__the_Traitor_King",
+      "fetch_resolutions": 12,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "fetch_resolutions": 10,
+      "signet_paid": 0,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Sol_kanar_the_Tainted",
+      "fetch_resolutions": 5,
+      "signet_paid": 1,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Tetsuo_Umezawa",
+      "fetch_resolutions": 8,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "fetch_resolutions": 7,
+      "signet_paid": 0,
+      "signet_seen": 0
+    },
+    {
+      "deck_id": "The_Madcap_Jester",
+      "fetch_resolutions": 15,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "The_Rani",
+      "fetch_resolutions": 7,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "The_Valeyard",
+      "fetch_resolutions": 15,
+      "signet_paid": 1,
+      "signet_seen": 1
+    },
+    {
+      "deck_id": "Thraximundar",
+      "fetch_resolutions": 5,
+      "signet_paid": 1,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "fetch_resolutions": 6,
+      "signet_paid": 3,
+      "signet_seen": 3
+    },
+    {
+      "deck_id": "Wick__the_Whorled_Mind",
+      "fetch_resolutions": 6,
+      "signet_paid": 2,
+      "signet_seen": 2
+    },
+    {
+      "deck_id": "Zevlor__Elturel_Exile",
+      "fetch_resolutions": 9,
+      "signet_paid": 3,
+      "signet_seen": 4
+    }
+  ],
+  "plan_sha256": "sha256:5e2afa4f45fe5cba0eb515e00ab16b72249f135b9cede7bc014e622eb953332b",
+  "played_land_names": {
+    "Ancient Tomb": 66,
+    "Arid Mesa": 18,
+    "Badlands": 75,
+    "Blood Crypt": 63,
+    "Bloodstained Mire": 93,
+    "City of Brass": 61,
+    "Command Tower": 75,
+    "Crumbling Necropolis": 14,
+    "Dragonskull Summit": 8,
+    "Drowned Catacomb": 12,
+    "Flooded Strand": 51,
+    "Island": 147,
+    "Luxury Suite": 60,
+    "Mana Confluence": 76,
+    "Marsh Flats": 50,
+    "Misty Rainforest": 47,
+    "Morphic Pool": 77,
+    "Mountain": 129,
+    "Polluted Delta": 81,
+    "Scalding Tarn": 62,
+    "Steam Vents": 83,
+    "Sulfur Falls": 16,
+    "Swamp": 141,
+    "Training Center": 73,
+    "Underground Sea": 78,
+    "Verdant Catacombs": 47,
+    "Volcanic Island": 64,
+    "Watery Grave": 82,
+    "Wooded Foothills": 19,
+    "Xander's Lounge": 54
+  },
+  "post_search_draw_divergences": 323,
+  "prior_signet_paid": 51,
+  "prior_signet_seen": 96,
+  "samples": 744,
+  "schema_version": 1
+}
