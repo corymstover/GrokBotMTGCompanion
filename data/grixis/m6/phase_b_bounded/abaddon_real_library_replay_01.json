@@ -1,0 +1,2450 @@
+{
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "authority": {
+    "can_apply_swap": false,
+    "can_approve_or_lock": false,
+    "can_change_canonical_list": false,
+    "can_decide": false
+  },
+  "baseline_trace_sha256_by_response_profile": {
+    "no_removal": "sha256:d87c3c08284cf95ec4b3027ec7bf8b71b57c2f0055bd4dfa0a24ab2e9f656042",
+    "remove_added_source_before_t7_activation": "sha256:bfd00695f2b07302805778c3096c9e742d6d67d1e81539eaf3bf19e2074024e1"
+  },
+  "can_certify_zero_improvement": false,
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "fixed_synthetic_setup": {
+    "actions_turn6": [
+      "Cast Boltwave from hand and fully resolve stack (sets threshold from actual damage)",
+      "Cast the relevant one-for-one slot spell from hand with legal creature target for Bituminous Blast",
+      "Resolve cascade triggers, supported hit effects, and main spell"
+    ],
+    "actions_turn7": [
+      "Advance turn, clear threshold and floating mana",
+      "If added Heartless/Tree survived, activate legal tap ability",
+      "Cast held Flame Rift from hand, resolve resulting triggers/cascade"
+    ],
+    "battlefield_at_turn6": [
+      "Abaddon the Despoiler"
+    ],
+    "hand_contains": [
+      "Boltwave",
+      "Flame Rift",
+      "SWAPPED_SLOT_CARD"
+    ],
+    "hand_policy": "These are forced scripted cards, NOT naturally drawn; all three are removed from the full 99-card library for each matched variant before sampling cascade.",
+    "haste_available": false,
+    "initial_turn": 6,
+    "mana_injected_each_turn": true,
+    "opponent_response_profiles": [
+      "no_removal",
+      "remove_added_source_before_t7_activation"
+    ],
+    "opponents_life": [
+      40,
+      39,
+      31
+    ],
+    "pilot_life": 40,
+    "target_creature_available": true,
+    "time_out_of_turn_actions": false,
+    "turn6_mana": {
+      "B": 2,
+      "C": 4,
+      "R": 3,
+      "U": 0
+    },
+    "turn7_mana": {
+      "B": 1,
+      "C": 1,
+      "R": 2,
+      "U": 0
+    }
+  },
+  "full_99_library_shuffle_used": true,
+  "full_phase_b_complete": false,
+  "known_limitations": [
+    "This is an effect-aware bounded scripted comparison over seeded complete source libraries, NOT full-deck goldfish, realistic opening hands, mulligan/gameplay sampling, matchup simulation, or win rates.",
+    "Forced turn-six commander, forced in-hand three-card sequence and injected mana assume setup that may not occur in games; no probabilities of drawing, mana readiness or survival.",
+    "Unmodeled cascade hits are conservatively declined even if normally useful; downstream conditional damage, costs and win probability cannot be compared across variants.",
+    "No real priority/opponent policy distributions, graveyard recursion, tutors, draw-selection, combat, threats, actual opponent-target state, or extra effects beyond Cycle-96 supported cards.",
+    "No statistical significance test or proposed upgrade decision from deterministic scripted branch frequency: only coverage and distribution under the preregistered replay policy.",
+    "Missing coverage is a blocking gate, not zero improvement; M6 cannot be accepted until complete evidence, judgments, I/J certificates and user approval."
+  ],
+  "limited_real_effect_resolver_used": true,
+  "plan_sha256": "sha256:b92a4f141aba6146d282309aacf8b0cac2abece16e502a3b2d12415092684d2c",
+  "prior_turn_state_sha256": "sha256:3665d2b5b8cb0fecbc946a0adf4f114a32bef1f32cd8fb539179a4e8e224e797",
+  "response_profiles": [
+    "no_removal",
+    "remove_added_source_before_t7_activation"
+  ],
+  "results": [
+    {
+      "canonical_source_preserved": true,
+      "profiles": {
+        "no_removal": {
+          "baseline": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 13,
+              "Arcane Signet": 16,
+              "Brain Freeze": 10,
+              "Brainstorm": 14,
+              "Dark Ritual": 10,
+              "Deadly Rollick": 14,
+              "Deflecting Swat": 15,
+              "Force of Negation": 13,
+              "Gamble": 10,
+              "Kessig Flamebreather": 12,
+              "Mana Vault": 11,
+              "Ponder": 13,
+              "Solphim, Mayhem Dominus": 16,
+              "Thermo-Alchemist": 11,
+              "Underworld Breach": 11,
+              "Wild-Magic Sorcerer": 11
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 44,
+              "offered": 480,
+              "unmodeled_offers": 436
+            },
+            "event_totals": {
+              "cascade_offers": 480,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 436,
+              "granted_cast_triggers": 240,
+              "hand_casts": 720,
+              "printed_cast_triggers": 240,
+              "supported_casts": 44
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 2.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 1.81667,
+              "granted_cast_triggers": 1.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 1.0,
+              "supported_casts": 0.18333
+            },
+            "samples": 240
+          },
+          "baseline_trace_sha256": "sha256:d87c3c08284cf95ec4b3027ec7bf8b71b57c2f0055bd4dfa0a24ab2e9f656042",
+          "challenger": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 17,
+              "Brainstorm": 20,
+              "Chrome Mox": 17,
+              "Dark Ritual": 16,
+              "Flusterstorm": 14,
+              "Gamble": 16,
+              "Imperial Seal": 16,
+              "Lion's Eye Diamond": 19,
+              "Mana Vault": 14,
+              "Mystic Remora": 16,
+              "Mystical Tutor": 14,
+              "Ponder": 20,
+              "Profane Tutor": 15,
+              "Rite of Flame": 21,
+              "Sol Ring": 14,
+              "Swan Song": 19
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 17,
+              "offered": 480,
+              "unmodeled_offers": 463
+            },
+            "event_totals": {
+              "cascade_offers": 480,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 463,
+              "granted_cast_triggers": 480,
+              "hand_casts": 720,
+              "printed_cast_triggers": 0,
+              "supported_casts": 17
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 2.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 1.92917,
+              "granted_cast_triggers": 2.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 0.0,
+              "supported_casts": 0.07083
+            },
+            "samples": 240
+          },
+          "comparison_limitation": "Different scripted effects and unsupported-card declines; no improvement or win-rate inference",
+          "representative_traces": [
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Talisman of Creativity",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat",
+                  "Talisman of Creativity"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 1,
+                      "R": 0,
+                      "U": 0
+                    },
+                    "name": "Heartless Hidetsugu",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Heartless Hidetsugu",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Heartless Hidetsugu",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Heartless Hidetsugu"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "activate",
+                    "name": "Heartless Hidetsugu",
+                    "target": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 50,
+                    "opponents": [
+                      19,
+                      18,
+                      14
+                    ],
+                    "pilot": 20
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 50,
+                    "turn": 7
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Flame Rift",
+                    "mv": 0,
+                    "name": "Inevitable Betrayal",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 62,
+                    "opponents": [
+                      15,
+                      14,
+                      10
+                    ],
+                    "pilot": 16
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat",
+                  "Inevitable Betrayal"
+                ]
+              },
+              "sample": 0
+            },
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 1,
+                    "name": "Dark Ritual",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet",
+                  "Dark Ritual"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 1,
+                      "R": 0,
+                      "U": 0
+                    },
+                    "name": "Heartless Hidetsugu",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Heartless Hidetsugu",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Heartless Hidetsugu",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Heartless Hidetsugu"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "activate",
+                    "name": "Heartless Hidetsugu",
+                    "target": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 50,
+                    "opponents": [
+                      19,
+                      18,
+                      14
+                    ],
+                    "pilot": 20
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 50,
+                    "turn": 7
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Flame Rift",
+                    "mv": 1,
+                    "name": "Dark Ritual",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 62,
+                    "opponents": [
+                      15,
+                      14,
+                      10
+                    ],
+                    "pilot": 16
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet",
+                  "Dark Ritual"
+                ]
+              },
+              "sample": 1
+            }
+          ]
+        },
+        "remove_added_source_before_t7_activation": {
+          "baseline": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 13,
+              "Arcane Signet": 16,
+              "Brain Freeze": 10,
+              "Brainstorm": 14,
+              "Dark Ritual": 10,
+              "Deadly Rollick": 14,
+              "Deflecting Swat": 15,
+              "Force of Negation": 13,
+              "Gamble": 10,
+              "Kessig Flamebreather": 12,
+              "Mana Vault": 11,
+              "Ponder": 13,
+              "Solphim, Mayhem Dominus": 16,
+              "Thermo-Alchemist": 11,
+              "Underworld Breach": 11,
+              "Wild-Magic Sorcerer": 11
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 44,
+              "offered": 480,
+              "unmodeled_offers": 436
+            },
+            "event_totals": {
+              "cascade_offers": 480,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 436,
+              "granted_cast_triggers": 240,
+              "hand_casts": 720,
+              "printed_cast_triggers": 240,
+              "supported_casts": 44
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 2.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 1.81667,
+              "granted_cast_triggers": 1.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 1.0,
+              "supported_casts": 0.18333
+            },
+            "samples": 240
+          },
+          "baseline_trace_sha256": "sha256:bfd00695f2b07302805778c3096c9e742d6d67d1e81539eaf3bf19e2074024e1",
+          "challenger": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 8,
+              "Arcane Signet": 6,
+              "Brain Freeze": 5,
+              "Deadly Rollick": 7,
+              "Deflecting Swat": 10,
+              "Force of Negation": 9,
+              "Imperial Seal": 7,
+              "Mana Vault": 6,
+              "Nightscape Familiar": 7,
+              "Ponder": 9,
+              "Solphim, Mayhem Dominus": 7,
+              "Storm-Kiln Artist": 6,
+              "Talisman of Dominance": 7,
+              "Talisman of Indulgence": 6,
+              "Thermo-Alchemist": 7,
+              "Underworld Breach": 7
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 17,
+              "offered": 240,
+              "unmodeled_offers": 223
+            },
+            "event_totals": {
+              "cascade_offers": 240,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 223,
+              "granted_cast_triggers": 240,
+              "hand_casts": 720,
+              "printed_cast_triggers": 0,
+              "supported_casts": 17
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 1.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 0.92917,
+              "granted_cast_triggers": 1.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 0.0,
+              "supported_casts": 0.07083
+            },
+            "samples": 240
+          },
+          "comparison_limitation": "Different scripted effects and unsupported-card declines; no improvement or win-rate inference",
+          "representative_traces": [
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Talisman of Creativity",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat",
+                  "Talisman of Creativity"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 1,
+                      "R": 0,
+                      "U": 0
+                    },
+                    "name": "Heartless Hidetsugu",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Heartless Hidetsugu",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Heartless Hidetsugu",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Heartless Hidetsugu"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "remove",
+                    "name": "Heartless Hidetsugu",
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat"
+                ]
+              },
+              "sample": 0
+            },
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 1,
+                    "name": "Dark Ritual",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet",
+                  "Dark Ritual"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 1,
+                      "R": 0,
+                      "U": 0
+                    },
+                    "name": "Heartless Hidetsugu",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Heartless Hidetsugu",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Heartless Hidetsugu",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Heartless Hidetsugu"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "remove",
+                    "name": "Heartless Hidetsugu",
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet"
+                ]
+              },
+              "sample": 1
+            }
+          ]
+        }
+      },
+      "source_cards_per_deck": 100,
+      "swap": {
+        "add": "Heartless Hidetsugu",
+        "cut": "Bituminous Blast"
+      }
+    },
+    {
+      "canonical_source_preserved": true,
+      "profiles": {
+        "no_removal": {
+          "baseline": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 13,
+              "Arcane Signet": 16,
+              "Brain Freeze": 10,
+              "Brainstorm": 14,
+              "Dark Ritual": 10,
+              "Deadly Rollick": 14,
+              "Deflecting Swat": 15,
+              "Force of Negation": 13,
+              "Gamble": 10,
+              "Kessig Flamebreather": 12,
+              "Mana Vault": 11,
+              "Ponder": 13,
+              "Solphim, Mayhem Dominus": 16,
+              "Thermo-Alchemist": 11,
+              "Underworld Breach": 11,
+              "Wild-Magic Sorcerer": 11
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 44,
+              "offered": 480,
+              "unmodeled_offers": 436
+            },
+            "event_totals": {
+              "cascade_offers": 480,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 436,
+              "granted_cast_triggers": 240,
+              "hand_casts": 720,
+              "printed_cast_triggers": 240,
+              "supported_casts": 44
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 2.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 1.81667,
+              "granted_cast_triggers": 1.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 1.0,
+              "supported_casts": 0.18333
+            },
+            "samples": 240
+          },
+          "baseline_trace_sha256": "sha256:d87c3c08284cf95ec4b3027ec7bf8b71b57c2f0055bd4dfa0a24ab2e9f656042",
+          "challenger": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 19,
+              "Brainstorm": 20,
+              "Chrome Mox": 17,
+              "Dark Ritual": 17,
+              "Flusterstorm": 14,
+              "Gamble": 16,
+              "Imperial Seal": 17,
+              "Lion's Eye Diamond": 21,
+              "Mana Vault": 14,
+              "Mystic Remora": 17,
+              "Mystical Tutor": 15,
+              "Ponder": 25,
+              "Profane Tutor": 17,
+              "Rite of Flame": 21,
+              "Sol Ring": 15,
+              "Swan Song": 21
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 10,
+              "offered": 480,
+              "unmodeled_offers": 470
+            },
+            "event_totals": {
+              "cascade_offers": 480,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 470,
+              "granted_cast_triggers": 480,
+              "hand_casts": 720,
+              "printed_cast_triggers": 0,
+              "supported_casts": 10
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 2.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 1.95833,
+              "granted_cast_triggers": 2.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 0.0,
+              "supported_casts": 0.04167
+            },
+            "samples": 240
+          },
+          "comparison_limitation": "Different scripted effects and unsupported-card declines; no improvement or win-rate inference",
+          "representative_traces": [
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Talisman of Creativity",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat",
+                  "Talisman of Creativity"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Tree of Perdition",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Tree of Perdition",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Tree of Perdition",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Tree of Perdition"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "activate",
+                    "name": "Tree of Perdition",
+                    "target": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "tree_exchange",
+                    "lost_this_turn": 24,
+                    "opponents": [
+                      13,
+                      36,
+                      28
+                    ],
+                    "target": 0
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 24,
+                    "turn": 7
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Flame Rift",
+                    "mv": 0,
+                    "name": "Inevitable Betrayal",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 36,
+                    "opponents": [
+                      9,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat",
+                  "Inevitable Betrayal"
+                ]
+              },
+              "sample": 0
+            },
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 1,
+                    "name": "Dark Ritual",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet",
+                  "Dark Ritual"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Tree of Perdition",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Tree of Perdition",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Tree of Perdition",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Tree of Perdition"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "activate",
+                    "name": "Tree of Perdition",
+                    "target": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "tree_exchange",
+                    "lost_this_turn": 24,
+                    "opponents": [
+                      13,
+                      36,
+                      28
+                    ],
+                    "target": 0
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 24,
+                    "turn": 7
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Flame Rift",
+                    "mv": 1,
+                    "name": "Dark Ritual",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 36,
+                    "opponents": [
+                      9,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet",
+                  "Dark Ritual"
+                ]
+              },
+              "sample": 1
+            }
+          ]
+        },
+        "remove_added_source_before_t7_activation": {
+          "baseline": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 13,
+              "Arcane Signet": 16,
+              "Brain Freeze": 10,
+              "Brainstorm": 14,
+              "Dark Ritual": 10,
+              "Deadly Rollick": 14,
+              "Deflecting Swat": 15,
+              "Force of Negation": 13,
+              "Gamble": 10,
+              "Kessig Flamebreather": 12,
+              "Mana Vault": 11,
+              "Ponder": 13,
+              "Solphim, Mayhem Dominus": 16,
+              "Thermo-Alchemist": 11,
+              "Underworld Breach": 11,
+              "Wild-Magic Sorcerer": 11
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 44,
+              "offered": 480,
+              "unmodeled_offers": 436
+            },
+            "event_totals": {
+              "cascade_offers": 480,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 436,
+              "granted_cast_triggers": 240,
+              "hand_casts": 720,
+              "printed_cast_triggers": 240,
+              "supported_casts": 44
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 2.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 1.81667,
+              "granted_cast_triggers": 1.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 1.0,
+              "supported_casts": 0.18333
+            },
+            "samples": 240
+          },
+          "baseline_trace_sha256": "sha256:bfd00695f2b07302805778c3096c9e742d6d67d1e81539eaf3bf19e2074024e1",
+          "challenger": {
+            "actual_full_library_hit_names": {
+              "Ancestral Vision": 9,
+              "Arcane Signet": 6,
+              "Brain Freeze": 7,
+              "Brainstorm": 7,
+              "Deflecting Swat": 10,
+              "Demonic Tutor": 6,
+              "Flusterstorm": 6,
+              "Force of Negation": 10,
+              "Imperial Seal": 7,
+              "Loyal Subordinate": 7,
+              "Mana Vault": 7,
+              "Nightscape Familiar": 9,
+              "Ponder": 10,
+              "Talisman of Dominance": 7,
+              "Thermo-Alchemist": 10,
+              "Underworld Breach": 8
+            },
+            "effect_coverage": {
+              "legal_declines": 0,
+              "modeled_casts": 10,
+              "offered": 240,
+              "unmodeled_offers": 230
+            },
+            "event_totals": {
+              "cascade_offers": 240,
+              "declined_legal_constraint": 0,
+              "declined_unmodeled": 230,
+              "granted_cast_triggers": 240,
+              "hand_casts": 720,
+              "printed_cast_triggers": 0,
+              "supported_casts": 10
+            },
+            "per_scripted_trial_means": {
+              "cascade_offers": 1.0,
+              "declined_legal_constraint": 0.0,
+              "declined_unmodeled": 0.95833,
+              "granted_cast_triggers": 1.0,
+              "hand_casts": 3.0,
+              "printed_cast_triggers": 0.0,
+              "supported_casts": 0.04167
+            },
+            "samples": 240
+          },
+          "comparison_limitation": "Different scripted effects and unsupported-card declines; no improvement or win-rate inference",
+          "representative_traces": [
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Talisman of Creativity",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat",
+                  "Talisman of Creativity"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Tree of Perdition",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Tree of Perdition",
+                    "mv": 3,
+                    "name": "Deflecting Swat",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Tree of Perdition",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Tree of Perdition"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "remove",
+                    "name": "Tree of Perdition",
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Deflecting Swat"
+                ]
+              },
+              "sample": 0
+            },
+            {
+              "baseline": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Bituminous Blast",
+                    "origin": "hand",
+                    "printed_cascade": 1,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Bituminous Blast",
+                    "mv": 1,
+                    "name": "Dark Ritual",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "printed"
+                  },
+                  {
+                    "creature_damage": 4,
+                    "creature_damage_result_not_modeled": true,
+                    "event": "bituminous_blast_resolves"
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Bituminous Blast"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet",
+                  "Dark Ritual"
+                ]
+              },
+              "challenger": {
+                "events": [
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Abaddon the Despoiler",
+                    "turn": 6
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 2,
+                      "C": 4,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Boltwave",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 6
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 9,
+                    "opponents": [
+                      37,
+                      36,
+                      28
+                    ],
+                    "pilot": 40
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Boltwave"
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 1,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 1,
+                      "R": 2,
+                      "U": 0
+                    },
+                    "name": "Tree of Perdition",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 9,
+                    "turn": 6
+                  },
+                  {
+                    "event": "real_cascade_offer",
+                    "from": "Tree of Perdition",
+                    "mv": 2,
+                    "name": "Arcane Signet",
+                    "outcome": "declined_unmodeled",
+                    "supported": false,
+                    "why": "abaddon"
+                  },
+                  {
+                    "event": "setup_battlefield",
+                    "name": "Tree of Perdition",
+                    "turn": 6
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Tree of Perdition"
+                  },
+                  {
+                    "event": "new_controller_turn",
+                    "threshold": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "remove",
+                    "name": "Tree of Perdition",
+                    "turn": 7
+                  },
+                  {
+                    "event": "cast",
+                    "granted_cascade": 0,
+                    "mana_remaining": {
+                      "B": 1,
+                      "C": 0,
+                      "R": 1,
+                      "U": 0
+                    },
+                    "name": "Flame Rift",
+                    "origin": "hand",
+                    "printed_cascade": 0,
+                    "threshold_at_cast": 0,
+                    "turn": 7
+                  },
+                  {
+                    "event": "damage_resolved",
+                    "lost_this_turn": 12,
+                    "opponents": [
+                      33,
+                      32,
+                      24
+                    ],
+                    "pilot": 36
+                  },
+                  {
+                    "event": "spell_resolves",
+                    "name": "Flame Rift"
+                  }
+                ],
+                "offers": [
+                  "Arcane Signet"
+                ]
+              },
+              "sample": 1
+            }
+          ]
+        }
+      },
+      "source_cards_per_deck": 100,
+      "swap": {
+        "add": "Tree of Perdition",
+        "cut": "Bituminous Blast"
+      }
+    }
+  ],
+  "samples_per_swap_per_response_profile": 240,
+  "schema_version": 1,
+  "seed": 97017,
+  "simulator_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+  "source_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "stage": "M6_Abaddon_seed_paired_real_99_cascade_hit_replay",
+  "supports_improvement_claim": false,
+  "true_full_deck_gameplay_simulation": false
+}
