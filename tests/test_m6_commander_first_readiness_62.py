@@ -47,6 +47,19 @@ class Cycle111Tests(unittest.TestCase):
   self.assertTrue(row["blueprint_identity_core_cut"])
   self.assertFalse(row["low_M5_triage_burden_only"])
   self.assertIn("CUTS_EXPLICIT_BLUEPRINT_IDENTITY_CORE",row["triage_caution_codes"])
+ def test_designated_lutri_companion_only_registered_logical_hash_exception(self):
+  deck=self.registry["decks"]["Cecily__Bjorna__Lutri"]
+  packet=m.get(m.PACK/(deck["slug"]+".json"))
+  bp=m.get(m.BP/(deck["slug"]+".json"))
+  self.assertNotEqual(deck["baseline_hash"],deck["current_canonical_hash"])
+  self.assertEqual(len(m.checked_packet(packet,deck,bp))>0,True)
+  altered=copy.deepcopy(deck)
+  altered["canonical_differs_from_source"]=[]
+  with self.assertRaisesRegex(ValueError,"Unregistered baseline"):
+   m.checked_packet(packet,altered,bp)
+  altered=copy.deepcopy(deck)
+  altered["deck_id"]="Other_Name"
+  with self.assertRaises(ValueError):m.checked_packet(packet,altered,bp)
  def test_m5_pass_never_approves_or_establishes_performance(self):
   x=copy.deepcopy(self.packet["items"][0])
   x["priority_class"]="P0_independent_agreement"
