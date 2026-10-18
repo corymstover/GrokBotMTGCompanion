@@ -23,7 +23,7 @@
     "A scripted opponent counter outcome may occur only during a nonactive player's priority window and must remain explicitly labeled an externally supplied result, not an actual counterspell cast",
     "Atomic rollback for an unavailable basic payment, already-tapped sources, wrong player priority, pending-stack turn transition, or unsupported Abaddon cascade",
     "Maintain strict frozen-Oracle verification and provenance-verified 62-roster key matching",
-    "Reproduce all 720 deck samples (62*12) plus a set of targeted stack and mana scenarios exactly; reject all known authority mutations"
+    "Reproduce all 744 deck samples (62*12) plus a set of targeted stack and mana scenarios exactly; reject all known authority mutations"
   ],
   "non_goals": [
     "No opponent AI, full Magic priority rules, turn-structure transitions, nonbasic mana, mulligans, full cascade, legal response spell, win rate or deck-strength conclusion",
@@ -41,5 +41,13 @@
     "can_approve_or_lock": false,
     "can_decide": false,
     "can_certify_M6": false
+  },
+  "audit_derivative_addendum": {
+    "noted_after_first_green_ci": true,
+    "baseline_prereg_commit": "67e2dfa3e0d704aeb1dd84396ef54bf2517c3216",
+    "correction": "Arithmetic text typo 720 to 744; all original numeric requirements already specified 62 decks times 12 samples = 744",
+    "additional_output": "Small deterministic summary JSON derived solely from the existing large evidence: totals and 62 per-deck result counts, no new trial/sample/decision rules.",
+    "sample_seed_count_or_policy_changed": false,
+    "canonical_or_phase_authority_changed": false
   }
 }
