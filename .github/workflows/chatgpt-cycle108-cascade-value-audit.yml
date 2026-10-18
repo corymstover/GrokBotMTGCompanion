@@ -7,6 +7,7 @@ on:
       - scripts/grixis_m6_abaddon_cascade_offer_triage.py
       - tests/test_m6_abaddon_cascade_offer_triage.py
       - data/grixis/m6/phase_b_plans/abaddon_cascade_offer_triage_01.json
+      - data/grixis/m6/phase_b_plans/abaddon_cascade_role_followup_01.json
   workflow_dispatch:
 permissions:
   contents: write
@@ -48,6 +49,9 @@ jobs:
           assert d['paired_seeds']==240 and d['offers_per_policy']==7
           assert len(d['first_policy_offers'])==len(d['second_policy_offers'])==7
           assert sum(d['paired_oracle_verified_real_card_names'].values())==7
+          assert d['post_result_mechanic_classification_is_not_a_preregistered_effect_result'] is True
+          assert len(d['post_result_specific_oracle_mechanic_roles'])==7
+          assert all(not x['realized_value_measured'] and x['relative_deck_value']=='UNKNOWN_NOT_ZERO' for x in d['post_result_specific_oracle_mechanic_roles'].values())
           assert d['relative_value']=='CANNOT_EVALUATE'
           assert d['cascade_value_range']=='UNKNOWN_NOT_ZERO'
           assert d['cascade_cast_legality_resolved'] is False
