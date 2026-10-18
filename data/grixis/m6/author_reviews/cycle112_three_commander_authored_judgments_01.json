@@ -1,0 +1,134 @@
+{
+  "cycle": 112,
+  "reviewer": "ChatGPT — author-side commander-first strategic assessment, NOT independent formal Pass C",
+  "reviewed_source": "approved exact canonically locked lists and M6 blueprints/review-packets",
+  "decision_authority": false,
+  "review_count": 3,
+  "claims_approved_canonical_mutation": false,
+  "reviews": [
+    {
+      "deck_id": "Cormela__Glamour_Thief",
+      "slug": "cormela-glamour-thief",
+      "commander": "Cormela, Glamour Thief",
+      "approved_raw_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+      "m5_swap_id": "swap:cormela-glamour-thief:m5:b170df1f8164",
+      "add": "Archaeomancer",
+      "cut": "Faithless Looting",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "confidence": "high_strategic_mechanics_not_win_rate",
+      "source_m5_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "existing_strategic_role": "One-mana Faithless Looting filters two cards while loading spells/recursion resources into the graveyard, has flashback, and is a sorcery payable from Cormela's restricted UBR when her ability is available.",
+      "added_strategic_role": "Four-mana Archaeomancer returns one instant or sorcery from graveyard to hand on creature entry, but adds a sorcery-speed creature to a fast ritual/storm shell and redundantly overlaps Cormela's death trigger.",
+      "commander_specific_rules": [
+        "Cormela's {1}, {T} mana restriction allows only instant and/or sorcery casts; that generated UBR cannot cast Archaeomancer because it is a creature.",
+        "Archaeomancer's ETB trigger, unlike Cormela's death trigger, requires the Archaeomancer permanent to resolve and survive to trigger; repeated recursion needs an additional blink or recursion mechanism.",
+        "Removing Faithless Looting also eliminates its cheap flashback discard outlet and graveyard setup. The M5 report's extra Spellbook combos do not demonstrate accessible turn/tempo performance."
+      ],
+      "protected_identity": [
+        "Cormela",
+        "Saw in Half",
+        "Goryo's Vengeance",
+        "Molten Duplication",
+        "reanimation and spellslinging ritual timing"
+      ],
+      "why_no_change": "The proposed exchange raises minimum mana for basic spell selection and does not replace a unique commander loop; the plausible graveyard spell return is less compelling at Cormela's documented cEDH ceiling than instant-speed/lower-cost chain support.",
+      "missing_evidence": [
+        "Proven effect-legal commander-specific Archaeomancer recursion that beats the current Cormela loops in actual 100-card hands.",
+        "Tempo/turn-to-assemble comparison with creature mana unavailable from Cormela's restricted mana.",
+        "Independent Pass C review and actual current-time rules/legality plus exact full deck verification before any proposed approval."
+      ],
+      "next_action": "Do not remove Faithless Looting for this candidate. Investigate only if a demonstrated new commander-centered line requires Archaeomancer at acceptable tempo."
+    },
+    {
+      "deck_id": "Ashnod_the_Uncaring",
+      "slug": "ashnod-the-uncaring",
+      "commander": "Ashnod the Uncaring",
+      "approved_raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+      "m5_swap_id": "swap:ashnod-the-uncaring:m5:0298cc8543cb",
+      "add": "Detective's Satchel",
+      "cut": "Dockside Chef",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "confidence": "high_mechanics_moderate_strategic_not_win_rate",
+      "source_m5_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "existing_strategic_role": "One-black-mana Dockside Chef has {1}{B}, sacrifice an artifact or creature as a cost: draw a card. Ashnod copies the nonmana ability when the cost sacrifices a permanent, resulting in two draws from one activation/sacrifice if Ashnod is present.",
+      "added_strategic_role": "Four-mana Detective's Satchel investigates twice on entry to produce two Clues. Each Clue has {2}, sacrifice this artifact as activation cost to draw; Ashnod copies the Clue's ability, but Satchel's own {T} Thopter-token activation has no sacrifice in its activation cost and is not copied.",
+      "commander_specific_rules": [
+        "Ashnod has no once-per-turn limit and can copy qualifying artifact/creature nonmana activated abilities whose own activation cost sacrifices a permanent. A sacrifice made earlier that turn to unlock another card's {T} ability does not make that later ability eligible.",
+        "Chef's activated sacrifice cost qualifies for Ashnod; its one sacrificed artifact/creature can draw two total cards with Ashnod present (original and copy), subject to the spell/permanent remaining in play as relevant.",
+        "Satchel-created Clues qualify individually because each Clue's activation cost sacrifices itself. Satchel's Thopter generation itself does not qualify and typically costs untapping the Satchel between activations.",
+        "No evidence was supplied that four-mana Clue provisioning compensates for removing the cheaper repeatable Chef sacrifice engine in the current recursion/cost-focused 100."
+      ],
+      "protected_identity": [
+        "Ashnod",
+        "Trading Post",
+        "Time Sieve",
+        "Scrap Trawler",
+        "sacrifice-as-activation-cost outlets"
+      ],
+      "why_no_change": "The proposed add has legitimate Clue/Ashnod synergy, but sacrifices a cheap repeatable commander-copyable outlet for a higher-cost, finite source of Clues and an independently uncopyable Satchel tap ability. The M5 'test_pass' cannot resolve that value difference.",
+      "missing_evidence": [
+        "Controlled costed comparison of Chef-activated double draws versus Satchel's finite copyable Clue draws and Thopter fuel.",
+        "Proper turn-by-turn modeling of sacrifice fodder, artifacts returning, summoning sickness/tap sequencing, and Ashnod in play.",
+        "Independent Pass C and source-bound full-deck audit of any future alternative cut."
+      ],
+      "next_action": "Retain Dockside Chef. Investigate Detective's Satchel only as a separate candidate against a demonstrably weaker slot, and account for both mana and sacrifice-cost timing."
+    },
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "commander": "Gwendlyn Di Corci",
+      "approved_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "m5_swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "add": "Aphetto Alchemist",
+      "cut": "Opposition Agent",
+      "disposition": "PROMISING_UNRESOLVED_REQUIRES_TARGETED_EVIDENCE",
+      "confidence": "moderate_commander_fit_unmeasured_tradeoff",
+      "source_m5_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "existing_strategic_role": "Opposition Agent has flash and replaces opponents' library searches with controlled searches and card exiling/possible card access. It is proactive interaction against tutor-heavy opponents, even though it does not enable Gwendlyn's activation.",
+      "added_strategic_role": "Aphetto Alchemist costs {1}{U}, taps to untap a target artifact or creature; can untap Gwendlyn for another random-discard activation on the active player's turn after Alchemist itself is able to tap.",
+      "commander_specific_rules": [
+        "Gwendlyn's random-discard {T} activation is only legal during its controller's turn and obeys summoning sickness. She needs to survive and be untapped to use it.",
+        "Alchemist's own {T} requires it to be able to tap; it can target Gwendlyn, but shroud granted by Pemmin's Aura prevents targeting Gwendlyn with Alchemist's activated ability.",
+        "Illusionist's Bracers equips to one creature at a time. When equipped to Alchemist, the Alchemist tap ability can be copied, with one target the Alchemist and the other target Gwendlyn; this can enable repeated Gwendlyn untaps only while legal targets/turn and survival conditions hold. It does not simultaneously copy Gwendlyn's discard ability if Bracers was moved off Gwendlyn.",
+        "Repeated random discard cannot be scored as an infinite win: opponents have finite cards in hand, and discard payoff timing plus reloading wheels and interactions must be modeled.",
+        "The M5 combo completion annotation does not establish the relative value of losing Opposition Agent's opponent-search control in a high-power multiplayer environment."
+      ],
+      "protected_identity": [
+        "Gwendlyn",
+        "Illusionist's Bracers",
+        "Pemmin's Aura",
+        "Waste Not",
+        "untap/copy engine"
+      ],
+      "why_no_change": "Alchemist fits the commander-first plan substantially better than a generic card, but sacrificing unique powerful tutor denial is consequential. The accepted approved deck already has Minamo, Magewright's Stone, Patriar's Seal, Thousand-Year Elixir and Pemmin's Aura; another untapper may be welcome or redundant depending on availability and matchup.",
+      "missing_evidence": [
+        "Rules-grounded activation sequencing for Gwendlyn + Alchemist, with/without Bracers equipped to each and with/without Pemmin shroud.",
+        "Turn-to-discard and actual opposing-hand count payoff across paired openings, including summoning sickness and removal risk.",
+        "Opponent search/tutor denial opportunity cost of cutting Opposition Agent, realistic interaction density and alternate lower-cost potential cuts.",
+        "Named independent strategic critique, Phase B and owner approval if any real swap becomes justified."
+      ],
+      "next_action": "Shortlist Aphetto Alchemist as genuine identity-positive candidate, but do not cut Opposition Agent without targeted benefit-versus-disruption evidence. Retain current list."
+    }
+  ],
+  "global_state": {
+    "canonical_decks_modified": 0,
+    "owner_approval_requested": false,
+    "independent_critic_completed": false,
+    "balanced_phase_b_completed": false,
+    "tested_pool_zero_improvement_claimed": false,
+    "M6_accepted": false,
+    "any_swap_recommended_for_immediate_application": false
+  }
+}

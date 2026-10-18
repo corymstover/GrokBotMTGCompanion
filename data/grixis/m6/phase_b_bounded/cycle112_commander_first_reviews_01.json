@@ -1,0 +1,200 @@
+{
+  "M6_accepted": false,
+  "approvals_or_certifications_issued": 0,
+  "author_strategic_reviews_completed": 3,
+  "authored_review_sha256": "sha256:81a461981ea77c7ef966bb3e43649cba9960f13073a350c94d211e95a0874383",
+  "authority": {
+    "can_approve_or_lock": false,
+    "can_certify_M6": false,
+    "can_change_decklists": false,
+    "can_decide": false
+  },
+  "cycle": 112,
+  "dispositions": {
+    "Ashnod the Uncaring": "HOLD_EXISTING_LIST_NO_SWAP",
+    "Cormela, Glamour Thief": "HOLD_EXISTING_LIST_NO_SWAP",
+    "Gwendlyn Di Corci": "PROMISING_UNRESOLVED_REQUIRES_TARGETED_EVIDENCE"
+  },
+  "frozen_oracle_checks": {
+    "Aphetto Alchemist": {
+      "oracle_sha256": "sha256:b4222274ac3694853dd5e80318041483db44de357c1070880979dee0176910bb",
+      "printed_mana_cost": "{1}{U}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Creature — Human Wizard"
+    },
+    "Archaeomancer": {
+      "oracle_sha256": "sha256:dd69884188549590f42a8e283c822fa065a2c8df40848e35e703431728206116",
+      "printed_mana_cost": "{2}{U}{U}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Creature — Human Wizard"
+    },
+    "Ashnod the Uncaring": {
+      "oracle_sha256": "sha256:6a5cd1f35b18b31ea10e1f374d1d91572cf66ae1995c3b5bbab5badf6389b49b",
+      "printed_mana_cost": "{2}{U}{B}{R}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Legendary Creature — Human Artificer"
+    },
+    "Cormela, Glamour Thief": {
+      "oracle_sha256": "sha256:e10fa3fb863d7d9bae0e8c58973378b25d4fa14d36933c43cf922c0417ee6598",
+      "printed_mana_cost": "{1}{U}{B}{R}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Legendary Creature — Vampire Rogue"
+    },
+    "Detective's Satchel": {
+      "oracle_sha256": "sha256:744a654f6eca18ee250d6b0493c01c34d6bf1826b369d41358d516857eac38f8",
+      "printed_mana_cost": "{2}{U}{R}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Artifact"
+    },
+    "Dockside Chef": {
+      "oracle_sha256": "sha256:f90fb3a16119a7b5c5326cd6402956a86f3278fb95e7c7de2b05b14761e4fe45",
+      "printed_mana_cost": "{B}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Enchantment Creature — Human Citizen"
+    },
+    "Faithless Looting": {
+      "oracle_sha256": "sha256:4defe25e5e7b93fc67c6dc2eda87811c3cf06dbcf9f5f02c86e140af1741640d",
+      "printed_mana_cost": "{R}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Sorcery"
+    },
+    "Gwendlyn Di Corci": {
+      "oracle_sha256": "sha256:a6cb43974d127c10c33d19d96022fd3a7953044bd3302d279e4926c478b83611",
+      "printed_mana_cost": "{U}{B}{B}{R}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Legendary Creature — Human Rogue"
+    },
+    "Illusionist's Bracers": {
+      "oracle_sha256": "sha256:038de499e0a862298fd619fd9e81b4d74f8e13d5a0985c1bdcd42aa0904b166f",
+      "printed_mana_cost": "{2}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Artifact — Equipment"
+    },
+    "Opposition Agent": {
+      "oracle_sha256": "sha256:4657324301158391f3933ff5c3acf5bcc69f6dd34fb98f328879c5a4fdf3b71f",
+      "printed_mana_cost": "{2}{B}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Creature — Human Rogue"
+    },
+    "Pemmin's Aura": {
+      "oracle_sha256": "sha256:33d94092eed0f4f54fb0be4cc80d9ac4dabf0c4d885c5e1a26d47507a1d503d7",
+      "printed_mana_cost": "{1}{U}{U}",
+      "snapshot_legality_claim_not_current": true,
+      "type_line": "Enchantment — Aura"
+    }
+  },
+  "full_effect_aware_M6_Phase_B_reviews_completed": 0,
+  "independent_Pass_C_reviews_completed": 0,
+  "next_required": "Independent critical assessment of these source-bound holds and narrowly scoped opponent-aware Gwendlyn untap-vs-tutor-denial pilot. No approved deck changes without explicit owner approval.",
+  "plan_sha256": "sha256:b50353a31da3f00f675f60239dea349abbde0a9e9841dc84e02e2c8e9cfa2f98",
+  "reviewed_decks": [
+    {
+      "M5_original_swap_id": "swap:cormela-glamour-thief:m5:b170df1f8164",
+      "M5_source_priority_not_a_swap_approval": "P0_independent_agreement",
+      "approved_raw_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+      "author_rationale_from_review": "The proposed exchange raises minimum mana for basic spell selection and does not replace a unique commander loop; the plausible graveyard spell return is less compelling at Cormela's documented cEDH ceiling than instant-speed/lower-cost chain support.",
+      "balanced_effect_aware_Phase_B_complete": false,
+      "blueprint_sha256": "sha256:3f627bca9265b8ed889bf52cd6a9487c7340a94fc38db99dfc5a960dfa744fec",
+      "commander": "Cormela, Glamour Thief",
+      "commander_native_role": "central",
+      "commander_on_100th_slot_verified": true,
+      "commander_primary_plan": "cEDH instant/sorcery combo: Cormela's hasty restricted UBR mana pays for spell chains, and her death trigger loops with sacrifice outlets plus reanimation/cloning (Saw in Half, Goryo's Vengeance, Shallow Grave, Demonic Gifts, Molten Duplication + Birgi).",
+      "deck_id": "Cormela__Glamour_Thief",
+      "named_independent_Pass_C_complete": false,
+      "original_99_card_main_verified": true,
+      "packet_sha256": "sha256:fcf6d0914f9e22a3055e48f93729d98583a157ed7ac02db5a97ce71e1b81e11f",
+      "proposed_add_present_in_current_99": false,
+      "proposed_card_legality_rechecked_at_decision_time": false,
+      "proposed_cut_present_in_current_99": true,
+      "protected_blueprint_core": [
+        "Cormela, Glamour Thief",
+        "Saw in Half",
+        "Molten Duplication",
+        "Goryo's Vengeance"
+      ],
+      "source_M5_test_flags_are_only_exploratory": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "strategic_disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "swap_applied_or_approved": false,
+      "tested_pool_zero_improvement_certified": false
+    },
+    {
+      "M5_original_swap_id": "swap:ashnod-the-uncaring:m5:0298cc8543cb",
+      "M5_source_priority_not_a_swap_approval": "P0_independent_agreement",
+      "approved_raw_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+      "author_rationale_from_review": "The proposed add has legitimate Clue/Ashnod synergy, but sacrifices a cheap repeatable commander-copyable outlet for a higher-cost, finite source of Clues and an independently uncopyable Satchel tap ability. The M5 'test_pass' cannot resolve that value difference.",
+      "balanced_effect_aware_Phase_B_complete": false,
+      "blueprint_sha256": "sha256:da8bec39914e8bb55866e6035fcfb17f6f19cd72c7844a9f579cea36c44609ed",
+      "commander": "Ashnod the Uncaring",
+      "commander_native_role": "central",
+      "commander_on_100th_slot_verified": true,
+      "commander_primary_plan": "Artifact-sacrifice engine: activate abilities whose costs sacrifice artifacts or creatures (Spellbombs, Station effects, Trading Post, Time Sieve, altars-as-costs) and copy every one of them with Ashnod, recurring the fodder with Trawler/Retriever/Welder loops.",
+      "deck_id": "Ashnod_the_Uncaring",
+      "named_independent_Pass_C_complete": false,
+      "original_99_card_main_verified": true,
+      "packet_sha256": "sha256:4a42805b23934a314baa0267b7814f9b3e8f8a6bf3b91145e2ec75e1ee220ded",
+      "proposed_add_present_in_current_99": false,
+      "proposed_card_legality_rechecked_at_decision_time": false,
+      "proposed_cut_present_in_current_99": true,
+      "protected_blueprint_core": [
+        "Ashnod the Uncaring",
+        "Trading Post",
+        "Time Sieve",
+        "Scrap Trawler",
+        "Rings of Brighthearth"
+      ],
+      "source_M5_test_flags_are_only_exploratory": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "strategic_disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "swap_applied_or_approved": false,
+      "tested_pool_zero_improvement_certified": false
+    },
+    {
+      "M5_original_swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "M5_source_priority_not_a_swap_approval": "P0_independent_agreement",
+      "approved_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "author_rationale_from_review": "Alchemist fits the commander-first plan substantially better than a generic card, but sacrificing unique powerful tutor denial is consequential. The accepted approved deck already has Minamo, Magewright's Stone, Patriar's Seal, Thousand-Year Elixir and Pemmin's Aura; another untapper may be welcome or redundant depending on availability and matchup.",
+      "balanced_effect_aware_Phase_B_complete": false,
+      "blueprint_sha256": "sha256:28d0da293e10b04d494e6eb7843f3345a44158e467a408963000bf7969ae61a0",
+      "commander": "Gwendlyn Di Corci",
+      "commander_native_role": "central",
+      "commander_on_100th_slot_verified": true,
+      "commander_primary_plan": "Make Gwendlyn a repeatable random-discard engine: haste her, then untap her (Pemmin's Aura, Minamo, Magewright's Stone, Patriar's Seal) and copy her ability (Illusionist's Bracers) to strip hands while discard punishers (Waste Not, Liliana's Caress, Geth's Grimoire, Tinybones) pay off.",
+      "deck_id": "Gwendlyn_Di_Corci",
+      "named_independent_Pass_C_complete": false,
+      "original_99_card_main_verified": true,
+      "packet_sha256": "sha256:314b6c961d0fd788aca5f2b1eb75ad52bca1ba24c94e74c430324c4291f59352",
+      "proposed_add_present_in_current_99": false,
+      "proposed_card_legality_rechecked_at_decision_time": false,
+      "proposed_cut_present_in_current_99": true,
+      "protected_blueprint_core": [
+        "Gwendlyn Di Corci",
+        "Illusionist's Bracers",
+        "Pemmin's Aura",
+        "Waste Not",
+        "Mind Twist"
+      ],
+      "source_M5_test_flags_are_only_exploratory": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "strategic_disposition": "PROMISING_UNRESOLVED_REQUIRES_TARGETED_EVIDENCE",
+      "swap_applied_or_approved": false,
+      "tested_pool_zero_improvement_certified": false
+    }
+  ],
+  "schema_version": 1,
+  "source_conservation": {
+    "canonical_repo_modified": false,
+    "full_approved_lists_read": 3,
+    "reviewed_additions_applied": 0
+  },
+  "source_registry_sha256": "sha256:c6004376d9324479d75ed3a94a4a389c600e57a2384bf77cc466ab86e128dba0"
+}

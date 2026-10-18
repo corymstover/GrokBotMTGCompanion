@@ -1,0 +1,83 @@
+{
+  "cycle": 112,
+  "status": "preregistered_before_review_artifacts",
+  "milestone": "M6",
+  "mode": "three_distinct_commander_first_author_reviews_not_formal_independent_Pass_C",
+  "protected_authority": "corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json",
+  "analysis_base": "corymstover/GrokBotMTGCompanion/chatgpt-cycle76-m6-refinement",
+  "first_batch": [
+    {
+      "deck_id": "Cormela__Glamour_Thief",
+      "slug": "cormela-glamour-thief",
+      "commander": "Cormela, Glamour Thief",
+      "primary_proposal": {
+        "add": "Archaeomancer",
+        "cut": "Faithless Looting"
+      },
+      "focus": [
+        "Actual four-mana creature cost and lack of commander-mana compatibility",
+        "Graveyard spell access, cheap filtering and flashback lost",
+        "Commander-dependent recursion engine versus new ETB redundancy",
+        "Real combo line with preserved spell/sacrifice outlet and current Oracle",
+        "Total speed/interaction opportunity cost"
+      ]
+    },
+    {
+      "deck_id": "Ashnod_the_Uncaring",
+      "slug": "ashnod-the-uncaring",
+      "commander": "Ashnod the Uncaring",
+      "primary_proposal": {
+        "add": "Detective's Satchel",
+        "cut": "Dockside Chef"
+      },
+      "focus": [
+        "Ashnod copy gate requires a nonmana activated artifact or creature ability with permanent sacrifice in activation COST, not payment for unrelated mana",
+        "Chef sacrifices artifact/creature to pay activated ability, draws twice with commander",
+        "Clue-token draw sacrifices Clue to pay its own ability (copyable); Satchel's Thopter tap ability has NO sacrifice cost and is not copied",
+        "Printed casting and activation economics, artifact-fodder provisioning",
+        "Effect of losing a cheap, repeatable sacrifice outlet versus adding a slower Clue supplier"
+      ]
+    },
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "commander": "Gwendlyn Di Corci",
+      "primary_proposal": {
+        "add": "Aphetto Alchemist",
+        "cut": "Opposition Agent"
+      },
+      "focus": [
+        "Alchemist taps to untap commander on controller turn, after own summoning sickness unless haste",
+        "Illusionist's Bracers equipped to Alchemist can copy untap targets but then cannot simultaneously double Gwendlyn activation",
+        "Gwendlyn targeted opponent random discard needs own-turn priority and untap; noninfinitely replenished hands",
+        "Tradeoff of losing flash tutor-search denial and stolen-card access from Opposition Agent",
+        "Potentially relevant synergy but insufficient game-state data or opponent search policy"
+      ]
+    }
+  ],
+  "required_sources": [
+    "Approved exact source TXT and raw SHA256 for each, validated independently against live canonical repository",
+    "Three current M6 registry decks and their blueprint commander text, core, packages and anti-goals",
+    "Three M6 review packets; exact leading swap ID/flags/provenance; no blanket packet ranking",
+    "Frozen October 2026 Scryfall Oracle for at least 3 commanders + 6 added/cut cards plus Illusionist's Bracers; current live card websites used as corroboration but dated legality not certified"
+  ],
+  "exit_requirements": [
+    "At least one substantial author-written, commander-specific review per deck with direct supported Oracle interaction and existing-card opportunity costs",
+    "Each with one of HOLD_EXISTING_LIST, PROMISING_UNRESOLVED_REQUIRES_TARGETED_EVIDENCE, or USER_DECISION_REQUIRED, but no final approval or auto swap",
+    "Reproducible source/Oracle/list/card-presence integrity checks for all three",
+    "No changes to approved 62 lists, M0-M5 or M6 status",
+    "Flag M5 false-positive mechanism assumptions and independent proof gaps openly; do not claim author-only review independent",
+    "Review packets not passed off as approved cuts; ordinary live legality may change after frozen snapshot"
+  ],
+  "outputs": [
+    "data/grixis/m6/phase_b_bounded/cycle112_commander_first_reviews_01.json",
+    "data/grixis/m6/critic_batches/cycle112_three_commander_reviews_preliminary.md"
+  ],
+  "prereg_blueprint_preservation": true,
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
