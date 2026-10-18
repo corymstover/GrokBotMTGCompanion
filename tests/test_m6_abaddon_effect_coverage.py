@@ -8,8 +8,12 @@ import grixis_m6_abaddon_effect_coverage as m
 def obj(hand,lib,extra_md=None):
  md={name:{"mv":0,"land":False,"front":name} for name in lib+hand}
  md.update(extra_md or {})
- return m.ExpandedCascade(lib,md,"Bituminous Blast",[40,39,31],
+ t=m.ExpandedCascade(lib,md,"Bituminous Blast",[40,39,31],
      {"B":3,"R":3,"U":3,"C":5},6)
+ # The Cycle-97 constructor intentionally fixes a three-card hand; these
+ # isolated effect tests replace it with the explicitly named test hand.
+ t.hand=list(hand)
+ return t
 
 class TestCycle98Coverage(unittest.TestCase):
  def test_preregistration_scope(self):
