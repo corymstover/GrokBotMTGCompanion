@@ -20,6 +20,7 @@ C106=ROOT/"data/grixis/m6/phase_b_bounded/abaddon_physical_slot_summary_01.json"
 SOURCE=ROOT/"exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt"
 REG=ROOT/"data/grixis/registry.json"
 OUT=ROOT/"data/grixis/m6/phase_b_bounded/abaddon_cascade_offer_triage_01.json"
+ADDENDUM=ROOT/"data/grixis/m6/phase_b_plans/abaddon_cascade_role_followup_01.json"
 AUTH={"can_change_decklists":False,"can_approve_or_lock":False,
       "can_decide":False,"can_certify_M6":False}
 
@@ -82,6 +83,57 @@ def oracle_classification(off,source,permitted):
    "no_numerical_value_assigned":True}
  return result
 
+# Explicitly POST-RESULT exploratory gates for the seven cards actually seen.
+# These are NOT preregistered effects and no spell was cast in Cycle107.
+ROLE_CHECKS={
+ "Mana Vault":{"snippets":["add {c}{c}{c}","doesn't untap"],
+    "role":"artifact burst mana, delayed upkeep/untap cost",
+    "state_needed":"artifact resolves; available next spell and mana demand; upkeep cost and future untap unknown",
+    "can_resolve_without_target":"printed mana artifact, no target"},
+ "Windfall":{"snippets":["each player discards their hand","greatest number"],
+    "role":"all-player hand reset/card draw",
+    "state_needed":"four actual hands, hand sizes, discard triggers, and downstream spell options",
+    "can_resolve_without_target":"no target printed; requires full hands"},
+ "Deflecting Swat":{"snippets":["choose new targets","target spell or ability"],
+    "role":"stack target-redirection interaction",
+    "state_needed":"existing spell/ability (Bituminous Blast is on stack), all legal targets and relevance of redirection",
+    "can_resolve_without_target":"requires target spell/ability and legal resolution choices"},
+ "Demonic Tutor":{"snippets":["search your library for a card","put that card into your hand"],
+    "role":"unrestricted library-to-hand tutor",
+    "state_needed":"physical library, deterministic/strategic card selection, follow-up cast availability",
+    "can_resolve_without_target":"no spell target; needs library selection"},
+ "Chrome Mox":{"snippets":["imprint","nonartifact, nonland card","exiled card"],
+    "role":"artifact imprint-dependent colored acceleration",
+    "state_needed":"qualifying card in hand to imprint, exiled color identity, lost card opportunity cost",
+    "can_resolve_without_target":"artifact can enter but useful mana not guaranteed without imprint"},
+ "Vampiric Tutor":{"snippets":["search your library for a card","put that card on top","lose 2 life"],
+    "role":"library-to-top tutor with controller life loss",
+    "state_needed":"physical library, card choice, 2 life loss on resolution, draw access thereafter",
+    "can_resolve_without_target":"no spell target; needs library choice"},
+ "Sol Ring":{"snippets":["add {c}{c}"],
+    "role":"artifact two-colorless mana acceleration",
+    "state_needed":"artifact resolves and next payable real hand spell exists",
+    "can_resolve_without_target":"printed mana artifact, no target"}
+}
+def classify_card_specific_roles(source_cards,found):
+ if set(found)!=set(ROLE_CHECKS):
+  raise ValueError("Post-result role audit is for these seven observed names only")
+ out={}
+ for name in sorted(found):
+  src=source_cards[name]
+  oracle=(src.get("oracle_text") or "").casefold()
+  rule=ROLE_CHECKS[name]
+  if not oracle or any(snippet.casefold() not in oracle for snippet in rule["snippets"]):
+   raise ValueError("Printed Oracle mechanism requirement mismatch for "+name+": "+repr(oracle))
+  out[name]={"oracle_sha256":"sha256:"+hashlib.sha256((src["oracle_text"]).encode()).hexdigest(),
+    "conditional_role_not_measured_strength":rule["role"],
+    "required_game_state_for_realized_value":rule["state_needed"],
+    "target_or_ETB_qualification":rule["can_resolve_without_target"],
+    "was_offered":True,"was_cast_in_source_evidence":False,
+    "realized_value_measured":False,
+    "relative_deck_value":"UNKNOWN_NOT_ZERO"}
+ return out
+
 def offer_rows(data,policy,source_cards,library_names):
  trials=data["policies"][policy]["trials"]
  rows=[]
@@ -129,6 +181,10 @@ def run():
    for offer in trial["offers"]:
     if offer["eligible_name"] is not None:name_offers.add(offer["eligible_name"])
  sources={n:resolver.get(n)[0] for n in sorted(name_offers)}
+ add=read(ADDENDUM)
+ if (add["cycle"]!=108 or not add["created_after_first_green_source_triage"] or add["not_an_original_preregistered_hypothesis"] is not True or set(add["observed_seven_distinct_cards"])!=name_offers or add["authority"]!=AUTH):
+  raise ValueError("Post-result mechanism addendum altered or observed cards drift")
+ role_mechanics=classify_card_specific_roles(sources,name_offers)
  a=offer_rows(old,p["scenarios"][0],sources,names)
  b=offer_rows(old,p["scenarios"][1],sources,names)
  if len(a)!=7 or len(b)!=7:
@@ -146,6 +202,9 @@ def run():
   raise ValueError("Baseline Cycle106 opportunity drift")
  result={"schema_version":1,"cycle":108,"source_sha256":sha(SOURCE),
    "plan_sha256":sha(PLAN),"cycle107_sha256":sha(PREV),"cycle106_sha256":sha(C106),
+   "post_result_exploratory_addendum_sha256":sha(ADDENDUM),
+   "post_result_specific_oracle_mechanic_roles":role_mechanics,
+   "post_result_mechanic_classification_is_not_a_preregistered_effect_result":True,
    "paired_seeds":p["sample_count"],"offers_per_policy":len(a),
    "paired_oracle_verified_real_card_names":dict(sorted(names_seen.items())),
    "source_oracle_gated_cards":{n:{"oracle_sha256":"sha256:"+hashlib.sha256((sources[n].get("oracle_text") or "").encode()).hexdigest(),
