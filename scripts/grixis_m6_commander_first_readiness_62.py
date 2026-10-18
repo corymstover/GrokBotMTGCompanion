@@ -172,7 +172,7 @@ def evaluate():
   dependency=bp.get("dependency_level",bp.get("dependency",{}))
   dep=dependency.get("value") if isinstance(dependency,dict) else dependency
   exception=bp.get("project_exceptions") or {}
-  named=list(exception.get("exceptions",{}).get("value") or [])
+  named=list(exception.get("value") or [])
   future=exception.get("future_release") or []
   identities=[x["card"] for x in bp["identity_core"] if x.get("card")]
   exceptions_by_registry=d.get("project_exceptions") or []
