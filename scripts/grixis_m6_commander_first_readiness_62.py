@@ -176,6 +176,11 @@ def evaluate():
   future=exception.get("future_release") or []
   identities=[x["card"] for x in bp["identity_core"] if x.get("card")]
   exceptions_by_registry=d.get("project_exceptions") or []
+  legacy=d.get("deck_id_provenance")
+  if legacy is not None and (d["deck_id"]!="Norman_Osborn_Green_Goblin"
+    or legacy.get("source_deck_id")!="Goben__Gene_Splice_Savant"
+    or "Norman" not in legacy.get("note","")):
+   raise ValueError("Undocumented legacy source deck ID mapping: "+d["deck_id"])
   required_pkg=[{"id":x["id"],"role":x.get("role"),"min_count":x.get("min_count")}
     for x in bp.get("packages",[]) if x.get("required")]
   exact_cast={c["name"] for c in bp["commanders"]["value"]}
@@ -208,6 +213,7 @@ def evaluate():
   result.append({"deck_id":d["deck_id"],"slug":d["slug"],"commanders":d["commanders"],
     "tier":tier,"source_canonical_logical_hash":d["current_canonical_hash"],
     "recorded_source_approved_raw_sha256":d["source"].get("recorded_sha256"),
+    "source_canonical_legacy_deck_id_provenance":legacy,
     "M6_registry_state":"SOURCE_BASELINE_not_current_approval_authority",
     "documented_baseline_to_companion_reconciliation":d.get("canonical_differs_from_source",[]),
     "blueprint_sha256":hash_(bp_path),"review_packet_sha256":hash_(packet_path),
