@@ -79,7 +79,7 @@ class PriorityNonbasic(PriorityBasics):
   if tag=="shock":
    if pay_shock is None:pay_shock=self.pilot>2
    if not isinstance(pay_shock,bool):raise BlockedAction("Shock-land life choice required")
-   if pay_shock and self.pilot<2:raise BlockedAction("Cannot pay 2 life")
+   if pay_shock and self.pilot<=2:raise BlockedAction("Paying 2 life would require unmodeled game-end actions")
   elif pay_shock is not None:raise BlockedAction("Only shocklands accept 2-life entry choice")
   tapped=self._enter_tapped(uid,other,pay_shock)
   with self.atomic():
