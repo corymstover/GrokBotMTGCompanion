@@ -64,6 +64,15 @@ jobs:
           assert r['program']['milestones']['M6']['accepted_by'] is None
           assert p['status']=='preregistered_before_implementation'
           assert d['deck_count']==62 and d['sample_count']==744
+          sm=json.loads(Path('data/grixis/m6/phase_b_bounded/priority_basic_access_62_summary_01.json').read_text())
+          assert sm['decks']==62 and sm['samples']==744
+          assert sm['signet_seen']==d['sampled_signet_seen']
+          assert sm['signet_paid_from_basic_sources']==d['sampled_signet_basic_casts']
+          assert len(sm['per_deck'])==62
+          assert not sm['no_nonbasic_mana'] is False
+          assert sm['no_wins_or_candidate_comparisons'] is True
+          print('Compact audit:',sm['signet_seen'],'Signets seen,',
+                sm['signet_paid_from_basic_sources'],'source-paid casts across 744 samples')
           assert len(d['deck_access_receipts'])==62
           assert sum(len(x['samples']) for x in d['deck_access_receipts'])==744
           assert not d['uses_injected_mana_in_access_samples']
@@ -93,7 +102,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/grixis/m6/phase_b_bounded/priority_basic_access_62_01.json
+          git add data/grixis/m6/phase_b_bounded/priority_basic_access_62_01.json data/grixis/m6/phase_b_bounded/priority_basic_access_62_summary_01.json
           if git diff --cached --quiet; then
             echo 'Evidence already current'
           else
