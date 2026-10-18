@@ -191,7 +191,7 @@ def verify():
   "independent_phase_b_completed":False,"independent_pass_c_completed":False,
   "true_gameplay_win_rate_available":False,"M6_accepted":False,
   "next_discriminating_experiment":{
-    "name":"Abaddon hand-cast cascade chain versus protected printed-cascade removal slot",
+    "name":"Abaddon hand-cast cascade chain: Bituminous Blast printed-cascade/removal baseline vs Heartless Hidetsugu and Tree of Perdition",
     "preregister_requirements":[
       "Pair exact 100-card approved baseline and Bituminous Blast -> Heartless challenger, plus Tree secondary control under identical shuffled seeds",
       "Model turn-based access using real physical IDs, actual legal colored mana sources, commander cast/tax, threshold accumulated before subsequent HAND casts, and summoning sickness",
