@@ -1,0 +1,94 @@
+name: ChatGPT cycle 99 - Abaddon Oracle tutor state
+on:
+  push:
+    branches:
+      - chatgpt-cycle99-abaddon-oracle-tutors
+    paths:
+      - .github/workflows/chatgpt-cycle99-abaddon-oracle-tutors.yml
+      - data/grixis/m6/phase_b_plans/abaddon_tutor_state_01.json
+      - scripts/grixis_m6_abaddon_tutor_state.py
+      - tests/test_m6_abaddon_tutor_state.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle99-abaddon-tutors
+  cancel-in-progress: true
+jobs:
+  oracle-tutors:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle99-abaddon-oracle-tutors
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial tutor zone and cascade timing unit tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_tutor_state.py' -v
+      - name: Restore SHA-256 frozen October Scryfall bundle
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib,urllib.request
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,digest in [
+             ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+             ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+             ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+              p=cache/name
+              urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,p)
+              if hashlib.sha256(p.read_bytes()).hexdigest()!=digest:
+                  raise SystemExit('Frozen source checksum mismatch: '+name)
+              print('verified SHA-locked source:',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Build frozen Oracle-verified seeded paired tutor evidence
+        run: python -u scripts/grixis_m6_abaddon_tutor_state.py --build
+      - name: Replay and independently check fixed-seed evidence
+        run: python -u scripts/grixis_m6_abaddon_tutor_state.py --check
+      - name: No deck, approval or acceptance mutations
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+             echo 'Unexpected write outside experimental M6 namespace';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          plan=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_tutor_state_01.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_tutor_state_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert reg['program']['milestones']['M5']['status']=='accepted'
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert plan['status']=='registered_before_execution'
+          assert len(d['frozen_oracle_checks'])==4 and len(d['tutor_spells'])==4
+          assert len(d['results'])==2 and d['seed']==97017 and d['samples_per_swap_per_profile']==240
+          assert d['full_99_library_shuffle_used']
+          assert not d['full_deck_gameplay_simulation']
+          assert not d['full_phase_b_complete']
+          assert not d['supports_improvement_claim']
+          assert not d['can_certify_zero_improvement']
+          assert not d['formal_independent_pass_c_complete']
+          assert all(not v for v in d['authority'].values())
+          for s in d['results']:
+              for profile in s['profiles'].values():
+                  for side in ['baseline','challenger']:
+                      cov=profile[side]['effect_coverage']
+                      assert cov['offered']==cov['modeled_casts']+cov['unmodeled_offers']+cov['legal_declines']
+          for name in d['baseline_replay_sha256_by_profile']:
+              assert d['results'][0]['profiles'][name]['baseline_trace_sha256']==d['results'][1]['profiles'][name]['baseline_trace_sha256']
+          PY
+      - name: Commit only the bounded evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_tutor_state_01.json
+          if git diff --cached --quiet; then
+            echo 'Cycle 99 evidence current'
+          else
+            git commit -m 'Cycle 99: save reproducible Abaddon tutor effects [skip ci]'
+            git pull --rebase origin chatgpt-cycle99-abaddon-oracle-tutors
+            git push origin HEAD:chatgpt-cycle99-abaddon-oracle-tutors
+          fi
