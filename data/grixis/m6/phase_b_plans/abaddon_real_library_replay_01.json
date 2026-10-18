@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "cycle": 97,
+  "stage": "M6_Abaddon_seed_paired_99_card_cascade_interpreter",
+  "date": "2026-10-17",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "accepted_list_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "accepted_list_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "baseline_export_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "preregistered_before_simulation": true,
+  "sample_count_per_swap": 240,
+  "seed": 97017,
+  "frozen_source": {
+    "sim_version": "1.1",
+    "sim_sha256": "sha256:55ddceac7125dba7f6d7ec55ef951c88cb452471f89bf5ffb774014e27822d58",
+    "oracle": "oracle-cards-20261016090200.jsonl.gz",
+    "rulings": "rulings-20261015090033.jsonl.gz",
+    "default_cards": "default-cards-20261015090541.jsonl.gz"
+  },
+  "swap_hypotheses": [
+    {
+      "add": "Heartless Hidetsugu",
+      "cut": "Bituminous Blast"
+    },
+    {
+      "add": "Tree of Perdition",
+      "cut": "Bituminous Blast"
+    }
+  ],
+  "fixed_setup": {
+    "hand_contains": [
+      "Boltwave",
+      "Flame Rift",
+      "SWAPPED_SLOT_CARD"
+    ],
+    "hand_policy": "These are forced scripted cards, NOT naturally drawn; all three are removed from the full 99-card library for each matched variant before sampling cascade.",
+    "battlefield_at_turn6": [
+      "Abaddon the Despoiler"
+    ],
+    "initial_turn": 6,
+    "opponents_life": [
+      40,
+      39,
+      31
+    ],
+    "pilot_life": 40,
+    "turn6_mana": {
+      "U": 0,
+      "B": 2,
+      "R": 3,
+      "C": 4
+    },
+    "actions_turn6": [
+      "Cast Boltwave from hand and fully resolve stack (sets threshold from actual damage)",
+      "Cast the relevant one-for-one slot spell from hand with legal creature target for Bituminous Blast",
+      "Resolve cascade triggers, supported hit effects, and main spell"
+    ],
+    "turn7_mana": {
+      "U": 0,
+      "B": 1,
+      "R": 2,
+      "C": 1
+    },
+    "actions_turn7": [
+      "Advance turn, clear threshold and floating mana",
+      "If added Heartless/Tree survived, activate legal tap ability",
+      "Cast held Flame Rift from hand, resolve resulting triggers/cascade"
+    ],
+    "opponent_response_profiles": [
+      "no_removal",
+      "remove_added_source_before_t7_activation"
+    ],
+    "target_creature_available": true,
+    "haste_available": false,
+    "mana_injected_each_turn": true,
+    "time_out_of_turn_actions": false
+  },
+  "pairing": "Use grixis_paired.align to align canonical 99 and swap 99; use grixis_sim.seed_for(seed,i) and identical 99-index shuffle. Each scenario removes the same two held spells and its own one swapped slot; the remaining 96-card libraries must retain paired shared order.",
+  "cascade_policy": "Use locked Scryfall card metadata for every card in remaining 96, reveal through lands and higher-mv cards, and record first nonland lower-MV hit. Supported Cycle-96 effects may be cast for free from cascade. Unsupported effects are NEVER fabricated: log uncensored hit name and 'declined_unmodeled' and put all revealed cards on randomized bottom. This is a specified conservative policy, not how a rational player necessarily plays.",
+  "outputs": [
+    "baseline-permutation trace equality across both swaps",
+    "all-scenario scripted cast, grant and printed cascade event counts",
+    "distribution of real deck-identity hits for supported and unsupported cards",
+    "coverage fraction of offered cascade hits whose full effects are represented",
+    "complete source, simulator, prereg and prior-cycle hashes",
+    "first representative trace events for audit"
+  ],
+  "explicit_limitations": [
+    "This is an effect-aware bounded scripted comparison over seeded complete source libraries, NOT full-deck goldfish, realistic opening hands, mulligan/gameplay sampling, matchup simulation, or win rates.",
+    "Forced turn-six commander, forced in-hand three-card sequence and injected mana assume setup that may not occur in games; no probabilities of drawing, mana readiness or survival.",
+    "Unmodeled cascade hits are conservatively declined even if normally useful; downstream conditional damage, costs and win probability cannot be compared across variants.",
+    "No real priority/opponent policy distributions, graveyard recursion, tutors, draw-selection, combat, threats, actual opponent-target state, or extra effects beyond Cycle-96 supported cards.",
+    "No statistical significance test or proposed upgrade decision from deterministic scripted branch frequency: only coverage and distribution under the preregistered replay policy.",
+    "Missing coverage is a blocking gate, not zero improvement; M6 cannot be accepted until complete evidence, judgments, I/J certificates and user approval."
+  ],
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  },
+  "status": "preregistered_test_not_executed"
+}
