@@ -24,6 +24,8 @@ class AbaddonStateTests(unittest.TestCase):
   with self.assertRaises(ValueError):s.cast("Boltwave")
   s.resolve_top()
   self.assertEqual(s.mana["R"],1)
+  with self.assertRaises(ValueError):s.cast("Boltwave") # still a sorcery on stack
+  s.resolve_all()
   self.assertEqual(s.cast("Boltwave"),0)
   s.resolve_all()
   self.assertEqual(s.lost,18)
@@ -106,6 +108,17 @@ class AbaddonStateTests(unittest.TestCase):
   h.tap_activate("Heartless Hidetsugu");h.resolve_all()
   self.assertTrue(h.over)
   with self.assertRaises(ValueError):h.cast("Test Spark")
+ def test_sorcery_and_creature_timing_fail_closed(self):
+  s=TurnState(hand=["Boltwave"],mana={"R":1})
+  s.own_turn=False
+  with self.assertRaises(ValueError):s.cast("Boltwave")
+  s.own_turn=True;s.main_phase=False
+  with self.assertRaises(ValueError):s.cast("Boltwave")
+  s.main_phase=True
+  s.stack.append({"kind":"trigger","name":"Birgi, God of Storytelling"})
+  with self.assertRaises(ValueError):s.cast("Boltwave")
+  s.stack.clear();s.cast("Boltwave");s.resolve_all()
+  self.assertEqual(s.lost,9)
  def test_fail_closed_on_unmodelled_effect(self):
   with self.assertRaises(Unsupported):TurnState(hand=["Force of Will"])
   s=TurnState(hand=["Test Echo"])
