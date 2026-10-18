@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "cycle": 100,
+  "stage": "M6_cross_62_conserved_state_kernel_foundation",
+  "scope": "General physical-card zone model and strict action-policy boundary only; not a new Magic rules engine, paired effects comparison, or game/turn-win simulator",
+  "snapshots": {
+    "authority_registry": "data/grixis/registry.json",
+    "summaries": "data/grixis_summary.json",
+    "frozen_oracle": "oracle-cards-20261016090200.jsonl.gz",
+    "frozen_rulings": "rulings-20261015090033.jsonl.gz",
+    "frozen_default": "default-cards-20261015090541.jsonl.gz",
+    "prior_abaddon_cycle99": "data/grixis/m6/phase_b_bounded/abaddon_tutor_state_01.json"
+  },
+  "coverage": {
+    "roster_decks": 62,
+    "samples_per_deck": 4,
+    "seed": 100017,
+    "starting_hand_size": 7,
+    "draws_after_opening": 4,
+    "preserve_commander_zone": true,
+    "companion_policy": "Companion is external to 100-card decks where documented; never inferred to be a card in the shuffled main library."
+  },
+  "preregistration_status": "registered_before_implementation",
+  "contract": [
+    "Import all 62 authoritative deck entries via the current registry/summary and existing frozen Scryfall resolver; preserve 100 physical cards including designated commander(s)",
+    "Use unique immutable physical card IDs per game across basic-land repeats, commanders, and all card names",
+    "Shuffle entire main library by fixed seed; draw 7 + four further cards with no unsupported mulligan or speculative draw-policy claims",
+    "Conserve exact card IDs across command, library, hand, battlefield, graveyard, exile, and stack zones after every action",
+    "Fail closed without partial state mutation for invalid zone moves, duplicates, negative mana, unsupported timing or card payment requests",
+    "No executable effects on unsupported spells; optional printed-mana affordability inspection cannot imply a legal spell cast",
+    "Strict current-turn/land-drop/tap/priority invariants for explicitly modeled basic land plays, while all conditional and nonbasic land ETB behaviors remain unresolved",
+    "Use deterministic, recorded policy decisions with explicit limitations; hash paired deterministic replay for representative deck samples",
+    "Prove no cross-deck card contamination, no unexplained card creation or disappearance, no exact-card substitutions and no protected file changes",
+    "Produce a per-deck summary and aggregate for all 62 decks; do not issue upgrade/cut, bracket, win-rate, formal review or zero-improvement claims"
+  ],
+  "fixed_policy": {
+    "initial_shuffle": "random.Random(sim.seed_for(100017,deck_ordinal*4+sample_index)).shuffle(fully identified main library)",
+    "draws": "Opening 7 cards, then exactly four further draws without skips (synthetic sampling of access, not real Commander turns)",
+    "zones": [
+      "library",
+      "hand",
+      "battlefield",
+      "graveyard",
+      "exile",
+      "stack",
+      "command"
+    ],
+    "unsupported": "explicit blocked outcome with no mutation",
+    "mana_preflight": "Use pip-matching only for static printed costs where possible; never model cost increases, cost reductions, additional costs, alt/free costs, priority triggers or effects",
+    "land_plays": "only basic lands with unconditional untapped entry; nonbasic lands fail closed until Oracle ETB decisions are specified",
+    "interaction": "no actions by simulated opponents; no sampling opponent distribution"
+  },
+  "missing_capabilities": [
+    "No full stack/priority and replacement rules, triggered abilities, token/mass-zone operations, mana optimizer or all-land legality",
+    "No actual shuffling/searching/drawing from card effects, except explicitly tested state operations",
+    "No turn-skipping, card draw probability inference from these four samples, actual opening-hand keep policy or game win rates",
+    "No simulated casting or card-effect resolution integrated from prior Abaddon interpreter in this cycle",
+    "Every commander still requires independent identity and candidate analyses, Phase B experiments, critic/reconciliation, I/J and user reviews"
+  ],
+  "expected_output": {
+    "path": "data/grixis/m6/phase_b_bounded/general_state_kernel_62_01.json",
+    "receipt_per_deck": "list hash, commander count, physical main library count, fixed-seed hand/draw digests, exact zone conservation results and explicit unsupported boundaries",
+    "no_approved_deck_modifications": true,
+    "full_phase_b_complete": false,
+    "validates_effects": false
+  },
+  "protected": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_mark_m6_complete": false,
+    "can_make_improvement_claim": false
+  },
+  "allowed_new_paths": [
+    "scripts/grixis_m6_state_kernel.py",
+    "scripts/grixis_m6_state_kernel_62.py",
+    "tests/test_m6_state_kernel.py",
+    "data/grixis/m6/phase_b_plans/general_state_kernel_62_01.json",
+    "data/grixis/m6/phase_b_bounded/general_state_kernel_62_01.json",
+    ".github/workflows/chatgpt-cycle100-general-state-kernel.yml",
+    "data/grixis/m6/critic_batches/general_state_kernel_cycle100_preliminary.md"
+  ],
+  "source_id_provenance_reconciliation": {
+    "source_summary_id": "Goben__Gene_Splice_Savant",
+    "normalized_registry_id": "Norman_Osborn_Green_Goblin",
+    "shared_slug": "norman-osborn",
+    "repository_evidence": "data/grixis/registry.json#decks.Norman_Osborn_Green_Goblin.deck_id_provenance.source_deck_id",
+    "rule": "Do not require matching legacy and normalized deck ID keys. Match exact unique slug and require each divergent source ID to equal the registry deck_id_provenance.source_deck_id; otherwise hard fail. Record every confirmed alias as evidence; do not mutate either authority or source summary.",
+    "discovered_on_first_ci_attempt": true,
+    "first_ci_failed_before_sampling": true,
+    "restated_before_successful_sampling": true,
+    "changes_to_sample_seed_count_or_authority": false
+  }
+}
