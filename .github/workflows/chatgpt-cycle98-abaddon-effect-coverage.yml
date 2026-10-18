@@ -1,0 +1,92 @@
+name: ChatGPT cycle 98 - expand Abaddon Oracle-gated hit effects
+on:
+  push:
+    branches:
+      - chatgpt-cycle98-abaddon-effect-coverage
+    paths:
+      - .github/workflows/chatgpt-cycle98-abaddon-effect-coverage.yml
+      - scripts/grixis_m6_abaddon_effect_coverage.py
+      - tests/test_m6_abaddon_effect_coverage.py
+      - data/grixis/m6/phase_b_plans/abaddon_effect_coverage_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle98-abaddon-coverage
+  cancel-in-progress: true
+jobs:
+  oracle-gated-coverage:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle98-abaddon-effect-coverage
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial new-effect unit tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_effect_coverage.py' -v
+      - name: Restore exact SHA-256-verified frozen October Scryfall data
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib,urllib.request
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,digest in [
+             ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+             ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+             ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+              path=cache/name
+              urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,path)
+              if hashlib.sha256(path.read_bytes()).hexdigest()!=digest:
+                  raise SystemExit('Frozen Scryfall hash mismatch '+name)
+              print('verified frozen October source',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Test against pinned Oracle and build expanded real library paired traces
+        run: python -u scripts/grixis_m6_abaddon_effect_coverage.py --build
+      - name: Independently rerun and check expanded evidence
+        run: python -u scripts/grixis_m6_abaddon_effect_coverage.py --check
+      - name: Enforce experimental scope and freeze M5/canonical approvals
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo "Protected project file modified";exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          a=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_effect_coverage_01.json').read_text())
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_effect_coverage_01.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert len(a['new_effect_cards'])==10
+          assert len(a['frozen_oracle_receipts'])==10
+          assert p['status']=='pre_registered_before_implementation'
+          assert len(a['results'])==2 and a['seed']==97017 and a['samples_per_swap_per_profile']==240
+          assert a['full_deck_gameplay_simulator'] is False
+          assert a['full_phase_b_complete'] is False
+          assert a['supports_improvement_claim'] is False
+          assert a['formal_pass_c_complete'] is False
+          assert a['can_certify_zero_improvement'] is False
+          assert not any(a['authority'].values())
+          for swap in a['results']:
+            for profile in swap['profiles'].values():
+              for side in ('baseline','challenger'):
+                cov=profile[side]['effect_coverage']
+                assert cov['offered']==cov['modeled_casts']+cov['unmodeled_offers']+cov['legal_declines']
+          PY
+      - name: Commit only Cycle 98 bounded derived evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_effect_coverage_01.json
+          if git diff --cached --quiet; then
+            echo 'replay evidence current'
+          else
+            git commit -m 'Cycle 98: record Oracle-verified effects and paired cascade coverage [skip ci]'
+            git pull --rebase origin chatgpt-cycle98-abaddon-effect-coverage
+            git push origin HEAD:chatgpt-cycle98-abaddon-effect-coverage
+          fi
