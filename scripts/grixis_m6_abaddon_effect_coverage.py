@@ -136,6 +136,50 @@ class ExpandedCascade(previous.RealCascade):
             return obj
         return super().resolve_top()
 
+def scripted_followup(t):
+    """A modeled Brainstorm can legally put the fixed Flame Rift back into
+    the library. Never invent access to that card; record the missed follow-up.
+    """
+    if t.over:return False
+    if "Flame Rift" not in t.hand:
+        t.events.append({"event":"fixed_followup_not_held","name":"Flame Rift",
+                          "reason":"changed_hand_after_resolved_card_selection"})
+        return False
+    t.cast("Flame Rift")
+    t.resolve_all(250)
+    return True
+
+def replay98(deck_cards,slot,metadata,scenario):
+    """Cycle 97 setup preserved, but actual changed hand state is respected."""
+    p=scenario["setup"]
+    t=ExpandedCascade(deck_cards,metadata,slot,p["opponents_life"],
+                      p["turn6_mana"],p["initial_turn"])
+    t.place("Abaddon the Despoiler",entered=5)
+    t.cast("Boltwave");t.resolve_all(250)
+    t.cast(slot);t.resolve_all(250)
+    t.next_turn()
+    t.mana=dict(p["turn7_mana"])
+    if slot in ("Heartless Hidetsugu","Tree of Perdition"):
+        if scenario["removal"]=="remove_added_source_before_t7_activation":
+            t.remove(slot)
+        else:
+            t.tap_activate(slot);t.resolve_all(250)
+    scripted_followup(t)
+    offers=[e for e in t.events if e["event"]=="real_cascade_offer"]
+    casts=[e for e in t.events if e["event"]=="cast"]
+    return {"scripted_slot":slot,"removal":scenario["removal"],
+        "hand_casts":sum(e["origin"]=="hand" for e in casts),
+        "granted_cast_triggers":sum(e["granted_cascade"] for e in casts),
+        "printed_cast_triggers":sum(e["printed_cascade"] for e in casts),
+        "cascade_offers":len(offers),
+        "supported_casts":sum(e["outcome"]=="cast_supported" for e in offers),
+        "declined_unmodeled":sum(e["outcome"]=="declined_unmodeled" for e in offers),
+        "declined_legal_constraint":sum(e["outcome"]=="declined_legal_constraint" for e in offers),
+        "first_hit_names":[e["name"] for e in offers],
+        "fixed_followup_unavailable":sum(e["event"]=="fixed_followup_not_held" for e in t.events),
+        "life_lost_conditional":t.lost,
+        "events":t.events}
+
 def run():
     plan=read(PLAN);prev=read(PREVIOUS)
     if (plan["cycle"]!=98 or plan["status"]!="pre_registered_before_implementation"
@@ -146,10 +190,13 @@ def run():
     oracle=check_frozen_oracle(plan)
     # The only intentional replay delta is support for the ten new effects.
     original=previous.RealCascade
+    original_replay=previous.replay
     previous.RealCascade=ExpandedCascade
+    previous.replay=replay98
     try:
         new=previous.run()
     finally:
+        previous.replay=original_replay
         previous.RealCascade=original
     for outcome,prior in zip(new["results"],prev["results"]):
         if outcome["swap"]!=prior["swap"]:raise ValueError("Hypothesis pairing changed")
