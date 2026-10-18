@@ -70,6 +70,12 @@ class Cycle111Tests(unittest.TestCase):
   self.assertFalse(row["strategic_improvement_verified"])
   self.assertFalse(row["card_added_to_canonical_deck"])
   self.assertFalse(row["independent_commander_first_judgment_completed"])
+ def test_stale_canonical_Goben_tracker_key_is_preserved_as_Norman_provenance(self):
+  d=m.evaluate()
+  n=next(x for x in d["ordered_decks"] if x["deck_id"]=="Norman_Osborn_Green_Goblin")
+  self.assertEqual(n["source_canonical_legacy_deck_id_provenance"]["source_deck_id"],
+                   "Goben__Gene_Splice_Savant")
+  self.assertIn("Norman Osborn",n["commanders"][0])
  def test_62_inventory_no_invented_final_certifications(self):
   d=m.evaluate()
   self.assertEqual(d["deck_count"],62)
