@@ -1,0 +1,174 @@
+{
+  "cycle": 103,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_Oracle_gated_nonbasic_land_states",
+  "roster": 62,
+  "seed": 102017,
+  "samples_per_deck": 12,
+  "turns": 4,
+  "starting_hand": 7,
+  "draws_per_trial": 4,
+  "prior_cycle102_summary": "data/grixis/m6/phase_b_bounded/priority_basic_access_62_summary_01.json",
+  "prior_cycle102_full": "data/grixis/m6/phase_b_bounded/priority_basic_access_62_01.json",
+  "baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "supported_nonbasic_mana_colors": {
+    "Command Tower": [
+      "U",
+      "B",
+      "R"
+    ],
+    "Crumbling Necropolis": [
+      "U",
+      "B",
+      "R"
+    ],
+    "Xander's Lounge": [
+      "U",
+      "B",
+      "R"
+    ],
+    "Underground Sea": [
+      "U",
+      "B"
+    ],
+    "Volcanic Island": [
+      "U",
+      "R"
+    ],
+    "Badlands": [
+      "B",
+      "R"
+    ],
+    "Watery Grave": [
+      "U",
+      "B"
+    ],
+    "Steam Vents": [
+      "U",
+      "R"
+    ],
+    "Blood Crypt": [
+      "B",
+      "R"
+    ],
+    "Drowned Catacomb": [
+      "U",
+      "B"
+    ],
+    "Sulfur Falls": [
+      "U",
+      "R"
+    ],
+    "Dragonskull Summit": [
+      "B",
+      "R"
+    ],
+    "Spirebluff Canal": [
+      "U",
+      "R"
+    ],
+    "Darkslick Shores": [
+      "U",
+      "B"
+    ],
+    "Blackcleave Cliffs": [
+      "B",
+      "R"
+    ],
+    "Morphic Pool": [
+      "U",
+      "B"
+    ],
+    "Training Center": [
+      "U",
+      "R"
+    ],
+    "Luxury Suite": [
+      "B",
+      "R"
+    ],
+    "Mana Confluence": [
+      "U",
+      "B",
+      "R"
+    ]
+  },
+  "entry_groups": {
+    "always_untapped": [
+      "Command Tower",
+      "Underground Sea",
+      "Volcanic Island",
+      "Badlands",
+      "Mana Confluence"
+    ],
+    "always_tapped": [
+      "Crumbling Necropolis",
+      "Xander's Lounge"
+    ],
+    "shock_optional_two_life": [
+      "Watery Grave",
+      "Steam Vents",
+      "Blood Crypt"
+    ],
+    "typed_check": [
+      "Drowned Catacomb",
+      "Sulfur Falls",
+      "Dragonskull Summit"
+    ],
+    "fast_two_or_fewer_other_lands": [
+      "Spirebluff Canal",
+      "Darkslick Shores",
+      "Blackcleave Cliffs"
+    ],
+    "multiplayer_two_plus_opponents": [
+      "Morphic Pool",
+      "Training Center",
+      "Luxury Suite"
+    ]
+  },
+  "fixed_policy": {
+    "colors": [
+      "U",
+      "B",
+      "R"
+    ],
+    "opponents": 3,
+    "land_choice": "first in actual shuffled hand order among supported basic or 19 named nonbasic cards; one land per turn",
+    "shock_choice": "pay 2 life to enter untapped when pilot life greater than 2, otherwise enter tapped; never claim strategic optimality",
+    "mana_sources": "Only physically controlled untapped basic or 19 registered nonbasic lands; do not treat Arcane Signet already on battlefield as a mana source",
+    "source_payment": "Choose a deterministic legal set of real untapped land source IDs; assign exact U/B/R/C colors satisfying pips/generic and prefer no activation life payment",
+    "mana_confluence": "Tap and pay 1 life as activation cost; never count controller life payments toward opponent-life-lost threshold",
+    "turn_policy": "same original shuffled opening 7 plus one physical library draw each turn for four turns; no extra draw effects",
+    "access_target": "Arcane Signet only; all other spells remain unmodeled in sampled trials",
+    "unrecognized_land": "not playable as a modeled mana source; record unsupported seen-in-hand; never invent its ETB or mana",
+    "entry_conditions": "typed duals and shocklands contribute subtype Island, Swamp or Mountain for typed-check lands; basic land subtypes honored",
+    "reproducibility": "exact original Cycle102 seed/deck order; compare every opening hand and each of four draws to frozen previous Cycle102 receipts",
+    "no_matchup_or_win_inference": true
+  },
+  "oracle_gate": "For every registered land, verify name, type land, source-backed mana symbols, and applicable enter tapped/shock/typed/multiplayer conditions against pinned October 2026 bulk. Fail if archived Oracle text differs materially.",
+  "tests": [
+    "Shockland pay-two/decline choice preserves pilot life and tapped state",
+    "Printed subtype checking considers typed duals as well as basics",
+    "Fastland land-count threshold: 2 other lands versus 3",
+    "Multiplayer bond-land is untapped only with at least two opponents",
+    "Crumbling Necropolis and Xander's Lounge enter tapped",
+    "Mana Confluence costs one controller life for actual activated mana",
+    "Colored mana assignment uses real legal source choices and pays card cost",
+    "Block duplicate land plays, unsupported lands and source tap while tapped without mutation",
+    "Original 744 hand/draw sequences and 100-card IDs match exactly",
+    "No approved deck change, M6 status change, game win-rate or Phase B certificate"
+  ],
+  "limitations": [
+    "This remains four scripted controller turns, no mulligans, no opponents' turns, opponent choices or full priority",
+    "Only 19 explicitly registered nonbasic mana-land names are supported; all other lands are out of model",
+    "No City of Brass or Ancient Tomb damage-trigger timing, fetches, MDFC, cycling, scry, tutor, or most utility abilities",
+    "No full Commander gameplay, final legality audit, deck strength comparison or independent Pass C/I/J",
+    "More source-backed Arcane Signet casts measures model coverage; cannot be interpreted as commander power"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
