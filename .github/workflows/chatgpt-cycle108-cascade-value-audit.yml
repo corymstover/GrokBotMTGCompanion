@@ -1,0 +1,80 @@
+name: ChatGPT cycle 108 - source verified Abaddon cascade offers
+on:
+  push:
+    branches: [chatgpt-cycle108-cascade-value-audit]
+    paths:
+      - .github/workflows/chatgpt-cycle108-cascade-value-audit.yml
+      - scripts/grixis_m6_abaddon_cascade_offer_triage.py
+      - tests/test_m6_abaddon_cascade_offer_triage.py
+      - data/grixis/m6/phase_b_plans/abaddon_cascade_offer_triage_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle108-cascade-value-audit
+  cancel-in-progress: true
+jobs:
+  exact-offer-oracle-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle108-cascade-value-audit
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial Oracle text and nonzero unknown-effect tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_cascade_offer_triage.py' -v
+      - name: Download and verify frozen 2026-10-16 Oracle source checksum
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Generate actual seven-card Oracle triage from Cycle107 evidence
+        run: python -u scripts/grixis_m6_abaddon_cascade_offer_triage.py --build
+      - name: Independently rerun deterministic evidence without resimulation
+        run: python -u scripts/grixis_m6_abaddon_cascade_offer_triage.py --check
+      - name: Verify source-controlled 7 offers and explicit lack of verdict
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_cascade_offer_triage_01.json').read_text())
+          assert len(r['decks'])==62 and r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert d['paired_seeds']==240 and d['offers_per_policy']==7
+          assert len(d['first_policy_offers'])==len(d['second_policy_offers'])==7
+          assert sum(d['paired_oracle_verified_real_card_names'].values())==7
+          assert d['relative_value']=='CANNOT_EVALUATE'
+          assert d['cascade_value_range']=='UNKNOWN_NOT_ZERO'
+          assert d['cascade_cast_legality_resolved'] is False
+          assert d['balanced_three_variant_board_test_complete'] is False
+          assert all(v is False for v in d['authority'].values())
+          assert all(not d[k] for k in ('supports_improvement_claim','zero_improvement_certified',
+               'full_phase_b_complete','independent_pass_c_complete','M6_accepted'))
+          for x in d['first_policy_offers']+d['second_policy_offers']:
+            assert x['effect_outcome']=='UNKNOWN_NOT_ZERO'
+            assert x['comparative_deck_value']=='UNKNOWN_NOT_ZERO'
+            assert not x['controller_chose_cast']
+            assert x['no_numerical_value_assigned']
+          print('Seven printed-cascade actual offers, 14 paired classified rows, no false deck verdict')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected file changed'
+            exit 1
+          fi
+      - name: Commit derived bounded triage receipt only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_cascade_offer_triage_01.json
+          if git diff --cached --quiet; then
+            echo 'Audit output already current'
+          else
+            git commit -m 'Cycle108 source-verified seven cascade offer triage [skip ci]'
+            git pull --rebase origin chatgpt-cycle108-cascade-value-audit
+            git push origin HEAD:chatgpt-cycle108-cascade-value-audit
+          fi
