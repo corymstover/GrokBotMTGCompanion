@@ -1,0 +1,32 @@
+{
+  "M6_accepted": false,
+  "candidate_approved": false,
+  "counts": {
+    "no_removal": {
+      "blast_cast": 7,
+      "cascade_resolved": 7,
+      "creatures_removed_in_fixture": 7,
+      "eligible_offers": 7,
+      "held_and_source_payable": 8,
+      "observations": 240,
+      "printed_cascades": 7,
+      "spell_failed_illegal_target": 0,
+      "unknown_effect_offers": 7
+    },
+    "target_removed_after_cast": {
+      "blast_cast": 7,
+      "cascade_resolved": 7,
+      "creatures_removed_in_fixture": 0,
+      "eligible_offers": 7,
+      "held_and_source_payable": 8,
+      "observations": 240,
+      "printed_cascades": 7,
+      "spell_failed_illegal_target": 7,
+      "unknown_effect_offers": 7
+    }
+  },
+  "cycle": 107,
+  "potential_value_of_offered_hits": "UNKNOWN_NOT_ZERO",
+  "relative_deck_strength": "CANNOT_EVALUATE",
+  "sample_count": 240
+}
