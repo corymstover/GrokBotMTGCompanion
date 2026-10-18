@@ -1,0 +1,85 @@
+name: ChatGPT Cycle109 real four cascade-hit effects
+on:
+  push:
+    branches: [chatgpt-cycle109-oracle-cascade-replay]
+    paths:
+      - .github/workflows/chatgpt-cycle109-oracle-cascade-replay.yml
+      - scripts/grixis_m6_abaddon_exile_resolution.py
+      - tests/test_m6_abaddon_exile_resolution.py
+      - data/grixis/m6/phase_b_plans/abaddon_exile_resolution_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle109-oracle-cascade-replay
+  cancel-in-progress: true
+jobs:
+  real-exile-hit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 70
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle109-oracle-cascade-replay
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial real exile spell tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_exile_resolution.py' -v
+      - name: Restore locked Scryfall October Oracle snapshot
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Build 240 same-seed paired two-target physical card event sets
+        run: python -u scripts/grixis_m6_abaddon_exile_resolution.py --build
+      - name: Independently reproduce both evidence files
+        run: python -u scripts/grixis_m6_abaddon_exile_resolution.py --check
+      - name: Audit 100-card conservation, role counts and prohibited promotion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_exile_resolution_01.json').read_text())
+          s=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_exile_resolution_summary_01.json').read_text())
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(reg['decks'])==62
+          assert all(reg['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert d['sample_count']==240 and len(d['two_target_response_policies'])==2
+          assert len(d['oracle_checks'])==4
+          assert d['four_card_effect_subset_only'] and not d['balanced_three_variant_phase_b']
+          assert d['mana_vault_upkeep_damage_events_not_resolved'] is True
+          assert d['comparative_deck_strength']=='CANNOT_EVALUATE'
+          assert d['realized_downstream_deck_win_value']=='UNKNOWN_NOT_ZERO'
+          assert all(not d[k] for k in ('supports_improvement_claim','zero_improvement_certified',
+              'full_phase_b_complete','independent_pass_c_complete','M6_accepted'))
+          assert all(v is False for v in d['authority'].values())
+          for policy,v in d['two_target_response_policies'].items():
+            assert len(v['samples'])==240
+            assert v['counts']['real_Blast_casts']==7
+            assert v['counts']['eligible_offers']==7
+            assert v['counts']['supported_cascade_from_exile_granted_again']==0
+            for t in v['samples']:
+              assert sum(t['zone_counts'].values())==100
+              assert t['new_Abaddon_cascades_from_exile']==0
+              assert t['trigger_count']==t['triggers_resolved']
+          assert not s['approved'] and not s['M6_accepted']
+          print('Cycle109 exact 240 opening-seven sources, source-backed four spell effects; no win/swap inference')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected source files changed';exit 1
+          fi
+      - name: Commit derived M6 evidence only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_exile_resolution_01.json data/grixis/m6/phase_b_bounded/abaddon_exile_resolution_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Exact deterministic evidence already current'
+          else
+            git commit -m 'Cycle109 actual cascade exile cast effects and source receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle109-oracle-cascade-replay
+            git push origin HEAD:chatgpt-cycle109-oracle-cascade-replay
+          fi

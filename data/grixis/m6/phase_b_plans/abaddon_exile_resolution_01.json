@@ -1,0 +1,62 @@
+{
+  "cycle": 109,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_exact_Cycle107_physical_cascade_offer_cast_from_exile_and_resolution",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_export_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "seed": 106017,
+  "samples": 240,
+  "turns": 8,
+  "scenarios": [
+    "no_removal",
+    "target_removed_after_cast"
+  ],
+  "frozen_sources": [
+    "data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_01.json",
+    "data/grixis/m6/phase_b_bounded/abaddon_cascade_offer_triage_01.json"
+  ],
+  "effect_whitelist": [
+    "Mana Vault",
+    "Sol Ring",
+    "Demonic Tutor",
+    "Vampiric Tutor"
+  ],
+  "deferred": [
+    "Windfall",
+    "Chrome Mox",
+    "Deflecting Swat"
+  ],
+  "contract": [
+    "Reconstruct real physical 99+1 deck and pair first seven cards with Cycle107, each matched baseline seed and response policy",
+    "Resolve a printed Bituminous Blast cascade trigger by exiling real top library IDs until first cheaper nonland, then cast whitelisted candidate for no mana from exile onto stack during cascade resolution, place all remaining revealed IDs on library bottom",
+    "A hit cast from exile cannot gain Abaddon hand-only cascade. Preserve existing printed/granted Blast triggers separately.",
+    "Require four successive priority passes for offered spell resolution before original Blast resolves; preserve target-death response ordering",
+    "Mana Vault and Sol Ring become physical battlefield artifacts, with optionally modeled legal immediate tap for respectively three/two colorless mana; no unsupported upkeep/untap simulation or fictitious spell payoff",
+    "Demonic Tutor shuffles real physical library and searches a deterministic fixed priority target to hand; Vampiric Tutor shuffles then places chosen card on top, loses two controller life, and requires later real draw for acquisition",
+    "Validate actual Oracle text and types for every whitelisted card using frozen Scryfall archive; verify all seven source-offer names regardless execution selection",
+    "For three deferred cards, the optional cascade cast is explicitly declined with unmodeled effect and unquantified opportunity cost",
+    "Do not infer card quality from number of materialized mana artifacts or tutor searches; count actual source-backed zone changes and unresolved missing game outcomes separately",
+    "Reproduce 240 matched initial draws across two response policies; subsequent draw paths may diverge once a real tutor shuffles"
+  ],
+  "tutor_priority": [
+    "Boltwave",
+    "Flame Rift",
+    "Kessig Flamebreather",
+    "Dark Ritual",
+    "Arcane Signet"
+  ],
+  "unknown_policy": "All 7 hit opportunities maintain UNKNOWN comparative deck value. Realizing a restricted tutor or mana-artifact effect is not a proven expected upgrade/win contribution.",
+  "no_claims": [
+    "No full opponent responses or multiplayer draw/hand state",
+    "No Mox imprint, Windfall hands, or Swat retargeting",
+    "No realistic nonland acceleration policy beyond these four effects",
+    "No complete 3-variant Phase B or independent Pass C/I/J",
+    "No deck authority change, no certified win rate, no zero-improvement"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}

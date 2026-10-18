@@ -1,0 +1,58 @@
+{
+  "M6_accepted": false,
+  "approved": false,
+  "cycle": 109,
+  "full_effect_comparison": false,
+  "per_policy": {
+    "no_removal": {
+      "counts": {
+        "actual_spell_resolutions": 4,
+        "colorless_mana_generated_but_unspent": 5,
+        "eligible_offers": 7,
+        "mana_rocks_resolved": 2,
+        "mana_vault_upkeeps_unresolved": 2,
+        "real_Blast_casts": 7,
+        "supported_cascade_from_exile_granted_again": 0,
+        "tutors_resolved": 2,
+        "unknown_offers_declined": 3
+      },
+      "declined_unknown_names": {
+        "Chrome Mox": 1,
+        "Deflecting Swat": 1,
+        "Windfall": 1
+      },
+      "executed_hit_names": {
+        "Demonic Tutor": 1,
+        "Mana Vault": 1,
+        "Sol Ring": 1,
+        "Vampiric Tutor": 1
+      }
+    },
+    "target_removed_after_cast": {
+      "counts": {
+        "actual_spell_resolutions": 4,
+        "colorless_mana_generated_but_unspent": 5,
+        "eligible_offers": 7,
+        "mana_rocks_resolved": 2,
+        "mana_vault_upkeeps_unresolved": 2,
+        "real_Blast_casts": 7,
+        "supported_cascade_from_exile_granted_again": 0,
+        "tutors_resolved": 2,
+        "unknown_offers_declined": 3
+      },
+      "declined_unknown_names": {
+        "Chrome Mox": 1,
+        "Deflecting Swat": 1,
+        "Windfall": 1
+      },
+      "executed_hit_names": {
+        "Demonic Tutor": 1,
+        "Mana Vault": 1,
+        "Sol Ring": 1,
+        "Vampiric Tutor": 1
+      }
+    }
+  },
+  "relative_deck_strength": "CANNOT_EVALUATE",
+  "sample_count": 240
+}
