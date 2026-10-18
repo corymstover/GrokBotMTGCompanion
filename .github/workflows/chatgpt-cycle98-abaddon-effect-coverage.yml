@@ -44,6 +44,19 @@ jobs:
               print('verified frozen October source',name)
           PY
           python scripts/check_dev_snapshot_lock.py
+      - name: Report exact pinned Oracle text for all ten candidate effects
+        run: |
+          python - <<'PY'
+          import sys
+          sys.path.insert(0,'scripts')
+          import evaluate_decklist as ev
+          import json
+          p=json.load(open('data/grixis/m6/phase_b_plans/abaddon_effect_coverage_01.json'))
+          r=ev.Resolver()
+          for name in p['frozen_oracle_assertions']:
+              c=r.get(name)[0]
+              print('PINNED_ORACLE',name,repr(c.get('oracle_text')),flush=True)
+          PY
       - name: Test against pinned Oracle and build expanded real library paired traces
         run: python -u scripts/grixis_m6_abaddon_effect_coverage.py --build
       - name: Independently rerun and check expanded evidence
