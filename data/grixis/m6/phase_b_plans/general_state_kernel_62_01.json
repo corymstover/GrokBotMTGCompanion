@@ -78,5 +78,16 @@
     "data/grixis/m6/phase_b_bounded/general_state_kernel_62_01.json",
     ".github/workflows/chatgpt-cycle100-general-state-kernel.yml",
     "data/grixis/m6/critic_batches/general_state_kernel_cycle100_preliminary.md"
-  ]
+  ],
+  "source_id_provenance_reconciliation": {
+    "source_summary_id": "Goben__Gene_Splice_Savant",
+    "normalized_registry_id": "Norman_Osborn_Green_Goblin",
+    "shared_slug": "norman-osborn",
+    "repository_evidence": "data/grixis/registry.json#decks.Norman_Osborn_Green_Goblin.deck_id_provenance.source_deck_id",
+    "rule": "Do not require matching legacy and normalized deck ID keys. Match exact unique slug and require each divergent source ID to equal the registry deck_id_provenance.source_deck_id; otherwise hard fail. Record every confirmed alias as evidence; do not mutate either authority or source summary.",
+    "discovered_on_first_ci_attempt": true,
+    "first_ci_failed_before_sampling": true,
+    "restated_before_successful_sampling": true,
+    "changes_to_sample_seed_count_or_authority": false
+  }
 }
