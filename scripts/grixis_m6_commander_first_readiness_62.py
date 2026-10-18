@@ -31,9 +31,19 @@ def checked_packet(packet,deck,blueprint):
  if (packet["deck_id"]!=did or packet["slug"]!=slug or
      blueprint["deck_id"]!=did or blueprint["slug"]!=slug or
      packet["list_hash"]!=deck["current_canonical_hash"] or
-     blueprint["canonical_hash"]!=deck["current_canonical_hash"] or
-     deck["baseline_hash"]!=deck["current_canonical_hash"]):
+     blueprint["canonical_hash"]!=deck["current_canonical_hash"]):
   raise ValueError("Blue/packet/registry ID, slug or canonical hash drift: "+did)
+ # Exactly one registered, intentional approved-vs-current logical hash
+ # reconciliation is allowed: designated Lutri COMPANION outside the 100.
+ # Other baseline/current mismatch is a hard stop.
+ if deck["baseline_hash"]!=deck["current_canonical_hash"]:
+  intentional=(did=="Cecily__Bjorna__Lutri" and
+    deck.get("canonical_differs_from_source")==[
+      "canonical adds 1x Lutri, the Spellchaser (companion)",
+      "reason: the source's approval record designates Lutri as companion outside the 100 (missing from its approved 100-card file); authorized project exception"]
+    and any("lutri-the-spellchaser" in x for x in deck.get("project_exceptions",[])))
+  if not intentional:
+   raise ValueError("Unregistered baseline/current deck mismatch: "+did)
  if (packet["stage"]!="M6_strategic_review_packet" or
     packet["authority"].get("can_apply_swap") is not False or
     packet["authority"].get("can_approve_or_lock") is not False or
@@ -199,6 +209,7 @@ def evaluate():
     "tier":tier,"source_canonical_logical_hash":d["current_canonical_hash"],
     "recorded_source_approved_raw_sha256":d["source"].get("recorded_sha256"),
     "M6_registry_state":"SOURCE_BASELINE_not_current_approval_authority",
+    "documented_baseline_to_companion_reconciliation":d.get("canonical_differs_from_source",[]),
     "blueprint_sha256":hash_(bp_path),"review_packet_sha256":hash_(packet_path),
     "blueprint_core":identities,
     "blueprint_commander_role":role.get("level"),
