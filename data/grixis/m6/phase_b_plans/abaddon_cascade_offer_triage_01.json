@@ -1,0 +1,53 @@
+{
+  "cycle": 108,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_Abaddon_seven_actual_cascade_offer_oracle_triage",
+  "roster": 62,
+  "deck_id": "Abaddon_the_Despoiler",
+  "authoritative_branch": "chatgpt-cycle76-m6-refinement",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_export_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "cycle107": "data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_01.json",
+  "cycle106": "data/grixis/m6/phase_b_bounded/abaddon_physical_slot_summary_01.json",
+  "sample_count": 240,
+  "scenarios": [
+    "no_removal",
+    "target_removed_after_cast"
+  ],
+  "inputs": [
+    "Exact 7 physical printed-cascade offers from Cycle107 under each response policy, do not resimulate, replace, or reroll",
+    "Frozen October 2026 Scryfall oracle-cards dataset via existing evaluate_decklist.Resolver, verified SHA-256 archive in GitHub Actions",
+    "One bounded externally supplied 3/3 opposing creature, existing baseline policy and opponent life [40,39,31]"
+  ],
+  "algorithm": [
+    "Match every response-policy offer by seed, physical eligible card ID, name, and reveal count; reject divergence",
+    "Check printed Oracle card name, type, mana value < 5, and all seven cards are actual names in canonical approved source",
+    "Separate recognized nonland cascade eligibility from actual legality, immediate effect resolvability, outcome desirability, and card strategic value",
+    "For each offered spell, classify target/choices/cost/other-rule dependencies as blockers, not zero-value penalties",
+    "Permit fixed whitelist of effect code for exact supported text only, but do not infer broad resolution from an Oracle keyword; all unknown effect values remain UNKNOWN",
+    "Group actual offered card names and blockers; annotate absolute no-removal 7 Blast fixture removals separately from cascade uncertainty",
+    "Report zero claims of win rates, challenger advantage, tested-pool zero improvement or completed Phase B/Pass C/I/J",
+    "Cross-check Cycle106 240-sample Heartless/Tree opportunity figures; describe evidence asymmetry without inferring ranking",
+    "Declare explicit next test using paired scenarios for all three exact 100-card variants, controlled opposing creature and realistic spell follow-through"
+  ],
+  "expected_output": "data/grixis/m6/phase_b_bounded/abaddon_cascade_offer_triage_01.json",
+  "review_output": "data/grixis/m6/critic_batches/abaddon_cycle108_cascade_offer_triage_preliminary.md",
+  "hard_fail": [
+    "Any inconsistent source hashes, 240 seeds, nonconserved cards, or extra/missing cast",
+    "Any discovered offer erroneously treated as printed-MV5 spell or a land",
+    "Any offered effect assigned 0, 1, or another numeric value without full tested activation/resolution",
+    "Any canonical deck/card approval state changed"
+  ],
+  "limitations": [
+    "No actual cascade hit casting during Cycle107; this is source-verified triage, not a simulated effect-win test",
+    "No ability to infer target/counterspell legal resolution simply from Oracle text snippets",
+    "No fair board-state comparison to Heartless or Tree until same opponent state and legally modeled casting in their paths",
+    "Classifier is conservative; many effects remain unknown rather than auto-valued"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}

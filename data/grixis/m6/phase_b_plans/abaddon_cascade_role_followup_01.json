@@ -1,0 +1,38 @@
+{
+  "cycle": 108,
+  "stage": "post_result_exploratory_card_specific_role_audit",
+  "created_after_first_green_source_triage": true,
+  "not_an_original_preregistered_hypothesis": true,
+  "original_prereg": "data/grixis/m6/phase_b_plans/abaddon_cascade_offer_triage_01.json",
+  "source_evidence": "data/grixis/m6/phase_b_bounded/abaddon_cascade_offer_triage_01.json",
+  "observed_seven_distinct_cards": [
+    "Mana Vault",
+    "Windfall",
+    "Deflecting Swat",
+    "Demonic Tutor",
+    "Chrome Mox",
+    "Vampiric Tutor",
+    "Sol Ring"
+  ],
+  "purpose": "Check printed mechanics against frozen Oracle to prioritize future real cast/resolution work. Qualitative conditional roles only; no changes to original sample count, seed, decks or outcomes.",
+  "rule_prerequisites": [
+    "Mana Vault costs no colored mana when cast via cascade, produces three colorless on tap but has later upkeep/untap drawback",
+    "Sol Ring produces two colorless on tap and may be used after resolving as an artifact",
+    "Chrome Mox requires a suitable card exiled from hand for a mana color; cast and useful mana production are separate outcomes",
+    "Demonic Tutor can search the currently physical library for a card to hand and requires target-choice policy",
+    "Vampiric Tutor searches library, places target card on top and controller loses two life",
+    "Windfall depends on each player's hand and reshapes all hands, unmodeled without opponent hands",
+    "Deflecting Swat requires a spell/ability on stack; Blast is a possible spell target but value of retargeting unknown"
+  ],
+  "nonclaims": [
+    "None of the seven offered cards was cast during Cycle107",
+    "Not a true win-rate improvement estimate nor a deck-change recommendation",
+    "A role label alone never validates cast/resolve benefit"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
