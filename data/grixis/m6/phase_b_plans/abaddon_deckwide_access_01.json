@@ -75,7 +75,7 @@
   "interpretation_boundaries": [
     "All reports derived from full shuffled 99-card canonical/variant libraries and M3 fixed policy, but M3 v1.1 does not simulate the swapped card abilities, cascade, combat, target availability, actual hand retention after first_seen, post-cast leftover mana or opponent interaction.",
     "Derived effects are rule-accurate only as separately conditional witnesses applied after potential exposure; no simulated new triggered/activated abilities feed back into deck development.",
-    "First-seen and gross mana affordance are NECESSARY opportunity gates and not sufficient to legally cast: no colored-pip check, hand persistence, tap/sickness trace, source survival probability or interaction probabilities.",
+    "First-seen and gross mana affordance are NEITHER necessary NOR sufficient conditions for a legal cast: mana may be produced later through rituals or reduced costs, while generic-vs-colored payment, held hand, spent resources, tap/sickness, source survival, and opponent interaction remain unmodeled.",
     "Do not rank Heartless, Tree or Bituminous Blast on opportunity-event counts; event definitions differ by role.",
     "No win-rate, holistic deck performance, improvement certificate, formal Phase-B/Pass-C/I/J/M6 acceptance, approval or deck change can follow from this run."
   ],
@@ -85,5 +85,9 @@
     "can_change_canonical_list": false,
     "can_approve_or_lock": false
   },
-  "status": "registered_before_test"
+  "status": "registered_before_test",
+  "methodology_amendment": {
+    "date": "2026-10-17",
+    "reason": "Before reviewer acceptance, correct mistaken characterization of gross M3 start-of-turn mana as a necessary affordability gate; rituals, cost reductions and midturn resource changes make it neither necessary nor sufficient. The historical original preregistration remains recoverable in first commit 259427bd13f33db2e688d92c90270b464734b04c. This amendment changes interpretation only, not hypotheses, seed, sample size or measured outcomes."
+  }
 }
