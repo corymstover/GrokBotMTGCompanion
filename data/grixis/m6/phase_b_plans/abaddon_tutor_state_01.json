@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "cycle": 99,
+  "stage": "M6_Abaddon_Oracle_gated_tutor_state",
+  "date": "2026-10-17",
+  "deck": "Abaddon_the_Despoiler",
+  "source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "baseline": "data/grixis/m6/phase_b_bounded/abaddon_effect_coverage_01.json",
+  "sample_count": 240,
+  "seed": 97017,
+  "profiles": [
+    "no_removal",
+    "remove_added_source_before_t7_activation"
+  ],
+  "swaps": [
+    {
+      "cut": "Bituminous Blast",
+      "add": "Heartless Hidetsugu"
+    },
+    {
+      "cut": "Bituminous Blast",
+      "add": "Tree of Perdition"
+    }
+  ],
+  "oracle_assertions": {
+    "Demonic Tutor": [
+      "Search your library for a card",
+      "put that card into your hand",
+      "shuffle"
+    ],
+    "Mystical Tutor": [
+      "Search your library for an instant or sorcery card",
+      "reveal",
+      "shuffle",
+      "top"
+    ],
+    "Imperial Seal": [
+      "Search your library for a card",
+      "shuffle",
+      "top",
+      "You lose 2 life"
+    ],
+    "Vampiric Tutor": [
+      "Search your library for a card",
+      "shuffle",
+      "top",
+      "You lose 2 life"
+    ]
+  },
+  "effects": {
+    "Demonic Tutor": {
+      "mv": 2,
+      "cost": {
+        "B": 1,
+        "generic": 1
+      },
+      "type": "sorcery",
+      "destination": "hand",
+      "allowed_types": [],
+      "life_cost_on_resolution": 0
+    },
+    "Mystical Tutor": {
+      "mv": 1,
+      "cost": {
+        "U": 1,
+        "generic": 0
+      },
+      "type": "instant",
+      "destination": "top",
+      "allowed_types": [
+        "instant",
+        "sorcery"
+      ],
+      "life_cost_on_resolution": 0
+    },
+    "Imperial Seal": {
+      "mv": 1,
+      "cost": {
+        "B": 1,
+        "generic": 0
+      },
+      "type": "sorcery",
+      "destination": "top",
+      "allowed_types": [],
+      "life_cost_on_resolution": 2
+    },
+    "Vampiric Tutor": {
+      "mv": 1,
+      "cost": {
+        "B": 1,
+        "generic": 0
+      },
+      "type": "instant",
+      "destination": "top",
+      "allowed_types": [],
+      "life_cost_on_resolution": 2
+    }
+  },
+  "choice_policy": "Choose eligible library card by fixed commander-first candidate order Brainstorm, Ponder, Dark Ritual, Rite of Flame, Kessig Flamebreather, Sol Ring; restrict Mystical to spells of Oracle type instant/sorcery; if no priority match choose eligible card with highest mv then name as deterministic tie-break. This is one legal policy, not strategically optimal.",
+  "library_policy": "Use actual frozen source card-model type tags (front card type), remove chosen library object, shuffle residual library, then put chosen target into hand or on library top; retain full 96-card source inventory, only moving zones. Never manufacture cards. Cycle 97 effect decline remains for unmodeled cards.",
+  "samples_policy": "Same previous Cycle98 fixed scripted board, forced hand, injected mana, two removal profiles, 240 aligned baseline / variants, same seed; no card draws or tutor effects modeled beyond explicit named subset.",
+  "safeguards": [
+    "Oracle verify card text, mana value and kind against pinned bulk",
+    "Test Mystical cannot choose creatures, lands or enchantments",
+    "Test tutors can change next cascade hit and hand access with two stacked cascades",
+    "Test life payment by Imperial/Vampiric is controller life only",
+    "Test library zone-card conservation and exact one searched card moved",
+    "Test no spontaneous cast, no fabricated legal targets, no false performance ranking",
+    "Reproduce fixed-seed pair results and preserve baseline hash across both swaps",
+    "Cycle98 original script/results and canonical decklist/approvals immutable"
+  ],
+  "limits": [
+    "No realistic hand draws, mana engine use, tutoring optimization, opponent stack responses, combat, target-quality or win-rate simulation",
+    "Simulated tutors choose from script-defined deterministic targets without modeling player judgment, responses or opponent library.",
+    "Specific supported tutor resolution increases coverage but does not establish deck power, Phase B, independent Pass C or M6 approval."
+  ],
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  },
+  "status": "registered_before_execution"
+}
