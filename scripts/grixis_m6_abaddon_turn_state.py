@@ -163,8 +163,13 @@ class TurnState:
    elif n=="Boltwave":self._damage([3]*len(self.opponents))
    elif n=="Flame Rift":self._damage([4]*len(self.opponents),4)
    elif n=="Bituminous Blast":
-    self.events.append({"event":"bituminous_blast_resolves","creature_damage":4,
-                         "creature_damage_result_not_modeled":True})
+    if not self.target_creature:
+     # Only target became illegal. The spell fails to resolve; cast-time cascade
+     # triggers have already been stacked and resolve independently.
+     self.events.append({"event":"bituminous_blast_failed_illegal_target","creature_damage":0})
+    else:
+     self.events.append({"event":"bituminous_blast_resolves","creature_damage":4,
+                          "creature_damage_result_not_modeled":True})
    elif not CARDS[n].get("synthetic"):raise Unsupported("Unmodeled spell effect "+n)
    self.graveyard.append(n) if CARDS[n]["type"]!="creature" else None
    self.events.append({"event":"spell_resolves","name":n})
