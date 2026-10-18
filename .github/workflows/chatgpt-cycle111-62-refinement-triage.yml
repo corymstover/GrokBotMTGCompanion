@@ -1,0 +1,79 @@
+name: ChatGPT Cycle111 62 commander-first refinement readiness
+on:
+  push:
+    branches: [chatgpt-cycle111-62-refinement-triage]
+    paths:
+      - .github/workflows/chatgpt-cycle111-62-refinement-triage.yml
+      - data/grixis/m6/phase_b_plans/commander_first_readiness_62_01.json
+      - scripts/grixis_m6_commander_first_readiness_62.py
+      - tests/test_m6_commander_first_readiness_62.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle111-62-refinement-triage
+  cancel-in-progress: true
+jobs:
+  commander-first-audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle111-62-refinement-triage
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: 62-deck packet integrity, protected identity and nonpromotion regression suite
+        run: python -m unittest discover -s tests -p 'test_m6_commander_first_readiness_62.py' -v
+      - name: Build 62-deck source-bound independent review work queue
+        run: python -u scripts/grixis_m6_commander_first_readiness_62.py --build
+      - name: Independently reproduce detailed packet inventory and compact queue
+        run: python -u scripts/grixis_m6_commander_first_readiness_62.py --check
+      - name: Block invalid deck decision, zero-card-coverage or M6 acceptance
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json').read_text())
+          s=json.loads(Path('data/grixis/m6/phase_b_bounded/commander_first_readiness_62_summary_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert d['deck_count']==62 and d['blueprint_file_count']==d['packet_file_count']==62
+          assert len(d['ordered_decks'])==len(s['queue'])==62
+          assert d['source_review_hypothesis_count']==s['source_review_hypothesis_count']
+          assert d['source_review_hypothesis_count']==sum(x['M5_items_screened_not_approved'] for x in d['ordered_decks'])
+          assert sum(d['aggregates'].get('deck_tier_'+t,0) for t in d['triage_tiers_not_approval_stages'])==62
+          assert all(x['M5_items_screened_not_approved']>0 for x in d['ordered_decks'])
+          assert all(x['any_swap_independently_approved_by_this_report'] is False and
+            x['tested_pool_zero_improvement_certified'] is False and
+            x['formal_phase_b_ready_or_passed'] is False and
+            x['named_independent_commander_judgment_completed'] is False for x in d['ordered_decks'])
+          assert all(d['authority'][k] is False for k in d['authority'])
+          assert d['all_M5_test_pass_flags_provisional'] is True
+          for key in ('can_issue_any_swap_recommendation','can_issue_tested_pool_zero_improvement',
+                      'all_62_actual_phase_b_and_independent_pass_c_completed','M6_accepted'):
+            assert d[key] is False
+          assert d['current_official_legality_reverified'] is False
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert reg['program']['milestones']['M6']['status']=='in_progress'
+          assert not s['M6_accepted'] and s['queue_not_deck_strength_or_swap_approval']
+          print('Verified 62 blueprint and review packets, all source items and no automatic M6 decisions')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Tracked authority or accepted source files modified'
+            exit 1
+          fi
+      - name: Commit only derived M6 experimental inventory
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json data/grixis/m6/phase_b_bounded/commander_first_readiness_62_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Source-derived queue already current'
+          else
+            git commit -m 'Cycle111 62-deck source evidence readiness and human-review queue [skip ci]'
+            git pull --rebase origin chatgpt-cycle111-62-refinement-triage
+            git push origin HEAD:chatgpt-cycle111-62-refinement-triage
+          fi
