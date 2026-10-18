@@ -4,7 +4,7 @@
 
 ## Provenance and scope
 
-The preregistered plan was committed before code at bd c717aaaf001d9be8ef5b88408a40b766a75cac (remove the space to reconstruct the commit ID). The authoritative paths are:
+The preregistered plan was committed before code at bdc717aaaf001d9be8ef5b88408a40b766a75cac. The authoritative paths are:
 
 - Source registry: data/grixis/registry.json, active branch chatgpt-cycle76-m6-refinement.
 - Complete 62 blueprint profiles: data/grixis/blueprints/{slug}.json.
