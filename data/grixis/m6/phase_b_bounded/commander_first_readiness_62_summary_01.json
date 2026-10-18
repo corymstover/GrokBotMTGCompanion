@@ -1,0 +1,1435 @@
+{
+  "M6_accepted": false,
+  "aggregates": {
+    "M5_test_pass_is_not_phase_B_hypotheses": 1042,
+    "blueprints_central_role": 43,
+    "blueprints_significant_role": 16,
+    "blueprints_supporting_or_other_role": 3,
+    "cut_explicit_identity_core_hypotheses": 21,
+    "cut_required_package_hypotheses": 2631,
+    "deck_tier_A_source_agreement_low_triage_burden": 30,
+    "deck_tier_B_source_agreement_needs_specific_review": 10,
+    "deck_tier_C_commander_only_or_performance_only": 22,
+    "decks_with_future_release_exception": 2,
+    "decks_with_intentional_registered_project_exceptions": 5,
+    "high_scrutiny_M5_hypotheses": 922,
+    "low_M5_burden_P0_hypotheses": 114,
+    "mechanics_not_modelable_M5_hypotheses": 3318,
+    "source_agreement_P0_hypotheses": 239,
+    "total_M5_review_hypotheses": 8848
+  },
+  "canonical_lists_unchanged": true,
+  "cycle": 111,
+  "deck_count": 62,
+  "full_phase_b_completed": false,
+  "queue": [
+    {
+      "M5_items": 218,
+      "P0_agreement": 32,
+      "commander_role": "central",
+      "commanders": [
+        "Cormela, Glamour Thief"
+      ],
+      "deck_id": "Cormela__Glamour_Thief",
+      "first_review_pair": [
+        {
+          "add": "Archaeomancer",
+          "cut": "Faithless Looting",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 17,
+      "position": 1,
+      "slug": "cormela-glamour-thief",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 475,
+      "P0_agreement": 18,
+      "commander_role": "central",
+      "commanders": [
+        "Ashnod the Uncaring"
+      ],
+      "deck_id": "Ashnod_the_Uncaring",
+      "first_review_pair": [
+        {
+          "add": "Detective's Satchel",
+          "cut": "Dockside Chef",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 17,
+      "position": 2,
+      "slug": "ashnod-the-uncaring",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 98,
+      "P0_agreement": 35,
+      "commander_role": "central",
+      "commanders": [
+        "Abaddon the Despoiler"
+      ],
+      "deck_id": "Abaddon_the_Despoiler",
+      "first_review_pair": [
+        {
+          "add": "Aggravated Assault",
+          "cut": "Mystic Remora",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 16,
+      "position": 3,
+      "slug": "abaddon-the-despoiler",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 66,
+      "P0_agreement": 23,
+      "commander_role": "central",
+      "commanders": [
+        "Gwendlyn Di Corci"
+      ],
+      "deck_id": "Gwendlyn_Di_Corci",
+      "first_review_pair": [
+        {
+          "add": "Aphetto Alchemist",
+          "cut": "Opposition Agent",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 1,
+      "intentional_exception": false,
+      "low_burden_P0": 12,
+      "position": 4,
+      "slug": "gwendlyn-di-corci",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 111,
+      "P0_agreement": 8,
+      "commander_role": "central",
+      "commanders": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin"
+      ],
+      "deck_id": "Kefka__Court_Mage",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Orcish Bowmasters",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 5,
+      "position": 5,
+      "slug": "kefka-court-mage",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 44,
+      "P0_agreement": 13,
+      "commander_role": "central",
+      "commanders": [
+        "Sauron, Lord of the Rings"
+      ],
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "first_review_pair": [
+        {
+          "add": "Aggravated Assault",
+          "cut": "Mystic Remora",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 4,
+      "position": 6,
+      "slug": "sauron-lord-of-the-rings",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 249,
+      "P0_agreement": 8,
+      "commander_role": "central",
+      "commanders": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "first_review_pair": [
+        {
+          "add": "Godo, Bandit Warlord",
+          "cut": "Vampiric Tutor",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 4,
+      "position": 7,
+      "slug": "nathan-drake-treasure-hunter",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 370,
+      "P0_agreement": 13,
+      "commander_role": "central",
+      "commanders": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "first_review_pair": [
+        {
+          "add": "Pitiless Plunderer",
+          "cut": "Blood Pet",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 3,
+      "position": 8,
+      "slug": "inalla-archmage-ritualist",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 80,
+      "P0_agreement": 7,
+      "commander_role": "central",
+      "commanders": [
+        "The Rani"
+      ],
+      "deck_id": "The_Rani",
+      "first_review_pair": [
+        {
+          "add": "Drafna, Founder of Lat-Nam",
+          "cut": "Curse of Opulence",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 3,
+      "position": 9,
+      "slug": "the-rani",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 54,
+      "P0_agreement": 3,
+      "commander_role": "significant",
+      "commanders": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "first_review_pair": [
+        {
+          "add": "Aetheric Amplifier",
+          "cut": "Mox Diamond",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 3,
+      "position": 10,
+      "slug": "nicol-bolas-the-ravager",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 51,
+      "P0_agreement": 3,
+      "commander_role": "significant",
+      "commanders": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "deck_id": "RogSi",
+      "first_review_pair": [
+        {
+          "add": "The Enigma Jewel // Locus of Enlightenment",
+          "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 3,
+      "position": 11,
+      "slug": "rograkh-son-of-rohgahh-silas-renn",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 73,
+      "P0_agreement": 10,
+      "commander_role": "central",
+      "commanders": [
+        "Nicol Bolas"
+      ],
+      "deck_id": "Nicol_Bolas",
+      "first_review_pair": [
+        {
+          "add": "Volcano Hellion",
+          "cut": "Mystic Remora",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 2,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 12,
+      "slug": "nicol-bolas",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 258,
+      "P0_agreement": 5,
+      "commander_role": "significant",
+      "commanders": [
+        "Mai and Zuko"
+      ],
+      "deck_id": "Mai_and_Zuko",
+      "first_review_pair": [
+        {
+          "add": "The Enigma Jewel // Locus of Enlightenment",
+          "cut": "An Offer You Can't Refuse",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 1,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 13,
+      "slug": "mai-and-zuko",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 68,
+      "P0_agreement": 5,
+      "commander_role": "central",
+      "commanders": [
+        "Kess, Dissident Mage"
+      ],
+      "deck_id": "Kess__Dissident_Mage",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Orcish Bowmasters",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 14,
+      "slug": "kess-dissident-mage",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 122,
+      "P0_agreement": 4,
+      "commander_role": "central",
+      "commanders": [
+        "Edea, Possessed Sorceress"
+      ],
+      "deck_id": "Edea__Possessed_Sorceress",
+      "first_review_pair": [
+        {
+          "add": "Tidespout Tyrant",
+          "cut": "Deadly Rollick",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 15,
+      "slug": "edea-possessed-sorceress",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 22,
+      "P0_agreement": 4,
+      "commander_role": "central",
+      "commanders": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Withering Torment",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 16,
+      "slug": "lynde-cheerful-tormentor",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 30,
+      "P0_agreement": 4,
+      "commander_role": "central",
+      "commanders": [
+        "The Valeyard"
+      ],
+      "deck_id": "The_Valeyard",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Deadly Rollick",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 17,
+      "slug": "the-valeyard",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 73,
+      "P0_agreement": 3,
+      "commander_role": "significant",
+      "commanders": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Orcish Bowmasters",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 18,
+      "slug": "norman-osborn",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 98,
+      "P0_agreement": 2,
+      "commander_role": "supporting",
+      "commanders": [
+        "Sol'kanar the Swamp King"
+      ],
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "first_review_pair": [
+        {
+          "add": "Marina Vendrell's Grimoire",
+          "cut": "The One Ring",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 2,
+      "position": 19,
+      "slug": "solkanar-the-swamp-king",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 47,
+      "P0_agreement": 4,
+      "commander_role": "central",
+      "commanders": [
+        "Garza Zol, Plague Queen"
+      ],
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "first_review_pair": [
+        {
+          "add": "Kamahl, Pit Fighter",
+          "cut": "Rapid Hybridization",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 20,
+      "slug": "garza-zol-plague-queen",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 79,
+      "P0_agreement": 3,
+      "commander_role": "significant",
+      "commanders": [
+        "Evelyn, the Covetous"
+      ],
+      "deck_id": "Evelyn__the_Covetous",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Orcish Bowmasters",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 21,
+      "slug": "evelyn-the-covetous",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 31,
+      "P0_agreement": 2,
+      "commander_role": "central",
+      "commanders": [
+        "Sauron, the Dark Lord"
+      ],
+      "deck_id": "Sauron__the_Dark_Lord",
+      "first_review_pair": [
+        {
+          "add": "Tidespout Tyrant",
+          "cut": "Deadly Rollick",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 22,
+      "slug": "sauron-the-dark-lord",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 38,
+      "P0_agreement": 2,
+      "commander_role": "significant",
+      "commanders": [
+        "The Madcap Jester"
+      ],
+      "deck_id": "The_Madcap_Jester",
+      "first_review_pair": [
+        {
+          "add": "Grinding Station",
+          "cut": "Mox Opal",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": true,
+      "low_burden_P0": 1,
+      "position": 23,
+      "slug": "the-madcap-jester",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 86,
+      "P0_agreement": 2,
+      "commander_role": "significant",
+      "commanders": [
+        "Fire Lord Azula"
+      ],
+      "deck_id": "Fire_Lord_Azula",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Repeal",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 24,
+      "slug": "fire-lord-azula",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 68,
+      "P0_agreement": 2,
+      "commander_role": "significant",
+      "commanders": [
+        "Jeleva, Nephalia's Scourge"
+      ],
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Pyroblast",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 25,
+      "slug": "jeleva-nephalias-scourge",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 249,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Dr. Eggman"
+      ],
+      "deck_id": "Dr__Eggman",
+      "first_review_pair": [
+        {
+          "add": "Pit Automaton",
+          "cut": "Mox Opal",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 26,
+      "slug": "dr-eggman",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 58,
+      "P0_agreement": 1,
+      "commander_role": "significant",
+      "commanders": [
+        "Marchesa, Dealer of Death"
+      ],
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "first_review_pair": [
+        {
+          "add": "Hullbreaker Horror",
+          "cut": "Orcish Bowmasters",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 27,
+      "slug": "marchesa-dealer-of-death",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 69,
+      "P0_agreement": 1,
+      "commander_role": "significant",
+      "commanders": [
+        "Nekusar, the Mindrazer"
+      ],
+      "deck_id": "Nekusar__the_Mindrazer",
+      "first_review_pair": [
+        {
+          "add": "The Enigma Jewel // Locus of Enlightenment",
+          "cut": "An Offer You Can't Refuse",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 28,
+      "slug": "nekusar-the-mindrazer",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 181,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Obeka, Brute Chronologist"
+      ],
+      "deck_id": "Obeka__Brute_Chronologist",
+      "first_review_pair": [
+        {
+          "add": "Godo, Bandit Warlord",
+          "cut": "Gamble",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 29,
+      "slug": "obeka-brute-chronologist",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 238,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "first_review_pair": [
+        {
+          "add": "Tidespout Tyrant",
+          "cut": "Feed the Swarm",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 1,
+      "position": 30,
+      "slug": "doctor-doom-king-of-latveria",
+      "tier": "A_source_agreement_low_triage_burden"
+    },
+    {
+      "M5_items": 77,
+      "P0_agreement": 6,
+      "commander_role": "central",
+      "commanders": [
+        "Mairsil, the Pretender"
+      ],
+      "deck_id": "Mairsil__the_Pretender",
+      "first_review_pair": [
+        {
+          "add": "Wound Reflection",
+          "cut": "Training Grounds",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 31,
+      "slug": "mairsil-the-pretender",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 314,
+      "P0_agreement": 3,
+      "commander_role": "central",
+      "commanders": [
+        "Admiral Beckett Brass"
+      ],
+      "deck_id": "Admiral_Beckett_Brass",
+      "first_review_pair": [
+        {
+          "add": "Prosperous Pirates",
+          "cut": "Jeska's Will",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 32,
+      "slug": "admiral-beckett-brass",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 34,
+      "P0_agreement": 2,
+      "commander_role": "central",
+      "commanders": [
+        "Tetsuo Umezawa"
+      ],
+      "deck_id": "Tetsuo_Umezawa",
+      "first_review_pair": [
+        {
+          "add": "Gilded Lotus",
+          "cut": "Talisman of Creativity",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 33,
+      "slug": "tetsuo-umezawa",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 105,
+      "P0_agreement": 2,
+      "commander_role": "central",
+      "commanders": [
+        "Lord Xander, the Collector"
+      ],
+      "deck_id": "Lord_Xander__the_Collector",
+      "first_review_pair": [
+        {
+          "add": "Young Necromancer",
+          "cut": "Gamble",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 34,
+      "slug": "lord-xander-the-collector",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 111,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Don Andres, the Renegade"
+      ],
+      "deck_id": "Don_Andres__the_Renegade",
+      "first_review_pair": [
+        {
+          "add": "Tidespout Tyrant",
+          "cut": "Deadly Rollick",
+          "risk_codes": [
+            "CUTS_REQUIRED_COMMANDER_BLUEPRINT_PACKAGE"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 35,
+      "slug": "don-andres-the-renegade",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 127,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Mishra, Artificer Prodigy"
+      ],
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "first_review_pair": [
+        {
+          "add": "The Enigma Jewel // Locus of Enlightenment",
+          "cut": "Mox Amber",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 36,
+      "slug": "mishra-artificer-prodigy",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 135,
+      "P0_agreement": 1,
+      "commander_role": "significant",
+      "commanders": [
+        "Thraximundar"
+      ],
+      "deck_id": "Thraximundar",
+      "first_review_pair": [
+        {
+          "add": "Relic of Legends",
+          "cut": "Black Market Connections",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 37,
+      "slug": "thraximundar",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 211,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "first_review_pair": [
+        {
+          "add": "Tidespout Tyrant",
+          "cut": "Deadly Rollick",
+          "risk_codes": [
+            "CUTS_REQUIRED_COMMANDER_BLUEPRINT_PACKAGE"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 38,
+      "slug": "admiral-brass-unsinkable",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 111,
+      "P0_agreement": 1,
+      "commander_role": "central",
+      "commanders": [
+        "Sedris, the Traitor King"
+      ],
+      "deck_id": "Sedris__the_Traitor_King",
+      "first_review_pair": [
+        {
+          "add": "The Enigma Jewel // Locus of Enlightenment",
+          "cut": "Jeska's Will",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 39,
+      "slug": "sedris-the-traitor-king",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 42,
+      "P0_agreement": 1,
+      "commander_role": "significant",
+      "commanders": [
+        "Kraum, Ludevic's Opus",
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "deck_id": "Grixistax___October_2026",
+      "first_review_pair": [
+        {
+          "add": "The Enigma Jewel // Locus of Enlightenment",
+          "cut": "Mox Amber",
+          "risk_codes": [
+            "CUTS_REQUIRED_COMMANDER_BLUEPRINT_PACKAGE",
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 40,
+      "slug": "grixistax-october-2026",
+      "tier": "B_source_agreement_needs_specific_review"
+    },
+    {
+      "M5_items": 17,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Crosis, the Purger"
+      ],
+      "deck_id": "Crosis__the_Purger",
+      "first_review_pair": [
+        {
+          "add": "Relic of Sauron",
+          "cut": "Black Market Connections",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 41,
+      "slug": "crosis-the-purger",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 66,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Davros, Dalek Creator"
+      ],
+      "deck_id": "Davros__Dalek_Creator",
+      "first_review_pair": [
+        {
+          "add": "Darkwater Catacombs",
+          "cut": "Geier Reach Sanitarium",
+          "risk_codes": [
+            "ELEVATED_STRUCTURAL_BURDEN"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 42,
+      "slug": "davros-dalek-creator",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 342,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Edward Kenway"
+      ],
+      "deck_id": "Edward_Kenway",
+      "first_review_pair": [
+        {
+          "add": "Deadly Dispute",
+          "cut": "Jeska's Will",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 43,
+      "slug": "edward-kenway",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 298,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Goro-Goro and Satoru"
+      ],
+      "deck_id": "Goro_Goro_and_Satoru",
+      "first_review_pair": [
+        {
+          "add": "Izzet Signet",
+          "cut": "Ragavan, Nimble Pilferer",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 11,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 44,
+      "slug": "goro-goro-and-satoru",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 121,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Lord of Tresserhorn"
+      ],
+      "deck_id": "Lord_of_Tresserhorn",
+      "first_review_pair": [
+        {
+          "add": "Tribute Mage",
+          "cut": "Vampiric Tutor",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 45,
+      "slug": "lord-of-tresserhorn",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 28,
+      "P0_agreement": 0,
+      "commander_role": "significant",
+      "commanders": [
+        "Sol'Kanar the Tainted"
+      ],
+      "deck_id": "Sol_kanar_the_Tainted",
+      "first_review_pair": [
+        {
+          "add": "Commander's Sphere",
+          "cut": "Spiteful Banditry",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 46,
+      "slug": "solkanar-the-tainted",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 270,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Be'lakor, the Dark Master"
+      ],
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "first_review_pair": [
+        {
+          "add": "Brainstorm",
+          "cut": "Unholy Annex // Ritual Chamber",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 47,
+      "slug": "belakor-the-dark-master",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 214,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Wick, the Whorled Mind"
+      ],
+      "deck_id": "Wick__the_Whorled_Mind",
+      "first_review_pair": [
+        {
+          "add": "Dimir Signet",
+          "cut": "Pitiless Plunderer",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 48,
+      "slug": "wick-the-whorled-mind",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 301,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "first_review_pair": [
+        {
+          "add": "Rakdos Signet",
+          "cut": "Mahadi, Emporium Master",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": true,
+      "low_burden_P0": 0,
+      "position": 49,
+      "slug": "tresserhorns-lord-returned",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 38,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "first_review_pair": [
+        {
+          "add": "Izzet Signet",
+          "cut": "Fellwar Stone",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 50,
+      "slug": "obeka-splitter-of-seconds",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 110,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Zevlor, Elturel Exile"
+      ],
+      "deck_id": "Zevlor__Elturel_Exile",
+      "first_review_pair": [
+        {
+          "add": "Resonating Lute",
+          "cut": "Dark Ritual",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 51,
+      "slug": "zevlor-elturel-exile",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 55,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Saruman, the White Hand"
+      ],
+      "deck_id": "Saruman__the_White_Hand",
+      "first_review_pair": [
+        {
+          "add": "Relic of Sauron",
+          "cut": "Mana Geyser",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 52,
+      "slug": "saruman-the-white-hand",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 126,
+      "P0_agreement": 0,
+      "commander_role": "supporting",
+      "commanders": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "first_review_pair": [
+        {
+          "add": "Dimir Signet",
+          "cut": "Talisman of Indulgence",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 1,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 53,
+      "slug": "parnesse-the-subtle-brush",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 178,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Mishra, Eminent One"
+      ],
+      "deck_id": "Mishra__Eminent_One",
+      "first_review_pair": [
+        {
+          "add": "Thoughtcast",
+          "cut": "Mystic Remora",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 54,
+      "slug": "mishra-eminent-one",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 129,
+      "P0_agreement": 0,
+      "commander_role": "significant",
+      "commanders": [
+        "Marchesa, the Black Rose"
+      ],
+      "deck_id": "Marchesa__the_Black_Rose",
+      "first_review_pair": [
+        {
+          "add": "Village Rites",
+          "cut": "Braids, Arisen Nightmare",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 55,
+      "slug": "marchesa-the-black-rose",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 44,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "first_review_pair": [
+        {
+          "add": "Kiki-Jiki, Mirror Breaker",
+          "cut": "Sword of Fire and Ice",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 56,
+      "slug": "tetsuo-imperial-champion",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 276,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Missy"
+      ],
+      "deck_id": "Missy",
+      "first_review_pair": [
+        {
+          "add": "Darkwater Catacombs",
+          "cut": "Otawara, Soaring City",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 57,
+      "slug": "missy",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 87,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Cult of Skaro"
+      ],
+      "deck_id": "Cult_of_Skaro",
+      "first_review_pair": [
+        {
+          "add": "Darkwater Catacombs",
+          "cut": "Urborg, Tomb of Yawgmoth",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 58,
+      "slug": "cult-of-skaro",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 386,
+      "P0_agreement": 0,
+      "commander_role": "central",
+      "commanders": [
+        "Loki, the Deceiver"
+      ],
+      "deck_id": "Loki__the_Deceiver",
+      "first_review_pair": [
+        {
+          "add": "Kid Loki",
+          "cut": "Deflecting Swat",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 59,
+      "slug": "loki-the-deceiver",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 295,
+      "P0_agreement": 0,
+      "commander_role": "significant",
+      "commanders": [
+        "Anhelo, the Painter"
+      ],
+      "deck_id": "Anhelo__the_Painter",
+      "first_review_pair": [
+        {
+          "add": "Resonating Lute",
+          "cut": "Black Market Connections",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 0,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 60,
+      "slug": "anhelo-the-painter",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 81,
+      "P0_agreement": 0,
+      "commander_role": "supporting",
+      "commanders": [
+        "Bjorna, Nightfall Alchemist",
+        "Cecily, Haunted Mage"
+      ],
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "first_review_pair": [
+        {
+          "add": "Resonating Lute",
+          "cut": "Talisman of Indulgence",
+          "risk_codes": []
+        }
+      ],
+      "identity_core_cut_count": 3,
+      "intentional_exception": true,
+      "low_burden_P0": 0,
+      "position": 61,
+      "slug": "bjorna-nightfall-alchemist-cecily",
+      "tier": "C_commander_only_or_performance_only"
+    },
+    {
+      "M5_items": 415,
+      "P0_agreement": 0,
+      "commander_role": "significant",
+      "commanders": [
+        "Ashad, the Lone Cyberman"
+      ],
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "first_review_pair": [
+        {
+          "add": "Darkwater Catacombs",
+          "cut": "Great Furnace",
+          "risk_codes": [
+            "MECHANICS_NOT_MODELED_BY_M5"
+          ]
+        }
+      ],
+      "identity_core_cut_count": 2,
+      "intentional_exception": false,
+      "low_burden_P0": 0,
+      "position": 62,
+      "slug": "ashad-the-lone-cyberman",
+      "tier": "C_commander_only_or_performance_only"
+    }
+  ],
+  "queue_not_deck_strength_or_swap_approval": true,
+  "source_review_hypothesis_count": 8848
+}
