@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "cycle": 94,
+  "stage": "M6_Abaddon_effect_aware_bounded_followthrough_preregistration",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "canonical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "approved_list_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "baseline_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "prior_grid": "data/grixis/m6/phase_b_bounded/abaddon_interaction_grid_01.json",
+  "prior_access": "data/grixis/m6/phase_b_bounded/abaddon_threshold_access_01.json",
+  "purpose": "Test missing life-loss, mana and printed-cascade counterplay under explicit reproducible conditional board states, not win rates or full-deck paired comparisons.",
+  "hypotheses": [
+    "Without haste, a newly cast Heartless Hidetsugu or Tree of Perdition cannot activate on entry turn; if a tap source fails to survive to a later untap, it adds no immediate X.",
+    "Heartless activation persists after its source is removed from battlefield; Tree exchange fails if Tree leaves before its ability resolves.",
+    "Even large life loss cannot grant Abaddon cascade if the commander is absent, the spell is not cast from hand during controller turn, or the follow-up colored-mana costs cannot be paid.",
+    "Bituminous Blast has one printed cascade independent of Abaddon and receives a second cascade if Abaddon's own-turn hand-cast threshold is at least its mana value five.",
+    "Replacing Bituminous Blast sacrifices an interaction mode and the printed cascade trigger even when an added tap threat produces a larger life-loss X.",
+    "Removing Kessig Flamebreather forfeits immediate on-cast 1-damage-per-opponent triggers; removing Birgi forfeits post-cast red mana (and Harnfel access), absent other effects."
+  ],
+  "preregistered_board_states": [
+    {
+      "id": "fresh_heartless",
+      "source": "Heartless Hidetsugu",
+      "turn_cast": 5,
+      "activation_turn": 5,
+      "haste": false,
+      "source_survives": true
+    },
+    {
+      "id": "untapped_heartless",
+      "source": "Heartless Hidetsugu",
+      "turn_cast": 5,
+      "activation_turn": 6,
+      "haste": false,
+      "source_survives": true
+    },
+    {
+      "id": "heartless_removed_before_activation",
+      "source": "Heartless Hidetsugu",
+      "turn_cast": 5,
+      "activation_turn": 6,
+      "haste": false,
+      "source_survives": false
+    },
+    {
+      "id": "heartless_removed_after_activation",
+      "source": "Heartless Hidetsugu",
+      "turn_cast": 5,
+      "activation_turn": 6,
+      "haste": false,
+      "source_survives": true,
+      "response_remove_source": true
+    },
+    {
+      "id": "fresh_tree",
+      "source": "Tree of Perdition",
+      "turn_cast": 4,
+      "activation_turn": 4,
+      "haste": false,
+      "source_survives": true
+    },
+    {
+      "id": "untapped_tree",
+      "source": "Tree of Perdition",
+      "turn_cast": 4,
+      "activation_turn": 5,
+      "haste": false,
+      "source_survives": true
+    },
+    {
+      "id": "tree_removed_before_activation",
+      "source": "Tree of Perdition",
+      "turn_cast": 4,
+      "activation_turn": 5,
+      "haste": false,
+      "source_survives": false
+    },
+    {
+      "id": "tree_removed_after_activation",
+      "source": "Tree of Perdition",
+      "turn_cast": 4,
+      "activation_turn": 5,
+      "haste": false,
+      "source_survives": true,
+      "response_remove_source": true
+    }
+  ],
+  "opponent_life": [
+    40,
+    39,
+    31
+  ],
+  "pilot_life": 40,
+  "nominal_costs": {
+    "abaddon": {
+      "U": 1,
+      "B": 1,
+      "R": 1,
+      "generic": 2
+    },
+    "followup_mv3": {
+      "B": 1,
+      "R": 1,
+      "generic": 1
+    },
+    "bituminous_blast": {
+      "B": 1,
+      "R": 1,
+      "generic": 3
+    }
+  },
+  "mana_pools": [
+    {
+      "id": "tight_after_commander",
+      "pool": {
+        "U": 1,
+        "B": 2,
+        "R": 2,
+        "C": 2
+      },
+      "commander_already_present": false
+    },
+    {
+      "id": "enough_after_commander",
+      "pool": {
+        "U": 1,
+        "B": 2,
+        "R": 2,
+        "C": 3
+      },
+      "commander_already_present": false
+    },
+    {
+      "id": "followup_only",
+      "pool": {
+        "U": 0,
+        "B": 1,
+        "R": 1,
+        "C": 1
+      },
+      "commander_already_present": true
+    },
+    {
+      "id": "color_short_after_commander",
+      "pool": {
+        "U": 1,
+        "B": 1,
+        "R": 1,
+        "C": 3
+      },
+      "commander_already_present": false
+    }
+  ],
+  "threshold_inputs": [
+    0,
+    3,
+    4,
+    5,
+    27,
+    54
+  ],
+  "followup": {
+    "origin": "hand",
+    "controller_turn": true,
+    "mv": 3,
+    "cost": {
+      "B": 1,
+      "R": 1,
+      "generic": 1
+    }
+  },
+  "controls": [
+    "approved unchanged 100 cards",
+    "printed cascade of Bituminous Blast independent of commander",
+    "same-turn Kessig trigger witness",
+    "Birgi red mana delayed until after spell cast",
+    "commander absent, exile cast, enemy turn, X under mv",
+    "prevention/removal/haste scenarios verified against prior response grid"
+  ],
+  "invariants": [
+    "No randomized gameplay model or statistical confidence interval is produced",
+    "Numerical scenario results are conditional counterfactuals only; no additive benefit or upgrade ranking",
+    "No manual changes to accepted M5, historic Step C, canonical lists, registry, user locks, approvals or project exceptions",
+    "Any actual improvement claim requires separately pre-registered deckwide effect-aware paired evidence and formal independent Pass C"
+  ],
+  "status": "registered_before_test",
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_change_canonical_list": false,
+    "can_approve_or_lock": false
+  }
+}
