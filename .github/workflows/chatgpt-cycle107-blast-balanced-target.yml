@@ -1,0 +1,78 @@
+name: Cycle107 Abaddon Blast legal target and physical cascade
+on:
+  push:
+    branches: [chatgpt-cycle107-blast-balanced-target]
+    paths:
+      - .github/workflows/chatgpt-cycle107-blast-balanced-target.yml
+      - scripts/grixis_m6_abaddon_blast_target_cascade.py
+      - tests/test_m6_abaddon_blast_target_cascade.py
+      - data/grixis/m6/phase_b_plans/abaddon_blast_target_cascade_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle107-blast-balanced-target
+  cancel-in-progress: true
+jobs:
+  verification:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle107-blast-balanced-target
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Physical target and cascade adversarial tests
+        run: python -m unittest discover -s tests -p test_m6_abaddon_blast_target_cascade.py -v
+      - name: Verify archived Oracle sources
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Build and replay 240 matched source opportunities
+        run: |
+          python -u scripts/grixis_m6_abaddon_blast_target_cascade.py --build
+          python -u scripts/grixis_m6_abaddon_blast_target_cascade.py --check
+      - name: Check exact evidence scope, card conservation, no inferred winner
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_01.json').read_text())
+          s=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_summary_01.json').read_text())
+          assert len(r['decks'])==62 and r['program']['milestones']['M6']['accepted_by'] is None
+          assert d['sample_count']==240 and len(d['policies'])==2
+          assert len(d['policies']['no_removal']['trials'])==240
+          assert len(d['policies']['target_removed_after_cast']['trials'])==240
+          assert d['all_cascade_hits_declined_when_offered']
+          assert d['potential_value_of_offered_hits']=='UNKNOWN_NOT_ZERO'
+          assert d['relative_deck_strength']=='CANNOT_EVALUATE'
+          assert all(not d[k] for k in ('full_phase_b_complete','independent_pass_c_complete',
+                    'supports_improvement_claim','zero_improvement_certified','M6_accepted'))
+          assert all(v is False for v in d['authority'].values())
+          assert not s['candidate_approved']
+          for p in d['policies'].values():
+            for trial in p['trials']:
+              assert sum(trial['zone_counts'].values())==100
+              assert trial['trigger_count']==trial['resolved_trigger_count']
+          print('Cycle107 exact 100-card source and unknown-effect bounded experiment verified')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected tracked file changed'
+            exit 1
+          fi
+      - name: Commit bounded experimental receipts only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_01.json data/grixis/m6/phase_b_bounded/abaddon_blast_target_cascade_summary_01.json
+          if git diff --cached --quiet; then
+            echo 'Evidence current'
+          else
+            git commit -m 'Cycle107 printed cascade target and unknown-value receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle107-blast-balanced-target
+            git push origin HEAD:chatgpt-cycle107-blast-balanced-target
+          fi
