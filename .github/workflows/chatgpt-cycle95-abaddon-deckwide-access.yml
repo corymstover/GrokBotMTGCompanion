@@ -1,0 +1,68 @@
+name: ChatGPT cycle 95 - paired Abaddon 99-card access bounds
+on:
+  push:
+    branches:
+      - chatgpt-cycle95-abaddon-deckwide-access
+    paths:
+      - .github/workflows/chatgpt-cycle95-abaddon-deckwide-access.yml
+      - scripts/grixis_m6_abaddon_deckwide_access.py
+      - tests/test_m6_abaddon_deckwide_access.py
+      - data/grixis/m6/phase_b_plans/abaddon_deckwide_access_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle95-abaddon-access
+  cancel-in-progress: true
+jobs:
+  paired-bounded-access:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle95-abaddon-deckwide-access
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Check preregistered negative and rules-limitation tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_deckwide_access.py' -v
+      - name: Build SHA-bound paired full-99 development and access observations
+        run: python scripts/grixis_m6_abaddon_deckwide_access.py --build
+      - name: Independently rerun fixed-seed source evidence
+        run: python scripts/grixis_m6_abaddon_deckwide_access.py --check
+      - name: Enforce M5 frozen, M6 pending and zero authority
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unauthorized generated path';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(reg["decks"])==62
+          assert reg["program"]["milestones"]["M5"]["status"]=="accepted"
+          assert reg["program"]["milestones"]["M6"]["accepted_by"] is None
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_deckwide_access_01.json').read_text())
+          r=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_deckwide_access_01.json').read_text())
+          assert p["status"]=="registered_before_test"
+          assert p["approved_source_sha256"]==r["approved_source_sha256"]
+          assert r["samples_per_swap"]==800 and len(r["hypotheses"])==2
+          assert r["hypotheses"][0]["baseline_trace_sha256"]==r["hypotheses"][1]["baseline_trace_sha256"]
+          assert r["effect_aware_deckwide_paired_test_executed"] is False
+          assert r["full_phase_b_complete"] is False and r["supports_improvement_claim"] is False
+          assert not any(r["authority"].values())
+          PY
+      - name: Commit evidence in bounded M6 namespace only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_deckwide_access_01.json
+          if git diff --cached --quiet; then
+            echo 'evidence already current'
+          else
+            git commit -m 'Cycle 95: store paired Abaddon full-library access-only bound [skip ci]'
+            git pull --rebase origin chatgpt-cycle95-abaddon-deckwide-access
+            git push origin HEAD:chatgpt-cycle95-abaddon-deckwide-access
+          fi
