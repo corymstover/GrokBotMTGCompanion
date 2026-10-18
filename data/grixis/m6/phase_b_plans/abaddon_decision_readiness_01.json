@@ -1,0 +1,59 @@
+{
+  "cycle": 105,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_Abaddon_commander_first_decision_readiness",
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  },
+  "frozen": {
+    "baseline_deck_id": "Abaddon_the_Despoiler",
+    "approved_list_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "baseline_export_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "baseline_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+    "source_packet": "data/grixis/m6/review_packets/abaddon-the-despoiler.json",
+    "source_blueprint": "data/grixis/blueprints/abaddon-the-despoiler.json",
+    "source_paired_development": "data/grixis/m6/phase_b_bounded/abaddon_deckwide_access_01.json",
+    "source_partial_effects": "data/grixis/m6/phase_b_bounded/abaddon_tutor_state_01.json",
+    "source_real_source_access": "data/grixis/m6/phase_b_bounded/fetch_city_tomb_62_summary_01.json",
+    "source_preliminary_judgment": "data/grixis/m6/critic_batches/abaddon_threshold_response_passc_preliminary.md"
+  },
+  "focus": {
+    "adds": [
+      "Heartless Hidetsugu",
+      "Tree of Perdition"
+    ],
+    "cuts": [
+      "Bituminous Blast",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Kessig Flamebreather"
+    ],
+    "hypotheses": 6,
+    "approved_main_list_is_unchanged": true
+  },
+  "requirements": [
+    "Verify 98 review items, exact approved raw SHA, frozen TXT SHA, blueprint commander identity and logical hash before deriving any output",
+    "Extract both M5 recorded proposals for each of Heartless/Tree replacing Birgi and Kessig; flag Bituminous as M6 alternate test, not counterfeit M5 hypothesis",
+    "Keep role replacement concerns factual from blueprint and prelim review; never infer winner from screening score, mana-only cast affordance, fixed scripted life-loss or count of effects resolved",
+    "Link 800-paired exposure measurements and 240-seed scripted residual cascade coverage without promoting either to a real-game metric",
+    "Publish one deterministic matrix for all 98 screening rows with explicit NO automatically approved changes, plus six deep focus readiness entries",
+    "Show why X threshold per opponent, source availability, five-to-four printed cascade change, haste/delay, drawn hand/cast mana, target availability and independent Kessig/Birgi role replacement matter",
+    "Source-derived status must be 'unresolved' for all six; avoid fake effect-aware Phase B PASS, independent Pass C completion, positive-deck advantage, tested-pool zero-improvement or M6 acceptance",
+    "Provide explicit next experiment with paired physical-card access, legal spell-from-hand timing, source-backed cost, survival/removal, true cascade hit quality, interactions and unmodeled-event bounds; do not rerun complete Google Colab research pipeline",
+    "Complete tests and CI using unchanged source files; never edit canonical repo"
+  ],
+  "not_modeled": [
+    "Full multiplayer opponents or priority policy",
+    "Complete cascade and high-impact effects across 99 cards",
+    "Statistically meaningful game/turn/win outcomes",
+    "All 98 independent named judgments",
+    "Complete M6 Phase B and Pass C/I/J"
+  ],
+  "outputs": [
+    "data/grixis/m6/phase_b_bounded/abaddon_decision_readiness_01.json",
+    "data/grixis/m6/critic_batches/abaddon_cycle105_decision_readiness_preliminary.md"
+  ],
+  "decision_policy": "Evidence completeness and commander identity first. If any major gate fails, action remains 'HOLD_SOURCE' or 'HOLD_COMPARED_SLOT'; no automatic negative zero-improvement verdict either."
+}
