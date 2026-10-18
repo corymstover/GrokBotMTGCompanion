@@ -58,6 +58,15 @@ class AbaddonStateTests(unittest.TestCase):
   self.assertEqual(a.cast("Bituminous Blast"),1)
   a.resolve_all()
   self.assertEqual(len([e for e in a.events if e["event"]=="cascade_hit"]),1)
+ def test_blast_illegal_target_at_resolution_preserves_cascade(self):
+  s=TurnState(hand=["Bituminous Blast"],mana={"B":1,"R":1,"C":3},
+              library=["Test Echo"])
+  s.cast("Bituminous Blast")
+  s.target_creature=False # opponent removes target in response after the cast
+  s.resolve_all()
+  self.assertIn("bituminous_blast_failed_illegal_target",[e["event"] for e in s.events])
+  self.assertIn("cascade_hit",[e["event"] for e in s.events])
+  self.assertEqual(len([e for e in s.events if e["event"]=="cast"]),2)
  def test_double_cascade_and_exile_not_regranted(self):
   s=TurnState(hand=["Bituminous Blast"],mana={"B":1,"R":1,"C":3},
               library=["Test Echo","Test Land","Test Spark"])
