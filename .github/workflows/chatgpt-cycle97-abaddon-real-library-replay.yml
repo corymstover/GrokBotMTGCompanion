@@ -1,0 +1,93 @@
+name: ChatGPT cycle 97 - Abaddon paired full-99 cascade replay
+on:
+  push:
+    branches:
+      - chatgpt-cycle97-abaddon-real-library-replay
+    paths:
+      - .github/workflows/chatgpt-cycle97-abaddon-real-library-replay.yml
+      - scripts/grixis_m6_abaddon_real_library_replay.py
+      - tests/test_m6_abaddon_real_library_replay.py
+      - data/grixis/m6/phase_b_plans/abaddon_real_library_replay_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle97-abaddon-real-library-replay
+  cancel-in-progress: true
+jobs:
+  real-library-replay:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle97-abaddon-real-library-replay
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test conservative cascade rules, identity and unsupported-effect protection
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_real_library_replay.py' -v
+      - name: Restore SHA-256 locked October Scryfall development bundle
+        run: |
+          python - <<'PY'
+          import pathlib,urllib.request,hashlib
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,want in [
+             ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+             ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+             ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+              p=cache/name
+              urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,p)
+              if hashlib.sha256(p.read_bytes()).hexdigest()!=want:
+                  raise SystemExit('Frozen Scryfall snapshot checksum mismatch: '+name)
+              print('Frozen source restored and verified:',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Build seeded paired complete-library cascade coverage evidence
+        run: python -u scripts/grixis_m6_abaddon_real_library_replay.py --build
+      - name: Independently rerun and verify exact deterministic evidence
+        run: python -u scripts/grixis_m6_abaddon_real_library_replay.py --check
+      - name: Assert protected authority scope and prohibit improvement claims
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unauthorized generated file outside bounded M6';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          plan=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_real_library_replay_01.json').read_text())
+          result=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_real_library_replay_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert reg['program']['milestones']['M5']['status']=='accepted'
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert plan['status']=='preregistered_test_not_executed'
+          assert result['seed']==97017 and result['samples_per_swap_per_response_profile']==240
+          assert len(result['results'])==2
+          assert result['full_99_library_shuffle_used'] is True
+          assert result['limited_real_effect_resolver_used'] is True
+          assert result['true_full_deck_gameplay_simulation'] is False
+          assert result['full_phase_b_complete'] is False
+          assert result['supports_improvement_claim'] is False
+          assert result['can_certify_zero_improvement'] is False
+          assert all(not x for x in result['authority'].values())
+          refs=[r['profiles'] for r in result['results']]
+          for policy in result['response_profiles']:
+              assert refs[0][policy]['baseline_trace_sha256']==refs[1][policy]['baseline_trace_sha256']
+              for label in ('baseline','challenger'):
+                  e=refs[0][policy][label]['effect_coverage']
+                  assert e['offered']==e['modeled_casts']+e['unmodeled_offers']+e['legal_declines']
+          PY
+      - name: Commit evidence only in bounded M6 directory
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_real_library_replay_01.json
+          if git diff --cached --quiet; then
+            echo 'Evidence is already current'
+          else
+            git commit -m 'Cycle 97: record paired real-library cascade coverage [skip ci]'
+            git pull --rebase origin chatgpt-cycle97-abaddon-real-library-replay
+            git push origin HEAD:chatgpt-cycle97-abaddon-real-library-replay
+          fi
