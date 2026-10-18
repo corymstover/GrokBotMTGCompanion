@@ -50,6 +50,7 @@ jobs:
           assert d['sample_count']==240 and len(d['two_target_response_policies'])==2
           assert len(d['oracle_checks'])==4
           assert d['four_card_effect_subset_only'] and not d['balanced_three_variant_phase_b']
+          assert d['mana_vault_upkeep_damage_events_not_resolved'] is True
           assert d['comparative_deck_strength']=='CANNOT_EVALUATE'
           assert d['realized_downstream_deck_win_value']=='UNKNOWN_NOT_ZERO'
           assert all(not d[k] for k in ('supports_improvement_claim','zero_improvement_certified',
