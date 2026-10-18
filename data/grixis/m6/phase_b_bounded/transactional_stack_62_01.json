@@ -1,0 +1,3178 @@
+{
+  "M6_accepted": false,
+  "Phase_B_complete": false,
+  "abaddon_witnesses": [
+    {
+      "events": [
+        {
+          "event": "scripted_injected_mana",
+          "not_gameplay": true,
+          "units": {
+            "B": 2,
+            "C": 10,
+            "R": 2,
+            "U": 2
+          }
+        },
+        {
+          "event": "supported_cast",
+          "id": "c000",
+          "name": "Abaddon the Despoiler",
+          "no_cascade_eligible": true,
+          "origin": "command",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 1,
+            "C": 8,
+            "G": 0,
+            "R": 1,
+            "U": 1,
+            "W": 0
+          }
+        },
+        {
+          "destination": "battlefield",
+          "event": "supported_resolution",
+          "id": "c000",
+          "name": "Abaddon the Despoiler",
+          "opponents": [
+            40,
+            39,
+            31
+          ],
+          "opponents_lost_this_turn": 0,
+          "pilot": 40
+        },
+        {
+          "event": "scripted_command_zone_choice",
+          "id": "c000",
+          "replacement_rules_not_modeled": true
+        },
+        {
+          "event": "supported_cast",
+          "id": "c000",
+          "name": "Abaddon the Despoiler",
+          "no_cascade_eligible": true,
+          "origin": "command",
+          "paid_tax": 2,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 0,
+            "C": 4,
+            "G": 0,
+            "R": 0,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "battlefield",
+          "event": "supported_resolution",
+          "id": "c000",
+          "name": "Abaddon the Despoiler",
+          "opponents": [
+            40,
+            39,
+            31
+          ],
+          "opponents_lost_this_turn": 0,
+          "pilot": 40
+        }
+      ],
+      "opponents": [
+        40,
+        39,
+        31
+      ],
+      "opponents_lost_this_turn": 0,
+      "physical_cards_conserved": true,
+      "pilot": 40,
+      "receipt": {
+        "commander_names": [],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 0,
+          "C": 4,
+          "G": 0,
+          "R": 0,
+          "U": 0,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 0,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 99,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:1ad10fc9139891c85ef9f5523250dcc318af877a7b69bd7874eef2bc1565a513"
+      },
+      "scenario": "commander_tax"
+    },
+    {
+      "events": [
+        {
+          "event": "scripted_forced_hand",
+          "id": "m039",
+          "name": "Kessig Flamebreather",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_forced_hand",
+          "id": "m018",
+          "name": "Dark Ritual",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_injected_mana",
+          "not_gameplay": true,
+          "units": {
+            "B": 1,
+            "C": 1,
+            "R": 2
+          }
+        },
+        {
+          "event": "supported_cast",
+          "id": "m039",
+          "name": "Kessig Flamebreather",
+          "no_cascade_eligible": true,
+          "origin": "hand",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 1,
+            "C": 0,
+            "G": 0,
+            "R": 1,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "battlefield",
+          "event": "supported_resolution",
+          "id": "m039",
+          "name": "Kessig Flamebreather",
+          "opponents": [
+            40,
+            39,
+            31
+          ],
+          "opponents_lost_this_turn": 0,
+          "pilot": 40
+        },
+        {
+          "event": "supported_cast",
+          "id": "m018",
+          "name": "Dark Ritual",
+          "no_cascade_eligible": true,
+          "origin": "hand",
+          "paid_tax": 0,
+          "pending_frames": 2,
+          "remaining_mana": {
+            "B": 0,
+            "C": 0,
+            "G": 0,
+            "R": 1,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "event": "scripted_counter_outcome",
+          "id": "m018",
+          "no_opponent_spell_cast_or_priority_simulated": true
+        },
+        {
+          "event": "kessig_trigger_resolved",
+          "opponent_lost": 3,
+          "source_uid": "m039",
+          "trigger_survives_source_or_spell_removal": true,
+          "triggered_by": "m018"
+        }
+      ],
+      "opponents": [
+        39,
+        38,
+        30
+      ],
+      "opponents_lost_this_turn": 3,
+      "physical_cards_conserved": true,
+      "pilot": 40,
+      "receipt": {
+        "commander_names": [
+          "Abaddon the Despoiler"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "G": 0,
+          "R": 1,
+          "U": 0,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 1,
+          "hand": 0,
+          "library": 97,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:b6f953ec81dd7a4c194c53c0e5139337be0436d070dfc026877c4dbb76a7be6d"
+      },
+      "scenario": "kessig_counter"
+    },
+    {
+      "events": [
+        {
+          "event": "scripted_forced_hand",
+          "id": "m010",
+          "name": "Boltwave",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_forced_hand",
+          "id": "m026",
+          "name": "Flame Rift",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_injected_mana",
+          "not_gameplay": true,
+          "units": {
+            "C": 3,
+            "R": 3
+          }
+        },
+        {
+          "event": "supported_cast",
+          "id": "m010",
+          "name": "Boltwave",
+          "no_cascade_eligible": true,
+          "origin": "hand",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 0,
+            "C": 3,
+            "G": 0,
+            "R": 2,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "graveyard",
+          "event": "supported_resolution",
+          "id": "m010",
+          "name": "Boltwave",
+          "opponents": [
+            37,
+            36,
+            28
+          ],
+          "opponents_lost_this_turn": 9,
+          "pilot": 40
+        },
+        {
+          "event": "supported_cast",
+          "id": "m026",
+          "name": "Flame Rift",
+          "no_cascade_eligible": true,
+          "origin": "hand",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 0,
+            "C": 2,
+            "G": 0,
+            "R": 1,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "graveyard",
+          "event": "supported_resolution",
+          "id": "m026",
+          "name": "Flame Rift",
+          "opponents": [
+            33,
+            32,
+            24
+          ],
+          "opponents_lost_this_turn": 21,
+          "pilot": 36
+        }
+      ],
+      "opponents": [
+        33,
+        32,
+        24
+      ],
+      "opponents_lost_this_turn": 21,
+      "physical_cards_conserved": true,
+      "pilot": 36,
+      "receipt": {
+        "commander_names": [
+          "Abaddon the Despoiler"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 0,
+          "C": 2,
+          "G": 0,
+          "R": 1,
+          "U": 0,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 0,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 2,
+          "hand": 0,
+          "library": 97,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:9acdfd952383096941434139d9527c35dc37a0e7081e856a6af39068ffcb5bf9"
+      },
+      "scenario": "damage_resolution"
+    },
+    {
+      "events": [
+        {
+          "event": "scripted_forced_hand",
+          "id": "m010",
+          "name": "Boltwave",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_forced_hand",
+          "id": "m026",
+          "name": "Flame Rift",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_injected_mana",
+          "not_gameplay": true,
+          "units": {
+            "B": 1,
+            "C": 5,
+            "R": 3,
+            "U": 1
+          }
+        },
+        {
+          "event": "supported_cast",
+          "id": "c000",
+          "name": "Abaddon the Despoiler",
+          "no_cascade_eligible": true,
+          "origin": "command",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 0,
+            "C": 3,
+            "G": 0,
+            "R": 2,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "battlefield",
+          "event": "supported_resolution",
+          "id": "c000",
+          "name": "Abaddon the Despoiler",
+          "opponents": [
+            40,
+            39,
+            31
+          ],
+          "opponents_lost_this_turn": 0,
+          "pilot": 40
+        },
+        {
+          "event": "supported_cast",
+          "id": "m010",
+          "name": "Boltwave",
+          "no_cascade_eligible": true,
+          "origin": "hand",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 0,
+            "C": 3,
+            "G": 0,
+            "R": 1,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "graveyard",
+          "event": "supported_resolution",
+          "id": "m010",
+          "name": "Boltwave",
+          "opponents": [
+            37,
+            36,
+            28
+          ],
+          "opponents_lost_this_turn": 9,
+          "pilot": 40
+        }
+      ],
+      "opponents": [
+        37,
+        36,
+        28
+      ],
+      "opponents_lost_this_turn": 9,
+      "physical_cards_conserved": true,
+      "pilot": 40,
+      "receipt": {
+        "commander_names": [],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 0,
+          "C": 3,
+          "G": 0,
+          "R": 1,
+          "U": 0,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 0,
+          "exile": 0,
+          "graveyard": 1,
+          "hand": 1,
+          "library": 97,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:3913378c39186c5d1ab2557802cfe987cb8fd0c8e95b67f4c32fc5baa3966063"
+      },
+      "scenario": "abaddon_cascade_block"
+    },
+    {
+      "events": [
+        {
+          "event": "scripted_forced_hand",
+          "id": "m002",
+          "name": "Arcane Signet",
+          "not_naturally_drawn_or_access_probability": true
+        },
+        {
+          "event": "scripted_injected_mana",
+          "not_gameplay": true,
+          "units": {
+            "C": 2
+          }
+        },
+        {
+          "event": "supported_cast",
+          "id": "m002",
+          "name": "Arcane Signet",
+          "no_cascade_eligible": true,
+          "origin": "hand",
+          "paid_tax": 0,
+          "pending_frames": 1,
+          "remaining_mana": {
+            "B": 0,
+            "C": 0,
+            "G": 0,
+            "R": 0,
+            "U": 0,
+            "W": 0
+          }
+        },
+        {
+          "destination": "battlefield",
+          "event": "supported_resolution",
+          "id": "m002",
+          "name": "Arcane Signet",
+          "opponents": [
+            40,
+            39,
+            31
+          ],
+          "opponents_lost_this_turn": 0,
+          "pilot": 40
+        },
+        {
+          "event": "arcane_signet_tapped",
+          "id": "m002",
+          "mana_color": "U"
+        },
+        {
+          "event": "turn_reset",
+          "turn": 2
+        },
+        {
+          "event": "arcane_signet_tapped",
+          "id": "m002",
+          "mana_color": "B"
+        }
+      ],
+      "opponents": [
+        40,
+        39,
+        31
+      ],
+      "opponents_lost_this_turn": 0,
+      "physical_cards_conserved": true,
+      "pilot": 40,
+      "receipt": {
+        "commander_names": [
+          "Abaddon the Despoiler"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 1,
+          "C": 0,
+          "G": 0,
+          "R": 0,
+          "U": 0,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 2,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "scenario": "signet"
+    },
+    {
+      "events": [
+        {
+          "event": "scripted_forced_hand",
+          "id": "m030",
+          "name": "Force of Will",
+          "not_naturally_drawn_or_access_probability": true
+        }
+      ],
+      "opponents": [
+        40,
+        39,
+        31
+      ],
+      "opponents_lost_this_turn": 0,
+      "physical_cards_conserved": true,
+      "pilot": 40,
+      "receipt": {
+        "commander_names": [
+          "Abaddon the Despoiler"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 0,
+          "C": 0,
+          "G": 0,
+          "R": 0,
+          "U": 0,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 0,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 1,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:ffcf84701acb6f56a1c2e7f9761992c37fc2df9af8b20b5f7642cb18e8cbcd49"
+      },
+      "scenario": "unsupported_effect"
+    }
+  ],
+  "authority": {
+    "can_approve_or_lock": false,
+    "can_change_decklists": false,
+    "can_decide": false
+  },
+  "cascade_effect_execution_supported": false,
+  "complete_physical_zone_conservation": true,
+  "cycle": 101,
+  "frozen_oracle_receipts": {
+    "Abaddon the Despoiler": {
+      "mana_cost": "{2}{U}{B}{R}",
+      "mana_value": 5,
+      "oracle_sha256": "sha256:cfd1cc4c43f854a555b2ee82ef01e0d9e1c0339f9460aa393451785e6ada24b9",
+      "type_line": "Legendary Creature — Astartes Warrior"
+    },
+    "Arcane Signet": {
+      "mana_cost": "{2}",
+      "mana_value": 2,
+      "oracle_sha256": "sha256:ef99a3cd50fadce532520b9a8e329ccc16498b60b60276365b5bc64d6674733c",
+      "type_line": "Artifact"
+    },
+    "Boltwave": {
+      "mana_cost": "{R}",
+      "mana_value": 1,
+      "oracle_sha256": "sha256:be953e7e16fa9fc3dc800a37e3ecfb4ab2dc83a4c64e212024d1b2c2707b8f6c",
+      "type_line": "Sorcery"
+    },
+    "Dark Ritual": {
+      "mana_cost": "{B}",
+      "mana_value": 1,
+      "oracle_sha256": "sha256:639f6e6a77582568b611b9f910c76dd765ae92ce0b8b1f28b0ba4a321761409c",
+      "type_line": "Instant"
+    },
+    "Flame Rift": {
+      "mana_cost": "{1}{R}",
+      "mana_value": 2,
+      "oracle_sha256": "sha256:d1b4d389e0610f34013a0dfefbaa89054b96cf8e5b72dfbd1f95c4cbc9678c0d",
+      "type_line": "Sorcery"
+    },
+    "Kessig Flamebreather": {
+      "mana_cost": "{1}{R}",
+      "mana_value": 2,
+      "oracle_sha256": "sha256:66cc1ff3419c25bf9ae97c4e80110611c1b518302bfbe85c2d4dcb1e90981885",
+      "type_line": "Creature — Human Shaman"
+    }
+  },
+  "full_gameplay_simulator": false,
+  "limitations": [
+    "No full gameplay, opponent policies, or actual cascade effects",
+    "Scripted counter is a bounded response not a complete priority engine",
+    "No deck modification or approval"
+  ],
+  "live_opponent_policy_simulated": false,
+  "per_deck": [
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Abaddon the Despoiler"
+      ],
+      "deck_id": "Abaddon_the_Despoiler",
+      "ledger_inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Abaddon the Despoiler"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:729a211da8f9d5acecdb3f946b530ec1e9e148cf11536c0b5ed468dd2263654b",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "abaddon-the-despoiler"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Admiral Beckett Brass"
+      ],
+      "deck_id": "Admiral_Beckett_Brass",
+      "ledger_inventory_hash": "sha256:1f9b30a7c8efa6dfa433ae0c39ac5c23d1b58d54c40960d50f1b461280366f4e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Admiral Beckett Brass"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:1f9b30a7c8efa6dfa433ae0c39ac5c23d1b58d54c40960d50f1b461280366f4e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "admiral-beckett-brass"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "ledger_inventory_hash": "sha256:1a286f23b2942f03e9e337ccb38818c2440c2eb7ee200f79afdf753cb23141b1",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Admiral Brass, Unsinkable"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:1a286f23b2942f03e9e337ccb38818c2440c2eb7ee200f79afdf753cb23141b1",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:c9a5308ded1cbae13e875d78df2e14a30a33504086dd2aaabd4cc8abce71971e"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "admiral-brass-unsinkable"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Anhelo, the Painter"
+      ],
+      "deck_id": "Anhelo__the_Painter",
+      "ledger_inventory_hash": "sha256:460e6a33d7dc3123b1ce4db1b6a3970c06abdfeea5cef683c7d75d8065503d00",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Anhelo, the Painter"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:460e6a33d7dc3123b1ce4db1b6a3970c06abdfeea5cef683c7d75d8065503d00",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "anhelo-the-painter"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Ashad, the Lone Cyberman"
+      ],
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "ledger_inventory_hash": "sha256:03a7870bba0addd2af0fcd43e1a1fa4dea4ef9e003885bfb06736f7bae14ea8e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Ashad, the Lone Cyberman"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:03a7870bba0addd2af0fcd43e1a1fa4dea4ef9e003885bfb06736f7bae14ea8e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "ashad-the-lone-cyberman"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Ashnod the Uncaring"
+      ],
+      "deck_id": "Ashnod_the_Uncaring",
+      "ledger_inventory_hash": "sha256:3aa46e0377ff776d82826423bb8126fe288ad18962ff121e6a161f7d169a8bf6",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Ashnod the Uncaring"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:3aa46e0377ff776d82826423bb8126fe288ad18962ff121e6a161f7d169a8bf6",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "ashnod-the-uncaring"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Be'lakor, the Dark Master"
+      ],
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "ledger_inventory_hash": "sha256:4d51be7f9233336c17a3f403ac45c88731a9874fb49fba6a9d183571c24da8c7",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Be'lakor, the Dark Master"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:4d51be7f9233336c17a3f403ac45c88731a9874fb49fba6a9d183571c24da8c7",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "belakor-the-dark-master"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Bjorna, Nightfall Alchemist",
+        "Cecily, Haunted Mage"
+      ],
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "ledger_inventory_hash": "sha256:1a56a399e297557d4f835ba9a003d2de4d05ef3b4ce0e9bb3c7bc3ed8d453e4e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Bjorna, Nightfall Alchemist",
+          "Cecily, Haunted Mage"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:1a56a399e297557d4f835ba9a003d2de4d05ef3b4ce0e9bb3c7bc3ed8d453e4e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 2,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 97,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a5277ae3c93af1f1e30ae760a1bf2af3d8c713697375c3c14f07e582de3304e5"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "bjorna-nightfall-alchemist-cecily"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Cormela, Glamour Thief"
+      ],
+      "deck_id": "Cormela__Glamour_Thief",
+      "ledger_inventory_hash": "sha256:7569da87c2cda5b75928f793add55edc0921bab9dad86c5bf8d854142317215f",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Cormela, Glamour Thief"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:7569da87c2cda5b75928f793add55edc0921bab9dad86c5bf8d854142317215f",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "cormela-glamour-thief"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Crosis, the Purger"
+      ],
+      "deck_id": "Crosis__the_Purger",
+      "ledger_inventory_hash": "sha256:e2cac5a607c4936eb20a53405b6e19539ca51aaa39bccd1daa87ac4c893fb9f2",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Crosis, the Purger"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:e2cac5a607c4936eb20a53405b6e19539ca51aaa39bccd1daa87ac4c893fb9f2",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "crosis-the-purger"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Cult of Skaro"
+      ],
+      "deck_id": "Cult_of_Skaro",
+      "ledger_inventory_hash": "sha256:a8add002807d56a405b665ef64044d65187ec2673b8defd185257ccc09c06b93",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Cult of Skaro"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:a8add002807d56a405b665ef64044d65187ec2673b8defd185257ccc09c06b93",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "cult-of-skaro"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Davros, Dalek Creator"
+      ],
+      "deck_id": "Davros__Dalek_Creator",
+      "ledger_inventory_hash": "sha256:218e07df2d385c4b10d1e91f4e44b1f7d2797bb7b2b1df6dc17b56ef2f4b9254",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Davros, Dalek Creator"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:218e07df2d385c4b10d1e91f4e44b1f7d2797bb7b2b1df6dc17b56ef2f4b9254",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "davros-dalek-creator"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "ledger_inventory_hash": "sha256:afa0d172a1b852fda03d61dbbd80c2f2e161782f5d8f0f17a712d79ff59011af",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Doctor Doom, King of Latveria"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:afa0d172a1b852fda03d61dbbd80c2f2e161782f5d8f0f17a712d79ff59011af",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "doctor-doom-king-of-latveria"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Don Andres, the Renegade"
+      ],
+      "deck_id": "Don_Andres__the_Renegade",
+      "ledger_inventory_hash": "sha256:0ee3d5be84f1908d3f5269743567e89e652dccc8e42663b16765a469ef1ac051",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Don Andres, the Renegade"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:0ee3d5be84f1908d3f5269743567e89e652dccc8e42663b16765a469ef1ac051",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "don-andres-the-renegade"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Dr. Eggman"
+      ],
+      "deck_id": "Dr__Eggman",
+      "ledger_inventory_hash": "sha256:7ad325e05d059437eb3306a3ed891ac32becf7988be72cf727f783ce02e3469f",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Dr. Eggman"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:7ad325e05d059437eb3306a3ed891ac32becf7988be72cf727f783ce02e3469f",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "dr-eggman"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Edea, Possessed Sorceress"
+      ],
+      "deck_id": "Edea__Possessed_Sorceress",
+      "ledger_inventory_hash": "sha256:8d013de805dbab8027d53bf01842be1e630c2cc2fe49634eb9c2b3b929a7e029",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Edea, Possessed Sorceress"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:8d013de805dbab8027d53bf01842be1e630c2cc2fe49634eb9c2b3b929a7e029",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "edea-possessed-sorceress"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Edward Kenway"
+      ],
+      "deck_id": "Edward_Kenway",
+      "ledger_inventory_hash": "sha256:bb84eccd55c6e37ec8c2428748dad2247299be13efa2ef3a7361783b9e6db86e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Edward Kenway"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:bb84eccd55c6e37ec8c2428748dad2247299be13efa2ef3a7361783b9e6db86e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:7fc65bd0043415d2c53932e8e009323f6a2c03252f58a1f55ecee0012b9d5286"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "edward-kenway"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Evelyn, the Covetous"
+      ],
+      "deck_id": "Evelyn__the_Covetous",
+      "ledger_inventory_hash": "sha256:29ed4404a8d1788767c77bbeaf2177ccb91d219c730a3d0b1e7493c7b4cbc60e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Evelyn, the Covetous"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:29ed4404a8d1788767c77bbeaf2177ccb91d219c730a3d0b1e7493c7b4cbc60e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "evelyn-the-covetous"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Fire Lord Azula"
+      ],
+      "deck_id": "Fire_Lord_Azula",
+      "ledger_inventory_hash": "sha256:ae5d6a983eacc2fcc5b86ad95b58f2a7c66d685d25cf21a8bce263a7b5e87354",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Fire Lord Azula"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:ae5d6a983eacc2fcc5b86ad95b58f2a7c66d685d25cf21a8bce263a7b5e87354",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "fire-lord-azula"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Garza Zol, Plague Queen"
+      ],
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "ledger_inventory_hash": "sha256:ba48b4423ad1b7fd36ab916b7a5109af3963d8646ecd66006e4cd238b1813c7c",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Garza Zol, Plague Queen"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:ba48b4423ad1b7fd36ab916b7a5109af3963d8646ecd66006e4cd238b1813c7c",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "garza-zol-plague-queen"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Goro-Goro and Satoru"
+      ],
+      "deck_id": "Goro_Goro_and_Satoru",
+      "ledger_inventory_hash": "sha256:eb8438fb49ba7ccd3775d57e0d1ff168b572008cc3c68301e844216a7fb6c987",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Goro-Goro and Satoru"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:eb8438fb49ba7ccd3775d57e0d1ff168b572008cc3c68301e844216a7fb6c987",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "goro-goro-and-satoru"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Dark Ritual",
+      "commanders": [
+        "Kraum, Ludevic's Opus",
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "deck_id": "Grixistax___October_2026",
+      "ledger_inventory_hash": "sha256:c48635a874ae2ba87d1f5a3382002c09d17095457b06f62e309a1a9b0a364816",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Kraum, Ludevic's Opus",
+          "Tevesh Szat, Doom of Fools"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:c48635a874ae2ba87d1f5a3382002c09d17095457b06f62e309a1a9b0a364816",
+        "mana": {
+          "B": 7,
+          "C": 9,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 0,
+          "command": 2,
+          "exile": 0,
+          "graveyard": 1,
+          "hand": 0,
+          "library": 97,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:0fa12dee0d9c8cfef41840903d422ee751d673156f815440b803b0b3fd594e04"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "grixistax-october-2026"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Gwendlyn Di Corci"
+      ],
+      "deck_id": "Gwendlyn_Di_Corci",
+      "ledger_inventory_hash": "sha256:fc2d9f3c7af6ba2fb26427346b051725e395d6f50368a8b3d17bf7b93be6f348",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Gwendlyn Di Corci"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:fc2d9f3c7af6ba2fb26427346b051725e395d6f50368a8b3d17bf7b93be6f348",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "gwendlyn-di-corci"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "ledger_inventory_hash": "sha256:c1016e888a85ed7f6c7d5498ea91bd5914b7e425680757e097d180492e0bc070",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Inalla, Archmage Ritualist"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:c1016e888a85ed7f6c7d5498ea91bd5914b7e425680757e097d180492e0bc070",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:c9a5308ded1cbae13e875d78df2e14a30a33504086dd2aaabd4cc8abce71971e"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "inalla-archmage-ritualist"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Jeleva, Nephalia's Scourge"
+      ],
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "ledger_inventory_hash": "sha256:1c994ddea6fa8887f8752e762ea42b5208ad7b5d04e3d762114025754aafc08e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Jeleva, Nephalia's Scourge"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:1c994ddea6fa8887f8752e762ea42b5208ad7b5d04e3d762114025754aafc08e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "jeleva-nephalias-scourge"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin"
+      ],
+      "deck_id": "Kefka__Court_Mage",
+      "ledger_inventory_hash": "sha256:9d8c77eb581199063574159d996426b0cdd2003eb6eade9fd03ac8607c8e1e2f",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Kefka, Court Mage // Kefka, Ruler of Ruin"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:9d8c77eb581199063574159d996426b0cdd2003eb6eade9fd03ac8607c8e1e2f",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "kefka-court-mage"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Kess, Dissident Mage"
+      ],
+      "deck_id": "Kess__Dissident_Mage",
+      "ledger_inventory_hash": "sha256:b19c5b29cc7f16f4966a99c3f0a3266a12b4d8460ff140e409bb32569fe28f5c",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Kess, Dissident Mage"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:b19c5b29cc7f16f4966a99c3f0a3266a12b4d8460ff140e409bb32569fe28f5c",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "kess-dissident-mage"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Loki, the Deceiver"
+      ],
+      "deck_id": "Loki__the_Deceiver",
+      "ledger_inventory_hash": "sha256:37f2621d7a65054967deb4fbeec7208780c205521d55b9a1eeda9d466a4a69fb",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Loki, the Deceiver"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:37f2621d7a65054967deb4fbeec7208780c205521d55b9a1eeda9d466a4a69fb",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "loki-the-deceiver"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Lord Xander, the Collector"
+      ],
+      "deck_id": "Lord_Xander__the_Collector",
+      "ledger_inventory_hash": "sha256:c93d1cf3ab5c9a31a202ebd8dfcb6d2d3d629b7c03ee09e6e77b620d8e4b91f6",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Lord Xander, the Collector"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:c93d1cf3ab5c9a31a202ebd8dfcb6d2d3d629b7c03ee09e6e77b620d8e4b91f6",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:c9a5308ded1cbae13e875d78df2e14a30a33504086dd2aaabd4cc8abce71971e"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "lord-xander-the-collector"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Lord of Tresserhorn"
+      ],
+      "deck_id": "Lord_of_Tresserhorn",
+      "ledger_inventory_hash": "sha256:0d51f1ca9bfbb3d4121f94d5e59ed63266a5e6c2df09e234f5710d71339c39fa",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Lord of Tresserhorn"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:0d51f1ca9bfbb3d4121f94d5e59ed63266a5e6c2df09e234f5710d71339c39fa",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "lord-of-tresserhorn"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "ledger_inventory_hash": "sha256:5799b1e21f6a8edad1d5d76983efe5b0c6c654c975c0ad7d28a0874db866950c",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Lynde, Cheerful Tormentor"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:5799b1e21f6a8edad1d5d76983efe5b0c6c654c975c0ad7d28a0874db866950c",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "lynde-cheerful-tormentor"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Mai and Zuko"
+      ],
+      "deck_id": "Mai_and_Zuko",
+      "ledger_inventory_hash": "sha256:7965dbb00b212a1bb3acc9c349049559f8f887280e8dfdf0ded3223dccfcebf8",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Mai and Zuko"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:7965dbb00b212a1bb3acc9c349049559f8f887280e8dfdf0ded3223dccfcebf8",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "mai-and-zuko"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Mairsil, the Pretender"
+      ],
+      "deck_id": "Mairsil__the_Pretender",
+      "ledger_inventory_hash": "sha256:c29caef5dff13ac0aab45ad59c7bea3743fb2a5aeb018c963ac465198edb6a3f",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Mairsil, the Pretender"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:c29caef5dff13ac0aab45ad59c7bea3743fb2a5aeb018c963ac465198edb6a3f",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:c9a5308ded1cbae13e875d78df2e14a30a33504086dd2aaabd4cc8abce71971e"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "mairsil-the-pretender"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Marchesa, Dealer of Death"
+      ],
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "ledger_inventory_hash": "sha256:c9e2bf9660e2b2164f2a1c280fa463bc25142c7e521e8d505d25aec9565b208e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Marchesa, Dealer of Death"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:c9e2bf9660e2b2164f2a1c280fa463bc25142c7e521e8d505d25aec9565b208e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "marchesa-dealer-of-death"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Marchesa, the Black Rose"
+      ],
+      "deck_id": "Marchesa__the_Black_Rose",
+      "ledger_inventory_hash": "sha256:d3011c983212e9f766a62fc34e10e810c9d3e556359f33b4b700fe54f7d3837a",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Marchesa, the Black Rose"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:d3011c983212e9f766a62fc34e10e810c9d3e556359f33b4b700fe54f7d3837a",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "marchesa-the-black-rose"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Mishra, Artificer Prodigy"
+      ],
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "ledger_inventory_hash": "sha256:3d0dc8cb45f7bd7a331a57b54cfcbdfd3482bf57af74fb6cd1a455b4e4653d50",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Mishra, Artificer Prodigy"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:3d0dc8cb45f7bd7a331a57b54cfcbdfd3482bf57af74fb6cd1a455b4e4653d50",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "mishra-artificer-prodigy"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Mishra, Eminent One"
+      ],
+      "deck_id": "Mishra__Eminent_One",
+      "ledger_inventory_hash": "sha256:97f4d5f2225692c59f9bda07435ba6badac1ccf1280118626a80a96a0efc9267",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Mishra, Eminent One"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:97f4d5f2225692c59f9bda07435ba6badac1ccf1280118626a80a96a0efc9267",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "mishra-eminent-one"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Missy"
+      ],
+      "deck_id": "Missy",
+      "ledger_inventory_hash": "sha256:f9018974f11aa9a733a9460466eb4b6aa29ed7c81a030ffb5f16680353767f1b",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Missy"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:f9018974f11aa9a733a9460466eb4b6aa29ed7c81a030ffb5f16680353767f1b",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:c9a5308ded1cbae13e875d78df2e14a30a33504086dd2aaabd4cc8abce71971e"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "missy"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "ledger_inventory_hash": "sha256:57d2f58c81d8568e7716f4b4d09e7dd6a2f2d7c59f9a2843915724e8729e8fa9",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Nathan Drake, Treasure Hunter"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:57d2f58c81d8568e7716f4b4d09e7dd6a2f2d7c59f9a2843915724e8729e8fa9",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "nathan-drake-treasure-hunter"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Nekusar, the Mindrazer"
+      ],
+      "deck_id": "Nekusar__the_Mindrazer",
+      "ledger_inventory_hash": "sha256:12d106421bedebb16596d5784d2f3e0de201dbf9a5ae3cd28529af0aec71c9f8",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Nekusar, the Mindrazer"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:12d106421bedebb16596d5784d2f3e0de201dbf9a5ae3cd28529af0aec71c9f8",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "nekusar-the-mindrazer"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Nicol Bolas"
+      ],
+      "deck_id": "Nicol_Bolas",
+      "ledger_inventory_hash": "sha256:96d0064a2fa85cd8b3a6e326e031d234c4ba341be932f451e2aa57a88dcaa17e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Nicol Bolas"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:96d0064a2fa85cd8b3a6e326e031d234c4ba341be932f451e2aa57a88dcaa17e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "nicol-bolas"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "ledger_inventory_hash": "sha256:cff50c054ac6622e7ef1b59d6fff91cc3c03c188e9c15c262f609ceec566a3d4",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:cff50c054ac6622e7ef1b59d6fff91cc3c03c188e9c15c262f609ceec566a3d4",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "nicol-bolas-the-ravager"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "ledger_inventory_hash": "sha256:96275b7e7da7795dee4e3ac86b382b21453e7504d8e0d233641d26ff409906ed",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Norman Osborn // Green Goblin"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:96275b7e7da7795dee4e3ac86b382b21453e7504d8e0d233641d26ff409906ed",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "norman-osborn"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Obeka, Brute Chronologist"
+      ],
+      "deck_id": "Obeka__Brute_Chronologist",
+      "ledger_inventory_hash": "sha256:96b95f5d9569f1e882dfe6563d744dceadc0864b2815d2a8f44f45910966039e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Obeka, Brute Chronologist"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:96b95f5d9569f1e882dfe6563d744dceadc0864b2815d2a8f44f45910966039e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "obeka-brute-chronologist"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "ledger_inventory_hash": "sha256:2bc1ec9e8b97257fbaac1f0ad69f990ecf1470514d535a23b4ee03d50582b3c2",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Obeka, Splitter of Seconds"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:2bc1ec9e8b97257fbaac1f0ad69f990ecf1470514d535a23b4ee03d50582b3c2",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "obeka-splitter-of-seconds"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "ledger_inventory_hash": "sha256:d1ac2ab063b1bdd5bf14f60e3c4a19071ebeb09c385b7f3718f0e925a0d2b9fe",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Parnesse, the Subtle Brush"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:d1ac2ab063b1bdd5bf14f60e3c4a19071ebeb09c385b7f3718f0e925a0d2b9fe",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "parnesse-the-subtle-brush"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "deck_id": "RogSi",
+      "ledger_inventory_hash": "sha256:cb0f41a41723daa43cda96f5d440384895cf0ac7c16a6a82c3e3b890f6eb75d8",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Rograkh, Son of Rohgahh",
+          "Silas Renn, Seeker Adept"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:cb0f41a41723daa43cda96f5d440384895cf0ac7c16a6a82c3e3b890f6eb75d8",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 2,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 97,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:442ec36c7b0f44f0ccadfa7cfab25ccbaf4020f4887be2e0f64ad399665f88a4"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "rograkh-son-of-rohgahh-silas-renn"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Saruman, the White Hand"
+      ],
+      "deck_id": "Saruman__the_White_Hand",
+      "ledger_inventory_hash": "sha256:97af5651644a2b41c13a05cf60e52e8a80c62a6ea9cb4d1db57afc2668601363",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Saruman, the White Hand"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:97af5651644a2b41c13a05cf60e52e8a80c62a6ea9cb4d1db57afc2668601363",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "saruman-the-white-hand"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Sauron, Lord of the Rings"
+      ],
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "ledger_inventory_hash": "sha256:e8110ed96dddd43f9a21b3596cd98c26b0e47fcb09536005dbd73ebebd3c7ffd",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Sauron, Lord of the Rings"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:e8110ed96dddd43f9a21b3596cd98c26b0e47fcb09536005dbd73ebebd3c7ffd",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:191c2e95df453b8877d12d96cf015144b2c97c1a293874614d285f013959d4bf"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "sauron-lord-of-the-rings"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Sauron, the Dark Lord"
+      ],
+      "deck_id": "Sauron__the_Dark_Lord",
+      "ledger_inventory_hash": "sha256:66ee4f5ff4da6891f7772704f0475f92882734bdc39744d315f9dd28e576939f",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Sauron, the Dark Lord"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:66ee4f5ff4da6891f7772704f0475f92882734bdc39744d315f9dd28e576939f",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "sauron-the-dark-lord"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Sedris, the Traitor King"
+      ],
+      "deck_id": "Sedris__the_Traitor_King",
+      "ledger_inventory_hash": "sha256:52c3adc5306ca01a0026620a98b7d002bc669bfeb2ade129127999203f2f9fc3",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Sedris, the Traitor King"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:52c3adc5306ca01a0026620a98b7d002bc669bfeb2ade129127999203f2f9fc3",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:41e9c2c2ad34e3af4f8bd6b15f8ed8b60a1dfdb9f364bb65e959b4b1df96a33a"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "sedris-the-traitor-king"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Sol'kanar the Swamp King"
+      ],
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "ledger_inventory_hash": "sha256:86726006325c4543575a68b1c8a0e43afb35c33bf2e214e3f3b44647c7479128",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Sol'kanar the Swamp King"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:86726006325c4543575a68b1c8a0e43afb35c33bf2e214e3f3b44647c7479128",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "solkanar-the-swamp-king"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Sol'Kanar the Tainted"
+      ],
+      "deck_id": "Sol_kanar_the_Tainted",
+      "ledger_inventory_hash": "sha256:accf854c678dcaea4e2bda44089d702b153f0fcdabfdd74f39c81edb18285435",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Sol'Kanar the Tainted"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:accf854c678dcaea4e2bda44089d702b153f0fcdabfdd74f39c81edb18285435",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5554022df91a07dec73cc27ca2dffc67c2dff007d95d04d7c82774f79fe8c94c"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "solkanar-the-tainted"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Tetsuo Umezawa"
+      ],
+      "deck_id": "Tetsuo_Umezawa",
+      "ledger_inventory_hash": "sha256:c1e0e036264407358fd28600af5a53d4f808f5b0461f29e9f619cefb2ddec7b6",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Tetsuo Umezawa"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:c1e0e036264407358fd28600af5a53d4f808f5b0461f29e9f619cefb2ddec7b6",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "tetsuo-umezawa"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "ledger_inventory_hash": "sha256:84daa5ac47fcfb35beb2154b3ea02838b86c6d78421c9356ffdadad580869948",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Tetsuo, Imperial Champion"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:84daa5ac47fcfb35beb2154b3ea02838b86c6d78421c9356ffdadad580869948",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:7fc65bd0043415d2c53932e8e009323f6a2c03252f58a1f55ecee0012b9d5286"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "tetsuo-imperial-champion"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "The Madcap Jester"
+      ],
+      "deck_id": "The_Madcap_Jester",
+      "ledger_inventory_hash": "sha256:d074dcb5e4d77368386bf5e2b35b4226537060f3872dad51239920cde3b04133",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "The Madcap Jester"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:d074dcb5e4d77368386bf5e2b35b4226537060f3872dad51239920cde3b04133",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "the-madcap-jester"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "The Rani"
+      ],
+      "deck_id": "The_Rani",
+      "ledger_inventory_hash": "sha256:d48627a2c63fc3f3524e4253104b4528c07ca449acbf43f63fc94427cb226689",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "The Rani"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:d48627a2c63fc3f3524e4253104b4528c07ca449acbf43f63fc94427cb226689",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "the-rani"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "The Valeyard"
+      ],
+      "deck_id": "The_Valeyard",
+      "ledger_inventory_hash": "sha256:2ff4855b8c9fbbce07a8f4f22c4f51b3d2f4aca4d8962461d11c4ff174b688b6",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "The Valeyard"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:2ff4855b8c9fbbce07a8f4f22c4f51b3d2f4aca4d8962461d11c4ff174b688b6",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "the-valeyard"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Thraximundar"
+      ],
+      "deck_id": "Thraximundar",
+      "ledger_inventory_hash": "sha256:d0d5dcfac42c28380cd4fe37c0d85ba1398f489baf6f6064c752d0f777eeb5b1",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Thraximundar"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:d0d5dcfac42c28380cd4fe37c0d85ba1398f489baf6f6064c752d0f777eeb5b1",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "thraximundar"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "ledger_inventory_hash": "sha256:7b60f092beae4adec6ba4cae03b32f1d0b6d599f2167979e735a530734e0314f",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Tresserhorn's Lord, Returned"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:7b60f092beae4adec6ba4cae03b32f1d0b6d599f2167979e735a530734e0314f",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:a3421ad86fdb6dedba10fe98d34b25faca2e3ae1744964e04816f80b6430c597"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "tresserhorns-lord-returned"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Wick, the Whorled Mind"
+      ],
+      "deck_id": "Wick__the_Whorled_Mind",
+      "ledger_inventory_hash": "sha256:31f8ccba15bacee037dfe0ec9400c8a48129ef30f47a65ea13f37247b37fd40e",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Wick, the Whorled Mind"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:31f8ccba15bacee037dfe0ec9400c8a48129ef30f47a65ea13f37247b37fd40e",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "wick-the-whorled-mind"
+    },
+    {
+      "artificial_mana_and_card_access": true,
+      "chosen_registered_card": "Arcane Signet",
+      "commanders": [
+        "Zevlor, Elturel Exile"
+      ],
+      "deck_id": "Zevlor__Elturel_Exile",
+      "ledger_inventory_hash": "sha256:9eb36299b3b5c35f61a019ba3bd72e1a615ff8ab40bb791facb3b4f3b4ac6906",
+      "physical_cards": 100,
+      "receipt": {
+        "commander_names": [
+          "Zevlor, Elturel Exile"
+        ],
+        "count": 100,
+        "inventory_hash": "sha256:9eb36299b3b5c35f61a019ba3bd72e1a615ff8ab40bb791facb3b4f3b4ac6906",
+        "mana": {
+          "B": 5,
+          "C": 7,
+          "G": 0,
+          "R": 6,
+          "U": 3,
+          "W": 0
+        },
+        "physical_id_count": 100,
+        "turn": 1,
+        "unmodeled_effects": 0,
+        "zone_counts": {
+          "battlefield": 1,
+          "command": 1,
+          "exile": 0,
+          "graveyard": 0,
+          "hand": 0,
+          "library": 98,
+          "stack": 0
+        },
+        "zone_fingerprint": "sha256:5ef545d7c77e826ae5320e6d1fcea782ab83c6ec7512212229c00d65811e74fa"
+      },
+      "result": "supported_fixture_cast_and_resolution",
+      "slug": "zevlor-elturel-exile"
+    }
+  ],
+  "preregistration_sha256": "sha256:c62da3c5b68079e64488eacddb19040dad3460a58ac00b6bf7d493a2ce26d59c",
+  "previous_cycle100_sha256": "sha256:3398a022ae0e745d0e3accf0966a3f5820bb2dd504e6664e3d86665848e244b6",
+  "registry_sha256": "sha256:c6004376d9324479d75ed3a94a4a389c600e57a2384bf77cc466ab86e128dba0",
+  "roster_cards_verified": 62,
+  "roster_fixture_casts": 62,
+  "schema_version": 1,
+  "source_abaddon_sha256": "sha256:5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "stage": "M6_62_roster_bounded_transactional_real_card_actions",
+  "supports_improvement_claim": false
+}
