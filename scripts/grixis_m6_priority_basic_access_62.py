@@ -19,6 +19,7 @@ from grixis_m6_priority_basics import PriorityBasics,BlockedAction
 
 PLAN=ROOT/"data/grixis/m6/phase_b_plans/priority_basic_access_62_01.json"
 OUT=ROOT/"data/grixis/m6/phase_b_bounded/priority_basic_access_62_01.json"
+SUMMARY=ROOT/"data/grixis/m6/phase_b_bounded/priority_basic_access_62_summary_01.json"
 REG=ROOT/"data/grixis/registry.json"
 PRIOR=ROOT/"data/grixis/m6/phase_b_bounded/transactional_stack_62_01.json"
 BEFORE=ROOT/"data/grixis/m6/phase_b_bounded/general_state_kernel_62_01.json"
@@ -173,13 +174,40 @@ def verify():
     "formal_independent_pass_c_complete":False,"M6_accepted":False,
     "limits":p["non_goals"],"authority":AUTH}
 
+def compact_receipt(full):
+ rows=[]
+ for deck in full["deck_access_receipts"]:
+  rows.append({"deck_id":deck["deck_id"],
+    "signet_seen":deck["sampled_signet_seen"],
+    "signet_paid_from_basic_sources":deck["sampled_signet_casts_from_basics"],
+    "total_basic_land_plays":sum(s["basic_play_count"] for s in deck["samples"]),
+    "samples":deck["sample_count"]})
+ return {"schema_version":1,"cycle":102,
+   "full_source_sha256":full["plan_sha256"],
+   "description":"Deterministic audit index derived from 744 fixed-seed partial basic-only access samples; NOT game or win percentages",
+   "decks":full["deck_count"],"samples":full["sample_count"],
+   "signet_seen":full["sampled_signet_seen"],
+   "signet_paid_from_basic_sources":full["sampled_signet_basic_casts"],
+   "total_basic_land_plays":sum(r["total_basic_land_plays"] for r in rows),
+   "no_nonbasic_mana":True,"no_injected_mana":True,
+   "no_wins_or_candidate_comparisons":True,"no_improvement_claim":True,
+   "per_deck":rows}
+
 def main():
  q=argparse.ArgumentParser();q.add_argument("--build",action="store_true");q.add_argument("--check",action="store_true")
  args=q.parse_args()
  if not(args.build or args.check):q.error("require --build or --check")
- txt=encode(verify())
- if args.build:OUT.parent.mkdir(parents=True,exist_ok=True);OUT.write_text(txt,encoding="utf-8")
- if args.check and (not OUT.exists() or OUT.read_text(encoding="utf-8")!=txt):
-  raise ValueError("Cycle102 paired read-only source-access replay changed")
- print("Cycle102: 744 physical card access and limited basic-mana samples; no gameplay, wins, approved changes or Phase-B.")
+ report=verify()
+ txt=encode(report)
+ small=encode(compact_receipt(report))
+ if args.build:
+  OUT.parent.mkdir(parents=True,exist_ok=True)
+  OUT.write_text(txt,encoding="utf-8")
+  SUMMARY.write_text(small,encoding="utf-8")
+ if args.check and (not OUT.exists() or OUT.read_text(encoding="utf-8")!=txt
+     or not SUMMARY.exists() or SUMMARY.read_text(encoding="utf-8")!=small):
+  raise ValueError("Cycle102 full evidence or compact audit summary drift")
+ print("Cycle102 62 decks / 744 samples: sampled signet seen",report["sampled_signet_seen"],
+       "actual basic-source casts",report["sampled_signet_basic_casts"],
+       "no win/strength inference",flush=True)
 if __name__=="__main__":main()
