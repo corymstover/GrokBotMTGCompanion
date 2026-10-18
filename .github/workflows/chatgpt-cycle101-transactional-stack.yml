@@ -1,0 +1,90 @@
+name: ChatGPT cycle 101 - transactional 62-deck spell stack
+on:
+  push:
+    branches:
+      - chatgpt-cycle101-transactional-stack
+    paths:
+      - .github/workflows/chatgpt-cycle101-transactional-stack.yml
+      - scripts/grixis_m6_transactional_stack.py
+      - scripts/grixis_m6_transactional_stack_62.py
+      - tests/test_m6_transactional_stack.py
+      - data/grixis/m6/phase_b_plans/transactional_stack_62_01.json
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle101-transactional-stack
+  cancel-in-progress: true
+jobs:
+  bounded-spell-stack:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle101-transactional-stack
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial atomic card-zone and response-stack tests
+        run: python -m unittest discover -s tests -p 'test_m6_transactional_stack.py' -v
+      - name: Restore frozen 2026-10 Scryfall snapshots with SHA-256 verification
+        run: |
+          python - <<'PY'
+          import hashlib,pathlib,urllib.request
+          cache=pathlib.Path('.cache');cache.mkdir(exist_ok=True)
+          for kind,name,want in [
+            ('oracle-cards','oracle-cards-20261016090200.jsonl.gz','ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483'),
+            ('rulings','rulings-20261015090033.jsonl.gz','3d2dfbd501d1f1b35146e9c57b91121cb6f01f8aa5f88b19c3f28ad31492c85a'),
+            ('default-cards','default-cards-20261015090541.jsonl.gz','f902a9a655c9854f535a8f02b1374540c564e31ef405ec8325acb2adbb6672f8')]:
+            dest=cache/name
+            urllib.request.urlretrieve('https://data.scryfall.io/'+kind+'/'+name,dest)
+            if hashlib.sha256(dest.read_bytes()).hexdigest()!=want:
+                raise SystemExit('Source snapshot mismatch: '+name)
+            print('Verified pinned data',name)
+          PY
+          python scripts/check_dev_snapshot_lock.py
+      - name: Build 62-roster transactional evidence and Abaddon bounded witnesses
+        run: python -u scripts/grixis_m6_transactional_stack_62.py --build
+      - name: Independently replay and compare exact generated evidence
+        run: python -u scripts/grixis_m6_transactional_stack_62.py --check
+      - name: Assert approved deck and authority protection
+        run: |
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Unexpected generated output outside M6';exit 1
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/transactional_stack_62_01.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/transactional_stack_62_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(r['decks'])==62 and r['program']['milestones']['M5']['status']=='accepted'
+          assert r['program']['milestones']['M6']['accepted_by'] is None
+          assert p['status']=='preregistered_before_implementation'
+          assert len(d['frozen_oracle_receipts'])==6
+          assert len(d['per_deck'])==62 and len(d['abaddon_witnesses'])==6
+          assert d['roster_cards_verified']==62 and d['complete_physical_zone_conservation'] is True
+          assert not d['live_opponent_policy_simulated']
+          assert not d['full_gameplay_simulator']
+          assert not d['cascade_effect_execution_supported']
+          assert not d['Phase_B_complete']
+          assert not d['supports_improvement_claim']
+          assert not d['M6_accepted']
+          assert all(v is False for v in d['authority'].values())
+          assert all(x['physical_cards']==100 and sum(x['receipt']['zone_counts'].values())==100 for x in d['per_deck'])
+          assert all(x['physical_cards_conserved'] for x in d['abaddon_witnesses'])
+          PY
+      - name: Commit bounded evidence file only
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/transactional_stack_62_01.json
+          if git diff --cached --quiet; then
+            echo 'Cycle 101 evidence already current'
+          else
+            git commit -m 'Cycle101: commit exact physical spell stack receipts [skip ci]'
+            git pull --rebase origin chatgpt-cycle101-transactional-stack
+            git push origin HEAD:chatgpt-cycle101-transactional-stack
+          fi
