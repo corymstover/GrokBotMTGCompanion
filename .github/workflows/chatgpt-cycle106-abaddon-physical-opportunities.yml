@@ -1,0 +1,71 @@
+name: Cycle 106 Abaddon physical-slot evidence
+on:
+  push:
+    branches: [chatgpt-cycle106-abaddon-physical-opportunities]
+    paths:
+      - scripts/grixis_m6_abaddon_physical_slot.py
+      - tests/test_m6_abaddon_physical_slot.py
+      - .github/workflows/chatgpt-cycle106-abaddon-physical-opportunities.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle106-abaddon-physical-opportunities
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Regression tests
+        run: python -m unittest discover -s tests -p test_m6_abaddon_physical_slot.py -v
+      - name: Restore pinned Oracle bulk file
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Build and verify
+        run: |
+          python -u scripts/grixis_m6_abaddon_physical_slot.py --build
+          python -u scripts/grixis_m6_abaddon_physical_slot.py --check
+      - name: Verify frozen deck source, evidence nonpromotion and branch-only changes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          data=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_physical_slot_01.json').read_text())
+          short=json.loads(Path('data/grixis/m6/phase_b_bounded/abaddon_physical_slot_summary_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert all(reg['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert data['approved_raw_sha256']=='2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf'
+          assert data['samples_per_variant']==240 and data['total_samples']==720
+          assert len(data['oracle_checks'])==4 and len(data['variants'])==3
+          assert data['exact_paired_initial_7_verified'] and data['no_forced_card_or_mana_access']
+          for item in data['variants'].values():
+            assert len(item['trials'])==240
+            assert all(t['physical_conservation'] and t['no_injected_mana'] for t in item['trials'])
+          assert data['comparison_verdict']=='CANNOT_EVALUATE_RELATIVE_DECK_STRENGTH'
+          assert data['effect_value_of_unmodeled_actions'] is None
+          assert data['actual_game_win_rate'] is None
+          assert data['real_opponent_response_frequency'] is None
+          assert not any(data[k] for k in ('supports_any_swap','zero_improvement_certified','phase_b_complete','independent_pass_c_complete','M6_accepted'))
+          assert all(v is False for v in data['authority'].values())
+          assert short['total_samples']==720 and short['new_card_approved'] is False
+          assert short['result_by_variant']=={k:v['observed'] for k,v in data['variants'].items()}
+          print('720 verified no-swap physical slot observations; incomplete model and authority protected')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected tracked file was modified'
+            exit 1
+          fi
+      - name: Commit evidence
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/abaddon_physical_slot_01.json data/grixis/m6/phase_b_bounded/abaddon_physical_slot_summary_01.json
+          git diff --cached --quiet || (git commit -m 'Cycle106 source-backed paired evidence [skip ci]' && git pull --rebase origin chatgpt-cycle106-abaddon-physical-opportunities && git push origin HEAD:chatgpt-cycle106-abaddon-physical-opportunities)

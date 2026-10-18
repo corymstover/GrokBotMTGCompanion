@@ -1,0 +1,67 @@
+{
+  "cycle": 106,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_Abaddon_paired_physical_cast_opportunity_and_unknown_value",
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  },
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_export_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "baseline_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05e8a11976321699b793",
+  "prior_decision": "data/grixis/m6/phase_b_bounded/abaddon_decision_readiness_01.json",
+  "variants": [
+    "Bituminous Blast",
+    "Heartless Hidetsugu",
+    "Tree of Perdition"
+  ],
+  "seed": 106017,
+  "samples_per_variant": 240,
+  "turns": 8,
+  "starting_hand_size": 7,
+  "draw_each_own_turn": 1,
+  "paired_rule": "Keep canonical Bituminous Blast library index as fixed physical slot; replace *only* the name/card model at that index; all variants share same seed and physical-ID shuffle trajectory until any actual fetch search. Initial 7 cards must match except for registered slot; post-fetch draws may legitimately diverge.",
+  "fixed_policy": {
+    "game_type": "Simplified four-player Commander environment, pilot's own turns only; other players' active turns, real responses, full effects and mulligans not modeled.",
+    "mana": "Only verified Cycle104 actual land mana, fetch, City, Ancient Tomb; no ritual/rock/nonland acceleration is autonomously used.",
+    "land": "Play first recognized physical land in hand (one per own turn); fetch on own main phase and take deterministic registered target; shock pay 2 life when safe.",
+    "spell": "Own main-phase controller, no unmodeled triggered card effects. If Abaddon is castable, cast him first from command on own turn; otherwise attempt exact in-hand tested slot using source-backed mana. At most one of those two per turn.",
+    "prioritization": "Always Abaddon first if castable; no tactical commander removal or tax unless separately specified.",
+    "effect": "Creature slot candidate cast enters battlefield only after four priority passes, then may tap on a *later* controller turn. No haste assumed. If any opponent removes source before its eligible tap, activation is unavailable.",
+    "baseline": "Bituminous Blast has printed cascade and creature target. Without modeled opponent creatures, even a mana-affordable in-hand Blast is recorded as a mana/timing opportunity with target unknown, NOT a legal cast or measured removal/cascade value.",
+    "tap_profiles": [
+      "no_interference",
+      "remove_source_before_first_activation",
+      "remove_source_after_ability_on_stack"
+    ],
+    "heartless": "Only post-eligible tap, conditional nonprevented damage to all players floor(life/2); resolution persists if source removed after activation. No actual opponent policy probabilities, Solphim/Bloodletter multipliers, or game-end inference.",
+    "tree": "Only after eligible tap, conditional 0/13 toughness-to-target-life exchange with first opponent at fixed baseline life [40,39,31]; if source leaves before resolution, exchange fails. No counters/prevention/other toughness modifiers.",
+    "followup": "Only detect if an actual physical Boltwave or Flame Rift remains in hand and can meet exact colored mana from currently untapped verified sources. Cascade on a resulting followup stays UNKNOWN; never invent its outcome.",
+    "opponent_life_start": [
+      40,
+      39,
+      31
+    ],
+    "pilot_life_start": 40,
+    "unresolved": "Treat every baseline printed-cascade offer, legality of opponent creature target, unmodeled followup spells, replacement/prevention, and opponent response probabilities as UNKNOWN, not a zero-value penalty."
+  },
+  "hard_limits": [
+    "Not a true commander-first total-game optimization or win rate; only observed cast/mana/activation opportunities under fixed land-only policy.",
+    "Do not treat chance of a card being seen in 240 trials as reliable tournament probability.",
+    "Do not count effect of Heartless/Tree as benefit absent Abaddon presence and follow-up legal hand cast.",
+    "Unknown target / printed cascade value for Bituminous cannot be compared to direct life-loss magnitudes.",
+    "Unsupported land-mana abilities and nonland acceleration are excluded; fail closed and report model incompleteness.",
+    "Leave M6 Phase B, Pass C/I/J, improvement and zero-improvement certifications unclosed."
+  ],
+  "acceptance": [
+    "Exactly 100 physical IDs including one commander in all 720 variants; singleton except basics and exact named-slot replacement",
+    "Independent 240 matched opening seven-card hands per variant and source-hash verification",
+    "Oracle verify all four source card identities, mana cost, types, Bituminous printed cascade and targeting, source tap abilities and Abaddon hand-only cascade text",
+    "Zero fabricated blast cascade effects, no win-rate, no approved swap or M6 promotion",
+    "Test source survival before/after activation and Tree versus Heartless correct disappearance",
+    "Output per-variant counts conditional on truly drawn/held cards and actual land source payments; report unknown value explicitly, never rank by event volume",
+    "Reproducibility CI and M6-only change scope"
+  ]
+}

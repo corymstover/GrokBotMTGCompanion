@@ -1,0 +1,73 @@
+{
+  "M6_accepted": false,
+  "actual_game_win_rate": null,
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "comparison_verdict": "CANNOT_EVALUATE_RELATIVE_DECK_STRENGTH",
+  "cycle": 106,
+  "exact_paired_initial_7_verified": true,
+  "new_card_approved": false,
+  "oracle_checks": {
+    "Abaddon the Despoiler": {
+      "mana_cost": "{2}{U}{B}{R}",
+      "oracle_sha256": "sha256:cfd1cc4c43f854a555b2ee82ef01e0d9e1c0339f9460aa393451785e6ada24b9",
+      "type_line": "Legendary Creature — Astartes Warrior"
+    },
+    "Bituminous Blast": {
+      "mana_cost": "{3}{B}{R}",
+      "oracle_sha256": "sha256:20543d61d5b775672cb30066047f1b6a10bf0e1ced5047744e113ec7513a0c3f",
+      "type_line": "Instant"
+    },
+    "Heartless Hidetsugu": {
+      "mana_cost": "{3}{R}{R}",
+      "oracle_sha256": "sha256:44169d4b00ebdba8c13bd9e7f047d7e568f036e3b10d9c6f35e81c4b696608f0",
+      "type_line": "Legendary Creature — Ogre Shaman"
+    },
+    "Tree of Perdition": {
+      "mana_cost": "{3}{B}",
+      "oracle_sha256": "sha256:a8a8f65eabc950047c63f80b7127e038552c81998fe9a079fca0278baa23d9e5",
+      "type_line": "Creature — Plant"
+    }
+  },
+  "reasons": [
+    "Baseline Bituminous Blast cannot be legally cast without an opponent creature target; targets not modeled",
+    "Baseline Bituminous Blast printed cascade and possible Abaddon-granted cascade have unknown value and targets",
+    "Candidate activation trials use no real opponent creature removal probabilities; response outcomes are scripted",
+    "Mana model omits rocks, rituals, conditional utility lands, mana reductions, alternative spell costs and other spell sequencing",
+    "Unmodeled hand-cast Abaddon-triggered cascade prevents a complete advantage or win calculation",
+    "Only eight simplified pilot turns; no mulligan, full opponent game states, cards played outside commander and tested slot, or completed win conditions"
+  ],
+  "result_by_variant": {
+    "Bituminous Blast": {
+      "activation_ready": 0,
+      "commander_cast": 126,
+      "followup_held_with_actual_untapped_mana": 0,
+      "real_fetch_shuffles": 252,
+      "slot_cast": 0,
+      "slot_held_and_mana_affordable": 8,
+      "slot_seen": 26,
+      "unsupported_land_held_occurrences": 789
+    },
+    "Heartless Hidetsugu": {
+      "activation_ready": 4,
+      "commander_cast": 126,
+      "followup_held_with_actual_untapped_mana": 0,
+      "real_fetch_shuffles": 252,
+      "slot_cast": 7,
+      "slot_held_and_mana_affordable": 8,
+      "slot_seen": 26,
+      "unsupported_land_held_occurrences": 789
+    },
+    "Tree of Perdition": {
+      "activation_ready": 16,
+      "commander_cast": 126,
+      "followup_held_with_actual_untapped_mana": 0,
+      "real_fetch_shuffles": 252,
+      "slot_cast": 19,
+      "slot_held_and_mana_affordable": 19,
+      "slot_seen": 26,
+      "unsupported_land_held_occurrences": 789
+    }
+  },
+  "samples_per_variant": 240,
+  "total_samples": 720
+}
