@@ -1,0 +1,59 @@
+{
+  "cycle": 111,
+  "status": "preregistered_before_implementation",
+  "milestone": "M6",
+  "stage": "62_deck_commander_first_readiness_inventory_and_human_review_queue",
+  "canonical_authority": "corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json",
+  "analysis_authority": "corymstover/GrokBotMTGCompanion/chatgpt-cycle76-m6-refinement/data/grixis/registry.json",
+  "sources": [
+    "data/grixis/blueprints/{slug}.json",
+    "data/grixis/m6/review_packets/{slug}.json",
+    "data/grixis/registry.json",
+    "data/grixis/m6/phase_b_bounded/abaddon_common_board_summary_01.json"
+  ],
+  "roster_exact": 62,
+  "required_checks": [
+    "Exact 62 registry decks, 62 blueprint files and 62 review packets, no extras or omissions",
+    "Each slug and deck ID matches each source; blueprint canonical hash, packet list hash and registry canonical hash agree",
+    "Packets contain review items with unique swap IDs, source provenance, no decision authority; re-count packet sources, priorities and scrutiny against declared packet counts",
+    "Blueprint commander centrality, dependency level, required identity cards, anti-goals, registered exceptions and future-release dates remain verbatim source fields not replaced by model judgments",
+    "For every proposed swap, flag loss of blueprint identity-core cards and membership of required commander blueprint packages; note high-risk packet flags and missing effects",
+    "Generate individual review routes with best *first-to-examine* candidates selected by source agreement / burden / named commander fit, not by raw popularity score or automated yes vote",
+    "Do not equate M5 exploratory paired goldfish test_pass with meaningful card effect, verified improvement, actual game win probability or full M6 Phase B",
+    "Respect official-vs-project exception distinction and preserve intentionally future-release cards as authorized project exceptions without classifying them as surprise errors",
+    "Produce ranked work *queue* and risk inventory across all 62, but NEVER automatically recommend a swap, certify no improvement, assert current official legality, or approve M6",
+    "All counts / queue must be deterministic and independently reproducible in CI and confined to new M6 plan, script, test and evidence"
+  ],
+  "triage_rules": {
+    "priority_for_first_human_review": "Decks with >=1 independent P0 agreement hypothesis with no protected core cut, no elevated burden, no known test-fail, and no not-modelable flag are earlier opportunities to investigate, NOT preapproved swaps.",
+    "tier_names": [
+      "A_source_agreement_low_triage_burden",
+      "B_source_agreement_needs_specific_review",
+      "C_commander_only_or_performance_only"
+    ],
+    "tie_breaker": "Highest count of source-agreement low-triage-burden examples, then highest count of all P0 source-agreement items, then lowest count of compulsory high-scrutiny obligations, then deck slug alphabetical.",
+    "review_samples_per_deck": 3,
+    "score_handling": "Candidate screening scores, ranks and test pass are source metadata only. Do not sort by score to imply deck strength.",
+    "protected_cuts": "Flag every cut that matches an identity_core card or any required blueprint package card; may be necessary but requires documented role compensation.",
+    "exception_handling": "Keep known exception statuses separate from blocker counts; future release is explicitly authorized, not officially legal before its legal_from date."
+  },
+  "abaddon_specific_evidence": "Cycle 110 common-board comparison verdict CANNOT_EVALUATE; do not classify any Abaddon swap as strategically resolved.",
+  "outputs": [
+    "data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json",
+    "data/grixis/m6/phase_b_bounded/commander_first_readiness_62_summary_01.json",
+    "data/grixis/m6/critic_batches/cycle111_62_refinement_readiness_preliminary.md"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  },
+  "limitations": [
+    "No independent human/agent commander-strategy judgments issued by deterministic code.",
+    "Canonical deck approvals live in a DIFFERENT repo from the companion M6 SOURCE_BASELINE registry, and are checked independently by connector before/after CI.",
+    "No candidate is guaranteed legal or strategically optimal from this old Oracle snapshot or M5 screening.",
+    "Readiness tier is scheduling priority for manual/reviewer attention, not performance or deck quality ranking.",
+    "Full Pass C/I/J, 62 individual decision certificates, balanced game modeling, and M6 acceptance remain open."
+  ]
+}
