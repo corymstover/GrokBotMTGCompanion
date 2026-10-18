@@ -77,7 +77,7 @@ def candidate_leaf(row,name):
   "candidate_followup_actual_cast_and_effect":"UNMODELED",
   "three_other_opponent_decisions_or_full_board":"UNMODELED"}
 
-def blast_leaf(replay,prior,policy):
+def blast_leaf(replay,prior,policy,slot_seen):
  if replay["seed"]!=prior["seed"] or replay["opening"]!=prior["opening"]:
   raise ValueError("Original Blast sampled hand or seed drift")
  if replay["blast_cast"]!=prior["blast_cast"]:
@@ -100,7 +100,7 @@ def blast_leaf(replay,prior,policy):
  if sum(replay["zone_counts"].values())!=100:
   raise ValueError("Baseline physical card IDs not conserved")
  return {
-  "slot_seen":bool(prior["offers"] or prior["blast_cast"]), # not universal drawn-in-hand measure
+  "slot_seen":bool(slot_seen),
   "source_paid_blast_cast":bool(replay["blast_cast"]),
   "opponent_3_3_alive_after_slot_outcome":not death,
   "opponent_3_3_removed_by_blast":death,
@@ -141,14 +141,12 @@ def compare_one(blast106,heart,tree,blast107,blast109,blast109removed,idx):
   "external_first_opponent_creature":"3/3 abilityless, not a pilot physical card",
   "common_initial_opponent_life":[40,39,31],
   "no_response":{
-   "Bituminous Blast":blast_leaf(blast109,blast107,"no_removal"),
+   "Bituminous Blast":blast_leaf(blast109,blast107,"no_removal",blast106["observations"]["slot_seen"]),
    "Heartless Hidetsugu":candidate_leaf(heart,"Heartless Hidetsugu"),
    "Tree of Perdition":candidate_leaf(tree,"Tree of Perdition")},
   "noncomparable_scripted_stress":{
    "Blast_target_3_3_removed_after_cast":blast_leaf(
-      blast109removed,blast107 if not blast107["blast_cast"] else {
-       **blast107,"blast_cast":blast109removed["blast_cast"],
-       "seed":blast107["seed"],"opening":blast107["opening"]}, "target_removed_after_cast"),
+      blast109removed,blast107,"target_removed_after_cast",blast106["observations"]["slot_seen"]),
    "Heartless_source_removed_before_activation":bool(
      heart["observations"]["first_activation_profiles"] and not heart["observations"]["first_activation_profiles"][1]["activated"]),
    "Tree_source_removed_after_activation_fails_exchange":bool(
