@@ -1,0 +1,45 @@
+{
+  "cycle": 102,
+  "status": "preregistered_before_implementation",
+  "stage": "M6_priority_pass_and_basic_mana_access",
+  "seed": 102017,
+  "roster": 62,
+  "samples_per_deck": 12,
+  "starting_hand": 7,
+  "draws_per_trial": 4,
+  "turns": 4,
+  "players": 4,
+  "sources": [
+    "data/grixis/registry.json",
+    "data/grixis/m6/phase_b_bounded/general_state_kernel_62_01.json",
+    "data/grixis/m6/phase_b_bounded/transactional_stack_62_01.json"
+  ],
+  "test_contract": [
+    "Preserve all 100 physical card IDs while drawing actual shuffled opening seven and four draw-step cards; no forced hand, no injected mana",
+    "Model first player draw on each of four Commander multiplayer turns; do not simulate mulligans, upkeep or opponents' turns",
+    "Each turn play at most one untapped basic land available in hand while retaining original physical IDs",
+    "From untapped basic lands, plan and pay actual printed Arcane Signet generic cost, and cast only when the source is already drawn and legal; no other mana sources automatically modeled",
+    "Track four-player successive priority passes on the stack; top stack frame resolves only after all four consecutive passes; spell casting uses active player's priority",
+    "A scripted opponent counter outcome may occur only during a nonactive player's priority window and must remain explicitly labeled an externally supplied result, not an actual counterspell cast",
+    "Atomic rollback for an unavailable basic payment, already-tapped sources, wrong player priority, pending-stack turn transition, or unsupported Abaddon cascade",
+    "Maintain strict frozen-Oracle verification and provenance-verified 62-roster key matching",
+    "Reproduce all 720 deck samples (62*12) plus a set of targeted stack and mana scenarios exactly; reject all known authority mutations"
+  ],
+  "non_goals": [
+    "No opponent AI, full Magic priority rules, turn-structure transitions, nonbasic mana, mulligans, full cascade, legal response spell, win rate or deck-strength conclusion",
+    "No commander-first optimization decisions, M6 acceptance, Phase B, independent Pass C/I/J or new approved lists"
+  ],
+  "fail_closed": [
+    "Nonbasic land ETB",
+    "Alternative and additional casting costs",
+    "Any triggered effect outside registered Cycle101 subset",
+    "Opponent counterspell legality",
+    "Full legal priority or gameplay claims"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
