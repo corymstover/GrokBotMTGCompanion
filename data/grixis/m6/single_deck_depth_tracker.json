@@ -584,8 +584,8 @@
       "source_identity_issue": null,
       "status": "DEEP_REVIEW_COMPLETE",
       "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Lynde__Cheerful_Tormentor.md",
-      "completed_at_commit": "c6892876218ac0fa5af52b20f2c040727e883cd2",
-      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39333292961",
+      "completed_at_commit": "35b9a7e879fcd1e52890a0e18d025e41ececa39a",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39333517303",
       "blocker": null
     },
     {
