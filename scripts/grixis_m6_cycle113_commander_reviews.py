@@ -56,7 +56,8 @@ def verify_oracle(res):
  found={}
  for name,words in ORACLE.items():
   record=res.get(name)[0]
-  txt=record.get("oracle_text") or ""
+  txt=record.get("oracle_text") or "\\n".join(
+   f.get("oracle_text") or "" for f in record.get("card_faces",[]))
   if record.get("name")!=name or not txt or any(w.casefold() not in txt.casefold() for w in words):
    raise ValueError("Source-locked Oracle ability changed: "+name+" "+repr(txt))
   found[name]={"oracle_sha256":"sha256:"+hashlib.sha256(txt.encode()).hexdigest(),
