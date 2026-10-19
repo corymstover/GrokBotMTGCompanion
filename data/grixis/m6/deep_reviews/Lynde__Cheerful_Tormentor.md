@@ -2,14 +2,14 @@
 
 **Date:** 2026-10-19. **Tracker index:** 30. **Deck:** `Lynde__Cheerful_Tormentor`. **Decision:** `KEEP` the exact approved 100; retain two actionable conditional alternatives but **do not** authorize any swap.
 
-## 1. Current authority, identity and source provenance
+## Source and test receipts
 
 - **Canonical authority:** `corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json#decks.Lynde__Cheerful_Tormentor`. Approved/locked October 14, 2026. **Exact approved-byte SHA-256** `05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166`. Source `refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt`, blob `5731e68950886cd8efb655edd4c49416c86aa3d8`. Logical engineering identity `lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7`.
 - **Current-list independent enumeration:** 100 total cards: 1 commander plus 99 library slots, **93 distinct names**; 35 lands; only repeated names Island ×4, Mountain ×3, Swamp ×3. No nonbasic duplications; no companion. Grixis UBR commander identity, no white/green cards in source. Canonical October 14 full approval audit reports official Commander legality **PASS**, current Oracle 2026-10-16 engineering registry reports compliant; no designated project exception. This is a **source-bound reinspection**, not a new real-time all-card bulk Scryfall certification.
 - **Original sources read:** `AGENTS.md`, `grixis/M6 Commander-First Single-Deck Review Standard.md`, `data/grixis/m6/single_deck_depth_tracker.json`, `data/grixis/registry.json`, `data/grixis/milestone_m6_m7_subtracker.json`, `grixis/blueprints/lynde-cheerful-tormentor.md`, `grixis/interactions/lynde-cheerful-tormentor.md`, `data/grixis/m6/review_packets/lynde-cheerful-tormentor.json` (22 M5 review vectors), `data/grixis/mana_base/lynde-cheerful-tormentor.json`, `data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json` (241 EDHREC-lift vectors, retrieved 2026-10-17); canonical October 14 approval/decisions. **Oracle source:** engineering Scryfall 2026-10-16, rulings 2026-10-15, comprehensive rules 2026-09-25; scoped public confirmation of Beseech the Mirror and Maddening Hex 2026-10-19.
 - **Do not confuse evidence statuses:** 62/62 narrow M6.4 first-candidate opinions are historical; this is deep review #31 on a separate ledger. No project milestone, independent GrokBot Pass C, M7 or M8 certification is asserted.
 
-## 2. Commander-first strategy and ceiling
+## Commander identity and natural ceiling
 
 **Identity to preserve:** Lynde (1UBR 2/4 deathtouch) repeatedly recycles **Curses from battlefield into their owner's graveyard**, returns them attached to their owner at the **next end step**, then **at the beginning of YOUR upkeep** moves one Curse attached to you to an opponent and draws two if moved. Every part matters: own graveyard, from battlefield, delayed return, your upkeep, one attached Curse per trigger, no target on move. Merely discarding/milling a Curse cannot trigger the return. This is not generic enchantress, storm, Grixis control or Oracle-Consult.
 
@@ -17,7 +17,7 @@
 
 **Protected sub-engines:** (a) low-cost Curse reset `Despotic Scepter` + `Claws of Gix` / `Braids` / `Perilous Research` / `Demon of Fate's Design`; (b) Paradox Haze / The Ninth Doctor / Obeka, Splitter of Seconds extra upkeep creation; (c) self-enchanted Curse of Misfortunes fetching further Curses before Lynde redistributes them; (d) Curse of Bloodletting combat-damage amplification of Obeka; (e) Curse-copy variants; (f) broad answers and 35-land blue/black/red reliability. Weak slots may exist; changes must improve these mechanics on cost, timing, resilience or clock, rather than merely create another commander-agnostic two-card combo.
 
-### Exact-trigger traps and adversarial checks
+## Oracle, legality and rules
 
 1. `Curse of Misfortunes`'s Oracle is "**At the beginning of YOUR upkeep**..." (the **Aura controller's** upkeep) regardless of who it enchants. When it enchants **you**, both the Curse tutor and Lynde upkeep trigger occur; as controller, order Lynde below the tutor on the stack, tutor resolves first, then move a Curse. When attached to an opponent, it still triggers on YOUR upkeep and tutors a Curse **onto that opponent**, not during their upkeep. Accordingly, self-placement is optional tactical access to use Lynde's draw, not a universal prerequisite for repeated enemy attachment.
 2. A newly returned Curse on you at the preceding end step that says "**At the beginning of enchanted player's upkeep**" independently triggers at YOUR upkeep. If `Cruel Reality` and Lynde both trigger, resolving Lynde first and moving Cruel Reality **does not remove its already-triggered effect**. Likewise Torment of Scarabs; `Curse of Thirst` checks Curse count when its trigger resolves. Reset timing should avoid self-lethal upkeeps.
@@ -27,7 +27,7 @@
 6. Lynde's move does **not target** an opponent (can place Curse on a hexproof player); casting a Curse normally targets as an Aura spell. Copies of Curse of Echoes' spells are **not cast**, so won't trigger spell-cast triggers. `Maddening Hex` damages its currently enchanted spellcasting player and then attaches randomly to another opponent; it is not a repeatable deterministic controller-chosen allocation.
 7. `Curse of Fool's Wisdom` on yourself triggers life loss **and** life gain when you draw; equal exchange is life neutral if no effect changes it. `Curse of Unbinding` still mills the enchanted player but its Aura **controller** gets the creature. `Curse of Surveillance` Aura controller chooses eligible draw targets. None is a license to ignore graveyard loss, timing or stack responses.
 
-## 3. Whole baseline: every distinct approved card and quantity
+## Full 100-card role audit
 
 **This is a per-card audit of all 99 library slots plus commander, not a cherry-picked top-candidate review.** Role is principal function only; notes highlight commander impact and actual liabilities. Library cards grouped by **approved source order**; basics expand by quantity.
 
@@ -137,7 +137,7 @@
 - **Self-punishment vs attrition:** biggest structural risk is multiple harmful Curses returned together. Self-attached Bloodletting amplifies all incoming damage; Death's Hold reduces own creatures; Echoes lets others copy your spells. Opponents can aim removal at **Lynde before** your own Curse hits graveyard to deny her trigger; once delayed ability created, killing Lynde does not stop a previously triggered delayed return. Tactical threshold: never sac multiple harmful Curse engines without a realistic plan for the next upkeep.
 - **Threat to homogenization:** the 22 M5 packet rows include Hullbreaker Horror, Vilis, Tidespout Tyrant, Heartless Hidetsugu, Reiterate, Rakdos Joins Up, Bladewing, Second Chance, Mirror-Mad Phantasm—most gain a combo-proxy score by replacing a deck-specific piece with a standalone unrelated package. This is not a natural Lynde optimization.
 
-## 5. Meaningful candidates, cuts, exact access and judgments
+## Candidate pool and competing cuts
 
 **Screening universe:** 22 distinct add/cut M6 packet rows (four optimizer agreement `Hullbreaker Horror` / `Vilis` / `Heartless Hidetsugu` / `Tidespout Tyrant`; one M5 performance Izzet Signet; seventeen commander-only) plus **241** October 17 EDHREC association vectors. All 22 were screened; not all 241 were read as independently optimized swaps, as inclusion/lift measure association, not power. Off-ranking / prior source candidates re-examined: **Strionic Resonator**, **Beseech the Mirror**, **Infernal Tribute**, **Read the Runes**, **Final Vengeance**, **Curse of Wizardry**, **Asinine Antics**, and **Court of Vantress**. Threshold to progress is a clear commander-first improvement after fees and losing the incumbent, not a numerical sorting win.
 
@@ -156,7 +156,7 @@
 
 **Rank scope:** top source agreement candidate Hullbreaker Horror has **rank 98**, not a blanket recommendation; optimizer rank represents priority workload. Other agreement ranks Vilis 127, Hidetsugu 165, Tidespout 189. `Beseech the Mirror` and `Strionic Resonator` are the relevant authored *off-ranking* alternatives.
 
-## 6. Decision-relevant finite/payable game-state comparisons
+## Finite sequencing and adversarial scenarios
 
 These are **deterministic hand/board thought experiments with actual payment and timing**, NOT sampled Monte Carlo results, measured win percentages, live opponent games, or spellbook-certified combo completions. One sample each illustrates why a card can dominate narrowly yet still have lower floor.
 
@@ -180,7 +180,7 @@ These are **deterministic hand/board thought experiments with actual payment and
 
 **Adversarial stop criterion:** No source-verified, payable, commander-first and realistic-early-game swap beats a clearly specified incumbent across at least baseline engine value, colored tempo, disruption resilience and natural Curse win clock. Thus **KEEP** is an authored conservative call, *not* a globally proved optimum, not an exhaustive mathematical local-optimality certificate.
 
-## 8. Final decisions, limitations, and preservation
+## Conclusions and unresolved evidence
 
 1. **`KEEP` current exact 100**. No owner-approved list change is presumed or made. No project exception, commander ambiguity, companion, unexpected official-legality issue, or count blocker evidenced by the authoritative latest gate and Oracle snapshot.
 2. **Conditional challenger**: Strionic Resonator in Wicked Visitor / Nightscape Familiar slot; requires relevant two-self-Curse or Misfortunes trigger model and removal risk analysis. **Conditional challenger**: Beseech the Mirror in Wicked Visitor slot; requires BBB-paid timing distribution and bargain interruption evidence. Neither is proposed for automatic application.
