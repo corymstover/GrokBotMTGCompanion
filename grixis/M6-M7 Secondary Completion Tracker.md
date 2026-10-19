@@ -1,6 +1,6 @@
 # M6 / M7 Secondary Completion Sub-Tracker
 
-**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 125**.
+**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 126**.
 
 > This is a status report, not an approval, a new optimization result, or authorization to change a deck. The live source of milestone acceptance is `data/grixis/registry.json`. The current canonical 62/62 approved/locked lists are in the separate encyclopedia repository.
 
@@ -22,7 +22,7 @@
 | **M6.3** Reconciliation/deep-review queue creation | ✅ Complete, 62/62 | Reconciliation inventory exists; the **8,848** deep-review items **are not adjudicated** |
 | **M6.4** Commander-first case-specific judgment preparation | ◐ Partial, 15/62 | Cycles 112–116 authored source-specific analyses, with 12 exact-swap HOLDs and 3 unresolved hypotheses; no formal independent critic |
 | **M6.5** Named independent Pass C & conflict resolution | ☐ Blocked, 0/62 | Three GrokBot non-author analytical reviews received; prior blueprint exposure disclosed and strict blinding not claimed. Qualification, full 62-deck independent Pass C and reconciliation remain incomplete |
-| **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–125 supply bounded source, mana and hypothetical opponent fixtures for 3 decks; Cycle125 fixes an INVALID Cycle119 Jewel-to-Rings triggered mana payment (new correct finite trace verified). Complete Phase B remains 0/62 |
+| **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–126 supply bounded source, mana and hypothetical opponent fixtures for 3 decks. Cycle125 fixed the original invalid Jewel-to-Rings payment; Cycle126 tested Bolas Mox vs Amplifier across 1,024 paired physical shuffles (300/296/267 payable commander casts, just 3 transforms per policy and 1 Amp doubling). Complete Phase B remains 0/62 |
 | **M6.7** Decision-grade `judgment_review` obligations | ☐ Blocked, 0/62 | Resolve strategic conflicts and human-judgment requirements |
 | **M6.8** I: tested-pool local zero-improvement certification | ☐ Blocked, 0/62 | Requires resolved judgments and all relevant tests; certifies tested pool only, never global optimality |
 | **M6.9** J: final complete reproducibility bundles | ☐ Blocked, 0/62 | 62 *input* receipts exist, but no final complete per-deck evidence bundles |
@@ -56,6 +56,6 @@ The ongoing ChatGPT project progress section will always include:
 
 **Certification details:** `grixis/Grixis M6 I-J Contract.md`; `data/grixis/m6/sealed/reconciliation_manifest.json`; `data/grixis/m6/preflight.json`.
 
-**Latest completed engineering cycle:** 125; merge commit `d69630a74a6267852acad51f1300803de0a63604`; [Cycle125 PR #235](https://github.com/corymstover/GrokBotMTGCompanion/pull/235), [Cycle125 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39202100414). Three external advisory review verdicts received, **0/62 formal independent Pass C certified**. Original Cycle119 Jewel→Rings triggered-mana trace superseded.
+**Latest completed engineering cycle:** 126; merge commit `4c04718ced0768da235b676390dbd4c44be1d597`; [Cycle126 PR #237](https://github.com/corymstover/GrokBotMTGCompanion/pull/237), [Cycle126 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39203913345). Bolas source-paid acceleration/loyalty comparisons are **inconclusive about an upgrade**. Three external advisory reviews received, **0/62 formal independent Pass C certified**.
 
 **Protected canonical evidence:** 62/62 locks verified at encyclopedia HEAD `b77ba89b72eacfa4d58d1db937e3a91a2000dd16`; overrides file Git blob SHA `81801b2f9d3387b171c01f1fcae255b385a5b698`.
