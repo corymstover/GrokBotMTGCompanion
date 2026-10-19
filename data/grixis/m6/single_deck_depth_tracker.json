@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Admiral_Brass__Unsinkable",
-    "deep_review_complete_count": 2,
+    "next_tracker_deck_id": "Anhelo__the_Painter",
+    "deep_review_complete_count": 3,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -76,10 +76,10 @@
       "baseline_engineering_logical_sha": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Admiral_Brass__Unsinkable.md",
+      "completed_at_commit": "4269f35c86df0bb6f0049603f5c75b1f47dd1fae",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39228234466",
       "blocker": null
     },
     {
