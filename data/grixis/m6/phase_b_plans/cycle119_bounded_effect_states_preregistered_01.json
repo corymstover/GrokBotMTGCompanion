@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "cycle": 119,
+  "stage": "M6_bounded_physical_card_effect_execution",
+  "status": "preregistered_before_implementation",
+  "base_branch": "chatgpt-cycle76-m6-refinement",
+  "base_head_sha": "2b86b7f1d394bbbcc954585cd8f9b01a8428b8b6",
+  "planned_inputs": [
+    "data/grixis/m6/independent_review_intake/cycle117_counterfactual_protocols_01.json",
+    "data/grixis/m6/phase_b_plans/cycle118_supported_paired_goldfish_preregistered_01.json",
+    "data/grixis/m6/phase_b_plans/cycle118_simulator_coverage_guard_01.json",
+    "data/grixis/registry.json",
+    "data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json"
+  ],
+  "studies": [
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "source_file": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+      "source_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "source_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+      "commander": [
+        "Gwendlyn Di Corci"
+      ],
+      "swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "approved_cut": "Opposition Agent",
+      "candidate_add": "Aphetto Alchemist",
+      "protocol_ids": [
+        "gw-legal-untap",
+        "gw-shroud-tutor"
+      ]
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "source_file": "refinement/decklists/Nicol_Bolas_the_Ravager_Approved_2026-10-15.txt",
+      "source_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "source_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+      "commander": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "approved_cut": "Mox Diamond",
+      "candidate_add": "Aetheric Amplifier",
+      "protocol_ids": [
+        "ravager-fast-deploy",
+        "ravager-loyalty"
+      ]
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "source_file": "refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt",
+      "source_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "source_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+      "commander": [
+        "Mai and Zuko"
+      ],
+      "swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "approved_cut": "An Offer You Can't Refuse",
+      "candidate_add": "The Enigma Jewel // Locus of Enlightenment",
+      "protocol_ids": [
+        "mai-ability-mana",
+        "mai-interaction-loss"
+      ]
+    }
+  ],
+  "oracle": {
+    "archive": "oracle-cards-20261016090200.jsonl.gz",
+    "sha256": "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+    "gate": "Exact archived names, quoted ability snippets, printed mana cost, color identity for source candidate, commander, and fixtures."
+  },
+  "scenarios": [
+    {
+      "id": "gw-legal-untap",
+      "candidate_state": "Gwendlyn and Alchemist controlled continuously since start of turn, untapped, Gwendlyn not shrouded, on your turn, stack empty, one opponent has 3 cards",
+      "baseline_state": "Gwendlyn available but no Alchemist; Opposition Agent retained instead",
+      "fixed_actions": "Gwendlyn taps for first legal random-discard target; Alchemist taps to untap Gwendlyn; second Gwendlyn activation while opponent hand remains >0",
+      "measures": [
+        "discards_from_target_hand",
+        "gwendlyn_activation_count",
+        "alchemist_untaps",
+        "legal_targets"
+      ],
+      "prohibited_inference": "infinite discard; multiple opponent AI search events"
+    },
+    {
+      "id": "gw-shroud-tutor",
+      "candidate_state": "Pemmin's Aura grants shroud to Gwendlyn before Alchemist tries to target; opposing tutor spell is on the stack, Alchemist controller can respond",
+      "baseline_state": "Opposition Agent in hand, enough mana and priority to flash before opponent tutor resolves",
+      "fixed_actions": "Candidate untap target fails while shrouded; baseline cast Opposition Agent by flash then resolve tutor search with Agent replacement; track search-control event only, not card valuation",
+      "measures": [
+        "untap_legal",
+        "tutor_search_controlled",
+        "available_response_window"
+      ],
+      "prohibited_inference": "agent necessarily wins; automatic random-discard effect"
+    },
+    {
+      "id": "ravager-fast-deploy",
+      "candidate_state": "First main-phase representative mana fixture: available one U, one B and one colorless, red missing; one spare land discardable",
+      "baseline_state": "Mox Diamond 0 mana with same spare land; ability may produce missing R",
+      "fixed_actions": "Mox enters only with land discard and produces R; Aetheric Amplifier requires three mana and cannot produce R on the same first simulated window",
+      "measures": [
+        "conditional_land_paid",
+        "missing_color_resolved",
+        "can_cast_ravager_with_supplied_mana"
+      ],
+      "prohibited_inference": "measured on-the-play/on-the-draw win turn"
+    },
+    {
+      "id": "ravager-loyalty",
+      "candidate_state": "Post-transformation Bolas the Arisen with 5 loyalty, an untapped Amplifier, 4 generic mana, priority during controller main phase with empty stack",
+      "baseline_state": "Mox Diamond retained, no Amplifier; same transformed commander",
+      "fixed_actions": "Activate Amplifier as sorcery paying 4 and tap, double Bolas loyalty 5 to 10; do NOT refresh planeswalker loyalty activation quota",
+      "measures": [
+        "loyalty_before",
+        "loyalty_after",
+        "additional_loyalty_activations",
+        "generic_mana_spent"
+      ],
+      "prohibited_inference": "automatically eligible for -12; extra activation/ultimate or win"
+    },
+    {
+      "id": "mai-ability-mana",
+      "candidate_state": "Mai and Zuko in play, untapped Enigma Jewel, Basalt Monolith and Rings of Brighthearth controlled; 0 floating ordinary mana at start; other opponent response absent; demonstrate one legal bounded Basalt/Rings stack sequence",
+      "baseline_state": "The Enigma Jewel absent (An Offer kept); no extra usable mana at this window",
+      "fixed_actions": "Jewel entering tapped cannot tap in that turn; on later turn untapped Jewel generates 2 restricted C only for activated abilities. Basalt tap produces 3 ordinary C, spend 3 on untap, pay Rings 2 from Jewel mana, let copy resolve, tap Basalt once, let original resolve; record resource count and no infinite inference",
+      "measures": [
+        "spent_restricted_on_activated_abilities",
+        "spent_restricted_on_cast_spells",
+        "ordinary_mana_after_one_untap_copy_sequence",
+        "jewel_tapped_entry_blocks_same_turn_tap"
+      ],
+      "prohibited_inference": "infinite engine; Jewel mana may cast artifacts; sorcery craft at instant speed"
+    },
+    {
+      "id": "mai-interaction-loss",
+      "candidate_state": "Opponent noncreature spell on stack and pilot has U floating, candidate card is Jewel instead of An Offer",
+      "baseline_state": "An Offer You Can't Refuse held with U mana and pilot priority",
+      "fixed_actions": "Baseline may counter target noncreature spell and its controller makes 2 Treasure; candidate Jewel doesn't counter it and restricted C cannot cast counterspell even with flash artifact permission",
+      "measures": [
+        "target_countered",
+        "opponent_treasure_created",
+        "pilot_blue_mana_paid",
+        "jewel_counterspell_available"
+      ],
+      "prohibited_inference": "actual opponent win prevented; universal protection/stack win probabilities"
+    }
+  ],
+  "validation_gates": [
+    "Reconcile source 62 roster, named M5 swaps and archived approval list logical hash; source 99+one commander and candidate only single replaced slot.",
+    "Every rules-effect operation explicitly validates turn, controlled physical card, tap/summoning-sickness, target legality, required mana and stack resolution; failure cannot silently change state.",
+    "Oracle-gate all scripted text and relevant costs from frozen archive; reject unrecognized Oracle changes.",
+    "Six matching scenario IDs; per-case baseline/candidate finite traces, adversarial negative tests, and deterministic receipt under hash-seed-pinned CI.",
+    "No manufactured random deck hands, no actual opponent decisions, no unbounded loops, no claimed same-seed Phase B performance.",
+    "No changes to core M3 or canonical decklists, M6 still in progress, independent Pass C is not earned."
+  ],
+  "output": "data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json",
+  "authority": {
+    "can_change_canonical_lists": false,
+    "can_approve_deck_swaps": false,
+    "can_certify_independent_pass_c": false,
+    "can_certify_phase_b": false,
+    "can_accept_m6": false
+  }
+}
