@@ -1,0 +1,45 @@
+name: Cycle130 verified six commander-specific authored reviews
+on:
+  push:
+    branches: [chatgpt-cycle130-six-commander-reviews]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  six-authored-source-gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify immutable frozen Oracle fixture
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Test six commander cases and rejection controls
+        run: python -m unittest discover -s tests -p 'test_m6_cycle130_six_authored.py' -v
+      - name: Recompute identical hash-bound review receipts
+        run: |
+          python scripts/grixis_m6_cycle130_validate.py > /tmp/m6_cycle130_a.json
+          python scripts/grixis_m6_cycle130_validate.py > /tmp/m6_cycle130_b.json
+          cmp /tmp/m6_cycle130_a.json /tmp/m6_cycle130_b.json
+      - name: No milestone or approval promotion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('/tmp/m6_cycle130_a.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert d['authored_total']==33 and len(d['checks'])==6
+          assert d['independent_pass_c']==d['phase_b_full']==d['canonical_edits']==0
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cycle130-six-real-source-author-receipts
+          path: /tmp/m6_cycle130_a.json
+          if-no-files-found: error
