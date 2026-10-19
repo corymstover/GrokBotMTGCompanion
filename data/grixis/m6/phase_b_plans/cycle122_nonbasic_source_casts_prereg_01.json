@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "cycle": 122,
+  "status": "preregistered_before_engineering_or_results",
+  "base_branch": "chatgpt-cycle76-m6-refinement",
+  "base_head": "ab14c464253f2839504dc427d1d105b61c41ae0b",
+  "sources": [
+    "scripts/grixis_m6_priority_nonbasic.py",
+    "scripts/grixis_m6_nonbasic_land_access_62.py",
+    "scripts/grixis_m6_cycle120_physical_access.py",
+    "scripts/grixis_m6_cycle121_basic_paid_casts.py",
+    "data/grixis/milestone_m6_m7_subtracker.json"
+  ],
+  "objective": "Execute physical same-seed source-only nonbasic mana opportunity/ETB study for Gwendlyn, Ravager and Mai/Zuko; correct Mai Jewel zero caused by basic-only mana assumptions, without assuming opponent spell targets or unsimulated fetches.",
+  "studies": [
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "commander": "Gwendlyn Di Corci",
+      "approved_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "approved_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+      "swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "cut": "Opposition Agent",
+      "add": "Aphetto Alchemist"
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "approved_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "approved_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+      "swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "cut": "Mox Diamond",
+      "add": "Aetheric Amplifier"
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "commander": "Mai and Zuko",
+      "approved_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "approved_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+      "swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "cut": "An Offer You Can't Refuse",
+      "add": "The Enigma Jewel // Locus of Enlightenment"
+    }
+  ],
+  "model": {
+    "samples_per_deck": 1024,
+    "seed": 120026,
+    "turns": 8,
+    "opening": 7,
+    "draw_each_turn": 1,
+    "mulligans": false,
+    "physical_98_slot_alignment": true,
+    "match_previous_cycle121_sampling": true,
+    "opponents_count_for_bond": 3,
+    "mana": "exact land ability/color choice using previously Oracle-gated 19 PriorityNonbasic.LANDS plus 6 basics; no free nonbasic mana",
+    "entry": "reuse conditional types always/tapped/shock/typed/fast/bond, spend 2 life for shock only if pilot life remains above 2; mana confluence activated 1 life when actually used",
+    "land_drop_policy": "Prefer U-producing source for the target simple spell, then untapped entry, then alphabetical name/physical ID; one land per own turn; deterministic not optimizer",
+    "casting": "actual physical printed-cost {2}{B}/{1}{U}/{3}/{U} with own-main-phase priority, no external action; source mana tapped and spell moves to battlefield as bounded uncontested resolution (not a stack sim)",
+    "nonbasic_exclusions": [
+      "Ancient Tomb",
+      "City of Brass",
+      "all fetch lands",
+      "all pathways",
+      "all channel and utility lands",
+      "all remaining unregistered land sources"
+    ],
+    "no_opponent_spell": "An Offer {U} affordability may be witnessed; the instant is not cast without a noncreature opponent spell on stack.",
+    "mox_diamond": "basic or named nonbasic land discard from physical hand only; Mox's own mana is UNMODELED (do not count as source)"
+  },
+  "outcomes": [
+    "per-card seen and source-paid basic+named-nonbasic cast opportunity by T8",
+    "mai jewel count from 0 baseline basic-only to actual nonbasic-available subset",
+    "per-group entry tapped and selected color source receipts",
+    "unsupported nonbasic lands actually seen, not zeroed quietly",
+    "named opportunity conditional castability and explicit unresolved alternative effects"
+  ],
+  "acceptance": [
+    "Require exact 62 deck register, M5 swap IDs, logical source SHA and 99+1 singleton",
+    "Require actual model-provided 19 LAND definitions and Oracle check for each",
+    "Stable seed/same 98 slots; deterministic repeat with PYTHONHASHSEED=0",
+    "Prove tapped land cannot pay same turn; invalid colors/priority cannot spend; shore up costs",
+    "No invented multiplayer win rate or full opponent response",
+    "Source verified before any result; no updated canonical lists",
+    "Do not count an engineered Phase B comparison as formally complete"
+  ],
+  "authority": {
+    "can_modify_canonical_decks": false,
+    "can_approve_swaps": false,
+    "can_certify_M6": false,
+    "can_certify_Pass_C": false,
+    "can_promote_phase_B": false
+  },
+  "subtracker_policy": "Update cycle reference and add bounded-engineering evidence to M6.6, but retain M6 3/10 gates and M7 0/6 until independently required gates pass."
+}
