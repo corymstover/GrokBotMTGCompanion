@@ -1,0 +1,62 @@
+name: ChatGPT Cycle122 source-locked nonbasic land cost and ETB evidence
+on:
+  push:
+    branches: [chatgpt-cycle122-nonbasic-source-casts]
+    paths:
+      - .github/workflows/chatgpt-cycle122-nonbasic-source-casts.yml
+      - data/grixis/m6/phase_b_plans/cycle122_nonbasic_source_casts_prereg_01.json
+      - scripts/grixis_m6_cycle122_nonbasic_source_casts.py
+      - tests/test_m6_cycle122_nonbasic_source_casts.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  physical-oracle-gated-nonbasic:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Pin frozen Scryfall Oracle SHA256
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Sixteen negative rules and source-identity tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle122_nonbasic_source_casts.py' -v
+      - name: Oracle check nineteen source cards, run 3072 real-library pairs, reproduce receipt
+        run: |
+          python -u scripts/grixis_m6_cycle122_nonbasic_source_casts.py --build
+          python -u scripts/grixis_m6_cycle122_nonbasic_source_casts.py --check
+      - name: Assert no simulated opponent result or approval
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle122_nonbasic_source_casts_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          assert d['frozen_named_land_count']==19
+          assert len(d['results'])==3 and d['paired_samples']==3072 and d['arm_views']==6144
+          assert all(x['source_main_cards']==99 and x['commander_count']==1 for x in d['results'])
+          assert d['independent_pass_c']==d['complete_phase_b_certifications']==0
+          assert d['applied_swaps']==d['current_canonical_decks_modified']==0
+          assert not d['M6_accepted'] and not d['M7_started']
+          mai=next(x for x in d['results'] if x['deck_id']=='Mai_and_Zuko')
+          assert mai['arm_results'][1]['name']=='The Enigma Jewel // Locus of Enlightenment'
+          assert 'City of Brass' not in d['oracle_named_land_text_hashes']
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle122_nonbasic_source_casts_01.json'
+      - name: Archive bounded physical-source receipts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle122-nineteen-land-source-paid-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle122_nonbasic_source_casts_01.json
+          if-no-files-found: error
