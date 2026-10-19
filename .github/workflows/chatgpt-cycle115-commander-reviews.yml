@@ -1,0 +1,56 @@
+name: ChatGPT Cycle115 commander-first source verification
+on:
+  push:
+    branches: [chatgpt-cycle115-three-commander-identity]
+    paths:
+      - .github/workflows/chatgpt-cycle115-commander-reviews.yml
+      - data/grixis/m6/phase_b_plans/cycle115_three_commander_reviews_01.json
+      - data/grixis/m6/author_reviews/cycle115_three_commander_reviews_01.json
+      - scripts/grixis_m6_cycle115_commander_reviews.py
+      - tests/test_m6_cycle115_commander_reviews.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-verification:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify archived October 2026 Scryfall Oracle SHA-256
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Adversarial commander-specific source verification
+        run: python -m unittest discover -s tests -p 'test_m6_cycle115_commander_reviews.py' -v
+      - name: Produce and reproduce source-bound receipt
+        run: |
+          python -u scripts/grixis_m6_cycle115_commander_reviews.py --build
+          python -u scripts/grixis_m6_cycle115_commander_reviews.py --check
+      - name: Reject false Pass C, canonical changes or M6 promotion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          a=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle115_sourced_review_validation_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert all(reg['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert reg['program']['milestones']['M6']['status']=='in_progress'
+          assert a['source_verified_deck_count']==3
+          assert a['canonical_decks_modified']==a['swaps_approved_or_applied']==0
+          assert a['formal_independent_pass_c_count']==a['full_effect_aware_phase_b_count']==0
+          assert not a['M6_accepted'] and not a['whole_deck_legality_currently_verified']
+          assert not a['fresh_original_source_bytes_rehashed']
+          assert all(v is False for v in a['authority'].values())
+          PY
+          git diff --exit-code
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cycle115-deterministic-source-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle115_sourced_review_validation_01.json
+          if-no-files-found: error
