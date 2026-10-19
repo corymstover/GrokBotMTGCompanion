@@ -7,6 +7,7 @@ on:
       - data/grixis/m6/phase_b_plans/cycle121_source_paid_cast_prereg_01.json
       - scripts/grixis_m6_cycle121_basic_paid_casts.py
       - tests/test_m6_cycle121_basic_paid_casts.py
+      - data/grixis/m6/phase_b_bounded/cycle121_basic_paid_cast_interpretation_01.md
   workflow_dispatch:
 permissions:
   contents: read
@@ -26,7 +27,7 @@ jobs:
           mkdir -p .cache
           curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
           echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
-      - name: Fourteen source identity, mana, zone and limitation regression tests
+      - name: Fifteen source identity, mana, zone and limitation regression tests
         run: python -m unittest discover -s tests -p 'test_m6_cycle121_basic_paid_casts.py' -v
       - name: Compute 3072 source-library paired basic-only cast samples and replay
         run: |
