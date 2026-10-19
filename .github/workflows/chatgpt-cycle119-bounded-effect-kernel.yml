@@ -26,7 +26,7 @@ jobs:
           mkdir -p .cache
           curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
           echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
-      - name: Twelve negative and positive timed ability tests
+      - name: Fifteen negative and positive timed ability tests
         run: python -m unittest discover -s tests -p 'test_m6_cycle119_bounded_effects.py' -v
       - name: Execute six frozen-Oracle verified 99+1 source card effect witnesses
         run: |
