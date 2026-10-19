@@ -64,7 +64,7 @@
           "id": "gwendlyn-agent-search-response-access",
           "arm": "baseline",
           "required_main": [
-            null
+            "Opposition Agent"
           ],
           "meaning": "Agent physically sampled, no opponent tutor timing/protection or B mana guaranteed"
         }
@@ -85,7 +85,7 @@
           "id": "ravager-mox-spare-land-opening",
           "arm": "baseline",
           "required_main": [
-            null
+            "Mox Diamond"
           ],
           "extra_requirement": "at_least_one_other_land_in_opening_seven",
           "meaning": "Mox + another land in 7, land discard possible at entry; no turn-one commander or real land play"
@@ -94,7 +94,7 @@
           "id": "ravager-amplifier-access",
           "arm": "candidate",
           "required_main": [
-            null
+            "Aetheric Amplifier"
           ],
           "meaning": "Amplifier physically sampled; actual 3 mana cast, 4 mana activation, transformed planeswalker unproven"
         },
@@ -102,7 +102,7 @@
           "id": "ravager-mox-spare-land-through-turn8",
           "arm": "baseline",
           "required_main": [
-            null
+            "Mox Diamond"
           ],
           "extra_requirement": "at_least_one_other_land_in_seen",
           "meaning": "Mox/land co-exposure through turn8, no proof spare land remains in hand"
@@ -124,7 +124,7 @@
           "id": "mai-jewel-restriction-access",
           "arm": "candidate",
           "required_main": [
-            null
+            "The Enigma Jewel // Locus of Enlightenment"
           ],
           "meaning": "Jewel card sampled; tapped entry/restricted mana prevents simple same-turn spell speed mana"
         },
@@ -132,7 +132,7 @@
           "id": "mai-jewel-basalt-rings-access",
           "arm": "candidate",
           "required_main": [
-            null,
+            "The Enigma Jewel // Locus of Enlightenment",
             "Basalt Monolith",
             "Rings of Brighthearth"
           ],
@@ -142,7 +142,7 @@
           "id": "mai-offer-counterspell-access",
           "arm": "baseline",
           "required_main": [
-            null
+            "An Offer You Can't Refuse"
           ],
           "meaning": "An Offer sampled; does not prove a payable, timely opponent noncreature counterspell target"
         }
@@ -181,5 +181,11 @@
     "Cycle119 rules witnesses remain conditional separate findings",
     "Not a full Phase B, independent Pass C/I/J, win-rate test, legality refresh or deck approval"
   ],
-  "output": "data/grixis/m6/phase_b_bounded/cycle120_physical_access_pairs_01.json"
+  "output": "data/grixis/m6/phase_b_bounded/cycle120_physical_access_pairs_01.json",
+  "prereg_correction": {
+    "reason": "The preregistration generator mistakenly referenced source fields .add/.cut from Cycle119 studies, where the correct field names are .candidate_add/.approved_cut. This serialized certain required_main entries to null. The first CI run failed on syntax, the second failed the first physical presence check; neither produced a valid sampling receipt. Repair the named source cards before any successful evidence execution. The source swap IDs, sample count, seed, endpoints and deck identities are unchanged.",
+    "original_commit": "da4e192be79d2a4f119c370e0714bd34145a336e",
+    "correction_status": "recorded_before_successful_sample",
+    "repaired_required_main_entries": 7
+  }
 }
