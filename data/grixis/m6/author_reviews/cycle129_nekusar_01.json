@@ -1,0 +1,13 @@
+{
+  "cycle": 129,
+  "deck_id": "Nekusar__the_Mindrazer",
+  "candidate": "The Enigma Jewel // Locus of Enlightenment",
+  "cut": "An Offer You Can't Refuse",
+  "verdict": "HOLD",
+  "reason": "Nekusar uses triggered opponent-draw damage, not mana-paid activated abilities. Jewel enters tapped and generates colorless mana spendable only to activate abilities, while Offer can protect a wheel or win turn by countering a noncreature spell.",
+  "next_evidence": "Test the source's activated-ability payments and actual stack protection cases.",
+  "authored_by": "ChatGPT",
+  "independent_pass_c": false,
+  "full_phase_b": false,
+  "canonical_changes": 0
+}
