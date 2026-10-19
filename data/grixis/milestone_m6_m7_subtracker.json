@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_126",
+  "snapshot": "after_cycle_128",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "4c04718ced0768da235b676390dbd4c44be1d597",
+    "engineering_head": "d39c2ec8161ea71368bf957af5ff4f84b169a7a6",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 126,
+    "last_cycle_merged": 128,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -78,13 +78,16 @@
         "id": "M6.4",
         "title": "Commander-first source-specific detailed review",
         "status": "PARTIAL",
-        "completed": 15,
+        "completed": 21,
         "total": 62,
         "evidence": [
           "data/grixis/m6/author_reviews/cycle112_three_commander_authored_judgments_01.json",
-          "data/grixis/m6/author_reviews/cycle116_commander_first_reviews_01.json"
+          "data/grixis/m6/author_reviews/cycle116_commander_first_reviews_01.json",
+          "data/grixis/m6/author_reviews/cycle128_six_commander_authored_judgments_01.json",
+          "data/grixis/m6/phase_b_plans/cycle128_six_commander_judgments_preregistered_01.json",
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39207557465 — source-verified six-case authored receipt (not committed)"
         ],
-        "scope": "15 decks have authored specific-candidate judgments; 12 exact-swap HOLDs and 3 promising unresolved cases. Not formal independent Pass C; 47 decks not covered by this authored sequence."
+        "scope": "21 different decks have source-specific authored candidate judgments, including 18 exact-swap HOLDs and 3 promising unresolved cases; 41 decks still need authored review. Six Cycle128 authored HOLDs were verified with frozen Oracle and real approved 99+commander source in CI #39207557465. This does not imply formal independent Pass C, complete effect-aware Phase B, current full 100-card legality or any approved swaps."
       },
       {
         "id": "M6.5",
@@ -97,7 +100,9 @@
           "grixis/Grixis M6 I-J Contract.md",
           "data/grixis/m6/phase_b_plans/cycle124_reviewer_ready_preregistered_01.json",
           "data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json (CI output artifact, not committed)",
-          "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md"
+          "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md",
+          "data/grixis/m6/phase_b_plans/cycle127_batch_intake_preregistered_01.json",
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39206691858 — 62 neutral review-intake packets, no independent critic certification"
         ],
         "scope": "Three non-author GrokBot advisory reviews received for Gwendlyn, Ravager and Mai/Zuko with provenance/exposure disclosures and no strict blinding. Source qualification and all other independent critiques/reconciliation remain outstanding. Formal M6 Pass C deck completion remains 0/62."
       },
@@ -263,7 +268,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "30% is a descriptive gate-count fraction; it does NOT imply 30% of all 62 decks are certified, nor that equally weighted development work is done."
+    "note": "M6 has 3/10 complete subordinate gates; M6.4 has 21/62 authored source reviews but is only PARTIAL. No formal M6 Pass C, Phase B, M6 deck certification or M7 decision. This is not percentage of M6 deck completion, win-rate or quality."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
