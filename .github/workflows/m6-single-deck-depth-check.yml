@@ -8,6 +8,8 @@ on:
     paths:
       - AGENTS.md
       - 'grixis/M6 Commander-First Single-Deck Review Standard.md'
+      - 'grixis/M6 Authored 62 Pass C Handoff.md'
+      - 'grixis/M6-M7 Secondary Completion Tracker.md'
       - data/grixis/m6/single_deck_depth_tracker.json
       - 'data/grixis/m6/deep_reviews/**'
       - scripts/grixis_m6_single_deck_depth_check.py
