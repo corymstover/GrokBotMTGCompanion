@@ -36,6 +36,7 @@ jobs:
           assert len(p['packets'])==62 and p['previous_independent_reviews_formally_certified']==0
           assert not any(p['zero_authority_outcomes'].values()) and p['CI_is_not_independent_review']
           assert all(x['no_author_verdict_in_packet'] and x['no_current_oracle_or_gameplay_claim'] for x in p['packets'])
+          assert {x['deck_id'] for x in p['packets'] if not x['historical_recorded_source_hash_matches_raw']} == {'Admiral_Brass__Unsinkable', 'Anhelo__the_Painter'}
           assert r['program']['milestones']['M6']['status']=='in_progress'
           assert r['program']['milestones']['M7']['status']=='not_started'
           PY
