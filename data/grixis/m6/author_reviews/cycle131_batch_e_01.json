@@ -1,0 +1,218 @@
+{
+  "cycle": 131,
+  "batch": "E",
+  "source_kind": "authored_commander_first",
+  "count": 5,
+  "rows": [
+    {
+      "id": "Cult_of_Skaro",
+      "core": "Cult of Skaro must attack to roll one of four attack-trigger modes—artifact-team counters, draw two, Dalek token, or every-opponent life loss—and protects/multiplies repeated attacks.",
+      "positive": "Darkwater Catacombs can convert an existing mana into blue and black, assisting castability of Cyberman/copy protection spells under imperfect lands.",
+      "cut_cost": "Urborg, Tomb of Yawgmoth passively lets every land tap for black in addition to original types, improving black access without an extra filter input while threatening some symmetric benefit to opponents.",
+      "rules": [
+        "Cult of Skaro's attack trigger chooses a random mode when the trigger resolves; it is not a spell with a chosen X value.",
+        "Catacombs requires another paid mana for its filter ability and does not produce extra total mana from a sole land.",
+        "Urborg gives all lands the Swamp land type in addition to other types and therefore black mana abilities under normal rules.",
+        "Neither a filter land nor Urborg multiplies artifact creature counters, creates Daleks or advances extra combats directly.",
+        "Removing Urborg may alter black-pip availability for artifact protection or recurring attack engines; filtering can be superior only if real colored sources bottleneck."
+      ],
+      "adverse": "The proposed filter land introduces an input payment and loses Urborg's unconditional black fixing; the change is a mana-base hypothesis, not proof of improved commander-native attack triggers.",
+      "followup": "Compare exact payability for Cult of Skaro and three attack-support spells across source opening hands with Urborg vs Catacombs and opponent land benefits.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Cult_of_Skaro",
+      "slug": "cult-of-skaro",
+      "commander_names": [
+        "Cult of Skaro"
+      ],
+      "add": "Darkwater Catacombs",
+      "cut": "Urborg, Tomb of Yawgmoth",
+      "m5_swap_id": "swap:cult-of-skaro:m5:1d2a8566cb6f",
+      "baseline_logical_hash": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+      "source_recorded_sha": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Cult of Skaro",
+        "Helm of the Host",
+        "Aggravated Assault",
+        "Scientist Supreme of A.I.M.",
+        "The Cyber-Controller"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Loki__the_Deceiver",
+      "core": "Loki creates a tapped-attacking nonlegendary copy of another Villain, then rewards combat damage by Villains with draws; copied ETB/static/combat-damage abilities—not automatic attack triggers—matter.",
+      "positive": "Kid Loki is a one-blue Villain whose +1/+1-counter hexproof protection can sometimes shelter freshly countered Villains, and his second-card draw trigger grows him.",
+      "cut_cost": "Deflecting Swat is conditional free instant stack interaction with a commander controlled, redirecting threatening spell/ability targets at the key attack-copy or theft response window.",
+      "rules": [
+        "Kid Loki is a one-mana Legendary God Hero Villain and therefore qualifies as an original legal other Villain for Loki's attack copying.",
+        "A tapped-and-attacking Kid Loki token does not produce an attack trigger just by entering the battlefield; it may contribute to Villain combat-damage draw.",
+        "The copy does not inherit +1/+1 counters on the original Kid Loki; it enters without copied counters unless another effect puts them on it.",
+        "Kid Loki grants hexproof to your creatures on which you placed a +1/+1 counter this turn; the protection is conditional and not universal.",
+        "Deflecting Swat's alternate free-cast condition requires controlling a commander and can redirect a targeted opponent interaction that would interrupt Loki."
+      ],
+      "adverse": "Kid Loki's potential protection depends on counters this turn and the other Vilain board, while losing a free redirection spell can expose the very attack-copy engine it supports.",
+      "followup": "Sequence second-card draws, counter placement, Loki copied Kid Loki and opponent targeted removal versus protected Deflecting Swat windows.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_COUNTER_TIMING_TEST",
+      "deck_id": "Loki__the_Deceiver",
+      "slug": "loki-the-deceiver",
+      "commander_names": [
+        "Loki, the Deceiver"
+      ],
+      "add": "Kid Loki",
+      "cut": "Deflecting Swat",
+      "m5_swap_id": "swap:loki-the-deceiver:m5:c84e200d5fe8",
+      "baseline_logical_hash": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+      "source_recorded_sha": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Loki, the Deceiver",
+        "The Master, Multiplied",
+        "Roaming Throne",
+        "Hall of Echoes",
+        "Red Ghost, Intangible Genius"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Anhelo__the_Painter",
+      "core": "Anhelo grants casualty 2 on each turn's first instant or sorcery spell; a power-2+ disposable creature at cast time is mandatory to get the spell copy.",
+      "positive": "Resonating Lute grants lands an additional tap ability to make two same-color mana restricted to casting instants/sorceries, enabling expensive copied spells while holding responses on opponents' turns.",
+      "cut_cost": "Black Market Connections produces life-costed card draw, Treasures and 3/2 changeling creature fodder each precombat main, supplying both casualty-eligible bodies and spells for Anhelo.",
+      "rules": [
+        "Anhelo grants casualty only to first instant or sorcery spell you cast each turn, not each spell copied; sacrificing a power-2+ creature is an extra casting cost.",
+        "Resonating Lute grants lands a restricted mana ability, and this mana can be spent only on instant/sorcery SPELLS, not Anhelo himself or creature fodder.",
+        "Lute has a separate tap-draw activated ability requiring seven or more cards in hand at activation.",
+        "Black Market Connections' 3/2 shapeshifter meets casualty 2's power requirement, independently of creature type.",
+        "Replacing repeatable 3/2 bodies with mana acceleration may strand casualty spells without legal fodder."
+      ],
+      "adverse": "Lute may supercharge casting once assembled, but costs four mana and deletes a perpetual casualty body/treasure/draw source central to Anhelo's creature-spell exchange identity; source recorded raw-SHA mismatch remains flagged.",
+      "followup": "Run paired source-paid Anhelo casualty first-spell turns including available power-2+ fodder, Lute four-mana deployment and seven-card hand draw eligibility; preserve logical hash despite historical raw mismatch.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_FODDER_TEST",
+      "deck_id": "Anhelo__the_Painter",
+      "slug": "anhelo-the-painter",
+      "commander_names": [
+        "Anhelo, the Painter"
+      ],
+      "add": "Resonating Lute",
+      "cut": "Black Market Connections",
+      "m5_swap_id": "swap:anhelo-the-painter:m5:b41b80e7b2fd",
+      "baseline_logical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+      "source_recorded_sha": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+      "source_raw_match_recorded": false,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Anhelo, the Painter",
+        "Twinning Staff",
+        "Ghoulish Procession",
+        "Narset's Reversal",
+        "Archmage Emeritus"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Cecily__Bjorna__Lutri",
+      "core": "Bjorna's artifact-sacrifice tap goads creatures while Cecily rewards attacking with an eleven-plus hand to cast an instant/sorcery from hand for free; Lutri is a distinct project-authorized companion.",
+      "positive": "Resonating Lute doubles land-provided mana for paid instants and sorceries and can draw while seven-plus cards remain in hand, potentially supporting Cecily's big-hand threshold.",
+      "cut_cost": "Talisman of Indulgence is cheap color fixing that helps cast and protect two commanders and permanent card engines; Lute's restricted mana cannot pay those non-instant/sorcery spells.",
+      "rules": [
+        "Both Bjorna and Cecily are commanders through Friends forever and occupy two card slots of the 100-card deck.",
+        "Cecily's free cast requires eleven or more cards after her attack trigger's draw/life loss; the spell must be an instant or sorcery from hand.",
+        "Lute's granted land mana can only cast instant or sorcery spells; it cannot be spent on Cecily, Bjorna or activated abilities.",
+        "Lutri, the Spellchaser is an official Commander-banned card used as a companion only by explicit project exception; it is not a third commander or a sanctioned official legal companion.",
+        "Trade Secrets and Yawgmoth's Bargain remain separately approved project exceptions and cannot be described as officially Commander-legal."
+      ],
+      "adverse": "The mana-doubling spell engine has genuine Cecily payoff, but a four-mana setup replacing two-mana unconditional fixing can delay the eleven-card combat and protection, especially while its mana restriction doesn't cast commanders.",
+      "followup": "Evaluate two-commander costed opening hands and eleven-card attack turns with Lute versus Talisman, separately list the three project bans and correctly count Lutri outside the 100.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_HAND_SIZE_MANA_TEST",
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "slug": "bjorna-nightfall-alchemist-cecily",
+      "commander_names": [
+        "Bjorna, Nightfall Alchemist",
+        "Cecily, Haunted Mage"
+      ],
+      "add": "Resonating Lute",
+      "cut": "Talisman of Indulgence",
+      "m5_swap_id": "swap:bjorna-nightfall-alchemist-cecily:m5:1d8efd1d9fdf",
+      "baseline_logical_hash": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+      "source_recorded_sha": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "not_compliant_project_exceptions",
+      "project_exception_refs": [
+        "exc:bjorna-nightfall-alchemist-cecily:lutri-the-spellchaser",
+        "exc:bjorna-nightfall-alchemist-cecily:trade-secrets",
+        "exc:bjorna-nightfall-alchemist-cecily:yawgmoth-s-bargain"
+      ],
+      "protected_identity": [
+        "Cecily, Haunted Mage",
+        "Bjorna, Nightfall Alchemist",
+        "Peer into the Abyss",
+        "The One Ring",
+        "Trade Secrets"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Ashad__the_Lone_Cyberman",
+      "core": "Ashad grants casualty 2 to the first nonlegendary artifact spell each turn and gains +1/+1 counters whenever another creature you control is sacrificed; cheap artifact creatures and flash artifacts are protected.",
+      "positive": "Darkwater Catacombs filters blue/black mana from an existing source, potentially smoothing castability of the Grixis artifact/casualty setup.",
+      "cut_cost": "Great Furnace is an untapped artifact land that pays red, can be sacrificed to artifact effects and raises artifact count; unlike a spell, it is not itself a casualty-copy target.",
+      "rules": [
+        "Ashad's casualty 2 applies to the first nonlegendary artifact SPELL you cast each turn; merely playing an artifact land is not casting an artifact spell.",
+        "Great Furnace is a land and artifact on battlefield and can feed artifact-sacrifice outlets or affinity/metalcraft counts.",
+        "Darkwater Catacombs is a nonartifact land and cannot contribute to artifact-permanent count, reducing the supporting resource base.",
+        "Catacombs' filter ability needs an extra paid mana before producing U/B, whereas Great Furnace directly taps for red.",
+        "Sacrificing a power-2+ creature for Ashad casualty both copies an eligible artifact spell and places a +1/+1 counter on Ashad through his separate triggered ability."
+      ],
+      "adverse": "The replacement cuts a cheap artifact permanent and self-sufficient red source for a filter land, potentially harming artifact thresholds and cheap sacrifice/copy engines.",
+      "followup": "Compare source-bound artifacts-on-battlefield, casualty activations and colored mana across first four turns including Great Furnace artifact sacrifice availability.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "slug": "ashad-the-lone-cyberman",
+      "commander_names": [
+        "Ashad, the Lone Cyberman"
+      ],
+      "add": "Darkwater Catacombs",
+      "cut": "Great Furnace",
+      "m5_swap_id": "swap:ashad-the-lone-cyberman:m5:04e036dc2719",
+      "baseline_logical_hash": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+      "source_recorded_sha": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Ashad, the Lone Cyberman",
+        "Twinning Staff",
+        "Shimmer Myr",
+        "Poetic Ingenuity",
+        "Solemn Simulacrum"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    }
+  ]
+}
