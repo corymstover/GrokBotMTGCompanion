@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_130",
+  "snapshot": "after_cycle_131",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "d03a61dc1c306aa11ea9d296ce4aadd0af5c73fd",
+    "engineering_head": "88f062be961c39108e58213c1763e31fb46c396b",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 130,
+    "last_cycle_merged": 131,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -77,8 +77,8 @@
       {
         "id": "M6.4",
         "title": "Commander-first source-specific detailed review",
-        "status": "PARTIAL",
-        "completed": 33,
+        "status": "COMPLETE",
+        "completed": 62,
         "total": 62,
         "evidence": [
           "data/grixis/m6/author_reviews/cycle112_three_commander_authored_judgments_01.json",
@@ -89,9 +89,16 @@
           "data/grixis/m6/author_reviews/cycle129_six_detailed_01.json",
           "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39212639485 — six source-verified authored reviews",
           "data/grixis/m6/author_reviews/cycle130_six_detailed_01.json",
-          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39213500866 — six source-verified authored reviews"
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39213500866 — six source-verified authored reviews",
+          "data/grixis/m6/author_reviews/cycle131_batch_a_01.json",
+          "data/grixis/m6/author_reviews/cycle131_batch_b_01.json",
+          "data/grixis/m6/author_reviews/cycle131_batch_c_01.json",
+          "data/grixis/m6/author_reviews/cycle131_batch_d_01.json",
+          "data/grixis/m6/author_reviews/cycle131_batch_e_01.json",
+          "grixis/M6 Authored 62 Pass C Handoff.md",
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39216759804 — 62-of-62 source-linked author reviews, 11 tests and immutable Oracle"
         ],
-        "scope": "33 distinct commander decks have source-specific authored candidate judgments (30 exact-candidate HOLDs and 3 still promising unresolved). 29 lack authored review. Cycles 129 and 130 each added six frozen-Oracle/actual approved-source validated authored cases. Pass C remains formally 0/62, complete Phase B 0/62, I/J 0/62, M6 0/62 certified."
+        "scope": "62 of 62 distinct source-specific, original-author M5 exact-candidate reviews completed, after Cycle131 added precisely 29 previously missing cases including Abaddon. Scope is one source-leading candidate/cut pair per deck, with protected commander identity, rule mechanics, favorable/adverse case and next empirical test. This does not adjudicate the remaining 8,848 original candidate inventory, prove global/local optimality, qualify independent Pass C, complete Phase B or approve any swaps."
       },
       {
         "id": "M6.5",
@@ -262,17 +269,17 @@
     ]
   },
   "display": {
-    "m6_completed_gates": 3,
+    "m6_completed_gates": 4,
     "m6_total_gates": 10,
-    "m6_gate_completion_percent": 30,
-    "m6_partial_gates": 2,
-    "m6_unfulfilled_gates": 7,
+    "m6_gate_completion_percent": 40,
+    "m6_partial_gates": 1,
+    "m6_unfulfilled_gates": 6,
     "m7_completed_gates": 0,
     "m7_total_gates": 6,
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "M6 has 3/10 complete subordinate gates; M6.4 has 21/62 authored source reviews but is only PARTIAL. No formal M6 Pass C, Phase B, M6 deck certification or M7 decision. This is not percentage of M6 deck completion, win-rate or quality."
+    "note": "Exactly 4/10 M6 sub-gates have completed narrow prerequisites, including all 62 source-specific authored candidate reviews. M6.5 independent Pass C 0/62; M6.6 complete Phase B 0/62; M6.7–M6.10 judgment/I/J/acceptance blocked. The gate ratio is NOT a fraction of fully certified decks, which remain 0/62."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
