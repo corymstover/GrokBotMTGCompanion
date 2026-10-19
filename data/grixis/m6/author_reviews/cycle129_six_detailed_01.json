@@ -1,0 +1,139 @@
+{
+  "cycle": 129,
+  "schema_version": 1,
+  "source": "Cycle111 M5 triage and current engineering approved source lists",
+  "reviewer": "ChatGPT original engineering author; NOT independent Pass C",
+  "review_count": 6,
+  "prior_authored": 21,
+  "authored_if_verified": 27,
+  "disposition": "HOLD_ALL_EXACT_CANDIDATES_PENDING_FURTHER_TESTS",
+  "rows": [
+    {
+      "deck_id": "The_Madcap_Jester",
+      "add": "Grinding Station",
+      "cut": "Mox Opal",
+      "reason": "Station mills cards to graveyards; Jester benefits only when its controller's spell or ability causes cards to be exiled from an opponent library.",
+      "positive": "With Underworld Breach and a zero-cost artifact, Station can fill a graveyard; Dauthi Voidwalker may replace opponent milling with exile and deserves rules-precise testing.",
+      "cut_cost": "Mox Opal supplies early metalcraft colored mana and is itself a zero-mana artifact that can be replayed or sacrificed to Station in Breach lines.",
+      "rules": [
+        "The Jester triggers on opponent-library exile caused by controlled effects, not ordinary milling.",
+        "Station's activated ability mills three; the milling destination is ordinarily graveyard.",
+        "Dauthi Voidwalker's replacement effect may change the opponent card destination to exile; demonstrate whether this generates Jester permission.",
+        "A Station/Breach engine requires artifacts to sacrifice, mana to pay escape and sufficient graveyard cards.",
+        "The Madcap Jester and Dragon's Smile are authorized pending-release source exceptions, not certified current Commander legality."
+      ],
+      "next": "Run source-paid Station/Breach resource loop and Dauthi/Jester exile-causality adjudication.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Fire_Lord_Azula",
+      "add": "Hullbreaker Horror",
+      "cut": "Repeal",
+      "reason": "Azula rewards low-mana instants and sorceries cast while she attacks. A seven-mana creature spellbounce engine does not replace Repeal's immediate double effect.",
+      "positive": "Hullbreaker can survive a contested stack as an uncounterable flash creature and bounce permanents upon additional spell casts.",
+      "cut_cost": "Repeal is a flexible instant that returns a legal target with mana value X and draws a card; Azula's copy may draw and bounce again with legal targets.",
+      "rules": [
+        "Azula triggers on any spell cast while she is attacking, including instant Repeal.",
+        "Firebending adds red mana on attack but cannot itself pay all of Hullbreaker's seven-mana cost without other sources.",
+        "Azula copies a spell upon cast, not the resolved Repeal effect; copies need legal targets and can fizzle.",
+        "Hullbreaker's cast ability chooses returning spell or nonland permanent; it needs subsequent spell casts for repeat bounces.",
+        "Removing Repeal loses a cheap in-combat cantrip that assists combo sequencing."
+      ],
+      "next": "Compare in-combat real-target Repeal copies and source-paid late Horror spellchains.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "add": "Hullbreaker Horror",
+      "cut": "Pyroblast",
+      "reason": "Jeleva's attack ability casts exiled instant or sorcery spells, not creatures. Hullbreaker cannot be selected for her free-cast attack payoff.",
+      "positive": "Hullbreaker can interact on the stack later via flash and trigger bounces off cast spells when seven mana is accessible.",
+      "cut_cost": "Pyroblast answers blue spells or blue permanents for one red mana, protecting Jeleva's setup and ensuing high-value attack.",
+      "rules": [
+        "Jeleva exiles from libraries when she enters using mana spent to cast her, not mana value.",
+        "Jeleva's attack permission is restricted to exiled instant or sorcery cards.",
+        "Hullbreaker is a creature and not a legal Jeleva free-cast target.",
+        "Pyroblast may target a spell or permanent and has the specified blue-dependent destruction/counter effect.",
+        "Hullbreaker's own uncounterability is not proof the main combo is safer than with low-cost stack interaction."
+      ],
+      "next": "Compare protection windows and seven-mana Horror availability against real opposing blue spells.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Dr__Eggman",
+      "add": "Pit Automaton",
+      "cut": "Mox Opal",
+      "reason": "Eggman's villainous choices can deploy a Construct from hand, so Pit Automaton is on-theme, but a two-mana activated-ability mana creature may be low-impact compared with high-cost cheat targets.",
+      "positive": "Construct typing qualifies Automaton for the artifact cheat option; its ability-copy line may become relevant when actual exhaust targets and mana exist.",
+      "cut_cost": "Mox Opal offers zero-cost colored acceleration under metalcraft, speeding Eggman itself or his larger Constructs, Robots and Vehicles.",
+      "rules": [
+        "Eggman asks an opponent to discard or permit a Construct, Robot or Vehicle card from hand onto battlefield.",
+        "Automaton is an artifact Construct and is eligible for that choice.",
+        "Automaton's restricted ability mana does not pay for Eggman's triggered choice.",
+        "Any exhaust-copy activation must pay its stated costs and obey tap restrictions.",
+        "Replacing Opal trades immediate colored mana for a narrower artifact/ability package whose activations need demonstration."
+      ],
+      "next": "Trace true printed Automaton ability and source-paid exhaust copy with target Eggman artifact package.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "add": "Hullbreaker Horror",
+      "cut": "Orcish Bowmasters",
+      "reason": "Hullbreaker can produce targeted opponent-facing crimes, which is a real Marchesa synergy, but it requires seven mana plus spells before it yields those crimes.",
+      "positive": "Each Hullbreaker spell-cast trigger targeting an opponent's permanent or spell can commit a crime and offer a Marchesa {1} selection if resource and trigger restrictions allow.",
+      "cut_cost": "Bowmasters is a two-mana flash card that can target an opponent or their permanent and punishes additional draw without waiting for seven mana.",
+      "rules": [
+        "Marchesa crimes involve targeting opponents, their controlled permanents, or graveyard cards.",
+        "Hullbreaker triggers from its controller casting spells and may target spells or nonland permanents.",
+        "A Hullbreaker target on an opponent-owned object may count as a crime even if the triggered ability later fails to resolve.",
+        "Marchesa asks {1} after each qualifying crime trigger, so extra crimes are not automatically free cards.",
+        "Bowmasters trigger targets can be opponents or their controlled permanents and enable lower-curve crimes."
+      ],
+      "next": "Compare costed Hollowbreaker stacks, paid Marchesa triggers and Bowmasters flash/draw response turns.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Nekusar__the_Mindrazer",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "An Offer You Can't Refuse",
+      "reason": "Nekusar's core draw-punishment engines use triggered abilities, so Jewel's tap-for-restricted-activated-ability mana cannot directly cast wheel spells or pay triggered costs.",
+      "positive": "Jewel is a low-cost artifact whose ability activation mana can support actual activated artifacts; its crafted face can copy some activated abilities if the source supports the line.",
+      "cut_cost": "Offer is a one-blue-mana noncreature counterspell relevant to protecting a wheel, enchantment or win turn; opponent Treasures remain a real downside.",
+      "rules": [
+        "Nekusar damage on opponent draw is a triggered ability, not an activated one.",
+        "Jewel enters tapped and produces mana restricted to activating abilities.",
+        "Jewel's restricted mana cannot cast a wheel or pay an ordinary nonactivated triggered payment.",
+        "Offer counters target noncreature spell and, on successful countering, creates two Treasures for that spell's controller.",
+        "Jewel crafting and Locus copy mechanics require separate real setup, never presumed from the front face's mana."
+      ],
+      "next": "Test source-listed paid activations, Jewel-to-crafted-face access and live noncreature protection counters.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    }
+  ],
+  "global": {
+    "canonical_changes": 0,
+    "m6_accepted": false,
+    "m7_started": false,
+    "independent_pass_c_completed": 0,
+    "effect_aware_phase_b_completed": 0
+  }
+}
