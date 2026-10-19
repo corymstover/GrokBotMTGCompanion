@@ -1,0 +1,1151 @@
+{
+  "schema_version": 1,
+  "cycle": "m6-single-deck-depth-normalization-2026-10-19",
+  "goal": "62 individualized comprehensive commander-first original author deep reviews in canonical refinement-tracker order, one fully completed before another starts. Distinct from historical narrow M6.4 author coverage.",
+  "authority": {
+    "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "canonical_ref": "main",
+    "canonical_overrides_file": "state/current_deck_overrides.json",
+    "canonical_override_blob_sha": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+    "canonical_order_file": "refinement/Deck_Refinement_Tracker_2026-10-12.csv",
+    "canonical_order_blob_sha": "7d3c80a3052560421aadab8adf3e343cd7ab80a7",
+    "engineering_registry_file": "data/grixis/registry.json",
+    "engineering_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
+    "source_approved_locked": 62,
+    "historical_m6_4_authored_source_reviews": 62,
+    "canonical_deck_changes_allowed": false,
+    "formal_independent_pass_c_allowed": false
+  },
+  "process": {
+    "mode": "SEQUENTIAL_SINGLE_DECK",
+    "active_tracker_deck_id": null,
+    "next_tracker_deck_id": "Abaddon_the_Despoiler",
+    "deep_review_complete_count": 0,
+    "total": 62,
+    "ready_for_grokbot_pass_c": false,
+    "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
+    "required_protocol": "grixis/M6 Commander-First Single-Deck Review Standard.md",
+    "review_artifact_directory": "data/grixis/m6/deep_reviews/"
+  },
+  "decks": [
+    {
+      "tracker_index": 0,
+      "tracker_deck_id": "Abaddon_the_Despoiler",
+      "canonical_deck_id": "Abaddon_the_Despoiler",
+      "engineering_deck_id": "Abaddon_the_Despoiler",
+      "commander_names_in_engineering": [
+        "Abaddon the Despoiler"
+      ],
+      "baseline_approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+      "baseline_engineering_logical_sha": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 1,
+      "tracker_deck_id": "Admiral_Beckett_Brass",
+      "canonical_deck_id": "Admiral_Beckett_Brass",
+      "engineering_deck_id": "Admiral_Beckett_Brass",
+      "commander_names_in_engineering": [
+        "Admiral Beckett Brass"
+      ],
+      "baseline_approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+      "baseline_engineering_logical_sha": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 2,
+      "tracker_deck_id": "Admiral_Brass__Unsinkable",
+      "canonical_deck_id": "Admiral_Brass__Unsinkable",
+      "engineering_deck_id": "Admiral_Brass__Unsinkable",
+      "commander_names_in_engineering": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "baseline_approved_sha256": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+      "baseline_engineering_logical_sha": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 3,
+      "tracker_deck_id": "Anhelo__the_Painter",
+      "canonical_deck_id": "Anhelo_the_Painter",
+      "engineering_deck_id": "Anhelo__the_Painter",
+      "commander_names_in_engineering": [
+        "Anhelo, the Painter"
+      ],
+      "baseline_approved_sha256": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+      "baseline_engineering_logical_sha": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+      "source_identity_discrepancy": "IDENTIFIER_ALIAS_NEEDS_CONFIRMATION",
+      "source_identity_issue": "Canonical, tracker, and/or engineering deck ID normalization differs; identical approved SHA verified. State and verify alias explicitly in deck review.",
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 4,
+      "tracker_deck_id": "Ashad__the_Lone_Cyberman",
+      "canonical_deck_id": "Ashad_the_Lone_Cyberman",
+      "engineering_deck_id": "Ashad__the_Lone_Cyberman",
+      "commander_names_in_engineering": [
+        "Ashad, the Lone Cyberman"
+      ],
+      "baseline_approved_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+      "baseline_engineering_logical_sha": "lh1:6d87a5e4a87ac6dd866849a1f1d31c15e25b5a6a283b9d89b7b398e1f5696f5b",
+      "source_identity_discrepancy": "IDENTIFIER_ALIAS_NEEDS_CONFIRMATION",
+      "source_identity_issue": "Canonical, tracker, and/or engineering deck ID normalization differs; identical approved SHA verified. State and verify alias explicitly in deck review.",
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 5,
+      "tracker_deck_id": "Ashnod_the_Uncaring",
+      "canonical_deck_id": "Ashnod_the_Uncaring",
+      "engineering_deck_id": "Ashnod_the_Uncaring",
+      "commander_names_in_engineering": [
+        "Ashnod the Uncaring"
+      ],
+      "baseline_approved_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+      "baseline_engineering_logical_sha": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 6,
+      "tracker_deck_id": "Be_lakor__the_Dark_Master",
+      "canonical_deck_id": "Be_lakor_the_Dark_Master",
+      "engineering_deck_id": "Be_lakor__the_Dark_Master",
+      "commander_names_in_engineering": [
+        "Be'lakor, the Dark Master"
+      ],
+      "baseline_approved_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+      "baseline_engineering_logical_sha": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+      "source_identity_discrepancy": "IDENTIFIER_ALIAS_NEEDS_CONFIRMATION",
+      "source_identity_issue": "Canonical, tracker, and/or engineering deck ID normalization differs; identical approved SHA verified. State and verify alias explicitly in deck review.",
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 7,
+      "tracker_deck_id": "Cecily__Bjorna__Lutri",
+      "canonical_deck_id": "Cecily__Bjorna__Lutri",
+      "engineering_deck_id": "Cecily__Bjorna__Lutri",
+      "commander_names_in_engineering": [
+        "Bjorna, Nightfall Alchemist",
+        "Cecily, Haunted Mage"
+      ],
+      "baseline_approved_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+      "baseline_engineering_logical_sha": "lh1:030933b552a9906fee98edf30961a5c57a8c40efd8971da3d37f7194ca8bf507",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 8,
+      "tracker_deck_id": "Cormela__Glamour_Thief",
+      "canonical_deck_id": "Cormela__Glamour_Thief",
+      "engineering_deck_id": "Cormela__Glamour_Thief",
+      "commander_names_in_engineering": [
+        "Cormela, Glamour Thief"
+      ],
+      "baseline_approved_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+      "baseline_engineering_logical_sha": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 9,
+      "tracker_deck_id": "Crosis__the_Purger",
+      "canonical_deck_id": "Crosis__the_Purger",
+      "engineering_deck_id": "Crosis__the_Purger",
+      "commander_names_in_engineering": [
+        "Crosis, the Purger"
+      ],
+      "baseline_approved_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+      "baseline_engineering_logical_sha": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 10,
+      "tracker_deck_id": "Cult_of_Skaro",
+      "canonical_deck_id": "Cult_of_Skaro",
+      "engineering_deck_id": "Cult_of_Skaro",
+      "commander_names_in_engineering": [
+        "Cult of Skaro"
+      ],
+      "baseline_approved_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+      "baseline_engineering_logical_sha": "lh1:b5f92812544811f4724f57c0e97e3ff674bf0bdf28bbf7702bd07e6274b92aac",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 11,
+      "tracker_deck_id": "Davros__Dalek_Creator",
+      "canonical_deck_id": "Davros__Dalek_Creator",
+      "engineering_deck_id": "Davros__Dalek_Creator",
+      "commander_names_in_engineering": [
+        "Davros, Dalek Creator"
+      ],
+      "baseline_approved_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+      "baseline_engineering_logical_sha": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 12,
+      "tracker_deck_id": "Doctor_Doom__King_of_Latveria",
+      "canonical_deck_id": "Doctor_Doom__King_of_Latveria",
+      "engineering_deck_id": "Doctor_Doom__King_of_Latveria",
+      "commander_names_in_engineering": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "baseline_approved_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+      "baseline_engineering_logical_sha": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 13,
+      "tracker_deck_id": "Don_Andres__the_Renegade",
+      "canonical_deck_id": "Don_Andres__the_Renegade",
+      "engineering_deck_id": "Don_Andres__the_Renegade",
+      "commander_names_in_engineering": [
+        "Don Andres, the Renegade"
+      ],
+      "baseline_approved_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+      "baseline_engineering_logical_sha": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 14,
+      "tracker_deck_id": "Dr__Eggman",
+      "canonical_deck_id": "Dr__Eggman",
+      "engineering_deck_id": "Dr__Eggman",
+      "commander_names_in_engineering": [
+        "Dr. Eggman"
+      ],
+      "baseline_approved_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
+      "baseline_engineering_logical_sha": "lh1:04e4d973c9055eda049e943fc333e8642f24a11a20b61c77437127c6cf1b9e95",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 15,
+      "tracker_deck_id": "Edea__Possessed_Sorceress",
+      "canonical_deck_id": "Edea__Possessed_Sorceress",
+      "engineering_deck_id": "Edea__Possessed_Sorceress",
+      "commander_names_in_engineering": [
+        "Edea, Possessed Sorceress"
+      ],
+      "baseline_approved_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+      "baseline_engineering_logical_sha": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 16,
+      "tracker_deck_id": "Edward_Kenway",
+      "canonical_deck_id": "Edward_Kenway",
+      "engineering_deck_id": "Edward_Kenway",
+      "commander_names_in_engineering": [
+        "Edward Kenway"
+      ],
+      "baseline_approved_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+      "baseline_engineering_logical_sha": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 17,
+      "tracker_deck_id": "Evelyn__the_Covetous",
+      "canonical_deck_id": "Evelyn__the_Covetous",
+      "engineering_deck_id": "Evelyn__the_Covetous",
+      "commander_names_in_engineering": [
+        "Evelyn, the Covetous"
+      ],
+      "baseline_approved_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+      "baseline_engineering_logical_sha": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 18,
+      "tracker_deck_id": "Fire_Lord_Azula",
+      "canonical_deck_id": "Fire_Lord_Azula",
+      "engineering_deck_id": "Fire_Lord_Azula",
+      "commander_names_in_engineering": [
+        "Fire Lord Azula"
+      ],
+      "baseline_approved_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
+      "baseline_engineering_logical_sha": "lh1:5647c4e9260c54e4b8c54d35135829c656dadda546da03be62ce26113f1cd225",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 19,
+      "tracker_deck_id": "Garza_Zol__Plague_Queen",
+      "canonical_deck_id": "Garza_Zol__Plague_Queen",
+      "engineering_deck_id": "Garza_Zol__Plague_Queen",
+      "commander_names_in_engineering": [
+        "Garza Zol, Plague Queen"
+      ],
+      "baseline_approved_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
+      "baseline_engineering_logical_sha": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 20,
+      "tracker_deck_id": "Goro_Goro_and_Satoru",
+      "canonical_deck_id": "Goro_Goro_and_Satoru",
+      "engineering_deck_id": "Goro_Goro_and_Satoru",
+      "commander_names_in_engineering": [
+        "Goro-Goro and Satoru"
+      ],
+      "baseline_approved_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+      "baseline_engineering_logical_sha": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 21,
+      "tracker_deck_id": "Gwendlyn_Di_Corci",
+      "canonical_deck_id": "Gwendlyn_Di_Corci",
+      "engineering_deck_id": "Gwendlyn_Di_Corci",
+      "commander_names_in_engineering": [
+        "Gwendlyn Di Corci"
+      ],
+      "baseline_approved_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "baseline_engineering_logical_sha": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 22,
+      "tracker_deck_id": "Inalla__Archmage_Ritualist",
+      "canonical_deck_id": "Inalla__Archmage_Ritualist",
+      "engineering_deck_id": "Inalla__Archmage_Ritualist",
+      "commander_names_in_engineering": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "baseline_approved_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+      "baseline_engineering_logical_sha": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 23,
+      "tracker_deck_id": "Jeleva__Nephalia_s_Scourge",
+      "canonical_deck_id": "Jeleva__Nephalia_s_Scourge",
+      "engineering_deck_id": "Jeleva__Nephalia_s_Scourge",
+      "commander_names_in_engineering": [
+        "Jeleva, Nephalia's Scourge"
+      ],
+      "baseline_approved_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+      "baseline_engineering_logical_sha": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 24,
+      "tracker_deck_id": "Kefka__Court_Mage",
+      "canonical_deck_id": "Kefka__Court_Mage",
+      "engineering_deck_id": "Kefka__Court_Mage",
+      "commander_names_in_engineering": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin"
+      ],
+      "baseline_approved_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+      "baseline_engineering_logical_sha": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 25,
+      "tracker_deck_id": "Kess__Dissident_Mage",
+      "canonical_deck_id": "Kess__Dissident_Mage",
+      "engineering_deck_id": "Kess__Dissident_Mage",
+      "commander_names_in_engineering": [
+        "Kess, Dissident Mage"
+      ],
+      "baseline_approved_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+      "baseline_engineering_logical_sha": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 26,
+      "tracker_deck_id": "Grixistax___October_2026",
+      "canonical_deck_id": "Grixistax___October_2026",
+      "engineering_deck_id": "Grixistax___October_2026",
+      "commander_names_in_engineering": [
+        "Kraum, Ludevic's Opus",
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "baseline_approved_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+      "baseline_engineering_logical_sha": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 27,
+      "tracker_deck_id": "Loki__the_Deceiver",
+      "canonical_deck_id": "Loki__the_Deceiver",
+      "engineering_deck_id": "Loki__the_Deceiver",
+      "commander_names_in_engineering": [
+        "Loki, the Deceiver"
+      ],
+      "baseline_approved_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+      "baseline_engineering_logical_sha": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 28,
+      "tracker_deck_id": "Lord_of_Tresserhorn",
+      "canonical_deck_id": "Lord_of_Tresserhorn",
+      "engineering_deck_id": "Lord_of_Tresserhorn",
+      "commander_names_in_engineering": [
+        "Lord of Tresserhorn"
+      ],
+      "baseline_approved_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+      "baseline_engineering_logical_sha": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 29,
+      "tracker_deck_id": "Lord_Xander__the_Collector",
+      "canonical_deck_id": "Lord_Xander__the_Collector",
+      "engineering_deck_id": "Lord_Xander__the_Collector",
+      "commander_names_in_engineering": [
+        "Lord Xander, the Collector"
+      ],
+      "baseline_approved_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+      "baseline_engineering_logical_sha": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 30,
+      "tracker_deck_id": "Lynde__Cheerful_Tormentor",
+      "canonical_deck_id": "Lynde__Cheerful_Tormentor",
+      "engineering_deck_id": "Lynde__Cheerful_Tormentor",
+      "commander_names_in_engineering": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "baseline_approved_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+      "baseline_engineering_logical_sha": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 31,
+      "tracker_deck_id": "Mai_and_Zuko",
+      "canonical_deck_id": "Mai_and_Zuko",
+      "engineering_deck_id": "Mai_and_Zuko",
+      "commander_names_in_engineering": [
+        "Mai and Zuko"
+      ],
+      "baseline_approved_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "baseline_engineering_logical_sha": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 32,
+      "tracker_deck_id": "Mairsil__the_Pretender",
+      "canonical_deck_id": "Mairsil__the_Pretender",
+      "engineering_deck_id": "Mairsil__the_Pretender",
+      "commander_names_in_engineering": [
+        "Mairsil, the Pretender"
+      ],
+      "baseline_approved_sha256": "51e8fd18c7ded6744a4fa2f871925a0679f85dada3e6e517334bd13c07889ee5",
+      "baseline_engineering_logical_sha": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 33,
+      "tracker_deck_id": "Marchesa__Dealer_of_Death",
+      "canonical_deck_id": "Marchesa__Dealer_of_Death",
+      "engineering_deck_id": "Marchesa__Dealer_of_Death",
+      "commander_names_in_engineering": [
+        "Marchesa, Dealer of Death"
+      ],
+      "baseline_approved_sha256": "34a6a940c54aaebde612ae5d3a244e22931d3a977fa26e4c43f2a76aafc0f6b1",
+      "baseline_engineering_logical_sha": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 34,
+      "tracker_deck_id": "Marchesa__the_Black_Rose",
+      "canonical_deck_id": "Marchesa__the_Black_Rose",
+      "engineering_deck_id": "Marchesa__the_Black_Rose",
+      "commander_names_in_engineering": [
+        "Marchesa, the Black Rose"
+      ],
+      "baseline_approved_sha256": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
+      "baseline_engineering_logical_sha": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 35,
+      "tracker_deck_id": "Mishra__Artificer_Prodigy",
+      "canonical_deck_id": "Mishra__Artificer_Prodigy",
+      "engineering_deck_id": "Mishra__Artificer_Prodigy",
+      "commander_names_in_engineering": [
+        "Mishra, Artificer Prodigy"
+      ],
+      "baseline_approved_sha256": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+      "baseline_engineering_logical_sha": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 36,
+      "tracker_deck_id": "Mishra__Eminent_One",
+      "canonical_deck_id": "Mishra__Eminent_One",
+      "engineering_deck_id": "Mishra__Eminent_One",
+      "commander_names_in_engineering": [
+        "Mishra, Eminent One"
+      ],
+      "baseline_approved_sha256": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
+      "baseline_engineering_logical_sha": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 37,
+      "tracker_deck_id": "Missy",
+      "canonical_deck_id": "Missy",
+      "engineering_deck_id": "Missy",
+      "commander_names_in_engineering": [
+        "Missy"
+      ],
+      "baseline_approved_sha256": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
+      "baseline_engineering_logical_sha": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 38,
+      "tracker_deck_id": "Nathan_Drake__Treasure_Hunter",
+      "canonical_deck_id": "Nathan_Drake__Treasure_Hunter",
+      "engineering_deck_id": "Nathan_Drake__Treasure_Hunter",
+      "commander_names_in_engineering": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "baseline_approved_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+      "baseline_engineering_logical_sha": "lh1:ac167a53ea77215d7eb148ea2eb814c2596d8da1943a971a8ee077c6d35ceb00",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 39,
+      "tracker_deck_id": "Nekusar__the_Mindrazer",
+      "canonical_deck_id": "Nekusar__the_Mindrazer",
+      "engineering_deck_id": "Nekusar__the_Mindrazer",
+      "commander_names_in_engineering": [
+        "Nekusar, the Mindrazer"
+      ],
+      "baseline_approved_sha256": "bc36908fb2f848dfd69407a317d7da5811532dba7e3b4e7be89a2905d901c6f1",
+      "baseline_engineering_logical_sha": "lh1:0b5079ca21d51e48d0d52464a7704059c3b4b4dd3685259af62b5b592222a886",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 40,
+      "tracker_deck_id": "Nicol_Bolas",
+      "canonical_deck_id": "Nicol_Bolas",
+      "engineering_deck_id": "Nicol_Bolas",
+      "commander_names_in_engineering": [
+        "Nicol Bolas"
+      ],
+      "baseline_approved_sha256": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
+      "baseline_engineering_logical_sha": "lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 41,
+      "tracker_deck_id": "Nicol_Bolas__the_Ravager",
+      "canonical_deck_id": "Nicol_Bolas__the_Ravager",
+      "engineering_deck_id": "Nicol_Bolas__the_Ravager",
+      "commander_names_in_engineering": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "baseline_approved_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "baseline_engineering_logical_sha": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 42,
+      "tracker_deck_id": "Goben__Gene_Splice_Savant",
+      "canonical_deck_id": "Goben__Gene_Splice_Savant",
+      "engineering_deck_id": "Norman_Osborn_Green_Goblin",
+      "commander_names_in_engineering": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "baseline_approved_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
+      "baseline_engineering_logical_sha": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
+      "source_identity_discrepancy": "COMMANDER_IDENTITY_CONFLICT",
+      "source_identity_issue": "Canonical Goben, Gene-Splice Savant versus engineering Norman Osborn // Green Goblin reference the same approved source hash; name/commander identity discrepancy MUST be independently resolved before this deck is declared reviewed. Equal hashes are not equivalent commander identities.",
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 43,
+      "tracker_deck_id": "Obeka__Brute_Chronologist",
+      "canonical_deck_id": "Obeka__Brute_Chronologist",
+      "engineering_deck_id": "Obeka__Brute_Chronologist",
+      "commander_names_in_engineering": [
+        "Obeka, Brute Chronologist"
+      ],
+      "baseline_approved_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+      "baseline_engineering_logical_sha": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 44,
+      "tracker_deck_id": "Obeka__Splitter_of_Seconds",
+      "canonical_deck_id": "Obeka__Splitter_of_Seconds",
+      "engineering_deck_id": "Obeka__Splitter_of_Seconds",
+      "commander_names_in_engineering": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "baseline_approved_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+      "baseline_engineering_logical_sha": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 45,
+      "tracker_deck_id": "Parnesse__the_Subtle_Brush",
+      "canonical_deck_id": "Parnesse__the_Subtle_Brush",
+      "engineering_deck_id": "Parnesse__the_Subtle_Brush",
+      "commander_names_in_engineering": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "baseline_approved_sha256": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+      "baseline_engineering_logical_sha": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 46,
+      "tracker_deck_id": "RogSi",
+      "canonical_deck_id": "RogSi",
+      "engineering_deck_id": "RogSi",
+      "commander_names_in_engineering": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "baseline_approved_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+      "baseline_engineering_logical_sha": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 47,
+      "tracker_deck_id": "Saruman__the_White_Hand",
+      "canonical_deck_id": "Saruman__the_White_Hand",
+      "engineering_deck_id": "Saruman__the_White_Hand",
+      "commander_names_in_engineering": [
+        "Saruman, the White Hand"
+      ],
+      "baseline_approved_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+      "baseline_engineering_logical_sha": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 48,
+      "tracker_deck_id": "Sauron__Lord_of_the_Rings",
+      "canonical_deck_id": "Sauron__Lord_of_the_Rings",
+      "engineering_deck_id": "Sauron__Lord_of_the_Rings",
+      "commander_names_in_engineering": [
+        "Sauron, Lord of the Rings"
+      ],
+      "baseline_approved_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+      "baseline_engineering_logical_sha": "lh1:56944f00fbf608fa7e6e13222c86caf17217bdbc7da4d681721dd6f3c42f3ebe",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 49,
+      "tracker_deck_id": "Sauron__the_Dark_Lord",
+      "canonical_deck_id": "Sauron__the_Dark_Lord",
+      "engineering_deck_id": "Sauron__the_Dark_Lord",
+      "commander_names_in_engineering": [
+        "Sauron, the Dark Lord"
+      ],
+      "baseline_approved_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+      "baseline_engineering_logical_sha": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 50,
+      "tracker_deck_id": "Sedris__the_Traitor_King",
+      "canonical_deck_id": "Sedris__the_Traitor_King",
+      "engineering_deck_id": "Sedris__the_Traitor_King",
+      "commander_names_in_engineering": [
+        "Sedris, the Traitor King"
+      ],
+      "baseline_approved_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+      "baseline_engineering_logical_sha": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 51,
+      "tracker_deck_id": "Sol_kanar_the_Swamp_King",
+      "canonical_deck_id": "Sol_kanar_the_Swamp_King",
+      "engineering_deck_id": "Sol_kanar_the_Swamp_King",
+      "commander_names_in_engineering": [
+        "Sol'kanar the Swamp King"
+      ],
+      "baseline_approved_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+      "baseline_engineering_logical_sha": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 52,
+      "tracker_deck_id": "Sol_kanar_the_Tainted",
+      "canonical_deck_id": "Sol_kanar_the_Tainted",
+      "engineering_deck_id": "Sol_kanar_the_Tainted",
+      "commander_names_in_engineering": [
+        "Sol'Kanar the Tainted"
+      ],
+      "baseline_approved_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+      "baseline_engineering_logical_sha": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 53,
+      "tracker_deck_id": "Tetsuo_Umezawa",
+      "canonical_deck_id": "Tetsuo_Umezawa",
+      "engineering_deck_id": "Tetsuo_Umezawa",
+      "commander_names_in_engineering": [
+        "Tetsuo Umezawa"
+      ],
+      "baseline_approved_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+      "baseline_engineering_logical_sha": "lh1:da8056ed35918860c7fabf7529c8013bdd3acd369af4d1c3f92a86c3f3e046b7",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 54,
+      "tracker_deck_id": "Tetsuo__Imperial_Champion",
+      "canonical_deck_id": "Tetsuo__Imperial_Champion",
+      "engineering_deck_id": "Tetsuo__Imperial_Champion",
+      "commander_names_in_engineering": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "baseline_approved_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+      "baseline_engineering_logical_sha": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 55,
+      "tracker_deck_id": "The_Madcap_Jester",
+      "canonical_deck_id": "The_Madcap_Jester",
+      "engineering_deck_id": "The_Madcap_Jester",
+      "commander_names_in_engineering": [
+        "The Madcap Jester"
+      ],
+      "baseline_approved_sha256": "caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+      "baseline_engineering_logical_sha": "lh1:5c53783a710fc838b14a3ae828ec909e3f911cea14d9fdf4bb23bc4b9da1a999",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 56,
+      "tracker_deck_id": "The_Rani",
+      "canonical_deck_id": "The_Rani",
+      "engineering_deck_id": "The_Rani",
+      "commander_names_in_engineering": [
+        "The Rani"
+      ],
+      "baseline_approved_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+      "baseline_engineering_logical_sha": "lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 57,
+      "tracker_deck_id": "The_Valeyard",
+      "canonical_deck_id": "The_Valeyard",
+      "engineering_deck_id": "The_Valeyard",
+      "commander_names_in_engineering": [
+        "The Valeyard"
+      ],
+      "baseline_approved_sha256": "4bef619a33d85eafaf194997924fc8378dd490f62c59d76bafccc4fa07ef821c",
+      "baseline_engineering_logical_sha": "lh1:1724d3640badd97612920908cce38180620fd65f037c83bf7043cd26700bf77f",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 58,
+      "tracker_deck_id": "Thraximundar",
+      "canonical_deck_id": "Thraximundar",
+      "engineering_deck_id": "Thraximundar",
+      "commander_names_in_engineering": [
+        "Thraximundar"
+      ],
+      "baseline_approved_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+      "baseline_engineering_logical_sha": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 59,
+      "tracker_deck_id": "Tresserhorn_s_Lord__Returned",
+      "canonical_deck_id": "Tresserhorn_s_Lord__Returned",
+      "engineering_deck_id": "Tresserhorn_s_Lord__Returned",
+      "commander_names_in_engineering": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "baseline_approved_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+      "baseline_engineering_logical_sha": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 60,
+      "tracker_deck_id": "Wick__the_Whorled_Mind",
+      "canonical_deck_id": "Wick__the_Whorled_Mind",
+      "engineering_deck_id": "Wick__the_Whorled_Mind",
+      "commander_names_in_engineering": [
+        "Wick, the Whorled Mind"
+      ],
+      "baseline_approved_sha256": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+      "baseline_engineering_logical_sha": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    },
+    {
+      "tracker_index": 61,
+      "tracker_deck_id": "Zevlor__Elturel_Exile",
+      "canonical_deck_id": "Zevlor__Elturel_Exile",
+      "engineering_deck_id": "Zevlor__Elturel_Exile",
+      "commander_names_in_engineering": [
+        "Zevlor, Elturel Exile"
+      ],
+      "baseline_approved_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+      "baseline_engineering_logical_sha": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+      "source_identity_discrepancy": "NONE",
+      "source_identity_issue": null,
+      "status": "PENDING",
+      "deep_review_evidence_path": null,
+      "completed_at_commit": null,
+      "ci_run_url": null,
+      "blocker": null
+    }
+  ]
+}
