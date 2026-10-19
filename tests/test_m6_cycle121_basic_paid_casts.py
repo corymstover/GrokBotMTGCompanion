@@ -67,6 +67,13 @@ class Cycle121Tests(unittest.TestCase):
   self.assertIn("m000",w.tapped)
   self.assertEqual(sum(w.mana.values()),0)
   w.check()
+ def test_jewel_requires_blue_not_just_any_basic_land(self):
+  jewel="The Enigma Jewel // Locus of Enlightenment"
+  w=scene([jewel,"Swamp","Mountain"],jewel);w.draw(7)
+  w.turn=1;w.land_drop();w.tap_basics()
+  self.assertFalse(w.paid_simple_cast())
+  self.assertIsNone(w.first_cast)
+  self.assertTrue(w.hand(jewel))
  def test_pay_rejects_colored_shortfall_atomically(self):
   pool={"U":2}
   self.assertIsNone(m.pay(pool,(2,{"B":1})))
@@ -79,7 +86,7 @@ class Cycle121Tests(unittest.TestCase):
  def test_oracle_mox_and_jewel_supported_rules_are_gated(self):
   self.assertIn("Mox Diamond",m.EXPECTED["Nicol_Bolas__the_Ravager"])
   self.assertNotIn("Mox Diamond",m.COST)
-  self.assertEqual(m.COST["The Enigma Jewel // Locus of Enlightenment"],(1,{}))
+  self.assertEqual(m.COST["The Enigma Jewel // Locus of Enlightenment"],(0,{"U":1}))
  def test_milestone_and_performance_never_certified(self):
   self.assertTrue(self.plan["no_mulligans"])
   self.assertEqual(self.reg["program"]["milestones"]["M6"]["status"],"in_progress")
