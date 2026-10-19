@@ -1,0 +1,17 @@
+{
+  "cycle": 130,
+  "status": "preregistered",
+  "base_sha": "e964daaf9de8d64258dd4f8929b3c233d94f1425",
+  "objective": "Source-anchored author review of six commander-specific M5 proposed swaps for queue positions 29-34. Do not change canonical cards; no new infrastructure.",
+  "review_decks": [
+    "Obeka__Brute_Chronologist",
+    "Doctor_Doom__King_of_Latveria",
+    "Mairsil__the_Pretender",
+    "Admiral_Beckett_Brass",
+    "Tetsuo_Umezawa",
+    "Lord_Xander__the_Collector"
+  ],
+  "archived_oracle": "oracle-cards-20261016090200.jsonl.gz",
+  "preregistered_decision_policy": "Review exact M5 first-slot candidate and exact cost of source approved cut, including positive and adverse cases, rules, natural ceiling and next evidence.",
+  "acceptance": "Actual 99+commander and logical hashes, Oracle snapshot SHA, exception handling, adversarial tests, exact-head passing CI; no independent Pass C, full Phase B or M6 promotion."
+}
