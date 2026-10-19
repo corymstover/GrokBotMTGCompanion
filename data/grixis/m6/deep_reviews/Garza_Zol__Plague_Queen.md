@@ -126,7 +126,7 @@
 **Kill packages**: 21 same-commander **combat** damage to each player; Hatred instant can give +16 power to native 5/5 for 21 damage at 16 LIFE paid if enough life and no damage prevention; Jeska triple 8/8 from Commander's Plate => 24 commander combat damage; Exoskeleton gives infect and with Garza >=10 effective damage, Kediss transfers that amount of GARZA-sourced NONCOMBAT infect to other opponents so 10 poison each (not commander damage). `Kediss` triggers on a successful combat hit only; spreading Curiosity draws is a separate reward. Extra combat `Assault` repeated only when hit with Sword SoFF untaps enough lands for 3RR, or Reaver Cleaver creates at least five usable Treasure from actual successful combat damage.
 **Curve risk**: only Garza as critical high-threat, equipment and sweep sorceries often demand 2–5 mana per piece AFTER 7-mana commander. Doubling her power without evasion doesn't beat a 1/1 flier; handing opponents a 3/3 token via Pongify can stall some combat lines. Meaningful cuts should target redundant high-investment equipment with similar roles while retaining protection/land count, not source-paid draw/protection just for a different expensive creature.
 
-## Candidate pool and alternative cuts
+## Candidate pool and competing cuts
 M5 optimizer `data/grixis/m6/optimizer/garza-zol-plague-queen.json` has **40 Pass A** and **11 Pass B** candidate-pair projections. Prior Oct14 final source audit compared equipment and mana modernization, ended zero additional material recommendations at B4. This new pass explicitly probes material ranked candidates and outside/off-ranked cards below, with alternate cuts and strongest opposition.
 
 | Candidate → plausible cut | Commander-specific gain | Real cost / judgment |
