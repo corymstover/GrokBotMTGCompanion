@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_125",
+  "snapshot": "after_cycle_126",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "d69630a74a6267852acad51f1300803de0a63604",
+    "engineering_head": "4c04718ced0768da235b676390dbd4c44be1d597",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 125,
+    "last_cycle_merged": 126,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -114,9 +114,11 @@
           "data/grixis/m6/phase_b_plans/cycle122_nonbasic_source_casts_prereg_01.json",
           "data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_interpretation_01.md",
           "data/grixis/m6/phase_b_plans/cycle125_grok_reconciliation_and_jewel_erratum_01.json",
-          "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md"
+          "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md",
+          "data/grixis/m6/phase_b_plans/cycle126_bolas_source_paid_pressure_preregistered_01.json",
+          "data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_interpretation_01.md"
         ],
-        "scope": "Earlier Cycle119 direct Jewel payment of Rings triggered {2} was INVALID and superseded by Cycle125 CI-verified corrected restricted-to-Basalt activation, ordinary-to-Rings sequence. Three-deck bounded source/draw/rules fixtures remain partial; zero complete effect-aware Phase B stress/red-team certificates."
+        "scope": "Cycle126 extends the Bolas/Mox/Amplifier source-paid mana/tap and starting-seven-loyalty tests with 1,024 physical paired shuffles and 3 fixed resource policies; 300/296/267 bounded commander-cast counts but only 3 transforms per policy/1 candidate double. This is not opponent gameplay or a recommendation. Prior Cycle119 Jewel→Rings invalid payment is superseded by Cycle125 correction. Full Phase B and stress/red-team certificates remain 0/62."
       },
       {
         "id": "M6.7",
