@@ -76,8 +76,10 @@ def verify_plan(p,reg,old,proto):
       raise ValueError("Opportunity registration drift: "+did)
     for op in ops:
       if (op["arm"] not in ("baseline","candidate") or not op["meaning"] or
-          not op["required_main"] or len(op["required_main"])!=len(set(op["required_main"]))):
-        raise ValueError("Unregistered, missing or duplicate opportunity requirements")
+          not op["required_main"] or len(op["required_main"])!=len(set(op["required_main"])) or
+          any(not isinstance(name,str) or not name for name in op["required_main"]) or
+          (x["cut"] if op["arm"]=="baseline" else x["add"]) not in op["required_main"]):
+        raise ValueError("Unregistered, missing, null, wrong-arm or duplicate source card requirements")
       if op.get("extra_requirement") not in (None,"at_least_one_other_land_in_opening_seven","at_least_one_other_land_in_seen"):
         raise ValueError("Unknown optional source condition")
 
