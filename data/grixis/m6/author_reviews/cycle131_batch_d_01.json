@@ -13,7 +13,7 @@
         "Saruman triggers upon casting a noncreature spell; resolution or copying a spell is not a fresh cast.",
         "The amass quantity uses mana value, not amount spent, so affinity, delve and alternate costs do not alter quantity by themselves.",
         "Mana Geyser produces red mana equal to the number of tapped lands opponents control as it resolves.",
-        "Relic of Sauron costs four mana and taps for UBR afterward; this is not immediately three untapped mana if summoning restrictions or other applicable tap limits apply (artifact tap ability is normally usable immediately).",
+        "Relic of Sauron costs four mana and has a tap ability adding {U}{B}{R}. As a noncreature artifact, it can normally tap immediately after resolving if it enters untapped and no other effect restricts it.",
         "Saruman's Army may be a single Orc Army creature that grows with subsequent amass, not one separate new Army per spell."
       ],
       "adverse": "Relic can provide stable fixing, but trading a source-funded explosive mana spell and its higher amass for a generic four-mana rock may significantly lower lethal multi-spell turns.",
