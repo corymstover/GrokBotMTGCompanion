@@ -103,7 +103,7 @@ Edward `{2}{U}{B}{R}` 5/5 legendary Human Assassin Pirate, two distinct payoffs:
 | The Belligerent | 1 | Engine / spell | Assassin's Creed Vehicle cast/exile opponent-card/crew synergy; complex timing, verify actual spell cast payment before combo modeling |
 | The Indomitable | 1 | Engine / spell | Pirate/Vehicle recast from grave under tapped types / combat draw, strong thematic recurrent ship, still needs actual crew |
 | The Reaver Cleaver | 1 | Engine / spell | Equipment trample and on combat damage to player makes THAT MANY Treasure; with power >=5 unblocked gives >=5 artifacts to Time Sieve, but must equip/attack/connect |
-| Time Sieve | 1 | Engine / spell | UB artifact activated T + SAC FIVE other artifacts (not itself for repeatable loop), extra turn; requires 5 NEW sacrifice fodder EACH turn, cannot be found by Urza's Saga |
+| Time Sieve | 1 | Engine / spell | UB artifact activated {T} + SAC FIVE artifacts (to repeat, use five OTHER artifacts and keep Sieve on battlefield), extra turn; requires 5 NEW sacrifice fodder EACH turn, cannot be found by Urza's Saga |
 | Toxic Deluge | 1 | Engine / spell | 2B wipe -X/-X all creatures at own X life, kills Pirate crew and degrades treasure counts in same turn |
 | Training Center | 1 | Land | Land multiplayer untapped UR, supports cheap Izzet combos |
 | Underground Sea | 1 | Land | Land fetchable untapped UB |
