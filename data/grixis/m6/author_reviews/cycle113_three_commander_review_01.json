@@ -1,0 +1,121 @@
+{
+  "cycle": 113,
+  "reviewer": "ChatGPT author, source-specific strategic review, not independent Pass C",
+  "review_type": "Commander-first judgments on three locked lists, NOT automatic candidate promotions",
+  "source_new_deck_count": 3,
+  "existing_locked_lists_changed": 0,
+  "owner_approval_requested": false,
+  "reviews": [
+    {
+      "deck_id": "Kefka__Court_Mage",
+      "slug": "kefka-court-mage",
+      "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "approved_raw_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+      "m5_swap_id": "swap:kefka-court-mage:m5:576cc2cc3744",
+      "add": "Hullbreaker Horror",
+      "cut": "Orcish Bowmasters",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "confidence": "high commander identity and curve critique; no outcome/win rate",
+      "commander_first_role": "Kefka's enters/attacks each-player discard plus type-diverse draw is multiplied through haste, blink, clone, Wizard trigger doublers. Its back face rewards opponent life loss during owner's turn but transform is expensive and secondary.",
+      "hypothesis": "Seven-mana Hullbreaker Horror could allow bouncing spells and nonland permanents as a self-sustaining protected stack engine; independent combo candidates are cited by M5 but actual resulting lines not demonstrated.",
+      "cut_cost": "Two-mana flash Orcish Bowmasters is efficient answer to draws, produces Army board presence and benefits from opposing extra cards drawn through wheels; it also pressures against common cEDH draw engines while preserving faster early interaction.",
+      "rules": [
+        "Hullbreaker Horror triggers whenever YOU cast a spell, allowing a choice of bouncing a spell you do not control or a nonland permanent. It is a high-investment seven-mana creature and its bounce effects do not themselves multiply Kefka's discard/draw ETB or attack triggers.",
+        "Orcish Bowmasters has flash, triggers on ETB and when an opponent draws except their first draw in a draw step, dealing one damage to any target then amassing Orcs 1. It interacts with the deck's wheel and opponent draw plan and is 5 mana cheaper.",
+        "Kefka's front face draws per different card TYPES among the cards discarded by a single trigger, not per discarded card. Hullbreaker does not raise this count directly.",
+        "Kefka's Ruler of Ruin transformation costs {8} as a sorcery; the back-face opponent life loss draw can leverage Bowmasters conditionally only if timing/face are relevant, not a primary cost justification."
+      ],
+      "protected_core": [
+        "Harmonic Prodigy",
+        "Anger",
+        "Gogo, Mysterious Mime",
+        "Displacer Kitten",
+        "Saw in Half",
+        "Essence Flux"
+      ],
+      "why": "Swapping Bowmasters for Hullbreaker diverts scarce cEDH tempo from a cheap spell/discard interaction toward a commander-independent seven-drop. M5 Spellbook completions are not shown to create a legal accessible Kefka-specific fast line.",
+      "next_evidence": "Verify a resource-feasible Hullbreaker line that repeats Kefka triggers or materially improves controlled wins by a known turn without degrading interaction; examine alternatives only with clear commander-specific benefit.",
+      "proposed_change_approved": false
+    },
+    {
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "slug": "sauron-lord-of-the-rings",
+      "commander": "Sauron, Lord of the Rings",
+      "approved_raw_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+      "m5_swap_id": "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+      "add": "Aggravated Assault",
+      "cut": "Mystic Remora",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "confidence": "high role incompatibility, impact unmeasured",
+      "commander_first_role": "Eight-mana Sauron's cast trigger amasses Orcs 5, mills five, and returns creature from graveyard to battlefield, independent of whether Sauron resolves, making acceleration and reanimation placement the fundamental payoff.",
+      "hypothesis": "Aggravated Assault could enable extra attacks with reanimated threats or Orc Army, but cannot create an additional Sauron cast trigger by granting extra combat.",
+      "cut_cost": "Mystic Remora costs {U} and can draw cards against opponents' noncreature spell casts, helping dig toward early Entomb, mana, reanimation and protection while the eight-mana commander is inaccessible.",
+      "rules": [
+        "Aggravated Assault's {3}{R}{R} activated ability is sorcery-speed, untaps creatures you control and grants another combat followed by an additional main phase; its value requires sufficiently effective attackers, not simply Sauron's cast trigger.",
+        "Sauron's reanimation/amass/mill ability triggers on CAST, before his spell resolves, and persists even if the creature spell is countered; extra combats never repeat the cast trigger.",
+        "Sauron's Nazgûl four copies are permitted by Nazgûl's own deck-construction text (up to nine). It is not evidence that a banned card has become officially legal.",
+        "M5's cited Spellbook combo is not proof of an existing complete, mana-positive infinite combat line in this 100-card list; its necessary third pieces and actual combat damage payoff must be verified."
+      ],
+      "protected_core": [
+        "Command Beacon",
+        "Metamorphosis Fanatic",
+        "Entomb",
+        "Anger",
+        "Sauron, Lord of the Rings"
+      ],
+      "why": "The proposed exchange weakens one-mana card flow in an eight-mana reanimator in exchange for a repeatable five-mana sorcery-speed combat sink whose relevance depends on already having attack-ready threats. It misses the commander cast-trigger identity.",
+      "next_evidence": "Check real expected damage/attack availability and exact combo ingredients before comparing to Mystic Remora's early cards; prioritize a proven cast-mana or reanimation-consistency improvement instead.",
+      "project_exception_note": "Four Nazgûl are allowed by official card-specific deckbuilding rule; the project registry records this as an exception reference, not illegal singleton abuse.",
+      "proposed_change_approved": false
+    },
+    {
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "slug": "nathan-drake-treasure-hunter",
+      "commander": "Nathan Drake, Treasure Hunter",
+      "approved_raw_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+      "m5_swap_id": "swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+      "add": "Godo, Bandit Warlord",
+      "cut": "Vampiric Tutor",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "confidence": "high combat and timing rules, no simulated performance",
+      "commander_first_role": "Nathan's attack trigger exiles top card of every library and permits one spell from among them. Stolen spells may be paid with mana as any color, producing an aggressive attack/cast theft economy, amplified by Roaming Throne and extra combats that actually let Nathan attack again.",
+      "hypothesis": "Godo is a six-mana Equipment-search creature and adds an extra combat when Godo attacks for the first time each turn, but does not normally ready Nathan to attack again.",
+      "cut_cost": "Vampiric Tutor is a one-mana instant library-to-top tutor that finds any missing theft, haste/protection or extra-combat engine card; its life cost is two, and draw access is required.",
+      "rules": [
+        "Godo, Bandit Warlord's enter trigger searches your library for Equipment and puts it onto battlefield, then shuffles. It does NOT search any card type. The approved Nathan list has limited actual Equipment targets; inspect exact equipment inventory rather than claim generic tutor equivalence.",
+        "When Godo attacks for the first time each turn, untap Godo and all Samurai you control, then after the current combat comes another combat phase. Nathan is a Human Rogue, not a Samurai and is not untapped by that trigger.",
+        "Nathan's stealing triggers on DECLARING an attack, not combat damage. Extra combats only grant additional Nathan attack triggers when Nathan can legally attack again, normally requiring an untap or vigilance effect.",
+        "Vampiric Tutor searches any card but puts it on top, with life loss; Godo is a creature six-drop which fetches only Equipment and cannot replace flexible early tutor consistency.",
+        "The Godo package may sometimes find protection/haste Equipment and improve Godo's attacks, but the M5 packet does not show a source-backed Nat⁠han multiple-attack line from the proposed swap."
+      ],
+      "protected_core": [
+        "Roaming Throne",
+        "Karlach, Fury of Avernus",
+        "Fire Lord Azula",
+        "Firebender Ascension",
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "why": "Godo does not independently untap Nathan for second attack trigger and the deck currently values fast selection/protection to keep a three-mana theft commander attacking. Losing Vampiric Tutor for six-mana conditional value is an unsupported improvement.",
+      "next_evidence": "Measure actual Equipment hits, cost to execute a second Nathan attack, source-conserving theft spell access and opportunity cost of losing Vampiric Tutor. Do not add a generic Godo combo package absent Nathan synergy.",
+      "proposed_change_approved": false
+    }
+  ],
+  "retrospective": {
+    "cycle112_source": "data/grixis/m6/author_reviews/cycle112_three_commander_authored_judgments_01.json",
+    "status": "Author-side adversarial reassessment, NOT a formally independent second reviewer",
+    "Cormela": "Cycle112 HOLD stands for exact Archaeomancer/Faithless Looting substitution. Objection to categorical no-ETB benefit: Archaeomancer can be reanimated/blinked, but without measured mana/loop gain it does not justify removing cheap discard-based graveyard setup.",
+    "Ashnod": "Cycle112 HOLD stands for exact Satchel/Chef substitution. Check cost ordering: Clue ability costs 2 mana+sacrifice, Ashnod copies the draw triggered by Clue sacrifice; Satchel Thopter tap condition is not a sacrifice cost. Satchel's ability exists as useful artifact token engine, not just an uncopyable liability.",
+    "Gwendlyn": "Cycle112 correctly marked Aphetto Alchemist as promising and refused the Opposition Agent cut, but likely UNDERSTATED the strength of the established Aphetto Alchemist + Illusionist's Bracers engine. With Bracers equipped to Alchemist and no summoning sickness, activate Alchemist targeting itself, then Bracers copy targeting Gwendlyn: both untap, and the sequence can repeat. It can untap Gwendlyn repeatedly for own-turn random discard if she can tap, no shroud and opponents have cards. This is an unbounded untap engine, NOT automatically infinite opponent discard or win with finite hands. Opportunity cost of moving Bracers from Gwendlyn and removing Opposition Agent remains unmeasured. PRIORITIZE exact source-backed combo verification in a future bounded Gwendlyn experiment.",
+    "risk": "Existing Cycle112 'HOLD' is a candidate-specific hold, not formal tested-pool zero-improvement for any of these three decks."
+  },
+  "global_gates": {
+    "reviewed_source_decks": 3,
+    "formal_independent_review_count": 0,
+    "formal_phase_b_count": 0,
+    "user_approved_swaps": 0,
+    "canonical_changed": false,
+    "official_legality_recertified": false,
+    "certificates_issued": 0,
+    "M6_accepted": false
+  }
+}
