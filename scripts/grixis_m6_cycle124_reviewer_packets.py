@@ -53,10 +53,9 @@ def read(p):return json.loads(Path(p).read_text(encoding="utf-8"))
 def sha(p):return "sha256:"+hashlib.sha256(Path(p).read_bytes()).hexdigest()
 def enc(o):return json.dumps(o,sort_keys=True,ensure_ascii=False,indent=2)+"\n"
 def oracle_card(resolver,name):
- cards=resolver.get(name)
- if len(cards)!=1 or cards[0].get("name")!=name:
-  raise ValueError("Ambiguous or missing frozen Oracle card: "+name)
- card=cards[0]
+ card,fuzzy=resolver.get(name)
+ if card is None or fuzzy or card.get("name")!=name:
+  raise ValueError("Missing, fuzzy or noncanonical frozen Oracle card: "+name)
  text=card.get("oracle_text") or "\n".join(face.get("oracle_text") or "" for face in card.get("card_faces",[]))
  mana=card.get("mana_cost") or " // ".join(face.get("mana_cost") or "" for face in card.get("card_faces",[]))
  if not text:raise ValueError("Frozen Oracle text unavailable: "+name)
