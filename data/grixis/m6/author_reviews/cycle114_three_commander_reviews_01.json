@@ -1,0 +1,96 @@
+{
+  "cycle": 114,
+  "reviewer": "ChatGPT engineering author — not independent Pass C",
+  "review_count": 3,
+  "method": "Three source-bound 100-card commander-first specific proposed swaps; archived Oracle text checked separately",
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  },
+  "reviews": [
+    {
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "slug": "inalla-archmage-ritualist",
+      "commander": "Inalla, Archmage Ritualist",
+      "approved_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+      "swap_id": "swap:inalla-archmage-ritualist:m5:217e55a1ecd0",
+      "add": "Pitiless Plunderer",
+      "cut": "Blood Pet",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_first_role": "Inalla's Eminence copies nontoken Wizards entering under its controller; bloodline/Ruthless Technomancer and Scholar/sacrifice-ritual lines should be efficient without spending mana to cast Inalla.",
+      "rules": [
+        "Pitiless Plunderer is a Human Pirate, not a Wizard, so Inalla does not duplicate its ETB.",
+        "Pitiless Plunderer costs {3}{B} and generates one Treasure whenever ANOTHER creature you control dies. It does not make Treasure on its own death without replacement effects; the extra mana must be realized from actual creature deaths.",
+        "Blood Pet costs {B}, has a free sacrifice-to-add-{B} mana ability, fuels black-mana sequencing and graveyard/reanimation planning and can be sacrificed immediately; it is NOT a Wizard either.",
+        "Inalla's Eminence copying a Wizard token costs {1} for each nontoken Wizard ETB if Inalla remains in command zone or battlefield; extra Treasures might fund this, but measured creature-death timing and payoff is unverified."
+      ],
+      "strategic_cost": "Four mana in a cEDH spells-and-Wizard combo deck replaces a one-mana immediately sacrificeable black mana resource; M5 test-pass is a mana-only proxy, not demonstrated acceleration of Spellseeker or Scholar loops.",
+      "positive_case": "Treasure generation from repeated non-Plunderer Wizard token deaths could eventually refund repeated Eminence copies and support a long Bloodline/Technomancer recursion loop; the proposed candidate has thematic engine possibilities, but only with a properly verified creature death policy.",
+      "why_hold": "No actual combo-by-turn, accessible four-mana Plunderer board, commander-dependent optimization, or proven improvement over low-curve Blood Pet sacrifice mana. An existing engine card is not expendable on raw late-game resource generation alone.",
+      "next_gate": "Test a small exact legal Bloodline/Technomancer token-death loop with Inalla and Plunderer, check whether the Treasury effect supplies a new win line, compare realistic mana access to Blood Pet then submit independent Pass C review.",
+      "official_current_legality_certified": false,
+      "swap_applied": false,
+      "full_phase_b_complete": false
+    },
+    {
+      "deck_id": "The_Rani",
+      "slug": "the-rani",
+      "commander": "The Rani",
+      "approved_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+      "swap_id": "swap:the-rani:m5:225ed1a7c9c4",
+      "add": "Drafna, Founder of Lat-Nam",
+      "cut": "Curse of Opulence",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_first_role": "Goad with Mark of the Rani on ETB/attack, profit Clues whenever goaded creatures damage your opponents, and monetize Clues with Manufactor/Illuminator/Time Sieve and artifact payoffs.",
+      "rules": [
+        "Drafna's {1}{U} activated ability returns TARGET ARTIFACT YOU CONTROL to hand; bouncing an existing Clue token makes it cease existing instead of preserving it for replay.",
+        "Drafna's {3}, {T} copies a target ARTIFACT SPELL YOU CONTROL on stack; it does not copy already existing Clue tokens, Aura/Mark tokens, or investigate trigger instances.",
+        "An artifact spell copy resolves into a token permanent, but that special spell-copy arrival is not treated as creating a token by a token-creation effect for triggers that care about a token being created.",
+        "Curse of Opulence does not itself goad, but is a one-red-mana curse on a player; when the enchanted player is attacked, its controller creates a Gold token, and attacking opponents can create their own Gold. It promotes profitable forced combats that The Rani exploits for investigations.",
+        "Gold is an artifact mana token, not a Clue; Gold creation is not investigate, so Academy Manufactor does not replace Gold creation purely due to the Curse."
+      ],
+      "strategic_cost": "Replacing low-curve combat-linked Gold incentives with Drafna's artifact spell-copy bounce package removes direct value from attacks against the cursed opponent; relevant repeated *artifact spell* casts and mana to activate Drafna are unmeasured.",
+      "positive_case": "Drafna can rebuy ETB artifact permanents such as Five Hundred Year Diary and copy artifact spells. If a real mana-positive artifact recursion line engages Rani's Clue infrastructure, it may deserve testing against a different cut.",
+      "why_hold": "Raw M5 Spellbook combo completions do not establish the necessary artifact-spell sequences in this exact approved goad deck; Curse of Opulence's combat-vs-artifact token role is distinct and coherent. No evidence the Drafna engine compensates for losing it.",
+      "next_gate": "Reconstruct exact M5 claimed Spellbook interactions with all required pieces in deck, confirm whether copied ARTIFACT SPELLS trigger desired payoffs, compare game-state Gold + attack pressure versus Drafna's mana/turn costs.",
+      "official_current_legality_certified": false,
+      "swap_applied": false,
+      "full_phase_b_complete": false
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "approved_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "add": "Aetheric Amplifier",
+      "cut": "Mox Diamond",
+      "disposition": "PROMISING_UNRESOLVED_DIFFERENT_CUT_NEEDED",
+      "commander_first_role": "Deploy Nicol Bolas, the Ravager; pay transform cost for a new back-face planeswalker object and then proliferate/copy loyalty activations, using planeswalker and Chain Veil infrastructure.",
+      "rules": [
+        "Aetheric Amplifier costs {3}, taps for one mana of any color, and at sorcery speed with {4}, {T} can double the number of each kind of counter on target permanent. Loyalty counters on Nicol Bolas, the Arisen qualify.",
+        "Aetheric Amplifier costs at least three mana and then a further four mana and tap for the loyalty-doubling mode (on different priority windows if needed). It is not a zero-mana acceleration replacement.",
+        "Mox Diamond costs {0}; if it would enter, you may discard a LAND card instead, and only then enters and taps for mana of any color. This can enable early Bolas or the transform sequence when a land can be spared.",
+        "Bolas's transformation is a sorcery-speed activated ability on Ravager which exiles the creature and returns it transformed as a new permanent; it is a seven-mana ability before effects such as Training Grounds, but planeswalker loyalty activations are independent of summoning sickness.",
+        "Doubling counters on target permanent affects loyalty counters but does not create a planeswalker loyalty ability activation or grant an extra legal loyalty activation. A nonland permanent with zero counters stays at zero."
+      ],
+      "strategic_cost": "Removing one of the strongest turn-zero colored accelerants can delay Ravager and the transformation by a turn or more. Aetheric Amplifier's sorcery-speed seven-mana total deployment-plus-activation is substantially slower even if it produces extraordinary Bolas loyalty late.",
+      "positive_case": "The addition is unusually coherent for the Bolas superfriends identity: more loyalty counters improve the transformed Bolas ultimate and can combine with proliferation/doubling/copy abilities; separate non-Mox cut may be appropriate after efficiency review.",
+      "why_hold": "The commander-specific upside is real, but choosing Mox Diamond as its cut sacrifices scarce acceleration in a deck whose commander needs four mana plus a costly transform. No paired timing evidence or other cut identified; retain canonical list.",
+      "next_gate": "Compare the real three-mana deployment + four-mana loyalty doubling activation against existing Deepglow Skate, proliferate and Chain Veil slots; screen lower-impact non-mana candidates, model transform turn and actual loyalty payout; seek independent judgment and owner approval only if supported.",
+      "official_current_legality_certified": false,
+      "swap_applied": false,
+      "full_phase_b_complete": false
+    }
+  ],
+  "global": {
+    "author_reviews_completed": 3,
+    "full_independent_pass_c": 0,
+    "full_phase_b": 0,
+    "approved_swaps": 0,
+    "approved_lists_changed": 0,
+    "M6_accepted": false
+  }
+}
