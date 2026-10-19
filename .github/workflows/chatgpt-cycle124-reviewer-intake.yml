@@ -1,0 +1,61 @@
+name: ChatGPT Cycle124 neutral independent critic intake preparation
+on:
+  push:
+    branches: [chatgpt-cycle124-independent-critic-packets]
+    paths:
+      - .github/workflows/chatgpt-cycle124-reviewer-intake.yml
+      - data/grixis/m6/phase_b_plans/cycle124_reviewer_ready_preregistered_01.json
+      - scripts/grixis_m6_cycle124_reviewer_packets.py
+      - tests/test_m6_cycle124_reviewer_packets.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-locked-neutral-critic-readiness:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify pinned 2026-10-16 Oracle source
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Twelve source and no-fabricated-critic review tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle124_reviewer_packets.py' -v
+      - name: Generate and repeat reviewer source packet bytes
+        run: |
+          python -u scripts/grixis_m6_cycle124_reviewer_packets.py --build
+          python -u scripts/grixis_m6_cycle124_reviewer_packets.py --check
+      - name: Hard gate independent Pass C, M6 acceptance and approval flags
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert len(r['decks'])==62 and p['packet_count']==len(p['packets'])==3
+          assert all(len(x['baseline_list_including_commander'])==len(x['candidate_list_including_commander'])==100 for x in p['packets'])
+          assert all(sum(a!=b for a,b in zip(x['baseline_list_including_commander'],x['candidate_list_including_commander']))==1 for x in p['packets'])
+          assert all(x['prior_author_outcome_not_disclosed'] and not x['strict_blind_independent_execution_claimed'] for x in p['packets'])
+          assert not p['external_critic_assigned'] and not p['independence_verified']
+          assert p['formal_pass_c_completed']==p['external_critic_findings_observed']==0
+          assert p['owner_approved_swaps']==p['canonical_decks_modified']==0
+          assert not p['M6_accepted'] and not p['M7_started']
+          assert t['display']['m6_completed_gates']==3 and t['display']['m7_completed_gates']==0
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json'
+      - name: Upload unassigned review packet bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle124-source-locked-unassigned-critic-packets
+          path: data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json
+          if-no-files-found: error
