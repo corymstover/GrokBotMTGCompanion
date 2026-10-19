@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Lord_Xander__the_Collector",
-    "deep_review_complete_count": 29,
+    "next_tracker_deck_id": "Lynde__Cheerful_Tormentor",
+    "deep_review_complete_count": 30,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -564,10 +564,10 @@
       "baseline_engineering_logical_sha": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Lord_Xander__the_Collector.md",
+      "completed_at_commit": "23d2abfac1814749e22989d22d8506fe29c2a6dd",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39329420102",
       "blocker": null
     },
     {
