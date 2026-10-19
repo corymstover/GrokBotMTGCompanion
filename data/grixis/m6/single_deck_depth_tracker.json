@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Lynde__Cheerful_Tormentor",
-    "deep_review_complete_count": 30,
+    "next_tracker_deck_id": "Mai_and_Zuko",
+    "deep_review_complete_count": 31,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -582,10 +582,10 @@
       "baseline_engineering_logical_sha": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Lynde__Cheerful_Tormentor.md",
+      "completed_at_commit": "c6892876218ac0fa5af52b20f2c040727e883cd2",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39333292961",
       "blocker": null
     },
     {
