@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_121",
+  "snapshot": "after_cycle_123",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "fdfcd1ea1c78abbee62934ab844078772d5f0766",
+    "engineering_head": "66841ee076945faafa749e484e9bf3d59d51400f",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 121,
+    "last_cycle_merged": 123,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -107,9 +107,11 @@
         "evidence": [
           "data/grixis/m6/phase_b_bounded/cycle118_paired_goldfish_interpretation_01.md",
           "data/grixis/m6/phase_b_bounded/cycle120_physical_access_interpretation_01.md",
-          "data/grixis/m6/phase_b_bounded/cycle121_basic_paid_cast_interpretation_01.md"
+          "data/grixis/m6/phase_b_bounded/cycle121_basic_paid_cast_interpretation_01.md",
+          "data/grixis/m6/phase_b_plans/cycle122_nonbasic_source_casts_prereg_01.json",
+          "data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_interpretation_01.md"
         ],
-        "scope": "Bounded source/draw/mana/rules probes are run for 3 example decks; 0 decks have complete effect-aware Phase B plus stress/red-team certification."
+        "scope": "Bounded source/draw, 19-land conditional mana, finite rules and scripted counterspell fixtures run for 3 example decks; Cycle123 opponent spell is hypothetical, not actual multiplayer. Zero decks have complete effect-aware Phase B plus stress/red-team certification."
       },
       {
         "id": "M6.7",
