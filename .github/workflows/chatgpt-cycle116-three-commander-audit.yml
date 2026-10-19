@@ -1,0 +1,58 @@
+name: ChatGPT Cycle116 commander-first source and Oracle verification
+on:
+  push:
+    branches: [chatgpt-cycle116-three-commander-audit]
+    paths:
+      - .github/workflows/chatgpt-cycle116-three-commander-audit.yml
+      - data/grixis/m6/phase_b_plans/cycle116_three_decks_preregistered_01.json
+      - data/grixis/m6/author_reviews/cycle116_commander_first_reviews_01.json
+      - data/grixis/m6/critic_batches/cycle116_preliminary_critique_01.md
+      - scripts/grixis_m6_cycle116_commander_reviews.py
+      - tests/test_m6_cycle116_commander_reviews.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  archived-oracle-source-gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Obtain archived Oracle and verify exact source hash
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Commander-first positive, adverse and regression tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle116_commander_reviews.py' -v
+      - name: Build and deterministically replay source-specific receipt
+        run: |
+          python scripts/grixis_m6_cycle116_commander_reviews.py --build
+          python scripts/grixis_m6_cycle116_commander_reviews.py --check
+      - name: Reject unauthorized approval, fake independent review and any M6 promotion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle116_sourced_review_validation_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert d['review_count']==3
+          assert d['canonical_decks_modified']==0 and d['swaps_approved_or_applied']==0
+          assert d['formal_independent_pass_c_count']==d['effect_aware_multiplayer_phase_b_count']==0
+          assert not d['entire_deck_current_official_legality_certified'] and not d['source_bytes_independently_rehashed']
+          assert d['M6_accepted'] is False
+          assert all(v is False for v in d['authority'].values())
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle116_sourced_review_validation_01.json'
+      - name: Upload verified bounded source receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle116-sourced-commander-review
+          path: data/grixis/m6/phase_b_bounded/cycle116_sourced_review_validation_01.json
+          if-no-files-found: error
