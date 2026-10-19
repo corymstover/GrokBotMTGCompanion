@@ -10,7 +10,7 @@ from collections import Counter
 def load(p):return json.loads((ROOT/p).read_text())
 def validate():
  rows=load("data/grixis/m6/author_reviews/cycle130_six_detailed_01.json")
- plan=load("data/grixis/m6/phase_b_plans/cycle130_six_commander_reviews_preregistered_01.json")
+ plan=load("data/grixis/m6/phase_b_plans/cycle130_six_commander_preregistered_01.json")
  reg=load("data/grixis/registry.json");track=load("data/grixis/milestone_m6_m7_subtracker.json")
  queues={x["deck_id"]:x for x in load("data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json")["ordered_decks"]}
  prior=load("data/grixis/m6/author_reviews/cycle129_six_detailed_01.json")
