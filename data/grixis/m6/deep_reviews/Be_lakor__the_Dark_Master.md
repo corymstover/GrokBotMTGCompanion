@@ -147,7 +147,7 @@ Source pool from `data/grixis/m6/optimizer/belakor-the-dark-master.json`: 267 Pa
 11. **Abyssal Harvester** targets a grave creature CARD put there THIS turn; token copies retain Demon type ONLY if original copy's creature types include Demon, plus Nightmare. Other Nightmare tokens are exiled, limiting persistent Demon multiplication. **Ancient Cellarspawn** is Horror, not Demon, although discounts Demon and triggers life-loss from spell mana discounts.
 12. **Patriarch's Bidding** returns creature cards of each player's chosen type for EVERY PLAYER, not only controller's Demons; mass Demon ETBs trigger multiple Lords (simultaneous event sees all Demons). Can revive enemy threats, and graveyard hate/countermagic can prevent payoff.
 13. **Gyruda** printed Companion wording has restriction only if Gyruda chosen as outside-deck companion; as a normal Demon in 99, no even-cost deck-building constraint. Its ETB mines FOUR cards from EACH library but only one chosen even-MV creature enters.
-14. Printed Demon type, copied type, legend rule, last known power and card legal targets are material. No newly identified Commander color or ban violation from Oct15 audit. No project-authorized exceptions used.
+14. Printed Demon type, copied type, legend rule, last known power and card legal targets are material. No newly identified Commander color or ban violation from Oct15 audit. This report uses archived 94-row per-card Oracle evidence, not a claim of 94 new Scryfall network queries. No project-authorized exceptions used.
 
 ## Finite sequencing and adversarial scenarios
 
