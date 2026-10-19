@@ -34,7 +34,7 @@ ORACLE={
 "Mai and Zuko":["firebending 3","artifact spells as though they had flash"],
 "The Enigma Jewel // Locus of Enlightenment":["enters tapped","only to activate abilities"],
 "An Offer You Can't Refuse":["counter target noncreature spell","two treasure tokens"],
-"Basalt Monolith":["add {c}{c}{c}","untap basalt monolith"],
+"Basalt Monolith":["doesn't untap during your untap step","add {c}{c}{c}","untap this artifact"],
 "Rings of Brighthearth":["activate an ability","if it isn't a mana ability","pay {2}","copy that ability"]
 }
 EXACT={
