@@ -1,0 +1,83 @@
+{
+  "cycle": 124,
+  "schema_version": 1,
+  "status": "PREREGISTERED_NO_CRITIC_ASSIGNED",
+  "base_commit": "d01e0c63cb74856b239f9aa5c2d1fb6a48b952f6",
+  "objective": "Make three neutral independent-review intake packets for the highest-priority unresolved commander-first swaps. Bind factual source evidence without leaking 15 author judgments as independent critique. Produce a machine-checkable separate critic-response template; do not self-certify Pass C.",
+  "author_review_firewall": {
+    "excluded_from_pre_assignment_packets": [
+      "data/grixis/m6/author_reviews/",
+      "cycle117_counterfactual_protocols_01.json author opinions",
+      "M5 candidate score and rank",
+      "Cycles118-123 interpreted verdicts"
+    ],
+    "included": [
+      "source deck identity and full approved 99+1 names",
+      "swapped one-card challenger with independent logical hash",
+      "frozen Oracle text of proposed addition and removal",
+      "commander blueprint's original non-evaluative plan/requirements",
+      "six neutral disputed-mechanic review questions",
+      "raw source/blueprint SHA receipts"
+    ],
+    "qualification": "Packet preparation by ChatGPT is not independent review. Source repository remains accessible, so this is a non-leading briefing, NOT strict independent blinded execution."
+  },
+  "cases": [
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "source_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+      "source_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "source_m5_swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "baseline": "Opposition Agent",
+      "candidate": "Aphetto Alchemist",
+      "source_author_cycle": 112
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "source_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+      "source_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "source_m5_swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "baseline": "Mox Diamond",
+      "candidate": "Aetheric Amplifier",
+      "source_author_cycle": 114
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "source_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+      "source_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "source_m5_swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "baseline": "An Offer You Can't Refuse",
+      "candidate": "The Enigma Jewel // Locus of Enlightenment",
+      "source_author_cycle": 115
+    }
+  ],
+  "critic_intake": {
+    "reviewer_id": null,
+    "reviewer_affiliation": null,
+    "not_the_original_author": null,
+    "reviewer_declares_no_prior_author_verdict_access": null,
+    "reviewer_independence_evidence": null,
+    "per_candidate_mechanics_findings": null,
+    "adversarial_approved_cut_cost": null,
+    "commander_identity_assessment": null,
+    "challenger_fit_assessment": null,
+    "legal_oracle_checks": null,
+    "empirical_coverage_limits": null,
+    "conclusion": null,
+    "evidence_links": null,
+    "independent_pass_c_completed": false
+  },
+  "reporting": {
+    "prepared_cases": 3,
+    "formal_pass_c_complete": 0,
+    "phase_b_completed": 0,
+    "canonical_decks_modified": 0,
+    "source_approved_swaps": 0,
+    "m6_accepted": false,
+    "m7_started": false
+  },
+  "next_gate": "A genuinely independent named critic evaluates the exact immutable packets, supplies dated attributable source-specific critical findings and conflict-resolution receipts. Until then 0 Pass C reviews.",
+  "output": "data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json"
+}
