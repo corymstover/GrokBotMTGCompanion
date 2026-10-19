@@ -1,0 +1,40 @@
+name: ChatGPT Grixis interchangeable-name reconciliation
+on:
+  push:
+    branches: [chatgpt-goben-norman-name-equivalence]
+    paths:
+      - .github/workflows/chatgpt-name-equivalences.yml
+      - data/grixis/commander_name_equivalences.json
+      - scripts/grixis_commander_name_equivalences.py
+      - tests/test_grixis_commander_name_equivalences.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-identity-mapping:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run positive, negative and no-certification regression tests
+        run: python -m unittest discover -s tests -p 'test_grixis_commander_name_equivalences.py' -v
+      - name: Reconstruct 62 unique canonical-to-engineering identities
+        run: python scripts/grixis_commander_name_equivalences.py --check
+      - name: Assert all canonical states remain outside change scope
+        run: |
+          git diff --exit-code
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          a=json.loads(Path('data/grixis/commander_name_equivalences.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert len(a['canonical_deck_ids'])==62
+          assert len(r['decks'])==62
+          assert a['certification_claims']['approved_card_swaps']==0
+          assert a['certification_claims']['full_m8_certification'] is False
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          PY
