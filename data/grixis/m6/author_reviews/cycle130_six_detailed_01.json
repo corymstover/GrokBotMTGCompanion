@@ -1,0 +1,139 @@
+{
+  "cycle": 130,
+  "schema_version": 1,
+  "source": "Current 62-deck M5 triage and locked canonical engineering decklists",
+  "reviewer": "ChatGPT; original author, not independent Pass C",
+  "review_count": 6,
+  "prior_authored": 27,
+  "authored_if_verified": 33,
+  "disposition": "HOLD_ALL_EXACT_CANDIDATES_PENDING_MORE_TESTS",
+  "rows": [
+    {
+      "deck_id": "Obeka__Brute_Chronologist",
+      "add": "Godo, Bandit Warlord",
+      "cut": "Gamble",
+      "reason": "Obeka turns vulnerable end-step delayed triggers into permanent resources or safe risky extra turns. Godo is an Equipment tutor and combat enabler but no documented commander-specific delayed liability is created by merely casting it.",
+      "positive": "Godo finds equipment on entering and might provide repeat attacks with combat setup; a specifically verified Helm of the Host line could produce win pressure if both cards were present.",
+      "cut_cost": "One-mana Gamble is an exceptionally low-cost tutor for final Fortune, Isochron Scepter, haste and delayed-trigger engines even though it discards randomly.",
+      "rules": [
+        "Obeka ends the turn only when her tapped activated ability resolves, exiling spells and abilities on stack.",
+        "Extra-turn lose-game triggers should be put on the stack before ending the turn; premature activation does not permanently suppress future end-step triggers.",
+        "Godo tutors Equipment on creature entry; that ability does not by itself repeat delayed triggers.",
+        "Godo's first attack extra-combat effect benefits Samurai and equipment lines, not automatically Obeka's key delayed-loss timing.",
+        "An equipment-based Godo kill requires actual supporting equipment and accessible mana, neither inferred from M5 combo indexing."
+      ],
+      "next": "Verify all Godo/Helm cards in exact approved 99, and source-paid delayed-trigger turn versus Gamble tutored Final Fortune.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "add": "Tidespout Tyrant",
+      "cut": "Feed the Swarm",
+      "reason": "Doctor Doom converts separately discarded land cards into opponent life loss and recycles the lands; an eight-mana generic cast-spell bounce creature does not generate land-discard events.",
+      "positive": "A paid Tidespout can bounce opposing permanents and sometimes recycle own discard enablers if sufficient spells remain.",
+      "cut_cost": "Feed the Swarm is affordable black removal of enemy enchantments or creatures, crucial for keeping discard outlets and graveyard recursion operational.",
+      "rules": [
+        "Doom's payoff requires discarding land cards, not casting generic spells.",
+        "Tidespout triggers on its controller casting spells, which creates bounces rather than land discard.",
+        "Tidespout does not itself retrigger Seismic Assault unless lands are discarded through a separate effect.",
+        "Feed the Swarm can target an opposing enchantment, an uncommon role in black removal.",
+        "A costed eight-mana creature is not interchangeable with an early sorcery-speed answer."
+      ],
+      "next": "Trace an accessible Tidespout plus true land-discard engine turn and opposing-enchantment removal scenarios.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Mairsil__the_Pretender",
+      "add": "Wound Reflection",
+      "cut": "Training Grounds",
+      "reason": "Mairsil's toolbox relies on activated abilities of exiled cage cards. Training Grounds reduces the mana costs of creature activated abilities; Wound Reflection amplifies life loss but does not cheapen or repeat a cage activation.",
+      "positive": "If Mairsil activates source-listed loss-of-life abilities repeatedly, Wound Reflection may pressure the whole table at end steps.",
+      "cut_cost": "Training Grounds reduces activation costs (minimum one mana) of Mairsil's copied creature abilities and helps cast follow-up toolbox interactions the deck actually needs.",
+      "rules": [
+        "Mairsil can activate abilities of caged artifact or creature cards as though Mairsil has them, subject to once-per-ability restrictions.",
+        "Training Grounds reduces cost only for activated abilities of creatures its controller controls, not spells.",
+        "Mairsil is a creature so its activated cage abilities can be discounted unless relevant cost restrictions apply.",
+        "Wound Reflection triggers at the beginning of each end step, checking each opponent's life lost this turn; it is not itself an activated ability.",
+        "Removing Training Grounds can turn legal mana-positive or mana-neutral cage sequences into mana-negative lines."
+      ],
+      "next": "Build an exact source cage ability/payment ledger with/without Training Grounds and compare Wound Reflection's finite end-step damage.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Admiral_Beckett_Brass",
+      "add": "Prosperous Pirates",
+      "cut": "Jeska's Will",
+      "reason": "A Treasure-producing Pirate advances pirate density, but Beckett needs three different Pirates to connect against the same player; a five-mana body without innate evasion is not automatically enough.",
+      "positive": "Prosperous Pirates adds a Pirate body and two Treasure tokens on ETB, potentially funding interaction and supporting a later three-Pirate assault.",
+      "cut_cost": "Jeska's Will is a three-mana fast resource spell or impulse refill, unusually important for deploying several evasive pirates in one turn.",
+      "rules": [
+        "Beckett checks three or more Pirates dealing combat damage to the same player during one turn.",
+        "Prosperous Pirates' ETB creates two Treasures; tokens are artifacts not Pirates.",
+        "The Pirates' body does not itself evade blockers; connection probability matters for the steal trigger.",
+        "Jeska's Will can produce mana based on target opponent's hand or exile playable cards, with both modes when a commander is controlled.",
+        "Taking a higher creature count is not enough if it delays the three-distinct-Pirates theft threshold."
+      ],
+      "next": "Paired attacker-count and colored-source turns against two blocker densities, including Jeska's Will immediate line.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Tetsuo_Umezawa",
+      "add": "Gilded Lotus",
+      "cut": "Talisman of Creativity",
+      "reason": "Tetsuo has an expensive multicolor tap-activated creature-kill engine. Lotus yields three mana of one chosen color but enters at five mana, whereas two-mana Talisman gives an early U or R plus colorless.",
+      "positive": "Lotus can provide a repeatable three-mana contribution to UBBR Tetsuo activations in a slow board stall, especially black pips if others pay blue/red.",
+      "cut_cost": "Talisman accelerates earlier, fixes at least one blue or red pip and supports commander deployment; replacing it increases curve by three.",
+      "rules": [
+        "Tetsuo's activation requires UBBR and tapping, so one Gilded Lotus tap for one color does not alone pay all colored pips.",
+        "Gilded Lotus costs five mana and taps to add three mana of any one color.",
+        "Talisman of Creativity costs two and adds colorless without loss or U/R at a life cost.",
+        "Extra untap effects only increase the utility of Gilded Lotus after it resolves and can activate.",
+        "Source paid mana/color access must be measured before describing Lotus as an acceleration improvement."
+      ],
+      "next": "Trace Tetsuo source-paid UBBR activations with actual land/color access under Talisman vs Lotus.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    },
+    {
+      "deck_id": "Lord_Xander__the_Collector",
+      "add": "Young Necromancer",
+      "cut": "Gamble",
+      "reason": "Xander's controller wants to cast/reanimate/clone an expensive commander repeatedly. Young Necromancer can return creatures from the graveyard but needs its own entry timing and graveyard resources; Gamble is a cheap tutor for these routes.",
+      "positive": "Young Necromancer can return a milled Xander or copied pressure creature directly if its specific reanimation condition is met.",
+      "cut_cost": "One-mana Gamble searches for an arbitrary engine such as Reanimate, Animate Dead, Helm of the Host or haste, with random discard that may help Xander reanimation.",
+      "rules": [
+        "Xander triggers different effects on entering, attacking and dying, so reanimating can realize a commander-specific enter ability.",
+        "Young Necromancer enters and can reanimate a creature if graveyard creature-card requirements are paid.",
+        "Young Necromancer is not a universal tutor and requires a previously stocked graveyard.",
+        "Gamble's random discard happens after the searched card is placed in hand and can put an otherwise useful card into graveyard.",
+        "A five-mana creature reanimation swap is slower than a cheap tutor unless special repeatable ETB access is demonstrated."
+      ],
+      "next": "Verify Young Necromancer exact Oracle cost/condition and compare Xander reanimation across paired hands.",
+      "approved_swaps": 0,
+      "independent_pass_c": false,
+      "complete_phase_b": false,
+      "current_legal_audit": false
+    }
+  ],
+  "global": {
+    "canonical_changes": 0,
+    "m6_accepted": false,
+    "m7_started": false,
+    "independent_pass_c_completed": 0,
+    "effect_aware_phase_b_completed": 0
+  }
+}
