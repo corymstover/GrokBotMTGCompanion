@@ -1,0 +1,85 @@
+{
+  "cycle": 113,
+  "status": "preregistered_before_authored_review",
+  "milestone": "M6",
+  "scope": "three_diverse_new_commander_first_reviews_plus_adversarial_cycle112_reinspection",
+  "new_reviews": [
+    {
+      "deck_id": "Kefka__Court_Mage",
+      "slug": "kefka-court-mage",
+      "add": "Hullbreaker Horror",
+      "cut": "Orcish Bowmasters",
+      "source_swap_id": "swap:kefka-court-mage:m5:576cc2cc3744",
+      "focus": [
+        "Kefka ETB/attack per-card-type discard draw versus generic 7-mana bounce engine",
+        "Bowmasters retained 2-mana flash/wheel punish role",
+        "cEDH combo tempo, not just Spellbook combo count"
+      ]
+    },
+    {
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "slug": "sauron-lord-of-the-rings",
+      "add": "Aggravated Assault",
+      "cut": "Mystic Remora",
+      "source_swap_id": "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+      "focus": [
+        "Eight-mana Sauron has a CAST reanimation trigger, not an attack trigger",
+        "Assault sorcery-speed additional combat requiring 3RR and creatures capable of attacking",
+        "No auto-combo from Spellbook if necessary other pieces absent",
+        "Nazgûl four copies are officially allowed by card text, distinct from a banned-card project exception"
+      ]
+    },
+    {
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "slug": "nathan-drake-treasure-hunter",
+      "add": "Godo, Bandit Warlord",
+      "cut": "Vampiric Tutor",
+      "source_swap_id": "swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+      "focus": [
+        "Nathan attacks and heists without combat damage requirement",
+        "Godo extra combat only untaps itself and Samurai, not Nathan without an independent untap/vigilance line",
+        "Godo finds Equipment on entry but costs six mana; loses one-mana Vampiric unrestricted tutor",
+        "Preserve Nathan's combat engine and no generic cEDH combo homogenization"
+      ]
+    }
+  ],
+  "retrospective_reviews": [
+    {
+      "deck_id": "Cormela__Glamour_Thief",
+      "issue": "Consider whether Archaeomancer's reanimation copy opportunities would matter despite four mana and Cormela's instant/sorcery restriction; explicitly mark no actual win-rate proof"
+    },
+    {
+      "deck_id": "Ashnod_the_Uncaring",
+      "issue": "Check Detective's Satchel Clues truly have sacrificed-artifact ACTIVATION COST while Satchel's Thopter tap only checks past sacrifice; no false all-ability-copy claim"
+    },
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "issue": "Analyze Aphetto Alchemist with Illusionist's Bracers using untap Alchemist and Gwendlyn separately; unlimited reusable untaps may imply arbitrarily many random discards but still requires own-turn activated Gwendlyn, opponent cards and target legality; independently review whether prior 'promising unresolved' understated commander synergy"
+    }
+  ],
+  "required_sources": [
+    "Exact three approved raw 100-card TXT files from canonical repository and registry recorded sha256",
+    "M6 blueprints, first review swap IDs, commander plan, protected core and list package counts",
+    "Cycle112 own authored strategic reviews and frozen Oracle checks",
+    "Pinned 2026-10-16 Scryfall bulk Oracle archive; date-current legality not certified by snapshot"
+  ],
+  "acceptance": [
+    "Three new source-specific author judgments; each reviewed cut currently present and add absent",
+    "Significant cost/rules tradeoffs with commander-specific mechanism, not generic candidate score",
+    "Retrospective critique may openly disagree with Cycle112 author outcomes; no false formal independent critic accreditation",
+    "Full 99+commander integrity from source; source hashes consistent with authoritative approval; no changes to locked decks",
+    "Exact Oracle text checked for three commanders, 6 swap cards, and relevant Aphetto/Bracers triggers",
+    "No formal M6 Phase B, no zero-improvement certificate, no accepted milestone or any card swap without user approval"
+  ],
+  "outputs": [
+    "data/grixis/m6/author_reviews/cycle113_three_new_commander_reviews_01.json",
+    "data/grixis/m6/critic_batches/cycle113_cycle112_adversarial_self_review.md",
+    "data/grixis/m6/phase_b_bounded/cycle113_sourced_review_validation_01.json"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}

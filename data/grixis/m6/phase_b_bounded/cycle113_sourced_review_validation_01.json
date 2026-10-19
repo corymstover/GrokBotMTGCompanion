@@ -1,0 +1,167 @@
+{
+  "M6_accepted": false,
+  "adversarial_cycle112_reassessment_count": 3,
+  "approved_decks_modified": 0,
+  "authored_reviews_sha256": "sha256:516fa4014bc63c40992f294b92b9dd7d8e538f2bfc0b040804eb3010ebfa9b45",
+  "authority": {
+    "can_approve_or_lock": false,
+    "can_certify_M6": false,
+    "can_change_decklists": false,
+    "can_decide": false
+  },
+  "cycle": 113,
+  "cycle111_triage_sha256": "sha256:48b8a515308eef0020f92f00f68b4d37e763efee28a71f20501e804f3e831889",
+  "cycle112_prior_sha256": "sha256:81a461981ea77c7ef966bb3e43649cba9960f13073a350c94d211e95a0874383",
+  "effect_aware_balanced_phase_B_completed": 0,
+  "formal_independent_Pass_C_reviews_completed": 0,
+  "new_commander_author_reviews_count": 3,
+  "new_owner_approvals": 0,
+  "new_source_verified_decks": [
+    {
+      "actual_commanders": 1,
+      "actual_main_cards": 99,
+      "actual_opponent_game_simulation_completed": false,
+      "approved_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+      "blueprint_sha256": "sha256:01a9f213a4afda97be2e833d3a809b2c15de639751a32a884344f1178b6f20e4",
+      "canonical_deck_changed": false,
+      "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "commander_blueprint_required_core_preserved": true,
+      "commander_specific_source_review": "HOLD_EXISTING_LIST_NO_SWAP",
+      "deck_id": "Kefka__Court_Mage",
+      "independent_Pass_C_completed": false,
+      "proposed_add_absent": true,
+      "proposed_cut_present": true,
+      "source_M5_review_swap_id": "swap:kefka-court-mage:m5:576cc2cc3744",
+      "source_P0_agreement_not_an_approval": true,
+      "tested_pool_zero_improvement_certified": false
+    },
+    {
+      "actual_commanders": 1,
+      "actual_main_cards": 99,
+      "actual_opponent_game_simulation_completed": false,
+      "approved_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+      "blueprint_sha256": "sha256:0a1560d2ee4e5d17d9015f50c0f2ce5058839af46b3f16cab4086bee8067ffa1",
+      "canonical_deck_changed": false,
+      "commander": "Sauron, Lord of the Rings",
+      "commander_blueprint_required_core_preserved": true,
+      "commander_specific_source_review": "HOLD_EXISTING_LIST_NO_SWAP",
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "independent_Pass_C_completed": false,
+      "proposed_add_absent": true,
+      "proposed_cut_present": true,
+      "source_M5_review_swap_id": "swap:sauron-lord-of-the-rings:m5:31ef2948da79",
+      "source_P0_agreement_not_an_approval": true,
+      "tested_pool_zero_improvement_certified": false
+    },
+    {
+      "actual_commanders": 1,
+      "actual_main_cards": 99,
+      "actual_opponent_game_simulation_completed": false,
+      "approved_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+      "blueprint_sha256": "sha256:0a0a6c5b40c38e6026c36adf526af5112f30f9bcab17e73fdfeeb99f48650f64",
+      "canonical_deck_changed": false,
+      "commander": "Nathan Drake, Treasure Hunter",
+      "commander_blueprint_required_core_preserved": true,
+      "commander_specific_source_review": "HOLD_EXISTING_LIST_NO_SWAP",
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "independent_Pass_C_completed": false,
+      "proposed_add_absent": true,
+      "proposed_cut_present": true,
+      "source_M5_review_swap_id": "swap:nathan-drake-treasure-hunter:m5:79373d803b78",
+      "source_P0_agreement_not_an_approval": true,
+      "tested_pool_zero_improvement_certified": false
+    }
+  ],
+  "official_current_legality_reverified": false,
+  "plan_sha256": "sha256:127f5a72f6c3f6c94fe91a7962c265b81cf7b93a308115f17419757c9d4f0376",
+  "real_independent_reviewers_not_claimed": true,
+  "reviewed_holds_do_not_certify_all_candidate_pools": true,
+  "schema_version": 1,
+  "source_registry_sha256": "sha256:c6004376d9324479d75ed3a94a4a389c600e57a2384bf77cc466ab86e128dba0",
+  "verified_frozen_oracle_records": {
+    "Aggravated Assault": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{2}{R}",
+      "oracle_sha256": "sha256:45fa73c6b72f87a9abc29e6fc6b2f80a598bcd58623b05b7d6e4ccbb1f5d8370",
+      "type_line": "Enchantment"
+    },
+    "Aphetto Alchemist": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{1}{U}",
+      "oracle_sha256": "sha256:b4222274ac3694853dd5e80318041483db44de357c1070880979dee0176910bb",
+      "type_line": "Creature — Human Wizard"
+    },
+    "Godo, Bandit Warlord": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{5}{R}",
+      "oracle_sha256": "sha256:872698677947b33d784c5bd78bd0f3cfd6013ba6911491ecbbe9353b2cc41a1b",
+      "type_line": "Legendary Creature — Human Barbarian"
+    },
+    "Gwendlyn Di Corci": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{U}{B}{B}{R}",
+      "oracle_sha256": "sha256:a6cb43974d127c10c33d19d96022fd3a7953044bd3302d279e4926c478b83611",
+      "type_line": "Legendary Creature — Human Rogue"
+    },
+    "Hullbreaker Horror": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{5}{U}{U}",
+      "oracle_sha256": "sha256:740c218017e07964ce6ab4ef55e3270710fc1e34d8689e04d63f0dbdf6c9e8d6",
+      "type_line": "Creature — Kraken Horror"
+    },
+    "Illusionist's Bracers": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{2}",
+      "oracle_sha256": "sha256:038de499e0a862298fd619fd9e81b4d74f8e13d5a0985c1bdcd42aa0904b166f",
+      "type_line": "Artifact — Equipment"
+    },
+    "Kefka, Court Mage // Kefka, Ruler of Ruin": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": null,
+      "oracle_sha256": "sha256:270bca8ba86c379b19245e97c795be57591922918196bc520aae64d284bf4502",
+      "type_line": "Legendary Creature — Human Wizard // Legendary Creature — Avatar Wizard"
+    },
+    "Mystic Remora": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{U}",
+      "oracle_sha256": "sha256:4c1b24efecbfc96ef5aa572d00c124322ce5f061349ecbec21e3a0676021a00b",
+      "type_line": "Enchantment"
+    },
+    "Nathan Drake, Treasure Hunter": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{U}{B}{R}",
+      "oracle_sha256": "sha256:aaf5b9218d75a8c532c284a525fd8ffd6fbc858151cf2e8a9928c24243ee132a",
+      "type_line": "Legendary Creature — Human Rogue"
+    },
+    "Nazgûl": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{2}{B}",
+      "oracle_sha256": "sha256:f403d9f27b5ac98d02c292e9eaae924b946047caef2d9038b134588bf98b01fb",
+      "type_line": "Creature — Wraith Knight"
+    },
+    "Orcish Bowmasters": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{1}{B}",
+      "oracle_sha256": "sha256:c2c7596e58d8707e6ae25cd121d0011b5457d8bda3c376e9907d5a01d81e4e10",
+      "type_line": "Creature — Orc Archer"
+    },
+    "Pemmin's Aura": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{1}{U}{U}",
+      "oracle_sha256": "sha256:33d94092eed0f4f54fb0be4cc80d9ac4dabf0c4d885c5e1a26d47507a1d503d7",
+      "type_line": "Enchantment — Aura"
+    },
+    "Sauron, Lord of the Rings": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{5}{U}{B}{R}",
+      "oracle_sha256": "sha256:7c318c08a51178df942c839c683609d7e1ff48d6e5ae3509623eeaa32d92ed3f",
+      "type_line": "Legendary Creature — Avatar Horror"
+    },
+    "Vampiric Tutor": {
+      "as_of_frozen_archive_not_current_legality": true,
+      "mana_cost": "{B}",
+      "oracle_sha256": "sha256:7385e3c971920475e4c1a0d64fe7252e38ae6cab1368987d0bed7822fc90eb27",
+      "type_line": "Instant"
+    }
+  }
+}

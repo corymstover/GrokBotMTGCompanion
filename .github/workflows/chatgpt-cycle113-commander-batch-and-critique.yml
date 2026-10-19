@@ -1,0 +1,84 @@
+name: ChatGPT Cycle113 diverse commander-first authored reviews and critique
+on:
+  push:
+    branches: [chatgpt-cycle113-commander-batch-and-critique]
+    paths:
+      - .github/workflows/chatgpt-cycle113-commander-batch-and-critique.yml
+      - data/grixis/m6/phase_b_plans/cycle113_commander_reviews_01.json
+      - data/grixis/m6/author_reviews/cycle113_three_commander_review_01.json
+      - scripts/grixis_m6_cycle113_commander_reviews.py
+      - tests/test_m6_cycle113_commander_reviews.py
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: cycle113-commander-batch-and-critique
+  cancel-in-progress: true
+jobs:
+  source-bound-commander-reviews:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chatgpt-cycle113-commander-batch-and-critique
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Restore frozen 2026 October Oracle archive hash
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Adversarial three-list Oracle and nonpromotion regression
+        run: python -m unittest discover -s tests -p 'test_m6_cycle113_commander_reviews.py' -v
+      - name: Build 3 source-specific commander conclusions and Cycle112 critique provenance
+        run: python -u scripts/grixis_m6_cycle113_commander_reviews.py --build
+      - name: Reproduce exact Oracle and 99-plus-commander source audit
+        run: python -u scripts/grixis_m6_cycle113_commander_reviews.py --check
+      - name: Reject any false formal independent Pass C, swap or M6 acceptance
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle113_sourced_review_validation_01.json').read_text())
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          a=json.loads(Path('data/grixis/m6/author_reviews/cycle113_three_commander_review_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert all(reg['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert reg['program']['milestones']['M6']['status']=='in_progress'
+          assert reg['program']['milestones']['M6']['accepted_by'] is None
+          assert d['cycle']==113 and d['new_commander_author_reviews_count']==3
+          assert d['adversarial_cycle112_reassessment_count']==3
+          assert len(d['new_source_verified_decks'])==3
+          assert len(d['verified_frozen_oracle_records'])>=13
+          assert not d['official_current_legality_reverified']
+          assert d['real_independent_reviewers_not_claimed']
+          assert d['formal_independent_Pass_C_reviews_completed']==0
+          assert d['effect_aware_balanced_phase_B_completed']==0
+          assert d['approved_decks_modified']==d['new_owner_approvals']==0
+          assert all(v is False for v in d['authority'].values())
+          assert d['M6_accepted'] is False
+          for row in d['new_source_verified_decks']:
+            assert row['actual_main_cards']==99 and row['actual_commanders']==1
+            assert row['proposed_cut_present'] and row['proposed_add_absent']
+            assert not row['canonical_deck_changed'] and not row['tested_pool_zero_improvement_certified']
+          assert a['global_gates']['user_approved_swaps']==0
+          print('Three source-bound commander holds; Cycle112 retrospective, no fake certificate')
+          PY
+          if git diff --name-only HEAD | grep -Ev '^data/grixis/m6/phase_b_bounded/' | grep -q .; then
+            echo 'Protected tracked source changed';exit 1
+          fi
+      - name: Commit only bounded source verification receipt
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/grixis/m6/phase_b_bounded/cycle113_sourced_review_validation_01.json
+          if git diff --cached --quiet; then
+            echo 'Derived receipt current'
+          else
+            git commit -m 'Cycle113 source-verified 3 Commander-first hold reviews and retrospective [skip ci]'
+            git pull --rebase origin chatgpt-cycle113-commander-batch-and-critique
+            git push origin HEAD:chatgpt-cycle113-commander-batch-and-critique
+          fi
