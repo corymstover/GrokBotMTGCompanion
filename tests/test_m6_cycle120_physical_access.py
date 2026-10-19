@@ -85,6 +85,13 @@ class Cycle120SourceTests(unittest.TestCase):
   self.assertEqual(self.reg["program"]["milestones"]["M6"]["status"],"in_progress")
   self.assertTrue(all(v is False for v in self.p["authority"].values()))
   self.assertEqual(self.p["sampling"]["samples_per_deck"],8192)
+ def test_null_and_wrong_arm_source_requirements_fail_closed(self):
+  p=copy.deepcopy(self.p)
+  p["studies"][0]["opportunities"][2]["required_main"]=[None]
+  with self.assertRaises(ValueError):m.verify_plan(p,self.reg,self.old,self.proto)
+  p=copy.deepcopy(self.p)
+  p["studies"][1]["opportunities"][1]["required_main"]=["Mox Diamond"]
+  with self.assertRaises(ValueError):m.verify_plan(p,self.reg,self.old,self.proto)
  def test_example_witness_rejects_missing_required_source_card(self):
   names=["Mox Diamond"]+["Filler "+str(i) for i in range(98)]
   perm=list(range(99))
