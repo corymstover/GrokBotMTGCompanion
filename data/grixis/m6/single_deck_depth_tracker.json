@@ -18,9 +18,9 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": "Be_lakor__the_Dark_Master",
-    "next_tracker_deck_id": "Be_lakor__the_Dark_Master",
-    "deep_review_complete_count": 6,
+    "active_tracker_deck_id": null,
+    "next_tracker_deck_id": "Cecily__Bjorna__Lutri",
+    "deep_review_complete_count": 7,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -148,10 +148,10 @@
       "baseline_engineering_logical_sha": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
       "source_identity_discrepancy": "IDENTIFIER_ALIAS_NEEDS_CONFIRMATION",
       "source_identity_issue": "Canonical, tracker, and/or engineering deck ID normalization differs; identical approved SHA verified. State and verify alias explicitly in deck review.",
-      "status": "IN_PROGRESS",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Be_lakor__the_Dark_Master.md",
+      "completed_at_commit": "0b9f1c0c306607217eb08ecc7301c1ee723f41ea",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39238646192",
       "blocker": null
     },
     {
