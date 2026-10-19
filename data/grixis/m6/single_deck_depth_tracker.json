@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Inalla__Archmage_Ritualist",
-    "deep_review_complete_count": 22,
+    "next_tracker_deck_id": "Jeleva__Nephalia_s_Scourge",
+    "deep_review_complete_count": 23,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -437,10 +437,10 @@
       "baseline_engineering_logical_sha": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Inalla__Archmage_Ritualist.md",
+      "completed_at_commit": "d793e1cc1bbb1a88dc69ed8bd878945b727ed307",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39304266458",
       "blocker": null
     },
     {
