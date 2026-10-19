@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "cycle": 123,
+  "status": "preregistered_before_result_generation",
+  "depends_on": {
+    "cycle122_pr": 230,
+    "cycle122_merge_sha": "d6c4bf4076310d23e93af60e10e81fbe950200a9",
+    "active_branch": "chatgpt-cycle76-m6-refinement",
+    "source_cycle122_plan": "data/grixis/m6/phase_b_plans/cycle122_nonbasic_source_casts_prereg_01.json",
+    "source_engine": "scripts/grixis_m6_cycle122_nonbasic_source_casts.py",
+    "source_legacy_stack": "scripts/grixis_m6_priority_basics.py"
+  },
+  "deck": {
+    "deck_id": "Mai_and_Zuko",
+    "slug": "mai-and-zuko",
+    "commander": "Mai and Zuko",
+    "approved_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+    "approved_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+    "swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+    "cut": "An Offer You Can't Refuse",
+    "add": "The Enigma Jewel // Locus of Enlightenment"
+  },
+  "scope": "Mai and Zuko only; registered approved An Offer You Can't Refuse vs one-card replacement The Enigma Jewel // Locus of Enlightenment",
+  "fixed_sampling": {
+    "seed": 120026,
+    "n": 1024,
+    "opening": 7,
+    "draw_one_own_turn": 8,
+    "mulligans": false,
+    "identical_source_98_slots": true,
+    "land_policy": "Cycle122 choice, exact nineteen supported nonbasics plus basics, three nominal opponents for bond"
+  },
+  "preregistered_counterfactuals": [
+    {
+      "id": "offer_noncreature_counterable",
+      "target": "hypothetical opponent noncreature instant already on virtual stack",
+      "when": "first own-main-phase land state where physical An Offer is in hand and a source can pay {U}",
+      "action": "pilot casts actual physical Offer using tapped chosen land sources, four labeled passes (all opponents scripted to pass), counters target and creates two virtual opponent Treasure tokens"
+    },
+    {
+      "id": "offer_uncounterable",
+      "target": "same hypothetical spell with cannot-be-countered effect",
+      "action": "paid Offer resolves without countering and still creates two opponent Treasure tokens"
+    },
+    {
+      "id": "offer_becomes_illegal",
+      "target": "target removed from virtual stack before Offer resolution",
+      "action": "paid Offer goes to graveyard but entire spell fails to resolve: zero counter and zero Treasure"
+    },
+    {
+      "id": "offer_illegal_creature_target",
+      "target": "hypothetical creature spell",
+      "action": "reject before any mana, zones or life changes"
+    },
+    {
+      "id": "no_opponent_spell",
+      "target": null,
+      "action": "do not cast Offer despite its payable mana; unchanged physical hand"
+    }
+  ],
+  "reported_metrics": [
+    "physical_offer_seen",
+    "source_payable_response_window",
+    "conditional_counter_in_stipulated_spell_event",
+    "virtual_opponent_treasures",
+    "mana_source_uid_color_paid",
+    "final_offer_physical_zone",
+    "matched_candidate_jewel_paid_main_phase"
+  ],
+  "constraints": [
+    "Do not assert opponent actually cast a spell in a sampled multiplayer game",
+    "Do not assume opponents pass in actual games",
+    "Conditional opponent scenario is explicitly injected, not a legal opponent-deck source",
+    "Physical land tapping and spell-zone movement conserved",
+    "No Jewel flash unless source-payable commander battlefield state is actually established; candidate response contributes zero intrinsic counterspell but is not evaluated strategically",
+    "All opponent-created Treasure are virtual quantity receipt, not physical deck cards",
+    "Do not infer actual protection frequency, wins or Phase B completion",
+    "No approved swap, no independent Pass C, no M6/M7 acceptance"
+  ],
+  "authority": {
+    "can_change_62_canonical_decks": false,
+    "can_apply_candidate": false,
+    "can_claim_completed_phase_b": false,
+    "can_issue_independent_pass_c": false,
+    "can_accept_m6_or_m7": false
+  },
+  "output": "data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_stack_01.json"
+}
