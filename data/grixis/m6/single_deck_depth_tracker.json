@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Cormela__Glamour_Thief",
-    "deep_review_complete_count": 8,
+    "next_tracker_deck_id": "Crosis__the_Purger",
+    "deep_review_complete_count": 9,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -185,10 +185,10 @@
       "baseline_engineering_logical_sha": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Cormela__Glamour_Thief.md",
+      "completed_at_commit": "9aa36705c2ae14eaf0153d24546b848f372804a1",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39241030513",
       "blocker": null
     },
     {
