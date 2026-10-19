@@ -66,8 +66,7 @@ def source_payment(t,target):
  plans=[]
  for combo in itertools.combinations(eligible,needed):
   for opts in itertools.product(*(colors(t.cards[u]["name"]) for u in combo)):
-   payable=sim.can_pay(sim.parse_cost(
-      "{"+str(generic)+"}" if generic else "") if False else
+   payable=sim.can_pay(
       {"generic":generic,"pips":[frozenset([c]) for c,n in pips.items() for _ in range(n)],"life":0},
       [frozenset([color]) for color in opts])
    if payable is None:continue
@@ -119,6 +118,8 @@ def simulate_one(library,commander,target,permutation):
      for land,color in payment:
       t.tap_land(land,color)
       used_colors[color]+=1
+      # The payment consumes exactly the just-generated mana unit.
+      t.mana[color]-=1
      # Uncontested, bounded source-paid PERMANENT placement: actual stack
      # and opponent responses are not modeled; it is not a certified game.
      t.transfer(uid,"hand","battlefield")
