@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Davros__Dalek_Creator",
-    "deep_review_complete_count": 11,
+    "next_tracker_deck_id": "Doctor_Doom__King_of_Latveria",
+    "deep_review_complete_count": 12,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -239,10 +239,10 @@
       "baseline_engineering_logical_sha": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Davros__Dalek_Creator.md",
+      "completed_at_commit": "877e98ce0c584fa79fb543a03529068d4648b6c2",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39246209487",
       "blocker": null
     },
     {
