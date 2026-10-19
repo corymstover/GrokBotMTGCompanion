@@ -18,9 +18,9 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": "Abaddon_the_Despoiler",
-    "next_tracker_deck_id": "Abaddon_the_Despoiler",
-    "deep_review_complete_count": 0,
+    "active_tracker_deck_id": null,
+    "next_tracker_deck_id": "Admiral_Beckett_Brass",
+    "deep_review_complete_count": 1,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -40,10 +40,10 @@
       "baseline_engineering_logical_sha": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "IN_PROGRESS",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md",
+      "completed_at_commit": "e40d2660ed71a609cbe4f8ecb41754730e029f2b",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39222330997",
       "blocker": null
     },
     {
