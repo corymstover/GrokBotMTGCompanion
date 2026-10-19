@@ -9,6 +9,7 @@ on:
       - chatgpt-cycle126-m6-m7-progress-receipt
       - chatgpt-cycle128-progress-receipt
       - chatgpt-cycle129-progress-receipt
+      - chatgpt-cycle130-progress-receipt
       - chatgpt-cycle123-progress-receipt
     paths:
       - .github/workflows/m6-m7-progress-integrity.yml
