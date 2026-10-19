@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Crosis__the_Purger",
-    "deep_review_complete_count": 9,
+    "next_tracker_deck_id": "Cult_of_Skaro",
+    "deep_review_complete_count": 10,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -203,10 +203,10 @@
       "baseline_engineering_logical_sha": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Crosis__the_Purger.md",
+      "completed_at_commit": "fe9a1cfc16086bd5526e464cda21a6599057177a",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39242217431",
       "blocker": null
     },
     {
