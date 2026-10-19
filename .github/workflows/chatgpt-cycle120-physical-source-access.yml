@@ -1,0 +1,64 @@
+name: ChatGPT Cycle120 paired physical source access and conditional mechanics evidence
+on:
+  push:
+    branches: [chatgpt-cycle120-physical-source-access]
+    paths:
+      - .github/workflows/chatgpt-cycle120-physical-source-access.yml
+      - data/grixis/m6/phase_b_plans/cycle120_physical_access_preregistered_01.json
+      - scripts/grixis_m6_cycle120_physical_access.py
+      - tests/test_m6_cycle120_physical_access.py
+      - data/grixis/m6/phase_b_bounded/cycle120_physical_access_interpretation_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  paired-physical-source-access:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify frozen authoritative Scryfall Oracle snapshot
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Thirteen source, same-seed and no-certification regression tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle120_physical_access.py' -v
+      - name: Measure 8192 paired shuffles per deck and replay results exactly
+        run: |
+          python -u scripts/grixis_m6_cycle120_physical_access.py --build
+          python -u scripts/grixis_m6_cycle120_physical_access.py --check
+      - name: Reject invented live cast/win and authority changes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          x=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle120_physical_access_pairs_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert x['total_paired_physical_shuffles']==24576
+          assert x['total_arm_sample_views']==49152
+          assert x['number_of_preregistered_source_opportunities']==9
+          assert len(x['paired_results'])==3
+          assert sum(len(a['source_access_opportunities']) for a in x['paired_results'])==9
+          assert all(a['physical_main_cards']==99 and a['command_zone_cards']==1 and a['shared_physical_card_slots']==98 for a in x['paired_results'])
+          assert x['source_bound_rule_event_actions_actually_executed_in_sampling']==0
+          assert x['independent_pass_c']==x['real_multiplayer_games']==0
+          assert not x['phase_b_certified'] and not x['M6_accepted']
+          assert x['owner_approved_swaps']==x['canonical_decks_modified']==0
+          assert all(v is False for v in x['authority'].values())
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle120_physical_access_pairs_01.json'
+      - name: Upload verified physical source access receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle120-24576-paired-physical-source-access
+          path: data/grixis/m6/phase_b_bounded/cycle120_physical_access_pairs_01.json
+          if-no-files-found: error
