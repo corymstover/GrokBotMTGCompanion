@@ -1,0 +1,50 @@
+name: M6 single-deck commander-first deep-review gate
+on:
+  push:
+    branches:
+      - chatgpt-m6-single-deck-review-standard
+      - chatgpt-cycle76-m6-refinement
+      - 'chatgpt-m6-deep-review-*'
+    paths:
+      - AGENTS.md
+      - 'grixis/M6 Commander-First Single-Deck Review Standard.md'
+      - 'grixis/M6 Authored 62 Pass C Handoff.md'
+      - 'grixis/M6-M7 Secondary Completion Tracker.md'
+      - data/grixis/m6/single_deck_depth_tracker.json
+      - 'data/grixis/m6/deep_reviews/**'
+      - scripts/grixis_m6_single_deck_depth_check.py
+      - tests/test_m6_single_deck_depth_check.py
+      - .github/workflows/m6-single-deck-depth-check.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: single-deck-m6-depth-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  sequential-deep-review-policy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Source-bound queue and no-skip guard
+        run: python scripts/grixis_m6_single_deck_depth_check.py --check
+      - name: Tampering and accidental false-deep-certification tests
+        run: python -m unittest discover -s tests -p 'test_m6_single_deck_depth_check.py' -v
+      - name: Explicitly forbid conflation with independent Pass C
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          t=json.loads(Path("data/grixis/m6/single_deck_depth_tracker.json").read_text())
+          s=json.loads(Path("data/grixis/milestone_m6_m7_subtracker.json").read_text())
+          assert t['authority']['historical_m6_4_authored_source_reviews']==62
+          assert s['m6']['gates'][3]['status']=='COMPLETE' and s['m6']['gates'][3]['completed']==62
+          assert s['m6']['formal_m6_certified_decks']==0
+          assert s['m6']['gates'][4]['completed']==0
+          assert not t['authority']['canonical_deck_changes_allowed']
+          print("Deep-review progress is separate from 62 prior M6.4 authored cases; NO formal Pass C certified.")
+          PY
