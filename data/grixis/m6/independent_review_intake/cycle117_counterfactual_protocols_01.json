@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "cycle": 117,
+  "status": "PREREGISTERED_NO_RESULTS",
+  "independent_reviewer_assignment": null,
+  "reviewer_independence_certified": false,
+  "observed_game_results": [],
+  "phase_b_completed": false,
+  "formal_independent_pass_c_completed": false,
+  "source": "data/grixis/m6/phase_b_plans/cycle117_independent_review_readiness_01.json",
+  "protocols": [
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "source_cycle": 112,
+      "source_swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "baseline": "Opposition Agent",
+      "candidate": "Aphetto Alchemist",
+      "comparison": "Own-turn legal Gwendlyn activations with vs without Alchemist under (A) untapped no-shroud/no removal and (B) summoning sickness or Pemmin's Aura shroud; paired adverse tutoring where Opposition Agent matters",
+      "critical_outcomes": [
+        "legal_gwendlyn_activation_count",
+        "opposing_cards_discarded",
+        "opposition_tutor_interruptions",
+        "mana_and_turn_to_online"
+      ],
+      "no_proxy": "infinite discard from finite hand",
+      "scenarios": [
+        {
+          "id": "gw-legal-untap",
+          "kind": "favorable_candidate",
+          "setup": "Your main phase, Gwendlyn and Aphetto Alchemist both under your control since start of turn, untapped, no shroud or ward on Gwendlyn, one opposing player has three cards in hand; enough legal targets and costs for Gwendlyn",
+          "actions_to_trace": [
+            "Activate Gwendlyn choosing one opponent with a nonempty hand",
+            "Alchemist targets and untaps Gwendlyn once",
+            "Recheck any Gwendlyn ability timing and use the second activation, if legal"
+          ],
+          "compare_to_baseline": "Replace candidate with Opposition Agent and repeat identical state, checking how many Gwendlyn activations exist",
+          "hard_checks": [
+            "Alchemist uses {T}; cannot untap himself repeatedly without external enabler",
+            "Gwendlyn turn-only activation, finite hand, controller priority and summoning sickness"
+          ],
+          "outcome_fields": [
+            "legal_gwendlyn_activations",
+            "cards_discarded",
+            "additional_cards_drawn_through_explicit_payoffs",
+            "total_mana_spent"
+          ]
+        },
+        {
+          "id": "gw-shroud-tutor",
+          "kind": "adverse_candidate",
+          "setup": "Gwendlyn equipped/enchanted with Pemmin's Aura using shroud mode or newly cast Aphetto Alchemist not eligible to tap; opponent has one resolved tutor/search on stack; ensure Opposition Agent is eligible to flash",
+          "actions_to_trace": [
+            "Resolve/compare legal targeting of Gwendlyn by Aphetto with shroud enabled",
+            "Determine Opposition Agent priority and tutor replacement for baseline",
+            "Track value lost when swapping away Opposition Agent"
+          ],
+          "compare_to_baseline": "Retain Opposition Agent and use same opponent-search event, noting flash priority, availability and opponents responses",
+          "hard_checks": [
+            "Shroud prevents own Alchemist targeting unless shroud is removed first",
+            "Do not assume Opposition Agent can respond if priority/available mana forbids",
+            "No fabricated repeatable discard based on an empty hand"
+          ],
+          "outcome_fields": [
+            "alchemist_target_legal",
+            "opposing_searches_replaced",
+            "opponent_hand_after",
+            "activation_count"
+          ]
+        }
+      ],
+      "effect_aware_engine_proven": false,
+      "same_seed_actual_results": null,
+      "minimum_real_observations_for_provisional_comparison": 0,
+      "notes": "Scenarios are reviewer/test-engine task definitions, NOT observed turns, probabilities, successful combos, or proof of a favorable swap"
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "source_cycle": 114,
+      "source_swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "baseline": "Mox Diamond",
+      "candidate": "Aetheric Amplifier",
+      "comparison": "Early colored-mana deployment and turn-of-Bolas-transform in paired hands with a spare land versus loyalty doubling line after transform; record Amplifier enters/taps timing and 3+4 investment",
+      "critical_outcomes": [
+        "first_turn_ravager_cast",
+        "first_turn_planeswalker_transform",
+        "extra_loyalty_counters_realized",
+        "lost_mana_acceleration"
+      ],
+      "no_proxy": "nominal counter doubling treated as immediate win",
+      "scenarios": [
+        {
+          "id": "ravager-fast-deploy",
+          "kind": "adverse_candidate",
+          "setup": "Same approved Grixis opening hand seed with Mox Diamond or Aetheric Amplifier in precisely one swapped slot; spare land in hand and sufficient source colors recorded; sample both on-play/on-draw if subsequently simulated",
+          "actions_to_trace": [
+            "Compute Mox Diamond land-discard replacement and mana available each turn",
+            "Compute Aetheric Amplifier mana cost three and resulting mana for deploy",
+            "Trace first Bolas cast (1UBR) and transform costs; do not invent first transformation"
+          ],
+          "compare_to_baseline": "Compare turn of commander deployment with identical drawn sequence and resources, treating a discarded land as spent resource",
+          "hard_checks": [
+            "Mox Diamond may fail to enter without discarding a land",
+            "Amplifier never equals zero-cost acceleration",
+            "Transform is a separate sorcery-speed activated cost and Bolas transformation resets permanent identity"
+          ],
+          "outcome_fields": [
+            "first_turn_bolas_cast",
+            "first_turn_transformed",
+            "land_cards_lost",
+            "colored_mana_shortfall"
+          ]
+        },
+        {
+          "id": "ravager-loyalty",
+          "kind": "favorable_candidate",
+          "setup": "Nicol Bolas the Arisen already transformed as planeswalker under your control with recorded loyalty count, Amplifier available untapped after paying its cast cost, sufficient four additional mana and legal sorcery-speed window; opponent interaction recorded",
+          "actions_to_trace": [
+            "Pay {4}, tap Amplifier, target Bolas planeswalker",
+            "Apply doubling to current loyalty, accounting for all other changes/activation restrictions",
+            "Compare to retained Mox Diamond mana access and real ultimate timing under same board"
+          ],
+          "compare_to_baseline": "Compare actual permitted loyalty ability access and next meaningful payoff with Mox Diamond occupying slot instead",
+          "hard_checks": [
+            "Doubling loyalty does not grant an extra loyalty activation",
+            "Can only activate Amplifier as a sorcery; cannot respond to removal with counter doubling",
+            "Amplifier only increases existing counters, not spells/mana"
+          ],
+          "outcome_fields": [
+            "incremental_loyalty_counters",
+            "planeswalker_ability_activations",
+            "turn_to_relevant_ultimate",
+            "mana_paid_total"
+          ]
+        }
+      ],
+      "effect_aware_engine_proven": false,
+      "same_seed_actual_results": null,
+      "minimum_real_observations_for_provisional_comparison": 0,
+      "notes": "Scenarios are reviewer/test-engine task definitions, NOT observed turns, probabilities, successful combos, or proof of a favorable swap"
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "source_cycle": 115,
+      "source_swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "baseline": "An Offer You Can't Refuse",
+      "candidate": "The Enigma Jewel // Locus of Enlightenment",
+      "comparison": "In a paired artifact-combo board, test untap/Rings activated costs and tapped Jewel entry versus opposing noncreature win threat where one-blue counter protects or interacts; account for colorless activation restriction and craft sorcery timing",
+      "critical_outcomes": [
+        "legal_mana_usable_on_abilities",
+        "legal_mana_usable_on_spells",
+        "combo_turn_changes",
+        "uncountered_opponent_win_attempts"
+      ],
+      "no_proxy": "restricted {C}{C} counted as generic mana for any spell",
+      "scenarios": [
+        {
+          "id": "mai-ability-mana",
+          "kind": "favorable_candidate",
+          "setup": "Mai and Zuko present; controlled Basalt Monolith and Rings of Brighthearth; Jewel entering tapped at a recorded time, with priority, colored mana, and untap source state shown",
+          "actions_to_trace": [
+            "Cast Jewel as flashed artifact spell under Mai and Zuko where legal; record tapped entry",
+            "Only when Jewel is untapped, activate Jewel for {C}{C} and restrict it to activated abilities",
+            "Pay Rings of Brighthearth or Basalt Monolith ability costs, with stack and copy targets explicitly traced"
+          ],
+          "compare_to_baseline": "Use An Offer You Can't Refuse slot instead and compute available untap and Rings payments in same sequence",
+          "hard_checks": [
+            "Jewel generated {C}{C} cannot cast artifact spells even with flash",
+            "Jewel enters tapped, no immediate tap without explicit untap effect",
+            "Craft ability is sorcery-speed despite flash permission; back face needs fully paid craft"
+          ],
+          "outcome_fields": [
+            "legal_mana_spent_on_activated_costs",
+            "legal_mana_spent_on_cast_spells",
+            "turn_of_artifact_combo",
+            "untap_resources_required"
+          ]
+        },
+        {
+          "id": "mai-interaction-loss",
+          "kind": "adverse_candidate",
+          "setup": "Opponent casts a noncreature win spell and Mai and Zuko player has one available blue mana; baseline includes An Offer You Can't Refuse in hand; candidate version instead has Jewel",
+          "actions_to_trace": [
+            "Determine whether An Offer could legally counter the opponent's spell at this priority window",
+            "Record two Treasure tokens created for the countered spell's controller and downstream adverse effects",
+            "Determine whether Jewel offers any equivalent interaction or merely future activation-only mana"
+          ],
+          "compare_to_baseline": "Retain the counterspell with matching available mana, stack state and opponent protection",
+          "hard_checks": [
+            "An Offer can target noncreature spells only",
+            "On counter success, opponent gets two Treasure tokens",
+            "Jewel has no counterspell text and cannot cast instant spells with its restricted mana"
+          ],
+          "outcome_fields": [
+            "opponent_win_spell_countered",
+            "opponent_treasure_created",
+            "response_mana_spent",
+            "future_jewel_mana_available"
+          ]
+        }
+      ],
+      "effect_aware_engine_proven": false,
+      "same_seed_actual_results": null,
+      "minimum_real_observations_for_provisional_comparison": 0,
+      "notes": "Scenarios are reviewer/test-engine task definitions, NOT observed turns, probabilities, successful combos, or proof of a favorable swap"
+    }
+  ],
+  "required_reviewer_response": {
+    "reviewer_id": null,
+    "reviewer_role": null,
+    "independence_from_author_assertion": null,
+    "source_file_sha256": null,
+    "adversarial_mechanics_notes": null,
+    "comparison_results": null,
+    "conclusion": null,
+    "evidence_links": null
+  },
+  "no_approval_authority": {
+    "can_apply_card_swap": false,
+    "can_accept_M6": false,
+    "can_certify_pass_c": false
+  }
+}
