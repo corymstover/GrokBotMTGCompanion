@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Marchesa__the_Black_Rose",
-    "deep_review_complete_count": 34,
+    "next_tracker_deck_id": "Mishra__Artificer_Prodigy",
+    "deep_review_complete_count": 35,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -654,10 +654,10 @@
       "baseline_engineering_logical_sha": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Marchesa__the_Black_Rose.md",
+      "completed_at_commit": "c0e93ad470904b6abc375551abf9f4036171deb8",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39343987905",
       "blocker": null
     },
     {
