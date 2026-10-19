@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Kess__Dissident_Mage",
-    "deep_review_complete_count": 25,
+    "next_tracker_deck_id": "Grixistax___October_2026",
+    "deep_review_complete_count": 26,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -491,10 +491,10 @@
       "baseline_engineering_logical_sha": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Kess__Dissident_Mage.md",
+      "completed_at_commit": "1cbf6a45181f8ab3b008da598641161fe5485630",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39315205557",
       "blocker": null
     },
     {
