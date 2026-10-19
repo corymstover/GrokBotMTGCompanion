@@ -1,0 +1,66 @@
+name: ChatGPT Cycle123 source-paid conditional Offer stack witnesses
+on:
+  push:
+    branches: [chatgpt-cycle123-conditional-offer-stack]
+    paths:
+      - .github/workflows/chatgpt-cycle123-conditional-offer-stack.yml
+      - data/grixis/m6/phase_b_plans/cycle123_conditional_offer_stack_prereg_01.json
+      - scripts/grixis_m6_cycle123_conditional_offer_stack.py
+      - tests/test_m6_cycle123_conditional_offer_stack.py
+      - data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_interpretation_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  conditional-physical-response:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify pinned Scryfall Oracle snapshot checksum
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Run fifteen negative and positive source/priority/timing tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle123_conditional_offer_stack.py' -v
+      - name: Build and reproducibly replay 1024 paired source response cases
+        run: |
+          python -u scripts/grixis_m6_cycle123_conditional_offer_stack.py --build
+          python -u scripts/grixis_m6_cycle123_conditional_offer_stack.py --check
+      - name: Reject fabricated opponent play and milestone completion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_stack_01.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          assert d['cycle']==123 and d['paired_source_99_card_samples']==1024
+          assert d['physical_arm_views']==2048
+          assert d['opponent_spell_instances_observed_in_actual_games']==0
+          assert d['actual_opponent_cards_or_hand_sampled']==0
+          assert d['simulated_game_wins']==0
+          assert d['independent_pass_c_completed']==0
+          assert not d['phase_b_certified'] and not d['M6_accepted'] and not d['M7_started']
+          assert not d['candidate_approved_or_applied'] and d['canonical_decks_modified']==0
+          assert d['counts']['baseline_offer_seen']==d['counts']['challenger_jewel_seen']
+          assert d['counts']['conditional_virtual_countered']==d['counts']['baseline_source_payable']
+          assert d['counts']['counterable_opponent_virtual_treasures']==2*d['counts']['conditional_virtual_countered']
+          assert d['counts']['uncounterable_treasures']==2*d['counts']['uncounterable_not_countered']
+          assert d['counts']['invalid_event_tests_rejected']==3*d['counts']['conditional_virtual_countered']
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_stack_01.json'
+      - name: Publish explicitly conditional opponent-response receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle123-virtual-opponent-conditional-offer-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_stack_01.json
+          if-no-files-found: error
