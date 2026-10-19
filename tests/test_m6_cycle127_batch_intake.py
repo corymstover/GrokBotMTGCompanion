@@ -59,5 +59,5 @@ class BatchIntake(unittest.TestCase):
  def test_source_sha_mismatch_is_explicit_not_silently_cured(self):
   bad={x["deck_id"] for x in self.generated["packets"] if not x["historical_recorded_source_hash_matches_raw"]}
   self.assertEqual(bad,{"Admiral_Brass__Unsinkable","Anhelo__the_Painter"})
-  self.assertTrue(all("not_rehashed" in x for x in [])) # No independent raw-rehash claim.
+  self.assertTrue(all("recorded_source_raw_sha256_not_rehashed" in x for x in self.generated["packets"]))\n  self.assertTrue(all("fresh_raw_sha256" not in x for x in self.generated["packets"]))
 if __name__=="__main__":unittest.main()
