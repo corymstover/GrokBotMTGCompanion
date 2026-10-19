@@ -12,6 +12,8 @@ on:
       - data/grixis/m6/author_reviews/cycle131_batch_e_01.json
       - scripts/grixis_m6_cycle131_all_62_authored.py
       - tests/test_m6_cycle131_all_62_authored.py
+      - grixis/M6 Authored 62 Pass C Handoff.md
+      - data/grixis/m6/critic_batches/cycle131_author_self_critique_01.md
   workflow_dispatch:
 permissions:
   contents: read
