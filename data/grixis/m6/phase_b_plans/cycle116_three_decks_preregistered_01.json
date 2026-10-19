@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "cycle": 116,
+  "milestone": "M6",
+  "status": "preregistered_before_conclusions",
+  "research_intent": "Resolve exactly three source-authored top M5 candidate swaps with explicit commander mechanics, negative cases, and protected approved list authority; no generalized cEDH goodstuff uplift",
+  "active_branch": "chatgpt-cycle116-three-commander-audit",
+  "base_branch": "chatgpt-cycle76-m6-refinement",
+  "frozen_oracle": "oracle-cards-20261016090200.jsonl.gz",
+  "frozen_oracle_sha256": "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+  "decks": [
+    {
+      "order": 14,
+      "deck_id": "Kess__Dissident_Mage",
+      "slug": "kess-dissident-mage",
+      "commander": "Kess, Dissident Mage",
+      "approved_raw_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+      "source_file": "refinement/decklists/Kess_Dissident_Mage_Approved_2026-10-14.txt",
+      "canonical_logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+      "m5_swap_id": "swap:kess-dissident-mage:m5:49904d9f8805",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Orcish Bowmasters",
+      "initial_m5_priority": "P0_independent_agreement",
+      "initial_m5_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "independent_review_required": true,
+      "questions": [
+        "Does a seven-mana Horror enable the Kess instant/sorcery graveyard replay or speed combo wins?",
+        "Does removing one-two mana Bowmasters diminish interaction versus wheels, Rhystic and peer turbo decks?",
+        "Do not count Kess as an instant-speed opponents-turn graveyard spell caster."
+      ]
+    },
+    {
+      "order": 15,
+      "deck_id": "Edea__Possessed_Sorceress",
+      "slug": "edea-possessed-sorceress",
+      "commander": "Edea, Possessed Sorceress",
+      "approved_raw_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+      "source_file": "refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt",
+      "canonical_logical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+      "m5_swap_id": "swap:edea-possessed-sorceress:m5:5f2787335006",
+      "proposed_add": "Tidespout Tyrant",
+      "proposed_cut": "Deadly Rollick",
+      "initial_m5_priority": "P0_independent_agreement",
+      "initial_m5_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "independent_review_required": true,
+      "questions": [
+        "How does Tidespout Tyrant's spell-trigger bounce interact with Edea's combat-limited creature stealing and sacrifice/dies triggers?",
+        "Does replacing no-mana Deadly Rollick materially impair survival through five-mana Edea?",
+        "Does a replayable eight-mana payoff really justify this cut without legal source-specific combo?"
+      ]
+    },
+    {
+      "order": 16,
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "slug": "lynde-cheerful-tormentor",
+      "commander": "Lynde, Cheerful Tormentor",
+      "approved_raw_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+      "source_file": "refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt",
+      "canonical_logical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+      "m5_swap_id": "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Withering Torment",
+      "initial_m5_priority": "P0_independent_agreement",
+      "initial_m5_flags": [
+        "combo_review_required",
+        "explicit_judgment_prompts",
+        "test_pass"
+      ],
+      "independent_review_required": true,
+      "questions": [
+        "Does Hullbreaker Horror support the Curse graveyard→self→opponent recycling identity?",
+        "Can Withering Torment destroy your own cursed enchantment to trigger Lynde's recursion?",
+        "Does Grixis lose an essential enchantment-removal and reset outlet when Withering Torment is cut?"
+      ]
+    }
+  ],
+  "acceptance_gates": [
+    "Resolve each named commander and both candidate card texts against hash-pinned archived Scryfall Oracle including multi-faced handling",
+    "Exact authoritative 100-card source list and corresponding approved raw SHA-256; 99 main + 1 commander in all three decks; no nonbasic singleton violations",
+    "Source M5 candidate IDs, blueprint core, actual add absent and cut present; reject incomplete named candidates",
+    "Adversarial tests fail on changed source hash, candidate/cut substitution, incorrect ability text, fake independent passes, and forged M6 authority",
+    "Evidence includes explicit mechanistic synergy and lost role in each commander, with uncertainty and next evidence gate, not engine coverage scores",
+    "Write and run source verification and GitHub Actions CI; inspect receipts before merge",
+    "Do not change 62 canonical lists, approvals, exceptions, or accepted milestones",
+    "Do not claim formal Pass C/I/J, finished effect-aware four-player performance, full current legality recertification or global zero-improvement"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_certify_M6": false,
+    "can_issue_final_swaps": false
+  },
+  "outputs": [
+    "data/grixis/m6/author_reviews/cycle116_commander_first_reviews_01.json",
+    "data/grixis/m6/critic_batches/cycle116_preliminary_critique_01.md",
+    "data/grixis/m6/phase_b_bounded/cycle116_sourced_review_validation_01.json"
+  ]
+}
