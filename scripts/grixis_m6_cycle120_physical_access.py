@@ -111,7 +111,9 @@ def verify_exact_pair(p,R):
     included=Counter(a if op["arm"]=="baseline" else b)
     if any(included[c]!=1 for c in op["required_main"]):
       raise ValueError("Required source card missing or duplicate in "+op["id"])
-  return a,b,differences[0],original
+  return a,b,differences[0],original,{
+      "baseline":[bool(c["land"]) for c in champion.library],
+      "candidate":[bool(c["land"]) for c in challenger.library]}
 
 def sampled(draw_indices,names,op,checkpoint,landflags):
   limit=7+checkpoint
@@ -142,19 +144,13 @@ def witness(draw_indices,names,op,turn,seed,index):
           "conditional_prior_cycle119_state_does_not_follow_from_draw":True}
 
 def sample_one(p,R,config):
-  a,b,slot,original=verify_exact_pair(p,R)
+  a,b,slot,original,landflags=verify_exact_pair(p,R)
   n=config["samples_per_deck"];seed=config["seed"]
   names={"baseline":a,"candidate":b}
-  lands={arm:[sim.load_deck(p["slug"],R,
-         text=(original if arm=="baseline" else c118.replace_exact_slot(original,p["cut"],p["add"]))).library[i]["land"]
-         for i in range(0)] for arm in []} # no mutation; create aligned flags from frozen Oracle
-  # Same physical index alignment from paired.align; all cards carry their printed land indicator.
-  # Infer land from frozen resolution only, never treating Mox Diamond as a land.
-  info={name:bool("Land" in (R.get(name)[0].get("card_faces",[R.get(name)[0]])[0].get("type_line","")
-                        if name in {"Mox Diamond","The Enigma Jewel // Locus of Enlightenment"} else
-                         "Land" in (R.get(name)[0].get("type_line") or R.get(name)[0].get("card_faces",[R.get(name)[0]])[0].get("type_line","")))
-        for name in set(a)|set(b)}
-  landflags={arm:[info[name] for name in names[arm]] for arm in ("baseline","candidate")}
+  # Immutable printed front-face land classifications from the actual paired model.
+  # Crucially, Mox Diamond and The Enigma Jewel are artifacts, never land cards.
+  if landflags["baseline"][slot] or landflags["candidate"][slot]:
+    raise ValueError("Expected artifact/creature/instant registered swap incorrectly classified as a land")
   counts={op["id"]:{turn:0 for turn in config["checkpoints"]} for op in p["opportunities"]}
   examples={op["id"]:[] for op in p["opportunities"]}
   paired_slot_checks={turn:0 for turn in config["checkpoints"]}
