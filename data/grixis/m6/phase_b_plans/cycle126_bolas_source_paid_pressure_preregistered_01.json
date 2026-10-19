@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "cycle": 126,
+  "status": "preregistered_before_code_or_results",
+  "base_branch": "chatgpt-cycle76-m6-refinement",
+  "base_head": "aa3a18821b908b62b5dc7e80a5a77ae5ab896429",
+  "study": {
+    "deck_id": "Nicol_Bolas__the_Ravager",
+    "slug": "nicol-bolas-the-ravager",
+    "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+    "approved_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+    "approved_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+    "swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+    "cut": "Mox Diamond",
+    "add": "Aetheric Amplifier"
+  },
+  "source_provenance": [
+    "data/grixis/registry.json",
+    "data/grixis/m6/phase_b_plans/cycle121_source_paid_cast_prereg_01.json",
+    "scripts/grixis_m6_cycle122_nonbasic_source_casts.py",
+    "scripts/grixis_m6_priority_nonbasic.py",
+    "scripts/grixis_m6_cycle119_bounded_effects.py",
+    "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md"
+  ],
+  "question": "Quantify exact source-physical tradeoff of removing Mox Diamond (zero cost, land-discard replacement, immediate any-color tap) for Aetheric Amplifier ({3}, {T} any-color mana, {4},{T} counter doubling sorcery-time), explicitly distinguish early Bolas casting from commander transformed loyalty payoffs.",
+  "simulation": {
+    "seed": 120026,
+    "paired_shuffles": 1024,
+    "turns": 8,
+    "opening": 7,
+    "draw_per_turn": 1,
+    "mulligans": false,
+    "deck": "approved 99+one Nicol Bolas Commander with exact M5 single-slot swap",
+    "library_alignment": "shared 98 physical positions, same permutation, no alternative draw/filter effects",
+    "land_engine": "nineteen Cycle103 Oracle-verified nonbasics plus 6 printed basic names; all others unsupported and excluded from mana production",
+    "entry_lands": "Cycle122 fixed color-neutral land selection, shock paying 2 life while >2, three nominal opposing players for bondland ETB; no real opponent actions",
+    "actions": "On each own turn draw one, play at most one supported land, after land drop enter physically held Mox only by discarding another actually held land, or cast Amplifier with three physical mana sources under stated policy; physical mana from land/Mox/Amplifier only; cast {1}{U}{B}{R} commander from command zone and transform {4}{U}{B}{R} at sorcery speed when source payable. Commander and artifact spells resolve uncontested as explicitly conditional.",
+    "policies": [
+      "baseline_mox_commander_first",
+      "candidate_amplifier_early",
+      "candidate_amplifier_commander_first"
+    ],
+    "mox_mana": "Mox Diamond may tap for any color starting its same entry turn and cannot provide mana without discarding physically held land; discards can be basic or nonbasic (even unsupported as source). Never give it an additional land-drop.",
+    "amplifier_mana": "Aetheric Amplifier may tap for one mana of any color even on the turn it resolves because it is a noncreature artifact; tapped Amp cannot simultaneously use {4},{T} doubling that turn. Amp requires three paid generic to cast.",
+    "transformation": "After conditional commander deployment, on later own main phase with 7 physical mana, activate its {4}{U}{B}{R} and record an uncontested exile-return-transformed event at seven starting loyalty. No commander discard trigger, combat or other game state effects.",
+    "doubling": "Only after actual bounded transformation, if Amp is on battlefield, untapped and {4} can be paid from OTHER untapped modeled sources in own main phase, double seven loyalty to fourteen. No extra loyalty ability is granted or resolved.",
+    "pressure_fixture": "A purely hypothetical immediate post-transformation/doubling three-point, eight-point, and thirteen-point planeswalker damage test; evaluates current loyalty thresholds only, with no real opponent turns or probability claims."
+  },
+  "measures": [
+    "arm-specific Mox legal discard/entry and Amp paid cast and any-color tap (not free mana)",
+    "commander conditional deployment by turn8 and first turn",
+    "conditional transformation by turn8 and first turn",
+    "paid doubling by turn8 and first turn (Amp only)",
+    "payable mana sources and tapped exclusivity tests",
+    "source limitations/unsupported land exposures",
+    "hypothetical damage threshold survival for first qualified transformed or doubled state"
+  ],
+  "adversarial_rules": [
+    "Mox discarded source from actual hand and then physically enters, no land required is automatically discarded",
+    "Mox without land does not enter or create mana, failed casts atomic",
+    "Amplifier cannot be mana source until actually paid/cast and has tapped ability exclusivity",
+    "4 mana counter doubling requires sorcery-time and own untapped Amp; no extra loyalty activation",
+    "Nicol Bolas front cost exactly {1}{U}{B}{R}; back transform exactly {4}{U}{B}{R}; transformed starting loyalty 7; not 5",
+    "No claimed actual opponents, counterspell responses, game wins, full effect-aware Phase B, independent Pass C, card recommendation or deck approval"
+  ],
+  "authority": {
+    "apply_swap": false,
+    "change_canonical_list": false,
+    "accept_m6": false,
+    "certify_pass_c": false,
+    "certify_phase_b": false
+  },
+  "artifact": "data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_01.json"
+}
