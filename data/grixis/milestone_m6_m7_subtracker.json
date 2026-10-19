@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_128",
+  "snapshot": "after_cycle_129",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "d39c2ec8161ea71368bf957af5ff4f84b169a7a6",
+    "engineering_head": "d35d5c5e7885e5b9e2ff6640516b079076d337f4",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 128,
+    "last_cycle_merged": 129,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -78,16 +78,18 @@
         "id": "M6.4",
         "title": "Commander-first source-specific detailed review",
         "status": "PARTIAL",
-        "completed": 21,
+        "completed": 27,
         "total": 62,
         "evidence": [
           "data/grixis/m6/author_reviews/cycle112_three_commander_authored_judgments_01.json",
           "data/grixis/m6/author_reviews/cycle116_commander_first_reviews_01.json",
           "data/grixis/m6/author_reviews/cycle128_six_commander_authored_judgments_01.json",
           "data/grixis/m6/phase_b_plans/cycle128_six_commander_judgments_preregistered_01.json",
-          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39207557465 — source-verified six-case authored receipt (not committed)"
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39207557465 — source-verified six-case authored receipt (not committed)",
+          "data/grixis/m6/author_reviews/cycle129_six_detailed_01.json",
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39212639485 — six source-verified authored reviews"
         ],
-        "scope": "21 different decks have source-specific authored candidate judgments, including 18 exact-swap HOLDs and 3 promising unresolved cases; 41 decks still need authored review. Six Cycle128 authored HOLDs were verified with frozen Oracle and real approved 99+commander source in CI #39207557465. This does not imply formal independent Pass C, complete effect-aware Phase B, current full 100-card legality or any approved swaps."
+        "scope": "27 distinct commander decks have authored candidate-specific analyses; 24 exact candidate HOLDs, 3 unresolved hypotheses, 35 still lacking authored review. Cycle129 six-case source/list/archived Oracle validation passed at CI #39212639485. Formal independent Pass C remains 0/62, full Phase B 0/62, and M6 certification 0/62."
       },
       {
         "id": "M6.5",

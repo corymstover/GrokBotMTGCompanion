@@ -1,6 +1,6 @@
 # M6 / M7 Secondary Completion Sub-Tracker
 
-**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 128**.
+**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 129**.
 
 > This is a status report, not an approval, a new optimization result, or authorization to change a deck. The live source of milestone acceptance is `data/grixis/registry.json`. The current canonical 62/62 approved/locked lists are in the separate encyclopedia repository.
 
@@ -20,7 +20,7 @@
 | **M6.1** Accepted M5 inputs/provenance | ✅ Complete, 62/62 | M5 authority and input SHA receipts available |
 | **M6.2** Objective-specific A/B technical projections | ✅ Complete, 62/62 | Sealed objective-specific projections; their technical separation does **not** establish independent operators or full blind review |
 | **M6.3** Reconciliation/deep-review queue creation | ✅ Complete, 62/62 | Reconciliation inventory exists; the **8,848** deep-review items **are not adjudicated** |
-| **M6.4** Commander-first case-specific judgment preparation | ◐ Partial, 21/62 | Cycles 112–116 and 128 authored source-specific analyses; 18 exact-swap HOLDs and 3 unresolved hypotheses across 21 decks (41 remain); no formal independent critic |
+| **M6.4** Commander-first case-specific judgment preparation | ◐ Partial, 27/62 | Cycles 112–116, 128–129 authored source-specific analyses; 24 exact-swap HOLDs and 3 unresolved hypotheses across 27 decks (35 remain); no formal independent critic |
 | **M6.5** Named independent Pass C & conflict resolution | ☐ Blocked, 0/62 | Three GrokBot non-author analytical reviews received; prior blueprint exposure disclosed and strict blinding not claimed. Qualification, full 62-deck independent Pass C and reconciliation remain incomplete |
 | **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–126 supply bounded source, mana and hypothetical opponent fixtures for 3 decks. Cycle125 fixed the original invalid Jewel-to-Rings payment; Cycle126 tested Bolas Mox vs Amplifier across 1,024 paired physical shuffles (300/296/267 payable commander casts, just 3 transforms per policy and 1 Amp doubling). Complete Phase B remains 0/62 |
 | **M6.7** Decision-grade `judgment_review` obligations | ☐ Blocked, 0/62 | Resolve strategic conflicts and human-judgment requirements |
@@ -56,6 +56,6 @@ The ongoing ChatGPT project progress section will always include:
 
 **Certification details:** `grixis/Grixis M6 I-J Contract.md`; `data/grixis/m6/sealed/reconciliation_manifest.json`; `data/grixis/m6/preflight.json`.
 
-**Latest completed engineering cycle:** 128; merge commit `d39c2ec8161ea71368bf957af5ff4f84b169a7a6`; [Cycle128 PR #240](https://github.com/corymstover/GrokBotMTGCompanion/pull/240), [Cycle128 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39207557465), six frozen-Oracle and real physical-source authored HOLD reviews. [Cycle127 PR #239](https://github.com/corymstover/GrokBotMTGCompanion/pull/239) prepared 62 neutral packets without claiming completed reviews. Author review 21/62, M6 3/10 complete gates (2 partial), independent Pass C 0/62, effect-aware complete Phase B 0/62, M7 0/6, M8 0/62. Prior Cycle126 Bolas comparison remains inconclusive. Three external advisory reviews received; none qualifies automatically as formal Pass C.
+**Latest completed engineering cycle:** 129; merge commit `d35d5c5e7885e5b9e2ff6640516b079076d337f4`; [PR #243](https://github.com/corymstover/GrokBotMTGCompanion/pull/243) [CI #39212639485](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39212639485) verified six additional commander-specific authored HOLD judgments against archived Oracle/actual source. M6.4 now 27/62 authored, 35 unreviewed. M6 3/10 complete gates (2 partial), formal Pass C 0/62, full Phase B 0/62, M6-certified 0/62, M7 0/6, M8 0/62. Earlier GrokBot reviews are advisory only; official future-release exceptions remain explicitly distinguished.
 
 **Protected canonical evidence:** 62/62 locks verified at encyclopedia HEAD `b77ba89b72eacfa4d58d1db937e3a91a2000dd16`; overrides file Git blob SHA `81801b2f9d3387b171c01f1fcae255b385a5b698`.
