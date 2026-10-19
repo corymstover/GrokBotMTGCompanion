@@ -71,9 +71,38 @@ class Cycle119WitnessTests(unittest.TestCase):
   outcome=m.mai_ability()
   self.assertEqual(outcome["baseline"]["ordinary_C_after_one_cycle"],0)
   self.assertEqual(outcome["challenger"]["ordinary_C_after_one_cycle"],3)
-  self.assertEqual(outcome["challenger"]["spent_restricted_C_on_rings_trigger"],2)
+  self.assertEqual(outcome["challenger"]["spent_restricted_C_on_rings_trigger"],0)
+  self.assertEqual(outcome["challenger"]["spent_restricted_C_on_basalt_activation"],2)
+  self.assertEqual(outcome["challenger"]["ordinary_C_spent_on_rings_trigger"],2)
   self.assertEqual(outcome["challenger"]["untap_resolutions"],2)
   self.assertTrue(outcome["challenger"]["entered_tapped_blocked_tap"])
+ def test_rings_trigger_rejects_restricted_only_jewel_mana_without_mutation(self):
+  w=m.World(["Rings of Brighthearth", "The Enigma Jewel // Locus of Enlightenment"])
+  m.jewel_tap(w)
+  stack=["basalt_original"]
+  before=copy.deepcopy(vars(w))
+  with self.assertRaises(m.Blocked):
+   m.rings_copy(w,stack)
+  self.assertEqual(vars(w),before)
+  self.assertEqual(stack,["basalt_original"])
+ def test_rings_trigger_consumes_only_two_ordinary_mana(self):
+  w=m.World(["Rings of Brighthearth", "The Enigma Jewel // Locus of Enlightenment"],mana={"C":2})
+  m.jewel_tap(w)
+  stack=["basalt_original"]
+  m.rings_copy(w,stack)
+  self.assertEqual(w.restricted_C,2)
+  self.assertEqual(w.mana["C"],0)
+  self.assertEqual(stack,["basalt_original","basalt_copy"])
+ def test_jewel_can_pay_basalt_activation_cost_not_rings_payment(self):
+  w=m.World(["Basalt Monolith","Rings of Brighthearth","The Enigma Jewel // Locus of Enlightenment"])
+  m.basalt_tap(w)
+  m.jewel_tap(w)
+  stack=m.basalt_untap_activate(w)
+  self.assertEqual(w.restricted_C,0)
+  self.assertEqual(w.mana["C"],2)
+  m.rings_copy(w,stack)
+  self.assertEqual(w.mana["C"],0)
+  self.assertEqual(stack,["basalt_original","basalt_copy"])
  def test_an_offer_cannot_counter_creatures(self):
   w=m.World(["An Offer You Can't Refuse"],mana={"U":1})
   self.assertTrue(m.blocked_unchanged(w,lambda:m.an_offer(w,noncreature=False)))

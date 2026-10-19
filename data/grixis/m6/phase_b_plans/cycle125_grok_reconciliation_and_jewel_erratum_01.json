@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "cycle": 125,
+  "status": "preregistered_before_code_repair",
+  "goal": "Intake external Grok non-author Pass C analysis without premature certification; repair invalid Cycle119 Jewel restricted-mana payment to Rings triggered copy cost; test lawful Jewel Basalt payment path",
+  "evidence": {
+    "report_date": "2026-10-19",
+    "reviewer": "GrokBot MTG Bot, non-author, prior project exposure, no strict blinding",
+    "review_source": "User-provided GrokBot_PassC_Review_Cycle124_2026-10-19.md and .json",
+    "submitted_verdicts": {
+      "Gwendlyn_Di_Corci": "KEEP",
+      "Nicol_Bolas__the_Ravager": "REPLACE (conditional on tests)",
+      "Mai_and_Zuko": "KEEP"
+    },
+    "no_simulated_games": true,
+    "review_not_authored_by_engineering_assistant": true
+  },
+  "original_defect": {
+    "file": "scripts/grixis_m6_cycle119_bounded_effects.py",
+    "function": "rings_copy",
+    "bug": "Restricted Jewel mana was used to pay Rings of Brighthearth triggered payment, not an activated ability activation cost.",
+    "invalid_field": "spent_restricted_C_on_rings_trigger",
+    "invalid_run": "39189755415",
+    "retained_original_artifact": true,
+    "repair": "Rings copy payment must be from ordinary mana; Jewel may pay Basalt Monolith untap activation {3}; same finite outcome requires revised legal stack/mana order."
+  },
+  "registered_checks": [
+    "Direct Rings trigger payment using restricted-only mana is rejected without state mutation",
+    "Legal Jewel/Monolith/Rings bounded sequence uses two restricted on Basalt activation and two ordinary on Rings triggered payment",
+    "Mana after bounded cycle is three ordinary C, but original pre-erratum trace is invalid",
+    "No new deck cards, approval status, M6/M7 certification or independent Pass C 62-deck gate accepted",
+    "External report's strategic REPLACE for Bolas remains conditional; verification of independent review provenance pending"
+  ],
+  "source_branch_head": "22f0fedfc2c0dd4be654406615a5bb6cf2cfff01",
+  "authority": {
+    "can_modify_canonical_decks": false,
+    "can_approve_swap": false,
+    "can_accept_m6": false,
+    "can_mark_formal_pass_c_complete_for_62": false
+  }
+}

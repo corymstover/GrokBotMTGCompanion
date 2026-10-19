@@ -1,0 +1,70 @@
+name: ChatGPT Cycle125 Grok PassC intake and Rings mana erratum
+on:
+  push:
+    branches: [chatgpt-cycle125-grok-passc-intake-rings-erratum]
+    paths:
+      - .github/workflows/chatgpt-cycle125-grok-rings-erratum.yml
+      - scripts/grixis_m6_cycle119_bounded_effects.py
+      - tests/test_m6_cycle119_bounded_effects.py
+      - data/grixis/m6/phase_b_plans/cycle125_grok_reconciliation_and_jewel_erratum_01.json
+      - data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  correction-with-provenance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Pin the frozen 2026-10-16 Scryfall Oracle snapshot
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Eighteen original and additional rules regression tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle119_bounded_effects.py' -v
+      - name: Execute six corrected bounded scenarios and replay deterministically
+        run: |
+          python -u scripts/grixis_m6_cycle119_bounded_effects.py --build
+          python -u scripts/grixis_m6_cycle119_bounded_effects.py --check
+      - name: Reject original invalid Rings payment and milestone promotion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          plan=json.loads(Path('data/grixis/m6/phase_b_plans/cycle125_grok_reconciliation_and_jewel_erratum_01.json').read_text())
+          a=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json').read_text())
+          assert plan['cycle']==125
+          assert all(v is False for v in plan['authority'].values())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          cases={x['scenario_id']:x for x in a['scenario_witnesses']}
+          assert len(cases)==6
+          matches=[x for x in cases.values() if 'spent_restricted_C_on_rings_trigger' in str(x['measured_state'])]
+          assert len(matches)==1
+          import scripts.grixis_m6_cycle119_bounded_effects as engine
+          witness=engine.mai_ability()['challenger']
+          assert witness['spent_restricted_C_on_rings_trigger']==0
+          assert witness['spent_restricted_C_on_basalt_activation']==2
+          assert witness['ordinary_C_spent_on_rings_trigger']==2
+          assert witness['ordinary_C_after_one_cycle']==3
+          assert a['real_multiplayer_gameplay_results']==0
+          assert a['independent_pass_c_count']==0
+          assert a['owner_approved_swaps']==a['canonical_decks_modified']==0
+          assert not a['phase_b_certified'] and not a['m6_accepted']
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json'
+      - name: Publish NEW corrected witness receipt without overwriting historical artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle125-superceding-legal-basalt-activation-rings-trigger-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json
+          if-no-files-found: error
