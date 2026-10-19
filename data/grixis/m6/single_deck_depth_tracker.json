@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Jeleva__Nephalia_s_Scourge",
-    "deep_review_complete_count": 23,
+    "next_tracker_deck_id": "Kefka__Court_Mage",
+    "deep_review_complete_count": 24,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -455,10 +455,10 @@
       "baseline_engineering_logical_sha": "lh1:21c3ebbd08ef90b8499cb9087e5ea26440e3b33615be0a60b8c246ab3b045c4c",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Jeleva__Nephalia_s_Scourge.md",
+      "completed_at_commit": "03f77c2ddb9977a96ee98e4bcad7f136d2871fc7",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39305694616",
       "blocker": null
     },
     {
