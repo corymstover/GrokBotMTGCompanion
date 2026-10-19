@@ -114,10 +114,12 @@ def gw_discard(w):
 def gw_alchemist(w):
     w.has("Aphetto Alchemist")
     w.require("Gwendlyn Di Corci" not in w.shrouded,"shroud prevents own Alchemist target")
+    # Untap effects may legally target an already-untapped creature.
+    was_tapped="Gwendlyn Di Corci" in w.tapped
     w.tap("Aphetto Alchemist")
-    w.require("Gwendlyn Di Corci" in w.tapped,"target is not tapped for planned witness")
-    w.tapped.remove("Gwendlyn Di Corci")
-    w.untaps+=1;w.event("alchemist_untaps_gwendlyn")
+    w.tapped.discard("Gwendlyn Di Corci")
+    w.untaps+=int(was_tapped)
+    w.event("alchemist_untaps_gwendlyn",was_tapped=was_tapped)
 
 def flash_agent_search(w):
     w.require(not w.own_turn,"stipulated response on an opponent turn")
@@ -147,6 +149,8 @@ def amplifier_loyalty(w,loyalty):
     w.require(w.own_turn and w.main_phase and w.stack_empty,
          "Amplifier counters activated only at sorcery timing")
     w.require(loyalty>=0,"negative counters impossible")
+    # Validate {T} before spending mana; a rejected activation is atomic.
+    w.require("Aetheric Amplifier" not in w.tapped,"Amplifier already tapped")
     w.spend({"generic":4},restricted_allowed=False)
     w.tap("Aetheric Amplifier")
     w.loyalty=loyalty*2
@@ -191,10 +195,9 @@ def an_offer(w,noncreature=True,spell_counterable=True):
     w.spend({"U":1},restricted_allowed=False)
     if spell_counterable:
         w.countered+=1
-        w.opponent_treasures+=2
-        w.event("an_offer_counters_noncreature_spell",opponent_treasures=2)
-    else:
-        w.event("an_offer_resolves_spell_uncounterable",treasures=0)
+    # The Treasure instruction is independent of whether the countering succeeds.
+    w.opponent_treasures+=2
+    w.event("an_offer_resolves_noncreature_spell",countered=spell_counterable,opponent_treasures=2)
 
 def blocked_unchanged(w,func):
     before=copy.deepcopy(vars(w))
