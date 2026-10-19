@@ -178,7 +178,7 @@ def basalt_untap_activate(w):
 def rings_copy(w,stack):
     w.has("Rings of Brighthearth")
     w.require(stack and stack[-1]=="basalt_original","only a nonmana activated untap ability may be copied here")
-    w.spend({"generic":2},restricted_allowed=True)
+    w.spend({"generic":2},restricted_allowed=False)
     stack.append("basalt_copy")
     w.event("rings_copy_paid_two_and_added_copy_to_stack")
 
@@ -315,9 +315,10 @@ def mai_ability():
     alt.tapped.discard(jewel);alt.event("jewel_untaps_on_later_turn")
     for w in (base,alt):
         basalt_tap(w)
-        stack=basalt_untap_activate(w)
         if w is alt:
             jewel_tap(w)
+        stack=basalt_untap_activate(w)
+        if w is alt:
             rings_copy(w,stack)
             # Before original untap, the COPY resolves and untaps Basalt.
             resolve_untap(w,stack)
@@ -335,7 +336,7 @@ def mai_ability():
     assert restricted_spell_block
     return {"baseline":{"ordinary_C_after_one_cycle":base.mana.get("C",0),"untap_resolutions":base.untaps,"events":base.events},
       "challenger":{"ordinary_C_after_one_cycle":alt.mana.get("C",0),"untap_resolutions":alt.untaps,
-          "spent_restricted_C_on_rings_trigger":2,"spent_restricted_C_on_spell_cast":0,
+          "spent_restricted_C_on_rings_trigger":0,"spent_restricted_C_on_basalt_activation":2,"ordinary_C_spent_on_rings_trigger":2,"spent_restricted_C_on_spell_cast":0,
           "entered_tapped_blocked_tap":entered_tapped_block,"restricted_spell_mana_blocked":restricted_spell_block,
           "events":alt.events}}
 
