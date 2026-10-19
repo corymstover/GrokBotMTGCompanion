@@ -1,0 +1,62 @@
+name: Cycle131 complete 62 authored commander reviews
+on:
+  push:
+    branches: [chatgpt-cycle131-complete-authored-62]
+    paths:
+      - .github/workflows/chatgpt-cycle131-all-authored.yml
+      - data/grixis/m6/phase_b_plans/cycle131_all_remaining_authored_preregistered_01.json
+      - data/grixis/m6/author_reviews/cycle131_batch_a_01.json
+      - data/grixis/m6/author_reviews/cycle131_batch_b_01.json
+      - data/grixis/m6/author_reviews/cycle131_batch_c_01.json
+      - data/grixis/m6/author_reviews/cycle131_batch_d_01.json
+      - data/grixis/m6/author_reviews/cycle131_batch_e_01.json
+      - scripts/grixis_m6_cycle131_all_62_authored.py
+      - tests/test_m6_cycle131_all_62_authored.py
+      - grixis/M6 Authored 62 Pass C Handoff.md
+      - data/grixis/m6/critic_batches/cycle131_author_self_critique_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  original-author-completeness:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify source pinned Scryfall archive bytes
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Run source/exception/anti-promotion/adversarial tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle131_all_62_authored.py' -v
+      - name: Build, compare and seal 62 authored reviewed identities
+        run: |
+          python scripts/grixis_m6_cycle131_all_62_authored.py --build
+          python scripts/grixis_m6_cycle131_all_62_authored.py --check
+      - name: Reject invented Pass C, Phase B and canonical changes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("data/grixis/m6/independent_review_intake/cycle131_all_62_authored_handoff_receipt_01.json").read_text())
+          r=json.loads(Path("data/grixis/registry.json").read_text())
+          assert (p['previous_authored'],p['new_authored'],p['total_authored']) == (33,29,62)
+          assert len(p['new_reviews'])==29 and len(set(x['deck_id'] for x in p['new_reviews']))==29
+          assert p['formal_independent_pass_c_completed']==0
+          assert p['complete_effect_aware_phase_b_certified']==0
+          assert p['canonical_deck_changes']==p['owner_approved_swaps']==0
+          assert not p['m6_accepted'] and not p['current_full_100_card_legality_reverified']
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/independent_review_intake/cycle131_all_62_authored_handoff_receipt_01.json'
+      - name: Upload independent review intake receipt for all 62 authored source decks
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle131-all-62-authored-ready-for-pass-c-intake
+          path: data/grixis/m6/independent_review_intake/cycle131_all_62_authored_handoff_receipt_01.json
+          if-no-files-found: error

@@ -1,0 +1,254 @@
+{
+  "cycle": 131,
+  "batch": "D",
+  "source_kind": "authored_commander_first",
+  "count": 6,
+  "rows": [
+    {
+      "id": "Saruman__the_White_Hand",
+      "core": "Saruman amasses Orcs when a noncreature spell is CAST with its mana value, even when alternate/reduced costs lower mana spent; repeated large-MV spells create Army damage.",
+      "positive": "Relic of Sauron is an artifact noncreature spell of mana value four, so casting it triggers Saruman and leaves repeatable UBR mana to pay future spells.",
+      "cut_cost": "Mana Geyser is mana value five, itself a substantial Amass increment while often producing much more mana from opponents' tapped lands on a decisive turn.",
+      "rules": [
+        "Saruman triggers upon casting a noncreature spell; resolution or copying a spell is not a fresh cast.",
+        "The amass quantity uses mana value, not amount spent, so affinity, delve and alternate costs do not alter quantity by themselves.",
+        "Mana Geyser produces red mana equal to the number of tapped lands opponents control as it resolves.",
+        "Relic of Sauron costs four mana and has a tap ability adding {U}{B}{R}. As a noncreature artifact, it can normally tap immediately after resolving if it enters untapped and no other effect restricts it.",
+        "Saruman's Army may be a single Orc Army creature that grows with subsequent amass, not one separate new Army per spell."
+      ],
+      "adverse": "Relic can provide stable fixing, but trading a source-funded explosive mana spell and its higher amass for a generic four-mana rock may significantly lower lethal multi-spell turns.",
+      "followup": "Compare source-paid Saruman cast spell sequence with 4–12 opposing tapped lands, counting Army counters and real spells cast after resolving Geyser versus Relic.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Saruman__the_White_Hand",
+      "slug": "saruman-the-white-hand",
+      "commander_names": [
+        "Saruman, the White Hand"
+      ],
+      "add": "Relic of Sauron",
+      "cut": "Mana Geyser",
+      "m5_swap_id": "swap:saruman-the-white-hand:m5:d3aacf4c189a",
+      "baseline_logical_hash": "lh1:4710f5676592c6b80d1f38d505a3f6050d628292231d31c8b07030cd7264e65e",
+      "source_recorded_sha": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Saruman, the White Hand",
+        "Blasphemous Act",
+        "Volcanic Salvo",
+        "Soul's Fire",
+        "Mauhúr, Uruk-hai Captain"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Parnesse__the_Subtle_Brush",
+      "core": "Parnesse turns copied instants and sorceries into political, optional opponent copies while taxing opposing spells/abilities targeting your permanents; own copy engines need mana for interaction.",
+      "positive": "Dimir Signet can supply both U and B using a generic payment, helping recast blue copy spells while holding black interaction.",
+      "cut_cost": "Talisman of Indulgence produces B or R without an activation mana input, sustaining red copy spells and interaction at lower upfront cost.",
+      "rules": [
+        "Parnesse's opponent-copy ability rewards a player choosing to copy a spell you control; she does not mandate opponents to choose yes.",
+        "Dimir Signet requires spending {1}, then tapping, to produce {U}{B} and never directly generates red mana.",
+        "Talisman of Indulgence produces {B} or {R} for a life payment, or colorless without the life payment.",
+        "Swapping mana rocks does not increase Parnesse's spell-copy count unless it meaningfully changes available spell payments.",
+        "The first target-tax clause is triggered when opponents target you or your permanents and is not a mana ability of your rocks."
+      ],
+      "adverse": "The replacement can leave red copy and burn payoffs underfunded and demands another input source each tap; card swaps must be evaluated with the actual Grixis color curve.",
+      "followup": "Compute paid colored spell-copy turns at 2–5 mana with Signet versus Talisman under opponent responses and early red-pip requirements.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "slug": "parnesse-the-subtle-brush",
+      "commander_names": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "add": "Dimir Signet",
+      "cut": "Talisman of Indulgence",
+      "m5_swap_id": "swap:parnesse-the-subtle-brush:m5:eadaab4561c4",
+      "baseline_logical_hash": "lh1:bb86ddd74054d4f5dbec9ed997501ca1731a398a728fda18d0d430f94d0a9839",
+      "source_recorded_sha": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Parnesse, the Subtle Brush",
+        "Narset's Reversal",
+        "Reiterate",
+        "Tempt with Mayhem",
+        "Veyran, Voice of Duality"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Mishra__Eminent_One",
+      "core": "Mishra's combat Warform copies noncreature artifacts as hasty 4/4 creatures, repeating artifact ETB/death/leaves triggers and enabling copy/sacrifice lines.",
+      "positive": "Thoughtcast can be one-blue mana with enough artifacts thanks to affinity, drawing two cards immediately during setup.",
+      "cut_cost": "Mystic Remora supplies early repeating cards from opponents casting noncreature spells, often replenishing the hand before a four-mana Mishra can be deployed.",
+      "rules": [
+        "Mishra copies target noncreature artifact at beginning of combat, not sorceries like Thoughtcast.",
+        "Affinity for artifacts reduces generic mana cost of Thoughtcast based on artifacts controlled while casting; it cannot remove the blue pip.",
+        "The mana value of Thoughtcast remains five even when its payable cost is reduced.",
+        "Mystic Remora uses cumulative upkeep and triggers on opponent noncreature spells unless tax is paid; it may draw more than two over a turn cycle.",
+        "Mishra's copied Warform token is sacrificed at next end step, so its exits can feed artifact death/leave engines but do not directly cast Thoughtcast."
+      ],
+      "adverse": "One-shot two-card draw at potentially low cost can be reasonable in artifact-dense hands, yet cutting early recurring Remora sacrifices opponent-turn access to feed Mishra's artifact setup.",
+      "followup": "Count source artifact presence by turn and effective Thoughtcast payable mana, comparing Remora draws in pods with varying noncreature spell rates.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_ARTIFACT_DENSITY_TEST",
+      "deck_id": "Mishra__Eminent_One",
+      "slug": "mishra-eminent-one",
+      "commander_names": [
+        "Mishra, Eminent One"
+      ],
+      "add": "Thoughtcast",
+      "cut": "Mystic Remora",
+      "m5_swap_id": "swap:mishra-eminent-one:m5:cdc6c98bfd23",
+      "baseline_logical_hash": "lh1:6ac1d9c40c3c9286ba5c684cbd943af7ecfa15dabab1a024f02b22951531e89d",
+      "source_recorded_sha": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Mishra, Eminent One",
+        "Gonti's Aether Heart",
+        "Strionic Resonator",
+        "Lithoform Engine",
+        "Ichor Wellspring"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Marchesa__the_Black_Rose",
+      "core": "Marchesa's dethrone/+1 counter package returns creatures that died with counters at beginning of next end step, enabling sacrifice loops and persist resets.",
+      "positive": "Village Rites is a one-black instant that sacrifices a countered creature and immediately draws two, an efficient way to trigger Marchesa recursion under stack pressure.",
+      "cut_cost": "Braids, Arisen Nightmare offers repeatable end-step sacrificing and multiplayer draw/punishment, which naturally exchanges expendable creatures for continuing recursion.",
+      "rules": [
+        "Marchesa's return trigger requires the creature to have had a +1/+1 counter when it died while under your control, and the commander must control the relevant ability.",
+        "Village Rites sacrifices a creature as part of its additional casting cost and draws two on resolution.",
+        "Braids's end-step ability may sacrifice artifact, creature, enchantment, land or planeswalker, then pressures opponents to match the type or lose life and supply cards.",
+        "A creature returning at a later end step is not guaranteed to be present when a previous end-step sacrifice trigger is resolving.",
+        "Changing a repeating sacrifice engine to one-shot instant draw can reduce the available sacrifice events needed for persist/counter loops."
+      ],
+      "adverse": "Village Rites gives a flexible protection play, but Braids's sustained sacrifice cadence, opponent tax and refill are closely tied to Marchesa's sacrifice identity.",
+      "followup": "Trace countered creature death/return windows under free outlets plus Braids versus Rites and measure cards and reanimation steps in multiple turns.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Marchesa__the_Black_Rose",
+      "slug": "marchesa-the-black-rose",
+      "commander_names": [
+        "Marchesa, the Black Rose"
+      ],
+      "add": "Village Rites",
+      "cut": "Braids, Arisen Nightmare",
+      "m5_swap_id": "swap:marchesa-the-black-rose:m5:d0d17e108cdf",
+      "baseline_logical_hash": "lh1:ff7464ce79627be5de1b49504c69dc40a9e01dd24e33f9e3abffeffb5784166f",
+      "source_recorded_sha": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Marchesa, the Black Rose",
+        "Thran Vigil",
+        "Murderous Redcap",
+        "Mikaeus, the Unhallowed",
+        "Phyrexian Altar"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Tetsuo__Imperial_Champion",
+      "core": "Equipped Tetsuo attacks to deal damage or cast an instant/sorcery with mana value no greater than the highest Equipment mana value attached; suspend/no-cast cost spells are premium choices.",
+      "positive": "Kiki-Jiki, Mirror Breaker can make a temporary hasty token copy of a creature with relevant ETB, if enough colored mana and untap opportunities exist.",
+      "cut_cost": "Sword of Fire and Ice is an Equipment that provides protection, combat damage to any target and card draw when equipped creature connects; its mana value also influences Tetsuo's free-cast ceiling.",
+      "rules": [
+        "Tetsuo's trigger requires him to be equipped WHEN he attacks; unattached Kiki-Jiki offers no benefit to that trigger.",
+        "Kiki-Jiki's activation copies a nonlegendary creature you control, not Equipment or sorcery spells in hand.",
+        "The token copy Kiki-Jiki makes has haste but is sacrificed at the beginning of the next end step.",
+        "Sword of Fire and Ice has a mana value that can be used as Tetsuo's highest attached Equipment when it is equipped.",
+        "Tetsuo's combat free spell must be a legal instant or sorcery from hand within the mana value limit, not simply any copied creature."
+      ],
+      "adverse": "A generic triple-red creature copying engine loses equipped attack payoff, protection and free-spell threshold for an off-plan combo possibility.",
+      "followup": "Compare actual equipped Tetsuo attacks with Sword damage/draw and legal free-spell hits against source-paid Kiki-Jiki token lines.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "slug": "tetsuo-imperial-champion",
+      "commander_names": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "add": "Kiki-Jiki, Mirror Breaker",
+      "cut": "Sword of Fire and Ice",
+      "m5_swap_id": "swap:tetsuo-imperial-champion:m5:5ed96f585523",
+      "baseline_logical_hash": "lh1:fda37e991784a0844a31db1c357f33bd92f34894ab687b4bef444a97f8c976ee",
+      "source_recorded_sha": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Tetsuo, Imperial Champion",
+        "Aggravated Assault",
+        "Sword of Feast and Famine",
+        "Excalibur, Sword of Eden",
+        "Brass Squire"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Missy",
+      "core": "Missy turns dying nontoken nonartifact creatures into face-down Cybermen; controlled sac/turn-face-up loops exploit creature card characteristics carefully.",
+      "positive": "Darkwater Catacombs filters black and blue mana for early Missy casting and recursion outlets if current lands cannot produce both required colors.",
+      "cut_cost": "Otawara, Soaring City is an untapped blue source whose channel ability bounces an artifact, creature, enchantment or planeswalker without casting a spell; it can answer hate or preserve a combo creature.",
+      "rules": [
+        "Missy triggers when a qualifying nonartifact creature dies and returns it face down as an artifact Cyberman; the death and return require proper zone ownership/control.",
+        "Turning a face-down Cyberman face up uses its actual applicable morph/disguise/turn-face-up costs and rules, not a general free flip.",
+        "Darkwater Catacombs requires another mana to activate and produces U/B; it cannot be counted as independent blue and black sources without the input.",
+        "Otawara's channel is an activated ability from hand and is not a spell; its blue mana land ability remains independently useful.",
+        "Replacing a channel answer with a filtering land can reduce ability to remove graveyard hate or reset a face-down loop under a timing window."
+      ],
+      "adverse": "The color filter competes with a low-opportunity-cost interactive channel land, a valuable safety valve while executing sacrifice/morph interactions.",
+      "followup": "Test a source-supported Missy face-up/death chain under graveyard hate and channel interaction, comparing mana-base source payments.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Missy",
+      "slug": "missy",
+      "commander_names": [
+        "Missy"
+      ],
+      "add": "Darkwater Catacombs",
+      "cut": "Otawara, Soaring City",
+      "m5_swap_id": "swap:missy:m5:ac2ab4045d17",
+      "baseline_logical_hash": "lh1:f8f18bbca5711b524143d1a8797cdda0d8b4caf298448a8a63f5b02a842aeabb",
+      "source_recorded_sha": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Missy",
+        "Ruthless Ripper",
+        "Dragon's Eye Savants",
+        "Horde Ambusher",
+        "Goblin Bombardment"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    }
+  ]
+}

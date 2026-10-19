@@ -1,0 +1,254 @@
+{
+  "cycle": 131,
+  "batch": "A",
+  "source_kind": "authored_commander_first",
+  "count": 6,
+  "rows": [
+    {
+      "id": "Abaddon_the_Despoiler",
+      "core": "Turn-specific opponent-life-loss threshold powers cascade on hand-cast spells; Solphim and cheap pingers raise the threshold without replacing Abaddon.",
+      "positive": "Aggravated Assault can create additional attack and main phases; with mana and unblocked attackers, extra opponent life loss may enlarge later Abaddon cascade thresholds.",
+      "cut_cost": "Mystic Remora is one-blue early card advantage against opponents' noncreature spells; losing it deprives a mid-power cascade deck of efficient fuel and answers while preparing Abaddon.",
+      "rules": [
+        "Abaddon's granted cascade checks spells cast from hand during your turn and the total opponent life lost that turn.",
+        "Aggravated Assault activates only at sorcery speed, costs {3}{R}{R}, and untaps creatures plus generates additional combat and main phase.",
+        "Additional combat damage may contribute to Abaddon's threshold but does not itself cascade or recur the Assault activation cost.",
+        "Mystic Remora taxes noncreature spells at the point opponents cast them and can draw multiple cards before Abaddon is active.",
+        "An Assault infinite-combat line requires actual attack-trigger mana creation or other demonstrated mana-positive source, not just a Spellbook completion."
+      ],
+      "adverse": "High recurring activation cost plus extra combat does not automatically increase spells available from hand; the candidate removes the source's best early noncreature-spell draw.",
+      "followup": "Compare Assault activation turns with source lands/rituals, damage threshold and eligible hand spells against Remora early opponents' turns.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_PAID_COMBAT_TEST",
+      "deck_id": "Abaddon_the_Despoiler",
+      "slug": "abaddon-the-despoiler",
+      "commander_names": [
+        "Abaddon the Despoiler"
+      ],
+      "add": "Aggravated Assault",
+      "cut": "Mystic Remora",
+      "m5_swap_id": "swap:abaddon-the-despoiler:m5:fb5e4ee80c19",
+      "baseline_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+      "source_recorded_sha": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Abaddon the Despoiler",
+        "Solphim, Mayhem Dominus",
+        "Prosper, Tome-Bound",
+        "Nalfeshnee",
+        "Thermo-Alchemist"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Don_Andres__the_Renegade",
+      "core": "Enemy-card theft turns opponents' creatures into enhanced Pirates and opponent-owned noncreature spells into Treasure generation.",
+      "positive": "Tidespout Tyrant might bounce opposing blockers or permanents during long spell chains, reopening theft attacks without relying on battle damage.",
+      "cut_cost": "Deadly Rollick is conditional free instant-speed creature exile when a commander is controlled; it can preserve Don Andres or remove the lethal blocker before attack.",
+      "rules": [
+        "Don Andres rewards creatures you control but do not own, and noncreature spells you cast that you do not own.",
+        "Casting your own Tidespout Tyrant does not, by itself, satisfy the don't-own spell payoff.",
+        "A bounced opposing permanent returns to its owner's hand; ordinary Tyrant bounce does not put its card under your control.",
+        "Tidespout needs spells cast after it resolves and their mana costs must be paid for repeat control.",
+        "Deadly Rollick alternate cost requires you to control a commander, not merely have one in the command zone."
+      ],
+      "adverse": "Seven-mana generic bounce control replaces free removal without improving the commander's stole-card cast count; tempo and protected theft lines suffer.",
+      "followup": "Test actual Don Andres captured noncreature spells and Treasure generation before a source-payable Tyrant spell chain, including a blocker response.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Don_Andres__the_Renegade",
+      "slug": "don-andres-the-renegade",
+      "commander_names": [
+        "Don Andres, the Renegade"
+      ],
+      "add": "Tidespout Tyrant",
+      "cut": "Deadly Rollick",
+      "m5_swap_id": "swap:don-andres-the-renegade:m5:d9bdad1f9bbf",
+      "baseline_logical_hash": "lh1:012d9c8c9f3127dbfc1ed86dbd8db88ac5f00ee810f841c90a74e5d385faff48",
+      "source_recorded_sha": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Don Andres, the Renegade",
+        "Thief of Sanity",
+        "Thieving Amalgam",
+        "Insurrection",
+        "Gonti, Night Minister"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Mishra__Artificer_Prodigy",
+      "core": "Artifact-spell cast triggers recover matching copies from graveyard/hand/library through counter and exile stax; colorless activations matter only after artifact access.",
+      "positive": "The Enigma Jewel cheaply supplies mana for artifact activated abilities; its crafted face could offer copied activated abilities in a longer stax game.",
+      "cut_cost": "Mox Amber is a zero-mana colored source when Mishra or another qualifying legendary creature/planeswalker is controlled and serves as a low-cost artifact cast under selective stax.",
+      "rules": [
+        "Mishra triggers on artifact spell casting; the matching-name card can be fetched from permitted zones, but the cast itself remains subject to counterspells.",
+        "The Enigma Jewel's mana is restricted to costs of activated abilities, not Mishra's triggered retrieval or artifact spell costs.",
+        "The Jewel enters tapped and cannot immediately pay its tap ability on entering.",
+        "The Jewel is itself an artifact spell and can trigger Mishra, but Commander singleton usually prevents fetching a second same-name card without a separate zone/copy circumstance.",
+        "The crafted Locus is not automatically available: source-approved exiled materials and crafting payments must be verified."
+      ],
+      "adverse": "Jewel cannot fund the deck's early stax artifact casts or Mishra's trigger; taking away zero-mana Mox Amber can impair the asymmetry setup.",
+      "followup": "Identify exact approved artifact activated-ability payments and earliest crafted-face line; compare colored mana/lock deployment when Mox Amber stays.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "slug": "mishra-artificer-prodigy",
+      "commander_names": [
+        "Mishra, Artificer Prodigy"
+      ],
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "Mox Amber",
+      "m5_swap_id": "swap:mishra-artificer-prodigy:m5:652838df40b1",
+      "baseline_logical_hash": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
+      "source_recorded_sha": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Mishra, Artificer Prodigy",
+        "Void Mirror",
+        "Possibility Storm",
+        "Sensei's Divining Top",
+        "Karn, the Great Creator"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Thraximundar",
+      "core": "Commander grows when any player sacrifices a creature and forces the defender to sacrifice on attack; edicts and sacrifice control clear a commander-damage route.",
+      "positive": "Relic of Legends adds a mana rock that can tap legendary creatures to produce another colored mana, theoretically allowing postcombat ritual or removal development.",
+      "cut_cost": "Black Market Connections is repeatable life-for-cards, Treasure and creature generation; the 3/2 changeling body can be edict fodder and draw supplies protected attack turns.",
+      "rules": [
+        "Thraximundar gains +1/+1 counters on any player sacrificing a creature; sacrificing mana rocks is not a creature sacrifice.",
+        "Relic of Legends can tap an untapped legendary creature for mana, but a Thraximundar tapped for mana cannot also be declared an attacker that turn without untapping.",
+        "Relic's ordinary tap-mana mode is not a free extra legendary activation.",
+        "Black Market Connections creates a Treasure, draws or makes a 3/2 Shapeshifter with life payments during precombat main, supplying board and hand separately.",
+        "Thraximundar's attack edict alone does not guarantee an opponent sacrifices multiple creatures if board positions make a single forced sacrifice possible."
+      ],
+      "adverse": "Replacing a scalable card/Treasure/fodder engine with a three-mana narrow rock can slow both interaction and forced-sacrifice plan.",
+      "followup": "Compare early commander casting and subsequent edict count with Connections life budget versus Relic's colored mana across two turns.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Thraximundar",
+      "slug": "thraximundar",
+      "commander_names": [
+        "Thraximundar"
+      ],
+      "add": "Relic of Legends",
+      "cut": "Black Market Connections",
+      "m5_swap_id": "swap:thraximundar:m5:24ac3181fdda",
+      "baseline_logical_hash": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
+      "source_recorded_sha": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Thraximundar",
+        "Gravecrawler",
+        "Phyrexian Altar",
+        "Grave Pact",
+        "Cultist of the Absolute"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Admiral_Brass__Unsinkable",
+      "core": "Commander reanimates exactly Pirate creature cards at each own combat, with finality counters and temporary haste; ETB Pirates plus finality management define the engine.",
+      "positive": "Tidespout Tyrant might help bounce large permanents while assembling a Pirates attack board, potentially protecting a slower value game.",
+      "cut_cost": "Deadly Rollick conditionally exiles a blocker or graveyard-reanimator threat at no mana while Admiral Brass is controlled, preserving combat and chosen Pirate target.",
+      "rules": [
+        "Admiral Brass's beginning-of-combat reanimation targets Pirate creature cards, not arbitrary creatures.",
+        "Tidespout Tyrant is a Djinn, not a Pirate; it cannot ordinarily be the Admiral's combat reanimation target.",
+        "A returned Pirate with a finality counter is exiled instead of dying, limiting standard recursion without counter removal.",
+        "Tidespout's cast triggers need post-resolution spells and do not multiply the Admiral's combat trigger by themselves.",
+        "Deadly Rollick's free casting condition is controlling a commander; casting it at a contested reanimation window may protect the combat line."
+      ],
+      "adverse": "Tyrant becomes a commander-independent seven/eight-mana threat that costs protected creature removal and is not a Pirate target; historical raw SHA mismatch must not be silently repaired.",
+      "followup": "Test actual Pirates returned per combat and conditional Rollick protection compared with fully paid Tyrant; reconcile recorded/raw source hashes separately.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "slug": "admiral-brass-unsinkable",
+      "commander_names": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "add": "Tidespout Tyrant",
+      "cut": "Deadly Rollick",
+      "m5_swap_id": "swap:admiral-brass-unsinkable:m5:4ba9948e4ec2",
+      "baseline_logical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+      "source_recorded_sha": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+      "source_raw_match_recorded": false,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Admiral Brass, Unsinkable",
+        "Power Conduit",
+        "Entomb",
+        "Skeleton Crew",
+        "Roaming Throne"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Sedris__the_Traitor_King",
+      "core": "Sedris grants own graveyard creatures unearth {2}{B}, enabling transient ETB reanimation, repeat with reductions and doubling, and self-mill as fuel.",
+      "positive": "The Enigma Jewel provides mana usable for the generic portion of unearth activated abilities, potentially sustaining one or more graveyard activations after Sedris is on board.",
+      "cut_cost": "Jeska's Will generates red mana or playable exiled cards at sorcery speed and can grant both modes with commander controlled, supplying burst mana and castable spells for graveyard turns.",
+      "rules": [
+        "Unearth is an activated ability of creature cards in graveyard and is restricted to sorcery timing; its activation mana may be partly paid with Jewel's restricted mana.",
+        "The Jewel only generates colorless ability mana, never the {B} required by Sedris-granted unearth.",
+        "Jewel enters tapped, so it cannot activate its tap-mana ability immediately without untapping.",
+        "Sedris's unearth replacement exiles a returned permanent if it would leave the battlefield and at end step, making recursion and blink lines timing-sensitive.",
+        "Jeska's Will is not an activated ability and cannot be paid with restricted Jewel mana."
+      ],
+      "adverse": "A one-mana tap artifact may help later ability-heavy turns but is slower than red burst mana on the key turn; no source-paid unearth improvement is established.",
+      "followup": "Trace source graveyard creature count, Jewel generic payments, black pips, end-step timing and Will dual-mode sequences across paired hands.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_ACTIVATION_TEST",
+      "deck_id": "Sedris__the_Traitor_King",
+      "slug": "sedris-the-traitor-king",
+      "commander_names": [
+        "Sedris, the Traitor King"
+      ],
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "Jeska's Will",
+      "m5_swap_id": "swap:sedris-the-traitor-king:m5:49fac154bb10",
+      "baseline_logical_hash": "lh1:8b145ace962d556ae92e34d7b0056c789f99cba0c40c60bb5828aa1602bded95",
+      "source_recorded_sha": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Sedris, the Traitor King",
+        "Convergence of Dominion",
+        "Obeka, Brute Chronologist",
+        "Panharmonicon",
+        "Deadeye Navigator"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "cycle": 131,
+  "status": "PREREGISTERED_BEFORE_AUTHOR_CONCLUSIONS",
+  "objective": "Finish all remaining 29 genuinely commander-specific authored M6 candidate evaluations and source/Oracle bind them for independent Pass C handoff. Do not claim these reviews are independent, complete Phase B or locally optimal.",
+  "source_authority": {
+    "engineering_branch": "chatgpt-cycle76-m6-refinement",
+    "engineering_head": "e9161852e459945f28b64559ee8725be1d0b1ecf",
+    "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "canonical_overrides_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698"
+  },
+  "inputs": [
+    "data/grixis/registry.json",
+    "data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json",
+    "data/grixis/blueprints",
+    "grixis/decks",
+    "five original authored 3-deck cycles",
+    "cycles128-130 six-deck authored cases"
+  ],
+  "target_rule": "Compute missing set as exact complement of existing 33 authored cases, never choose by blindly slicing last 29. Includes Abaddon (queue position 3).",
+  "candidate_rule": "Review the exact top M5 source swap independently for each deck. Provide favorable/critical case, exact cut cost, at least 4 distinct rules/game facts, protected strategy, potential favorable counterexample and measurable next Pass C question; no rote conclusions. Flag source quality/legality discrepancies explicitly.",
+  "verification": [
+    "Exactly 29 missing unique deck IDs plus existing 33 equals 62 unique source decks.",
+    "Scryfall Oct 16 archived Oracle source SHA256 ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483 used only for frozen snapshot; current legality not certified.",
+    "Source M5 exact swap IDs, approved logical hashes, 100-card totals respecting partner commanders and companion zone, legal repeats, raw source mismatches and project-authorized bans/future releases kept explicit.",
+    "Each author review contains positive case, adverse case, protected commander mechanics, actual rules caveats and falsifiable Pass C follow-up.",
+    "Strict no-canonical-mutation and no formal Pass C/I/J/Phase B/milestone promotions; CI on exact head, independent author technical self-critique clearly not formal Pass C."
+  ],
+  "expected_new": 29,
+  "expected_authored_after_verified": 62,
+  "authority": {
+    "approve_swaps": false,
+    "edit_canonical": false,
+    "approve_m6": false,
+    "certify_independent_pass_c": false,
+    "certify_full_phase_b": false
+  }
+}
