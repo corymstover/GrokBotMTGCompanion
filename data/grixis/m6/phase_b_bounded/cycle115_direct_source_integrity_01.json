@@ -1,0 +1,92 @@
+{
+  "cycle": 115,
+  "receipt_type": "direct_read_only_GitHub_connector_cross_repository_source_integrity",
+  "validation_status": "PASSED_RECORDED_SOURCE_CHECKS_ONLY",
+  "notes": [
+    "All named approval SHA-256 values were compared between the canonical approval state and companion source registry. The three source-file bytes were not independently hashed in this author-side receipt.",
+    "Each full source list was parsed one line at a time; quantities sum to exactly 100, with two commanders only in RogSi.",
+    "Commander colors, all individual cards' current Oracle text/Commander legality and effects were NOT comprehensively independently recertified.",
+    "Formal automated CI and unit tests remain unavailable from this session after an earlier workflow-creation tooling safety block. This is not equivalent to CI-pass, formal Pass C, or Phase B."
+  ],
+  "deck_review_results": [
+    {
+      "deck_id": "RogSi",
+      "slug": "rograkh-son-of-rohgahh-silas-renn",
+      "source_file": "refinement/decklists/RogSi_Approved_2026-10-15.txt",
+      "raw_sha256_recorded": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+      "source_reg_and_canonical_SHA_recorded_match": true,
+      "total_cards": 100,
+      "commanders": 2,
+      "library_cards": 98,
+      "commander_names": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "nonbasic_singleton_violations": 0,
+      "approved": true,
+      "locked": true,
+      "source_M5_swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "add_absent_and_cut_present": true,
+      "blueprint_and_M5_hashes_match_registry": true
+    },
+    {
+      "deck_id": "Nicol_Bolas",
+      "slug": "nicol-bolas",
+      "source_file": "refinement/decklists/Nicol_Bolas_Approved_2026-10-15.txt",
+      "raw_sha256_recorded": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
+      "source_reg_and_canonical_SHA_recorded_match": true,
+      "total_cards": 100,
+      "commanders": 1,
+      "library_cards": 99,
+      "commander_names": [
+        "Nicol Bolas"
+      ],
+      "nonbasic_singleton_violations": 0,
+      "approved": true,
+      "locked": true,
+      "source_M5_swap_id": "swap:nicol-bolas:m5:3adba7cabda7",
+      "add": "Volcano Hellion",
+      "cut": "Mystic Remora",
+      "add_absent_and_cut_present": true,
+      "blueprint_and_M5_hashes_match_registry": true
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "source_file": "refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt",
+      "raw_sha256_recorded": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "source_reg_and_canonical_SHA_recorded_match": true,
+      "total_cards": 100,
+      "commanders": 1,
+      "library_cards": 99,
+      "commander_names": [
+        "Mai and Zuko"
+      ],
+      "nonbasic_singleton_violations": 0,
+      "approved": true,
+      "locked": true,
+      "source_M5_swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "An Offer You Can't Refuse",
+      "add_absent_and_cut_present": true,
+      "blueprint_and_M5_hashes_match_registry": true
+    }
+  ],
+  "all_62_live_canonical_APPROVED_LOCKED": true,
+  "live_milestones": {
+    "M0_to_M5": "accepted",
+    "M6": "in_progress",
+    "M7": "not_started",
+    "M8": "not_started"
+  },
+  "project_changes": {
+    "canonical_decks_modified": 0,
+    "owner_approvals_issued": 0,
+    "formal_independent_pass_c_reviews": 0,
+    "full_effect_aware_phase_b_deck_reviews": 0,
+    "M6_accepted": false
+  },
+  "workflow_pending_reason": "GitHub CI creation blocked at Cycle114; do not merge Cycle115 or mark automated green until separate permitted verification."
+}

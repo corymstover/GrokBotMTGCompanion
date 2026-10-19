@@ -1,0 +1,84 @@
+{
+  "cycle": 115,
+  "reviewer": "ChatGPT author; external card-text corroboration plus source-read deck checks; NOT independent Pass C",
+  "nature": "candidate-specific commander-first judgments without deck changes",
+  "items": [
+    {
+      "deck_id": "RogSi",
+      "commander": "Rograkh, Son of Rohgahh // Silas Renn, Seeker Adept",
+      "approved_raw_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+      "source_swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "verdict": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_identity": "Rograkh supplies a zero-mana red legendary creature, powering Mox Amber and sacrifice conversion into early turbo-Ad Nauseam/Oracle/Breach attempts. Silas is chiefly identity and an occasional combat artifact-recast effect. Early zero/cheap spells and spell velocity are more central than prolonged activated-ability value.",
+      "verified_card_text_implications": [
+        "The Enigma Jewel costs {U}, enters tapped, and makes {C}{C} usable ONLY to activate abilities. This mana cannot cast Ad Nauseam, Breach spells, rituals, counterspells or other ordinary spells; it may support activated artifact abilities.",
+        "Its craft costs {8}{U} and exiles four or more other nonland permanents and/or graveyard cards with activated abilities as the sorcery-speed craft cost. The Locus copy engine is expensive and copies nonmana activated abilities, but does not independently provide Rograkh spell-chain mana.",
+        "Birgi (the chosen front face) generates {R} when the controller casts ANY spell and preserves that mana through the turn, directly feeding sequential spells. The Harnfel back face can discard dead cards to exile two library cards playable in the same turn.",
+        "Even if Jewel enables activated mana-cost payments (e.g., Wishclaw Talisman), the proposed slot exchange loses both immediate spell-chain refund and card access; generic Spellbook completion alone cannot establish faster wins."
+      ],
+      "strongest_positive_case": "The Enigma Jewel has costed-ability resource utility and potential Locus copied artifacts, but these are situational in a fast turbo shell.",
+      "cut_cost": "Birgi/Harnfel offers both cast-trigger mana and explosive hand conversion, useful in early cEDH win windows; the front face supports the exact commander-assisted ritual/cast strategy.",
+      "evidence_needed": "Show a full legal Rograkh/Silas burst-turn line with physically attainable four-nonland craft, costs and real extra wins earlier than Birgi, or investigate a different low-importance slot. Requires independent review and owner approval.",
+      "list_modified": false,
+      "formal_phase_b": false,
+      "independent_review": false
+    },
+    {
+      "deck_id": "Nicol_Bolas",
+      "commander": "Nicol Bolas",
+      "approved_raw_sha256": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
+      "source_swap_id": "swap:nicol-bolas:m5:3adba7cabda7",
+      "add": "Volcano Hellion",
+      "cut": "Mystic Remora",
+      "verdict": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_identity": "Original Nicol Bolas is an eight-mana UUBBRR flying Dragon that empties an opponent's whole hand when BOLAS deals damage to them. He has an additional UBR upkeep payment or dies. Noncombat BOLAS-sourced damage, not arbitrary incidental damage, is the commander-centric plan.",
+      "verified_card_text_implications": [
+        "Volcano Hellion is a four-mana creature; on entering it deals a chosen equal amount of damage to the controller and to one target creature. The source of BOTH damage events is Volcano Hellion, never Nicol Bolas.",
+        "The Hellion cannot directly trigger Nicol Bolas's damage-to-an-opponent discard ability (it hits a creature and its controller, not an opposing player as Bolas). Its echo cost is the controller's life total at the upkeep payment check, often economically infeasible.",
+        "Even when choosing damage 0, the Hellion supplies no Bolas-sourced damage, discard payoff, special acceleration or direct protection. An external combo involving Hellion would need all real pieces checked against this exact approved list.",
+        "Mystic Remora provides {U} early card-draw pressure against opponents' noncreature spells, important to reaching and protecting an eight-mana UUBBRR commander plus upkeep payment."
+      ],
+      "strongest_positive_case": "Niche direct creature removal or a broader non-Bolas combo may be possible, but is off-identity and self-damaging.",
+      "cut_cost": "Losing a one-mana multiplayer card engine for a four-mana one-shot symmetrical self-damage creature impairs access to Bolas and interaction.",
+      "evidence_needed": "Only reconsider if exact legal included-card combo demonstrates superior Bolas-centered payoff AND a replacement for Remora's early card selection. Current high identity-confidence hold is candidate-specific, not a full deck tested-pool certificate.",
+      "list_modified": false,
+      "formal_phase_b": false,
+      "independent_review": false
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "commander": "Mai and Zuko",
+      "approved_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "source_swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "An Offer You Can't Refuse",
+      "verdict": "PROMISING_ARTIFACT_SYNERGY_BUT_PROPOSED_CUT_HOLD",
+      "commander_identity": "Mai and Zuko grant instant-speed casting permission to artifact and Ally spells; combat Firebending 3 produces red mana for artifact/Ally combat-window casting. The artifact-heavy Basalt Monolith + Rings and Sensei's Divining Top/Mystic Forge/Citadel loops define the shell.",
+      "verified_card_text_implications": [
+        "The Enigma Jewel is an artifact SPELL eligible for Mai and Zuko's flash permission, although it enters tapped and cannot normally produce mana until an untap step.",
+        "Its two restricted colorless mana can pay activated ability costs such as Basalt Monolith's {3} untap and Rings of Brighthearth's {2} copy payment. This is TRUE commander-adjacent utility in the deck's artifact activation loops, but is not colorless mana available to cast artifact spells.",
+        "Its craft ability still says craft only as a sorcery. Permission to CAST artifact spells at flash speed does not change this activated ability's sorcery-speed restriction. Craft requires {8}{U} and at least four qualifying other nonlands with activated abilities.",
+        "The Locus may copy nonmana activated abilities of artifact permanents but the transformed engine consumes qualifying other permanents/graveyard cards and has not been demonstrated to improve a source-listed compact win.",
+        "An Offer You Can't Refuse is a one-blue-mana counterspell for noncreature spells that grants the countered spell's controller two Treasure tokens; it protects the combo stack and attacks opposing wins at extremely efficient mana cost. Its loss matters when trying to resolve Bolas's Citadel or the Top loop."
+      ],
+      "strongest_positive_case": "Jewel's activation-only mana plausibly helps an actual artifact ability loop; distinct from its weak fit in Rograkh/Silas. Any artifact-combo source-depth review should examine how tapped entry and instant-speed permission interact, rather than label it generic mana.",
+      "cut_cost": "Removing cheap noncreature-stack counterplay weakens commander-combo protection and gives up a one-mana interaction at competitive tables.",
+      "evidence_needed": "Verify a physically reachable Jewel + Basalt + Rings or Top combination with mana ledger, stack timing and actual beneficial output; compare to losing An Offer in counterspell matchups. Seek alternate lower-impact cut only if an independent commander-specific assessment finds actual improvement.",
+      "list_modified": false,
+      "formal_phase_b": false,
+      "independent_review": false
+    }
+  ],
+  "global_state": {
+    "new_author_reviews": 3,
+    "commander_identity_respected": true,
+    "formal_independent_Pass_C": 0,
+    "full_effect_aware_phase_B": 0,
+    "canonical_cards_changed": 0,
+    "swaps_approved": 0,
+    "M6_accepted": false,
+    "cycle114_draft_unmerged": true
+  }
+}
