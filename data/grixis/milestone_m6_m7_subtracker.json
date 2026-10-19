@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_124",
+  "snapshot": "after_cycle_125",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "dc6b68f859a41c00eadbf691e1652dfd17cbfccb",
+    "engineering_head": "d69630a74a6267852acad51f1300803de0a63604",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 124,
+    "last_cycle_merged": 125,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -96,9 +96,10 @@
           "data/grixis/m6/sealed/reconciliation_manifest.json",
           "grixis/Grixis M6 I-J Contract.md",
           "data/grixis/m6/phase_b_plans/cycle124_reviewer_ready_preregistered_01.json",
-          "data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json (CI output artifact, not committed)"
+          "data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json (CI output artifact, not committed)",
+          "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md"
         ],
-        "scope": "Cycle124 prepared three verdict-neutral source-locked reviewer packets, but no genuinely independent critic has been assigned or supplied an assessment; Pass C remains 0/62."
+        "scope": "Three non-author GrokBot advisory reviews received for Gwendlyn, Ravager and Mai/Zuko with provenance/exposure disclosures and no strict blinding. Source qualification and all other independent critiques/reconciliation remain outstanding. Formal M6 Pass C deck completion remains 0/62."
       },
       {
         "id": "M6.6",
@@ -111,9 +112,11 @@
           "data/grixis/m6/phase_b_bounded/cycle120_physical_access_interpretation_01.md",
           "data/grixis/m6/phase_b_bounded/cycle121_basic_paid_cast_interpretation_01.md",
           "data/grixis/m6/phase_b_plans/cycle122_nonbasic_source_casts_prereg_01.json",
-          "data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_interpretation_01.md"
+          "data/grixis/m6/phase_b_bounded/cycle123_conditional_offer_interpretation_01.md",
+          "data/grixis/m6/phase_b_plans/cycle125_grok_reconciliation_and_jewel_erratum_01.json",
+          "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md"
         ],
-        "scope": "Bounded source/draw, 19-land conditional mana, finite rules and scripted counterspell fixtures run for 3 example decks; Cycle123 opponent spell is hypothetical, not actual multiplayer. Zero decks have complete effect-aware Phase B plus stress/red-team certification."
+        "scope": "Earlier Cycle119 direct Jewel payment of Rings triggered {2} was INVALID and superseded by Cycle125 CI-verified corrected restricted-to-Basalt activation, ordinary-to-Rings sequence. Three-deck bounded source/draw/rules fixtures remain partial; zero complete effect-aware Phase B stress/red-team certificates."
       },
       {
         "id": "M6.7",
@@ -163,7 +166,14 @@
         ],
         "scope": "No M6-approved READY/REQUIRED conclusions for 62 current-cycle decks, no explicit user acceptance."
       }
-    ]
+    ],
+    "external_non_author_review_verdicts_received": 3,
+    "external_review_decks": [
+      "Gwendlyn_Di_Corci",
+      "Nicol_Bolas__the_Ravager",
+      "Mai_and_Zuko"
+    ],
+    "external_review_qualification": "Non-author GrokBot review received, disclosed earlier blueprint involvement and no strict blind; still pending formal source/provenance gate and material test reconciliation. Does not satisfy full 62-deck Pass C."
   },
   "m7": {
     "status": "not_started",
