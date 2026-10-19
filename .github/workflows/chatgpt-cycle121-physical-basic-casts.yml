@@ -1,0 +1,60 @@
+name: ChatGPT Cycle121 source-locked basic-mana paid casts
+on:
+  push:
+    branches: [chatgpt-cycle121-physical-basic-casts]
+    paths:
+      - .github/workflows/chatgpt-cycle121-physical-basic-casts.yml
+      - data/grixis/m6/phase_b_plans/cycle121_source_paid_cast_prereg_01.json
+      - scripts/grixis_m6_cycle121_basic_paid_casts.py
+      - tests/test_m6_cycle121_basic_paid_casts.py
+      - data/grixis/m6/phase_b_bounded/cycle121_basic_paid_cast_interpretation_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact-source-basic-paid-casts:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Pin 2026-10-16 Scryfall Oracle archive
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Fifteen source identity, mana, zone and limitation regression tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle121_basic_paid_casts.py' -v
+      - name: Compute 3072 source-library paired basic-only cast samples and replay
+        run: |
+          python -u scripts/grixis_m6_cycle121_basic_paid_casts.py --build
+          python -u scripts/grixis_m6_cycle121_basic_paid_casts.py --check
+      - name: Enforce no unsupported upgrade or milestone claim
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          x=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle121_source_paid_basic_casts_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert x['total_paired_samples']==3072 and x['total_arm_views']==6144
+          assert len(x['cases'])==3
+          assert all(c['physical_main_cards']==99 and c['commanders']==1 and c['shared_library_slots']==98 for c in x['cases'])
+          assert x['scripted_opponent_events']==x['multiplayer_results']==0
+          assert x['independent_pass_c_reviews']==x['approved_swaps']==x['canonical_decks_modified']==0
+          assert not x['phase_b_certified'] and not x['M6_accepted']
+          assert next(c for c in x['cases'] if c['deck_id']=='Mai_and_Zuko')['legal_opponent_spell_targets_observed']==0
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle121_source_paid_basic_casts_01.json'
+      - name: Upload bounded source-paid witnesses
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle121-source-locked-basic-land-cast-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle121_source_paid_basic_casts_01.json
+          if-no-files-found: error
