@@ -18,7 +18,7 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": null,
+    "active_tracker_deck_id": "Ashnod_the_Uncaring",
     "next_tracker_deck_id": "Ashnod_the_Uncaring",
     "deep_review_complete_count": 5,
     "total": 62,
@@ -130,7 +130,7 @@
       "baseline_engineering_logical_sha": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "deep_review_evidence_path": null,
       "completed_at_commit": null,
       "ci_run_url": null,
