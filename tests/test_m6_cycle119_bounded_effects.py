@@ -95,4 +95,22 @@ class Cycle119WitnessTests(unittest.TestCase):
   self.assertFalse(self.protocol["phase_b_completed"])
   self.assertTrue(all(v is False for v in self.plan["authority"].values()))
 
+ def test_amplifier_tapped_activation_does_not_spend_mana(self):
+  w=m.World(["Aetheric Amplifier"],mana={"C":4})
+  w.tapped.add("Aetheric Amplifier")
+  self.assertTrue(m.blocked_unchanged(w,lambda:m.amplifier_loyalty(w,5)))
+ def test_alchemist_can_target_untapped_creature_legally(self):
+  w=m.World(["Gwendlyn Di Corci","Aphetto Alchemist"],
+   controlled_since_turn=["Gwendlyn Di Corci","Aphetto Alchemist"])
+  m.gw_alchemist(w)
+  self.assertIn("Aphetto Alchemist",w.tapped)
+  self.assertNotIn("Gwendlyn Di Corci",w.tapped)
+  self.assertEqual(w.untaps,0)
+ def test_an_offer_creates_treasure_even_when_spell_uncounterable(self):
+  w=m.World(["An Offer You Can't Refuse"],mana={"U":1})
+  m.an_offer(w,noncreature=True,spell_counterable=False)
+  self.assertEqual(w.countered,0)
+  self.assertEqual(w.opponent_treasures,2)
+  self.assertEqual(w.mana["U"],0)
+
 if __name__=="__main__":unittest.main()
