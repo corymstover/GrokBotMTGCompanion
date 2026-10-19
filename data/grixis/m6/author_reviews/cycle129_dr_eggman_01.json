@@ -1,0 +1,13 @@
+{
+  "cycle": 129,
+  "deck_id": "Dr__Eggman",
+  "candidate": "Pit Automaton",
+  "cut": "Mox Opal",
+  "verdict": "HOLD",
+  "reason": "Pit Automaton is a two-mana Construct and an eligible Eggman cheat, but its restricted tap mana only pays activated abilities and its exhaust-copy activation needs further mana/tapping. It neither triggers Eggman nor enhances his end-step choice. Mox Opal provides fast colored mana under metalcraft.",
+  "next_evidence": "Test metalcraft occurrence and actual exhaust activations in the locked 99.",
+  "authored_by": "ChatGPT",
+  "independent_pass_c": false,
+  "full_phase_b": false,
+  "canonical_changes": 0
+}
