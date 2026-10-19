@@ -4,6 +4,7 @@ on:
     branches:
       - chatgpt-m6-m7-progress-subtracker
       - chatgpt-cycle76-m6-refinement
+      - chatgpt-cycle124-progress-receipt
       - chatgpt-cycle123-progress-receipt
     paths:
       - .github/workflows/m6-m7-progress-integrity.yml
