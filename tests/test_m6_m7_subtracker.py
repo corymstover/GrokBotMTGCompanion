@@ -30,6 +30,13 @@ def validate(t,r,p,s):
  assert s["counts"]["decks"]==62
  assert s["counts"]["deep_review"]==8848
  assert s["pass_c"]["complete"] is False
+ assert t["m6"]["gates"][3]["completed"]==21
+ assert t["m6"]["gates"][3]["status"]=="PARTIAL"
+ case=json.loads((ROOT/"data/grixis/m6/author_reviews/cycle128_six_commander_authored_judgments_01.json").read_text())
+ assert case["review_count"]==6 and len(case["rows"])==6 and case["historical_authored_count_before"]==15
+ assert case["authored_count_after_if_verified"]==21
+ assert len({x["deck_id"] for x in case["rows"]})==6
+ assert all(x["disposition"]=="HOLD_EXISTING_LIST_NO_SWAP" and x["independent_pass_c_completed"] is False and x["approved_swaps"]==0 for x in case["rows"])
  assert t["m6"]["formal_m6_certified_decks"]==0
  assert t["m7"]["formal_m7_review_decisions"]==0
  assert t["m6"]["gates"][4]["status"]=="BLOCKED" and t["m6"]["gates"][4]["completed"]==0
