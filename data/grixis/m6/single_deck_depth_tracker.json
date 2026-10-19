@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Goro_Goro_and_Satoru",
-    "deep_review_complete_count": 20,
+    "next_tracker_deck_id": "Gwendlyn_Di_Corci",
+    "deep_review_complete_count": 21,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -401,10 +401,10 @@
       "baseline_engineering_logical_sha": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Goro_Goro_and_Satoru.md",
+      "completed_at_commit": "d6a6c82fc41202689623a470848193bd0c449e50",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39300014551",
       "blocker": null
     },
     {
