@@ -1,0 +1,255 @@
+{
+  "cycle": 131,
+  "batch": "B",
+  "source_kind": "authored_commander_first",
+  "count": 6,
+  "rows": [
+    {
+      "id": "Grixistax___October_2026",
+      "core": "Kraum and Tevesh partner stax leverages two commanders plus artifact mana to break parity under mana denial, Orb effects and Contamination while closing with Helm/void or Breach.",
+      "positive": "The Enigma Jewel is a low-cost artifact that may survive some stax filters and support activations of Helm of Obedience or other artifact abilities under a mana-denial lock.",
+      "cut_cost": "Mox Amber is a zero-cost accelerator whose colors can be enabled by either Kraum or Tevesh; it improves early lock deployment without adding a taxed activation payment.",
+      "rules": [
+        "Kraum and Tevesh are separate legal partner commanders occupying two command slots within the same 100-card Commander deck.",
+        "Mox Amber can tap for a color among your controlled legendary creatures/planeswalkers; Tevesh provides black and Kraum blue/red.",
+        "The Enigma Jewel enters tapped and its mana can pay only costs of activated abilities, not spells or Tevesh's loyalty activation costs.",
+        "Under stax constraints, delayed access to activated-ability mana is not equivalent to a zero-mana artifact producing early spell mana.",
+        "Helm of Obedience has an activated ability costing mana; a Jewel contribution only matters if all colored/generic payments and library replacement interactions are legal."
+      ],
+      "adverse": "The swap risks weakening mana under Winter Orb and Contamination in exchange for a restricted tapped mana source that cannot cast lock pieces.",
+      "followup": "Record turn-one to turn-four lock deployment with/without Amber and actual Helm activation payments through active stax pieces.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Grixistax___October_2026",
+      "slug": "grixistax-october-2026",
+      "commander_names": [
+        "Kraum, Ludevic's Opus",
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "Mox Amber",
+      "m5_swap_id": "swap:grixistax-october-2026:m5:f238e858fbb6",
+      "baseline_logical_hash": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
+      "source_recorded_sha": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Tevesh Szat, Doom of Fools",
+        "Kraum, Ludevic's Opus",
+        "Contamination",
+        "Helm of Obedience",
+        "Winter Orb"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Crosis__the_Purger",
+      "core": "Crosis needs combat damage and {2}{B} to empty a targeted color of a player's hand, with Painter turning a chosen color into near-total hand disruption; discard payoffs convert hits to resources.",
+      "positive": "Relic of Sauron produces three Grixis-colored mana at once on tap, potentially funding Crosis's optional trigger and follow-up discard payoff spells in the long game.",
+      "cut_cost": "Black Market Connections repeatedly generates cards, Treasure and bodies (with life costs), supplying evasive combat protection and post-hit gas; losing it makes the hand-disruption engine brittle.",
+      "rules": [
+        "Crosis triggers when dealing combat damage to a player; paying {2}{B} chooses a color and discards matching cards in that opponent's hand.",
+        "Painter's Servant applies its chosen color to all cards in hand as well as permanents, enabling broad Crosis discard if legal color targets remain.",
+        "Relic of Sauron costs four mana and taps for UBR, but its colored mana can't pay the whole {2}{B} cost without an additional two generic mana.",
+        "Black Market Connections offers per-turn draw, Treasure and changeling creature for life during precombat main, not just one-time mana.",
+        "A Crosis hit and a Relic activation compete with the actual timing of equipping/protecting a six-mana flyer."
+      ],
+      "adverse": "Higher-cost rock replacing a flexible draw/Treasure/fodder engine loses midgame resiliency; it doesn't help Crosis connect or change opponents' colors.",
+      "followup": "Count real protected Crosis combat connections and cards sustained with Connections versus Relic's additional colored mana; isolate Painter interaction.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Crosis__the_Purger",
+      "slug": "crosis-the-purger",
+      "commander_names": [
+        "Crosis, the Purger"
+      ],
+      "add": "Relic of Sauron",
+      "cut": "Black Market Connections",
+      "m5_swap_id": "swap:crosis-the-purger:m5:b636b0dde1cd",
+      "baseline_logical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+      "source_recorded_sha": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Crosis, the Purger",
+        "Painter's Servant",
+        "Brotherhood Regalia",
+        "Tinybones, Bauble Burglar",
+        "Waste Not"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Davros__Dalek_Creator",
+      "core": "Davros requires each opponent to have lost at least three life during your turn for full end-step Dalek/token and villainous-choice value, amplified by copying choice triggers.",
+      "positive": "Darkwater Catacombs filters existing mana into both blue and black, which can aid reactive draw-or-discard and Dalek protection spells when mana-base colors are awkward.",
+      "cut_cost": "Geier Reach Sanitarium is a utility land that lets each player draw/discard, feeding discard-punishment payoffs and end-step resource pressure around Davros's Villainous Choice.",
+      "rules": [
+        "Davros checks the 3-life threshold separately for each opponent during the turn, not whether they have discarded cards.",
+        "Darkwater Catacombs filters another paid mana into {U}{B}; it does not directly produce mana alone from a single untapped land without input.",
+        "Geier Reach Sanitarium has a colorless mana ability plus a paid group loot activation, allowing discard-payoff interaction in either turn's timing.",
+        "Geier Reach looting does not itself count as opponent life loss unless a card like Liliana's Caress or another payoff produces that loss.",
+        "Replacing a colorless utility land with colored filtering may improve castability but cannot be credited as an additional Davros trigger."
+      ],
+      "adverse": "The swap removes the unique repeatable discard activator, reducing sources that pressure Davros choice branches and enemy hands, for mana filtering that must have additional input.",
+      "followup": "Run source-paid Davros threshold and real multiplayer discard-damage sequences for Sanitarium versus Catacombs across color-disrupted starts.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Davros__Dalek_Creator",
+      "slug": "davros-dalek-creator",
+      "commander_names": [
+        "Davros, Dalek Creator"
+      ],
+      "add": "Darkwater Catacombs",
+      "cut": "Geier Reach Sanitarium",
+      "m5_swap_id": "swap:davros-dalek-creator:m5:9ac844fe87d5",
+      "baseline_logical_hash": "lh1:ef9b2bd79878dfd9159c9c04cb9c6aa79f02b5e42f723a9fa905dd219d29a39d",
+      "source_recorded_sha": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Davros, Dalek Creator",
+        "Maestros Charm",
+        "Court of Ambition",
+        "Entropic Battlecruiser",
+        "The Valeyard"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Edward_Kenway",
+      "core": "Edward converts tapped attacking/crewing Assassins, Pirates and Vehicles into end-step Treasures and awards playable exiled cards after Vehicles hit players.",
+      "positive": "Deadly Dispute can cash in a Treasure or expendable token to draw two cards and replace it with another Treasure, helping turn abundant Edward artifacts into cards.",
+      "cut_cost": "Jeska's Will offers burst red mana and exiled castable resources at three mana, frequently both effects when Edward is controlled and useful to deploy Vehicles or protected attack triggers.",
+      "rules": [
+        "Deadly Dispute is an instant and additionally requires sacrificing an artifact or creature as part of casting cost.",
+        "Its Treasure production offsets one sacrificed artifact, but not its two mana expenditure or sacrificed Vehicle if used as fodder.",
+        "Edward checks relevant tapped Assassins, Pirates and Vehicles at his end-step trigger; sacrificing one before that check can lower the Treasure count.",
+        "Jeska's Will modes depend on targeted opponent hand count or top exiled cards, with both modes selectable if its caster controls a commander.",
+        "Edward's Vehicle-combat exiled play permission has its own timing and cannot be assumed to be duplicated by Dispute's draw."
+      ],
+      "adverse": "A conditional card draw exchange of two mana can lose development over Will's simultaneous burst and impulse cards; early Treasure count is not infinite.",
+      "followup": "Compare Edward end-step tapped counts and available Vehicles under a Dispute-sacrifice decision versus Jeska's Will with commander controlled.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Edward_Kenway",
+      "slug": "edward-kenway",
+      "commander_names": [
+        "Edward Kenway"
+      ],
+      "add": "Deadly Dispute",
+      "cut": "Jeska's Will",
+      "m5_swap_id": "swap:edward-kenway:m5:c5947604eb87",
+      "baseline_logical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+      "source_recorded_sha": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Edward Kenway",
+        "Time Sieve",
+        "Academy Manufactor",
+        "Luxurious Locomotive",
+        "Ramirez DePietro, Pillager"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Goro_Goro_and_Satoru",
+      "core": "Any creature entering under your control this turn that hits a player in combat triggers 5/5 Dragon production; dash, ninjutsu and hasty threats spread connections.",
+      "positive": "Izzet Signet is stable two-mana filtering ramp, which can accelerate commander and later dash/ninjutsu costs if the color sources work out.",
+      "cut_cost": "Ragavan can attack quickly through dash, steal opposing exiled cards and generate Treasures after combat damage, simultaneously fueling first-entry attacks and colors.",
+      "rules": [
+        "Goro-Goro and Satoru checks combat damage by a creature that entered the battlefield this turn, not merely any hasty creature.",
+        "Ragavan's dash casts it for an alternate cost and gives haste, so a newly entered Ragavan can qualify after dealing combat damage.",
+        "Ragavan's combat trigger makes a Treasure and exiles an opponent's top card for possible casting, creating immediate attacker-specific resources.",
+        "Izzet Signet itself cannot attack or deal combat damage and its filtered mana requires an additional source/input to activate.",
+        "Cutting a qualifying first-turn combat attacker can lower Dragon token production even if the replacement improves abstract ramp count."
+      ],
+      "adverse": "Two-mana Signet cannot replace Ragavan's fresh combat trigger and the commander-specific route to Dragon generation; own ceiling is creature tempo.",
+      "followup": "Replay T2–T5 entrant combat damage, Dragon counts, and treasure tempo with actual evasive Dash availability and Signet starts.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Goro_Goro_and_Satoru",
+      "slug": "goro-goro-and-satoru",
+      "commander_names": [
+        "Goro-Goro and Satoru"
+      ],
+      "add": "Izzet Signet",
+      "cut": "Ragavan, Nimble Pilferer",
+      "m5_swap_id": "swap:goro-goro-and-satoru:m5:c578828d4cc5",
+      "baseline_logical_hash": "lh1:dc88090cd00d2d0e9cb2e667e384c84edb70d864dbd19d4787304f0e866efcba",
+      "source_recorded_sha": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Goro-Goro and Satoru",
+        "Breath of Fury",
+        "Samut, Hazoret's Champion",
+        "Raphael, the Nightwatcher",
+        "Terror of the Peaks"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Lord_of_Tresserhorn",
+      "core": "A 10-power commander seeks haste/evasion and infect or double strike while avoiding its huge entry drawback; Torpor Orb, Stifle and Dress Down suppress liability.",
+      "positive": "Tribute Mage can search the deck for a mana-value-2 artifact (including Torpor Orb when in library), making one specific drawback-suppression piece more accessible.",
+      "cut_cost": "Vampiric Tutor is one-black instant-speed universal top-of-library tutor that can find whatever missing protection, infect kill, haste source or Torpor Orb the current state needs.",
+      "rules": [
+        "Lord of Tresserhorn's enters trigger forces two creatures sacrificed, two opponent cards drawn, and life payments unless suppressed/handled.",
+        "Tribute Mage enters and searches only an artifact card of mana value exactly two, far narrower than Vampiric Tutor.",
+        "Torpor Orb prevents creature enter-the-battlefield triggers, including Lord's, only if already on battlefield before it would trigger.",
+        "Vampiric Tutor puts any searched card on top and costs 2 life rather than putting it directly in hand.",
+        "Tutoring Torpor Orb without verifying the timing and Lord survival is not equivalent to eliminating the enter trigger."
+      ],
+      "adverse": "Three-mana specific tutor replaces the most flexible low-cost safety valve for both entry suppression and infect-kill packages; extra creature body is rarely the Voltron payoff.",
+      "followup": "Compare actual arrival-with-protection turns and tutor accessible kill windows, including whether Tribute Mage gets Torpor Orb in time.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Lord_of_Tresserhorn",
+      "slug": "lord-of-tresserhorn",
+      "commander_names": [
+        "Lord of Tresserhorn"
+      ],
+      "add": "Tribute Mage",
+      "cut": "Vampiric Tutor",
+      "m5_swap_id": "swap:lord-of-tresserhorn:m5:a7d496f4bfea",
+      "baseline_logical_hash": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
+      "source_recorded_sha": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Lord of Tresserhorn",
+        "Tainted Strike",
+        "Torpor Orb",
+        "Kediss, Emberclaw Familiar",
+        "Gravecrawler"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    }
+  ]
+}
