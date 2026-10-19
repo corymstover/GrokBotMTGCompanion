@@ -1,0 +1,143 @@
+{
+  "cycle": 116,
+  "schema_version": 1,
+  "reviewer": "ChatGPT authored strategic review, not a formal independent Pass C",
+  "plan_path": "data/grixis/m6/phase_b_plans/cycle116_three_decks_preregistered_01.json",
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_certify_M6": false,
+    "can_issue_final_swaps": false
+  },
+  "source_anchored": true,
+  "review_count": 3,
+  "reviews": [
+    {
+      "order": 14,
+      "deck_id": "Kess__Dissident_Mage",
+      "commander": "Kess, Dissident Mage",
+      "slug": "kess-dissident-mage",
+      "approved_raw_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+      "canonical_logical_hash": "lh1:d89d5778424e5aa61244cd1aea7aa6967ad678860c59cafbb62e14abbe6dfa9b",
+      "m5_swap_id": "swap:kess-dissident-mage:m5:49904d9f8805",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Orcish Bowmasters",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_mechanic": "Kess grants one instant or sorcery cast from the graveyard during each of the controller's turns, following ordinary spell timing; a creature spell is not replayable by this effect.",
+      "positive_case": "Hullbreaker Horror is an uncounterable flash seven-mana spell-triggered bounce engine that can protect a turn after resolving and, with additional mana-positive loops, generate decisive tempo.",
+      "specific_rules": [
+        "Hullbreaker Horror is a creature, not an instant or sorcery; Kess does not cast it from the graveyard by her permission.",
+        "Hullbreaker's spell-cast bounce cannot be presumed infinite or mana-positive; a real repeatedly castable spell and an actual payment/priority ledger must be identified.",
+        "Orcish Bowmasters has flash and punishes opponents drawing beyond their first draw in each draw step, including wheel effects, with damage and an Orc Army.",
+        "Kess's graveyard casting permission applies once during each of your turns and does not permit opponents-turn graveyard spell recasts.",
+        "Kess's main plan uses one-mana Consultation/Pact, Oracle, Intuition/Gifts, Breach/LED, and inexpensive counters, not seven-mana creature value."
+      ],
+      "cut_cost": "Orcish Bowmasters is fast flash interaction against turbo draw engines/wheel turns and can develop a combat body without diverting a whole cEDH turn into a seven-mana threat. Loss is significant for Kess's fringe-cEDH tempo and creature/stack protection profile.",
+      "source_interactions": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact",
+        "Underworld Breach",
+        "Grinding Station",
+        "Lion's Eye Diamond",
+        "Intuition",
+        "Gifts Ungiven",
+        "Orcish Bowmasters",
+        "Kess, Dissident Mage"
+      ],
+      "why_this_specific_proposal_fails": "Hullbreaker supplies generic reusable spell-trigger bounce but does not multiply Kess's once-per-own-turn instant/sorcery graveyard recast, makes fast Breach/Oracle lines no cheaper, and asks to remove a meaningful one-to-two-mana disruptive card.",
+      "counterargument_to_test": "An uncounterable flash bounce threat sometimes dominates counter-heavy slower pods; compare a realistic access line in those pods, including its seven mana and noncreature spell loop, against Bowmasters in wheel/turbo pods.",
+      "next_evidence": "Paired real opening-hand and opponents-responses analysis, with a legal live Hullbreaker cast/recast engine and any superior alternate cut, plus independent Pass C before advancing the proposal.",
+      "approved_swaps": 0,
+      "performance_modeling_completed": false,
+      "independent_pass_c_completed": false,
+      "official_current_legality_checked": false
+    },
+    {
+      "order": 15,
+      "deck_id": "Edea__Possessed_Sorceress",
+      "commander": "Edea, Possessed Sorceress",
+      "slug": "edea-possessed-sorceress",
+      "approved_raw_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+      "canonical_logical_hash": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
+      "m5_swap_id": "swap:edea-possessed-sorceress:m5:5f2787335006",
+      "proposed_add": "Tidespout Tyrant",
+      "proposed_cut": "Deadly Rollick",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_mechanic": "At the beginning of combat on your turn Edea temporarily borrows one opposing creature and gives it haste; a creature you control but do not own dying returns it under its owner's control and draws you a card. Bounce is not dying.",
+      "positive_case": "Tidespout Tyrant is an eight-mana flying creature that turns each spell you cast into a target-permanent bounce, which may clear board obstacles or become repeatable with separately demonstrated fast spell/mana loops.",
+      "specific_rules": [
+        "Edea's theft trigger occurs at the beginning of combat on your turn, not whenever Tidespout Tyrant bounces a permanent.",
+        "Tidespout Tyrant returns target permanent to its owner's hand on your spell cast; bouncing a temporarily stolen opposing creature is not dying and will not cause Edea to draw.",
+        "Deadly Rollick is an instant that exiles a target creature; if you control a commander it may be cast without paying its mana cost.",
+        "Edea costs five mana with ward {2}; holding zero-mana interaction protects a fragile opportunity window after committing to her.",
+        "Edea's preferred conversion uses sacrifice outlets such as Goblin Bombardment and Ashnod's Altar, supported by Mass Mutiny and Thassa, Deep-Dwelling. Neither Tyrant nor ordinary bounce creates stolen-creature death."
+      ],
+      "cut_cost": "Free-on-commander Deadly Rollick stops a threatening creature without consuming mana needed to develop and protect Edea. Against creature-heavy opponents, losing cheap exile interaction in exchange for an eight-mana creature risks a stranded hand and weaker theft setup.",
+      "source_interactions": [
+        "Edea, Possessed Sorceress",
+        "Goblin Bombardment",
+        "Mass Mutiny",
+        "Ashnod's Altar",
+        "Viscera Seer",
+        "Thassa, Deep-Dwelling",
+        "Deadly Rollick"
+      ],
+      "why_this_specific_proposal_fails": "Tyrant is an expensive generic spellchain engine, requires many spells for value, and does not multiply combat steals or sacrifice triggers by itself. Deadly Rollick is a relevant free-removal role in the deck's actual five-mana board-dependent game plan.",
+      "counterargument_to_test": "At long games, Tyrant may enable a powerful bounce loop; check actual repeatable spell and mana in Edea's approved 99, and whether it increases permanent opponent creature acquisition instead of returning them to hand.",
+      "next_evidence": "Actual legal turn-state with Edea, Tyrant and supported loop pieces, cost-curve/creature-heavy opponent exposure, alternate cut analysis and independent scrutiny; do not infer win probability from hypothetical bounce volume.",
+      "approved_swaps": 0,
+      "performance_modeling_completed": false,
+      "independent_pass_c_completed": false,
+      "official_current_legality_checked": false
+    },
+    {
+      "order": 16,
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "commander": "Lynde, Cheerful Tormentor",
+      "slug": "lynde-cheerful-tormentor",
+      "approved_raw_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+      "canonical_logical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+      "m5_swap_id": "swap:lynde-cheerful-tormentor:m5:bb1cc7a27136",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Withering Torment",
+      "disposition": "HOLD_EXISTING_LIST_NO_SWAP",
+      "commander_mechanic": "When a Curse you own goes from the battlefield to your graveyard, Lynde schedules its return attached to you at the next end step. At your upkeep she can move one Curse attached to you to an opponent and draw two cards.",
+      "positive_case": "Hullbreaker Horror is a flash, uncounterable seven-mana spell-triggered bounce source that can bounce opposing nonland permanents while a control deck is casting spells.",
+      "specific_rules": [
+        "Lynde's recursion needs a Curse going to its owner's graveyard from the battlefield, not merely returning to hand. Hullbreaker's bounce of your own Curse will not satisfy this condition.",
+        "Withering Torment destroys target creature or enchantment and causes its controller to lose 2 life; it may target your own Curse attached to an opponent because you still control the Curse.",
+        "Destroying your own Curse with Withering Torment puts it into your graveyard and can trigger Lynde; the returned Curse attaches to you before she can move it during a later upkeep.",
+        "Withering Torment is a Grixis-accessible enchantment answer, unlike Hullbreaker's temporary return-to-hand; losing it can let impactful opposing enchantments remain.",
+        "Lynde's source deck includes Paradox Haze, The Ninth Doctor, Despotic Scepter, Claws of Gix, Grim Guardian and many Curses; slow recursion is the identity, not permanent-free spell chains."
+      ],
+      "cut_cost": "Withering Torment is both efficient creature/enchantment removal and a targeted own-Curse destruction/reset tool enabling Lynde's commander-triggered return and subsequent draw-two cycle; removing it loses a rare two-role enabler.",
+      "source_interactions": [
+        "Lynde, Cheerful Tormentor",
+        "Withering Torment",
+        "Despotic Scepter",
+        "Claws of Gix",
+        "Curse of Bloodletting",
+        "Paradox Haze",
+        "The Ninth Doctor",
+        "Grim Guardian"
+      ],
+      "why_this_specific_proposal_fails": "Hullbreaker Horror neither destroys an opposing enchantment nor moves a Curse through the graveyard when it bounces it; it replaces a key low-cost removal-plus-Curse-reset effect with seven-mana generic control.",
+      "counterargument_to_test": "Hullbreaker's ability to temporarily bounce an opponent's threat at instant timing could support a different attrition metagame, but must be compared to actual ability to remove persistent enchantments and feed Lynde's recursion.",
+      "next_evidence": "Source-specific turn timing for Withering Torment self-Curse destroy → Lynde delayed return → following upkeep relocation and draw; if re-evaluating Hullbreaker, identify a weaker unrelated card as proposed cut and obtain independent review.",
+      "approved_swaps": 0,
+      "performance_modeling_completed": false,
+      "independent_pass_c_completed": false,
+      "official_current_legality_checked": false
+    }
+  ],
+  "global_gates": {
+    "canonical_swaps_applied": 0,
+    "canonical_decks_modified": 0,
+    "formal_independent_pass_c_reviews": 0,
+    "complete_effect_aware_multiplayer_phase_b": 0,
+    "all_62_legality_currently_reverified": false,
+    "tested_pool_zero_improvement_certified": false,
+    "M6_accepted": false
+  }
+}
