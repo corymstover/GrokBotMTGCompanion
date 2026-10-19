@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Kefka__Court_Mage",
-    "deep_review_complete_count": 24,
+    "next_tracker_deck_id": "Kess__Dissident_Mage",
+    "deep_review_complete_count": 25,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -473,10 +473,10 @@
       "baseline_engineering_logical_sha": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Kefka__Court_Mage.md",
+      "completed_at_commit": "fda4ea2d00b12b569675fc1ba2f6e81eafd20a27",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39313863415",
       "blocker": null
     },
     {
