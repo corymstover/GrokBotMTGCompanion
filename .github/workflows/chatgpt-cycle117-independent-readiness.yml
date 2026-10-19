@@ -1,0 +1,56 @@
+name: ChatGPT Cycle117 independent reviewer readiness gates
+on:
+  push:
+    branches: [chatgpt-cycle117-independent-review-gates]
+    paths:
+      - .github/workflows/chatgpt-cycle117-independent-readiness.yml
+      - data/grixis/m6/phase_b_plans/cycle117_independent_review_readiness_01.json
+      - data/grixis/m6/independent_review_intake/cycle117_counterfactual_protocols_01.json
+      - scripts/grixis_m6_cycle117_independent_review_readiness.py
+      - tests/test_m6_cycle117_independent_review_readiness.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-locked-independent-readiness:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Prereg and 15 original reviewed source/hash provenance test
+        run: python -m unittest discover -s tests -p 'test_m6_cycle117_independent_review_readiness.py' -v
+      - name: Build 15-authored-review ledger and counterfactual protocols receipt
+        run: |
+          python -u scripts/grixis_m6_cycle117_independent_review_readiness.py --build
+          python -u scripts/grixis_m6_cycle117_independent_review_readiness.py --check
+      - name: Reject forged independence, simulated wins, canonical changes or M6 promotion
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          receipt=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle117_review_readiness_receipt_01.json').read_text())
+          prot=json.loads(Path('data/grixis/m6/independent_review_intake/cycle117_counterfactual_protocols_01.json').read_text())
+          assert len(reg['decks'])==62
+          assert all(reg['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert reg['program']['milestones']['M6']['status']=='in_progress'
+          assert receipt['author_review_count']==15
+          assert receipt['dispositions']=={'held_exact_swap':12,'promising_unresolved':3}
+          assert receipt['counterfactual_scenario_count']==6
+          assert receipt['formal_independent_pass_c_count']==receipt['real_effect_aware_paired_result_count']==0
+          assert receipt['canonical_decks_modified']==receipt['owner_approvals_issued']==0
+          assert receipt['M6_accepted'] is False
+          assert prot['observed_game_results']==[] and not prot['phase_b_completed']
+          assert not prot['formal_independent_pass_c_completed']
+          assert all(v is False for v in receipt['authority'].values())
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle117_review_readiness_receipt_01.json'
+      - name: Publish machine-readable independent readiness evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle117-independent-review-readiness-ledger
+          path: data/grixis/m6/phase_b_bounded/cycle117_review_readiness_receipt_01.json
+          if-no-files-found: error
