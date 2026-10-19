@@ -6,7 +6,7 @@ on:
       - .github/workflows/chatgpt-cycle127-batch-review-intake.yml
       - data/grixis/m6/phase_b_plans/cycle127_batch_intake_preregistered_01.json
       - scripts/grixis_m6_cycle127_batch_intake.py
-      - tests/test_m6_cycle127_batch_intake.py
+      - tests/test_m6_cycle127_batch_intake.py\n      - data/grixis/m6/critic_batches/cycle127_preliminary_batch_review_critique_01.md
   workflow_dispatch:
 permissions:
   contents: read
