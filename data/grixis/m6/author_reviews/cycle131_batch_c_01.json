@@ -214,17 +214,17 @@
     {
       "id": "Zevlor__Elturel_Exile",
       "core": "Zevlor activates {2}, {T}, and then the next single-target instant or sorcery aimed at one opponent or their permanent can be copied to other opponents, turning high-impact targeted spells into multiplayer value.",
-      "positive": "Resonating Lute could provide a persistent copied or recurring spell-use resource if the source's actual Lute ability and Zevlor payload targets are aligned.",
+      "positive": "Resonating Lute grants each land an additional tap ability for two mana of any one color, restricted to instant or sorcery SPELL casts. This can fund Zevlor's expensive targeted payloads in later turns.",
       "cut_cost": "Dark Ritual supplies three black mana for one black instant, powering an earlier Zevlor activation plus targeted payoff or a protected table-wide spell turn.",
       "rules": [
-        "Zevlor's ability sets up a delayed trigger for the next appropriate spell that targets a single opponent or an object that player controls.",
-        "The {2}, {T} activation and the subsequent spell's costs must both be paid; copying does not waive those requirements.",
-        "If a spell has multiple targets or no legal one-opponent target, Zevlor's delayed copy condition must be checked rather than presumed.",
-        "Dark Ritual is a one-mana instant with three black mana output; it can accelerate a high-cost target spell without consuming a persistent permanent slot.",
-        "Resonating Lute is not itself a Zevlor-copied targeted instant or sorcery; any recursion/copy benefit requires independent Oracle/ability payments."
+        "Zevlor's {2}, {T} activation is an activated ability; Resonating Lute's added land mana is restricted to CASTING instant or sorcery spells, so cannot pay this cost.",
+        "Resonating Lute costs {2}{U}{R}; lands you control can tap for two mana of one color restricted to casting instants/sorceries, not ordinary untap or permanents.",
+        "Resonating Lute's own tap ability draws a card only if seven or more cards are in hand when activated.",
+        "The spell that Zevlor later copies must have an appropriate single opponent/opponent-permanent target; neither Lute nor mana generation automatically fulfills its target restriction.",
+        "Dark Ritual adds {B}{B}{B} for {B}, providing immediate black acceleration even when Zevlor's delayed-copy ability costs two generic mana."
       ],
-      "adverse": "Replacing efficient one-shot mana with a slower engine artifact risks losing Zevlor's explosive early table-wide target turns; specific Lute interaction remains unresolved.",
-      "followup": "Independently verify Lute's frozen/current Oracle and price a source-targeted spell through Zevlor after both choices; compare Dark Ritual earliest cast turn.",
+      "adverse": "Lute costs four and its restricted land mana cannot pay Zevlor's {2} activated ability or the commander creature spell. Replacing Dark Ritual's immediate three black mana delays early Zevlor-plus-payload turns.",
+      "followup": "Run two paired source-paid Zevlor targeted spells with Lute on field and actual untapped lands, keeping Zevlor's {2} separate from spell-casting mana; compare Dark Ritual fast-turn payoff.",
       "decision": "HOLD_EXACT_SWAP",
       "deck_id": "Zevlor__Elturel_Exile",
       "slug": "zevlor-elturel-exile",
@@ -250,7 +250,8 @@
       "current_full_legality_verification": false,
       "approved_swaps": 0,
       "full_phase_b": false,
-      "formal_pass_c": false
+      "formal_pass_c": false,
+      "next": "Run two paired source-paid Zevlor targeted spells with Lute on field and actual untapped lands, keeping Zevlor's {2} separate from spell-casting mana; compare Dark Ritual fast-turn payoff."
     }
   ]
 }
