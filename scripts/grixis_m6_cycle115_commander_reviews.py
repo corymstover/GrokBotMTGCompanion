@@ -27,7 +27,7 @@ ORACLE={
  "Mystic Remora":("cumulative upkeep","noncreature spell"),
  "Mai and Zuko":("firebending 3","artifact spells as though they had flash"),
  "An Offer You Can't Refuse":("counter target noncreature spell","two treasure tokens"),
- "Basalt Monolith":("add {C}{C}{C}","untap basalt monolith"),
+ "Basalt Monolith":("add {C}{C}{C}","untap this artifact"),
  "Rings of Brighthearth":("pay {2}","copy that ability"),
 }
 BASICS={"Plains","Island","Swamp","Mountain","Forest","Wastes"}
