@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Edea__Possessed_Sorceress",
-    "deep_review_complete_count": 15,
+    "next_tracker_deck_id": "Edward_Kenway",
+    "deep_review_complete_count": 16,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -311,10 +311,10 @@
       "baseline_engineering_logical_sha": "lh1:d6ca08555bc66faf2d6a1884feda86b3d5bad055b6279f78920af5a33d6cb5ea",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Edea__Possessed_Sorceress.md",
+      "completed_at_commit": "e9ccf38d6e13ac6092db58557a70c891f4af0814",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39274204261",
       "blocker": null
     },
     {
