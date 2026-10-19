@@ -42,3 +42,9 @@ Save one artifact under `data/grixis/m6/deep_reviews/<deck_id>.md` or a companio
 ## Owner and reviewer boundaries
 
 Cory approves or rejects actual decklist changes and accepts milestones. This engineering workflow **never** does either. No uniform staples shell. GrokBot's prospective Pass C is independent only if reviewer provenance, material prior exposure and genuinely independent/blinded first-stage analysis support it, followed by recorded comparison and reconciliation. Its opinion is not automatically certified just because it is a different agent. Preserve all designated project exceptions and avoid repeated false legality flags.
+
+## Verified roster-identity discrepancy (do not silently rename)
+
+When the new tracker was built, the exact 62-entry canonical refinement CSV and the 62 locked approval hashes were cross-referenced against the engineering registry. Three approved identical-hash entries differ by historical identifier normalization: `Anhelo__the_Painter` ↔ canonical `Anhelo_the_Painter`; `Ashad__the_Lone_Cyberman` ↔ canonical `Ashad_the_Lone_Cyberman`; `Be_lakor__the_Dark_Master` ↔ canonical `Be_lakor_the_Dark_Master`. Treat these as declared source aliases and confirm the actual commander when reviewed.
+
+**More serious:** canonical `Goben__Gene_Splice_Savant` matches the source-list SHA used by engineering `Norman_Osborn_Green_Goblin`. **An identical 100-card SHA is not evidence that two differently named commanders have identical Oracle identities.** Resolve the Goben-vs-Norman named-commander conflict with actual canonical source and blueprint evidence, and obtain Cory's decision if necessary, before declaring that particular deep review completed. Do not silently delete a roster member, approve a new commander, or change the canonical deck.
