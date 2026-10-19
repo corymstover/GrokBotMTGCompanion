@@ -1,0 +1,256 @@
+{
+  "cycle": 131,
+  "batch": "C",
+  "source_kind": "authored_commander_first",
+  "count": 6,
+  "rows": [
+    {
+      "id": "Sol_kanar_the_Tainted",
+      "core": "Sol'Kanar leverages donating cursed permanents after extracting their early benefits; Demonic Pact and Illusions/Gambit liabilities must transfer safely and at the right timing.",
+      "positive": "Commander's Sphere provides mana of any commander-identity color and sacrifices to draw a card, smoothing early color access to cast donation and curse spells.",
+      "cut_cost": "Spiteful Banditry doubles as a scalable damage-to-creatures sweeper and repeatable opponent-death Treasure producer, clearing hostile boards without relinquishing the donated-permanent win plan.",
+      "rules": [
+        "Sol'Kanar's donation package depends on who controls the liability when its trigger resolves, not just which player originally owned it.",
+        "Spiteful Banditry's enter trigger deals X damage to all creatures; X must be paid at cast time.",
+        "Spiteful Banditry creates a Treasure when one or more creatures an opponent controls die, but only once each turn.",
+        "Commander's Sphere costs three and normally taps for a color in the commander's identity, with a separate sacrifice-to-draw ability.",
+        "Neither mana fixing nor an independent X-sweeper directly removes Demonic Pact's lose-game choice; actual transfer timing still governs safety."
+      ],
+      "adverse": "The replacement removes a source of emergency board control and Treasures for a generic three-mana ramp cantrip already redundant with other rocks.",
+      "followup": "Trace one genuine Pact donation and opposing creature-board reset with Banditry versus Sphere, including exact mana/priority and loss-trigger ownership.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Sol_kanar_the_Tainted",
+      "slug": "solkanar-the-tainted",
+      "commander_names": [
+        "Sol'Kanar the Tainted"
+      ],
+      "add": "Commander's Sphere",
+      "cut": "Spiteful Banditry",
+      "m5_swap_id": "swap:solkanar-the-tainted:m5:1b51e77a1b9e",
+      "baseline_logical_hash": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
+      "source_recorded_sha": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Sol'Kanar the Tainted",
+        "Demonic Pact",
+        "Harmless Offering",
+        "Thassa, Deep-Dwelling",
+        "Immortal Coil"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Be_lakor__the_Dark_Master",
+      "core": "Demon tribal wins from Be'lakor's Demon-entry damage proportional to power and commander ETB draw for Demon count; cheap cantrips are secondary to actual Demon arrivals.",
+      "positive": "Brainstorm offers one-blue instant card selection, improves keeping expensive Demons castable and can combine with shuffles before a big Be'lakor turn.",
+      "cut_cost": "Unholy Annex // Ritual Chamber is a Demon-adjacent source of repeatable draw, pressure and potentially an additional Demon permanent, which advances the tribal entry-damage plan.",
+      "rules": [
+        "Be'lakor's damage trigger requires another Demon entering under your control and uses that Demon's power.",
+        "Be'lakor's enter-the-battlefield draw depends on the number of Demon permanents as the trigger resolves, not Brainstorm's number of cards drawn.",
+        "Brainstorm draws three and puts two hand cards on top; without a shuffle or new draw engine it can preserve uncastable expensive cards on top.",
+        "Room halves are independently unlocked by paying their costs; an uncast half has no active rules text.",
+        "Replacing a Demon-specific repeatable Room with one-shot selection may lower commander-native triggers and persistent pressure."
+      ],
+      "adverse": "A cheap cantrip may improve a marginal starting hand, but losing a Demon-relevant permanent risks both value and Be'lakor threat density.",
+      "followup": "Compare archived source Demon-permanent count and Be'lakor ETB/damage output with Room versus Brainstorm across source-shuffle openings.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "slug": "belakor-the-dark-master",
+      "commander_names": [
+        "Be'lakor, the Dark Master"
+      ],
+      "add": "Brainstorm",
+      "cut": "Unholy Annex // Ritual Chamber",
+      "m5_swap_id": "swap:belakor-the-dark-master:m5:dcf452fb5457",
+      "baseline_logical_hash": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
+      "source_recorded_sha": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Be'lakor, the Dark Master",
+        "Rite of Replication",
+        "Panharmonicon",
+        "Spark Double",
+        "Sneak Attack"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Wick__the_Whorled_Mind",
+      "core": "Rat arrivals grow a Snail token whose power can be sacrificed to Wick for damage to every opponent and cards; Rat/Snail type changes plus free sacrifice loops are central.",
+      "positive": "Dimir Signet is a two-mana U/B filter, easing Wick's {U}{B}{R} activation color burden in some two-color-heavy hands.",
+      "cut_cost": "Pitiless Plunderer converts non-Plunderer creature deaths into Treasures, an engine for repeat Rat fodder, Snail sacrifice and multi-activation color supply.",
+      "rules": [
+        "Wick's activated ability requires sacrificing a Snail as part of its cost, so that permanent is gone before the effect resolves.",
+        "Pitiless Plunderer triggers whenever another creature under its controller's control dies, producing a Treasure; it can provide resources after a sacrificed Snail dies.",
+        "Dimir Signet generates {U}{B} only with an additional generic input and cannot supply the {R} Wick still needs.",
+        "Changing the Snail's creature type to Rat can create arrival triggers through other effects only if the creature actually enters; existing Snail type changes are not fresh entry.",
+        "Replacing a sacrificial death-payoff with a mana-filter rock can break otherwise source-supported commander-native resource loops."
+      ],
+      "adverse": "The Signet smooths mana but loses a death-trigger Treasure engine, a particularly costly sacrifice-economy card in Wick's actual strategy.",
+      "followup": "Model a real Snail sacrifice turn and Rat/Snail type-change loop with Plunderer and without, including exact Treasure, black and red payments.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Wick__the_Whorled_Mind",
+      "slug": "wick-the-whorled-mind",
+      "commander_names": [
+        "Wick, the Whorled Mind"
+      ],
+      "add": "Dimir Signet",
+      "cut": "Pitiless Plunderer",
+      "m5_swap_id": "swap:wick-the-whorled-mind:m5:f218066db204",
+      "baseline_logical_hash": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
+      "source_recorded_sha": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Wick, the Whorled Mind",
+        "Arcane Adaptation",
+        "Leyline of Transformation",
+        "Intruder Alarm",
+        "Bulk Up"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Tresserhorn_s_Lord__Returned",
+      "core": "The returned Lord pays an ETB cost with three creatures, life and opponent cards, then converts every creature sacrifice into an extra card; dedicated fodder and mana loops are protected.",
+      "positive": "Rakdos Signet can accelerate a two-colored part of the five-mana commander's cost and facilitate early sacrifice outlets when colors are awkward.",
+      "cut_cost": "Mahadi, Emporium Master converts creatures that died this turn into end-step Treasure, turning the Lord's initial fodder sacrifice and later token kills into persistent mana.",
+      "rules": [
+        "Tresserhorn's Lord requires sacrificing three creatures, paying three life and granting target opponent three cards to avoid its enter-trigger sacrifice.",
+        "His own sacrifice-draw trigger pays off each creature you sacrifice, making additional creature-death mana payoffs strategically relevant.",
+        "Mahadi, Emporium Master's end-step trigger counts creatures that died that turn and makes Treasures, provided Mahadi is controlled and the triggering condition is satisfied.",
+        "Rakdos Signet needs an extra generic mana input to tap for {B}{R}; it produces no creature fodder or death trigger.",
+        "The source marks this commander as project-authorized future-release, not officially Commander-legal before November 13, 2026."
+      ],
+      "adverse": "A Signet offers earlier filtering at the price of a payoff converting the three-creature ETB liability into Treasure; its life/card engine lacks this compensation.",
+      "followup": "Trace legal ETB with three actual fodder creatures, resulting Lord draws and Mahadi's later Treasure count versus Signet opening casts; maintain future-release status.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "slug": "tresserhorns-lord-returned",
+      "commander_names": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "add": "Rakdos Signet",
+      "cut": "Mahadi, Emporium Master",
+      "m5_swap_id": "swap:tresserhorns-lord-returned:m5:6146373ad46c",
+      "baseline_logical_hash": "lh1:2d34a55fec543ac9eaa36de636b94c27c13feece56ebb4a340e68ad314b20792",
+      "source_recorded_sha": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "pending_release",
+      "project_exception_refs": [
+        "exc:tresserhorns-lord-returned:tresserhorn-s-lord-returned"
+      ],
+      "protected_identity": [
+        "Tresserhorn's Lord, Returned",
+        "The Locust God",
+        "Gravecrawler",
+        "Plumb the Forbidden",
+        "Weaponcraft Enthusiast"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Obeka__Splitter_of_Seconds",
+      "core": "Connecting Obeka creates extra upkeep steps proportional to combat damage, multiplying upkeep-based draw, artifact, counter and token engines; priority is reliable damage.",
+      "positive": "Izzet Signet may offer dependable U/R filtering in games where opponents lack suitable colored lands for Fellwar Stone.",
+      "cut_cost": "Fellwar Stone is a two-mana rock that typically taps immediately for a color an opponent land could produce, and does not require an additional mana payment each time.",
+      "rules": [
+        "Obeka gains additional upkeep steps after dealing combat damage to a player; she does not obtain extra turns or combat phases.",
+        "Izzet Signet's mana ability requires paying {1} and tapping it to add {U}{R}; one Signet plus no other mana cannot activate.",
+        "Fellwar Stone's available colors depend on what lands opponents control, not on its owner's commander's color identity.",
+        "Neither rock directly makes Obeka unblockable, raises combat damage or creates an upkeep-value trigger.",
+        "The choice depends on opponent land-color coverage and early usable source sequences, not a generic preferred Signet ranking."
+      ],
+      "adverse": "Signet trades flexible single-source access for two-colored output requiring upfront mana, a fragile fit for protecting an aggressive three-color commander.",
+      "followup": "Simulate real multiplayer opponent land colors and T2-T4 Obeka deployments, measuring payable upkeep engines with both rocks.",
+      "decision": "PROMISING_BUT_NO_CHANGE_PENDING_COLOR_TEST",
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "slug": "obeka-splitter-of-seconds",
+      "commander_names": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "add": "Izzet Signet",
+      "cut": "Fellwar Stone",
+      "m5_swap_id": "swap:obeka-splitter-of-seconds:m5:9b342b0139a1",
+      "baseline_logical_hash": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
+      "source_recorded_sha": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Obeka, Splitter of Seconds",
+        "Time Sieve",
+        "Mjölnir, Hammer of Thor",
+        "Smaug the Magnificent",
+        "Super Intelligence"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    },
+    {
+      "id": "Zevlor__Elturel_Exile",
+      "core": "Zevlor activates {2}, {T}, and then the next single-target instant or sorcery aimed at one opponent or their permanent can be copied to other opponents, turning high-impact targeted spells into multiplayer value.",
+      "positive": "Resonating Lute could provide a persistent copied or recurring spell-use resource if the source's actual Lute ability and Zevlor payload targets are aligned.",
+      "cut_cost": "Dark Ritual supplies three black mana for one black instant, powering an earlier Zevlor activation plus targeted payoff or a protected table-wide spell turn.",
+      "rules": [
+        "Zevlor's ability sets up a delayed trigger for the next appropriate spell that targets a single opponent or an object that player controls.",
+        "The {2}, {T} activation and the subsequent spell's costs must both be paid; copying does not waive those requirements.",
+        "If a spell has multiple targets or no legal one-opponent target, Zevlor's delayed copy condition must be checked rather than presumed.",
+        "Dark Ritual is a one-mana instant with three black mana output; it can accelerate a high-cost target spell without consuming a persistent permanent slot.",
+        "Resonating Lute is not itself a Zevlor-copied targeted instant or sorcery; any recursion/copy benefit requires independent Oracle/ability payments."
+      ],
+      "adverse": "Replacing efficient one-shot mana with a slower engine artifact risks losing Zevlor's explosive early table-wide target turns; specific Lute interaction remains unresolved.",
+      "followup": "Independently verify Lute's frozen/current Oracle and price a source-targeted spell through Zevlor after both choices; compare Dark Ritual earliest cast turn.",
+      "decision": "HOLD_EXACT_SWAP",
+      "deck_id": "Zevlor__Elturel_Exile",
+      "slug": "zevlor-elturel-exile",
+      "commander_names": [
+        "Zevlor, Elturel Exile"
+      ],
+      "add": "Resonating Lute",
+      "cut": "Dark Ritual",
+      "m5_swap_id": "swap:zevlor-elturel-exile:m5:8c01bb21be5c",
+      "baseline_logical_hash": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
+      "source_recorded_sha": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+      "source_raw_match_recorded": true,
+      "official_snapshot_status": "compliant",
+      "project_exception_refs": [],
+      "protected_identity": [
+        "Zevlor, Elturel Exile",
+        "Cruel Ultimatum",
+        "Illusionist's Bracers",
+        "Training Grounds",
+        "Pemmin's Aura"
+      ],
+      "authored_by": "ChatGPT primary engineer; not independent",
+      "current_full_legality_verification": false,
+      "approved_swaps": 0,
+      "full_phase_b": false,
+      "formal_pass_c": false
+    }
+  ]
+}
