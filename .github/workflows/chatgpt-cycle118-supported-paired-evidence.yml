@@ -8,6 +8,7 @@ on:
       - data/grixis/m6/phase_b_plans/cycle118_simulator_coverage_guard_01.json
       - scripts/grixis_m6_cycle118_paired_goldfish.py
       - tests/test_m6_cycle118_paired_goldfish.py
+      - data/grixis/m6/phase_b_bounded/cycle118_paired_goldfish_interpretation_01.md
   workflow_dispatch:
 permissions:
   contents: read
