@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Loki__the_Deceiver",
-    "deep_review_complete_count": 27,
+    "next_tracker_deck_id": "Lord_of_Tresserhorn",
+    "deep_review_complete_count": 28,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -528,10 +528,10 @@
       "baseline_engineering_logical_sha": "lh1:1af6ee049bf73721081d3bed599d91b174e2487b42630b8b1c51827301e49c68",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Loki__the_Deceiver.md",
+      "completed_at_commit": "4e97f0696ea028a8789de6543c1c48f9b73b390d",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39324438643",
       "blocker": null
     },
     {
