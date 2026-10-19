@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Doctor_Doom__King_of_Latveria",
-    "deep_review_complete_count": 12,
+    "next_tracker_deck_id": "Don_Andres__the_Renegade",
+    "deep_review_complete_count": 13,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -257,10 +257,10 @@
       "baseline_engineering_logical_sha": "lh1:bdc7cc1f7dc0eeb6866bf80ada6790b5d21339bb63058b80321f352a874a3eca",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Doctor_Doom__King_of_Latveria.md",
+      "completed_at_commit": "1bb4b3a972f601dcd0cda01633ef56e70a3d5084",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39262263719",
       "blocker": null
     },
     {
