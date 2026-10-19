@@ -18,7 +18,7 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": null,
+    "active_tracker_deck_id": "Be_lakor__the_Dark_Master",
     "next_tracker_deck_id": "Be_lakor__the_Dark_Master",
     "deep_review_complete_count": 6,
     "total": 62,
@@ -148,7 +148,7 @@
       "baseline_engineering_logical_sha": "lh1:ece0a3ce87a761d863499a0c6f443be756c6d2d43103b27c9d4b99023c303551",
       "source_identity_discrepancy": "IDENTIFIER_ALIAS_NEEDS_CONFIRMATION",
       "source_identity_issue": "Canonical, tracker, and/or engineering deck ID normalization differs; identical approved SHA verified. State and verify alias explicitly in deck review.",
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "deep_review_evidence_path": null,
       "completed_at_commit": null,
       "ci_run_url": null,
