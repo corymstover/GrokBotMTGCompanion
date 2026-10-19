@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_123",
+  "snapshot": "after_cycle_124",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "66841ee076945faafa749e484e9bf3d59d51400f",
+    "engineering_head": "dc6b68f859a41c00eadbf691e1652dfd17cbfccb",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
@@ -33,7 +33,7 @@
   },
   "m6": {
     "status": "in_progress",
-    "last_cycle_merged": 123,
+    "last_cycle_merged": 124,
     "formal_m6_certified_decks": 0,
     "formal_m6_certified_out_of": 62,
     "gates": [
@@ -94,9 +94,11 @@
         "total": 62,
         "evidence": [
           "data/grixis/m6/sealed/reconciliation_manifest.json",
-          "grixis/Grixis M6 I-J Contract.md"
+          "grixis/Grixis M6 I-J Contract.md",
+          "data/grixis/m6/phase_b_plans/cycle124_reviewer_ready_preregistered_01.json",
+          "data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json (CI output artifact, not committed)"
         ],
-        "scope": "Pass C remains awaiting named independent critic; author-authored preliminary reviews cannot satisfy this gate."
+        "scope": "Cycle124 prepared three verdict-neutral source-locked reviewer packets, but no genuinely independent critic has been assigned or supplied an assessment; Pass C remains 0/62."
       },
       {
         "id": "M6.6",

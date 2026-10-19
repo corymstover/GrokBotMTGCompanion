@@ -1,6 +1,6 @@
 # M6 / M7 Secondary Completion Sub-Tracker
 
-**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 123**.
+**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 124**.
 
 > This is a status report, not an approval, a new optimization result, or authorization to change a deck. The live source of milestone acceptance is `data/grixis/registry.json`. The current canonical 62/62 approved/locked lists are in the separate encyclopedia repository.
 
@@ -21,8 +21,8 @@
 | **M6.2** Objective-specific A/B technical projections | ✅ Complete, 62/62 | Sealed objective-specific projections; their technical separation does **not** establish independent operators or full blind review |
 | **M6.3** Reconciliation/deep-review queue creation | ✅ Complete, 62/62 | Reconciliation inventory exists; the **8,848** deep-review items **are not adjudicated** |
 | **M6.4** Commander-first case-specific judgment preparation | ◐ Partial, 15/62 | Cycles 112–116 authored source-specific analyses, with 12 exact-swap HOLDs and 3 unresolved hypotheses; no formal independent critic |
-| **M6.5** Named independent Pass C & conflict resolution | ☐ Blocked, 0/62 | Separate independent critic must assess material agreements/disagreements |
-| **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–123 supply bounded goldfish, physical-library, 19-land nonbasic mana, and conditional counterspell fixtures for 3 decks; Cycle123 injects a hypothetical opponent spell rather than observing a real opponent action; no complete effect-aware multiplayer game evaluation |
+| **M6.5** Named independent Pass C & conflict resolution | ☐ Blocked, 0/62 | Cycle124 prepared three verdict-neutral source-locked reviewer packets; a genuinely independent named critic must still assess material agreements/disagreements |
+| **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–123 supply bounded goldfish, physical-library, 19-land mana, and hypothetical counterspell fixtures for 3 decks; Cycle124 prepares three source-locked reviewer briefings but does not constitute an independent critique or complete Phase B |
 | **M6.7** Decision-grade `judgment_review` obligations | ☐ Blocked, 0/62 | Resolve strategic conflicts and human-judgment requirements |
 | **M6.8** I: tested-pool local zero-improvement certification | ☐ Blocked, 0/62 | Requires resolved judgments and all relevant tests; certifies tested pool only, never global optimality |
 | **M6.9** J: final complete reproducibility bundles | ☐ Blocked, 0/62 | 62 *input* receipts exist, but no final complete per-deck evidence bundles |
@@ -56,6 +56,6 @@ The ongoing ChatGPT project progress section will always include:
 
 **Certification details:** `grixis/Grixis M6 I-J Contract.md`; `data/grixis/m6/sealed/reconciliation_manifest.json`; `data/grixis/m6/preflight.json`.
 
-**Latest completed engineering cycle:** 123; merge commit `66841ee076945faafa749e484e9bf3d59d51400f`; [Cycle122 PR #230](https://github.com/corymstover/GrokBotMTGCompanion/pull/230), [Cycle123 PR #231](https://github.com/corymstover/GrokBotMTGCompanion/pull/231), [Cycle123 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39196721151).
+**Latest completed engineering cycle:** 124; merge commit `dc6b68f859a41c00eadbf691e1652dfd17cbfccb`; [Cycle124 PR #233](https://github.com/corymstover/GrokBotMTGCompanion/pull/233), [Cycle124 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39197783576). The three reviewer briefing packets do not mean Pass C is complete.
 
 **Protected canonical evidence:** 62/62 locks verified at encyclopedia HEAD `b77ba89b72eacfa4d58d1db937e3a91a2000dd16`; overrides file Git blob SHA `81801b2f9d3387b171c01f1fcae255b385a5b698`.
