@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "cycle": 128,
+  "status": "PREREGISTERED_BEFORE_JUDGMENTS",
+  "base_branch": "chatgpt-cycle76-m6-refinement",
+  "base_commit": "d08a52e30dc2b484b74f7cd55e5d3378e8966e38",
+  "objective": "Complete six additional true commander-specific author judgments for the next source-locked batch without automatically promoting independent Pass C, full Phase B, I/J or M6.",
+  "source_intake": "Cycle127 neutral batch queue (author-prepared, not independent findings)",
+  "cases": [
+    {
+      "deck_id": "The_Valeyard",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Deadly Rollick",
+      "m5_swap_id": "swap:the-valeyard:m5:bf011ab33c85"
+    },
+    {
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Orcish Bowmasters",
+      "m5_swap_id": "swap:norman-osborn:m5:f12ed085e218"
+    },
+    {
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Rakdos Charm",
+      "m5_swap_id": "swap:solkanar-the-swamp-king:m5:ff6a922276cd"
+    },
+    {
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "proposed_add": "Kamahl, Pit Fighter",
+      "proposed_cut": "Rapid Hybridization",
+      "m5_swap_id": "swap:garza-zol-plague-queen:m5:c03c643ca61a"
+    },
+    {
+      "deck_id": "Evelyn__the_Covetous",
+      "proposed_add": "Hullbreaker Horror",
+      "proposed_cut": "Orcish Bowmasters",
+      "m5_swap_id": "swap:evelyn-the-covetous:m5:1a9adc07779d"
+    },
+    {
+      "deck_id": "Sauron__the_Dark_Lord",
+      "proposed_add": "Tidespout Tyrant",
+      "proposed_cut": "Deadly Rollick",
+      "m5_swap_id": "swap:sauron-the-dark-lord:m5:99c9c90172f1"
+    }
+  ],
+  "oracle_snapshot": "oracle-cards-20261016090200.jsonl.gz",
+  "oracle_sha256": "ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+  "hypotheses": [
+    "Each tempting M5 top-three candidate can be evaluated against its commander's mechanics and the protected exact cut, often showing raw combo-index improvement does not translate into identity-specific power.",
+    "The six real approved physical source lists can be matched to the source-approved logical hashes, 99-card library/commander count, and frozen Oracle without changing the list.",
+    "The resulting six authored decisions increase authored coverage from 15 to 21, but remain explicitly non-independent and unable to satisfy full M6 independent Pass C or Phase B."
+  ],
+  "acceptance_criteria": [
+    "Provide at least 4 mechanics-specific facts, positive case, cut cost, candidate-specific adverse case, alternate scenario, and next empirical test per deck.",
+    "Fail closed on any unsupported source candidate or frozen Oracle mismatch, unsupported 99+commander count, missing source cut, unexpected candidate in source.",
+    "Positive/adversarial/regression tests and GitHub Actions exact-head success, reproducible receipt, documented author-level critique and no canonical authority changes.",
+    "No automatic card swap, no fabricated external reviewer, no statistical win-rate claim, no milestone or bracket promotion."
+  ],
+  "limitations": [
+    "These are six authored source-specific judgments, not independent Pass C or complete effect-aware multiplayer trials.",
+    "Frozen Oracle source is not a current legal audit of 100 cards or released exception review.",
+    "Any future hypothetical challenger requires user's explicit approval before canonical changes."
+  ],
+  "authority": {
+    "can_apply_swap": false,
+    "can_edit_canonical": false,
+    "can_accept_m6": false,
+    "can_certify_independent_pass_c": false
+  }
+}
