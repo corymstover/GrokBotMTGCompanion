@@ -46,9 +46,9 @@ jobs:
           assert len(r['decks'])==62
           assert r['program']['milestones']['M6']['status']=='in_progress'
           assert r['program']['milestones']['M7']['status']=='not_started'
-          cases={x['id']:x for x in a['scenario_witnesses']}
+          cases={x['scenario_id']:x for x in a['scenario_witnesses']}
           assert len(cases)==6
-          matches=[x for x in cases.values() if 'spent_restricted_C_on_rings_trigger' in str(x)]
+          matches=[x for x in cases.values() if 'spent_restricted_C_on_rings_trigger' in str(x['measured_state'])]
           assert len(matches)==1
           import scripts.grixis_m6_cycle119_bounded_effects as engine
           witness=engine.mai_ability()['challenger']
