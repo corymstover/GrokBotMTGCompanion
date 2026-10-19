@@ -112,7 +112,7 @@ def run():
  return {"schema_version":1,"cycle":115,"reviewed_decks":rows,
          "approved_deck_count":62,"source_verified_deck_count":3,
          "plan_sha256":sha(PLAN),"review_sha256":sha(REV),"registry_sha256":sha(REG),
-         "readiness_sha256":sha(TRI),"oracle_checked":oracle,
+         "readiness_sha256":sha(TRIAGE),"oracle_checked":oracle,
          "fresh_original_source_bytes_rehashed":False,
          "whole_deck_legality_currently_verified":False,
          "formal_independent_pass_c_count":0,"full_effect_aware_phase_b_count":0,
