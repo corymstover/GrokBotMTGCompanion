@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Anhelo__the_Painter",
-    "deep_review_complete_count": 3,
+    "next_tracker_deck_id": "Ashad__the_Lone_Cyberman",
+    "deep_review_complete_count": 4,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -94,10 +94,10 @@
       "baseline_engineering_logical_sha": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
       "source_identity_discrepancy": "IDENTIFIER_ALIAS_NEEDS_CONFIRMATION",
       "source_identity_issue": "Canonical, tracker, and/or engineering deck ID normalization differs; identical approved SHA verified. State and verify alias explicitly in deck review.",
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Anhelo__the_Painter.md",
+      "completed_at_commit": "1f5a307998a2112ea24e05cfbdff82026547a6ce",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39229724468",
       "blocker": null
     },
     {
