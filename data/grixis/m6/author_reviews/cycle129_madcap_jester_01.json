@@ -1,1 +1,9 @@
-{"cycle":129,"deck_id":"The_Madcap_Jester","review_stage":"authored_preliminary","formal_independent_pass_c":false,"approved_swaps":0,"recommendation":"HOLD"}
+{
+  "cycle": 129,
+  "deck_id": "The_Madcap_Jester",
+  "status": "authored_preliminary",
+  "verdict": "HOLD",
+  "why": "Grinding Station mills to graveyard; Jester rewards exile from opposing libraries. Mox Opal is a zero-cost mana source useful to Breach recursion.",
+  "independent_review": false,
+  "canonical_changes": 0
+}
