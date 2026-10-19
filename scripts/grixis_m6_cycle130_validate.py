@@ -15,7 +15,7 @@ def validate():
  queues={x["deck_id"]:x for x in load("data/grixis/m6/phase_b_bounded/commander_first_readiness_62_01.json")["ordered_decks"]}
  prior=load("data/grixis/m6/author_reviews/cycle129_six_detailed_01.json")
  ids=[x["deck_id"] for x in rows["rows"]]
- assert plan["cycle"]==129 and rows["review_count"]==len(ids)==6 and len(set(ids))==6
+ assert plan["cycle"]==130 and rows["review_count"]==len(ids)==6 and len(set(ids))==6
  assert set(ids).isdisjoint(x["deck_id"] for x in prior["rows"])
  assert (rows["prior_authored"],rows["authored_if_verified"])==(27,33)
  assert track["m6"]["gates"][3]["completed"]==27
