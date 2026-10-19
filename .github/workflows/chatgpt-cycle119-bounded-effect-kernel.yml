@@ -1,0 +1,62 @@
+name: ChatGPT Cycle119 bounded commander-first effect witnesses
+on:
+  push:
+    branches: [chatgpt-cycle119-bounded-effect-kernel]
+    paths:
+      - .github/workflows/chatgpt-cycle119-bounded-effect-kernel.yml
+      - data/grixis/m6/phase_b_plans/cycle119_bounded_effect_states_preregistered_01.json
+      - scripts/grixis_m6_cycle119_bounded_effects.py
+      - tests/test_m6_cycle119_bounded_effects.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  six-source-bound-effect-witnesses:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Pin frozen Scryfall Oracle text archive
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Fifteen negative and positive timed ability tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle119_bounded_effects.py' -v
+      - name: Execute six frozen-Oracle verified 99+1 source card effect witnesses
+        run: |
+          python -u scripts/grixis_m6_cycle119_bounded_effects.py --build
+          python -u scripts/grixis_m6_cycle119_bounded_effects.py --check
+      - name: Reject false real-game, deck edits and M6 or Pass C certification
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert len(d['oracle_evidence'])==12
+          assert len(d['scenario_witnesses'])==d['bounded_effect_scenarios_executed']==6
+          assert sum(x['physical_main_count']+x['commander_count'] for x in d['physical_source_decks'])==300
+          assert d['real_multiplayer_gameplay_results']==0
+          assert d['same_seed_full_effect_aware_paired_trials']==0
+          assert d['independent_pass_c_count']==0
+          assert not d['phase_b_certified'] and not d['m6_accepted']
+          assert d['owner_approved_swaps']==d['canonical_decks_modified']==0
+          assert not d['accepted_m3_simulator_modified']
+          assert all(not v for v in d['authority'].values())
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json'
+      - name: Upload bounded event witness receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle119-six-oracle-gated-bounded-effect-witnesses
+          path: data/grixis/m6/phase_b_bounded/cycle119_bounded_effect_witnesses_01.json
+          if-no-files-found: error
