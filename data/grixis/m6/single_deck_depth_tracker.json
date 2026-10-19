@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Marchesa__Dealer_of_Death",
-    "deep_review_complete_count": 33,
+    "next_tracker_deck_id": "Marchesa__the_Black_Rose",
+    "deep_review_complete_count": 34,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -636,10 +636,10 @@
       "baseline_engineering_logical_sha": "lh1:c37dda3aa8ad8964be875db85e6510e4ca46f5ffbd815a107ac9a6af11226d8b",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Marchesa__Dealer_of_Death.md",
+      "completed_at_commit": "1eb068e4abcf913c68ab655540f92fb4c777105c",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39341851934",
       "blocker": null
     },
     {
