@@ -18,9 +18,9 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": "Ashnod_the_Uncaring",
-    "next_tracker_deck_id": "Ashnod_the_Uncaring",
-    "deep_review_complete_count": 5,
+    "active_tracker_deck_id": null,
+    "next_tracker_deck_id": "Be_lakor__the_Dark_Master",
+    "deep_review_complete_count": 6,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -130,10 +130,10 @@
       "baseline_engineering_logical_sha": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "IN_PROGRESS",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Ashnod_the_Uncaring.md",
+      "completed_at_commit": "054be8c5221d1c5691b99b22b117bdb0e2a2de31",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39236495880",
       "blocker": null
     },
     {
