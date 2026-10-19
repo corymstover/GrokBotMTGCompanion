@@ -1,0 +1,185 @@
+{
+  "schema_version": 1,
+  "cycle": 120,
+  "milestone": "M6",
+  "status": "preregistered_before_result_generation",
+  "branch": "chatgpt-cycle120-physical-source-access",
+  "base_branch": "chatgpt-cycle76-m6-refinement",
+  "base_head_sha": "7031fa408befb8130a6469a84ec1465a018ba836",
+  "goal": "Bridge actual 99-card canonical source libraries to Cycle119 limited rule-event fixtures through observable paired seeded physical-card access gates, without promoting gross co-exposure to a legally deployed or interacted MTG game.",
+  "inputs": [
+    "data/grixis/m6/phase_b_plans/cycle119_bounded_effect_states_preregistered_01.json",
+    "data/grixis/m6/phase_b_plans/cycle118_supported_paired_goldfish_preregistered_01.json",
+    "data/grixis/m6/independent_review_intake/cycle117_counterfactual_protocols_01.json",
+    "scripts/grixis_m6_cycle119_bounded_effects.py",
+    "scripts/grixis_paired.py",
+    "scripts/grixis_sim.py"
+  ],
+  "sampling": {
+    "seed": 120026,
+    "samples_per_deck": 8192,
+    "turns": 8,
+    "opening_hand": 7,
+    "draws_per_turn": 1,
+    "allow_mulligans": false,
+    "model": "physical same shuffle perm after single-slot alignment: shared 98 cards identical indices, removed slot and candidate position identical",
+    "phase": "gross card access, 7+1 per turn, no game behavior",
+    "checkpoints": [
+      4,
+      8
+    ],
+    "statistic": "Wilson 95% interval for per-arm source access; not a game win rate; no paired significance for identical physical slot",
+    "return_example_physical_witnesses": 2
+  },
+  "studies": [
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "commander": "Gwendlyn Di Corci",
+      "approved_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "approved_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+      "source_file": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+      "swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "cut": "Opposition Agent",
+      "add": "Aphetto Alchemist",
+      "opportunities": [
+        {
+          "id": "gwendlyn-alchemist-activation-access",
+          "arm": "candidate",
+          "required_main": [
+            "Aphetto Alchemist"
+          ],
+          "meaning": "Alchemist physically sampled with commander in command zone; no Gwendlyn deployment or untap use guaranteed"
+        },
+        {
+          "id": "gwendlyn-shroud-overlap",
+          "arm": "candidate",
+          "required_main": [
+            "Aphetto Alchemist",
+            "Pemmin's Aura"
+          ],
+          "meaning": "Potential Alchemist/shroud issue if both were later deployed; no shroud assumed active"
+        },
+        {
+          "id": "gwendlyn-agent-search-response-access",
+          "arm": "baseline",
+          "required_main": [
+            null
+          ],
+          "meaning": "Agent physically sampled, no opponent tutor timing/protection or B mana guaranteed"
+        }
+      ]
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "commander": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "approved_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "approved_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+      "source_file": "refinement/decklists/Nicol_Bolas_the_Ravager_Approved_2026-10-15.txt",
+      "swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "cut": "Mox Diamond",
+      "add": "Aetheric Amplifier",
+      "opportunities": [
+        {
+          "id": "ravager-mox-spare-land-opening",
+          "arm": "baseline",
+          "required_main": [
+            null
+          ],
+          "extra_requirement": "at_least_one_other_land_in_opening_seven",
+          "meaning": "Mox + another land in 7, land discard possible at entry; no turn-one commander or real land play"
+        },
+        {
+          "id": "ravager-amplifier-access",
+          "arm": "candidate",
+          "required_main": [
+            null
+          ],
+          "meaning": "Amplifier physically sampled; actual 3 mana cast, 4 mana activation, transformed planeswalker unproven"
+        },
+        {
+          "id": "ravager-mox-spare-land-through-turn8",
+          "arm": "baseline",
+          "required_main": [
+            null
+          ],
+          "extra_requirement": "at_least_one_other_land_in_seen",
+          "meaning": "Mox/land co-exposure through turn8, no proof spare land remains in hand"
+        }
+      ]
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "commander": "Mai and Zuko",
+      "approved_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "approved_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+      "source_file": "refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt",
+      "swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "cut": "An Offer You Can't Refuse",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "opportunities": [
+        {
+          "id": "mai-jewel-restriction-access",
+          "arm": "candidate",
+          "required_main": [
+            null
+          ],
+          "meaning": "Jewel card sampled; tapped entry/restricted mana prevents simple same-turn spell speed mana"
+        },
+        {
+          "id": "mai-jewel-basalt-rings-access",
+          "arm": "candidate",
+          "required_main": [
+            null,
+            "Basalt Monolith",
+            "Rings of Brighthearth"
+          ],
+          "meaning": "Three source cards co-exposed by turn8; no casting, land, priority or untapping proven"
+        },
+        {
+          "id": "mai-offer-counterspell-access",
+          "arm": "baseline",
+          "required_main": [
+            null
+          ],
+          "meaning": "An Offer sampled; does not prove a payable, timely opponent noncreature counterspell target"
+        }
+      ]
+    }
+  ],
+  "rules_bounded_execution": {
+    "allowed": "After a source hand contains required cards, output only that source-card access witnessed. Optionally include the matching verified Cycle119 finite precondition result as a separate CONDITIONAL example; never claim the sampled cards were cast or battlefield-ready.",
+    "forbidden": [
+      "inferring win rates from drawn packages",
+      "running Cycle119 World with invented mana and calling it actual sourced game execution",
+      "assuming Basalt Rings or Ravager transformation is castable simply because draw includes cards",
+      "assuming opponent tutor/win-spell exists or responds at scripted window",
+      "forcing a rare success when none sampled",
+      "casting Jewel on entry with restricted mana or its mana as normal spell mana"
+    ]
+  },
+  "outcomes": [
+    "per-checkpoint paired baseline/candidate individual named slot access",
+    "source common support overlap and candidate/cut package exposure",
+    "Mox Diamond + other land in physical opening or seen cards with explicit hand availability limit",
+    "low-n triple package exposure and Wilson intervals",
+    "two sample physical UID/turn provenance examples per registered opportunity when accessible",
+    "positive/adversarial tests of paired identical shuffles, missing cards/duplicates, singleton/99+1, wrong commander or hash, fake independently reviewed state"
+  ],
+  "authority": {
+    "can_apply_deck_swaps": false,
+    "can_modify_approved_lists": false,
+    "can_certify_M6": false,
+    "can_claim_effect_aware_paired_gameplay": false,
+    "can_issue_pass_c": false
+  },
+  "limitations": [
+    "No mulligan and scripted draw one per own turn; unlike actual game draws, tutors/extra draws/removed cards intentionally omitted",
+    "No mana expenditure, castability or land-drop strategy modeled in exposure sampling",
+    "Cycle119 rules witnesses remain conditional separate findings",
+    "Not a full Phase B, independent Pass C/I/J, win-rate test, legality refresh or deck approval"
+  ],
+  "output": "data/grixis/m6/phase_b_bounded/cycle120_physical_access_pairs_01.json"
+}
