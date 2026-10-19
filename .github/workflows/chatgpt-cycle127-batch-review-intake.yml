@@ -1,0 +1,49 @@
+name: ChatGPT Cycle127 M6 source-locked 62-deck review intake
+on:
+  push:
+    branches: [chatgpt-cycle127-m6-batch-review-workflow]
+    paths:
+      - .github/workflows/chatgpt-cycle127-batch-review-intake.yml
+      - data/grixis/m6/phase_b_plans/cycle127_batch_intake_preregistered_01.json
+      - scripts/grixis_m6_cycle127_batch_intake.py
+      - tests/test_m6_cycle127_batch_intake.py\n      - data/grixis/m6/critic_batches/cycle127_preliminary_batch_review_critique_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-locked-review-backlog:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run positive, adverse, and regression source-gate tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle127_batch_intake.py' -v
+      - name: Build and replay neutral case queue
+        run: |
+          python scripts/grixis_m6_cycle127_batch_intake.py --build
+          python scripts/grixis_m6_cycle127_batch_intake.py --check
+      - name: Enforce zero approval authority and exact review totals
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/independent_review_intake/cycle127_62_deck_batch_queue_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          assert (p['prepared_decks'],p['previous_authored_decks'],p['awaiting_authored_review'])==(62,15,47)
+          assert len(p['packets'])==62 and p['previous_independent_reviews_formally_certified']==0
+          assert not any(p['zero_authority_outcomes'].values()) and p['CI_is_not_independent_review']
+          assert all(x['no_author_verdict_in_packet'] and x['no_current_oracle_or_gameplay_claim'] for x in p['packets'])
+          assert {x['deck_id'] for x in p['packets'] if not x['historical_recorded_source_hash_matches_raw']} == {'Admiral_Brass__Unsinkable', 'Anhelo__the_Painter'}
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/independent_review_intake/cycle127_62_deck_batch_queue_01.json'
+      - name: Archive deterministic neutral 62-deck review packets
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle127-source-locked-62-deck-batch-intake
+          path: data/grixis/m6/independent_review_intake/cycle127_62_deck_batch_queue_01.json
+          if-no-files-found: error
