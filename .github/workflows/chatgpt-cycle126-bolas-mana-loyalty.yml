@@ -7,6 +7,7 @@ on:
       - data/grixis/m6/phase_b_plans/cycle126_bolas_source_paid_pressure_preregistered_01.json
       - scripts/grixis_m6_cycle126_bolas_source_paid_pressure.py
       - tests/test_m6_cycle126_bolas_source_paid_pressure.py
+      - data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_interpretation_01.md
   workflow_dispatch:
 permissions:
   contents: read
