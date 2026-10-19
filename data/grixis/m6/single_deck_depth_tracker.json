@@ -18,7 +18,7 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": null,
+    "active_tracker_deck_id": "Admiral_Beckett_Brass",
     "next_tracker_deck_id": "Admiral_Beckett_Brass",
     "deep_review_complete_count": 1,
     "total": 62,
@@ -58,7 +58,7 @@
       "baseline_engineering_logical_sha": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "deep_review_evidence_path": null,
       "completed_at_commit": null,
       "ci_run_url": null,
