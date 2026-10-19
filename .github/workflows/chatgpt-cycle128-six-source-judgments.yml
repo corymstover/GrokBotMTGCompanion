@@ -1,0 +1,55 @@
+name: ChatGPT Cycle128 six commander-first authored source judgments
+on:
+  push:
+    branches: [chatgpt-cycle128-six-source-judgments]
+    paths:
+      - .github/workflows/chatgpt-cycle128-six-source-judgments.yml
+      - data/grixis/m6/phase_b_plans/cycle128_six_commander_judgments_preregistered_01.json
+      - data/grixis/m6/author_reviews/cycle128_six_commander_authored_judgments_01.json
+      - scripts/grixis_m6_cycle128_six_judgments.py
+      - tests/test_m6_cycle128_six_judgments.py
+      - data/grixis/m6/critic_batches/cycle128_preliminary_author_critique_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  six-source-reviewed-candidates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Retrieve pinned Scryfall 2026-10-16 card archive and independently verify bytes
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Seven positive and adversarial source/Oracle checks
+        run: python -m unittest discover -s tests -p 'test_m6_cycle128_six_judgments.py' -v
+      - name: Generate and replay six real source-backed author review receipts
+        run: |
+          python scripts/grixis_m6_cycle128_six_judgments.py --build
+          python scripts/grixis_m6_cycle128_six_judgments.py --check
+      - name: Hard no-promotion integrity and only evidence artifact changed
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle128_six_review_validation_01.json').read_text())
+          a=json.loads(Path('data/grixis/registry.json').read_text())
+          assert (r['source_reviewed_count'],r['prior_authored_count'],r['authored_total_if_verified'])==(6,15,21)
+          assert r['canonical_deck_changes']==r['approved_swaps']==0
+          assert r['formal_independent_pass_c_count']==r['complete_effect_aware_multiplayer_phase_b_count']==0
+          assert not r['M6_accepted'] and not r['M7_started'] and not r['current_whole_list_legality_checked']
+          assert a['program']['milestones']['M6']['status']=='in_progress'
+          assert a['program']['milestones']['M7']['status']=='not_started'
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle128_six_review_validation_01.json'
+      - name: Upload source-hashed six commander judgment receipts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle128-six-source-verified-authored-judgments
+          path: data/grixis/m6/phase_b_bounded/cycle128_six_review_validation_01.json
+          if-no-files-found: error
