@@ -1,0 +1,94 @@
+{
+  "cycle": 115,
+  "status": "preregistered_before_authored_reviews",
+  "milestone": "M6",
+  "scope": "Commander-first author review of next three untouched 62-queue positions 11-13, while Cycle114 draft #219 stays unmerged pending separately blocked CI",
+  "base": "chatgpt-cycle76-m6-refinement",
+  "canonical_authority": "corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json",
+  "decks": [
+    {
+      "id": "RogSi",
+      "slug": "rograkh-son-of-rohgahh-silas-renn",
+      "approved_raw_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+      "commander_count": 2,
+      "main_count": 98,
+      "commander_names": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "swap_id": "swap:rograkh-son-of-rohgahh-silas-renn:m5:c0b52a884319",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "obligations": [
+        "Recognize two partnered commanders count toward total 100 and Rograkh's free body is important",
+        "The Enigma Jewel enters tapped; its {C}{C} is restricted ONLY to activating abilities, not casting spells",
+        "Its {8}{U} craft costs four or more OTHER nonland permanents/cards with activated abilities, at sorcery speed; Locus copies only nonmana activated abilities",
+        "Birgi generates {R} after every cast and Harnfel turns discards into temporary spell access; test actual spell-chain and fast turbo-naus role",
+        "No false claim that generic Spellbook combo proves commander-first cEDH gain"
+      ]
+    },
+    {
+      "id": "Nicol_Bolas",
+      "slug": "nicol-bolas",
+      "approved_raw_sha256": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
+      "commander_count": 1,
+      "main_count": 99,
+      "commander_names": [
+        "Nicol Bolas"
+      ],
+      "swap_id": "swap:nicol-bolas:m5:3adba7cabda7",
+      "add": "Volcano Hellion",
+      "cut": "Mystic Remora",
+      "obligations": [
+        "Original 8-mana Nicol Bolas hand-discard triggers on damage by Bolas himself, including noncombat",
+        "Volcano Hellion ETB damages pilot and target creature as Hellion, NOT damage sourced by Nicol Bolas, and echo equals controller life total",
+        "Can Hellion meaningfully enable any commander sourced damage with existing source? Don't conflate targeting a creature with commander damaging player",
+        "Mystic Remora U early card flow helps cast and defend costly commander; compare loss with Hellion replacement",
+        "Respect anti-goal keeping Nicol Bolas walker decks distinct"
+      ]
+    },
+    {
+      "id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "approved_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "commander_count": 1,
+      "main_count": 99,
+      "commander_names": [
+        "Mai and Zuko"
+      ],
+      "swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "cut": "An Offer You Can't Refuse",
+      "obligations": [
+        "Mai and Zuko give ARTIFACT and Ally spells flash, not craft abilities flash",
+        "Enigma Jewel {C}{C} ability-only mana CAN pay Basalt Monolith untap or Rings of Brighthearth copying cost, but cannot cast flashed artifact/Ally spells",
+        "The Enigma Jewel enters tapped and its back face requires costly sorcery-speed craft; no automatic instant combo",
+        "Original one-U countermagic An Offer protects specific artifact-combo stack attempts",
+        "Don't assume first-place M5 combo is a real reproducible artifact-combo win"
+      ]
+    }
+  ],
+  "required_cross_checks": [
+    "Exactly 100 physical cards including commanders, singleton except original basic lands and authorized exceptions",
+    "Exact approved raw hashes and original proposed source IDs match Cycle111 and live GitHub canonical locks",
+    "Source baseline commander blueprints, protected core and source research hypotheses remain distinct from author inferred strategic judgments",
+    "Oracle text and interaction claims are source-bound or explicitly marked external corroboration and not current full-deck legality certification",
+    "No automatic deck changes, no M6 acceptance, no false official bans or full Phase B, no independent Pass C"
+  ],
+  "outputs": [
+    "data/grixis/m6/author_reviews/cycle115_three_commander_reviews_01.json",
+    "data/grixis/m6/critic_batches/cycle115_three_commander_reviews_preliminary.md",
+    "data/grixis/m6/phase_b_bounded/cycle115_source_integrity_01.json"
+  ],
+  "limitations": [
+    "No new GitHub Actions workflow creation attempted after tooling safety block in Cycle114; do not bypass. Validation only via read-only connector/manual source checks unless permitted CI becomes available.",
+    "No actual full multiplayer effect-aware simulated wins or zero improvement certificates.",
+    "Cycle114 #219 remains DRAFT and unmerged, follow-up gate remains unresolved."
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
