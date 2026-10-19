@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Edward_Kenway",
-    "deep_review_complete_count": 16,
+    "next_tracker_deck_id": "Evelyn__the_Covetous",
+    "deep_review_complete_count": 17,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -329,10 +329,10 @@
       "baseline_engineering_logical_sha": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Edward_Kenway.md",
+      "completed_at_commit": "1ac5788cb095e73a7a67b7463375a10ff77c262f",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39289247588",
       "blocker": null
     },
     {
