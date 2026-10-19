@@ -87,7 +87,7 @@ class World:
         for color in ("U","B","R"):
             n=int(need.pop(color,0))
             if pool.get(color,0)<n:raise Blocked("required colored mana unavailable: "+color)
-            pool[color]-=n
+            pool[color]=pool.get(color,0)-n
         generic=int(need.pop("generic",0))
         if need:raise Blocked("unsupported mana symbol: "+str(need))
         usable=sum(pool.values())+(limited if restricted_allowed else 0)
