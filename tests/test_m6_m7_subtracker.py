@@ -30,13 +30,17 @@ def validate(t,r,p,s):
  assert s["counts"]["decks"]==62
  assert s["counts"]["deep_review"]==8848
  assert s["pass_c"]["complete"] is False
- assert t["m6"]["gates"][3]["completed"]==27
+ assert t["m6"]["gates"][3]["completed"]==33
  assert t["m6"]["gates"][3]["status"]=="PARTIAL"
  case=json.loads((ROOT/"data/grixis/m6/author_reviews/cycle128_six_commander_authored_judgments_01.json").read_text())
  assert case["review_count"]==6 and len(case["rows"])==6 and case["historical_authored_count_before"]==15
  assert case["authored_count_after_if_verified"]==21
  r129=json.loads((ROOT/"data/grixis/m6/author_reviews/cycle129_six_detailed_01.json").read_text())
  assert r129["review_count"]==len(r129["rows"])==6 and r129["authored_if_verified"]==27
+ r130=json.loads((ROOT/"data/grixis/m6/author_reviews/cycle130_six_detailed_01.json").read_text())
+ assert r130["review_count"]==len(r130["rows"])==6 and r130["authored_if_verified"]==33
+ assert len({x["deck_id"] for x in r130["rows"]})==6
+ assert all(x["approved_swaps"]==0 and not x["independent_pass_c"] and not x["complete_phase_b"] for x in r130["rows"])
  assert len({x["deck_id"] for x in r129["rows"]})==6
  assert all(x["approved_swaps"]==0 and not x["independent_pass_c"] and not x["complete_phase_b"] for x in r129["rows"])
  assert len({x["deck_id"] for x in case["rows"]})==6
