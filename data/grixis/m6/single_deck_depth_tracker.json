@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Grixistax___October_2026",
-    "deep_review_complete_count": 26,
+    "next_tracker_deck_id": "Loki__the_Deceiver",
+    "deep_review_complete_count": 27,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -510,10 +510,10 @@
       "baseline_engineering_logical_sha": "lh1:f56e9d1dfe623d6a80dc00e5563e8e3895f739559d334afe04bca64eb56a0e89",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Grixistax___October_2026.md",
+      "completed_at_commit": "04b19e15f90fc1965a01411fe039214b7056fcc5",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39322526828",
       "blocker": null
     },
     {
