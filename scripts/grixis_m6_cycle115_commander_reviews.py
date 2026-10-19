@@ -20,7 +20,7 @@ EXPECTED={
 ORACLE={
  "Rograkh, Son of Rohgahh":("first strike","partner"),
  "Silas Renn, Seeker Adept":("artifact card in your graveyard","partner"),
- "The Enigma Jewel // Locus of Enlightenment":("enters tapped","activate abilities","craft with four or more nonlands","nonmana"),
+ "The Enigma Jewel // Locus of Enlightenment":("enters tapped","activate abilities","craft with four or more nonlands","isn\'t a mana ability"),
  "Birgi, God of Storytelling // Harnfel, Horn of Bounty":("whenever you cast a spell","add {R}","discard a card","exile the top two cards"),
  "Nicol Bolas":("whenever nicol bolas deals damage","discards their hand","sacrifice nicol bolas unless you pay"),
  "Volcano Hellion":("echo","to you and target creature"),
