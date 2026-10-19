@@ -1,1 +1,12 @@
-{"cycle":129,"deck_id":"Fire_Lord_Azula","verdict":"HOLD","candidate":"Hullbreaker Horror","cut":"Repeal","authored_only":true,"independent_pass_c":false,"canonical_changes":0}
+{
+  "cycle": 129,
+  "deck_id": "Fire_Lord_Azula",
+  "verdict": "HOLD",
+  "candidate": "Hullbreaker Horror",
+  "cut": "Repeal",
+  "authored_only": true,
+  "independent_pass_c": false,
+  "canonical_changes": 0,
+  "reason": "Repeal is cheap instant interaction copied while Azula attacks; replacing it with a seven-mana creature loses the immediate doubled bounce/draw.",
+  "needs_independent_review": true
+}
