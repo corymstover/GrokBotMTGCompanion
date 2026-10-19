@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Lord_of_Tresserhorn",
-    "deep_review_complete_count": 28,
+    "next_tracker_deck_id": "Lord_Xander__the_Collector",
+    "deep_review_complete_count": 29,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -546,10 +546,10 @@
       "baseline_engineering_logical_sha": "lh1:eae4578c6338f3c2caf25f7359154e851b6f51f179c2ddb3ac2883f95489aafa",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Lord_of_Tresserhorn.md",
+      "completed_at_commit": "1b2487179c82624fc6bac097f76d42595da931e9",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39326192332",
       "blocker": null
     },
     {
