@@ -1,0 +1,65 @@
+name: ChatGPT Cycle118 source-locked same-seed goldfish evidence
+on:
+  push:
+    branches: [chatgpt-cycle118-supported-paired-evidence]
+    paths:
+      - .github/workflows/chatgpt-cycle118-supported-paired-evidence.yml
+      - data/grixis/m6/phase_b_plans/cycle118_supported_paired_goldfish_preregistered_01.json
+      - data/grixis/m6/phase_b_plans/cycle118_simulator_coverage_guard_01.json
+      - scripts/grixis_m6_cycle118_paired_goldfish.py
+      - tests/test_m6_cycle118_paired_goldfish.py
+      - data/grixis/m6/phase_b_bounded/cycle118_paired_goldfish_interpretation_01.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-library-bounded-goldfish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Obtain exact frozen Oracle archive and check checksum
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Run source, swap, restricted mana and authority negative tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle118_paired_goldfish.py' -v
+      - name: Run preregistered 3 x 96 real-library paired goldfish shuffles
+        run: |
+          python -u scripts/grixis_m6_cycle118_paired_goldfish.py --build
+          python -u scripts/grixis_m6_cycle118_paired_goldfish.py --check
+      - name: Reject unsupported effect-aware conclusions or authority changes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          o=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle118_supported_paired_goldfish_01.json').read_text())
+          assert len(r['decks'])==62
+          assert all(r['program']['milestones'][f'M{i}']['status']=='accepted' for i in range(6))
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert len(o['paired_results'])==3
+          assert o['actual_paired_goldfish_permutations']==288
+          assert o['completed_effect_aware_cycle117_scenarios']==0
+          assert o['actual_real_multiplayer_gameplay_results']==0
+          assert o['approved_swaps']==o['canonical_decks_modified']==0
+          assert o['formal_independent_pass_c_count']==0
+          assert o['M6_accepted'] is False and o['phase_B_certified'] is False
+          assert all(not v for v in o['authority'].values())
+          jewel=next(v for v in o['paired_results'] if v['deck_id']=='Mai_and_Zuko')
+          assert jewel['model_capability_guard']['applied_guard'].startswith('Jewel inert')
+          assert not jewel['model_capability_guard']['opponent_interaction_model']
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle118_supported_paired_goldfish_01.json'
+      - name: Publish reproducible read-only M3 goldfish receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle118-source-locked-288-paired-goldfish-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle118_supported_paired_goldfish_01.json
+          if-no-files-found: error

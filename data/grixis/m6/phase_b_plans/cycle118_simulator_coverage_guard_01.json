@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "cycle": 118,
+  "stage": "M6_paired_model_coverage_guard_registered_before_results",
+  "source_engine": "scripts/grixis_sim.py (v1.1)",
+  "discovery": "M3 engine source_spec() interprets 'Add {C}{C}' as unrestricted permanent mana and resolve() assumes nonland permanents enter untapped; both are incorrect for The Enigma Jewel. The engine does not implement its activation-only restriction or enter-tapped ability, so naive Mai and Zuko results would be misleading.",
+  "policy": {
+    "when_card": "The Enigma Jewel // Locus of Enlightenment",
+    "apply_to_challenger_card_model": {
+      "source": null,
+      "tapped": true,
+      "v11": {}
+    },
+    "strategy": "Treat Jewel as castable inert front-face artifact in goldfish, explicitly set source=None; activation benefit, untapping/craft, and flash permission remain unknown; never count colorless Jewel mana as spell mana.",
+    "engine_other_limitations": [
+      "The paired engine does not implement Gwendlyn discard activation, Aphetto Alchemist untap or Opposition Agent tutor replacement.",
+      "The paired engine does not implement planeswalker loyalty doubling or the commander Ravager transformation cost/planeswalker timing.",
+      "The paired engine does not implement Mai and Zuko artifact flash/Firebending 3, An Offer opponent counters or Jeweled restricted activation mana."
+    ],
+    "safe_claims": [
+      "same-seed physical main-library goldfish curve and commander-deployment proxies",
+      "Mox Diamond conditional land-discard and Amplifier card's repeatable-mana text subject to source_model",
+      "candidate/card access; mean paired CI95 and explicit zero-effect visibility"
+    ],
+    "forbidden_claims": [
+      "game wins",
+      "complete effect-aware scenarios from Cycle117",
+      "independent review",
+      "M6 approval",
+      "zero improvement",
+      "Jewel has no real benefit just because model omits it"
+    ]
+  }
+}
