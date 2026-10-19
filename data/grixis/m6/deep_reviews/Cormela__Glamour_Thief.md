@@ -96,7 +96,7 @@ Previously approved October14 fourteen swaps are locked: Goryo's Vengeance for F
 | Simian Spirit Guide | 1 | Creature — Ape Spirit | Red pitch from hand for R, exiles card, not a cast or death trigger. |
 | Sol Ring | 1 | Artifact | 1 generic rock accelerates, cannot itself make UBR mana; cEDH speed. |
 | Steam Vents | 1 | Land — Island Mountain | Fetchable dual Grixis mana, optional shock life where relevant. |
-| Tainted Pact | 1 | Instant | UB instant? Oracle 1B: exile from top until choose card or two duplicate NAMES; list has exactly 100 unique names so can exile all with none chosen for Oracle if no disruption. |
+| Tainted Pact | 1 | Instant | {1}{B} instant: exile from top until choose card or two duplicate NAMES; list has exactly 100 unique names so can exile all with none chosen for Oracle if no disruption. |
 | Sulfurous Springs | 1 | Land | UNTAPPED/UTILITY land: exact colored count and Tainted Pact singleton considered. |
 | Swamp | 1 | Basic Land — Swamp | SINGLE BASIC: 100 unique names ensure Tainted Pact never repeats. |
 | Swan Song | 1 | Instant | U counter enchantment/inst/sorc and gives opponent 2/2 Bird, cheap protection. |
@@ -128,7 +128,7 @@ Exact engineering candidate source `data/grixis/m6/optimizer/cormela-glamour-thi
 | **Archaeomancer → Faithless Looting** (A/B agreement) | 4MV creature ETB returns one inst/sorc from grave to HAND, but Cormela ALREADY recurs spells via its death trigger, and this creature costs four and has no haste/ritual ability. Faithless is one-mana early dig/discard for Cormela-in-grave, Breach and combo density with flashback. | REJECT exact cut (slow redundant body). |
 | **Ardent Elementalist → Faithless Looting** (A/B) | Similar four-mana creature ETB spell recursion, does not supply combo mana or Cormela deaths. | REJECT. |
 | **Altar of Dementia → Lion's Eye Diamond** (ranked) | Sac creature to mill its power can exploit repeated Cormela tokens, and Cormela death triggers (sac outlet) without paying mana; but LED is pivotal zero-mana red/black/blue source for Breach loop, Ad Nauseam and storm, not expendable. | REJECT LED cut. |
-| **Blasting Station → Pyroblast** (A) | A nonmana sac outlet with infinite token ETB ping potential, but Cormela's primary loops need MANA-producing outlets; Pyroblast 1R? actually `{R}` saves against blue combo and more aligned with cEDH interaction. | REJECT. |
+| **Blasting Station → Pyroblast** (A) | A nonmana sac outlet with infinite token ETB ping potential, but Cormela's primary loops need MANA-producing outlets; Pyroblast `{R}` saves against blue combo and more aligned with cEDH interaction. | REJECT. |
 | **Arcane Denial → Wheel of Fortune** (B) | More two-mana counter coverage versus a seven-card refill and Breach grave dump; Wheel creates multiple grave and spell triggers, helps failover but also opponent draws. Removing Wheel has substantial combo and velocity cost. | HOLD no conclusive swap. |
 | **Archmage Emeritus → Wheel of Fortune** (B) | Magecraft on cast/copy draws but four-mana exposed creature and Thoracle fast deck already has multiple draw/selection choices. | REJECT wheel cut. |
 | **Big Score → Culling the Weak / Lotus Petal** (B) | Four-mana discard to draw2+2 Treasures slow even at strong payoff; Culling cheaply sacrifices Cormela as CAST COST to trigger recursion while creating BBBB, Petal zero-cost colored burst and Breach storm. | REJECT either cut. |
