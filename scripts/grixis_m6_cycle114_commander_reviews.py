@@ -28,7 +28,7 @@ ORACLE={
  "Drafna, Founder of Lat-Nam":["return target artifact you control","copy target artifact spell you control"],
  "Curse of Opulence":["enchant player","whenever enchanted player is attacked","create a gold token"],
  "Academy Manufactor":["clue","food","treasure"],
- "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen":["when nicol bolas enters","exile nicol bolas","return him to the battlefield transformed","loyalty"],
+ "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen":["when nicol bolas enters","exile nicol bolas","return him to the battlefield transformed","+2: draw two cards"],
  "Aetheric Amplifier":["add one mana of any color","double the number of each kind of counter on target permanent","activate only as a sorcery"],
  "Mox Diamond":["discard a land card","add one mana of any color"],
  "Training Grounds":["activated abilities","cost {2} less"],
@@ -83,7 +83,7 @@ def validate(item,plan,reg,bp,queue,lib,oracle_cards):
  if len(item["rules"])<4 or not item["why_hold"] or not item["positive_case"] or not item["next_gate"]:
   raise ValueError("Commander-first review not substantive enough")
  if did=="The_Rani":
-  if any("Curse of Opulence" not in names for _ in (0,)):raise ValueError("Rani lost Curse source")
+  if "Curse of Opulence" not in names:raise ValueError("Rani lost Curse source")
   if "Academy Manufactor" not in names:raise ValueError("Rani Clue payoff missing")
  if did=="Nicol_Bolas__the_Ravager" and not {"Training Grounds","The Chain Veil","Deepglow Skate"}.issubset(set(names)):
   raise ValueError("Bolas superfriends commander-centric package missing")
