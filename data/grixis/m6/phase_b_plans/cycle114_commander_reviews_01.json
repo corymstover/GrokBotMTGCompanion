@@ -1,0 +1,74 @@
+{
+  "cycle": 114,
+  "status": "preregistered_before_author_reviews",
+  "milestone": "M6",
+  "scope": "Three source-specific commander-first qualitative candidate judgments: Inalla / The Rani / Nicol Bolas the Ravager",
+  "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+  "source_engineering_ref": "chatgpt-cycle76-m6-refinement",
+  "candidates": [
+    {
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "slug": "inalla-archmage-ritualist",
+      "add": "Pitiless Plunderer",
+      "cut": "Blood Pet",
+      "source_swap_id": "swap:inalla-archmage-ritualist:m5:217e55a1ecd0",
+      "approved_raw_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+      "required_review": [
+        "Inalla Eminence only Wizard tokens, Plunderer is a Pirate not Wizard",
+        "Blood Pet one-black-mana sacrifice gives immediate black mana without tapping, can fuel rituals and graveyard",
+        "Pitiless triggers when another controlled creature dies, gives Treasure but must be cast for 3B and a creature death happen",
+        "Do not trust M5 test_pass as proof of Spellseeker/Scholar loop advantage"
+      ]
+    },
+    {
+      "deck_id": "The_Rani",
+      "slug": "the-rani",
+      "add": "Drafna, Founder of Lat-Nam",
+      "cut": "Curse of Opulence",
+      "source_swap_id": "swap:the-rani:m5:225ed1a7c9c4",
+      "approved_raw_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+      "required_review": [
+        "Drafna bounces OWN targeted artifact or copies a targeted ARTIFACT SPELL ON STACK, not existing Clues",
+        "The Rani generates goaded Mark Auras and Clues from combat damage by goaded creatures to opponents",
+        "Curse of Opulence creates Gold on attacks against cursed player, including forced combat pressure",
+        "Token copy of permanent spell is not automatically token created for investigate triggers"
+      ]
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "add": "Aetheric Amplifier",
+      "cut": "Mox Diamond",
+      "source_swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "approved_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "required_review": [
+        "Aetheric Amplifier mana rock {3} adds mana of any color, can spend {4} and tap at sorcery speed to DOUBLE counters on target permanent",
+        "The Arisen transforms at seven-mana activation normally reduced by Training Grounds (requires rules verification)",
+        "Mox Diamond {0} with replacement land discard accelerates turn-one/two Bolas and mana-intensive transform",
+        "Doubling Arisen loyalty is excellent synergy but loss of early 0-mana acceleration not automatically compensated"
+      ]
+    }
+  ],
+  "frozen_oracle_2026_10_16_source": "Scryfall archived oracle-cards-20261016090200.jsonl.gz sha256 ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+  "validation": [
+    "Source 3 complete approved 99+1 deck models from engineering export with hashes matching canonical approval registry and GitHub live state",
+    "Exact baseline add ABSENT and cut PRESENT",
+    "Exact M5 swap IDs match prior Cycle111 approved-list-source triage and M6 commander blueprint primary plan",
+    "Read Oracle of 3 commanders, six swap cards, supporting Training Grounds, Academy Manufactor, Spellseeker, Scholar of the Ages",
+    "Careful multiface Oracle handling for Bolas; official rules legality not independently current checked for whole 100",
+    "Adversarial tests reject wrong hash, altered swap and missing Oracle effect texts",
+    "Explicitly label author judgment NOT independent Pass C, card quality or real game performance",
+    "No auto swaps, no M6 promotion, no full deck Phase B nor zero-improvement certificate"
+  ],
+  "outputs": [
+    "data/grixis/m6/author_reviews/cycle114_three_commander_reviews_01.json",
+    "data/grixis/m6/phase_b_bounded/cycle114_sourced_review_validation_01.json",
+    "data/grixis/m6/critic_batches/cycle114_three_commander_review_preliminary.md"
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_decide": false,
+    "can_certify_M6": false
+  }
+}
