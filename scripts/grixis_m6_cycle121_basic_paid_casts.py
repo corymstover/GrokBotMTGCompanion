@@ -24,7 +24,7 @@ COST={
  "Opposition Agent":(2,{"B":1}),
  "Aphetto Alchemist":(1,{"U":1}),
  "Aetheric Amplifier":(3,{}),
- "The Enigma Jewel // Locus of Enlightenment":(1,{}),
+ "The Enigma Jewel // Locus of Enlightenment":(0,{"U":1}),
  "An Offer You Can't Refuse":(0,{"U":1})}
 EXPECTED={
  "Gwendlyn_Di_Corci":("Opposition Agent","Aphetto Alchemist"),
