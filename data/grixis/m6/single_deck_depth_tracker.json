@@ -18,7 +18,7 @@
   },
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
-    "active_tracker_deck_id": null,
+    "active_tracker_deck_id": "Abaddon_the_Despoiler",
     "next_tracker_deck_id": "Abaddon_the_Despoiler",
     "deep_review_complete_count": 0,
     "total": 62,
@@ -40,7 +40,7 @@
       "baseline_engineering_logical_sha": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
+      "status": "IN_PROGRESS",
       "deep_review_evidence_path": null,
       "completed_at_commit": null,
       "ci_run_url": null,
