@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Mai_and_Zuko",
-    "deep_review_complete_count": 31,
+    "next_tracker_deck_id": "Mairsil__the_Pretender",
+    "deep_review_complete_count": 32,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -600,10 +600,10 @@
       "baseline_engineering_logical_sha": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Mai_and_Zuko.md",
+      "completed_at_commit": "2e229095ac01ad7db74f56dcf7058c8125d47565",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39336634034",
       "blocker": null
     },
     {
