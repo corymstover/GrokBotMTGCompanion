@@ -1,0 +1,70 @@
+name: ChatGPT Cycle126 source-paid Bolas mana and loyalty-pressure witnesses
+on:
+  push:
+    branches: [chatgpt-cycle126-bolas-source-mana-loyalty-pressure]
+    paths:
+      - .github/workflows/chatgpt-cycle126-bolas-mana-loyalty.yml
+      - data/grixis/m6/phase_b_plans/cycle126_bolas_source_paid_pressure_preregistered_01.json
+      - scripts/grixis_m6_cycle126_bolas_source_paid_pressure.py
+      - tests/test_m6_cycle126_bolas_source_paid_pressure.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-paid-bolas:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    env:
+      PYTHONHASHSEED: '0'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify archived October 16 Scryfall Oracle archive hash
+        run: |
+          mkdir -p .cache
+          curl -fsSL https://data.scryfall.io/oracle-cards/oracle-cards-20261016090200.jsonl.gz -o .cache/oracle-cards-20261016090200.jsonl.gz
+          echo 'ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483  .cache/oracle-cards-20261016090200.jsonl.gz' | sha256sum -c -
+      - name: Sixteen positive/adversarial source-and-loyalty regression tests
+        run: python -m unittest discover -s tests -p 'test_m6_cycle126_bolas_source_paid_pressure.py' -v
+      - name: Sample 1024 identical Bolas physical shuffles across three resource policies and replay receipt
+        run: |
+          python -u scripts/grixis_m6_cycle126_bolas_source_paid_pressure.py --build
+          python -u scripts/grixis_m6_cycle126_bolas_source_paid_pressure.py --check
+      - name: Reject fake opponent plays, deck changes, and M6/M7 promotions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_01.json').read_text())
+          r=json.loads(Path('data/grixis/registry.json').read_text())
+          tracker=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert len(r['decks'])==62
+          assert r['program']['milestones']['M6']['status']=='in_progress'
+          assert r['program']['milestones']['M7']['status']=='not_started'
+          assert tracker['display']['m6_completed_gates']==3 and tracker['display']['m7_completed_gates']==0
+          assert d['cycle']==126 and d['paired_physical_shuffles']==1024 and d['arm_policy_views']==3072
+          assert len(d['policies'])==3 and d['physical_approved_main_count']==99 and d['commanders']==1
+          assert d['opponents_actually_simulated']==d['actual_multiplayer_game_wins']==0
+          assert d['actual_planeswalker_combat_damage_observed']==0
+          assert d['conditional_commander_ETB_discard_events_resolved']==0
+          assert not d['independent_Pass_C_certified'] and not d['phase_B_certified']
+          assert not d['candidate_deck_approved'] and not d['m6_accepted'] and not d['m7_started']
+          assert d['canonical_decks_modified']==0
+          for row in d['policies']:
+            assert row['commander_casts']<=row['n']
+            assert row['paid_loyalty_doubles']<=row['transformations']<=row['commander_casts']
+            assert sum(row['first_commander_by_turn'].values())==row['commander_casts']
+            assert sum(row['first_transform_by_turn'].values())==row['transformations']
+            assert sum(row['first_double_by_turn'].values())==row['paid_loyalty_doubles']
+          assert d['policies'][0]['amp_casts']==d['policies'][0]['paid_loyalty_doubles']==0
+          assert d['policies'][1]['mox_entries']==d['policies'][2]['mox_entries']==0
+          PY
+          git diff --exit-code -- . ':!data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_01.json'
+      - name: Upload source-conserved commander and loyalty threshold evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: cycle126-bolas-source-paid-mox-amplifier-pressure-receipt
+          path: data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_01.json
+          if-no-files-found: error
