@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "cycle": 118,
+  "stage": "M6_supported_paired_goldfish_boundaries",
+  "status": "preregistered_before_execution",
+  "baseline_branch": "chatgpt-cycle76-m6-refinement",
+  "baseline_sha": "dd67337ff12abd53f129a987ef3ffc56baf2683a",
+  "source_protocol": "data/grixis/m6/independent_review_intake/cycle117_counterfactual_protocols_01.json",
+  "original_local_artifact": "Cycle118 local six scripted rules fixtures (separate, not M3 execution)",
+  "benchmarks": [
+    {
+      "deck_id": "Gwendlyn_Di_Corci",
+      "slug": "gwendlyn-di-corci",
+      "commander": [
+        "Gwendlyn Di Corci"
+      ],
+      "canonical_logical_hash": "lh1:c2a52fd405d5eba4d4216c5852e7bf09604502a13ec215c7bf3c9ca55016911c",
+      "approved_raw_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "approved_source_txt": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+      "swap_id": "swap:gwendlyn-di-corci:m5:912805af858d",
+      "cut": "Opposition Agent",
+      "add": "Aphetto Alchemist",
+      "scenario_ids": [
+        "gw-legal-untap",
+        "gw-shroud-tutor"
+      ]
+    },
+    {
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "slug": "nicol-bolas-the-ravager",
+      "commander": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "canonical_logical_hash": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
+      "approved_raw_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "approved_source_txt": "refinement/decklists/Nicol_Bolas_the_Ravager_Approved_2026-10-15.txt",
+      "swap_id": "swap:nicol-bolas-the-ravager:m5:14aef623f1e4",
+      "cut": "Mox Diamond",
+      "add": "Aetheric Amplifier",
+      "scenario_ids": [
+        "ravager-fast-deploy",
+        "ravager-loyalty"
+      ]
+    },
+    {
+      "deck_id": "Mai_and_Zuko",
+      "slug": "mai-and-zuko",
+      "commander": [
+        "Mai and Zuko"
+      ],
+      "canonical_logical_hash": "lh1:7e44877d11198e9fee0932cfd68b8cb7170cf9e24cfd8d611783df77b93a45d8",
+      "approved_raw_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "approved_source_txt": "refinement/decklists/Mai_and_Zuko_Approved_2026-10-14.txt",
+      "swap_id": "swap:mai-and-zuko:m5:efea4143158c",
+      "cut": "An Offer You Can't Refuse",
+      "add": "The Enigma Jewel // Locus of Enlightenment",
+      "scenario_ids": [
+        "mai-ability-mana",
+        "mai-interaction-loss"
+      ]
+    }
+  ],
+  "engine": {
+    "runner": "scripts/grixis_paired.py",
+    "core": "scripts/grixis_sim.py",
+    "model_version": "1.1",
+    "fixed_seed": 118026,
+    "samples_per_pair": 96,
+    "turns": 8,
+    "same_seed_aligned_slot": true,
+    "predeclared_measures": [
+      "mana_spent_t1_t6",
+      "commander_cast_by_t4",
+      "mana_available_t4",
+      "win_turn_proxy_by_t8",
+      "mulligans_neg"
+    ],
+    "method": "Source library pair same seed/shuffle using existing goldfish model; CI95 paired differences; report existing engine's directional verdict only as diagnostic not deck acceptance."
+  },
+  "checks": [
+    "frozen Scryfall Oracle archive hash ea7abac9906633415553b585b32c4071c79d42ba23d7e3163a0c4e9c265a7483",
+    "actual baseline and single-slot challenger have 99 main plus exact command zone and singleton rules",
+    "candidate add absent, exact cut present, main list hash matches registry logical source",
+    "three decks and source sha refs match preregistration, no deck changes",
+    "negative tests stop source drift, wrong slot, invalid authority, fake outcome claims",
+    "outputs deterministic under repetition, GitHub Actions exact branch sha passes"
+  ],
+  "limitations": [
+    "M3 goldfish v1.1 has no opponent reactions, targetable opposing permanents, activated untap/discard/loyalty/craft/restricted colorless mana effect logic; its opponent-interaction cards can have zero modeled effect.",
+    "No claim of resolved Cycle117 effect-aware favorable/adverse scenarios; those six remain not executed in a real game engine.",
+    "M3 simulated mana and cast opportunities not full verified rules game states; no pair-specific win-rate or superiority conclusion.",
+    "No independent Pass C, I, J, Phase B certification, tested pool zero improvement or owner-approved card swaps."
+  ],
+  "authority": {
+    "can_change_decklists": false,
+    "can_approve_or_lock": false,
+    "can_certify_M6": false,
+    "can_certify_independent_pass_c": false,
+    "can_claim_effect_aware_multiplayer_results": false
+  }
+}
