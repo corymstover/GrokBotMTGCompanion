@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Mairsil__the_Pretender",
-    "deep_review_complete_count": 32,
+    "next_tracker_deck_id": "Marchesa__Dealer_of_Death",
+    "deep_review_complete_count": 33,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -618,10 +618,10 @@
       "baseline_engineering_logical_sha": "lh1:044e0d1ae699b3189f94b1e902d1af4bdbc91e04bb942d104806647a3795aefc",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Mairsil__the_Pretender.md",
+      "completed_at_commit": "835fa0b0159170aa9bd0fd00bf199a9ba5669fda",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39339543414",
       "blocker": null
     },
     {
