@@ -1,0 +1,42 @@
+name: M6-M7 secondary progress integrity
+on:
+  push:
+    branches:
+      - chatgpt-m6-m7-progress-subtracker
+      - chatgpt-cycle76-m6-refinement
+    paths:
+      - .github/workflows/m6-m7-progress-integrity.yml
+      - data/grixis/milestone_m6_m7_subtracker.json
+      - grixis/M6-M7 Secondary Completion Tracker.md
+      - tests/test_m6_m7_subtracker.py
+      - data/grixis/registry.json
+      - data/grixis/m6/preflight.json
+      - data/grixis/m6/sealed/reconciliation_manifest.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tracker-authority-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Assert source counts and prevent false milestones
+        run: python -m unittest discover -s tests -p 'test_m6_m7_subtracker.py' -v
+      - name: Print labeled gate counts without self-acceptance
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path("data/grixis/milestone_m6_m7_subtracker.json").read_text())
+          for k in ("m6","m7"):
+              gate=p[k]["gates"]
+              done=sum(g["status"]=="COMPLETE" for g in gate)
+              print(f"{k.upper()} preparatory sub-gates completed {done}/{len(gate)}")
+              print(f"{k.upper()} formal status: {p[k]['status']}")
+          assert p['m6']['formal_m6_certified_decks']==0
+          assert p['m7']['formal_m7_review_decisions']==0
+          PY
