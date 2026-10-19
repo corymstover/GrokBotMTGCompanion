@@ -10,6 +10,7 @@ on:
       - chatgpt-cycle128-progress-receipt
       - chatgpt-cycle129-progress-receipt
       - chatgpt-cycle130-progress-receipt
+      - chatgpt-cycle131-authored-complete-tracker
       - chatgpt-cycle123-progress-receipt
     paths:
       - .github/workflows/m6-m7-progress-integrity.yml

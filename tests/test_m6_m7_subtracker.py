@@ -30,8 +30,8 @@ def validate(t,r,p,s):
  assert s["counts"]["decks"]==62
  assert s["counts"]["deep_review"]==8848
  assert s["pass_c"]["complete"] is False
- assert t["m6"]["gates"][3]["completed"]==33
- assert t["m6"]["gates"][3]["status"]=="PARTIAL"
+ assert t["m6"]["gates"][3]["completed"]==62
+ assert t["m6"]["gates"][3]["status"]=="COMPLETE"
  case=json.loads((ROOT/"data/grixis/m6/author_reviews/cycle128_six_commander_authored_judgments_01.json").read_text())
  assert case["review_count"]==6 and len(case["rows"])==6 and case["historical_authored_count_before"]==15
  assert case["authored_count_after_if_verified"]==21
@@ -39,6 +39,15 @@ def validate(t,r,p,s):
  assert r129["review_count"]==len(r129["rows"])==6 and r129["authored_if_verified"]==27
  r130=json.loads((ROOT/"data/grixis/m6/author_reviews/cycle130_six_detailed_01.json").read_text())
  assert r130["review_count"]==len(r130["rows"])==6 and r130["authored_if_verified"]==33
+ c131=[json.loads((ROOT/f"data/grixis/m6/author_reviews/cycle131_batch_{a}_01.json").read_text()) for a in "abcde"]
+ new131=[x for b in c131 for x in b["rows"]]
+ assert sum(b["count"] for b in c131)==29 and len(new131)==29
+ assert len({x["deck_id"] for x in new131})==29
+ assert all(batch["cycle"]==131 for batch in c131)
+ assert all(x["approved_swaps"]==0 and not x["formal_pass_c"] and not x["full_phase_b"] for x in new131)
+ assert t["display"]["m6_completed_gates"]==4 and t["display"]["m6_partial_gates"]==1
+ assert t["m6"]["formal_m6_certified_decks"]==0
+
  assert len({x["deck_id"] for x in r130["rows"]})==6
  assert all(x["approved_swaps"]==0 and not x["independent_pass_c"] and not x["complete_phase_b"] for x in r130["rows"])
  assert len({x["deck_id"] for x in r129["rows"]})==6

@@ -1,6 +1,6 @@
 # M6 / M7 Secondary Completion Sub-Tracker
 
-**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 130**.
+**Companion to the overall M0–M8 project tracker** — authoritative snapshot **after Cycle 131**.
 
 > This is a status report, not an approval, a new optimization result, or authorization to change a deck. The live source of milestone acceptance is `data/grixis/registry.json`. The current canonical 62/62 approved/locked lists are in the separate encyclopedia repository.
 
@@ -8,10 +8,10 @@
 
 | Milestone | Completed sub-gates | Partially executed gates | Complete deck certifications / review decisions | Official status |
 | --- | ---: | ---: | ---: | --- |
-| **M6 — refinement and independent certification** | **3/10 (30%)** | 2 | **0/62 certified** | **In progress** |
+| **M6 — refinement and independent certification** | **4/10 (40%)** | 1 | **0/62 certified** | **In progress** |
 | **M7 — Cory review and second refinement** | **0/6 (0%)** | 0 | **0/62 new M7 decisions** | **Not started** |
 
-**30% means exactly three out of ten named *sub-gate checkboxes*, not 30% of elapsed work, tested candidate quality, or deck completion.** A gate is counted complete only when its *narrowly stated* result exists; source data and partial tests do not count as independent critique, actual games, or final certificates.
+**40% means exactly four out of ten named *sub-gate checkboxes*, not 40% of elapsed work, tested candidate quality, or deck completion.** A gate is counted complete only when its *narrowly stated* result exists; source data and partial tests do not count as independent critique, actual games, or final certificates.
 
 ### M6 sub-gates
 
@@ -20,7 +20,7 @@
 | **M6.1** Accepted M5 inputs/provenance | ✅ Complete, 62/62 | M5 authority and input SHA receipts available |
 | **M6.2** Objective-specific A/B technical projections | ✅ Complete, 62/62 | Sealed objective-specific projections; their technical separation does **not** establish independent operators or full blind review |
 | **M6.3** Reconciliation/deep-review queue creation | ✅ Complete, 62/62 | Reconciliation inventory exists; the **8,848** deep-review items **are not adjudicated** |
-| **M6.4** Commander-first case-specific judgment preparation | ◐ Partial, 33/62 | Cycles 112–116, 128–130 authored source-specific analyses; 30 exact-swap HOLDs and 3 unresolved hypotheses across 33 decks (29 remain); no formal independent critic |
+| **M6.4** Commander-first case-specific judgment preparation | ✅ Complete, 62/62 | Cycle131 added the 29 missing source-anchored authored exact-candidate reviews, verified against approved 100s, blueprints and frozen Oracle. This is **not** formal independent Pass C or a conclusion about all 8,848 candidates |
 | **M6.5** Named independent Pass C & conflict resolution | ☐ Blocked, 0/62 | Three GrokBot non-author analytical reviews received; prior blueprint exposure disclosed and strict blinding not claimed. Qualification, full 62-deck independent Pass C and reconciliation remain incomplete |
 | **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–126 supply bounded source, mana and hypothetical opponent fixtures for 3 decks. Cycle125 fixed the original invalid Jewel-to-Rings payment; Cycle126 tested Bolas Mox vs Amplifier across 1,024 paired physical shuffles (300/296/267 payable commander casts, just 3 transforms per policy and 1 Amp doubling). Complete Phase B remains 0/62 |
 | **M6.7** Decision-grade `judgment_review` obligations | ☐ Blocked, 0/62 | Resolve strategic conflicts and human-judgment requirements |
@@ -56,6 +56,6 @@ The ongoing ChatGPT project progress section will always include:
 
 **Certification details:** `grixis/Grixis M6 I-J Contract.md`; `data/grixis/m6/sealed/reconciliation_manifest.json`; `data/grixis/m6/preflight.json`.
 
-**Latest completed engineering cycle:** 130; merge commit `d03a61dc1c306aa11ea9d296ce4aadd0af5c73fd`; [Cycle130 PR #245](https://github.com/corymstover/GrokBotMTGCompanion/pull/245), [Cycle130 CI](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39213500866) validated six more source-specific authored HOLD reviews, following six in [Cycle129 PR #243](https://github.com/corymstover/GrokBotMTGCompanion/pull/243). Total authored source-specific M6 coverage **33/62** with **29 yet unreviewed**. M6 3/10 completed sub-gates (2 partial), formal independent Pass C 0/62, complete effect-aware Phase B 0/62, M6-certified 0/62, M7 0/6, M8 0/62. Three earlier GrokBot advisory reviews are not formal Pass C.
+**Latest completed engineering cycle:** 131; merge commit `88f062be961c39108e58213c1763e31fb46c396b`; [Cycle131 PR #247](https://github.com/corymstover/GrokBotMTGCompanion/pull/247), [exact-head CI #39216759804](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39216759804). **62/62 source-specific authored commander reviews complete** (last 29 in five detailed bundles), with a [Pass C handoff](M6%20Authored%2062%20Pass%20C%20Handoff.md). **4/10 M6 subordinate gates complete, 1 partial**, formal independent Pass C 0/62, full effect-aware Phase B 0/62, M6 certified 0/62, M7 0/6, M8 0/62. The 62 existing canonical approvals remain read-only. Three previous GrokBot advisory reviews do not qualify automatically as independent Pass C.
 
 **Protected canonical evidence:** 62/62 locks verified at encyclopedia HEAD `b77ba89b72eacfa4d58d1db937e3a91a2000dd16`; overrides file Git blob SHA `81801b2f9d3387b171c01f1fcae255b385a5b698`.
