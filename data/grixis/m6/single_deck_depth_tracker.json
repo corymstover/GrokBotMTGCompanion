@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "RogSi",
-    "deep_review_complete_count": 46,
+    "next_tracker_deck_id": "Saruman__the_White_Hand",
+    "deep_review_complete_count": 47,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -871,10 +871,10 @@
       "baseline_engineering_logical_sha": "lh1:2f1326f4b41ecefd086deec69eb25dd097886b4903115d5f060ea4db5df35fa1",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/RogSi.md",
+      "completed_at_commit": "1c03da00e0ef343f5e798c0a934007fd0877b58b",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39431105257",
       "blocker": null
     },
     {
