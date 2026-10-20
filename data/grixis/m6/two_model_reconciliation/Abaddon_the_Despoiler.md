@@ -6,7 +6,7 @@
 **Canonical authority:** `corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json#Abaddon_the_Despoiler`, blob `81801b2f9d3387b171c01f1fcae255b385a5b698`.
 **Exact canonical deck:** `refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt`, Git blob `1bbead6e8a7973bd7eb1982147e917d39e217492`.
 **Engineering logical source hash (separate):** `lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793`.
-**Authored source:** `data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md`, blob `35a80c14be34b323c546ad8f106c5d393059097c` is the **parent directory tree**, not file blob. The file was individually read from the 2026-10-20 integration branch; its authored review merged in commit `e40d2660ed71a609cbe4f8ecb41754730e029f2b`.
+**Authored source:** `data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md`, Git blob `bcda3955df188919610f2a5218d813d4e216870c`, individually read from the 2026-10-20 integration branch; its authored review merged in commit `e40d2660ed71a609cbe4f8ecb41754730e029f2b`.
 **GrokBot source:** `data/grixis/m6/grokbot_pass_c_advisory/Abaddon_the_Despoiler.md`, file blob `923a800d17951cd80c4c0cebde5f7a5e9d1d13f7`; initial review seal commit `465e3371d1195549a865693dfce6a4607b7b970c`; verdict POSSIBLE UPGRADE.
 **Provenance:** ChatGPT is the original deep-review author and now adjudicates its own record against GrokBot's advisory critique. GrokBot previously authored the blueprint/M1/M2–M5 and disclosed accidental exposure to an earlier M5 line and subsequent exposure to ChatGPT's review. Its model/version is unrecorded. **Neither GrokBot's first pass nor this reconciliation qualifies as independent Pass C.**
 
