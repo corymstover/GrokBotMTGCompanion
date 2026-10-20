@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Wick__the_Whorled_Mind",
-    "deep_review_complete_count": 60,
+    "next_tracker_deck_id": "Zevlor__Elturel_Exile",
+    "deep_review_complete_count": 61,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -1123,10 +1123,10 @@
       "baseline_engineering_logical_sha": "lh1:8209700d366bf1d170808cde40d673074040d4ca96e115f928f0a6ceb423c5b1",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Wick__the_Whorled_Mind.md",
+      "completed_at_commit": "90e310cce715e27ea2f9c3e8421f277003c1eef4",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39485938386",
       "blocker": null
     },
     {
