@@ -1,1 +1,14 @@
-{"review_class":"ADVISORY","formal_independent_pass_c":false,"queue_source":"data/grixis/m6/single_deck_depth_tracker.json","decks":[{"tracker_index":0,"tracker_deck_id":"Abaddon_the_Despoiler","status":"STAGE_A_SEALED"}]}
+{
+ "review_class": "ADVISORY",
+ "formal_independent_pass_c": false,
+ "queue_source": "data/grixis/m6/single_deck_depth_tracker.json",
+ "decks": [
+  {
+   "tracker_index": 0,
+   "tracker_deck_id": "Abaddon_the_Despoiler",
+   "status": "ADVISORY_STAGE_B_COMPLETE",
+   "seal_commit": "465e3371d1195549a865693dfce6a4607b7b970c"
+  }
+ ],
+ "next_tracker_index": 1
+}
