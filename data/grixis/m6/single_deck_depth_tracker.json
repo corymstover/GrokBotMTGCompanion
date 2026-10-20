@@ -710,8 +710,8 @@
       "source_identity_issue": null,
       "status": "DEEP_REVIEW_COMPLETE",
       "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Missy.md",
-      "completed_at_commit": "f06895a59b2721a3e46f41b6d571554f5f69531d",
-      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39351756433",
+      "completed_at_commit": "feadab8f7f566fd327e6a270ed6c66c12dfc7a10",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39352325835",
       "blocker": null
     },
     {
