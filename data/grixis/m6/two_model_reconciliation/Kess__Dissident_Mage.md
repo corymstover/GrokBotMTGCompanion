@@ -38,3 +38,6 @@ A proposal does not reopen/replace the exact approved 100; a future owner-approv
 **No formal independence or milestone progress**: GrokBot has disclosed prior exposure and ChatGPT is the prior author. Formal independent Pass C stays 0/62, Phase B partial, M6 certification 0. Source decks/lock unchanged.
 
 **External exact card/rules receipts (2026-10-20):** [Jeska's Will](https://mtg.wtf/card/cmr/668/Jeskas-Will), [Ledger Shredder](https://mtg.wtf/card/spg/55/Ledger-Shredder), [Kess](https://mtg.wtf/card/c17/39/Kess-Dissident-Mage), [Wizards Comprehensive Rules](https://magic.wizards.com/en/rules). Annotated 100-card deep author/source gate receipts in referenced prior files. This report is a rules arithmetic trace + strategic judgment, not a measured simulator experiment.
+
+## Exact-head evidence CI provenance
+The M6 evidence-only integrity workflow was established by engineering PR #354, merge `76c8236b8e35657824df65d258e0a5f7a5c51aa6`. It verifies branch-changed path scope, SHA/source and independence disclosures, approved 62/source-ledger integrity and unmodified formal certification fields. **This reconciliation/review protocol is NOT formally independent Pass C, and a CI PASS is NOT an MTG strategy or current Oracle-complete certification.** Canonical deck approvals remain untouched.
