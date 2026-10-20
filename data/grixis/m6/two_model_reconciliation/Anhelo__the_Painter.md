@@ -56,3 +56,6 @@ Anhelo is {U}{B}{R}, 1/3 with deathtouch; **first instant or sorcery spell you c
 | Effect-aware Phase B and M6 certification | Still incomplete / 0 certified |
 
 No canonical TXT/hash/approval record/exception edited. No GrokBot advisory or authored review overwritten. No new independent qualification, Pass C tracker change or milestone acceptance.
+
+## Exact-head evidence CI provenance
+The M6 evidence-only integrity workflow was established by engineering PR #354, merge `76c8236b8e35657824df65d258e0a5f7a5c51aa6`. It verifies branch-changed path scope, SHA/source and independence disclosures, approved 62/source-ledger integrity and unmodified formal certification fields. **This reconciliation/review protocol is NOT formally independent Pass C, and a CI PASS is NOT an MTG strategy or current Oracle-complete certification.** Canonical deck approvals remain untouched.
