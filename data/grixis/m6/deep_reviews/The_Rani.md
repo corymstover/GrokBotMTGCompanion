@@ -2,7 +2,7 @@
 
 **Review class:** original ChatGPT authored comprehensive review, NOT independent GrokBot Pass C. **Recommendation: KEEP canonical 100 unchanged.** **Tracker index:** 56 (57 of 62), 2026-10-20. This file is engineering evidence only; it does not approve/unlock/rewrite any canonical card or declare any M6/M7 milestone.
 
-## Authority, source versions, exact baseline and physical cards
+## Source and test receipts
 
 - Canonical: `corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json#decks.The_Rani`; approved and locked 2026-10-15, official final verification PASS, no project exceptions. Approved file: `refinement/decklists/The_Rani_Approved_2026-10-15.txt` (blob `f65ef47b52e1f110952bd32eb4b3d98356fbf318`). **Source SHA-256 `7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c`**, exactly matching approval record and engineering approved/raw source.
 - Independent byte check: supplied `Grixis_Commander_Encyclopedia_62_Archidekt_READY(1).zip`, `archidekt_2026-10-15/decks/57_The_Rani.txt`; restoring source-standard commander first-line `[Commander]` converts independent import export to **the exact same SHA-256**. This identifies the difference between simplified Archidekt import and canonical artifact, not a changed card.
@@ -10,7 +10,7 @@
 - Engineering logical SHA `lh1:f740437f9975b3bb7ff64ace82a85b4310ff7b36ab35a0fb9a60a83776edb9e4` and registry source raw SHA match canonical. Commander blueprint `data/grixis/blueprints/the-rani.json`; interaction `grixis/interactions/the-rani.md` (Oracle Oct16, Rules Sept25); mana `data/grixis/mana_base/the-rani.json`; whole-list audit `data/grixis/audit/the-rani.json` is machine triage and NOT author acceptance. Historical original Cycle114 `data/grixis/m6/author_reviews/cycle114_three_commander_reviews_01.json`. This authored review explicitly supersedes shallow M6 review coverage in *depth only*.
 - Candidate evidence: `data/grixis/m6/review_packets/the-rani.json` contains **80 complete distinct add/cut pairs** spanning **42 candidate names**, `data/grixis/m6/optimizer/the-rani.json`, M5 `data/grixis/birthday_m5/regen/the-rani.json.gz`, EDHREC derivative `data/grixis/birthday_m5/evidence/the-rani.json` dated Oct17 (2,368 commander-deck sample), source Oct15 closeout and Oct16 community audit. Use inclusion/rank as discovery, NEVER proof of net upgrade.
 
-## Commander identity, ceiling and protective boundary
+## Commander identity and natural ceiling
 
 The Rani `{1}{U}{B}{R}` 3/4 Time Lord Scientist generates a **Mark of the Rani** red Aura token with +2/+2/goad on **another target creature** whenever entering or attacking. A goaded creature of any controller dealing combat damage to one of YOUR opponents triggers investigation; control of the goad source and of the attacking creature are irrelevant. If Mark's targeted creature disappears/turns illegal before resolution, no Mark is created. Mark persists after Rani leaves; Aura-created goad continues while attached. Goated creatures still follow normal 'if able' combat, may not be legally redirected if there is only one opponent, blockers/pillowfort/attack taxes exist, and powering an opposing creature +2/+2 may make combat more dangerous. At least one other legal creature is required for Mark triggers.
 
@@ -24,7 +24,7 @@ The Rani `{1}{U}{B}{R}` 3/4 Time Lord Scientist generates a **Mark of the Rani**
 - **Force of Will correction:** engine deck page has 28 **blue-identity nonland names other than commander including Force itself**, subtract Force itself and four *colorless* cards with blue color identity from activated mana symbols (Dimir Signet, Izzet Signet, Talisman of Creativity, Talisman of Dominance): **23 actual alternative blue pitch cards**. Source verification and approved rules attestation incorrectly say 28. The commander begins in command zone and isn't in hand. This is a **documentation discrepancy**, not a violation of deck integrity or a reason to replace Force. Current Oracle explicitly says 'exile a blue card from your hand'.
 - Early board reference: T1 red Curse of Opulence or one-blue Mystic Remora; T2 colored Talisman/Signet/Fellwar and build source diversity; T3 cast 1UBR Rani with an accelerator if another creature exists, or present an opposing goad enabler and hold cheap interaction; T4 Blink/Rani attack if haste or unlock an Aura, with threat of instant reset. Aggressive turbo pods may invalidate the four-mana-onboard plan; do not pretend simulations modeled opponents.
 
-## Every incumbent source slot: physical 100-card audit (99 library copies fully represented)
+## Full 100-card role audit
 
 The rows below are exactly the 94 unique TXT rows in **source order**, with quantities explicitly accounted for. Each notes what would be lost if cut; audited 1+99 copies, including the three basic-land triples. This is explanatory evidence, not an edited decklist.
 
@@ -125,7 +125,7 @@ The rows below are exactly the 94 unique TXT rows in **source order**, with quan
 | 93 (1) | Watery Grave | UB typed shock dual, valuable fetch target; two-life untapped cost. |
 | 94 (1) | Xander's Lounge | Fetchable typed UBR triome and cycling late; always enters tapped. |
 
-## Eighty M5 screening comparisons: authored add/cut counterfactuals
+## Candidate pool and competing cuts
 
 These are the **entire 80-pair queue** in source order, not a top-one-swap cherry-pick. Exactly **42 unique adds**; repeated candidate cards face distinct proposed cuts. Screening flags were 7 independent optimizer+performance agreement, 4 test-only and 69 fit-only. Historic test verdicts across the 80: **11 pass, 4 fail, 34 inconclusive, 31 no detectable difference**. All are 300-sample or existing bounded proxy experiments that do **not** model multiplayer politics, Rani's marks, opponent combats, Clue sac timing, or candidate-dependent color access sufficiently to declare deck improvement. Source 'completes Spellbook ID' is a hypothesis until paid loop/board is verified.
 
@@ -256,7 +256,7 @@ Piper's Clue-facing role is attractive, but does not substitute for an Aura that
 
 The M5 candidate 42/80 pool is strongly biased toward generic combo completion and substitution of Shiny Impetus/Fellwar Stone/Bjorna/Rakdos Charm. It under-samples swaps against already-generic draw or high-cost niche finishers; this was checked via off-ranking options and the 99-card audit above. No candidate may be accepted just because EDHREC samples include it. Future revisiting should first test Tamiyo's Journal versus highest-cost truly redundant nongoad draw slot with exact four-mana Rani sequencing. That is an experiment proposal, NOT proof of a new improvement.
 
-## Rules, paid interactions and real opponent replies
+## Oracle, legality and rules
 
 1. **Mark targeting/zone:** Rani casts for 1UBR, enters with ETB trigger targeting another creature; target illegal when trigger resolves => no token. Created Aura attaches without being cast, cannot be counterspelled as an Aura spell. Goad lasts for Aura duration; multiple Marks survive Rani death/blink if enchanting other creatures. Goad only compels attacks where able, not into illegal target or without paying tax.
 2. **Goad scope:** The Rani triggers for ANY goaded creature hitting a player who is one of Rani's controller's opponents; even if attacker is controlled/goaded by another player. Opponent-controlled attacker hitting its controller's own opponent counts when victim is also one of your opponents. Each goaded attacking creature that hits triggers separately; blocked goaded creature does not automatically investigate.
@@ -271,7 +271,7 @@ The M5 candidate 42/80 pool is strongly biased toward generic combo completion a
 11. **Colored acceleration / Force:** `Force of Will` alternative cost is 1 life **and a blue hand card**, not simply another U color-identity card. Four blue-identity colorless Signets/Talismans cannot be exiled, nor can Force itself as that spell. Full five mana is the other option, and opponent may force trade into sorcery decks. Drafna and mass six-mana artifacts cannot be counted as early pitch support.
 12. **Urza/Statuary token payment:** Urza taps your untapped artifact for U without sacrificing; Inspiring Statuary improvises nonartifact generic spell costs with tapped artifacts and cannot pay colored pips via improvise. Neither produces free extra Clue cards or unlimited artifact activations.
 
-## Adversarial pods and turn-sequence counterfactuals (NOT numerical win-rate claims)
+## Finite sequencing and adversarial scenarios
 
 | Board / opposing plan | Baseline Rani 100 | Material add/cut challenge and why no proven net gain |
 |---|---|---|
@@ -284,7 +284,7 @@ The M5 candidate 42/80 pool is strongly biased toward generic combo completion a
 | Stalled late creature table with Manufactor+Erdwal+Sieve | First successful investigate makes six artifact tokens and can fund a Sieve extra turn; Urza/Statuary monetize unused tokens | Thopter adds a second independent Sieve combo with six per turn; strong real upside but meaningful cost of a native goad slot and vulnerable to graveyard-independent exile; choice is identity/power trade, not automatic replacement. |
 | Multiple competing aggressors vs one remaining opponent | Existing goad pressure falls off as choices shrink, Rani engine is explicitly multiplayer-scaled; use direct artifact resources/hard answers | Swapping goad pieces for high-cost generic combo improves 1v1 finisher but distorts multi-opponent identity; no representative repeatable-table evidence. |
 
-## Conclusive judgment, preserved uncertainty and stopping condition
+## Conclusions and unresolved evidence
 
 **Final authored result: KEEP** the exact locked 100-card canonical list `7220937e...d729c`. All 80 ranked add/cut pairs have individual, source-anchored risk comparisons above, with focused adversarial examination of top 11 material challengers and 11 off-ranking alternatives. Strongest real challenges: **Tamiyo's Journal** for commander-native investigated Clue tutor, **Thopter Assembly** as a true payable 6-mana-each-turn Time Sieve lock, and **Piper Wright** for thematic creature damage. None has presently shown sufficient immediate Rani-specific gain *at a safe actual cut* to overturn approval. Cuts have verified identity costs and mana access risks; no safe obvious weakest card universally dominates across tables.
 
