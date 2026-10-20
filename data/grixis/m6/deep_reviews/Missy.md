@@ -138,7 +138,9 @@ The quantity-aware ledger below evaluates **97 different printed names accountin
 
 **Real opportunity-cost vulnerabilities:** Cybermen Squadron is **7 mana**, and its myriad copies are **exiled at end of combat**, so it does **not increase artifact creature count when Missy's end-step choice resolves**. The source blueprint's loose “Squadron scales the villainous-choice damage” is only true via persistent nonlegendary artifact creatures or other longer-term effects, **not via transient myriad tokens**. Squadron still magnifies combat, attacks multiple opponents and triggers `Reckless Fireweaver` on each artifact token entry. `Cybership` costs six, needs crew 4 and combat damage to a player to produce stolen Cybermen (much slower than Missy death loops). `The Cyber-Controller`, `Death in Heaven`, `They Came from the Pipes` and `Ugin's Mastery` provide iconic theft/Cyberman/face-down identity but compete with six-mana Missy for the curve. `They Came from the Pipes` has **mandatory** draw for every face-down creature entering, a self-deck threat in arbitrarily repeated loops; `Grim Haruspex` death draw is also mandatory for *another* nontoken friendly creature, not for itself. These deserve adversarial testing, not generic “all value always good.”
 
-## Ranked candidates, off-ranking challenges and competing cuts
+## Candidate pool and competing cuts
+
+### Ranked candidates, off-ranking challenges and competing cuts
 
 **Exhaustive 276-row packet accounting, by first test recorded:** 276 hypotheses in 14 batches, **246 distinct incoming card names**, 3 `pass`, 16 `fail`, 44 `inconclusive`, 93 `no_detectable_difference`, **120 with no test verdict**. These five disjoint classes sum **276**; the packet's `deep_review=276` is a REQUEST label, not evidence that all were effect-executed. 124 rows explicitly `mechanics_not_modelable`, 39 `mana_delta_required`, 93 combo-review-required. Only 3 performance-priority; 273 commander-fit-priority. EDHREC's 274 ranked card association vectors are a popularity/synergy PRIOR, not win data. Source-archive baseline-to-approved **16 cuts/16 additions** already applied Oct15; they are not new recommendations. Source comparison lists may use stale membership; only exact approved TXT is authoritative.
 
@@ -161,7 +163,9 @@ The quantity-aware ledger below evaluates **97 different printed names accountin
 
 **Strongest proposal is intentionally narrow:** `Cybermen Squadron → Blasting Station` improves the natural loop axis, not forced generic combo identity. Squadron's alleged end-step damage scaling from myriad is inaccurate in a normal combat; in fact, myriad tokens are exiled by end-of-combat, Missy checks artifact creature count at the later END STEP, and no permanent new artifact creatures remain from myriad alone. Source's 2026-10-15 “zero new material improvement” claim did not adjudicate this exact incoming/cut pair; M5 Blasting Station had been tested against **Cyclonic Rift**/**Mayhem Devil** instead. No claim that a 1-swap head-to-head simulator win exists. Preserve Cyberman thematic breadth via Missy, Cyberman Patrol, Cybership, Death in Heaven, Cyber Conversion, The Cyber-Controller, The Master, Valeyard, Ashad and other interactions.
 
-## Oracle, legality, rules and paid combo accounting
+## Oracle, legality and rules
+
+### Paid combo accounting and legality evidence
 
 **Oracle/rules provenance:** `grixis/interactions/missy.md` enumerates nine independently previously checked source interactions from Scryfall Oracle bulk dated **2026-10-16**, rulings dated **2026-10-15**, Magic Comprehensive Rules dated **2026-09-25**; current public [Wizards Doctor Who release notes](https://magic.wizards.com/en/news/feature/magic-the-gathering-doctor-who-release-notes), [Missy](https://mtg.wtf/card/who/1137/Missy), [Cybermen Squadron](https://mtg.dragonshield.com/card/who_1048_CybermenSquadron), [Blasting Station combo](https://edhrec.com/combos/grixis/413-1794-4424), [Pipes](https://mtg.wtf/card/dsc/45/They-Came-from-the-Pipes) and [The Master](https://mtg.wtf/card/who/1134/The-Master-Gallifreys-End) were additionally consulted this review. The Oct12 B&R announcement concerned Competitive Brawl, not tabletop Commander; approved Oct15 100-card official legality and color-identity gate remains authoritative historical audit. Incoming Blasting Station is colorless and publicly Commander-legal per card database context; before actual swap approval/finalization rerun the up-to-date all-100 Oracle, banned-list and singleton/color gate on exact proposed final candidate SHA. No exceptional project banned cards are present or proposed.
 
@@ -188,7 +192,9 @@ The quantity-aware ledger below evaluates **97 different printed names accountin
 
 **Current legality:** `Missy` officially Commander-legal U/B/R; actual approved all-100 passed source Oct15 color/legality/singleton, engineering Oct16 bulk reports no unexpected illegality. New outside candidate `Blasting Station` is colorless and format legal in available public records; if Cory authorizes change, re-run exact card-name Oracle, legality, count, color and candidate SHA verification on the **new 100**. No Lutri, Trade Secrets, Yawgmoth's Bargain or future-release exception in this deck. Project exemptions elsewhere do not become Commander legality claims here.
 
-## Finite sequencing and adversarial comparisons (authored, not simulation results)
+## Finite sequencing and adversarial scenarios
+
+*Authored comparisons; not simulated match results.*
 
 **Protocol:** Every example below assumes a four-player normal Commander table unless explicitly stated otherwise, with legal resources, priority and real opponent responses. These are bounded rules traces, **NOT** empirical playtesting, Monte Carlo win percentages, new paired M5 runs or certified Phase B simulation. The packet's 124 `mechanics_not_modelable` flags and 120 absent verdicts prevent extrapolating its `pass` field into real commander performance.
 
@@ -222,7 +228,9 @@ The quantity-aware ledger below evaluates **97 different printed names accountin
 - **Blasting Station for Cybermen Squadron:** Station can be cast turn2 with Sol Ring or turn3 with 3 lands and provide Ripper/Savants/Ambusher victory once Missy resolves; Squadron requires seven mana and attack to pay back. Unlike source's prior comparison, the cut preserves Cyclonic Rift, Mayhem Devil and all five existing free outlets. This is a **strategic inference** from Oracle and tempo, not measured throughput.
 - **Fierce Guardianship for Cybermen Squadron:** increases free defense after commander sticks, including against many noncreature wipes; does not improve outlet redundancy, and lacks automatic protection while commander on stack. Conditional alternate proposal if observed opponents stop Missy before any loop.
 
-## Conclusions, recommendations, strongest counterarguments and remaining evidence
+## Conclusions and unresolved evidence
+
+### Recommendations, counterarguments and remaining evidence
 
 **Primary authored verdict: `PROPOSE_SWAP_FOR_CORY_APPROVAL` — CUT `Cybermen Squadron` / ADD `Blasting Station`.** This is a NEW suggestion for explicit Cory decision, **NOT a canonical update**. The case is stronger than historical rank46 “inconclusive” because original pair compared Station with Cyclonic Rift or Mayhem Devil, which are much better protected incumbents. Removing a seven-mana combat-only artifact creature whose myriad tokens leave before Missy's end-step damage calculation for a three-mana artifact sacrifice outlet that is a **verified direct lethal engine with all three zero-reveal morphs** strengthens Missy's own loop, lowers curve, gives Inventors' Fair another accessible win outlet, and keeps the other Cybermen/theft/Doctor Who shell intact. The addition is no generic unrelated win condition. Commander remains essential for the artifact-return/flip loop. **Expected natural ceiling stays Bracket 4 — Optimized**, not cEDH.
 
