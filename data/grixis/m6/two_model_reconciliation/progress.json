@@ -1,17 +1,17 @@
 {
   "schema": "m6_two_model_reconciliation/v1",
   "as_of_date": "2026-10-20",
-  "source_engineering_integration_at_checkpoint": "962b5294321bb4874bcbf179ff93b68c560a739f",
+  "source_engineering_integration_at_checkpoint": "6ebe677bb6344d2c3db58b0e7c6a609afc6886c9",
   "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
   "canonical_ref": "main",
   "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
   "total_decks": 62,
-  "evidence_merged": 20,
-  "pending": 42,
+  "evidence_merged": 25,
+  "pending": 37,
   "dispositions": {
-    "KEEP": 11,
-    "PROPOSE_UPGRADE": 5,
-    "NEEDS_TESTING": 4,
+    "KEEP": 14,
+    "PROPOSE_UPGRADE": 6,
+    "NEEDS_TESTING": 5,
     "RULES_LEGALITY_BLOCKER": 0
   },
   "owner_approved_new_swaps": 0,
@@ -26,7 +26,8 @@
     "CI integrity is not an independent gameplay or current Oracle certification.",
     "PR #357 update is atomic: this progress state takes effect upon merge, never before.",
     "PRs #358-#361 passed exact-head M6 evidence integrity CI and were merged with no canonical deck mutation; five owner proposals remain UNAPPLIED.",
-    "PRs #363–#367 merged with exact-head evidence-only CI green; MBC future-release exceptions resolved for project and remain officially not legal until 2026-11-13. No canonical approvals or project exception records were modified."
+    "PRs #363–#367 merged with exact-head evidence-only CI green; MBC future-release exceptions resolved for project and remain officially not legal until 2026-11-13. No canonical approvals or project exception records were modified.",
+    "Combined commander-by-commander source files for Beckett, Ashad, Ashnod, Be'lakor and Cecily/Bjorna are committed to one evidence-only PR; merge is atomic after exact-head CI. No owner-approved swaps or canon modifications."
   ],
   "decks": [
     {
@@ -42,10 +43,10 @@
       "tracker_index": 1,
       "tracker_deck_id": "Admiral_Beckett_Brass",
       "approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "PROPOSE UPGRADE",
       "engineering_pr": null,
-      "notes": null
+      "notes": "City of Brass / Crumbling Necropolis: untapped UBR early Pirate/commander access; user approval only; evidence in shared review PR awaiting head check/merge"
     },
     {
       "tracker_index": 2,
@@ -69,37 +70,37 @@
       "tracker_index": 4,
       "tracker_deck_id": "Ashad__the_Lone_Cyberman",
       "approved_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Three Steps Ahead / Artificer Class: immediate Urza/Helm combo access versus ongoing artifact-cast discount and Level 3 copy; evidence in shared review PR awaiting head check/merge"
     },
     {
       "tracker_index": 5,
       "tracker_deck_id": "Ashnod_the_Uncaring",
       "approved_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Reject Salvaging Station or Detective's Satchel for Dockside Chef: neither candidate has direct sacrifice-cost activation; evidence in shared review PR awaiting head check/merge"
     },
     {
       "tracker_index": 6,
       "tracker_deck_id": "Be_lakor__the_Dark_Master",
       "approved_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Keep Demon ETB engine; kicked Rite on existing Be'lakor creates 25 Lord triggers and Prince checks surviving Demons; evidence in shared review PR awaiting head check/merge"
     },
     {
       "tracker_index": 7,
       "tracker_deck_id": "Cecily__Bjorna__Lutri",
       "approved_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Keep canonical 100 plus Lutri companion outside deck; Lutri/Trade Secrets/Yawgmoth's Bargain are expressly project-only banned exceptions; evidence in shared review PR awaiting head check/merge"
     },
     {
       "tracker_index": 8,
