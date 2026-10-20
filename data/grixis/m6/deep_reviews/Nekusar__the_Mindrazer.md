@@ -97,3 +97,28 @@ Each row reflects one distinct approved card, with quantity; the ledger covers *
 | 73 | 2 | Swamp | 2 basics, supply BBB Underworld Dreams/Peer and recovery vs nonbasic hate. |
 | 74 | 1 | Swan Song | U counters instant/enchantment/sorcery only, provides Bird; cannot stop Oracle or other creatures. |
 | 75 | 1 | Talisman of Creativity | 2-mana UR/C rock, colored taps cost 1 life; essential to Niv/commander colored requirements. |
+| 76 | 1 | Talisman of Dominance | 2-mana UB/C rock, colored taps cause 1 life; smoother Nekusar and BBB/UUU. |
+| 77 | 1 | Talisman of Indulgence | 2-mana BR/C rock, colored taps cause 1 life; supports Wheel RR, Peer BBB. |
+| 78 | 1 | Teferi's Puzzle Box | 4-mana at draw step bottoms hand then draws that many, not DISCARD; orders after extra-draw triggers for maximal impact. |
+| 79 | 1 | Toxic Deluge | 2B plus X life, all creatures -X/-X including Nekusar; answers attackers but sacrifices life budget. |
+| 80 | 1 | Training Center | UR multiplayer untapped land, typed? no, good Niv colored without pain. |
+| 81 | 1 | Underground Sea | Fetchable UB original dual enters untapped, ideal for Nekusar and underworld dreams. |
+| 82 | 1 | Underworld Breach | 1R all nonland GY cards escape for printed cost + exile3 other grave cards; with Wheel/Jeska hand/grave fuel. |
+| 83 | 1 | Underworld Dreams | BBB each opponent draw deals 1 damage; Ghyrson and Krang synergy but severe black source constraint. |
+| 84 | 1 | Vampiric Tutor | B instant unrestricted tutor to top for 2 life; plan draw timing and Wheel shuffle disruption. |
+| 85 | 1 | Verdant Catacombs | Pay1 fetch Swamp-type original/shock/triome, improves black without Forest in deck. |
+| 86 | 1 | Volcanic Island | Fetchable UR original dual enters untapped, exceptional Niv triple-color reliability. |
+| 87 | 1 | Waste Not | 1B opponent DISCARD yields BB/Zombie/card by type; shuffles do not trigger, can replenish wheel mana. |
+| 88 | 1 | Watery Grave | Fetchable UB shock entering untapped costs 2 life; underworld dreams/Blue counter coverage. |
+| 89 | 1 | Wheel and Deal | 3U instant OPPONENTS discard and draw7, you draw1; asymmetric Nekusar finisher. |
+| 90 | 1 | Wheel of Fortune | 2R discard all hands then draw7, core wheel plus Breach fuel and own self-damage risk. |
+| 91 | 1 | Wheel of Misfortune | 2R choice wheel that some opponents can avoid with 0; not a guaranteed symmetric seven. |
+| 92 | 1 | Whispering Madness | 2UB each discard then draw to largest discarded, cipher can recast on damage; expensive/situational. |
+| 93 | 1 | Windfall | 2U discard hands then draw max discarded among players; powerful under big opposing hands. |
+| 94 | 1 | Winds of Change | R SHUFFLE hands into libraries and redraw same sizes, no discard, cheapest mass damage burst. |
+| 95 | 1 | Wizard's Staff | 1U Equipment equip Wizard 1, adds one of both Nekusar triggers (step and damage); best commander-specific slot. |
+| 96 | 1 | Wooded Foothills | Pay1 fetch Mountain typed shock/original/triome, not any color as typed fetch targets require Mountain. |
+| 97 | 1 | Xander's Lounge | UBR typed triome enters tapped, fetchable, can cycle late instead of land. |
+
+**Role-reconciliation checksum:** 97 consecutive ledger rows, quantity sum 100 (including commander), exactly 35 land cards; no nonbasic duplication. Every library slot evaluated for card draw generation, punisher relevance, protection, combo, color access, self-damage or opportunity cost. The role ledger identifies vulnerability rather than treating the Oct15 KEEP votes as independent evidence.
+
