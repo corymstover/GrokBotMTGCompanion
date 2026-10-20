@@ -36,7 +36,7 @@ The canonical TXT has **100 quantity-1 rows / 100 unique names / 23 lands / 99 l
 | 4 | 1 | Arcane Signet | Two-mana repeatable UBR; slower than 0-cost rocks but sound colors. |
 | 5 | 1 | Arid Mesa | Land — Fetches typed Mountain dual/shock/tri; life payment, keeps Pact singleton. |
 | 6 | 1 | Artist's Talent | 1R Class, on noncreature cast discard then draw optional, level 2 reduces noncreature generic costs; needs mana investment. |
-| 7 | 1 | Attunement | 3U enchantment, bounce as cost for drawing three then discarding four; graveyard/Mayhem setup but high card-volume cost. |
+| 7 | 1 | Attunement | 2U enchantment, bounce as cost for drawing three then discarding four; graveyard/Mayhem setup but high card-volume cost. |
 | 8 | 1 | Badlands | Land — Original untapped BR typed dual. |
 | 9 | 1 | Beseech the Mirror | 1BBB tutor; bargain sacrifices artifact/enchantment/token to cast MV4-or-less spell directly if bargained. |
 | 10 | 1 | Big Score | 3R instant extra discard cost, draw two+Treasure x2; Goblin generic discount to 1R if discarded and cast via Mayhem; must still discard extra card. |
