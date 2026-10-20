@@ -2,7 +2,7 @@
 
 **Deck ID:** `Nicol_Bolas`; tracker index 40, 41st of 62 in canonical refinement order. **Authored by ChatGPT**, not GrokBot's independent Pass C. **Reviewed:** 2026-10-19 (America/Chicago). **Disposition:** `KEEP` current approved 100; serious conditional challengers documented, **no canonical modifications**. Approval/lock and owner milestone authority remain unchanged.
 
-## Authority, identities and provenance
+## Source and test receipts
 
 - **Canonical authority:** [`state/current_deck_overrides.json#decks.Nicol_Bolas`](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/main/state/current_deck_overrides.json), explicit APPROVED/LOCKED 2026-10-15. **Exact approved TXT raw SHA-256:** `e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617`. [Approved TXT](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/main/refinement/decklists/Nicol_Bolas_Approved_2026-10-15.txt), Git blob `21eabd978106ac7834d4f2b1bb1de21a9db53eff`; no ambiguous commander identity.
 - **Engineering registry** `data/grixis/registry.json#decks.Nicol_Bolas` identifies logical SHA `lh1:f26970666b9912491e184ac2c95a8fb5890662378f0c1f8db5feaa30e2a50efd`, source recorded/raw hashes match, project exception **none**, and Oct16 Scryfall bulk snapshot reports Commander compliance. The registry's SOURCE_BASELINE status is **not a revocation** of canonical approval; canonical overrides govern.
@@ -11,7 +11,7 @@
 - **Physical baseline self-accounting from live TXT:** **100 cards / 99 different names / 37 lands / 99 library copies**. Exactly one doubled card, `Island x2` (basic land exception); every nonbasic and nonland is singleton. The following ledger reconstructs every physical copy in original source order. Current approved 100 is **not** the pre-approval FINAL baseline (39 lands, 29 cuts/29 adds).
 - **Legality:** original Nicol Bolas is a U/B/R legendary Elder Dragon with official Commander legality in the canonical October 15 checkpoint; Scryfall bulk October 16 registry status compliant, zero project deviations. All 100 source-approved inclusions fall within UBR in that snapshot. **No new live all-100-card October 19 Scryfall request or color-ID bulk recomputation was performed**; October 15/16 approved source verification remains the last whole-list official legality audit. Treat any subsequent changes as a fresh-gate requirement, not as automatically passed.
 
-## Commander-specific purpose and natural ceiling
+## Commander identity and natural ceiling
 
 Original **Nicol Bolas** costs `{2}{U}{U}{B}{B}{R}{R}` (8 total), is a 7/7 flier, requires paying `{U}{B}{R}` at the beginning of **your** upkeep or sacrificing him, and causes an opponent to discard their **entire hand whenever Nicol deals damage to that opponent**, not just combat damage. The commander's own damage events are the defining currency; damage from a **spell/equipment** rather than from Nicol does **not** trigger his discard ability. Repeated damage to an already-empty opponent has low incremental discard value, so sources that hit all opponents and protection against the first counter/removal spell matter much more than a generic double-strike amplifier.
 
@@ -19,7 +19,7 @@ Original **Nicol Bolas** costs `{2}{U}{U}{B}{B}{R}{R}` (8 total), is a 7/7 flier
 
 **Power:** Bracket **4 — Optimized, low-end of bracket** due to expensive commander, three pairs of colored pips, recurring upkeep, limited early board and vulnerability to removal. Sword/Assault can win without commander, but relying on it as sole plan would fail identity. Not supported as realistic turbo-cEDH. The optimization target is earlier meaningful Bolas-sourced discard and survival, not arbitrary generic combo density.
 
-## Every approved card — physical-role and weak-slot audit
+## Full 100-card role audit
 
 | TXT row | Qty | Exact approved name | Role, commander contribution and principal caveat |
 |---:|---:|---|---|
@@ -137,7 +137,7 @@ Original **Nicol Bolas** costs `{2}{U}{U}{B}{B}{R}{R}` (8 total), is a 7/7 flier
 
 **Acceleration evaluation:** Removing an additional land for a fourth ritual looks aggressive: 37 already makes Mox Diamond discard less free; 9 fetches help smooth, but 8-mana commander should not be treated like a 3-mana turbo deck. Gilded Lotus offers triple colored mana for sustained upkeep but costs 5 and can clog the commander turn; Relic of Sauron for 4 has strong UBR tap fixing but consumes a whole development turn; Commander's Sphere at 3 is slower than Cabal Ritual's tactical burst. Avoid blanket replacement of essential colors and interaction with higher-MV artifacts.
 
-## 73 M5 hypothesis pool and meaningful alternatives
+## Candidate pool and competing cuts
 
 `review_packets/nicol-bolas.json` lists **73 candidate/cut route items**, broken into 10 independent-agreement P0, 20 performance-only P1 and 43 commander-only P3, 4 batches, 1 reported failed M5 effect-limited test, 22 inconclusive, 20 no-difference and 30 screening passes. These are **triage** states, not independent demonstrated real-game outcomes. This review considered the whole packet by mechanism and all material distinct identity, speed, resilience, mana and off-ranking routes. A ranking of `score=61.19` for **Slave of Bolas → Viridian Longbow** cannot prove that stealing an opponent's creature temporarily is better than directly enabling Nicol to force a hand discard.
 
@@ -160,7 +160,7 @@ Original **Nicol Bolas** costs `{2}{U}{U}{B}{B}{R}{R}` (8 total), is a 7/7 flier
 
 **Excluded ranking families:** generic dragon tribal (large MV without source damage), self-discard/wheel packages that contradict Bolas's opponent discard, seven-mana independent Niv/Mind Over Matter loops, fragile multiple-card alternative combos, and replacing much-needed UUBBRR enablers with red/colorless attackers. Sideways cuts of Ingris, Dagger, Curiosity, Waste Not or mandatory protection cannot satisfy commander-first requirement just because the automated candidate score is higher. EDHREC's popular Bolas planeswalkers and Cruel Ultimatum are characterful but dilute this original 7/7 direct-discard deck; those belong to distinct Ravager archetype.
 
-## Oracle rules, payable triggers and adversarial finite traces
+## Oracle, legality and rules
 
 1. **Nicol source and upkeep:** Any damage Nicol itself deals to opponent, combat or noncombat, triggers discard; his upkeep sacrifice trigger occurs at **beginning of owner's upkeep** and requires UBR on resolution. Responding with removal beforehand is viable; holding only Sol Ring and Grim generic mana does **not** save him. [Approved Oct15 verification](https://github.com/corymstover/grixis-commander-encyclopediaGPT/blob/main/refinement/verification/Nicol_Bolas_Approval_Ready_Verification_2026-10-15.md).
 2. **Ingris attack:** Nicol is already in play, Ingris (BRR) is on battlefield, attack is declared while Nicol has haste or is no longer summoning sick. The Ingris triggered ability makes **Nicol** deal 1 to each of three opponents **before blockers**. If hands have 6/4/3 cards at resolution, 13 cards are discarded, triggering each applicable source separately; with Caress, life loss 12/8/6 respectively, NOT combat commander damage. Opponents may use instant-speed spells in response, prevent source damage or remove Nicol **before attackers** are declared. [Ingris Oracle](https://mtg.wtf/card/fra/409/Ingris-Stingerquill).
@@ -181,7 +181,7 @@ Original **Nicol Bolas** costs `{2}{U}{U}{B}{B}{R}{R}` (8 total), is a 7/7 flier
 17. **Power Artifact:** Grim Monolith is `{2}`, `{T}: {C}{C}{C}`, `{4}: untap`. Power Artifact lowers the **activated untap ability** cost by 2 (to `{2}`), so a C1 net loop exists with one tap/untap cycle; it yields only colorless and never inherently satisfies UUBBRR. Mana Vault **does not** use equivalent activated untap cost. Reject 'infinite colored mana' claims.
 18. **Survival and control race:** Forcing empty hands on turn 7 does not answer already-established creatures, graveyards, commanders on board or permanents with activated abilities. Toxic Deluge and Rift are necessary but cost a turn and can remove own Bolas (Deluge). Timing discard before opponents' draw steps grants eventual repopulation; repeated damage or a fast finisher is necessary.
 
-## Decision-relevant baseline-vs-challenger comparative experiments
+## Finite sequencing and adversarial scenarios
 
 These are **deterministic manually costed and source-backed scenarios, not newly run stochastic gameplay simulations**. No effect-aware test proves aggregate win-rate or local optimum.
 
@@ -207,7 +207,7 @@ These are **deterministic manually costed and source-backed scenarios, not newly
 
 **Adversarial strongest-cut case:** No Mercy is four mana and does nothing against a spell that kills Nicol, so Mithril Coat looks superior in a removal-heavy table. But a low-creature 8-mana Grixis control deck may die to combat by turn 7; No Mercy on turn 4 changes all three opponents' attack incentives **before** Nicol appears. Coat in the same slot is mostly inert until an expensive legend enters; even then it is a weak answer to exile/bounce/sacrifice. A sideboard-free optimized 100 depends on which failure dominates. Keep approved survivor in absence of material performance evidence.
 
-## Closure, verification status, owner boundary
+## Conclusions and unresolved evidence
 
 - **Per-material decision:** `KEEP` approved **100 unchanged**. `Geode Golem ⇄ Hypnotic Specter/The Eldest Reborn`, `Mithril Coat ⇄ No Mercy`, and `Relic of Sauron ⇄ Cabal Ritual` are **conditional testing challenges**, not swaps. **Reject** the exact old `No Mercy -> Megrim` challenger; reject ranked `Slave of Bolas -> Viridian Longbow` as losing a core Nicol-sourced trigger. No current candidate has verified sufficiently broad gain to justify applying anything over locked canon.
 - **New material evidence required to reopen:** a pre-registered, source-paid 4-player comparison of Golem/Coat/Rock versus actual specified cuts, modeling no-mulligan and mulligans, double colored U/B/R pip availability, commander tax, Golem connection/removal rate, life burden, and role interactions. Simulator may not model all cards; explicitly report coverage and distinct legitimate opponent responses. Recheck newest Scryfall legalities before any owner-approved swap.
