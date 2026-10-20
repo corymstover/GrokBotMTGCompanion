@@ -6,7 +6,7 @@
   "canonical_ref": "main",
   "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
   "total_decks": 62,
-  "evidence_merged": 10,
+  "evidence_merged": 11,
   "pending": 51,
   "dispositions": {
     "KEEP": 5,
@@ -24,7 +24,7 @@
     "Admiral and Anhelo canonical approval SHA differs from raw retrospective source; documented historical exceptions, not silent replacements.",
     "Parnesse modified Twinflame cut retains Big Score.",
     "CI integrity is not an independent gameplay or current Oracle certification.",
-    "PR #357 updates this ledger atomically with Lynde evidence. Until PR merge, Lynde is not counted as EVIDENCE_MERGED."
+    "PR #357 update is atomic: this progress state takes effect upon merge, never before."
   ],
   "decks": [
     {
@@ -301,7 +301,7 @@
       "tracker_index": 30,
       "tracker_deck_id": "Lynde__Cheerful_Tormentor",
       "approved_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
-      "status": "EVIDENCE_MERGED_PENDING_PR_MERGE",
+      "status": "EVIDENCE_MERGED",
       "disposition": "NEEDS TESTING",
       "engineering_pr": 357,
       "notes": "Thirst upkeep damage count at resolution; queued trigger persists, self-return hazards require testing"
@@ -585,7 +585,5 @@
       "engineering_pr": null,
       "notes": null
     }
-  ],
-  "in_review_pr_pending_merge": 1,
-  "review_pr_pending": 357
+  ]
 }
