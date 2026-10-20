@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Sauron__the_Dark_Lord",
-    "deep_review_complete_count": 49,
+    "next_tracker_deck_id": "Sedris__the_Traitor_King",
+    "deep_review_complete_count": 50,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -925,10 +925,10 @@
       "baseline_engineering_logical_sha": "lh1:bbac35497c11953c26540c28d14d51eb101a8ac86a915fe12b4c6aaba796594a",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Sauron__the_Dark_Lord.md",
+      "completed_at_commit": "1040f852b0183f27b426233127cfc24a537eb2c6",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39441781491",
       "blocker": null
     },
     {
