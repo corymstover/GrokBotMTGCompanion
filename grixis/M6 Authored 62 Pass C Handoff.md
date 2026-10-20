@@ -2,6 +2,8 @@
 
 > **Owner-directed quality normalization (2026-10-19):** The existing 62/62 source-specific authored records are real but vary in depth. They are NOT yet the completed comprehensive one-deck-at-a-time authored reviews the owner now requires before handing GrokBot the final Pass C package. Follow [M6 Commander-First Single-Deck Review Standard](M6%20Commander-First%20Single-Deck%20Review%20Standard.md) and the separate `data/grixis/m6/single_deck_depth_tracker.json` (initially 0/62). Preserve the historical M6.4 62/62 narrow count and formal Pass C 0/62. Never silently equate these counts.
 
+> **2026-10-20 completion update:** The new one-deck-at-a-time comprehensive authored review series has now reached **62/62** on the live tracker, following Zevlor PR #337 and final checkpoint PR #338, with exact-head CI success. This file's historical summary of Cycle112–131 is still valid for the earlier narrow M6.4 coverage, but its initial 0/62 deep-review snapshot is **superseded**. Use [M6 Comprehensive 62 Pass C Handoff 2026-10-20](M6%20Comprehensive%2062%20Pass%20C%20Handoff%202026-10-20.md) for the current neutral-intake firewall, reviewer-provenance requirements and completed review receipts. **Independent Pass C stays 0/62, owner milestone acceptance is pending, and canonical decklists remain read-only.**
+
 **Scope:** All 62 commanders in the canonical Grixis Commander Encyclopedia. This file is the handoff of **original author opinions** for separate independent Pass C, **not Pass C completion, full Phase B, M6 acceptance or permission to alter canonical decks**.
 
 ## Authorship inventory and primary evidence
