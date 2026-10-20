@@ -49,3 +49,6 @@ Gwendlyn Di Corci costs {U}{B}{B}{R}, is 3/5 with {T}: **target player discards 
 - No owner action needed for **KEEP**. Only if future testing establishes a specific better Megrim cut propose that exact pair for Cory's consent.
 
 **Oracle source links:** [Gwendlyn](https://mtg.wtf/card/leg/228/Gwendlyn-Di-Corci), [Dream Salvage](https://m.mtg.wtf/card/shm/160/Dream-Salvage), [Megrim](https://mtg.wtf/card/8ed/143/Megrim), [Underworld Dreams](https://mtg.wtf/card/10e/187/Underworld-Dreams), [Wizards comprehensive rules](https://magic.wizards.com/en/rules). Current external verification read 2026-10-20.
+
+## Exact-head evidence CI provenance
+The M6 evidence-only integrity workflow was established by engineering PR #354, merge `76c8236b8e35657824df65d258e0a5f7a5c51aa6`. It verifies branch-changed path scope, SHA/source and independence disclosures, approved 62/source-ledger integrity and unmodified formal certification fields. **This reconciliation/review protocol is NOT formally independent Pass C, and a CI PASS is NOT an MTG strategy or current Oracle-complete certification.** Canonical deck approvals remain untouched.
