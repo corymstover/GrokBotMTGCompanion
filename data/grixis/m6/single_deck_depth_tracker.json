@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Nicol_Bolas__the_Ravager",
-    "deep_review_complete_count": 41,
+    "next_tracker_deck_id": "Goben__Gene_Splice_Savant",
+    "deep_review_complete_count": 42,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -780,10 +780,10 @@
       "baseline_engineering_logical_sha": "lh1:c2b4559a1e5f0415decb48a9f496f1f780af715f6f763d3fcb166753dbfda293",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Nicol_Bolas__the_Ravager.md",
+      "completed_at_commit": "69b1ee2961558a08a0c1b18095bca6a8e0f959b2",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39365461289",
       "blocker": null
     },
     {
