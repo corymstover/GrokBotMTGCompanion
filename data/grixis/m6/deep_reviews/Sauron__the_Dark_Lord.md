@@ -2,7 +2,7 @@
 
 **Deck:** `Sauron__the_Dark_Lord`, canonical tracker index 49 of 62. **Author:** ChatGPT, 2026-10-20; first-party authored M6 deep pass, **NOT GrokBot's independent Pass C**. **Judgment:** `KEEP` the exact approved canonical list. No automatic swaps, unlocking, changes, or milestone acceptance.
 
-## Authority and reproducibility
+## Source and test receipts
 
 - Engineering: `corymstover/GrokBotMTGCompanion`, integration `chatgpt-cycle76-m6-refinement`; read `AGENTS.md`, single-deck standard, registry, M6/M7 subtracker, depth tracker (49 complete before this review), `data/grixis/m6/review_packets/sauron-the-dark-lord.json` (31 ranked candidate pairs), `data/grixis/blueprints/sauron-the-dark-lord.json`, `data/grixis/mana_base/sauron-the-dark-lord.json`, `grixis/interactions/sauron-the-dark-lord.md` (5 verified Oct16 interaction groups).
 - Canonical: `corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json#decks.Sauron__the_Dark_Lord`: approved and locked Oct15 2026; source `refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-10-15.txt` Git blob `b714245307cf48d60a4a021e7e8f0815670f9c17`; canonical Oct15 candidate decision, 99-copy whole-list audit and approval-ready gate.
@@ -10,13 +10,13 @@
 - Source Oracle/rules verification was against Scryfall bulk 2026-10-16, rulings 2026-10-15 and Commander CR effective 2026-09-25 as documented in the M1 interactions; canonical targeted October15 Oracle/legality gate passed. **No new live October20 bulk Oracle or banned-list execution claimed**, so any future unexpected legality change requires targeted refresh. Project exceptions: none; **Nazgûl x7 is officially permitted by the card's own nine-copy deck-construction rule**, not a house exception.
 - Independent hand-executed parsing/recount of exact approved TXT: **100 physical cards, 99 library cards, 91 distinct names, 34 lands**. All repeated names exactly `Mountain x2; Nazgûl x7; Swamp x3`; Nazgûl's own construction exception + basic-land multiplicity only, no other duplicates; all included cards U/B/R or colorless on source audits, no explicit project exception. No MDFCs. Commander's cost {3}{U}{B}{R}, MV6, color identity UBR. Power ceiling Bracket 4 — Optimized. Archidekt tags Amass Orcs / Ring Temptation / Wraiths.
 
-## Identity, engine and protection boundary
+## Commander identity and natural ceiling
 
 The commander turns **other players casting spells** into an expanding Orc Army. The Army deals **combat damage to a player** → the Ring tempts you → each temptation enables the commander to optionally **discard your entire hand to draw four** and triggers each Nazgûl's Wraith-wide +1/+1-counter effect. This is a multiplayer reactive growth engine, not spellslinger/self-cast amass like Saruman or the ETB/reanimation plan of the other Sauron. Opponent casts rather than resolves are sufficient for the amass; quiet/passive or creatureless opponents can suppress growth. The deck's small Nazgûl contingent, recurrent Ring temptations, and evasion work even if commander is temporarily unavailable; the commander is nevertheless essential to high card flow and repeated amass.
 
 **Protected slots:** Sauron, Nazgûl x7, Call of the Ring, Minas Morgul shadow/Wraith bridge, Roaming Throne, Great Goblin trample, Mauhúr/The Great Goblin counter triggers, sufficient UBR fixing, and free protection for a six-drop. Do **not** silently substitute generic Oracle/Consult/Breach/Thoracle turbo goodstuff: a higher generic win-rate shell is not a stronger *Sauron* encyclopedia entry. The alternative lord-of-Rings named Sauron is deliberately a costly thematic redundancy, not evidence of turbo competitiveness.
 
-## All 100 physical slots: individualized audit
+## Full 100-card role audit
 
 This is an independently reconstructed per-approved-row accounting. `LAND` entries total 34; quantity lines explicitly preserve repeated basics and seven Nazgûl. Each audit line includes whether it directly advances identity, fills infrastructure, or presents an opportunity cost.
 
@@ -124,7 +124,7 @@ This is an independently reconstructed per-approved-row accounting. `LAND` entri
 
 **Card velocity and win conversion:** Sauron's optional discard-to-four, Call's Ring temptation, Wheel, Windfall, Connections, Rhystic, Remora, The One Ring, Ransom and tutors supply access; players should frequently decline Sauron's trigger with a hand of four+ good cards or to preserve timed counterspells. Nazgûl x7 converts each fresh Ring event into **up to seven separate Wraith counter placements** only when all seven are on battlefield; the list starts with none. Evasion across shadow, unblockability, trample, flying and The Black Gate converts large Army into damage/temptations, but blockers, pillowfort, exile and graveyard hate change the clock. True deck power is strong optimized multiplayer engine (Bracket4) but lacks a source-proven compact deterministic victory; not cEDH by assertion.
 
-## All 31 M5 candidate routes: add/cut adjudication
+## Candidate pool and competing cuts
 
 The paired M5 screening packet is evidence of **test coverage**, NOT owner-approved changes or an oracle-correct multiplayer evaluator. Its 31 candidates span 2 independent-agreement P0, 6 performance-only P1 and 23 commander-fit-only P3 hypotheses: 8 test passes, 6 fails, 9 inconclusive, 7 no-detectable-difference and 1 without a test. Most test artifacts only simulate whether a swapped card is castable; many incumbent cards (Call, Deadly Rollick, Connections, Remora) have **no effect modeled**, while a replacement mana source/draw action is modeled. Positive sign can invert after modeling Ring and opponents.
 
@@ -164,7 +164,11 @@ The paired M5 screening packet is evidence of **test coverage**, NOT owner-appro
 
 **Additional off-packet challenge:** `One Ring to Rule Them All` competes with mass temptation but its chapter II potentially destroys the deck's own nonlegendary Nazgûl, Orc Army support and Archfiend; do not cut Call. `Bothersome Noisemaker` supports own noncreature spell casts rather than the commander's opponents-cast engine, directly competes with Saruman without solving evasion. `The Mouth of Sauron` is slower amass redundancy. `Shadowspear` supplies lifelink/trample at equipment cost but clashes with included shadow, trample, Wonder and nonland unblockability; replacing Bilbo is defensible but currently no evidence of higher consistent Army-hit probability. `Moonstone, Harsh Mistress` converts hand discards but Sauron's discard is optional and draw4 is powerful without it. `All Will Be One` is a strong counter placement finisher; as long as cheaper The Great Goblin can turn amass *events* into damage while supporting Orc narrative, use a creature-heavy pilot test before converting toward generic enchantment damage. `Chandra's Ignition` targets one friendly creature and can burn all other creatures and opponents; Army can be removed in response, own other creatures suffer, and it overlaps Widespread Brutality. `Command Beacon` helps commander tax but trades colored land source/evasion; `Phyrexian Tower` requires sacrifice and is not more identity-relevant than Minas Morgul. The Oct15 owner-closeout independently rejected these; reassessment here includes explicit card-specific failure modes rather than assuming rank = approval.
 
-## Actual finite source-paid sequence checks (analytical stack and game-state probes, NOT Monte Carlo)
+## Oracle, legality and rules
+
+This review is linked to the exact Oct15 canon and the Oct16 Scryfall Oracle / Oct15 Scryfall rulings / Sep25 CR source as cited above. Commander Sauron's triggers use opponent spell **cast**, Army **combat damage to a player**, and **the Ring tempts you**, not damage dealt to creatures, an opponent's spell resolving, or Ring-bearer selection success. Commander ward uses **sacrifice a legendary artifact or legendary creature** as its ward cost for an opponent who targets Sauron. Roaming Throne choosing Avatar doubles Sauron creature triggers, choosing Wraith doubles each Nazgûl's ETB/temptation triggers; the replacement-addition of counter(s) from Mauhúr is one per event, and The Great Goblin counts qualifying counter events, not the number of counters. A Minas Morgul shadow counter gives an Army the Wraith subtype in addition to Army. Seven Nazgûl copies are explicitly authorized by official Oracle text (up to nine), not a house exemption. No new October20 Oracle sync is asserted; any future current-release rules question must receive fresh targeted resolution.
+
+## Finite sequencing and adversarial scenarios
 
 These probes adjudicate critical interactions using the documented October Oracle/CR text; costs assume all stated sources are already controlled and capable of producing indicated mana. No unstated fetch targets, commander discounts, mana-positive loops, or guaranteed draw lines; opponents can respond where appropriate. These are *deterministic rule-state analyses*, not executed sample-based performance tests.
 
@@ -226,7 +230,7 @@ These probes adjudicate critical interactions using the documented October Oracl
 
 Evidence actually reviewed: exact approved 100 TXT with deterministic weighted recount and 91-name audit; October15 canonical whole-list and approval-ready gate; Oct16 Oracle/CR documented five interaction groups; source Stage C mana proxy; all **31** M5 proposed add/cut pairs and their test status. Fresh work: **35** explicit finite state/cost/trigger analytical probes above, and a seven-environment adversarial comparative matrix. **No new executable goldfish/paired Monte Carlo run was performed**; no invented test receipt or quantitative improvement claimed. Existing M5 simulator v1.1 cannot model opponents, combat, Ring temptation and numerous actual candidate effects. This is the reason the prior automated evidence does not authorize any card replacement.
 
-### Final per-issue judgment and handoff
+## Conclusions and unresolved evidence
 
 **KEEP**, exact locked approved 100, no unauthorized swaps. Major P0 options Marina Vendrell's Grimoire (vs Call/alt Wheel) and Tidespout Tyrant (vs Rollick/alt top-end) considered and declined; mana P1 engines versus Connections declined on incomplete modeling; thematic Lord of the Nazgûl versus Bilbo and Fall of Cair Andros versus the slow saga are the most reasonable *unapproved* conditional comparisons if owner requests changes later. **Requiem Monolith Oracle effect was not freshly checked here**; don't represent its failed/no-effect v1.1 proxy as rules verification or insert without a new factual audit. No open issue is strong enough to mandate a canonical update or invalidate the source Oct15 legality gate.
 
