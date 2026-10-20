@@ -19,10 +19,10 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Zevlor__Elturel_Exile",
-    "deep_review_complete_count": 61,
+    "next_tracker_deck_id": null,
+    "deep_review_complete_count": 62,
     "total": 62,
-    "ready_for_grokbot_pass_c": false,
+    "ready_for_grokbot_pass_c": true,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
     "required_protocol": "grixis/M6 Commander-First Single-Deck Review Standard.md",
     "review_artifact_directory": "data/grixis/m6/deep_reviews/"
@@ -1141,10 +1141,10 @@
       "baseline_engineering_logical_sha": "lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Zevlor__Elturel_Exile.md",
+      "completed_at_commit": "679b9e6a61ac8519dc17562df776d623520237ea",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39489894121",
       "blocker": null
     }
   ]
