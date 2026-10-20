@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Obeka__Brute_Chronologist",
-    "deep_review_complete_count": 43,
+    "next_tracker_deck_id": "Obeka__Splitter_of_Seconds",
+    "deep_review_complete_count": 44,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -816,10 +816,10 @@
       "baseline_engineering_logical_sha": "lh1:958f40565c66c18bf18f1451bac9e933497046c04dc54e58811bfac18d794e66",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Obeka__Brute_Chronologist.md",
+      "completed_at_commit": "b44569d6f55a534bdb0714321e9a144e69eab7e2",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39426324693",
       "blocker": null
     },
     {
