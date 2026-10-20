@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Goben__Gene_Splice_Savant",
-    "deep_review_complete_count": 42,
+    "next_tracker_deck_id": "Obeka__Brute_Chronologist",
+    "deep_review_complete_count": 43,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -798,10 +798,10 @@
       "baseline_engineering_logical_sha": "lh1:9f7364522bbd760473a9b640b10a3f08ab3c7d786e2e5d011385a4430b399958",
       "source_identity_discrepancy": "COMMANDER_IDENTITY_CONFLICT",
       "source_identity_issue": "Canonical Goben, Gene-Splice Savant versus engineering Norman Osborn // Green Goblin reference the same approved source hash; name/commander identity discrepancy MUST be independently resolved before this deck is declared reviewed. Equal hashes are not equivalent commander identities.",
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Goben__Gene_Splice_Savant.md",
+      "completed_at_commit": "8639a4956c7c39c8c435d12f42f837b8a2fb1a57",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39366630795",
       "blocker": null
     },
     {
