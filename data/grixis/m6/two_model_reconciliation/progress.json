@@ -1,0 +1,588 @@
+{
+  "schema": "m6_two_model_reconciliation/v1",
+  "as_of_date": "2026-10-20",
+  "source_engineering_integration_at_checkpoint": "275b35af4ad678eec1aec9376ce2d4690847a981",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_ref": "main",
+  "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+  "total_decks": 62,
+  "evidence_merged": 10,
+  "pending": 52,
+  "dispositions": {
+    "KEEP": 5,
+    "PROPOSE_UPGRADE": 4,
+    "NEEDS_TESTING": 1,
+    "RULES_LEGALITY_BLOCKER": 0
+  },
+  "owner_approved_new_swaps": 0,
+  "owner_authorized_jlk_protocol_pr": 351,
+  "owner_pass_c_substitute_completed": 0,
+  "formal_independent_pass_c_completed": 0,
+  "formal_m6_certified": 0,
+  "notes": [
+    "Engineering evidence only. Never apply deck changes from this ledger.",
+    "Admiral and Anhelo canonical approval SHA differs from raw retrospective source; documented historical exceptions, not silent replacements.",
+    "Parnesse modified Twinflame cut retains Big Score.",
+    "CI integrity is not an independent gameplay or current Oracle certification."
+  ],
+  "decks": [
+    {
+      "tracker_index": 0,
+      "tracker_deck_id": "Abaddon_the_Despoiler",
+      "approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "PROPOSE UPGRADE",
+      "engineering_pr": 344,
+      "notes": "Aggravated Assault / Rakdos, Lord of Riots"
+    },
+    {
+      "tracker_index": 1,
+      "tracker_deck_id": "Admiral_Beckett_Brass",
+      "approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 2,
+      "tracker_deck_id": "Admiral_Brass__Unsinkable",
+      "approved_sha256": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
+      "engineering_pr": 345,
+      "notes": "Dire Fleet Ravager / Merchant Raiders"
+    },
+    {
+      "tracker_index": 3,
+      "tracker_deck_id": "Anhelo__the_Painter",
+      "approved_sha256": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 346,
+      "notes": "two casualty instances verified"
+    },
+    {
+      "tracker_index": 4,
+      "tracker_deck_id": "Ashad__the_Lone_Cyberman",
+      "approved_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 5,
+      "tracker_deck_id": "Ashnod_the_Uncaring",
+      "approved_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 6,
+      "tracker_deck_id": "Be_lakor__the_Dark_Master",
+      "approved_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 7,
+      "tracker_deck_id": "Cecily__Bjorna__Lutri",
+      "approved_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 8,
+      "tracker_deck_id": "Cormela__Glamour_Thief",
+      "approved_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 9,
+      "tracker_deck_id": "Crosis__the_Purger",
+      "approved_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "PROPOSE UPGRADE",
+      "engineering_pr": 347,
+      "notes": "Megrim / Sedraxis Specter"
+    },
+    {
+      "tracker_index": 10,
+      "tracker_deck_id": "Cult_of_Skaro",
+      "approved_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 11,
+      "tracker_deck_id": "Davros__Dalek_Creator",
+      "approved_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 12,
+      "tracker_deck_id": "Doctor_Doom__King_of_Latveria",
+      "approved_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 348,
+      "notes": "released June 2026, self-target Villain"
+    },
+    {
+      "tracker_index": 13,
+      "tracker_deck_id": "Don_Andres__the_Renegade",
+      "approved_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 350,
+      "notes": "reject Mnemonic Betrayal / Siphon Insight exact"
+    },
+    {
+      "tracker_index": 14,
+      "tracker_deck_id": "Dr__Eggman",
+      "approved_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 15,
+      "tracker_deck_id": "Edea__Possessed_Sorceress",
+      "approved_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 16,
+      "tracker_deck_id": "Edward_Kenway",
+      "approved_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 17,
+      "tracker_deck_id": "Evelyn__the_Covetous",
+      "approved_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 18,
+      "tracker_deck_id": "Fire_Lord_Azula",
+      "approved_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 19,
+      "tracker_deck_id": "Garza_Zol__Plague_Queen",
+      "approved_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 20,
+      "tracker_deck_id": "Goro_Goro_and_Satoru",
+      "approved_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 21,
+      "tracker_deck_id": "Gwendlyn_Di_Corci",
+      "approved_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 349,
+      "notes": "reject Megrim / Dream Salvage exact"
+    },
+    {
+      "tracker_index": 22,
+      "tracker_deck_id": "Inalla__Archmage_Ritualist",
+      "approved_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 23,
+      "tracker_deck_id": "Jeleva__Nephalia_s_Scourge",
+      "approved_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 352,
+      "notes": "retain Long-Term Plans against Intuition exact"
+    },
+    {
+      "tracker_index": 24,
+      "tracker_deck_id": "Kefka__Court_Mage",
+      "approved_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 25,
+      "tracker_deck_id": "Kess__Dissident_Mage",
+      "approved_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "PROPOSE UPGRADE",
+      "engineering_pr": 353,
+      "notes": "Jeska's Will / Ledger Shredder"
+    },
+    {
+      "tracker_index": 26,
+      "tracker_deck_id": "Grixistax___October_2026",
+      "approved_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 27,
+      "tracker_deck_id": "Loki__the_Deceiver",
+      "approved_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 28,
+      "tracker_deck_id": "Lord_of_Tresserhorn",
+      "approved_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 29,
+      "tracker_deck_id": "Lord_Xander__the_Collector",
+      "approved_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 30,
+      "tracker_deck_id": "Lynde__Cheerful_Tormentor",
+      "approved_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 31,
+      "tracker_deck_id": "Mai_and_Zuko",
+      "approved_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 32,
+      "tracker_deck_id": "Mairsil__the_Pretender",
+      "approved_sha256": "51e8fd18c7ded6744a4fa2f871925a0679f85dada3e6e517334bd13c07889ee5",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 33,
+      "tracker_deck_id": "Marchesa__Dealer_of_Death",
+      "approved_sha256": "34a6a940c54aaebde612ae5d3a244e22931d3a977fa26e4c43f2a76aafc0f6b1",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 34,
+      "tracker_deck_id": "Marchesa__the_Black_Rose",
+      "approved_sha256": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 35,
+      "tracker_deck_id": "Mishra__Artificer_Prodigy",
+      "approved_sha256": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 36,
+      "tracker_deck_id": "Mishra__Eminent_One",
+      "approved_sha256": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 37,
+      "tracker_deck_id": "Missy",
+      "approved_sha256": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 38,
+      "tracker_deck_id": "Nathan_Drake__Treasure_Hunter",
+      "approved_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 39,
+      "tracker_deck_id": "Nekusar__the_Mindrazer",
+      "approved_sha256": "bc36908fb2f848dfd69407a317d7da5811532dba7e3b4e7be89a2905d901c6f1",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 40,
+      "tracker_deck_id": "Nicol_Bolas",
+      "approved_sha256": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 41,
+      "tracker_deck_id": "Nicol_Bolas__the_Ravager",
+      "approved_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 42,
+      "tracker_deck_id": "Goben__Gene_Splice_Savant",
+      "approved_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 43,
+      "tracker_deck_id": "Obeka__Brute_Chronologist",
+      "approved_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 44,
+      "tracker_deck_id": "Obeka__Splitter_of_Seconds",
+      "approved_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 45,
+      "tracker_deck_id": "Parnesse__the_Subtle_Brush",
+      "approved_sha256": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+      "status": "EVIDENCE_MERGED",
+      "disposition": "PROPOSE UPGRADE",
+      "engineering_pr": 355,
+      "notes": "Twinflame / Wandering Archaic; modified GrokBot exact"
+    },
+    {
+      "tracker_index": 46,
+      "tracker_deck_id": "RogSi",
+      "approved_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 47,
+      "tracker_deck_id": "Saruman__the_White_Hand",
+      "approved_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 48,
+      "tracker_deck_id": "Sauron__Lord_of_the_Rings",
+      "approved_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 49,
+      "tracker_deck_id": "Sauron__the_Dark_Lord",
+      "approved_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 50,
+      "tracker_deck_id": "Sedris__the_Traitor_King",
+      "approved_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 51,
+      "tracker_deck_id": "Sol_kanar_the_Swamp_King",
+      "approved_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 52,
+      "tracker_deck_id": "Sol_kanar_the_Tainted",
+      "approved_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 53,
+      "tracker_deck_id": "Tetsuo_Umezawa",
+      "approved_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 54,
+      "tracker_deck_id": "Tetsuo__Imperial_Champion",
+      "approved_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 55,
+      "tracker_deck_id": "The_Madcap_Jester",
+      "approved_sha256": "caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 56,
+      "tracker_deck_id": "The_Rani",
+      "approved_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 57,
+      "tracker_deck_id": "The_Valeyard",
+      "approved_sha256": "4bef619a33d85eafaf194997924fc8378dd490f62c59d76bafccc4fa07ef821c",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 58,
+      "tracker_deck_id": "Thraximundar",
+      "approved_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 59,
+      "tracker_deck_id": "Tresserhorn_s_Lord__Returned",
+      "approved_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 60,
+      "tracker_deck_id": "Wick__the_Whorled_Mind",
+      "approved_sha256": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    },
+    {
+      "tracker_index": 61,
+      "tracker_deck_id": "Zevlor__Elturel_Exile",
+      "approved_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+      "status": "PENDING",
+      "disposition": null,
+      "engineering_pr": null,
+      "notes": null
+    }
+  ]
+}
