@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Sol_kanar_the_Tainted",
-    "deep_review_complete_count": 52,
+    "next_tracker_deck_id": "Tetsuo_Umezawa",
+    "deep_review_complete_count": 53,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -979,10 +979,10 @@
       "baseline_engineering_logical_sha": "lh1:3dac16383746b8fa2976730bad9ac64a77726dbbb0d85af34dbe63acc8e704c5",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Sol_kanar_the_Tainted.md",
+      "completed_at_commit": "c1256f125f50a4aae9bd79f9fc05528d7d3b1a29",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39449998370",
       "blocker": null
     },
     {
