@@ -1,17 +1,17 @@
 {
   "schema": "m6_two_model_reconciliation/v1",
   "as_of_date": "2026-10-20",
-  "source_engineering_integration_at_checkpoint": "275b35af4ad678eec1aec9376ce2d4690847a981",
+  "source_engineering_integration_at_checkpoint": "43e2761299a6019ac59d75528ef04b71eaebb6e8",
   "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
   "canonical_ref": "main",
   "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
   "total_decks": 62,
-  "evidence_merged": 11,
-  "pending": 51,
+  "evidence_merged": 15,
+  "pending": 47,
   "dispositions": {
-    "KEEP": 5,
-    "PROPOSE_UPGRADE": 4,
-    "NEEDS_TESTING": 2,
+    "KEEP": 7,
+    "PROPOSE_UPGRADE": 5,
+    "NEEDS_TESTING": 3,
     "RULES_LEGALITY_BLOCKER": 0
   },
   "owner_approved_new_swaps": 0,
@@ -24,7 +24,8 @@
     "Admiral and Anhelo canonical approval SHA differs from raw retrospective source; documented historical exceptions, not silent replacements.",
     "Parnesse modified Twinflame cut retains Big Score.",
     "CI integrity is not an independent gameplay or current Oracle certification.",
-    "PR #357 update is atomic: this progress state takes effect upon merge, never before."
+    "PR #357 update is atomic: this progress state takes effect upon merge, never before.",
+    "PRs #358-#361 passed exact-head M6 evidence integrity CI and were merged with no canonical deck mutation; five owner proposals remain UNAPPLIED."
   ],
   "decks": [
     {
@@ -310,10 +311,10 @@
       "tracker_index": 31,
       "tracker_deck_id": "Mai_and_Zuko",
       "approved_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "PROPOSE UPGRADE",
+      "engineering_pr": 358,
+      "notes": "Grim Monolith for Tundra Tank — on-identity Clock/flash artifact burst; owner proposal UNAPPLIED"
     },
     {
       "tracker_index": 32,
@@ -346,10 +347,10 @@
       "tracker_index": 35,
       "tracker_deck_id": "Mishra__Artificer_Prodigy",
       "approved_sha256": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 359,
+      "notes": "REJECT Scepter / Planar Chaos and Dramatic Reversal / Blood Funnel; own Bauble/Mirror and other locks"
     },
     {
       "tracker_index": 36,
@@ -382,10 +383,10 @@
       "tracker_index": 39,
       "tracker_deck_id": "Nekusar__the_Mindrazer",
       "approved_sha256": "bc36908fb2f848dfd69407a317d7da5811532dba7e3b4e7be89a2905d901c6f1",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
+      "engineering_pr": 360,
+      "notes": "Forced Fruition for Kami: 7-draw ceiling vs 6MV timing, early card access and self-draw safety"
     },
     {
       "tracker_index": 40,
@@ -427,10 +428,10 @@
       "tracker_index": 44,
       "tracker_deck_id": "Obeka__Splitter_of_Seconds",
       "approved_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 361,
+      "notes": "REJECT Rogue's Passage / Swamp; repeatable evasion already abundant, black access and high activation cost"
     },
     {
       "tracker_index": 45,
