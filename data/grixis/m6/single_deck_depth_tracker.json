@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Obeka__Splitter_of_Seconds",
-    "deep_review_complete_count": 44,
+    "next_tracker_deck_id": "Parnesse__the_Subtle_Brush",
+    "deep_review_complete_count": 45,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -834,10 +834,10 @@
       "baseline_engineering_logical_sha": "lh1:95dc0a60266129426fa099fdb3188f143829ca9f23d5d65357f1a02a7cbf2912",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Obeka__Splitter_of_Seconds.md",
+      "completed_at_commit": "839fda9818a7e11e44c51ec2d0a82c21ebd264ca",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39427642051",
       "blocker": null
     },
     {
