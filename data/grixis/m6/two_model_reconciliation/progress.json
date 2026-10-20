@@ -1,17 +1,17 @@
 {
   "schema": "m6_two_model_reconciliation/v1",
   "as_of_date": "2026-10-20",
-  "source_engineering_integration_at_checkpoint": "43e2761299a6019ac59d75528ef04b71eaebb6e8",
+  "source_engineering_integration_at_checkpoint": "962b5294321bb4874bcbf179ff93b68c560a739f",
   "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
   "canonical_ref": "main",
   "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
   "total_decks": 62,
-  "evidence_merged": 15,
-  "pending": 47,
+  "evidence_merged": 20,
+  "pending": 42,
   "dispositions": {
-    "KEEP": 7,
+    "KEEP": 11,
     "PROPOSE_UPGRADE": 5,
-    "NEEDS_TESTING": 3,
+    "NEEDS_TESTING": 4,
     "RULES_LEGALITY_BLOCKER": 0
   },
   "owner_approved_new_swaps": 0,
@@ -25,7 +25,8 @@
     "Parnesse modified Twinflame cut retains Big Score.",
     "CI integrity is not an independent gameplay or current Oracle certification.",
     "PR #357 update is atomic: this progress state takes effect upon merge, never before.",
-    "PRs #358-#361 passed exact-head M6 evidence integrity CI and were merged with no canonical deck mutation; five owner proposals remain UNAPPLIED."
+    "PRs #358-#361 passed exact-head M6 evidence integrity CI and were merged with no canonical deck mutation; five owner proposals remain UNAPPLIED.",
+    "PRs #363–#367 merged with exact-head evidence-only CI green; MBC future-release exceptions resolved for project and remain officially not legal until 2026-11-13. No canonical approvals or project exception records were modified."
   ],
   "decks": [
     {
@@ -482,19 +483,19 @@
       "tracker_index": 50,
       "tracker_deck_id": "Sedris__the_Traitor_King",
       "approved_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 363,
+      "notes": "Reject Ghostly Flicker for Sundial; original advisory had material false unearth end-step timing premise; correct Sundial activation at own end step after delayed trigger"
     },
     {
       "tracker_index": 51,
       "tracker_deck_id": "Sol_kanar_the_Swamp_King",
       "approved_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 364,
+      "notes": "Reject Sanguine Bond for Demon's Horn; four existing gain-to-loss partners and independent life-gain event density"
     },
     {
       "tracker_index": 52,
@@ -509,10 +510,10 @@
       "tracker_index": 53,
       "tracker_deck_id": "Tetsuo_Umezawa",
       "approved_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
+      "engineering_pr": 365,
+      "notes": "Icy Manipulator / Geode Rager: specific instant-speed tap versus unique mass goad; effect-aware matchup pending"
     },
     {
       "tracker_index": 54,
@@ -527,10 +528,10 @@
       "tracker_index": 55,
       "tracker_deck_id": "The_Madcap_Jester",
       "approved_sha256": "caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 366,
+      "notes": "Oct20 MBC not_legal is recognized pre-2026-11-13 and explicitly project-authorized; Dauthi-replaced opponent mill/Jester cause interaction remains uncertain"
     },
     {
       "tracker_index": 56,
@@ -563,10 +564,10 @@
       "tracker_index": 59,
       "tracker_deck_id": "Tresserhorn_s_Lord__Returned",
       "approved_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
-      "status": "PENDING",
-      "disposition": null,
-      "engineering_pr": null,
-      "notes": null
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
+      "engineering_pr": 367,
+      "notes": "MBC not_legal before Nov13 authorized project exception; self-sacrifice trigger and Blasphemous Edict downside explicitly validated"
     },
     {
       "tracker_index": 60,
