@@ -16,7 +16,7 @@ Nekusar is {2}{U}{B}{R}, 2/4 Zombie Wizard. Beginning of EVERY player's draw ste
 
 Identity protection: prioritize true opponent draws, draw punishers, Nekusar Wizard triggers, exact-one-damage Ghyrson, cheap shields and self-life safety. A known internal hazard: Krang doubles your own Spiteful Visions/Phyrexian Tyranny draw-trigger penalties; careless wheels can kill their caster. `Ghyrson` needs exactly **one DAMAGE**, not loss of life; Solphim's former damage doubling conflicted with it.
 
-## Whole-deck tactical role ledger — exact approved TXT order
+## Full 100-card role audit
 
 Each row reflects one distinct approved card, with quantity; the ledger covers **97 names / 100 physical cards** including six basics in triples of two, and continues below without a second list. Source notes are canonical Oct15 audit context; tactical caveats are this author's review and not a renewed approval.
 
@@ -141,7 +141,7 @@ Each row reflects one distinct approved card, with quantity; the ledger covers *
 
 **Anti-homogenization:** Keep Ghyrson/Krang/Staff/Prodigy and draw punishers ahead of copying generic Grixis control; restrict tutor/fast-mana swaps to proving earlier **protected** wheel lethal (not merely “land plus rock by turn four”). Theoretical `Power Artifact + Grim Monolith` colorless infinity or `Mind Over Matter` untap engines do not by themselves cause opposing draws and are not legitimate reasons to displace `Underworld Breach` until effect-aware comparative proof.
 
-## Candidate pool, adversarial alternative cuts, and screening limitations
+## Candidate pool and competing cuts
 
 **Packet exhaustively screened for material families, not a top-one swap:** 69 hypothesis rows in 4 batches; test flags **25 pass**, **25 no detectable difference**, **11 inconclusive**, **8 fail**. Priority **1 P0 agreement**, **24 P1 performance-only**, **44 P3 commander-fit-only**. Flags **54 combo-review**, **25 mana-delta**, **8 mechanics not modelable**, **9 structural route risk**. All 69 belong to known M5 triage, which screens castable-card resource proxies and lacks reliable modelling for several advanced triggered/copy/recursion effects. A `pass` is a screening observation, not a measured multiplayer win-rate benefit or user-authorized addition. M5's top-ranking is NOT an instruction to substitute cards, and the 280 Oct17 EDHREC associations measure use, not game performance.
 
@@ -163,7 +163,7 @@ Each row reflects one distinct approved card, with quantity; the ledger covers *
 
 **Candidate exhaustion verdict:** The truly meaningful candidates are **(1) Ophidian Eye vs Phyrexian Tyranny**, **(2) Timetwister vs Fevered Visions/Magus**, **(3) low-curve colored rock vs slow group-draw slot**, and **(4) theoretical Power Artifact at a much higher commander-independent ceiling**. Competing cuts matter: do not erase **An Offer**, **Jeska's Will**, **Underworld Breach**, **Curiosity/Niv**, or **Cyclonic Rift** because a proxy numerically favors a cheaper card. The **strongest improvement hypothesis is reducing self-damage and raising reliable card access**; the strongest counterargument is that every removed punisher/wheel reduces the fundamental opponent-draw kill density, and the enchantment/creature alternatives are vulnerable. No evidence so far establishes a strict upgrade.
 
-## Oracle, Commander legality, and rules review
+## Oracle, legality and rules
 
 **Verification provenance.** Canonical October 15, 2026 approval-ready source and the engineering October 16 Scryfall Oracle / October 15 rulings / September 25 Comprehensive Rules nine-interaction review were reopened. Wizards' official [TMNT release notes](https://magic.wizards.com/en/news/feature/teenage-mutant-ninja-turtles-release-notes) confirm Krang's additional-instance rule; the [Ghyrson Oracle and release notes](https://media.wizards.com/2022/downloads/40K_Release_Notes/EN_40K%20Commander%20Release%20Notes_20220830.pdf) confirm it responds to exactly one damage by any other source you control to a permanent or **player**, including its controller. Day's Undoing Oracle [verified](https://mtg.wtf/card/cmm/85/Days-Undoing). No unexpected off-color card or official ban was identified in the approved October 15 full-list legality checkpoint; none of the authorized project exceptions apply to Nekusar. This is NOT a newly performed Scryfall Oracle re-query on all 100 cards today.
 
@@ -187,7 +187,7 @@ Each row reflects one distinct approved card, with quantity; the ledger covers *
 
 **Interaction constraints:** Force of Negation alternative free cast only during opponent's turn; Fierce Guardianship free only while controlling Nekusar; Deflecting Swat changes legal targets only and cannot redirect an overloaded no-target spell. Protection is essential, and none can be assumed to work after an opposing split-second response leaves no priority window. Toxic Deluge reduces your own Nekusar, Sheoldred and Ghyrson stats as well as enemy board.
 
-## Finite, source-paid, adversarial scenarios
+## Finite sequencing and adversarial scenarios
 
 **Method:** These are newly authored **bounded deterministic rules traces**, not games run, Monte Carlo data, or effect-aware simulator results. All sources/choices are stated. They deliberately challenge (a) keeping the 100, (b) an apparent positive candidate, and (c) the strongest structural weakness. Table is four Commander players starting at 40 life unless a different life total is specified. Priority is available between discrete trigger resolutions; hand and mana resources matter.
 
