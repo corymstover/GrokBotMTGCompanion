@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Mishra__Artificer_Prodigy",
-    "deep_review_complete_count": 35,
+    "next_tracker_deck_id": "Mishra__Eminent_One",
+    "deep_review_complete_count": 36,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -672,10 +672,10 @@
       "baseline_engineering_logical_sha": "lh1:c5f0c3e61664642e27ae75597380e85c6504617310a7293b72cc758c55fe88fa",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Mishra__Artificer_Prodigy.md",
+      "completed_at_commit": "30e83aaf48fef9cd4546857c08ac2961195f9371",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39346235701",
       "blocker": null
     },
     {
