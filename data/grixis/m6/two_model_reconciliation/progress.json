@@ -1,17 +1,17 @@
 {
   "schema": "m6_two_model_reconciliation/v1",
   "as_of_date": "2026-10-20",
-  "source_engineering_integration_at_checkpoint": "6ebe677bb6344d2c3db58b0e7c6a609afc6886c9",
+  "source_engineering_integration_at_checkpoint": "8549964fa9a7ef0016e8261b968c94c1c6368ebd",
   "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
   "canonical_ref": "main",
   "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
   "total_decks": 62,
-  "evidence_merged": 25,
-  "pending": 37,
+  "evidence_merged": 30,
+  "pending": 32,
   "dispositions": {
-    "KEEP": 14,
+    "KEEP": 15,
     "PROPOSE_UPGRADE": 6,
-    "NEEDS_TESTING": 5,
+    "NEEDS_TESTING": 9,
     "RULES_LEGALITY_BLOCKER": 0
   },
   "owner_approved_new_swaps": 0,
@@ -27,7 +27,8 @@
     "PR #357 update is atomic: this progress state takes effect upon merge, never before.",
     "PRs #358-#361 passed exact-head M6 evidence integrity CI and were merged with no canonical deck mutation; five owner proposals remain UNAPPLIED.",
     "PRs #363–#367 merged with exact-head evidence-only CI green; MBC future-release exceptions resolved for project and remain officially not legal until 2026-11-13. No canonical approvals or project exception records were modified.",
-    "Combined commander-by-commander source files for Beckett, Ashad, Ashnod, Be'lakor and Cecily/Bjorna are committed to one evidence-only PR; merge is atomic after exact-head CI. No owner-approved swaps or canon modifications."
+    "Combined commander-by-commander source files for Beckett, Ashad, Ashnod, Be'lakor and Cecily/Bjorna are committed to one evidence-only PR; merge is atomic after exact-head CI. No owner-approved swaps or canon modifications.",
+    "Five individual candidate-strategy reconciliations Cormela/Cult/Davros/Eggman/Edea authored in evidence-only branch; exact-head CI and atomic PR merge are prerequisite to 30/62 progress. No canonical modifications."
   ],
   "decks": [
     {
@@ -106,10 +107,10 @@
       "tracker_index": 8,
       "tracker_deck_id": "Cormela__Glamour_Thief",
       "approved_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Keep Cormela restricted inst/sorc mana + death recurrence; reject slower Archaeomancer/Faithless and Altar/LED replacements; this evidence/ledger update becomes merged only after PR exact-head CI"
     },
     {
       "tracker_index": 9,
@@ -124,19 +125,19 @@
       "tracker_index": 10,
       "tracker_deck_id": "Cult_of_Skaro",
       "approved_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Correct GrokBot random mode error: copying on-stack chosen mode with Resonator does not roll anew; Karlach/Hexplate extra-combat alternative needs test; this evidence/ledger update becomes merged only after PR exact-head CI"
     },
     {
       "tracker_index": 11,
       "tracker_deck_id": "Davros__Dalek_Creator",
       "approved_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Unlicensed Disintegration and Ingenious Artillerist convert artifact presence/ETB to 3-life threshold; precise target/multiplayer cut not proven; this evidence/ledger update becomes merged only after PR exact-head CI"
     },
     {
       "tracker_index": 12,
@@ -160,19 +161,19 @@
       "tracker_index": 14,
       "tracker_deck_id": "Dr__Eggman",
       "approved_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Scrawling Crawler eligible 3MV Construct tests empty-hand villainous-choice trap against giving opponents extra cards; strong alternative ETB machines; this evidence/ledger update becomes merged only after PR exact-head CI"
     },
     {
       "tracker_index": 15,
       "tracker_deck_id": "Edea__Possessed_Sorceress",
       "approved_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Conjurer's Closet retention on blocked stolen creature vs Impostor Syndrome damage-dependent tokens and existing Thassa duplication; this evidence/ledger update becomes merged only after PR exact-head CI"
     },
     {
       "tracker_index": 16,
