@@ -50,4 +50,7 @@ Canonical approved decks stay locked. All recommended additions/cuts require Cor
 - **CI:** One deck and one small PR per evidence group, validate source hash/seal/disposition and existing source guards on the exact PR head. Do not merge unvalidated PRs or automatically adjust milestones.
 - **Stop/go:** Post-reconciliation JLK passes should run consecutively without unnecessary manual 'Proceed' requests; stop before any canonical mutation, explicit owner approval, source conflict or failed evidence gate.
 
-**Scope:** light process addition, not a new optimization/ranking pipeline, no Colab rerun, no credit expenditure, no architectural replacement. The technical independence requirement remains explicitly unresolved. 
+**Scope:** light process addition, not a new optimization/ranking pipeline, no Colab rerun, no credit expenditure, no architectural replacement. The technical independence requirement remains explicitly unresolved.
+
+## Exact-head evidence CI provenance
+The M6 evidence-only integrity workflow was established by engineering PR #354, merge `76c8236b8e35657824df65d258e0a5f7a5c51aa6`. It verifies branch-changed path scope, SHA/source and independence disclosures, approved 62/source-ledger integrity and unmodified formal certification fields. **This reconciliation/review protocol is NOT formally independent Pass C, and a CI PASS is NOT an MTG strategy or current Oracle-complete certification.** Canonical deck approvals remain untouched.
