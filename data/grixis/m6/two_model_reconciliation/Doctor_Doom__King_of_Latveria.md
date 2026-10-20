@@ -9,6 +9,8 @@
 **GrokBot advisory:** `data/grixis/m6/grokbot_pass_c_advisory/Doctor_Doom__King_of_Latveria.md`, blob `67f3593e4084081529efe01068627ec37c890418`; NEEDS VERIFICATION, no swap, suspected Dec 18, 2026 future-release and target-Villain assumptions. First pass disclosed prior blueprint/engineering exposure, no qualified independence.
 **Verdict: KEEP, rules verified; material advisory legality-date premise CORRECTED.** No owner approval required because there is no change.
 
+**Actual model comparison:** GrokBot's disclosed advisory critic flagged the December promo date, while the prior ChatGPT-authored comprehensive review identified the original June 2026 released commander. This source disagreement is resolved using Wizards' original decklists and printing chronology. Both critics have prior involvement; the present reconciliation is NOT formally independent Pass C.
+
 ## Independent exact-source/legality findings
 
 The canonical approved TXT read live from `main` has **100 card lines, all 1x, 100 distinct names**, one commander plus 99 library. Source-based 38 lands includes **Villainous Hideout**, an actual LAND and color-restricted Villain utility source. `Doctor Doom` (short distinct title) is a different listed noncommander card from `Doctor Doom, King of Latveria`; preserve both, and similarly don't alias/rename the literal `Norman Osborn // Green Goblin` card. Current canonical hash matches GrokBot's source and October 14 complete gate. Official Commander legality and UBR identity of all 100 were previously audited on Oct14; this reconciliation independently checks the specific disputed commander's official publication and legality, target rules and core synergies; it does not falsely claim a new 100-card live Scryfall collection audit.
