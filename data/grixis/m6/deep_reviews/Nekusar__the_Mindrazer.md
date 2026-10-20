@@ -47,3 +47,28 @@ Each row reflects one distinct approved card, with quantity; the ledger covers *
 | 23 | 1 | Deflecting Swat | free targeted redirect only with commander; cannot protect vs untargeted effect; source: efficient interaction/protection is necessary to resolve and preserve a five-mana commander and its wheel turns. |
 | 24 | 1 | Demonic Tutor | 2 mana finds lethal wheel, punisher or counter; precision matters; source: compact tutor for wheel, protection, trigger multiplier, or finisher at the deck's optimized ceiling. |
 | 25 | 1 | Echo of Eons | shuffles HAND and GRAVEYARD, redraws 7; does not discard; source: efficient burst/repeatable wheel effect directly converts cards in opponents' hands into Nekusar draw triggers. |
+| 26 | 1 | Exotic Orchard | Multiplayer opponent-land conditional fixer; opponents need corresponding colors to supply UBR. |
+| 27 | 1 | Fate Unraveler | Independent 1 damage for every opponent draw; triggers Ghyrson and Krang without Nekusar. |
+| 28 | 1 | Fevered Visions | 2UR end-step each draws plus conditional 2 damage; feeds opposing answers and delays payoff. |
+| 29 | 1 | Fierce Guardianship | Free noncreature counter only while Nekusar controlled, key to protect five-mana setup. |
+| 30 | 1 | Flooded Strand | Pay1 life, fetch Island-typed original duals/shocks/triome, fixes colors but not a Plains-free arbitrary target. |
+| 31 | 1 | Force of Negation | Pitching blue free only on OPPONENT turn, never assume free during your wheel turn. |
+| 32 | 1 | Force of Will | Blue pitch and 1 life to counter any spell, including creatures, enables protected wheel turn. |
+| 33 | 1 | Geier Reach Sanitarium | Colorless utility land: 2 and tap everyone draws then discards, independent Nekusar/Waste Not engine. |
+| 34 | 1 | Ghyrson Starn, Kelermorph | Adds 2 damage only after another your source does exactly 1; Phyrexian Tyranny's life loss doesn't qualify. |
+| 35 | 1 | Grim Monolith | Taps CCC, four to untap; fast generic but not UBR colored; Power Artifact optional unapproved challenger. |
+| 36 | 1 | Harmonic Prodigy | Two-mana Wizard (Nekusar is another Wizard) adds one to both Nekusar triggered abilities. |
+| 37 | 2 | Island | 2 basics, fetchable and immune to nonbasic hate; low count forces fetch-target discipline. |
+| 38 | 1 | Jace's Archivist | 1UU tap wheel; summoning sickness, removal and no immediate activation without haste. |
+| 39 | 1 | Jeska's Will | 2R adds red equal opponent hand; requires >=6 in hand for recurring Breach/Will/Wheel cost cycle. |
+| 40 | 1 | Kami of the Crescent Moon | UU adds draw each draw step, inexpensive but symmetrical until a Nekusar/punisher resolves. |
+| 41 | 1 | Kederekt Parasite | B one-damage opponent draw punisher requiring a controlled red permanent, easy to remove. |
+| 42 | 1 | Krang, the All-Powerful | Adds draw-CAUSED triggers only, not Nekusar's beginning draw-step; also doubles your Tyranny/Spiteful risk. |
+| 43 | 1 | Liliana's Caress | Opponent DISCARD creates two LIFE LOSS, not damage, so not Ghyrson and not shuffle wheels. |
+| 44 | 1 | Luxury Suite | BR multiplayer untapped dual in 4-player; neither typed nor always untapped heads-up. |
+| 45 | 1 | Magus of the Wheel | 3-mana 3/3 wheel-on-activated tap/sac with additional mana; vulnerable and summoning sick. |
+| 46 | 1 | Mana Confluence | Untapped UBR at 1 life each tap, improves Niv/commander cast but life cost compounds. |
+| 47 | 1 | Mana Drain | UU hard counter generates COLORLESS next main; doesn't fix Niv's triple U/R requirements. |
+| 48 | 1 | Mana Vault | 1-mana artifact CCC burst; upkeep damage/untap costs, not fully repeatable Mana Crypt analogue. |
+| 49 | 1 | Marsh Flats | Fetches Swamp-typed UBR lands, not arbitrary colored land; improves black source density. |
+| 50 | 1 | Mikokoro, Center of the Sea | Colorless land, 2 tap everyone draws at instant speed, Nekusar engine at opportunity cost. |
