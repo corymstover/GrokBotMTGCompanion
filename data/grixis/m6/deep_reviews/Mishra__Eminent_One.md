@@ -22,7 +22,7 @@ Every actual approved slot examined by name in exact TXT order. Roles and caveat
 |---:|---|---|---|
 | 1 | Mishra, Eminent One | Commander | Five-mana UBR Warform 4/4 artifact-copy engine, beginning of combat target NONCREATURE artifact you control; haste, next-end-step sacrifice; copy can fuel ETB, taps, sacrifice, not copy creatures. |
 | 2 | Academy Ruins | Land/recursion | Colorless land; {1}{U}, tap returns target artifact from GY to library top, protects Mindslaver/artifact loop but slow. |
-| 3 | Aetherflux Reservoir | Artifact win/payoff | Warform copy gains 4 life on ETB (assuming source Oracle), can be sacrificed for end-step, 50 life activation to deal 50; verify copied Reservoir activation/life source. |
+| 3 | Aetherflux Reservoir | Artifact win/payoff | Warform creation does not cast a spell or gain life on entering; copied Reservoir can gain life from subsequently cast spells and activate by paying 50 life. |
 | 4 | An Offer You Can't Refuse | Stack defense | U counter noncreature spell, opponent gets two Treasures; protects artifact engines but does not counter creature threats. |
 | 5 | Ancient Tomb | Land/fast mana | Two colorless for 2 damage; T2 artifact acceleration, no UBR fixing. |
 | 6 | Arcane Signet | Mana rock | Two-mana UBR fixing; a Warform copy becomes 4/4 mana creature, poor target versus ETB engine. |
