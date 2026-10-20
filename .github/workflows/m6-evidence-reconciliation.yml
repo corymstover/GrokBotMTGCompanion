@@ -1,0 +1,62 @@
+name: M6 two-model reconciliation evidence integrity
+on:
+  push:
+    branches:
+      - 'chatgpt-m6-evidence-*'
+      - 'chatgpt-m6-reconcile-*'
+      - 'chatgpt-m6-jlk-*'
+    paths:
+      - 'data/grixis/m6/two_model_reconciliation/**'
+      - 'data/grixis/m6/owner_pass_c_substitute/**'
+      - 'scripts/grixis_m6_evidence_only_check.py'
+      - 'tests/test_m6_evidence_only_check.py'
+      - '.github/workflows/m6-evidence-reconciliation.yml'
+  pull_request:
+    branches:
+      - chatgpt-cycle76-m6-refinement
+    paths:
+      - 'data/grixis/m6/two_model_reconciliation/**'
+      - 'data/grixis/m6/owner_pass_c_substitute/**'
+      - 'scripts/grixis_m6_evidence_only_check.py'
+      - 'tests/test_m6_evidence_only_check.py'
+      - '.github/workflows/m6-evidence-reconciliation.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: m6-reconciliation-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  evidence-readonly-policy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact workflow head
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Strict changed-file scope and provenance
+        run: python scripts/grixis_m6_evidence_only_check.py --check
+      - name: Preserve authored 62-deck source and independence counts
+        run: python scripts/grixis_m6_single_deck_depth_check.py --check
+      - name: Verify no false owner or certification authority
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          depth=json.loads(Path("data/grixis/m6/single_deck_depth_tracker.json").read_text())
+          m=json.loads(Path("data/grixis/milestone_m6_m7_subtracker.json").read_text())
+          assert depth["process"]["deep_review_complete_count"]==62
+          assert depth["authority"]["source_approved_locked"]==62
+          assert not depth["authority"]["formal_independent_pass_c_allowed"]
+          assert not depth["authority"]["canonical_deck_changes_allowed"]
+          assert m["m6"]["formal_m6_certified_decks"]==0
+          print("PASS: source 62/62 and formal independent/M6 certification unchanged.")
+          PY
