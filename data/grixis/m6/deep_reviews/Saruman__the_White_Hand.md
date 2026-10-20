@@ -18,7 +18,7 @@ Verified live engineering repository `corymstover/GrokBotMTGCompanion` active br
 
 **Relevant current card verification:** The Hobbit (2026) new [Bothersome Noisemaker](https://mtg.wtf/card/hob/89/Bothersome-Noisemaker) separately amasses Goblins1 for each noncreature cast; [The Great Goblin](https://mtg.wtf/card/hob/201/The-Great-Goblin) punishes each counter-placement event by 2 targeted opponent damage, not 2 per counter; [Rage into the Valley](https://ww-w.mtg.wtf/card/hob/79/Rage-into-the-Valley) draw one/lose one then amass Goblins2; [Black Waltz No.3](https://mtg.wtf/card/fin/214/Black-Waltz-No-3) each noncreature cast 2 damage EACH opponent. [Wizards Saruman ruling](https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes) spells triggering ability resolve independently of original spell, and amass Orcs/Zombies/Goblins select existing Army where possible.
 
-## Commander identity, core lines and realistic ceiling
+## Commander identity and natural ceiling
 
 Saruman `{1}{U}{B}{R}` 2/5 Avatar Wizard. **Whenever you CAST a NONCREATURE spell, amass Orcs X where X is that spell's MANA VALUE ON STACK**; separately Goblins and Orcs you control have ward {2}. Commander identity = cast expensive-on-card, inexpensive-to-pay noncreature spells to build ONE very large Orc Army (or choose alternate Army), capitalize on actual counter-placement triggers and finish with Army damage/combat. MV and spells CAST not copies; real copies cast with Mizzix's Mastery trigger, spell copies placed on stack do NOT. This is not generic Grixis goodstuff. He costs four with 3 exact UBR pips and needs to survive the first high-MV action.
 
@@ -26,7 +26,7 @@ Saruman `{1}{U}{B}{R}` 2/5 Avatar Wizard. **Whenever you CAST a NONCREATURE spel
 
 **Natural power ceiling** Bracket **4 — Optimized**, with setup/commander dependency, potential 2-card damage finishes but NOT established tournament cEDH. High-cost discounted spells demand external creatures, graveyards, opposing board or deaths to truly be low-paid. Academy mono-shield game would not translate to guaranteed opponents failing responses; Army removal/exile/bounce/counter-of-cast also matters. We do not force Oracle/Consult/Breach infinite in every encyclopedia entry.
 
-## Entire exact 100-card source ledger
+## Full 100-card role audit
 
 Each approved physical name, original TXT row and QUANTITY shown. Functional land backs **not counted twice as cards**. Source row-by-row audit applies to all 99 library slots as well as commander.
 
@@ -142,7 +142,7 @@ Static no-mulligan T4 four strict front-land-drop probability ~0.471; treating M
 
 **Delve conflict**: Treasure Cruise {7}U and Dig Through Time {6}UU use graveyard objects as cast resource; Mizzix's Mastery needs actual instant/sorcery cards in GY to recast; Summons of Saruman milling can restock depending on X but does not waive mana/type limits on unrelated cards. Early Spirit/cheap cantrips help fill graveyard while keeping commander vulnerable to spot interaction.
 
-## Full candidate audit, alternate cuts and selection judgment
+## Candidate pool and competing cuts
 
 **M5 packet has 55 exact pair routes**, P1=22 performance-only/P3=33 commander-fit-only, 22 model passes, 2 fails, 15 inconclusive and 16 no-difference. These tests are limited-effect rankings and often propose replacing powerful role-specific pieces with expensive independent combo. Every route considered by distinct candidate/cut family (55 routes, not 55 unique new cards), including source's first seven `Fall of Cair Andros` swaps and large mana alternative cuts; full exact pair source `data/grixis/m6/review_packets/saruman-the-white-hand.json`.
 
@@ -169,7 +169,7 @@ Static no-mulligan T4 four strict front-land-drop probability ~0.471; treating M
 
 **Counter-case to Trespass:** added extra turn plus MV11 is potentially stronger than a 4MV generic spellcast pinger, but in the exact deck `Black Waltz No.3` gives repeatable per-spell 2 damage EACH opponent and contributes 2 power to *Volcanic Salvo's total-power reduction*. Replacing it with Trespass makes the deck still more reliant on graveyard and triple blue, with existing other several blue delvers; not obviously net win.
 
-## Oracle/rules/legality — decision-relevant exact mechanics
+## Oracle, legality and rules
 
 1. Saruman only triggers for spell **CAST** that is **NONCREATURE**. Opponents' spells and copied spells created directly on stack do not trigger; Mizzix Mastery copies CARDS exiled then instructs CAST, and those CAST copies DO trigger.
 2. MV reduction: Volcanic Salvo printed 10RR => 12 always on stack despite total power generic cost reduce; Blood for Blood God! printed 8BBR => **MV11**, not eight; Blasphemous Act 8R=>9; Cruise 7U=>8; Dig 6UU=>8; Force Will 3UU=>5; Deadly Rollick 3B=>4; Deflecting Swat 2R=>3; Fierce Guardianship 2U=>3, regardless alternate payment. `Mana Geyser` 3RR is MV5.
@@ -189,7 +189,7 @@ Static no-mulligan T4 four strict front-land-drop probability ~0.471; treating M
 16. `Orcish Medicine` may grant indestructible for destroy/damage but not exile/bounce or -X/-X; trigger Saruman before its resolution. `Sauron Dark Lord` enormous creature backup not itself noncreature, so Saruman doesn't trigger by casting him.
 17. All official Commander color/legality snapshot from Oct15/16 PASS UBR; Hobbit 2026 added cards also currently individually show Commander legal in external database. Project exceptions NONE, no alteration of canonical approvals. Any owner swap requires current all-100/Oracle/legality full recertification, not implied by this read-only review.
 
-## Finite mana-and-priority adversarial traces
+## Finite sequencing and adversarial scenarios
 
 **32 deterministic, conditional states, not game simulations, no fabricated bracket win rates.** They challenge cost, targets, stack, and realistic enemy answers.
 
@@ -230,7 +230,7 @@ Static no-mulligan T4 four strict front-land-drop probability ~0.471; treating M
 
 **Targeted hardest adversarial case:** with Army absent and just Saruman2/5, Salvo generic reduction only2, cost8RR, making M5's theoretical ability to cheaply trigger 12 counters misleading when starting from a blank board. Yet setup of four prior Ponder/cheap noncreature casts often creates a 4+ Army and other creatures, reducing Salvo on later turns. Replacing it with `Temporal Trespass` when scarce UUU and GY fuel isn't inherently stronger; it requires different sequencing plan. **The actual improvement risk is mana/engine balance, not a card with a bigger raw simulation rank.**
 
-## Final individual judgments and open evidence
+## Conclusions and unresolved evidence
 
 **`KEEP` exactly source-approved 100-card Saruman**, Bracket4 Optimized, per-card complete audit and self-adversarial tests. All 55 M5 pairs considered by strategic family; relevant offranking `Temporal Trespass`, `Storm of Saruman`, `Fling`, `Shark Typhoon`, `Uncover the Moon-Letters`, ritual and Orc tribal options adjudicated against real alternative cuts. Candidate `Izzet Signet IN / Mana Geyser OUT` is CONDITIONAL if quick-table/colored-stall evidence justifies steady access. Candidate `Temporal Trespass IN / Black Waltz No.3 OUT` is CONDITIONAL if graveyard/delved MV11 extra turns reliably matter more than repeat pinger/Salvo power, while direct Army damage and RR costs met; neither has sufficient evidence to override canonical lock. Neither applied. Retain Volcanic Salvo and Blood for Blood God despite genuine setup because identity/payoff enormously exceeds generic substitute if protected.
 
