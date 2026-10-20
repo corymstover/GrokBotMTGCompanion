@@ -1,0 +1,38 @@
+{
+ "tracker_index": 0,
+ "tracker_deck_id": "Abaddon_the_Despoiler",
+ "review_class": "ADVISORY",
+ "formal_independent_pass_c": false,
+ "canonical_changes": false,
+ "disposition": "PROPOSE_SWAPS_FOR_CORY_CONSIDERATION_ADVISORY",
+ "swaps": [
+  {
+   "rank": 1,
+   "in": "Slaughter Pact",
+   "out": "Blasphemous Act",
+   "confidence": "moderate"
+  },
+  {
+   "rank": 2,
+   "in": "Lotus Bloom",
+   "out": "Nightscape Familiar",
+   "confidence": "moderate"
+  },
+  {
+   "rank": 3,
+   "in": "Wheel of Fate",
+   "out": "Rakdos, Lord of Riots",
+   "confidence": "low-moderate"
+  },
+  {
+   "rank": 4,
+   "in": "Chaos Warp",
+   "out": "Kessig Flamebreather",
+   "confidence": "low"
+  }
+ ],
+ "exposure_disclosures": [
+  "Authority Model grep line: M5 registered challenger Mystic Remora -> Stormfist Crusader",
+  "Blueprint EDHREC shortlist (GrokBot-authored blueprint)"
+ ]
+}

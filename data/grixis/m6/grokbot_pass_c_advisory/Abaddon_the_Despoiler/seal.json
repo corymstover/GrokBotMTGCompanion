@@ -1,0 +1,24 @@
+{
+ "schema": "grokbot_pass_c_advisory_seal/v1",
+ "tracker_deck_id": "Abaddon_the_Despoiler",
+ "review_class": "ADVISORY",
+ "formal_independent_pass_c": false,
+ "sealed_at": "2026-10-20T15:42:00-05:00",
+ "reviewer": "GrokBot (MTG Bot) advisory Pass C critic; model/version unknown",
+ "stage_files_sha256": {
+  "stage_a.md": "847b8d2fb0594365c23b9f09991180ca364d2cceaa06c6f69aba7da30c30fc46",
+  "stage_a.json": "08fff4a4337bd660503c9433e0d62e4cdec402d9c06dc8e32a9b9232373945d6",
+  "stage_a_oracle_snapshot.json": "b42d1a75dc12a6f29ce180e1e55d1a367120ea8f6d4256c3f4fc25452711a7b3"
+ },
+ "input_fingerprints": {
+  "canonical_list_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "canonical_repo_head": "ceffdcceec19e51fa01e3cbe01cca99da0558b07",
+  "canonical_overrides_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+  "decklist_blob": "1bbead6e8a7973bd7eb1982147e917d39e217492",
+  "blueprint_blob": "a1a17c615527ed31f27e7a989d414346af73cd5b",
+  "oracle_fetched_at_utc": "2026-10-20T20:25:12.701494+00:00",
+  "scryfall_raw_collection_sha256": "c75afe8dca92ee673d4db7a6da73442f68fb1df53d6c935c8ffe5ee252eeeada",
+  "comp_rules_sha256": "8d860e451f20f38865b725b42d82feb714c725373dd8f3b32b8652b3eeb070ca",
+  "engineering_repo_head": "efdafd4fe8d174273acec8ccc37984b1da4ea971"
+ }
+}
