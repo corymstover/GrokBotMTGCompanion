@@ -1,6 +1,6 @@
 # Davros, Dalek Creator — M6 two-model reconciliation (#12, tracker 11)
 
-**2026-10-20 · NEEDS TESTING, approved deck KEEP pending evidence; NOT formal independent Pass C.** GrokBot previously supported engineering/blueprints and ChatGPT authored the M6 comprehensive review, so this adjudication is transparent same-author and never changes canonical 100.
+**2026-10-20 · NEEDS TESTING, approved deck KEEP pending evidence; NOT formally independent Pass C.** GrokBot previously supported engineering/blueprints and ChatGPT authored the M6 comprehensive review, so this adjudication is transparent same-author and never changes canonical 100.
 
 ## Locked authority and source validation
 
