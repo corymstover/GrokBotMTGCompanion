@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Sol_kanar_the_Swamp_King",
-    "deep_review_complete_count": 51,
+    "next_tracker_deck_id": "Sol_kanar_the_Tainted",
+    "deep_review_complete_count": 52,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -961,10 +961,10 @@
       "baseline_engineering_logical_sha": "lh1:33b7d4dad6f4db8299e74ae421c60e0c2247aeaad5ab7f054ad8ea17ec8ead1f",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Sol_kanar_the_Swamp_King.md",
+      "completed_at_commit": "043698057b40cb1da963f38f8ee30246199c25d6",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39447347282",
       "blocker": null
     },
     {
