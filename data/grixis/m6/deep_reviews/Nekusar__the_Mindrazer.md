@@ -72,3 +72,28 @@ Each row reflects one distinct approved card, with quantity; the ledger covers *
 | 48 | 1 | Mana Vault | 1-mana artifact CCC burst; upkeep damage/untap costs, not fully repeatable Mana Crypt analogue. |
 | 49 | 1 | Marsh Flats | Fetches Swamp-typed UBR lands, not arbitrary colored land; improves black source density. |
 | 50 | 1 | Mikokoro, Center of the Sea | Colorless land, 2 tap everyone draws at instant speed, Nekusar engine at opportunity cost. |
+| 51 | 1 | Misty Rainforest | Pay1 life fetch Island-typed blue sources or typed Xander's Lounge; nine-fetchtarget package. |
+| 52 | 1 | Molten Psyche | 1RR shuffles then redraws, NO discard triggers; metalcraft >=3 artifacts damages for all cards drawn this turn. |
+| 53 | 1 | Morphic Pool | UB multiplayer untapped fixer, nonfetchable and may enter tapped in duel. |
+| 54 | 2 | Mountain | 2 fetchable basic red sources; supports wheels, only two total versus several RR spells. |
+| 55 | 1 | Mystical Tutor | U instant puts instant/sorcery on library TOP; fetched wheel can be disrupted or lost to opponent wheel. |
+| 56 | 1 | Niv-Mizzet, Parun | UUURRR demanding 6-mana 5/5; Curiosity creates optional draw/ping loop, not guaranteed without protection. |
+| 57 | 1 | Orcish Bowmasters | 1B flash, pings on ETB and each opposing draw besides first draw-step card; Ghyrson boosts exact 1. |
+| 58 | 1 | Otawara, Soaring City | U untapped channel removal spell-adjacent but ability, costs 3U reduced by legendaries. |
+| 59 | 1 | Peer into the Abyss | 4BBB target one player loses half life and draws half library (round up); lethal with enough draw-punish. |
+| 60 | 1 | Phyrexian Tyranny | 1UB makes ALL draws trigger pay2 or lose2; Krang doubles OWN life-loss trigger count, dangerous to wheel. |
+| 61 | 1 | Polluted Delta | Pay1 fetch Island/Swamp typed UBR duals; near-optimal fixing, life cost matters. |
+| 62 | 1 | Razorkin Needlehead | Damage on opponent draw from independent body; increases punisher density but dies to removal. |
+| 63 | 1 | Reforge the Soul | 3RR normal wheel seven or 1R miracle, discard/draw true triggers and may refill opponent defenses. |
+| 64 | 1 | Reliquary Tower | Colorless no maximum hand size; useful with Sphinx, colorless competes with tight commander/Niv pips. |
+| 65 | 1 | Rhystic Study | 2U generic value and interactive tax; lets pilot draw counter/wheel but opponents may pay. |
+| 66 | 1 | Scalding Tarn | Pay1 fetch Island/Mountain typed original/shock/triome; efficient U/R choice. |
+| 67 | 1 | Scrawling Crawler | Artifact creature on-plan draw punishment; double exposed to creature and artifact sweeps. |
+| 68 | 1 | Sheoldred, the Apocalypse | Own draw gains 2 life, opponent draw loses 2 life; life LOSS is not Ghyrson damage. |
+| 69 | 1 | Sol Ring | Turn-one CC acceleration, doesn't pay U/B/R, tempo high but color sequencing critical. |
+| 70 | 1 | Spiteful Visions | Each player draws extra and takes 1 DAMAGE per draw, YOU included; Krang creates extra own pings. |
+| 71 | 1 | Steam Vents | Fetchable UR shock, untapped costs 2 life; valuable for Niv UUU/RRR demands. |
+| 72 | 1 | Stormfist Crusader | BR 2/2 menace, each upkeep everyone draws and loses 1 life; may feed enemies before Nekusar online. |
+| 73 | 2 | Swamp | 2 basics, supply BBB Underworld Dreams/Peer and recovery vs nonbasic hate. |
+| 74 | 1 | Swan Song | U counters instant/enchantment/sorcery only, provides Bird; cannot stop Oracle or other creatures. |
+| 75 | 1 | Talisman of Creativity | 2-mana UR/C rock, colored taps cost 1 life; essential to Niv/commander colored requirements. |
