@@ -19,8 +19,8 @@
   "process": {
     "mode": "SEQUENTIAL_SINGLE_DECK",
     "active_tracker_deck_id": null,
-    "next_tracker_deck_id": "Thraximundar",
-    "deep_review_complete_count": 58,
+    "next_tracker_deck_id": "Tresserhorn_s_Lord__Returned",
+    "deep_review_complete_count": 59,
     "total": 62,
     "ready_for_grokbot_pass_c": false,
     "completed_reviews_are_distinct_from_m6_4_authored_coverage": true,
@@ -1087,10 +1087,10 @@
       "baseline_engineering_logical_sha": "lh1:6a7f264373b7f45348bf2de9c569b7a41d4958106f5791dcf5642dce5e16af1d",
       "source_identity_discrepancy": "NONE",
       "source_identity_issue": null,
-      "status": "PENDING",
-      "deep_review_evidence_path": null,
-      "completed_at_commit": null,
-      "ci_run_url": null,
+      "status": "DEEP_REVIEW_COMPLETE",
+      "deep_review_evidence_path": "data/grixis/m6/deep_reviews/Thraximundar.md",
+      "completed_at_commit": "21d323061f60f1bec03c0f5f9fae0414b9143215",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39478793164",
       "blocker": null
     },
     {
