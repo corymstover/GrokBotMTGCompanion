@@ -1,17 +1,17 @@
 {
   "schema": "m6_two_model_reconciliation/v1",
   "as_of_date": "2026-10-20",
-  "source_engineering_integration_at_checkpoint": "8549964fa9a7ef0016e8261b968c94c1c6368ebd",
+  "source_engineering_integration_at_checkpoint": "25f4a62a068c4873271aa60160eadfccfa0a7256",
   "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
   "canonical_ref": "main",
   "canonical_override_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
   "total_decks": 62,
-  "evidence_merged": 30,
-  "pending": 32,
+  "evidence_merged": 62,
+  "pending": 0,
   "dispositions": {
-    "KEEP": 15,
+    "KEEP": 43,
     "PROPOSE_UPGRADE": 6,
-    "NEEDS_TESTING": 9,
+    "NEEDS_TESTING": 13,
     "RULES_LEGALITY_BLOCKER": 0
   },
   "owner_approved_new_swaps": 0,
@@ -28,7 +28,8 @@
     "PRs #358-#361 passed exact-head M6 evidence integrity CI and were merged with no canonical deck mutation; five owner proposals remain UNAPPLIED.",
     "PRs #363–#367 merged with exact-head evidence-only CI green; MBC future-release exceptions resolved for project and remain officially not legal until 2026-11-13. No canonical approvals or project exception records were modified.",
     "Combined commander-by-commander source files for Beckett, Ashad, Ashnod, Be'lakor and Cecily/Bjorna are committed to one evidence-only PR; merge is atomic after exact-head CI. No owner-approved swaps or canon modifications.",
-    "Five individual candidate-strategy reconciliations Cormela/Cult/Davros/Eggman/Edea authored in evidence-only branch; exact-head CI and atomic PR merge are prerequisite to 30/62 progress. No canonical modifications."
+    "Five individual candidate-strategy reconciliations Cormela/Cult/Davros/Eggman/Edea authored in evidence-only branch; exact-head CI and atomic PR merge are prerequisite to 30/62 progress. No canonical modifications.",
+    "Owner-directed efficient agreement closeout: 28 GrokBot KEEP / ChatGPT authored KEEP cases registered by documentary consensus without redundant in-depth reconciliation, and four real ChatGPT explicit-owner-swap vs GrokBot KEEP disagreements transferred to post-seal Josh-Lee-Kwai Stage B. Scope document KEEP_AGREEMENT_REGISTER_2026-10-20.md; this is NOT independent certification or validation of new card interactions."
   ],
   "decks": [
     {
@@ -179,46 +180,51 @@
       "tracker_index": 16,
       "tracker_deck_id": "Edward_Kenway",
       "approved_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 17,
       "tracker_deck_id": "Evelyn__the_Covetous",
       "approved_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 18,
       "tracker_deck_id": "Fire_Lord_Azula",
       "approved_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 19,
       "tracker_deck_id": "Garza_Zol__Plague_Queen",
       "approved_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 20,
       "tracker_deck_id": "Goro_Goro_and_Satoru",
       "approved_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 21,
@@ -233,10 +239,11 @@
       "tracker_index": 22,
       "tracker_deck_id": "Inalla__Archmage_Ritualist",
       "approved_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 23,
@@ -251,10 +258,11 @@
       "tracker_index": 24,
       "tracker_deck_id": "Kefka__Court_Mage",
       "approved_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 25,
@@ -269,37 +277,41 @@
       "tracker_index": 26,
       "tracker_deck_id": "Grixistax___October_2026",
       "approved_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 27,
       "tracker_deck_id": "Loki__the_Deceiver",
       "approved_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 28,
       "tracker_deck_id": "Lord_of_Tresserhorn",
       "approved_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 29,
       "tracker_deck_id": "Lord_Xander__the_Collector",
       "approved_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Original ChatGPT proposes Necromancy / Persist (and Goryo alternative), GrokBot KEEP: deferred to sealed JLK Stage A then Stage B, no new swap approved.",
+      "reconciliation_depth": "OPEN_AUTHOR_PROPOSAL_DEFERRED_TO_JLK"
     },
     {
       "tracker_index": 30,
@@ -323,28 +335,31 @@
       "tracker_index": 32,
       "tracker_deck_id": "Mairsil__the_Pretender",
       "approved_sha256": "51e8fd18c7ded6744a4fa2f871925a0679f85dada3e6e517334bd13c07889ee5",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 33,
       "tracker_deck_id": "Marchesa__Dealer_of_Death",
       "approved_sha256": "34a6a940c54aaebde612ae5d3a244e22931d3a977fa26e4c43f2a76aafc0f6b1",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 34,
       "tracker_deck_id": "Marchesa__the_Black_Rose",
       "approved_sha256": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 35,
@@ -359,28 +374,31 @@
       "tracker_index": 36,
       "tracker_deck_id": "Mishra__Eminent_One",
       "approved_sha256": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 37,
       "tracker_deck_id": "Missy",
       "approved_sha256": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Original ChatGPT proposes Blasting Station / Cybermen Squadron, GrokBot KEEP: deferred to sealed JLK for sacrifice-loop proof and commander identity, no approved swap.",
+      "reconciliation_depth": "OPEN_AUTHOR_PROPOSAL_DEFERRED_TO_JLK"
     },
     {
       "tracker_index": 38,
       "tracker_deck_id": "Nathan_Drake__Treasure_Hunter",
       "approved_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 39,
@@ -395,37 +413,41 @@
       "tracker_index": 40,
       "tracker_deck_id": "Nicol_Bolas",
       "approved_sha256": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 41,
       "tracker_deck_id": "Nicol_Bolas__the_Ravager",
       "approved_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Original ChatGPT proposes Aetheric Amplifier / The Eldest Reborn, GrokBot KEEP: deferred to JLK planeswalker assessment, no approved swap.",
+      "reconciliation_depth": "OPEN_AUTHOR_PROPOSAL_DEFERRED_TO_JLK"
     },
     {
       "tracker_index": 42,
       "tracker_deck_id": "Goben__Gene_Splice_Savant",
       "approved_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 43,
       "tracker_deck_id": "Obeka__Brute_Chronologist",
       "approved_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "NEEDS TESTING",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Original ChatGPT proposes Footsteps of the Goryo / Delina Wild Mage, GrokBot KEEP: deferred to JLK delayed-end-step engine rules, no approved swap.",
+      "reconciliation_depth": "OPEN_AUTHOR_PROPOSAL_DEFERRED_TO_JLK"
     },
     {
       "tracker_index": 44,
@@ -449,37 +471,41 @@
       "tracker_index": 46,
       "tracker_deck_id": "RogSi",
       "approved_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 47,
       "tracker_deck_id": "Saruman__the_White_Hand",
       "approved_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 48,
       "tracker_deck_id": "Sauron__Lord_of_the_Rings",
       "approved_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 49,
       "tracker_deck_id": "Sauron__the_Dark_Lord",
       "approved_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 50,
@@ -503,10 +529,11 @@
       "tracker_index": 52,
       "tracker_deck_id": "Sol_kanar_the_Tainted",
       "approved_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 53,
@@ -521,10 +548,11 @@
       "tracker_index": 54,
       "tracker_deck_id": "Tetsuo__Imperial_Champion",
       "approved_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 55,
@@ -539,28 +567,31 @@
       "tracker_index": 56,
       "tracker_deck_id": "The_Rani",
       "approved_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 57,
       "tracker_deck_id": "The_Valeyard",
       "approved_sha256": "4bef619a33d85eafaf194997924fc8378dd490f62c59d76bafccc4fa07ef821c",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 58,
       "tracker_deck_id": "Thraximundar",
       "approved_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 59,
@@ -575,19 +606,21 @@
       "tracker_index": 60,
       "tracker_deck_id": "Wick__the_Whorled_Mind",
       "approved_sha256": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     },
     {
       "tracker_index": 61,
       "tracker_deck_id": "Zevlor__Elturel_Exile",
       "approved_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
-      "status": "PENDING",
-      "disposition": null,
+      "status": "EVIDENCE_MERGED",
+      "disposition": "KEEP",
       "engineering_pr": null,
-      "notes": null
+      "notes": "Documentary agreement only: GrokBot ADVISORY KEEP and authored ChatGPT deck-level KEEP; no repeat in-depth review. Source-bound under KEEP_AGREEMENT_REGISTER_2026-10-20.md; independently reviewed later in staged JLK. Owner locked deck unchanged.",
+      "reconciliation_depth": "DOCUMENTARY_KEEP_AGREEMENT_ONLY"
     }
   ]
 }
