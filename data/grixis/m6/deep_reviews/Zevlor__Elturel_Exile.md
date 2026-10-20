@@ -5,7 +5,7 @@
 ## Source and test receipts
 
 - Canonical source `corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Zevlor_Elturel_Exile_Approved_2026-10-15.txt`, approved/locked override `state/current_deck_overrides.json#decks.Zevlor__Elturel_Exile`; tracker baseline SHA-256 **`d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9`**, engineering logical `lh1:f4342af184fe4a9ebee2c9ccb6b8a4fac7d9bc98866a6bc258965fffa589c300`. Source file Git blob `37dd4f868f136198a13a2619b1288183b452f465`.
-- Source TXT independently counted **100 physical cards** across **97 names** (Island x2, Mountain x2, Swamp x2; all other names x1), 1 commander, 99 library. Commander color identity U/B/R; historical October 15 approval/verification and October 16 engineering Oracle/CR reviews report no legality/rules issues; this is not a new October 20 full Oracle/banlist rescan.
+- Source TXT independently counted **100 physical cards** across **97 TXT rows** (Island x2, Mountain x2, Swamp x2; all other names x1), 1 commander, 99 library. Commander color identity U/B/R; historical October 15 approval/verification and October 16 engineering Oracle/CR reviews report no legality/rules issues; this is not a new October 20 full Oracle/banlist rescan.
 - Engineering review packet `data/grixis/m6/review_packets/zevlor-elturel-exile.json`: **110 exact add/cut comparisons** across **97 distinct proposed additions**; candidate screen is ranking/proxy evidence, not a mandate to change owner-approved decks. `grixis/interactions/zevlor-elturel-exile.md` verifies four interaction topics with Oct16 Oracle/CR. `data/grixis/mana_base/zevlor-elturel-exile.json` is a static heuristic, not simulated games.
 - Source package: `grixis/decks/zevlor-elturel-exile.md`, `grixis/M6 Commander-First Single-Deck Review Standard.md`, and source approval-ready verification. Only this review artifact is authored; no new pipeline or research-batch run.
 
@@ -27,7 +27,7 @@ Each of the 97 source TXT rows is mapped below. The three duplicated basics make
 
 | TXT line / copies | Card | Commander-specific role and limitation |
 |---:|---|---|
-| 1 / 1 | Zevlor, Elturel Exile | 3UBR? Verify exact printed cost in source; Zevlor has activated {2}{U}{B}{R}, {T} and copies next spell targeting only a single opponent/opponent permanent for other opponents; cannot activate again without untap and full payment. |
+| 1 / 1 | Zevlor, Elturel Exile | Grixis creature with an activated {2}{U}{B}{R}, {T} and copies next spell targeting only a single opponent/opponent permanent for other opponents; cannot activate again without untap and full payment. |
 | 2 / 1 | Abrade | 2-mana interaction; target count matters: one chosen opponent/opponent permanent target qualifies, spell/own-permanent targets do not. |
 | 3 / 1 | Acquire | five-mana target opponent's library artifact theft, copy for each opponent, requires relevant artifacts in libraries. |
 | 4 / 1 | Ancient Tomb | Mana-base/utility land: check entry timing, UBR pips for Zevlor activation, and whether utility is spent on untap instead of mana. |
