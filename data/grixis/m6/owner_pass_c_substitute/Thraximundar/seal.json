@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "Thraximundar",
+  "canonical_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+  "first_stage_commit_sha": "adac5f2990e4f0b09147e3b63e142a41f1e57a0c",
+  "stage_a_md_sha256": "e8d9037c72f97de9e847c0015fdfc309d93417944a78b16a5ac303282eb77627",
+  "stage_a_json_sha256": "e95ea6ad30db9d332877f8c3d14a676bc9a6b06bd4378016886911bad78aa0ae",
+  "stage_a_md_blob": "f1f1ca4073e2a8ae09cb7d74c3dda1e2683da185",
+  "stage_a_json_blob": "0afd9ee1139ab1a4ff8adf8aa5316a2241d03008",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same model lineage/shared project context; no Thraximundar prior deck-specific verdict opened before seal",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
