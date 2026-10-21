@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "deck_id": "Be_lakor__the_Dark_Master",
+  "stage": "A_SEAL",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "formal_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "owner_authorized_independence_waiver": true,
+  "canonical_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+  "first_stage_git_commit_sha": "078cb2b47387d384f19e1f18259b7c4108444ebf",
+  "first_stage_tree_sha": "7ca1cb950c1b88323cfbc68cedb2c744c44b90fa",
+  "stage_a_md_path": "data/grixis/m6/owner_pass_c_substitute/Be_lakor__the_Dark_Master/stage_a.md",
+  "stage_a_md_sha256": "d99a6c0c3321a436fd2e346ed61c027c0cae25ac6878921a57193e69bd8368c4",
+  "stage_a_md_blob_sha": "b8717cab34cbafa95c34db35645392fbb344b50a",
+  "stage_a_json_path": "data/grixis/m6/owner_pass_c_substitute/Be_lakor__the_Dark_Master/stage_a.json",
+  "stage_a_json_sha256": "a444c8c55603acdd0cdc7afd858ccc42aa93bb1594aeef9c4c04e6487bc81b6b",
+  "stage_a_json_blob_sha": "e78f64c2ccc3e80b6a9dc64fb69f44e87f7c00a2",
+  "immutability_policy": "Stage A exact first commit and separately committed SHA-256 seal must precede unblinding. Preserve sealed A; family familiarity disclosed."
+}
