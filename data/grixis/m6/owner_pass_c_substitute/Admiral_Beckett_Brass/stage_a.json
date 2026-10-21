@@ -1,0 +1,82 @@
+{
+  "schema": "jlk_stage_a/v1",
+  "date_local": "2026-10-20",
+  "timezone": "America/Chicago",
+  "tracker_index": 1,
+  "deck_id": "Admiral_Beckett_Brass",
+  "commander": "Admiral Beckett Brass",
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "ref": "main",
+    "head_sha": "ceffdcceec19e51fa01e3cbe01cca99da0558b07",
+    "path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+    "blob_sha1": "4144e301c1964d19af3754f2ab4498e134b0f577",
+    "approved_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+    "quantity_count": 100,
+    "distinct_names": 97,
+    "only_basic_repeats": true,
+    "land_count": 35,
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "color_identity": "UBR",
+    "project_exception": "NONE"
+  },
+  "provenance": {
+    "reviewer_alias": "Josh-Lee-Kwai",
+    "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+    "technical_independence": false,
+    "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+    "strictly_blind": false,
+    "contamination": "Top-level 62/62 progress metadata disclosed Beckett City of Brass/Crumbling Necropolis proposal. During canonical locating, historically named Proposed_Final alternative excerpt became visible but was not used as list authority. Original authored, advisory and detailed reconciliation bodies unopened; common GPT-6 historical familiarity."
+  },
+  "sources": [
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json",
+    "https://magic.wizards.com/en/news/feature/ixalan-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-lost-caverns-of-ixalan-release-notes"
+  ],
+  "excluded_full_verdicts_unopened": [
+    "data/grixis/m6/deep_reviews/Admiral_Beckett_Brass.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Admiral_Beckett_Brass.md",
+    "data/grixis/m6/two_model_reconciliation/Admiral_Beckett_Brass.md"
+  ],
+  "mechanic": {
+    "requires_distinct_pirates_damage_to_same_player": 3,
+    "trigger_timing": "beginning of end step",
+    "indefinite_control": true,
+    "roaming_throne_adds_trigger_if_pirate": true
+  },
+  "hypotheses": [
+    {
+      "add": "City of Brass",
+      "cut": "Crumbling Necropolis",
+      "prior_ledger_exposure": true,
+      "rationale": "untapped UBR mana for early Pirate deployment and four-mana commander",
+      "test": "colored source turn sequencing and life-cost tradeoff"
+    },
+    {
+      "add": "Reflecting Pool",
+      "cut": "Crumbling Necropolis",
+      "prior_ledger_exposure": false,
+      "test": "source dependence on other lands"
+    },
+    {
+      "add": "Plaza of Heroes",
+      "cut": "Crumbling Necropolis",
+      "prior_ledger_exposure": false,
+      "test": "commander protection vs nonlegendary color constraints"
+    }
+  ],
+  "alternative_cuts": [
+    "Path of Ancestry",
+    "Xander's Lounge",
+    "Drowned Catacomb",
+    "Secluded Courtyard"
+  ],
+  "provisional_disposition": "PROPOSE UPGRADE",
+  "owner_swap_approved": false,
+  "canonical_modified": false,
+  "whole_oracle_refreshed": false,
+  "measured_tests_run": false,
+  "natural_ceiling_working": "Bracket 4 optimized Pirate tempo/theft"
+}
