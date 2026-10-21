@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "deck_id": "Tetsuo_Umezawa",
+  "tracker_index": 53,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_approved_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+  "canonical_blob": "2d73667699f129fbd4b33ae02017df62ea45624a",
+  "neutral_stage_a_md_blob": "7ec82d8a92fade1304c53264be5cc4342f1c0a54",
+  "provisional_disposition": "NEEDS TESTING",
+  "hypothesis": {
+    "add": "Icy Manipulator",
+    "cut": "Geode Rager",
+    "alternate_cuts": [
+      "Frozen Aether",
+      "Hylda's Crown of Winter"
+    ]
+  },
+  "prior_deck_specific_review_opened": false,
+  "contamination_disclosure": "Same GPT-6 lineage and broad project familiarity; no deck-specific earlier reviewer verdict opened before seal",
+  "limits": "No measured game tests; current Oracle and official legality require targeted refresh; historical raw SHA is authority-bound."
+}
