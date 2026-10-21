@@ -1,0 +1,63 @@
+{
+  "schema": "jlk_stage_a/v1",
+  "date_local": "2026-10-20",
+  "timezone": "America/Chicago",
+  "tracker_index": 4,
+  "deck_id": "Ashad__the_Lone_Cyberman",
+  "commander": "Ashad, the Lone Cyberman",
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "ref": "main",
+    "head_sha": "ceffdcceec19e51fa01e3cbe01cca99da0558b07",
+    "path": "refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt",
+    "blob_sha1": "df3e619f2399aee8c09483cb4353938e799ebca9",
+    "approved_raw_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+    "count": 100,
+    "distinct_names": 95,
+    "front_face_lands": 30,
+    "only_basic_repeats": true,
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "color_identity": "UBR",
+    "project_exception": "NONE_IDENTIFIED"
+  },
+  "provenance": {
+    "reviewer_alias": "Josh-Lee-Kwai",
+    "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+    "technically_independent": false,
+    "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+    "strictly_blind": false,
+    "contamination": "Top-level previous reconciliation metadata revealed unapproved Three Steps Ahead/Artificer Class dispute. No detailed authored/GrokBot/reconciliation verdict bodies before separate seal. Same GPT-6 lineage."
+  },
+  "sources": [
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Ashad_the_Lone_Cyberman_Approval_Ready_2026-10-13.txt",
+    "https://magic.wizards.com/en/news/feature/magic-the-gathering-doctor-who-release-notes",
+    "https://magic.wizards.com/en/news/feature/commander-legends-battle-baldurs-gate-release-notes-2022-06-01",
+    "https://magic.wizards.com/en/news/feature/outlaws-of-thunder-junction-release-notes"
+  ],
+  "excluded_full_verdicts_unopened": [
+    "data/grixis/m6/deep_reviews/Ashad__the_Lone_Cyberman.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Ashad__the_Lone_Cyberman.md",
+    "data/grixis/m6/two_model_reconciliation/Ashad__the_Lone_Cyberman.md"
+  ],
+  "hypotheses": [
+    {
+      "add": "Three Steps Ahead",
+      "cut": "Artificer Class",
+      "prior_admin_exposure": true
+    },
+    {
+      "add": "Three Steps Ahead",
+      "cut": "Unwinding Clock",
+      "alternative_cut": "Thopter Spy Network",
+      "prior_admin_exposure": false
+    }
+  ],
+  "material_rules_question": "Does Worldwalker Helm token creation replacement apply to Ashad casualty permanent-spell copy becoming token? Not yet asserted.",
+  "provisional_disposition": "NEEDS TESTING",
+  "natural_ceiling_working": "Bracket 4 optimized artifact casualty",
+  "owner_swap_approved": false,
+  "canonical_modified": false,
+  "whole_oracle_refreshed": false,
+  "measured_tests_run": false
+}
