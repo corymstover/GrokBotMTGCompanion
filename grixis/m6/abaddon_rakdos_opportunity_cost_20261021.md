@@ -26,7 +26,7 @@ Abaddon's own cascade-from-hand restriction remains unchanged: a commander cast 
 
 ## Comparative judgment, explicitly bounded
 
-The prior [Neheb/Assault/Loyal fixture](abaddon_neheb_assault_20261021.md) established a **conditional**, unopposed extra-combat drain finish when all key permanents are present, with legal postcombat Neheb mana and no interaction. This new fixture tests **the opportunity cost of removing Rakdos**, not the frequency of assembling either engine.
+The prior [Neheb/Assault/Loyal fixture](../../data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md) established a **conditional**, unopposed extra-combat drain finish when all key permanents are present, with legal postcombat Neheb mana and no interaction. This new fixture tests **the opportunity cost of removing Rakdos**, not the frequency of assembling either engine.
 
 **Tradeoff:** Assault is cheaper to initially cast (three mana, one red pip), supports a compact four-piece repeat-combat route with Neheb and Loyal and Abaddon, and is a noncreature permanent. Rakdos is harder to cast (`{B}{B}{R}{R}`, prior opponent loss needed) and vulnerable to creature interaction, yet reinforces Abaddon's signature same-turn loss threshold and can accelerate multiple subsequent creatures, notably Neheb and commander recasts. These are distinct, non-interchangeable roles. Total discounted *potential* is not a quantitative win benefit.
 
