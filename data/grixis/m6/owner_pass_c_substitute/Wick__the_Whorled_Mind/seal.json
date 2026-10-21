@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "Wick__the_Whorled_Mind",
+  "canonical_sha256": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+  "first_stage_commit_sha": "5f69eb3710474f67ab3eb9b257a3c58f806ea50f",
+  "stage_a_md_sha256": "d421382d9cf10b67099547eab0279c598bbe4de1c9c7f3062770ea08fff22ca5",
+  "stage_a_json_sha256": "3158a463ed0bd4adce1644a099e9b909cd521bc579626024b2042d109629f45d",
+  "stage_a_md_blob": "8f05ed22a442b0c4917c8dddcb04b288dc61f637",
+  "stage_a_json_blob": "2b6cb5900bb7ee7616179e2aa14cf8d1d74fdbc0",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same model lineage/project context; deck-specific earlier author/advisory verdicts unopened",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
