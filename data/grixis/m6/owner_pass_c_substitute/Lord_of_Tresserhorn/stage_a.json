@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "phase": "STAGE_A_NEUTRAL_ADVERSARIAL",
+  "tracker_index": 29,
+  "deck_id": "Lord_of_Tresserhorn",
+  "observation_date": "2026-10-21",
+  "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_path": "refinement/decklists/Lord_of_Tresserhorn_Approved_2026-10-14.txt",
+  "canonical_git_blob_sha": "d9ff96da998bf5773cf6bdb2c6f0fc05f19c8d76",
+  "canonical_approved_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+  "quantity_total": 100,
+  "distinct_card_names": 98,
+  "basic_swamps": 3,
+  "land_total": 35,
+  "commander": "Lord of Tresserhorn",
+  "color_identity": "UBR",
+  "reviewed_inputs": [
+    "canonical exact approved TXT and hash",
+    "canonical approval and lock status",
+    "printed/current card identities of salient cards",
+    "official Commander format and Wizards comprehensive rules dated 2026-09-25",
+    "neutral factual card/role and unranked challenger hypotheses"
+  ],
+  "excluded_inputs_before_seal": [
+    "M6 authored deck-specific review",
+    "GrokBot advisory deck-specific review",
+    "two-model reconciliation decision and rankings",
+    "historic recommendation verdicts"
+  ],
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "The same assistant/model lineage may retain previous project familiarity despite no opening of excluded deck-specific evaluation artifacts during this Stage A. Technical independence is not claimed.",
+  "source_limitations": [
+    "Complete fresh Oracle/banned card scan of all 98 names not performed in Stage A",
+    "Scryfall direct web fetch unavailable; current indexed card text for salient cards cross-checked",
+    "No measured sample hands or game simulations; card effects examined by reasoning"
+  ],
+  "provisional_disposition": "NEEDS TESTING",
+  "provisional_bracket": "Bracket 4 (strategic estimate, unvalidated)",
+  "hypotheses": [
+    "Fierce Guardianship as free noncreature protection might improve Lord survival but no evidence-backed cut yet",
+    "Distortion Strike/Artful Dodge/Soul's Fire could improve kill conversion; comparing mana/evasion/drawback dependencies is essential",
+    "Rooftop Storm and other slower slots have real Gravecrawler/aristocrat combo value and should not be treated as automatic cuts"
+  ],
+  "substantive_findings": [
+    "Lord ETB sac-two can sacrifice Lord itself; regeneration cannot save it from sacrifice",
+    "10 unmodified combat power requires three unblocked attacks to exceed 20 commander damage without infect/double-strike power boost",
+    "Uncaged Fury +1/+1 double strike yields 22 commander damage on unblocked attack",
+    "Kediss spreads noncombat creature-sourced damage, not commander damage; infect may turn this into poison kills",
+    "Torpor Orb/Karn/Dress Down suppress different trigger scopes; Stifle/Tale's End answer an on-stack trigger",
+    "Rooftop Storm doesn't erase commander tax; Gravecrawler loop depends on other Zombie and repeatable sacrifice engine",
+    "35 land slots including 3 Swamps and multiple conditional-color/utility sources"
+  ],
+  "owner_swap_approved": false,
+  "canonical_unchanged": true,
+  "tests_required": [
+    "compare protection swaps against unmodified baseline with response windows",
+    "compare cheaper conversion/evasion without papering over 35-to-34 land transition",
+    "spot-check full list Oracle legality/color before final certification"
+  ],
+  "quantified_testing_performed": false,
+  "seal_pending": true
+}
