@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "Phase_B_targeted_Rakdos_opportunity_cost_rules_fixture_preregistration",
+  "canonical_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+  "candidate_only": {
+    "add": "Aggravated Assault",
+    "cut": "Rakdos, Lord of Riots"
+  },
+  "source_files": [
+    "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+    "data/grixis/graph/abaddon-the-despoiler.json",
+    "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repository; read only)"
+  ],
+  "official_rules": "https://magic.wizards.com/en/news/feature/ravnica-remastered-release-notes",
+  "preregistered_questions": [
+    "How many baseline creature identities lose potential access to Rakdos cost reduction if the challenger replaces it, including commander recasts?",
+    "What generic reductions are possible for Abaddon and Neheb at 0, 1, 3 and 9 same-turn opponent life lost, preserving colored requirements and commander tax?",
+    "Does Rakdos affect Assault's noncreature casting or five-mana activated ability?",
+    "Do the documented life-loss reset, gain-back and source-presence conditions change the arithmetic?"
+  ],
+  "test_conditions": [
+    "Cost-reduction arithmetic only; assume Rakdos already legally cast, resolved and remains controlled",
+    "Never treat casting discount as a mana source or physical access probability",
+    "Reduce generic mana, including commander tax; never reduce colored pips",
+    "Apply cost increases before Rakdos reduction",
+    "Turn-total opponent life lost accumulates irrespective of life gain",
+    "Rakdos cannot discount itself before it enters play",
+    "Assault is an enchantment and its ability is activated; neither is a creature spell",
+    "Review baseline creature inventory from frozen Abaddon graph bound to the same list hash"
+  ],
+  "success_criteria": [
+    "Fixture asserts exact generic reductions and invariant creature inventory",
+    "Produce an evidence interpretation distinguishing opportunity cost from measured superiority",
+    "No decklist authority changes and no M6/M7 certification overclaim"
+  ],
+  "explicit_nonclaims": [
+    "No whole-deck or multiplayer test",
+    "No measured draw probabilities, game win rates or effect-aware card access",
+    "No judgment that Rakdos is categorically stronger than Aggravated Assault",
+    "No pending owner approval inferred"
+  ],
+  "authority": {
+    "can_decide_swap": false,
+    "can_change_canonical": false,
+    "can_certify_m6": false,
+    "can_approve_or_lock": false
+  }
+}
