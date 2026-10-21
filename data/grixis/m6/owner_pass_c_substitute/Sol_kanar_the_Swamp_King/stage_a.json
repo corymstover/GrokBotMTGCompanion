@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "stage": "A",
+  "deck_index": 52,
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "commander": "Sol'kanar the Swamp King",
+  "date_local": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_list_path": "refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt",
+  "canonical_list_blob_sha": "99ca0f3dfca3fbcb3c9ac9cfa2c3381cb516ac08",
+  "approved_list_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+  "approved_locked": true,
+  "baseline_physical_cards": 100,
+  "baseline_distinct_names": 95,
+  "baseline_land_cards": 35,
+  "baseline_land_capable_mdfc": 1,
+  "known_prior_exposure": "Same GPT-6 family and administrative mention of Well of Lost Dreams/Mindcrank; quarantined from Stage A conclusions.",
+  "sources_opened_before_seal": [
+    "canonical exact locked TXT",
+    "canonical approval hash",
+    "WotC public Oracle/release notes and Commander ban list",
+    "Scryfall English commander Oracle text"
+  ],
+  "prior_comprehensive_or_grokbot_or_reconciliation_opinions_opened_before_seal": false,
+  "commander_identity": "Black-spell lifegain, swampwalk/Swamp-type control, life-to-drain win conditions; Bracket 4 Optimized.",
+  "provisional_disposition": "NEEDS TESTING",
+  "preferred_challenger": {
+    "add": "Necropotence",
+    "cut": "Alhammarret's Archive",
+    "status": "UNAPPROVED_TEST_HYPOTHESIS",
+    "unverified_improvement": true
+  },
+  "alternative_cuts": [
+    "Underworld Dreams",
+    "Grindstone",
+    "Demon's Horn"
+  ],
+  "lower_priority_challenger": "Shadowspear",
+  "provisional_keep_counterargument": "Archive doubles Sol'kanar life gains and many actual draws, better preserving commander-specific multipliers and synergy; Necropotence has life, triple-black and delayed-hand friction.",
+  "actual_gameplay_tests_executed": 0,
+  "full_list_oracle_recertified": false,
+  "official_commander_legality_status": "NO_KNOWN_BLOCKER_BASED_ON_CURRENT_WOTC_BAN_LIST_NOT_FULL_CARD_BY_CARD_GATE",
+  "canonical_mutation": false
+}
