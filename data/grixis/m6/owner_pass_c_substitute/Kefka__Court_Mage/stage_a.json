@@ -1,0 +1,72 @@
+{
+  "schema": "jlk_stage_a/v1",
+  "date_local": "2026-10-21",
+  "tracker_index": 24,
+  "deck_id": "Kefka__Court_Mage",
+  "commander": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+  "stage": "A_NEUTRAL_UNBLINDED",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class_eligible": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_exposure": "Same GPT-6 lineage with possible latent familiarity; administrative summaries of other commanders visible; no Kefka-specific earlier verdicts read before Stage A.",
+  "sources": {
+    "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "canonical_ref": "main",
+    "canonical_list_path": "refinement/decklists/Kefka_Court_Mage_Approved_2026-10-14.txt",
+    "canonical_list_git_blob": "84dbe0b40730cb3a71b63f4183af63af95175ca9",
+    "approval_record_path": "state/current_deck_overrides.json",
+    "approval_record_git_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+    "approved_list_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+    "oracle_and_legality_urls": [
+      "https://media.wizards.com/2025/downloads/FIN_Release_Notes_3O87RLY5EO/EN_FIN_Release_Notes_2025_1_15.pdf",
+      "https://magic.wizards.com/en/news/feature/duskmourn-house-of-horror-release-notes",
+      "https://magic.wizards.com/en/banned-restricted-list"
+    ],
+    "full_current_card_api_validation": false
+  },
+  "baseline": {
+    "cards_including_commander": 100,
+    "unique_names": 100,
+    "library_cards": 99,
+    "lands": 28,
+    "color_identity": "UBR",
+    "official_commander_named_ban_hit": false,
+    "project_exception": null,
+    "unchanged": true
+  },
+  "strategic_identity": "Kefka enter/attack discard and distinct-card-type draw; discard payoffs, Wizard/double-trigger and blink-copy repeatability; high-speed Oracle/Consult/Pact and Breach/LED/Brain Freeze with interactive Grixis posture.",
+  "natural_ceiling": "Competitive high power / possible Bracket 5; no empirical bracket reclassification",
+  "provisional_disposition": "NEEDS TESTING",
+  "principal_concern": "Demonic Counsel has no apparent Demon targets in baseline and requires delirium before it becomes an unrestricted tutor.",
+  "preferred_hypothesis": {
+    "add": "Spellseeker",
+    "cut": "Demonic Counsel",
+    "approved": false
+  },
+  "competing_challengers": [
+    "Intuition",
+    "Roaming Throne",
+    "Windfall"
+  ],
+  "alternative_cut_concerns": [
+    "Culling the Weak",
+    "Anger",
+    "Gogo, Mysterious Mime",
+    "Grim Monolith"
+  ],
+  "mandatory_tests": [
+    "early graveyard card-type availability and mana-specific turn-state comparisons",
+    "Spellseeker vs Demonic Counsel vs Intuition effect-aware access and timing",
+    "Kefka/Prodigy/clone/necromancy and Necropotence rules",
+    "Oracle/Breach live windows and opponent graveyard/stax counterplay"
+  ],
+  "prior_author_reviews_read": false,
+  "grokbot_assessments_read": false,
+  "reconciliation_verdicts_read": false,
+  "measured_results_claimed": false,
+  "owner_swap_approval_required": true,
+  "canonical_mutated": false
+}
+
