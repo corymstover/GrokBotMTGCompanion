@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_after_owner_equivalent_pass_c_62",
+  "snapshot": "2026-10-21_after_pass_c_62_and_abaddon_phase_b_fixture",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "1c58bff4ee82c316adf7d5604184573efa94ff53",
+    "engineering_head": "e0ff24aebb6c850abfda93557a1429187303b38a",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
@@ -134,9 +134,10 @@
           "data/grixis/m6/phase_b_plans/cycle125_grok_reconciliation_and_jewel_erratum_01.json",
           "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md",
           "data/grixis/m6/phase_b_plans/cycle126_bolas_source_paid_pressure_preregistered_01.json",
-          "data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_interpretation_01.md"
+          "data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_interpretation_01.md",
+          "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md (PR #504; exact-head CI 39692748860 PASS; conditional effect-aware fixtures only)"
         ],
-        "scope": "Targeted effect-aware Phase B remains partial, including finite Abaddon rules/real-card replay and Bolas source-paid fixtures; 0/62 deck-level Phase B certificates. Prioritize exact unresolved material cases, beginning Abaddon Aggravated Assault/Neheb/Loyal Subordinate vs approved Rakdos slot, without treating deterministic traces or goldfish as measured multiplayer win rates."
+        "scope": "Targeted actual-effect rules coverage now includes ten adversarial Abaddon Neheb/Assault/Loyal deterministic cases (PR #504), plus earlier bounded Abaddon and Bolas fixtures. Zero full matched 100-card multiplayer Phase B certificates (0/62); conditional ability/payability correctness does not prove improvement versus Rakdos or source-access consistency. M6.6 remains PARTIAL."
       },
       {
         "id": "M6.7",
@@ -213,6 +214,20 @@
         "keep": 12
       },
       "certification_effect": "Completes waived owner-equivalent Pass C process, NOT original technically independent M6.5 condition; does not imply Phase B, I/J, M6 acceptance or any new M7 owner approval."
+    },
+    "phase_b_targeted_evidence": {
+      "deck_id": "Abaddon_the_Despoiler",
+      "outcome": "DETERMINISTIC_RULES_FIXTURE_COMPLETE_BUT_COMPARATIVE_SUPERIORITY_UNRESOLVED",
+      "exact_candidate": "Aggravated Assault in / Rakdos, Lord of Riots out (NOT APPLIED)",
+      "scenarios": "10 adversarial effect-aware unit tests for Neheb, Loyal Subordinate and Assault",
+      "evidence": "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md",
+      "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39692748860",
+      "merged_evidence_pr": 504,
+      "merge_commit": "e0ff24aebb6c850abfda93557a1429187303b38a",
+      "real_effects_modeled": true,
+      "is_full_deck_paired_gameplay": false,
+      "proves_swap_superiority": false,
+      "deck_level_phase_b_certificates_issued": 0
     }
   },
   "m7": {
@@ -301,7 +316,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "4/10 narrow M6 gates complete, original independent M6.5 still blocked. Separately, documented owner-equivalent Pass C is 62/62 with 47 NEEDS TESTING, 3 PROPOSE UPGRADE, 12 KEEP; technical independent reviews 0/62. M6/Phase B certificates 0/62, M7 new owner decisions 0/62; no canonical modifications."
+    "note": "4/10 narrow M6 gates complete, original independent M6.5 still blocked. Separately, documented owner-equivalent Pass C is 62/62 with 47 NEEDS TESTING, 3 PROPOSE UPGRADE, 12 KEEP; technical independent reviews 0/62. M6/Phase B certificates 0/62, M7 new owner decisions 0/62; no canonical modifications. After PR #504, one Abaddon conditional rules fixture passed CI; M6.6 remains PARTIAL and 0/62 fully certified."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
