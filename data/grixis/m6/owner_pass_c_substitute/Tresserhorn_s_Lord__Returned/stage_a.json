@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "tracker_index": 59,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_approved_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+  "canonical_source_blob": "767089b633d45e9d677f9ba447331589e71bd51c",
+  "deck_size": 100,
+  "provisional_disposition": "NEEDS TESTING",
+  "hypothesis": {
+    "add": "Sifter of Skulls",
+    "cut": "Chasm Skulker",
+    "status": "Unapproved provisional comparator"
+  },
+  "previous_deck_specific_reviews_opened": false,
+  "contamination_disclosure": "GPT-6 same model family and project background, no prior deck-specific author/GrokBot verdict opened before seal",
+  "limits": "No actual game testing or full current Oracle scan; pre-existing Oct15 legality verification referenced but not rerun."
+}
