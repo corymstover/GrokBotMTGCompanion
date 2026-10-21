@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "deck_id": "Obeka__Brute_Chronologist",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "stage": "STAGE_A_SEALED_BEFORE_UNBLIND",
+  "review_class_if_verified": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "date": "2026-10-21",
+  "canonical_owner_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+  "first_stage_commit_sha": "49a631acf4af3c019ec050af82d98dc17fbbdfd9",
+  "files": [
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Obeka__Brute_Chronologist/stage_a.md",
+      "git_blob": "4142ff267623102bfa1e3a1a98b42910f91929f7",
+      "sha256": "f6fad2158da2a7162aa2af5f09ba04de4f2984fd07848034a841b6a6bbdd09e7"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Obeka__Brute_Chronologist/stage_a.json",
+      "git_blob": "cab87591780c5f6bbeac38d85eef060ae8373497",
+      "sha256": "e6fa63de8154b5d72e64947640480a62b8652906acd94ee3d17fa53da8f2ab46"
+    }
+  ],
+  "unblinding_policy": "Original ChatGPT deep_reviews, GrokBot advisory, two_model_reconciliation, authored prior verdicts not opened before this seal. Handoff prior Footsteps of the Goryo/Delina, Wild Mage historical pair contaminated initial knowledge; quarantined and not preferred challenger.",
+  "immutability": "Never overwrite sealed Stage A to fit prior verdicts; post-seal comparison and final decision are additive.",
+  "owner_waiver": "Technical model independence waived for formal owner-equivalent Pass C only; no automatic M6/Phase B/owner swaps."
+}
