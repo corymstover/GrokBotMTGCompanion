@@ -1,0 +1,72 @@
+{
+  "schema": "jlk_stage_a/v1",
+  "date_local": "2026-10-20",
+  "timezone": "America/Chicago",
+  "tracker_index": 3,
+  "deck_id": "Anhelo__the_Painter",
+  "commander": "Anhelo, the Painter",
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "ref": "main",
+    "head_sha": "ceffdcceec19e51fa01e3cbe01cca99da0558b07",
+    "path": "refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt",
+    "blob_sha1": "0f5f55ea91f46ebded18aaff756b1f1e9d1d1ce5",
+    "approved_logical_sha256": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+    "source_raw_sha256": "8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972",
+    "hash_resolution": "documented state_explicit_approval_artifact; logical state digest and raw file digest differ",
+    "count": 100,
+    "distinct_names": 94,
+    "only_basic_repeats": true,
+    "front_face_lands": 34,
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "color_identity": "UBR",
+    "project_exception": "NONE_IDENTIFIED"
+  },
+  "provenance": {
+    "reviewer_alias": "Josh-Lee-Kwai",
+    "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+    "technically_independent": false,
+    "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+    "strictly_blind": false,
+    "contamination": "Top-level reconciliation metadata exposed prior deck KEEP classification; no full previous deck-specific verdict read before sealing. Shared GPT-6 prior familiarity."
+  },
+  "sources": [
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt",
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/exports/archidekt_2026-10-15/manifest.csv",
+    "https://magic.wizards.com/en/news/feature/streets-new-capenna-release-notes-2022-04-20",
+    "https://magic.wizards.com/en/news/feature/outlaws-of-thunder-junction-release-notes",
+    "https://magic.wizards.com/en/news/feature/ikoria-lair-of-behemoths-and-commander-2020-edition-release-notes-2020-04-10",
+    "https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23"
+  ],
+  "excluded_full_verdicts_unopened": [
+    "data/grixis/m6/deep_reviews/Anhelo__the_Painter.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Anhelo__the_Painter.md",
+    "data/grixis/m6/two_model_reconciliation/Anhelo__the_Painter.md"
+  ],
+  "hypotheses": [
+    {
+      "add": "Fable of the Mirror-Breaker",
+      "cut": "Ghoulish Procession",
+      "alternative_cut": "Startle",
+      "result": "NEEDS_TESTING_NOT_PROPOSED"
+    },
+    {
+      "add": "Plumb the Forbidden",
+      "cut": "Army of the Damned",
+      "result": "NEEDS_TESTING_NOT_PROPOSED"
+    }
+  ],
+  "notable_mechanics": [
+    "Anhelo first spell each turn with casualty2",
+    "A Little Chat intrinsic casualty1 plus granted casualty2",
+    "Twinning Staff modifies copy counts",
+    "Reiterate buyback with Mana Geyser >=6 tapped enemy lands"
+  ],
+  "provisional_disposition": "KEEP",
+  "natural_ceiling_working": "Bracket 4 optimized Anhelo casualty spells",
+  "owner_swap_approved": false,
+  "canonical_modified": false,
+  "whole_oracle_refreshed": false,
+  "measured_tests_run": false
+}
