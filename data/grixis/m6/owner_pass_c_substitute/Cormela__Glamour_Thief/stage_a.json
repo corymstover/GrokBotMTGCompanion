@@ -1,0 +1,45 @@
+{
+  "schema": "jlk_stage_a_v1",
+  "deck_number": 9,
+  "deck_id": "Cormela__Glamour_Thief",
+  "canonical_source_path": "refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt",
+  "canonical_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+  "canonical_git_blob": "ee008725234c917af858de5a9c237fc2acf6781d",
+  "total_cards": 100,
+  "unique_names": 100,
+  "lands": 30,
+  "provisional_disposition": "NEEDS TESTING",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "formal_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independent_model_execution": false,
+  "owner_waived_technical_independence": true,
+  "unblinded_prior_verdicts": false,
+  "proposed_swap_approved": false,
+  "owner_locked_canonical_modified": false,
+  "neutral_candidate_test": {
+    "add": "Muddle the Mixture",
+    "cut": "Seething Song",
+    "status": "UNAPPROVED_HYPOTHESIS"
+  },
+  "alternative_investigation": "Abrade against conditional weakest slot if resolved permanent hate proves material",
+  "test_priorities": [
+    "exact Cormela + Demonic Gifts + Phyrexian Altar mana/stack sequence",
+    "Saw in Half simultaneous deaths targets and exile responses",
+    "opening hands black/blue/red commander access",
+    "stax/hate board vulnerability",
+    "Muddle the Mixture / Seething Song exact baseline comparison"
+  ],
+  "stage_a_limitations": [
+    "not a complete Oracle/legality scan",
+    "no independent third model",
+    "no measured playtests",
+    "prior conversation familiarity not erasable"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/news/feature/kaldheim-release-notes-2021-01-22",
+    "https://magic.wizards.com/en/news/feature/unfinity-release-notes-2022-10-07",
+    "https://media.wizards.com/2024/downloads/OTJ_Release_Notes_nwYBwey2D91L/EN_MTGOTJ_ReleaseNotes_20240307.pdf",
+    "https://mtg.wtf/card/snc/177/Cormela-Glamour-Thief"
+  ]
+}
