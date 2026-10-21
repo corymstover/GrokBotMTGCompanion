@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "stage": "A",
+  "deck_id": "Sol_kanar_the_Tainted",
+  "deck_index": 53,
+  "tracker_index": 52,
+  "date_local": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_list_path": "refinement/decklists/Solkanar_the_Tainted_Approved_2026-10-15.txt",
+  "canonical_list_blob": "7ba29f9e4a855a446914566e29d2a67e93840ba0",
+  "approved_raw_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+  "count_physical": 100,
+  "count_distinct": 93,
+  "land_cards": 35,
+  "commander_identity": "UBR",
+  "power_bracket": 4,
+  "official_exception": "NONE",
+  "historical_reviews_opened_before_seal": false,
+  "contamination_disclosure": "Actual GPT-6 same family as earlier work; administrative memory exposed names Demonic Pact, Immortal Coil, Greed's Gambit but no prior review verdicts were opened for Stage A.",
+  "provisional_disposition": "NEEDS TESTING",
+  "preferred_unapproved_challenger": {
+    "add": "Displacer Kitten",
+    "cut": "Conjurer's Closet"
+  },
+  "alternate_cuts": [
+    "Planar Incision",
+    "Spiteful Banditry"
+  ],
+  "lower_priority_challenger": "Teferi's Time Twist",
+  "strongest_counterargument": "Closet unconditional recurring own-end-step blink and returns stolen creatures under OUR control; Kitten requires noncreature casts, fragile creature, and returns to OWNER, undoing temporary theft.",
+  "actual_gameplay_tests": 0,
+  "current_full_list_oracle_recognition": false,
+  "canonical_mutation": false
+}
