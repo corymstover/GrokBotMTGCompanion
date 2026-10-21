@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "Zevlor__Elturel_Exile",
+  "canonical_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+  "first_stage_commit_sha": "895f08e73fc92090972353ed3fb7cd064d6ff2f9",
+  "stage_a_md_sha256": "6c974df93eb14afb51a9d1719670ab4a0465a73246b849fdb24ed326b7359aca",
+  "stage_a_json_sha256": "928e8bb5fd7a2c5ccb8d8e60a4320730d6490f1f35a6ead32bf4472ef90091a2",
+  "stage_a_md_blob": "df0f07205acf5e889833a1cc3b7ce8595ee8412c",
+  "stage_a_json_blob": "170e754aba6e9e8a19946b3a0d958b899b0022f0",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same GPT-6 project lineage; no Zevlor prior reviewer verdict opened before seal",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
