@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "RogSi",
+  "tracker_index": 46,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Same GPT-6 family and possible latent prior RogSi/project exposure, including user-shared generic RogSi cEDH power/ranking context. No RogSi old author, advisory, reconciliation, candidate-ranking or approval rationale files read before sealed Stage A; source approval status/path/hash neutral metadata only.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/RogSi_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "6b7827592ff0f2eaca004b4b02a9867ed49a0879",
+  "canonical_approved_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 100,
+  "land_cards": 24,
+  "nonbasic_singleton_violations": 0,
+  "partner_commanders": 2,
+  "color_identity": "UBR",
+  "commander_identity": "Rograkh zero-mana red sac/legend/mana enabler; Silas Renn blue-black deathtouch combat damage artifact recast support; turbo Ad Nauseam/Thassa's Oracle/Consult-Pact and Breach-LED-Brain Freeze",
+  "natural_power_ceiling": "Bracket 5 cEDH; high-turbo ceiling with genuine commander/Rograkh ritual and zero-mana artifact synergies",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Orcish Bowmasters",
+    "cut": "Vexing Bauble",
+    "alternative_cut": "Paradise Mantle",
+    "reason": "Opponents' extra draws and wheel punish versus current symmetric no-mana-spent self-counter tension; sacrifices Bauble's high leverage anti-free-spell lock"
+  },
+  "secondary_challenger": {
+    "add": "Dauthi Voidwalker",
+    "cut": "Vexing Bauble",
+    "alternate_cut": "Paradise Mantle",
+    "status": "LOWER_CONFIDENCE_TWO_BLACK_META_DEPENDENT"
+  },
+  "strategic_weaknesses": [
+    "24 lands and multiple colored symbols with conditional Mox/land production",
+    "Vexing Bauble self-counters initial 0-mana Rograkh/free alternate-cost protection unless relevant mana paid or Hexing Squelcher prevents countering",
+    "Necrodominance broad own graveyard replacement against Breach/LED/Silas/Demonic Counsel delirium",
+    "Silas recursion combat and spell timing conditional",
+    "opponent artifact/graveyard tax and Rule of Law"
+  ],
+  "rules_checks": [
+    "Silas deals combat damage to player to target artifact in your graveyard; normal timing and costs",
+    "Rograkh red color indicator with mana cost zero, partner UBR",
+    "Vexing Bauble checks mana actually spent not printed mana value, triggers even under split second",
+    "Hexing Squelcher protects spells from being countered, conditional on survival",
+    "Samut grants split second to own instant/sorcery spells; triggered abilities still happen",
+    "Necrodominance replaces cards/tokens going to own graveyard from anywhere",
+    "Demonic Counsel generic search only with 4+ card types in own graveyard",
+    "Valley Floodcaller untap types don't include Kobolds",
+    "Springleaf Drum taps a fresh Rograkh as Drum cost, Mantle equip-tap on fresh Rograkh suffers sickness",
+    "Flare of Duplication can sacrifice nontoken red Rograkh instead of mana"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/news/feature/commander-2016-edition-release-notes-2016-10-28",
+    "https://magic.wizards.com/en/news/feature/modern-horizons-3-release-notes",
+    "https://magic.wizards.com/en/news/feature/reality-fracture-release-notes",
+    "https://magic.wizards.com/en/news/feature/lorwyn-eclipsed-release-notes",
+    "https://magic.wizards.com/en/news/feature/duskmourn-house-of-horror-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes",
+    "https://magic.wizards.com/en/banned-restricted-list"
+  ],
+  "limits": [
+    "No historical RogSi reviewer findings opened before Stage A hard seal",
+    "No actual effect-aware tests or win-rate measurements",
+    "Selected WotC Oracle text checked, not 100 fresh card-specific Oracle transcriptions",
+    "Same GPT-6 lineage cannot be made technically independent by source isolation"
+  ]
+}
