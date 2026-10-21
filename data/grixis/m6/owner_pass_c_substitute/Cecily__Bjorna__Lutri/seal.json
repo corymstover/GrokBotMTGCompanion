@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "deck_id": "Cecily__Bjorna__Lutri",
+  "stage": "A_SEAL",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "formal_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "owner_independence_waiver": true,
+  "canonical_approved_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+  "first_stage_commit_sha": "c462cae883d0fb5a325c7d2ff61ae160439be87d",
+  "first_stage_tree_sha": "4ec801c4c2d45d8844f0fea1015ac37164a885e7",
+  "stage_a_md_path": "data/grixis/m6/owner_pass_c_substitute/Cecily__Bjorna__Lutri/stage_a.md",
+  "stage_a_md_sha256": "63bd3e9ffe2808e25151ec102b9be302fdf2d4b7290e25a579df9f72f441f194",
+  "stage_a_md_blob": "a27b31f7fe548f9cf770cb1b355264c5c9e2194c",
+  "stage_a_json_path": "data/grixis/m6/owner_pass_c_substitute/Cecily__Bjorna__Lutri/stage_a.json",
+  "stage_a_json_sha256": "70861987458c44568642ee62bee00d378ee4533e2d220d5e3e86b923d9a06980",
+  "stage_a_json_blob": "e8994a7f25c4bd387382e0e061be69a8429c8835",
+  "count_policy": "100 main with two commanders + 98 library; one external Lutri companion via project authorized official ban exception",
+  "process_note": "Separate commit seals immutable Stage A prior to reading former detailed review verdicts; model familiarity and administrative approval-basis exposure disclosed."
+}
