@@ -15,6 +15,9 @@ on:
     paths:
       - .github/workflows/m6-m7-progress-integrity.yml
       - data/grixis/milestone_m6_m7_subtracker.json
+      - data/grixis/m6/governance/pass_c_owner_waiver_20261021.json
+      - grixis/M6 Pass C Owner Waiver 2026-10-21.md
+      - grixis/Grixis M6 I-J Contract.md
       - grixis/M6-M7 Secondary Completion Tracker.md
       - tests/test_m6_m7_subtracker.py
       - data/grixis/registry.json

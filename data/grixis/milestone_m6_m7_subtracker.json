@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_after_pass_c_62_and_abaddon_phase_b_fixture",
+  "snapshot": "2026-10-21_owner_formal_waiver_pass_c_62_and_bounded_phase_b",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
@@ -23,7 +23,7 @@
     "canonical_approved_locked": 62,
     "canonical_total": 62,
     "m8_certified": 0,
-    "warning": "Do not equate M7 review decisions with the 62 existing approvals; do not count authored reviews as independent Pass C; do not count paired goldfish/source access/scripted fixtures as completed effect-aware Phase B."
+    "warning": "Do not equate the owner-waived M6.5 gate count with independent third-model review (actual independent 0/62); do not count authored reviews as independent Pass C; do not count paired goldfish/source access/scripted fixtures as completed effect-aware Phase B; do not count historical 62 canonical approvals as current M7 approvals."
   },
   "legend": {
     "COMPLETE": "The gate as stated is done; the evidence limitation is included in its scope.",
@@ -102,9 +102,9 @@
       },
       {
         "id": "M6.5",
-        "title": "Named genuinely independent Pass C and disagreement resolution",
-        "status": "BLOCKED",
-        "completed": 0,
+        "title": "Pass C critical review with owner-authorized independence waiver",
+        "status": "COMPLETE",
+        "completed": 62,
         "total": 62,
         "evidence": [
           "data/grixis/m6/sealed/reconciliation_manifest.json",
@@ -115,9 +115,19 @@
           "data/grixis/m6/phase_b_plans/cycle127_batch_intake_preregistered_01.json",
           "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39206691858 — 62 neutral review-intake packets, no independent critic certification",
           "data/grixis/m6/owner_pass_c_substitute/progress.json (owner-equivalent 62/62, no technical independence)",
-          "PR #501 final Zevlor evidence and PR #502 final owner-equivalent progress ledger"
+          "PR #501 final Zevlor evidence and PR #502 final owner-equivalent progress ledger",
+          "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json (Cory's explicit 2026-10-21 formal replacement authorization; technical independence 0/62)",
+          "grixis/M6 Pass C Owner Waiver 2026-10-21.md"
         ],
-        "scope": "Owner-authorized GPT-6 owner-equivalent Pass C sealed/final 62/62, with 47 NEEDS TESTING, 3 PROPOSE UPGRADE and 12 KEEP dispositions. This does not fulfill the original genuinely independent third-model condition (0/62), which remains BLOCKED unless separately accepted/waived for final M6 certification. Existing canonical approvals and raw SHA-256 are unchanged."
+        "scope": "M6.5 governance condition SATISFIED by Cory's direct formal waiver of the original independent third-model requirement in favor of the 62/62 GPT-6 owner-equivalent Pass C final dispositions (47 NEEDS TESTING, 3 PROPOSE UPGRADE, 12 KEEP). Technical third-model independence was NOT performed (0/62) and must never be claimed. Waiver covers this gate only, with no Phase B/J/I, judgment, M6 acceptance, M7 approval or canonical list authority.",
+        "original_independent_requirement": {
+          "required_before_waiver": true,
+          "technically_completed": 0,
+          "technically_completed_out_of": 62,
+          "waived_by_owner": true
+        },
+        "completion_basis": "OWNER_AUTHORIZED_NONINDEPENDENT_PASS_C_SUBSTITUTE",
+        "waiver_receipt": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
       },
       {
         "id": "M6.6",
@@ -162,7 +172,7 @@
           "grixis/Grixis M6 I-J Contract.md",
           "data/grixis/schemas/zero_improvement_certificate.schema.json"
         ],
-        "scope": "No valid tested-pool local-optimum certificate can issue before independent review, judgment and required Phase B."
+        "scope": "No valid tested-pool local-optimum certificate can issue before decision-grade judgments and required Phase B; M6.5's original independent-critic requirement is formally owner-waived, without reducing I/J obligations."
       },
       {
         "id": "M6.9",
@@ -204,7 +214,7 @@
       "total": 62,
       "technically_independent": false,
       "genuinely_independent_third_model_reviews": 0,
-      "documented_owner_waiver": "2026-10-20 owner waiver recorded per-deck and in owner_pass_c_substitute/progress.json",
+      "documented_owner_waiver": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json (Cory formal replacement authorization, 2026-10-21; original 2026-10-20 formal Pass C process waiver preserved)",
       "source": "data/grixis/m6/owner_pass_c_substitute/progress.json",
       "last_review_pr": 501,
       "last_ledger_pr": 502,
@@ -214,7 +224,9 @@
         "propose_upgrade": 3,
         "keep": 12
       },
-      "certification_effect": "Completes waived owner-equivalent Pass C process, NOT original technically independent M6.5 condition; does not imply Phase B, I/J, M6 acceptance or any new M7 owner approval."
+      "certification_effect": "M6.5's amended GOVERNANCE condition COMPLETE by explicit owner substitution of non-independent GPT-6 owner-equivalent 62/62 Pass C for the original third-model critic. Actual genuinely independent reviewer count remains 0; this waives no other M6 gate, M6 program acceptance, Phase B, M7 decision or canonical list change.",
+      "original_independent_gate_waived_for_m6_governance": true,
+      "m6_5_waiver_receipt": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
     },
     "phase_b_targeted_evidence": {
       "deck_id": "Abaddon_the_Despoiler",
@@ -307,17 +319,17 @@
     ]
   },
   "display": {
-    "m6_completed_gates": 4,
+    "m6_completed_gates": 5,
     "m6_total_gates": 10,
-    "m6_gate_completion_percent": 40,
+    "m6_gate_completion_percent": 50,
     "m6_partial_gates": 1,
-    "m6_unfulfilled_gates": 6,
+    "m6_unfulfilled_gates": 5,
     "m7_completed_gates": 0,
     "m7_total_gates": 6,
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "4/10 narrow M6 gates complete, original independent M6.5 still blocked. Separately, documented owner-equivalent Pass C is 62/62 with 47 NEEDS TESTING, 3 PROPOSE UPGRADE, 12 KEEP; technical independent reviews 0/62. M6/Phase B certificates 0/62, M7 new owner decisions 0/62; no canonical modifications. After PR #504, one Abaddon conditional rules fixture passed CI; M6.6 remains PARTIAL and 0/62 fully certified."
+    "note": "5/10 M6 subordinate gates complete under the expressly amended governance standard: M6.5 is owner-waived/substituted using 62/62 GPT-6 owner-equivalent Pass C, with genuinely independent third-model reviews still 0/62. M6.6 Phase B PARTIAL and 0/62 certified; M6 itself IN PROGRESS and NOT accepted. M7 new owner decisions 0/62, canonical approved/locked baseline 62/62 unchanged; no Phase B gameplay or new deck swap implied."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
