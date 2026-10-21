@@ -1,0 +1,30 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 27,
+  "deck_id": "Grixistax___October_2026",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "Same GPT-6 lineage and prior familiarity; GitHub in-flight PR discovery also inadvertently surfaced M2 blueprint PR #123 synopsis (B5; Kraum near-incidental). This is acknowledged Stage-A exposure; detailed M6 authored/GrokBot/reconciliation verdicts remained unopened.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_raw_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+  "canonical_git_blob_sha": "86b8d18aeb44ab74a720b60e08d661d272fa98c9",
+  "stage_a_commit_sha": "b29a4f304a22e7fd82f07d292afba353dbc6f1e8",
+  "stage_a_parent_commit_sha": "2048cbd340454b71606082d3f071705db5e4e8e0",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "ced8de7ff81ddba73c3aa11833d72292120008160c0e0d89b3948b52aceb7308",
+      "git_blob_sha": "48fe6aa4ce82f62fb7e58527c5a2ceb682a17036"
+    },
+    "stage_a.json": {
+      "sha256": "415ba221b0a028053cbbaf564887a832d2a4ea8ab2f19d9d86677b249c37efc2",
+      "git_blob_sha": "8dbbdaf9ce181e28dcda020cffd16926ce5ac684"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Sealed Stage A must not be overwritten; any correction belongs in Stage B/C."
+}

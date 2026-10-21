@@ -1,0 +1,57 @@
+{
+  "schema_version": "jlk-stage-a-1",
+  "deck_index": 27,
+  "tracker_index": 26,
+  "deck_id": "Grixistax___October_2026",
+  "commander": "Kraum, Ludevic's Opus // Tevesh Szat, Doom of Fools",
+  "date": "2026-10-21",
+  "stage": "A_NEUTRAL_PRE_UNBLIND",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_path": "refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt",
+  "canonical_blob_sha": "86b8d18aeb44ab74a720b60e08d661d272fa98c9",
+  "canonical_approved_list_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+  "card_count": 100,
+  "library_cards": 98,
+  "distinct_names": 100,
+  "lands": 26,
+  "nonbasic_lands": 23,
+  "color_identity": "UBR",
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "history_contamination_risk": "Shared GPT-6 lineage and earlier exposure possible. Live GitHub PR search inadvertently revealed M2 blueprint PR #123 synopsis (B5, Kraum relatively incidental) before sealing; no detailed author, GrokBot or reconciliation report opened.",
+  "author_opinions_read_in_stage_a": false,
+  "grok_verdicts_read_in_stage_a": false,
+  "reconciliation_opinions_read_in_stage_a": false,
+  "partial_historical_blueprint_snippet_exposed": true,
+  "disposition": "NEEDS TESTING",
+  "challenger_add": "Talisman of Indulgence",
+  "challenger_cut": "Mox Amber",
+  "alternative_cuts": [
+    "Overburden",
+    "Karn, the Great Creator"
+  ],
+  "alternative_adds": [
+    "Arcane Signet",
+    "The One Ring"
+  ],
+  "core_identity": [
+    "Tevesh token/Contamination stax and Skullclamp draws",
+    "Kraum pressure/opponent second-spell draw",
+    "Orb/Moon/Trinisphere denial with artifact-mana asymmetry",
+    "Breach/LED/Brain Freeze and Helm/void finishes"
+  ],
+  "key_rules_correction": "Overburden triggers only nontoken creature entries, not Tevesh Thrull token creation",
+  "primary_caveats": [
+    "40.01% zero-or-one-land raw seven-card rate is not mulligan keep-rate or win rate",
+    "No empirical testing, exhaustive current Oracle validation or owner-approved swap",
+    "B5 ceiling synopsis was inadvertently exposed pre-seal"
+  ],
+  "is_formally_completed": false,
+  "notes_file": "stage_a.md"
+}
