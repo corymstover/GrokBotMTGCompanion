@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_id": "Thraximundar",
+  "tracker_index": 58,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_approved_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+  "canonical_source_blob": "be5c2cad3584cb57bd4e3c01e0e1a0c406231e60",
+  "deck_size": 100,
+  "provisional_disposition": "NEEDS TESTING",
+  "hypothesis": {
+    "add": "Ophiomancer",
+    "cut": "Necrotic Hex",
+    "status": "Unverified hypothesis; no owner approval"
+  },
+  "previous_deck_specific_reviews_opened": false,
+  "contamination_disclosure": "Prior shared project and GPT-6 model-family context; deck-specific author/advisory verdict unopened before Stage A",
+  "limitations": "No gameplay measurements or new full live Oracle/legality gate; official legality inherits historical Oct15 certification only"
+}
