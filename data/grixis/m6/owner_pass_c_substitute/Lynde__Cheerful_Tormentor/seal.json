@@ -1,0 +1,32 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 31,
+  "tracker_index": 30,
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "Shared GPT-6 project context may contain residual familiarity. No current deck-specific M6 authored verdict, GrokBot advisory, reconciliation result or past candidate ranking was opened as a Lynde Stage A input.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt",
+  "canonical_raw_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+  "canonical_git_blob_sha": "5731e68950886cd8efb655edd4c49416c86aa3d8",
+  "stage_a_commit_sha": "b4c985688c4bee3db76d18bb0c3ada940ec79c98",
+  "stage_a_parent_commit_sha": "a57b1efa23683134d42f436a39b9ddfbee85982c",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e",
+      "git_blob_sha": "b253ed9c4c7543b4c369dba957b2b4971c059133"
+    },
+    "stage_a.json": {
+      "sha256": "d2b968bb9990d57920f983e9a5a40cf3fefe849d567b925b48bfc085ee7407eb",
+      "git_blob_sha": "1d5660ce1c9dcff33cf1245633bd4ed1d09d9afc"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Never rewrite sealed files; document subsequent corrections in B/C."
+}
