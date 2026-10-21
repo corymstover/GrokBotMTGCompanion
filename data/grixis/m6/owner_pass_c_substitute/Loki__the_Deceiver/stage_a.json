@@ -1,0 +1,62 @@
+{
+  "schema_version": "jlk-stage-a-1",
+  "deck_index": 28,
+  "tracker_index": 27,
+  "deck_id": "Loki__the_Deceiver",
+  "commander": "Loki, the Deceiver",
+  "date": "2026-10-21",
+  "stage": "A_NEUTRAL_PRE_UNBLIND",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_path": "refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt",
+  "canonical_blob_sha": "456d62d45e6e5ffb283a97b5603997a4d1d74c3e",
+  "canonical_approved_list_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+  "card_count": 100,
+  "library_cards": 99,
+  "distinct_names": 95,
+  "lands": 34,
+  "basic_lands": 8,
+  "color_identity": "UBR",
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "history_contamination_risk": "Same GPT-6 lineage and possible historical familiarity; no deck-specific previous M6 authored/advisory/reconciliation text opened before seal",
+  "author_opinions_read_in_stage_a": false,
+  "grok_verdicts_read_in_stage_a": false,
+  "reconciliation_opinions_read_in_stage_a": false,
+  "disposition": "NEEDS TESTING",
+  "challenger_add": "Strionic Resonator",
+  "challenger_cut": "Swiftfoot Boots",
+  "alternative_adds": [
+    "Shared Animosity",
+    "Helm of the Host"
+  ],
+  "alternative_cuts": [
+    "Sundial of the Infinite",
+    "Hall of Echoes"
+  ],
+  "core_identity": [
+    "Four-mana Loki Villain attacking Illusion copy",
+    "per-player Villain combat draw",
+    "The Master Multiplied and Sundial delayed-copy retention",
+    "Villain typal ETBs and combat damage"
+  ],
+  "key_rules": [
+    "Loki's newly copied Villain enters tapped attacking but did not attack",
+    "Loki delayed sacrifice occurs at beginning of next end step",
+    "The Master suppresses token sacrifices from controlled triggers",
+    "Sundial timing must occur with delay trigger on stack",
+    "Token dying cannot be recovered by Thunderbolts Conspiracy"
+  ],
+  "primary_caveats": [
+    "Strionic adds two mana and tap after attack, while Boots protection/haste is essential",
+    "Current Oracle indexed/official sources, not a fresh all-100 legality API sweep",
+    "No measured seed-based games or owner-approved swap"
+  ],
+  "is_formally_completed": false,
+  "notes_file": "stage_a.md"
+}

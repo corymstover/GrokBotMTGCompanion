@@ -1,0 +1,30 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 28,
+  "deck_id": "Loki__the_Deceiver",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "Same GPT-6 lineage and possible inherited familiarity; no Loki-specific prior author M6, GrokBot advisory or reconciliation decision was opened before this seal.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_raw_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+  "canonical_git_blob_sha": "456d62d45e6e5ffb283a97b5603997a4d1d74c3e",
+  "stage_a_commit_sha": "e1bfef564b035e0b7ae5c0428bd5894d9c3d3a4d",
+  "stage_a_parent_commit_sha": "13a56042a640cd5851bf7e574deff3399a1b41ca",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "2b9a529246254a9e39a5ee4c5ae155e2ddcaf0b78e3891c2708be6aad6bfff71",
+      "git_blob_sha": "a58d2941bda9621049c066e208815d4abcb397e9"
+    },
+    "stage_a.json": {
+      "sha256": "66aa304fa81b201b92bae7e6cbc85a61146362ef0a5cbbaa37b22510869ead3d",
+      "git_blob_sha": "2af4f9193ddbce095bdbc8dbfc1938e0e8e61d98"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Never rewrite sealed Stage A; any mistakes must be corrected and documented in Stage B/C."
+}
