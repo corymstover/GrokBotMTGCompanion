@@ -63,7 +63,7 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
 
     def test_ruinous_powers_opponent_is_card_owner(self):
         item=next(x for x in self.data["candidates"] if x["card"]=="The Ruinous Powers")
-        self.assertIn("that opponent",item["benefit"])
+        self.assertIn("the opponent whose library it came from",item["benefit"])
         self.assertIn("OWNER",item["benefit"])
         self.assertIn("warhammer-40000-commander-release-notes",str(item["judgment_review"]["evidence_items"]))
 
