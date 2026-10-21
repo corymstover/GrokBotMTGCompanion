@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Sedris__the_Traitor_King",
+  "tracker_index": 50,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Same GPT-6 family and possible latent project knowledge. No deck-specific prior Sedris deep review, GrokBot verdict, reconciliation or historic ranking opened as Stage A input.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Sedris_the_Traitor_King_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "fc33a2493255d6033691b1195d1bc1091b420b3b",
+  "canonical_approved_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 99,
+  "commander_color_identity": "UBR",
+  "singleton_exemptions": "Swamp2 legal basic repeat",
+  "project_exceptions": [],
+  "commander_strategy": "Six-mana Sedris grants each creature card in own graveyard unearth 2B; haste ETB/attack value; preserve via properly timed end-turn and phase-out effects, with unearth leave-battlefield exile replacement continuing",
+  "natural_power_ceiling": "Optimized Bracket4, graveyard-hate and commander-access dependent",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Altar of Dementia",
+    "cut": "Panharmonicon",
+    "alternative_cut": "Etali, Primal Storm",
+    "rationale": "Two-mana free creature sacrifice mills by sacrificed power to refill target pool; losing Panharmonicon doubled ETBs or Etali haste attack is significant"
+  },
+  "rules_checks": [
+    "Unearth granted per creature CARD in graveyard is that card's own activated ability and sorcery-speed",
+    "Unearth creature exiles at next end step, or if it would leave battlefield elsewhere; sacrificing to Altar exiles the creature",
+    "End the turn with delayed exile trigger ALREADY on stack to remove it; premature end does not claim safe persistence",
+    "Convergence of Dominion cost discount requires controlling commander and costs at least one mana",
+    "Teferi's Veil phasing is not zone change and requires attacking",
+    "Obeka cannot force opponent to end their turn; Sundial active player's own turn only",
+    "Gifts Ungiven unbanned April 22, 2025 and legal per current first party"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/news/feature/double-masters-2022-release-notes-2022-06-24",
+    "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
+    "https://magic.wizards.com/en/news/feature/the-brothers-war-release-notes",
+    "https://magic.wizards.com/en/news/announcements/commander-bans-and-restrictions-april-22-2025",
+    "https://magic.wizards.com/en/banned-restricted-list",
+    "https://magic.wizards.com/en/news/card-preview/from-the-lab-energy-and-strategies-in-modern-horizons-3"
+  ],
+  "limits": [
+    "No former Sedris reviewer verdict opened before neutral seal",
+    "No gameplay measured, no complete 99-name updated Oracle legality sweep",
+    "Not actual independent third-model execution",
+    "No canonical mutation or M6 certification"
+  ]
+}
