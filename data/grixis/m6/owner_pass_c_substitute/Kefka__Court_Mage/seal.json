@@ -1,0 +1,30 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 25,
+  "deck_id": "Kefka__Court_Mage",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "Same GPT-6 family and potentially latent historical context; limited administrative summaries for other commanders were previously visible, but no earlier Kefka-specific analysis or verdict was read in Stage A.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_raw_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+  "canonical_git_blob_sha": "84dbe0b40730cb3a71b63f4183af63af95175ca9",
+  "stage_a_commit_sha": "4fead75204f85168a7b3d3481e81ed4180f9834a",
+  "stage_a_parent_commit_sha": "b1532b870a96fc3ef791821b8fe0a297a66df27f",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "1b3e0021d609e107a7c514aa91dc2914a24d2e0fe53d6b4154360146c8594896",
+      "git_blob_sha": "e85e0191d76af2743e7090522a48a2f151baacd0"
+    },
+    "stage_a.json": {
+      "sha256": "671b8c231aac278945c7c5a56c439fcfcc0c84097967a446a619ca4df40da904",
+      "git_blob_sha": "fb6b1435935b547e3a45263d31dcea75978c50f8"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Never rewrite this Stage A or seal to agree with earlier reports; append a new version on any needed correction."
+}
