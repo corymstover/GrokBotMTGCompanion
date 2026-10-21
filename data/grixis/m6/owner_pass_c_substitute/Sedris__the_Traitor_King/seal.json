@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "deck_id": "Sedris__the_Traitor_King",
+  "tracker_index": 50,
+  "sealed_stage": "A",
+  "seal_date_local": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "review_class_when_final": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "first_stage_commit_sha": "cb4591485df61eec582b82820b89ae34650a0d1f",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_source_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
+  "canonical_approved_raw_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+  "artifacts": {
+    "stage_a.md": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sedris__the_Traitor_King/stage_a.md",
+      "sha256": "4f730ea771d246b9739dd6b9e025bb1615fd984a2a6a3f788fd2455c05017c59",
+      "git_blob_sha": "549219dd535dffb0f4ce7598cc33b846bf180cc0"
+    },
+    "stage_a.json": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sedris__the_Traitor_King/stage_a.json",
+      "sha256": "0e0fb83faf6bbd34261b17f981693d3b3eb1c146d8f3450c8c00707bdaf2c49b",
+      "git_blob_sha": "65b63505e462380bde6229c266788b16af3fbcf1"
+    }
+  },
+  "prior_exposure_disclosure": "Actual same-model lineage and prior project exposure remain. During GitHub state recovery reconciliation summary metadata and previous Sedris PR #313/#363 search snippets exposed KEEP and Ghostly Flicker / Sundial timing hypotheses. Earlier full author/GrokBot/reconciliation verdict artifacts were not opened before this stage and seal. This Stage A is not blind or technically independent.",
+  "sealed_before_stage_b": true,
+  "stage_b_opened": false,
+  "stage_a_source_string_verified_equal_to_github": true
+}
