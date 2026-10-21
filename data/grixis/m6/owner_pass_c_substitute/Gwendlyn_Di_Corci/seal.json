@@ -1,0 +1,32 @@
+{
+  "deck_id": "Gwendlyn_Di_Corci",
+  "tracker_index": 21,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "formal_pass_c_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technical_model_independence": false,
+  "owner_independence_waiver": true,
+  "stage_a_input_boundary": "Only exact owner-approved canonical TXT and SHA, neutral current Oracle/card facts and project protocol; earlier authored, GrokBot and reconciliation verdicts not opened before sealing. Previous project familiarity cannot be erased.",
+  "canonical_path": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+  "canonical_git_blob": "4ef2c267314322be9793a1e5490613b98520a24e",
+  "canonical_raw_no_final_newline": true,
+  "canonical_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+  "first_stage_commit_sha": "6c381750b3dd20053c6d6f021087e04a634a46fd",
+  "first_stage_commit_parent_sha": "fd58e96524bf280fe8c476d903efcf71b89bd624",
+  "artifacts": {
+    "stage_a.md": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/stage_a.md",
+      "sha256": "fce722dd3021dd25e7a7aa6d0ee69d41fa16f04d1f9e146ab92d6bd830dfc668",
+      "git_blob_sha": "8be2aac0dce89bc90235d0fde6c5e5d5a3633b20"
+    },
+    "stage_a.json": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Gwendlyn_Di_Corci/stage_a.json",
+      "sha256": "bfb999d5f9646022731dd78a674506fc12d209a95b942d3f73784ae26f83c31b",
+      "git_blob_sha": "7a977516d773195dcfac97fbd4e8997486625a16"
+    }
+  },
+  "seal_committed_in_separate_git_commit": true,
+  "stage_a_immutable_after_seal": true,
+  "owner_swap_approved": false,
+  "canonical_deck_changed": false
+}
