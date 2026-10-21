@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_PRE_UNBLINDING",
+  "tracker_index": 6,
+  "deck_id": "Be_lakor__the_Dark_Master",
+  "canonical_deck_id": "Be_lakor_the_Dark_Master",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "owner_waiver": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "review_date_local": "2026-10-20",
+  "canonical_source_path": "refinement/decklists/Be_lakor_the_Dark_Master_Approved_2026-10-13.txt",
+  "canonical_source_blob": "897215093911791686611bdc772204e43582f835",
+  "canonical_approved_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+  "total_card_copies": 100,
+  "distinct_names": 94,
+  "lands": 36,
+  "color_identity": [
+    "U",
+    "B",
+    "R"
+  ],
+  "previous_verdicts_read": false,
+  "technical_model_familiarity_disclosed": true,
+  "provisional_disposition": "NEEDS TESTING",
+  "challenger_add": "Displacer Kitten",
+  "challenger_cut": "Warstorm Surge",
+  "challenger_swap_approved": false,
+  "mechanical_test_question": "Kicked Rite of Replication targeting Be'lakor: 5 entering legendary copies, simultaneous Lord of Torment triggers, Prince of Chaos draw counts after legend-state actions, and LKI damage-source handling",
+  "testing_completed": false,
+  "canonical_unchanged": true
+}
