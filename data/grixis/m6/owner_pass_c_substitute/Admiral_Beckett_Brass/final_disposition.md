@@ -1,0 +1,41 @@
+# Josh-Lee-Kwai — Admiral Beckett Brass — formal owner-equivalent Pass C final disposition
+
+**Index/ID:** 1 / `Admiral_Beckett_Brass`. **Date:** 2026-10-20 America/Chicago.  
+**Reviewer:** Josh-Lee-Kwai; **actual evaluator:** ChatGPT/OpenAI GPT-6; **actual technical independence:** false.  
+**Owner-waived formal classification:** `FORMAL_PASS_C_OWNER_EQUIVALENT` under Cory's 2026-10-20 governance exception (`independence_requirement=OWNER_WAIVED_FOR_FORMAL_PASS_C`).  
+**Review stage:** FINAL A → separately committed seal → B comparison → C disposition, subject to exact-head CI.  
+**Final disposition:** **PROPOSE UPGRADE (UNAPPROVED)** `+1 City of Brass / -1 Crumbling Necropolis` with explicit bounded comparative tests required for M6/M7 certification. No canonical mutation.
+
+## Exact source, seal and reviewer provenance
+
+- Canonical repo/branch: `corymstover/grixis-commander-encyclopediaGPT/main`; observed head `ceffdcceec19e51fa01e3cbe01cca99da0558b07`. File `refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt` Git blob `4144e301c1964d19af3754f2ab4498e134b0f577`.
+- Raw approved **SHA-256 `4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414`** independently recalculated from GitHub content and matched `state/current_deck_overrides.json`. Approved **100 total**, **97 names**, basic Islands x3 and Mountains x2 only duplicates, **35 lands**, Grixis UBR, no exception; existing owner `APPROVED/LOCKED` remains immutable.
+- Stage A first Git commit `f88f7e76ebb13eef2ef41fe3469cf7c0106b2d82`; separately committed seal `051ce82ddb5e5323bccca7d6b985fcc58bbf2086`. SHA256 of `stage_a.md`: `cfb62e6a07afa2f52276bc85634b10d8cafdc610d120a43236001d9d57b6b8ba`; JSON: `030606a80ecf9586e2cd1889c1466a1625ac8065bf5448d7b721e3f9b4685f06`; source/first Git commit/SHA receipts in `seal.json`.
+- Prior verdict contamination **declared**: administrative progress summary exposed exact City/Necropolis hypothesis and an unrelated historical proposed-list excerpt was read before Stage A; not used as canonical. Prior same-model familiarity unavoidable. Detailed deep/adv/reconciliation were opened only after seal. This is **not** genuinely blind or technically independent, notwithstanding owner-accepted formal equivalence.
+- Stage B sources: `data/grixis/m6/deep_reviews/Admiral_Beckett_Brass.md` blob `9260242347311f424a07bdaec24869c4c50263d8`; GrokBot advisory blob `3581b9f7079d30cd058c21f908bb518b687b011f`; two-model reconciliation blob `c93c4a7c25ca7457ef091c77baa16aa964c34f26`. Their first-pass verdicts differ: authored/controlled reconciliation favored City, GrokBot had narrow KEEP. No result is counted as a genuinely independent separate-model review.
+
+## Identity, actual mechanical correctness and ceiling
+
+Admiral Beckett Brass costs {1}{U}{B}{R}, strengthens other Pirates +1/+1, and at the beginning of your end step may steal one eligible opponent-controlled nonland permanent indefinitely after **three distinct Pirate creatures dealt combat damage to the same player in the current turn**. One Pirate with double strike does not satisfy three. Commander need not be present at damage time but must be present when the end-step trigger is generated; removing it after the trigger is on stack does not erase the trigger. When Roaming Throne chooses Pirate, it is also Pirate and adds one trigger to Beckett's ability, potentially stealing two permanents with legal distinct targets. Official Wizards Ixalan / Lost Caverns release notes support these details. Combat restriction, delayed theft and resilience to blockers/wipes bound the natural ceiling at **Bracket 4 — Optimized**, not a generic Bracket 5 cEDH shell.
+
+Preserve early Changeling Outcast/Storm Fleet Sprinter and flying Pirates, Cover of Darkness, Open into Wonder, Daring Piracy hasty attacker, Pirate token/enlist/theft effects (Coercive Recruiter, Don Andres), Roaming Throne, Double Down, damage-driven Kindred Discovery/Bident, protection and combat-aligned Fiery Cannonade/Raise the Palisade. **34 creature cards (33 printed Pirates/changelings plus Throne as chosen type)** are a functional core. The Indomitable Vehicle and Kari Zev-created Ragavan token are not themselves Pirates without separate type-changing effects; Fathom Fleet Captain's new token does not join current attack; Zephyr Singer convoke can tap intended attackers. These are genuine timing constraints, not optional flavor.
+
+## Exact unapproved improvement and strongest counterargument
+
+**Add City of Brass. Cut Crumbling Necropolis.**
+
+Both give any Grixis color, but Necropolis always enters tapped. City enters untapped and its mana tap triggers **one damage to its controller**; it is not Mana Confluence's life-payment cost. With City as the fourth land and other three sources providing required complementary pips, Beckett can be cast with {1}{U}{B}{R} immediately; the same fourth land as Crumbling supplies no mana that turn. T1 City can also deploy one-mana evasive Pirates whereas T1 Necropolis cannot. Crucially this land-for-land exchange preserves the entire Pirate count and all mechanics while improving conditional early creature/commander access. It is a real identity-linked tempo opportunity, not mandatory generic homogenization.
+
+**Counterargument:** City costs life each use; a one-turn tempo gain matters only if hand/draw/other lands actually make it decisive. Necropolis may be a harmless T1 tapland in hands without a one-drop; the deck already runs fast multicolor lands, mana rocks and conditional Treasures. City doesn't solve the much harder three-Pirate **same-player** combat connection nor protecting Beckett until end step. Alternative Reflecting Pool is painless but needs another colored source; Plaza of Heroes improves legend protection but has color restrictions for ordinary Pirates. Keeping Necropolis remains defensible if source-aware testing shows few decisive hands or high life attrition.
+
+**Judgment:** The exact City exchange is a persuasive, low-identity-displacement prospective improvement even though GrokBot's narrow first-pass KEEP missed it. It is **proposed for Cory's later decision**, not counted as owner-approved or strictly proven performance superior. No cut of a Pirate or distinctive payoff is recommended; no rules/legality blocker known.
+
+## Opposition, evidence quality and remaining obligations
+
+Key counterplay: blockers/Fog prevent one of three separate connections; Roaming Throne can't turn two connecting Pirates into three; removal of commander before end step denies trigger; target sacrificing or changing controllers can prevent final steal. City does not make these mechanics guaranteed.
+
+Existing canonical October 16 full audit and subsequent Oracle spot-checks support the exact baseline and both land names being Commander-legal; current Wizards Commander banned list was also checked. This Stage C did **not** download and independently verify all 97 current per-card Oracle records and produced **no effect-aware Phase B gameplay test, measured win percentage or local-zero-improvement certificate**. Previous 311/6 candidate screening, original full authored review and narrow GrokBot advisory are preserved as sources, not re-created.
+
+**Targeted post-JLK test priority:** exact baseline versus one-swap City variant and a Reflecting Pool variant. Test fixed hand/turn-one Pirate and turn-four UBR mana arrangements, tapped-land sequencing, one damage per City tap, removal/attrition turns, Pirate density unchanged, and three-hit combat realization as effect coverage permits. Count a conditional 10/99 chance of seeing a singleton in 10 cards only under that exact uniform-draw assumption, never as a deck win-rate change. If color-combat simulator doesn't model relevant abilities, disclose it and use bounded manual traces rather than an asserted PASS.
+
+**Owner gate:** No swap until Cory approves exact addition/cut; then recount all 100, singleton, UBR, current Oracle/Commander legality and new exact raw SHA. Phase B, I tested-pool local zero-improvement, J reproducibility, formal M6 certification, M7 decisions, and M8 export remain open. Formal Pass C count advances only **after this A/B/C evidence passes exact-head CI and merges**, and technical-independent-model count remains 0. Canonical 62 approved/locked lists remain untouched.
