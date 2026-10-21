@@ -6,8 +6,26 @@ TRACKER=ROOT/"data/grixis/milestone_m6_m7_subtracker.json"
 REG=ROOT/"data/grixis/registry.json"
 PREF=ROOT/"data/grixis/m6/preflight.json"
 SEAL=ROOT/"data/grixis/m6/sealed/reconciliation_manifest.json"
+WAIVER=ROOT/"data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
 
-def validate(t,r,p,s):
+def validate(t,r,p,s,w=None):
+ if w is None:w=json.loads(WAIVER.read_text())
+ assert w["decision_type"]=="OWNER_GOVERNANCE_WAIVER"
+ assert w["owner"]=="Cory Stover" and w["recorded_local_date"]=="2026-10-21"
+ assert "This is my formal waiver." in w["owner_verbatim_response"]
+ assert "independent third-model Pass C requirement" in w["question_presented_to_owner"]
+ assert w["decision"]=="AUTHORIZE_OWNER_EQUIVALENT_PASS_C_AS_REPLACEMENT_FOR_INDEPENDENT_THIRD_MODEL_REQUIREMENT_FOR_M6_GOVERNANCE"
+ assert w["applies_to"]["gate"]=="M6.5" and w["applies_to"]["decks"]==62
+ assert w["accepted_substitute"]["final_dispositions_complete"]==62
+ assert not w["accepted_substitute"]["technically_independent"]
+ assert w["accepted_substitute"]["genuinely_independent_third_model_reviews"]==0
+ assert w["scope_and_effect"]["m6_5_governance_condition_satisfied"] is True
+ assert not w["scope_and_effect"]["original_independent_review_performed"]
+ assert w["scope_and_effect"]["other_m6_gates_remain_independently_required"] is True
+ assert all(w["scope_and_effect"][x] is False for x in (
+  "effect_aware_phase_b_or_gameplay_proved","m6_milestone_accepted",
+  "m8_complete","canonical_decklist_change_authorized","owner_approval_of_any_candidate_swap"))
+ assert w["scope_and_effect"]["m7_approved_decks"]==0
  assert t["schema_version"]==1
  assert len(r["decks"])==62 and t["accounting"]["canonical_total"]==62
  assert t["accounting"]["canonical_approved_locked"]==62
@@ -45,7 +63,7 @@ def validate(t,r,p,s):
  assert len({x["deck_id"] for x in new131})==29
  assert all(batch["cycle"]==131 for batch in c131)
  assert all(x["approved_swaps"]==0 and not x["formal_pass_c"] and not x["full_phase_b"] for x in new131)
- assert t["display"]["m6_completed_gates"]==4 and t["display"]["m6_partial_gates"]==1
+ assert t["display"]["m6_completed_gates"]==5 and t["display"]["m6_partial_gates"]==1
  assert t["m6"]["formal_m6_certified_decks"]==0
 
  assert len({x["deck_id"] for x in r130["rows"]})==6
@@ -56,7 +74,11 @@ def validate(t,r,p,s):
  assert all(x["disposition"]=="HOLD_EXISTING_LIST_NO_SWAP" and x["independent_pass_c_completed"] is False and x["approved_swaps"]==0 for x in case["rows"])
  assert t["m6"]["formal_m6_certified_decks"]==0
  assert t["m7"]["formal_m7_review_decisions"]==0
- assert t["m6"]["gates"][4]["status"]=="BLOCKED" and t["m6"]["gates"][4]["completed"]==0
+ assert t["m6"]["gates"][4]["status"]=="COMPLETE" and t["m6"]["gates"][4]["completed"]==62
+ assert t["m6"]["gates"][4]["completion_basis"]=="OWNER_AUTHORIZED_NONINDEPENDENT_PASS_C_SUBSTITUTE"
+ assert t["m6"]["gates"][4]["waiver_receipt"]==str(WAIVER.relative_to(ROOT))
+ assert t["m6"]["gates"][4]["original_independent_requirement"]["technically_completed"]==0
+ assert t["m6"]["gates"][4]["original_independent_requirement"]["waived_by_owner"] is True
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
@@ -112,10 +134,37 @@ class TestMilestoneSubtracker(unittest.TestCase):
   for x in source["decks"]:
    observed[{"NEEDS TESTING":"needs_testing","PROPOSE UPGRADE":"propose_upgrade","KEEP":"keep"}[x["final_disposition"]]]+=1
   self.assertEqual(record["dispositions"],observed)
-  self.assertEqual(self.t["m6"]["gates"][4]["status"],"BLOCKED")
-  self.assertEqual(self.t["m6"]["gates"][4]["completed"],0)
+  self.assertEqual(self.t["m6"]["gates"][4]["status"],"COMPLETE")
+  self.assertEqual(self.t["m6"]["gates"][4]["completed"],62)
+  self.assertTrue(self.t["m6"]["owner_equivalent_pass_c"]["original_independent_gate_waived_for_m6_governance"])
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
   self.assertEqual(self.t["m7"]["formal_m7_review_decisions"],0)
+ def test_formal_owner_waiver_is_recorded_without_fake_independence(self):
+  w=json.loads(WAIVER.read_text())
+  self.assertEqual(w["accepted_substitute"]["stage_a_complete"],62)
+  self.assertEqual(w["accepted_substitute"]["stage_b_complete"],62)
+  self.assertEqual(w["accepted_substitute"]["final_dispositions_complete"],62)
+  self.assertFalse(w["accepted_substitute"]["technically_independent"])
+  self.assertEqual(w["accepted_substitute"]["genuinely_independent_third_model_reviews"],0)
+  self.assertEqual(self.t["m6"]["gates"][4]["completion_basis"],"OWNER_AUTHORIZED_NONINDEPENDENT_PASS_C_SUBSTITUTE")
+  self.assertEqual(self.t["m6"]["gates"][4]["completed"],62)
+  self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
+ def test_forged_or_overbroad_waiver_is_rejected(self):
+  import copy
+  w=json.loads(WAIVER.read_text())
+  for key,value in (("owner_verbatim_response","No, I reject"),("decision","UNAUTHORIZED")):
+   d=copy.deepcopy(w);d[key]=value
+   with self.assertRaises(AssertionError):validate(self.t,self.r,self.p,self.s,d)
+  for key,value in (("technically_independent",True),("genuinely_independent_third_model_reviews",62)):
+   d=copy.deepcopy(w);d["accepted_substitute"][key]=value
+   with self.assertRaises(AssertionError):validate(self.t,self.r,self.p,self.s,d)
+  d=copy.deepcopy(w);d["scope_and_effect"]["m6_milestone_accepted"]=True
+  with self.assertRaises(AssertionError):validate(self.t,self.r,self.p,self.s,d)
+ def test_falsifying_original_independence_count_is_rejected(self):
+  import copy
+  t=copy.deepcopy(self.t)
+  t["m6"]["gates"][4]["original_independent_requirement"]["technically_completed"]=62
+  with self.assertRaises(AssertionError):validate(t,self.r,self.p,self.s)
  def test_targeted_phase_b_receipt_is_not_certification(self):
   receipt=self.t["m6"]["phase_b_targeted_evidence"]
   self.assertEqual(receipt["deck_id"],"Abaddon_the_Despoiler")
