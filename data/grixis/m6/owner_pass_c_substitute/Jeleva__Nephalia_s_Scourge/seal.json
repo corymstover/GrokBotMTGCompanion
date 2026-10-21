@@ -1,0 +1,30 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 24,
+  "deck_id": "Jeleva__Nephalia_s_Scourge",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "Current neutral packet excludes prior opinions; earlier shared assistant/model lineage can influence assessment despite staged inputs.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_raw_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+  "canonical_git_blob_sha": "8cdc5b5a5d4d1cde1d803d2eceac95c83819be94",
+  "stage_a_commit_sha": "16f31880075e5a8cc780c46da238e0b00e597861",
+  "stage_a_parent_commit_sha": "dc3a7568038d6450ebeffa760d92720e541f191a",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "fc90f137fdaaaf4d7ea37d06d3ba1b67ce6e5100a038d10a1228597d82e0bbd8",
+      "git_blob_sha": "ef95ae386542d28f214a07c62c155ae644632de6"
+    },
+    "stage_a.json": {
+      "sha256": "81139cecc62df09ca99d9d88e13f4ffba08b5bb7bd54464ce8d5c507d07daf32",
+      "git_blob_sha": "ba04eec8f8b962c939a0647cc4958d4f2d3b8557"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Never rewrite this Stage A or seal to agree with earlier reports; append a new version on any needed correction."
+}
