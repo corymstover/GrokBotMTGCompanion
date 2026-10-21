@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "decision_id": "M6_PASS_C_OWNER_WAIVER_2026_10_21",
+  "decision_type": "OWNER_GOVERNANCE_WAIVER",
+  "owner": "Cory Stover",
+  "recorded_local_date": "2026-10-21",
+  "timezone": "America/Chicago",
+  "source": "Direct, explicit owner reply in the active Grixis Commander Encyclopedia conversation; no external signature or technical reviewer independence is claimed.",
+  "question_presented_to_owner": "Do you authorize replacing the original independent third-model Pass C requirement with the completed, explicitly non-independent 62/62 owner-equivalent review for purposes of eventual M6 certification?",
+  "owner_verbatim_response": "Yes. That was the point of doing it.\n\nThis is my formal waiver. Please do the formally documented waiver, and proceed as planned @GitHub",
+  "decision": "AUTHORIZE_OWNER_EQUIVALENT_PASS_C_AS_REPLACEMENT_FOR_INDEPENDENT_THIRD_MODEL_REQUIREMENT_FOR_M6_GOVERNANCE",
+  "applies_to": {
+    "engineering_repository": "corymstover/GrokBotMTGCompanion",
+    "integration_branch": "chatgpt-cycle76-m6-refinement",
+    "milestone": "M6",
+    "gate": "M6.5",
+    "decks": 62
+  },
+  "superseded_requirement": "Original genuinely independent third-model Pass C reviewer requirement for M6.5",
+  "accepted_substitute": {
+    "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+    "reviewer_alias": "Josh-Lee-Kwai",
+    "progress_file": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+    "stage_a_complete": 62,
+    "stage_b_complete": 62,
+    "final_dispositions_complete": 62,
+    "dispositions": {
+      "needs_testing": 47,
+      "propose_upgrade": 3,
+      "keep": 12
+    },
+    "technically_independent": false,
+    "genuinely_independent_third_model_reviews": 0
+  },
+  "scope_and_effect": {
+    "m6_5_governance_condition_satisfied": true,
+    "original_independent_review_performed": false,
+    "m6_5_count_basis": "62 owner-equivalent final reviews accepted by explicit owner waiver; NOT 62 independent third-model reviews",
+    "other_m6_gates_remain_independently_required": true,
+    "effect_aware_phase_b_or_gameplay_proved": false,
+    "m6_milestone_accepted": false,
+    "m7_approved_decks": 0,
+    "m8_complete": false,
+    "canonical_decklist_change_authorized": false,
+    "owner_approval_of_any_candidate_swap": false
+  },
+  "audit_rule": "Any display or bundle using this exception must cite the waiver and preserve technical_independent=false. Never relabel owner-equivalent GPT-6 reviews as external or independent. Owner waiver removes the governance obligation to obtain a separate third-model critic; it does not waive Phase B, judgment, I/J receipts, Oracle/legality verification, reproducibility, or exact owner approval of M7 lists."
+}
