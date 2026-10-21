@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "tracker_index": 51,
+  "sealed_at_local_date": "2026-10-21",
+  "source": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "path": "refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt",
+    "git_blob_sha": "99ca0f3dfca3fbcb3c9ac9cfa2c3381cb516ac08",
+    "raw_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106"
+  },
+  "first_stage_md_commit_sha": "98fed28378c1eed9abe10490291c55d6e9de2ea3",
+  "first_complete_stage_a_commit_sha": "b3c482928c7be1e3e81118ca316d9df8ab86e201",
+  "immutable_stage_a": {
+    "markdown": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sol_kanar_the_Swamp_King/stage_a.md",
+      "raw_sha256": "0cbb76e7b09fc4340d85176e4137386fc3d2d01d0af1b7c7c285f5331aa69050",
+      "git_blob_sha": "78ecba77763c7f2438bdfd53ffd8aa74f46900a8"
+    },
+    "json": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sol_kanar_the_Swamp_King/stage_a.json",
+      "raw_sha256": "22e9675bc1511ea329167dee401dab0199c60e74950b4869fa2cd72d153b3063",
+      "git_blob_sha": "6772790449b7e345482607f032c863dc164a9721"
+    }
+  },
+  "seal_policy": "Both neutral Stage A source files committed, retrieved and independently SHA256 validated. This seal is separate Git commit completed prior to opening Solkanar author/GrokBot/reconciliation.",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C"
+}
