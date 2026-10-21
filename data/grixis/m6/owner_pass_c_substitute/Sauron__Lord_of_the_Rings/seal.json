@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "deck_id": "Sauron__Lord_of_the_Rings",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT / OpenAI GPT-6",
+  "formal_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent_model": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_deck_path": "refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt",
+  "canonical_deck_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+  "canonical_deck_git_blob_sha": "2573ec196f16bc8152cd46695cd680fba30b003d",
+  "first_stage_commit_sha": "1fd75c083739cc03e38dc481a04e7c5560efa4c0",
+  "stage_a_files": [
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sauron__Lord_of_the_Rings/stage_a.md",
+      "sha256": "db8b934242e4adf643153d168f221bf21a54d28041a743c883b084c8eebe5276",
+      "git_blob_sha": "9b273cd71d2330efa7c37c08b5cf93a6ffd03dae"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sauron__Lord_of_the_Rings/stage_a.json",
+      "sha256": "62ff0bcc658581b192fb8ba436e84553a0f30f70084f851dcc49ace7e676e6cb",
+      "git_blob_sha": "e023a301769188ebc96f016a83861e91bc147773"
+    }
+  ],
+  "unblinding_status_at_seal": "NOT_UNBLINDED",
+  "sealed_stage_a_immutability": "Both neutral Stage A artifacts committed before Sauron deck-specific earlier reviews; seal separately committed. Stage A immutable after this point.",
+  "prior_session_familiarity_disclosure": "Existing project GPT-6 lineage and hidden prior knowledge are acknowledged, not represented as technically independent review.",
+  "recorded_utc": "2026-10-21"
+}

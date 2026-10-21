@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Sauron__Lord_of_the_Rings",
+  "tracker_index": 48,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Same GPT-6 family with inerasable latent project familiarity. Before this Stage A, no deck-specific original author review, GrokBot advisory, reconciliation disposition or historic approval decision rationale was opened.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Sauron_Lord_of_the_Rings_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "2573ec196f16bc8152cd46695cd680fba30b003d",
+  "canonical_approved_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 96,
+  "physical_lands": 32,
+  "commander_color_identity": "UBR",
+  "special_singleton_rule": "Four Nazgul legal by printed up-to-nine rule; 2 basics Swamp legal",
+  "project_exceptions": [],
+  "commander_strategy": "8-mana UBR Sauron CAST trigger amass Orcs5 mill5 and return creature non-target; 9/9 trample, opposing commander death Ring tempt, graveyard reanimation and Nazgul counters",
+  "natural_power_ceiling": "Optimized Bracket 4; high ceiling but eight-mana CAST and graveyard dependence; no established reliable cEDH outcome",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Doom Whisperer",
+    "cut": "The Mouth of Sauron",
+    "reason": "Repeatable pay-2-life surveil2 stocks premium creatures before eight-mana Sauron cast or cheap reanimation; compare five-mana Mouth conditional instant/sorcery GY count and Orc Army role"
+  },
+  "alternative": {
+    "add": "Incarnation Technique",
+    "cut": "The Mouth of Sauron",
+    "status": "LOWER CONFIDENCE: five-mana mill5/reanimate with opponent copy downside on demonstrate"
+  },
+  "tactical_fixtures": [
+    "Sauron when CAST trigger persists if spell countered; one trigger amass5 mill5 return with no priority between substeps and no creature target",
+    "Nazgul up to nine official Commander exception 4 copies; one Ring temptation triggers each Nazgul to add counters to all Wraiths",
+    "Persist cannot target legend Jin, Sheoldred, Sauron Dark Lord; Archon/Ancient Brass legal",
+    "Prepared Grave Researcher must meet upkeep creature graveyard threshold; Reanimate spell copy unavailable directly from hand",
+    "Doom Whisperer 3BB 6/6 pay2 surveil2, life cost, active priority before cast trigger resolution",
+    "Incarnation Technique demonstrate opponent's copy resolves before yours and original, optional",
+    "Mouth of Sauron ETB target player mill3, Orc amass count instants/sorceries in targeted GY, not creature cards"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes",
+    "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes",
+    "https://magic.wizards.com/en/news/feature/duskmourn-house-of-horror-release-notes",
+    "https://magic.wizards.com/en/news/feature/strixhaven-school-mages-and-commander-2021-edition-release-notes-2021-04-16",
+    "https://gatherer.wizards.com/GRN/en-us/69/doom-whisperer",
+    "https://magic.wizards.com/en/banned-restricted-list"
+  ],
+  "limitations": [
+    "No prior Sauron verdict opened at Stage A",
+    "No actual effect-aware game simulations or full fresh 100-card Oracle refresh",
+    "No technically independent third model, same GPT-6 lineage",
+    "No canonical swap or M6/M7/M8 milestone certification"
+  ]
+}
