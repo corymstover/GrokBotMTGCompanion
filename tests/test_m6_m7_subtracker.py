@@ -96,6 +96,26 @@ class TestMilestoneSubtracker(unittest.TestCase):
   import copy
   t=copy.deepcopy(self.t);t["m7"]["formal_m7_review_decisions"]=62
   with self.assertRaises(AssertionError):validate(t,self.r,self.p,self.s)
+ def test_owner_equivalent_pass_c_counts_and_provenance(self):
+  source=json.loads((ROOT/"data/grixis/m6/owner_pass_c_substitute/progress.json").read_text())
+  record=self.t["m6"]["owner_equivalent_pass_c"]
+  self.assertEqual((source["stage_a_complete"],source["stage_b_complete"],source["final_complete"]),(62,62,62))
+  self.assertEqual((record["completed"],record["total"]),(62,62))
+  self.assertFalse(record["technically_independent"])
+  self.assertEqual(record["genuinely_independent_third_model_reviews"],0)
+  self.assertFalse(source["technically_independent"])
+  self.assertEqual(source["next_pending_deck"],None)
+  self.assertEqual(len(source["decks"]),62)
+  self.assertTrue(all(x["stage_a_complete"] and x["stage_b_complete"] and x["final_complete"] and x["canonical_unchanged"] for x in source["decks"]))
+  self.assertTrue(all(x["owner_swap_approved"] is False for x in source["decks"]))
+  observed={"needs_testing":0,"propose_upgrade":0,"keep":0}
+  for x in source["decks"]:
+   observed[{"NEEDS TESTING":"needs_testing","PROPOSE UPGRADE":"propose_upgrade","KEEP":"keep"}[x["final_disposition"]]]+=1
+  self.assertEqual(record["dispositions"],observed)
+  self.assertEqual(self.t["m6"]["gates"][4]["status"],"BLOCKED")
+  self.assertEqual(self.t["m6"]["gates"][4]["completed"],0)
+  self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
+  self.assertEqual(self.t["m7"]["formal_m7_review_decisions"],0)
  def test_no_canonical_reapproval_claim(self):
   self.assertIn("do not count",self.t["accounting"]["warning"].lower())
   self.assertEqual(self.t["accounting"]["canonical_approved_locked"],62)

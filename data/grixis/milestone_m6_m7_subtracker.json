@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "after_cycle_131",
+  "snapshot": "2026-10-21_after_owner_equivalent_pass_c_62",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "88f062be961c39108e58213c1763e31fb46c396b",
+    "engineering_head": "1c58bff4ee82c316adf7d5604184573efa94ff53",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
-    "canonical_head": "b77ba89b72eacfa4d58d1db937e3a91a2000dd16",
+    "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
     "canonical_overrides_blob_sha": "81801b2f9d3387b171c01f1fcae255b385a5b698",
     "criteria": "grixis/Grixis Authority Model.md#milestone-acceptance-criteria",
     "m6_evidence_contract": "grixis/Grixis M6 I-J Contract.md",
@@ -113,9 +113,11 @@
           "data/grixis/m6/independent_review_intake/cycle124_reviewer_ready_01.json (CI output artifact, not committed)",
           "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md",
           "data/grixis/m6/phase_b_plans/cycle127_batch_intake_preregistered_01.json",
-          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39206691858 — 62 neutral review-intake packets, no independent critic certification"
+          "CI https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39206691858 — 62 neutral review-intake packets, no independent critic certification",
+          "data/grixis/m6/owner_pass_c_substitute/progress.json (owner-equivalent 62/62, no technical independence)",
+          "PR #501 final Zevlor evidence and PR #502 final owner-equivalent progress ledger"
         ],
-        "scope": "Three non-author GrokBot advisory reviews received for Gwendlyn, Ravager and Mai/Zuko with provenance/exposure disclosures and no strict blinding. Source qualification and all other independent critiques/reconciliation remain outstanding. Formal M6 Pass C deck completion remains 0/62."
+        "scope": "Owner-authorized GPT-6 owner-equivalent Pass C sealed/final 62/62, with 47 NEEDS TESTING, 3 PROPOSE UPGRADE and 12 KEEP dispositions. This does not fulfill the original genuinely independent third-model condition (0/62), which remains BLOCKED unless separately accepted/waived for final M6 certification. Existing canonical approvals and raw SHA-256 are unchanged."
       },
       {
         "id": "M6.6",
@@ -134,7 +136,7 @@
           "data/grixis/m6/phase_b_plans/cycle126_bolas_source_paid_pressure_preregistered_01.json",
           "data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_interpretation_01.md"
         ],
-        "scope": "Cycle126 extends the Bolas/Mox/Amplifier source-paid mana/tap and starting-seven-loyalty tests with 1,024 physical paired shuffles and 3 fixed resource policies; 300/296/267 bounded commander-cast counts but only 3 transforms per policy/1 candidate double. This is not opponent gameplay or a recommendation. Prior Cycle119 Jewel→Rings invalid payment is superseded by Cycle125 correction. Full Phase B and stress/red-team certificates remain 0/62."
+        "scope": "Targeted effect-aware Phase B remains partial, including finite Abaddon rules/real-card replay and Bolas source-paid fixtures; 0/62 deck-level Phase B certificates. Prioritize exact unresolved material cases, beginning Abaddon Aggravated Assault/Neheb/Loyal Subordinate vs approved Rakdos slot, without treating deterministic traces or goldfish as measured multiplayer win rates."
       },
       {
         "id": "M6.7",
@@ -191,7 +193,27 @@
       "Nicol_Bolas__the_Ravager",
       "Mai_and_Zuko"
     ],
-    "external_review_qualification": "Non-author GrokBot review received, disclosed earlier blueprint involvement and no strict blind; still pending formal source/provenance gate and material test reconciliation. Does not satisfy full 62-deck Pass C."
+    "external_review_qualification": "Non-author GrokBot review received, disclosed earlier blueprint involvement and no strict blind; still pending formal source/provenance gate and material test reconciliation. Does not satisfy full 62-deck Pass C.",
+    "owner_equivalent_pass_c": {
+      "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+      "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+      "reviewer_alias": "Josh-Lee-Kwai",
+      "completed": 62,
+      "total": 62,
+      "technically_independent": false,
+      "genuinely_independent_third_model_reviews": 0,
+      "documented_owner_waiver": "2026-10-20 owner waiver recorded per-deck and in owner_pass_c_substitute/progress.json",
+      "source": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+      "last_review_pr": 501,
+      "last_ledger_pr": 502,
+      "last_merge_sha": "1c58bff4ee82c316adf7d5604184573efa94ff53",
+      "dispositions": {
+        "needs_testing": 47,
+        "propose_upgrade": 3,
+        "keep": 12
+      },
+      "certification_effect": "Completes waived owner-equivalent Pass C process, NOT original technically independent M6.5 condition; does not imply Phase B, I/J, M6 acceptance or any new M7 owner approval."
+    }
   },
   "m7": {
     "status": "not_started",
@@ -279,7 +301,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "Exactly 4/10 M6 sub-gates have completed narrow prerequisites, including all 62 source-specific authored candidate reviews. M6.5 independent Pass C 0/62; M6.6 complete Phase B 0/62; M6.7–M6.10 judgment/I/J/acceptance blocked. The gate ratio is NOT a fraction of fully certified decks, which remain 0/62."
+    "note": "4/10 narrow M6 gates complete, original independent M6.5 still blocked. Separately, documented owner-equivalent Pass C is 62/62 with 47 NEEDS TESTING, 3 PROPOSE UPGRADE, 12 KEEP; technical independent reviews 0/62. M6/Phase B certificates 0/62, M7 new owner decisions 0/62; no canonical modifications."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,

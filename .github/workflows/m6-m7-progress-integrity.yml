@@ -20,6 +20,12 @@ on:
       - data/grixis/registry.json
       - data/grixis/m6/preflight.json
       - data/grixis/m6/sealed/reconciliation_manifest.json
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-m7-progress-integrity.yml
+      - data/grixis/milestone_m6_m7_subtracker.json
+      - tests/test_m6_m7_subtracker.py
   workflow_dispatch:
 permissions:
   contents: read
