@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "deck_id": "Sauron__the_Dark_Lord",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT / OpenAI GPT-6",
+  "formal_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent_model": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_deck_path": "refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-10-15.txt",
+  "canonical_deck_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+  "canonical_deck_git_blob_sha": "b714245307cf48d60a4a021e7e8f0815670f9c17",
+  "first_stage_commit_sha": "f9d86b43c38ee308a2b0aab0e0821b94c4a33f70",
+  "stage_a_files": [
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sauron__the_Dark_Lord/stage_a.md",
+      "sha256": "9387cdec05f5688f1b88e6bf55f305cd382c2274da2a82e0b13f8b3d45210edd",
+      "git_blob_sha": "3d76aa6059ef83fa72d745e9f735ef7fc725c25a"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sauron__the_Dark_Lord/stage_a.json",
+      "sha256": "7e5edd5fc2c11642e3078c437f54d0fa25ff6c1a8322ae41004dfdf23b829250",
+      "git_blob_sha": "746f7d355451f3d8819e7fe3607532535431a21f"
+    }
+  ],
+  "unblinding_status_at_seal": "NOT_UNBLINDED",
+  "sealed_stage_a_immutability": "Both neutral Stage A docs committed before any prior Dark Lord reviewer verdict; this separate seal commit prohibits retrospective rewrite.",
+  "prior_session_familiarity_disclosure": "GPT-6 prior work cannot be erased. Formal owner-equivalent classification not actual independent model.",
+  "recorded_utc": "2026-10-21"
+}
