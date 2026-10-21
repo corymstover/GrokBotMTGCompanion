@@ -104,7 +104,7 @@
             "id": "chaos-warp-target-and-random-top-permanent",
             "class": "fact",
             "confidence": "verified",
-            "source": "Scryfall/Oracle Chaos Warp, instant {2}{R}"
+            "source": "https://www.mtg.wtf/card/sta/36/Chaos-Warp (Oracle text; {2}{R} instant)"
           },
           {
             "id": "slot-cost-identity-tradeoff",
