@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_id": "Tetsuo__Imperial_Champion",
+  "tracker_index": 54,
+  "canonical_approved_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+  "canonical_blob": "1049ea399013f9633c0aeae998139f8218ce75a2",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "neutral_input": true,
+  "provisional_disposition": "NEEDS TESTING",
+  "hypothesis": {
+    "add": "Bitterthorn, Nissa's Animus",
+    "cut": "Leyline Axe",
+    "counterargument": "Low equipment mana value reduces Tetsuo free-spell thresholds"
+  },
+  "author_verdicts_unopened": true,
+  "provenance": "Same model family; no guarantee against latent prior project knowledge",
+  "limits": "No measured testing, current Oracle 100-card scan, owner swap or certification"
+}
