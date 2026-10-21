@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_id": "Sol_kanar_the_Tainted",
+  "tracker_index": 52,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_approved_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+  "canonical_source_blob": "7ba29f9e4a855a446914566e29d2a67e93840ba0",
+  "deck_size": 100,
+  "stage": "A_NEUTRAL",
+  "provisional_disposition": "NEEDS TESTING",
+  "proposed_add": "Displacer Kitten",
+  "proposed_cut": "Conjurer's Closet",
+  "alternate_cut": "Planar Incision",
+  "prior_verdict_files_opened": false,
+  "stage_a_markdown_blob_sha": "6450f57e1fc6374a80dc94bf02ad44587e12487d",
+  "contamination_disclosure": "Same GPT-6 lineage and residual context; historical reviews not opened for this Stage A. No technical independence.",
+  "verification_limits": "Per-card current Oracle and legality not freshly checked; no effect-aware play simulations."
+}
