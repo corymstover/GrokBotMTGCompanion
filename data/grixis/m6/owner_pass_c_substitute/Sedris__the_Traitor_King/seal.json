@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "deck_id": "Sedris__the_Traitor_King",
+  "tracker_index": 50,
+  "sealed_at_local_date": "2026-10-21",
+  "source": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "path": "refinement/decklists/Sedris_the_Traitor_King_Approved_2026-10-15.txt",
+    "git_blob_sha": "fc33a2493255d6033691b1195d1bc1091b420b3b",
+    "raw_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365"
+  },
+  "first_stage_md_commit_sha": "d8a4339d0665590fd93a2ee49d3f4571999feb99",
+  "first_complete_stage_a_commit_sha": "ff89b28730718ecb8beb9b563ecca3b423c34c27",
+  "immutable_stage_a": {
+    "markdown": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sedris__the_Traitor_King/stage_a.md",
+      "raw_sha256": "50d8cd342301df4b2dbb63195c43a85a42495801eddcc5c6894daba29d622c6d",
+      "git_blob_sha": "a00b30b44b65ec5087273a6d99b601ce490b9f68"
+    },
+    "json": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Sedris__the_Traitor_King/stage_a.json",
+      "raw_sha256": "507f0106db61ccd8f62bbd7e19821b6f059121ff1dcf1f3a9b59c82a96defc17",
+      "git_blob_sha": "daa8af69db10406ecc839781652f91fa70d80973"
+    }
+  },
+  "seal_policy": "Stage A Markdown and JSON committed and SHA256 independently recomputed/fetched. This seal file committed separately BEFORE opening any Sedris specific authored review, advisory, candidate ranking, reconciliation or historical disposition.",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C"
+}
