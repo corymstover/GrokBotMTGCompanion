@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "local_date": "2026-10-21",
+  "stage": "M6_7_ABADDON_AUTHORED_DECISION_CLASS_INTERIM_JUDGMENTS_NOT_FINAL_CERTIFICATION",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "raw_approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "changed": false,
+    "card_total": 100,
+    "distinct_names": 94,
+    "lands": 34
+  },
+  "author": "ChatGPT/OpenAI GPT-6",
+  "independent_reviewer": false,
+  "owner_pass_c_governance_waiver": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "sources": [
+    "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md",
+    "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/final_disposition.md",
+    "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md",
+    "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md",
+    "https://magic.wizards.com/en/news/feature/ravnica-remastered-release-notes",
+    "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
+    "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repository)"
+  ],
+  "candidates": [
+    {
+      "card": "Aggravated Assault",
+      "candidate_swap_ids": [
+        "Abaddon-Assault-for-Rakdos",
+        "Abaddon-Assault-for-The-Lost-and-the-Damned"
+      ],
+      "judgment_review": {
+        "kind": "judgment_review",
+        "method": "agent_judgment",
+        "by": "ChatGPT/OpenAI GPT-6 (same-family authored M6 judge, not independent)",
+        "date": "2026-10-21",
+        "swaps": [
+          "Abaddon-Assault-for-Rakdos",
+          "Abaddon-Assault-for-The-Lost-and-the-Damned"
+        ],
+        "evidence_items": [
+          {
+            "id": "assault-neheb-loyal-official-rules",
+            "class": "fact",
+            "confidence": "verified",
+            "source": "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md"
+          },
+          {
+            "id": "assault-conditional-10-fixture-tests",
+            "class": "test_result",
+            "confidence": "high",
+            "source": "PR #504 / Actions 39692748860"
+          },
+          {
+            "id": "rakdos-conditional-discount-role",
+            "class": "fact",
+            "confidence": "verified",
+            "source": "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md"
+          },
+          {
+            "id": "not-a-proven-net-upgrade",
+            "class": "strategic_judgment",
+            "confidence": "high",
+            "source": "100-card deep review plus role loss and four-piece setup"
+          }
+        ]
+      },
+      "interim_decision": "HOLD_CHALLENGER_NOT_APPROVED",
+      "benefit": "Three-mana cast with one red pip; existing Neheb postcombat mana can repeatedly pay its five-mana extra-combat activation, and Loyal Subordinate creates no-attack life loss at beginning of additional combats if Abaddon remains.",
+      "incumbent_cut_cost": "Cutting Rakdos removes a four-mana BBRR flying/trampling creature and same-turn opponent-loss-scaled generic mana reduction for up to 17 potential creature spell identities including commander and Neheb; cutting The Lost and the Damned removes a Commander-specific nonhand-cast 3/3 Spawn engine.",
+      "unresolved": [
+        "Paired source-paid timing and colored-mana access for proposed physical swap",
+        "Availability of three distinct pieces in library/hand and Abaddon command-zone cast",
+        "Relevant opponent removal windows in actual game states",
+        "Difference in win conversion versus retained Rakdos or alternate cut"
+      ],
+      "approved_swap": false
+    },
+    {
+      "card": "Chaos Warp",
+      "candidate_swap_ids": [
+        "Abaddon-Chaos-Warp-for-high-cost-payoff"
+      ],
+      "judgment_review": {
+        "kind": "judgment_review",
+        "method": "agent_judgment",
+        "by": "ChatGPT/OpenAI GPT-6 (same-family authored M6 judge, not independent)",
+        "date": "2026-10-21",
+        "swaps": [
+          "Abaddon-Chaos-Warp-for-high-cost-payoff"
+        ],
+        "evidence_items": [
+          {
+            "id": "baseline-nonblue-resolved-stax-removal-gap",
+            "class": "fact",
+            "confidence": "high",
+            "source": "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md"
+          },
+          {
+            "id": "chaos-warp-target-and-random-top-permanent",
+            "class": "fact",
+            "confidence": "verified",
+            "source": "https://www.mtg.wtf/card/sta/36/Chaos-Warp (Oracle text; {2}{R} instant)"
+          },
+          {
+            "id": "slot-cost-identity-tradeoff",
+            "class": "strategic_judgment",
+            "confidence": "moderate",
+            "source": "99-card identity package and existing stack defenses"
+          }
+        ]
+      },
+      "interim_decision": "HOLD_UNTIL_MEANINGFUL_CUT_JUSTIFIED",
+      "benefit": "Real instant-speed interaction with resolved troublesome enchantments/artifacts; unlike a counterspell, can affect nonblue permanent after it resolves; hand cast at X>=3 can gain Abaddon-granted cascade.",
+      "incumbent_cut_cost": "No high-confidence cut yet: Pyroblast and free/cheap stack answers protect commander combo, while five-mana 40K enchantments are actual exile-cast engine payoffs. Chaos Warp can reveal a replacement permanent and does not guarantee permanent removal.",
+      "unresolved": [
+        "Specific defensible lower-value cut within whole 100-card identity",
+        "Targeted stax density and whether bounce/stack interaction already sufficient"
+      ],
+      "approved_swap": false
+    },
+    {
+      "card": "The Ruinous Powers",
+      "candidate_swap_ids": [
+        "Abaddon-Assault-for-The-Ruinous-Powers"
+      ],
+      "judgment_review": {
+        "kind": "judgment_review",
+        "method": "agent_judgment",
+        "by": "ChatGPT/OpenAI GPT-6 (same-family authored M6 judge, not independent)",
+        "date": "2026-10-21",
+        "swaps": [
+          "Abaddon-Assault-for-The-Ruinous-Powers"
+        ],
+        "evidence_items": [
+          {
+            "id": "official-ruinous-powers-owner-life-loss-ruling",
+            "class": "fact",
+            "confidence": "verified",
+            "source": "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19"
+          },
+          {
+            "id": "owner-of-exiled-opponent-card-is-opponent",
+            "class": "fact",
+            "confidence": "verified",
+            "source": "canonical Abaddon Oct13 Oracle audit"
+          },
+          {
+            "id": "early-turn-conditional-but-on-identity",
+            "class": "strategic_judgment",
+            "confidence": "high",
+            "source": "100-card deck and opponent-life-loss cascade plan"
+          }
+        ]
+      },
+      "interim_decision": "RETAIN_AS_MEANINGFUL_COMMANDER_FIRST_PAYOFF",
+      "benefit": "At upkeep exiles an opponent's top card and permits casting it. When you cast it this way, its OWNER—the opponent whose library it came from—loses life equal to mana value, increasing same-turn Abaddon threshold; the spell cast from exile feeds other nonhand payoffs.",
+      "incumbent_cut_cost": "Removing this card weakens repeatable on-turn life-loss and exile-cast synergies. It is expensive/random and can reveal an uncastable card or land; none of these drawbacks makes it automatically the best Assault cut.",
+      "unresolved": [
+        "Conditional upkeep survival and actual cast access compared with other five-mana payoffs"
+      ],
+      "approved_swap": false
+    }
+  ],
+  "other_pool_resolution": {
+    "baseline_core_retained": [
+      "Neheb, the Eternal",
+      "Loyal Subordinate",
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze",
+      "Mind's Desire",
+      "Bituminous Blast",
+      "The Lost and the Damned"
+    ],
+    "evaluated_pools": "All 98 M5 packet entries and 60 historical legacy Abaddon decisions are reviewed in the comprehensive authored 100-card deep review; this receipt applies new Phase B evidence to the most material outstanding candidates only.",
+    "no_arbitrary_swap_quota": true,
+    "bracket": "4 — Optimized (inherited from existing baseline research, not an M7 reapproval)"
+  },
+  "authority": {
+    "can_change_canonical": false,
+    "can_approve_or_lock": false,
+    "can_certify_m6": false,
+    "can_count_complete_m6_7_gate": false,
+    "can_decide_final_m7_deck": false,
+    "full_effect_aware_gameplay_measured": false
+  },
+  "next_required_work": [
+    "Complete decision-relevant source-paid full-slot comparison or explicitly document technical inability and judge conservatively",
+    "Resolve actual strongest alternate cut for Assault and stax answer in whole-deck M7 context",
+    "Reverify exact proposed 100 and Oracle/legality before any owner presentation"
+  ],
+  "summary": "No swap is currently proven superior at the full 100-card level. These are named agent strategic HOLD/retain judgments with decision-class facts and bounded tests, not an M6 certificate or Cory's M7 approval."
+}

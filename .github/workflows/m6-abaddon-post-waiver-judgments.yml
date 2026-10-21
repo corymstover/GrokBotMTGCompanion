@@ -1,0 +1,27 @@
+name: M6 Abaddon post-waiver judgment integrity
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-post-waiver-judgments.yml
+      - data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json
+      - grixis/m6/abaddon_post_waiver_judgments_20261021.md
+      - tests/test_m6_abaddon_post_waiver_judgments.py
+      - scripts/grixis_authority.py
+      - data/grixis/m6/governance/pass_c_owner_waiver_20261021.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  abaddon-source-bound-agent-judgments:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact pull request head
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Validate decision-class evidence and fail-closed authority
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_post_waiver_judgments.py' -v
