@@ -1,0 +1,14 @@
+{
+  "schema": "jlk_stage_a_seal_v1",
+  "deck_id": "Cormela__Glamour_Thief",
+  "stage_a_commit_sha": "1ded0407879a81539ea6feca9137201b69372390",
+  "committed_paths": [
+    "data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/stage_a.md",
+    "data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/stage_a.json"
+  ],
+  "stage_a_md_sha256": "97243c9c2fb49de33e70c0b836dbc84c56abb967e8ce11cdc638359d96baec88",
+  "stage_a_json_sha256": "3076b281a1715dabc80ce25a6b6a1053dc664531c0347211c8005a06720c3cc3",
+  "stage_a_md_git_blob": "cbbc24bb9ce0f80d0379b2a0d49650f6f55ef015",
+  "stage_a_json_git_blob": "4a71fce7440e21e52e1fcf6e2ff0d494e7d8cbd0",
+  "unblind_permitted_only_after_this_separate_seal_commit": true
+}
