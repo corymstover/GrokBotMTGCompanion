@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Sauron__the_Dark_Lord",
+  "tracker_index": 49,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Same GPT-6 family and inerasable prior project exposure. Earlier Sauron Dark Lord authored review, GrokBot advisory, reconciliation, scored candidates and historic approval decision not opened before seal.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Sauron_the_Dark_Lord_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "b714245307cf48d60a4a021e7e8f0815670f9c17",
+  "canonical_approved_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 91,
+  "physical_lands": 34,
+  "commander_color_identity": "UBR",
+  "singleton_exemptions": "Nazgul7 by printed up-to-nine rule, Mountain2 Swamp3 basics",
+  "project_exceptions": [],
+  "commander_strategy": "6 mana Sauron opponent CAST amass Orcs1, Army combat player damage tempts Ring, Ring tempts optional discard-all/draw4; Nazgul Wraith counter triggers and Black Goblin/Mauhúr payoffs",
+  "natural_power_ceiling": "Optimized Bracket 4; actual turn6 commander access and combat/connectivity limits",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Arcane Adaptation",
+    "cut": "Saruman, the White Hand",
+    "alternative_cut": "Sauron, Lord of the Rings",
+    "rationale": "Choose Wraith to add Nazgul Ring +1 counter events to Orc Army/other creatures, amplify existing Roaming Throne, preserve Orc Army subtype but loses Saruman spellcast/ward"
+  },
+  "secondary_challenger": {
+    "add": "Maskwood Nexus",
+    "cut": "Saruman, the White Hand",
+    "status": "LOWER CONFIDENCE: all-type artifact, 4 mana, alters Army selection"
+  },
+  "rules_checks": [
+    "Seven Nazgul legal official printed <=9 singleton exemption",
+    "Sauron ward cost sacrifice own legendary artifact/creature demanded of targeting opponent",
+    "Each opponent CAST triggers one amass even if spell countered; no existing trigger lost after source removed",
+    "Army deals COMBAT PLAYER damage causes Ring tempt, not any damage or Sauron attacking",
+    "Sauron Ring-tempt optional discard whole hand then draw4, multiple discard cards trigger Archfiend individually",
+    "Arcane Adaptation 2U adds Wraith type to all our creatures including Orc Army",
+    "Roaming Throne choose Wraith doubles Nazgul/Sauron/Great Goblin triggers when all Wraith",
+    "Great Goblin deals fixed2 per counter-placement event not per counter or each impacted creature",
+    "Ring tempting triggers Nazgul even without creature to choose; Army receives no Wraith counters absent Wraith conversion"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes",
+    "https://magic.wizards.com/en/news/feature/ixalan-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-lost-caverns-of-ixalan-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-hobbit-release-notes",
+    "https://magic.wizards.com/en/banned-restricted-list"
+  ],
+  "limits": [
+    "No earlier Dark Lord review opened prior to neutral seal",
+    "No actual gameplay simulation or all-100 current Oracle refresh",
+    "Not technical third-model execution",
+    "No canonical changes or M6 milestone certification"
+  ]
+}
