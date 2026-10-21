@@ -1,0 +1,30 @@
+{
+  "deck_id": "Goro_Goro_and_Satoru",
+  "tracker_index": 20,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "formal_pass_c_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technical_model_independence": false,
+  "owner_independence_waiver": true,
+  "stage_a_input_boundary": "Exact canonical approved list and SHA-256, relevant neutral Oracle/rules and project exception authority only; preexisting verdicts, rankings, and reconciliation unopened before Stage A sealing. Prior-session familiarity cannot be erased.",
+  "canonical_path": "refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt",
+  "canonical_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+  "first_stage_commit_sha": "23d35f6f5386f19175b73f35120b71aa45382ed5",
+  "first_stage_commit_parent_sha": "8f41e29d3af9cbc6939e8b8fb6daccd8acec7876",
+  "artifacts": {
+    "stage_a.md": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Goro_Goro_and_Satoru/stage_a.md",
+      "sha256": "161be111fc87bd3a7dde1de25f2e8630696e960fdcc1dd4de59ace58e0c09060",
+      "git_blob_sha": "3983a8f8113c9af6c0d2b158f31f0a5acbf306ab"
+    },
+    "stage_a.json": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Goro_Goro_and_Satoru/stage_a.json",
+      "sha256": "b5f3de6f6a1705c9f1d7f051a96e46156af0cff25ce0cc3bdf49751672b897b4",
+      "git_blob_sha": "cba9ce4c8f207d2e1eb38dddfe667c9d7479c4e8"
+    }
+  },
+  "seal_committed_in_separate_git_commit": true,
+  "stage_a_immutable_after_seal": true,
+  "owner_swap_approved": false,
+  "canonical_deck_changed": false
+}
