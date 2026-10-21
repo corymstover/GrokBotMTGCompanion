@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "review_phase": "STAGE_A_PRE_UNBLINDING",
+  "deck_id": "Nathan_Drake__Treasure_Hunter",
+  "tracker_index": 38,
+  "review_local_date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "formal_classification_if_evidence_complete": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technical_model_independence": false,
+  "owner_independence_waiver": true,
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "canonical_approved_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+  "canonical_list_path": "refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt",
+  "canonical_list_git_blob": "1cfc4be148d5a62f5e8345d6155c2dc4315e7b3a",
+  "card_count": 100,
+  "source_lines": 97,
+  "distinct_name_count": 97,
+  "land_count": 34,
+  "commander": "Nathan Drake, Treasure Hunter",
+  "color_identity": [
+    "U",
+    "B",
+    "R"
+  ],
+  "project_exception": null,
+  "natural_ceiling_judgment": "Bracket 4 Optimized; paid during-attack multi-library exile/cast theft, combat mana, attack/trigger multipliers, extra-combat and stolen spell payoffs; commander 3 mana requires all UBR pips",
+  "protected_identity": [
+    "Nathan attack exiles top card of EACH player's library; may CAST only one payable spell during each trigger resolution",
+    "Static any-color spending applies to spells not owned and activation of stolen permanents only while Nathan remains on battlefield",
+    "Fire Nation Palace firebending combat red mana, Thieving Varmint stolen-spell-only mana and protection/haste support paid cast-during-resolution",
+    "Roaming Throne choosing Rogue, Karlach extra combat, Firebender Ascension conditional copy and Fire Lord Azula attacking copy are distinct repeat trigger/cast effects",
+    "Passionate Archaeologist, Nalfeshnee, Wild-Magic Sorcerer, Prosper and Don Andres reward exile/stolen casts rather than generic infinite combo",
+    "Commander-absent theft engines and 34-land highly fetchable Grixis mana remain coherent"
+  ],
+  "neutral_mana_metrics": {
+    "land_count": 34,
+    "fetchlands": 9,
+    "unconditional_tapped_lands": 1,
+    "conditional_tapped_flags": 8,
+    "land_sources": {
+      "B": 18,
+      "U": 18,
+      "R": 19
+    },
+    "land_plus_repeatable_nonland": {
+      "B": 23,
+      "U": 23,
+      "R": 24
+    },
+    "three_color_T3_presence_proxy": 0.733327,
+    "proxy_is_not_joint_cast_probability": true
+  },
+  "provisional_disposition": "NEEDS TESTING",
+  "preferred_challenger": {
+    "add": "Dolmen Gate",
+    "cut": "Dark Ritual",
+    "owner_approved": false,
+    "hypothesis": "Two-mana static combat-damage prevention permits three-mana Nathan and other attack-theft creatures to survive profitable blocks and repeat paid multi-library attack triggers, where one-off BBB Dark Ritual does not fix U/R and does not sustain combat-window spells.",
+    "strongest_counterargument": "Brotherhood Regalia already gives cheap legendary unblockability/ward, Greaves/Boots haste/shroud/hexproof, Shizo fear and Nathan first strike. Gate does not protect against preattack/removal on trigger stack or keep Nathan's static color-fixing permission alive. Ritual can accelerate early UBR support and black-intensive play. Net castable attack output not demonstrated.",
+    "effect_aware_test_complete": false
+  },
+  "alternative_cut_candidates": [
+    "Stolen Strategy",
+    "Dream-Thief's Bandana",
+    "Etali, Primal Storm"
+  ],
+  "alternative_add_candidates": [
+    "Port Razer",
+    "Key to the City"
+  ],
+  "critical_rules_cases": [
+    "Attack trigger cast occurs during resolution, not free, one selected spell per trigger, unchosen exiles stranded without another permission; exiled lands cannot be played via cast-spell permission.",
+    "Removal of Nathan after attack but before his triggered ability resolves leaves trigger on stack but removes his static off-color mana spending ability.",
+    "Fire Nation Palace can grant firebending before combat; mana attack trigger must resolve before Nathan's spell-cast to pay, lasts during combat; mana with Nathan on board can pay off-color stolen spells.",
+    "Thieving Varmint tap/pay-life ability only pays for non-owned spells and requires tap eligibility; Dark Ritual produces BBB, cannot itself satisfy commander U/R pips.",
+    "Roaming Throne Rogue repeats Nathan attack trigger; each independent trigger may cast one separately paid spell.",
+    "Firebender Ascension copies relevant attack-caused trigger only after quest-counter requirement; Fire Lord Azula copies spells cast while attacking and those copies are not cast.",
+    "Karlach grants extra combat if first combat attack conditions met; Nathan must survive and actually attack again.",
+    "Dolmen Gate prevents combat damage to attacking creatures but not removal or blockers preventing player combat damage; attack trigger does not require connection.",
+    "Cast-from-exile triggers from Passionate Archaeologist, Nalfeshnee and Wild-Magic Sorcerer distinguish real spell casts from spell copies.",
+    "Commander third-turn UBR and T4 open-mana casting are not captured by static source-presence probability.",
+    "Drannith Magistrate and Rule of Law impede exile-cast permissions; opponent interaction and timing matter."
+  ],
+  "stage_a_sources": [
+    "https://scryfall.com/card/sld/2216/nathan-drake-treasure-hunter",
+    "https://magic.wizards.com/en/news/announcements/secret-lair-the-playstation-superdrop",
+    "https://scryfall.com/card/lrw/256/dolmen-gate",
+    "https://scryfall.com/card/acr/71/brotherhood-regalia",
+    "https://media.wizards.com/2025/downloads/TLA_Release_Notes_06HVqa76yI/EN_MTGTLA_ReleaseNotes_20250925.pdf",
+    "https://scryfall.com/card/tla/268/fire-nation-palace",
+    "https://scryfall.com/card/otc/59/thieving-varmint",
+    "https://media.wizards.com/2024/downloads/OTJ_Release_Notes_nwYBwey2D91L/EN_MTGOTJ_ReleaseNotes_20240307.pdf"
+  ],
+  "prior_verdict_files_opened": false,
+  "contamination_disclosure": "Approval override/tracker prose already referred to zero-new-material-improvement candidate exhaustion and historical Outrageous Robbery name; same GPT-6 lineage may have latent earlier familiarity. No previous Nathan author review, GrokBot advisory, reconciliation-specific verdicts or ranked candidate files opened before Stage A.",
+  "measured_results_claimed": false,
+  "oracle_legalities_all_100_reverified": false,
+  "canonical_mutated": false,
+  "phase_b_complete": false,
+  "m6_certified": false
+}
