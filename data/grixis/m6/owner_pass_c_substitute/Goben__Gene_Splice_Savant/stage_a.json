@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "tracker_number": 43,
+  "tracker_index": 42,
+  "tracker_deck_id": "Goben__Gene_Splice_Savant",
+  "corrected_commander_id": "Norman_Osborn_Green_Goblin",
+  "commander": "Norman Osborn // Green Goblin",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "formal_classification_if_verified": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "stage": "A_NEUTRAL_BEFORE_UNBLIND",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_approval_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+  "canonical_owner_key": "Goben__Gene_Splice_Savant",
+  "canonical_txt_path": "refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt",
+  "canonical_txt_blob": "42e2e0af30286f3d2dcacebfd76e60eee763b965",
+  "canonical_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
+  "list_counts": {
+    "entries": 100,
+    "distinct": 100,
+    "lands": 23,
+    "companion": false
+  },
+  "identity": {
+    "commander_color_identity": "U/B/R",
+    "natural_power_ceiling": "Bracket 5 cEDH-style turbo",
+    "core_mechanic": "unblockable connive into discarded-this-turn mayhem and graveyard generic cost reduction"
+  },
+  "sources": [
+    {
+      "type": "canonical_exact_txt",
+      "path": "refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt"
+    },
+    {
+      "type": "neutral_identity_correction",
+      "path": "data/grixis/registry.json"
+    },
+    {
+      "type": "official_wotc",
+      "url": "https://magic.wizards.com/en/news/feature/spider-man-release-notes"
+    },
+    {
+      "type": "candidate_text",
+      "url": "https://scryfall.com/card/ody/317/cephalid-coliseum"
+    }
+  ],
+  "contamination_disclosure": [
+    "shared GPT-6 reviewer family and prior-memory limitation",
+    "engineering registry accessed for Goben→Norman correction incidentally exposed historic heuristic Mystic Remora→Thrill of Possibility; quarantined and not considered in proposed challenger"
+  ],
+  "provisional_disposition": "NEEDS TESTING",
+  "canonical_action": "KEEP_UNCHANGED",
+  "proposal_unapproved": {
+    "add": "Cephalid Coliseum",
+    "cut": "Unstable Experiment",
+    "hypothesis": "24th land with blue source and threshold draw3-discard3 may improve Goblin discard conversion; may be inferior to cheap mayhem-enabled connive"
+  },
+  "priority_tests": [
+    "exact-list matched 23/24 land and discard windows",
+    "MDFC casting versus transforming and commander tax",
+    "Cephalid Coliseum threshold/timing, LED, Mayhem, Yawgmoth's Will",
+    "graveyard hate, protection, colored source access"
+  ],
+  "limitations": [
+    "no measured game results",
+    "no current comprehensive official legality recheck",
+    "no effect-aware Phase B, M6 I/J, M7 or M8 certification"
+  ]
+}
