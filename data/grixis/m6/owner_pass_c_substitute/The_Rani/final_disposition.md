@@ -1,0 +1,21 @@
+# Final Pass C owner-equivalent — The Rani (#57)
+
+**Date** 2026-10-21. **Final disposition: KEEP** current owner-approved exact 100. Real reviewer ChatGPT/OpenAI GPT-6, alias Josh-Lee-Kwai. Classification FORMAL_PASS_C_OWNER_EQUIVALENT under owner waiver; **technically independent third-model review: NO**.
+
+## Canonical immutable authority
+
+`corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json#decks.The_Rani`: APPROVED/LOCKED. Source `refinement/decklists/The_Rani_Approved_2026-10-15.txt`, Git blob `f65ef47b52e1f110952bd32eb4b3d98356fbf318`, approved SHA256 **7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c**. 100 total cards (1 commander + 99), 94 distinct names, 33 lands, only repeat basic Islands/Mountains/Swamps three each. UBR, no project exception. Historical current-cycle owner closeout and Oct20 Scryfall pass support legality; fresh Oct21 all-card scan NOT executed here.
+
+Cryptographic pre-unblinding neutral Stage A `stage_a.md` SHA256 `94020c9bc77e4b01bcaa417022b9a1452b68faf8a8e51a2802a5f550455c9088`, JSON SHA256 `46b50452bc2502c5140687d128b05666ebcd633308a9fd276bc26281442e34c8`; separate `seal.json` commit **5a10ba84e1ae15c3c8e586ed72ddfd166745dea8**. Reviewed earlier ChatGPT authored `data/grixis/m6/deep_reviews/The_Rani.md` blob `eb4abe438705304d75d2fd14adcff9835f3b0333`, GrokBot advisory `data/grixis/m6/grokbot_pass_c_advisory/The_Rani.md` blob `6510a664c25ada7ec292568a2e46be69456f503b`, reconciliation progress blob `5addcbdec99845b098fa763613f4592679b2e336` ONLY after seal. Prior author/GrokBot KEEP/KEEP is documentary agreement, not independent Pass C.
+
+## Commander identity and net upgrade question
+
+The Rani has an ETB/attack Mark of the Rani Aura on another target creature, buffing and goading it; investigates whenever a goaded creature (regardless of controller or goad source) hits one of your opponents. Exact goals: sustainable goad forced combat and hit incentives, Clue→Manufactor/Food/Treasure multiplier, protection, artifacts→Urza/Statuary/Sieve, card advantage and tactical politics. Bracket **4 — Optimized**, tags **Goad / Clues / Forced Combat** (historical authored assignment; no newly measured performance).
+
+Neutral challenger **+Curse of Verbosity/-Maestros Confluence** is rejected absent stronger measurements: Curse encourages attacks on cursed player and draws but does NOT goad or generate Clues itself, and duplicates role overlap with Curse of Opulence. Confluence retains modal interaction relevant when no creatures exist. Other historic stronger conditional alternatives Tamiyo's Journal, Thopter Assembly and Piper Wright are not automatic upgrades given costly, delayed effects or need to cut commander-native pieces. Full-deck consolidation for M7 must consider them alongside the full 80-pair original screen rather than making an arbitrary one-swap offer. Preserve incumbent.
+
+**Material unresolved verification:** prior authored Force of Will eligible-blue-nonland pitch count **23**, GrokBot advisory count **24**, historical closeout **28** falsely included colorless artifact Signets/Talismans. This formal review resolves the conceptual criterion (current Oracle *color* blue, not color identity), but has not re-enumerated raw colors to certify 23 or 24. Mark for M6 final source count; not a discovered illegality. Hard interaction checks: goad requires attack if able, doesn't bypass attack taxes; investigate depends on actual player combat damage; Mark demands another legal creature; Manufactor multiplies Clue investigation; Sieve needs five artifacts to sacrifice on EACH cycle; no demonstrated deterministic infinity from scattered Clues.
+
+## Testing handoff / governance
+
+Final KEEP with optional targeted legal-state +Curse/-Confluence measurement and more useful candidate comparisons at M7. No observed match win rate or true Phase B test asserted. No owner approves a new card swap or modified 100 in this Pass C. **All 62 canonical decks unchanged and locked; no M6, M7 or M8 certified.** Advance 57/62 only after evidence-PR exact-head CI PASS and merge, followed by separate ledger-only PR CI PASS and merge.
