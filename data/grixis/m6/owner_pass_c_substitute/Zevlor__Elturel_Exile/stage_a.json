@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_id": "Zevlor__Elturel_Exile",
+  "tracker_index": 61,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_approved_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+  "canonical_source_blob": "37dd4f868f136198a13a2619b1288183b452f465",
+  "deck_size": 100,
+  "provisional_disposition": "NEEDS TESTING",
+  "hypothesis": {
+    "add": "Twincast",
+    "cut": "Pilfered Plans",
+    "status": "Not owner-approved; source-paid rules/comparison needed"
+  },
+  "previous_deck_specific_reviews_opened": false,
+  "contamination_disclosure": "GPT-6 family and prior shared project context; no specific Zevlor author/GrokBot/reconciliation verdict opened prior to seal",
+  "limits": "No effect-aware measured games, full current Oracle scan or owner new-swap approval"
+}
