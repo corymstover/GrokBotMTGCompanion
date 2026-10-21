@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_PRE_UNBLINDING",
+  "tracker_index": 7,
+  "deck_id": "Cecily__Bjorna__Lutri",
+  "canonical_deck_id": "Cecily__Bjorna__Lutri",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_model_independence": false,
+  "owner_waiver": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "formal_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "review_date_local": "2026-10-20",
+  "canonical_approved_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+  "canonical_list_path": "refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
+  "canonical_git_blob": "543f7afafd0dc8a14ed28fb626c775716a685d64",
+  "main_card_count": 100,
+  "main_distinct_names": 99,
+  "land_copies": 33,
+  "commander_count": 2,
+  "main_library_count": 98,
+  "external_companion": "Lutri, the Spellchaser",
+  "companion_in_main_count": false,
+  "official_banned_as_companion": true,
+  "project_exceptions": [
+    "Lutri companion (official ban waived for project)",
+    "Trade Secrets (official banned deck card)",
+    "Yawgmoth's Bargain (official banned deck card)"
+  ],
+  "combined_identity": [
+    "U",
+    "B",
+    "R"
+  ],
+  "prior_detailed_verdicts_read": false,
+  "prior_admin_approval_basis_exposure_disclosed": true,
+  "shared_model_family_limitation_disclosed": true,
+  "provisional_disposition": "NEEDS TESTING",
+  "unapproved_exact_pair": {
+    "add": "Strionic Resonator",
+    "cut": "In Garruk's Wake"
+  },
+  "priority_mechanics": [
+    "Cecily attack double trigger via Harmonic Prodigy",
+    "Apex of Power cast from hand versus copied spell ten mana",
+    "Lutri sorcery-speed three-generic companion action before casting",
+    "timestamp hand-size effects Cecily and Triskaidekaphile/Thought Vessel"
+  ],
+  "testing_measured": false,
+  "owner_swap_approved": false,
+  "canonical_unchanged": true
+}
