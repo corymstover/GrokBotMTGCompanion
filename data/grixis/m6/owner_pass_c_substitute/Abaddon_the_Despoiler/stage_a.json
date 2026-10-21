@@ -1,0 +1,96 @@
+{
+  "schema": "jlk_stage_a/v1",
+  "date_local": "2026-10-20",
+  "date_timezone": "America/Chicago",
+  "index": 0,
+  "deck_id": "Abaddon_the_Despoiler",
+  "commander": "Abaddon the Despoiler",
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "ref": "main",
+    "head_sha": "ceffdcceec19e51fa01e3cbe01cca99da0558b07",
+    "path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+    "blob_sha1": "1bbead6e8a7973bd7eb1982147e917d39e217492",
+    "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "count": 100,
+    "distinct_names": 94,
+    "basics_only_repeat": true,
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "color_identity": "UBR",
+    "project_exception": "NONE"
+  },
+  "provenance": {
+    "reviewer_alias": "Josh-Lee-Kwai",
+    "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+    "technically_independent": false,
+    "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+    "eligible_classification_after_final": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "strictly_blind": false,
+    "contamination": "Earlier Abaddon Aggravated Assault / Rakdos Lord of Riots proposed swap was exposed incidentally in top-level reconciliation progress while verifying 62/62; prior-session common-model familiarity; detailed earlier Abaddon review/advisory/reconciliation bodies unopened."
+  },
+  "input_refs": [
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json",
+    "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
+    "https://magic.wizards.com/en/news/feature/adventures-forgotten-realms-release-notes-2021-07-09",
+    "https://magic.wizards.com/en/news/announcements/february-15-2021-banned-and-restricted-announcement"
+  ],
+  "excluded_body_sources_not_opened": [
+    "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/**",
+    "data/grixis/m6/two_model_reconciliation/Abaddon_*"
+  ],
+  "source_summary": {
+    "land_count": 34,
+    "basics_count": 9,
+    "fetchland_count": 7,
+    "nominal_blue_land_sources": 22,
+    "nominal_black_land_sources": 23,
+    "nominal_red_land_sources": 21,
+    "notes": "Fetches counted across all attainable colors, not simultaneous. Exotic Orchard contingent. Source role labels not measured turn-by-turn probabilities."
+  },
+  "hypotheses": [
+    {
+      "add": "Aggravated Assault",
+      "cut": "Rakdos, Lord of Riots",
+      "priority": 1,
+      "known_prior_exposure": true,
+      "effect_aware_test_required": true
+    },
+    {
+      "add": "Guttersnipe",
+      "cut": "Rakdos, Lord of Riots",
+      "priority": 2,
+      "known_prior_exposure": false,
+      "effect_aware_test_required": true
+    },
+    {
+      "add": "Orcish Bowmasters",
+      "cut": null,
+      "priority": 3,
+      "known_prior_exposure": false,
+      "effect_aware_test_required": true,
+      "scope": "meta dependent"
+    }
+  ],
+  "alternative_cuts": [
+    "Noise Marine",
+    "The Ruinous Powers",
+    "Inevitable Betrayal",
+    "Nightscape Familiar"
+  ],
+  "provisional_disposition": "NEEDS TESTING",
+  "current_oracle_full_100_refreshed": false,
+  "project_legacy_legality_gate": "2026-10-13 reported PASS",
+  "measured_phase_b_tests_run": false,
+  "measured_win_rates_available": false,
+  "owner_swap_approved": false,
+  "canonical_modified": false,
+  "open_questions": [
+    "Exact postcombat Neheb/Aggravated Assault repeated timing and mana under current Oracle",
+    "Ability-aware baseline vs exact challenger states across response/hate scenarios",
+    "Post-2026-10-13 Oracle and official Commander legality refresh for tested candidates",
+    "Bracket reconciliation with project metadata after seal"
+  ]
+}
