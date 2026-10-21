@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "tracker_index": 44,
+  "display_name": "Obeka, Splitter of Seconds",
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_exposure_disclosure": "Prior broader-project assistant familiarity cannot be removed; handoff revealed Obeka, Brute Chronologist historical dispute, not Splitter of Seconds previous recommendations; neutral Stage A did not open earlier authored, advisory, reconciliation, ranked verdict files.",
+  "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Obeka_Splitter_of_Seconds_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "3744ef1e8d127a6262abbfd8e064c475b8ee0654",
+  "canonical_approved_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+  "canonical_approval_state": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 96,
+  "land_cards": 35,
+  "color_identity": "UBR",
+  "nonbasic_singleton_violations": 0,
+  "commander_identity": "Combat-damage amount grants that many extra post-combat upkeeps, powering Courts, upkeep triggers, counters, suspend and artifact win lines.",
+  "natural_power_ceiling": "High-optimized commander-dependent combat/upkeep-engine deck; unmeasured competitive win rate.",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_hypothesis": {
+    "add": "Rising of the Day",
+    "cut": "Darksteel Reactor",
+    "alternate_cut": "Jhoira of the Ghitu",
+    "reason": "Test on-time combat access and +1 Obeka damage vs distinct late-game upkeep win/slow suspend engine; no result asserted."
+  },
+  "other_hypotheses": [
+    "Strionic Resonator as mana-priced trigger redundancy",
+    "Trailblazer's Boots or Key to the City for evasive access",
+    "Revel in Riches as Treasure-conditional alternate win"
+  ],
+  "hard_rules_points": [
+    "Added upkeep steps occur in new beginning phases after combat without untap/draw.",
+    "Combat damage amount controls steps; Mjolnir doubles dealt damage, not trigger instances.",
+    "Wizard's Staff and Roaming Throne each add an additional applicable trigger; simultaneous effects add rather than automatically multiply.",
+    "Paradox Haze only fires at first upkeep each turn, not at every generated upkeep.",
+    "As Foretold casting permission is once each turn, not per upkeep.",
+    "Monarch gates stronger Court modes.",
+    "Time Sieve costs five real artifacts per activation; combo not proven."
+  ],
+  "source_urls": [
+    "https://magic.wizards.com/en/news/feature/outlaws-of-thunder-junction-release-notes",
+    "https://magic.wizards.com/en/news/announcements/outlaws-of-thunder-junction-update-bulletin",
+    "https://magic.wizards.com/en/news/feature/marvel-super-heroes-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-hobbit-release-notes",
+    "https://magic.wizards.com/en/news/feature/wilds-of-eldraine-release-notes",
+    "https://mtg.wtf/card/hob/59/Wizards-Staff",
+    "https://mtg.wtf/card/hob/229/Smaug-the-Magnificent",
+    "https://mtg.wtf/card/msh/77/Super-Intelligence"
+  ],
+  "known_limits": [
+    "No measured simulations or matchup rate.",
+    "Selective key-card Oracle/rules evidence, not full 100-card independent official-legal certificate.",
+    "No historical verdicts read yet.",
+    "No owner-approved swap or canonical mutation."
+  ],
+  "stage_a_md_path": "data/grixis/m6/owner_pass_c_substitute/Obeka__Splitter_of_Seconds/stage_a.md"
+}
