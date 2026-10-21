@@ -31,3 +31,11 @@ No output from the I/J input receipt generator is eligible for `APPROVAL_READY`,
 ### Unclosed gates
 
 A/B Git-commit and input-projection separation improves reproducibility, but the workflow still runs both code paths in one CI job; it is **not** a physically isolated two-party commit/reveal blind protocol. Require separate independent execution envelopes if the strict blinding requirement cannot be shown to hold. Pass C must review all material disagreements and agreements critically; Phase-B test coverage, active-effect modeling, human/agent judgment receipts, exact Oracle/rules refresh, final complete J bundles and I zero-improvement certificates remain unproduced. M6 may not be accepted or used to auto-approve decks.
+
+## 2026-10-21 owner waiver — substitute Pass C provenance (M6.5 only)
+
+Cory explicitly and formally authorized substituting the completed 62/62 **ChatGPT/OpenAI GPT-6 owner-equivalent** Josh-Lee-Kwai critical reviews for the originally required **genuinely independent third-model** Pass C, **for the purpose of eventual M6 certification**. The owner response and limitation are preserved at `data/grixis/m6/governance/pass_c_owner_waiver_20261021.json` and `grixis/M6 Pass C Owner Waiver 2026-10-21.md`.
+
+**M6.5 now qualifies as completed under the amended owner-authorized governance condition**. The original technical independence was never achieved and remains explicitly **0/62 independent reviewer executions**; 62 owner-equivalent final reviews were performed, not a third-model critique. Original sealed review evidence, actual disagreements, model provenance, and the 47 NEEDS TESTING dispositions remain intact. This supersedes only prior statements in this contract that a further *independent Pass C reviewer* must be obtained.
+
+This waiver **does not** waive effect-aware Phase B, decision-grade judgments, M6 I local-optimum or J reproducibility evidence, final Oracle/legality/exception handling, individual exact deck approvals, or milestone acceptance. All M6 J evidence bundles that rely on owner-equivalent Pass C must trace the receipt and disclose lack of technical independence. **M6 is still in progress; no schema-valid final bundle is certified by this waiver.**
