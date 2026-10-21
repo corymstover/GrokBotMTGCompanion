@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "deck_id": "Saruman__the_White_Hand",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT / OpenAI GPT-6",
+  "formal_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent_model": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_deck_path": "refinement/decklists/Saruman_the_White_Hand_Approved_2026-10-15.txt",
+  "canonical_deck_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+  "canonical_deck_git_blob_sha": "64b58455b8fb05f8c68e32ea0481333f8e47afd9",
+  "first_stage_commit_sha": "210b675c818f1f138c57b81866cf470b2166c3cc",
+  "stage_a_files": [
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Saruman__the_White_Hand/stage_a.md",
+      "sha256": "942f5d5b06c5244ab677a7d5979deb78979bfe44321a347c5f6325ca99ae2bdc",
+      "git_blob_sha": "8ac5c92d03cd3d32653877a8486e44736b0e4c84"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Saruman__the_White_Hand/stage_a.json",
+      "sha256": "71e6ef4bb54a53c8257e56197f0613c91c471d41601565fa77ba4b8ca4ade0cb",
+      "git_blob_sha": "aa2b1fe9f5b33115ac6792e4d2e3d1fe2f40babb"
+    }
+  ],
+  "unblinding_status_at_seal": "NOT_UNBLINDED",
+  "sealed_stage_a_immutability": "Stage A committed before opening deck-specific prior ChatGPT, GrokBot, and reconciliation conclusions; never update sealed artifacts",
+  "prior_session_familiarity_disclosure": "Prior project participation and general background cannot be erased; this is a procedural neutral-input review, not literal model or memory independence.",
+  "recorded_utc": "2026-10-21"
+}
