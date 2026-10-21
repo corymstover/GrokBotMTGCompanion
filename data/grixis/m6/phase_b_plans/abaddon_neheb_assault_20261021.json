@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "Phase_B_targeted_effect_aware_rules_fixture_preregistration",
+  "baseline_canonical_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "baseline_deck_status": "APPROVED_LOCKED_UNCHANGED",
+  "exact_challenger": {
+    "add": "Aggravated Assault",
+    "cut": "Rakdos, Lord of Riots"
+  },
+  "primary_sources": [
+    "https://magic.wizards.com/en/news/feature/wilds-of-eldraine-release-notes",
+    "https://magic.wizards.com/en/news/feature/commander-masters-release-notes",
+    "https://scryfall.com/card/plst/SCD-90/loyal-subordinate"
+  ],
+  "preregistered_questions": [
+    "Can cumulative opponent life loss from Loyal Subordinate pay for consecutive Aggravated Assault activations through Neheb postcombat triggers?",
+    "Which interruption windows stop the engine, and which already-triggered abilities survive source removal?",
+    "Does lieutenant require Abaddon at both beginning of combat and trigger resolution?",
+    "Is five red / {3}{R}{R} precisely the repeat-payment threshold, and does Neheb only generate red after a postcombat main phase begins?"
+  ],
+  "deterministic_case_ids": [
+    "full_four_piece_sequence",
+    "five_red_floor",
+    "no_commander_at_combat_or_resolution",
+    "subordinate_removed_after_trigger",
+    "neheb_removed_before_or_after_postcombat_trigger",
+    "assault_sorcery_window",
+    "no_neheb_or_no_subordinate_no_self_fund",
+    "fog_not_equivalent_to_life_loss_prevention",
+    "turn_reset_and_response_stops"
+  ],
+  "assumptions": [
+    "Exactly three opponents at 40 life, no attackers or combat damage unless explicitly injected",
+    "All four permanents are already in play; starting probability and commander casting are NOT modeled",
+    "Explicit scripted response windows only; no opponent stochastic strategy, no multiplayer win-rate inference",
+    "Neheb trigger computes cumulative opponent life loss at resolution and produces red, no priority shortcut",
+    "Aggravated Assault requires a controller's main phase with empty stack and {3}{R}{R}; follows with extra combat and a postcombat main",
+    "Loyal Subordinate's intervening-if commander requirement checked at trigger and resolution; its established trigger persists through subordinate removal",
+    "Unspent mana is cleared between steps/phases per rules; no unrelated spell, equipment, land, or card access effects are included",
+    "Life-loss prevention is distinct from damage fogs"
+  ],
+  "required_outputs": [
+    "Executable adversarial deterministic assertions with phase, priority and mana accounting",
+    "Independent scenario summary stating only conditional rule/payability truth, not deck improvement",
+    "CI at exact pull-request head; canonical deck SHA and approvals unchanged"
+  ],
+  "not_claimed": [
+    "Measured access frequency",
+    "Full game-state simulator",
+    "Measured multiplayer win rates",
+    "Final superiority of Aggravated Assault over Rakdos",
+    "Complete Phase B certificate",
+    "M6/M7 acceptance"
+  ],
+  "authority": {
+    "can_apply_swap": false,
+    "can_modify_canonical": false,
+    "can_approve": false,
+    "can_certify_m6": false
+  }
+}
