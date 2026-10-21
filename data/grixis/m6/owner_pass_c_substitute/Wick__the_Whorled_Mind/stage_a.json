@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_id": "Wick__the_Whorled_Mind",
+  "tracker_index": 60,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "canonical_approved_sha256": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+  "canonical_source_blob": "503378bb385186e8d8b1530750106c75d247c0d5",
+  "deck_size": 100,
+  "provisional_disposition": "NEEDS VERIFICATION",
+  "hypothesis": {
+    "add": "Universal Automaton",
+    "cut": "Lich's Relic",
+    "status": "NOT APPROVED; exact card and effect verification needed"
+  },
+  "previous_deck_specific_reviews_opened": false,
+  "contamination_disclosure": "Same GPT-6 project lineage; no deck-specific earlier reviewer verdict accessed before seal",
+  "limits": "No real measured testing, complete current Oracle/legality rescan, owner approval or M6/M7/M8 certification"
+}
