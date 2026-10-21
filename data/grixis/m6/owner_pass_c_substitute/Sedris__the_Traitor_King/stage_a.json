@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class_when_complete": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "review_stage": "A_PRE_SEAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Sedris__the_Traitor_King",
+  "tracker_index": 50,
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_ref": "main",
+  "canonical_head_observed": "856716a307c0277bb069f2d8f67e28018d4fd596",
+  "canonical_path": "refinement/decklists/Sedris_the_Traitor_King_Approved_2026-10-15.txt",
+  "canonical_blob_sha": "fc33a2493255d6033691b1195d1bc1091b420b3b",
+  "canonical_raw_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+  "approval_state": "APPROVED",
+  "lock_state": "LOCKED",
+  "baseline": {
+    "total": 100,
+    "distinct": 99,
+    "lands": 31,
+    "noncommander_nonlands": 68,
+    "commander": "Sedris, the Traitor King",
+    "companion": null,
+    "official_color_identity": "U/B/R",
+    "project_exceptions": []
+  },
+  "visible_contamination": [
+    "Historical same GPT-6 family authored reviews and wider project familiarity",
+    "Mandatory reconciliation ledger metadata seen during state recovery",
+    "GitHub administrative PR search snippets for prior Sedris #313 and #363 exposed earlier KEEP and Ghostly Flicker/Sundial summary before seal; not substantive primary inputs"
+  ],
+  "prior_full_review_files_opened": false,
+  "neutral_sources": [
+    "exact live canonical TXT",
+    "current approval overrides",
+    "source-neutral registry ceiling and identity",
+    "Wizards Warhammer 40000 unearth release notes",
+    "Wizards Sundial release notes",
+    "Wizards Commander Legends Obeka release notes",
+    "Wizards Commander 2025 Gifts Ungiven unban"
+  ],
+  "independent_hypotheses": [
+    {
+      "add": "Displacer Kitten",
+      "cut": "Panharmonicon",
+      "confidence": "needs_effect_aware_comparison",
+      "approved": false
+    },
+    {
+      "add": "Scholar of the Lost Trove",
+      "cut": "Etali, Primal Storm",
+      "confidence": "lower; needs_current_oracle_and_target_screen",
+      "approved": false
+    }
+  ],
+  "historically_exposed_not_independent_hypothesis": {
+    "add": "Ghostly Flicker",
+    "cut": "Sundial of the Infinite",
+    "note": "Seen only in PR metadata; not adopted; preserve Sundial's valid end-step timing."
+  },
+  "alternate_cuts": [
+    "Etali, Primal Storm",
+    "Feldon of the Third Path",
+    "Jin-Gitaxias, Core Augur"
+  ],
+  "provisional_disposition": "NEEDS TESTING",
+  "required_next": [
+    "seal first-stage commit in separate immutable commit",
+    "unblind authored/GrokBot/reconciliation in Stage B",
+    "compare actual candidate effect, ability/timing, and alternative cuts",
+    "current targeted Oracle checks and mana-access stress",
+    "final disposition without owner swap or M6 certification"
+  ],
+  "measured_testing_performed": false,
+  "full_current_oracle_sweep_performed": false,
+  "canonical_modified": false
+}
