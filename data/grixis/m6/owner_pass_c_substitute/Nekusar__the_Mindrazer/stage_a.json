@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "deck_id": "Nekusar__the_Mindrazer",
+  "tracker_index": 39,
+  "review_date_local": "2026-10-21",
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technical_independence": false,
+  "owner_waived_technical_independence": true,
+  "stage_a_formal_countable": false,
+  "approved_canonical_sha256": "bc36908fb2f848dfd69407a317d7da5811532dba7e3b4e7be89a2905d901c6f1",
+  "canonical_txt_path": "refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt",
+  "canonical_txt_git_blob_sha": "8ee94e3e7d34d6ff7aa9bd28672a862756d002d9",
+  "canonical_authority_blob_sha": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+  "neutral_mana_evidence_blob_sha": "68d6a6515d577164c7592e2a7d78f3bd86dcfa1c",
+  "deck_quantity_total": 100,
+  "distinct_card_names": 97,
+  "land_count": 35,
+  "singleton_basic_lands_only": true,
+  "commander": "Nekusar, the Mindrazer",
+  "identity": "Grixis UBR opponent-draw wheel damage/life-loss",
+  "natural_power_ceiling": "Bracket 4 Optimized candidate, not certified",
+  "provisional_disposition": "NEEDS TESTING",
+  "current_baseline_preference": "KEEP UNTIL MEASURED COMPARISON",
+  "candidate_add": "Mindcrank",
+  "candidate_cut": "Niv-Mizzet, Parun",
+  "candidate_status": "TESTING HYPOTHESIS ONLY",
+  "alternative_cuts": [
+    "Fate Unraveler",
+    "Stormfist Crusader",
+    "Fevered Visions",
+    "Krang, the All-Powerful"
+  ],
+  "alternative_candidates": [
+    "Howling Mine",
+    "Dictate of Kruphix",
+    "Font of Mythos",
+    "Forced Fruition"
+  ],
+  "key_rule_topics": [
+    "draw-step start versus actual draw event",
+    "opponent draw per-card triggers",
+    "additive triggered-ability increases",
+    "Ghyrson 1 damage versus life loss",
+    "Curiosity draw controller",
+    "Bloodchief Ascension quest counters",
+    "Mindcrank/Ascension life-loss and mill finite termination",
+    "priority at wheel resolution and triggered-ability stacks"
+  ],
+  "neutral_source_inputs": [
+    "state/current_deck_overrides.json",
+    "refinement/decklists/Nekusar_the_Mindrazer_Approved_2026-10-15.txt",
+    "data/grixis/mana_base/nekusar-the-mindrazer.json",
+    "public card-text mirror of Nekusar and selected rules cards"
+  ],
+  "prohibited_prior_nekkar_verdicts_opened": false,
+  "prior_exposure_disclosure": "Actual GPT-6 is same model family as previous project work. Canonical approval metadata itself disclosed historical 'zero-new-material-improvement closure' and Ghyrson/Solphim corrections; not taken as evidence. General public card-text results surfaced interaction commentary but no prior project reviewer or reconciliation files were opened before Stage A sealing.",
+  "limitations": [
+    "Scryfall card-page live access unavailable; current 100-card Oracle/Commander legality not exhaustively rechecked",
+    "No measured matchup/testing outcomes",
+    "Mana source probabilities are presence proxies, not cast success",
+    "No sealed comparison to original author/GrokBot until separate seal"
+  ],
+  "owner_swap_approved": false,
+  "canonical_unchanged": true,
+  "phase_b_certified": false,
+  "m6_certified": false
+}
