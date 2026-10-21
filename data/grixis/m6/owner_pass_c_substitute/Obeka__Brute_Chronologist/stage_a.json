@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_BEFORE_UNBLIND",
+  "deck_id": "Obeka__Brute_Chronologist",
+  "tracker_number": 44,
+  "tracker_index": 43,
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "formal_classification_if_verified": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_owner_file": "state/current_deck_overrides.json",
+  "canonical_owner_blob": "81801b2f9d3387b171c01f1fcae255b385a5b698",
+  "canonical_raw_txt": "refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt",
+  "canonical_txt_blob": "af530761f649e2b40f1baecdbabb08d726fce1ae",
+  "canonical_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+  "counts": {
+    "cards": 100,
+    "unique_names": 100,
+    "lands": 34,
+    "companion": false
+  },
+  "identity": {
+    "colors": "U/B/R",
+    "natural_ceiling": "Bracket 4 Optimized",
+    "signature": "end-turn delayed-trigger eviction and preserved temporary creature value"
+  },
+  "provisional": "NEEDS TESTING",
+  "canonical_action": "KEEP",
+  "hypothesis_only": {
+    "add": "Mimic Vat",
+    "cut": "Avaricious Dragon",
+    "principal_pro": "one-shot next-end-step exile can be exiled after trigger to retain Vat's hasty token",
+    "principal_con": "reactive 3+3-mana tap artifact plus commander cost is slow compared with Dragon's extra card draw and existing copy engines"
+  },
+  "neutral_sources": [
+    "current exact approved canonical TXT and owner key",
+    "WotC Commander Legends 2020 release notes",
+    "WotC Core Set 2021/Discontinuity 2020 notes",
+    "WotC 2022 Delina Oracle erratum",
+    "WotC Lost Caverns 2023 Mimic Vat release notes",
+    "WotC 2026-09-25 Comprehensive Rules"
+  ],
+  "contamination_disclosure": [
+    "Original handoff exposed historical Footsteps of the Goryo/Delina, Wild Mage proposal; quarantined from preferred independent Stage A candidate",
+    "Same GPT-6 model family and shared history; actual model independence absent"
+  ],
+  "key_rules": [
+    "Obeka player whose turn it is may refuse on opponent turn",
+    "end turn exiles stack and goes to cleanup; until-end-turn expires",
+    "one-shot at beginning NEXT end step delayed trigger exiled after triggering does not recur",
+    "ending early defers next-end-step delayed trigger",
+    "Delina regular granted end of combat trigger recurs in later combats",
+    "Avaricious Dragon recurring end step hand-discard trigger persists future turns",
+    "exiling delayed extra turn loss trigger after trigger resolves safe only if executable"
+  ],
+  "tests_required": [
+    "exact rules finite sequence and priority checks",
+    "paired A/B with draw-vs-Vat conditional setups",
+    "updated candidate legality and full list before any owner swap",
+    "targeted effect-aware Phase B/I/J and owner M6"
+  ],
+  "claim_limits": [
+    "no trials",
+    "no refreshed whole list legality",
+    "no independent third model",
+    "no I/J/M6/M7/M8 completion"
+  ]
+}
