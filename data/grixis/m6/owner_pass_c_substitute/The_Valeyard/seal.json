@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "The_Valeyard",
+  "canonical_sha256": "4bef619a33d85eafaf194997924fc8378dd490f62c59d76bafccc4fa07ef821c",
+  "first_stage_commit_sha": "35d6934541ede500594b1e86316aa162965ba891",
+  "stage_a_md_sha256": "4f47c1a767aa0d8bf0efdca587c848052a4a1ebd87ecc579e5f09b88c7c22703",
+  "stage_a_json_sha256": "fa094068a4fa6dc10d5d5aaabea0201f80ab710062b164456966cdf44a4fedc9",
+  "stage_a_md_blob": "9afb2f5d32b956e9d74b52f9d8a1dbeb9974e130",
+  "stage_a_json_blob": "6976ffc7330e7483cb1dc60343134e43c48159e1",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same GPT-6 lineage/project knowledge, no deck-specific verdict opened prior to seal",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
