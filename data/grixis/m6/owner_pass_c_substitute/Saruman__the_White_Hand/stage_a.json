@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Saruman__the_White_Hand",
+  "tracker_index": 47,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Shared GPT-6 family; latent prior memory not erasable. Only exact canonical source, current WotC official Oracle/rules and neutral role info inspected; earlier Saruman reviewer, reconciliation, candidate ranks and decision details not opened before Stage A seal.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Saruman_the_White_Hand_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "64b58455b8fb05f8c68e32ea0481333f8e47afd9",
+  "canonical_approved_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 97,
+  "land_role_cards_including_mdfc": 35,
+  "dedicated_lands": 31,
+  "land_faced_mdfc": 4,
+  "nonbasic_singleton_violations": 0,
+  "color_identity": "UBR",
+  "commander_identity": "4-mana Saruman Avatar Wizard amass Orcs for mana value of NONCREATURE spells cast, Orc/Goblin ward2, one Army grows with spell-trigger multipliers/counter damage/large Army payoff",
+  "natural_power_ceiling": "Optimized Bracket 4 commander-first Army spellslinger; genuine but conditional high-damage spell loops, unproven consistent Bracket 5",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Reiterate",
+    "cut": "Treason of Isengard",
+    "alternative_cut": "Rage into the Valley",
+    "reason": "Reiterate buyback on existing Mana Geyser copies 6+ red when opponents have 6+ tapped lands, recursively cast Reiterate to trigger Saruman amass3; initial 11 mana RR+RR seed and opponent response hard constraint"
+  },
+  "secondary_challenger": {
+    "add": "Roaming Throne",
+    "cut": "Treason of Isengard",
+    "status": "LOWER_CONFIDENCE_FOUR_MANA_REDUNDANT_WIZARD_DOUBLE"
+  },
+  "rules_checks": [
+    "Saruman triggers on CAST noncreature spells, not spell copies; X is spell mana value on stack including X, unaffected by delve/buyback/cost reduction",
+    "Saruman's ward 2 only to Orc/Goblin creatures controlled, not Saruman naturally",
+    "Amass Goblins and Orcs choose existing Army, can add both types; no fresh token each time",
+    "The Great Goblin deals 2 per counter-placement EVENT not per number of counters; All Will Be One cares count in event",
+    "Wizard's Staff/Harmonic Prodigy/Roaming Throne double applicable Wizard triggers; Veyran doubles on instants/sorceries cast/copy events",
+    "Reiterate 1RR buyback3 six mana total, cast repeats, Mana Geyser copies not cast, 6 tapped opp lands sustains six red without reductions",
+    "Buyback returns Reiterate as RESOLVES; countered Reiterate not returned",
+    "Kazuul's Fury sacrifices Army as casting cost before Saruman trigger, unlike Soul's Fire/Chandra's Ignition",
+    "Orcish Medicine target illegal prevents spell resolution/amass, but Saruman triggered when cast remains independent"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-hobbit-release-notes",
+    "https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23",
+    "https://magic.wizards.com/en/news/feature/phyrexia-all-will-be-one-release-notes",
+    "https://magic.wizards.com/en/news/feature/marvel-super-heroes-release-notes",
+    "https://magic.wizards.com/en/banned-restricted-list"
+  ],
+  "limits": [
+    "No historical Saruman reviewer verdict opened before seal",
+    "No actual game simulation/seed and no current all-100 Oracle refresh",
+    "Cannot infer technical model independence from neutral input or two Git commits",
+    "No canonical swap or milestone certification"
+  ]
+}
