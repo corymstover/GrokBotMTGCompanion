@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "stage_a_first_stage_commit_sha": "807521d898cff81a604624ff897f18d6f82f9302",
+  "canonical_exact_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+  "canonical_source_blob_sha": "3744ef1e8d127a6262abbfd8e064c475b8ee0654",
+  "files": [
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Obeka__Splitter_of_Seconds/stage_a.md",
+      "git_blob_sha": "29694bbc9afb9ee5406103f6426f68422feed5dc",
+      "sha256": "7d03e265fef28920b0d4b9179ffd2bd17294031645b26a27e51ee83b26cb749f"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Obeka__Splitter_of_Seconds/stage_a.json",
+      "git_blob_sha": "9a61e99f0b2681a4efce10b255585303ecd132a5",
+      "sha256": "006fb0bc93e762447ab525e931d1dc4dff7a231b59d375aba1252a5af9b9605e"
+    }
+  ],
+  "sealed_date_local": "2026-10-21",
+  "contamination_disclosure": "Same-model family with general prior project exposure; handoff named the different Obeka, Brute Chronologist's earlier cut/add, but no prior Obeka, Splitter of Seconds verdict opened. No technical independence claimed.",
+  "unblinding_status_at_seal": "NOT_YET_OPENED"
+}
