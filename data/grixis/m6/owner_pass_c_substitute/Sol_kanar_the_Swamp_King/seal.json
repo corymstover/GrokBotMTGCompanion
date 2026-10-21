@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "deck_index": 52,
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "stage": "A_CRYPTOGRAPHIC_SEAL",
+  "sealed_at_local_date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "approved_canonical_list_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+  "canonical_txt_raw_sha256_recomputed": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+  "canonical_txt_git_blob_sha": "99ca0f3dfca3fbcb3c9ac9cfa2c3381cb516ac08",
+  "stage_a_md_sha256": "f5ff2e01c9cba9629f591c6f8d31fb03306b00b9ef642bcaeca12608d31363d7",
+  "stage_a_json_sha256": "9ca0a70a5713b5d59853f653f43ae74acd0580e6c1848436d0765adc35c1b3a6",
+  "first_stage_commit_sha": "9b9d2e699dc4a94df465ca9c65661fad539d005d",
+  "stage_a_md_first_commit_sha": "bb1ee0dd6b21f3e7109a5619e1aae0cbb0644f56",
+  "stage_b_unblinding_not_performed_before_seal": true,
+  "contamination_disclosure": "Same GPT-6 family as prior review; earlier administrative continuation snippet disclosed candidate names Well of Lost Dreams and Mindcrank but no underlying verdicts were consulted in Stage A; quarantined from Stage A hypotheses.",
+  "immutable_stage_a_warning": "Do not edit the original stage_a.md or stage_a.json after this seal. Later corrections belong to Stage B or final disposition."
+}
