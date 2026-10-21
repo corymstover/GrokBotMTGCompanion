@@ -135,9 +135,10 @@
           "data/grixis/m6/phase_b_bounded/cycle125_grok_review_reconciliation_and_cycle119_erratum_01.md",
           "data/grixis/m6/phase_b_plans/cycle126_bolas_source_paid_pressure_preregistered_01.json",
           "data/grixis/m6/phase_b_bounded/cycle126_bolas_source_paid_pressure_interpretation_01.md",
-          "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md (PR #504; exact-head CI 39692748860 PASS; conditional effect-aware fixtures only)"
+          "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md (PR #504; exact-head CI 39692748860 PASS; conditional effect-aware fixtures only)",
+          "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md (PR #506; exact-head CI 39694322053 PASS; 11 deterministic Oracle-cost/inventory tests, not full-deck comparative gameplay)"
         ],
-        "scope": "Targeted actual-effect rules coverage now includes ten adversarial Abaddon Neheb/Assault/Loyal deterministic cases (PR #504), plus earlier bounded Abaddon and Bolas fixtures. Zero full matched 100-card multiplayer Phase B certificates (0/62); conditional ability/payability correctness does not prove improvement versus Rakdos or source-access consistency. M6.6 remains PARTIAL."
+        "scope": "Targeted effect-aware ability fixtures cover Abaddon Neheb/Assault/Loyal conditional combats (PR #504) and deterministic Rakdos creature-spell generic reductions/inventory (PR #506), alongside earlier bounded Abaddon/Bolas work. All 17 identified Rakdos beneficiary creature identities are *potential*, not measured cast events. Zero full matched 100-card multiplayer Phase B certificates (0/62); neither rules test proves net superiority, actual card access or M6 certification. M6.6 remains PARTIAL."
       },
       {
         "id": "M6.7",
