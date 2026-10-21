@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "deck_id": "Goben__Gene_Splice_Savant",
+  "corrected_commander_id": "Norman_Osborn_Green_Goblin",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "formal_pass_c_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "stage": "A_SHA256_SEALED_BEFORE_UNBLIND",
+  "sealed_utc_date": "2026-10-21",
+  "first_stage_git_commit_sha": "0eb5753bc8143f0eb3c68d57e9d7c501057b5dc2",
+  "stage_a_markdown_path": "data/grixis/m6/owner_pass_c_substitute/Goben__Gene_Splice_Savant/stage_a.md",
+  "stage_a_markdown_git_blob_sha": "3c73b8c3dac9bdaa239945d489ab9f9637702b94",
+  "stage_a_markdown_sha256": "f64dc4d7c18ff58f88d6e87846f06fc4721121dd65fcd85203d3b28153b756fb",
+  "stage_a_json_path": "data/grixis/m6/owner_pass_c_substitute/Goben__Gene_Splice_Savant/stage_a.json",
+  "stage_a_json_git_blob_sha": "0448454da21c3ba3be1e443b690c1d5b243f146f",
+  "stage_a_json_sha256": "d2dc8b8d869a04d5c4fa5a164a1ff94d582b15e4c37a1b409f78e5e7f27bb166",
+  "canonical_owner_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
+  "sealed_prior_to_reading": [
+    "data/grixis/m6/deep_reviews/Norman_Osborn_Green_Goblin.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Norman_Osborn_Green_Goblin.md",
+    "data/grixis/m6/two_model_reconciliation/**"
+  ],
+  "contamination_disclosure": "Engineering registry identity-crosswalk entry incidentally exposed historic Mystic Remora to Thrill of Possibility challenger; explicitly excluded from Stage A. Same model family and prior-chat familiarity still limit blind independence.",
+  "immutability": "Do not rewrite Stage A blobs or this seal to fit historical verdicts. Stage B and C must be additive."
+}
