@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "Tetsuo__Imperial_Champion",
+  "canonical_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+  "first_stage_commit_sha": "0c619eea4691df6ad2c3a97cc75c17764f67f05d",
+  "stage_a_md_sha256": "499e5681752f8d3e55b19f3f8e0af3cfd2b1484e1af2f083aca71a10e1da7359",
+  "stage_a_json_sha256": "165009e038923bbc76e0e601bfb82548915e79fdc8be4d115012383fcf2a6c00",
+  "stage_a_md_blob": "7ca5136108b25d4fb38bdcaf99ee78722e505845",
+  "stage_a_json_blob": "b936a03a59fce24c0b935bcdbc6e168f5f694d05",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same GPT-6 lineage and broad project context; prior deck-specific evidence unopened",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
