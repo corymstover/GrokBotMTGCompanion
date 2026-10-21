@@ -1,0 +1,62 @@
+{
+  "schema_version": "jlk-stage-a-1",
+  "deck_index": 30,
+  "tracker_index": 29,
+  "deck_id": "Lord_Xander__the_Collector",
+  "commander": "Lord Xander, the Collector",
+  "date": "2026-10-21",
+  "stage": "A_NEUTRAL_PRE_UNBLIND",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_path": "refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt",
+  "canonical_blob_sha": "025aa2849f7818a986cae66a3f0be9ef4876a988",
+  "canonical_approved_list_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+  "card_count": 100,
+  "library_cards": 99,
+  "distinct_names": 97,
+  "lands": 33,
+  "basic_lands": 6,
+  "color_identity": "UBR",
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "history_contamination_risk": "Prior user continuation prompt openly named Necromancy/Persist as historical Xander challenger. This comparison is consequently not a blindly generated hypothesis, though prior authored/advisory/reconciliation verdict files were not opened before Stage A seal.",
+  "author_opinions_read_in_stage_a": false,
+  "grok_verdicts_read_in_stage_a": false,
+  "reconciliation_opinions_read_in_stage_a": false,
+  "disposition": "NEEDS TESTING",
+  "challenger_add": "Necromancy",
+  "challenger_cut": "Persist",
+  "alternative_adds": [
+    "Dance of the Dead"
+  ],
+  "alternative_cuts": [
+    "Helm of the Host",
+    "Roaming Throne"
+  ],
+  "core_identity": [
+    "Seven-mana Xander discard-half on ETB, library-half on attack, sacrifice-half nonland on death",
+    "Reanimate/copy Xander while mitigating legend rule",
+    "Haste and extra combat for attack-mill",
+    "Bruvac, Fraying Sanity, Riverchurn Monument finishing mill"
+  ],
+  "key_rules": [
+    "Persist targets nonlegendary creatures only and cannot target Lord Xander",
+    "Xander's attack trigger mills floor half defending player's library and does not target",
+    "Bruvac doubling floor half leaves one card in odd library",
+    "Myriad tokens enter attacking but did not attack; end-combat exile is not dying",
+    "Hall of Echoes copying is not a new enter event",
+    "Necromancy at instant-like timing self-sacrifices at next cleanup, causing a death if return sticks"
+  ],
+  "primary_caveats": [
+    "Known challenge named in previous user handoff; no new independent discovery claimed",
+    "Direct full Scryfall/Gatherer live collection query not possible; current focal texts verified by indexed card source and WotC notes",
+    "No measured hands or effect-aware win rates; Stage A only"
+  ],
+  "is_formally_completed": false,
+  "notes_file": "stage_a.md"
+}

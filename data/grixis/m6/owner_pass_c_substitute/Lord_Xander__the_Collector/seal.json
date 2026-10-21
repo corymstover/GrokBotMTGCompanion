@@ -1,0 +1,33 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 30,
+  "tracker_index": 29,
+  "deck_id": "Lord_Xander__the_Collector",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "User's master continuation handoff explicitly named historical Necromancy/Persist debate. Neutral Stage A independently checked card text and declared this name contamination; no actual Xander-specific authored/advisory/reconciliation verdict files were opened before this seal. General project memory and same-model lineage cannot be erased.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt",
+  "canonical_raw_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+  "canonical_git_blob_sha": "025aa2849f7818a986cae66a3f0be9ef4876a988",
+  "stage_a_commit_sha": "6ebb511e4b1bc4d6d0b9f0103cf1f95519f7eaae",
+  "stage_a_parent_commit_sha": "e3b1209f33bce792ab490a318c33083a8f5adadd",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "89a78d803b5cb5ea886b2402828aaff00b78497db0b3c0fe569c6c0ee5a879d1",
+      "git_blob_sha": "e97d35fe9666519ed8ff0fc5e605d3ff2b5a5e07"
+    },
+    "stage_a.json": {
+      "sha256": "aff5f64c0a59ede5b77eb3a58d39fc5cf04bc8eebdc791c238a94898a25181ca",
+      "git_blob_sha": "c0d52650a2936b48bd48784f510089053559dfbf"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Do not rewrite; put post-seal corrections in Stage B/C"
+}
