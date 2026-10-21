@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "seal_type": "IMMUTABLE_STAGE_A_SHA256_AND_GIT_COMMIT",
+  "deck_id": "RogSi",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "sealed_at_local_date": "2026-10-21",
+  "canonical_approved_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+  "canonical_list_path": "corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/RogSi_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "6b7827592ff0f2eaca004b4b02a9867ed49a0879",
+  "first_stage_commit_sha": "466d805a8f500d6d7a8c5887d0e00f095c48b5a7",
+  "stage_a_markdown": {
+    "path": "data/grixis/m6/owner_pass_c_substitute/RogSi/stage_a.md",
+    "sha256": "589194ae8052f0cbf047c5bda2c0dd8f2e070ec93c8766e1dbd5ac0c3c90cf27",
+    "git_blob_sha": "99013b9675f427b2208d85f8be61fb5fd2c4e541"
+  },
+  "stage_a_json": {
+    "path": "data/grixis/m6/owner_pass_c_substitute/RogSi/stage_a.json",
+    "sha256": "487f16a84f9f70923c8cadfb1bdc1d8e503488aaf046e35d5ba9c0e21eef27db",
+    "git_blob_sha": "179b1ae29488c6e771afd4a513eedf4d1a52974e"
+  },
+  "neutral_input_limits": "Approved exact 100-card source; current WotC Oracle/rules and Commander ban sources; role analysis; owner-waiver protocol. Excludes RogSi previous author/GrokBot/reconciliation, ranked cuts, tests/decision documents.",
+  "prior_context_contamination_disclosure": "GPT-6 same model lineage as initial author and reconciliation, general project/ranking familiarity may survive; no historical RogSi substantive review files opened in current session before this seal. Neutral-input isolation is not actual technical model independence.",
+  "integrity_claim": "Stage A file content verified byte-for-byte by rereading branch at seal time; recorded SHA-256 and source hash computed from exact UTF-8 bytes; this seal is separate Git commit before controlled Stage B."
+}
