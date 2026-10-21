@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "deck_id": "Ashnod_the_Uncaring",
+  "stage": "A_SEAL",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technical_independence": false,
+  "formal_pass_c_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "owner_independence_waiver": true,
+  "canonical_approved_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+  "first_stage_git_commit_sha": "743ebdf470dcc0c67dab3c4bd63ea463d7f33ca8",
+  "first_stage_tree_sha": "4f32261a22310cf832862adcbc7e1b635e9850bb",
+  "stage_a_md_path": "data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/stage_a.md",
+  "stage_a_md_sha256": "a205ba0d5c8828d36e22b58837e5317ad5e9a56fef751c8b745af7d43e894c26",
+  "stage_a_md_git_blob_sha": "17e52e8fa903759a4f48b573d075387d53cfafd9",
+  "stage_a_json_path": "data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/stage_a.json",
+  "stage_a_json_sha256": "70caede5294108ff8535f9e63f15b497daae6d62f987bb873072be6846b6d96a",
+  "stage_a_json_git_blob_sha": "6b9465fa39ef9d86fbc7ba0212e9a7fd532d4873",
+  "seal_policy": "Stage A commit and separate SHA-256 seal precede reading former detailed verdicts. Sealed artifacts must not be rewritten. GPT-6 lineage familiarity is disclosed."
+}

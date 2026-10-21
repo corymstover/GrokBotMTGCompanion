@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "deck_id": "Ashnod_the_Uncaring",
+  "canonical_deck_id": "Ashnod_the_Uncaring",
+  "tracker_index": 5,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "owner_waiver": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "stage": "A_NEUTRAL_PRE_UNBLINDING",
+  "date_local": "2026-10-20",
+  "canonical_approved_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+  "canonical_source_path": "refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt",
+  "canonical_source_git_blob": "f9e4e2031510cc3a3b722b022523c8ac86cef5e9",
+  "card_count": 100,
+  "distinct_names": 95,
+  "lands": 33,
+  "color_identity": [
+    "U",
+    "B",
+    "R"
+  ],
+  "prior_verdicts_read": false,
+  "prior_model_lineage_familiarity_disclosed": true,
+  "provisional_disposition": "KEEP",
+  "unranked_challengers": [
+    "Thopter Assembly",
+    "Ichor Wellspring",
+    "Servo Schematic",
+    "Mirkwood Bats"
+  ],
+  "conditional_cuts": [
+    "Krark-Clan Shaman",
+    "Dross Scorpion",
+    "Crime Novelist",
+    "Bolas's Citadel"
+  ],
+  "verification_limits": [
+    "No measured simulator runs",
+    "No independently refreshed all-95 current Oracle/Commander legality certification",
+    "Owner-approved baseline unchanged"
+  ],
+  "stage_a_markdown_path": "data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/stage_a.md"
+}

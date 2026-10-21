@@ -1,0 +1,49 @@
+# Josh-Lee-Kwai — formal owner-equivalent Pass C final #6: Ashnod the Uncaring
+
+**FINAL DISPOSITION: KEEP EXACT APPROVED 100 — NO CHANGE REQUEST.** Formal class *after separate evidence PR exact-head CI success and merge*: `FORMAL_PASS_C_OWNER_EQUIVALENT`. This does not mean technical third-model independence (actual evaluator ChatGPT/OpenAI GPT-6; alias Josh-Lee-Kwai; independent=FALSE, owner-waived), owner acceptance of a new decklist, Phase B certification, I/J completion, or M6/M7/M8 acceptance.
+
+## Canonical source and immutability
+
+Canonical corymstover/grixis-commander-encyclopediaGPT/main approved/locked `state/current_deck_overrides.json`, unchanged Git blob `81801b2f9d3387b171c01f1fcae255b385a5b698`. Exact approved text `refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt` Git blob `f9e4e2031510cc3a3b722b022523c8ac86cef5e9`, **raw SHA-256 `f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf`** confirmed against canonical state. 100 card copies/95 distinct (only basic land repetition Island 3, Mountain 2, Swamp 3), **33 land cards**, U/B/R; no designated project ban exception and no companion. No Git commit to canonical repository, no revised lock, no new approved card swap.
+
+## Stage A first Git commit and separate seal before unblinding
+
+- `data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/stage_a.md` Git blob `17e52e8fa903759a4f48b573d075387d53cfafd9`, raw SHA-256 `a205ba0d5c8828d36e22b58837e5317ad5e9a56fef751c8b745af7d43e894c26`.
+- `stage_a.json` Git blob `6b9465fa39ef9d86fbc7ba0212e9a7fd532d4873`, SHA-256 `70caede5294108ff8535f9e63f15b497daae6d62f987bb873072be6846b6d96a`.
+- **Separate first-stage commit** `743ebdf470dcc0c67dab3c4bd63ea463d7f33ca8`; **separate `seal.json` commit** `587f58719117a47704950b55d67ad8eb3bb4e772`, which has first-stage SHA as parent. Sealed hashes/blob bytes were fetched back and verified before prior verdict materials were opened. Do not rewrite them.
+- Stage A neutral input exact canonical, neutral card/Oracle/rules, no detailed prior ChatGPT/GrokBot/reconciliation/ranking opened. Stage A provisional **KEEP**, with independently surfaced unranked Thopter Assembly, Ichor Wellspring, Servo Schematic and Mirkwood Bats versus conditional cuts. GPT-6 shared familiarity cannot be erased and was disclosed; owner-equivalent classification does not falsify provenance.
+
+## Controlled Stage B receipts and agreement
+
+- Original exhaustive authored `data/grixis/m6/deep_reviews/Ashnod_the_Uncaring.md`, blob `592c21ea2779b53ee98f8aa66edbd43dcea2bd75`: KEEP, full 100-card role audit, specific refusal of sacrificing Dockside Chef to six-mana Salvaging Station and other mistaken candidate comparisons.
+- GrokBot advisory `data/grixis/m6/grokbot_pass_c_advisory/Ashnod_the_Uncaring.md`, blob `132dd26cebece7d246257132f9947864b36e70c4`: KEEP, quick advisory rather than deep/pass-C-certified audit.
+- Two-model reconciliation `data/grixis/m6/two_model_reconciliation/Ashnod_the_Uncaring.md`, blob `0c47e615e642a820d773a45bd343eefaffa64d3f`: KEEP, no outstanding proposed owner swap or disputed improvement.
+- Per-card prior verified Scryfall/Oracle CSV `refinement/verification/retrospective_1_to_8/Card_Verification_Ashnod_the_Uncaring_2026-10-14.csv`, blob `854f722e754aa4fc9401fa3c407f0a0631027f76`, sourced 2026-10-15/16: all 95 historically Commander legal and inside U/B/R. No fresh full 95-card October 20 Scryfall fetch performed.
+- Official WotC *Brothers' War*, *Aetherdrift*, *War of the Spark* release notes confirm Ashnod sacrifice-as-cost, Repurposing Bay exact-MV retrieval and Bolas's Citadel sacrifice payment. https://magic.wizards.com/en/news/feature/the-brothers-war-release-notes ; https://magic.wizards.com/en/news/feature/aetherdrift-release-notes ; https://magic.wizards.com/en/news/feature/war-spark-release-notes .
+
+**Agreement:** four corroborating judgments (sealed JLK Stage A, prior authored, GrokBot, reconciliation) reach KEEP; this is strong qualitative convergence but **not** independent 3-model execution or measured matched game outcomes. No genuine prior reviewer disagreement was found.
+
+## Commander-first optimization judgment
+
+Commander Ashnod the Uncaring (2UBR, deathtouch 1/4) copies any nonmana artifact/creature ability when a permanent was sacrificed **in its activation cost**, not merely to generate mana or on resolution. Real high-leverage native wins and decisions:
+- Dockside Chef pays one sacrificed artifact/creature to DRAW TWO with Ashnod; two of Trading Post's four modes likewise qualify. Sai's own artifact-sacrifice draw, Altar of Dementia, Executioner's Capsule, Pyrite Spellbomb and Dross Skullbomb become cost-efficient doubled utility.
+- Time Sieve sacrifice FIVE artifacts to create **TWO extra turns**, but not five free replacement artifacts or an innate deterministic lock. Repurposing Bay pays for one artifact to cheat **two** library artifacts, each at exactly sacrificed MV+1. Kuldotha Forgemaster likewise twice tutors for one three-artifact payment; all need card supply/targets.
+- Bolas's Citadel can sacrifice ten nonland permanents once to make each opponent lose 10 life **twice** (20 total), not 40. Ashnod's Altar, KCI, Lotus Petal and sacrifice-to-mana remain mana abilities and are *not* copied. Goblin Welder only sacrifices at resolution and isn't copied.
+- Retrofitter Foundry's Servo/Thopter sacrifice-cost modes make doubled tokens; its untap/base Servo-making abilities aren't doubled. Rings of Brighthearth may add an independent paid copy, but one paid sacrifice is still one event; Disciple, Marionette Apprentice and Mayhem Devil triggered payoffs do not multiply their own triggers merely because another ability is copied.
+- Treasure Vault is an artifact **land** whose nonmana token-generation ability sacrifices itself as a cost and is therefore Ashnod-copied (X=2 produces four Treasure total), though the sacrifice removes a land. Buried Ruin is not artifact/creature and cannot be copied without changing its type. Krark-Clan Shaman sacrifices artifacts as cost for a double nonflying sweeper, *including friendly creatures*: manage damage to 1/4 commander.
+
+**Natural power ceiling:** optimized, explosive artifact-sacrifice/combo construction, **Bracket 4 Optimized** as a provisional deck-specific assessment; no measured Bracket 5 cEDH performance claim. The approved engine complements its commander even when some independent mana loops can finish games. Thirty-three lands with excellent duals/fetches/cheap rocks must pay five-mana UBR commander and triple-B Citadel; six naturally colorless lands can worsen specific openers. Artifact wipes/Null Rod-type hate, graveyard removal, cheap pre-activation commander kill, library tutor removal and faster combo tables constrain certainty. The approved list contains meaningful answers, recursion and high-output payoffs.
+
+## Adversarial challenge, counterargument, test boundary
+
+**New unapproved challenger assessed:** `+Thopter Assembly / -Krark-Clan Shaman` for stronger Time Sieve feedstock. Pro: with Ashnod+Sieve, five Assembly-created Thopters buy two extra turns, theoretically supporting repeated cycles when Assembly can be recast and the board meets its upkeep condition. Con: Assembly costs **six** and starts upkeep only if **no other Thopters** exist; casting Assembly while Sai, Master Thopterist is controlled *itself creates a Thopter* and suppresses Assembly's next-upkeep trigger unless deliberately removed. Foundry and other Thopter production cause the same friction. Sieve must untap; six mana each cycle, all timing and opponent interaction matter. Replacing the scalable one-mana Ashnod-doubled Krark-Clan Shaman sweeper would remove valuable hate-clearing and sacrifice payoff. No tested or mathematically strict net improvement for that pair; **do not recommend it as an owner decision**.
+
+The strongest counterargument to KEEP is to prioritize an explicit replenishable extra-turn loop over a situational symmetric sweeper and lower-throughput artifact fodder, particularly at a very high-powered table. That theory requires timed play-state proof and actual cut-cost evaluation; it is not a free upgrade and it weakens an already functioning toolbox. Rank-driven Salvaging Station, Detective's Satchel, Filigree Sages, Mycosynth Lattice and Basalt Monolith arguments fail direct sacrifice-as-cost semantics or propose damaging cuts, especially `-Dockside Chef`.
+
+## Final disposition and certification honesty
+
+**KEEP EXACT APPROVED / LOCKED SHA-256 `f574e4...37cf1cf`.** Proposed additions: **none**. Proposed cuts: **none**. Owner swap approval needed: **not applicable** unless a future exact change is proposed. This review does not re-approve, replace, unlock, or rewrite canonical list.
+
+Effect-aware Phase B quantified gameplay: **NOT NEWLY PERFORMED**. We reuse prior deterministic finite sequences and archived legality audit; no fabricated turn-4 probabilities or win rates. Open material uncertainties: five-mana colored-commander consistency, Time Sieve five-artifact refueling, multiplayer anti-artifact/graveyard interruption. Because this is a clean KEEP agreement with no credible validated exact upgrade, the owner's 2026-10-20 targeted-testing policy permits evidence reuse and deferral of indiscriminate testing, **but does not certify Phase B or I/J**. Reopen targeted test only if an actual consequential weakness or stronger sourced challenger emerges. Full current banlist/Oracle recheck remains part of later formal certifications.
+
+Owner authorization: FORMAL_PASS_C_OWNER_EQUIVALENT; technical independent-model=0; no Phase B/M6/M7/M8 milestone advance. Stage C is eligible for review-progress count **only after** sealed A evidence plus B/C evidence exact-head CI PASSES and evidence PR merges. Separate progress ledger PR must also pass CI before counting it as verified in live integration.
