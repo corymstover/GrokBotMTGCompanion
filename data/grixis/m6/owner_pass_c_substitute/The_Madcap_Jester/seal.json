@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "The_Madcap_Jester",
+  "canonical_sha256": "caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+  "first_stage_commit_sha": "005c450b845b782cb28e7cbe03452963b6c04314",
+  "stage_a_md_sha256": "f3310afdd636922311c0a7675d080e7cb356b1a89188b7ba0ecfe19fbaf7e02c",
+  "stage_a_json_sha256": "32997752c222a5d12f2d7e0952874499370792fe5f9676ebf1417184ab3c0e93",
+  "stage_a_md_blob": "ec5f448b24e38a9daf8fb0a63ba2772d369ee31f",
+  "stage_a_json_blob": "fe892e1bb29e5ff025f62bddba0850f8ad27fccb",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same GPT-6 family and broad project prior context; deck-specific prior decisions unopened",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
