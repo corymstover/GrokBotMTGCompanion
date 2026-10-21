@@ -1,0 +1,32 @@
+{
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "tracker_index": 22,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "formal_pass_c_classification": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technical_model_independence": false,
+  "owner_independence_waiver": true,
+  "stage_a_input_boundary": "Owner-approved exact list/lock/hash, neutral Oracle/rules and public technical Spellseeker sequence snippet only. No past project authored ChatGPT, GrokBot, reconciliation verdict or candidate ranking opened. Previous general project/model familiarity cannot be erased, nor can incidental public combo-primer exposure.",
+  "canonical_path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+  "canonical_git_blob": "204b8096e4c3c642ca9ade6ea4af252c417bde2c",
+  "canonical_raw_no_final_newline": true,
+  "canonical_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+  "first_stage_commit_sha": "e06fba3f0f546c83298d4d7e41bf662947e7e757",
+  "first_stage_commit_parent_sha": "cfafe39ea214cbdb59f72ac2f3caea28fc6ef0b9",
+  "artifacts": {
+    "stage_a.md": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/stage_a.md",
+      "sha256": "7c9b7c4b4f5e5d6608c3b825d49e53bd134e841f0aed2455c4e6d79ede338ba4",
+      "git_blob_sha": "5ceb3bf01906d814e064d9562277a9c8fff69129"
+    },
+    "stage_a.json": {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/stage_a.json",
+      "sha256": "8b5fde60c9f18aff3c24537c9fafeb70181dccd21acbc13b3ee4264b0d2d3fa1",
+      "git_blob_sha": "e9b53e7e1fd387b5a55f46b690da2180f43a869e"
+    }
+  },
+  "seal_committed_in_separate_git_commit": true,
+  "stage_a_immutable_after_seal": true,
+  "owner_swap_approved": false,
+  "canonical_deck_changed": false
+}
