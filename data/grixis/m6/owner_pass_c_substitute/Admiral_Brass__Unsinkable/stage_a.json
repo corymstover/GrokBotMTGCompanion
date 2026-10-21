@@ -1,0 +1,69 @@
+{
+  "schema": "jlk_stage_a/v1",
+  "date_local": "2026-10-20",
+  "timezone": "America/Chicago",
+  "tracker_index": 2,
+  "deck_id": "Admiral_Brass__Unsinkable",
+  "commander": "Admiral Brass, Unsinkable",
+  "canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "ref": "main",
+    "head_sha": "ceffdcceec19e51fa01e3cbe01cca99da0558b07",
+    "path": "refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt",
+    "blob_sha1": "5aabc4ba5ebca60a5a3476b73d8d2ae8f4638b6e",
+    "approved_logical_sha256": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+    "source_raw_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+    "hash_resolution": "state_explicit_approval_artifact; archival README says logical/list digest not raw TXT; algorithm not reexecuted",
+    "count": 100,
+    "distinct_names": 97,
+    "only_basic_repeats": true,
+    "lands": 34,
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "color_identity": "UBR",
+    "project_exception": "NONE_IDENTIFIED"
+  },
+  "provenance": {
+    "reviewer_alias": "Josh-Lee-Kwai",
+    "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+    "technically_independent": false,
+    "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+    "strictly_blind": false,
+    "contamination": "Source-authority discovery exposed historical verification excerpt Revel in Riches/Power Conduit and prior model familiarity; no full authored, GrokBot, or reconciliation verdicts were opened before seal."
+  },
+  "sources": [
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/state/current_deck_overrides.json",
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt",
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/exports/archidekt_2026-10-15/manifest.csv",
+    "github:corymstover/grixis-commander-encyclopediaGPT/main/exports/archidekt_2026-10-15/README.txt",
+    "https://magic.wizards.com/en/news/feature/the-lost-caverns-of-ixalan-release-notes",
+    "https://magic.wizards.com/en/news/feature/outlaws-of-thunder-junction-release-notes",
+    "https://magic.wizards.com/en/news/feature/aetherdrift-release-notes"
+  ],
+  "excluded_full_verdicts_unopened": [
+    "data/grixis/m6/deep_reviews/Admiral_Brass__Unsinkable.md",
+    "data/grixis/m6/grokbot_pass_c_advisory/Admiral_Brass__Unsinkable.md",
+    "data/grixis/m6/two_model_reconciliation/Admiral_Brass__Unsinkable.md"
+  ],
+  "hypotheses": [
+    {
+      "add": "Nesting Grounds",
+      "cut": "Crumbling Necropolis",
+      "question": "repeatable finality removal versus lost tricolor source and sorcery-speed activation"
+    },
+    {
+      "add": "Conjurer's Closet",
+      "cut": "Admiral Beckett Brass",
+      "alternative_cut": "Merchant Raiders",
+      "question": "endstep blink restores long-term reuse versus five-mana non-Pirate conditional engine"
+    }
+  ],
+  "existing_synergy": "Power Conduit finality-counter removal",
+  "provisional_disposition": "NEEDS TESTING",
+  "natural_ceiling_working": "Bracket 4 optimized Pirate graveyard-combat",
+  "owner_swap_approved": false,
+  "canonical_modified": false,
+  "whole_oracle_refreshed": false,
+  "measured_tests_run": false,
+  "stage_a_neutral_verdicts_unopened": true
+}
