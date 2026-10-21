@@ -116,6 +116,16 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["gates"][4]["completed"],0)
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
   self.assertEqual(self.t["m7"]["formal_m7_review_decisions"],0)
+ def test_targeted_phase_b_receipt_is_not_certification(self):
+  receipt=self.t["m6"]["phase_b_targeted_evidence"]
+  self.assertEqual(receipt["deck_id"],"Abaddon_the_Despoiler")
+  self.assertEqual(receipt["merged_evidence_pr"],504)
+  self.assertTrue((ROOT/receipt["evidence"]).exists())
+  self.assertTrue(receipt["real_effects_modeled"])
+  self.assertFalse(receipt["is_full_deck_paired_gameplay"])
+  self.assertFalse(receipt["proves_swap_superiority"])
+  self.assertEqual(receipt["deck_level_phase_b_certificates_issued"],0)
+  self.assertEqual((self.t["m6"]["gates"][5]["status"],self.t["m6"]["gates"][5]["completed"]),("PARTIAL",0))
  def test_no_canonical_reapproval_claim(self):
   self.assertIn("do not count",self.t["accounting"]["warning"].lower())
   self.assertEqual(self.t["accounting"]["canonical_approved_locked"],62)
