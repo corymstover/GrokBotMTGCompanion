@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Parnesse__the_Subtle_Brush",
+  "tracker_index": 45,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Same GPT-6 family, possible latent prior project exposure, no Parnesse proposal disclosed by current handoff and no prior Parnesse verdict file opened for Stage A.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "c99244e17b3a36c654b54b2abddc2e82047d7d04",
+  "canonical_approved_sha256": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 96,
+  "land_cards": 35,
+  "color_identity": "UBR",
+  "nonbasic_singleton_violations": 0,
+  "commander_identity": "5-mana Grixis political spell-copy commander taxing opponents 4 life for spells/abilities targeting your objects, optionally giving target opponents copies when you copy a spell.",
+  "natural_power_ceiling": "Optimized Bracket 4 copy-first spellslinger with volatile, politically asymmetric spell-sharing, not empirically demonstrated cEDH.",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Krark, the Thumbless",
+    "cut": "Pyromancer's Goggles",
+    "alternative_cut": "Double Vision",
+    "reason": "Cheap repeatable Wizard copy trigger vs reliable high-mana red-spell-only copying, coin-flip losses and opponent copy-sharing."
+  },
+  "secondary_challenger": {
+    "add": "Fury Storm",
+    "cut": "Big Score",
+    "status": "LOWER_CONFIDENCE_HYPOTHESIS"
+  },
+  "rules_checks": [
+    "Spell copies created on stack generally are not cast and do not advance storm count.",
+    "Parnesse's own trigger offers optional opponent copies, not copies to controller.",
+    "Opponent copies targeting you/permanents can trigger Parnesse 4-life-or-counter protection, but not all copies target you.",
+    "Harmonic Prodigy and Wizard's Staff can multiply Parnesse triggers including opponent offer, not just tax.",
+    "Prismari can grant another storm instance to Grapeshot, but storm copies aren't cast and don't feed later storm count.",
+    "Sunken Palace can copy an ability or a spell depending on use of its mana; Parnesse triggers only on copying spells.",
+    "Mana Geyser plus Reiterate buyback needs >=7 tapped enemy lands and enough seed mana/copy effect to begin.",
+    "Krark loss returns original to hand, is not countering, and can disrupt live response."
+  ],
+  "sources": [
+    "https://mtg.wtf/card/ncc/106/Parnesse-the-Subtle-Brush",
+    "https://mtg.wtf/card/hob/59/Wizards-Staff",
+    "https://mtg.wtf/card/sos/212/Prismari-the-Inspiration",
+    "https://mtg.wtf/card/m3c/114/Tempt-with-Mayhem",
+    "https://mtg.wtf/card/m3c/81/Sunken-Palace",
+    "https://mtg.wtf/card/tsr/182/Reiterate",
+    "https://mtg.wtf/card/cmr/574/Krark-the-Thumbless",
+    "https://mtg.wtf/card/c21/259/Pyromancers-Goggles",
+    "https://magic.wizards.com/en/news/card-image-gallery/streets-of-new-capenna-commander"
+  ],
+  "limits": [
+    "No prior authored/advisory/reconciled verdict files read before this stage.",
+    "No match simulations, percentages, win rates or complete fresh card legality sweep.",
+    "No owner-approved card changes.",
+    "Current commander and unusual-card Oracle spot checks, not full mechanical certification."
+  ]
+}

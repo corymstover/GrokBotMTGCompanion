@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "deck_id": "Parnesse__the_Subtle_Brush",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "stage_a_first_stage_commit_sha": "05a2e46abc531b6e269837945c3f40cddffd6802",
+  "canonical_exact_sha256": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+  "canonical_source_blob_sha": "c99244e17b3a36c654b54b2abddc2e82047d7d04",
+  "files": [
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Parnesse__the_Subtle_Brush/stage_a.md",
+      "git_blob_sha": "a528e75f9760aa6f199553dc2e8d2fa8c8378af9",
+      "sha256": "96f992b893f8218efb9254b4f446d0ba85c4e8cd2f41b5ef6f70b52cb72d3a40"
+    },
+    {
+      "path": "data/grixis/m6/owner_pass_c_substitute/Parnesse__the_Subtle_Brush/stage_a.json",
+      "git_blob_sha": "9986ed5385dbe27845700ca3bde4390b9d4c5a0a",
+      "sha256": "4e029a2a305b8eb28f05f3e1cb244c7b2279b12e5729fcf2254c67927dc90e15"
+    }
+  ],
+  "sealed_date_local": "2026-10-21",
+  "prior_context_disclosure": "Same model family, prior general project familiarity possible; no historical Parnesse verdict revealed by handoff or opened during neutral Stage A; no blind independence asserted.",
+  "unblinding_status_at_seal": "NOT_YET_OPENED"
+}
