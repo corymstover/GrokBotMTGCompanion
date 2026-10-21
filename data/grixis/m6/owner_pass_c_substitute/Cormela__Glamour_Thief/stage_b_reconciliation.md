@@ -1,0 +1,44 @@
+# Cormela, Glamour Thief — Josh-Lee-Kwai Stage B controlled comparison
+
+**Deck #9/62 · after validated neutral Stage A seal.** Stage A Git commit `1ded0407879a81539ea6feca9137201b69372390`; separate seal commit `f254824ccf249bae61cde93f6898f924163a28f5`. Stage A SHA-256 MD `97243c9c2fb49de33e70c0b836dbc84c56abb967e8ce11cdc638359d96baec88`, JSON `3076b281a1715dabc80ce25a6b6a1053dc664531c0347211c8005a06720c3cc3`. This Stage B did not change either sealed artifact.
+
+## Revealed source receipts
+
+- Canonical 100-card current approved source `corymstover/grixis-commander-encyclopediaGPT/main/refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt`: source SHA-256 `80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b`, Git blob `ee008725234c917af858de5a9c237fc2acf6781d`. Independently counted 100/100 and 30 lands at Stage A. This source, not optimizer records, remains authoritative.
+- Existing comprehensive ChatGPT review: `data/grixis/m6/deep_reviews/Cormela__Glamour_Thief.md`, Git blob `ccd48cf2d8f9a5d21ea3a2d9968d177b92374ca7`, authored 2026-10-19; verdict **KEEP**.
+- GrokBot advisory: `data/grixis/m6/grokbot_pass_c_advisory/Cormela__Glamour_Thief.md`, Git blob `44bd745f01a5fffdd0ba6789d5af7eb39d89898a`, independent-qualification **NOT met**; verdict **KEEP**.
+- Two-model reconciliation: `data/grixis/m6/two_model_reconciliation/Cormela__Glamour_Thief.md`, Git blob `c4f21ed7080af6d9f885891d673f818a24f7e8d2`; verdict **KEEP**.
+- Canonical October 14 approval gate `refinement/verification/cormela_2026-10-14/gate_output/Cormela_Glamour_Thief_2026-10-14_Complete_Gate.md`, blob `80f1a601374c55401fddf96c0e0b754861431ec2`: APPROVAL_READY, count 100, 100 distinct, Oracle/color/Commander legality/ban/rules attestation PASS. This is a **historical attestation**, not a newly executed complete October 20 Scryfall scan or 2026 randomized trial. The live owner override indicates APPROVED/LOCKED.
+
+## What neutral Stage A corroborated
+
+Stage A independently arrived at high-Bracket-5 spell recursion: Cormela's `{1},{T}` payment and spell-only UBR, death-trigger instant/sorcery return, Goryo/Shallow-to-grave decisions, Saw in Half two death triggers, Molten Duplication/Dualcaster targets, Oracle/Consultation/Pact and Breach/LED/Brain Freeze, 30-land fast-mana construction, meaningful Rule of Law/graveyard hate. All previous sources substantially corroborate these core rules and identity judgments. They defend preserving Molten Duplication; GrokBot explicitly notes Doomsday has no demonstrated cut, and its advisory was intentionally lightweight. There is **no discovered canonical mismatch**, no new card legality blocker, and no approved change.
+
+The comprehensive prior review goes further with a 100-card role table and archived gate; it rejects four-mana Archaeomancer/Ardent Elementalist for Faithless Looting, Altar of Dementia for Lion's Eye Diamond, Blasting Station for Pyroblast, Arcane Denial for Wheel, Big Score for Culling the Weak/Lotus Petal, Heat Shimmer for Birgi, and other ranking-only alternatives. Stage A did not know those proposals before its seal. After unblinding, these rejections are coherent: slot costs exceed benefit and often erase Cormela's signature fast spell recursion. No reason to rerun that entire candidate sweep.
+
+## Actual disagreement: Stage A conditional challenger versus unanimous prior KEEP
+
+Stage A provisionally requested a **bounded `+Muddle the Mixture / -Seething Song` comparison**, plus an alternative Abrade-vs-hate idea, rather than uncritically affirming a clean prior KEEP. Compare exact tradeoffs:
+
+- **Muddle the Mixture** as a counter costs `{U}{U}` and addresses only instants/sorceries, not creatures or Rule of Law permanents. Its transmute is **`{1}{U}{U}` at sorcery speed as an activated ability**, cannot be paid with Cormela-generated spell-restricted UBR, and merely searches an MV2 card **into hand**. Then that target must still be paid for/cast (e.g. `{1}{B}` Demonic Gifts, `{1}{R}` Molten Duplication/Breach, `{U}{U}` Oracle). That is three mana, sorcery timing, and generally a further two-mana follow-up. Can improve access to a missing exact combo piece in drawn-out games but has significant cEDH tempo and restrictive blue sourcing cost.
+- **Seething Song** costs `{2}{R}`, creates unrestricted five red, net +2 immediately and cast/trigger continuity, fuels the red/generic portion of Saw, Molten/Birgi chains and multispell turns. It occupies an instant/sorcery slot that Cormela can return on death. Unlike Muddle transmute, Cormela's UBR can pay **the cost to cast** Seething Song, though red by itself cannot pay a blue/black requirement. Removing Song materially lowers spell-mana velocity.
+- **Abrade** offers a real instant-speed artifact-kill mode and damages a small creature, but is not a universal answer to enchantment Rule of Law, graveyard hate of every type, or a faster opponent. Pairing it with a cut to a Cormela loop, red burst ritual, or already thin mana fixer lacks a supported net improvement; existing stack-interaction plan plus Chain of Vapor / Otawara has roles. A resolved-hate matchup weakness is a *possible targeted test trigger*, not proof of a specific swap.
+
+**Post-unblinding judgment:** these are legitimate questions, but neither exact substitution clears the evidence bar for proposing a new owner swap. The prior KEEP is strengthened by detailed roles/tempo counterargument. Stage A's **NEEDS TESTING** is a provisional discovery disposition; Stage C may validly convert it to **KEEP** without falsifying that immutable first judgment. This is not a measured head-to-head outcome.
+
+## Specific rules-text precision discovered
+
+1. Some prior prose says Cormela mana cannot pay for **LED's activation**. Strictly, LED's activation charges **tap, sacrifice LED, discard hand**, and costs **no mana**; this is an imprecise category error. Cormela's restricted UBR cannot pay generic *activation costs that require mana* (such as Cormela's own `{1}` or Muddle transmute) but nothing needs mana to activate LED, Ashnod's Altar or Phyrexian Altar. Separate the restricted spell pool from unrestricted mana these artifacts create. This textual correction does **not** invalidate the approved deck or prior broad KEEP.
+2. For Demonic Gifts + Phyrexian Altar: Altar sacrifices Cormela as its cost and gives **one unrestricted colored** mana; that pays the NEXT returned Cormela's `{1}` activation. Spell-restricted UBR casts Demonic Gifts `{1}{B}`; dying Cormela can return Gifts to hand while the granted dying ability reanimates Cormela. Do **not** claim the Phyrexian version creates extra unrestricted colorless (the Ashnod version can). Requires choosing trigger order, priority, legal graveyard target, no response/exile interruption. A stack-level certified simulator trace has not been run.
+3. For Saw in Half, original Cormela death and legend-rule token death yield up to two return triggers after Saw resolves. Cards must be independently valid graveyard targets at trigger placement. Original card must stay in grave for follow-on physical reanimation, but a death trigger works even if commander later moves to command zone. Cast-vs-copy remains distinct for storm and Birgi. There is no mana cost to applying the legend rule.
+4. Prior review correctly notes Force of Negation's alternate free cost is on an opponent turn, Pact of Negation creates next-upkeep liability, and Necropotence gives cards at the next end step, not immediately. No new legality exception applies.
+
+## Evidence reuse, open targeted work, and agreement
+
+- **Agreement:** all three prior records are KEEP; Stage A sees the same identity, role integrity, compact cEDH engines and no obvious superior fixed cut.
+- **Qualified difference:** Stage A identified Muddle and Abrade hypotheses, assessed after seal, now **not justified as live swap recommendations** without exact advantage evidence.
+- **Textual correction:** exclude the incorrect phrasing that LED/Altars have a mana activation cost from future test/certificate records; their activation costs differ from Cormela's `{1}`.
+- **Unresolved testing for later actual certificates:** effect-aware exact combo/stack receipts if absent; colored-source / early commander access; exception response maps for hate; only run Muddle/Seething or Abrade if measurable weaknesses warrant them. Historical card gates may be reused where hash/current Oracle consistency is verifiable; do not label the prior review or this comparison as measured Phase B.
+- **Owner action now:** none. Canonical remains LOCKED and unchanged.
+
+**Stage B finding:** prior KEEP stands after serious independent challenge; final Stage C **KEEP** is warranted subject to ordinary future M6 formal testing/certification requirements. No previous opinion was opened until the separate Stage A seal commit had been verified.
