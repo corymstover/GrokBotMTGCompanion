@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "deck_id": "Lord_of_Tresserhorn",
+  "tracker_index": 29,
+  "sealed_on": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Possible retained project familiarity and same-model lineage; current deck-specific author, GrokBot, and reconciliation verdicts were not opened before this seal. Neutral inputs cannot erase prior-session familiarity.",
+  "source_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "source_branch": "main",
+  "source_path": "refinement/decklists/Lord_of_Tresserhorn_Approved_2026-10-14.txt",
+  "canonical_approved_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+  "canonical_source_git_blob_sha": "d9ff96da998bf5773cf6bdb2c6f0fc05f19c8d76",
+  "first_stage_commit_sha": "f6d930bfa97c59fb39a04e3ed6223fbaea6ccb19",
+  "first_stage_parent_sha": "f80dc39ed3d858e9287d051498d99958d0cb9820",
+  "immutable_stage_a_files": {
+    "stage_a.md": {
+      "sha256": "02ca73a0c891a418377a17ab61bccd0dfcebfb221d9748bece2f8baa8421043f",
+      "git_blob_sha": "25ad63db69ef3bdb300a6ae131131c2ab42be5e0"
+    },
+    "stage_a.json": {
+      "sha256": "ee6c5c80260cc21768a3889a74766ef6517a0bf4a0e76b5ac19b1d55208c07e6",
+      "git_blob_sha": "2ec71da03cf52a9d1e2481c13b7d55d89e1ce7d7"
+    }
+  },
+  "seal_status": "A_SEALED_BEFORE_UNBLINDING",
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "full_review_status": "STAGE_A_ONLY__STAGE_B_C_PENDING",
+  "cannot_claim_technical_independence": true
+}
