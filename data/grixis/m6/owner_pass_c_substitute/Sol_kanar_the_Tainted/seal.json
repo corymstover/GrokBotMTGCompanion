@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "Sol_kanar_the_Tainted",
+  "canonical_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+  "first_stage_commit_sha": "e6267a51cb09e13e5fce32c5c0b0f4ee3b5e09b3",
+  "stage_a_md_sha256": "2a2bfe6555085c8db40b38d7b7baa440e224b2d1f96a113d19170d9ef976cf89",
+  "stage_a_json_sha256": "668f7b63b24a1e93e96808f97b730019636f43d7ef205763dca8bf469e08a885",
+  "stage_a_md_blob": "6450f57e1fc6374a80dc94bf02ad44587e12487d",
+  "stage_a_json_blob": "23018fd152d38c262c7b534512bb6cac58f6eabb",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same GPT-6 family and prior project context; deck-specific prior reviewer files unopened before seal.",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
