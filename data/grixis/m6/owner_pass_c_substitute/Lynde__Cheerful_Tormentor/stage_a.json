@@ -1,0 +1,59 @@
+{
+  "schema_version": "jlk-stage-a-1",
+  "deck_index": 31,
+  "tracker_index": 30,
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "commander": "Lynde, Cheerful Tormentor",
+  "date": "2026-10-21",
+  "stage": "A_NEUTRAL_PRE_UNBLIND",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_path": "refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt",
+  "canonical_blob_sha": "5731e68950886cd8efb655edd4c49416c86aa3d8",
+  "canonical_approved_list_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+  "card_count": 100,
+  "library_cards": 99,
+  "distinct_names": 93,
+  "lands": 35,
+  "basic_lands": 10,
+  "color_identity": "UBR",
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "history_contamination_risk": "Same model lineage and possible memory from prior project episodes; no Lynde-specific prior authored review, GrokBot review, historical cut rankings or reconciliation verdict files opened during Stage A.",
+  "author_opinions_read_in_stage_a": false,
+  "grok_verdicts_read_in_stage_a": false,
+  "reconciliation_opinions_read_in_stage_a": false,
+  "disposition": "NEEDS TESTING",
+  "challenger_add": "Curse of Chaos",
+  "challenger_cut": "Curse of Echoes",
+  "alternative_cuts": [
+    "Curse of Vengeance",
+    "Nightscape Familiar"
+  ],
+  "core_identity": [
+    "Curses move from battlefield to your graveyard and return attached to Lynde's controller at beginning of next end step",
+    "Lynde moves one self-attached Curse per upkeep and draws two",
+    "Curses of Misfortunes/Thirst and political enchanted-opponent effects",
+    "Paradox Haze, Ninth Doctor and Obeka conditional extra upkeep triggers"
+  ],
+  "key_rules": [
+    "End-step sacrifice via Braids occurs too late to return Curse at beginning of same end step",
+    "Each Lynde upkeep trigger moves at most one Aura Curse",
+    "Ninth Doctor must untap during untap step to generate extra upkeep",
+    "Obeka extra upkeeps need actual combat damage and do not cause opponent-upkeep curse triggers",
+    "DFC Infectious Curse card returns front-face Accursed Witch by default when Lynde returns from graveyard",
+    "Surveillance target selection belongs to Aura controller not enchanted player"
+  ],
+  "primary_caveats": [
+    "Whole-list Oracle legality was not freshly scanned in Stage A",
+    "Some copier Aura return states require follow-on rule-focused reproduction",
+    "No measured games, mulligans, or quantitative card swap lift"
+  ],
+  "is_formally_completed": false,
+  "notes_file": "stage_a.md"
+}
