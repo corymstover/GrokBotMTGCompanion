@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "canonical_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+  "first_stage_commit_sha": "6a08a6986c621b5b453c399806e9694c8804784a",
+  "stage_a_md_sha256": "c4b94e8d69c0fe9dfc572ee3834baf9fa374203fff0caa909395fa6f1ac9b3c7",
+  "stage_a_json_sha256": "89062f962a683a77fa188fa43606d887d07a5528b76d12dd771c2c874b34beec",
+  "stage_a_md_blob": "8dea40fbe03e83dcb72a7e2a15a99f53500319d3",
+  "stage_a_json_blob": "83210e1ffb451a058e47f43383b2fa2f106abe2b",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_model": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "contamination_disclosure": "Same GPT-6 lineage/shared project context; no Tresserhorn deck-specific author/GrokBot/reconciliation verdict accessed before seal",
+  "seal_date": "2026-10-21",
+  "unblinded": false
+}
