@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "review_phase": "STAGE_A_PRE_UNBLINDING",
+  "deck_id": "Missy",
+  "tracker_index": 37,
+  "review_local_date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "formal_classification_if_evidence_complete": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technical_model_independence": false,
+  "owner_independence_waiver": true,
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_approval_status": "APPROVED",
+  "canonical_lock_status": "LOCKED",
+  "canonical_approved_sha256": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
+  "canonical_list_path": "refinement/decklists/Missy_Approved_2026-10-15.txt",
+  "canonical_list_git_blob": "62e234e3028f97a62268677cfa9f0e65f5538b6a",
+  "card_count": 100,
+  "source_lines": 97,
+  "distinct_name_count": 97,
+  "land_count": 35,
+  "commander": "Missy",
+  "color_identity": [
+    "U",
+    "B",
+    "R"
+  ],
+  "project_exception": null,
+  "natural_ceiling_judgment": "Bracket 4 Optimized commander-dependent Cyberman theft, nonartifact death, villainous choice and face-down combat engine",
+  "protected_identity": [
+    "Missy converts another nonartifact nontoken creature's graveyard death into tapped face-down artifact Cyberman under our control",
+    "End step each opponent chooses artifact-creature damage or own card draw plus chaos ensues",
+    "Cybermen Squadron creates temporary myriad artifact combat pressure; tokens exile end combat",
+    "Sacrifice/drain outlets monetize death without claiming Missy automatically recurs artifact Cybermen",
+    "Face-down morph/disguise/turn-up effects and Doctor Who villainous choice are meaningful identity packages"
+  ],
+  "provisional_disposition": "NEEDS TESTING",
+  "preferred_challenger": {
+    "add": "Living Death",
+    "cut": "Cybership",
+    "owner_approved": false,
+    "hypothesis": "After old grave creatures are exiled, Living Death sacrifices all creatures; Missy triggers on other nonartifact nontoken creature deaths even if she dies simultaneously; stolen bodies return tapped Cybermen after Living Death resolves",
+    "strongest_counterargument": "The spell is symmetric, destroys our previous Cybermen without Missy recycling them, returns opponents' prior graveyard threats, kills Missy and removes immediate end-step choices; Cybership retains protected native flying Cybermen-generation role",
+    "effect_aware_test_complete": false
+  },
+  "alternative_cut_candidates": [
+    "Ugin's Mastery",
+    "Panoptic Projektor",
+    "Cybermen Squadron"
+  ],
+  "alternative_add_candidates": [
+    "Blasting Station",
+    "Massacre Wurm"
+  ],
+  "critical_rules_cases": [
+    "Missy death trigger checks last battlefield nonartifact characteristics and actual graveyard object",
+    "Token death does not return token after cease-to-exist state-based action",
+    "Previously returned Cyberman artifacts do not self-loop when sacrificed",
+    "Living Death first exiles old creature cards from each graveyard, then sacrifices all creatures, then returns initially exiled old cards; Missy simultaneous death still triggers",
+    "Missy villainous choice is sequential for each opponent and choices can yield card draw, not guaranteed artifact damage",
+    "Cybership needs crew 4 and combat damage to player to generate two Cybermen from library",
+    "Cybermen Squadron gives myriad to nonlegendary artifact creatures; tokens arrive attacking and leave end of combat",
+    "Face-down casts are colorless and can cause Ugin's Mastery colorless-creature-cast trigger",
+    "Panoptic Projektor discounts face-down creature spell casting, not no-cast Missy return",
+    "Blasting Station requires tap and sacrifice to ping and untaps on creature ETB; Goblin Bombardment already provides free untapped targeted ping",
+    "Commander-zone movement and graveyard-exile replacement shut off Missy reanimation",
+    "Missy is six mana with UBR pips; Living Death costs five including BB"
+  ],
+  "stage_a_sources": [
+    "https://magic.wizards.com/en/news/feature/magic-the-gathering-doctor-who-release-notes",
+    "https://gatherer.wizards.com/WHO/en-us/431/missy",
+    "https://gatherer.wizards.com/WHO/en-us/176/cybermen-squadron",
+    "https://gatherer.wizards.com/WHO/en-us/177/cybership",
+    "https://gatherer.wizards.com/VMA/en-us/126/living-death",
+    "https://gatherer.wizards.com/MKC/en-us/44/panoptic-projektor",
+    "https://scryfall.com/card/5dn/107/blasting-station",
+    "https://scryfall.com/card/who/176/cybermen-squadron"
+  ],
+  "prior_verdict_files_opened": false,
+  "contamination_disclosure": "Owner handoff already named old Missy Blasting Station/Cybermen Squadron proposal; same GPT-6 family, latent earlier exposure possible. Approval metadata contained zero-new-material-improvement closure and prior candidate-exhaustion language; neither previous verdict nor ranked candidate file was opened before Stage A.",
+  "measured_results_claimed": false,
+  "oracle_legalities_all_100_reverified": false,
+  "canonical_mutated": false,
+  "phase_b_complete": false,
+  "m6_certified": false
+}
