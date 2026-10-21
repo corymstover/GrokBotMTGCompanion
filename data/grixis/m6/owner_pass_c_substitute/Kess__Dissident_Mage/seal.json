@@ -1,0 +1,30 @@
+{
+  "schema_version": "jlk-neutral-seal-1",
+  "deck_index": 26,
+  "deck_id": "Kess__Dissident_Mage",
+  "stage": "A_SEALED_BEFORE_UNBLINDING",
+  "date": "2026-10-21",
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "historical_exposure_disclosure": "Same GPT-6 model lineage and prior-session exposure possible; earlier report content excluded through this stage.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_raw_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+  "canonical_git_blob_sha": "4e3feb62796a8d1371e6872ce960376993275d7e",
+  "stage_a_commit_sha": "f13baccc3639c03e79ff4487d55b045766a5a062",
+  "stage_a_parent_commit_sha": "9234503036e2e6c89421e4b11daf5ecf2c29a328",
+  "stage_a_files": {
+    "stage_a.md": {
+      "sha256": "0c4934d84db749b5a6c14f93b305d075f6cb8bed947e3d15e33b9c401d692e5b",
+      "git_blob_sha": "8acc113893189744f8ac7db5c3c3875242791569"
+    },
+    "stage_a.json": {
+      "sha256": "f1ba2e900713d42cd15b7e5de05ccbbb06e16a0bbe377fae26f1410b8a717a33",
+      "git_blob_sha": "b3615adda916fcdcac90575d70fa0773c53224dd"
+    }
+  },
+  "unblinding_status_when_sealed": "NOT_BEGUN",
+  "immutable_stage_a_policy": "Do not rewrite sealed Stage A; append corrections and retrospective discussion after the seal."
+}
