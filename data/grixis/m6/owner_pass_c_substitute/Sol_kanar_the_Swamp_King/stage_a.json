@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "stage": "A_NEUTRAL_ADVERSARIAL",
+  "review_date_local": "2026-10-21",
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "tracker_index": 51,
+  "reviewer_alias": "Josh-Lee-Kwai",
+  "actual_evaluator": "ChatGPT/OpenAI GPT-6",
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "independence_requirement": "OWNER_WAIVED_FOR_FORMAL_PASS_C",
+  "prior_context_disclosure": "Cannot erase latent GPT-6 prior-project exposure; no prior Solkanar-specific authored review, GrokBot advisory, reconciliation or ranked verdict opened before neutral Stage A hard seal.",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_branch": "main",
+  "canonical_source_path": "refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt",
+  "canonical_source_blob_sha": "99ca0f3dfca3fbcb3c9ac9cfa2c3381cb516ac08",
+  "canonical_approved_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+  "canonical_approval_status": "APPROVED_LOCKED",
+  "cards": 100,
+  "distinct_card_names": 95,
+  "commander_color_identity": "UBR",
+  "singleton_exemptions": "Swamp6 basic repeats",
+  "project_exceptions": [],
+  "commander_strategy": "Solkanar 2UBR 5/5 Demon gains 1 life for every player black-spell CAST, has swampwalk; Painter Servant choosing black universalizes cast color; Blanket/Urborg gives opponent Swamps; life gain/drain combo payoff",
+  "natural_power_ceiling": "Commander first optimized bracket4 estimated pending post-seal source check",
+  "provisional_disposition": "NEEDS TESTING",
+  "strongest_challenger": {
+    "add": "Shadowspear",
+    "cut": "Demon's Horn",
+    "alternative_cut": "Witch of the Moors",
+    "rationale": "Equipment makes unblocked 6/6 King personally gain 6 life in a single combat event plus commander damage, but loses black-cast redundancy"
+  },
+  "rules_checks": [
+    "A cast black spell by any player triggers king, even if spell countered; mere copies do not",
+    "Painter choosing BLACK makes spells on stack black regardless original colors; not the same as Urborg/Blanket",
+    "Urborg/Blanket make defending player's controlled lands Swamps, enabling swampwalk creature evasion, not spell color",
+    "Shadowspear +1/+1 lifelink makes clean Solkanar hit gain6 life once not six separate gains",
+    "Demon Horn produces a separate optional one-life trigger for black spell casts, and survives commander removal",
+    "Life-gain drain and Exquisite Blood loops require on-field pieces and interruptible triggers"
+  ],
+  "sources": [
+    "https://magic.wizards.com/en/formats/commander",
+    "https://magic.wizards.com/en/banned-restricted-list",
+    "https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23",
+    "https://magic.wizards.com/en/news/feature/original-magic-rulebook-2004-12-25",
+    "https://gatherer.wizards.com/search?cardName=Sol%27kanar_the_Swamp_King"
+  ],
+  "limits": [
+    "No earlier Solkanar specific verdict opened before sealing",
+    "No measured games or comprehensive 95-name refreshed Oracle audit",
+    "Not technically independent third model",
+    "No approved card edits or downstream milestone certifications"
+  ]
+}
