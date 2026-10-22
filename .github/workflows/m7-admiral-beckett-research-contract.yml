@@ -11,6 +11,7 @@ on:
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md
       - tests/test_m7_admiral_beckett_research_packages.py
       - tests/test_m7_admiral_beckett_full_source_and_resilience.py
+      - tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py
   workflow_dispatch:
 
 jobs:
@@ -26,3 +27,5 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_research_packages.py' -v
       - name: Verify all 121 Oracle sources and resilient package combat assumptions
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_full_source_and_resilience.py' -v
+      - name: Verify exact physical Pirate-density candidate four-turn mana and theft fixture
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_pirate_density_candidate_turn4.py' -v
