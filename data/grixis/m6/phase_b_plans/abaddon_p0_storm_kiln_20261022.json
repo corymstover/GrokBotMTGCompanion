@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_028_STORM_KILN_COPY_V_CAST_MAGECRAFT_PREREGISTRATION",
+  "date": "2026-10-22",
+  "base_sha": "900d5900cf09b0c0950114dfb57551c1740108af",
+  "canonical_approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle": {
+    "storm_kiln": "{3}{R}; Magecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token.",
+    "boltwave": "{R}; Sorcery: Boltwave deals 3 damage to each opponent.",
+    "nalfeshnee": "Whenever you cast a spell from exile, copy it; copied spells are not cast.",
+    "brain_freeze": "{1}{U}; Instant; target player mills three cards; storm.",
+    "source_urls": [
+      "https://mtg.wtf/card/stx/115/Storm-Kiln-Artist",
+      "https://media.wizards.com/2023/downloads/CMM_Release_Notes/EN_MTGCMM_ReleaseNotes_20230616.pdf",
+      "https://mtg.wtf/card/clb/678/Nalfeshnee",
+      "https://mtg.wtf/card/scg/29/Brain-Freeze"
+    ]
+  },
+  "registered_cases": [
+    {
+      "id": "kiln_source_paid_hand_boltwave_cast_only",
+      "expected": "A physically paid hand Boltwave from a real untapped Mountain triggers Storm-Kiln once (1 virtual Treasure) but not Nalfeshnee or The Lost and the Damned (not an exile/nonhand cast); opponent life loss occurs on resolution."
+    },
+    {
+      "id": "kiln_x0_call_nalf_exiled_boltwave",
+      "expected": "Physically paid {5}{R}{R}{R} Call from hand at X0 triggers Storm-Kiln once; first actual cascade-exiled Boltwave sorcery cast triggers Storm-Kiln a second time, then Nalfeshnee copies it and Storm-Kiln triggers a THIRD time; actual Boltwave and virtual copy each resolve, no extra Abaddon cascade, Lost only once."
+    },
+    {
+      "id": "kiln_x9_mixed_spell_and_permanent_copies",
+      "expected": "With X9, three Call cascades physically cast Arcane Signet, Sol Ring and Boltwave; Nalfeshnee copies each, but only instant/sorcery Boltwave cast and copied trigger Storm-Kiln. Call itself also triggered Storm-Kiln: total THREE Treasures, 3 Lost Spawns, one actual Boltwave cast."
+    },
+    {
+      "id": "kiln_brain_freeze_storm_copies",
+      "expected": "With physically sourced Breach hand-cast and LED from graveyard, escape-paid Brain Freeze instant has storm count 2 from actual Breach+LED casts. Its real cast triggers Storm-Kiln once and its two virtual storm copies trigger two more: three Magecraft Treasures, one real Brain Freeze cast, two virtual copies, physical 99 conserved."
+    },
+    {
+      "id": "kiln_countered_original_copy_trigger_still_magecraft",
+      "expected": "After actual exile Boltwave cast, opponent counters original before Nalfeshnee triggered copy resolves. Storm-Kiln still triggers once on real cast and again on the later actual spell COPY event; copy resolves and deals 3 to each opponent, original does not; plus source hand Call gives one separate Treasure."
+    },
+    {
+      "id": "kiln_artifact_copy_no_magecraft",
+      "expected": "An actual Arcane Signet exile-cast and Nalfeshnee's permanent-spell copy do not trigger Storm-Kiln at all; physically paid hand Call sorcery generates one Storm-Kiln Treasure, Lost one Spawn, no cast from virtual permanent copy."
+    },
+    {
+      "id": "kiln_land_play_from_prosper_no_magecraft",
+      "expected": "Prosper exiles and later plays an actual Swamp from exile on owner's main with normal land-drop access: one Prosper Treasure plus one Lost Spawn; NO Storm-Kiln Magecraft, no spell casts, original 99 cards conserved."
+    }
+  ],
+  "budget": {
+    "new_case_methods": 7,
+    "randomized_game_trials": 0,
+    "physical_100_decks": 1
+  },
+  "explicit_boundaries": [
+    "The 81 prior test cases remain valid and were never comprehensive all-effect modeling.",
+    "Only seven bounded new cases cover copy-aware Magecraft. Conditional pre-existing engine permanents from same physical 99 are assumed, not game-state prevalence.",
+    "Virtual spells and Treasure/Spawn token count are not counted among physical 99; all real listed cards remain conserved.",
+    "Storm-Kiln Treasure triggers occur from instant/sorcery spell CAST and spell COPY. Nalfeshnee's copied PERMANENT spell is not instant/sorcery and does not trigger Magecraft.",
+    "No M6.6 or M6.7 certification, no I/J PASS, no M7 approval or changes to 62 canonical locked decks."
+  ]
+}
