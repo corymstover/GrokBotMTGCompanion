@@ -54,7 +54,7 @@ jobs:
       - name: Verify fail-closed Oracle/source guards offline
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_live_oracle.py' -v
       - name: Fetch current Scryfall Oracle and Commander legality for five complete Abaddon lists
-        run: python scripts/grixis_m7_abaddon_live_oracle.py --out "${{ runner.temp }}/abaddon-m7-current-scryfall.json"
+        run: python -m scripts.grixis_m7_abaddon_live_oracle --out "${{ runner.temp }}/abaddon-m7-current-scryfall.json"
       - name: Preserve full source-bound current Oracle proof as immutable workflow artifact
         uses: actions/upload-artifact@v4
         with:
