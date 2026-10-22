@@ -33,7 +33,8 @@
     "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md; data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json (PR #520, exact-head CI 39706655376; 17 tests, 20,000 bounded physical paid trajectories)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522 / Actions 39708741461; conditional physical first-hit legal offers, no actual spell-effect execution)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524; Actions 39710471617; 12 source-verified physical same-state effects with 20 tests and 20,000 restricted paired trajectories)",
-    "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 15 tests in 20,000 matched physical trajectories)"
+    "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 15 tests in 20,000 matched physical trajectories)",
+    "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528; exact-head 39715733050 and 39715732876 success; 15 new and 20 source-locked effect tests; Wizards Grinning Ignus official mana-ability release notes)"
   ],
   "candidates": [
     {
@@ -329,6 +330,12 @@
             "class": "test_result",
             "confidence": "moderate",
             "source": "PR #526 exact-head GitHub Actions 39713059781 success; 15 hand-spell mana/grave and predecessor-control tests, 20,000 paired source-paid accelerated or unchanged physical trajectories; six hand accelerants, no complete 99-card game"
+          },
+          {
+            "id": "ignus_mana_ability_oracle_correction_8_adversarial_windows",
+            "class": "test_result_and_official_wizards_ruling",
+            "confidence": "high_for_rules_moderate_for_conditional_payments_no_empirical_disruption_frequency",
+            "source": "Official Wizards Time Spiral Remastered Grinning Ignus release notes; PR #528, exact-head Actions 39715733050 and 39715732876 PASS; 15 targeted and 20 predecessor tests"
           }
         ]
       },
@@ -355,9 +362,9 @@
         "actual_wins_measured": false
       },
       "unresolved": [
-        "Extend genuinely legal fixed mana-source policy to choose when to hold Dark/Cabal/Rite and preserve Grixis commander pips; fixed pre-main hand acceleration is deliberately nonoptimal",
-        "Model other qualifying hand-cast cascade triggers and broader hand-ramp choices (Mana Vault {4} untap, Chrome Mox imprint, Lion's Eye Diamond discard, Signet and three Talismans), while safeguarding physical stack/permission and zones",
-        "Test meaningful Rule of Law/Drannith/targeted removal/counters through actual alternative pilot windows and real lost Rakdos/Familiar/Rite incumbent roles before any swap approval"
+        "Countermagic on original Ignus and removal at actual earlier priority windows matter, but do NOT model false opponent 'response to Ignus bounce activation'—it is a mana ability",
+        "Prearranged physical conditional fixtures do not establish how frequently Abaddon, Birgi, Loyal, Ignus, Rule of Law or Drannith are together in real four-player tables",
+        "Need commander-first study of actual legal interaction, source-paid additional cascade triggers, incidental table effects and lost Rakdos/Familiar/Rite roles before any full optimized deck proposal"
       ],
       "approved_swap": false,
       "paid_assembly_observation": {
@@ -554,6 +561,31 @@
         "net_superiority_proven": false,
         "measured_multiplayer_win_rate": null,
         "approved_swap": false
+      },
+      "disruption_oracle_correction": {
+        "source": "https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23",
+        "correction": "Ignus's red return activation IS a mana ability despite sorcery timing; does NOT use stack; cannot respond to activation. If no ETB abilities trigger and active player gets priority during main phase, it can be immediately activated before opponents receive priority.",
+        "witnesses": {
+          "uncontested_paid_recasts": 5,
+          "uncontested_cascades": 5,
+          "rule_of_law_prior_boltwave_initial_cast_legal": false,
+          "rule_of_law_first_ignus_free_cascade_legal": false,
+          "drannith_cascade_free_cast_legal": false,
+          "drannith_paid_hand_recasts": 5,
+          "abaddon_removed_before_next_cascades": 0,
+          "birgi_removed_before_next_recasts": 1,
+          "original_ignus_countered_prior_abaddon_cascade_still_triggers": true,
+          "original_ignus_countered_enters_battlefield": false
+        },
+        "real_physical_source_verified": true,
+        "tests_targeted": 15,
+        "tests_predecessor": 20,
+        "registered_windows": 8,
+        "actual_opponent_response_probability": false,
+        "full_99_card_gameplay": false,
+        "win_rate": null,
+        "swap_superiority_proven": false,
+        "canonical_changed": false
       }
     }
   ],
@@ -601,5 +633,5 @@
     "Retain identified low-cost/identity 40K payoffs and robust early red acceleration; do not auto-apply any of the 98 screened M5 swap rows",
     "After M6.6/7 full completion, generate final replayable I/J evidence and independently verify proposed exact 100/Oracle/current legality before any owner M7 approval packet"
   ],
-  "summary": "Four Abaddon same-family authored judgments unchanged: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, Ignus PRIORITY/HOLD. PR #526 added six genuinely paid fast-mana spells cast from hand to PR524 shared-state 12-cascade-effect pilot and compared it to exact unchanged predecessor with identical 99 cards, seed and fixed policy. In 1000 engine-first trials per Ignus swap, real cascade/supported-effect trajectory counts changed from 4/0 to 5/1 (-Rakdos), 4/2 to 6/1 (-Nightscape), and 7/3 to 8/4 (-Rite). Casting ramp unconditionally at start can use up colored mana and does not uniformly improve supported effects. No real win rates, optimal play, net role tradeoff, canonical swap, formal M6 or M7 approval."
+  "summary": "Four authored Abaddon judgments unchanged: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, Ignus PRIORITY/HOLD. PR #528 materially corrects the priority window: Grinning Ignus's sorcery-timed {R} bounce is a true mana ability, not a responseable effect on the stack. On a quiet main with priority after creature resolution it can bounce before opponent spot removal gets priority; countering creature spell, separate genuine ETB windows, Rule of Law/Drannith remain serious interactions. 8 frozen-source physical prearranged cases, 15 new and 20 predecessor tests, but no empirical opponent incidence, full 99-card interaction model or game win-rate. Canonical unaffected, M6.6/7 PARTIAL, no new M7 owner approval."
 }
