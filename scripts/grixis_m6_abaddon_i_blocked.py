@@ -11,7 +11,7 @@ from datetime import datetime,timezone
 import hashlib
 import json
 from pathlib import Path
-import jsonschema
+from scripts import grixis_authority as ga
 from scripts.grixis_m6_abaddon_preflight import (
     ROOT, INVENTORY, DECISION, SNAPSHOT, PINNED, COVERAGE, sha, load
 )
@@ -86,10 +86,9 @@ def build():
 
 
 def check(d):
-    errors=sorted(jsonschema.Draft202012Validator(load(SCHEMA)).iter_errors(d),
-                  key=lambda x:tuple(str(i) for i in x.path))
+    errors=ga.validate_file(d,"zero_improvement_certificate.schema.json")
     if errors:
-        raise BlockedCertificateFailure("Invalid M6 I schema: "+str(errors[0].message))
+        raise BlockedCertificateFailure("Invalid M6 I schema: "+str(errors[0]))
     current=load(ROOT/DECISION)
     inv=load(ROOT/INVENTORY)
     if (d["certificate_status"]!="blocked" or d["local_optimum_for_tested_pool"] or
