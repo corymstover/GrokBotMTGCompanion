@@ -313,7 +313,77 @@
       "quality_comparison": "UNRESOLVED_THREE_PACKAGES_ARE_HYPOTHESES_NOT_JUDGMENTS",
       "owner_approval": "WITHHELD",
       "canonical_mutation": false,
-      "source_test": "tests/test_m7_admiral_unbounded_stage1.py"
+      "source_test": "tests/test_m7_admiral_unbounded_stage1.py",
+      "git_receipt": {
+        "merged_pr": 605,
+        "merged_commit": "a18d03af035c6aa352be64ea7f055c3456eea938",
+        "exact_pr_head": "e14eaa92e9970653ef25ff7cb9abdb8dc138d6da",
+        "actions": [
+          {
+            "run": 39869584985,
+            "status": "SUCCESS"
+          },
+          {
+            "run": 39869584989,
+            "status": "SUCCESS"
+          }
+        ],
+        "meaning": "PASS physical-source research tests only; not Oracle, M6 I/J or M7 approval"
+      }
+    },
+    "stage2": {
+      "status": "RESEARCH_ONLY_SECOND_EVASION_HORIZON_PHYSICAL_FIXTURES",
+      "comparison_document": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_evasion_horizon_stage2_20261022.md",
+      "candidate_packages": [
+        {
+          "name": "SIX_GLARING_SPOTLIGHT",
+          "swaps": 6,
+          "source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Glaring_Spotlight_20261022.txt",
+          "changed": "Glaring Spotlight IN / Bident of Thassa OUT"
+        },
+        {
+          "name": "SIX_BROTHERHOOD_REGALIA",
+          "swaps": 6,
+          "source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Brotherhood_Regalia_20261022.txt",
+          "changed": "Brotherhood Regalia IN / Bident of Thassa OUT"
+        },
+        {
+          "name": "SIX_COSMOTRONIC_WAVE",
+          "swaps": 6,
+          "source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Cosmotronic_Wave_20261022.txt",
+          "changed": "Cosmotronic Wave IN / Fiery Cannonade OUT"
+        },
+        {
+          "name": "SEVEN_REGALIA_WAVE",
+          "swaps": 7,
+          "source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_seven_Regalia_Wave_20261022.txt",
+          "changed": "Regalia/Bident and Wave/Cannonade simultaneously"
+        }
+      ],
+      "challenged_new_incumbents": [
+        "Bident of Thassa",
+        "Fiery Cannonade"
+      ],
+      "off_ranking_leads": [
+        "Glaring Spotlight",
+        "Brotherhood Regalia",
+        "Cosmotronic Wave",
+        "Subira, Tulzidi Caravanner",
+        "Teleportal",
+        "War Cadence"
+      ],
+      "physical_receipt": "tests/test_m7_admiral_evasion_horizon_stage2.py",
+      "physical_test_status": "AWAIT_EXACT_HEAD_GITHUB_CI",
+      "strategic_comparison": "QUALITATIVE_EVIDENCE_NOT_FINAL_SELECTION",
+      "outstanding": [
+        "Source-bound complete current Scryfall records and Commander legality for new names",
+        "Full paid three-Pirate same-player blockers/interference fixtures",
+        "Bident repeated draw vs equipment/spotlight value at comparable game states",
+        "Cannonade instant reactive 2 damage vs Wave sorcery unblocked swing",
+        "M6 I/J and candidate raw hash for any selected new final 100"
+      ],
+      "owner_approval": "WITHHELD",
+      "canonical_mutation": false
     }
   }
 }
