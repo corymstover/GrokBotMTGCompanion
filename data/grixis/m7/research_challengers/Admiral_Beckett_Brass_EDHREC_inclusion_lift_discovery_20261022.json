@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "deck_id": "Admiral_Beckett_Brass",
+  "research_date": "2026-10-22",
+  "status": "RESEARCH_ONLY_DISCOVERY_NOT_OWNER_READY",
+  "canonical_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "source": {
+    "edhrec_commander_url": "https://edhrec.com/commanders/admiral-beckett-brass",
+    "edhrec_theft_tag_url": "https://edhrec.com/commanders/admiral-beckett-brass/theft",
+    "retrieved_date": "2026-10-22",
+    "view": "commander all brackets; no budget filters; 4,777 page sample decks at retrieval",
+    "top_metric": "inclusion percentage",
+    "associated_metric": "lift ratio (high lift, not historical synergy percentage)",
+    "methodology_urls": [
+      "https://edhrec.com/articles/changelog-replacing-synergy-with-lift-on-edhrecs-card-pages",
+      "https://edhrec.com/faq"
+    ],
+    "limitations": "EDHREC is aggregate decklist association and may lag or vary with filters; it does not establish Oracle/rules legality, strength, or a final replacement."
+  },
+  "top_inclusion_observed": [
+    {
+      "name": "Malcolm, Keen-Eyed Navigator",
+      "inclusion_percent": 84,
+      "lift_times": 15,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Hostage Taker",
+      "inclusion_percent": 82,
+      "lift_times": 10,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Coercive Recruiter",
+      "inclusion_percent": 79,
+      "lift_times": 16,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Corsair Captain",
+      "inclusion_percent": 78,
+      "lift_times": 18,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Captain Lannery Storm",
+      "inclusion_percent": 74,
+      "lift_times": 16,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Forerunner of the Coalition",
+      "inclusion_percent": 73,
+      "lift_times": 22,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Siren Stormtamer",
+      "inclusion_percent": 72,
+      "lift_times": 12,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Breeches, Brazen Plunderer",
+      "inclusion_percent": 71,
+      "lift_times": 16,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Fathom Fleet Captain",
+      "inclusion_percent": 71,
+      "lift_times": 32,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    },
+    {
+      "name": "Ramirez DePietro, Pillager",
+      "inclusion_percent": 70,
+      "lift_times": 13,
+      "canonical_baseline": true,
+      "discovery_judgment": "ALREADY_PRESENT_NOT_AUTOMATIC_KEEP"
+    }
+  ],
+  "high_lift_observed": [
+    {
+      "name": "Storm Fleet Aerialist",
+      "inclusion_percent": 9,
+      "lift_times": 74,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Slippery Scoundrel",
+      "inclusion_percent": 26,
+      "lift_times": 73,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": true
+    },
+    {
+      "name": "Kitesail Corsair",
+      "inclusion_percent": 9,
+      "lift_times": 66,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Dreamcaller Siren",
+      "inclusion_percent": 14,
+      "lift_times": 64,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Dire Fleet Captain",
+      "inclusion_percent": 47,
+      "lift_times": 58,
+      "canonical_baseline": true,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Storm Fleet Sprinter",
+      "inclusion_percent": 65,
+      "lift_times": 56,
+      "canonical_baseline": true,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Kukemssa Pirates",
+      "inclusion_percent": 5.5,
+      "lift_times": 54,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Deadeye Brawler",
+      "inclusion_percent": 14,
+      "lift_times": 54,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Dire Fleet Poisoner",
+      "inclusion_percent": 45,
+      "lift_times": 53,
+      "canonical_baseline": true,
+      "already_prior_24_material_challenger": false
+    },
+    {
+      "name": "Prying Blade",
+      "inclusion_percent": 8.8,
+      "lift_times": 53,
+      "canonical_baseline": false,
+      "already_prior_24_material_challenger": false
+    }
+  ],
+  "scryfall_new_discovery_oracle": [
+    {
+      "name": "Storm Fleet Aerialist",
+      "oracle_id": "b128d0cf-77d9-4751-99c6-0f3bc3660318",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nRaid — This creature enters with a +1/+1 counter on it if you attacked this turn.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/xln/83/storm-fleet-aerialist",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "challenged_slots": [
+        "Kari Zev, Skyship Raider",
+        "Skyship Plunderer"
+      ],
+      "qualitative_analysis": "Low-curve actual flying Pirate, with optional Raid-sized toughness; Kari Zev's Monkey attacker does not count toward the three-Pirate threshold. But cutting Kari Zev loses menace/first strike and token pressure, and Skyship Plunderer preserves combat-hit counter synergies. Test exact replacements before deciding."
+    },
+    {
+      "name": "Kitesail Corsair",
+      "oracle_id": "6103f294-f920-4307-af80-d44cc71167fd",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "This creature has flying as long as it's attacking.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fdn/743/kitesail-corsair",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "challenged_slots": [
+        "Skyship Plunderer",
+        "Storm Fleet Sprinter"
+      ],
+      "qualitative_analysis": "Two-mana Pirate with attack-only flying can connect evasively, and block ground creatures on defense. Retained only as backup: Skyship Plunderer has permanent flying and an on-hit counter effect, whereas Storm Fleet Sprinter's evasion is often more robust. Do not treat lift as proof."
+    },
+    {
+      "name": "Dreamcaller Siren",
+      "oracle_id": "8ed7791d-6d75-4cd7-9428-c731f623b241",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Creature — Siren Pirate",
+      "oracle_text": "Flash\nFlying\nThis creature can block only creatures with flying.\nWhen this creature enters, if you control another Pirate, tap up to two target nonland permanents.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/xln/54/dreamcaller-siren",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "challenged_slots": [
+        "Open into Wonder",
+        "Zara, Renegade Recruiter"
+      ],
+      "qualitative_analysis": "A flash/flying Pirate body plus up-to-two-target tap can open a two-blocker lane before combat, enable Admiral's end-step theft and stay for future thresholds. Four total mana including UU competes with reliable multi-creature evasion/card draw from Open into Wonder and Zara's repeatable combat theft; no selected cut without whole-deck comparison. Tap effect alone does not assure three hits if a third blocker remains."
+    },
+    {
+      "name": "Kukemssa Pirates",
+      "oracle_id": "280148c5-3a2f-48f7-a147-4578f2068073",
+      "mana_cost": "{3}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Whenever this creature attacks and isn't blocked, you may gain control of target artifact defending player controls. If you do, this creature assigns no combat damage this turn.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mir/71/kukemssa-pirates",
+      "judgment": "REJECT",
+      "challenged_slots": [
+        "Hostage Taker"
+      ],
+      "qualitative_analysis": "Its artifact theft is tempting, but taking an artifact gives up this Pirate's combat damage that turn, suppressing the commander-trigger threshold. Hostage Taker's immediate exile and playable stolen creature/artifact spell operates on a different axis; not a reliable direct upgrade."
+    },
+    {
+      "name": "Deadeye Brawler",
+      "oracle_id": "a7c36b66-4f58-41af-b1c5-704ff0d9eac8",
+      "mana_cost": "{2}{U}{B}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Deathtouch\nAscend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nWhenever this creature deals combat damage to a player, if you have the city's blessing, draw a card.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/rix/155/deadeye-brawler",
+      "judgment": "REJECT",
+      "challenged_slots": [
+        "Bident of Thassa",
+        "Malcolm, Keen-Eyed Navigator"
+      ],
+      "qualitative_analysis": "Four-mana ground Pirate needs city blessing and combat hit to draw one card, versus Bident's unrestricted per-creature combat draws and Malcolm's cheaper Treasure engine; deathtouch does not itself force unblocked theft-threshold hits."
+    },
+    {
+      "name": "Prying Blade",
+      "oracle_id": "5fe86083-1009-4de2-b186-f817ad1cc4e4",
+      "mana_cost": "{1}",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature gets +1/+0.\nWhenever equipped creature deals combat damage to a player, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/xln/244/prying-blade",
+      "judgment": "REJECT",
+      "challenged_slots": [
+        "Malcolm, Keen-Eyed Navigator",
+        "Bident of Thassa"
+      ],
+      "qualitative_analysis": "Three mana before first equipped hit and no intrinsic Pirate body or evasion. Malcolm makes Treasures off multiple Pirates' combat hits (to different players) without equipment setup, and Bident converts hits to cards. Minor +1/+0 does not justify slot."
+    }
+  ],
+  "already_analyzed_high_lift": {
+    "card": "Slippery Scoundrel",
+    "prior_24_candidate_source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_material_decisions_20261022.json",
+    "instruction": "Revisit under adverse city-blessing timing if it becomes decisive; no duplicate source scoring or automatic selection."
+  },
+  "further_work": [
+    "Compare Storm Fleet Aerialist and Dreamcaller Siren against named cuts in at least one complete 100-card additional package when credible.",
+    "Check all new card cost/timing text and real blocker states; do not interpret high lift or inclusion as strategic proof.",
+    "Rerun changed M6 verification and candidate-bound I/J only for any actually selected final revision.",
+    "Keep canonical approved hash and withheld M7 approval unchanged."
+  ]
+}
