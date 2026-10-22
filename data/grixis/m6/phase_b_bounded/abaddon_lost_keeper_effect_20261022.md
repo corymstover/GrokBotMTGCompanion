@@ -16,7 +16,7 @@ The source-backed rules are:
 - Both cast-triggered abilities trigger even if the hit is later countered; ordinary *countering the spell* does not undo them. Removing Keeper or Lost before the cast prevents those new triggers; removal after they have triggered does not erase them.
 - `Grinning Ignus` has a sorcery-timing mana ability that does **not** use the stack: Wizards' [Time Spiral Remastered notes](https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23). The available prior `ignus_stack_windows` fixture is reused with no revised rules assumption.
 
-Public Oracle text and legality sources checked October 22: [The Lost and the Damned](https://mtg.wtf/card/40k/129%25E2%2598%2585/The-Lost-and-the-Damned); [Keeper of Secrets](https://mtg.wtf/card/40k/78/Keeper-of-Secrets); [Call Forth the Tempest](https://spellrack.com/cards/0623c51a-e829-413f-a3a0-817c0902821e). The original accepted 94-name October-12 Scryfall audit is separate; this is a **targeted rules check**, not 100 fresh Oracle requests.
+Public Oracle text and legality sources checked October 22: [The Lost and the Damned](https://mtg.wtf/card/40k/129%E2%98%85/The-Lost-and-the-Damned); [Keeper of Secrets](https://mtg.wtf/card/40k/78/Keeper-of-Secrets); [Call Forth the Tempest](https://spellrack.com/cards/0623c51a-e829-413f-a3a0-817c0902821e). The original accepted 94-name October-12 Scryfall audit is separate; this is a **targeted rules check**, not 100 fresh Oracle requests.
 
 ## Exact physical opponents and cases
 
