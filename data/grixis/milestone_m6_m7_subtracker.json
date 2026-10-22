@@ -363,7 +363,8 @@
         "full_multiplayer_gameplay": false,
         "actual_stax_distribution_measured": false,
         "net_superiority_proven": false,
-        "canonical_changed": false
+        "canonical_changed": false,
+        "superiority_proven": false
       }
     ]
   },
