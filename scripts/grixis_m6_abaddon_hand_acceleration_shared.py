@@ -15,7 +15,7 @@ sys.path.insert(0,str(Path(__file__).resolve().parent))
 from grixis_m6_abaddon_ignus_shared_effects import (
     ABADDON,BIRGI,IGNUS,FAMILIAR,RAKDOS,ZERO,
     assert_conserved,create_state,effect_add,expected_physical,main_phase,
-    one_trial as predecessor_one_trial,verify as predecessor_verify
+    first_cascade,one_trial as predecessor_one_trial,verify as predecessor_verify
 )
 from grixis_m6_abaddon_assault_access import play_land
 from grixis_m6_fetch_city_tomb import FETCHES
@@ -55,12 +55,15 @@ def verify():
     return p,prior,cards,decks
 
 
-def paid_accelerants_from_hand(state,plan):
+def paid_accelerants_from_hand(state,plan,*,resolve_other_hand_cascades=False,
+                                 cards=None,prior=None,seed=0,turn=0):
     """One registered pre-main source-paid pass; new rocks tap/sac once.
 
     Cards are not cast if source payment fails; no phantom hand-to-board move.
     Nightscape cannot discount any generic portion of a mono-B/mono-R ritual.
     """
+    if resolve_other_hand_cascades and (cards is None or prior is None):
+        raise ValueError("Cannot resolve physical cascade without registered card graph and old plan")
     for name in ACTIVATIONS:
         if name not in state["hand"]: continue
         if name in ("Sol Ring","Mana Vault") and name in state["field"]:
@@ -76,6 +79,22 @@ def paid_accelerants_from_hand(state,plan):
         if BIRGI in state["field"]:
             state["pool"]=effect_add(state["pool"],r=1)
             state["metrics"]["birgi_red_from_hand_accelerant"]+=1
+        # A source-paid HAND spell gets Abaddon's cascade at its cast, even
+        # at printed MV=0 (0 <= same-turn opponent life loss of 0).
+        # It is still on the stack: source ritual mana / Lotus sacrifice /
+        # rock tap occur only AFTER its cascade trigger resolves.
+        if resolve_other_hand_cascades and ABADDON in state["field"] and state["loss"]>=unit[0]:
+            if name not in cards or cards[name]["mv"]!=unit[0]:
+                raise ValueError("Hand accelerant printed MV source drift: "+name)
+            receipt=first_cascade(state,cards,seed^(turn*683)^(unit[0]*97),
+                prior,trigger_mv=unit[0],source_kind="other_hand")
+            state["metrics"]["hand_accelerant_cascade_triggers"]+=1
+            if unit[0]==0:
+                state["metrics"]["zero_mv_hand_cascade_triggers"]+=1
+                if receipt["hit"] is not None or receipt["cast_from_exile"]:
+                    raise AssertionError("Zero-MV physical cascade cannot cast a card")
+            if len(state["examples"])<3:
+                state["examples"].append({"turn":turn,"source_hand_accelerant":name,**receipt})
         if name=="Lotus Petal":
             # Zero-mana permanent, immediate tap and sacrifice for fixed R.
             state["graveyard"].append(name)
