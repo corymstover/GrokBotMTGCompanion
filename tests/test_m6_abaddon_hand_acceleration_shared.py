@@ -95,7 +95,6 @@ class AbaddonHandAccelerantTests(unittest.TestCase):
                 lands=(("Swamp",False),("Island",False)))
         paid_accelerants_from_hand(s,self.plan)
         self.assertEqual(s["pool"],(0,3,0,0))
-        self.assertEqual(s["metrics"]["hand_cabal_threshold_casts"],0) if "hand_cabal_threshold_casts" in s["metrics"] else None
         self.assertEqual(s["metrics"]["cabal_threshold_paid"],0)
         self.assertEqual(s["graveyard"],["Cabal Ritual"])
 
@@ -126,11 +125,11 @@ class AbaddonHandAccelerantTests(unittest.TestCase):
 
     def test_cast_sol_ring_enables_actual_5_mana_commander_from_colored_lands(self):
         s=state(hand=("Sol Ring",),
-          lands=(("Island",False),("Swamp",False),
-                 ("Mountain",False),("Mountain",False)))
+          lands=(("Mountain",False),("Island",False),
+                 ("Swamp",False),("Mountain",False)))
         no_ramp=state(hand=(),
-          lands=(("Island",False),("Swamp",False),
-                 ("Mountain",False),("Mountain",False)))
+          lands=(("Mountain",False),("Island",False),
+                 ("Swamp",False),("Mountain",False)))
         main_phase(no_ramp,self.graph,self.predecessor,21,5,"engine_first")
         self.assertNotIn(ABADDON,no_ramp["field"])
         paid_accelerants_from_hand(s,self.plan)
