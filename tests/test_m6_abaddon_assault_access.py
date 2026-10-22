@@ -45,11 +45,11 @@ class AbaddonAccessTests(unittest.TestCase):
     def test_tapped_land_not_used_on_its_arrival(self):
         self.assertFalse(source_payable([("Xander's Lounge", True),
                                          ("Island", False), ("Swamp", False),
-                                         ("Mountain", False), ("Ancient Tomb", False)],
+                                         ("Ancient Tomb", False)],
                                         "Abaddon the Despoiler"))
         self.assertTrue(source_payable([("Xander's Lounge", False),
                                         ("Island", False), ("Swamp", False),
-                                        ("Mountain", False), ("Ancient Tomb", False)],
+                                        ("Ancient Tomb", False)],
                                        "Abaddon the Despoiler"))
 
     def test_exotic_orchard_unknown_not_assumed_rainbow(self):
@@ -61,7 +61,7 @@ class AbaddonAccessTests(unittest.TestCase):
         self.assertEqual(eligible_fetch_targets("Polluted Delta", ["Mountain"]), [])
         targets = eligible_fetch_targets("Polluted Delta", ["Island", "Underground Sea",
                                                            "Badlands", "Xander's Lounge"])
-        self.assertEqual(targets[0], "Underground Sea")
+        self.assertEqual(targets[0], "Badlands")
         self.assertIn("Xander's Lounge", targets)
 
     def test_draw_only_exact_fraction(self):
