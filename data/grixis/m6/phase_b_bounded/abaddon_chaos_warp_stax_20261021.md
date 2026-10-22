@@ -32,6 +32,14 @@ Card/rule sources:
 
 **These are source-payability and rule-window diagnostics only.** They do **not** model a real Rule of Law being drawn, cast, answered or reestablished; no ramp rocks, rituals, tutors, actual cascade, player survival, conditional blue mana, opponents' responses, random replacement distribution or multiplayer match win rates. They do not assign zero value to cut incumbent effects. No measured or certified deck superiority follows.
 
+## Registered policy-sensitivity correction after first CI
+
+The original automation used a greedy land-first rule that **played Otawara as a land** as soon as eligible, producing zero *retained-in-hand* Otawara channel opportunities at the turn-10 sample checkpoint. This is a **policy artifact, not proof that the approved baseline cannot answer stax**. We preserved the initial GitHub Actions receipt (`39702315949`) rather than hiding the mismatch.
+
+Before implementing a second policy, `data/grixis/m6/phase_b_plans/abaddon_chaos_warp_otawara_policy_20261021.json` was separately committed at `693f1b14af69b1efed78283e99d7dc2913e7eec0`. The amended CI now runs the same 2,000 physical seeds for **both** the original land-first policy and a conditional `reserve_otawara_for_channel` policy: if a meaningful resolved stax threat is already known, keep Otawara in hand, choose a different eligible land if one exists, **forfeit the land drop otherwise**. The record exposes forfeited land drops and held/channel-payable opportunities, rather than granting free development to the reserved land.
+
+Reservation assumes the stax threat is already present/known from the first modeled turn. The actual pilot may choose a more nuanced middle strategy. This two-policy sensitivity test isolates how much of the naive zero-answer finding comes from playing Otawara rather than from a true lack of coverage. A hypothetical 100-card swap still cannot be justified solely from these conditional access models.
+
 ## Commander-first judgment and stopping condition
 
 **Current disposition: HOLD Chaos Warp until a defensible cut and real table relevance justify it; no swap applied.** Warp is an authentic answer-gap upgrade candidate, but the exact strong candidates under discussion sacrifice a substantial existing engine:
