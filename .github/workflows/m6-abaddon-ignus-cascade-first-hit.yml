@@ -47,7 +47,7 @@ jobs:
           assert not r['conditional_rules']['rule_of_law']['chosen_cast_from_exile']
           assert not r['conditional_rules']['drannith']['chosen_cast_from_exile']
           for k,v in r['bounds'].items():
-              if k=='actual_win_rate': assert v is None
+              if k=='observed_real_deck_cascade_win_rate': assert v is None
               elif k in ('m6_certificates','m7_owner_approvals'): assert v==0
               else: assert v is False, (k,v)
           assert t['m6']['gates'][5]['status']=='PARTIAL'
