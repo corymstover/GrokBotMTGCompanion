@@ -415,7 +415,7 @@
     },
     "current_verified_integration_head": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
     "latest_complete_subtask": "Source-bound eleven-card Challenger/incumbent Oracle snapshot and new EDHREC discovery crosswalk authored on working branch, exact-head CI and package adjudication pending.",
-    "next_exact_unfinished_requirement": "Run exact-head GitHub Actions including stage3 sourced eleven-card paid mechanical and stage4/5 EDHREC discovery/full-100 8/9-swap suites; fix failures, merge research PR if green, then make substantive full-deck comparative choice and rebind mandatory candidate-specific M6 I/J. Owner approval withheld; canonical lock unchanged.",
+    "next_exact_unfinished_requirement": "Verify stage6 exact-head CI, then adjudicate 7/8/9-swap Admiral candidates holistically (draw, recursion, interaction, mana, threshold), adopt justifiable exact 100-card revision and rebind source/M6 I/J for owner approval. After Admiral final approval, reopen Abaddon under BOTH new workflow rules; do not start deck3 until both owner approvals. Canonical locks remain unchanged in the meantime.",
     "remaining_owner_decision": "None until a genuinely owner-ready exact proposal; Cory explicitly withheld approval of former D.",
     "stage3": {
       "status": "ORACLE_SOURCED_ELEVEN_PAID_MECHANICAL_FIXTURES_WRITTEN_AWAITING_EXACT_HEAD_CI",
@@ -462,6 +462,44 @@
       ],
       "scope": "Exact physically complete alternative lists only; no comparative gameplay proof, final Oracle+M6 changed-bound I/J or owner-ready rev2.",
       "owner_approval": "WITHHELD"
+    },
+    "stage6": {
+      "status": "RESEARCH_ONLY_SOURCE_BOUND_FINITE_THRESHOLD_ADJUDICATION_PENDING_EXACT_HEAD_CI",
+      "document": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_stage6_threshold_adjudication_20261022.md",
+      "test": "tests/test_m7_admiral_stage6_decision_bound.py",
+      "finding": "Against four eligible blockers, two Dreamcaller taps cannot create three Pirate hits whereas X=3 Open into Wonder can; Dreamcaller has a legitimate earlier UU+2 vs only two blockers; Aerialist vs Kari Zev evasion rank reverses depending on blockers; no global-best proof.",
+      "owner_approval": "WITHHELD"
+    },
+    "previous_stage3_to5_receipt": {
+      "merged_pr": 608,
+      "pr_head_sha": "23f58845555619aa8042725df6b4ada4fb015b55",
+      "merge_commit": "47cd8f53760604366a392c84a2f24ea030e2bf83",
+      "exact_head_actions": [
+        {
+          "run": 39873208608,
+          "workflow": "M7 Admiral Beckett Brass research-only package contract",
+          "result": "SUCCESS"
+        },
+        {
+          "run": 39873208607,
+          "workflow": "M7 decisive commander-first optimization contract",
+          "result": "SUCCESS"
+        }
+      ],
+      "meaning": "Actual source-bound Admiral stage3/4/5 regression and finite mechanical tests pass; not M6 I/J or owner-ready global configuration."
     }
+  },
+  "owner_sequence_override": {
+    "date": "2026-10-22",
+    "source": "Cory explicit live instruction",
+    "order": [
+      "Finish Admiral Beckett Brass, tracker #2, with exact fresh M7 owner approval.",
+      "Reopen and comprehensively revise Abaddon the Despoiler, tracker #1, under unbounded >five floor and EDHREC inclusion/high-lift discovery; preserve its current approved canonical version until new exact owner approval.",
+      "Only then advance to tracker deck #3 and beyond."
+    ],
+    "active_commander": "Admiral_Beckett_Brass",
+    "abaddon_reopening_status": "SCHEDULED_NOT_YET_REOPENED",
+    "deck3_hold": true,
+    "canonical_mutation_authorized_now": false
   }
 }
