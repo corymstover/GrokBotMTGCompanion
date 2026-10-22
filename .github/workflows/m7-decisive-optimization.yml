@@ -32,7 +32,7 @@ jobs:
       - name: Exercise adversarial no-wasted-testing and final candidate guards
         run: python -m unittest discover -s tests -p 'test_m7_decisive_optimization_gate.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
-        run: python scripts/grixis_m7_decision_gate.py --check
+        run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
         run: |
           python - <<'PY'
