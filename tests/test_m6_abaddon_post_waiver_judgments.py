@@ -130,6 +130,26 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
 
+    def test_six_hand_acceleration_is_real_cost_paid_but_not_a_win_rate(self):
+        item=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        e=item["hand_acceleration_observation"]
+        self.assertEqual(len(e["verified_hand_spells"]),6)
+        self.assertTrue(e["actual_non_cascade_hand_ramp_paid"])
+        self.assertTrue(e["pilot_life_damage_included_for_vault"])
+        self.assertEqual(e["engine_first_turn10_per1000"]["ignus_for_rakdos"]["no_hand_acceleration"]["actual_ignus_cascade"],4)
+        self.assertEqual(e["engine_first_turn10_per1000"]["ignus_for_rakdos"]["hand_acceleration"]["actual_ignus_cascade"],5)
+        self.assertEqual(e["engine_first_turn10_per1000"]["ignus_for_nightscape_familiar"]["hand_acceleration"]["supported_effect"],1)
+        self.assertEqual(e["engine_first_turn10_per1000"]["ignus_for_rite_of_flame"]["hand_acceleration"]["supported_effect"],4)
+        self.assertFalse(e["all_99_card_effects"])
+        self.assertFalse(e["other_abaddon_hand_cast_cascades"])
+        self.assertFalse(e["real_multiplayer_interaction"])
+        self.assertFalse(e["net_superiority_proven"])
+        self.assertFalse(e["approved_swap"])
+        self.assertIsNone(e["measured_multiplayer_win_rate"])
+        self.assertEqual(item["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
+        self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))

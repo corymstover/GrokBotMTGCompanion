@@ -32,7 +32,8 @@
     "data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md (PR #518 / exact-head Actions 39704767840; 16 physical/rule tests and finite conditional five-recast trace)",
     "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md; data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json (PR #520, exact-head CI 39706655376; 17 tests, 20,000 bounded physical paid trajectories)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522 / Actions 39708741461; conditional physical first-hit legal offers, no actual spell-effect execution)",
-    "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524; Actions 39710471617; 12 source-verified physical same-state effects with 20 tests and 20,000 restricted paired trajectories)"
+    "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524; Actions 39710471617; 12 source-verified physical same-state effects with 20 tests and 20,000 restricted paired trajectories)",
+    "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 15 tests in 20,000 matched physical trajectories)"
   ],
   "candidates": [
     {
@@ -297,7 +298,7 @@
             "id": "ignus-16-physical-and-conditional-rules-tests",
             "class": "test_result",
             "confidence": "moderate",
-            "source": "PR #518 / GitHub Actions 39704767840; 16 tests, not real game engine access"
+            "source": "PR #518 / GitHub Actions 39704767840; 15 tests, not real game engine access"
           },
           {
             "id": "owner-equivalent-cut-opportunity-cost",
@@ -322,6 +323,12 @@
             "class": "test_result",
             "confidence": "moderate",
             "source": "PR #524 / exact-head Actions run 39710471617; 20 targeted resource/rules/physical conservation tests; 20,000 paired physically joined trajectories with 12 supported actual effects, no general 99-card or opponent model"
+          },
+          {
+            "id": "paired-six-hand-ramp-versus-predecessor-source-paid-engine",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "PR #526 exact-head GitHub Actions 39713059781 success; 15 hand-spell mana/grave and predecessor-control tests, 20,000 paired source-paid accelerated or unchanged physical trajectories; six hand accelerants, no complete 99-card game"
           }
         ]
       },
@@ -348,9 +355,9 @@
         "actual_wins_measured": false
       },
       "unresolved": [
-        "Most 99-card effects and other commander-granted hand cascades are omitted, including rocks/rituals/other pingers played from hand, complex tutor choices, cascade chains, the entire combat/neheb engine and stack interaction",
-        "No actual opponent stax/removal/counter behavior, no effective win conversion, no net win-rate comparison",
-        "Opportunity cost of losing original Rakdos generic creature discounts/body, Nightscape Familiar discount, or Rite of Flame early immediate red acceleration not established; one-slot swaps still not decision-grade"
+        "Extend genuinely legal fixed mana-source policy to choose when to hold Dark/Cabal/Rite and preserve Grixis commander pips; fixed pre-main hand acceleration is deliberately nonoptimal",
+        "Model other qualifying hand-cast cascade triggers and broader hand-ramp choices (Mana Vault {4} untap, Chrome Mox imprint, Lion's Eye Diamond discard, Signet and three Talismans), while safeguarding physical stack/permission and zones",
+        "Test meaningful Rule of Law/Drannith/targeted removal/counters through actual alternative pilot windows and real lost Rakdos/Familiar/Rite incumbent roles before any swap approval"
       ],
       "approved_swap": false,
       "paid_assembly_observation": {
@@ -486,6 +493,67 @@
         "measured_multiplayer_win_rate": null,
         "swap_superiority_proven": false,
         "approved_swap": false
+      },
+      "hand_acceleration_observation": {
+        "kind": "paired_pre_main_six_hand_accelerants_with_true_source_paid_ignus_cascade_subset",
+        "evidence": "merged PR #526, Actions 39713059781",
+        "sample_policy": "5 exact 100-card libraries x 2 fixed casting priorities x 2 modes x 1000 matched seeds each = 20,000 physically conserved ten-turn trajectories",
+        "engine_first_turn10_per1000": {
+          "ignus_for_rakdos": {
+            "no_hand_acceleration": {
+              "paid_ignus": 166,
+              "actual_ignus_cascade": 4,
+              "supported_effect": 0
+            },
+            "hand_acceleration": {
+              "paid_ignus": 168,
+              "actual_ignus_cascade": 5,
+              "supported_effect": 1
+            }
+          },
+          "ignus_for_nightscape_familiar": {
+            "no_hand_acceleration": {
+              "paid_ignus": 159,
+              "actual_ignus_cascade": 4,
+              "supported_effect": 2
+            },
+            "hand_acceleration": {
+              "paid_ignus": 165,
+              "actual_ignus_cascade": 6,
+              "supported_effect": 1
+            }
+          },
+          "ignus_for_rite_of_flame": {
+            "no_hand_acceleration": {
+              "paid_ignus": 155,
+              "actual_ignus_cascade": 7,
+              "supported_effect": 3
+            },
+            "hand_acceleration": {
+              "paid_ignus": 156,
+              "actual_ignus_cascade": 8,
+              "supported_effect": 4
+            }
+          }
+        },
+        "verified_hand_spells": [
+          "Lotus Petal",
+          "Sol Ring",
+          "Mana Vault",
+          "Dark Ritual",
+          "Cabal Ritual",
+          "Rite of Flame"
+        ],
+        "pilot_order_limit": "Always cast hand acceleration before the prior core sequence; may spend red/black suboptimally and lower cascade effects in some variations.",
+        "mana_vault_limit": "Persistent tap across turns and pilot draw-step damage tracked; no upkeep {4} untap modeled.",
+        "actual_non_cascade_hand_ramp_paid": true,
+        "pilot_life_damage_included_for_vault": true,
+        "all_99_card_effects": false,
+        "other_abaddon_hand_cast_cascades": false,
+        "real_multiplayer_interaction": false,
+        "net_superiority_proven": false,
+        "measured_multiplayer_win_rate": null,
+        "approved_swap": false
       }
     }
   ],
@@ -533,5 +601,5 @@
     "Retain identified low-cost/identity 40K payoffs and robust early red acceleration; do not auto-apply any of the 98 screened M5 swap rows",
     "After M6.6/7 full completion, generate final replayable I/J evidence and independently verify proposed exact 100/Oracle/current legality before any owner M7 approval packet"
   ],
-  "summary": "Four named Abaddon same-family authored judgments unchanged: Aggravated Assault HOLD, Chaos Warp HOLD, The Ruinous Powers RETAIN, Grinning Ignus PRIORITY/HOLD. PR #524 moved Ignus study beyond disjoint PR520 paid casts/PR522 hypothetical first hits to 20,000 paired real physical same-state trajectories with source-paid Ignus loops and 12 actual verified cascade effects. Engine-first T10 +Ignus/-Rakdos achieved 12/2000 seed trajectories with a real cascade and 7/2000 with a supported resolved effect, not wins; +Ignus/-Familiar 13 and 7, +Ignus/-Rite 17 and 9. Most other 99-card effects, other Abaddon cascade triggers, counterplay and direct gameplay outcomes still missing. No measured superiority, canonical change, M6 certification or M7 owner approval."
+  "summary": "Four Abaddon same-family authored judgments unchanged: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, Ignus PRIORITY/HOLD. PR #526 added six genuinely paid fast-mana spells cast from hand to PR524 shared-state 12-cascade-effect pilot and compared it to exact unchanged predecessor with identical 99 cards, seed and fixed policy. In 1000 engine-first trials per Ignus swap, real cascade/supported-effect trajectory counts changed from 4/0 to 5/1 (-Rakdos), 4/2 to 6/1 (-Nightscape), and 7/3 to 8/4 (-Rite). Casting ramp unconditionally at start can use up colored mana and does not uniformly improve supported effects. No real win rates, optimal play, net role tradeoff, canonical swap, formal M6 or M7 approval."
 }
