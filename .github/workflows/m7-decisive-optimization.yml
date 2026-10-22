@@ -26,6 +26,9 @@ on:
       - data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json
       - scripts/grixis_m6_abaddon_p0_replay.py
+      - scripts/grixis_m6_abaddon_preflight.py
+      - tests/test_m6_abaddon_preflight.py
+      - data/grixis/m6/certification_preflight/**
       - data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json
       - tests/test_m7_decisive_optimization_gate.py
@@ -90,6 +93,21 @@ jobs:
         with:
           name: abaddon-m6-p0-partial-${{ github.event.pull_request.head.sha || github.sha }}
           path: ${{ runner.temp }}/abaddon-m6-p0-actual-replay.json
+          if-no-files-found: error
+          retention-days: 60
+      - name: Check authored M6.6 M6.7 evidence preflight and failure cases offline
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_preflight.py' -v
+      - name: Bind sealed A B, waived Pass C, 44 real P0 executions, 97 live Oracle names into one pre-certification receipt
+        run: |
+          python -m scripts.grixis_m6_abaddon_preflight \
+            --p0 "${{ runner.temp }}/abaddon-m6-p0-actual-replay.json" \
+            --oracle "${{ runner.temp }}/abaddon-m7-current-scryfall.json" \
+            --out "${{ runner.temp }}/abaddon-m6-precert-integrity.json"
+      - name: Preserve Abaddon integrity preflight without claiming final M6 J
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-m6-precert-${{ github.event.pull_request.head.sha || github.sha }}
+          path: ${{ runner.temp }}/abaddon-m6-precert-integrity.json
           if-no-files-found: error
           retention-days: 60
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
