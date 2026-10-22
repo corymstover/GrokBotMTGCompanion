@@ -67,13 +67,24 @@ class AbaddonScopedM66M67(unittest.TestCase):
         for gate_id in ("M6.6", "M6.7"):
             gate = next(g for g in tracker["m6"]["gates"] if g["id"] == gate_id)
             self.assertEqual(gate["status"], "PARTIAL")
-            self.assertEqual(gate["completed"], 1)
+            self.assertEqual(gate["completed"], 2)
             self.assertEqual(gate["total"], 62)
+            self.assertEqual(gate["completed"], len(gate["per_deck_completion"]))
             self.assertFalse(gate["per_deck_completion"]["Abaddon_the_Despoiler"]["owner_m7_approved"])
+            admiral = gate["per_deck_completion"]["Admiral_Beckett_Brass"]
+            self.assertEqual(admiral["status"], "COMPLETE_DECISION_SCOPED_ONLY")
+            self.assertFalse(admiral["owner_m7_approved"])
+            self.assertTrue((ROOT / admiral["source"]).is_file())
         for gate_id in ("M6.8", "M6.9"):
             proof = next(g for g in tracker["m6"]["gates"] if g["id"] == gate_id)
-            self.assertEqual((proof["status"], proof["completed"]), ("PARTIAL", 1))
+            self.assertEqual((proof["status"], proof["completed"]), ("PARTIAL", 2))
+            self.assertEqual(proof["completed"], len(proof["per_deck_completion"]))
             self.assertFalse(proof["per_deck_completion"]["Abaddon_the_Despoiler"]["owner_accepted"])
+            admiral = proof["per_deck_completion"]["Admiral_Beckett_Brass"]
+            self.assertEqual(admiral["status"], "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED")
+            self.assertFalse(admiral["owner_accepted"])
+            self.assertFalse(admiral["canonical_modified"])
+            self.assertTrue((ROOT / admiral["source"]).is_file())
         gate = next(g for g in tracker["m6"]["gates"] if g["id"] == "M6.10")
         self.assertEqual((gate["status"], gate["completed"]), ("BLOCKED", 0))
         ledger = read_json(LEDGER)
