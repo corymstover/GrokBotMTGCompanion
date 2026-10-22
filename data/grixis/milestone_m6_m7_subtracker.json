@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_owner_formal_waiver_pass_c_62_and_bounded_phase_b",
+  "snapshot": "2026-10-21_owner_waiver_m6_5_and_abaddon_m6_7_interim",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
@@ -153,14 +153,16 @@
       {
         "id": "M6.7",
         "title": "Decision-grade judgment_review and conflicts resolved",
-        "status": "BLOCKED",
+        "status": "PARTIAL",
         "completed": 0,
         "total": 62,
         "evidence": [
           "data/grixis/m6/preflight.json",
-          "grixis/Grixis Authority Model.md"
+          "grixis/Grixis Authority Model.md",
+          "data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json (PR #509; exact-head CI 39696829857 PASS; three same-model authored judgment_review receipts, conditional HOLD decisions only)",
+          "grixis/m6/abaddon_post_waiver_judgments_20261021.md (Ruinous Powers owner-life-loss rules correction and unresolved Assault/Rakdos/Chaos Warp tradeoffs)"
         ],
-        "scope": "M5 screening and author-written HOLDs are insufficient; complete decision-class judgment receipts needed."
+        "scope": "Three named decision-class Abaddon candidate judgment_review receipts and an authored whole-deck synthesis passed the authority checker (PR #509). They record HOLD/retain judgments grounded in verified facts and bounded tests, not a complete per-deck Phase B or a superior final candidate. Other material judgments, access comparisons and 62 full-deck judgment closures remain pending; 0/62 M6.7 fully certified, gate PARTIAL."
       },
       {
         "id": "M6.8",
@@ -322,14 +324,14 @@
     "m6_completed_gates": 5,
     "m6_total_gates": 10,
     "m6_gate_completion_percent": 50,
-    "m6_partial_gates": 1,
+    "m6_partial_gates": 2,
     "m6_unfulfilled_gates": 5,
     "m7_completed_gates": 0,
     "m7_total_gates": 6,
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "5/10 M6 subordinate gates complete under the expressly amended governance standard: M6.5 is owner-waived/substituted using 62/62 GPT-6 owner-equivalent Pass C, with genuinely independent third-model reviews still 0/62. M6.6 Phase B PARTIAL and 0/62 certified; M6 itself IN PROGRESS and NOT accepted. M7 new owner decisions 0/62, canonical approved/locked baseline 62/62 unchanged; no Phase B gameplay or new deck swap implied."
+    "note": "5/10 completed amended M6 governance sub-gates (including formally owner-waived non-independent M6.5), 2 PARTIAL (M6.6 bounded effect-aware Phase B; M6.7 one Abaddon decision-class judgment synthesis), 3 BLOCKED. Actual independent third-model reviews 0/62, full M6 certifications 0/62. M7 new owner decisions 0/62, unchanged 62/62 canonical approved/locked baseline; no new swap implied."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
