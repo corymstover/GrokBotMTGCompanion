@@ -46,7 +46,7 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
             "formal_m6_certificate":False,"checked_at_utc":"2026-10-22T08:18:15Z",
             "canonical_authority_mode":"SHA_PINNED_CANONICAL_BYTES_NOT_LIVE_CROSS_REPO_READ"}
         cls.p0={
-            "replayed_case_count":88,"passed":88,"failed":0,
+            "replayed_case_count":95,"passed":95,"failed":0,
             "open_required_count":0,"open_required_p0_cases":cls.inventory["required_open"],
             "M6_6_certified":False,"owner_approved":False,
             "canonical_pinned_raw_sha256":PINNED,
@@ -59,12 +59,12 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
 
     def test_expected_structural_state_unapproved_and_exact_five(self):
         self.assertEqual(len(self.cards),97)
-        self.assertEqual(len(self.inventory["replay_cases"]),88)
+        self.assertEqual(len(self.inventory["replay_cases"]),95)
         self.assertEqual({x["id"] for x in self.inventory["required_open"]},set())
         self.assertEqual(self.oracle["card_identity_count"],97)
         self.assertEqual(verify_prerequisites()["approved_source_sha256"],PINNED)
         ans=validate_runtime(self.oracle,self.p0)
-        self.assertEqual(ans["phase_b_pass"],88)
+        self.assertEqual(ans["phase_b_pass"],95)
         self.assertEqual(ans["current_identified_open_P0"],0)
         self.assertEqual(ans["current_oracle_unique_names"],97)
         self.assertFalse(ans["all_99_game_effects_modeled"])
