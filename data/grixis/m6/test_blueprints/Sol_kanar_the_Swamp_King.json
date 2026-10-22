@@ -1,0 +1,506 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Sol_kanar_the_Swamp_King",
+  "order": 52,
+  "commanders": [
+    "Sol'kanar the Swamp King"
+  ],
+  "strategy": {
+    "primary": "Black-spell lifegain: Sol'kanar and Demon's Horn trigger on every black spell (on every spell with Painter's Servant naming black), and the gains feed Exquisite Blood / Bloodthirsty Conqueror loops with Vito, Blight-Priest, Enduring Tenacity or Starscape Cleric.",
+    "secondary": "Swamp matters (Blanket of Night, Urborg, Cabal Coffers, Crypt Ghast) for swampwalk and mana; Painter + Grindstone; wheels with Sheoldred and Underworld Dreams."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Sol'kanar the Swamp King",
+      "oracle_id": "b8aac8e8-4588-4cb9-8b95-5c4abab1c48b",
+      "oracle_text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nWhenever a player casts a black spell, you gain 1 life.",
+      "oracle_sha256": "sha256:65e3ba9d7ec1bfa11e0316cf8e0e93411a351d899276f9a33f85addbbb0385c3",
+      "type_line": "Legendary Creature — Demon"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Sol'kanar the Swamp King",
+      "why": "Lifegain per black spell; swampwalk.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Sol'kanar the Swamp King"
+      ]
+    },
+    {
+      "card": "Painter's Servant",
+      "why": "Makes every spell black; half of Grindstone.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Solkanar_the_Swamp_King_Commander_Blueprint_2026-10-15.md#L19"
+      ]
+    },
+    {
+      "card": "Exquisite Blood",
+      "why": "Loop half.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:3966-4740"
+      ]
+    },
+    {
+      "card": "Bloodthirsty Conqueror",
+      "why": "Second loop half.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:4740-6191"
+      ]
+    },
+    {
+      "card": "Demon's Horn",
+      "why": "Second black-spell trigger.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Solkanar_the_Swamp_King_Candidate_Decisions_2026-10-15.md#L22"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/solkanar-the-swamp-king.json",
+    "blueprint_blob": "62622fbdbd5ac0fa902dadb1e9d24c14e0cb6e3e",
+    "canonical_source_path": "refinement/decklists/Solkanar_the_Swamp_King_Approved_2026-10-15.txt",
+    "canonical_source_blob": "99ca0f3dfca3fbcb3c9ac9cfa2c3381cb516ac08",
+    "canonical_approved_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+    "canonical_record_key": "Sol_kanar_the_Swamp_King",
+    "registry_raw_matches": true,
+    "source_card_lines": 95,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:solkanar-the-swamp-king#commanders.value[0]",
+      "scenario": "Sol'kanar the Swamp King",
+      "expected_claim_to_verify": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)\nWhenever a player casts a black spell, you gain 1 life.",
+      "cards": [
+        "Sol'kanar the Swamp King"
+      ],
+      "found_in_source_export": [
+        "Sol'kanar the Swamp King"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-swamp-king#key_interactions[0]",
+      "scenario": "painter-black",
+      "expected_claim_to_verify": "Painter naming black makes every spell black in addition to its colors, so opponents' spells trigger Sol'kanar and Horn.",
+      "cards": [
+        "Painter's Servant",
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "found_in_source_export": [
+        "Painter's Servant",
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-swamp-king#key_interactions[1]",
+      "scenario": "blanket-swampwalk",
+      "expected_claim_to_verify": "Blanket of Night / Urborg make every land a Swamp, which turns on swampwalk and widens Coffers/Crypt Ghast.",
+      "cards": [
+        "Blanket of Night",
+        "Urborg, Tomb of Yawgmoth",
+        "Sol'kanar the Swamp King"
+      ],
+      "found_in_source_export": [
+        "Blanket of Night",
+        "Urborg, Tomb of Yawgmoth",
+        "Sol'kanar the Swamp King"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-swamp-king#key_interactions[2]",
+      "scenario": "separate-triggers",
+      "expected_claim_to_verify": "Sol'kanar and Demon's Horn trigger separately for each black spell.",
+      "cards": [
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "found_in_source_export": [
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-swamp-king#key_interactions[3]",
+      "scenario": "life-loops-m1",
+      "expected_claim_to_verify": "Exquisite Blood / Bloodthirsty Conqueror plus a gain-to-loss payoff is an infinite drain.",
+      "cards": [
+        "Exquisite Blood",
+        "Bloodthirsty Conqueror"
+      ],
+      "found_in_source_export": [
+        "Exquisite Blood",
+        "Bloodthirsty Conqueror"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-swamp-king#key_interactions[4]",
+      "scenario": "top-citadel",
+      "expected_claim_to_verify": "Sensei's Top + Bolas's Citadel + Sheoldred or Aetherflux Reservoir.",
+      "cards": [
+        "Sensei's Divining Top",
+        "Bolas's Citadel",
+        "Aetherflux Reservoir"
+      ],
+      "found_in_source_export": [
+        "Sensei's Divining Top",
+        "Bolas's Citadel",
+        "Aetherflux Reservoir"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:solkanar-the-swamp-king#engines[0]",
+      "scenario": "black-spell-gain",
+      "expected_claim_to_verify": "Black spells are cast (all spells with Painter naming black).",
+      "cards": [
+        "Sol'kanar the Swamp King",
+        "Demon's Horn",
+        "Painter's Servant",
+        "Bontu's Monument",
+        "Jet Medallion",
+        "K'rrik, Son of Yawgmoth"
+      ],
+      "found_in_source_export": [
+        "Sol'kanar the Swamp King",
+        "Demon's Horn",
+        "Painter's Servant",
+        "Bontu's Monument",
+        "Jet Medallion",
+        "K'rrik, Son of Yawgmoth"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:solkanar-the-swamp-king#engines[1]",
+      "scenario": "swamp-mana",
+      "expected_claim_to_verify": "Swamps on the battlefield.",
+      "cards": [
+        "Blanket of Night",
+        "Urborg, Tomb of Yawgmoth",
+        "Cabal Coffers",
+        "Crypt Ghast",
+        "Dread Presence",
+        "Consuming Corruption"
+      ],
+      "found_in_source_export": [
+        "Blanket of Night",
+        "Urborg, Tomb of Yawgmoth",
+        "Cabal Coffers",
+        "Crypt Ghast",
+        "Dread Presence",
+        "Consuming Corruption"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:solkanar-the-swamp-king#win_conditions[0]",
+      "scenario": "life-loops",
+      "expected_claim_to_verify": "Exquisite Blood or Bloodthirsty Conqueror plus a drain-on-gain payoff (Vito, Marauding Blight-Priest, Enduring Tenacity, Starscape Cleric) loops until opponents die.",
+      "cards": [
+        "Exquisite Blood",
+        "Bloodthirsty Conqueror",
+        "Vito, Thorn of the Dusk Rose",
+        "Marauding Blight-Priest",
+        "Enduring Tenacity",
+        "Starscape Cleric",
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "found_in_source_export": [
+        "Exquisite Blood",
+        "Bloodthirsty Conqueror",
+        "Vito, Thorn of the Dusk Rose",
+        "Marauding Blight-Priest",
+        "Enduring Tenacity",
+        "Starscape Cleric",
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:solkanar-the-swamp-king#win_conditions[1]",
+      "scenario": "reservoir-activation",
+      "expected_claim_to_verify": "Aetherflux Reservoir is a lifegain enabler and an independent payoff, not a drain-on-gain loop half. With Exquisite Blood or Bloodthirsty Conqueror at 51+ life, each 'pay 50 life: 50 damage' activation gives the 50 life back (Spellbook 3966-4740), which is a repeated-activation kill, not a Vito-style loop.",
+      "cards": [
+        "Aetherflux Reservoir",
+        "Exquisite Blood",
+        "Bloodthirsty Conqueror",
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "found_in_source_export": [
+        "Aetherflux Reservoir",
+        "Exquisite Blood",
+        "Bloodthirsty Conqueror",
+        "Sol'kanar the Swamp King",
+        "Demon's Horn"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:solkanar-the-swamp-king#win_conditions[2]",
+      "scenario": "painter-grindstone",
+      "expected_claim_to_verify": "Painter's Servant + Grindstone mills each library.",
+      "cards": [
+        "Painter's Servant",
+        "Grindstone",
+        "Demonic Tutor"
+      ],
+      "found_in_source_export": [
+        "Painter's Servant",
+        "Grindstone",
+        "Demonic Tutor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:solkanar-the-swamp-king#failure_modes[0]",
+      "scenario": "loop-hate",
+      "expected_claim_to_verify": "Enchantment or creature removal on loop pieces; the deck needs both halves.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Redundant loop halves; Tutors",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:solkanar-the-swamp-king#failure_modes[1]",
+      "scenario": "weak-commander",
+      "expected_claim_to_verify": "Sol'kanar alone is slow incremental value.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Demon's Horn; Other lifegain sources",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:solkanar-the-swamp-king#failure_modes[2]",
+      "scenario": "no-force",
+      "expected_claim_to_verify": "Too few blue cards to pitch to Force of Will.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Counterspell; Fierce Guardianship",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
