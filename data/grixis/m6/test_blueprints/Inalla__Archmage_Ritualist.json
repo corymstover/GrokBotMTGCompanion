@@ -1,0 +1,508 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Inalla__Archmage_Ritualist",
+  "order": 25,
+  "commanders": [
+    "Inalla, Archmage Ritualist"
+  ],
+  "strategy": {
+    "primary": "cEDH Wizard combo from the command zone: Inalla's Eminence copies each Wizard ETB (Spellseeker, Scholar of the Ages, Bloodline Necromancer, Ruthless Technomancer) for {1}, turning tutors and reanimation into Scholar sacrifice loops or the Bloodline/Technomancer loop for unbounded mana and Wizards.",
+    "secondary": "Commander-free backups: Thassa's Oracle + Consultation/Tainted Pact and Underworld Breach + LED + Brain Freeze/Wheel of Fortune."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Inalla, Archmage Ritualist",
+      "oracle_id": "21bdba6e-3f9d-4ead-8212-0cbb0ce7f8cc",
+      "oracle_text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
+      "oracle_sha256": "sha256:22d92a0bb6f6f1788c701f9d2b11b58f77c9df0b5a201bce891c21b8fdfd349f",
+      "type_line": "Legendary Creature — Human Wizard"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Inalla, Archmage Ritualist",
+      "why": "Eminence copies of every Wizard ETB, plus a 7-life five-Wizard tap.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Inalla, Archmage Ritualist"
+      ]
+    },
+    {
+      "card": "Scholar of the Ages",
+      "why": "Mana-value-7 Wizard at the centre of the sacrifice loops.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:inalla-archmage-ritualist#inalla-04"
+      ]
+    },
+    {
+      "card": "Bloodline Necromancer",
+      "why": "Half of the commander loop and Wizard reanimation.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:inalla-archmage-ritualist#inalla-03"
+      ]
+    },
+    {
+      "card": "Spellseeker",
+      "why": "Wizard tutor for the combo instants and sorceries, doubled by Eminence.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Inalla_Archmage_Ritualist_Current_Cycle_Decisions_2026-10-14.md"
+      ]
+    },
+    {
+      "card": "Apprentice Necromancer",
+      "why": "Hasty token copy reanimates immediately.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "interaction:inalla-archmage-ritualist#inalla-08"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/inalla-archmage-ritualist.json",
+    "blueprint_blob": "426ea1f9d100ac688ea1ad0800b03ad0665c5c18",
+    "canonical_source_path": "refinement/decklists/Inalla_Archmage_Ritualist_Approved_2026-10-14.txt",
+    "canonical_source_blob": "204b8096e4c3c642ca9ade6ea4af252c417bde2c",
+    "canonical_approved_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+    "canonical_record_key": "Inalla__Archmage_Ritualist",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:inalla-archmage-ritualist#commanders.value[0]",
+      "scenario": "Inalla, Archmage Ritualist",
+      "expected_claim_to_verify": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
+      "cards": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "found_in_source_export": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:inalla-archmage-ritualist#key_interactions[0]",
+      "scenario": "eminence",
+      "expected_claim_to_verify": "Eminence works from the command zone, one {1} per trigger; a zone change mid-trigger fizzles the copy.",
+      "cards": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "found_in_source_export": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:inalla-archmage-ritualist#key_interactions[1]",
+      "scenario": "tap-sick",
+      "expected_claim_to_verify": "Tapping five Wizards ignores summoning sickness.",
+      "cards": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "found_in_source_export": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:inalla-archmage-ritualist#key_interactions[2]",
+      "scenario": "saw-scholar",
+      "expected_claim_to_verify": "Saw in Half's Scholar tokens keep mana value 7.",
+      "cards": [
+        "Saw in Half",
+        "Scholar of the Ages"
+      ],
+      "found_in_source_export": [
+        "Saw in Half",
+        "Scholar of the Ages"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:inalla-archmage-ritualist#key_interactions[3]",
+      "scenario": "spellseeker-uncertain",
+      "expected_claim_to_verify": "The one-card Spellseeker line is uncertain; don't rely on it as deterministic.",
+      "cards": [
+        "Spellseeker"
+      ],
+      "found_in_source_export": [
+        "Spellseeker"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:inalla-archmage-ritualist#key_interactions[4]",
+      "scenario": "finale-timing",
+      "expected_claim_to_verify": "Finale of Promise and Beseech cast during resolution; split second stops them.",
+      "cards": [
+        "Finale of Promise",
+        "Beseech the Mirror"
+      ],
+      "found_in_source_export": [
+        "Finale of Promise",
+        "Beseech the Mirror"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:inalla-archmage-ritualist#engines[0]",
+      "scenario": "eminence-copies",
+      "expected_claim_to_verify": "A nontoken Wizard enters and you have {1}.",
+      "cards": [
+        "Inalla, Archmage Ritualist",
+        "Spellseeker",
+        "Thundertrap Trainer",
+        "Apprentice Necromancer",
+        "Vedalken Aethermage",
+        "Scholar of the Ages"
+      ],
+      "found_in_source_export": [
+        "Inalla, Archmage Ritualist",
+        "Spellseeker",
+        "Thundertrap Trainer",
+        "Apprentice Necromancer",
+        "Vedalken Aethermage",
+        "Scholar of the Ages"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:inalla-archmage-ritualist#engines[1]",
+      "scenario": "fast-mana-tutors",
+      "expected_claim_to_verify": "Opening hand.",
+      "cards": [
+        "Mana Vault",
+        "Grim Monolith",
+        "Chrome Mox",
+        "Mox Diamond",
+        "Lotus Petal",
+        "Dark Ritual",
+        "Demonic Tutor",
+        "Vampiric Tutor",
+        "Imperial Seal",
+        "Entomb"
+      ],
+      "found_in_source_export": [
+        "Mana Vault",
+        "Grim Monolith",
+        "Chrome Mox",
+        "Mox Diamond",
+        "Lotus Petal",
+        "Dark Ritual",
+        "Demonic Tutor",
+        "Vampiric Tutor",
+        "Imperial Seal",
+        "Entomb"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:inalla-archmage-ritualist#win_conditions[0]",
+      "scenario": "bloodline-technomancer",
+      "expected_claim_to_verify": "Inalla + Bloodline Necromancer + Ruthless Technomancer: unbounded Treasures and Wizards, then Inalla's five-Wizard tap drains 7 at a time.",
+      "cards": [
+        "Inalla, Archmage Ritualist",
+        "Bloodline Necromancer",
+        "Ruthless Technomancer",
+        "Apprentice Necromancer"
+      ],
+      "found_in_source_export": [
+        "Inalla, Archmage Ritualist",
+        "Bloodline Necromancer",
+        "Ruthless Technomancer",
+        "Apprentice Necromancer"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:inalla-archmage-ritualist#win_conditions[1]",
+      "scenario": "scholar-loops",
+      "expected_claim_to_verify": "Scholar of the Ages + Sacrifice/Burnt Offering/Culling the Weak + Persist, Shallow Grave or Saw in Half: unbounded mana.",
+      "cards": [
+        "Scholar of the Ages",
+        "Sacrifice",
+        "Burnt Offering",
+        "Culling the Weak",
+        "Persist",
+        "Shallow Grave",
+        "Saw in Half",
+        "Spellseeker",
+        "Inalla, Archmage Ritualist"
+      ],
+      "found_in_source_export": [
+        "Scholar of the Ages",
+        "Sacrifice",
+        "Burnt Offering",
+        "Culling the Weak",
+        "Persist",
+        "Shallow Grave",
+        "Saw in Half",
+        "Spellseeker",
+        "Inalla, Archmage Ritualist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:inalla-archmage-ritualist#win_conditions[2]",
+      "scenario": "oracle-breach",
+      "expected_claim_to_verify": "Thassa's Oracle + Consultation/Tainted Pact, or Breach + LED/Petal + Brain Freeze/Wheel.",
+      "cards": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze"
+      ],
+      "found_in_source_export": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:inalla-archmage-ritualist#failure_modes[0]",
+      "scenario": "graveyard-hate",
+      "expected_claim_to_verify": "Graveyard hate cuts Scholar loops and Breach.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Bloodline/Technomancer loop; Oracle + Consultation",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:inalla-archmage-ritualist#failure_modes[1]",
+      "scenario": "eminence-fizzle",
+      "expected_claim_to_verify": "A Wizard leaving mid-trigger stops the copy.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Protect key ETBs",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:inalla-archmage-ritualist#failure_modes[2]",
+      "scenario": "split-second",
+      "expected_claim_to_verify": "Split second stops Finale/Beseech casts mid-resolution.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Alternate tutors",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
