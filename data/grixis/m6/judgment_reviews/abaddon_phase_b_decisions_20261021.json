@@ -333,9 +333,9 @@
           },
           {
             "id": "ignus_mana_ability_oracle_correction_8_adversarial_windows",
-            "class": "test_result_and_official_wizards_ruling",
-            "confidence": "high_for_rules_moderate_for_conditional_payments_no_empirical_disruption_frequency",
-            "source": "Official Wizards Time Spiral Remastered Grinning Ignus release notes; PR #528, exact-head Actions 39715733050 and 39715732876 PASS; 15 targeted and 20 predecessor tests"
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "Official Wizards Time Spiral Remastered Grinning Ignus release notes; PR #528, exact-head Actions 39715733050 and 39715732876 PASS; 15 targeted and 20 predecessor tests; exact mana ability text established by Wizards official release notes (high rules confidence), conditional physical fixture not empirical opponent frequency"
           }
         ]
       },
