@@ -235,7 +235,7 @@ class AbaddonMindsDesireP0029(unittest.TestCase):
         self.assertEqual(s["free_casts"],[])
         self.assertEqual(s["plays"],[])
         self.assertEqual(len(s["impulses"]),3)
-        self.assertEqual(len(set(s["tapped_lands"])),len(s["tapped_lands"]))
+        self.assertTrue(all(qty<=Counter(s["battlefield"])[name] for name,qty in Counter(s["tapped_lands"]).items()))
         self.assertEqual(len(s["tapped_lands"]),8)
         conserved(s)
 
