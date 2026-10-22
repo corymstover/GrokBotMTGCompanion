@@ -24,6 +24,8 @@ from scripts.grixis_m7_decision_gate import parse_list
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v2.json"
 SCRYFALL = "https://api.scryfall.com/cards/collection"
+CANONICAL_SNAPSHOT = ROOT / "data/grixis/m7/authority_snapshots/Abaddon_the_Despoiler_Approved_2026-10-13.txt"
+CANONICAL_SOURCE_MAIN_SHA_AT_SNAPSHOT = "856716a307c0277bb069f2d8f67e28018d4fd596"
 CANONICAL = ("https://raw.githubusercontent.com/corymstover/"
              "grixis-commander-encyclopediaGPT/main/refinement/decklists/"
              "Abaddon_the_Despoiler_Approved_2026-10-13.txt")
@@ -227,7 +229,11 @@ def assess(cards, all_lists):
 
 def audit(*, fetch=get_json, sleeper=time.sleep):
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    canonical_raw = fetch(CANONICAL)
+    # GitHub Actions' token cannot read the separate canonical repository.
+    # Bind immutable connector-fetched exact bytes to the approved SHA in CI.
+    # A separate current canonical live-state check is performed via GitHub
+    # connector before integration; NEVER call this a live CI canonical read.
+    canonical_raw = CANONICAL_SNAPSHOT.read_bytes()
     baseline, source_digest = source_reconcile(manifest, canonical_raw)
     variants = staged_variants(manifest, baseline)
     all_names = sorted({n for cards in variants.values() for n in cards})
@@ -251,6 +257,9 @@ def audit(*, fetch=get_json, sleeper=time.sleep):
         "checked_at_utc": timestamp,
         "scryfall_endpoint": SCRYFALL,
         "canonical_repository_url": CANONICAL,
+        "canonical_authority_mode": "SHA_PINNED_CANONICAL_BYTES_NOT_LIVE_CROSS_REPO_READ",
+        "canonical_authority_snapshot_path": str(CANONICAL_SNAPSHOT.relative_to(ROOT)),
+        "canonical_repository_head_at_snapshot": CANONICAL_SOURCE_MAIN_SHA_AT_SNAPSHOT,
         "approved_canonical_raw_sha256": source_digest,
         "locked_canonical_mutated": False,
         "reviewer_independent": False,
@@ -262,6 +271,7 @@ def audit(*, fetch=get_json, sleeper=time.sleep):
         "oracle_snapshot": evidence,
         "limitations": [
             "Scryfall queried live for each unique card identity; this is not a Wizards comprehensive-rules interaction execution.",
+            "Canonical raw bytes were copied using the authorized GitHub connector and SHA-pinned; CI does not have direct live read access to canonical main.",
             "Oracle evidence and legality are current only as of checked_at_utc, not permanent assurances.",
             "Card choice/cut superiority, M6 tested-pool I, M6 J final bundle, M7 final candidate and owner approval remain separate.",
             "Scryfall default sample printing can have a future release date even when the card name is already Commander-legal.",
