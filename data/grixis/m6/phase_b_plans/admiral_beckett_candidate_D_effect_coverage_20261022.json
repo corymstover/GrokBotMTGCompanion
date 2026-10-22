@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "deck_id": "Admiral_Beckett_Brass",
+  "active_candidate": "D_evasive_pirate_density_RESEARCH_ONLY",
+  "baseline_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "candidate_D_path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_evasive_pirate_density_package.txt",
+  "candidate_D_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+  "oracle_path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+  "oracle_raw_sha256": "5b8ee25e57d061bbd3d754402668ade7cdac6b2946ae01be378194bc98a5eac8",
+  "canonical_unchanged": true,
+  "candidate_comparison_scope": "FINITE_RULES_AND_ADVERSE_ANALYSIS_ONLY",
+  "blueprint_reuse": {
+    "source": "data/grixis/m6/test_blueprints/Admiral_Beckett_Brass.json",
+    "p0_cases_executed_passed": 5,
+    "p1_cases_executed_passed": 8,
+    "bounded_method_count": 25,
+    "receipt": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39845586479",
+    "effect_scope": "These P0/P1 tests were run against the approved-source mechanics; reuse unchanged Oracle interactions only, not their candidate hashes or a full gameplay performance verdict."
+  },
+  "candidate_D_existing_executed_tests": [
+    {
+      "path": "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
+      "named_methods": 7,
+      "actual_scope": "Exact D 100, real payable four-land sequence, three old Pirate attackers and source-paid commander, negative theft controls, retained engines",
+      "pr": 592,
+      "exact_head_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39853282652"
+    },
+    {
+      "path": "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+      "named_methods": 7,
+      "actual_scope": "Skyship/Malcolm existing-counter trigger order, conditional free cast, boast cost and resource sacrifices, Departed spell target weakness",
+      "pr": 593,
+      "exact_head_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39854257427"
+    }
+  ],
+  "new_adversarial_test_path": "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+  "new_adversarial_ci": "PENDING_NEW_EXACT_HEAD_PR",
+  "effect_coverage_cases": [
+    {
+      "id": "AB-D-01",
+      "source_cards": ["Admiral Beckett Brass", "Cloud Pirates", "Skyship Plunderer", "Departed Deckhand", "City of Brass"],
+      "fixture": "Underground Sea on T1, Volcanic Island T2, Badlands T3, City T4; pay each spell's real cost, commander precombat, three older distinct Pirates all deal combat damage to same opponent, legal nonland theft target at endstep",
+      "assertion_and_result": "Bounded executed PASS: four available lands pay commander {1}{U}{B}{R}; City deals one damage on tapping; three older source Pirates can cause an endstep theft trigger if undeterred",
+      "source_test": "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
+      "adverse": "Fog, no target, fewer than three distinct hits, or commander absent at trigger time prevents the tested result",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "One conditional ordered exact draw/board; ignores opening-hand frequency, stack wars and broad opposing card interactions."
+    },
+    {
+      "id": "AB-D-02",
+      "source_cards": ["Skyship Plunderer", "Malcolm, Alluring Scoundrel"],
+      "fixture": "Both Pirates deal combat damage; Malcolm already has two chorus counters; controller determines simultaneous trigger order, Skyship targets Malcolm",
+      "assertion_and_result": "Bounded executed PASS: Skyship-first makes Malcolm reach four during its own trigger and permits conditional free cast of actually discarded card; Malcolm-first reaches four too late for the same trigger. At zero counters Plunderer cannot create a new kind.",
+      "source_test": "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+      "adverse": "Skyship must hit and its target/counter kinds must remain eligible; no guaranteed fourth-counter cast from merely drawing Malcolm",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "Does not sample appearance or survival of both two-card synergies in real opponents' games."
+    },
+    {
+      "id": "AB-D-03",
+      "source_cards": ["Broadside Bombardiers", "Arcane Signet", "Forerunner of the Coalition"],
+      "fixture": "Broadside has attacked and has an available other artifact; separate choice of Treasure token MV0 and Signet MV2 for boast cost",
+      "assertion_and_result": "Bounded executed PASS: Treasure means 2 damage, insufficient to kill 3-toughness defender; Signet means 4 damage but irreversibly consumes the ramp artifact; boast cannot activate before attacking or twice per turn",
+      "source_test": "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+      "adverse": "Double blockers can block menace and there may be no surplus artifact/creature after casting commander",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "No full combat stack, target-responses, treasure generation frequency or total sacrificed-resource utility model."
+    },
+    {
+      "id": "AB-D-04",
+      "source_cards": ["Departed Deckhand", "Daring Saboteur"],
+      "fixture": "Deckhand is evasive against ordinary non-Spirit blockers without paying Saboteur's {2}{U}; opponent has a targeted spell or Spirit blocker",
+      "assertion_and_result": "Bounded executed PASS: spell targeting Deckhand sacrifices it; equipment's equip activated ability is not a spell; printed Spirit exception remains",
+      "source_test": "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+      "adverse": "Deckhand can be blocked by Spirit bodies; gives up repeatable loot and is weak to own targeted spells",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "No measurement of opposing Spirit/removal density or value of discarded/drawn cards."
+    },
+    {
+      "id": "AB-D-05",
+      "source_cards": ["Cloud Pirates", "Skyship Plunderer", "Departed Deckhand", "Daring Saboteur", "Dire Fleet Captain", "Dire Fleet Poisoner"],
+      "fixture": "Three ready D Pirates versus two ground non-Spirit blockers, then individually versus flying/reach/Spirit blockers; compare three baseline non-evasive bodies without Saboteur mana",
+      "assertion_and_result": "Finite adversarial unit asserts D can put through three distinct sources against the two ground bodies while baseline's three ground sources yield at most one; a single flyer, reach creature, or Spirit can reduce D to two and deny trigger",
+      "source_test": "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+      "adverse": "Ground attackers can gain evasion from other spells, Saboteur can pay {2}{U}, and opposing blocker assignments/time differ by board",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "Specific ready-board blocking states; not random hand generation, opponent blocker prevalence or measured connection probability."
+    },
+    {
+      "id": "AB-D-06",
+      "source_cards": ["Forerunner of the Coalition", "Daring Piracy", "Broadside Bombardiers"],
+      "fixture": "Three opponents at 40 life, Forerunner stays alive across three of own turn's Daring Piracy Pirate-token entries, all token combat may be blocked",
+      "assertion_and_result": "Finite Oracle and arithmetic assert opponent life goes 40 to 37 each (nine aggregate loss), without any qualifying Pirate combat damage; Forerunner's Pirate tutor places revealed card on TOP of deck, not in hand",
+      "source_test": "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+      "adverse": "D forfeits genuine repeat incremental noncombat clock and topdeck selection; Broadside only gives faster haste/menace and expensive conditional boast",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "Assumes Forerunner survives; doesn't model chosen tutor target, multiplayer turns of survival or relative conditional value."
+    },
+    {
+      "id": "AB-D-07",
+      "source_cards": ["Skyship Plunderer", "Dire Fleet Poisoner"],
+      "fixture": "Two-mana flyer comparing a {1}{B} flash, deathtouch Pirate that can target a different already-attacking Pirate on entry",
+      "assertion_and_result": "Finite Oracle comparison asserts Poisoner's instant-speed blocking/trade role is lost; cannot retroactively attack from being flashed after attackers; Skyship instead advances damage over ground defenders but is blocked by flyers/reach",
+      "source_test": "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+      "adverse": "Fast creature pressure or flyers makes Poisoner's defense preferable; nonflier blocker-heavy tables favor Skyship",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "Strategic matchup conditional; no simulated meta composition or hidden instant responses."
+    },
+    {
+      "id": "AB-D-08",
+      "source_cards": ["City of Brass", "Crumbling Necropolis"],
+      "fixture": "Land #4 is needed to cast Admiral precombat on turn four; available colored requirement is {U}{B}{R} plus {1}",
+      "assertion_and_result": "Previously executed source-paid line includes City as untapped fourth mana and its triggered self-damage; always-tapped Crumbling would be unusable that landing turn",
+      "source_test": "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
+      "adverse": "Repeated City taps each deal one to controller, trading attrition life for tempo; no blanket reliability improvement is measured",
+      "model_coverage": "bounded_partial",
+      "supports_measured_improvement_claim": false,
+      "residual_limitation": "One specific constrained land sequence; not a full color-source frequency proof or City self-damage survival probability."
+    }
+  ],
+  "decision_grade_judgment": {
+    "selected_replacements": 5,
+    "material_candidates_judged": 24,
+    "incumbents_challenged": 12,
+    "complete_100_card_alternatives": 4,
+    "decision_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_material_decisions_20261022.json",
+    "confidence": "MODERATE_NOT_MEASURED",
+    "why_D_preferred_for_commander_first_strategy": "Beckett rewards three distinct Pirates connecting to one player and stays only Bracket 4, not generic Grixis goodstuff. D makes cheap unassisted evasion and haste available earlier while retaining Merchant Raiders, The Indomitable and Open into Wonder. The 5 real replacements are defensible over a whole-deck audit but have acknowledged adverse table profiles.",
+    "strongest_counterargument": "Removing Forerunner gives up top-of-library tribal tutoring and significant repeated Daring Piracy entry-drain; removing Poisoner removes instant-speed deathtouch and attacking Pirate combat trick. Opponent flyers/Spirits and removal can stop D just as effectively as a ground-stalled incumbent configuration.",
+    "reason_for_no_large_simulation": "One falsifiable cost/timing blocker issue per cluster is resolved by the existing source-paid and finite adverse fixtures. No effect-complete matched multiplayer model or precommitted decision-changing endpoint presently justifies another costly simulation; a generic proxy would be biased toward flyers and ignore Forerunner token drain and Poisoner trade.",
+    "what_could_reverse_choice": "Evidence that Forerunner's surviving multi-turn tutor/drain materially wins more games than Broadside's conditional third-connection haste; a local meta dominated by reach/flyers/Spirit blockers or creature aggro could favor poisoner/other evasion packages. Report as matchup-dependent, not a proven replacement superiority."
+  },
+  "m6_6_status": "PARTIAL",
+  "m6_7_status": "PARTIAL",
+  "m6_i_local_best_certified": false,
+  "m6_j_bundle_complete": false,
+  "owner_m6_10_accepted": false,
+  "owner_m7_approved": false,
+  "blocking_requirements": [
+    "New adverse suite must execute with successful exact PR head GitHub Actions receipt; current artifact contains a pending CI marker, not a fabricated success.",
+    "Reconcile the complete required Phase B scope for exact candidate D and decide whether all mandatory modeled interactions are adequate despite bounded limits before asserting M6.6 completion.",
+    "Independently support tested-pool M6.8 I local-best claim or record honestly incomplete and source-bound A/B/C/D pool; analytic preference is not an empirical local-best certificate.",
+    "Construct and validate exact D M6.9 J reproducibility bundle with sealed A/B, owner-equivalent waiver, current hashes, mana/red-team reports, actual CI; no copy-forward from Abaddon or historical M5.",
+    "Obtain owner M6.10 acceptance and exact M7 decklist approval separately, without touching canonical list before explicit authority."
+  ]
+}
