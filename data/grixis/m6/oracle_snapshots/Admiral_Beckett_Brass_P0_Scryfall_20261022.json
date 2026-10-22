@@ -1,0 +1,37 @@
+{
+  "source": "Scryfall API /cards/named?exact=, independent live read 2026-10-22",
+  "purpose": "Only source-anchored P0 interactions, not full 100-card legality certification",
+  "deck_id": "Admiral_Beckett_Brass",
+  "canonical_approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "canonical_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+  "cards": {
+    "Admiral Beckett Brass": {
+      "oracle_id": "43b5e462-d860-473d-828f-6c513fc7768a",
+      "type_line": "Legendary Creature — Human Pirate",
+      "mana_cost": "{1}{U}{B}{R}",
+      "color_identity": ["B", "R", "U"],
+      "commander_legality": "legal",
+      "oracle_text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn."
+    },
+    "Roaming Throne": {
+      "oracle_id": "3640c29b-1534-4952-b297-619ade948431",
+      "mana_cost": "{4}", "color_identity": [], "commander_legality": "legal",
+      "oracle_text": "Ward {2}\nAs this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time."
+    },
+    "Kari Zev, Skyship Raider": {
+      "oracle_id": "786baa29-afd4-40f0-95c8-920a972b9175",
+      "mana_cost": "{1}{R}", "color_identity": ["R"], "commander_legality": "legal",
+      "oracle_text": "First strike, menace\nWhenever Kari Zev attacks, create Ragavan, a legendary 2/1 red Monkey creature token. Ragavan enters tapped and attacking. Exile that token at end of combat."
+    },
+    "Open into Wonder": {
+      "oracle_id": "d9688f6e-7163-408b-b32b-b9645aed1f8c",
+      "mana_cost": "{X}{U}{U}", "color_identity": ["U"], "commander_legality": "legal",
+      "oracle_text": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain \"Whenever this creature deals combat damage to a player, draw a card.\""
+    },
+    "Cyclonic Rift": {
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "mana_cost": "{1}{U}", "color_identity": ["U"], "commander_legality": "legal",
+      "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")"
+    }
+  }
+}
