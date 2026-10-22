@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "title": "M6 reusable rule-foundation suites; no commander strategy verdict",
+  "governance": {
+    "cache_scope": "evidence_only",
+    "can_issue_phase_b_complete": false,
+    "can_issue_m6_certificate": false,
+    "can_issue_m7_approval": false,
+    "can_apply_swaps": false,
+    "cache_is_not_oracle_refresh": true
+  },
+  "suites": {
+    "physical-zones": {
+      "description": "Physical identity, draw/zone conservation and cross-62 deterministic source sampling",
+      "coverage": "cross_62_physical_foundation_not_gameplay",
+      "test": "test_m6_state_kernel.py",
+      "files": [
+        "tests/test_m6_state_kernel.py",
+        "scripts/grixis_m6_state_kernel.py",
+        "scripts/grixis_m6_state_kernel_62.py",
+        "scripts/grixis_sim.py",
+        "scripts/evaluate_decklist.py",
+        "scripts/grixis_authority.py",
+        "data/grixis/registry.json",
+        "data/grixis_summary.json",
+        "data/grixis/m6/phase_b_plans/general_state_kernel_62_01.json",
+        "data/grixis/m6/phase_b_bounded/abaddon_tutor_state_01.json"
+      ],
+      "globs": [
+        "exports/grixis-archidekt/source-baseline/*.txt"
+      ]
+    },
+    "transactional-stack": {
+      "description": "Bounded stack/source mana/priority and rollback rules; six implemented spell effects only",
+      "coverage": "shared_bounded_stack_rules_not_99_card_multiplayer",
+      "test": "test_m6_transactional_stack.py",
+      "files": [
+        "tests/test_m6_transactional_stack.py",
+        "scripts/grixis_m6_transactional_stack.py",
+        "scripts/grixis_m6_state_kernel.py",
+        "scripts/grixis_sim.py"
+      ],
+      "globs": []
+    },
+    "model-coverage": {
+      "description": "Conservative guard rejecting unsupported simulator swap-improvement claims",
+      "coverage": "evidence_truthfulness_not_actual_strategy",
+      "test": "test_m6_model_coverage.py",
+      "files": [
+        "tests/test_m6_model_coverage.py",
+        "scripts/grixis_m6_model_coverage.py",
+        "scripts/grixis_authority.py",
+        "data/grixis/registry.json",
+        "data/grixis/birthday_m5/summary.json"
+      ],
+      "globs": [
+        "data/grixis/m6/review_packets/*.json"
+      ]
+    }
+  }
+}
