@@ -63,7 +63,7 @@ def validate(t,r,p,s,w=None):
  assert len({x["deck_id"] for x in new131})==29
  assert all(batch["cycle"]==131 for batch in c131)
  assert all(x["approved_swaps"]==0 and not x["formal_pass_c"] and not x["full_phase_b"] for x in new131)
- assert t["display"]["m6_completed_gates"]==5 and t["display"]["m6_partial_gates"]==2
+ assert t["display"]["m6_completed_gates"]==5 and t["display"]["m6_partial_gates"]==4
  assert t["m6"]["formal_m6_certified_decks"]==0
 
  assert len({x["deck_id"] for x in r130["rows"]})==6
@@ -89,7 +89,15 @@ def validate(t,r,p,s,w=None):
  audit=json.loads((ROOT/"data/grixis/m6/certification_preflight/abaddon_residual_70_decision_relevance_20261022.json").read_text())
  assert len(audit["rows"])==70 and audit["residual_p1_executed_cases"]==14
  assert all("PENDING" not in row["disposition"] for row in audit["rows"])
- assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
+ for pos in (7,8):
+  gate=t["m6"]["gates"][pos]
+  assert gate["status"]=="PARTIAL" and gate["completed"]==1
+  proof=gate.get("per_deck_completion",{}).get("Abaddon_the_Despoiler")
+  assert proof and proof["status"]=="SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED"
+  assert proof["selected_logical_hash"]=="lh1:4bb15eb5acc051871e7d818890f71705eb74f1281e933e73b0e77ff770be1efc"
+  assert proof["owner_accepted"] is False and proof["canonical_modified"] is False
+  assert (ROOT/proof["source"]).is_file() and (ROOT/proof["oracle_snapshot"]).is_file()
+ assert t["m6"]["gates"][9]["status"]=="BLOCKED" and t["m6"]["gates"][9]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
  assert len(t["m6"]["phase_b_additional_evidence"])==12
  assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526,528,530,532}
@@ -202,11 +210,11 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual((gate["status"],gate["completed"]),("PARTIAL",1))
   self.assertEqual(gate["per_deck_completion"]["Abaddon_the_Despoiler"]["status"],"COMPLETE_DECISION_SCOPED_ONLY")
   self.assertTrue(any("abaddon_phase_b_decisions_20261021.json" in x for x in gate["evidence"]))
-  self.assertEqual(self.t["display"]["m6_partial_gates"],2)
+  self.assertEqual(self.t["display"]["m6_partial_gates"],4)
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_forged_abaddon_gate_progress_or_owner_approval_is_rejected(self):
   import copy
-  for slot,key,value in ((5,"completed",2),(6,"completed",62)):
+  for slot,key,value in ((5,"completed",2),(6,"completed",62),(7,"completed",62),(8,"completed",62)):
    d=copy.deepcopy(self.t)
    d["m6"]["gates"][slot][key]=value
    with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
@@ -215,6 +223,9 @@ class TestMilestoneSubtracker(unittest.TestCase):
   with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
   d=copy.deepcopy(self.t)
   d["m6"]["gates"][6]["per_deck_completion"]["Abaddon_the_Despoiler"]["status"]="FORMAL_M6_CERTIFIED"
+  with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
+  d=copy.deepcopy(self.t)
+  d["m6"]["gates"][8]["per_deck_completion"]["Abaddon_the_Despoiler"]["owner_accepted"]=True
   with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
