@@ -24,7 +24,7 @@
     "source_full_100": true,
     "same_payable_physical_cards": true,
     "randomized_trials": 0,
-    "execution_status": "PENDING_EXACT_HEAD_GITHUB_CI",
+    "execution_status": "EXACT_HEAD_PASS_PR_566_ACTIONS_39819134570",
     "oracle_sources": [
       "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
       "https://media.wizards.com/2025/downloads/FIN_Release_Notes_3O87RLY5EO/EN_FIN_Release_Notes_2025_1_15.pdf",
@@ -32,13 +32,14 @@
       "https://scryfall.com/card/40k/119/exalted-flamer-of-tzeentch",
       "https://scryfall.com/card/40k/82/noise-marine",
       "https://scryfall.com/search?q=%21%22Flame+Rift%22"
-    ]
+    ],
+    "exact_head_sha": "b872f7aa9821068458eddda1bea593ed8e6998be",
+    "merged_sha": "f96de9ed28cf6f51f162451eea1859504fa84f71"
   },
   "explicit_still_open": [
-    "Verify Delayed Blast Fireball exile-cast damage and its effect on Abaddon X in a finite physical fixture or point to source-paid equivalent.",
-    "Reconcile Jeska's Will conditional mana/impulse and Nightscape Familiar reductions against actual Ignus/cascade payable costs, without pretending each needs thousand-game simulation.",
-    "Review whether any other residual card materially changes the exact Rakdos/Betrayal cut judgment after the above, and declare M6.6 sufficiency only with evidence.",
-    "M6 I tested-pool zero-improvement and J complete reproducibility remain distinct gates. No owner approval, no formal M6 certification."
+    "Execute seven preregistered Delayed/Jeskas/Familiar physical tests; currently PENDING exact-head CI.",
+    "After completion, adjudicate whether any material 70-name P0/P1 need remains and whether M6.6/M6.7 have sufficient finite evidence. Full 99-card game interpreter is not required by the decision-first standard.",
+    "I tested-pool and J reproducibility have their own independent, still blocked requirements. No automatic owner approval or milestone certification."
   ],
   "disposition_counts": {
     "REUSE_EXISTING_EVIDENCE_AND_AUTHORED_JUDGMENT": 3,
@@ -46,9 +47,8 @@
     "P1_DEFER_NO_UNIQUE_CASE": 28,
     "P1_DEFER_SHARED_MANA": 9,
     "P1_DEFER_SHARED_STACK_FIXTURES": 9,
-    "P1_RELEVANT_EXACT_FIXTURE_OPEN": 1,
-    "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI": 5,
-    "P1_RELEVANT_PAYABLE_COST_AUDIT_OPEN": 2
+    "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567": 3,
+    "P1_EXECUTED_PASS_EXACT_HEAD_PR_566": 5
   },
   "rows": [
     {
@@ -150,8 +150,8 @@
     {
       "name": "Delayed Blast Fireball",
       "importance": "HIGH",
-      "disposition": "P1_RELEVANT_EXACT_FIXTURE_OPEN",
-      "reason": "Its different damage when cast from exile and foretell permission are decision-relevant: require dedicated source-paid exile-cast fixture or existing exact equivalent before M6.6 closure."
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567",
+      "reason": "Its different damage when cast from exile and foretell permission are decision-relevant: require dedicated source-paid exile-cast fixture or existing exact equivalent before M6.6 closure. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven."
     },
     {
       "name": "Demonic Tutor",
@@ -162,8 +162,8 @@
     {
       "name": "Exalted Flamer of Tzeentch",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
-      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_566",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI. Executed as one of seven physical CI PASS methods at exact PR #566 head; this is scoped case coverage, not complete Oracle semantics."
     },
     {
       "name": "Exotic Orchard",
@@ -180,8 +180,8 @@
     {
       "name": "Flame Rift",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
-      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_566",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI. Executed as one of seven physical CI PASS methods at exact PR #566 head; this is scoped case coverage, not complete Oracle semantics."
     },
     {
       "name": "Flooded Strand",
@@ -228,14 +228,14 @@
     {
       "name": "Jeska's Will",
       "importance": "HIGH",
-      "disposition": "P1_RELEVANT_PAYABLE_COST_AUDIT_OPEN",
-      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven."
     },
     {
       "name": "Kessig Flamebreather",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
-      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_566",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI. Executed as one of seven physical CI PASS methods at exact PR #566 head; this is scoped case coverage, not complete Oracle semantics."
     },
     {
       "name": "Luxury Suite",
@@ -294,14 +294,14 @@
     {
       "name": "Nightscape Familiar",
       "importance": "HIGH",
-      "disposition": "P1_RELEVANT_PAYABLE_COST_AUDIT_OPEN",
-      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven."
     },
     {
       "name": "Noise Marine",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
-      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_566",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI. Executed as one of seven physical CI PASS methods at exact PR #566 head; this is scoped case coverage, not complete Oracle semantics."
     },
     {
       "name": "Otawara, Soaring City",
@@ -438,8 +438,8 @@
     {
       "name": "Vivi Ornitier",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
-      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_566",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI. Executed as one of seven physical CI PASS methods at exact PR #566 head; this is scoped case coverage, not complete Oracle semantics."
     },
     {
       "name": "Volcanic Island",
@@ -473,5 +473,25 @@
     }
   ],
   "certification_status": "M6_6_PARTIAL_M6_7_PARTIAL_NO_M6_I_J",
-  "canonical_modified": false
+  "canonical_modified": false,
+  "further_p1_preregistered": {
+    "path": "tests/test_m6_abaddon_remaining_p1.py",
+    "planned_methods": [
+      "test_delayed_hand_cast_two_damage_three_opponents_x6",
+      "test_delayed_prosper_exile_paid_five_damage_not_hand_cascade",
+      "test_delayed_exile_bloodletter_solphim_doubles_opponents_not_creatures",
+      "test_nightscape_discount_ignus_paid_1r_keeps_mana_value_three",
+      "test_nightscape_blue_red_spell_receives_one_discount_not_two",
+      "test_jeska_both_modes_locked_at_cast_mana_uses_resolution_hand_size",
+      "test_jeska_without_commander_only_one_mode"
+    ],
+    "randomized_trials": 0,
+    "physical_99_conservation": true,
+    "execution_status": "PENDING_EXACT_HEAD_PR_CI",
+    "oracle_sources": [
+      "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes",
+      "https://scryfall.com/card/clb/676/delayed-blast-fireball",
+      "https://scryfall.com/card/dmr/94/nightscape-familiar"
+    ]
+  }
 }
