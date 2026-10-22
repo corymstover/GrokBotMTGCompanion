@@ -1,0 +1,316 @@
+{
+  "schema_version": 1,
+  "commander": "Admiral Beckett Brass",
+  "retrieved_date": "2026-10-22",
+  "source": "Scryfall exact-name API; https://api.scryfall.com/cards/named; each record carries oracle_id; snapshots are not perpetual-current",
+  "purpose": "M7 full-deck opportunity research; candidate inclusion is not approval or certification",
+  "canonical_baseline_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "cards": [
+    {
+      "name": "City of Brass",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [],
+      "commander": "legal"
+    },
+    {
+      "name": "Blustersquall",
+      "oracle_id": "2dfad8c3-1973-4fc8-971d-f66cacd88070",
+      "mana_cost": "{U}",
+      "type_line": "Instant",
+      "oracle_text": "Tap target creature you don't control.\nOverload {3}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Shared Animosity",
+      "oracle_id": "a27445db-33f2-4571-98b5-83206b797484",
+      "mana_cost": "{2}{R}",
+      "type_line": "Enchantment",
+      "oracle_text": "Whenever a creature you control attacks, it gets +1/+0 until end of turn for each other attacking creature that shares a creature type with it.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Broadside Bombardiers",
+      "oracle_id": "e0c00a74-bdf8-4fee-8042-42c5878e9e3c",
+      "mana_cost": "{2}{R}",
+      "type_line": "Creature — Goblin Pirate",
+      "oracle_text": "Menace, haste\nBoast — Sacrifice another creature or artifact: This creature deals damage equal to 2 plus the sacrificed permanent's mana value to any target. (Activate only if this creature attacked this turn and only once each turn.)",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Admiral's Order",
+      "oracle_id": "ae4fe5e0-408d-4398-84d7-a901b836df2a",
+      "mana_cost": "{1}{U}{U}",
+      "type_line": "Instant",
+      "oracle_text": "Raid — If you attacked this turn, you may pay {U} rather than pay this spell's mana cost.\nCounter target spell.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Herald's Horn",
+      "oracle_id": "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2",
+      "mana_cost": "{3}",
+      "type_line": "Artifact",
+      "oracle_text": "As this artifact enters, choose a creature type.\nCreature spells you cast of the chosen type cost {1} less to cast.\nAt the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [],
+      "commander": "legal"
+    },
+    {
+      "name": "Departed Deckhand",
+      "oracle_id": "a620a765-97ba-4687-acfd-4dec7da75d9f",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Spirit Pirate",
+      "oracle_text": "When this creature becomes the target of a spell, sacrifice it.\nThis creature can't be blocked except by Spirits.\n{3}{U}: Another target creature you control can't be blocked this turn except by Spirits.",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Sleep",
+      "oracle_id": "9b93ff69-f195-4d72-8e1d-574c3e53bca8",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Sorcery",
+      "oracle_text": "Tap all creatures target player controls. Those creatures don't untap during that player's next untap step.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "War Cadence",
+      "oracle_id": "49d0fdd6-cc8f-4fe1-a6bd-4321dac18404",
+      "mana_cost": "{2}{R}",
+      "type_line": "Enchantment",
+      "oracle_text": "{X}{R}: This turn, creatures can't block unless their controller pays {X} for each blocking creature they control.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Slippery Scoundrel",
+      "oracle_id": "3c7ea8d0-d866-4c02-bdfc-13bbc87c094a",
+      "mana_cost": "{2}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Ascend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAs long as you have the city's blessing, this creature has hexproof and can't be blocked.",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Dire Fleet Neckbreaker",
+      "oracle_id": "bcf34a1c-162a-400c-b1db-9d1bb62bf7e9",
+      "mana_cost": "{2}{B}{R}",
+      "type_line": "Creature — Orc Pirate",
+      "oracle_text": "Attacking Pirates you control get +2/+0.",
+      "power": "3",
+      "toughness": "2",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Kindred Charge",
+      "oracle_id": "eb0b5b5f-54d3-49c6-9ad8-d44a5551acdb",
+      "mana_cost": "{4}{R}{R}",
+      "type_line": "Sorcery",
+      "oracle_text": "Choose a creature type. For each creature you control of the chosen type, create a token that's a copy of that creature. Those tokens gain haste. Exile them at the beginning of the next end step.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Reconnaissance Mission",
+      "oracle_id": "11bf211c-95a3-4e7f-bd08-13f979d54e73",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Enchantment",
+      "oracle_text": "Whenever a creature you control deals combat damage to a player, you may draw a card.\nCycling {2} ({2}, Discard this card: Draw a card.)",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Patriarch's Bidding",
+      "oracle_id": "25fc3bc2-d852-4f52-9adb-c7e35c06f3af",
+      "mana_cost": "{3}{B}{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "Each player chooses a creature type. Each player returns all creature cards of a type chosen this way from their graveyard to the battlefield.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "B"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Fell Flagship",
+      "oracle_id": "e5afa88a-8bde-47fe-a890-3759f807360f",
+      "mana_cost": "{3}",
+      "type_line": "Artifact — Vehicle",
+      "oracle_text": "Pirates you control get +1/+0.\nWhenever this Vehicle deals combat damage to a player, that player discards a card.\nCrew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",
+      "power": "3",
+      "toughness": "3",
+      "color_identity": [],
+      "commander": "legal"
+    },
+    {
+      "name": "Captain Vargus Wrath",
+      "oracle_id": "e73d72f6-5572-47e0-90c9-dc1c146029d7",
+      "mana_cost": "{U}{R}",
+      "type_line": "Legendary Creature — Orc Pirate",
+      "oracle_text": "Whenever Captain Vargus Wrath attacks, Pirates you control get +1/+1 until end of turn for each time you've cast a commander from the command zone this game.",
+      "power": "1",
+      "toughness": "1",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Dire Fleet Daredevil",
+      "oracle_id": "7a3e50a5-c163-4c41-b62d-d52c233c55b7",
+      "mana_cost": "{1}{R}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "First strike\nWhen this creature enters, exile target instant or sorcery card from an opponent's graveyard. You may cast it this turn, and mana of any type can be spent to cast that spell. If that spell would be put into a graveyard, exile it instead.",
+      "power": "2",
+      "toughness": "1",
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Cloud Pirates",
+      "oracle_id": "d334aa85-3470-4f5d-9cbc-b88bf991a5af",
+      "mana_cost": "{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nThis creature can block only creatures with flying.",
+      "power": "1",
+      "toughness": "1",
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Aqueous Form",
+      "oracle_id": "3378fef3-4d8c-4d9e-a338-4abb6f70d410",
+      "mana_cost": "{U}",
+      "type_line": "Enchantment — Aura",
+      "oracle_text": "Enchant creature\nEnchanted creature can't be blocked.\nWhenever enchanted creature attacks, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Bedlam",
+      "oracle_id": "c28d4caf-9b7c-40b1-9cbe-275ca9dae06a",
+      "mana_cost": "{2}{R}{R}",
+      "type_line": "Enchantment",
+      "oracle_text": "Creatures can't block.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Skyship Plunderer",
+      "oracle_id": "c5e47644-c72c-40f9-b65f-57fcea075466",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nWhenever this creature deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.",
+      "power": "2",
+      "toughness": "1",
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Siren Reaver",
+      "oracle_id": "bc1c9ca8-2f00-4761-bd85-1329287ae7ac",
+      "mana_cost": "{3}{U}",
+      "type_line": "Creature — Siren Pirate",
+      "oracle_text": "Raid — This spell costs {1} less to cast if you attacked this turn.\nFlying",
+      "power": "3",
+      "toughness": "2",
+      "color_identity": [
+        "U"
+      ],
+      "commander": "legal"
+    },
+    {
+      "name": "Access Tunnel",
+      "oracle_id": "ed9cc560-f30b-4b60-a094-ccf93ed656a7",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add {C}.\n{3}, {T}: Target creature with power 3 or less can't be blocked this turn.",
+      "power": null,
+      "toughness": null,
+      "color_identity": [],
+      "commander": "legal"
+    },
+    {
+      "name": "Goblin War Drums",
+      "oracle_id": "29c21edd-781b-448e-824a-17bc8b8f4077",
+      "mana_cost": "{2}{R}",
+      "type_line": "Enchantment",
+      "oracle_text": "Creatures you control have menace. (They can't be blocked except by two or more creatures.)",
+      "power": null,
+      "toughness": null,
+      "color_identity": [
+        "R"
+      ],
+      "commander": "legal"
+    }
+  ]
+}
