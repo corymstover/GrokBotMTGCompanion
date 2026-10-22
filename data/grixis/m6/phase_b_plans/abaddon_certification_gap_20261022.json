@@ -64,7 +64,7 @@
     "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
     "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
   ],
-  "next_engineering_action": "Execute and verify seven new source-paid residual P1 fixtures on frozen exact PR head; implement only the three explicitly identified further decision-relevant cost/exile interactions, reconcile all 70 source-name relevance statuses, adjudicate M6.6/M6.7 and I/J without claiming a 99-card universal simulator or inventing full-game win evidence.",
+  "next_engineering_action": "Verify PR 567 seven further source-paid P1 fixtures with exact-head Actions and merge only on success. Then determine whether any genuinely mandatory P0/P1 remains beyond the now individually triaged 70; decide M6.6/M6.7 on proof, and build I/J only if complete without inventing a universal Magic interpreter. Preserve approved canonical SHA and owner-only final approval.",
   "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
   "separate_future_backlog": {
     "pr": 535,
@@ -147,7 +147,7 @@
     "non_silent_p1_dispositions": true,
     "seven_finite_tests": "tests/test_m6_abaddon_residual_p1.py",
     "planned_test_count": 7,
-    "ci_execution": "PENDING_EXACT_PR_HEAD_DO_NOT_COUNT_PASS_YET",
+    "ci_execution": "EXACT_HEAD_PASS_7_OF_7_PR_566_ACTIONS_39819134570",
     "unverified_remaining": [
       "Delayed Blast Fireball exile-cast damage and threshold",
       "Jeska's Will conditional mana/impulse",
@@ -156,6 +156,18 @@
     "unchanged_required_m6_6": "PARTIAL",
     "unchanged_required_m6_7": "PARTIAL",
     "unchanged_m6_i_j": "BLOCKED",
-    "canonical_approved_cardlist_modified": false
+    "canonical_approved_cardlist_modified": false,
+    "merged_pr": 566,
+    "merged_sha": "f96de9ed28cf6f51f162451eea1859504fa84f71",
+    "second_p1_batch": {
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "planned_methods": 7,
+      "cards": [
+        "Delayed Blast Fireball",
+        "Jeska's Will",
+        "Nightscape Familiar"
+      ],
+      "execution": "PENDING_EXACT_HEAD_PR_567"
+    }
   }
 }
