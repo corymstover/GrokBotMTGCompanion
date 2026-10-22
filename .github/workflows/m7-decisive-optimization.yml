@@ -22,6 +22,8 @@ on:
       - tests/test_m6_abaddon_call_forth_p0.py
       - tests/test_m6_abaddon_betrayal_suspend_p0.py
       - tests/test_m6_abaddon_breach_led_freeze_p0.py
+      - tests/test_m6_abaddon_wild_magic_p0.py
+      - data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json
@@ -88,7 +90,9 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_betrayal_suspend_p0.py' -v
       - name: Test nine source-paid Breach LED Brain Freeze physical escape and storm cases
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_breach_led_freeze_p0.py' -v
-      - name: Replay all 44 actual named Abaddon P0 tests with fail-closed inventory
+      - name: Test eight registered source-paid Wild-Magic Sorcerer first-exile nested cascade cases
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_wild_magic_p0.py' -v
+      - name: Replay all 52 actual named Abaddon P0 tests with fail-closed inventory
         run: python -m scripts.grixis_m6_abaddon_p0_replay --out "${{ runner.temp }}/abaddon-m6-p0-actual-replay.json"
       - name: Upload separate P0 actual-execution receipts with remaining-case disclosure
         uses: actions/upload-artifact@v4
