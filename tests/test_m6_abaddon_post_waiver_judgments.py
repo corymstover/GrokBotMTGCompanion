@@ -96,6 +96,20 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
 
+    def test_first_cascade_hit_is_not_actual_payoff_execution(self):
+        item=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        evidence=item["cascade_first_hit_observation"]
+        self.assertEqual(evidence["subthree_pool"],{"total":35,"mv0":7,"mv1":15,"mv2":13})
+        self.assertEqual(evidence["t10_per2000"]["approved_safe_cast_offers"],1822)
+        self.assertEqual(evidence["t10_per2000"]["approved_mana_artifact_hits"],530)
+        self.assertEqual(evidence["t10_per2000"]["approved_tutor_hits"],329)
+        self.assertFalse(evidence["actual_paid_ignus_board_in_these_samples"])
+        self.assertFalse(evidence["ramp_or_tutor_effects_resolved"])
+        self.assertFalse(evidence["full_multiplayer_gameplay"])
+        self.assertFalse(evidence["net_superiority_proven"])
+        self.assertFalse(evidence["canonical_swap_approved"])
+        self.assertIsNone(evidence["game_win_rate"])
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))
