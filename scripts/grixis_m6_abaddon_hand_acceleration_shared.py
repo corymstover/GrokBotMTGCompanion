@@ -111,6 +111,23 @@ def paid_accelerants_from_hand(state,plan):
     # Sources just produced reside in the actual shared U/B/R/C pool.
 
 
+def start_turn(state):
+    """Untap lands/Sol Ring; Mana Vault stays tapped and hurts pilot at draw."""
+    state["lands"]=[(n,False) for n,_ in state["lands"]]
+    state["pool"]=ZERO
+    state["loss"]=0
+    state["rocks_tapped"]=False
+    if "Sol Ring" in state["field"]:
+        state["pool"]=effect_add(state["pool"],c=2)
+        state["rocks_tapped"]=True
+        state["metrics"]["existing_sol_ring_retap_mana"]+=2
+    if state["mana_vault_exhausted"]:
+        if "Mana Vault" not in state["field"]:
+            raise AssertionError("Mana Vault tap flag has no physical card")
+        state["pilot_life_damage"]+=1
+        state["metrics"]["mana_vault_draw_damage"]+=1
+
+
 def metrics_snapshot(state):
     m=state["metrics"]
     return {
@@ -118,7 +135,6 @@ def metrics_snapshot(state):
         "actual_ignus_cascade_trigger":int(m["actual_paid_ignus_cascade"]>0),
         "actual_supported_effect_resolved":int(m["actual_supported_hits_resolved"]>0),
         "five_cascade_recasts":int(m["one_turn_5_recast_cascade_line"]>0),
-        "paid_commander_access":int(ABADDON in state["field"]),
         "hand_accelerants_cast":sum(m["hand_cast_"+x] for x in ACTIVATIONS),
         "hand_black_mana":m["hand_black_mana"],
         "hand_red_mana":m["hand_red_mana"],
@@ -145,7 +161,6 @@ def one_trial(library,seed,policy,plan,prior,cards,mode,*,checkpoints=None):
                 "actual_ignus_cascade_trigger":int(prev["actual_ignus_cascade_trigger"]),
                 "actual_supported_effect_resolved":int(prev["actual_supported_effect_resolved"]),
                 "five_cascade_recasts":int(prev["five_cascade_recasts"]),
-                "paid_commander_access":int(ABADDON in field["field"]),
                 "hand_accelerants_cast":0,"hand_black_mana":0,
                 "hand_red_mana":0,"hand_colorless_mana":0,
                 "hand_mana_vault_damage":0,"hand_cabal_threshold_casts":0,
@@ -163,21 +178,7 @@ def one_trial(library,seed,policy,plan,prior,cards,mode,*,checkpoints=None):
     snapshots={}
     state["mana_vault_exhausted"]=False
     for turn in range(1,max(cp)+1):
-        state["lands"]=[(n,False) for n,_ in state["lands"]]
-        state["pool"]=ZERO
-        state["loss"]=0
-        state["rocks_tapped"]=False
-        if "Sol Ring" in state["field"]:
-            state["pool"]=effect_add(state["pool"],c=2)
-            state["rocks_tapped"]=True
-            state["metrics"]["existing_sol_ring_retap_mana"]+=2
-        # Mana Vault normally does NOT untap. Its {4} optional paid-upkeep
-        # untap is intentionally excluded, and so is its reuse.
-        if state["mana_vault_exhausted"]:
-            if "Mana Vault" not in state["field"]:
-                raise AssertionError("Mana Vault tap flag has no physical card")
-            state["pilot_life_damage"]+=1 # beginning of draw step
-            state["metrics"]["mana_vault_draw_damage"]+=1
+        start_turn(state)
         if state["deck"]:
             state["hand"].append(state["deck"].pop(0))
         searched,land=play_land(state["hand"],state["deck"],
