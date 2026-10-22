@@ -1,0 +1,488 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Tetsuo_Umezawa",
+  "order": 54,
+  "commanders": [
+    "Tetsuo Umezawa"
+  ],
+  "strategy": {
+    "primary": "Tap/untap creature control: make targets with goad, forced attacks and tap effects, then use Tetsuo's {U}{B}{B}{R}, {T} to destroy tapped or blocking creatures, untapping him again and again (Minamo, Magewright's Stone, Thousand-Year Elixir, Alchemist, Fatestitcher, Puppeteer, Patriar's Seal, Retreat, Sting).",
+    "secondary": "Turn the tapped board into cards and pressure with Verity Circle, Borrowing 100,000 Arrows, Firkraag, Karazikar and Grenzo; Rings of Brighthearth and Illusionist's Bracers copy activations."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Tetsuo Umezawa",
+      "oracle_id": "ff132d04-c3a9-4949-83ba-d80bcbcd7b9b",
+      "oracle_text": "Tetsuo Umezawa can't be the target of Aura spells.\n{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.",
+      "oracle_sha256": "sha256:71dd348e5476148ad62b3b1a120fd5ac574d043e02de526a4af2b58a99ba46fd",
+      "type_line": "Legendary Creature — Human Archer"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Tetsuo Umezawa",
+      "why": "Repeatable destroy-tapped-or-blocking.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Tetsuo Umezawa"
+      ]
+    },
+    {
+      "card": "Sting, the Glinting Dagger",
+      "why": "Untaps Tetsuo each combat.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L23"
+      ]
+    },
+    {
+      "card": "Minamo, School at Water's Edge",
+      "why": "Land that untaps Tetsuo.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L35"
+      ]
+    },
+    {
+      "card": "Illusionist's Bracers",
+      "why": "Copies activations.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:283-4091"
+      ]
+    },
+    {
+      "card": "Flood",
+      "why": "Repeatable target maker.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Tetsuo_Umezawa_Commander_Blueprint_2026-10-15.md#L26"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+    "blueprint_blob": "7b44363a334beb2dcbc69dee6059b40e4e19bf9c",
+    "canonical_source_path": "refinement/decklists/Tetsuo_Umezawa_Approved_2026-10-15.txt",
+    "canonical_source_blob": "2d73667699f129fbd4b33ae02017df62ea45624a",
+    "canonical_approved_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+    "canonical_record_key": "Tetsuo_Umezawa",
+    "registry_raw_matches": true,
+    "source_card_lines": 87,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:tetsuo-umezawa#commanders.value[0]",
+      "scenario": "Tetsuo Umezawa",
+      "expected_claim_to_verify": "Tetsuo Umezawa can't be the target of Aura spells.\n{U}{B}{B}{R}, {T}: Destroy target tapped or blocking creature.",
+      "cards": [
+        "Tetsuo Umezawa"
+      ],
+      "found_in_source_export": [
+        "Tetsuo Umezawa"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tetsuo-umezawa#key_interactions[0]",
+      "scenario": "two-conditions",
+      "expected_claim_to_verify": "Tapped or blocking are independent: an untapped blocker is still a legal target.",
+      "cards": [
+        "Tetsuo Umezawa"
+      ],
+      "found_in_source_export": [
+        "Tetsuo Umezawa"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tetsuo-umezawa#key_interactions[1]",
+      "scenario": "sting-reset",
+      "expected_claim_to_verify": "Sting untaps Tetsuo at the beginning of each combat, every player's turn.",
+      "cards": [
+        "Sting, the Glinting Dagger",
+        "Tetsuo Umezawa"
+      ],
+      "found_in_source_export": [
+        "Sting, the Glinting Dagger",
+        "Tetsuo Umezawa"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tetsuo-umezawa#key_interactions[2]",
+      "scenario": "no-mana-vault",
+      "expected_claim_to_verify": "Mana Vault was rejected: Tetsuo's cost and activation have no generic mana.",
+      "cards": [
+        "Patriar's Seal"
+      ],
+      "found_in_source_export": [
+        "Patriar's Seal"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tetsuo-umezawa#key_interactions[3]",
+      "scenario": "retreat-fetch",
+      "expected_claim_to_verify": "A fetchland gives Retreat to Coralhelm two landfall triggers.",
+      "cards": [
+        "Retreat to Coralhelm"
+      ],
+      "found_in_source_export": [
+        "Retreat to Coralhelm"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tetsuo-umezawa#key_interactions[4]",
+      "scenario": "goad-targets",
+      "expected_claim_to_verify": "Goaded creatures must attack, so they become tapped targets.",
+      "cards": [
+        "Disrupt Decorum",
+        "Bloodthirsty Blade",
+        "Shiny Impetus"
+      ],
+      "found_in_source_export": [
+        "Disrupt Decorum",
+        "Bloodthirsty Blade",
+        "Shiny Impetus"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tetsuo-umezawa#engines[0]",
+      "scenario": "destroy-tapped-or-blocking",
+      "expected_claim_to_verify": "{U}{B}{B}{R}; target tapped or blocking.",
+      "cards": [
+        "Tetsuo Umezawa"
+      ],
+      "found_in_source_export": [
+        "Tetsuo Umezawa"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tetsuo-umezawa#engines[1]",
+      "scenario": "untap-suite",
+      "expected_claim_to_verify": "Tetsuo tapped after an activation.",
+      "cards": [
+        "Minamo, School at Water's Edge",
+        "Magewright's Stone",
+        "Thousand-Year Elixir",
+        "Aphetto Alchemist",
+        "Fatestitcher",
+        "Puppeteer",
+        "Patriar's Seal",
+        "Retreat to Coralhelm",
+        "Sting, the Glinting Dagger"
+      ],
+      "found_in_source_export": [
+        "Minamo, School at Water's Edge",
+        "Magewright's Stone",
+        "Thousand-Year Elixir",
+        "Aphetto Alchemist",
+        "Fatestitcher",
+        "Puppeteer",
+        "Patriar's Seal",
+        "Retreat to Coralhelm",
+        "Sting, the Glinting Dagger"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E3",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tetsuo-umezawa#engines[2]",
+      "scenario": "copy-activation",
+      "expected_claim_to_verify": "Extra mana for the copy.",
+      "cards": [
+        "Rings of Brighthearth",
+        "Illusionist's Bracers"
+      ],
+      "found_in_source_export": [
+        "Rings of Brighthearth",
+        "Illusionist's Bracers"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tetsuo-umezawa#win_conditions[0]",
+      "scenario": "grind-and-goad",
+      "expected_claim_to_verify": "Repeated removal plus goad and forced combat until opponents are out of creatures; Kardur, Firkraag and Karazikar push damage.",
+      "cards": [
+        "Tetsuo Umezawa",
+        "Kardur, Doomscourge",
+        "Firkraag, Cunning Instigator",
+        "Karazikar, the Eye Tyrant",
+        "Red Death, Shipwrecker",
+        "Flood",
+        "Blustersquall",
+        "Puppeteer",
+        "Disrupt Decorum"
+      ],
+      "found_in_source_export": [
+        "Tetsuo Umezawa",
+        "Kardur, Doomscourge",
+        "Firkraag, Cunning Instigator",
+        "Karazikar, the Eye Tyrant",
+        "Red Death, Shipwrecker",
+        "Flood",
+        "Blustersquall",
+        "Puppeteer",
+        "Disrupt Decorum"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tetsuo-umezawa#win_conditions[1]",
+      "scenario": "bracers-alchemist",
+      "expected_claim_to_verify": "Illusionist's Bracers + Aphetto Alchemist gives infinite untaps; with enough mana it gives repeated Tetsuo activations.",
+      "cards": [
+        "Illusionist's Bracers",
+        "Aphetto Alchemist",
+        "Tetsuo Umezawa"
+      ],
+      "found_in_source_export": [
+        "Illusionist's Bracers",
+        "Aphetto Alchemist",
+        "Tetsuo Umezawa"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:tetsuo-umezawa#failure_modes[0]",
+      "scenario": "colored-mana-hungry",
+      "expected_claim_to_verify": "Each activation costs four colored mana.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Patriar's Seal; Premium duals",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:tetsuo-umezawa#failure_modes[1]",
+      "scenario": "creatureless-opponents",
+      "expected_claim_to_verify": "Spell-based combo opponents give no targets.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Force of Will; Mana Drain",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:tetsuo-umezawa#failure_modes[2]",
+      "scenario": "removal-on-tetsuo",
+      "expected_claim_to_verify": "Removal on Tetsuo shuts off the deck.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Greaves; Boots",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
