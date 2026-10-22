@@ -72,7 +72,7 @@
           {
             "id": "assault-source-paid-land-only-snapshots",
             "class": "test_result",
-            "confidence": "bounded_observations_not_effect_size",
+            "confidence": "moderate",
             "source": "PR #512; Actions 39698978884; 2,000 matched physical seeds per variant"
           }
         ]
@@ -190,7 +190,7 @@
           {
             "id": "ruinous-owner-loss-exile-cast-and-later-hand-cascade-fixture",
             "class": "test_result",
-            "confidence": "bounded_conditional_rules",
+            "confidence": "moderate",
             "source": "PR #511; Actions 39697989020; 14 deterministic tests"
           }
         ]
