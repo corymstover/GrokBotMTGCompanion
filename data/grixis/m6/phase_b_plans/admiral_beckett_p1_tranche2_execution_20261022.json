@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Admiral_Beckett_Brass",
   "date": "2026-10-22",
-  "status": "LOCAL_FINITE_P1_PASS_EXACT_PR_HEAD_CI_PENDING",
+  "status": "ALL_13_BLUEPRINT_CONTRACTS_BOUNDED_EXECUTION_PASS_M6_CERTIFICATION_PENDING",
   "canonical_state": "APPROVED_LOCKED_UNCHANGED",
   "canonical_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
   "canonical_approved_repo": "corymstover/grixis-commander-encyclopediaGPT/main",
@@ -30,25 +30,29 @@
       "id": "E01",
       "status": "LOCAL_BOUNDED_PASS_CI_PENDING",
       "specific_result": "Exact canonical 100 and commander/throne/pirate source presence; distinct-turn source-payable lands including Ancient Tomb life cost; three unique Pirates damage one player, two targeted end-step thefts if two legal objects; one-target and next-turn reset counterexamples.",
-      "limitation": "Does not model randomized opening hand, the entire priority system, or actual opposing play frequency."
+      "limitation": "Does not model randomized opening hand, the entire priority system, or actual opposing play frequency.",
+      "exact_head_ci_status": "PASS_20261022_PR_588"
     },
     {
       "id": "E02",
       "status": "LOCAL_BOUNDED_PASS_CI_PENDING",
       "specific_result": "All six current Oracle identities and separate setup costs; Kindred entry/attack draws, Bident per-hit draws, Malcolm per-opponent Treasure, Breeches and Ramirez separate physical exile/mana permissions, Lannery attack Treasure and sacrifice power; Fog prevents hit outputs but not attack outputs.",
-      "limitation": "Supported named effect subset with staged 20-card own and 8-card opposing libraries; not a full 99-card game trajectory or complete opponents' spellcasting rules."
+      "limitation": "Supported named effect subset with staged 20-card own and 8-card opposing libraries; not a full 99-card game trajectory or complete opponents' spellcasting rules.",
+      "exact_head_ci_status": "PASS_20261022_PR_588"
     },
     {
       "id": "W01",
       "status": "LOCAL_BOUNDED_PASS_CI_PENDING",
       "specific_result": "Source-costed five-piece Pirate board and Beckett/Corsair anthems: 3+4+3 real damage per clean combat yields a conditional 40-life elimination across four combats, with blocked-third-source, Fog and end-step removal negatives.",
-      "limitation": "A conditional finite line under no interaction is not a measured win-rate, a guaranteed turn, or proof that four uninterrupted combats commonly occur."
+      "limitation": "A conditional finite line under no interaction is not a measured win-rate, a guaranteed turn, or proof that four uninterrupted combats commonly occur.",
+      "exact_head_ci_status": "PASS_20261022_PR_588"
     },
     {
       "id": "F02",
       "status": "LOCAL_BOUNDED_PASS_CI_PENDING",
       "specific_result": "Toxic Deluge paid {2}{B}+X life kills own and enemy Pirates symmetrically; Admiral Brass reanimates only one Pirate with a 4/4 finality counter and later exile instead of repeat death; Daring Piracy creates only timed hasty token; Fathom Fleet's paid {2} token does not join the current attack.",
-      "limitation": "Representative symmetric wipe and timed recovery only, not every board-wipe effect, replacement effect, or opponent's sequencing."
+      "limitation": "Representative symmetric wipe and timed recovery only, not every board-wipe effect, replacement effect, or opponent's sequencing.",
+      "exact_head_ci_status": "PASS_20261022_PR_588"
     }
   ],
   "current_reconciled_blueprint_inventory": {
@@ -57,25 +61,42 @@
     "p0_executed_passed_exact_ci": 5,
     "p1_cases": 8,
     "p1_prior_four_passed_exact_ci": 4,
-    "p1_current_four_local_pass_ci_pending": 4,
+    "p1_current_four_local_pass_ci_pending": 0,
     "p1_remaining_wholly_unimplemented": 0,
-    "p1_outstanding_exact_ci_validation": 4,
-    "p1_scope_adjudication_remaining": "Confirm representative finite cases adequately discharge their blueprint contract and resolve any material omissions before a certification claim",
+    "p1_outstanding_exact_ci_validation": 0,
+    "p1_scope_adjudication_remaining": "All eight P1 plans have representative finite case coverage and source-bound counterexamples; broader multiplayer and full-card interactions remain explicitly outside scope and must be examined for actual M6 I/J candidate relevance.",
     "m6_6_6_9_candidate_specific_closure": false,
     "formal_m6_10_certification": false,
-    "formal_m7_owner_ready": false
+    "formal_m7_owner_ready": false,
+    "p1_all_eight_bounded_executed_exact_ci": 8,
+    "p0_all_five_bounded_executed_exact_ci": 5,
+    "total_blueprint_cases_bounded_executed_exact_ci": 13
   },
   "remaining_next_actions": [
-    "Run exact-head CI for all five P0 plus eight P1 cases; correct any failing or overstated case.",
-    "Seal actual CI run IDs and merged hash in a follow-up record, without claiming full Magic or M6 acceptance.",
-    "Reconcile Admiral M6.6/6.7 candidate judgments, tested pool I and reproducibility J to the exact source and candidate(s); do not reuse Abaddon certificates.",
-    "Complete Admiral whole-99 opportunity review: 10+ material candidate dispositions, 8+ credible incumbent challenges, 2 fully specified legal 100-card packages, 5+ genuine strategic swaps for owner presentation, complete Oracle legality checks.",
-    "Preserve the canonical Admiral 100 exactly until Cory approves one exact final M7 revision."
+    "Reconcile source-specific Admiral M6.6-6.9 evidence and make final decision-grade candidate judgments; P0/P1 mechanics are bounded finite, NOT complete 99-card gameplay.",
+    "Compute source-bound Admiral I local-tested-pool judgment and J reproducibility only for an exact 100-card candidate with applicable Oracle data and honest limitations.",
+    "Perform comprehensive M7 whole-deck opportunity search, >=10 candidate judgments, >=8 challenged slots and two exact 100-card packages; under five genuine swaps stays research-only.",
+    "Do not modify the canonical 100 or claim M6.10 acceptance without Cory's explicit authorization."
   ],
   "limitations": [
     "Staged finite state is rules-faithful for listed effects but not a complete Magic simulator.",
     "Full 100-source byte-hash was verified; eight + fourteen sourced Oracle records (including one intentional repeated Changeling Outcast check) cover these cases, not the complete 97-name approved list.",
     "No extrapolation from a particular legal board to win rates or optimal final candidate.",
     "No M6 or M7 owner acceptance inferred, and no project exception or decklist modified."
-  ]
+  ],
+  "ci_receipt": {
+    "pr_number": 588,
+    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/588",
+    "exact_pr_head": "8d1a34944e1b3c7a99ae643a8a1a3741c3c4bb38",
+    "dedicated_mechanical_run_id": 39845586479,
+    "dedicated_mechanical_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39845586479",
+    "dedicated_mechanical_conclusion": "success",
+    "method_count_p0": 5,
+    "method_count_p1_first": 10,
+    "method_count_p1_second": 10,
+    "m7_contract_run_id": 39845586463,
+    "m7_contract_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39845586463",
+    "m7_contract_conclusion": "success",
+    "merged_commit": "dfd1d5f74bdbe628390be806ec230b2ac4348222"
+  }
 }
