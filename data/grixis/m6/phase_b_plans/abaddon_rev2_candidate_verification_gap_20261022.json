@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "kind": "M7_REVISED_SIX_SWAP_M6_SOURCE_REBINDING_AND_P0_GAP",
+  "status": "REVISED_RESEARCH_PENDING_CANDIDATE_BOUND_I_J_CERTIFICATION",
+  "original_canonical_approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "rejected_earlier_two_swap_research_raw_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "revised_six_swap_research_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "revised_six_swap_research_logical_hash": "lh1:853567925301becc5b646c193795a18871c269abce1368690cca5d9bda73a0b7",
+  "alternative_clone_five_swap_logical_hash": "lh1:c248964e93955e4b81b0e4de735d8dc66f6abfe29a580e39f0c164e59ee53654",
+  "alternative_combat_five_swap_logical_hash": "lh1:7be03e1b440689e3000d70fc447d97edea6f0200ce3941b2ffd9fc17b48aa4fd",
+  "source_current_oracle": {
+    "source": "https://api.scryfall.com/cards/collection",
+    "local_execution_utc": "2026-10-22T18:33:57.032853+00:00",
+    "status": "PASS_LOCAL_FULL_100_DISTINCT_NAMES_FOUR_PHYSICAL_LISTS",
+    "pr_578_exact_head_receipt": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39832798134",
+    "pr_578_exact_head_result": "SUCCESS",
+    "scope_limit": "100-name Oracle/Commander identity legality and source physical composition; NOT a new M6 candidate-bound I/J certificate or entire rules-engine simulation"
+  },
+  "new_effects_executable": {
+    "implementation": "tests/test_m6_abaddon_rev2_new_effects_p0.py",
+    "case_count": 12,
+    "local_results": "12/12 PASS, source-anchored limited deterministic arithmetic and timing assertions",
+    "exact_head_ci_status": "PENDING_UNTIL_NEXT_PR_HEAD",
+    "covered_effects": [
+      "Abaddon multiplicity and independent hand-cast cascade grants",
+      "Spark Double entry-time nonlegendary replacement choice",
+      "Orcish Bowmasters draw/ETB trigger conditions and triggered stack damage resolution",
+      "Cyclonic Rift overloaded total cost, printed MV2 cascade and alternate-cost exclusivity",
+      "Loyal Subordinate/Neheb/Aggravated Assault postcombat source-paid sequencing and disruption",
+      "Physical 100-card source conservation across new selected and two distinct alternatives"
+    ],
+    "model_limitations": [
+      "Not a universal multiplayer game engine, win-rate result or proof of all interaction outcomes",
+      "Deterministic fixture assumes no replacement/prevention except in the explicit adversarial branches",
+      "Does not certify possible future Oracle/rules changes without re-audit"
+    ]
+  },
+  "still_required_before_final_m7_owner_packet": [
+    "Reconcile changed spell/source roster against all remaining required Abaddon P0/P1 obligations and existing 104+14 actual executions",
+    "Prove revised list is best-supported versus physical alternatives with a source-bound decisive I verdict constrained to this tested pool; not global optimality",
+    "Rebuild or extend final J reproducibility artifacts with new selected physical SHA256 and logical Oracle-ID hash, source-proof and applicable CI head",
+    "Adjudicate any newly affected role/mana vulnerabilities, especially fewer paid black rituals, loss of Force of Negation and Bituminous Blast double-cascade, and the Flamer loss",
+    "Populate updated final M7 JSON with the 12 candidate judgments, 10 challenged slots, 2 alternative packages and heightened audit; run the fail-closed gate",
+    "Obtain Cory's explicit exact candidate approval, never infer canonical replacement or milestone acceptance"
+  ],
+  "preserved_governance": {
+    "owner_m7_approved": false,
+    "formal_m6_certification": false,
+    "m6_milestone_acceptance": false,
+    "canonical_62_approved_locked_untouched": true,
+    "owner_pass_c_waiver_provenance": "ChatGPT GPT-6 owner-equivalent not technically independent, owner-waived M6.5"
+  }
+}
