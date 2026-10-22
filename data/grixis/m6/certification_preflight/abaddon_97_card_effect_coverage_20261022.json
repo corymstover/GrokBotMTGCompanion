@@ -29,21 +29,13 @@
   "expected_unique_names": 97,
   "expected_baseline_names": 94,
   "expected_baseline_cards": 100,
-  "stage": "AUDIT_REVEALED_FOUR_NEW_P0_GAPS_44_EXISTING_PASS_NOT_ALL_P0_COMPLETE",
+  "stage": "ONE_NEW_CORE_EXILE_CASCADE_P0_REGISTERED_REPLAY_PENDING_THREE_MANDATORY_OPEN",
   "coverage_semantics": {
     "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
     "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
     "IDENTIFIED_MATERIAL_P0_GAP": "Card present in at least one 100-card version, Oracle legality checked, but additional high-value decision-relevant rules interaction not in existing P0 registry."
   },
   "identified_unresolved": [
-    {
-      "card": "Wild-Magic Sorcerer",
-      "id": "P0-024",
-      "gap": "First exile-cast spell each turn gains cascade, including nested cascade; later exile casts and post-cast control changes must not retroactively add it.",
-      "priority": "P0",
-      "oracle": "https://media.wizards.com/2021/downloads/AFR_Release_Notes/EN_MTGAFR_ReleaseNotes_07042021.pdf",
-      "status": "REQUIRED_UNEXECUTED"
-    },
     {
       "card": "Nalfeshnee",
       "id": "P0-025",
@@ -1443,9 +1435,17 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
-      "new_gap_id": "P0-024"
+      "p0_direct_case_ids": [
+        "P0-024a",
+        "P0-024b",
+        "P0-024c",
+        "P0-024d",
+        "P0-024e",
+        "P0-024f",
+        "P0-024g",
+        "P0-024h"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Windfall",
@@ -1491,5 +1491,27 @@
     "Every P0 association is a case illustration, not a per-card comprehensive ability correctness proof.",
     "No empirical multiplayer policy or win-rate estimates."
   ],
-  "next_action": "Preregister P0-024 through P0-027 and implement bounded physically conserved traces before formal I/J."
+  "next_action": "Run 52 actual named P0 including eight Wild-Magic methods; then implement the three remaining identified P0 mechanisms; all-99-card-effect coverage NOT claimed.",
+  "newly_registered_tested_P0": [
+    {
+      "card": "Wild-Magic Sorcerer",
+      "id": "P0-024",
+      "gap": "First exile-cast spell each turn gains cascade, including nested cascade; later exile casts and post-cast control changes must not retroactively add it.",
+      "priority": "P0",
+      "oracle": "https://media.wizards.com/2021/downloads/AFR_Release_Notes/EN_MTGAFR_ReleaseNotes_07042021.pdf",
+      "status": "REGISTERED_FOR_EXACT_HEAD_EXECUTION_PENDING",
+      "test_methods": 8,
+      "plan": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json",
+      "case_ids": [
+        "P0-024a",
+        "P0-024b",
+        "P0-024c",
+        "P0-024d",
+        "P0-024e",
+        "P0-024f",
+        "P0-024g",
+        "P0-024h"
+      ]
+    }
+  ]
 }
