@@ -30,7 +30,7 @@ def build():
     inv=load(ROOT/INVENTORY)
     p=load(ROOT/DECISION)
     audit=load(ROOT/COVERAGE)
-    if (len(inv["replay_cases"])!=88 or
+    if (len(inv["replay_cases"])!=95 or
         {x["id"] for x in inv["required_open"]}!=set() or
         len(audit["identified_unresolved"])!=0 or inv["authority"]["formal_m6_certified"]):
         raise BlockedCertificateFailure("Source completeness inventory must remain truthful")
@@ -72,7 +72,7 @@ def build():
       "local_optimum_for_tested_pool":False,
       "certificate_status":"blocked",
       "blockers":[
-         "The 81 previously passed cases and seven newly registered Storm-Kiln copy-aware P0 methods do not guarantee full 99-card effect coverage or prove local optimality.",
+         "The 88 previously passing bounded P0 methods and seven preregistered Mind\u0027s Desire storm impulse cases do not establish complete source-card modeling or local optimality.",
          "Two plausible exact 100-card challenger packages are not a closed effect-aware matched-game pool. The improving-substitution field is FALSE meaning not *proven*, not a proved absence of an improvement.",
          "Current baseline already has an authored plausible commander-first upgrade, so declaring zero improvement on it would be premature.",
          "Owner approval not given for current M7 proposed exact 100; do not conflate M6 evidence with M7 authority.",
