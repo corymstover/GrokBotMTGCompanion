@@ -160,8 +160,13 @@ def effect_resolve(name,state,seed,plan):
     return extra
 
 
-def first_cascade(state,cards,seed,plan):
-    """One cascade trigger for a paid Ignus on stack, before it resolves."""
+def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False):
+    """One cascade trigger for paid Ignus; optional external casting limits.
+
+    Rule of Law assumes Ignus already consumed the turn's one spell.
+    Drannith stops exile cast, not cascade triggering or physical exiling.
+    Defaults reproduce PR524 exact no-hate source-state simulation.
+    """
     d=state["deck"]
     before=Counter(d)
     exile=[]
@@ -174,7 +179,7 @@ def first_cascade(state,cards,seed,plan):
         if not is_land(cards[name]) and cards[name]["mv"]<3:
             hit=name
             break
-    legal=(legality_of_hit(hit) if hit else
+    legal=(legality_of_hit(hit,rule_of_law=rule_of_law,drannith=drannith) if hit else
            {"legal_to_cast":False,"chosen_cast":False,"reason":"empty"})
     supported=hit in SUPPORTED
     chosen=bool(supported and legal["chosen_cast"])
@@ -215,7 +220,11 @@ def create_state(library,seed):
     return s
 
 
-def recast_ignus(state,cards,plan,seed,turn):
+def recast_ignus(state,cards,plan,seed,turn,*,rule_of_law=False,drannith=False):
+    # Fixed conservative choice: don't pay bounce cost if Rule of Law
+    # already prevents casting another hand spell this turn.
+    if rule_of_law:
+        return 0
     count=0
     for i in range(plan["sample"]["max_ignus_recasts_per_main"]):
         if IGNUS not in state["field"]:
@@ -238,7 +247,8 @@ def recast_ignus(state,cards,plan,seed,turn):
         if BIRGI in state["field"]:
             state["pool"]=effect_add(state["pool"],r=1)
         if ABADDON in state["field"] and state["loss"]>=3:
-            receipt=first_cascade(state,cards,seed^(turn*1301)^(i*53),plan)
+            receipt=first_cascade(state,cards,seed^(turn*1301)^(i*53),plan,
+                                  drannith=drannith)
             state["metrics"]["additional_cascade_from_paid_recast"]+=1
             if len(state["examples"])<3:
                 state["examples"].append({"turn":turn,"recast":i+1,**receipt})
