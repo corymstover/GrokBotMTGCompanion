@@ -156,7 +156,6 @@
     "hand_mana_units_by_color",
     "threshold_cabal_ritual_casts",
     "mana_vault_tapped_draw_damage",
-    "paid_commander_access",
     "paid_initial_ignus_access",
     "paid_ignus_cascade_access",
     "actual_resolved_supported_cascade_effect",
@@ -175,5 +174,6 @@
     "canonical_changed": false,
     "m6_certification_issued": 0,
     "m7_new_owner_approvals": 0
-  }
+  },
+  "pre_ci_clarification": "Removed per-checkpoint commander presence reporting because the existing PR524 baseline only exposes commander presence in the final end-state; reuse that as earlier checkpoint access would backdate casts. All paired Ignus and paid-cascade checkpoint counts remain directly predecessor-compatible."
 }
