@@ -1,0 +1,1006 @@
+{
+  "schema_version": 1,
+  "kind": "FUTURE_61_COMMANDER_EFFECT_TEST_DESIGN_INDEX",
+  "source": "Engineering registry + 61 source-blueprint documents + canonical approved source TXT metadata",
+  "engineering_baseline_commit": "f3c960c11e8caaf3405ec9005bbfebf1ef856d56",
+  "scope": {
+    "exclude": "Abaddon_the_Despoiler",
+    "roster_count": 61,
+    "case_count": 882,
+    "P0": 308,
+    "P1": 574,
+    "executed": 0,
+    "passed": 0,
+    "implemented_effect_adapters": 0,
+    "completed_M6_decks_added": 0,
+    "canonical_decks_modified": 0
+  },
+  "status": "ALL_SPECIFICATIONS_DESIGNED_NOT_IMPLEMENTED_NOT_EXECUTED",
+  "roster": [
+    {
+      "position": 2,
+      "deck_id": "Admiral_Beckett_Brass",
+      "commander_names": [
+        "Admiral Beckett Brass"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Admiral_Beckett_Brass.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/admiral-beckett-brass.json",
+      "approved_source_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 3,
+      "deck_id": "Admiral_Brass__Unsinkable",
+      "commander_names": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Admiral_Brass__Unsinkable.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/admiral-brass-unsinkable.json",
+      "approved_source_sha256": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+      "registry_raw_matches": false
+    },
+    {
+      "position": 4,
+      "deck_id": "Anhelo__the_Painter",
+      "commander_names": [
+        "Anhelo, the Painter"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Anhelo__the_Painter.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/anhelo-the-painter.json",
+      "approved_source_sha256": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+      "registry_raw_matches": false
+    },
+    {
+      "position": 5,
+      "deck_id": "Ashad__the_Lone_Cyberman",
+      "commander_names": [
+        "Ashad, the Lone Cyberman"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Ashad__the_Lone_Cyberman.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/ashad-the-lone-cyberman.json",
+      "approved_source_sha256": "087e34c2127859111fc08f8d9ec7d66cd3495537cc571d88e829fd27d2823e25",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 6,
+      "deck_id": "Ashnod_the_Uncaring",
+      "commander_names": [
+        "Ashnod the Uncaring"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Ashnod_the_Uncaring.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/ashnod-the-uncaring.json",
+      "approved_source_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 7,
+      "deck_id": "Be_lakor__the_Dark_Master",
+      "commander_names": [
+        "Be'lakor, the Dark Master"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Be_lakor__the_Dark_Master.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/belakor-the-dark-master.json",
+      "approved_source_sha256": "3abc951606a6db2b17ea2aceb471fc2ef4c55e2ef082d49d9140a83b2491155e",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 8,
+      "deck_id": "Cecily__Bjorna__Lutri",
+      "commander_names": [
+        "Bjorna, Nightfall Alchemist",
+        "Cecily, Haunted Mage"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Cecily__Bjorna__Lutri.json",
+      "designed_cases": 15,
+      "P0": 6,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json",
+      "approved_source_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 9,
+      "deck_id": "Cormela__Glamour_Thief",
+      "commander_names": [
+        "Cormela, Glamour Thief"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Cormela__Glamour_Thief.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/cormela-glamour-thief.json",
+      "approved_source_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 10,
+      "deck_id": "Crosis__the_Purger",
+      "commander_names": [
+        "Crosis, the Purger"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Crosis__the_Purger.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/crosis-the-purger.json",
+      "approved_source_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 11,
+      "deck_id": "Cult_of_Skaro",
+      "commander_names": [
+        "Cult of Skaro"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Cult_of_Skaro.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/cult-of-skaro.json",
+      "approved_source_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 12,
+      "deck_id": "Davros__Dalek_Creator",
+      "commander_names": [
+        "Davros, Dalek Creator"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Davros__Dalek_Creator.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/davros-dalek-creator.json",
+      "approved_source_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 13,
+      "deck_id": "Doctor_Doom__King_of_Latveria",
+      "commander_names": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Doctor_Doom__King_of_Latveria.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/doctor-doom-king-of-latveria.json",
+      "approved_source_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 14,
+      "deck_id": "Don_Andres__the_Renegade",
+      "commander_names": [
+        "Don Andres, the Renegade"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Don_Andres__the_Renegade.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/don-andres-the-renegade.json",
+      "approved_source_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 15,
+      "deck_id": "Dr__Eggman",
+      "commander_names": [
+        "Dr. Eggman"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Dr__Eggman.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/dr-eggman.json",
+      "approved_source_sha256": "ef34986253f71043e10c852b5f9f3ce79594fdfc1086b105f6744c3f639199c3",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 16,
+      "deck_id": "Edea__Possessed_Sorceress",
+      "commander_names": [
+        "Edea, Possessed Sorceress"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Edea__Possessed_Sorceress.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/edea-possessed-sorceress.json",
+      "approved_source_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 17,
+      "deck_id": "Edward_Kenway",
+      "commander_names": [
+        "Edward Kenway"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Edward_Kenway.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/edward-kenway.json",
+      "approved_source_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 18,
+      "deck_id": "Evelyn__the_Covetous",
+      "commander_names": [
+        "Evelyn, the Covetous"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Evelyn__the_Covetous.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/evelyn-the-covetous.json",
+      "approved_source_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 19,
+      "deck_id": "Fire_Lord_Azula",
+      "commander_names": [
+        "Fire Lord Azula"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Fire_Lord_Azula.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/fire-lord-azula.json",
+      "approved_source_sha256": "b6ef396641f2b5cfac0eb81fb494f21f3745e2a3fd47fa75d2eaadbdc34ddee5",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 20,
+      "deck_id": "Garza_Zol__Plague_Queen",
+      "commander_names": [
+        "Garza Zol, Plague Queen"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Garza_Zol__Plague_Queen.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/garza-zol-plague-queen.json",
+      "approved_source_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 21,
+      "deck_id": "Norman_Osborn_Green_Goblin",
+      "commander_names": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Norman_Osborn_Green_Goblin.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/norman-osborn.json",
+      "approved_source_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 22,
+      "deck_id": "Goro_Goro_and_Satoru",
+      "commander_names": [
+        "Goro-Goro and Satoru"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Goro_Goro_and_Satoru.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/goro-goro-and-satoru.json",
+      "approved_source_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 23,
+      "deck_id": "Grixistax___October_2026",
+      "commander_names": [
+        "Kraum, Ludevic's Opus",
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Grixistax___October_2026.json",
+      "designed_cases": 15,
+      "P0": 6,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+      "approved_source_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 24,
+      "deck_id": "Gwendlyn_Di_Corci",
+      "commander_names": [
+        "Gwendlyn Di Corci"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Gwendlyn_Di_Corci.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/gwendlyn-di-corci.json",
+      "approved_source_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 25,
+      "deck_id": "Inalla__Archmage_Ritualist",
+      "commander_names": [
+        "Inalla, Archmage Ritualist"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Inalla__Archmage_Ritualist.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/inalla-archmage-ritualist.json",
+      "approved_source_sha256": "81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 26,
+      "deck_id": "Jeleva__Nephalia_s_Scourge",
+      "commander_names": [
+        "Jeleva, Nephalia's Scourge"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Jeleva__Nephalia_s_Scourge.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/jeleva-nephalias-scourge.json",
+      "approved_source_sha256": "00e3f52118f5944684ebc49a5398acf8184f7ca878e861221e4c99931191bc2f",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 27,
+      "deck_id": "Kefka__Court_Mage",
+      "commander_names": [
+        "Kefka, Court Mage // Kefka, Ruler of Ruin"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Kefka__Court_Mage.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/kefka-court-mage.json",
+      "approved_source_sha256": "cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 28,
+      "deck_id": "Kess__Dissident_Mage",
+      "commander_names": [
+        "Kess, Dissident Mage"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Kess__Dissident_Mage.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/kess-dissident-mage.json",
+      "approved_source_sha256": "93d27d605bbdf0737ebe32c911fafe3a002b06d7d90f00b7bfc402cb1d3faccb",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 29,
+      "deck_id": "Loki__the_Deceiver",
+      "commander_names": [
+        "Loki, the Deceiver"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Loki__the_Deceiver.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/loki-the-deceiver.json",
+      "approved_source_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 30,
+      "deck_id": "Lord_Xander__the_Collector",
+      "commander_names": [
+        "Lord Xander, the Collector"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Lord_Xander__the_Collector.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/lord-xander-the-collector.json",
+      "approved_source_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 31,
+      "deck_id": "Lord_of_Tresserhorn",
+      "commander_names": [
+        "Lord of Tresserhorn"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Lord_of_Tresserhorn.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/lord-of-tresserhorn.json",
+      "approved_source_sha256": "95863276f38beff6b0cf7609041006a6f1de94d5e62c73d76551d6793ffa5b8e",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 32,
+      "deck_id": "Lynde__Cheerful_Tormentor",
+      "commander_names": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Lynde__Cheerful_Tormentor.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+      "approved_source_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 33,
+      "deck_id": "Mai_and_Zuko",
+      "commander_names": [
+        "Mai and Zuko"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Mai_and_Zuko.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/mai-and-zuko.json",
+      "approved_source_sha256": "aa2036f49f38e6503734d99c852acdfa704aa1b27e44bb26d6e9566a73a0d4a2",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 34,
+      "deck_id": "Mairsil__the_Pretender",
+      "commander_names": [
+        "Mairsil, the Pretender"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Mairsil__the_Pretender.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/mairsil-the-pretender.json",
+      "approved_source_sha256": "51e8fd18c7ded6744a4fa2f871925a0679f85dada3e6e517334bd13c07889ee5",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 35,
+      "deck_id": "Marchesa__Dealer_of_Death",
+      "commander_names": [
+        "Marchesa, Dealer of Death"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Marchesa__Dealer_of_Death.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/marchesa-dealer-of-death.json",
+      "approved_source_sha256": "34a6a940c54aaebde612ae5d3a244e22931d3a977fa26e4c43f2a76aafc0f6b1",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 36,
+      "deck_id": "Marchesa__the_Black_Rose",
+      "commander_names": [
+        "Marchesa, the Black Rose"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Marchesa__the_Black_Rose.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/marchesa-the-black-rose.json",
+      "approved_source_sha256": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 37,
+      "deck_id": "Mishra__Artificer_Prodigy",
+      "commander_names": [
+        "Mishra, Artificer Prodigy"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Mishra__Artificer_Prodigy.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/mishra-artificer-prodigy.json",
+      "approved_source_sha256": "9210aefa423dbe9cc69d18422c0d594cad6e5d0ee475d687b9f2278a2ca3b79d",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 38,
+      "deck_id": "Mishra__Eminent_One",
+      "commander_names": [
+        "Mishra, Eminent One"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Mishra__Eminent_One.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/mishra-eminent-one.json",
+      "approved_source_sha256": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 39,
+      "deck_id": "Missy",
+      "commander_names": [
+        "Missy"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Missy.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/missy.json",
+      "approved_source_sha256": "9ee63d81c07c3b43163e1356cbf264deb9021d0b776daf0a91b85d071aed5aed",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 40,
+      "deck_id": "Nathan_Drake__Treasure_Hunter",
+      "commander_names": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Nathan_Drake__Treasure_Hunter.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/nathan-drake-treasure-hunter.json",
+      "approved_source_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 41,
+      "deck_id": "Nekusar__the_Mindrazer",
+      "commander_names": [
+        "Nekusar, the Mindrazer"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Nekusar__the_Mindrazer.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/nekusar-the-mindrazer.json",
+      "approved_source_sha256": "bc36908fb2f848dfd69407a317d7da5811532dba7e3b4e7be89a2905d901c6f1",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 42,
+      "deck_id": "Nicol_Bolas",
+      "commander_names": [
+        "Nicol Bolas"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Nicol_Bolas.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/nicol-bolas.json",
+      "approved_source_sha256": "e47fdd5c31dce2d5b05e8fa8c217fe94caa16ef150057f98748254fc3c841617",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 43,
+      "deck_id": "Nicol_Bolas__the_Ravager",
+      "commander_names": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Nicol_Bolas__the_Ravager.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/nicol-bolas-the-ravager.json",
+      "approved_source_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 44,
+      "deck_id": "Obeka__Brute_Chronologist",
+      "commander_names": [
+        "Obeka, Brute Chronologist"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Obeka__Brute_Chronologist.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/obeka-brute-chronologist.json",
+      "approved_source_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 45,
+      "deck_id": "Obeka__Splitter_of_Seconds",
+      "commander_names": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Obeka__Splitter_of_Seconds.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+      "approved_source_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 46,
+      "deck_id": "Parnesse__the_Subtle_Brush",
+      "commander_names": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Parnesse__the_Subtle_Brush.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/parnesse-the-subtle-brush.json",
+      "approved_source_sha256": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 47,
+      "deck_id": "RogSi",
+      "commander_names": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "path": "data/grixis/m6/test_blueprints/RogSi.json",
+      "designed_cases": 17,
+      "P0": 6,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json",
+      "approved_source_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 48,
+      "deck_id": "Saruman__the_White_Hand",
+      "commander_names": [
+        "Saruman, the White Hand"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Saruman__the_White_Hand.json",
+      "designed_cases": 18,
+      "P0": 5,
+      "P1": 13,
+      "blueprint": "data/grixis/blueprints/saruman-the-white-hand.json",
+      "approved_source_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 49,
+      "deck_id": "Sauron__Lord_of_the_Rings",
+      "commander_names": [
+        "Sauron, Lord of the Rings"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Sauron__Lord_of_the_Rings.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/sauron-lord-of-the-rings.json",
+      "approved_source_sha256": "72a814e6ae1153507c9c1469a7792043b2e5c055d9e5fcd9f6cfcf7781e287b0",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 50,
+      "deck_id": "Sauron__the_Dark_Lord",
+      "commander_names": [
+        "Sauron, the Dark Lord"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Sauron__the_Dark_Lord.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/sauron-the-dark-lord.json",
+      "approved_source_sha256": "fab194f69a6e15b83679c1419f88ba6fdd56cd9527946cb94a6d8efe23a7dfc8",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 51,
+      "deck_id": "Sedris__the_Traitor_King",
+      "commander_names": [
+        "Sedris, the Traitor King"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Sedris__the_Traitor_King.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/sedris-the-traitor-king.json",
+      "approved_source_sha256": "65fbfe3eb64551ad6f5723243fcd62a286610c360e24bd700b584252e1da6365",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 52,
+      "deck_id": "Sol_kanar_the_Swamp_King",
+      "commander_names": [
+        "Sol'kanar the Swamp King"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Sol_kanar_the_Swamp_King.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/solkanar-the-swamp-king.json",
+      "approved_source_sha256": "7d39fff42b91263e83415feef1e69d048c54f8b4e2226b8430fb584076d19106",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 53,
+      "deck_id": "Sol_kanar_the_Tainted",
+      "commander_names": [
+        "Sol'Kanar the Tainted"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Sol_kanar_the_Tainted.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+      "approved_source_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 54,
+      "deck_id": "Tetsuo_Umezawa",
+      "commander_names": [
+        "Tetsuo Umezawa"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Tetsuo_Umezawa.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/tetsuo-umezawa.json",
+      "approved_source_sha256": "14ca66ceae4d634630a85aa1787731cfe840fd9fc2093bc37ad5dc17d1539ff6",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 55,
+      "deck_id": "Tetsuo__Imperial_Champion",
+      "commander_names": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Tetsuo__Imperial_Champion.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+      "approved_source_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 56,
+      "deck_id": "The_Madcap_Jester",
+      "commander_names": [
+        "The Madcap Jester"
+      ],
+      "path": "data/grixis/m6/test_blueprints/The_Madcap_Jester.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/the-madcap-jester.json",
+      "approved_source_sha256": "caeffc07503581cd3ecba798ebc4e09d48f07310f1f117ce3b90a04b5ca6bfa7",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 57,
+      "deck_id": "The_Rani",
+      "commander_names": [
+        "The Rani"
+      ],
+      "path": "data/grixis/m6/test_blueprints/The_Rani.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/the-rani.json",
+      "approved_source_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 58,
+      "deck_id": "The_Valeyard",
+      "commander_names": [
+        "The Valeyard"
+      ],
+      "path": "data/grixis/m6/test_blueprints/The_Valeyard.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/the-valeyard.json",
+      "approved_source_sha256": "4bef619a33d85eafaf194997924fc8378dd490f62c59d76bafccc4fa07ef821c",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 59,
+      "deck_id": "Thraximundar",
+      "commander_names": [
+        "Thraximundar"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Thraximundar.json",
+      "designed_cases": 13,
+      "P0": 5,
+      "P1": 8,
+      "blueprint": "data/grixis/blueprints/thraximundar.json",
+      "approved_source_sha256": "d4fa3421752a4d666528c5218aa18b240465c817dd160642c103b2de8c3f9442",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 60,
+      "deck_id": "Tresserhorn_s_Lord__Returned",
+      "commander_names": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Tresserhorn_s_Lord__Returned.json",
+      "designed_cases": 15,
+      "P0": 5,
+      "P1": 10,
+      "blueprint": "data/grixis/blueprints/tresserhorns-lord-returned.json",
+      "approved_source_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 61,
+      "deck_id": "Wick__the_Whorled_Mind",
+      "commander_names": [
+        "Wick, the Whorled Mind"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Wick__the_Whorled_Mind.json",
+      "designed_cases": 14,
+      "P0": 5,
+      "P1": 9,
+      "blueprint": "data/grixis/blueprints/wick-the-whorled-mind.json",
+      "approved_source_sha256": "f4556840dc8f7a8e1d532b73652d0035592b52b86adbbad6ed8fbe4270341e98",
+      "registry_raw_matches": true
+    },
+    {
+      "position": 62,
+      "deck_id": "Zevlor__Elturel_Exile",
+      "commander_names": [
+        "Zevlor, Elturel Exile"
+      ],
+      "path": "data/grixis/m6/test_blueprints/Zevlor__Elturel_Exile.json",
+      "designed_cases": 16,
+      "P0": 5,
+      "P1": 11,
+      "blueprint": "data/grixis/blueprints/zevlor-elturel-exile.json",
+      "approved_source_sha256": "d2ea6ed8e42ec512b6a6ae7162da8c17b26494b45a9ff6d0c38882c202a42dc9",
+      "registry_raw_matches": true
+    }
+  ],
+  "shared_mechanic_module_candidates": {
+    "stack_copy_cast_vs_copy": {
+      "purpose": "Copy spells, distinguish cast triggers, targets, storm count, mana paid for additional costs",
+      "examples": [
+        "Anhelo__the_Painter",
+        "Fire_Lord_Azula",
+        "Parnesse__the_Subtle_Brush",
+        "Zevlor__Elturel_Exile",
+        "Mai_and_Zuko"
+      ]
+    },
+    "combat_damage_and_attack_triggers": {
+      "purpose": "Multi-source damage, evasion, attack triggers and combat timing, required damage to SAME opponent",
+      "examples": [
+        "Admiral_Beckett_Brass",
+        "Edward_Kenway",
+        "Goro_Goro_and_Satoru",
+        "Tetsuo__Imperial_Champion",
+        "Thraximundar"
+      ]
+    },
+    "activated_caged_object_rules": {
+      "purpose": "Object identity, acquired activated restrictions, cage/exile zones, fresh objects and copy limitations",
+      "examples": [
+        "Mairsil__the_Pretender"
+      ]
+    },
+    "artifact_copy_sacrifice_control": {
+      "purpose": "Artifact token copy, legendary/nonlegendary changes, sacrificed artifacts and activation frequency",
+      "examples": [
+        "Ashnod_the_Uncaring",
+        "Mishra__Eminent_One",
+        "Mishra__Artificer_Prodigy",
+        "Dr__Eggman"
+      ]
+    },
+    "dies_reanimation_and_replacement": {
+      "purpose": "Death triggers vs exile/replacement, finality counters and reanimated ownership",
+      "examples": [
+        "Marchesa__the_Black_Rose",
+        "Sedris__the_Traitor_King",
+        "Missy",
+        "Admiral_Brass__Unsinkable"
+      ]
+    },
+    "exile_cast_owner_control": {
+      "purpose": "Exile permission, spell timing, may-cast restrictions, color costs and opponent card ownership",
+      "examples": [
+        "Jeleva__Nephalia_s_Scourge",
+        "Evelyn__the_Covetous",
+        "The_Madcap_Jester",
+        "Don_Andres__the_Renegade"
+      ]
+    },
+    "end_step_and_upkeep_extra_triggers": {
+      "purpose": "Multiple end steps, upkeep trigger multiplicity, delayed/sacrifice triggers and end-turn timing",
+      "examples": [
+        "Obeka__Splitter_of_Seconds",
+        "Obeka__Brute_Chronologist",
+        "Lynde__Cheerful_Tormentor",
+        "Sol_kanar_the_Tainted"
+      ]
+    },
+    "discard_wheel_mill": {
+      "purpose": "Hand discard, draw/mill ownership, replacement/prevention and multiplayer per-player attribution",
+      "examples": [
+        "Nekusar__the_Mindrazer",
+        "Lord_Xander__the_Collector",
+        "Gwendlyn_Di_Corci",
+        "Nicol_Bolas"
+      ]
+    },
+    "transform_modes_counters": {
+      "purpose": "Casting transform faces, activated transforms, commander zone replacement and mode reset",
+      "examples": [
+        "Nicol_Bolas__the_Ravager",
+        "Kefka__Court_Mage",
+        "Norman_Osborn_Green_Goblin",
+        "Sol_kanar_the_Tainted"
+      ]
+    },
+    "multi_commander_partner_companion": {
+      "purpose": "Partner identities, separate commander tax and command zone, officially banned companion project exceptions",
+      "examples": [
+        "Cecily__Bjorna__Lutri",
+        "Grixistax___October_2026",
+        "RogSi"
+      ]
+    },
+    "cast_from_graveyard_storm": {
+      "purpose": "Graveyard-cast permissions, cost payment, once/turn limits and stack countering",
+      "examples": [
+        "Kess__Dissident_Mage",
+        "Cormela__Glamour_Thief",
+        "Inalla__Archmage_Ritualist"
+      ]
+    },
+    "choices_random_modal": {
+      "purpose": "Opponent choices, ordering and random selections, modal effect tracking",
+      "examples": [
+        "Cult_of_Skaro",
+        "Davros__Dalek_Creator",
+        "The_Valeyard",
+        "The_Rani"
+      ]
+    }
+  },
+  "priority_policy": {
+    "P0": "Source Oracle ability, top three interaction rules, first failure red team (plus a commander for partner if applicable)",
+    "P1": "Other key interactions, documented engine loops, finish conditions and secondary failure modes",
+    "run_order": [
+      "reconcile current canonical 100 and Oracle, with documented project exceptions",
+      "reuse existing generic foundation suites and any already proven family adapter",
+      "implement and execute P0 cases with real physical source payment, trigger/priority and negative witnesses",
+      "only implement remaining P1 cases if material to candidate conclusion or risk",
+      "record checked evidence and owner judgment before M6 certification; no automatic swap"
+    ]
+  },
+  "restrictions": {
+    "no_tests_run": true,
+    "no_case_counts_as_passing": true,
+    "blueprint_rulings_need_independent_current_verification": true,
+    "source_line_count_is_not_quantity_weighted_card_count": true,
+    "legacy_alias_and_source_hash_conflicts_must_be_reconciled": true,
+    "no_git_workflow_or_pr_trigger_created": true,
+    "owner_pass_c_waiver_preserved": true,
+    "canonical_repo_unchanged": true
+  }
+}
