@@ -1,0 +1,185 @@
+{
+  "deck_id": "Admiral_Beckett_Brass",
+  "captured_at_utc_date": "2026-10-22",
+  "source": "Live Scryfall API /cards/named?exact= with explicit Accept and User-Agent headers; 14 sequential lookups including W01 power/toughness confirmation, 2026-10-22",
+  "purpose": "Only E01/E02/W01/F02 finite P1 rules and cost fixtures; not a whole-list M7 certification",
+  "canonical_approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "cards": {
+    "Changeling Outcast": {
+      "oracle_id": "a61ef0cc-1da9-49f9-b0dc-01cf9f6205be",
+      "mana_cost": "{B}",
+      "type_line": "Creature — Shapeshifter",
+      "oracle_text": "Changeling (This card is every creature type.)\nThis creature can't block and can't be blocked.",
+      "power": "1",
+      "toughness": "1",
+      "color_identity": ["B"],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/ab499df5-ed76-43ad-81b3-70afd0487ccd"
+    },
+    "Bident of Thassa": {
+      "oracle_id": "e1afaef7-9fa3-4662-a95f-adfb0da9fd11",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Legendary Enchantment Artifact",
+      "oracle_text": "Whenever a creature you control deals combat damage to a player, you may draw a card.\n{1}{U}, {T}: Creatures your opponents control attack this turn if able.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/94751d5e-7693-44af-b1b5-e440677dc7a2"
+    },
+    "Kindred Discovery": {
+      "oracle_id": "005ee549-1bf5-478f-bc3f-3e791bd7eecf",
+      "mana_cost": "{3}{U}{U}",
+      "type_line": "Enchantment",
+      "oracle_text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/19bdedb2-768b-4adf-8193-917a10c8f729"
+    },
+    "Malcolm, Keen-Eyed Navigator": {
+      "oracle_id": "a66f8b44-0163-4456-b152-4acefab896a4",
+      "mana_cost": "{2}{U}",
+      "type_line": "Legendary Creature — Siren Pirate",
+      "oracle_text": "Flying\nWhenever one or more Pirates you control deal damage to your opponents, you create a Treasure token for each opponent dealt damage. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nPartner (You can have two commanders if both have partner.)",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/51187cdb-85ee-4f68-9e29-d84d296f0825"
+    },
+    "Breeches, Brazen Plunderer": {
+      "oracle_id": "eb77f7dc-e9e4-44ef-8616-9f4e737e8ca5",
+      "mana_cost": "{3}{R}",
+      "type_line": "Legendary Creature — Goblin Pirate",
+      "oracle_text": "Menace\nWhenever one or more Pirates you control deal damage to your opponents, exile the top card of each of those opponents' libraries. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nPartner (You can have two commanders if both have partner.)",
+      "power": "3",
+      "toughness": "3",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/fb6dc94e-9b57-4161-a835-15e46c3bb13a"
+    },
+    "Ramirez DePietro, Pillager": {
+      "oracle_id": "a3b8690e-ac47-444f-924e-ab2a12a85431",
+      "mana_cost": "{2}{U}{B}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "When Ramirez DePietro enters, you lose 2 life and create two Treasure tokens.\nWhenever one or more Pirates you control deal combat damage to a player, exile the top card of that player's library. You may cast that card for as long as it remains exiled.",
+      "power": "4",
+      "toughness": "3",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/11a4e199-faa9-4c41-863d-92170c8f20cc"
+    },
+    "Captain Lannery Storm": {
+      "oracle_id": "235bf0ba-658c-463f-b112-7478ba27bd7b",
+      "mana_cost": "{2}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/60a457e2-6cc7-47f0-9a24-df5459395358"
+    },
+    "Admiral Brass, Unsinkable": {
+      "oracle_id": "4df179b4-7c6b-4e63-9d7d-62f4df377989",
+      "mana_cost": "{2}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "When Admiral Brass enters, mill four cards.\nAt the beginning of combat on your turn, you may return target Pirate creature card from your graveyard to the battlefield with a finality counter on it. It has base power and toughness 4/4. It gains haste until end of turn. (If a creature with a finality counter on it would die, exile it instead.)",
+      "power": "3",
+      "toughness": "3",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/bdc2d492-9d1e-4543-8b9c-c66ee67992ce"
+    },
+    "Toxic Deluge": {
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "mana_cost": "{2}{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/de5afccc-8d42-4bd6-b068-b9ea2361655e"
+    },
+    "Daring Piracy": {
+      "oracle_id": "ae74efc6-4649-4783-a3a5-7a34d4667f64",
+      "mana_cost": "{2}{R}",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of combat on your turn, create a 1/1 red Pirate creature token with menace and haste. Exile it at the beginning of the next end step.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/ec6ce176-a4f3-44dd-b66a-a23b6cf512e4"
+    },
+    "Fathom Fleet Captain": {
+      "oracle_id": "7bcf3090-95c6-4384-a857-9fe571e6da85",
+      "mana_cost": "{1}{B}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Menace\nWhenever this creature attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
+      "power": "2",
+      "toughness": "1",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/7374d12c-6a0a-457a-b7b8-5aaf3c11e009"
+    },
+    "Corsair Captain": {
+      "oracle_id": "a7ec13c6-7ade-433a-b5a2-047854eef486",
+      "mana_cost": "{2}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "When this creature enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nOther Pirates you control get +1/+1.",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/d5017dbc-07fd-45ea-9629-7c584144e8be"
+    },
+    "Storm Fleet Sprinter": {
+      "oracle_id": "8d244f4a-1d62-4697-81c7-fbc4de874add",
+      "mana_cost": "{1}{U}{R}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Haste\nThis creature can't be blocked.",
+      "power": "2",
+      "toughness": "2",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/41ad8525-7618-4c2b-8037-46f53dd42ee0"
+    },
+    "Spyglass Siren": {
+      "oracle_id": "4ec9d9eb-14e2-47ea-88a2-d2394e363784",
+      "mana_cost": "{U}",
+      "type_line": "Creature — Siren Pirate",
+      "oracle_text": "Flying\nWhen this creature enters, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")",
+      "power": "1",
+      "toughness": "1",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "api_uri": "https://api.scryfall.com/cards/41e54343-95e5-4dc4-9f18-e4a415fe5e0a"
+    }
+  }
+}
