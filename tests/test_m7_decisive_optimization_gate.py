@@ -88,7 +88,7 @@ class M7DecisionGateTests(unittest.TestCase):
                 "current_canonical_hash": "lh1:" + "b"*64}}}
         weak_slots = [weak(n, CANDIDATE_NAMES[i]) for i, n in enumerate(BASE_NAMES[:5])]
         candidates = [candidate(name, BASE_NAMES[i], "SELECT_ADD" if i == 0 else "REJECT")
-                      for i, name in enumerate(CANDIDATE_NAMES)]
+                      for i, name in enumerate(CANDIDATE_NAMES[:5])]
         self.packet = {
             "schema_version": 1,
             "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
