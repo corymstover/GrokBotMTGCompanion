@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_M6_P0_030_BLOODLETTER_SOLPHIM_THRESHOLD_REPLACEMENTS",
+  "date": "2026-10-22",
+  "source_branch_base": "1f5fed73801fc7e53f970bb66495d977fe181dce",
+  "approved_canonical_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_path": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle_sources": [
+    "https://magic.wizards.com/en/news/feature/the-lost-caverns-of-ixalan-release-notes",
+    "https://scryfall.com/card/one/150/solphim-mayhem-dominus",
+    "https://scryfall.com/card/fdn/79/boltwave",
+    "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19"
+  ],
+  "oracle_assumptions": [
+    "Bloodletter replaces opponent LIFE LOSS only during your turn, not the underlying damage value.",
+    "Solphim replaces source-controlled NONCOMBAT DAMAGE to an opponent or their permanent; here only opponent damage is tested.",
+    "Damage ordinarily causes equivalent life loss before Bloodletter applies; prevention prevents damage and that downstream loss.",
+    "Abaddon X counts cumulative life lost by all opponents this turn and grants cascade only to qualifying hand casts during your turn.",
+    "Loyal Subordinate's beginning-of-combat three-life loss is direct life loss, not damage; controller must control commander.",
+    "Thermo-Alchemist source on opponent turn assumed controlled since earlier turn; tap activation is legal with no summoning sickness."
+  ],
+  "fixture": "Exact source 99-card multiset from the unchanged physical selected M7 candidate, commander separate, every physical source in one of library/hand/battlefield/stack/graveyard/exile. Boltwave {R} and Ignus {2}{R} pay with distinct actual source basic lands; other permanents are explicit conditional established-board fixtures, not assumed early-game probabilities.",
+  "decision_relevance": "Bloodletter and Solphim are in all five physical Abaddon lists. Their distinct damage/life-loss replacements alter threshold eligibility for a source-paid hand-cast Ignus and other actual cascade triggers. Prior 95 P0 tests did not directly exercise either replacement source.",
+  "cases": [
+    {
+      "id": "plain_paid_boltwave_x9",
+      "registry_id": "P0-030a",
+      "expected": "Physically spend {R} from an untapped Mountain for Boltwave: three opponents each take 3 noncombat damage/lose 3 life, total Abaddon X=9 without doublers."
+    },
+    {
+      "id": "solphim_doubles_damage_x18",
+      "registry_id": "P0-030b",
+      "expected": "With source-present Solphim, each opponent receives 6 actual damage and loses 6 life, Abaddon X=18; Solphim is not a direct life-loss replacement."
+    },
+    {
+      "id": "bloodletter_doubles_loss_not_damage",
+      "registry_id": "P0-030c",
+      "expected": "With source-present Bloodletter and no Solphim during controller turn, each opponent takes 3 damage but loses 6 life; X=18, damage remains 3."
+    },
+    {
+      "id": "both_replacements_x36_once",
+      "registry_id": "P0-030d",
+      "expected": "With both source-present distinct replacement effects during controller turn, Boltwave deals 6 damage and causes 12 life loss per opponent, X=36; each effect applies once."
+    },
+    {
+      "id": "loyal_loss_only_bloodletter",
+      "registry_id": "P0-030e",
+      "expected": "Loyal Subordinate combat-start loss 3 each with Abaddon controlled becomes 6 each with Bloodletter; Solphim cannot double non-damage direct loss."
+    },
+    {
+      "id": "prevent_one_opponent_damage",
+      "registry_id": "P0-030f",
+      "expected": "One opponent has a prevention shield for the entire Boltwave event, so despite both doublers this opponent loses 0; other opponents lose 12 each, total X=24."
+    },
+    {
+      "id": "countered_boltwave_no_resolved_damage",
+      "registry_id": "P0-030g",
+      "expected": "Paid Boltwave countered before resolution stays in graveyard but deals no damage and generates no opponent loss; Abaddon X remains zero."
+    },
+    {
+      "id": "opponent_turn_solphim_only",
+      "registry_id": "P0-030h",
+      "expected": "Existing Thermo-Alchemist may tap on an opponent's turn for source-controlled noncombat one damage each; Solphim makes 2 damage/loss each, Bloodletter off-turn does not replace, Abaddon grants no cascade."
+    },
+    {
+      "id": "paid_ignus_after_x36_cascade_snapshot",
+      "registry_id": "P0-030i",
+      "expected": "After fully resolving doubled paid Boltwave, source-paid {2}{R} Grinning Ignus hand cast with three different previously untapped physical lands earns one granted Abaddon cascade at recorded X36; subsequently removing Bloodletter cannot undo that cast trigger."
+    }
+  ],
+  "budget": {
+    "new_methods": 9,
+    "randomized_trials": 0,
+    "physical_100_card_variants": 1,
+    "stop_rule": "Run exactly nine independent deterministic conditional fixtures plus existing 95-name replay once; stop after named assertions and CI, no broad new simulation."
+  },
+  "boundaries": {
+    "not_modeled": [
+      "Opponent deck distribution or preventive enchantment prevalence",
+      "All 99 actual card effects or multiplayer outcome",
+      "Full mana-base probability and win rate"
+    ],
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_i": "BLOCKED",
+    "m6_j": "BLOCKED",
+    "m7_owner_approval": false,
+    "canonical_changed": false
+  }
+}
