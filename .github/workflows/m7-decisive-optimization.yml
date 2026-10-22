@@ -28,6 +28,8 @@ on:
       - scripts/grixis_m6_abaddon_p0_replay.py
       - scripts/grixis_m6_abaddon_preflight.py
       - tests/test_m6_abaddon_preflight.py
+      - scripts/grixis_m6_abaddon_i_blocked.py
+      - tests/test_m6_abaddon_i_blocked.py
       - data/grixis/m6/certification_preflight/**
       - data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json
@@ -108,6 +110,17 @@ jobs:
         with:
           name: abaddon-m6-precert-${{ github.event.pull_request.head.sha || github.sha }}
           path: ${{ runner.temp }}/abaddon-m6-precert-integrity.json
+          if-no-files-found: error
+          retention-days: 60
+      - name: Confirm explicitly BLOCKED M6 I certificate matches unresolved P0 and unapproved options
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_i_blocked.py' -v
+      - name: Generate schema-valid but non-certifying Abaddon M6 I blocked receipt
+        run: python -m scripts.grixis_m6_abaddon_i_blocked --out "${{ runner.temp }}/abaddon-m6-i-blocked.json"
+      - name: Preserve truthful BLOCKED M6 I receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-m6-i-blocked-${{ github.event.pull_request.head.sha || github.sha }}
+          path: ${{ runner.temp }}/abaddon-m6-i-blocked.json
           if-no-files-found: error
           retention-days: 60
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
