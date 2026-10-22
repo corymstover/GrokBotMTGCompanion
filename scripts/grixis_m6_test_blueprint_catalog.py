@@ -33,9 +33,10 @@ def plan_cases(document):
             raise ValueError("Malformed effect case")
         case_id=obj.get("case_id",obj.get("id",obj.get("test_id")))
         anchor=obj.get("source_ref",obj.get("source",obj.get("source_anchor")))
-        claim=obj.get("source_predicate_to_verify",obj.get("expected_claim_to_verify",
+        claim=obj.get("source_predicate_to_verify",obj.get("source_derived_claim_to_verify",
+                    obj.get("expected_claim_to_verify",
                     obj.get("oracle_or_blueprint_claim_pending_verification",
-                    obj.get("expected_result_status",""))))
+                    obj.get("expected_result_status","")))))
         if not case_id or not isinstance(anchor,str) or not anchor.startswith("blueprint:"):
             raise ValueError("Every effect case needs a unique ID and source anchor")
         if obj.get("priority") not in ALLOWED_PRIORITIES:
