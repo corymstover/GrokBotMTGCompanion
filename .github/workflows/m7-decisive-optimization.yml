@@ -18,6 +18,9 @@ on:
       - tests/test_m7_decisive_optimization_gate.py
       - tests/test_m7_abaddon_research_challengers.py
       - tests/test_m7_abaddon_oracle_erratum_v2.py
+      - tests/test_m6_abaddon_lost_keeper_effect.py
+      - data/grixis/m6/phase_b_plans/abaddon_lost_keeper_effect_20261022.json
+      - data/grixis/m6/phase_b_bounded/abaddon_lost_keeper_effect_20261022.md
   workflow_dispatch:
 
 permissions:
@@ -42,6 +45,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_research_challengers.py' -v
       - name: Enforce corrected Abaddon Oracle source facts and four exact v2 challengers
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_oracle_erratum_v2.py' -v
+      - name: Test exact physical Ignus cascade Lost/Keeper response and fetch payoffs
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_lost_keeper_effect.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
