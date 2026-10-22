@@ -37,9 +37,9 @@
     "merged_sha": "f96de9ed28cf6f51f162451eea1859504fa84f71"
   },
   "explicit_still_open": [
-    "Execute seven preregistered Delayed/Jeskas/Familiar physical tests; currently PENDING exact-head CI.",
-    "After completion, adjudicate whether any material 70-name P0/P1 need remains and whether M6.6/M6.7 have sufficient finite evidence. Full 99-card game interpreter is not required by the decision-first standard.",
-    "I tested-pool and J reproducibility have their own independent, still blocked requirements. No automatic owner approval or milestone certification."
+    "No new material named Abaddon P0/P1 mechanical case is currently identified from this reconciled 70-source-name set. New discovered exact Oracle contradiction reopens gate.",
+    "Relevant P1 non-execution dispositions include unobservable opponent-library/creature metagame distributions, generic stack/card-access variations and complete multiplayer victory rates. None is represented as a passed test or a statistically proved optimum.",
+    "M6 I tested-pool local-optimum certificate and final J reproducibility bundle are separate uncompleted artifacts; M6.10 owner acceptance and all M7 exact approvals remain blocked."
   ],
   "disposition_counts": {
     "REUSE_EXISTING_EVIDENCE_AND_AUTHORED_JUDGMENT": 3,
@@ -47,7 +47,7 @@
     "P1_DEFER_NO_UNIQUE_CASE": 28,
     "P1_DEFER_SHARED_MANA": 9,
     "P1_DEFER_SHARED_STACK_FIXTURES": 9,
-    "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567": 3,
+    "P1_EXECUTED_PASS_EXACT_HEAD_PR_567": 3,
     "P1_EXECUTED_PASS_EXACT_HEAD_PR_566": 5
   },
   "rows": [
@@ -150,8 +150,8 @@
     {
       "name": "Delayed Blast Fireball",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567",
-      "reason": "Its different damage when cast from exile and foretell permission are decision-relevant: require dedicated source-paid exile-cast fixture or existing exact equivalent before M6.6 closure. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_567",
+      "reason": "Its different damage when cast from exile and foretell permission are decision-relevant: require dedicated source-paid exile-cast fixture or existing exact equivalent before M6.6 closure. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven. All seven finite conditional source-paid methods executed and passed on GitHub PR #567 head; this is bounded mechanics not an empirical 100-card win comparison."
     },
     {
       "name": "Demonic Tutor",
@@ -228,8 +228,8 @@
     {
       "name": "Jeska's Will",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567",
-      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_567",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven. All seven finite conditional source-paid methods executed and passed on GitHub PR #567 head; this is bounded mechanics not an empirical 100-card win comparison."
     },
     {
       "name": "Kessig Flamebreather",
@@ -294,8 +294,8 @@
     {
       "name": "Nightscape Familiar",
       "importance": "HIGH",
-      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI_PR_567",
-      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven."
+      "disposition": "P1_EXECUTED_PASS_EXACT_HEAD_PR_567",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line. Seven further physical source-paid fixtures preregistered in tests/test_m6_abaddon_remaining_p1.py; execution not yet proven. All seven finite conditional source-paid methods executed and passed on GitHub PR #567 head; this is bounded mechanics not an empirical 100-card win comparison."
     },
     {
       "name": "Noise Marine",
@@ -472,7 +472,7 @@
       "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
     }
   ],
-  "certification_status": "M6_6_PARTIAL_M6_7_PARTIAL_NO_M6_I_J",
+  "certification_status": "ABADDON_M6_6_M7_QUALITATIVE_GATE_ADJUDICATION_SUBJECT_TO_FORMAL_INTEGRATION_NO_M6_I_J",
   "canonical_modified": false,
   "further_p1_preregistered": {
     "path": "tests/test_m6_abaddon_remaining_p1.py",
@@ -487,11 +487,15 @@
     ],
     "randomized_trials": 0,
     "physical_99_conservation": true,
-    "execution_status": "PENDING_EXACT_HEAD_PR_CI",
+    "execution_status": "EXACT_HEAD_PASS_PR_567_ACTIONS_39819765932",
     "oracle_sources": [
       "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-release-notes",
       "https://scryfall.com/card/clb/676/delayed-blast-fireball",
       "https://scryfall.com/card/dmr/94/nightscape-familiar"
-    ]
-  }
+    ],
+    "exact_head_sha": "fb5a4a7e56e9b428304274045d8a9f16d71f789a",
+    "merged_sha": "ad6c76780c262e4a33b74ce3da3a6f46ea0de6d9"
+  },
+  "residual_p1_executed_cases": 14,
+  "residual_p1_successful_exact_heads": 2
 }

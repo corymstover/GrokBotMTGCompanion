@@ -16,8 +16,8 @@
     "m6_5": "COMPLETE"
   },
   "last_confirmed_m6_gates": {
-    "M6_6": "PARTIAL",
-    "M6_7": "PARTIAL",
+    "M6_6": "ABADDON_COMPLETE_AGGREGATE_PARTIAL_1_OF_62",
+    "M6_7": "ABADDON_COMPLETE_AGGREGATE_PARTIAL_1_OF_62",
     "M6_8": "BLOCKED",
     "M6_9": "BLOCKED",
     "M6_10": "BLOCKED"
@@ -64,7 +64,7 @@
     "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
     "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
   ],
-  "next_engineering_action": "Verify PR 567 seven further source-paid P1 fixtures with exact-head Actions and merge only on success. Then determine whether any genuinely mandatory P0/P1 remains beyond the now individually triaged 70; decide M6.6/M6.7 on proof, and build I/J only if complete without inventing a universal Magic interpreter. Preserve approved canonical SHA and owner-only final approval.",
+  "next_engineering_action": "Construct and actually validate Abaddon M6 I tested-pool local-optimum certificate for SELECTED 100-card challenger (not the protected baseline) and M6 J final source-reproducibility bundle with saved exact Oracle/rules snapshots and immutable evidence. If tests or source snapshots are insufficient, preserve BLOCKED. Do not reopen earlier 104+14 proven finite cases or make more broad simulations. Only then present final exact 100 to Cory for explicit M7 approval.",
   "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
   "separate_future_backlog": {
     "pr": 535,
@@ -167,7 +167,24 @@
         "Jeska's Will",
         "Nightscape Familiar"
       ],
-      "execution": "PENDING_EXACT_HEAD_PR_567"
-    }
+      "execution": "EXACT_HEAD_PASS_PR_567_ACTIONS_39819765932",
+      "head": "fb5a4a7e56e9b428304274045d8a9f16d71f789a",
+      "merged_sha": "ad6c76780c262e4a33b74ce3da3a6f46ea0de6d9"
+    },
+    "total_p1_executed_passed": 14,
+    "new_material_p0_unexecuted": 0,
+    "remaining_70_named_relevance_audited": 70
+  },
+  "latest_gate_adjudication": {
+    "source": "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
+    "m6_6": "COMPLETE_DECISION_SCOPED_ABADDON_ONLY",
+    "m6_7": "COMPLETE_DECISION_SCOPED_ABADDON_ONLY",
+    "m6_i": "BLOCKED",
+    "m6_j": "BLOCKED",
+    "formal_m6_certified": false,
+    "new_m7_owner_approved": false,
+    "canonical_approved_unchanged": true,
+    "all_99_effects_proven": false,
+    "nonindependent_pass_c_provenance": true
   }
 }
