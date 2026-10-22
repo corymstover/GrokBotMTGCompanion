@@ -12,7 +12,29 @@ import json
 from pathlib import Path
 import unittest
 
-from scripts.grixis_m7_decision_gate import parse_list
+
+def parse_list(path):
+    """Standalone physical fixture reader; no dependency on JSON-schema M7 gate."""
+    cards = []
+    commanders = []
+    companions = []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        amount_text, raw = line.split("x ", 1)
+        amount = int(amount_text)
+        role = "Commander" if raw.endswith(" [Commander]") else ""
+        name = raw.removesuffix(" [Commander]")
+        cards.extend([name] * amount)
+        if role == "Commander":
+            commanders.extend([name] * amount)
+    if len(cards) != 100 or not commanders or cards[0] != commanders[0]:
+        raise ValueError("Expected exactly 100 cards with commander first")
+    for name, quantity in Counter(cards).items():
+        if quantity > 1 and name not in {"Island", "Mountain", "Swamp"}:
+            raise ValueError(f"Illegal Admiral fixture repeat: {name}")
+    return cards, commanders, companions
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RESEARCH = ROOT / "data/grixis/m7/research_challengers"
