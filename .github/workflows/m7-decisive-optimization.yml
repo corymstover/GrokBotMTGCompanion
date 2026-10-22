@@ -15,6 +15,7 @@ on:
       - data/grixis/m7/owner_approvals/**
       - data/grixis/m7/candidate_lists/**
       - data/grixis/m7/research_challengers/**
+      - tests/test_m7_admiral_edhrec_stage4_packages.py
       - tests/test_m7_admiral_edhrec_inclusion_lift.py
       - tests/test_m7_admiral_post_floor_oracle_paid_effects.py
       - tests/test_m7_admiral_unbounded_stage1.py
@@ -100,6 +101,8 @@ jobs:
           python-version: '3.13'
       - name: Install offline structural schema validator
         run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Verify 8/9-swap EDHREC full-100 research options and finite adverse combat
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_edhrec_stage4_packages.py' -v
       - name: Verify Admiral EDHREC discovery beyond original candidate pools
         run: python -m unittest discover -s tests -p 'test_m7_admiral_edhrec_inclusion_lift.py' -v
       - name: Verify Admiral post-floor eleven sourced cards and paid combat effects
