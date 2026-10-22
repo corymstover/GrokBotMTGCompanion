@@ -18,6 +18,7 @@ from grixis_m6_abaddon_assault_access import frozen_source, play_land, LANDS_KNO
 from grixis_m6_abaddon_chronological_engine import physical_payment
 
 PLAN = ROOT / "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json"
+SENSITIVITY_PLAN = ROOT / "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_otawara_policy_20261021.json"
 STAX = {
     "Rule of Law": {"zone_type":"enchantment","spell_limit":True,"from_exile_block":False},
     "Arcane Laboratory": {"zone_type":"enchantment","spell_limit":True,"from_exile_block":False},
@@ -140,7 +141,7 @@ def available_hand_answer(landfield,hand,answer):
                             source_cost_override=COSTS[answer]) is not None
 
 
-def trial(cards, seed,checkpoints):
+def trial(cards, seed, checkpoints, policy="land_first_as_original"):
     deck=list(cards)
     if len(deck)!=99:
         raise ValueError("Physical library count wrong")
@@ -149,10 +150,22 @@ def trial(cards, seed,checkpoints):
     lands=[]
     result={}
     searches=0
+    reserved_land_drops_skipped=0
+    if policy not in ("land_first_as_original","reserve_otawara_for_channel"):
+        raise ValueError("Unknown fixed land policy")
     for turn in range(1,max(checkpoints)+1):
         lands=[(n,False) for n,_ in lands]
         hand.append(deck.pop(0))
-        n,_=play_land(hand,deck,lands,seed,turn)
+        if policy=="reserve_otawara_for_channel" and "Otawara, Soaring City" in hand:
+            saved_index=hand.index("Otawara, Soaring City")
+            hand.pop(saved_index)
+            had_other_land=any(n in LANDS_KNOWN for n in hand)
+            n,played=play_land(hand,deck,lands,seed,turn)
+            hand.insert(saved_index,"Otawara, Soaring City")
+            if not had_other_land and played is None:
+                reserved_land_drops_skipped+=1
+        else:
+            n,_=play_land(hand,deck,lands,seed,turn)
         searches+=n
         if turn not in checkpoints:
             continue
@@ -168,23 +181,32 @@ def trial(cards, seed,checkpoints):
             "at_least_one_payable_answer":warp_payable or channel_payable,
             "no_answer_held":not warp_held and not channel_held,
         }
-    return result,searches
+    return result, searches, reserved_land_drops_skipped
 
 
 def run():
     plan,variants=frozen_variants()
     checks=plan["matched_draw_source_opportunity"]["checkpoints"]
     n=plan["matched_draw_source_opportunity"]["n_per_variant"]
-    seen={name:{str(t):Counter() for t in checks} for name in variants}
-    searches=Counter()
+    sensitivity=json.loads(SENSITIVITY_PLAN.read_text(encoding="utf-8"))
+    policies=sensitivity["policies"]
+    if policies!=["land_first_as_original","reserve_otawara_for_channel"]:
+        raise ValueError("Preregistered land-policy roster drift")
+    if sensitivity["matched_physical_seed"]!=plan["matched_draw_source_opportunity"]["seed"] or sensitivity["n_per_variant"]!=n:
+        raise ValueError("Sensitivity policy seed/sample drift")
+    by_policy={policy:{name:{str(t):Counter() for t in checks} for name in variants} for policy in policies}
+    searches={policy:Counter() for policy in policies}
+    reserve_skips={policy:Counter() for policy in policies}
     for i in range(n):
         seed=plan["matched_draw_source_opportunity"]["seed"]+i*104729
-        for name,cards in variants.items():
-            r,s=trial(cards,seed,checks)
-            searches[name]+=s
-            for t,row in r.items():
-                for key,value in row.items():
-                    seen[name][str(t)][key]+=int(value)
+        for policy in policies:
+            for name,cards in variants.items():
+                r,s,skipped=trial(cards,seed,checks,policy)
+                searches[policy][name]+=s
+                reserve_skips[policy][name]+=skipped
+                for t,row in r.items():
+                    for key,value in row.items():
+                        by_policy[policy][name][str(t)][key]+=int(value)
     rules={
         "rol_warp_first_spell":response_window("Rule of Law","Chaos Warp"),
         "rol_warp_after_one_spell":response_window("Rule of Law","Chaos Warp",spells_already_cast=1),
@@ -207,8 +229,15 @@ def run():
         "seed":plan["matched_draw_source_opportunity"]["seed"],
         "checkpoints":checks,
         "physical_variants":{name:{t:dict(sorted(counts.items())) for t,counts in turn.items()}
-                             for name,turn in seen.items()},
-        "search_shuffles":dict(searches),
+                             for name,turn in by_policy["land_first_as_original"].items()},
+        "policy_sensitivity_preregistration":str(SENSITIVITY_PLAN.relative_to(ROOT)),
+        "policy_sensitivity":{
+            policy:{name:{t:dict(sorted(counts.items())) for t,counts in turn.items()}
+                     for name,turn in by_policy[policy].items()} for policy in policies
+        },
+        "search_shuffles":{policy:dict(x) for policy,x in searches.items()},
+        "reserved_land_drops_skipped":{policy:dict(x) for policy,x in reserve_skips.items()},
+        "policy_bias_notice":"The land-first baseline's zero retained Otawara opportunities comes from automatically consuming it as a land, not from absence of an on-deck channel answer. Compare reserved-in-hand policy for conditional resolved-stax defense.",
         "scenario_outcomes":rules,
         "source_verified_errata":{
             "The Lost and the Damned":{"mana_cost":"{1}{U}{R}","mana_value":3,"baseline_cut_value_not_scored_zero":True},
@@ -234,8 +263,10 @@ def main():
     d=run()
     if args.out:
         Path(args.out).write_text(json.dumps(d,indent=2,sort_keys=True)+"\n",encoding="utf-8")
-    for name,rec in d["physical_variants"].items():
-        print(name, "T10", json.dumps(rec["10"],sort_keys=True))
+    for policy,variants in d["policy_sensitivity"].items():
+        for name,rec in variants.items():
+            print(policy, name, "T10", json.dumps(rec["10"],sort_keys=True),
+                  "reserve_skipped_land_drops", d["reserved_land_drops_skipped"][policy][name])
     print("Neither metagame stax frequency nor deck win rates were measured.")
 if __name__=="__main__":
     main()
