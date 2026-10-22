@@ -847,7 +847,13 @@
     "last_cycle_merged": null,
     "formal_m7_review_decisions": 0,
     "formal_m7_review_out_of": 62,
+    "prospective_exact_owner_approvals_recorded": 1,
+    "prospective_exact_owner_approvals_out_of": 62,
+    "prospective_owner_approval_scope": "Cory approved and canonically locked Abaddon M7 exact six-swap list, but the formal M7 milestone intake gate depends on unfinished M6 certification. Count one real prospective owner-approved exact deck without falsely certifying a formal M7 gate or accepting the program milestone.",
     "depends_on": "M6 decision-ready schema-valid packets; no automatic use of historical approved/locked state",
+    "owner_decision_receipts": [
+      "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json — Cory explicitly approved exact six-swap raw SHA 0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790; canonical PR #46 merged into main 2e5a7ee6770d4a9f16d9716e53fb2c2ef440c50d; milestone M6.10 not inferred"
+    ],
     "gates": [
       {
         "id": "M7.1",
@@ -867,7 +873,8 @@
         "completed": 0,
         "total": 62,
         "evidence": [
-          "grixis/Grixis Authority Model.md"
+          "grixis/Grixis Authority Model.md",
+          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json"
         ],
         "scope": "The 62 existing canonical approvals are distinct from the second-cycle decisions required for M7."
       },
@@ -878,7 +885,8 @@
         "completed": 0,
         "total": 62,
         "evidence": [
-          "grixis/Grixis Authority Model.md"
+          "grixis/Grixis Authority Model.md",
+          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json"
         ],
         "scope": "Verify hashes of M7 reviewed versions, not simply current historical approvals."
       },
@@ -889,7 +897,8 @@
         "completed": 0,
         "total": null,
         "evidence": [
-          "grixis/Grixis Authority Model.md"
+          "grixis/Grixis Authority Model.md",
+          "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json"
         ],
         "scope": "Conditional on user-approved edits; unchanged approved decks must not be reopened automatically."
       },
@@ -928,6 +937,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
+    "m7_prospective_owner_approved_fraction": "1/62",
     "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED after PR532 joined physically source-paid hand fast mana with OTHER hand-cast Abaddon cascades (20,000 four-arm matched traces, 46 rule/predecessor tests), showing actual MV0 Lotus library churn; no full 99-card games or wins. 0/62 certified M6, 0/62 new M7 approvals; all 62 canonical APPROVED/LOCKED untouched. Latest Abaddon follow-up: M6.6=1/62 and M6.7=1/62 decision-scoped subordinate completions after 104 P0 plus 14 P1 actual tests, 70 explicit relevance dispositions; M6 I/J/acceptance and M7 owner approval stay blocked. [2026-10-22 current: Abaddon M6.8 I and M6.9 J exact chosen 100/97 current Oracle source are VALID and 1/62 each after merged PR #573; M6.10 remains blocked on Cory acceptance; formally M6 certified=0/62, M7 owner approved=0/62. Source evidence complete for owner handoff, not automatic milestone approval.]"
   },
   "update_contract": {
