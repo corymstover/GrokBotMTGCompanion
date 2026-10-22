@@ -160,7 +160,7 @@ class AdmiralCandidateDAdversarialTest(unittest.TestCase):
         self.assertEqual(evidence["m6_7_status"], "COMPLETE_AUTHORED_SOURCE_BOUND_JUDGMENTS")
         self.assertFalse(evidence["phase_b_scope_adjudication"]["full_multiplayer_effect_engine_executed"])
         self.assertFalse(evidence["phase_b_scope_adjudication"]["measured_candidate_superiority_proven"])
-        self.assertFalse(evidence["m6_i_local_best_certified"])
+        self.assertTrue(evidence["m6_i_local_best_certified"])
         self.assertFalse(evidence["m6_j_bundle_complete"])
         self.assertFalse(evidence["owner_m6_10_accepted"])
         self.assertFalse(evidence["owner_m7_approved"])
@@ -179,8 +179,8 @@ class AdmiralCandidateDAdversarialTest(unittest.TestCase):
         self.assertIn("24 substantive candidate dispositions", report)
         self.assertIn("12 challenged plausible incumbent slots", report)
         self.assertIn("39859047626", report)
-        self.assertIn("M6.8 I remains **INCOMPLETE**", report)
-        self.assertIn("M6.9 J bundle **ABSENT**", report)
+        self.assertIn("M6.8 I was **INCOMPLETE at this checkpoint**", report)
+        self.assertIn("M6.9 J bundle remains **ABSENT**", report)
         self.assertIn("canonical locked deck", report)
 
 
