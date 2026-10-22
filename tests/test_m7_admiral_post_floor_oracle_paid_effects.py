@@ -79,6 +79,24 @@ def wave_precombat(blockers):
     return tuple()  # Opposing creatures cannot block this turn on resolution.
 
 
+@dataclass
+class SpotlightState:
+    available_generic: int
+    sacrificed: bool = False
+
+    def activate(self, creatures_at_resolution):
+        if self.sacrificed or self.available_generic < 3:
+            return None
+        self.available_generic -= 3
+        self.sacrificed = True
+        return frozenset(creatures_at_resolution)
+
+
+def removal_can_resolve_through_ward(*, targeted, ward_two, opponent_available):
+    # Untargeted sweeps do not ask the opponent to pay ward.
+    return not targeted or not ward_two or opponent_available >= 2
+
+
 def equip_regalia(commander_legendary, *, has_paid_cast_two, equip_mana, main_phase):
     if not has_paid_cast_two or not main_phase:
         return False
@@ -124,8 +142,14 @@ class AdmiralPostFloorOracleAndMechanics(unittest.TestCase):
         self.assertIn("{3}, Sacrifice this artifact:", spot["oracle_text"])
         self.assertIn("gain hexproof until end of turn", spot["oracle_text"])
         self.assertIn("can't be blocked this turn", spot["oracle_text"])
-        self.assertFalse(2 >= 3)  # Two remaining mana cannot pay activation.
-        self.assertTrue(3 >= 3)   # An already-deployed copy can be sacrificed.
+        self.assertIsNone(SpotlightState(available_generic=2).activate(("P1", "P2", "P3")))
+        device = SpotlightState(available_generic=4)
+        affected = device.activate(("P1", "P2", "P3"))
+        self.assertEqual(affected, frozenset({"P1", "P2", "P3"}))
+        self.assertEqual(device.available_generic, 1)
+        self.assertTrue(device.sacrificed)
+        self.assertIsNone(device.activate(("P1", "P2", "P3")))  # Sacrificed once.
+        self.assertNotIn("P4-entered-later", affected)  # Hexproof won't follow new ETBs.
         pirates = ["P1", "P2", "P3"]
         self.assertLess(qualifying_pirate_hits(pirates, blocked_ids={"P3"}), 3)
         self.assertEqual(qualifying_pirate_hits(pirates), 3)
@@ -146,8 +170,12 @@ class AdmiralPostFloorOracleAndMechanics(unittest.TestCase):
         self.assertFalse(equip_regalia(True, has_paid_cast_two=False, equip_mana=1, main_phase=True))
         # Ward {2} permits targeted opponent removal if they PAY two generic;
         # it does not stop a non-targeting board wipe.
-        self.assertTrue(2 >= 2)
-        self.assertFalse(1 >= 2)
+        self.assertTrue(removal_can_resolve_through_ward(targeted=True,
+                        ward_two=True, opponent_available=2))
+        self.assertFalse(removal_can_resolve_through_ward(targeted=True,
+                         ward_two=True, opponent_available=1))
+        self.assertTrue(removal_can_resolve_through_ward(targeted=False,
+                        ward_two=True, opponent_available=0))
         self.assertEqual(qualifying_pirate_hits(["Admiral", "P2", "P3"], {"P2", "P3"}), 1)
 
     def test_05_wave_vs_cannonade_source_paid_blocker_profiles(self):
