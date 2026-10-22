@@ -79,14 +79,23 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][4]["waiver_receipt"]==str(WAIVER.relative_to(ROOT))
  assert t["m6"]["gates"][4]["original_independent_requirement"]["technically_completed"]==0
  assert t["m6"]["gates"][4]["original_independent_requirement"]["waived_by_owner"] is True
- assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
+ assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==1
+ for pos in (5,6):
+  gate=t["m6"]["gates"][pos]
+  scoped=gate.get("per_deck_completion",{}).get("Abaddon_the_Despoiler")
+  assert scoped and scoped["status"]=="COMPLETE_DECISION_SCOPED_ONLY"
+  assert not scoped["owner_m7_approved"] and not scoped["full_multiplayer_win_rate_proven"]
+  assert (ROOT/scoped["source"]).is_file()
+ audit=json.loads((ROOT/"data/grixis/m6/certification_preflight/abaddon_residual_70_decision_relevance_20261022.json").read_text())
+ assert len(audit["rows"])==70 and audit["residual_p1_executed_cases"]==14
+ assert all("PENDING" not in row["disposition"] for row in audit["rows"])
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
  assert len(t["m6"]["phase_b_additional_evidence"])==12
  assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526,528,530,532}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
- assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
+ assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==1
  assert t["update_contract"]["prefer_live_registry_and_evidence_over_this_snapshot"]
  assert t["update_contract"]["never_accept_a_milestone_or_modify_canonical_decks_from_tracker_update"]
  for milestone in ("m6","m7"):
@@ -179,7 +188,9 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertFalse(receipt["is_full_deck_paired_gameplay"])
   self.assertFalse(receipt["proves_swap_superiority"])
   self.assertEqual(receipt["deck_level_phase_b_certificates_issued"],0)
-  self.assertEqual((self.t["m6"]["gates"][5]["status"],self.t["m6"]["gates"][5]["completed"]),("PARTIAL",0))
+  self.assertEqual((self.t["m6"]["gates"][5]["status"],self.t["m6"]["gates"][5]["completed"]),("PARTIAL",1))
+  self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
+  self.assertTrue(any("Abaddon_M6_6_7_Gate_Adjudication_20261022.md" in x for x in self.t["m6"]["gates"][5]["evidence"]))
  def test_abaddon_agent_judgments_only_partially_advance_m6_7(self):
   path=ROOT/"data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json"
   d=json.loads(path.read_text())
@@ -188,10 +199,23 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertTrue(all(not c["approved_swap"] for c in d["candidates"]))
   self.assertTrue(all(v is False for v in d["authority"].values()))
   gate=self.t["m6"]["gates"][6]
-  self.assertEqual((gate["status"],gate["completed"]),("PARTIAL",0))
+  self.assertEqual((gate["status"],gate["completed"]),("PARTIAL",1))
+  self.assertEqual(gate["per_deck_completion"]["Abaddon_the_Despoiler"]["status"],"COMPLETE_DECISION_SCOPED_ONLY")
   self.assertTrue(any("abaddon_phase_b_decisions_20261021.json" in x for x in gate["evidence"]))
   self.assertEqual(self.t["display"]["m6_partial_gates"],2)
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
+ def test_forged_abaddon_gate_progress_or_owner_approval_is_rejected(self):
+  import copy
+  for slot,key,value in ((5,"completed",2),(6,"completed",62)):
+   d=copy.deepcopy(self.t)
+   d["m6"]["gates"][slot][key]=value
+   with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
+  d=copy.deepcopy(self.t)
+  d["m6"]["gates"][5]["per_deck_completion"]["Abaddon_the_Despoiler"]["owner_m7_approved"]=True
+  with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
+  d=copy.deepcopy(self.t)
+  d["m6"]["gates"][6]["per_deck_completion"]["Abaddon_the_Despoiler"]["status"]="FORMAL_M6_CERTIFIED"
+  with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
   r,a,chron,warp,ignus,paid,hit,shared,hand,stack,other,factor=records
