@@ -1,0 +1,36 @@
+name: M6 Abaddon Ruinous Powers targeted rules
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-ruinous.yml
+      - scripts/grixis_m6_abaddon_ruinous.py
+      - tests/test_m6_abaddon_ruinous.py
+      - data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  ruinous-rules-fixture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact pull request head
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run bounded Ruinous/Abaddon rules tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ruinous.py' -v
+      - name: Prevent mistaken milestone or deck authority certification
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          print('PASS: fixture is conditional rule evidence, not certification.')
+          PY
