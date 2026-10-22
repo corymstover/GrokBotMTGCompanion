@@ -24,7 +24,9 @@
     "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md",
     "https://magic.wizards.com/en/news/feature/ravnica-remastered-release-notes",
     "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
-    "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repository)"
+    "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repository)",
+    "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511 / exact-head Actions 39697989020)",
+    "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512 / exact-head Actions 39698978884)"
   ],
   "candidates": [
     {
@@ -66,6 +68,12 @@
             "class": "strategic_judgment",
             "confidence": "high",
             "source": "100-card deep review plus role loss and four-piece setup"
+          },
+          {
+            "id": "assault-source-paid-land-only-snapshots",
+            "class": "test_result",
+            "confidence": "bounded_observations_not_effect_size",
+            "source": "PR #512; Actions 39698978884; 2,000 matched physical seeds per variant"
           }
         ]
       },
@@ -73,12 +81,36 @@
       "benefit": "Three-mana cast with one red pip; existing Neheb postcombat mana can repeatedly pay its five-mana extra-combat activation, and Loyal Subordinate creates no-attack life loss at beginning of additional combats if Abaddon remains.",
       "incumbent_cut_cost": "Cutting Rakdos removes a four-mana BBRR flying/trampling creature and same-turn opponent-loss-scaled generic mana reduction for up to 17 potential creature spell identities including commander and Neheb; cutting The Lost and the Damned removes a Commander-specific nonhand-cast 3/3 Spawn engine.",
       "unresolved": [
-        "Paired source-paid timing and colored-mana access for proposed physical swap",
-        "Availability of three distinct pieces in library/hand and Abaddon command-zone cast",
-        "Relevant opponent removal windows in actual game states",
-        "Difference in win conversion versus retained Rakdos or alternate cut"
+        "Actual chronological source-paid sequence for casting commander, Neheb, Loyal and Assault, including mana spent on other permanents and five-mana Assault activations",
+        "Tutors, cascade, additional draws, rocks, rituals and real hand-to-board conversions omitted from paired land-only snapshots",
+        "Opponent interaction/removal and Rule of Law during actual commander-first sequence",
+        "Net win conversion and identity-role opportunity cost versus retained Rakdos or Lost-and-the-Damned"
       ],
-      "approved_swap": false
+      "approved_swap": false,
+      "access_observation": {
+        "method": "2000 matched seeded 99-library hands, land-only hypothetical individual spell payability, not actual spell casts",
+        "turn_10": {
+          "approved_rakdos": {
+            "slot_seen": 352,
+            "slot_land_payable": 254
+          },
+          "assault_for_rakdos": {
+            "slot_seen": 352,
+            "slot_land_payable": 336,
+            "three_library_engine_pieces_seen": 7,
+            "all_three_individually_land_payable": 2
+          },
+          "assault_for_lost": {
+            "slot_seen": 369,
+            "slot_land_payable": 348,
+            "three_library_engine_pieces_seen": 8,
+            "all_three_individually_land_payable": 5
+          }
+        },
+        "verdict": "EASIER_ASSAULT_CAST_SOURCE_AVAILABILITY_OBSERVED_BUT_COMBO_VALUE_AND_BEST_CUT_UNPROVEN",
+        "gameplay_win_rate": null,
+        "approved_swap": false
+      }
     },
     {
       "card": "Chaos Warp",
@@ -154,6 +186,12 @@
             "class": "strategic_judgment",
             "confidence": "high",
             "source": "100-card deck and opponent-life-loss cascade plan"
+          },
+          {
+            "id": "ruinous-owner-loss-exile-cast-and-later-hand-cascade-fixture",
+            "class": "test_result",
+            "confidence": "bounded_conditional_rules",
+            "source": "PR #511; Actions 39697989020; 14 deterministic tests"
           }
         ]
       },
@@ -190,9 +228,9 @@
     "full_effect_aware_gameplay_measured": false
   },
   "next_required_work": [
-    "Complete decision-relevant source-paid full-slot comparison or explicitly document technical inability and judge conservatively",
-    "Resolve actual strongest alternate cut for Assault and stax answer in whole-deck M7 context",
-    "Reverify exact proposed 100 and Oracle/legality before any owner presentation"
+    "Determine strongest realistic identity-first cut (if any) after actual tutor/cascade/tempo/opponent-response role review; no arbitrary change quota",
+    "Resolve meaningful paid and chronological full-deck sequencing limitations or make conservative transparent HOLD determination without false win rates",
+    "Complete M6.6/7 and I/J evidence before final M6 packet, verify official card legality/current Oracle and exact 100-card list before owner M7 request"
   ],
-  "summary": "No swap is currently proven superior at the full 100-card level. These are named agent strategic HOLD/retain judgments with decision-class facts and bounded tests, not an M6 certificate or Cory's M7 approval."
+  "summary": "Abaddon evidence includes conditionally legal Neheb/Assault/Loyal combo (PR #504), Rakdos discount opportunity cost (PR #506), Ruinous Powers owner-loss/cascade rules (PR #511), and 2,000-seed paired physical/colored-land access proxies (PR #512). Assault is easier to pay for at the slot level; a four-piece engine's chronological assembly/advantage is not demonstrated. Same-model HOLD/retain judgments, not M6 completion, owner approval, or canonical changes."
 }
