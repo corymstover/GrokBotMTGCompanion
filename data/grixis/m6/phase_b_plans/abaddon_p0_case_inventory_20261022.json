@@ -17,14 +17,15 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 52,
-    "required_unexecuted_cases": 3,
+    "registered_replay_cases": 61,
+    "required_unexecuted_cases": 2,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
     "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS.",
     "note_p0_023": "Last currently known mandatory P0 topic promoted to nine individually executable bounded tests, only CI actual pass can close known-case replay. No M6.6 formal certificate yet.",
     "note_whole_deck": "2026-10-22 full 97-name source inventory exposed P0-024 through P0-027. Previous 44 successes continue to pass; zero open result from PR #550 was accurate only for previous inventory.",
-    "note_p0_024": "Eight source-paid Wild-Magic Sorcerer scenarios registered after source-audited rules review; their execution requires exact-head Actions CI, not metadata."
+    "note_p0_024": "Eight source-paid Wild-Magic Sorcerer scenarios registered after source-audited rules review; their execution requires exact-head Actions CI, not metadata.",
+    "note_p0_025": "Nine preregistered source-paid Nalfeshnee permanent-copy, sorcery-copy and Wild-Magic cascade cases added for exact-head CI; registration alone is not test PASS."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -501,16 +502,90 @@
       "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-025a",
+      "mechanic": "First exile-cast Arcane Signet MV2 produces a Nalfeshnee spell copy -> haste token on resolution and normal source artifact; end-step sacrifice removes only copy. One cast produces one Lost Spawn and one Keeper trigger at MV2, no extra Abaddon cascade.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_permanent_artifact_copy_eot_sac",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025b",
+      "mechanic": "One physically cast Boltwave MV1 from Call printed cascade produces exactly one virtual copy and one original resolution: 6 damage to EACH opponent in absence of prevention, but only one nonhand cast, Lost spawn, and Keeper target damage 1.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_sorcery_boltwave_resolves_twice",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025c",
+      "mechanic": "Hand Call MV8 X9 provides 3 independently sourced cascade casts Arcane Signet MV2, Sol Ring MV1, Boltwave MV1. Each produces Nalf copy, but Call sweeper other cast MV=4 (not 8) and Lost Spawn=3.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_three_independent_cascade_hits_x9",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025d",
+      "mechanic": "Hand Call X0 has only two printed cascades; first Boltwave copy + original creates opponent aggregate 18 loss after Call cast; never grants retroactive third cascade.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_no_retroactive_abaddon_from_boltwave",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025e",
+      "mechanic": "After physical exile Boltwave cast, opponent counters its original while Nalf spell-copy trigger/copy still resolves. Three damage each from copy, one actual cast, original ends in graveyard.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_original_boltwave_countered_copy_survives",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025f",
+      "mechanic": "Nalfeshnee removed after first exile spell cast and its triggered copy ability placed on stack; first copy persists, later exiled physical casts do NOT copy.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_removed_after_first_cast",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025g",
+      "mechanic": "Drannith and Rule of Law in separate policies both deny cascade exile casts after hand Call; printed/Abaddon cascade abilities still resolve but generate no Nalf copies or Lost spawns.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_drannith_rule_of_law",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025h",
+      "mechanic": "Nalfeshnee itself is first spell cast from exile and enters from first cascade, cannot copy its own cast; the later two exile-cast artifacts are copied once each.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_entering_from_first_cascade_no_retro_copy",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-025i",
+      "mechanic": "With Wild-Magic on battlefield, first Arcane Signet cast from exile gains one extra cascade hitting physically sourced Sol Ring; both real casts get Nalf copies (not four casts), their spell copies cannot themselves gain or trigger cascade. Other printed Call hit proceeds independently.",
+      "test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "test_method": "AbaddonNalfeshneeP0025.test_nalf_wild_magic_nested_no_copy_recursion",
+      "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
     }
   ],
   "required_open": [
-    {
-      "id": "P0-025",
-      "topic": "Nalfeshnee — Nonhand spell cast creates a virtual copy (permanent or nonpermanent), which is not itself cast; ordering with cascade and triggers and end-step sacrifice for permanent copy.",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "New whole-deck 97-name coverage audit located material commander-critical effect not demonstrated by the previous 44 named cases.",
-      "source": "https://mtg.wtf/card/clb/678/Nalfeshnee"
-    },
     {
       "id": "P0-026",
       "topic": "Passionate Archaeologist — Gives commander creature cast-from-exile targeted damage, only if commander creature owned/controlled; copied spells do not cause extra damage triggers.",
@@ -540,8 +615,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Execute 52 specifically identified P0 test methods with eight Wild-Magic cases; then preregister P0-025 Nalfeshnee, P0-026 Passionate Archaeologist and P0-027 Prosper. M6.6 PARTIAL; M6 I/J blocked.",
-  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_024",
+  "next_action": "Run 61 exact named physical test methods including 9 Nalfeshnee cases; P0-026 Passionate Archaeologist and P0-027 Prosper remain required; M6.6 partial I/J blocked.",
+  "test_receipt_status": "AWAITING_EXACT_HEAD_CI_P0_025",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -602,6 +677,22 @@
         "P0-024f",
         "P0-024g",
         "P0-024h"
+      ]
+    },
+    {
+      "id": "P0-025",
+      "status": "REGISTERED_FOR_EXECUTION_NOT_M6_CERTIFICATION",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json",
+      "case_ids": [
+        "P0-025a",
+        "P0-025b",
+        "P0-025c",
+        "P0-025d",
+        "P0-025e",
+        "P0-025f",
+        "P0-025g",
+        "P0-025h",
+        "P0-025i"
       ]
     }
   ],

@@ -29,21 +29,13 @@
   "expected_unique_names": 97,
   "expected_baseline_names": 94,
   "expected_baseline_cards": 100,
-  "stage": "ONE_NEW_CORE_EXILE_CASCADE_P0_REGISTERED_REPLAY_PENDING_THREE_MANDATORY_OPEN",
+  "stage": "TWO_NEW_EXILE_ENGINES_REGISTERED_AND_TWO_MANDATORY_OPEN",
   "coverage_semantics": {
     "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
     "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
     "IDENTIFIED_MATERIAL_P0_GAP": "Card present in at least one 100-card version, Oracle legality checked, but additional high-value decision-relevant rules interaction not in existing P0 registry."
   },
   "identified_unresolved": [
-    {
-      "card": "Nalfeshnee",
-      "id": "P0-025",
-      "gap": "Nonhand spell cast creates a virtual copy (permanent or nonpermanent), which is not itself cast; ordering with cascade and triggers and end-step sacrifice for permanent copy.",
-      "priority": "P0",
-      "oracle": "https://mtg.wtf/card/clb/678/Nalfeshnee",
-      "status": "REQUIRED_UNEXECUTED"
-    },
     {
       "card": "Passionate Archaeologist",
       "id": "P0-026",
@@ -872,9 +864,18 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
-      "new_gap_id": "P0-025"
+      "p0_direct_case_ids": [
+        "P0-025a",
+        "P0-025b",
+        "P0-025c",
+        "P0-025d",
+        "P0-025e",
+        "P0-025f",
+        "P0-025g",
+        "P0-025h",
+        "P0-025i"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Neheb, the Eternal",
@@ -1491,7 +1492,7 @@
     "Every P0 association is a case illustration, not a per-card comprehensive ability correctness proof.",
     "No empirical multiplayer policy or win-rate estimates."
   ],
-  "next_action": "Run 52 actual named P0 including eight Wild-Magic methods; then implement the three remaining identified P0 mechanisms; all-99-card-effect coverage NOT claimed.",
+  "next_action": "Run 61 actual named P0 methods, then P0-026 Passionate Archaeologist and P0-027 Prosper; no all-99-effect or owner-approval claim.",
   "newly_registered_tested_P0": [
     {
       "card": "Wild-Magic Sorcerer",
@@ -1511,6 +1512,27 @@
         "P0-024f",
         "P0-024g",
         "P0-024h"
+      ]
+    },
+    {
+      "card": "Nalfeshnee",
+      "id": "P0-025",
+      "gap": "Nonhand spell cast creates a virtual copy (permanent or nonpermanent), which is not itself cast; ordering with cascade and triggers and end-step sacrifice for permanent copy.",
+      "priority": "P0",
+      "oracle": "https://mtg.wtf/card/clb/678/Nalfeshnee",
+      "status": "REGISTERED_FOR_EXACT_HEAD_EXECUTION_PENDING",
+      "test_methods": 9,
+      "plan": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json",
+      "case_ids": [
+        "P0-025a",
+        "P0-025b",
+        "P0-025c",
+        "P0-025d",
+        "P0-025e",
+        "P0-025f",
+        "P0-025g",
+        "P0-025h",
+        "P0-025i"
       ]
     }
   ]
