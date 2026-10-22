@@ -1,0 +1,1495 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_WHOLE_100_NAMED_MECHANICS_COVERAGE_REGISTER",
+  "date": "2026-10-22",
+  "deck_id": "Abaddon_the_Despoiler",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_paths": [
+    {
+      "id": "baseline",
+      "path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt"
+    },
+    {
+      "id": "engine_only",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_only.txt"
+    },
+    {
+      "id": "engine_answer_keeper",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_keeper.txt"
+    },
+    {
+      "id": "engine_answer_betrayal",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt"
+    },
+    {
+      "id": "combat_answer_keeper",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_combat_answer_keeper.txt"
+    }
+  ],
+  "expected_unique_names": 97,
+  "expected_baseline_names": 94,
+  "expected_baseline_cards": 100,
+  "stage": "AUDIT_REVEALED_FOUR_NEW_P0_GAPS_44_EXISTING_PASS_NOT_ALL_P0_COMPLETE",
+  "coverage_semantics": {
+    "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
+    "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
+    "IDENTIFIED_MATERIAL_P0_GAP": "Card present in at least one 100-card version, Oracle legality checked, but additional high-value decision-relevant rules interaction not in existing P0 registry."
+  },
+  "identified_unresolved": [
+    {
+      "card": "Wild-Magic Sorcerer",
+      "id": "P0-024",
+      "gap": "First exile-cast spell each turn gains cascade, including nested cascade; later exile casts and post-cast control changes must not retroactively add it.",
+      "priority": "P0",
+      "oracle": "https://media.wizards.com/2021/downloads/AFR_Release_Notes/EN_MTGAFR_ReleaseNotes_07042021.pdf",
+      "status": "REQUIRED_UNEXECUTED"
+    },
+    {
+      "card": "Nalfeshnee",
+      "id": "P0-025",
+      "gap": "Nonhand spell cast creates a virtual copy (permanent or nonpermanent), which is not itself cast; ordering with cascade and triggers and end-step sacrifice for permanent copy.",
+      "priority": "P0",
+      "oracle": "https://mtg.wtf/card/clb/678/Nalfeshnee",
+      "status": "REQUIRED_UNEXECUTED"
+    },
+    {
+      "card": "Passionate Archaeologist",
+      "id": "P0-026",
+      "gap": "Gives commander creature cast-from-exile targeted damage, only if commander creature owned/controlled; copied spells do not cause extra damage triggers.",
+      "priority": "P0",
+      "oracle": "https://mtg.wtf/card/sld/2220/Passionate-Archaeologist",
+      "status": "REQUIRED_UNEXECUTED"
+    },
+    {
+      "card": "Prosper, Tome-Bound",
+      "id": "P0-027",
+      "gap": "Creating Treasure by *playing* from exile, including casting from cascade; distinction cast v play and land permissions (end step exiled card) and one trigger per played card.",
+      "priority": "P0",
+      "oracle": "https://mtg.wtf/card/afc/2/Prosper-Tome-Bound",
+      "status": "REQUIRED_UNEXECUTED"
+    }
+  ],
+  "names": [
+    {
+      "name": "Abaddon the Despoiler",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-001",
+        "P0-013",
+        "P0-021a"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Aggravated Assault",
+      "baseline": false,
+      "present_in": [
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 0,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Ancestral Vision",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Ancient Tomb",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Arcane Signet",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Badlands",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-005",
+        "P0-006"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Bituminous Blast",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-001",
+        "P0-002"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Blasphemous Act",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Blood Crypt",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Bloodletter of Aclazotz",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Bloodstained Mire",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Boltwave",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Brain Freeze",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-023a",
+        "P0-023i"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Brainstorm",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Cabal Ritual",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Call Forth the Tempest",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-021a",
+        "P0-021b"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Chaos Warp",
+      "baseline": false,
+      "present_in": [
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 0,
+      "p0_direct_case_ids": [
+        "P0-007",
+        "P0-008"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Chrome Mox",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "City of Brass",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Command Tower",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Dark Ritual",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Deadly Rollick",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Deflecting Swat",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Delayed Blast Fireball",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Demonic Tutor",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Exalted Flamer of Tzeentch",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Exotic Orchard",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Fierce Guardianship",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Flame Rift",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Flooded Strand",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Flusterstorm",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Force of Negation",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Force of Will",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Gamble",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Grinning Ignus",
+      "baseline": false,
+      "present_in": [
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal"
+      ],
+      "copies_in_baseline": 0,
+      "p0_direct_case_ids": [
+        "P0-005",
+        "P0-006",
+        "P0-015",
+        "P0-021a"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Imperial Seal",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Inevitable Betrayal",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-015",
+        "P0-022a"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Island",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 3,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Jeska's Will",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Keeper of Secrets",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_betrayal"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-009",
+        "P0-010",
+        "P0-020",
+        "P0-021b"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Kessig Flamebreather",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Lion's Eye Diamond",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-023a",
+        "P0-023b"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Lotus Petal",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-020"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Loyal Subordinate",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-011",
+        "P0-021a"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Luxury Suite",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Mana Confluence",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Mana Vault",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Marsh Flats",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Mind's Desire",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Misty Rainforest",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Morphic Pool",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Mountain",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 3,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Mystic Remora",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Mystical Tutor",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Nalfeshnee",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
+      "new_gap_id": "P0-025"
+    },
+    {
+      "name": "Neheb, the Eternal",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-011",
+        "P0-012"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Nightscape Familiar",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Noise Marine",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Otawara, Soaring City",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Pact of Negation",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Passionate Archaeologist",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
+      "new_gap_id": "P0-026"
+    },
+    {
+      "name": "Polluted Delta",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Ponder",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Profane Tutor",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Prosper, Tome-Bound",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
+      "new_gap_id": "P0-027"
+    },
+    {
+      "name": "Pyroblast",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Rakdos, Lord of Riots",
+      "baseline": true,
+      "present_in": [
+        "baseline"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Rhystic Study",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Rite of Flame",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Scalding Tarn",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Sol Ring",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-013",
+        "P0-020",
+        "P0-021a"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Solphim, Mayhem Dominus",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Steam Vents",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Storm-Kiln Artist",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Swamp",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 3,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Swan Song",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Talisman of Creativity",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Talisman of Dominance",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "The Lost and the Damned",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-009",
+        "P0-010",
+        "P0-015",
+        "P0-021a"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "The Ruinous Powers",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-003",
+        "P0-004"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Thermo-Alchemist",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Training Center",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Underground Sea",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Underworld Breach",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [
+        "P0-023a",
+        "P0-023b"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
+    },
+    {
+      "name": "Urborg, Tomb of Yawgmoth",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Vampiric Tutor",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Verdant Catacombs",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Vivi Ornitier",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Volcanic Island",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Watery Grave",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Wheel of Fortune",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Wild-Magic Sorcerer",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
+      "new_gap_id": "P0-024"
+    },
+    {
+      "name": "Windfall",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    },
+    {
+      "name": "Xander's Lounge",
+      "baseline": true,
+      "present_in": [
+        "baseline",
+        "engine_only",
+        "engine_answer_keeper",
+        "engine_answer_betrayal",
+        "combat_answer_keeper"
+      ],
+      "copies_in_baseline": 1,
+      "p0_direct_case_ids": [],
+      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+    }
+  ],
+  "authority": {
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_8": "BLOCKED",
+    "m6_9": "BLOCKED",
+    "m6_10": "BLOCKED",
+    "no_auto_deck_changes": true,
+    "owner_approved": false
+  },
+  "limitations": [
+    "Audit is an explicit card-name accounting across 5 physical 100-card lists, not 97-card complete rules simulator.",
+    "Four newly discovered on-identity mechanisms must be covered before any M6.6 completeness claim.",
+    "Every P0 association is a case illustration, not a per-card comprehensive ability correctness proof.",
+    "No empirical multiplayer policy or win-rate estimates."
+  ],
+  "next_action": "Preregister P0-024 through P0-027 and implement bounded physically conserved traces before formal I/J."
+}
