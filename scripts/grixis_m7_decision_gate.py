@@ -31,6 +31,13 @@ SINGLETON_UNLIMITED = {
     "Hare Apparent", "Templar Knight",
 }
 ENTRY = re.compile(r"^([0-9]+)x?\s+(.+)$")
+# Owner supersession 2026-10-22: a tiny M7 delta may remain honest research,
+# but must NEVER be presented for final owner approval as a complete deck.
+MIN_OWNER_PRESENTABLE_SWAPS = 5
+MIN_OWNER_PRESENTABLE_CANDIDATES = 10
+MIN_OWNER_PRESENTABLE_WEAK_SLOTS = 8
+WITHDRAWN_RESEARCH_STATUS = "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE"
+READY_STATUS = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
 
 
 class DecisionGateError(ValueError):
@@ -233,9 +240,53 @@ def verify_packet(packet, *, root=ROOT, registry=None):
         if not any("OFF" in x.upper() or "UNRANK" in x.upper()
                    for x in packet["candidate_sources"]):
             raise DecisionGateError("Low-swap recommendation lacks explicit off-ranking search provenance")
+    # A completed review with only a few changes is not automatically an
+    # owner-presentable deck. Keep historical rejected packets source-bound,
+    # but prohibit laundering the old recommendation into a ready status.
+    ready = packet["readiness"] == READY_STATUS
+    if not ready:
+        if packet["readiness"] != WITHDRAWN_RESEARCH_STATUS:
+            raise DecisionGateError("Unknown owner review disposition")
+        check_text(packet.get("withdrawal_reason"),
+                   "Withdrawn/historical research packet requires owner-visible reason", 80)
+    else:
+        if packet.get("withdrawal_reason"):
+            raise DecisionGateError("A withdrawn owner-objection packet cannot be owner-ready")
+        if len(requested["adds"]) < MIN_OWNER_PRESENTABLE_SWAPS:
+            raise DecisionGateError(
+                "OWNER HARD BLOCK: only " + str(len(requested["adds"])) +
+                " genuine swaps; 0–4 replacements cannot be presented for M7 owner approval. "
+                "Do not pad weak or cosmetic swaps; hold as honest research instead.")
+        if len(candidates) < MIN_OWNER_PRESENTABLE_CANDIDATES:
+            raise DecisionGateError(
+                "Owner-ready M7 packet requires at least ten distinct material candidate judgments")
+        if len(weak_named) < MIN_OWNER_PRESENTABLE_WEAK_SLOTS:
+            raise DecisionGateError(
+                "Owner-ready M7 packet requires eight distinct challenged incumbent roles/slots")
+        audit = packet.get("low_swap_heightened_audit")
+        if not audit:
+            raise DecisionGateError(
+                "Owner-ready M7 packet requires the full heightened opportunity audit, regardless of swap count")
+        challenged = audit["weakest_slot_challenge"]
+        if len({x["card"] for x in challenged}) < MIN_OWNER_PRESENTABLE_WEAK_SLOTS:
+            raise DecisionGateError("Owner-ready heightened audit must challenge eight distinct incumbent slots")
+        if not {x["card"] for x in challenged} <= weak_named:
+            raise DecisionGateError("Owner-ready weak slots must be grounded in whole-deck audit")
+        packages = audit["multi_slot_packages"]
+        if len(packages) < 2:
+            raise DecisionGateError("Owner-ready packet requires at least two distinct complete multiswap portfolios")
+        if len({(tuple(p["adds"]),tuple(p["cuts"])) for p in packages}) < 2:
+            raise DecisionGateError("Duplicated multiswap packages cannot fake full-deck alternatives")
+        for p in packages:
+            if len(p["adds"]) != len(p["cuts"]) or not set(p["adds"]) <= set(ids):
+                raise DecisionGateError("Owner-ready alternative package lacks complete named adds/cuts")
+        if not any("OFF" in x.upper() or "UNRANK" in x.upper() for x in packet["candidate_sources"]):
+            raise DecisionGateError("Owner-ready packet lacks provenance of off-ranking/missed-synergy research")
     return {
         "deck_id":deck_id,
-        "status":"M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED",
+        "status": ("M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED"
+                   if ready else "M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE"),
+        "owner_presentable": ready,
         "new_swaps":len(requested["adds"]),
         "material_candidates":len(candidates),
         "expensive_experiments":len(packet["expensive_experiments"]),
@@ -281,17 +332,21 @@ def main():
     if args.check_sources:
         print(f"Canonical-source mirror physical audit: {check_all_canonical_source_imports(root=ROOT,registry=registry)}/62 inspected; archived metadata is not a fresh external approval recheck.")
     seen=set()
+    owner_presentable=set()
     for item in files:
         data=read(item)
         result=verify_packet(data, root=ROOT, registry=registry)
         if item.stem != result["deck_id"] or result["deck_id"] in seen:
             raise DecisionGateError("Packet path or duplicate ID mismatch")
         seen.add(result["deck_id"])
+        if result["owner_presentable"]:
+            owner_presentable.add(result["deck_id"])
         print(json.dumps(result, sort_keys=True))
-    if args.require_complete and (len(files) != 62 or seen != set(registry["decks"])):
-        raise SystemExit("M7 owner-candidate coverage incomplete: "
-                         + str(len(seen)) + "/62.")
-    print(f"M7 decisive candidate packet structural coverage {len(seen)}/62; "
+    if args.require_complete and (len(owner_presentable) != 62 or owner_presentable != set(registry["decks"])):
+        raise SystemExit("M7 owner-presentable coverage incomplete: "
+                         + str(len(owner_presentable)) + "/62. Withdrawn research records do not count.")
+    print(f"M7 packet historical/structural coverage {len(seen)}/62, "
+          f"owner-presentable packets {len(owner_presentable)}/62; "
           "no owner approvals, current Oracle verification, or M6 certification inferred.")
 
 
