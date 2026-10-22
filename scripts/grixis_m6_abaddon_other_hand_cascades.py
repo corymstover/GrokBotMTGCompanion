@@ -82,10 +82,10 @@ def one_trial(library,seed,policy,p,old,cards,mode,*,checkpoints=None):
                 "supported_hit_effect_seed":int(rec["actual_supported_effect_resolved"]),
                 "other_hand_cascade_triggers":0,
                 "other_hand_cascade_resolved":0,
-                # Original predecessor does not export Ignus event counts
-                # at each checkpoint: seed-level only is available.
-                "ignus_cascade_triggers":int(rec["actual_ignus_cascade_trigger"]),
-                "supported_effects_resolved":int(rec["actual_supported_effect_resolved"]),
+                # Original predecessor exports SEED-LEVEL booleans only.
+                # Never put a seed-level count in a field labeled EVENTS;
+                # those two enhanced-mode event counters are intentionally
+                # absent from the original control snapshots.
                 "mana_from_cascade":rec["mana_from_cascade_hit"],
                 "cards_drawn_from_cascade":rec["cards_actually_drawn_by_hit"],
                 "tutored_cards_to_hand_or_top":rec["cards_physically_tutored_by_hit"],
