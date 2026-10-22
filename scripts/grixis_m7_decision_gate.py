@@ -22,6 +22,14 @@ REGISTRY = ROOT / "data/grixis/registry.json"
 SCHEMA = ROOT / "data/grixis/schemas/m7_decisive_optimization.schema.json"
 DECISIONS = ROOT / "data/grixis/m7/decision_reviews"
 BASIC_LANDS = {"Plains", "Island", "Swamp", "Mountain", "Forest", "Wastes"}
+# Named Oracle deck-building exceptions. These are *not* general Commander
+# singleton waivers; actual card identity/text must still be verified at M7.
+SINGLETON_LIMITED = {"Nazgûl": 9, "Seven Dwarves": 7}
+SINGLETON_UNLIMITED = {
+    "Relentless Rats", "Rat Colony", "Shadowborn Apostle",
+    "Persistent Petitioners", "Dragon's Approach", "Slime Against Humanity",
+    "Hare Apparent", "Templar Knight",
+}
 ENTRY = re.compile(r"^([0-9]+)x?\s+(.+)$")
 
 
@@ -89,7 +97,11 @@ def parse_list(path: Path, *, source_markdown=False):
         raise DecisionGateError("First main card must be Commander")
     if not 1<=len(marked_commanders)<=2:
         raise DecisionGateError("Only one or two commanders supported")
-    unexpected_repeats={n:q for n,q in Counter(cards).items() if q>1 and n not in BASIC_LANDS}
+    unexpected_repeats={
+        n:q for n,q in Counter(cards).items()
+        if q>1 and n not in BASIC_LANDS and n not in SINGLETON_UNLIMITED
+        and q>SINGLETON_LIMITED.get(n,1)
+    }
     if unexpected_repeats:
         raise DecisionGateError(f"Nonbasic singleton violation in {path}: {unexpected_repeats}")
     return cards,marked_commanders,companions
