@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_022_INEVITABLE_BETRAYAL_SUSPEND_PREREGISTRATION",
+  "date": "2026-10-22",
+  "integration_head_at_preregistration": "f7e5e0a1a37415b79b5b426f40a5b810e053e659",
+  "canonical_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "variant": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_keeper.txt",
+  "variant_sha256": "3ceddb947b0e7aff9cae489a0c60704214a2e580b97bfb1aaee5bb254c71fdaa",
+  "rule_sources": [
+    "https://mtg.wtf/card/prm/91239/Inevitable-Betrayal",
+    "https://blogs.magicjudges.org/rules/comprehensive-rules/",
+    "https://magic.wizards.com/en/news/feature/murders-at-karlov-manor-release-notes"
+  ],
+  "effective_rule": "2026-09-25 Comprehensive Rules 702.62, owner can choose whether to cast when last counter removed; suspended card without counters remains exiled and no longer suspended.",
+  "source_paid_fixture": "Three physically sourced untapped basic lands: Island, Island, Swamp; pay {U}{U} and one generic using Swamp; suspend is a special action from hand not a cast, does not use stack, card in exile with 3 time counters; actual upkeep counter trigger on each of three later upkeeps.",
+  "registered_cases": [
+    {
+      "id": "suspend_paid_three_upkeeps",
+      "expected": "True physical suspend cost paid, three separate upkeeps 3→2→1→0, conditional optional cast from exile in upkeep not constrained by sorcery timing. Creatures put not cast; Lost token from Betrayal cast."
+    },
+    {
+      "id": "suspend_no_creature_fail_to_find",
+      "expected": "Search may deliberately or necessarily fail to find a creature; spell cast and Lost triggers, no creature moved to battlefield."
+    },
+    {
+      "id": "suspend_drannith_last_tick_stranded",
+      "expected": "Drannith disallows cast from exile after 3rd upkeep, card stays exiled with zero counters and cannot re-trigger on future upkeep."
+    },
+    {
+      "id": "suspend_rule_of_law_prev_spell_blocks",
+      "expected": "A spell already cast on the final upkeep under Rule of Law prevents the suspend cast; card stranded in exile with zero counters."
+    },
+    {
+      "id": "suspend_owner_declines_free_cast",
+      "expected": "Under 2024+ rules last-counter ability permits owner to decline casting; card remains exiled without counters, despite legal target."
+    },
+    {
+      "id": "suspend_countered_after_cast",
+      "expected": "Cast from exile generates Lost spawn; an opponent counters actual spell, it moves to graveyard, no creature enters."
+    },
+    {
+      "id": "suspend_not_hardcast_and_late_legal_first_spell",
+      "expected": "A card with no mana cost cannot be normally cast from hand; suspending is not spell cast and does not increase storm/cascade; a later upkeep free cast if legal is first spell of that turn and has MV0; Keeper trigger would deal zero damage if Keeper present."
+    }
+  ],
+  "cost_budget": {
+    "new_randomized_trials": 0,
+    "registered_case_count": 7,
+    "physical_variants": 1
+  },
+  "limitations": [
+    "Opponent library is deliberately prearranged external, not a sampled pod.",
+    "Nonnative real-game rules and pending triggers are a bounded local trace, not a game engine.",
+    "Neither suspend value nor deck-list cut quality is inferred.",
+    "One more named P0 case remains: Breach/LED/Brain Freeze backup; M6.6 stays partial."
+  ],
+  "governance": {
+    "canonical_changed": false,
+    "m6_6_certified": false,
+    "m7_new_approvals": 0
+  }
+}
