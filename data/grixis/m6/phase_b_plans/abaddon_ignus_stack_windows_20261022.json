@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "study_date": "2026-10-21 local / 2026-10-22 UTC",
+  "stage": "PREREGISTERED_IGNUS_SOURCE_BOUND_ADVERSARIAL_STACK_WINDOWS",
+  "deck_id": "Abaddon_the_Despoiler",
+  "baseline": {
+    "engineering_head": "73e1d48a9d2ebbb721cd9abc31ba2d93efd5a216",
+    "canonical_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "source_99_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "variant": "ignus_for_rakdos",
+    "unchanged_canonical": true
+  },
+  "authority": [
+    "Wizards official Time Spiral Remastered release notes: Ignus {R} bounce is a MANA ABILITY, no stack, cannot respond to its activation; priority after creature resolves unless ETB triggered abilities intervene (https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23)",
+    "Wizards official Double Masters 2022 release notes: cascade triggers even if source spell countered (https://magic.wizards.com/en/news/feature/double-masters-2022-release-notes-2022-06-24)",
+    "Wizards official Core Set 2020 Rule of Law: previous casts count, even counters, no second spell (https://www.magic.wizards.com/en/news/feature/core-set-2020-release-notes-2019-06-25)",
+    "Wizards official Avatar Last Airbender notes Drannith: opponent cannot cast from anywhere other than hand (https://magic.wizards.com/en/news/feature/avatar-the-last-airbender-release-notes)",
+    "Existing physical 99 library and registered PR524 cascade subset, printed MV3, fixed Birgi/Abaddon and single burn"
+  ],
+  "registered_states": [
+    {
+      "id": "uncontested",
+      "opponent_effects": [],
+      "prior_own_spells": 1,
+      "when": "Ignus already in play, previously resolved Boltwave life-loss",
+      "expected": "5 physical recasts and 5 potential cascades if Birgi and Abaddon survive; effect resolution remains partial"
+    },
+    {
+      "id": "rule_of_law_boltwave_was_cast",
+      "opponent_effects": [
+        "Rule of Law"
+      ],
+      "prior_own_spells": 1,
+      "when": "before Ignus first cast this turn",
+      "expected": "Ignus cannot be cast from hand, even if affordable, so no new cascade"
+    },
+    {
+      "id": "rule_of_law_first_ignus",
+      "opponent_effects": [
+        "Rule of Law"
+      ],
+      "prior_own_spells": 0,
+      "when": "Ignus is first spell, life-loss from a non-spell source, so it gains cascade, but free second spell from exile is illegal",
+      "expected": "one Ignus hand cast and cascade exile; hit bottoms, not cast; no additional Ignus recasts same turn"
+    },
+    {
+      "id": "drannith",
+      "opponent_effects": [
+        "Drannith Magistrate"
+      ],
+      "prior_own_spells": 0,
+      "when": "Ignus was legally hand-cast and Abaddon granted cascade",
+      "expected": "hand Ignus is legal, free exile hit prohibited and bottoms; further hand recasts remain legal absent Rule of Law"
+    },
+    {
+      "id": "abaddon_removed_before_next_ignus",
+      "opponent_effects": [
+        "Abaddon spot removal"
+      ],
+      "prior_own_spells": 1,
+      "when": "previous cascade resolved, new Ignus hand cast after commander gone",
+      "expected": "no new Abaddon granted cascade; existing cascade trigger would persist if already on stack"
+    },
+    {
+      "id": "birgi_removed_before_next_ignus",
+      "opponent_effects": [
+        "Birgi spot removal"
+      ],
+      "prior_own_spells": 1,
+      "when": "previous cast red trigger already generated then Birgi removed before next cast",
+      "expected": "old generated red not undone; no new Birgi cast triggers; with one initial red, only one further Ignus recast source paid"
+    },
+    {
+      "id": "ignus_countered_after_cast",
+      "opponent_effects": [
+        "counterspell original Ignus"
+      ],
+      "prior_own_spells": 1,
+      "when": "original paid hand Ignus spell on stack, Abaddon cascade and Birgi already triggered",
+      "expected": "Ignus goes to grave; independent Abaddon cascade still exiles/casts conditional hit, Birgi red still adds; no available Ignus creature to bounce"
+    },
+    {
+      "id": "ignus_entered_quiet_board",
+      "opponent_effects": [
+        "ordinary opponent spot removal"
+      ],
+      "prior_own_spells": 1,
+      "when": "Ignus spell has resolved, no ETB or other triggers on stack, active player has priority",
+      "expected": "player may immediately pay {R} as mana ability and return Ignus before opponent acquires priority; no response to this activation"
+    }
+  ],
+  "model_scope": {
+    "physical_99_zones_verified": true,
+    "prearranged_board_fixture_not_physical_draw_probability": true,
+    "boltwave_preexisting_9_aggregate_opp_loss": true,
+    "fixture_land_setup_from_real_library": true,
+    "source_paid_bounce_and_recast": true,
+    "real_legal_first_cascade_hit_effects_subset": true,
+    "real_external_opponent_spells_cast_or_drawn": false,
+    "real_opponent_play_probability": false,
+    "full_99_card_effects": false,
+    "game_win_rate": null,
+    "swap_superiority_proved": false,
+    "canonical_changed": false,
+    "m6_certificates": 0,
+    "m7_owner_approvals": 0
+  },
+  "defensive_requirements": [
+    "When updating predecessor first_cascade, use optional restriction kwargs default false and preserve existing exact no-hate behavior",
+    "When Rule of Law prohibits cascade-cast, still exile and randomly bottom all cards",
+    "No suggestion that Ignus's mana ability can be countered, responded to or put on stack; opponents can answer spell on stack or act at earlier priority windows",
+    "Never claim Abaddon cascade trigger disappears just because commander was removed AFTER cast",
+    "Physically account hand Ignus when countered; if original on stack is countered before it resolves, cascade still operates but no postresolution bounce",
+    "Check all 99 physical zone identities and colored payments in each test",
+    "No new deck approved or M6/M7 promoted from these conditional response witnesses"
+  ]
+}
