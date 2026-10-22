@@ -17,6 +17,8 @@ on:
       - scripts/grixis_m7_decision_gate.py
       - scripts/grixis_m7_abaddon_live_oracle.py
       - scripts/grixis_m6_abaddon_oracle_capture.py
+      - tests/test_m6_abaddon_saved_oracle_snapshot.py
+      - data/grixis/m6/oracle_snapshots/**
       - tests/test_m7_abaddon_live_oracle.py
       - tests/test_m7_abaddon_decisive_cut_disposition.py
       - tests/test_m6_abaddon_betrayal_keeper_p0.py
@@ -106,6 +108,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_lost_keeper_effect.py' -v
       - name: Verify fail-closed Oracle/source guards offline
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_live_oracle.py' -v
+      - name: Verify permanent 97-name Oracle archive and exact research candidate logical hash
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_saved_oracle_snapshot.py' -v
       - name: Fetch current Scryfall Oracle and Commander legality for five complete Abaddon lists
         run: python -m scripts.grixis_m7_abaddon_live_oracle --out "${{ runner.temp }}/abaddon-m7-current-scryfall.json"
       - name: Emit exact 97-name public Oracle rows and chosen 100-card logical hash for durable M6 J archival
