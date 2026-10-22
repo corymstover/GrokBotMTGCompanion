@@ -1,0 +1,67 @@
+name: M6 reusable source-hashed cross-deck suites
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-reusable-suites.yml
+      - scripts/grixis_m6_reuse.py
+      - tests/test_m6_reusable_suites.py
+      - data/grixis/m6/reusable_test_suites.json
+      - grixis/M6 Cross-Deck Reusable Tests.md
+  push:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-reusable-suites.yml
+      - scripts/grixis_m6_reuse.py
+      - tests/test_m6_reusable_suites.py
+      - data/grixis/m6/reusable_test_suites.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verified-reuse:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial exact-input invalidation, untrusted-cache and no-deck-approval checks
+        run: python -m unittest discover -s tests -p 'test_m6_reusable_suites.py' -v
+      - name: Restore prior hashed PASS-only cross-deck receipts (never an authority override)
+        uses: actions/cache@v4
+        with:
+          path: .cache/grixis_m6_reuse
+          key: m6-crossdeck-v1-${{ runner.os }}-${{ github.sha }}
+          restore-keys: |
+            m6-crossdeck-v1-${{ runner.os }}-
+      - name: Reuse exact passing unchanged tests or execute on source/code changes
+        run: python scripts/grixis_m6_reuse.py --deck-id Abaddon_the_Despoiler --run --json-out m6_crossdeck_reuse_receipt.json
+      - name: Assert shared foundation only, no milestone completion or approval
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          receipt=json.loads(Path('m6_crossdeck_reuse_receipt.json').read_text())
+          suites=json.loads(Path('data/grixis/m6/reusable_test_suites.json').read_text())
+          progress=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert receipt['all_suites_pass_or_reused']
+          assert len(receipt['results'])==len(suites['suites'])==3
+          assert all(x['tests_run']>0 for x in receipt['results'])
+          assert all(x['status'] in ('EXECUTED_AND_CACHED','REUSED_VALIDATED_PASS') for x in receipt['results'])
+          assert all(x['coverage']=='foundation_only_no_gameplay' for x in receipt['results'])
+          assert receipt['source_binding']['scope']=='registered_frozen_source_not_live_canonical'
+          assert all(v is False for v in receipt['authority'].values())
+          assert not receipt['full_phase_b_achieved'] and not receipt['deck_approved']
+          assert progress['m6']['gates'][5]['status']=='PARTIAL'
+          assert progress['m6']['gates'][6]['status']=='PARTIAL'
+          assert progress['m6']['formal_m6_certified_decks']==0
+          assert progress['m7']['formal_m7_review_decisions']==0
+          print('PASS: cached common foundations never count as deck strategy or owner approvals.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grixis-m6-crossdeck-shared-suite-receipt
+          path: m6_crossdeck_reuse_receipt.json
+          retention-days: 30
