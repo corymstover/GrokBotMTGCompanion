@@ -32,7 +32,7 @@ PASS_C_DIR="data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler"
 SOURCE_MIRROR="exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt"
 BUNDLE="data/grixis/m6/bundles/abaddon-the-despoiler.json"
 COVERAGE="data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json"
-KNOWN_P0_GAPS={"P0-025","P0-026","P0-027"}
+KNOWN_P0_GAPS={"P0-026","P0-027"}
 GATES=["M6.6","M6.7","M6.8","M6.9","M6.10"]
 
 
@@ -126,7 +126,7 @@ def verify_prerequisites():
 
 def validate_runtime(oracle, p0):
     inventory=load(ROOT/INVENTORY)
-    if (len(inventory["replay_cases"])!=52
+    if (len(inventory["replay_cases"])!=61
         or {x["id"] for x in inventory["required_open"]}!=KNOWN_P0_GAPS
         or inventory["completion_claim"]):
         raise PreflightFailure("Current 44-P0 known-case inventory not closed")
@@ -135,13 +135,13 @@ def validate_runtime(oracle, p0):
 
     expected={row["id"]:row for row in inventory["replay_cases"]}
     receipts=p0.get("case_receipts")
-    if (p0.get("replayed_case_count")!=52 or p0.get("passed")!=52
-        or p0.get("failed")!=0 or p0.get("open_required_count")!=3
+    if (p0.get("replayed_case_count")!=61 or p0.get("passed")!=61
+        or p0.get("failed")!=0 or p0.get("open_required_count")!=2
         or {x["id"] for x in p0.get("open_required_p0_cases",[])}!=KNOWN_P0_GAPS
         or p0.get("M6_6_certified") is not False or p0.get("owner_approved") is not False
         or p0.get("canonical_pinned_raw_sha256")!=PINNED or
         p0.get("registry_sha256")!=sha(ROOT/INVENTORY) or
-        not isinstance(receipts,list) or len(receipts)!=52):
+        not isinstance(receipts,list) or len(receipts)!=61):
         raise PreflightFailure("Actual CI P0 report is missing/inconsistent")
     ids={row.get("id") for row in receipts}
     if ids!=set(expected):
@@ -191,8 +191,7 @@ def validate_runtime(oracle, p0):
     for row in rows:
         if row["baseline"]!=(row["name"] in baseline):
             raise PreflightFailure("Coverage baseline card membership falsely classified: "+row["name"])
-        expected={"P0-025":"Nalfeshnee",
-                  "P0-026":"Passionate Archaeologist","P0-027":"Prosper, Tome-Bound"}
+        expected={"P0-026":"Passionate Archaeologist","P0-027":"Prosper, Tome-Bound"}
         if row["name"] in expected.values():
             if row.get("new_gap_id")!=next(k for k,v in expected.items() if v==row["name"]) or row["coverage_class"]!="IDENTIFIED_MATERIAL_P0_GAP":
                 raise PreflightFailure("False mandatory card gap classification")
@@ -200,6 +199,10 @@ def validate_runtime(oracle, p0):
             if (row["coverage_class"]!="SELECTED_INTERACTION_STAGED_P0" or
                 set(row["p0_direct_case_ids"])!={"P0-024"+chr(ord("a")+i) for i in range(8)}):
                 raise PreflightFailure("Wild-Magic staged physical cases not bound to all 97 names")
+        if row["name"]=="Nalfeshnee":
+            if (row["coverage_class"]!="SELECTED_INTERACTION_STAGED_P0" or
+                set(row["p0_direct_case_ids"])!={"P0-025"+chr(ord("a")+i) for i in range(9)}):
+                raise PreflightFailure("Nalfeshnee nine physical spell-copy tests not bound to 97-name deck audit")
     for name,c in data.items():
         oracle_text=c.get("oracle_text","")
         if (c.get("commander_legality")!="legal" or not set(c.get("color_identity",[])) <= {"B","R","U"}
@@ -207,8 +210,8 @@ def validate_runtime(oracle, p0):
            or hashlib.sha256(oracle_text.encode("utf-8")).hexdigest()!=c.get("oracle_text_sha256")):
             raise PreflightFailure("Oracle current legality/identity/text hash violation: "+name)
 
-    return {"phase_b_actual_named_P0_methods":52,"phase_b_pass":52,
-        "current_identified_open_P0":3,
+    return {"phase_b_actual_named_P0_methods":61,"phase_b_pass":61,
+        "current_identified_open_P0":2,
         "current_oracle_unique_names":97,"full_physical_lists":5,
         "current_oracle_checked_at_utc":oracle["checked_at_utc"],
         "oracle_input_sha256":None, "p0_input_sha256":None,
@@ -229,7 +232,7 @@ def build(oracle_path,p0_path):
         "source_integrity":static,"runtime_verification":dynamic,
         "quality_gates":{
            "M6_5":"PASS_OWNER_WAIVER_NONINDEPENDENT",
-           "M6_6":"52_REGISTERED_P0_CASES_THREE_OTHER_EXILE_ENGINES_PENDING_FORMAL_COMPLETENESS",
+           "M6_6":"61_REGISTERED_P0_CASES_TWO_REMAINING_EXILE_ENGINES_PENDING_FORMAL_COMPLETENESS",
            "M6_7":"AUTHORED_CONFLICT_RECONCILED_FORMAL_JUDGMENT_GATE_PENDING",
            "M6_8_I":"BLOCKED_PLAUSIBLE_POSITIVE_SWAP_POOL_NOT_ZERO_IMPROVEMENT",
            "M6_9_J":"BLOCKED_NO_COMPLETE_EFFECT_AWARE_FINAL_BUNDLE",
@@ -237,7 +240,7 @@ def build(oracle_path,p0_path):
            "M7":"NO_NEW_OWNER_APPROVAL",
         },
         "remaining_material_dependencies":[
-           "M6.6: three other critical exile-cast engine mechanisms (Nalfeshnee, Passionate Archaeologist, Prosper) remain unexecuted; previous 44 historical P0 still pass and eight Wild-Magic cases are registered for actual execution.",
+           "M6.6: two exile-cast payoffs (Passionate Archaeologist and Prosper) still require execution; 52 historical P0 passing methods and nine registered Nalfeshnee cases do not establish exhaustive 99-card-effect coverage.",
            "M6.7 material contradiction with historical Pass C Assault proposal reconciled narratively, but comparative strength remains qualitative, not measured net-game superiority.",
            "M6 I cannot certify original baseline local optimum while a plausible two-swap challenger remains and exact tested pool is not declared closed for local optimum.",
            "M6 J complete schema requires durable rules/Oracle/legality snapshots, fully reconciled decision-grade Phase B effect coverage, mana/red-team stress and exact result logical hashes. Actions evidence artifacts expire.",
