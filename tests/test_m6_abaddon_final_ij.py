@@ -11,6 +11,7 @@ import unittest
 
 from scripts import grixis_authority as ga
 from scripts.grixis_m6_bundle_check import validate_bundle
+from scripts.grixis_m6_abaddon_i_final_check import check as check_selected_i, ICompletedEvidenceError
 
 ROOT = Path(__file__).resolve().parents[1]
 I = ROOT / "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json"
@@ -37,6 +38,7 @@ class AbaddonFinalIJSourceBound(unittest.TestCase):
     def test_actual_pass_scoped_i_certificate_schema_and_source(self):
         i = self.i
         self.assertEqual(ga.validate_file(i, "zero_improvement_certificate.schema.json"), [])
+        self.assertTrue(check_selected_i())
         self.assertEqual(i["certificate_status"], "pass")
         self.assertEqual(i["list_hash"], SELECTED_LH)
         self.assertEqual(i["candidate_pool"]["tested_pool_size"], 5)
@@ -98,7 +100,8 @@ class AbaddonFinalIJSourceBound(unittest.TestCase):
         ]:
             forged = copy.deepcopy(self.i)
             forged.update(change)
-            self.assertTrue(ga.validate_file(forged, "zero_improvement_certificate.schema.json"))
+            with self.assertRaises(ICompletedEvidenceError):
+                check_selected_i(forged)
 
 
 if __name__ == "__main__":
