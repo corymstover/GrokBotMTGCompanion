@@ -991,8 +991,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Replay all 104 actual named bounded P0 source-paid tests including P0-030; verify 97 Scryfall names and separate replacement-event coverage. Continue material residual P1 decisions; no complete-99 gameplay, I/J certification, owner approval or baseline mutation.",
-  "test_receipt_status": "AWAITING_EXACT_HEAD_104_NAMED_CASE_REPLAY",
+  "next_action": "Classify 70 residual Oracle-only/older partial-model names by actual decision impact and source-tested shared mechanics; implement only new materially mandatory P0/P1 cases, justify P1 deferrals, then adjudicate M6.6/M6.7 sufficiency and tested-pool I/full reproducibility J honestly. Do not repeat broad simulation or switch commanders.",
+  "test_receipt_status": "EXACT_HEAD_SUCCESS_104_NAMED_P0_NONCERTIFYING",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -1150,5 +1150,24 @@
       ]
     }
   ],
-  "known_p0_inventory_replay_ready": true
+  "known_p0_inventory_replay_ready": true,
+  "latest_verified_ci_execution": {
+    "pr": 564,
+    "head_sha": "029fdb9a8fdefe2ef81be09be6dc03cb54c59d30",
+    "run_id": 39816637079,
+    "job_id": 119956728524,
+    "run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39816637079",
+    "conclusion": "SUCCESS",
+    "registered_p0_methods": 104,
+    "executed_p0_methods": 104,
+    "passed_p0_methods": 104,
+    "known_open_p0": 0,
+    "completed_live_oracle_names": 97,
+    "source_100_cards": 100,
+    "new_p0_030_cases": 9,
+    "scope": "Named conditional bounded fixtures, not complete 99-card game-effects; M6.6/7 PARTIAL, M6 I/J BLOCKED.",
+    "canonical_modified": false,
+    "certification_granted": false,
+    "owner_approved": false
+  }
 }
