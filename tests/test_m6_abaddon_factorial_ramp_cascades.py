@@ -81,7 +81,7 @@ class FactorialAbaddonTest(unittest.TestCase):
         self.assertEqual(s["metrics"]["actual_supported_hits_resolved"],1)
         self.assertEqual(s["metrics"]["hit_cards_drawn"],3)
         self.assertEqual(s["metrics"]["hand_red_mana"],2)
-        self.assertEqual(s["pool"][2],3) # own Rite R2 + Birgi R1, source land paid
+        self.assertEqual(s["pool"][2],4) # Rite R2 + Birgi R1 for Rite and R1 for cascade-cast Vision
         self.assertEqual(s["graveyard"],["Ancestral Vision","Rite of Flame"])
         self.assertEqual(physical_zones(s),original)
 
