@@ -17,7 +17,7 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 81,
+    "registered_replay_cases": 88,
     "required_unexecuted_cases": 0,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
@@ -27,7 +27,8 @@
     "note_p0_024": "Eight source-paid Wild-Magic Sorcerer scenarios registered after source-audited rules review; their execution requires exact-head Actions CI, not metadata.",
     "note_p0_025": "Nine preregistered source-paid Nalfeshnee permanent-copy, sorcery-copy and Wild-Magic cascade cases added for exact-head CI; registration alone is not test PASS.",
     "note_p0_026": "Ten preregistered source-paid Passionate Archaeologist cases attached to exact 100 list; registration is not test PASS until exact-head CI.",
-    "note_p0_027": "P0-027 final currently known mandatory P0 class moved to TEN preregistered actual methods. Zero open means the 97-name explicitly scoped audit inventory, not exhaustive Magic gameplay verification. M6.6 still PARTIAL."
+    "note_p0_027": "P0-027 final currently known mandatory P0 class moved to TEN preregistered actual methods. Zero open means the 97-name explicitly scoped audit inventory, not exhaustive Magic gameplay verification. M6.6 still PARTIAL.",
+    "note_p0_028": "After initial 81-case inventory closure, 97-name adequacy audit found source-present Storm-Kiln Artist's Magecraft COPY trigger untested with Nalfeshnee and Brain Freeze; seven exact case methods preregistered, not proof until final-head CI."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -765,6 +766,69 @@
       "expected_execution": "NEW_PROSPER_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-028a",
+      "mechanic": "A physically paid hand Boltwave from a real untapped Mountain triggers Storm-Kiln once (1 virtual Treasure) but not Nalfeshnee or The Lost and the Damned (not an exile/nonhand cast); opponent life loss occurs on resolution.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_source_paid_hand_boltwave_cast_only",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-028b",
+      "mechanic": "Physically paid {5}{R}{R}{R} Call from hand at X0 triggers Storm-Kiln once; first actual cascade-exiled Boltwave sorcery cast triggers Storm-Kiln a second time, then Nalfeshnee copies it and Storm-Kiln triggers a THIRD time; actual Boltwave and virtual copy each resolve, no extra Abaddon cascade, Lost only once.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_x0_call_nalf_exiled_boltwave",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-028c",
+      "mechanic": "With X9, three Call cascades physically cast Arcane Signet, Sol Ring and Boltwave; Nalfeshnee copies each, but only instant/sorcery Boltwave cast and copied trigger Storm-Kiln. Call itself also triggered Storm-Kiln: total THREE Treasures, 3 Lost Spawns, one actual Boltwave cast.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_x9_mixed_spell_and_permanent_copies",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-028d",
+      "mechanic": "With physically sourced Breach hand-cast and LED from graveyard, escape-paid Brain Freeze instant has storm count 2 from actual Breach+LED casts. Its real cast triggers Storm-Kiln once and its two virtual storm copies trigger two more: three Magecraft Treasures, one real Brain Freeze cast, two virtual copies, physical 99 conserved.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_brain_freeze_storm_copies",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-028e",
+      "mechanic": "After actual exile Boltwave cast, opponent counters original before Nalfeshnee triggered copy resolves. Storm-Kiln still triggers once on real cast and again on the later actual spell COPY event; copy resolves and deals 3 to each opponent, original does not; plus source hand Call gives one separate Treasure.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_countered_original_copy_trigger_still_magecraft",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-028f",
+      "mechanic": "An actual Arcane Signet exile-cast and Nalfeshnee's permanent-spell copy do not trigger Storm-Kiln at all; physically paid hand Call sorcery generates one Storm-Kiln Treasure, Lost one Spawn, no cast from virtual permanent copy.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_artifact_copy_no_magecraft",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-028g",
+      "mechanic": "Prosper exiles and later plays an actual Swamp from exile on owner's main with normal land-drop access: one Prosper Treasure plus one Lost Spawn; NO Storm-Kiln Magecraft, no spell casts, original 99 cards conserved.",
+      "test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "test_method": "AbaddonStormKilnP0028.test_kiln_land_play_from_prosper_no_magecraft",
+      "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
     }
   ],
   "required_open": [],
@@ -782,8 +846,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Execute 81 exact named source-bound P0 methods on final PR head; then independent 97-name effect-coverage completeness reassessment and M6.7 comparative judgment; do not claim automatic M6.6, I/J certification or M7 approval.",
-  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_81_CASES_CI_P0_027",
+  "next_action": "Execute 88 actual P0 case methods including seven previously untested Storm-Kiln copy magecraft rules cases; evaluate true sufficiency separately (76 oracle-only roles, incomplete opponents). M6.6/7 remain PARTIAL and I/J remain BLOCKED.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_88_CASE_REPLAY_INCLUDING_STORM_KILN_COPY_EVENTS",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -894,6 +958,20 @@
         "P0-027h",
         "P0-027i",
         "P0-027j"
+      ]
+    },
+    {
+      "id": "P0-028",
+      "status": "REGISTERED_AFTER_NEW_WHOLE_DECK_REAUDIT_NOT_FORMAL_CERTIFICATION",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json",
+      "case_ids": [
+        "P0-028a",
+        "P0-028b",
+        "P0-028c",
+        "P0-028d",
+        "P0-028e",
+        "P0-028f",
+        "P0-028g"
       ]
     }
   ],
