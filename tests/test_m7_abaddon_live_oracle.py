@@ -107,7 +107,7 @@ class AbaddonLiveOracleOfflineContract(unittest.TestCase):
         for name,field,val in (
             ("Chaos Warp","color_identity",["G"]),
             ("Inevitable Betrayal","legalities",{"commander":"banned"}),
-            ("Keeper of Secrets","games",["arena"]),
+            ("Keeper of Secrets","games",[]),
             ("Grinning Ignus","oracle_id",None),
             ("Call Forth the Tempest","oracle_text","No cascade here"),
         ):
