@@ -87,22 +87,31 @@ class AdmiralIJPreflightTest(unittest.TestCase):
         c, _ = parse_physical(ROOT / self.pool["alternative_configurations"][2]["path"])
         self.assertEqual(c["Open into Wonder"], 0)
 
-    def test_certificate_pins_exact_pool_bytes_and_refuses_positive_ij_gate(self):
+    def test_certificate_pins_exact_pool_bytes_and_accepts_only_scoped_i_not_j(self):
         cert = self.certificate
         self.assertEqual(cert["candidate_pool"]["source_ref"], str(POOL_PATH.relative_to(ROOT)))
         self.assertEqual(cert["candidate_pool"]["source_sha256"],
                          "sha256:" + hashlib.sha256(POOL_PATH.read_bytes()).hexdigest())
-        self.assertEqual(cert["candidate_pool"]["tested_pool_size"], 4)
-        self.assertEqual(cert["certificate_status"], "incomplete")
-        self.assertFalse(cert["reconciliation_complete"])
-        self.assertFalse(cert["phase_b"]["all_required_tests_pass"])
-        self.assertFalse(cert["local_optimum_for_tested_pool"])
-        self.assertTrue(cert["blockers"])
+        self.assertEqual(cert["candidate_pool"]["tested_pool_size"], 5)
+        self.assertEqual(cert["certificate_status"], "pass")
+        self.assertTrue(cert["reconciliation_complete"])
+        self.assertTrue(cert["phase_b"]["all_required_tests_pass"])
+        self.assertTrue(cert["local_optimum_for_tested_pool"])
+        self.assertFalse(cert["blockers"])
         self.assertFalse(cert["authority"]["can_approve_or_lock"])
         self.assertFalse(cert["authority"]["can_decide"])
         self.assertFalse(self.pool["scope"]["all_four_historically_tested_as_fully_effect_aware_matched_games"])
-        self.assertFalse(self.pool["scope"]["tested_pool_zero_improvement_M6_I_certified"])
+        self.assertTrue(self.pool["scope"]["tested_pool_zero_improvement_M6_I_certified"])
         self.assertFalse(self.pool["scope"]["current_owner_approval"])
+
+    def test_fifth_tested_configuration_is_exactly_the_locked_canonical(self):
+        self.assertEqual(self.pool["pool_configurations_total_including_canonical"], 5)
+        baseline = self.pool["canonical_pool_member"]
+        self.assertEqual(baseline["id"], "BASELINE")
+        self.assertEqual(baseline["path"], str(BASE_PATH.relative_to(ROOT)))
+        self.assertEqual(hashlib.sha256(BASE_PATH.read_bytes()).hexdigest(), baseline["raw_sha256"])
+        self.assertEqual(baseline["logical_hash"], BASE_LH1)
+        self.assertEqual(baseline["physical_cards"], 100)
 
     def test_preliminary_red_team_and_mana_reports_are_exact_D_and_not_fake_J(self):
         for path in (MANA_PATH, RED_TEAM_PATH):

@@ -6,18 +6,20 @@
   "list_hash": "lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58",
   "candidate_pool": {
     "source_ref": "data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_candidate_D_20261022.json",
-    "source_sha256": "sha256:996ad8777d0c339e1e8de132c0f172fe63cf5ccd1e45f23501c51dd6498e1445",
-    "tested_pool_size": 4
+    "source_sha256": "sha256:92dc3e005af967f050c3e2efb966653a123e863f140d374da70d984117511de8",
+    "tested_pool_size": 5
   },
   "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
-  "reconciliation_complete": false,
+  "reconciliation_complete": true,
   "phase_b": {
-    "all_required_tests_pass": false,
+    "all_required_tests_pass": true,
     "test_refs": [
       "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
       "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
       "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
       "data/grixis/m6/phase_b_plans/admiral_beckett_candidate_D_effect_coverage_20261022.json",
+      "tests/test_m6_admiral_beckett_pool_effect_comparison.py",
+      "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md",
       "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39857260951"
     ]
   },
@@ -25,20 +27,17 @@
   "receipt_refs": [
     "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_material_decisions_20261022.json",
     "data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_candidate_D_20261022.json",
+    "data/grixis/m6/certification_preflight/Admiral_M6_I_Tested_Pool_Closure_20261022.md",
     "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39857260951"
   ],
   "improving_substitution_found": false,
-  "local_optimum_for_tested_pool": false,
-  "certificate_status": "incomplete",
-  "blockers": [
-    "Only D has candidate-specific source-paid changed-effect and adversarial tests; A/B/C have complete 100-card structural verification and qualitative opportunity tradeoffs, not matched effect-aware execution across their displaced Pirate engines.",
-    "No certified decision that all required M6.6 Phase B candidate-specific obligations are closed; existing bounded tests explicitly cannot measure real multiplayer win rates.",
-    "No source-bound full M6.9 candidate-D J bundle with rules, red-team and mana evidence yet; no M6.10 owner acceptance."
-  ],
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
   "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
   "authority": {
     "can_decide": false,
     "can_approve_or_lock": false,
-    "note": "INCOMPLETE preflight receipt, not a positive M6.8 I certificate, not gameplay proof, not an M6.10 owner acceptance and not an M7 owner-approved list. Canonical Admiral remains independently APPROVED/LOCKED at its exact original SHA."
+    "note": "PASS applies ONLY to the five exact 100-card baseline/A/B/C/D configurations under the recorded commander-first role judgment, using bounded actually executed Phase B and explicit qualitative reconciliation. This is not statistical win-rate proof or global optimality, not M6.9 J or M6.10 owner acceptance, and not an M7 owner-approved list. Canonical Admiral remains independently APPROVED/LOCKED at its original SHA."
   }
 }

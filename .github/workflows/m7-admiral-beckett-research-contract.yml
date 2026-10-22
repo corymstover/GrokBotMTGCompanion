@@ -12,6 +12,7 @@ on:
       - data/grixis/m6/certification_preflight/Admiral_M6_J_candidate_D_*.md
       - data/grixis/m6/certification_preflight/Admiral_M6_I_four_package_effect_adjudication_20261022.md
       - data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md
+      - data/grixis/m6/certification_preflight/Admiral_M6_I_Tested_Pool_Closure_20261022.md
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.txt
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.json
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md

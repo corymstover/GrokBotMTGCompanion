@@ -2,13 +2,23 @@
   "schema_version": 1,
   "date": "2026-10-22",
   "deck_id": "Admiral_Beckett_Brass",
-  "pool_status": "FOUR_COMPLETE_100_CARD_RESEARCH_CONFIGURATIONS_NOT_EFFECT_COMPLETE_MATCHED_TESTS",
+  "pool_status": "FIVE_COMPLETE_100_CARD_CONFIGURATIONS_INCLUDING_CANONICAL_FINITE_EFFECT_RECONCILIATION",
   "canonical_locked_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
   "canonical_locked_logical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
   "preferred_research_candidate": "D",
   "preferred_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
   "preferred_logical_hash": "lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58",
   "logical_hash_rule": "SHA-256 of sorted zone|oracle_id|quantity newline rows, per registry.hash_definition; computed using the same 121-name Scryfall source for both baseline and candidate. Baseline recomputes to registry.current_canonical_hash.",
+  "canonical_pool_member": {
+    "id": "BASELINE",
+    "path": "data/grixis/m6/authority_snapshots/Admiral_Beckett_Brass_Canonical_Approved_20261022.txt",
+    "raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+    "logical_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+    "physical_cards": 100,
+    "judgment": "RETAIN_CANONICAL_LOCK_UNTIL_OWNER_EXPLICITLY_APPROVES_REPLACEMENT",
+    "comparative_assessment": "Original 35-land and 34-creature Pirate list keeps Forerunner tutor/entry drain, Poisoner flash/deathtouch, Captain attack power and Saboteur loot; it loses D's extra free early flying/spirit evade bodies, Broadside haste/menace and fourth-turn untapped City access. Finite ground-blocker source test and authored role preference favor D for the three-distinct-Pirate theft requirement, with real defensive/attrition reversibility."
+  },
+  "pool_configurations_total_including_canonical": 5,
   "oracle_source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
   "alternative_configurations": [
     {
@@ -58,19 +68,23 @@
     "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
     "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
     "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+    "tests/test_m6_admiral_beckett_pool_effect_comparison.py",
     "data/grixis/m6/phase_b_plans/admiral_beckett_candidate_D_effect_coverage_20261022.json",
-    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39857260951"
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39857260951",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39859047626",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39859693010"
   ],
   "scope": {
     "all_four_complete_100_card_sources_physically_verified": true,
+    "canonical_100_card_source_physically_verified": true,
     "all_four_historically_tested_as_fully_effect_aware_matched_games": false,
     "candidate_D_changed_effects_and_hostile_states_have_bounded_executed_tests": true,
     "measured_multiplayer_performance_order": false,
     "actual_strategic_preference": "D has the best commander-first retained engine among examined packages, subject to Forerunner and Poisoner matchup tradeoffs; no statistically established advantage claimed.",
-    "tested_pool_zero_improvement_M6_I_certified": false,
+    "tested_pool_zero_improvement_M6_I_certified": true,
     "m6_J_final_bundle_complete": false,
     "current_owner_approval": false,
     "no_canonical_edits": true
   },
-  "next_decision": "Adjudicate finite effect-aware A/B/C versus D comparisons for their distinct displacement of Raiders, Indomitable, Open, Forerunner and Poisoner; only PASS the tested-pool local-best certificate after honest reconciliation under M6.8. Then bind exact D logical/raw hashes and complete M6.9 J evidence; no owner approvals inferred."
+  "next_decision": "M6.8 formally bounds only baseline plus A/B/C/D under the documented commander-first objective; qualitative package reconciliation and every applicable finite rules case are executed. Bind exact D logical/raw hash to a new complete M6.9 J source bundle with waiver, rules, Oracle, mana/red-team and actual CI. Do not construe an I pass as global optimality, an M6.10 acceptance or owner-approved M7 replacement."
 }
