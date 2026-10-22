@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Parnesse__the_Subtle_Brush",
+  "order": 46,
+  "commanders": [
+    "Parnesse, the Subtle Brush"
+  ],
+  "strategy": {
+    "primary": "Spellslinger copy: cast efficient instants and sorceries, copy them, and use Parnesse to hand selected opponents optional copies as political leverage. Her first ability taxes opposing targeting by 4 life.",
+    "secondary": "Commander-free copy infinites: Narset's Reversal or Reiterate/Reverberate/Increasing Vengeance/Return the Favor with a ritual/copy-mana engine (Alania, Pyromancer's Goggles, Prismari, Thousand-Year Storm, Storm-Kiln Artist, Mana Geyser, Jeska's Will)."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Parnesse, the Subtle Brush",
+      "oracle_id": "c6040e8d-dac3-4bed-8d1d-d7d44aa10c86",
+      "oracle_text": "Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays 4 life.\nWhenever you copy a spell, up to one target opponent may also copy that spell. They may choose new targets for that copy.",
+      "oracle_sha256": "sha256:e65164b6ccf589eab16783fc4b7163f061a77309868f188599b7c077b7897ad4",
+      "type_line": "Legendary Creature — Vampire Wizard"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Parnesse, the Subtle Brush",
+      "why": "Targeting tax and copy politics.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Parnesse, the Subtle Brush"
+      ]
+    },
+    {
+      "card": "Narset's Reversal",
+      "why": "Hub of the copy infinites.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:11-3368"
+      ]
+    },
+    {
+      "card": "Reiterate",
+      "why": "Buyback copy for mana loops.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:3368-5959"
+      ]
+    },
+    {
+      "card": "Tempt with Mayhem",
+      "why": "Copy spell with political upside.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L33"
+      ]
+    },
+    {
+      "card": "Veyran, Voice of Duality",
+      "why": "Doubles Parnesse's triggers.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Parnesse_the_Subtle_Brush_Commander_Blueprint_2026-10-15.md#L20"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/parnesse-the-subtle-brush.json",
+    "blueprint_blob": "74e9648b5744654cfd19c4a85098b0862fb73826",
+    "canonical_source_path": "refinement/decklists/Parnesse_the_Subtle_Brush_Approved_2026-10-15.txt",
+    "canonical_source_blob": "c99244e17b3a36c654b54b2abddc2e82047d7d04",
+    "canonical_approved_sha256": "8ff8c101d98e7de997c1de29973db2dd6a51ffdd7b44e4f34145bb1abf2d9e7c",
+    "canonical_record_key": "Parnesse__the_Subtle_Brush",
+    "registry_raw_matches": true,
+    "source_card_lines": 96,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:parnesse-the-subtle-brush#commanders.value[0]",
+      "scenario": "Parnesse, the Subtle Brush",
+      "expected_claim_to_verify": "Whenever you or a permanent you control becomes the target of a spell or ability an opponent controls, counter that spell or ability unless that player pays 4 life.\nWhenever you copy a spell, up to one target opponent may also copy that spell. They may choose new targets for that copy.",
+      "cards": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "found_in_source_export": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[0]",
+      "scenario": "copy-not-cast-copy",
+      "expected_claim_to_verify": "Parnesse only triggers on copying a spell. Arcane Bombardment/Mizzix's Mastery copy cards in other zones and cast them, a different event.",
+      "cards": [
+        "Parnesse, the Subtle Brush",
+        "Mizzix's Mastery"
+      ],
+      "found_in_source_export": [
+        "Parnesse, the Subtle Brush",
+        "Mizzix's Mastery"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[1]",
+      "scenario": "opponent-copy",
+      "expected_claim_to_verify": "Opponents' copies may choose new targets; pick a recipient whose copy helps you or is harmless.",
+      "cards": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "found_in_source_export": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[2]",
+      "scenario": "targeting-tax",
+      "expected_claim_to_verify": "Opposing spells and abilities that target you or your permanents are countered unless they pay 4 life.",
+      "cards": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "found_in_source_export": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[3]",
+      "scenario": "tempt-copies",
+      "expected_claim_to_verify": "Tempt with Mayhem copies an instant or sorcery at least once under your control, plus more if opponents accept.",
+      "cards": [
+        "Tempt with Mayhem",
+        "Parnesse, the Subtle Brush"
+      ],
+      "found_in_source_export": [
+        "Tempt with Mayhem",
+        "Parnesse, the Subtle Brush"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[4]",
+      "scenario": "retargeted-copy-tax",
+      "expected_claim_to_verify": "Resolved (Cory review + derivation): an opponent who makes Parnesse's offered copy controls it; if they target you or a permanent you control, Parnesse's first ability triggers and they must pay 4 life or the copy is countered.",
+      "cards": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "found_in_source_export": [
+        "Parnesse, the Subtle Brush"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[5]",
+      "scenario": "bonus-round-symmetric",
+      "expected_claim_to_verify": "Bonus Round also copies opponents' responses (M1 anti-synergy flag; a sequencing risk, not a list error).",
+      "cards": [
+        "Bonus Round"
+      ],
+      "found_in_source_export": [
+        "Bonus Round"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K7",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:parnesse-the-subtle-brush#key_interactions[6]",
+      "scenario": "reiterate-mana",
+      "expected_claim_to_verify": "Reiterate with buyback + Mana Geyser or Jeska's Will is infinite red mana.",
+      "cards": [
+        "Reiterate",
+        "Mana Geyser",
+        "Jeska's Will"
+      ],
+      "found_in_source_export": [
+        "Reiterate",
+        "Mana Geyser",
+        "Jeska's Will"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:parnesse-the-subtle-brush#engines[0]",
+      "scenario": "copy-politics",
+      "expected_claim_to_verify": "You copy a spell on the stack.",
+      "cards": [
+        "Parnesse, the Subtle Brush",
+        "Harmonic Prodigy",
+        "Veyran, Voice of Duality",
+        "Wizard's Staff"
+      ],
+      "found_in_source_export": [
+        "Parnesse, the Subtle Brush",
+        "Harmonic Prodigy",
+        "Veyran, Voice of Duality",
+        "Wizard's Staff"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:parnesse-the-subtle-brush#engines[1]",
+      "scenario": "cast-copy-payoffs",
+      "expected_claim_to_verify": "High spell volume.",
+      "cards": [
+        "Archmage Emeritus",
+        "Storm-Kiln Artist",
+        "Sedgemoor Witch",
+        "Ral, Storm Conduit",
+        "Professor Onyx",
+        "Grapeshot",
+        "Goblin Electromancer"
+      ],
+      "found_in_source_export": [
+        "Archmage Emeritus",
+        "Storm-Kiln Artist",
+        "Sedgemoor Witch",
+        "Ral, Storm Conduit",
+        "Professor Onyx",
+        "Grapeshot",
+        "Goblin Electromancer"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:parnesse-the-subtle-brush#win_conditions[0]",
+      "scenario": "narset-reversal-loops",
+      "expected_claim_to_verify": "Narset's Reversal with Twinning Staff, Reiterate, Increasing Vengeance, Reverberate or Return the Favor; or with Primal Wellspring + Frantic Search, or Storm-Kiln Artist + Bonus Round/Thousand-Year Storm.",
+      "cards": [
+        "Narset's Reversal",
+        "Twinning Staff",
+        "Reiterate",
+        "Increasing Vengeance",
+        "Reverberate",
+        "Return the Favor",
+        "Primal Amulet // Primal Wellspring",
+        "Frantic Search",
+        "Storm-Kiln Artist",
+        "Bonus Round",
+        "Thousand-Year Storm"
+      ],
+      "found_in_source_export": [
+        "Narset's Reversal",
+        "Twinning Staff",
+        "Reiterate",
+        "Increasing Vengeance",
+        "Reverberate",
+        "Return the Favor",
+        "Primal Amulet // Primal Wellspring",
+        "Frantic Search",
+        "Storm-Kiln Artist",
+        "Bonus Round",
+        "Thousand-Year Storm"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:parnesse-the-subtle-brush#win_conditions[1]",
+      "scenario": "copy-mana-loops",
+      "expected_claim_to_verify": "Reiterate/Increasing Vengeance/Reverberate/Return the Favor with Alania, Pyromancer's Goggles, Prismari, Thousand-Year Storm, Mana Geyser or Jeska's Will: infinite mana/storm, finished with Grapeshot.",
+      "cards": [
+        "Reiterate",
+        "Increasing Vengeance",
+        "Reverberate",
+        "Return the Favor",
+        "Alania, Divergent Storm",
+        "Pyromancer's Goggles",
+        "Prismari, the Inspiration",
+        "Thousand-Year Storm",
+        "Mana Geyser",
+        "Jeska's Will",
+        "Grapeshot"
+      ],
+      "found_in_source_export": [
+        "Reiterate",
+        "Increasing Vengeance",
+        "Reverberate",
+        "Return the Favor",
+        "Alania, Divergent Storm",
+        "Pyromancer's Goggles",
+        "Prismari, the Inspiration",
+        "Thousand-Year Storm",
+        "Mana Geyser",
+        "Jeska's Will",
+        "Grapeshot"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:parnesse-the-subtle-brush#win_conditions[2]",
+      "scenario": "dualcaster-tech",
+      "expected_claim_to_verify": "Dualcaster Mage + Replication Technique: infinite creature tokens (Dualcaster copies), so infinite ETBs and magecraft triggers. The tokens are not inherently hasty; a haste source is needed to attack with them.",
+      "cards": [
+        "Dualcaster Mage",
+        "Replication Technique"
+      ],
+      "found_in_source_export": [
+        "Dualcaster Mage",
+        "Replication Technique"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:parnesse-the-subtle-brush#failure_modes[0]",
+      "scenario": "gifted-copies",
+      "expected_claim_to_verify": "Opponents' copies can backfire, e.g. a copied tutor or wipe.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Choose copy recipients carefully; 'up to one' lets you give none",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:parnesse-the-subtle-brush#failure_modes[1]",
+      "scenario": "expensive-engines",
+      "expected_claim_to_verify": "Five-mana commander plus five- to seven-mana copy engines.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Rituals and cantrips",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:parnesse-the-subtle-brush#failure_modes[2]",
+      "scenario": "stack-interaction",
+      "expected_claim_to_verify": "Counters on the key copy spell break the combos.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Redundant copy pairs",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 16,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
