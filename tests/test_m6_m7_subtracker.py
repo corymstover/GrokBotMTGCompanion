@@ -217,7 +217,7 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(shared["supported_cascade_effect_names"],12)
   self.assertEqual(shared["turn10_engine_first"]["ignus_for_rakdos"]["any_real_ignus_cascade_trajectory"],12)
   self.assertEqual(shared["turn10_engine_first"]["ignus_for_rakdos"]["any_supported_hit_effect_trajectory"],7)
-  self.assertEqual(shared["turn10_engine_first"]["ignus_for_rakdos"]["actual_mana_units_created_by_hits"],13)
+  self.assertEqual(shared["turn10_engine_first"]["ignus_for_rakdos"]["mana_units_from_hits"],13)
   self.assertEqual(shared["turn10_engine_first"]["ignus_for_nightscape_familiar"]["any_real_ignus_cascade_trajectory"],13)
   self.assertEqual(shared["turn10_engine_first"]["ignus_for_rite_of_flame"]["any_supported_hit_effect_trajectory"],9)
   self.assertTrue(shared["actual_shared_cascade_hit_effects_in_paid_trajectories"])
