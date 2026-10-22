@@ -383,7 +383,7 @@
         "merged_pr": 518,
         "merge_commit": "17b4bd3a452847fe187550c77a87bbdd533de91e",
         "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39704767840",
-        "unit_tests": 15,
+        "unit_tests": 16,
         "source_m5_swap_records": 98,
         "distinct_candidate_adds": 63,
         "unapplied_100_card_variants": 4,
