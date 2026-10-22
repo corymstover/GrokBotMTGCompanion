@@ -38,7 +38,10 @@ class M6JOwnerEquivalentReceiptTests(unittest.TestCase):
     def test_actual_sealed_abaddon_owner_equivalent_receipt_passes_provenance_only(self):
         self.assertTrue(bc.validate_pass_c(record(), "Abaddon_the_Despoiler"))
         from scripts import grixis_m6_bundle_check as b
-        self.assertEqual(b.check(), 0)  # No final reproducibility bundles yet
+        # Every existing final evidence bundle must fully validate; the count
+        # is allowed to grow without conferring any milestone/owner authority.
+        committed = len(list((ROOT / "data/grixis/m6/bundles").glob("*.json")))
+        self.assertEqual(b.check(), committed)
 
     def test_bad_digest_and_wrong_deck_fail_closed(self):
         changed = record()
