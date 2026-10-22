@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "study_date": "2026-10-22",
+  "stage": "M6_6_PREREGISTERED_OTHER_HAND_CAST_CASCADE_ON_SAME_PHYSICAL_99",
+  "deck_id": "Abaddon_the_Despoiler",
+  "authority": {
+    "engineering_integration_head": "d2f813706a546ef576d67c52ecfa1b5691e50a3a",
+    "canonical_approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "frozen_physical_source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "canonical_write_permitted": false
+  },
+  "official_rules": [
+    "https://magic.wizards.com/en/news/feature/commander-legends-release-notes-2020-11-06 (cascade resolves before original; hit strictly lower printed mana value; caster may decline; original counter does not erase trigger)",
+    "https://blogs.magicjudges.org/rulestips/2011/01/how-cascade-works/",
+    "Frozen graph data/grixis/graph/abaddon-the-despoiler.json for original nonland mana values and original card audit"
+  ],
+  "source": "scripts/grixis_m6_abaddon_ignus_shared_effects.py",
+  "physical_variants": [
+    "approved",
+    "ignus_for_rakdos",
+    "ignus_for_nightscape_familiar",
+    "ignus_for_rite_of_flame",
+    "assault_for_rakdos"
+  ],
+  "policies": [
+    "engine_first",
+    "burn_first"
+  ],
+  "modes": [
+    "original_ignus_only",
+    "plus_other_qualified_hand_casts"
+  ],
+  "paired_seeds_per_variant_policy_mode": 500,
+  "seed": 621017,
+  "own_turns": 10,
+  "checkpoints": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "scope": {
+    "registered_other_named_hand_spells": [
+      "Nightscape Familiar",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Boltwave",
+      "Flame Rift",
+      "Rakdos, Lord of Riots",
+      "Aggravated Assault"
+    ],
+    "register_printed_mvs": {
+      "Nightscape Familiar": 2,
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty": 3,
+      "Boltwave": 1,
+      "Flame Rift": 2,
+      "Rakdos, Lord of Riots": 4,
+      "Aggravated Assault": 3
+    },
+    "original_ignus_mv": 3,
+    "zero_mv_extra_adversarial_example": "Lotus Petal can have cascade when cast from hand while Abaddon is controlled, but cascade has no negative-mana-value hits: physically exile all library and put all back on bottom in random order; this can change library order but has no free spell.",
+    "causal_order": [
+      "Only hand cast sources cast in own turn with Abaddon already on battlefield at cast check qualify; own life-loss does not count, use aggregate opponents lost THIS TURN before casting.",
+      "Printed mana value, not generic cost after discounts, determines cascade trigger threshold.",
+      "Source-paid spell moves from physical hand onto stack, Birgi red spell-cast trigger if already controlled before cast; cascade exiles first legal strictly-lower MV physical hit and resolves optional fixed 12-effect subset before source resolves.",
+      "Boltwave and Flame Rift can raise opponent-loss threshold ONLY when original spell resolves after its possible cascade trigger, not retroactively before.",
+      "Other hand spell source cannot target itself as a permanent before it resolves; the only guaranteed stack spell during cascade is the original; supported hit fixed safe policy assumes registered legal targets.",
+      "Free exile spell does not gain Abaddon hand-only cascade; Birgi may grant red cast trigger if controlled.",
+      "Cards exiled and not cast are put at library bottom in seeded random order. Original no-other-cascade policy must call unchanged previous simulator.",
+      "MV0 hand spell cascade mandatory trigger can churn entire physical deck, but cannot have a <0 hit; no infinite loops."
+    ],
+    "supported_resolution_subset_count": 12,
+    "notes": "Because base pilot ignores all but eight named hand-spell actions, even this extension does NOT model the other 90+ possible hand spells or all combat/ETB/stack outcomes."
+  },
+  "adversarial_tests": [
+    "Boltwave cannot grant its own cascade from damage it deals when resolving; must already have >=1 opponent loss at cast.",
+    "Flame Rift requires >=2 life loss BEFORE cast and source MV2 can hit MV0 or MV1, but not MV2.",
+    "Rakdos MV4 hits first nonland MV0-3 and physical extra hit may resolve before creature enters.",
+    "Nightscape Familiar MV2 hits only MV0/1, even if generic costs reduced.",
+    "Mana-value zero hand spell generates a mandatory cascade exile of full remaining library and zero free cast.",
+    "Birgi spell on stack does not grant its own red trigger; existing controlled Birgi does trigger on later hand and exile casts.",
+    "Commander Abaddon itself is cast from command zone and does NOT receive its own hand-only cascade.",
+    "No cascade from physical spell cast from exile through Abaddon hand-only static ability.",
+    "Original first_cascade/first-main policy without opt-in must remain unchanged and pass 20 existing shared-state cases.",
+    "Every conditional simulator trajectory conserves full physical 99 cards in exact zones.",
+    "No opponent disruption probabilities, actual games, measured win rate, deck changes or M6/M7 certification."
+  ],
+  "bounds": {
+    "full_99_card_effects": false,
+    "all_hand_spell_cascade_triggers": false,
+    "opponent_interaction_model": false,
+    "valid_multiplayer_win_rate": null,
+    "superiority_proven": false,
+    "canonical_changed": false,
+    "m6_certificates": 0,
+    "m7_owner_approvals": 0
+  }
+}

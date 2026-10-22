@@ -160,13 +160,17 @@ def effect_resolve(name,state,seed,plan):
     return extra
 
 
-def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False):
-    """One cascade trigger for paid Ignus; optional external casting limits.
+def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False,trigger_mv=3,source_kind="ignus"):
+    """One physical cascade trigger for source-paid hand spell; casting limits.
 
     Rule of Law assumes Ignus already consumed the turn's one spell.
     Drannith stops exile cast, not cascade triggering or physical exiling.
     Defaults reproduce PR524 exact no-hate source-state simulation.
     """
+    if trigger_mv<0 or not isinstance(trigger_mv,int):
+        raise ValueError("Cascade spell printed mana value must be nonnegative integer")
+    if source_kind not in ("ignus","other_hand"):
+        raise ValueError("Cascade source must be actual registered hand spell")
     d=state["deck"]
     before=Counter(d)
     exile=[]
@@ -176,7 +180,7 @@ def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False):
         exile.append(name)
         if name not in cards:
             raise ValueError("Nonregistered card was exiled")
-        if not is_land(cards[name]) and cards[name]["mv"]<3:
+        if not is_land(cards[name]) and cards[name]["mv"]<trigger_mv:
             hit=name
             break
     legal=(legality_of_hit(hit,rule_of_law=rule_of_law,drannith=drannith) if hit else
@@ -188,7 +192,10 @@ def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False):
         to_bottom.remove(hit)
     random.Random(seed ^ 0xCA5CADE).shuffle(to_bottom)
     d.extend(to_bottom)
-    state["metrics"]["actual_paid_ignus_cascade"]+=1
+    if source_kind=="ignus":
+        state["metrics"]["actual_paid_ignus_cascade"]+=1
+    else:
+        state["metrics"]["actual_other_hand_cascade"]+=1
     state["metrics"]["cascade_cards_exiled"]+=len(exile)
     state["metrics"]["first_hit_seen"]+=int(hit is not None)
     if chosen:
@@ -202,7 +209,8 @@ def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False):
         state["metrics"]["unsupported_or_illegal_hit_declined"]+=int(hit is not None)
         state["metrics"]["declined_"+(hit or "no_hit")]+=1
         detail={}
-    return {"hit":hit,"cast_from_exile":chosen,
+    return {"hit":hit,"cast_from_exile":chosen,"source_kind":source_kind,
+            "source_printed_mv":trigger_mv,
             "supported_and_effect_resolved":chosen,
             "reason":("supported" if chosen else legal["reason"] if not legal["chosen_cast"] else "unmodeled_effect_declined"),
             **detail}
@@ -260,7 +268,7 @@ def recast_ignus(state,cards,plan,seed,turn,*,rule_of_law=False,drannith=False):
     return count
 
 
-def main_phase(state,cards,plan,seed,turn,policy):
+def main_phase(state,cards,plan,seed,turn,policy,*,other_hand_cascades=False):
     if policy=="engine_first":
         order=[FAMILIAR,BIRGI,ABADDON,"Boltwave","Flame Rift",RAKDOS,IGNUS,ASSAULT]
     elif policy=="burn_first":
@@ -281,10 +289,20 @@ def main_phase(state,cards,plan,seed,turn,policy):
         state["metrics"]["paid_hand_cast_"+name]+=1
         if name!=ABADDON:
             state["hand"].remove(name)
-        if qualified_other:
-            state["metrics"]["other_hand_cascade_triggers_OMITTED"]+=1
         if BIRGI in state["field"]:
             state["pool"]=effect_add(state["pool"],r=1)
+        if qualified_other:
+            if other_hand_cascades:
+                source_mv=MV_AND_COLORS[name][0]
+                if name in cards and cards[name]["mv"]!=source_mv:
+                    raise ValueError("Printed MV for source hand spell changed: "+name)
+                receipt=first_cascade(state,cards,seed^(turn*877)^(source_mv*739),
+                                     plan,trigger_mv=source_mv,source_kind="other_hand")
+                state["metrics"]["other_hand_cascade_triggers_resolved"]+=1
+                if len(state["examples"])<3:
+                    state["examples"].append({"turn":turn,"source_hand_cast":name,**receipt})
+            else:
+                state["metrics"]["other_hand_cascade_triggers_OMITTED"]+=1
         if name==IGNUS:
             ignus_cast_this_turn=True
             state["metrics"]["ignus_initial_paid_cast"]+=1

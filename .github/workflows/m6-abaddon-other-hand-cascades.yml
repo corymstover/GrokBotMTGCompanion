@@ -1,0 +1,70 @@
+name: M6 Abaddon other hand-cast cascade and zero MV physical rules
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-other-hand-cascades.yml
+      - scripts/grixis_m6_abaddon_ignus_shared_effects.py
+      - scripts/grixis_m6_abaddon_other_hand_cascades.py
+      - tests/test_m6_abaddon_other_hand_cascades.py
+      - data/grixis/m6/phase_b_plans/abaddon_other_hand_cascades_20261022.json
+      - data/grixis/m6/phase_b_bounded/abaddon_other_hand_cascades_20261022.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-hand-cascade:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test paid non-Ignus hand-casts, strict MV thresholds and physical zero-MV cascade
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_other_hand_cascades.py' -v
+      - name: Preserve original actual Ignus 12-card hit effects
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_shared_effects.py' -v
+      - name: Preserve eight official priority/disruption windows
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_stack_windows.py' -v
+      - name: Paired source-paid original-versus-other-hand-cascade frozen 100-card pilots
+        run: python scripts/grixis_m6_abaddon_other_hand_cascades.py --out abaddon_other_hand_cascade_receipt.json
+      - name: Fail closed on invented game win rate and milestone promotion
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_other_hand_cascades_20261022.json').read_text())
+          r=json.loads(Path('abaddon_other_hand_cascade_receipt.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert r['canonical_sha256']==p['authority']['canonical_approved_sha256']
+          assert r['samples_per_variant_policy_mode']==500
+          assert set(r['result'])==set(p['modes'])
+          for mode in p['modes']:
+           assert set(r['result'][mode])==set(p['policies'])
+           for policy in p['policies']:
+            assert set(r['result'][mode][policy])==set(p['physical_variants'])
+            for v in p['physical_variants']:
+             row=r['result'][mode][policy][v]['checkpoints']['10']
+             assert row['other_hand_cascade_seed']<=500
+             assert row['ignus_cascade_seed']<=500
+             assert row['supported_hit_effect_seed']<=500
+             assert row['other_hand_cascade_resolved']==row['other_hand_cascade_triggers']
+             if mode=='original_ignus_only':
+              assert row['other_hand_cascade_seed']==0
+              assert row['other_hand_cascade_triggers']==0
+          for k,v in r['bounds'].items():
+           if k=='valid_multiplayer_win_rate': assert v is None
+           elif k in ('m6_certificates','m7_owner_approvals'): assert v==0
+           else: assert v is False, (k,v)
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          assert t['m6']['gates'][6]['status']=='PARTIAL'
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          print('PASS: only source-paid other-hand cascades, no 99-card game or milestone authority.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-other-hand-cascades-physical-receipt
+          path: abaddon_other_hand_cascade_receipt.json
+          retention-days: 30
