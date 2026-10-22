@@ -24,6 +24,8 @@ on:
       - tests/test_m6_abaddon_breach_led_freeze_p0.py
       - tests/test_m6_abaddon_wild_magic_p0.py
       - tests/test_m6_abaddon_nalfeshnee_p0.py
+      - tests/test_m6_abaddon_archaeologist_p0.py
+      - data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json
@@ -96,7 +98,9 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_wild_magic_p0.py' -v
       - name: Test nine physical Nalfeshnee copies, original casts and end-step sacrifice cases
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_nalfeshnee_p0.py' -v
-      - name: Replay all 61 actual named Abaddon P0 tests with fail-closed inventory
+      - name: Test ten source-paid Passionate Archaeologist owned-commander targeted exile triggers
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_archaeologist_p0.py' -v
+      - name: Replay all 71 actual named Abaddon P0 tests with fail-closed inventory
         run: python -m scripts.grixis_m6_abaddon_p0_replay --out "${{ runner.temp }}/abaddon-m6-p0-actual-replay.json"
       - name: Upload separate P0 actual-execution receipts with remaining-case disclosure
         uses: actions/upload-artifact@v4
@@ -107,7 +111,7 @@ jobs:
           retention-days: 60
       - name: Check authored M6.6 M6.7 evidence preflight and failure cases offline
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_preflight.py' -v
-      - name: Bind sealed A B, waived Pass C, 61 real P0 executions, 97 live Oracle names into one pre-certification receipt
+      - name: Bind sealed A B, waived Pass C, 71 real P0 executions, 97 live Oracle names into one pre-certification receipt
         run: |
           python -m scripts.grixis_m6_abaddon_preflight \
             --p0 "${{ runner.temp }}/abaddon-m6-p0-actual-replay.json" \
