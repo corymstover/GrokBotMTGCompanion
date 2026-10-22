@@ -15,11 +15,12 @@ import itertools
 import json
 import random
 import re
+import sys
 from pathlib import Path
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
 from grixis_m6_priority_nonbasic import LANDS, TYPED
 from grixis_m6_fetch_city_tomb import FETCHES
-
-ROOT = Path(__file__).resolve().parents[1]
 PLAN = ROOT / "data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json"
 SPELL_COST = {
     "Abaddon the Despoiler": (5, (1, 1, 1)),   # {2}{U}{B}{R}
