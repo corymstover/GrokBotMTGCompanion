@@ -82,8 +82,8 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==3
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514}
+ assert len(t["m6"]["phase_b_additional_evidence"])==4
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
  assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
@@ -194,8 +194,8 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a,chron=records
-  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"]),(511,512,514))
+  r,a,chron,warp=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"]),(511,512,514,516))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
   self.assertEqual(chron["unit_tests"],15)
@@ -209,6 +209,23 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(chron["turn_10"]["assault_for_lost"]["first_assault_activation_paid"],4)
   self.assertTrue((ROOT/chron["evidence"]).is_file())
   self.assertTrue((ROOT/chron["preregistration"]).is_file())
+  self.assertEqual(warp["unit_tests"],27)
+  self.assertEqual(warp["samples_per_variant_per_policy"],2000)
+  self.assertEqual(warp["physical_variants"],4)
+  self.assertEqual(warp["policies"],2)
+  self.assertEqual(warp["turn_10_reserved_channel_policy"]["baseline_any_held_payable_answer"],282)
+  self.assertEqual(warp["turn_10_reserved_channel_policy"]["warp_for_rakdos_any"],577)
+  self.assertEqual(warp["turn_10_reserved_channel_policy"]["warp_for_lost_any"],584)
+  self.assertEqual(warp["turn_10_reserved_channel_policy"]["warp_for_ruinous_any"],557)
+  self.assertEqual(warp["turn_10_reserved_channel_policy"]["reserved_otawara_land_drops_skipped_across_2000_samples"],1297)
+  self.assertEqual(warp["corrected_mana_values"],{"The Lost and the Damned":3,"The Ruinous Powers":4})
+  self.assertEqual(warp["verified_fetchlands_in_baseline"],7)
+  self.assertFalse(warp["full_multiplayer_gameplay"])
+  self.assertFalse(warp["superiority_proven"])
+  self.assertFalse(warp["actual_stax_distribution_measured"])
+  self.assertFalse(warp["canonical_changed"])
+  for name in ("evidence","preregistration","reserve_policy_preregistration","lost_oracle_preregistration"):
+   self.assertTrue((ROOT/warp[name]).is_file(),name)
   self.assertEqual(a["samples_per_variant"],2000)
   self.assertTrue((ROOT/r["evidence"]).is_file())
   self.assertTrue((ROOT/a["evidence"]).is_file())
@@ -229,6 +246,15 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(ab["chronological_observation"]["n_per_variant"],2000)
   self.assertFalse(ab["chronological_observation"]["superiority_proven"])
   self.assertFalse(ab["chronological_observation"]["canonical_swap_authorized"])
+  chaos=next(x for x in d["candidates"] if x["card"]=="Chaos Warp")
+  self.assertFalse(chaos["approved_swap"])
+  self.assertEqual(chaos["stax_answer_observation"]["turn_10_reserve_policy"]["approved_baseline_otawara_payable"],282)
+  self.assertFalse(chaos["stax_answer_observation"]["approved_swap"])
+  self.assertIsNone(chaos["stax_answer_observation"]["actual_multiplayer_win_rate"])
+  role=d["other_pool_resolution"]["protected_engine_oracle_errata"]
+  self.assertEqual(role["lost"]["mana_value"],3)
+  self.assertEqual(role["ruinous"]["mana_value"],4)
+  self.assertIn("seven",role["lost"]["trigger"])
   self.assertEqual(self.t["m6"]["gates"][5]["status"],"PARTIAL")
   self.assertEqual(self.t["m6"]["gates"][6]["status"],"PARTIAL")
  def test_no_canonical_reapproval_claim(self):
