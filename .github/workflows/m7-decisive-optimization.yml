@@ -28,6 +28,8 @@ on:
       - tests/test_m6_abaddon_prosper_p0.py
       - tests/test_m6_abaddon_storm_kiln_p0.py
       - tests/test_m6_abaddon_minds_desire_p0.py
+      - tests/test_m6_abaddon_threshold_doublers_p0.py
+      - data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json
       - tests/test_m6_abaddon_final_choice.py
       - tests/test_m7_abaddon_final_staged_packet.py
       - tests/test_m6_abaddon_j_candidate_inputs.py
@@ -131,7 +133,9 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_storm_kiln_p0.py' -v
       - name: Test seven real Mind's Desire storm copies paid casts and deferred exile-play cases
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_minds_desire_p0.py' -v
-      - name: Replay all 95 actual named Abaddon P0 tests with fail-closed inventory
+      - name: Test nine source-paid Bloodletter/Solphim damage-life replacement interactions
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_threshold_doublers_p0.py' -v
+      - name: Replay all 104 actual named Abaddon P0 tests with fail-closed inventory
         run: python -m scripts.grixis_m6_abaddon_p0_replay --out "${{ runner.temp }}/abaddon-m6-p0-actual-replay.json"
       - name: Upload separate P0 actual-execution receipts with remaining-case disclosure
         uses: actions/upload-artifact@v4
@@ -142,7 +146,7 @@ jobs:
           retention-days: 60
       - name: Check authored M6.6 M6.7 evidence preflight and failure cases offline
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_preflight.py' -v
-      - name: Bind sealed A B, waived Pass C, 95 real P0 executions, 97 live Oracle names into one pre-certification receipt
+      - name: Bind sealed A B, waived Pass C, 104 real P0 executions, 97 live Oracle names into one pre-certification receipt
         run: |
           python -m scripts.grixis_m6_abaddon_preflight \
             --p0 "${{ runner.temp }}/abaddon-m6-p0-actual-replay.json" \

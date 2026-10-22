@@ -29,7 +29,7 @@
   "expected_unique_names": 97,
   "expected_baseline_names": 94,
   "expected_baseline_cards": 100,
-  "stage": "95_REGISTERED_P0_METHODS_ONE_MIND_DESIRE_STORM_COPY_IMPULSE_GROUP_AWAITING_CI_M6_6_PARTIAL",
+  "stage": "104_REGISTERED_P0_METHODS_NINE_BLOODLETTER_SOLPHIM_REPLACEMENT_CASES_AWAITING_EXACT_HEAD_M6_6_PARTIAL",
   "coverage_semantics": {
     "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
     "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
@@ -51,7 +51,16 @@
       "p0_direct_case_ids": [
         "P0-001",
         "P0-013",
-        "P0-021a"
+        "P0-021a",
+        "P0-030a",
+        "P0-030b",
+        "P0-030c",
+        "P0-030d",
+        "P0-030e",
+        "P0-030f",
+        "P0-030g",
+        "P0-030h",
+        "P0-030i"
       ],
       "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
@@ -194,8 +203,17 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+      "p0_direct_case_ids": [
+        "P0-030b",
+        "P0-030c",
+        "P0-030d",
+        "P0-030e",
+        "P0-030f",
+        "P0-030g",
+        "P0-030h",
+        "P0-030i"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Bloodstained Mire",
@@ -222,8 +240,16 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+      "p0_direct_case_ids": [
+        "P0-030a",
+        "P0-030b",
+        "P0-030c",
+        "P0-030d",
+        "P0-030f",
+        "P0-030g",
+        "P0-030i"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Brain Freeze",
@@ -553,7 +579,8 @@
         "P0-005",
         "P0-006",
         "P0-015",
-        "P0-021a"
+        "P0-021a",
+        "P0-030i"
       ],
       "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
@@ -692,7 +719,8 @@
       "copies_in_baseline": 1,
       "p0_direct_case_ids": [
         "P0-011",
-        "P0-021a"
+        "P0-021a",
+        "P0-030e"
       ],
       "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
@@ -1128,8 +1156,16 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+      "p0_direct_case_ids": [
+        "P0-030b",
+        "P0-030d",
+        "P0-030e",
+        "P0-030f",
+        "P0-030g",
+        "P0-030h",
+        "P0-030i"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Steam Vents",
@@ -1298,8 +1334,10 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+      "p0_direct_case_ids": [
+        "P0-030h"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Training Center",
@@ -1511,9 +1549,10 @@
     "No empirical multiplayer policy or win-rate estimates.",
     "Historical 81-case known-P0 closure did not encompass Storm-Kiln Magecraft spell-copy trigger; newly 7 registered methods target this material omission.",
     "Only 22 of 97 names have direct selected bounded P0 rule scenarios, 75 names remain Oracle/legality only or old partial models; not full source-effect simulation.",
-    "Previous P0-028 88 methods did not directly cover Mind's Desire storm copies' distinct physical exile permissions. Seven conditional source-paid methods added; 74 names still Oracle/prior partial model only."
+    "Previous P0-028 88 methods did not directly cover Mind's Desire storm copies' distinct physical exile permissions. Seven conditional source-paid methods added; 74 names still Oracle/prior partial model only.",
+    "P0-030 explicitly covers conditional source-paid Bloodletter/Solphim damage-versus-life-loss doubling; no opponent-prevention frequency or full-game performance inferred. Four additional source card names receive direct P0 association; no whole-card universal modeling."
   ],
-  "next_action": "Run actual 95 named source cases, live 97 Oracle; source-level unmodeled effects remain and do not claim formal M6.6/7 certification.",
+  "next_action": "Execute and verify 104 actual source P0 fixtures plus live 97-name Oracle audit; continue prioritized decision-changing residual name coverage with M6.6 partial and I/J blocked.",
   "newly_registered_tested_P0": [
     {
       "card": "Wild-Magic Sorcerer",
@@ -1635,6 +1674,25 @@
         "P0-029e",
         "P0-029f",
         "P0-029g"
+      ]
+    },
+    {
+      "id": "P0-030",
+      "card": "Bloodletter of Aclazotz / Solphim, Mayhem Dominus",
+      "gap": "Distinguish source-controlled noncombat damage doubling from opponent life-loss doubling, track Abaddon cumulative X, prevention, off-turn exceptions and paid follow-up hand cascade.",
+      "status": "REGISTERED_FOR_EXACT_HEAD_CI_NOT_COMPLETE",
+      "test_methods": 9,
+      "plan": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json",
+      "case_ids": [
+        "P0-030a",
+        "P0-030b",
+        "P0-030c",
+        "P0-030d",
+        "P0-030e",
+        "P0-030f",
+        "P0-030g",
+        "P0-030h",
+        "P0-030i"
       ]
     }
   ]

@@ -77,14 +77,14 @@ class AbaddonExactM67Chosen(unittest.TestCase):
         self.assertFalse(self.plan["owner_approved"])
         self.assertFalse(self.plan["m6_certified"])
 
-    def test_95_mechanical_cases_are_scope_limited(self):
-        self.assertEqual(len(self.inventory["replay_cases"]),95)
+    def test_104_mechanical_cases_are_scope_limited(self):
+        self.assertEqual(len(self.inventory["replay_cases"]),104)
         self.assertEqual(self.inventory["required_open"],[])
         self.assertFalse(self.inventory["authority"]["formal_m6_certified"])
         self.assertFalse(self.inventory["completion_claim"])
         self.assertEqual({p["id"] for p in self.inventory["newly_covered_parent_topics"]},
                          {"P0-021","P0-022","P0-023","P0-024","P0-025",
-                          "P0-026","P0-027","P0-028","P0-029"})
+                          "P0-026","P0-027","P0-028","P0-029","P0-030"})
 
     def test_original_commander_remains_active_and_unapproved_change(self):
         proposal=(ROOT/"data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md").read_text()

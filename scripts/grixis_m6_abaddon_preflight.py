@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Abaddon M6 pre-certification: verify ACTUAL CI Oracle + 44 P0 receipt bytes.
+"""Abaddon M6 pre-certification: verify ACTUAL CI Oracle + explicitly scoped P0 receipt bytes.
 
 This refuses to certify M6, local optimality, J, M7, or modify the canonical
 deck. It binds owner-waived Pass C and the sealed A/B references against the
@@ -126,22 +126,22 @@ def verify_prerequisites():
 
 def validate_runtime(oracle, p0):
     inventory=load(ROOT/INVENTORY)
-    if (len(inventory["replay_cases"])!=95
+    if (len(inventory["replay_cases"])!=104
         or {x["id"] for x in inventory["required_open"]}!=KNOWN_P0_GAPS
         or inventory["completion_claim"]):
-        raise PreflightFailure("Current 44-P0 known-case inventory not closed")
+        raise PreflightFailure("Current 104-method known-case inventory not closed")
     if inventory["authority"]["formal_m6_certified"] or inventory["authority"]["m6_6"]!="PARTIAL":
         raise PreflightFailure("P0 inventory claims premature milestone certification")
 
     expected={row["id"]:row for row in inventory["replay_cases"]}
     receipts=p0.get("case_receipts")
-    if (p0.get("replayed_case_count")!=95 or p0.get("passed")!=95
+    if (p0.get("replayed_case_count")!=104 or p0.get("passed")!=104
         or p0.get("failed")!=0 or p0.get("open_required_count")!=0
         or {x["id"] for x in p0.get("open_required_p0_cases",[])}!=KNOWN_P0_GAPS
         or p0.get("M6_6_certified") is not False or p0.get("owner_approved") is not False
         or p0.get("canonical_pinned_raw_sha256")!=PINNED or
         p0.get("registry_sha256")!=sha(ROOT/INVENTORY) or
-        not isinstance(receipts,list) or len(receipts)!=95):
+        not isinstance(receipts,list) or len(receipts)!=104):
         raise PreflightFailure("Actual CI P0 report is missing/inconsistent")
     ids={row.get("id") for row in receipts}
     if ids!=set(expected):
@@ -186,7 +186,7 @@ def validate_runtime(oracle, p0):
         or {x["name"] for x in rows}!=combined
         or len([x for x in rows if x["baseline"]])!=94
         or {x["id"] for x in coverage["identified_unresolved"]}!=KNOWN_P0_GAPS):
-        raise PreflightFailure("Every live Oracle card must have exactly one coverage row and four declared new P0")
+        raise PreflightFailure("Every live Oracle card must have exactly one coverage row and declared source-bound P0 associations")
     baseline=set(parse_list(ROOT/SOURCE_MIRROR)[0])
     for row in rows:
         if row["baseline"]!=(row["name"] in baseline):
@@ -219,6 +219,15 @@ def validate_runtime(oracle, p0):
             if (row["coverage_class"]!="SELECTED_INTERACTION_STAGED_P0" or
                 set(row["p0_direct_case_ids"])!={"P0-029"+chr(ord("a")+i) for i in range(7)}):
                 raise PreflightFailure("Mind's Desire seven real storm/impulse play tests not bound to 97 names")
+    for name, ids in {
+        "Bloodletter of Aclazotz": {"P0-030"+chr(ord("a")+i) for i in (1,2,3,4,5,6,7,8)},
+        "Solphim, Mayhem Dominus": {"P0-030"+chr(ord("a")+i) for i in (1,3,4,5,6,7,8)},
+        "Boltwave": {"P0-030"+chr(ord("a")+i) for i in (0,1,2,3,5,6,8)},
+        "Thermo-Alchemist": {"P0-030h"},
+    }.items():
+        row=next(r for r in rows if r["name"]==name)
+        if not ids <= set(row["p0_direct_case_ids"]) or row["coverage_class"]!="SELECTED_INTERACTION_STAGED_P0":
+            raise PreflightFailure("New event-specific threshold P0 evidence not mapped to "+name)
     for name,c in data.items():
         oracle_text=c.get("oracle_text","")
         if (c.get("commander_legality")!="legal" or not set(c.get("color_identity",[])) <= {"B","R","U"}
@@ -226,7 +235,7 @@ def validate_runtime(oracle, p0):
            or hashlib.sha256(oracle_text.encode("utf-8")).hexdigest()!=c.get("oracle_text_sha256")):
             raise PreflightFailure("Oracle current legality/identity/text hash violation: "+name)
 
-    return {"phase_b_actual_named_P0_methods":95,"phase_b_pass":95,
+    return {"phase_b_actual_named_P0_methods":104,"phase_b_pass":104,
         "current_identified_open_P0":0,
         "current_oracle_unique_names":97,"full_physical_lists":5,
         "current_oracle_checked_at_utc":oracle["checked_at_utc"],

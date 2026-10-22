@@ -893,6 +893,87 @@
       "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-030a",
+      "mechanic": "Physically spend {R} from an untapped Mountain for Boltwave: three opponents each take 3 noncombat damage/lose 3 life, total Abaddon X=9 without doublers.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_plain_paid_boltwave_x9",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030b",
+      "mechanic": "With source-present Solphim, each opponent receives 6 actual damage and loses 6 life, Abaddon X=18; Solphim is not a direct life-loss replacement.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_solphim_doubles_damage_x18",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030c",
+      "mechanic": "With source-present Bloodletter and no Solphim during controller turn, each opponent takes 3 damage but loses 6 life; X=18, damage remains 3.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_bloodletter_doubles_loss_not_damage",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030d",
+      "mechanic": "With both source-present distinct replacement effects during controller turn, Boltwave deals 6 damage and causes 12 life loss per opponent, X=36; each effect applies once.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_both_replacements_x36_once",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030e",
+      "mechanic": "Loyal Subordinate combat-start loss 3 each with Abaddon controlled becomes 6 each with Bloodletter; Solphim cannot double non-damage direct loss.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_loyal_loss_only_bloodletter",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030f",
+      "mechanic": "One opponent has a prevention shield for the entire Boltwave event, so despite both doublers this opponent loses 0; other opponents lose 12 each, total X=24.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_prevent_one_opponent_damage",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030g",
+      "mechanic": "Paid Boltwave countered before resolution stays in graveyard but deals no damage and generates no opponent loss; Abaddon X remains zero.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_countered_boltwave_no_resolved_damage",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030h",
+      "mechanic": "Existing Thermo-Alchemist may tap on an opponent's turn for source-controlled noncombat one damage each; Solphim makes 2 damage/loss each, Bloodletter off-turn does not replace, Abaddon grants no cascade.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_opponent_turn_solphim_only",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    },
+    {
+      "id": "P0-030i",
+      "mechanic": "After fully resolving doubled paid Boltwave, source-paid {2}{R} Grinning Ignus hand cast with three different previously untapped physical lands earns one granted Abaddon cascade at recorded X36; subsequently removing Bloodletter cannot undo that cast trigger.",
+      "test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "test_method": "AbaddonThresholdDoublersP0030.test_paid_ignus_after_x36_cascade_snapshot",
+      "expected_execution": "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
     }
   ],
   "required_open": [],
@@ -910,8 +991,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Run 95 actually named paid physical P0 methods including P0-029, verify full 97 Scryfall, then continue authored risk classification of 74 Oracle-only or older partially modelled names. M6.6/7 partial I/J blocked.",
-  "test_receipt_status": "AWAITING_EXACT_HEAD_95_NAMED_CASE_REPLAY",
+  "next_action": "Replay all 104 actual named bounded P0 source-paid tests including P0-030; verify 97 Scryfall names and separate replacement-event coverage. Continue material residual P1 decisions; no complete-99 gameplay, I/J certification, owner approval or baseline mutation.",
+  "test_receipt_status": "AWAITING_EXACT_HEAD_104_NAMED_CASE_REPLAY",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -1050,6 +1131,22 @@
         "P0-029e",
         "P0-029f",
         "P0-029g"
+      ]
+    },
+    {
+      "id": "P0-030",
+      "status": "REGISTERED_FOR_EXACT_HEAD_EXECUTION_NONCERTIFYING",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json",
+      "case_ids": [
+        "P0-030a",
+        "P0-030b",
+        "P0-030c",
+        "P0-030d",
+        "P0-030e",
+        "P0-030f",
+        "P0-030g",
+        "P0-030h",
+        "P0-030i"
       ]
     }
   ],
