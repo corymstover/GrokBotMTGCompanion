@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "deck_id": "Admiral_Beckett_Brass",
+  "status": "RESEARCH_ONLY_DECISIVE_STRATEGIC_JUDGMENTS_M6_IJ_NOT_CERTIFIED",
+  "date": "2026-10-22",
+  "canonical_baseline_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "candidate_D_path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_evasive_pirate_density_package.txt",
+  "candidate_D_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+  "oracle_snapshot": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+  "material_candidate_count": 24,
+  "challenged_incumbent_slots": 12,
+  "source_bound_alternative_package_count": 4,
+  "selected_add_count": 5,
+  "all_matched_cuts": [
+    "Crumbling Necropolis",
+    "Daring Saboteur",
+    "Dire Fleet Captain",
+    "Dire Fleet Poisoner",
+    "Forerunner of the Coalition"
+  ],
+  "material_candidates": [
+    {
+      "card": "City of Brass",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Untapped all-color land on the four-mana UBR commander curve",
+      "named_cuts": [
+        "Crumbling Necropolis"
+      ],
+      "incumbent_opportunity_cost": "Every City tap deals one triggered self-damage and can become dangerous against repeated pressure.",
+      "commander_synergy": "City provides whichever colored pip is short immediately, unlike always-tapped Necropolis.",
+      "adversarial_downside": "Every City tap deals one triggered self-damage and can become dangerous against repeated pressure.",
+      "judgment": "SELECT_ADD",
+      "reason": "Better precise-turn commander access at fixed 35 lands; a genuine early-tempo upgrade with honest attrition cost.",
+      "confidence": "HIGH",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Departed Deckhand",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Two-mana evasive Spirit Pirate and paid evasion for another creature",
+      "named_cuts": [
+        "Daring Saboteur"
+      ],
+      "incumbent_opportunity_cost": "Loses Saboteur's combat loot; any targeting spell, including our own, forces a sacrifice; Spirits block it.",
+      "commander_synergy": "Passive evasion against non-Spirits frees Saboteur's recurring 2U activation so a third Pirate can connect while commander stays castable.",
+      "adversarial_downside": "Loses Saboteur's combat loot; any targeting spell, including our own, forces a sacrifice; Spirits block it.",
+      "judgment": "SELECT_ADD",
+      "reason": "Repeatable passive one-body source matters more to Beckett's three distinct Pirate hits than optional loot when mana is constrained.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_candidate_D_changed_effects_20261022.md"
+      ]
+    },
+    {
+      "card": "Cloud Pirates",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "One-mana flying Pirate for early three-source assembly",
+      "named_cuts": [
+        "Dire Fleet Captain"
+      ],
+      "incumbent_opportunity_cost": "Only a 1/1 before anthem; can block only creatures with flying, and forfeits Captain's large combat-size upside.",
+      "commander_synergy": "Can enter turn one and attack on turn two, advancing the source count without a 2-mana on-ground body.",
+      "adversarial_downside": "Only a 1/1 before anthem; can block only creatures with flying, and forfeits Captain's large combat-size upside.",
+      "judgment": "SELECT_ADD",
+      "reason": "Commander counts different Pirates that connect, not total power; cheap flying consistently serves the trigger against grounded blockers.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Skyship Plunderer",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Two-mana flying Pirate and on-hit existing-counter accelerator",
+      "named_cuts": [
+        "Dire Fleet Poisoner"
+      ],
+      "incumbent_opportunity_cost": "Loses Poisoner's flash, deathtouch and instant attack defense; flying blocked by flyers/reach, and no counter kind is created from zero.",
+      "commander_synergy": "Early evasion advances third Pirate connectivity; when it and Malcolm Alluring both hit, correct trigger order can enable Malcolm's four-chorus free cast.",
+      "adversarial_downside": "Loses Poisoner's flash, deathtouch and instant attack defense; flying blocked by flyers/reach, and no counter kind is created from zero.",
+      "judgment": "SELECT_ADD",
+      "reason": "Evasive Pirate with a uniquely verified counter/combat interaction gains offensive consistency while keeping crew size.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_candidate_D_changed_effects_20261022.md",
+        "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py"
+      ]
+    },
+    {
+      "card": "Broadside Bombardiers",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Three-mana haste/menace Pirate with payable postattack boast",
+      "named_cuts": [
+        "Forerunner of the Coalition"
+      ],
+      "incumbent_opportunity_cost": "Loses top-deck Pirate search and each-opponent Pirate-entry drain; boast requires another artifact/creature sacrifice and only once each turn after attacking.",
+      "commander_synergy": "Adds immediate attacking body and one removal/reach option; sacrifice an already available Treasure to deal exactly two damage or a higher-MV artifact for more.",
+      "adversarial_downside": "Loses top-deck Pirate search and each-opponent Pirate-entry drain; boast requires another artifact/creature sacrifice and only once each turn after attacking.",
+      "judgment": "SELECT_ADD",
+      "reason": "Earlier hasty attack and conditional blocker removal directly pressure the theft window; Forerunner's slower selection/drain is real but less immediate.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_candidate_D_changed_effects_20261022.md"
+      ]
+    },
+    {
+      "card": "Slippery Scoundrel",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Three-mana ascend-dependent hexproof unblockable Pirate",
+      "named_cuts": [
+        "Daring Saboteur"
+      ],
+      "incumbent_opportunity_cost": "Before city's blessing this Pirate cannot evade a normal ground defender and arrives a turn later than Departed.",
+      "commander_synergy": "After ten permanents it becomes a safe repeated connection source without activation mana.",
+      "adversarial_downside": "Before city's blessing this Pirate cannot evade a normal ground defender and arrives a turn later than Departed.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Prefer in slower permanent-heavy metas that reliably reach ascend before theft; unsuitable as primary early three-source upgrade.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Herald's Horn",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Tribal-cost discount and upkeep Pirate creature look",
+      "named_cuts": [
+        "The Indomitable",
+        "Merchant Raiders"
+      ],
+      "incumbent_opportunity_cost": "Three-mana nonPirate that removes a real blocker-lock or repeatable combat-draw engine for conditional top-card value.",
+      "commander_synergy": "Repeated future Pirate casts for less generic mana might grow a fleet in a long game.",
+      "adversarial_downside": "Three-mana nonPirate that removes a real blocker-lock or repeatable combat-draw engine for conditional top-card value.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Could outperform a slower source in attrition-heavy tables, but retaining Raiders/Indomitable preserves the actual repeated theft machine.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Dire Fleet Neckbreaker",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Four-mana Pirate attacking-wide power anthem",
+      "named_cuts": [
+        "Dire Fleet Captain"
+      ],
+      "incumbent_opportunity_cost": "Two mana slower than Captain with no inherent evasion; more combat damage is not more distinct damage sources.",
+      "commander_synergy": "Adds +2/+0 to attacking Pirates, accelerating backup combat lethal after fleet assembled.",
+      "adversarial_downside": "Two mana slower than Captain with no inherent evasion; more combat damage is not more distinct damage sources.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Finisher only when multiple evasive Pirates already hit; Cloud is earlier and more reliable at commander theft.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Aqueous Form",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "One-mana Aura to make a single Pirate unblockable with attack scry",
+      "named_cuts": [
+        "March of the Drowned"
+      ],
+      "incumbent_opportunity_cost": "Replaces graveyard Pirate recovery and exposes aura/host to two-for-one spot removal; doesn't add a Pirate body.",
+      "commander_synergy": "Permanently ensures one selected Pirate can connect while helping card quality.",
+      "adversarial_downside": "Replaces graveyard Pirate recovery and exposes aura/host to two-for-one spot removal; doesn't add a Pirate body.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Stronger in creature-sticky environments with frequent ground stalls, worse against removal and wipes.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Bedlam",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Four-mana global prohibition on creature blocks",
+      "named_cuts": [
+        "The Indomitable"
+      ],
+      "incumbent_opportunity_cost": "Symmetrical loss of our own blocking lets opponents counterattack; replaces passive repeatable draw and needs live fleet.",
+      "commander_synergy": "A full ready Pirate fleet can connect unblocked without paid target activations.",
+      "adversarial_downside": "Symmetrical loss of our own blocking lets opponents counterattack; replaces passive repeatable draw and needs live fleet.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "High ceiling with dominant board and scarce opposing removal, but hazardous in ordinary four-player retaliation.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Shared Animosity",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Three-mana Pirate-type combat-damage finisher",
+      "named_cuts": [
+        "The Indomitable"
+      ],
+      "incumbent_opportunity_cost": "No new evasive Pirate bodies or blocker clearance; trades away a repeating card engine.",
+      "commander_synergy": "Evasive wide Pirates can deal enormous damage and close games as secondary plan.",
+      "adversarial_downside": "No new evasive Pirate bodies or blocker clearance; trades away a repeating card engine.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Choose in a damage-race metagame only after consistent commander theft source count is established.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Admiral's Order",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Conditional raid counterspell protecting the combat/endstep turn",
+      "named_cuts": [
+        "Counterspell"
+      ],
+      "incumbent_opportunity_cost": "Without raid it costs 1UU instead of UU; doesn't counter effects outside its exact spell window for one U.",
+      "commander_synergy": "After attacking, its alternative U casting cost protects at minimal reserved colored mana.",
+      "adversarial_downside": "Without raid it costs 1UU instead of UU; doesn't counter effects outside its exact spell window for one U.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Relevant if the deck routinely needs to protect an already-declared attack with one blue untapped.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Kindred Charge",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Six-mana Pirate token-copy burst",
+      "named_cuts": [
+        "Zara, Renegade Recruiter",
+        "Admiral Brass, Unsinkable"
+      ],
+      "incumbent_opportunity_cost": "Legend rule removes redundant legendary copies and next-endstep exile ends burst; weaker than repeatable theft/recursion high-end.",
+      "commander_synergy": "Can copy Pirate attack and ETB payoffs, with haste to produce more sources if board survived.",
+      "adversarial_downside": "Legend rule removes redundant legendary copies and next-endstep exile ends burst; weaker than repeatable theft/recursion high-end.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Strong when already wide, but doesn't replace the current high-end Pirate identity pieces under removal pressure.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "War Cadence",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Repeatable paid blocker-tax threat",
+      "named_cuts": [
+        "Open into Wonder"
+      ],
+      "incumbent_opportunity_cost": "Each activation consumes mana during attack, defenders can pay, and Open already guarantees X unblockable creatures plus draws.",
+      "commander_synergy": "XR can make blocking three Pirates prohibitively expensive over multiple turns.",
+      "adversarial_downside": "Each activation consumes mana during attack, defenders can pay, and Open already guarantees X unblockable creatures plus draws.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Prefer when repeated protected activation is sustainable rather than one high-value sorcery breakthrough.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Goblin War Drums",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Three-mana persistent global menace for Pirate attackers",
+      "named_cuts": [
+        "The Indomitable",
+        "Merchant Raiders"
+      ],
+      "incumbent_opportunity_cost": "Two ground blockers still stop one attacker, and it adds neither Pirates nor repeatable card draw/blocker lock.",
+      "commander_synergy": "Each attacker requires at least two blockers, helping a broad ready Pirate fleet.",
+      "adversarial_downside": "Two ground blockers still stop one attacker, and it adds neither Pirates nor repeatable card draw/blocker lock.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Only preferable where opponents deploy at most one blocker per lane and games reward durable evasion over recovery.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Sleep",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Four-mana sorcery tap/freeze a single opponent's creatures",
+      "named_cuts": [
+        "Open into Wonder"
+      ],
+      "incumbent_opportunity_cost": "Not instant, needs UU and affects only one opponent; Open produces guaranteed unblockability/draw and Blustersquall taps across opponents.",
+      "commander_synergy": "Keeps one opponent tapped during their next untap and opens a single theft victim.",
+      "adversarial_downside": "Not instant, needs UU and affects only one opponent; Open produces guaranteed unblockability/draw and Blustersquall taps across opponents.",
+      "judgment": "REJECT",
+      "reason": "With this 100-card source, neither slower single-opponent tap effect nor loss of multi-target draw is worth the slot.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Reconnaissance Mission",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Combat-damage card draw enchantment with cycling",
+      "named_cuts": [
+        "Bident of Thassa"
+      ],
+      "incumbent_opportunity_cost": "Does not provide Pirate bodies, evasion, or combat protection; Bident, Discovery and Indomitable already occupy draw roles.",
+      "commander_synergy": "Cycling is a fallback when unable to attack; hit-based draw is on-plan.",
+      "adversarial_downside": "Does not provide Pirate bodies, evasion, or combat protection; Bident, Discovery and Indomitable already occupy draw roles.",
+      "judgment": "REJECT",
+      "reason": "Another comparable nonPirate draw effect is lower priority than creating three actual connected attackers.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Patriarch's Bidding",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Five-mana symmetrical tribal mass graveyard return",
+      "named_cuts": [
+        "March of the Drowned"
+      ],
+      "incumbent_opportunity_cost": "Opponents each also select a creature type and get their corresponding graveyard cards back; increases enemy threats.",
+      "commander_synergy": "Can recover a large Pirate board after wipe.",
+      "adversarial_downside": "Opponents each also select a creature type and get their corresponding graveyard cards back; increases enemy threats.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Would become desirable in frequent-wipe matchups where opponent tribal graveyards are shallow.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Fell Flagship",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "NonPirate crewed Vehicle anthem and combat discard",
+      "named_cuts": [
+        "Edward Kenway",
+        "Open into Wonder"
+      ],
+      "incumbent_opportunity_cost": "Requires Crew 3, tapping attack-capable Pirates, is not itself a Pirate damage source, and displaces stronger core effect.",
+      "commander_synergy": "Pumps Pirate attackers and creates discard pressure if it actually connects.",
+      "adversarial_downside": "Requires Crew 3, tapping attack-capable Pirates, is not itself a Pirate damage source, and displaces stronger core effect.",
+      "judgment": "REJECT",
+      "reason": "Vehicle's generic buff/discard does not substitute for the distinct three-Pirate theft enabler.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Captain Vargus Wrath",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Two-mana commander-cast-count Pirate team pump on own attack",
+      "named_cuts": [
+        "Dire Fleet Captain"
+      ],
+      "incumbent_opportunity_cost": "On first commander cast gives only +1/+1, grants no evasion, and can be poor before commander; no proof vs Cloud flyer.",
+      "commander_synergy": "Can buff the full Pirate team if commander repeatedly recast from command zone.",
+      "adversarial_downside": "On first commander cast gives only +1/+1, grants no evasion, and can be poor before commander; no proof vs Cloud flyer.",
+      "judgment": "REJECT",
+      "reason": "Early unblockable source count beats speculative late mass pump in a Beckett-first deck.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Dire Fleet Daredevil",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Two-mana first-strike Pirate opportunistic opposing-spell access",
+      "named_cuts": [
+        "Dire Fleet Poisoner",
+        "Merchant Raiders"
+      ],
+      "incumbent_opportunity_cost": "Opponent graveyard and payable timing dependent, no evasion, costs protection/tap-lock function of named cuts.",
+      "commander_synergy": "May reuse valuable rival instant/sorcery for actual mana if present in their graveyard.",
+      "adversarial_downside": "Opponent graveyard and payable timing dependent, no evasion, costs protection/tap-lock function of named cuts.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Useful when high-value opposing graveyard spells are frequent and card access offsets weaker evasion.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Siren Reaver",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Flying three-power Pirate with attack-based raid cost reduction",
+      "named_cuts": [
+        "Dire Fleet Captain"
+      ],
+      "incumbent_opportunity_cost": "Too slow for early setup: requires an attack before reduced cast and cannot attack the same turn without haste.",
+      "commander_synergy": "Raid reduces four-mana flyer to three when we already attacked.",
+      "adversarial_downside": "Too slow for early setup: requires an attack before reduced cast and cannot attack the same turn without haste.",
+      "judgment": "REJECT",
+      "reason": "One-mana Cloud Pirates advances the first connection turn with much lower resource and timing costs.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Access Tunnel",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "Land with power-three-or-less unblockability activation",
+      "named_cuts": [
+        "Path of Ancestry",
+        "Smoldering Marsh"
+      ],
+      "incumbent_opportunity_cost": "Produces colorless only and consumes four land-equivalents for one activation, weakening exact {1}{U}{B}{R} commander access.",
+      "commander_synergy": "Can make one small Pirate unblockable after paying 3 and tapping the land.",
+      "adversarial_downside": "Produces colorless only and consumes four land-equivalents for one activation, weakening exact {1}{U}{B}{R} commander access.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Consider only if revised UBR source math and meta demonstrate more low-power unblockability than lost colored pips.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    },
+    {
+      "card": "Blustersquall",
+      "source": "October 22 exact-name Scryfall /cards/collection plus M5, 62/62 comprehensive review and owner-equivalent Pass C",
+      "role": "One-blue tap or four-mana all-opposing-creature instant overload",
+      "named_cuts": [
+        "Open into Wonder",
+        "The Indomitable"
+      ],
+      "incumbent_opportunity_cost": "Does not draw cards or persist; replacing Open or Indomitable gives up repeatable or hit-dependent card flow.",
+      "commander_synergy": "Can create a one-turn breakthrough across multiple players, notably versus a grounded fleet.",
+      "adversarial_downside": "Does not draw cards or persist; replacing Open or Indomitable gives up repeatable or hit-dependent card flow.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "A/B/C full-package trials show attractive tempo but D retains both high-value draw engines and uses flying bodies instead.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_decisive_opportunity_audit_20261022.md",
+        "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_pirate_density_decision_20261022.md"
+      ]
+    }
+  ],
+  "limitations": [
+    "The 5 selection judgments are strategic research dispositions, not mechanical M6 I/J certification.",
+    "Bounded source-paid fixtures do not estimate four-player multiplayer game win rates.",
+    "M6.8 tested-pool I and M6.9 reproducibility J have not been emitted; no M6.10 owner acceptance.",
+    "Do not stage or present this candidate as OWNER_READY until all hard gates close."
+  ],
+  "owner_authority": {
+    "canonical_unchanged": true,
+    "exact_M7_owner_approval": false,
+    "owner_approval_requested": false
+  }
+}
