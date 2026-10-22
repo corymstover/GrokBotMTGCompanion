@@ -21,6 +21,17 @@ class AbaddonFirstCascade(unittest.TestCase):
             self.assertEqual(Counter(cards)["Swamp"],3)
             self.assertEqual(Counter(cards)["Mountain"],3)
 
+    def test_challenger_cards_absent_from_baseline_graph_have_verified_mv3(self):
+        self.assertEqual(self.cards["Grinning Ignus"]["mv"],3)
+        self.assertEqual(self.cards["Aggravated Assault"]["mv"],3)
+        self.assertEqual(self.cards["Grinning Ignus"]["type_line"],"Creature — Elemental")
+        self.assertEqual(self.cards["Aggravated Assault"]["type_line"],"Enchantment")
+        for n in ("Grinning Ignus","Aggravated Assault"):
+            d=[n,"Sol Ring"]
+            rec=resolve_cascade(d,self.cards,seed=4)
+            self.assertEqual(rec["first_hit"],"Sol Ring")
+            self.assertEqual(rec["exiled_count"],2)
+
     def test_physical_subthree_pool_and_roles(self):
         p=self.plan
         self.assertEqual(p["baseline_nonland_lt3"],{
@@ -115,7 +126,7 @@ class AbaddonFirstCascade(unittest.TestCase):
         self.assertEqual(Counter(a),Counter(["Island","Swamp","Mountain","Island","Mountain"]))
 
     def test_all_exiled_when_no_low_value_nonland(self):
-        original=["Island","Grinning Ignus","Abaddon the Despoiler"]
+        original=["Island","Grinning Ignus","Bituminous Blast"]
         d=list(original)
         r=resolve_cascade(d,self.cards,seed=43)
         self.assertIsNone(r["first_hit"])
