@@ -1,0 +1,37 @@
+name: M6 Admiral Beckett Brass finite P1 tranche 1
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-admiral-beckett-p1-tranche1.yml
+      - tests/test_m6_admiral_beckett_brass_p1_tranche1.py
+      - tests/test_m6_admiral_beckett_brass_p0.py
+      - data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_P1_Tranche1_Scryfall_20261022.json
+      - data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_P0_Scryfall_20261022.json
+      - data/grixis/m6/phase_b_plans/admiral_beckett_p1_tranche1_execution_20261022.json
+  push:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-admiral-beckett-p1-tranche1.yml
+      - tests/test_m6_admiral_beckett_brass_p1_tranche1.py
+      - data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_P1_Tranche1_Scryfall_20261022.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact-source-p1-tranche1:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Recheck prior five P0 finite cases
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_brass_p0.py' -v
+      - name: Run four new P1 contracts with 10 local tests
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_brass_p1_tranche1.py' -v
