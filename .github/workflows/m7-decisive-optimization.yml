@@ -1,0 +1,47 @@
+name: M7 decisive commander-first optimization contract
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-decisive-optimization.yml
+      - AGENTS.md
+      - grixis/Commander-First Decisive Optimization and Test Economy Standard.md
+      - data/grixis/schemas/m7_decisive_optimization.schema.json
+      - data/grixis/m7/decision_reviews/**
+      - data/grixis/m7/candidate_lists/**
+      - scripts/grixis_m7_decision_gate.py
+      - tests/test_m7_decisive_optimization_gate.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  source-bound-m7-owner-candidate-gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install offline structural schema validator
+        run: python -m pip install --disable-pip-version-check jsonschema
+      - name: Exercise adversarial no-wasted-testing and final candidate guards
+        run: python -m unittest discover -s tests -p 'test_m7_decisive_optimization_gate.py' -v
+      - name: Validate all submitted M7 decisions and staged exact 100-card decks
+        run: python scripts/grixis_m7_decision_gate.py --check
+      - name: Verify authoritative 62-roster and no auto-approval
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          reg=json.loads(Path('data/grixis/registry.json').read_text())
+          tracker=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert len(reg['decks']) == 62
+          assert tracker['m6']['formal_m6_certified_decks'] == 0
+          assert tracker['m7']['formal_m7_review_decisions'] == 0
+          print('PASS: M7 strategy packets are structurally gated; no canonical deck edits or owner approvals inferred.')
+          PY
