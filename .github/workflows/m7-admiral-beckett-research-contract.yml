@@ -10,6 +10,7 @@ on:
       - data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_candidate_D_20261022.json
       - data/grixis/m6/ij/certificates/admiral-beckett-brass.json
       - data/grixis/m6/certification_preflight/Admiral_M6_J_candidate_D_*.md
+      - data/grixis/m6/certification_preflight/Admiral_M6_I_four_package_effect_adjudication_20261022.md
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.txt
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.json
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md
@@ -20,6 +21,7 @@ on:
       - tests/test_m7_admiral_beckett_material_decisions.py
       - tests/test_m6_admiral_beckett_candidate_d_adversarial.py
       - tests/test_m6_admiral_beckett_ij_preflight.py
+      - tests/test_m6_admiral_beckett_pool_effect_comparison.py
   workflow_dispatch:
 
 jobs:
@@ -45,3 +47,5 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_candidate_d_adversarial.py' -v
       - name: Verify exact A/B/C/D candidate hashes and truthful incomplete M6 I status
         run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_ij_preflight.py' -v
+      - name: Compare A/B/C/D real Pirate package effects and lost engine costs
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_pool_effect_comparison.py' -v
