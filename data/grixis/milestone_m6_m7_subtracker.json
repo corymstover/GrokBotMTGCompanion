@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_abaddon_rule_and_100_card_source_access_receipts",
+  "snapshot": "2026-10-21_chronological_abaddon_phase_b_incomplete",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "d725457d028258adc118d9f91de0a83c0a873ab6",
+    "engineering_head": "0436c8e308651b15844819fec16e86a5f5ad9545",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
@@ -148,9 +148,10 @@
           "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md (PR #504; exact-head CI 39692748860 PASS; conditional effect-aware fixtures only)",
           "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md (PR #506; exact-head CI 39694322053 PASS; 11 deterministic Oracle-cost/inventory tests, not full-deck comparative gameplay)",
           "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511; exact-head CI 39697989020 PASS; 14 bounded rules tests, not real spell sequencing)",
-          "data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512; exact-head CI 39698978884 PASS; 11 invariant tests; 2,000 matched physical draw-and-land-only snapshots per variant, full JSON Actions artifact, NOT comparative gameplay)"
+          "data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512; exact-head CI 39698978884 PASS; 11 invariant tests; 2,000 matched physical draw-and-land-only snapshots per variant, full JSON Actions artifact, NOT comparative gameplay)",
+          "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, Actions 39700709249 PASS, 15 adversarial tests, 2,000 source-paid physical trials per baseline/challenger; first activation 1 and 4 observed, NOT wins)"
         ],
-        "scope": "Abaddon conditional effect-aware combat fixtures (PR #504), Rakdos discounts (PR #506), Ruinous Powers opponent-owned exile-spell loss/hand-only cascade (PR #511) and paired frozen 100-card slot draw/colored-land source availability (PR #512) add real bounded evidence. PR #512 observes at turn 10 Rakdos baseline 254/2000 held-and-land-payable, Assault-for-Rakdos 336/2000 and Assault-for-Lost 348/2000, but no spells, chronological combo setup, other card effects, opponent play or wins were modeled; 7/2000 and 8/2000 Assault challenger trials had all three library combo pieces held. None proves net improvement; zero complete 100-card interactive Phase B certificates (0/62). M6.6 PARTIAL."
+        "scope": "Abaddon conditional rules fixtures (PRs #504, #506, #511), physical colored-source availability (PR #512), and strictly restricted chronological source-spent 100-card casting with paid first postcombat Neheb/Assault activation (PR #514) now have exact-head CI evidence. PR #514: 2,000 matched trials per deck; first paid first activation 1/2000 Assault-for-Rakdos and 4/2000 Assault-for-Lost. Closed model excludes rocks, rituals, tutoring, other pingers/threshold enablers, card-advantage, cascade, interaction and real win conditions; low conditional Rakdos cast count is NOT a negative comparative metric, as opponent loss outside Loyal is excluded. Zero complete full-game Phase B certificates; M6.6 PARTIAL, 0/62 certified."
       },
       {
         "id": "M6.7",
@@ -164,9 +165,10 @@
           "data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json (PR #509; exact-head CI 39696829857 PASS; three same-model authored judgment_review receipts, conditional HOLD decisions only)",
           "grixis/m6/abaddon_post_waiver_judgments_20261021.md (Ruinous Powers owner-life-loss rules correction and unresolved Assault/Rakdos/Chaos Warp tradeoffs)",
           "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511; Ruinous retain role corroborated, not final superiority)",
-          "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md and 39698978884 CI artifact (PR #512; paired hypothetical source availability, not actual casting or winner)"
+          "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md and 39698978884 CI artifact (PR #512; paired hypothetical source availability, not actual casting or winner)",
+          "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, CI 39700709249 PASS; confirms few conditional constructively paid activation traces, does not settle comparative cut)"
         ],
-        "scope": "Abaddon same-model authored HOLD/retain judgments now incorporate PR #511 rules and PR #512 preregistered 100-card land-only access snapshots. Easier Assault printed-cost affordability cannot establish the effect of losing Rakdos discount or Lost-and-the-Damned Spawn engine, nor validate Neheb/Assault chronologically. Other material judgments and interactive access comparisons remain; 0/62 full M6.7 judgment closures, PARTIAL."
+        "scope": "Three authored Abaddon judgment reviews with bounded effect-aware and now physically sequential conditional paid tests. The Assault engine can legally be assembled and a first postcombat activation paid under the fixed policy but only a few of the restricted matched draws achieved this by turn ten. This is neither a realistic win likelihood nor a net performance difference versus Rakdos discount or Lost Spawn effects. Best cut and stax-answer slot unresolved, other 62 decision closures incomplete. M6.7 PARTIAL 0/62."
       },
       {
         "id": "M6.8",
@@ -293,6 +295,41 @@
         "full_multiplayer_gameplay": false,
         "superiority_proven": false,
         "real_combo_casting": false
+      },
+      {
+        "deck_id": "Abaddon_the_Despoiler",
+        "kind": "PREREGISTERED_CONSTRUCTIVE_CHRONOLOGICAL_SOURCE_PAID_100_CARD_BOUND",
+        "topic": "assault_for_rakdos_or_lost_first_postcombat_neheb_activation",
+        "merged_pr": 514,
+        "merge_commit": "0436c8e308651b15844819fec16e86a5f5ad9545",
+        "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39700709249",
+        "unit_tests": 15,
+        "samples_per_variant": 2000,
+        "evidence": "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md",
+        "preregistration": "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json",
+        "turn_10": {
+          "baseline": {
+            "abaddon_cast": 1478,
+            "loyal_cast": 304,
+            "neheb_cast": 207,
+            "rakdos_cast_with_required_life_loss": 27
+          },
+          "assault_for_rakdos": {
+            "abaddon_cast": 1478,
+            "assault_cast": 333,
+            "first_assault_activation_paid": 1
+          },
+          "assault_for_lost": {
+            "abaddon_cast": 1478,
+            "assault_cast": 347,
+            "first_assault_activation_paid": 4
+          }
+        },
+        "full_multiplayer_gameplay": false,
+        "net_deck_performance_comparison": false,
+        "superiority_proven": false,
+        "physical_tap_costs_paid": true,
+        "true_game_win_rate": null
       }
     ]
   },
@@ -382,7 +419,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "5/10 amended M6 governance sub-gates complete (including owner-waived independent reviewer M6.5); 2 PARTIAL with bounded Abaddon rules and physical source-opportunity receipts through PR #512, 3 BLOCKED; zero full Phase B game or M6 certs. GPT-6 owner-equivalent Pass C 62/62, genuinely independent third-model reviewer 0/62, 62 existing canonical decks approved/locked unchanged, 0/62 new M7 decisions. The 2,000-seed access proxies are not win rates or combo certificates."
+    "note": "5/10 M6 governance sub-gates COMPLETE, including owner-waived M6.5; M6.6/7 remain PARTIAL with three exact-head Abaddon tests incl PR #514 chronological source-paid 2,000 paired trials per variant; 0/62 formal M6 certificates, 0/62 new M7 owner decisions, canonical 62/62 approved/locked. No real multiplayer win rate or swap superiority established."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
