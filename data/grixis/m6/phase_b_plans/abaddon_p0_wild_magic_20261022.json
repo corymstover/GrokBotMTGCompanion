@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_024_WILD_MAGIC_FIRST_EXILE_CAST_NESTED_CASCADE_PREREGISTRATION",
+  "date": "2026-10-22",
+  "integration_sha_at_preregistration": "eba25685ca697815b2c1511161030696e45da448",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical_approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle": {
+    "card": "Wild-Magic Sorcerer",
+    "mana_cost": "{3}{R}",
+    "mana_value": 4,
+    "oracle_text": "The first spell you cast from exile each turn has cascade.",
+    "rulings": "2021-07-23: First exile-cast gets cascade even if not first spell of turn; casting before Wild-Magic Sorcerer enters precludes granting to later exile-cast spells; a spell's cascade triggers upon casting and survives countering that spell; multiple instances cascade independently.",
+    "card_source": "https://www.mtg.wtf/card/afc/305/Wild-Magic-Sorcerer",
+    "rule_source": "https://media.wizards.com/2025/downloads/MagicCompRules%2020251114.pdf"
+  },
+  "fixture": {
+    "real_list": "100 physical cards (1 commander + 99 zones), 94 distinct names; 34 baseline lands",
+    "source_paid": "Call Forth the Tempest {5}{R}{R}{R} cast from hand using 3 real Mountains, 3 real Islands, 2 real Swamps, after conditional earlier source-triggered 9 total opponent life loss from Loyal Subordinate; X0 variants explicitly tested.",
+    "fixed_library_top": "Physically place Arcane Signet MV2, Sol Ring MV1, Talisman of Creativity MV2, Lotus Petal MV0 on top in that order for X9 nested trace; exiled cards from each cascade are physically tracked; virtual copies and tokens are not 99-card sources.",
+    "timing": "Call's printed two cascades + conditional Abaddon-granted third are pending independent on-cast triggers. First cast from exile with Sorcerer on battlefield receives cascade; its nested cascade triggers and resolves above the initial spell; subsequent exile-casts get no Sorcerer cascade. The original hand-cast Call never receives Sorcerer cascade.",
+    "zero_cascade": "When first exile-cast has MV0, its new cascade has no eligible nonland (nonnegative MV); the entire remaining library is exiled then returned to bottom in a possible shuffled permutation, preserving every physical card and not assigning empirical probability."
+  },
+  "registered_cases": [
+    {
+      "id": "wild_x9_first_nested_three_printed",
+      "expected": "X9 hand Call has 3 outer cascade triggers; first actual exile-cast Arcane Signet MV2 gets Wild cascade, physically hit Sol Ring MV1; later Talisman MV2 and Lotus Petal MV0 are casts without extra Wild cascades. Four exiled spells actually cast, four Lost Spawns, Call sweeper total MV5."
+    },
+    {
+      "id": "wild_x0_printed_nested_only",
+      "expected": "X0 hand Call has only two printed cascades, first exile-cast Arcane Signet gets nested Sol Ring, second printed gets Talisman, no third Abaddon trigger. Three exile casts and 3 Lost Spawns, Call sweep MV5."
+    },
+    {
+      "id": "wild_first_mv0_zero_eligible",
+      "expected": "First exile-cast Lotus Petal MV0 legally gains cascade but nested ability has no eligible lower-MV nonland; physical full remaining library is moved to exile then bottomed in a legally possible permutation, not a fabricated second cast."
+    },
+    {
+      "id": "wild_arrives_after_first_exile_cast",
+      "expected": "Wild-Magic Sorcerer itself first cast from exile with no sorcerer yet controlled, enters, then next actual exile-cast Arcane Signet DOES NOT gain cascade retroactively; two printed Call casts only."
+    },
+    {
+      "id": "wild_removed_after_granted_cascade",
+      "expected": "Opponent removes Wild-Magic Sorcerer after first exile spell cast and its new cascade has triggered; pending nested cascade still resolves and later exile-casts do not gain Wild cascade."
+    },
+    {
+      "id": "wild_countered_original_call",
+      "expected": "Opponent counters original hand-cast Call after its on-cast triggers exist; independent printed/granted and nested cascade triggers resolve; Call does not sweep opposing creatures."
+    },
+    {
+      "id": "wild_drannith_and_rule_of_law",
+      "expected": "In separate subfixtures, Drannith or Rule of Law prevents all free exile casts from a source-paid Call; printed and granted cascade abilities still exile/bottom cards; none acquires or triggers a Wild cascade and Lost stays at zero."
+    },
+    {
+      "id": "wild_countered_first_exile_spell",
+      "expected": "Opponent counters first Arcane Signet exile-cast after its granted cascade has triggered but before nested resolves; nested Sol Ring still cast, later printed hits allowed, physical Arcane moves graveyard."
+    }
+  ],
+  "cost_budget": {
+    "new_registered_methods": 8,
+    "randomized_game_trials": 0,
+    "full_deck_variants": 1
+  },
+  "known_gates": {
+    "P0_024": "REGISTERED_NOT_EXECUTED",
+    "P0_025": "REQUIRED_UNEXECUTED",
+    "P0_026": "REQUIRED_UNEXECUTED",
+    "P0_027": "REQUIRED_UNEXECUTED",
+    "M6_6": "PARTIAL",
+    "M6_7": "PARTIAL",
+    "M6_I": "BLOCKED",
+    "M6_J": "BLOCKED"
+  },
+  "limitations": [
+    "Source-paid topdeck order is conditional and not a measured likelihood.",
+    "The sorcerer is assumed previously on battlefield for the standard cases; its mana paid on a prior turn is not represented as a probability.",
+    "The first-exile-MV0 branch models all physical library exiled and bottomed; a deterministic possible permutation is not a stochastic win estimate.",
+    "Physical cards conserved, but the tracer is an intentionally narrow rules-state simulator, not comprehensive stack/priority simulation.",
+    "Do not certify M6 or revise 62 approved canonical decks."
+  ]
+}
