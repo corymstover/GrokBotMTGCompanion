@@ -70,7 +70,7 @@ class AbaddonFinalStagedM7(unittest.TestCase):
                          "This deck is complete. Do you approve it?")
         self.assertNotIn(FORBIDDEN,json.dumps(p))
         cases=json.loads(P0.read_text())
-        self.assertEqual(len(cases["replay_cases"]),95)
+        self.assertEqual(len(cases["replay_cases"]),104)
         self.assertEqual(cases["required_open"],[])
         self.assertFalse(cases["authority"]["formal_m6_certified"])
         self.assertEqual(cases["authority"]["m6_6"],"PARTIAL")
