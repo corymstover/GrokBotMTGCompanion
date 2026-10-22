@@ -43,34 +43,74 @@ def safe_file(root: Path, relative: str):
     return resolved
 
 
-def parse_list(path: Path):
-    cards = []
-    marked_commanders = []
-    for line_number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
+def parse_list(path: Path, *, source_markdown=False):
+    """Parse canonical source TXT or the archived canonical MD Archidekt block.
+
+    Ignore companion for the *100* Commander card count; preserve it separately.
+    Do not parse derived official-legal projections or Bot refined lists.
+    """
+    body=path.read_text(encoding="utf-8")
+    if source_markdown:
+        marker="## Decklist (Archidekt import)"
+        if body.count(marker)!=1:
+            raise DecisionGateError("Canonical source Markdown decklist section missing or ambiguous")
+        after=body.split(marker,1)[1]
+        if "```text" not in after or "```" not in after.split("```text",1)[1]:
+            raise DecisionGateError("Canonical source Markdown fenced list missing")
+        body=after.split("```text",1)[1].split("```",1)[0]
+    cards=[]
+    marked_commanders=[]
+    companions=[]
+    for line_number,line in enumerate(body.splitlines(),1):
         if not line.strip():
             continue
-        m = ENTRY.fullmatch(line.strip())
+        m=ENTRY.fullmatch(line.strip())
         if not m:
             raise DecisionGateError(f"Invalid list line {path}:{line_number}")
-        amount, raw_name = int(m.group(1)), m.group(2)
-        if not 1 <= amount <= 100:
+        amount,raw_name=int(m.group(1)),m.group(2)
+        if not 1<=amount<=100:
             raise DecisionGateError("Invalid positive quantity")
-        marked = raw_name.endswith(" [Commander]")
-        name = raw_name.removesuffix(" [Commander]")
-        if not name or "[Commander]" in name:
-            raise DecisionGateError("Improper commander marker")
-        cards.extend([name] * amount)
-        if marked:
-            marked_commanders.extend([name] * amount)
-    if len(cards) != 100 or not marked_commanders:
-        raise DecisionGateError("Exactly 100 cards including clearly marked commander(s) required")
-    if cards[0] != marked_commanders[0]:
-        raise DecisionGateError("First card must be commander")
-    if len(marked_commanders) > 2:
-        raise DecisionGateError("More than two commander-designated cards")
-    if any(q > 1 and n not in BASIC_LANDS for n, q in Counter(cards).items()):
-        raise DecisionGateError("Nonbasic card duplicated, or singleton not preserved")
-    return cards, marked_commanders
+        tag=re.search(r"\\s+\\[([^\\]]+)\\]$",raw_name)
+        role=(tag.group(1) if tag else "")
+        name=(raw_name[:tag.start()] if tag else raw_name)
+        if not name or "[" in name or "]" in name:
+            raise DecisionGateError("Unsupported source card-name tag or Commander annotation")
+        if role.startswith("Commander"):
+            marked_commanders.extend([name]*amount)
+        elif role=="Companion":
+            companions.extend([name]*amount)
+            continue
+        elif role and not source_markdown:
+            raise DecisionGateError("Final candidate must omit role tags except Commander/Companion")
+        cards.extend([name]*amount)
+    if len(cards)!=100 or not marked_commanders:
+        raise DecisionGateError("Exactly 100 main-deck cards including commander(s) required")
+    if cards[0]!=marked_commanders[0]:
+        raise DecisionGateError("First main card must be Commander")
+    if not 1<=len(marked_commanders)<=2:
+        raise DecisionGateError("Only one or two commanders supported")
+    if any(q>1 and n not in BASIC_LANDS for n,q in Counter(cards).items()):
+        raise DecisionGateError("Nonbasic card duplicated or singleton not preserved")
+    return cards,marked_commanders,companions
+
+
+def canonical_source(root: Path, deck: dict):
+    """Use explicitly imported approved source, never Bot-refined or projection."""
+    exact=f"exports/grixis-archidekt/source-baseline/{deck['slug']}.txt"
+    if (root/exact).is_file():
+        return safe_file(root,exact),False
+    archive=deck["canonical_project_list"]["path"].split("#",1)[0]
+    if not archive.startswith("grixis/decks/") or not archive.endswith(".md"):
+        raise DecisionGateError("No trusted per-deck source markdown reference")
+    return safe_file(root,archive),True
+
+
+def validate_companion(deck_id, companions):
+    if deck_id=="Cecily__Bjorna__Lutri":
+        if companions!=["Lutri, the Spellchaser"]:
+            raise DecisionGateError("Lutri special companion outside 100 not preserved")
+    elif companions:
+        raise DecisionGateError("Unexpected companion outside canonical 100")
 
 
 def check_text(x, label, min_length=30):
@@ -96,8 +136,9 @@ def verify_packet(packet, *, root=ROOT, registry=None):
         raise DecisionGateError("M7 baseline does not match registry's exact recorded approved raw SHA")
     if packet["canonical_baseline_logical_hash"] != r["current_canonical_hash"]:
         raise DecisionGateError("M7 baseline does not match canonical logical source hash")
-    source = safe_file(root, f"exports/grixis-archidekt/source-baseline/{r['slug']}.txt")
-    baseline, commanders = parse_list(source)
+    source, markdown = canonical_source(root, r)
+    baseline, commanders, companions = parse_list(source, source_markdown=markdown)
+    validate_companion(deck_id, companions)
     final_path = packet["final_candidate"]["path"]
     if not final_path.startswith("data/grixis/m7/candidate_lists/") or not final_path.endswith(".txt"):
         raise DecisionGateError("Final unapproved 100-card candidate must be a separate engineering staging TXT")
@@ -105,7 +146,10 @@ def verify_packet(packet, *, root=ROOT, registry=None):
     actual_digest = hashlib.sha256(candidate_file.read_bytes()).hexdigest()
     if actual_digest != packet["final_candidate"]["sha256"]:
         raise DecisionGateError("Final staged candidate SHA-256 mismatch")
-    proposed, proposed_commanders = parse_list(candidate_file)
+    proposed, proposed_commanders, proposed_companions = parse_list(candidate_file)
+    validate_companion(deck_id, proposed_companions)
+    if proposed_companions != companions:
+        raise DecisionGateError("Project-authorized companion unexpectedly changed")
     if commanders != proposed_commanders:
         raise DecisionGateError("Commander substitution or command-zone identity drift")
     before, after = Counter(baseline), Counter(proposed)
@@ -188,10 +232,29 @@ def verify_packet(packet, *, root=ROOT, registry=None):
     }
 
 
+def check_all_canonical_source_imports(*, root=ROOT, registry=None):
+    """Smoke test authority-backed source inventory for every one of the 62 IDs.
+
+    This validates physical source quantities and known companions, but not
+    live external canonical SHA freshness or current Oracle legality.
+    """
+    registry = registry or read(root / "data/grixis/registry.json")
+    if len(registry["decks"])!=62:
+        raise DecisionGateError("Canonical roster not 62")
+    for deck_id, deck in registry["decks"].items():
+        path,md=canonical_source(root,deck)
+        cards,cmd,companions=parse_list(path,source_markdown=md)
+        validate_companion(deck_id,companions)
+        if len(cards)!=100 or not cmd:
+            raise DecisionGateError("Not a coherent 100-card source: "+deck_id)
+    return len(registry["decks"])
+
+
 def main():
     ap=argparse.ArgumentParser(description="Review staged M7 decision packets; no automatic approvals")
     ap.add_argument("--check", action="store_true", required=True)
     ap.add_argument("--file", type=Path, help="One staged M7 review JSON")
+    ap.add_argument("--check-sources", action="store_true", help="Verify all 62 imported 100-card source mirrors")
     ap.add_argument("--require-complete", action="store_true",
                     help="Demand exactly the 62-authoritative-deck review artifacts")
     args=ap.parse_args()
@@ -202,6 +265,8 @@ def main():
         files=[args.file]
     else:
         files=sorted(DECISIONS.glob("*.json")) if DECISIONS.exists() else []
+    if args.check_sources:
+        print(f"Canonical-source mirror physical audit: {check_all_canonical_source_imports(root=ROOT,registry=registry)}/62 inspected; archived metadata is not a fresh external approval recheck.")
     seen=set()
     for item in files:
         data=read(item)
