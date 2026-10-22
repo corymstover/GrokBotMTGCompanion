@@ -143,6 +143,52 @@ class M7DecisionGateTests(unittest.TestCase):
     def verify(self):
         return gate.verify_packet(self.packet, root=self.root, registry=self.registry)
 
+    def test_archived_canonical_import_tags_are_read_without_bot_refined_list(self):
+        md=self.root / "grixis/decks/admiral-beckett-brass.md"
+        md.parent.mkdir(parents=True)
+        md.write_text(
+            "# Not a source list\\n\\n"
+            + "## Decklist (Archidekt import)\\n\\n"
+            + "```text\\n"
+            + "1x Admiral Beckett Brass [Commander{top}]\\n"
+            + "1x Rakdos, Lord of Riots [Creature]\\n"
+            + "98x Island [Land]\\n```\\n\\n"
+            + "## Refined list (Bot cycle 39)\\n"
+            + "```text\\n1x Not Canonical [Commander]\\n99x Swamp\\n```"
+        )
+        cards,commanders,companions=gate.parse_list(md,source_markdown=True)
+        self.assertEqual(len(cards),100)
+        self.assertEqual(commanders,["Admiral Beckett Brass"])
+        self.assertEqual(companions,[])
+        self.assertNotIn("Not Canonical",cards)
+
+    def test_lutri_companion_is_outside_exact_100_and_only_authorized_for_pair(self):
+        fixture=self.root/"data/grixis/m7/candidate_lists/synthetic-companion.txt"
+        fixture.write_text("1x Bjorna, Nightfall Alchemist [Commander]\\n"
+                           "1x Cecily, Haunted Mage [Commander]\\n"
+                           "98x Island\\n"
+                           "1x Lutri, the Spellchaser [Companion]\\n")
+        cards,commanders,companions=gate.parse_list(fixture)
+        self.assertEqual(len(cards),100)
+        self.assertEqual(len(commanders),2)
+        self.assertEqual(companions,["Lutri, the Spellchaser"])
+        gate.validate_companion("Cecily__Bjorna__Lutri",companions)
+        with self.assertRaises(gate.DecisionGateError):
+            gate.validate_companion("Abaddon_the_Despoiler",companions)
+        fixture.write_text(fixture.read_text().replace(
+            "1x Lutri, the Spellchaser [Companion]",
+            "1x Sol Ring [Companion]"))
+        with self.assertRaises(gate.DecisionGateError):
+            gate.validate_companion("Cecily__Bjorna__Lutri",gate.parse_list(fixture)[2])
+
+    def test_canonical_source_priority_excludes_laundered_official_projection(self):
+        deck={"slug":"abaddon-the-despoiler",
+              "canonical_project_list":{"path":"grixis/decks/abaddon-the-despoiler.md#decklist-archidekt-import"}}
+        source,is_md=gate.canonical_source(self.root,deck)
+        self.assertFalse(is_md)
+        self.assertEqual(source.name,"abaddon-the-despoiler.txt")
+        self.assertEqual(gate.parse_list(source)[1],["Abaddon the Despoiler"])
+
     def test_one_swap_packet_with_five_slot_and_package_review_valid(self):
         r=self.verify()
         self.assertEqual(r["new_swaps"], 1)
