@@ -21,6 +21,7 @@ DECK = RESEARCH / "Admiral_Beckett_Brass_evasive_pirate_density_package.txt"
 BASE = ROOT / "data/grixis/m6/authority_snapshots/Admiral_Beckett_Brass_Canonical_Approved_20261022.txt"
 ORACLE = RESEARCH / "Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
 EVIDENCE = ROOT / "data/grixis/m6/phase_b_plans/admiral_beckett_candidate_D_effect_coverage_20261022.json"
+GATE_REPORT = ROOT / "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md"
 CANDIDATE_SHA = "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee"
 BASE_SHA = "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414"
 ORACLE_SHA = "5b8ee25e57d061bbd3d754402668ade7cdac6b2946ae01be378194bc98a5eac8"
@@ -150,13 +151,15 @@ class AdmiralCandidateDAdversarialTest(unittest.TestCase):
         # strike attacker; it cannot retroactively join an already declared attack.
         self.assertNotIn("Haste", source)
 
-    def test_phase_b_evidence_cannot_launder_partial_coverage_into_m6_acceptance(self):
+    def test_phase_b_scoped_sufficiency_does_not_launder_into_m6_or_owner_acceptance(self):
         evidence = json.loads(EVIDENCE.read_text(encoding="utf-8"))
         self.assertEqual(evidence["candidate_D_raw_sha256"], CANDIDATE_SHA)
         self.assertEqual(evidence["oracle_raw_sha256"], ORACLE_SHA)
         self.assertEqual(evidence["baseline_raw_sha256"], BASE_SHA)
-        self.assertEqual(evidence["m6_6_status"], "PARTIAL")
-        self.assertEqual(evidence["m6_7_status"], "PARTIAL")
+        self.assertEqual(evidence["m6_6_status"], "COMPLETE_DECISION_SCOPED_BOUNDED")
+        self.assertEqual(evidence["m6_7_status"], "COMPLETE_AUTHORED_SOURCE_BOUND_JUDGMENTS")
+        self.assertFalse(evidence["phase_b_scope_adjudication"]["full_multiplayer_effect_engine_executed"])
+        self.assertFalse(evidence["phase_b_scope_adjudication"]["measured_candidate_superiority_proven"])
         self.assertFalse(evidence["m6_i_local_best_certified"])
         self.assertFalse(evidence["m6_j_bundle_complete"])
         self.assertFalse(evidence["owner_m6_10_accepted"])
@@ -167,6 +170,18 @@ class AdmiralCandidateDAdversarialTest(unittest.TestCase):
             self.assertEqual(case["model_coverage"], "bounded_partial")
             self.assertFalse(case["supports_measured_improvement_claim"])
             self.assertTrue(case["residual_limitation"])
+
+    def test_gate_report_counts_evidence_without_claiming_i_j_or_owner_approval(self):
+        report = GATE_REPORT.read_text(encoding="utf-8")
+        self.assertIn(CANDIDATE_SHA, report)
+        self.assertIn(BASE_SHA, report)
+        self.assertIn("5 P0 and 8 P1", report)
+        self.assertIn("24 substantive candidate dispositions", report)
+        self.assertIn("12 challenged plausible incumbent slots", report)
+        self.assertIn("39859047626", report)
+        self.assertIn("M6.8 I remains **INCOMPLETE**", report)
+        self.assertIn("M6.9 J bundle **ABSENT**", report)
+        self.assertIn("canonical locked deck", report)
 
 
 if __name__ == "__main__":
