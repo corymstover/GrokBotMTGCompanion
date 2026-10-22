@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Cecily__Bjorna__Lutri",
+  "canonical_approval_key": "Cecily__Bjorna__Lutri",
+  "commander_names": [
+    "Bjorna, Nightfall Alchemist",
+    "Cecily, Haunted Mage"
+  ],
+  "tracker_order": 8,
+  "source_basis": {
+    "engineering_blueprint": "data/grixis/blueprints/bjorna-nightfall-alchemist-cecily.json",
+    "blueprint_git_blob": "2e1481957c3709e894319dadbd09c3b0c7af9376",
+    "blueprint_date": "2026-10-16",
+    "commander_oracle_snapshots": [
+      {
+        "card": "Bjorna, Nightfall Alchemist",
+        "oracle_text": "{T}, Sacrifice an artifact: Bjorna, Nightfall Alchemist deals 1 damage to target creature. Goad that creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)\nPartner—Friends forever (You can have two commanders if both have this ability.)",
+        "oracle_sha256": "sha256:7b3b6148b660f14e9a96f46ae1fed158b44a976d295cf31a61565130e936aa91"
+      },
+      {
+        "card": "Cecily, Haunted Mage",
+        "oracle_text": "Your maximum hand size is eleven.\nWhenever Cecily, Haunted Mage attacks, you draw a card and you lose 1 life. Then if you have eleven or more cards in your hand, you may cast an instant or sorcery spell from your hand without paying its mana cost.\nPartner—Friends forever (You can have two commanders if both have this ability.)",
+        "oracle_sha256": "sha256:58808b6dd2c1128c41ceb11308a0850dcd63f8bfa5a96727df50ddf44575b345"
+      }
+    ],
+    "canonical_deck_path": "refinement/decklists/Cecily__Bjorna__Lutri_Approved_2026-10-13.txt",
+    "current_file_blob": "543f7afafd0dc8a14ed28fb626c775716a685d64",
+    "canonical_approved_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+    "registry_raw_sha": "sha256:553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
+    "registry_recorded_matches_raw": true,
+    "registered_name_alias": null,
+    "source_baseline_line_count": 99,
+    "known_approval_project_exceptions": "Explicit user approval of Reckless Fireweaver to Robe of the Archmagi; Lutri companion plus Trade Secrets and Yawgmoth's Bargain preserved as documented project exceptions; fresh retrospective gate completed 2026-10-14."
+  },
+  "strategy": {
+    "primary": "Big-hand spells: draw to eleven-plus cards with Rhystic Study, The One Ring, wheels and Trade Secrets/Yawgmoth's Bargain, attack with Cecily to draw and cast an instant or sorcery free, and win with draw-based combos (Peer into the Abyss + Psychosis Crawler or Teferi's Ageless Insight, Underworld Breach + Wheel of Fortune + Jeska's Will).",
+    "secondary": "Bjorna sacrifices spare artifacts (Treasures, Thopters, Clues) to deal 1 damage to and goad an opposing creature: the ping kills X/1s, and goad gives defensive and political value on opponents' turns (the creature must attack a player other than Bjorna's controller if able). Goad sets attack requirements only; it doesn't stop a creature from blocking, so it doesn't clear blockers for Cecily.",
+    "role": {
+      "level": "supporting",
+      "advances_plan": "Cecily (significant) turns attacks into a card and, with 11+ cards, a free spell. Bjorna (supporting/incidental) is a small repeatable ping/goad that uses artifact tokens: it kills X/1s and redirects attacks on opponents' turns. As a pair they are supporting; the deck wins with draw-and-wheel combos that don't need either commander.",
+      "honest_note": "The source blueprint misdescribes both commanders (Bjorna does not grant haste on noncreature spells; Cecily triggers on attacking, not combat damage; M1 bjorna-12). On current Oracle Bjorna is close to incidental and Cecily is a significant but combat-exposed engine. The approval dossier calls the pair the 'strategic center'; GrokBot's reading is that the draw/wheel/Peer package is."
+    },
+    "identity_core": [
+      {
+        "card": "Cecily, Haunted Mage",
+        "why": "Attack draw and free spell at eleven cards: the pair's real engine.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Cecily, Haunted Mage"
+        ]
+      },
+      {
+        "card": "Bjorna, Nightfall Alchemist",
+        "why": "Required partner: 1 damage kills an X/1, and goad pushes an opponent's creature to attack someone else on their turn. Goad doesn't stop blocking.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Bjorna, Nightfall Alchemist"
+        ]
+      },
+      {
+        "card": "Peer into the Abyss",
+        "why": "Central combo piece and the biggest single hand-size swing.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:bjorna-nightfall-alchemist-cecily#bjorna-06"
+        ]
+      },
+      {
+        "card": "The One Ring",
+        "why": "Protection plus escalating draw toward eleven.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/evidence/Cecily__Bjorna__Lutri_Approval_Gate_Dossier_2026-10-13.md"
+        ]
+      },
+      {
+        "card": "Trade Secrets",
+        "why": "Project-authorized exception that fuels the hand-size plan.",
+        "evidence_class": "approved_decision",
+        "confidence": "verified",
+        "evidence": [
+          "interaction:bjorna-nightfall-alchemist-cecily#bjorna-11",
+          "source_archive:refinement/approvals/Cecily__Bjorna__Lutri_Approved_2026-10-13.md"
+        ]
+      }
+    ],
+    "project_exceptions": {
+      "value": [
+        "Lutri, the Spellchaser",
+        "Trade Secrets",
+        "Yawgmoth's Bargain"
+      ],
+      "evidence_class": "approved_decision",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_oracle",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#commanders.value[0]",
+      "scenario": "Bjorna, Nightfall Alchemist: commander ability",
+      "source_predicate_to_verify": "{T}, Sacrifice an artifact: Bjorna, Nightfall Alchemist deals 1 damage to target creature. Goad that creature. (Until your next turn, that creature attacks each combat if able and attacks a player other than you if able.)\nPartner—Friends forever (You can have two commanders if both have this ability.)",
+      "fixture_named_cards": [
+        "Bjorna, Nightfall Alchemist"
+      ],
+      "cards_verified_in_current_export": [
+        "Bjorna, Nightfall Alchemist"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "combat_damage",
+        "artifact",
+        "death_sacrifice",
+        "life_damage"
+      ],
+      "initial_state_requirements": "Actual commander zone, casting cost, battlefield/command-zone permission and all timing windows per printed source Oracle; compare ability present vs absent.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "C2",
+      "priority": "P0",
+      "kind": "commander_oracle",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#commanders.value[1]",
+      "scenario": "Cecily, Haunted Mage: commander ability",
+      "source_predicate_to_verify": "Your maximum hand size is eleven.\nWhenever Cecily, Haunted Mage attacks, you draw a card and you lose 1 life. Then if you have eleven or more cards in your hand, you may cast an instant or sorcery spell from your hand without paying its mana cost.\nPartner—Friends forever (You can have two commanders if both have this ability.)",
+      "fixture_named_cards": [
+        "Cecily, Haunted Mage"
+      ],
+      "cards_verified_in_current_export": [
+        "Cecily, Haunted Mage"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "combat_damage",
+        "stack_copy_cascade",
+        "discard_draw",
+        "life_damage"
+      ],
+      "initial_state_requirements": "Actual commander zone, casting cost, battlefield/command-zone permission and all timing windows per printed source Oracle; compare ability present vs absent.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#key_interactions[0]",
+      "scenario": "bjorna-goad",
+      "source_predicate_to_verify": "{T}, sacrifice an artifact: 1 damage to a creature and goad it.",
+      "fixture_named_cards": [
+        "Bjorna, Nightfall Alchemist"
+      ],
+      "cards_verified_in_current_export": [
+        "Bjorna, Nightfall Alchemist"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "artifact",
+        "death_sacrifice",
+        "life_damage"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#key_interactions[1]",
+      "scenario": "cecily-order",
+      "source_predicate_to_verify": "Draw and lose 1 first, then check eleven cards; free cast from hand.",
+      "fixture_named_cards": [
+        "Cecily, Haunted Mage"
+      ],
+      "cards_verified_in_current_export": [
+        "Cecily, Haunted Mage"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "discard_draw"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#key_interactions[2]",
+      "scenario": "prodigy-doubles",
+      "source_predicate_to_verify": "Harmonic Prodigy doubles Cecily, Niv-Mizzet and Archmage triggers.",
+      "fixture_named_cards": [
+        "Harmonic Prodigy"
+      ],
+      "cards_verified_in_current_export": [
+        "Harmonic Prodigy"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#key_interactions[3]",
+      "scenario": "triskaidekaphile",
+      "source_predicate_to_verify": "Triskaidekaphile wins with exactly thirteen cards at upkeep.",
+      "fixture_named_cards": [
+        "Triskaidekaphile"
+      ],
+      "cards_verified_in_current_export": [
+        "Triskaidekaphile"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "turn_structure"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K5",
+      "priority": "P1",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#key_interactions[4]",
+      "scenario": "exceptions",
+      "source_predicate_to_verify": "Lutri companion, Trade Secrets and Yawgmoth's Bargain are project exceptions, not Commander-legal.",
+      "fixture_named_cards": [
+        "Trade Secrets",
+        "Yawgmoth's Bargain",
+        "Lutri, the Spellchaser"
+      ],
+      "cards_verified_in_current_export": [
+        "Trade Secrets",
+        "Yawgmoth's Bargain"
+      ],
+      "cards_not_verified_in_current_export": [
+        "Lutri, the Spellchaser"
+      ],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#engines[0]",
+      "scenario": "cecily-attack",
+      "source_predicate_to_verify": "Cecily attacks; with 11+ cards in hand after the draw, cast an instant or sorcery free.",
+      "fixture_named_cards": [
+        "Cecily, Haunted Mage",
+        "Harmonic Prodigy",
+        "Robe of the Archmagi"
+      ],
+      "cards_verified_in_current_export": [
+        "Cecily, Haunted Mage",
+        "Harmonic Prodigy",
+        "Robe of the Archmagi"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "combat_damage",
+        "stack_copy_cascade",
+        "discard_draw"
+      ],
+      "initial_state_requirements": "Resolve actual setup costs and the engine's first iteration, then a second iteration or turn; assert resources and permitted frequency are conserved.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#engines[1]",
+      "scenario": "hand-size",
+      "source_predicate_to_verify": "Draw engines running to reach eleven.",
+      "fixture_named_cards": [
+        "The One Ring",
+        "Rhystic Study",
+        "Mystic Remora",
+        "Trade Secrets",
+        "Yawgmoth's Bargain",
+        "Notion Thief"
+      ],
+      "cards_verified_in_current_export": [
+        "The One Ring",
+        "Rhystic Study",
+        "Mystic Remora",
+        "Trade Secrets",
+        "Yawgmoth's Bargain",
+        "Notion Thief"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "discard_draw"
+      ],
+      "initial_state_requirements": "Resolve actual setup costs and the engine's first iteration, then a second iteration or turn; assert resources and permitted frequency are conserved.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#win_conditions[0]",
+      "scenario": "peer-crawler",
+      "source_predicate_to_verify": "Peer into the Abyss on yourself with Psychosis Crawler out: each card drawn deals 1 to each opponent.",
+      "fixture_named_cards": [
+        "Peer into the Abyss",
+        "Psychosis Crawler",
+        "Cecily, Haunted Mage"
+      ],
+      "cards_verified_in_current_export": [
+        "Peer into the Abyss",
+        "Psychosis Crawler",
+        "Cecily, Haunted Mage"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "discard_draw"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#win_conditions[1]",
+      "scenario": "peer-ageless-insight",
+      "source_predicate_to_verify": "Peer into the Abyss + Teferi's Ageless Insight: an odd library loses (flagged parity in M1).",
+      "fixture_named_cards": [
+        "Peer into the Abyss",
+        "Teferi's Ageless Insight"
+      ],
+      "cards_verified_in_current_export": [
+        "Peer into the Abyss",
+        "Teferi's Ageless Insight"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W3",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#win_conditions[2]",
+      "scenario": "breach-wheel",
+      "source_predicate_to_verify": "Underworld Breach + Wheel of Fortune + Jeska's Will.",
+      "fixture_named_cards": [
+        "Underworld Breach",
+        "Wheel of Fortune",
+        "Jeska's Will"
+      ],
+      "cards_verified_in_current_export": [
+        "Underworld Breach",
+        "Wheel of Fortune",
+        "Jeska's Will"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "discard_draw"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#failure_modes[0]",
+      "scenario": "cecily-cant-attack",
+      "source_predicate_to_verify": "Cecily dies in combat or can't attack safely; free casts never happen.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "combat_damage",
+        "stack_copy_cascade",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Cecily dies in combat or can't attack safely; free casts never happen.. Independently stage mitigations: Bjorna pings X/1 blockers; Greaves. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#failure_modes[1]",
+      "scenario": "wheel-shrinks-hand",
+      "source_predicate_to_verify": "Wheels replace the hand and can drop below eleven.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "discard_draw"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Wheels replace the hand and can drop below eleven.. Independently stage mitigations: Sequence wheels before draw engines. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:bjorna-nightfall-alchemist-cecily#failure_modes[2]",
+      "scenario": "legality",
+      "source_predicate_to_verify": "Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Outside the project the list is not Commander-legal (three exceptions); the official projection swaps them out and loses power.. Independently stage mitigations: Projection is labeled and never canonical. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    }
+  ],
+  "summary": {
+    "designed_cases": 15,
+    "P0": 6,
+    "P1": 9,
+    "mechanic_families": [
+      "combat_damage",
+      "artifact",
+      "death_sacrifice",
+      "life_damage",
+      "stack_copy_cascade",
+      "discard_draw",
+      "unique_commander_effect",
+      "turn_structure"
+    ],
+    "not_run": 15
+  },
+  "strict_execution_gate": {
+    "status": "BLOCKED_UNTIL_INDIVIDUAL_MECHANIC_IMPLEMENTATION_AND_FRESH_ORACLE",
+    "cannot_count_as_phase_b": true,
+    "oracle_revision_may_invalidate_blueprint": true,
+    "legal_exception_source_must_be_preserved": true,
+    "baseline_card_presence_must_be_reconciled": true,
+    "owner_approval_not_granted": true
+  },
+  "status": "DESIGNED_NOT_EXECUTED"
+}
