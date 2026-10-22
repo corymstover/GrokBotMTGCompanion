@@ -791,7 +791,8 @@
         "model_opponent_interaction": false,
         "superiority_proven": false,
         "measured_win_rate": null,
-        "canonical_changed": false
+        "canonical_changed": false,
+        "full_multiplayer_gameplay": false
       }
     ]
   },
