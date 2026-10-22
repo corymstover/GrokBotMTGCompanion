@@ -7,6 +7,7 @@ on:
       - scripts/grixis_m6_abaddon_chaos_warp_stax.py
       - tests/test_m6_abaddon_chaos_warp_stax.py
       - data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json
+      - data/grixis/m6/phase_b_plans/abaddon_chaos_warp_otawara_policy_20261021.json
       - data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md
   workflow_dispatch:
 permissions:
@@ -37,6 +38,11 @@ jobs:
           assert r['approved_raw_sha256']==p['approved_raw_sha256']
           assert r['n_per_variant']==2000
           assert len(r['physical_variants'])==4
+          assert set(r['policy_sensitivity'])=={'land_first_as_original','reserve_otawara_for_channel'}
+          assert r['policy_sensitivity']['land_first_as_original']['baseline']['10']['otawara_channel_held']==0
+          assert r['policy_sensitivity']['reserve_otawara_for_channel']['baseline']['10']['otawara_channel_held']>0
+          assert r['reserved_land_drops_skipped']['land_first_as_original']['baseline']==0
+          assert 'reserve_otawara_for_channel' in r['reserved_land_drops_skipped']
           assert all(not v for v in p['authority'].values())
           assert r['source_verified_errata']['The Lost and the Damned']['mana_value']==3
           assert r['source_verified_errata']['The Ruinous Powers']['mana_value']==4
