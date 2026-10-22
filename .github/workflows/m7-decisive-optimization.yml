@@ -17,6 +17,7 @@ on:
       - scripts/grixis_m7_decision_gate.py
       - scripts/grixis_m7_abaddon_live_oracle.py
       - tests/test_m7_abaddon_live_oracle.py
+      - tests/test_m7_abaddon_decisive_cut_disposition.py
       - tests/test_m7_decisive_optimization_gate.py
       - tests/test_m7_abaddon_research_challengers.py
       - tests/test_m7_abaddon_oracle_erratum_v2.py
@@ -62,6 +63,8 @@ jobs:
           path: ${{ runner.temp }}/abaddon-m7-current-scryfall.json
           if-no-files-found: error
           retention-days: 60
+      - name: Verify Abaddon whole-deck keeper-versus-betrayal authored decision and exact source deltas
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_decisive_cut_disposition.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
