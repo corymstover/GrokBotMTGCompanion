@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_RESEARCH_COMPARATIVE_NOT_OWNER_READY",
+  "governance": "Owner's 2026-10-22 >=5 meaningful swaps plus >=10 judgments, >=8 weak slots and >=2 complete alternative packages; no quota padding, no inferential canonical changes",
+  "canonical_baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "baseline_source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "owner_approved": false,
+  "oracle_complete": false,
+  "m6_certified": false,
+  "m6_ij_recertified_for_revised_list": false,
+  "comparisons": [
+    {
+      "id": "six_swap_selected_research",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_six_swap_research.txt",
+      "sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+      "adds": ["Grinning Ignus", "Chaos Warp", "Spark Double", "Orcish Bowmasters", "Cyclonic Rift", "Aggravated Assault"],
+      "cuts": ["Rakdos, Lord of Riots", "Inevitable Betrayal", "Bituminous Blast", "Cabal Ritual", "Force of Negation", "Exalted Flamer of Tzeentch"]
+    },
+    {
+      "id": "five_swap_clone_focused_alternative",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_clone_focused_alternative.txt",
+      "sha256": "752930337e0810afae2b5328c33b20447ce63c70c6f464f87536162172e94ba2",
+      "adds": ["Grinning Ignus", "Chaos Warp", "Spark Double", "Orcish Bowmasters", "Cyclonic Rift"],
+      "cuts": ["Rakdos, Lord of Riots", "Inevitable Betrayal", "Bituminous Blast", "Cabal Ritual", "Force of Negation"]
+    },
+    {
+      "id": "five_swap_combat_focused_alternative",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_combat_focused_alternative.txt",
+      "sha256": "d1b91dece69b3d82c839cc65c88bacde40b8b3cfdae0e54db052fca9e64eb304",
+      "adds": ["Grinning Ignus", "Chaos Warp", "Aggravated Assault", "Orcish Bowmasters", "Cyclonic Rift"],
+      "cuts": ["Rakdos, Lord of Riots", "Inevitable Betrayal", "Bituminous Blast", "Cabal Ritual", "Force of Negation"]
+    }
+  ],
+  "weak_incumbents_challenged": [
+    "Rakdos, Lord of Riots",
+    "Inevitable Betrayal",
+    "Bituminous Blast",
+    "Cabal Ritual",
+    "Force of Negation",
+    "Exalted Flamer of Tzeentch",
+    "The Ruinous Powers",
+    "Profane Tutor",
+    "Pact of Negation",
+    "Xander's Lounge"
+  ],
+  "material_candidate_judgments": [
+    {"card":"Grinning Ignus","decision":"SELECT_ADD","cut":"Rakdos, Lord of Riots"},
+    {"card":"Chaos Warp","decision":"SELECT_ADD","cut":"Inevitable Betrayal"},
+    {"card":"Spark Double","decision":"SELECT_ADD","cut":"Bituminous Blast"},
+    {"card":"Orcish Bowmasters","decision":"SELECT_ADD","cut":"Cabal Ritual"},
+    {"card":"Cyclonic Rift","decision":"SELECT_ADD","cut":"Force of Negation"},
+    {"card":"Aggravated Assault","decision":"SELECT_ADD","cut":"Exalted Flamer of Tzeentch"},
+    {"card":"Sheoldred, the Apocalypse","decision":"RETAIN_ALTERNATIVE"},
+    {"card":"Irenicus's Vile Duplication","decision":"RETAIN_ALTERNATIVE"},
+    {"card":"Sakashima of a Thousand Faces","decision":"RETAIN_ALTERNATIVE"},
+    {"card":"Dig Through Time","decision":"RETAIN_ALTERNATIVE"},
+    {"card":"Treasure Cruise","decision":"REJECT"},
+    {"card":"Stormfist Crusader","decision":"REJECT"}
+  ],
+  "newly_checked_scryfall_oracle": {
+    "Spark Double": {"oracle_id":"8dcb35e5-ae44-455f-86e3-4a77d496ff34", "mana_cost":"{3}{U}", "mana_value":4, "commander_legality":"legal", "color_identity":["U"], "oracle_text":"You may have this creature enter as a copy of a creature or planeswalker you control, except it enters with an additional +1/+1 counter on it if it's a creature, it enters with an additional loyalty counter on it if it's a planeswalker, and it isn't legendary."},
+    "Orcish Bowmasters": {"oracle_id":"ea5103f5-27e0-4eb1-902c-7f34652d6bf3", "mana_cost":"{1}{B}", "mana_value":2, "commander_legality":"legal", "color_identity":["B"], "oracle_text":"Flash\nWhen this creature enters and whenever an opponent draws a card except the first one they draw in each of their draw steps, this creature deals 1 damage to any target. Then amass Orcs 1."},
+    "Cyclonic Rift": {"oracle_id":"d75b9c82-1b49-4c3e-a1b5-aeef57d6644b", "mana_cost":"{1}{U}", "mana_value":2, "commander_legality":"legal", "color_identity":["U"], "oracle_text":"Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")"}
+  },
+  "fresh_oracle_source": "https://api.scryfall.com/cards/named?exact=<URL-encoded-card-name>; retrieved 2026-10-22; current as of this check, not permanent guarantee",
+  "oracle_covered_older_cards": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json; this snapshot is candidate-specific historical evidence and still needs candidate-wide live gate",
+  "limitations": [
+    "No claim that all mechanically relevant v2 clone, Bowmasters/draw, overloaded Rift or Assault cases have yet executed in exact-head CI",
+    "Previous M6 I/J candidate SHA and logical hash do not match this revised physical list and may not be reused as proof",
+    "Qualitative package judgments are not observed gameplay win rates",
+    "No owner final approval, new formal M6 certification or canonical replacement authorized"
+  ]
+}

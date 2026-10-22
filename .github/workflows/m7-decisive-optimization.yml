@@ -16,6 +16,7 @@ on:
       - data/grixis/m7/research_challengers/**
       - scripts/grixis_m7_decision_gate.py
       - scripts/grixis_m7_abaddon_live_oracle.py
+      - scripts/grixis_m7_abaddon_rev2_live_oracle.py
       - scripts/grixis_m6_abaddon_oracle_capture.py
       - tests/test_m6_abaddon_saved_oracle_snapshot.py
       - tests/test_m6_abaddon_final_ij.py
@@ -25,6 +26,7 @@ on:
       - data/grixis/m6/rules_snapshots/**
       - data/grixis/m6/oracle_snapshots/**
       - tests/test_m7_abaddon_live_oracle.py
+      - tests/test_m7_abaddon_rev2_six_swap.py
       - tests/test_m7_abaddon_decisive_cut_disposition.py
       - tests/test_m6_abaddon_betrayal_keeper_p0.py
       - tests/test_m6_abaddon_call_forth_p0.py
@@ -109,6 +111,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_research_challengers.py' -v
       - name: Enforce corrected Abaddon Oracle source facts and four exact v2 challengers
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_oracle_erratum_v2.py' -v
+      - name: Verify three revised Abaddon physical 100-card portfolios, six true swaps and finite direct interactions
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_rev2_six_swap.py' -v
       - name: Test exact physical Ignus cascade Lost/Keeper response and fetch payoffs
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_lost_keeper_effect.py' -v
       - name: Verify fail-closed Oracle/source guards offline
@@ -130,6 +134,15 @@ jobs:
         with:
           name: abaddon-m7-oracle-${{ github.event.pull_request.head.sha || github.sha }}
           path: ${{ runner.temp }}/abaddon-m7-current-scryfall.json
+          if-no-files-found: error
+          retention-days: 60
+      - name: Live Scryfall audit of all 100 revised Abaddon research names across three physical packages
+        run: python -m scripts.grixis_m7_abaddon_rev2_live_oracle --out "${{ runner.temp }}/abaddon-m7-rev2-current-scryfall.json"
+      - name: Preserve candidate-specific revised Abaddon Oracle proof without reusing historical I-J hashes
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-m7-rev2-oracle-${{ github.event.pull_request.head.sha || github.sha }}
+          path: ${{ runner.temp }}/abaddon-m7-rev2-current-scryfall.json
           if-no-files-found: error
           retention-days: 60
       - name: Verify Abaddon whole-deck keeper-versus-betrayal authored decision and exact source deltas
