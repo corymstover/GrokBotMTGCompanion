@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "stage": "M6_6_BOUND_FIRST_IGNUS_CASCADE_FROM_FROZEN_LIBRARY",
+  "canonical_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "graph_path": "data/grixis/graph/abaddon-the-despoiler.json",
+  "graph_git_blob_sha": "5dc2d6deeb58bf267e8c2ee3da7091b54d14d5fb",
+  "rule_references": [
+    "https://blogs.magicjudges.org/rules/comprehensive-rules/ (702.85a, 118.6a, 202.3a)",
+    "https://mtg.wtf/card/ema/142/Pyroblast",
+    "Canonical refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv"
+  ],
+  "baseline_nonland_lt3": {
+    "total_unique_physical": 35,
+    "mv0": 7,
+    "mv1": 15,
+    "mv2": 13
+  },
+  "roles": {
+    "zero_cost_suspend_can_cast": [
+      "Ancestral Vision",
+      "Inevitable Betrayal",
+      "Profane Tutor"
+    ],
+    "artifact_mana": [
+      "Chrome Mox",
+      "Lion's Eye Diamond",
+      "Lotus Petal",
+      "Mana Vault",
+      "Sol Ring",
+      "Arcane Signet",
+      "Talisman of Creativity",
+      "Talisman of Dominance",
+      "Talisman of Indulgence"
+    ],
+    "ritual_mana": [
+      "Dark Ritual",
+      "Cabal Ritual",
+      "Rite of Flame"
+    ],
+    "tutors": [
+      "Demonic Tutor",
+      "Gamble",
+      "Imperial Seal",
+      "Mystical Tutor",
+      "Profane Tutor",
+      "Vampiric Tutor"
+    ],
+    "burn": [
+      "Boltwave",
+      "Flame Rift"
+    ]
+  },
+  "targeting_outcomes_from_only_original_grinning_ignus_creature_spell_on_stack": {
+    "Flusterstorm": "no_legal_target_instant_sorcery_only",
+    "Swan Song": "no_legal_target_noncreature_spell_only",
+    "Pact of Negation": "may_target_original_ignus_but_breaks_own_creature_engine_and_has_delayed_upkeep_payment",
+    "Pyroblast": "may_target_red_ignus_legally_but_conditional_blue_counter_effect_does_nothing"
+  },
+  "candidate_physical_variants": [
+    {
+      "id": "approved",
+      "cut": null,
+      "add": null
+    },
+    {
+      "id": "ignus_for_rakdos",
+      "cut": "Rakdos, Lord of Riots",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "ignus_for_nightscape_familiar",
+      "cut": "Nightscape Familiar",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "ignus_for_rite_of_flame",
+      "cut": "Rite of Flame",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "assault_for_rakdos",
+      "cut": "Rakdos, Lord of Riots",
+      "add": "Aggravated Assault"
+    }
+  ],
+  "simulation": {
+    "seed": 621017,
+    "samples_per_variant": 2000,
+    "checkpoints": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "draw_seven_and_once_per_own_turn": true,
+    "one_fixed_legal_land_play_each_turn": true,
+    "fetch_library_removal_and_deterministic_shuffling": true,
+    "conditional_first_ignus_hand_cast_mana_value": 3,
+    "window": "only ignus is on stack, abaddon has already granted cascade this turn, no other spell/ability on stack; neither Rule of Law nor Drannith currently present",
+    "cascade_choice": "cast if legal and not self-harmful counter of original Ignus, even if Pyroblast currently has no effect (trigger-benefit cast); cannot cast Swan Song / Flusterstorm with only original creature on stack. Never assume a tutor retrieved a card or mana source becomes usable.",
+    "effect_handling": "physically scan top until first nonland with MV < 3, exile encountered, cast eligible last hit for {0} under cascade permission, put all uncast exiled cards at bottom in seeded random order. Record only cast permission and role category, not resolution of triggered/exile-cast effects or play of artifact, ritual, tutors, damage, draw or win.",
+    "snapshots": "hypothetical independent first cascade at each checkpoint after physical draw/land; never claim the Ignus/Birgi/commander/life-loss board is present or paid in these samples",
+    "other_stack_cases": [
+      "Rule of Law active and Ignus already cast forbids cascade free cast, but still exiles and bottoms",
+      "Drannith Magistrate active forbids casting hit from exile, despite cascade trigger",
+      "Pact of Negation can technically counter original Ignus; safety policy declines",
+      "Flusterstorm and Swan Song cannot target creature spell Ignus under lone spell stack",
+      "Ancestral Vision has no mana cost (MV0); no-cost cascade alternative allows it to be cast",
+      "Exiled hit cannot receive Abaddon hand-only cascade; grant uses original Ignus printed MV3 not Rakdos/Familiar payment",
+      "If chosen spell declines/cannot be cast it returns to bottom, never retained in exile under resolved cascade"
+    ]
+  },
+  "bounds": {
+    "actual_early_ignus_assembly": false,
+    "actual_board_engine_and_opponent_policy": false,
+    "real_cascade_card_effects_resolved": false,
+    "real_mana_ramp_tutors_draw_and_damage": false,
+    "full_multiplayer_gameplay": false,
+    "actual_win_rate": null,
+    "net_swap_superiority": false,
+    "canonical_modified": false,
+    "m6_certificates": 0,
+    "m7_owner_approvals": 0
+  }
+}
