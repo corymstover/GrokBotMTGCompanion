@@ -1,0 +1,19 @@
+# Abaddon — source-paid chronological four-piece access fixture
+
+**Date:** October 21, 2026 (America/Chicago). **Stage:** M6.6 targeted, non-certifying Phase B evidence. **Deck:** `Abaddon_the_Despoiler`. **Approved canonical SHA-256:** `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`. The original 100 is **APPROVED/LOCKED and unchanged**.
+
+## Question and preregistration
+
+The last paired 100-card access test (PR #512) assessed each spell's mana cost **as if all land sources were free for that individual spell**. That cannot establish that Abaddon, Loyal Subordinate, Neheb the Eternal and proposed Aggravated Assault were actually *cast and maintained on the battlefield* or that the player had mana in the correct phase for Assault's `{3}{R}{R}` activation.
+
+The new plan `data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json` was separately **committed before the experiment at `8ff271725a1dc9dd6c22c93b1c83e6abd1dc0f1b`**. This fixture uses three physical variants of the exact 1-command + 99-library approved deck, no mulligans, initial seven and one draw per own turn, paired deterministic physical-seed shuffle, turn-appropriate land drops/search/shuffles and *actual land-tap and floating-mana consumption* for a fixed sequence of four named spells. It runs **2,000 fixed seeds per variant**, ten turns. It records each spell cast from its proper physical zone, a completed four-piece battlefield, and a paid **first Neheb-funded postcombat Assault activation**.
+
+Only the commander and these specific named spells are cast during precombat main, with commander prioritized; retained Rakdos may be cast in postcombat main *only* if the modeled Loyal/Abaddon combat loss has made it legal. No opponent other than three unchanged 40-life opponents is represented; no combat attacks occur. Each turn begins with all modeled lands untapped, and actual spent lands remain tapped for the rest of the turn. The subset records Abaddon being cast once from command with no removal/tax, Loyal loss 9 at the beginning of combat if Abaddon remains controlled, Neheb generation of 9 red at the beginning of postcombat main, and a first Assault activation consuming five generated red. The previous PR #504 already tested conditional repeated combat triggers on an assumed assembled board; *this* experiment tests construction and one activation, not the infinite-combat sequence again.
+
+## Interpretation contract
+
+This is a **constructive, source-paid, chronological pilot-policy test**, not a complete Magic game. It recognizes the real condition on Rakdos casting, but does **not** score his creature-cost reductions, flying/trampling body, attacks, or the Lost-and-the-Damned Spawn engine as zero. It also excludes Boltwave/Flame Rift and other cheap threshold enablers, all rocks and rituals, tutor decisions, actual cascade, nonhand card advantage, Treasure, opponents' board/responses, player life effects of land payments and additional drawn cards. Untested valid casting strategies are possible. A low first-activation observation is **not** proof that the combo rarely occurs in actual optimized play, and a constructed activation is **not** a win.
+
+The first Assault activation is limited to the fixed postcombat Neheb-only red pool, which is a *sufficient* legal route, **not a claim that Assault always requires five red**: its actual `{3}{R}{R}` ability can be paid with only two red and any other three appropriate mana. The fixture clears unused precombat mana across the combat-phase boundary. No new deck superiority, actual multiplayer win rate or local-optimum certification follows from these bounded data.
+
+**Authority:** only evidence, 0 owner-approved M7 swaps, 0 new M6 full-deck certificates, M6.6 and M6.7 remain PARTIAL, all 62 canonical decks unchanged. Output is saved as exact-head CI JSON artifact with deterministic samples and a labeled finite rules trace.
