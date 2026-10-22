@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "local_date": "2026-10-22",
+  "stage": "M6_6_PRE_REGISTERED_PAID_HAND_ACCELERATION_IN_SHARED_IGNUS_CASCADE_SUBSET",
+  "deck_id": "Abaddon_the_Despoiler",
+  "authority": {
+    "canonical_approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "frozen_99_card_source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "based_on_engineering_head": "6b43b68b70f66c1b4b02307d6adf4778a14f4c2f",
+    "canonical_locked": true,
+    "may_modify_canonical": false,
+    "may_issue_m6_certificate": false,
+    "may_issue_m7_approval": false
+  },
+  "sources": [
+    "scripts/grixis_m6_abaddon_ignus_shared_effects.py",
+    "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json",
+    "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repo)",
+    "data/grixis/graph/abaddon-the-despoiler.json"
+  ],
+  "experiment": {
+    "fixed_seed": 621017,
+    "paired_seeds_per_variant_policy": 1000,
+    "policies": [
+      "engine_first",
+      "burn_first"
+    ],
+    "variants": [
+      "approved",
+      "ignus_for_rakdos",
+      "ignus_for_nightscape_familiar",
+      "ignus_for_rite_of_flame",
+      "assault_for_rakdos"
+    ],
+    "control_modes": [
+      "no_hand_acceleration",
+      "hand_acceleration"
+    ],
+    "same_100_card_source_per_mode": true,
+    "ten_own_turns": true,
+    "checkpoint_own_turns": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "opening_hand": 7,
+    "no_mulligans": true,
+    "one_draw_each_own_turn": true,
+    "one_fixed_land_drop": true,
+    "three_opponents": true,
+    "extra_ignus_recasts_per_main_max": 5,
+    "pre_main_fixed_acceleration_order": [
+      "Lotus Petal",
+      "Sol Ring",
+      "Mana Vault",
+      "Dark Ritual",
+      "Cabal Ritual",
+      "Rite of Flame"
+    ],
+    "pilot_note": "Acceleration is cast before the fixed registered core-named-spell sequence each turn; this deliberately gives no priority to post-burn ritual casts and still excludes other cascade-eligible hand-spells. Mode off must be byte-for-byte compatible with prior paid-engine observations on a per-seed per-variant basis."
+  },
+  "verified_hand_accelerants": {
+    "Lotus Petal": {
+      "mana_cost": "{0}",
+      "cost": [
+        0,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "effect": "Artifact cast from hand for 0, enter, tap and sacrifice to create red under fixed color policy. Move card to graveyard, once only."
+    },
+    "Sol Ring": {
+      "mana_cost": "{1}",
+      "cost": [
+        1,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "effect": "Artifact cast from hand for generic 1, tap immediately to add 2 colorless and remain tapped until next own turn (predecessor's turn-start auto-tap behavior)."
+    },
+    "Mana Vault": {
+      "mana_cost": "{1}",
+      "cost": [
+        1,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "effect": "Artifact cast from hand for generic 1, tap once immediately for 3 colorless; stays tapped across untaps and is not reused without paying {4} on an upkeep (upkeep untap omitted). If tapped at any later modeled draw step, deals 1 damage to pilot per turn."
+    },
+    "Dark Ritual": {
+      "mana_cost": "{B}",
+      "cost": [
+        1,
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "effect": "Instant cast from hand in main for B; adds BBB then card enters graveyard. Birgi front, if present, adds one red cast trigger before resolution."
+    },
+    "Cabal Ritual": {
+      "mana_cost": "{1}{B}",
+      "cost": [
+        2,
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "effect": "Instant cast from hand for 1B, adds BBB, or BBBBB if threshold of at least seven cards in pilot graveyard is true when it resolves. Pilot only graveyard; no guessed threshold."
+    },
+    "Rite of Flame": {
+      "mana_cost": "{R}",
+      "cost": [
+        1,
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "effect": "Sorcery cast from hand in main for R, adds RR plus R per OTHER Rite already in any tracked graveyard (singleton baseline, other opponents' yards not tracked). Effect resolves before own card goes into graveyard."
+    }
+  },
+  "conditional_mechanics": [
+    "All cast spells draw from a physically held hand; no accelerant is present unless in the correct physical zone and source-cost payable.",
+    "Each cast pays actual Grixis mana pips and generic through same tapped lands/pool; Birgi adds one additional red only if already present at time of cast.",
+    "Nightscape Familiar discounts blue and red SPELLS generic only. Of the registered hand accelerants only red Rite has any red, but printed {R} contains no generic; no discount for black rituals or colorless artifacts.",
+    "Do not count the cost source of Lotus Petal until after it has been legally cast; pay 0, use red on resolution. Do not give Sol Ring color choices; produces two C only.",
+    "Mana Vault is not Sol Ring: no automatic untap step, its own once-paid untap at upkeep excluded; later draw-step 1 damage applies if tapped.",
+    "Cabal Ritual threshold is evaluated at resolution; this main-phase graveyard includes previously cast ritual/burn/fetch/cascade spells, not cast spell itself.",
+    "Physical conservation includes 99 named cards across remaining library, hand, lands, noncommander permanents, and own graveyard at end of each turn. Single commander remains command zone or battlefield.",
+    "All non-Ignus Abaddon hand-cast cascade triggers remain omitted: extension intentionally changes mana access only and does NOT claim more full effect coverage.",
+    "No extra physical draw/tutor from hand, no chrome mox/LED mana, no taps from other rocks, no combat, no death, no stax/opponent actions, no commander tax. Zero wins or superiority inference.",
+    "The same frozen 100-card list and same PR524 supported cascade effect runner is used for both modes, so changed counts measure a specific model-extension policy rather than true gameplay win rates."
+  ],
+  "metrics": [
+    "hand_lotus_petals_cast",
+    "hand_sol_rings_cast",
+    "hand_mana_vaults_cast",
+    "hand_dark_rituals_cast",
+    "hand_cabal_rituals_cast",
+    "hand_rite_of_flames_cast",
+    "hand_mana_units_by_color",
+    "threshold_cabal_ritual_casts",
+    "mana_vault_tapped_draw_damage",
+    "paid_commander_access",
+    "paid_initial_ignus_access",
+    "paid_ignus_cascade_access",
+    "actual_resolved_supported_cascade_effect",
+    "five_paid_cascade_recasts",
+    "unmodeled_hand_cascade_triggers",
+    "card_conservation"
+  ],
+  "limits": {
+    "full_99_card_oracle_effects": false,
+    "all_ramp_artifacts_modeled": false,
+    "other_commander_granted_hand_cascades": false,
+    "real_multiplayer_stacks": false,
+    "combat_or_neheb_assault_activation": false,
+    "measured_win_rate": null,
+    "model_superiority_proven": false,
+    "canonical_changed": false,
+    "m6_certification_issued": 0,
+    "m7_new_owner_approvals": 0
+  }
+}
