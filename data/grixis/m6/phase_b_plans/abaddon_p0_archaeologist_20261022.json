@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_026_PASSIONATE_ARCHAEOLOGIST_COMMANDER_GRANTED_EXILE_DAMAGE",
+  "preregistered_date": "2026-10-22",
+  "integration_sha_at_preregistration": "11bfabb53d41232f965c400b969f909a9acb6ae8",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "physical_candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "physical_candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle": {
+    "card": "Passionate Archaeologist",
+    "cost": "{1}{R}",
+    "text": "Commander creatures you own have \"Whenever you cast a spell from exile, this creature deals damage equal to that spell's mana value to target opponent.\"",
+    "source": "https://mtg.wtf/card/sld/2220/Passionate-Archaeologist",
+    "abaddon": "https://mtg.wtf/card/40k/178/Abaddon-the-Despoiler",
+    "legal_commander": true
+  },
+  "physical_setup": {
+    "whole_deck": "Exactly 100 cards including the real Abaddon commander; commander identity tracked separately from original physical 99 card source zones.",
+    "source_payment": "Call Forth the Tempest {5}{R}{R}{R}: tap 3 physical untapped Mountains, 3 Islands, 2 Swamps while the on-field Abaddon and Background are declared preexisting; neither is conjured.",
+    "physical_library_order": "Each cascade hit is physically drawn from a prearranged, attainable current source library of the research 99; spell-copies and token objects are separate virtual ledgers, not physical cards.",
+    "contingent_outcomes": "3 named opponent targets, no damage prevention/hexproof except when explicitly stipulated; baseline case first prior Loyal Subordinate damage 3 to each (=X9); X0 case no previous damage.",
+    "rule_scope": "Background grants ability to owned commander creature on battlefield; does not itself fire on cast or hand casts, and not if commander is in command zone. On a real nonhand cast, trigger records chosen target opponent and source commander before original spell resolves, and persists if original countered or Background later removed. Spell copies are not cast and no extra triggers; zero-MV casts still trigger and deal zero."
+  },
+  "registered_cases": [
+    {
+      "id": "arch_x9_three_cascades_target_split",
+      "expected": "X9 paid Call triggers 3 independent cascade casts Arcane Signet MV2, Sol Ring MV1, Boltwave MV1; exactly 3 commander-granted Archaeologist triggers and 4 targetable damage split A3/B1, not 4 damage to each; Call own hand cast contributes no Archaeologist trigger; 99 conserved."
+    },
+    {
+      "id": "arch_x0_boltwave_no_retro_third",
+      "expected": "X0 original Call gets only 2 printed cascades; first exile Boltwave MV1 + its original effect makes three opponents each lose 3 and Archaeologist makes a separate targeted 1, but no retroactive third Abaddon cascade; second hit Arcane Signet MV2 yields 2 targeted damage."
+    },
+    {
+      "id": "arch_mv0_trigger_deals_zero",
+      "expected": "MV0 Lotus Petal from cascade creates one Archaeologist damage trigger with a chosen target opponent and deals 0, while Lost spawns one token; target selection exists despite damage zero."
+    },
+    {
+      "id": "arch_original_exile_spell_countered",
+      "expected": "Countering physical exile-cast Arcane Signet after cast does not stop commander-granted 2-damage trigger or Lost/ Keeper cast triggers; artifact never resolves, ends in graveyard."
+    },
+    {
+      "id": "arch_commander_not_battlefield",
+      "expected": "Abaddon still owned in command zone, Archaeologist on battlefield; no commander creature on battlefield to host granted ability, and two printed Call cascades fire without Archaeologist triggers; no stolen/conjured source."
+    },
+    {
+      "id": "arch_background_removed_after_trigger",
+      "expected": "Destroy physically present Archaeologist after first cast ability triggered; the existing commander-trigger ability still resolves for MV2 damage while later exile-casts do not get any new grant."
+    },
+    {
+      "id": "arch_drannith_and_rule_of_law",
+      "expected": "Drannith and Rule of Law separately disallow exile cascade hits after hand Call; the original Call has two or three cascade triggers but causes no Archaeologist, Lost, or Keeper nonhand cast events."
+    },
+    {
+      "id": "arch_nalf_virtual_spell_copies_no_extra",
+      "expected": "Preexisting Nalfeshnee copies each actual exile-cast and virtual copies (including a Boltwave sorcery copy) are not cast; exactly one Archaeologist trigger per actual exile spell despite two corresponding resolutions; Boltwave 6 per opponent is NOT Archaeologist damage."
+    },
+    {
+      "id": "arch_wild_nested_separate_real_casts",
+      "expected": "Preexisting Wild-Magic Sorcerer grants nested cascade to first physical exile-cast Arcane Signet, hitting actual Sol Ring, then printed Call follows with Boltwave; three actual exile casts yield Archaeologist targeted damage sum4 and Nalf copies (if any) yield no extra trigger."
+    },
+    {
+      "id": "arch_invalid_target_or_all_protected",
+      "expected": "Actual cast still recorded when specified opponent protected; Archaeologist targets a different legal opponent if one exists; if no legal opposing target, triggering ability is not put on stack and deals zero. No automatically distributed damage or artificial target opponent."
+    }
+  ],
+  "cost_budget": {
+    "new_registered_methods": 10,
+    "randomized_trials": 0,
+    "full_100_card_variants": 1
+  },
+  "gates": {
+    "P0_026": "PREREGISTERED_NOT_YET_EXECUTED",
+    "P0_027": "REQUIRED_UNEXECUTED",
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_i": "BLOCKED",
+    "m6_j": "BLOCKED",
+    "m7_new_owner_approval": 0
+  },
+  "limits": [
+    "Tests use source-accounted deterministic arranged topdecks and assumed already-controlled commander/Background, not empirical occurrence probability.",
+    "Archaeologist damage is noncombat, not counted toward 21 commander-combat-damage defeat.",
+    "No full gameplay or measured win rate; outcome only finite paid cascade sequences and chosen opponent damage.",
+    "M6.6 and M6.7 remain PARTIAL even if this ten-case registration executes, and no canonical list alterations are authorized."
+  ]
+}
