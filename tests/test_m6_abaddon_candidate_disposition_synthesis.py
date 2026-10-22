@@ -66,7 +66,7 @@ class AbaddonTestStageSynthesis(unittest.TestCase):
         self.assertEqual(self.d["canonical"]["approved_raw_sha256"], APPROVED_SHA)
         self.assertEqual(self.prior["canonical"]["raw_approved_sha256"], APPROVED_SHA)
         self.assertEqual(self.ledger["last_verified_progress"]["canonical_decks_modified"], 0)
-        self.assertEqual(self.registry["decks"]["Abaddon_the_Despoiler"]["source"]["recorded_sha256"], "sha256:" + APPROVED_SHA)
+        self.assertEqual(self.registry["decks"]["Abaddon_the_Despoiler"]["source"]["recorded_sha256"], APPROVED_SHA)
 
     def test_assault_verbatim_bounded_observations_not_win_claim(self):
         a = self.cases["Aggravated Assault"]
