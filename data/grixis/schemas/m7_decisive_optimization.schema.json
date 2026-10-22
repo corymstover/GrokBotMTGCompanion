@@ -486,6 +486,12 @@
             "string",
             "null"
           ]
+        },
+        "large_sample_justification": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     },
@@ -559,6 +565,12 @@
         },
         "evidence_based_answer": {
           "$ref": "#/$defs/meaningful"
+        },
+        "fewer_than_five_weak_slots_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
         }
       }
     }
