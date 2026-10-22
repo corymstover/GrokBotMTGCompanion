@@ -224,8 +224,8 @@
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Verify all new stage3/stage4 source-bound tests in exact-head GitHub Actions, address failures and preserve receipts.",
-    "Evaluate EDHREC-discovered on-role Pirates, especially Storm Fleet Aerialist and Dreamcaller Siren, against whole-deck roles and exact alternative cuts; do not adopt by crowd frequency alone.",
+    "Verify stage3, stage4 and stage5 exact-head CI on focused and general M7 workflows; correct failures and record actual receipts.",
+    "Compare EDHREC 7/8/9-swap physical research portfolios under paid adversarial three-Pirate hit/defense/resource conditions, especially Dreamcaller vs Open into Wonder and Aerialist vs Kari Zev; decide real superior package.",
     "Discriminate seven already physically complete six-/seven-swap variants and any justified additional full-100 challenger; no 5-swap stopping rule.",
     "Recompute final chosen physical candidate SHA, apply source-bound Oracle/Commander legality and changed-effect M6 P0/P1/I/J checks; owner approval still withheld.",
     "Only if all M7 requirements pass, present a new numbered proposed 100-card deck to Cory for explicit approval; preserve canonical lock in meantime."
@@ -415,7 +415,7 @@
     },
     "current_verified_integration_head": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
     "latest_complete_subtask": "Source-bound eleven-card Challenger/incumbent Oracle snapshot and new EDHREC discovery crosswalk authored on working branch, exact-head CI and package adjudication pending.",
-    "next_exact_unfinished_requirement": "Run exact-head focused CI for stage3 Oracle/paid effects and stage4 EDHREC; then compare credible additional physical 100-card package(s) from Storm Fleet Aerialist/Dreamcaller Siren with adverse combat and resource assumptions; decide strongest full-deck revision, source-refresh all materially changed cards, bind M6 I/J and gate before any owner presentation. Current owner approval withheld.",
+    "next_exact_unfinished_requirement": "Run exact-head GitHub Actions including stage3 sourced eleven-card paid mechanical and stage4/5 EDHREC discovery/full-100 8/9-swap suites; fix failures, merge research PR if green, then make substantive full-deck comparative choice and rebind mandatory candidate-specific M6 I/J. Owner approval withheld; canonical lock unchanged.",
     "remaining_owner_decision": "None until a genuinely owner-ready exact proposal; Cory explicitly withheld approval of former D.",
     "stage3": {
       "status": "ORACLE_SOURCED_ELEVEN_PAID_MECHANICAL_FIXTURES_WRITTEN_AWAITING_EXACT_HEAD_CI",
@@ -434,6 +434,33 @@
       "existing_top_inclusion_cards_already_canonical": 10,
       "prior_material_challenger_reidentified": "Slippery Scoundrel",
       "source_scope": "Commander Top Cards (inclusion) / High Lift; 2026-10-22 retrieval, all budgets/brackets; page statistics observed, not strength evidence",
+      "owner_approval": "WITHHELD"
+    },
+    "stage5": {
+      "status": "RESEARCH_ONLY_THREE_PHYSICAL_100_CARD_8_9_SWAP_CANDIDATES_PENDING_EXACT_HEAD_CI_AND_DECISION",
+      "source_comparison": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_EDHREC_stage4_opportunity_20261022.md",
+      "test": "tests/test_m7_admiral_edhrec_stage4_packages.py",
+      "packages": [
+        {
+          "name": "EIGHT_AERIALIST",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eight_Aerialist_20261022.txt",
+          "delta": "Storm Fleet Aerialist replaces Kari Zev, Skyship Raider",
+          "swaps": 8
+        },
+        {
+          "name": "EIGHT_DREAMCALLER",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eight_Dreamcaller_20261022.txt",
+          "delta": "Dreamcaller Siren replaces Open into Wonder",
+          "swaps": 8
+        },
+        {
+          "name": "NINE_BOTH",
+          "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_nine_Aerialist_Dreamcaller_20261022.txt",
+          "delta": "Both above additions/cuts",
+          "swaps": 9
+        }
+      ],
+      "scope": "Exact physically complete alternative lists only; no comparative gameplay proof, final Oracle+M6 changed-bound I/J or owner-ready rev2.",
       "owner_approval": "WITHHELD"
     }
   }
