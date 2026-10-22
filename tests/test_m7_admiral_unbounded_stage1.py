@@ -78,7 +78,6 @@ class AdmiralUnboundedStageOne(unittest.TestCase):
                 self.assertEqual(cuts, Counter(expected.values()))
                 self.assertEqual(sum(adds.values()), 5 + len(extensions))
                 self.assertEqual(sum(cuts.values()), sum(adds.values()))
-                self.assertEqual(sum("land" in {} for _ in ()), 0)  # no unverified card typing inference
                 changed = Counter((Counter(cards) - Counter(prior)).elements())
                 self.assertEqual(changed, Counter(extensions.keys()))
                 print("RESEARCH_ONLY", name, "physical", len(cards),
