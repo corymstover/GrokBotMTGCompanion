@@ -189,6 +189,23 @@ class M7DecisionGateTests(unittest.TestCase):
         self.assertEqual(source.name,"abaddon-the-despoiler.txt")
         self.assertEqual(gate.parse_list(source)[1],["Abaddon the Despoiler"])
 
+    def test_named_card_oracle_singleton_exceptions_are_bounded(self):
+        fixture=self.root/"data/grixis/m7/candidate_lists/synthetic-exceptions.txt"
+        fixture.write_text("1x Sauron, Lord of the Rings [Commander]\n"
+                           "9x Nazgûl\n"
+                           "90x Swamp\n")
+        self.assertEqual(len(gate.parse_list(fixture)[0]),100)
+        fixture.write_text("1x Sauron, Lord of the Rings [Commander]\n"
+                           "10x Nazgûl\n"
+                           "89x Swamp\n")
+        with self.assertRaises(gate.DecisionGateError):
+            gate.parse_list(fixture)
+        fixture.write_text("1x Sauron, Lord of the Rings [Commander]\n"
+                           "2x Sol Ring\n"
+                           "97x Swamp\n")
+        with self.assertRaises(gate.DecisionGateError):
+            gate.parse_list(fixture)
+
     def test_one_swap_packet_with_five_slot_and_package_review_valid(self):
         r=self.verify()
         self.assertEqual(r["new_swaps"], 1)
