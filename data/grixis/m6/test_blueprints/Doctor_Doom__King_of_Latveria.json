@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Doctor_Doom__King_of_Latveria",
+  "canonical_key": "Doctor_Doom__King_of_Latveria",
+  "commanders": [
+    "Doctor Doom, King of Latveria"
+  ],
+  "slug": "doctor-doom-king-of-latveria",
+  "source": {
+    "blueprint_path": "data/grixis/blueprints/doctor-doom-king-of-latveria.json",
+    "blueprint_blob_sha": "d0b5b08a763b43742adbfe5a86737b98669104bf",
+    "oracle_snapshots": [
+      {
+        "name": "Doctor Doom, King of Latveria",
+        "text": "Whenever you discard one or more land cards, each opponent loses 2 life.\nAt the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
+        "sha": "sha256:adfa9e418a2c773cb29eed451a1600a7499b580b23151f7ae22290f0be123fdd"
+      }
+    ],
+    "canonical_source_txt": "refinement/decklists/Doctor_Doom_King_of_Latveria_Approved_2026-10-14.txt",
+    "current_file_blob_sha": "324fdb3070be086b89a99a1cc3dcab33f92c08e6",
+    "approved_sha256": "c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+    "registry_source_raw_hash": "sha256:c97bd448aa4b18d2f7ed15e5d67006ab320ed67ad3ed267e44150de472e1dc58",
+    "recorded_raw_matches": true,
+    "canonical_id_alias": false,
+    "listed_card_lines": 100,
+    "baseline_count_requires_recheck": false,
+    "locked": true
+  },
+  "strategy": {
+    "primary": "Lands as discard ammunition: discard land cards in separate events (cycling, Trade Routes, Seismic Assault, Psychic Frog, rummaging) so each event drains every opponent for 2, then recover the lands (Crucible, Moonstone, Containment Construct) and repeat.",
+    "secondary": "Villain/connive shell: Doom's combat connive on a Villain plus Lethal Scheme, Kang, Ultron, Glorious Purpose; Doom trigger copies (Chameleon, Spark Double, Roaming Throne) and the Tectonic Reformation + Surly Badgersaur + Dakmor Salvage infinite.",
+    "identity": [
+      {
+        "card": "Doctor Doom, King of Latveria",
+        "why": "2-life table drain per land-discard event.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Doctor Doom, King of Latveria"
+        ]
+      },
+      {
+        "card": "Psychic Frog",
+        "why": "Free, repeatable land-discard outlet: one Doom trigger per activation.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:doctor-doom-king-of-latveria#doom-06"
+        ]
+      },
+      {
+        "card": "Seismic Assault",
+        "why": "Each land discard is a separate event: Doom drain plus 2 damage.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Crucible of Worlds",
+        "why": "Replays discarded lands so the ammunition doesn't run out.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/blueprints/Doctor_Doom_King_of_Latveria_Current_Cycle_Blueprint_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Dakmor Salvage",
+        "why": "Renewable land to discard; centre of the infinite.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "moderate",
+        "evidence": [
+          "interaction:doctor-doom-king-of-latveria#doom-08"
+        ]
+      }
+    ],
+    "exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_ability",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#commanders.value[0]",
+      "title": "Doctor Doom, King of Latveria",
+      "oracle_or_blueprint_claim_pending_verification": "Whenever you discard one or more land cards, each opponent loses 2 life.\nAt the beginning of combat on your turn, target Villain you control gains menace until end of turn. It connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
+      "fixture_named_cards": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "source_list_cards": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Compare commander in valid vs invalid zone/timing; payable activation/cast and true trigger/ability text; commander-first actual effect.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#key_interactions[0]",
+      "title": "per-event",
+      "oracle_or_blueprint_claim_pending_verification": "One Doom trigger per discard event, not per land; Cool but Rude counts per card.",
+      "fixture_named_cards": [
+        "Doctor Doom, King of Latveria",
+        "Cool but Rude"
+      ],
+      "source_list_cards": [
+        "Doctor Doom, King of Latveria",
+        "Cool but Rude"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#key_interactions[1]",
+      "title": "connive-target",
+      "oracle_or_blueprint_claim_pending_verification": "The combat connive targets a Villain; with no legal target, no connive.",
+      "fixture_named_cards": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "source_list_cards": [
+        "Doctor Doom, King of Latveria"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#key_interactions[2]",
+      "title": "chameleon",
+      "oracle_or_blueprint_claim_pending_verification": "Chameleon copy keeps its own name: no legend rule.",
+      "fixture_named_cards": [
+        "Chameleon, Master of Disguise"
+      ],
+      "source_list_cards": [
+        "Chameleon, Master of Disguise"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#key_interactions[3]",
+      "title": "dakmor",
+      "oracle_or_blueprint_claim_pending_verification": "Dakmor Salvage dredge is renewable, bounded by library size.",
+      "fixture_named_cards": [
+        "Dakmor Salvage"
+      ],
+      "source_list_cards": [
+        "Dakmor Salvage"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K5",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#key_interactions[4]",
+      "title": "crucible-cycling",
+      "oracle_or_blueprint_claim_pending_verification": "Crucible doesn't let you cycle lands from the graveyard.",
+      "fixture_named_cards": [
+        "Crucible of Worlds"
+      ],
+      "source_list_cards": [
+        "Crucible of Worlds"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#engines[0]",
+      "title": "land-discard-drain",
+      "oracle_or_blueprint_claim_pending_verification": "Separate land-discard events.",
+      "fixture_named_cards": [
+        "Doctor Doom, King of Latveria",
+        "Psychic Frog",
+        "Seismic Assault",
+        "Trade Routes",
+        "Archfiend of Ifnir"
+      ],
+      "source_list_cards": [
+        "Doctor Doom, King of Latveria",
+        "Psychic Frog",
+        "Seismic Assault",
+        "Trade Routes",
+        "Archfiend of Ifnir"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#engines[1]",
+      "title": "land-recursion",
+      "oracle_or_blueprint_claim_pending_verification": "Lands in the graveyard to replay or redraw.",
+      "fixture_named_cards": [
+        "Crucible of Worlds",
+        "Moonstone, Harsh Mistress",
+        "Containment Construct",
+        "Shadow of the Grave",
+        "Dakmor Salvage"
+      ],
+      "source_list_cards": [
+        "Crucible of Worlds",
+        "Moonstone, Harsh Mistress",
+        "Containment Construct",
+        "Shadow of the Grave",
+        "Dakmor Salvage"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#win_conditions[0]",
+      "title": "badgersaur-reformation-dakmor",
+      "oracle_or_blueprint_claim_pending_verification": "Tectonic Reformation + Surly Badgersaur + Dakmor Salvage: cycle Dakmor for {R}, Badgersaur makes Treasure, dredge it back; each cycle is a Doom drain.",
+      "fixture_named_cards": [
+        "Tectonic Reformation",
+        "Surly Badgersaur",
+        "Dakmor Salvage",
+        "Doctor Doom, King of Latveria"
+      ],
+      "source_list_cards": [
+        "Tectonic Reformation",
+        "Surly Badgersaur",
+        "Dakmor Salvage",
+        "Doctor Doom, King of Latveria"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#win_conditions[1]",
+      "title": "trade-routes-engine",
+      "oracle_or_blueprint_claim_pending_verification": "Trade Routes + Bone Miser or Badgersaur + Dakmor: repeated land discards fund the next activation.",
+      "fixture_named_cards": [
+        "Trade Routes",
+        "Bone Miser",
+        "Surly Badgersaur",
+        "Dakmor Salvage"
+      ],
+      "source_list_cards": [
+        "Trade Routes",
+        "Bone Miser",
+        "Surly Badgersaur",
+        "Dakmor Salvage"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W3",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#win_conditions[2]",
+      "title": "repeated-drain",
+      "oracle_or_blueprint_claim_pending_verification": "Seismic Assault, Psychic Frog and cycling lands drain 2 per event; Archfiend of Ifnir and Cool but Rude add more.",
+      "fixture_named_cards": [
+        "Seismic Assault",
+        "Psychic Frog",
+        "Archfiend of Ifnir",
+        "Cool but Rude",
+        "Monument to Endurance",
+        "Crucible of Worlds"
+      ],
+      "source_list_cards": [
+        "Seismic Assault",
+        "Psychic Frog",
+        "Archfiend of Ifnir",
+        "Cool but Rude",
+        "Monument to Endurance",
+        "Crucible of Worlds"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#failure_modes[0]",
+      "title": "mass-discard",
+      "oracle_or_blueprint_claim_pending_verification": "Discarding many lands at once is only one trigger.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Prefer per-card outlets (Frog, cycling). No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#failure_modes[1]",
+      "title": "graveyard-hate",
+      "oracle_or_blueprint_claim_pending_verification": "Graveyard exile stops land recursion and Dakmor.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Crucible still replays from hand discard cycles. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:doctor-doom-king-of-latveria#failure_modes[2]",
+      "title": "no-villain",
+      "oracle_or_blueprint_claim_pending_verification": "No Villain on board: no combat connive.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Villain density. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    }
+  ],
+  "counts": {
+    "all": 14,
+    "P0": 5,
+    "P1": 9
+  },
+  "shared_components": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "required_next_steps": [
+    "fresh Oracle and legality",
+    "reconcile exact canonical 100-card source and intentional exceptions",
+    "implement effect mechanics and negative fixtures",
+    "source-paid actual CI when authorized"
+  ],
+  "execution": "NOT_RUN",
+  "m6_certified": false,
+  "owner_approval_affected": false
+}
