@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "generated_at": "2026-10-22T17:30:00Z",
+  "list_hash": "lh1:4bb15eb5acc051871e7d818890f71705eb74f1281e933e73b0e77ff770be1efc",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v2.json",
+    "source_sha256": "sha256:b24e9f51fe6b17f5bd53e1c1027c6bbbb4acdf2774b09283c6ed47b297bb20a6",
+    "tested_pool_size": 5
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json",
+      "tests/test_m6_abaddon_residual_p1.py",
+      "tests/test_m6_abaddon_remaining_p1.py",
+      "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39821244835",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819765932",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819134570"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
+    "data/grixis/m7/decision_reviews/Abaddon_the_Despoiler.json",
+    "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "M6 I is a bounded five-configuration selected-research-result authored local decision after actually executed mechanics. It does not prove gameplay win rate, approve an exact swap, accept M6, or lock canonical lists; only Cory can authorize the final candidate."
+  }
+}
