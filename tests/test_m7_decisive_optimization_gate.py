@@ -16,9 +16,11 @@ from scripts import grixis_m7_decision_gate as gate
 
 STRATEGY = "This hypothetical Abaddon list advances turn-based commander-cascade identity without replacing its unique payoffs."
 EVIDENCE = "Frozen candidate role audit and source-matched hypothetical case comparison, with all limitations explicitly recorded."
-CANDIDATE_NAMES = ["Aggravated Assault", "Chaos Warp", "Grinning Ignus", "Stormfist Crusader", "Past in Flames"]
+CANDIDATE_NAMES = ["Aggravated Assault", "Chaos Warp", "Grinning Ignus", "Stormfist Crusader", "Past in Flames",
+                   "Spark Double", "Orcish Bowmasters", "Sheoldred, the Apocalypse", "Cyclonic Rift", "Dig Through Time"]
 BASE_NAMES = ["Rakdos, Lord of Riots", "The Lost and the Damned", "The Ruinous Powers",
-              "Nightscape Familiar", "Rite of Flame", "Thermo-Alchemist"]
+              "Nightscape Familiar", "Rite of Flame", "Thermo-Alchemist",
+              "Call Forth the Tempest", "Boltwave", "Bituminous Blast"]
 
 
 def weak(name, proposed):
@@ -71,7 +73,7 @@ class M7DecisionGateTests(unittest.TestCase):
         s = self.root / "data/grixis/schemas/m7_decisive_optimization.schema.json"
         s.parent.mkdir(parents=True)
         s.write_bytes(gate.SCHEMA.read_bytes())
-        self.baseline_text = "1x Abaddon the Despoiler [Commander]\n" + "".join("1x " + n + "\n" for n in BASE_NAMES) + "93x Island\n"
+        self.baseline_text = "1x Abaddon the Despoiler [Commander]\n" + "".join("1x " + n + "\n" for n in BASE_NAMES) + "90x Island\n"
         path = self.root / "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt"
         path.parent.mkdir(parents=True)
         path.write_text(self.baseline_text)
@@ -138,7 +140,8 @@ class M7DecisionGateTests(unittest.TestCase):
                 "known_hard_blockers": []},
             "owner_authority": {"canonical_deck_changed": False, "exact_candidate_owner_approved": False,
                                 "owner_approval_question": "This deck is complete. Do you approve it?"},
-            "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"}
+            "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+            "withdrawal_reason": "Synthetic previously withdrawn candidate for testing structural physical deltas and decision-economy safeguards; not an owner presentation."}
 
     def verify(self):
         return gate.verify_packet(self.packet, root=self.root, registry=self.registry)
@@ -270,7 +273,7 @@ class M7DecisionGateTests(unittest.TestCase):
         self.packet["material_candidates"][0]["judgment"] = "REJECT"
         self.assertEqual(self.verify()["new_swaps"],0)
 
-    def test_two_swaps_do_not_require_low_swap_heightened_audit(self):
+    def test_historical_withdrawn_two_swaps_preserved_without_owner_presentation(self):
         self.candidate_file.write_text(self.baseline_text
             .replace("1x Rakdos, Lord of Riots", "1x Aggravated Assault")
             .replace("1x The Lost and the Damned", "1x Chaos Warp"))
@@ -279,7 +282,82 @@ class M7DecisionGateTests(unittest.TestCase):
         self.packet["final_changes"]["cuts"] = ["Rakdos, Lord of Riots", "The Lost and the Damned"]
         self.packet["material_candidates"][1]["judgment"] = "SELECT_ADD"
         self.packet.pop("low_swap_heightened_audit")
-        self.assertEqual(self.verify()["new_swaps"], 2)
+        outcome = self.verify()
+        self.assertEqual(outcome["new_swaps"], 2)
+        self.assertFalse(outcome["owner_presentable"])
+        self.assertEqual(outcome["status"], "M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE")
+
+    def prepare_owner_ready_five_swap_fixture(self):
+        staged = self.baseline_text
+        for i in range(5):
+            staged = staged.replace("1x " + BASE_NAMES[i], "1x " + CANDIDATE_NAMES[i])
+        self.candidate_file.write_text(staged)
+        self.packet["final_candidate"]["sha256"] = hashlib.sha256(self.candidate_file.read_bytes()).hexdigest()
+        self.packet["final_changes"]["adds"] = CANDIDATE_NAMES[:5]
+        self.packet["final_changes"]["cuts"] = BASE_NAMES[:5]
+        for c in self.packet["material_candidates"]:
+            c["judgment"] = "SELECT_ADD"
+        self.packet["readiness"] = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+        self.packet.pop("withdrawal_reason", None)
+
+    def test_owner_ready_one_swap_hard_block_even_when_historical_packet_valid(self):
+        self.packet["readiness"] = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+        self.packet.pop("withdrawal_reason")
+        with self.assertRaisesRegex(gate.DecisionGateError, "OWNER HARD BLOCK"):
+            self.verify()
+
+    def test_owner_ready_two_swaps_hard_block_even_with_audit(self):
+        self.candidate_file.write_text(self.baseline_text
+            .replace("1x Rakdos, Lord of Riots", "1x Aggravated Assault")
+            .replace("1x The Lost and the Damned", "1x Chaos Warp"))
+        self.packet["final_candidate"]["sha256"] = hashlib.sha256(self.candidate_file.read_bytes()).hexdigest()
+        self.packet["final_changes"]["adds"] = ["Aggravated Assault", "Chaos Warp"]
+        self.packet["final_changes"]["cuts"] = ["Rakdos, Lord of Riots", "The Lost and the Damned"]
+        self.packet["material_candidates"][1]["judgment"] = "SELECT_ADD"
+        self.packet["readiness"] = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+        self.packet.pop("withdrawal_reason")
+        with self.assertRaisesRegex(gate.DecisionGateError, "OWNER HARD BLOCK"):
+            self.verify()
+
+    def test_five_swaps_alone_still_fail_comprehensive_opportunity_requirements(self):
+        self.prepare_owner_ready_five_swap_fixture()
+        with self.assertRaisesRegex(gate.DecisionGateError, "ten distinct"):
+            self.verify()
+        for i in range(5,10):
+            self.packet["material_candidates"].append(candidate(CANDIDATE_NAMES[i], BASE_NAMES[i % len(BASE_NAMES)], "REJECT"))
+        with self.assertRaisesRegex(gate.DecisionGateError, "eight distinct"):
+            self.verify()
+
+    def test_five_genuine_swaps_with_ten_candidates_eight_slots_two_packages_gate(self):
+        self.prepare_owner_ready_five_swap_fixture()
+        for i in range(5,10):
+            self.packet["material_candidates"].append(candidate(CANDIDATE_NAMES[i], BASE_NAMES[i % len(BASE_NAMES)], "REJECT"))
+        for i in range(5,8):
+            row=weak(BASE_NAMES[i], CANDIDATE_NAMES[i])
+            self.packet["whole_deck_audit"]["weakest_slots"].append(row)
+            self.packet["low_swap_heightened_audit"]["weakest_slot_challenge"].append(copy.deepcopy(row))
+        result=self.verify()
+        self.assertEqual(result["new_swaps"], 5)
+        self.assertTrue(result["owner_presentable"])
+        self.assertEqual(result["material_candidates"], 10)
+
+    def test_no_fake_opportunity_audit_or_recycled_multiswap_packages(self):
+        self.prepare_owner_ready_five_swap_fixture()
+        for i in range(5,10):
+            self.packet["material_candidates"].append(candidate(CANDIDATE_NAMES[i], BASE_NAMES[i % len(BASE_NAMES)], "REJECT"))
+        for i in range(5,8):
+            row=weak(BASE_NAMES[i], CANDIDATE_NAMES[i])
+            self.packet["whole_deck_audit"]["weakest_slots"].append(row)
+            self.packet["low_swap_heightened_audit"]["weakest_slot_challenge"].append(copy.deepcopy(row))
+        self.packet["low_swap_heightened_audit"]["multi_slot_packages"][1]=copy.deepcopy(
+            self.packet["low_swap_heightened_audit"]["multi_slot_packages"][0])
+        with self.assertRaisesRegex(gate.DecisionGateError, "Duplicated multiswap"):
+            self.verify()
+
+    def test_withdrawn_candidate_must_have_owner_visible_reason(self):
+        self.packet.pop("withdrawal_reason")
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
 
     def test_approval_and_certification_authority_stay_separate(self):
         self.packet["owner_authority"]["exact_candidate_owner_approved"] = True
