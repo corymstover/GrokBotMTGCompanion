@@ -27,7 +27,8 @@
     "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repository)",
     "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511 / exact-head Actions 39697989020)",
     "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512 / exact-head Actions 39698978884)",
-    "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json; data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514; CI 39700709249)"
+    "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json; data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514; CI 39700709249)",
+    "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516; CI 39702982106; role-cost errata and matched two-policy source access)"
   ],
   "candidates": [
     {
@@ -179,17 +180,42 @@
             "class": "strategic_judgment",
             "confidence": "moderate",
             "source": "99-card identity package and existing stack defenses"
+          },
+          {
+            "id": "warp-stax-targeting-rules-and-otawara-reserve-policy",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "PR #516 / exact-head Actions 39702982106; 27 adversarial tests, 2000 matched physical seeds per 4 variants per 2 land policies"
           }
         ]
       },
-      "interim_decision": "HOLD_UNTIL_MEANINGFUL_CUT_JUSTIFIED",
+      "interim_decision": "HOLD_UNTIL_REAL_STAX_META_AND_ON_IDENTITY_CUT_JUSTIFIED",
       "benefit": "Real instant-speed interaction with resolved troublesome enchantments/artifacts; unlike a counterspell, can affect nonblue permanent after it resolves; hand cast at X>=3 can gain Abaddon-granted cascade.",
-      "incumbent_cut_cost": "No high-confidence cut yet: Pyroblast and free/cheap stack answers protect commander combo, while five-mana 40K enchantments are actual exile-cast engine payoffs. Chaos Warp can reveal a replacement permanent and does not guarantee permanent removal.",
+      "incumbent_cut_cost": "The Lost and the Damned is {1}{U}{R}, MV3 (NOT five): triggers a 3/3 Spawn on each eligible land entering from library (seven frozen fetchlands) or spell cast from command/exile/graveyard; The Ruinous Powers is {2}{B}{R}, MV4 (NOT five) and ramps same-turn Abaddon life-loss threshold through exiled opponent casts. Rakdos provides creature-specific generic discounts and overlaps the Assault candidate cut. No measured weaker replacement slot yet.",
       "unresolved": [
-        "Specific defensible lower-value cut within whole 100-card identity",
-        "Targeted stax density and whether bounce/stack interaction already sufficient"
+        "Actual local metagame prevalence and persistence of resolved Rule of Law/Rest in Peace/Null Rod effects",
+        "Decision-relevant loss of seven-fetch and nonhand-cast Spawn generation versus added Warp redundancy",
+        "Opportunity cost of reserving Otawara (1297 land drops skipped in conditional policy) versus deploying it as a source; dynamic human play not modeled",
+        "Chance opponent reveals more harmful or same restraining permanent after Chaos Warp, and actual full-game spell/stack conversion"
       ],
-      "approved_swap": false
+      "approved_swap": false,
+      "stax_answer_observation": {
+        "class": "conditionally_playable_hand_answer_not_metagame_frequency",
+        "source": "PR #516 / 39702982106",
+        "n_per_variant_per_policy": 2000,
+        "turn_10_reserve_policy": {
+          "approved_baseline_otawara_payable": 282,
+          "warp_for_rakdos_any_payable": 577,
+          "warp_for_lost_any_payable": 584,
+          "warp_for_ruinous_any_payable": 557
+        },
+        "aggregate_land_drops_skipped_if_otawara_held_for_channel": 1297,
+        "replacement_randomness_unmodeled": true,
+        "stax_incidence_unmeasured": true,
+        "role_cost": "Removing The Lost and the Damned (MV3) forfeits nonhand-cast AND fetched-library-land Spawn triggers; removing The Ruinous Powers (MV4) forfeits opponent-owner life-loss/exile casting; removing Rakdos forfeits creature discounts and overlaps unresolved Assault candidate cut.",
+        "actual_multiplayer_win_rate": null,
+        "approved_swap": false
+      }
     },
     {
       "card": "The Ruinous Powers",
@@ -232,8 +258,8 @@
         ]
       },
       "interim_decision": "RETAIN_AS_MEANINGFUL_COMMANDER_FIRST_PAYOFF",
-      "benefit": "At upkeep exiles an opponent's top card and permits casting it. When you cast it this way, its OWNER—the opponent whose library it came from—loses life equal to mana value, increasing same-turn Abaddon threshold; the spell cast from exile feeds other nonhand payoffs.",
-      "incumbent_cut_cost": "Removing this card weakens repeatable on-turn life-loss and exile-cast synergies. It is expensive/random and can reveal an uncastable card or land; none of these drawbacks makes it automatically the best Assault cut.",
+      "benefit": "The Ruinous Powers costs {2}{B}{R}, mana value FOUR (not five). At upkeep exiles opponent's top card and permits playing it. When you cast their spell from exile, its owner loses life equal to spell's mana value, raising Abaddon's life-loss threshold. A qualifying cast from exile also triggers The Lost and the Damned's Spawn engine if both enchantments are present.",
+      "incumbent_cut_cost": "Removing this MV4 card loses repeatable on-turn opponent life loss, exile-cast payoffs and Lost Spawn production. Upkeep survival and random reveal mean imperfect access, but an older five-mana characterization was inaccurate.",
       "unresolved": [
         "Conditional upkeep survival and actual cast access compared with other five-mana payoffs"
       ],
@@ -253,7 +279,22 @@
     ],
     "evaluated_pools": "All 98 M5 packet entries and 60 historical legacy Abaddon decisions are reviewed in the comprehensive authored 100-card deep review; this receipt applies new Phase B evidence to the most material outstanding candidates only.",
     "no_arbitrary_swap_quota": true,
-    "bracket": "4 — Optimized (inherited from existing baseline research, not an M7 reapproval)"
+    "bracket": "4 — Optimized (inherited from existing baseline research, not an M7 reapproval)",
+    "protected_engine_oracle_errata": {
+      "source": "PR #516 / Actions 39702982106",
+      "lost": {
+        "name": "The Lost and the Damned",
+        "mana_value": 3,
+        "trigger": "land entering battlefield from library via seven physical fetches, or spell cast from command/exile/graveyard when enchantment present",
+        "default_cut_recommendation": "RETAIN"
+      },
+      "ruinous": {
+        "name": "The Ruinous Powers",
+        "mana_value": 4,
+        "trigger": "opponent whose exiled library spell you cast loses its mana value in life",
+        "default_cut_recommendation": "RETAIN"
+      }
+    }
   },
   "authority": {
     "can_change_canonical": false,
@@ -268,5 +309,5 @@
     "Resolve meaningful paid and chronological full-deck sequencing limitations or make conservative transparent HOLD determination without false win rates",
     "Complete M6.6/7 and I/J evidence before final M6 packet, verify official card legality/current Oracle and exact 100-card list before owner M7 request"
   ],
-  "summary": "Added PR #514 preregistered 2,000-seed-per-variant chronological source-spent commander/Loyal/Neheb/Assault casting evidence with 15 passing adversarial tests: physical Assault cast 333 and 347/2000, first Neheb-funded Assault activation 1 and 4/2000 under restricted closed policies, NOT actual combo rates or wins. Rakdos benefits and alternate threshold enablers unmodeled, so both Assault challengers remain HOLD. Canonical deck unchanged, no formal M6/7 promotion."
+  "summary": "Abaddon current interim engine/interaction decision after PR #516: Chaos Warp provides a real conditional resolved-stax answer, but no justified net-stronger cut. Corrected source costs Lost MV3 and Ruinous MV4; Lost additionally makes a Spawn from each fetched land put from library via seven canonical fetchlands, commander-zone cast and exile/graveyard casts. Otawara's channel must remain in hand; land-first zero availability was a biased policy artifact, so the registered reserve-channel policy reports 282/2000 approved baseline answer opportunities at T10 with 1297 aggregate land-drop forfeitures, vs 557-584/2000 for Warp challenger lists. This is neither stax frequency nor game performance. All candidates HOLD except retain Ruinous, no deck mutation or M6/7 certification."
 }
