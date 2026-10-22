@@ -5,6 +5,7 @@ on:
       - chatgpt-m6-single-deck-review-standard
       - chatgpt-cycle76-m6-refinement
       - 'chatgpt-m6-deep-review-*'
+      - 'chatgpt-abaddon-m6-coverage-*'
     paths:
       - AGENTS.md
       - 'grixis/M6 Commander-First Single-Deck Review Standard.md'
