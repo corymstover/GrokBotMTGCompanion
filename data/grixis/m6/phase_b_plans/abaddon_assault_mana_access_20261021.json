@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "local_date": "2026-10-21",
+  "stage": "M6_PHASE_B_PREREGISTERED_PHYSICAL_DRAW_COLORED_SOURCE_OPPORTUNITY_NOT_GAMEPLAY",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical_approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "authoritative_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "authority_baseline": "APPROVED_LOCKED_UNCHANGED",
+  "source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "variants": [
+    {
+      "id": "baseline",
+      "add": null,
+      "cut": null
+    },
+    {
+      "id": "assault_for_rakdos",
+      "add": "Aggravated Assault",
+      "cut": "Rakdos, Lord of Riots"
+    },
+    {
+      "id": "assault_for_lost",
+      "add": "Aggravated Assault",
+      "cut": "The Lost and the Damned"
+    }
+  ],
+  "seed": 621017,
+  "samples_per_variant": 2000,
+  "turn_horizon": 10,
+  "checkpoints": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "opponents": 3,
+  "starting_life": 40,
+  "assumptions": [
+    "Exactly 100 physical cards and 99 library cards, no mulligan, initial seven, one own-turn draw beginning turn one",
+    "Identical shuffle seeds and library positions except exact physical swapped card; fetchland shuffling and target changes may cause later divergence",
+    "At most one land drop each own turn; fixed transparent land choice; mapped Grixis basics, duals, shocks, fetches, bond lands, City, Mana Confluence, Urborg, Otawara, Takenuma, Ancient Tomb and Xander's Lounge",
+    "Exotic Orchard produces no guaranteed color in this conservative model; all other unsupported effects fail unmodeled",
+    "Held spells are not actually cast; assess individual printed-cost source affordability on a hypothetical cleared-main-phase snapshot, never simultaneous payments or established board states",
+    "No rocks, rituals, mana creatures, tutors, cascade flips, draw spells, opponents, removal, alternate-cost lines, triggers, land abilities beyond specified mana",
+    "Exact draw-only hypergeometric combinatorics are separate from seeded land-source snapshots; never interpret as multiplayer win likelihood",
+    "Do not mark an Assault-Neheb-Loyal three-piece draw proxy as actual engine assembly or actual win"
+  ],
+  "measurements": [
+    "per-checkpoint selected singleton observed in initial hand plus draws",
+    "per-checkpoint held slot with color-accurate land-only printed-cost source payment feasibility",
+    "per-checkpoint held Neheb and Loyal and Assault and source-paid individual cost snapshots (not a combined legal sequence)",
+    "per-checkpoint commander printed-cost source feasibility",
+    "exact hypergeometric raw physical library observation probabilities for a singleton and 2/3 target groups"
+  ],
+  "hard_gates": [
+    "Fail if source physical inventory or source hash differs",
+    "Fail if replacements not 100 singleton-compliant and one slot only",
+    "Fail if symbolic source planner fails specified UBR/BBRR/R/RR cases and does not handle Ancient Tomb correctly",
+    "Never promote M6.6, M6.7, M6 certificate, I/J, M7 or 100-card canonical authority based on these proxies"
+  ],
+  "approval_authority": {
+    "can_change_canonical": false,
+    "can_approve_swap": false,
+    "can_certify_m6": false,
+    "can_accept_m7": false
+  }
+}
