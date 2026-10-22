@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_M6_7_EVIDENCE_INTEGRATION_AND_TEST_STAGE_DISPOSITION",
+  "date": "2026-10-22",
+  "author": "ChatGPT/OpenAI GPT-6",
+  "independent_review": false,
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "approval_file": "state/current_deck_overrides.json",
+    "source_file": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+    "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "status": "APPROVED_LOCKED_UNCHANGED",
+    "card_count": 100,
+    "land_count": 34
+  },
+  "evidence_scope": {
+    "frozen_judgment": "data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json",
+    "deep_review": "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md",
+    "pass_c": "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/final_disposition.md",
+    "owner_waiver": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "adversarial_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39727801845",
+    "adversarial_head": "a8bf1bdfd7de8ed57709b67863fe20ebfadc8197",
+    "executed_adversarial_fixture_tests": 12,
+    "extra_case_ids": [
+      "test_remove_loyal_after_first_trigger_combat_loop_is_not_a_kill",
+      "test_remove_neheb_after_paid_first_activation_blocks_repetition"
+    ],
+    "test_outcome": "PASS_BOUNDED_RULES_ONLY",
+    "coverage": "PARTIAL_EFFECT_MODEL_FIXED_POLICIES_NOT_REAL_MULTIPLAYER"
+  },
+  "judgments": [
+    {
+      "card": "Aggravated Assault",
+      "tested_swap_variants": [
+        {
+          "cut": "Rakdos, Lord of Riots"
+        },
+        {
+          "cut": "The Lost and the Damned"
+        }
+      ],
+      "m6_test_stage_disposition": "NO_EVIDENCE_JUSTIFIED_SWAP_AT_M6",
+      "existing_card_action": "PRESERVE_CURRENT_BASELINE",
+      "rules_supported": "With Neheb and already-established opponent life loss, postcombat mana pays {3}{R}{R} for extra combat; Loyal Subordinate can drain at each combat with Abaddon present.",
+      "observed": {
+        "sample_class": "land-only chronological fixed-pilot; not full games",
+        "n_per_variant": 2000,
+        "assault_for_rakdos_first_activation_paid": 1,
+        "assault_for_lost_first_activation_paid": 4,
+        "adversarial_interruptions": "12/12 deterministic fixture tests pass; removing Loyal removes repeat drain, removing Neheb ends repeat source-paid activations"
+      },
+      "incumbent_role_costs": [
+        "Rakdos discounts eligible subsequent creature generic costs based on opponent life lost, including Abaddon and Neheb; has flying/trample and BBRR requirements",
+        "The Lost and the Damned generates 3/3 Spawn tokens from relevant nonhand spells or library-origin land entries, including source-listed fetches"
+      ],
+      "reason": "A finite payable four-piece finish exists but assembly is rare in a restricted fixed pilot and opponent interruption stops deterministic repeat finish; incumbent role loss and real-game frequency remain unscored. The conditional finish alone is not evidence of positive net deck value.",
+      "evidence_paths": [
+        "data/grixis/m6/phase_b_bounded/abaddon_neheb_assault_20261021.md",
+        "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md",
+        "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md",
+        "tests/test_m6_abaddon_neheb_assault.py"
+      ],
+      "reopen_only_if": "M7 whole-deck comparison demonstrates better payable life-loss/conversion and resilience than the actual chosen incumbent, including lost discounts or Spawn production."
+    },
+    {
+      "card": "Grinning Ignus",
+      "tested_swap_variants": [
+        {
+          "cut": "Rakdos, Lord of Riots"
+        },
+        {
+          "cut": "Nightscape Familiar"
+        },
+        {
+          "cut": "Rite of Flame"
+        }
+      ],
+      "m6_test_stage_disposition": "NO_EVIDENCE_JUSTIFIED_SWAP_AT_M6",
+      "existing_card_action": "PRESERVE_CURRENT_BASELINE",
+      "rules_supported": "Birgi supports paid Ignus recasts; with Abaddon and X>=3, qualifying hand recasts trigger cascades. Ignus's return activation is a mana ability and cannot itself be responded to.",
+      "observed": {
+        "sample_class": "five single-slot physical variants x two fixed policies x four ablation arms x 500 seeds",
+        "total_restricted_trajectories": 20000,
+        "n_per_variant_policy_mode": 500,
+        "engine_first_both_ignus_for_rakdos_any_paid_ignus_cascade": 2,
+        "engine_first_both_ignus_for_familiar_any_paid_ignus_cascade": 2,
+        "engine_first_both_ignus_for_rite_any_paid_ignus_cascade": 4,
+        "zero_mana_lotus_cascade_free_hits": 0,
+        "modeled_exile_effects_subset": 12
+      },
+      "incumbent_role_costs": [
+        "Rakdos loses creature-cost reduction and large evasive threat",
+        "Nightscape Familiar loses blue/red spell generic discounts, which can improve Ignus loop economics",
+        "Rite of Flame loses immediate red acceleration"
+      ],
+      "reason": "The conditional loop is real but actual supported hit-resolution in fixed physically paid pilots is sparse, many hand spells/opponent actions are omitted, and all plausible cuts trade away core acceleration or discounts. Lotus Petal MV0 cascades reorder the library but do not cast negative-MV spells.",
+      "evidence_paths": [
+        "data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md",
+        "data/grixis/m6/phase_b_bounded/abaddon_factorial_ramp_cascades_20261022.md",
+        "tests/test_m6_abaddon_factorial_ramp_cascades.py"
+      ],
+      "reopen_only_if": "M7 identifies an actual low-opportunity-cost cut and source-paid real-hand supported hit/threshold advantage substantial enough to offset lost incumbent function."
+    },
+    {
+      "card": "Chaos Warp",
+      "tested_swap_variants": [
+        {
+          "cut": "Rakdos, Lord of Riots"
+        },
+        {
+          "cut": "The Lost and the Damned"
+        },
+        {
+          "cut": "The Ruinous Powers"
+        }
+      ],
+      "m6_test_stage_disposition": "NO_EVIDENCE_JUSTIFIED_SWAP_AT_M6",
+      "existing_card_action": "PRESERVE_CURRENT_BASELINE",
+      "rules_supported": "Instant-speed nonland permanent answer can remove resolved nonblue hate; target's owner shuffles it in then reveals a replacement, so replacement may preserve the threat or worsen the board.",
+      "observed": {
+        "sample_class": "2000 matched land/deck draw seeds per variant per fixed Otawara land policy; no actual opposing deck or hate incidence",
+        "n_per_variant_per_policy": 2000,
+        "t10_reserve_otawara_baseline_payable": 282,
+        "t10_reserve_warp_for_rakdos_any_answer_payable": 577,
+        "t10_reserve_warp_for_lost_any_answer_payable": 584,
+        "t10_reserve_warp_for_ruinous_any_answer_payable": 557,
+        "otawara_reservation_skipped_land_drops": 1297
+      },
+      "incumbent_role_costs": [
+        "Rakdos creature discounts, which also compete with other challenger cuts",
+        "The Lost and the Damned nonhand cast/fetchland Spawn production",
+        "The Ruinous Powers repeat exile-cast/owner life-loss threshold engine"
+      ],
+      "reason": "A genuine resolved-permanent interaction gap and better conditional access appear in bounded fixtures, but prevalence of such hate, replacement outcomes and the lowest-cost exact cut remain unknown. Narrow fixture availability does not establish deck superiority.",
+      "evidence_paths": [
+        "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md",
+        "tests/test_m6_abaddon_chaos_warp_stax.py"
+      ],
+      "reopen_only_if": "M7 establishes recurring nonblue permanent hate as material at the intended table and finds an acceptable on-identity cut after accounting for Warp replacement risk."
+    },
+    {
+      "card": "The Ruinous Powers",
+      "tested_swap_variants": [
+        {
+          "cut": "The Ruinous Powers",
+          "add": "Aggravated Assault"
+        },
+        {
+          "cut": "The Ruinous Powers",
+          "add": "Chaos Warp"
+        }
+      ],
+      "m6_test_stage_disposition": "RETAIN_ON_COMMANDER_IDENTITY_AND_CURRENT_EVIDENCE",
+      "existing_card_action": "PRESERVE_CURRENT_BASELINE",
+      "rules_supported": "Mana value four; at upkeep exiles an opponent's top card for play, and its owner loses life equal to the cast spell's mana value when the stolen card is cast, feeding Abaddon's turn threshold and exile payoffs.",
+      "observed": {
+        "rule_tests_scope": "Oracle-backed deterministic Ruinous/cascade verification; 14-case bounded predecessor",
+        "has_complete_99_gameplay": false
+      },
+      "incumbent_role_costs": [
+        "Removing a four-mana on-identity repeat exile source loses opponent-owner life loss and links to The Lost and the Damned / Prosper effects"
+      ],
+      "reason": "Earlier five-mana characterization is corrected. Retaining a protected 40K threshold/exile payoff is a positive commander-first role judgment, not a quantified multiplayer performance claim.",
+      "evidence_paths": [
+        "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md",
+        "grixis/m6/abaddon_post_waiver_judgments_20261021.md"
+      ],
+      "reopen_only_if": "New Oracle/legality facts or tested full-deck evidence demonstrate role redundancy without losing the unique threshold/exile function."
+    }
+  ],
+  "stage_outcome": {
+    "evaluated_named_candidates": 4,
+    "validated_swaps_authorized": 0,
+    "current_test_stage_recommendation": "KEEP_EXISTING_100_CARD_CANONICAL_BASELINE_WHILE_M6_TEST_AND_IJ_GATES_REMAIN_OPEN",
+    "not_a_proof_of_optimality": true,
+    "not_a_final_M7_deck_decision": true,
+    "not_a_zero_improvement_certificate": true,
+    "not_a_claim_full_99_effect_coverage": true,
+    "not_a_multiplayer_win_rate": true,
+    "required_remaining_work": [
+      "Reconcile any actually required Abaddon P0 mechanics against executed receipts, explicitly enumerating omissions rather than assuming full 99-card coverage",
+      "Complete M6.7 conflict disposition and judgment receipts for the declared tested pool; unsupported simulator scenarios must stay bounded, not count as evidence of superiority",
+      "Produce schema-validated local tested-pool I certificate only if actual requirements are met; otherwise record the unresolved tested-pool boundary without falsely claiming zero improvement",
+      "Create final complete J reproducibility bundle with source/Oracle freshness, replayable test receipts, hashes and accepted provenance; retain M6 owner approval gate"
+    ]
+  },
+  "formal_milestone": {
+    "M6_5": "COMPLETE_OWNER_WAIVED_NONINDEPENDENT",
+    "M6_6": "PARTIAL",
+    "M6_7": "PARTIAL",
+    "M6_8": "BLOCKED",
+    "M6_9": "BLOCKED",
+    "M6_10": "BLOCKED",
+    "certified_decks": 0,
+    "M7_new_approvals": 0
+  },
+  "authority": {
+    "canonical_modified": false,
+    "approval_hash_changed": false,
+    "approved_swap": false,
+    "can_certify_m6": false,
+    "can_approve_M7": false,
+    "reviewer_technically_independent": false
+  }
+}

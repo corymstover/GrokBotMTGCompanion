@@ -59,12 +59,12 @@
     }
   ],
   "missing_mechanics": [
-    "Full eligible 99-card hand spell and payoff resolution rather than the 12-supported-effect subset",
+    "Full 99-card spell-resolution coverage is NOT claimed; inventory which precise unmodeled effects materially change a tested candidate decision before authorizing more modeling",
     "Meaningful adversarial opponent removal, hate and priority with payable responses",
     "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
     "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
   ],
-  "next_engineering_action": "Integrate Abaddon's entire sourced Phase B record into a candidate-by-candidate decision-grade M6.7 disposition (Assault, Ignus, Chaos Warp, Ruinous Powers), preserving all incumbent role costs and unknown/unmodeled outcomes; enumerate exactly required residual effect tests before any M6.6/M6.7 closure or I/J certificate. Do not use 12 passing rule fixtures as evidence of deck superiority.",
+  "next_engineering_action": "Run and verify exact-head CI for the four-candidate disposition synthesis; then identify the minimum concrete residual M6.6 coverage/Phase B and M6.7 tested-pool conflict obligations and start the replayable I/J package. Do not rerun all physical trajectories absent decision-critical changes; do not promote a no-upgrade-supported finding into a zero-improvement certificate.",
   "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
   "separate_future_backlog": {
     "pr": 535,
@@ -94,5 +94,14 @@
     "phase_b_scope": "BOUNDED_DETERMINISTIC_RULES_FIXTURE_NOT_FULL_MULTIPLAYER_OR_COMPARATIVE_WIN_RATE",
     "canonical_decks_modified": 0,
     "certified_decks_added": 0
+  },
+  "latest_decision_synthesis": "data/grixis/m6/judgment_reviews/abaddon_candidate_disposition_synthesis_20261022.json",
+  "test_stage_decisions": {
+    "Aggravated_Assault": "BASELINE_PRESERVED_NOT_PROVED_NET_UPGRADE",
+    "Grinning_Ignus": "BASELINE_PRESERVED_NOT_PROVED_NET_UPGRADE",
+    "Chaos_Warp": "BASELINE_PRESERVED_NOT_PROVED_NET_UPGRADE",
+    "The_Ruinous_Powers": "RETAIN_ON_IDENTITY",
+    "m6_7_gate_completed": false,
+    "final_m7_list_selected": false
   }
 }

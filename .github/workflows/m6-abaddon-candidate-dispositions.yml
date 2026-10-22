@@ -1,0 +1,41 @@
+name: M6 Abaddon candidate disposition integrity
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-candidate-dispositions.yml
+      - data/grixis/m6/judgment_reviews/abaddon_candidate_disposition_synthesis_20261022.json
+      - data/grixis/m6/phase_b_plans/abaddon_certification_gap_20261022.json
+      - tests/test_m6_abaddon_candidate_disposition_synthesis.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  abaddon-four-candidate-evidence:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout exact pull request head
+        uses: actions/checkout@v4
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify four documented Phase B dispositions and source provenance
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_candidate_disposition_synthesis.py' -v
+      - name: Fail closed on premature deck approval or mechanical certification
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          s=json.loads(Path('data/grixis/m6/judgment_reviews/abaddon_candidate_disposition_synthesis_20261022.json').read_text())
+          m=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert s['canonical']['status']=='APPROVED_LOCKED_UNCHANGED'
+          assert s['stage_outcome']['validated_swaps_authorized']==0
+          assert s['stage_outcome']['not_a_zero_improvement_certificate']
+          assert s['formal_milestone']['M6_6']=='PARTIAL'
+          assert s['formal_milestone']['M6_7']=='PARTIAL'
+          assert m['m6']['formal_m6_certified_decks']==0
+          assert m['m7']['formal_m7_review_decisions']==0
+          print('PASS: evaluated source-paid M6 candidate evidence without pretending to certify or approve the deck')
+          PY
