@@ -37,6 +37,21 @@ DISRUPTION_CLASSES = {
 }
 
 
+def lost_spawn_trigger(event, origin, *, enchantment_present=True):
+    """Literal Lost-and-the-Damned Oracle condition, not gameplay tokens.
+
+    One 3/3 Spawn *trigger* for one qualifying land-enter or spell-cast event.
+    The enchantment must be controlled when that event happens. All event
+    origins supplied as registered zone labels; cast is not copy or play.
+    """
+    allowed={"hand","library","graveyard","exile","command"}
+    if event not in ("land_enters","spell_cast") or origin not in allowed:
+        raise ValueError("Unverified event/zone for Lost trigger")
+    if not enchantment_present:
+        return False
+    return origin!="hand"
+
+
 def frozen_variants():
     p=json.loads(PLAN.read_text(encoding="utf-8"))
     prior, base = frozen_source()
@@ -207,6 +222,15 @@ def run():
                 for t,row in r.items():
                     for key,value in row.items():
                         by_policy[policy][name][str(t)][key]+=int(value)
+    lost_plan=json.loads((ROOT/"data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json").read_text(encoding="utf-8"))
+    if lost_plan["frozen_fetch_count"]!=7:
+        raise ValueError("Frozen land-trigger scope changed")
+    from grixis_m6_fetch_city_tomb import FETCHES
+    if sum(name in FETCHES for name in variants["baseline"])!=7:
+        raise ValueError("Actual physical fetch count disagrees with preregistration")
+    for case in lost_plan["trigger_cases"]:
+        if lost_spawn_trigger(case["event"],case["origin"])!=case["spawn"]:
+            raise ValueError("Preregistered Lost-and-the-Damned trigger case drift")
     rules={
         "rol_warp_first_spell":response_window("Rule of Law","Chaos Warp"),
         "rol_warp_after_one_spell":response_window("Rule of Law","Chaos Warp",spells_already_cast=1),
@@ -239,6 +263,9 @@ def run():
         "reserved_land_drops_skipped":{policy:dict(x) for policy,x in reserve_skips.items()},
         "policy_bias_notice":"The land-first baseline's zero retained Otawara opportunities comes from automatically consuming it as a land, not from absence of an on-deck channel answer. Compare reserved-in-hand policy for conditional resolved-stax defense.",
         "scenario_outcomes":rules,
+        "lost_trigger_preregistration":"data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json",
+        "lost_trigger_frozen_fetchland_count":7,
+        "lost_trigger_rule_cases":lost_plan["trigger_cases"],
         "source_verified_errata":{
             "The Lost and the Damned":{"mana_cost":"{1}{U}{R}","mana_value":3,"baseline_cut_value_not_scored_zero":True},
             "The Ruinous Powers":{"mana_cost":"{2}{B}{R}","mana_value":4,"baseline_cut_value_not_scored_zero":True}},
