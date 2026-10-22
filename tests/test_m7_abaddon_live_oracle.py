@@ -86,7 +86,10 @@ class AbaddonLiveOracleOfflineContract(unittest.TestCase):
             self.assertEqual(url,SCRYFALL)
             names=[x["name"] for x in payload["identifiers"]]
             requests.append(names)
-            return json.dumps({"object":"list","data":[fake_record(n) for n in names],
+            rows=[fake_record("Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+                              if n=="Birgi, God of Storytelling" else n)
+                  for n in names]
+            return json.dumps({"object":"list","data":rows,
                                "not_found":[]}).encode("utf-8")
         cards=collected_cards(self.names,fetch=fake_fetch,sleeper=sleeps.append)
         self.assertEqual(set(cards),self.names)
