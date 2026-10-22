@@ -34,7 +34,7 @@ def registry_check(doc: dict):
     ids = [x["id"] for x in items + remaining]
     if len(ids) != len(set(ids)):
         raise P0GateError("Duplicate P0 case IDs")
-    if len(items) != 28 or len(remaining) != 2:
+    if len(items) != 35 or len(remaining) != 1:
         raise P0GateError("Current inventory changed without a plan update")
     if not all(row["status"] == "REQUIRED_UNEXECUTED" for row in remaining):
         raise P0GateError("Unrun P0 case was marked completed")
@@ -58,7 +58,7 @@ def registry_check(doc: dict):
     if {x["test_method"].split(".", 1)[-1] for x in new} != {
             "test_" + n for n in expected_suffixes}:
         raise P0GateError("New P0 registry not identical to precommit plan")
-    if len(new) != 6 or len(items) - len(new) != 22:
+    if len(new) != 6 or len(items) - len(new) != 29:
         raise P0GateError("Replayed/new case count drift")
     # P0-021 is a parent topic with eight individually executed, preregistered
     # tests; no file-name substring count is accepted in lieu of real execution.
@@ -68,13 +68,23 @@ def registry_check(doc: dict):
     expected_call = {"test_" + row["id"] for row in call_plan["cases"]}
     if len(new_call) != 8 or {r["test_method"].split(".", 1)[-1] for r in new_call} != expected_call:
         raise P0GateError("P0-021 test set differs from preregistration")
-    if {x["id"] for x in remaining} != {"P0-022", "P0-023"}:
+    if {x["id"] for x in remaining} != {"P0-023"}:
         raise P0GateError("Known open P0 obligations missing")
     parent = doc.get("newly_covered_parent_topics", [])
-    if len(parent) != 1 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
+    if len(parent) != 2 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
         raise P0GateError("P0-021 grouping/parent receipt incomplete")
     if call_plan["candidate_sha256"] != "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd":
         raise P0GateError("P0-021 preferred whole-deck candidate drift")
+    suspend_plan_path = ROOT / "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    suspend_plan = json.loads(suspend_plan_path.read_text(encoding="utf-8"))
+    new_suspend = [x for x in items if x["expected_execution"] == "NEW_BETRAYAL_SUSPEND_THIS_PR_CI"]
+    if len(new_suspend) != 7 or {x["test_method"].split(".", 1)[-1] for x in new_suspend} != {
+            "test_" + x["id"] for x in suspend_plan["registered_cases"]}:
+        raise P0GateError("P0-022 test set diverges from preregistered suspend plan")
+    if parent[1]["id"] != "P0-022" or set(parent[1]["case_ids"]) != {r["id"] for r in new_suspend}:
+        raise P0GateError("P0-022 grouping/parent receipt incomplete")
+    if suspend_plan["variant_sha256"] != "3ceddb947b0e7aff9cae489a0c60704214a2e580b97bfb1aaee5bb254c71fdaa":
+        raise P0GateError("P0-022 alternate 100-card source changed")
     for row in items:
         path = Path(row["test_file"])
         if (path.is_absolute() or ".." in path.parts or
