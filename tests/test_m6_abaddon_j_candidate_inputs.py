@@ -12,7 +12,7 @@ class AbaddonM6JSelectedInputs(TestCase):
         self.assertEqual(len(result["author_reviewed_red_team_prompt_ids"]),4)
         self.assertTrue(result["pass_c_provenance"]["waiver_and_deck_stage_a_validated"])
         self.assertFalse(result["pass_c_provenance"]["technically_independent"])
-        self.assertEqual(result["mechanical_case_inventory"]["registered"],95)
+        self.assertEqual(result["mechanical_case_inventory"]["registered"],104)
         self.assertFalse(result["readiness"]["phase_b_complete"])
         self.assertEqual(result["readiness"]["m6_j"],"BLOCKED")
         self.assertFalse(result["readiness"]["m7_owner_approved"])
