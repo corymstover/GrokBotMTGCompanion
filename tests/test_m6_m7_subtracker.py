@@ -82,8 +82,8 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==9
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526}
+ assert len(t["m6"]["phase_b_additional_evidence"])==10
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526,528}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
  assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
@@ -194,8 +194,8 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a,chron,warp,ignus,paid,hit,shared,hand=records
-  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"],hit["merged_pr"],shared["merged_pr"],hand["merged_pr"]),(511,512,514,516,518,520,522,524,526))
+  r,a,chron,warp,ignus,paid,hit,shared,hand,stack=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"],hit["merged_pr"],shared["merged_pr"],hand["merged_pr"],stack["merged_pr"]),(511,512,514,516,518,520,522,524,526,528))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
   self.assertEqual(chron["unit_tests"],15)
@@ -209,6 +209,29 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(chron["turn_10"]["assault_for_lost"]["first_assault_activation_paid"],4)
   self.assertTrue((ROOT/chron["evidence"]).is_file())
   self.assertTrue((ROOT/chron["preregistration"]).is_file())
+  self.assertEqual(stack["new_unit_tests"],15)
+  self.assertEqual(stack["predecessor_regression_tests"],20)
+  self.assertEqual(stack["conditional_opponent_windows"],8)
+  self.assertTrue(stack["witnesses"]["quiet_board_ignus_return_is_no_stack_mana_ability"])
+  self.assertFalse(stack["witnesses"]["can_respond_to_ignus_bounce_activation"])
+  self.assertEqual(stack["witnesses"]["uncontested_paid_recasts"],5)
+  self.assertEqual(stack["witnesses"]["uncontested_abaddon_cascades"],5)
+  self.assertFalse(stack["witnesses"]["rule_of_law_after_prior_spell_initial_cast"])
+  self.assertFalse(stack["witnesses"]["rule_of_law_first_ignus_free_cascade_cast"])
+  self.assertFalse(stack["witnesses"]["drannith_free_cascade_cast"])
+  self.assertEqual(stack["witnesses"]["drannith_ignus_paid_hand_recasts"],5)
+  self.assertEqual(stack["witnesses"]["abaddon_removed_next_cascades"],0)
+  self.assertEqual(stack["witnesses"]["birgi_removed_next_recasts"],1)
+  self.assertTrue(stack["witnesses"]["countered_initial_ignus_cascade_persists"])
+  self.assertTrue(stack["witnesses"]["countered_original_ignus_does_not_enter"])
+  self.assertTrue(stack["prearranged_board_not_empirical_probability"])
+  self.assertFalse(stack["actual_opp_spell_simulation"])
+  self.assertFalse(stack["full_multiplayer_gameplay"])
+  self.assertFalse(stack["superiority_proven"])
+  self.assertIsNone(stack["measured_win_rate"])
+  self.assertFalse(stack["canonical_changed"])
+  for key in ("preregistration","evidence"):
+   self.assertTrue((ROOT/stack[key]).is_file())
   self.assertEqual(hand["unit_tests"],15)
   self.assertEqual(hand["physical_variants"],5)
   self.assertEqual(hand["policies"],2)
@@ -340,6 +363,17 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(ignus_case["cascade_first_hit_observation"]["t10_per2000"]["approved_safe_cast_offers"],1822)
   self.assertFalse(ignus_case["cascade_first_hit_observation"]["ramp_or_tutor_effects_resolved"])
   self.assertFalse(ignus_case["cascade_first_hit_observation"]["net_superiority_proven"])
+  o=ignus_case["disruption_oracle_correction"]
+  self.assertEqual(o["registered_windows"],8)
+  self.assertEqual(o["tests_targeted"],15)
+  self.assertEqual(o["tests_predecessor"],20)
+  self.assertEqual(o["witnesses"]["uncontested_paid_recasts"],5)
+  self.assertFalse(o["witnesses"]["rule_of_law_first_ignus_free_cascade_legal"])
+  self.assertFalse(o["witnesses"]["drannith_cascade_free_cast_legal"])
+  self.assertFalse(o["witnesses"]["original_ignus_countered_enters_battlefield"])
+  self.assertFalse(o["actual_opponent_response_probability"])
+  self.assertFalse(o["swap_superiority_proven"])
+  self.assertIsNone(o["win_rate"])
   mana=ignus_case["hand_acceleration_observation"]
   self.assertTrue(mana["actual_non_cascade_hand_ramp_paid"])
   self.assertEqual(mana["engine_first_turn10_per1000"]["ignus_for_rakdos"]["no_hand_acceleration"]["actual_ignus_cascade"],4)

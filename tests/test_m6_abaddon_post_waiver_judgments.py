@@ -150,6 +150,29 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
 
+    def test_ignus_official_no_stack_mana_ability_and_eight_disruption_cases(self):
+        item=next(c for c in self.data["candidates"] if c["card"]=="Grinning Ignus")
+        w=item["disruption_oracle_correction"]
+        self.assertIn("mana ability",w["correction"].lower())
+        self.assertIn("does NOT use stack",w["correction"])
+        self.assertEqual(w["registered_windows"],8)
+        self.assertEqual(w["tests_targeted"],15)
+        self.assertEqual(w["tests_predecessor"],20)
+        self.assertTrue(w["real_physical_source_verified"])
+        self.assertEqual(w["witnesses"]["uncontested_cascades"],5)
+        self.assertEqual(w["witnesses"]["drannith_paid_hand_recasts"],5)
+        self.assertFalse(w["witnesses"]["rule_of_law_prior_boltwave_initial_cast_legal"])
+        self.assertFalse(w["witnesses"]["drannith_cascade_free_cast_legal"])
+        self.assertTrue(w["witnesses"]["original_ignus_countered_prior_abaddon_cascade_still_triggers"])
+        self.assertFalse(w["witnesses"]["original_ignus_countered_enters_battlefield"])
+        self.assertFalse(w["actual_opponent_response_probability"])
+        self.assertFalse(w["full_99_card_gameplay"])
+        self.assertFalse(w["swap_superiority_proven"])
+        self.assertIsNone(w["win_rate"])
+        self.assertEqual(item["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
+        self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))
