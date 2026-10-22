@@ -17,7 +17,7 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 88,
+    "registered_replay_cases": 95,
     "required_unexecuted_cases": 0,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
@@ -28,7 +28,8 @@
     "note_p0_025": "Nine preregistered source-paid Nalfeshnee permanent-copy, sorcery-copy and Wild-Magic cascade cases added for exact-head CI; registration alone is not test PASS.",
     "note_p0_026": "Ten preregistered source-paid Passionate Archaeologist cases attached to exact 100 list; registration is not test PASS until exact-head CI.",
     "note_p0_027": "P0-027 final currently known mandatory P0 class moved to TEN preregistered actual methods. Zero open means the 97-name explicitly scoped audit inventory, not exhaustive Magic gameplay verification. M6.6 still PARTIAL.",
-    "note_p0_028": "After initial 81-case inventory closure, 97-name adequacy audit found source-present Storm-Kiln Artist's Magecraft COPY trigger untested with Nalfeshnee and Brain Freeze; seven exact case methods preregistered, not proof until final-head CI."
+    "note_p0_028": "After initial 81-case inventory closure, 97-name adequacy audit found source-present Storm-Kiln Artist's Magecraft COPY trigger untested with Nalfeshnee and Brain Freeze; seven exact case methods preregistered, not proof until final-head CI.",
+    "note_p0_029": "Full 97-name sufficiency pass found Mind's Desire storm spell-copy exile-play system untested in 88 P0. Seven preregistered methods, including Wizards-confirmed Magecraft storm copies, are added for exact-head execution. Zero known open P0 is not M6.6 complete."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -829,6 +830,69 @@
       "expected_execution": "NEW_STORM_KILN_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json"
+    },
+    {
+      "id": "P0-029a",
+      "mechanic": "Two earlier actually paid hand instants Rite of Flame and Dark Ritual then 4UU Mind from hand -> exactly two virtual storm copies, three independent Mind resolutions each physically exiling a card; Storm-Kiln triggers 3 times for casts and twice for spell copies (5 total). No Nalf copies of hand Mind, no automatic exile plays.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_hand_two_paid_spells_storm2_magecraft",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-029b",
+      "mechanic": "Three separate resolving Mind instances exile actual Boltwave MV1, Arcane Signet MV2 and Swamp; after stack empty legal same-turn main permits two free-cost exile-casts and one land play; Prosper gains three Treasures and Lost three Spawn, whereas Keeper/Archaeologist count only 3 total mana value damage, Nalf spell copies themselves add no Treasure/Spawn.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_deferred_spells_land_prosper_and_lost",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-029c",
+      "mechanic": "Mind resolutions may exile cards that remain physically exiled and generate no Treasure/Spawn merely by being exiled; land plays cannot occur with nonempty stack, on opponent turn, after land drop or after permission expires; after turn ends unplayed card remains exile.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_no_automatic_play_and_permission_expiry",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-029d",
+      "mechanic": "Counter original paid Mind after storm trigger, two pre-existing storm copies each resolve and exile one physical card; original doesn't resolve, so exactly two impulse permissions, and Magecraft copy triggers persist.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_counter_original_storm_copies_survive",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-029e",
+      "mechanic": "Prior hand-cast Boltwave creates X9 with three opponents, Rite of Flame second prior spell, then paid hand Mind MV6 qualifies for exactly one Abaddon cascade (e.g. real Arcane Signet exile cast), plus its two storm copies and original give three separate impulse permissions. Exile-cast Arcane does not itself gain Abaddon cascade.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_x9_hand_abaddon_granted_independent",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-029f",
+      "mechanic": "Paid hand Call MV8 X0 has two printed cascades; first hit actual Mind MV6 cast from exile creates one storm copy (Call prior cast) and one Nalf copy (same Mind is cast from exile), so Mind exiles three physical cards on original+2-copy resolution. Real Mind cast earns Prosper/Lost once and the subsequent printed Sol Ring exile cast once; copies do not.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_cast_from_call_exile_nalf_plus_storm",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
+    },
+    {
+      "id": "P0-029g",
+      "mechanic": "One resolving Mind exile may offer physical Ancestral Vision MV0, which can be cast for no mana using Mind permission although it has no printed mana cost; on exile cast Prosper +1, Lost +1, Keeper/Archaeologist 0, and actual spell draws 3 physical library cards on resolution, preserving 99-source census.",
+      "test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "test_method": "AbaddonMindsDesireP0029.test_desire_zero_cost_ancestral_vision_free_cast",
+      "expected_execution": "NEW_MINDS_DESIRE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json"
     }
   ],
   "required_open": [],
@@ -846,8 +910,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Execute 88 actual P0 case methods including seven previously untested Storm-Kiln copy magecraft rules cases; evaluate true sufficiency separately (76 oracle-only roles, incomplete opponents). M6.6/7 remain PARTIAL and I/J remain BLOCKED.",
-  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_88_CASE_REPLAY_INCLUDING_STORM_KILN_COPY_EVENTS",
+  "next_action": "Run 95 actually named paid physical P0 methods including P0-029, verify full 97 Scryfall, then continue authored risk classification of 74 Oracle-only or older partially modelled names. M6.6/7 partial I/J blocked.",
+  "test_receipt_status": "AWAITING_EXACT_HEAD_95_NAMED_CASE_REPLAY",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -972,6 +1036,20 @@
         "P0-028e",
         "P0-028f",
         "P0-028g"
+      ]
+    },
+    {
+      "id": "P0-029",
+      "status": "REGISTERED_FOR_EXACT_HEAD_EXECUTION_NONCERTIFYING",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json",
+      "case_ids": [
+        "P0-029a",
+        "P0-029b",
+        "P0-029c",
+        "P0-029d",
+        "P0-029e",
+        "P0-029f",
+        "P0-029g"
       ]
     }
   ],
