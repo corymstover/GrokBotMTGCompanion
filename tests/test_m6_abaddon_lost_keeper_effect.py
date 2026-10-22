@@ -13,7 +13,7 @@ from scripts.grixis_m6_abaddon_ignus_stack_windows import (
     verify_study, fixture, relocate, legal_hand_ignus_and_first_cascade
 )
 from scripts.grixis_m6_abaddon_ignus_shared_effects import (
-    assert_conserved, expected_physical
+    assert_conserved, expected_physical, effect_add, source_cast, IGNUS
 )
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -118,13 +118,24 @@ class AbaddonLostKeeperPayoff(unittest.TestCase):
         for variant in self.variants:
             with self.subTest(variant=variant["id"]):
                 lib, s = self.stage(variant)
-                # Countered *after casting* is an adversarial event; this check
-                # does not call first_cascade (which would auto-resolve its hit).
-                # The physical Sol Ring remains top of the source deck until
-                # cast, and its own resolution is intentionally NOT simulated.
-                self.assertEqual(s["deck"][0], HIT)
-                event = ["exile_cast_sol_ring_mv1", "opponent_counter_sol_ring"]
-                self.assertEqual(event[0], "exile_cast_sol_ring_mv1")
+                # Explicit source-paid first Ignus cast on the physical field,
+                # then physically exile the MV1 legal Sol Ring cascade hit and
+                # cast it for free. Opponent counters *that* spell: it goes to
+                # graveyard, never enters battlefield and adds no C mana.
+                # Lost/Keeper triggers were created when the hit was cast.
+                pool = source_cast(s["lands"], s["pool"], IGNUS,
+                                   familiar_controlled=False,
+                                   rakdos_controlled=False,
+                                   opponent_loss=s["loss"])
+                self.assertIsNotNone(pool)
+                s["pool"] = effect_add(pool, r=1)  # Birgi cast trigger resolves
+                s["hand"].remove(IGNUS)
+                hit = s["deck"].pop(0)  # actual first cascade hit in physical 99
+                self.assertEqual(hit, HIT)
+                self.assertEqual(self.oracle_cards[hit]["mv"], 1)
+                s["graveyard"].append(hit)  # countered spell; no Sol Ring ETB/tap
+                s["field"].add(IGNUS)  # original Ignus resolves independently
+                self.assertNotIn(HIT, s["field"])
                 payoff = record_payoffs(s, nonhand_casts=1, cast_mana_values=[1])
                 self.assertEqual(payoff["spawn_tokens"], 1)
                 self.assertEqual(payoff["keeper_targeted_damage"], 1 if variant["keeper"] else 0)
