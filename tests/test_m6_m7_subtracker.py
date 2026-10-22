@@ -63,7 +63,7 @@ def validate(t,r,p,s,w=None):
  assert len({x["deck_id"] for x in new131})==29
  assert all(batch["cycle"]==131 for batch in c131)
  assert all(x["approved_swaps"]==0 and not x["formal_pass_c"] and not x["full_phase_b"] for x in new131)
- assert t["display"]["m6_completed_gates"]==5 and t["display"]["m6_partial_gates"]==1
+ assert t["display"]["m6_completed_gates"]==5 and t["display"]["m6_partial_gates"]==2
  assert t["m6"]["formal_m6_certified_decks"]==0
 
  assert len({x["deck_id"] for x in r130["rows"]})==6
@@ -175,6 +175,18 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertFalse(receipt["proves_swap_superiority"])
   self.assertEqual(receipt["deck_level_phase_b_certificates_issued"],0)
   self.assertEqual((self.t["m6"]["gates"][5]["status"],self.t["m6"]["gates"][5]["completed"]),("PARTIAL",0))
+ def test_abaddon_agent_judgments_only_partially_advance_m6_7(self):
+  path=ROOT/"data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json"
+  d=json.loads(path.read_text())
+  self.assertEqual(d["deck_id"],"Abaddon_the_Despoiler")
+  self.assertEqual(len(d["candidates"]),3)
+  self.assertTrue(all(not c["approved_swap"] for c in d["candidates"]))
+  self.assertTrue(all(v is False for v in d["authority"].values()))
+  gate=self.t["m6"]["gates"][6]
+  self.assertEqual((gate["status"],gate["completed"]),("PARTIAL",0))
+  self.assertTrue(any("abaddon_phase_b_decisions_20261021.json" in x for x in gate["evidence"]))
+  self.assertEqual(self.t["display"]["m6_partial_gates"],2)
+  self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_no_canonical_reapproval_claim(self):
   self.assertIn("do not count",self.t["accounting"]["warning"].lower())
   self.assertEqual(self.t["accounting"]["canonical_approved_locked"],62)

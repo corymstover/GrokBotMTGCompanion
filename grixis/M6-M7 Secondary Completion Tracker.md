@@ -10,10 +10,10 @@
 
 | Milestone | Completed sub-gates | Partially executed gates | Complete deck certifications / review decisions | Official status |
 | --- | ---: | ---: | ---: | --- |
-| **M6 — refinement with formally owner-waived Pass C** | **5/10 (50%)** | 1 | **0/62 certified** | **In progress** |
+| **M6 — refinement with formally owner-waived Pass C** | **5/10 (50%)** | 2 | **0/62 certified** | **In progress** |
 | **M7 — Cory review and second refinement** | **0/6 (0%)** | 0 | **0/62 new M7 decisions** | **Not started** |
 
-**50% means five of ten amended M6 *governance sub-gates*, not 50% of gameplay testing or deck certification.** M6.5's owner-waived completion counts a review-governance substitution, **not** 62 technically independent third-model reviews (actual independent count: **0/62**). All other M6 obligations remain; no Phase B, M7 or M8 acceptance is implied.
+**Two M6 gates are partially advanced: M6.6 effect-aware Phase B and M6.7 decision-grade judgments.** Their partial status contributes zero to the 5/10 completed gate count.\n\n**50% means five of ten amended M6 *governance sub-gates*, not 50% of gameplay testing or deck certification.** M6.5's owner-waived completion counts a review-governance substitution, **not** 62 technically independent third-model reviews (actual independent count: **0/62**). All other M6 obligations remain; no Phase B, M7 or M8 acceptance is implied.
 
 ### M6 sub-gates
 
@@ -25,7 +25,7 @@
 | **M6.4** Commander-first case-specific judgment preparation | ✅ Complete, 62/62 | Cycle131 added the 29 missing source-anchored authored exact-candidate reviews, verified against approved 100s, blueprints and frozen Oracle. This is **not** formal independent Pass C or a conclusion about all 8,848 candidates |
 | **M6.5** Pass C with formal owner waiver | ✅ Complete under owner-waived substitute, 62/62 | Cory explicitly authorized the 62 GPT-6 owner-equivalent Josh-Lee-Kwai reviews to **replace** the third-model requirement on 2026-10-21; independent third-model work was **not performed (0/62)**. See [formal waiver](M6%20Pass%20C%20Owner%20Waiver%202026-10-21.md). The 47 NEEDS TESTING dispositions remain Phase B obligations |
 | **M6.6** Effect-aware Phase B, paired tests, stress & red team | ◐ Partial foundation, **0/62 certified** | Cycles 118–126 supply bounded source, mana and hypothetical opponent fixtures for 3 decks. Cycle125 fixed the original invalid Jewel-to-Rings payment; Cycle126 tested Bolas Mox vs Amplifier across 1,024 paired physical shuffles (300/296/267 payable commander casts, just 3 transforms per policy and 1 Amp doubling). Complete Phase B remains 0/62 |
-| **M6.7** Decision-grade `judgment_review` obligations | ☐ Blocked, 0/62 | Resolve strategic conflicts and human-judgment requirements |
+| **M6.7** Decision-grade `judgment_review` obligations | ◐ Partial, 0/62 certified | Three Abaddon agent-judgment evidence items now pass the decision-class CI gate ([PR #509](https://github.com/corymstover/GrokBotMTGCompanion/pull/509)), but remain HOLD/retain conclusions requiring access and whole-deck conflict resolution; 62-deck decision-grade closure not claimed |
 | **M6.8** I: tested-pool local zero-improvement certification | ☐ Blocked, 0/62 | Requires resolved judgments and all relevant tests; certifies tested pool only, never global optimality |
 | **M6.9** J: final complete reproducibility bundles | ☐ Blocked, 0/62 | 62 *input* receipts exist, but no final complete per-deck evidence bundles |
 | **M6.10** Complete schema-ready packets and M6 acceptance | ☐ Blocked, 0/62 | User-controlled milestone acceptance; 0 formally complete M6 certificates |
