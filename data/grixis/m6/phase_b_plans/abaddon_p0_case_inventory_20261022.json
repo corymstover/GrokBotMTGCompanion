@@ -17,9 +17,10 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 20,
-    "required_unexecuted_cases": 3,
-    "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone."
+    "registered_replay_cases": 28,
+    "required_unexecuted_cases": 2,
+    "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
+    "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -207,15 +208,81 @@
       "expected_execution": "NEW_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    },
+    {
+      "id": "P0-021a",
+      "mechanic": "Loyal Subordinate 3 each opponent before second main => X9 at hand cast, 2 printed plus 1 granted, three physical free casts MV1/2/2 => 5 damage to each opposing creature; three Lost tokens; one skipped physical Swamp returns to library bottom.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_x9_legal_three_separate",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021b",
+      "mechanic": "Preexisting Keeper (6) + Kessig Flamebreather (1) attack unblocked => X7; only two printed cascades at Call cast. Keeper trigger after Sol Ring resolves can raise X to 8, but no third cascade is retroactively added.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_x7_no_retroactive_grant",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021c",
+      "mechanic": "Preexisting Keeper (6) + Storm-Kiln Artist (2) attack unblocked => X8 at Call cast, three cascades. Physical source-paid MV8.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_x8_grant_boundary",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021d",
+      "mechanic": "No opponent lost life this turn => Abaddon does not grant; printed double cascade still occurs, damage3 across two actual free casts.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_x0_printed_still_trigger",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021e",
+      "mechanic": "Abaddon granted at X9; three cascade abilities exile and bottom cards, but Drannith prevents any nonhand free cast; no Lost tokens or contribution from hits.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_drannith_three_triggers_no_hits_cast",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021f",
+      "mechanic": "Call hand cast consumes Rule of Law's one spell; printed and granted cascade exiles cards yet cannot cast hits; source spell still deals zero to opponent creatures if no previous spell this turn.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_rule_of_law_no_free_spells",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021g",
+      "mechanic": "Opponent counters the Call source spell before cascades resolve; pending three abilities still cascade-cast hits, but Call itself never resolves/deals creature damage.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_countered_source_independent_triggers",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-021h",
+      "mechanic": "Prior physically sourced and cast Boltwave MV1 caused 9 life loss; 3 actual physical cascade hits add 1+2+2; Call deals 6 damage to each opposing creature. Pure copy of spell (not cast) excluded.",
+      "test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "test_method": "AbaddonCallForthP0021.test_call_casted_spells_before_resolve_not_copies",
+      "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
     }
   ],
   "required_open": [
-    {
-      "id": "P0-021",
-      "topic": "Call Forth the Tempest MV8 printed double cascade plus conditional third Abaddon-granted cascade under target legality/stack timing",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "Corrected Oracle text verified but no exact physical fully-effect-aware three-cascade trace registered and replayed against the currently recommended 100."
-    },
     {
       "id": "P0-022",
       "topic": "Suspend Inevitable Betrayal 1UU with three counters, final upkeep free exile cast, normal main-phase/target opponent and absence in preferred cut list",
@@ -243,7 +310,24 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Run all exact named 20 cases in a single fail-closed GitHub CI job with durable receipt artifact. Then implement unresolved P0-021/022/023 if not already covered by additional source-linked execution; only when case counts reconcile may M6.6 change.",
-  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS",
-  "completion_claim": false
+  "next_action": "Run 28 exact named P0 cases on PR head, require eight Call Forth subcases passing; then implement P0-022 Inevitable Betrayal suspend and P0-023 Breach/LED/Brain Freeze; no M6 certification claimed.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_021",
+  "completion_claim": false,
+  "newly_covered_parent_topics": [
+    {
+      "id": "P0-021",
+      "status": "REGISTERED_FOR_EXECUTION_NOT_YET_CERTIFIED",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json",
+      "case_ids": [
+        "P0-021a",
+        "P0-021b",
+        "P0-021c",
+        "P0-021d",
+        "P0-021e",
+        "P0-021f",
+        "P0-021g",
+        "P0-021h"
+      ]
+    }
+  ]
 }

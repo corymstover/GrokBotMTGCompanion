@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_021_PREREGISTERED_CALL_FORTH_EXACT_PHYSICAL_CASCADE",
+  "date": "2026-10-22",
+  "head_at_preregistration": "694ff262917ab0aac3836a30a94a6ca43e8e2846",
+  "canonical_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle": {
+    "call_forth_mana_cost": "{5}{R}{R}{R}",
+    "call_forth_mana_value": 8,
+    "call_forth_printed_cascades": 2,
+    "call_forth_oracle_signature": "Call Forth the Tempest deals damage to each creature your opponents control equal to the total mana value of other spells you've cast this turn.",
+    "authority": "https://magic.wizards.com/en/news/feature/the-lord-of-the-rings-tales-of-middle-earth-release-notes",
+    "source": "https://mtg.wtf/card/ltc/509/Call-Forth-the-Tempest",
+    "abaddon": "https://mtg.wtf/card/40k/178/Abaddon-the-Despoiler",
+    "rulings_date": "2023-11-03"
+  },
+  "physical_fixture": {
+    "source_cards": 100,
+    "commander": "Abaddon the Despoiler",
+    "source_lands_tapped_for_call": [
+      "Mountain",
+      "Mountain",
+      "Mountain",
+      "Island",
+      "Island",
+      "Island",
+      "Swamp",
+      "Swamp"
+    ],
+    "canonical_sideboard_or_token_cards_added": 0,
+    "top_first_hit_order": [
+      "Swamp (skip as land)",
+      "Sol Ring MV1",
+      "Arcane Signet MV2",
+      "Talisman of Creativity MV2"
+    ],
+    "zone_policy": "Each cascade exiles a physical top-card sequence; only lower-MV nonlands can be cast; skipped lands bottomed and physically conserved. Abaddon exists in command-zone separate from the 99. All three cascade abilities are independent simultaneous triggers ordered by controller; each free hit resolves before the next cascade trigger."
+  },
+  "cases": [
+    {
+      "id": "call_x9_legal_three_separate",
+      "expected": "Loyal Subordinate 3 each opponent before second main => X9 at hand cast, 2 printed plus 1 granted, three physical free casts MV1/2/2 => 5 damage to each opposing creature; three Lost tokens; one skipped physical Swamp returns to library bottom."
+    },
+    {
+      "id": "call_x7_no_retroactive_grant",
+      "expected": "Preexisting Keeper (6) + Kessig Flamebreather (1) attack unblocked => X7; only two printed cascades at Call cast. Keeper trigger after Sol Ring resolves can raise X to 8, but no third cascade is retroactively added."
+    },
+    {
+      "id": "call_x8_grant_boundary",
+      "expected": "Preexisting Keeper (6) + Storm-Kiln Artist (2) attack unblocked => X8 at Call cast, three cascades. Physical source-paid MV8."
+    },
+    {
+      "id": "call_x0_printed_still_trigger",
+      "expected": "No opponent lost life this turn => Abaddon does not grant; printed double cascade still occurs, damage3 across two actual free casts."
+    },
+    {
+      "id": "call_drannith_three_triggers_no_hits_cast",
+      "expected": "Abaddon granted at X9; three cascade abilities exile and bottom cards, but Drannith prevents any nonhand free cast; no Lost tokens or contribution from hits."
+    },
+    {
+      "id": "call_rule_of_law_no_free_spells",
+      "expected": "Call hand cast consumes Rule of Law's one spell; printed and granted cascade exiles cards yet cannot cast hits; source spell still deals zero to opponent creatures if no previous spell this turn."
+    },
+    {
+      "id": "call_countered_source_independent_triggers",
+      "expected": "Opponent counters the Call source spell before cascades resolve; pending three abilities still cascade-cast hits, but Call itself never resolves/deals creature damage."
+    },
+    {
+      "id": "call_casted_spells_before_resolve_not_copies",
+      "expected": "Prior physically sourced and cast Boltwave MV1 caused 9 life loss; 3 actual physical cascade hits add 1+2+2; Call deals 6 damage to each opposing creature. Pure copy of spell (not cast) excluded."
+    }
+  ],
+  "budget": {
+    "new_random_trajectories": 0,
+    "registered_cases": 8,
+    "physical_deck_variants": 1
+  },
+  "limitations": [
+    "Prearranged physical 8-land paid cast is a conditional setup, not an observed draw/access rate.",
+    "Opponent life-loss combat sources are staged from real deck creatures; blocked/unblocked attacks are explicit assumptions; no opponent likelihood inferred.",
+    "Cascade hits are set atop the exact physical library for effect sequencing, not random hit frequency.",
+    "No full 99-card Magic game simulation or winner determination.",
+    "No M6.6 certification while P0-022 and P0-023 remain required."
+  ],
+  "approval": {
+    "canonical_mutation_allowed": false,
+    "m6_6_complete": false,
+    "m7_owner_approval": false
+  }
+}
