@@ -223,7 +223,7 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(stack["witnesses"]["abaddon_removed_next_cascades"],0)
   self.assertEqual(stack["witnesses"]["birgi_removed_next_recasts"],1)
   self.assertTrue(stack["witnesses"]["countered_initial_ignus_cascade_persists"])
-  self.assertFalse(stack["witnesses"]["countered_original_ignus_does_not_enter"])
+  self.assertTrue(stack["witnesses"]["countered_original_ignus_does_not_enter"])
   self.assertTrue(stack["prearranged_board_not_empirical_probability"])
   self.assertFalse(stack["actual_opp_spell_simulation"])
   self.assertFalse(stack["full_multiplayer_gameplay"])
