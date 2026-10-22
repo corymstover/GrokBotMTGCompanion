@@ -1,0 +1,65 @@
+name: M6 Abaddon source paid hand acceleration shared cascade
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-hand-acceleration-shared.yml
+      - data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json
+      - data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md
+      - scripts/grixis_m6_abaddon_hand_acceleration_shared.py
+      - tests/test_m6_abaddon_hand_acceleration_shared.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  hand-paid-mana:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify source paid six hand accelerants and no physical duplication
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_hand_acceleration_shared.py' -v
+      - name: Run paired unchanged predecessor and six-hand-ramp physical pilots
+        run: python scripts/grixis_m6_abaddon_hand_acceleration_shared.py --out abaddon_hand_ramp_receipt.json
+      - name: Fail closed against invented win rates or canonical approval
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json').read_text())
+          r=json.loads(Path('abaddon_hand_ramp_receipt.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert r['canonical_sha256']==p['authority']['canonical_approved_sha256']
+          assert r['samples_per_variant_policy_mode']==1000
+          assert set(r['results'])==set(p['experiment']['control_modes'])
+          assert all(set(r['results'][m])==set(p['experiment']['policies']) for m in r['results'])
+          assert len(p['verified_hand_accelerants'])==6
+          for mode in p['experiment']['control_modes']:
+           for policy in p['experiment']['policies']:
+            assert set(r['results'][mode][policy])==set(p['experiment']['variants'])
+            for variant,v in r['results'][mode][policy].items():
+             row=v['checkpoints']['10']
+             assert row['actual_supported_effect_resolved']<=row['actual_ignus_cascade_trigger']
+             assert row['actual_ignus_cascade_trigger']<=row['paid_initial_ignus_cast']
+             if mode=='no_hand_acceleration':
+              assert row['hand_accelerants_cast']==0
+              assert row['hand_mana_vault_damage']==0
+             assert row['other_hand_cascades_omitted']>=0
+          for k,v in r['bounds'].items():
+           if k=='measured_win_rate': assert v is None
+           elif k in ('m6_certification_issued','m7_new_owner_approvals'): assert v==0
+           else: assert v is False, (k,v)
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          assert t['m6']['gates'][6]['status']=='PARTIAL'
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          print('PASS: source-paid hand mana only, no M6/M7 authority.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-paid-hand-acceleration-paired-receipt
+          path: abaddon_hand_ramp_receipt.json
+          retention-days: 30
