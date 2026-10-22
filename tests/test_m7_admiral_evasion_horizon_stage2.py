@@ -55,9 +55,9 @@ class AdmiralEvasionHorizon(unittest.TestCase):
                 self.assertEqual((command, companion), (cmd, comp))
                 self.assertEqual(len(path.read_text(encoding="utf-8").strip().splitlines()), 97)
                 expected = HISTORIC | more
-                self.assertEqual(Counter((Counter(physical) - Counter(canon)).elements()), Counter(expected))
+                self.assertEqual(Counter((Counter(physical) - Counter(canon)).elements()), Counter(expected.keys()))
                 self.assertEqual(Counter((Counter(canon) - Counter(physical)).elements()), Counter(expected.values()))
-                self.assertEqual(Counter((Counter(physical) - Counter(d)).elements()), Counter(more))
+                self.assertEqual(Counter((Counter(physical) - Counter(d)).elements()), Counter(more.keys()))
                 self.assertEqual(Counter((Counter(d) - Counter(physical)).elements()), Counter(more.values()))
                 print("RESEARCH_ONLY", filename, "physical=100", "swaps=", len(expected),
                       "sha256=", hashlib.sha256(path.read_bytes()).hexdigest())
