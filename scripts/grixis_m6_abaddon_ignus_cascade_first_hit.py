@@ -33,7 +33,7 @@ def inventory():
     if p["canonical_raw_sha256"]!=prior["canonical_approved_raw_sha256"] or p["source_sha256"]!=prior["source_sha256"]:
         raise ValueError("Frozen approved or source hash drift")
     raw=(ROOT/p["graph_path"]).read_bytes()
-    blob=hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\\0"+raw).hexdigest()
+    blob=hashlib.sha1(b"blob "+str(len(raw)).encode()+b"\0"+raw).hexdigest()
     if blob!=p["graph_git_blob_sha"]:
         raise ValueError("Frozen generated card-mana graph blob changed")
     graph=json.loads(raw)
@@ -235,7 +235,7 @@ def main():
     args=a.parse_args()
     result=run(samples=args.samples)
     if args.out:
-        Path(args.out).write_text(json.dumps(result,sort_keys=True,indent=2)+"\\n",encoding="utf-8")
+        Path(args.out).write_text(json.dumps(result,sort_keys=True,indent=2)+"\n",encoding="utf-8")
     for name,v in result["variants"].items():
         print(name,"T10",json.dumps(v["checkpoints"]["10"],sort_keys=True))
     print("Cascade first-hit opportunity only: no effects, opponents, full-game strength or win rate.")
