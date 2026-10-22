@@ -32,7 +32,7 @@ def library_from_variant(plan, record):
     assert companions == [], companions
     assert len(cards) == 100 and len(set(cards)) == 94
     lib = cards[1:]
-    assert len(lib) == 99 and LOST in lib and HIT in lib and KEEPER in lib == record["keeper"]
+    assert len(lib) == 99 and LOST in lib and HIT in lib and (KEEPER in lib) == record["keeper"]
     assert lib.count("Island") == lib.count("Mountain") == lib.count("Swamp") == 3
     return lib
 
