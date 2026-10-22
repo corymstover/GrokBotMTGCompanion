@@ -1,0 +1,78 @@
+name: M6 Abaddon factorial hand ramp and other hand cascades
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-factorial-ramp-cascades.yml
+      - scripts/grixis_m6_abaddon_factorial_ramp_cascades.py
+      - scripts/grixis_m6_abaddon_hand_acceleration_shared.py
+      - tests/test_m6_abaddon_factorial_ramp_cascades.py
+      - data/grixis/m6/phase_b_plans/abaddon_factorial_hand_ramp_cascades_20261022.json
+      - data/grixis/m6/phase_b_bounded/abaddon_factorial_ramp_cascades_20261022.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  paid-four-arm-physical:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify actual four-arm mana and physical Abaddon cascade source ordering
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_factorial_ramp_cascades.py' -v
+      - name: Preserve single-axis hand mana predecessor
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_hand_acceleration_shared.py' -v
+      - name: Preserve single-axis other hand cascade predecessor
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_other_hand_cascades.py' -v
+      - name: Run preregistered 20000 paired physical four-arm trajectories
+        run: python scripts/grixis_m6_abaddon_factorial_ramp_cascades.py --out abaddon_factorial_ramp_cascade_receipt.json
+      - name: Guard canonical 99-source, 4-arm samples and no certification promotion
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import json
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_factorial_hand_ramp_cascades_20261022.json').read_text())
+          r=json.loads(Path('abaddon_factorial_ramp_cascade_receipt.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          e=p['experimental_design']
+          assert r['canonical_approved_sha256']==p['authority']['approved_raw_sha256']
+          assert r['samples_per_variant_policy_mode']==500
+          assert set(r['arms'])==set(e['modes'])
+          assert e['physical_trials']==20000
+          for mode in e['modes']:
+           assert set(r['arms'][mode])==set(e['casting_orders'])
+           for policy in e['casting_orders']:
+            assert set(r['arms'][mode][policy])==set(e['variants'])
+            for variant in e['variants']:
+             d=r['arms'][mode][policy][variant]['checkpoints']['10']
+             for k in ('paid_initial_ignus_cast_seed','actual_ignus_cascade_seed',
+                       'actual_other_hand_cascade_seed','actual_supported_effect_seed',
+                       'actual_zero_mv_cascade_seed'):
+              assert 0<=d[k]<=500,(mode,policy,variant,k,d[k])
+             if mode!='both':
+              assert len(d)==5, (mode,policy,variant,d)
+             if mode=='neither':
+              assert d['actual_other_hand_cascade_seed']==0
+              assert d['actual_zero_mv_cascade_seed']==0
+             if mode=='both':
+              assert d['zero_mv_cascade_events']>=d['actual_zero_mv_cascade_seed']
+              assert d['cascade_other_hand_events']>=d['zero_mv_cascade_events']
+              assert d['cascade_supported_effect_events']>=d['actual_supported_effect_seed']
+          for k,v in r['bounds'].items():
+           if k=='actual_multiplayer_wins':assert v is None
+           elif k in ('m6_certificates','m7_approval_records'):assert v==0
+           else:assert v is False,(k,v)
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          assert t['m6']['gates'][6]['status']=='PARTIAL'
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          print('PASS: physical four-arm evidence cannot certify decks.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-physically-joined-factorial-four-arm-receipt
+          path: abaddon_factorial_ramp_cascade_receipt.json
+          retention-days: 30
