@@ -3,7 +3,7 @@
 
 Binds the *selected physical 100*, original canonical 100, four authored
 red-team responses, candidate-specific mana analysis, owner-waived nonindependent
-Pass C, and 95 actually registered P0 source tests. Does not claim PASS for
+Pass C, and 104 actually registered P0 source tests. Does not claim PASS for
 unexecuted tests or convert bounded tests into all-effect gameplay reproduction.
 """
 from __future__ import annotations
@@ -100,7 +100,7 @@ def report():
         "stage_a_seal_sha256":"sha256:"+digest(f"{PASS_C_ROOT}/seal.json")}
     validate_pass_c(pass_c,DECK)
     inventory=fetch(P0)
-    if (len(inventory["replay_cases"])!=95 or inventory["required_open"] or
+    if (len(inventory["replay_cases"])!=104 or inventory["required_open"] or
          inventory["authority"]["formal_m6_certified"]):
         raise ValueError("Incomplete or promoted limited Phase B case inventory")
     paths={x["test_file"] for x in inventory["replay_cases"]}
@@ -128,7 +128,7 @@ def report():
       "pass_c_provenance":{"review_class":pass_c["review_class"],"reviewer":pass_c["reviewer"],
                            "technically_independent":False,
                            "waiver_and_deck_stage_a_validated":True},
-      "mechanical_case_inventory":{"registered":95,"known_open":0,
+      "mechanical_case_inventory":{"registered":104,"known_open":0,
           "scope":"Bounded fixture cases only; exact-head execution must be separately evidenced by GitHub Actions."},
       "mana_study":{"source":"BASELINE_ONLY_500_SAMPLES","candidate_simulated":False,
                     "selected_100_land_delta":"UNCHANGED_34_SOURCE_LANDS"},
@@ -155,7 +155,7 @@ def main():
         "sources_bound":len(report_data["source_hashes"]),
         "authored_red_team_responses":len(EXPECTED_RED),
         "selected_lands":report_data["selected_land_count"],
-        "mechanical_cases":95,
+        "mechanical_cases":104,
         "pass_c_owner_waiver_integrity":"PASS",
         "m6_j_certified":False,"path":str(args.out),
         "sha256":hashlib.sha256(args.out.read_bytes()).hexdigest()},sort_keys=True))
