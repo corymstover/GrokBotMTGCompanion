@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_abaddon_ignus_physical_chronological_paid_receipt",
+  "snapshot": "2026-10-21_abaddon_cascade_first_hit_physical_conditional_receipt",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "207de6d858e1248c1316b74819fee2f78d56ab66",
+    "engineering_head": "c10bd2afecd2a71c70d9e0065177a6689bf53401",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
@@ -152,9 +152,10 @@
           "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, Actions 39700709249 PASS, 15 adversarial tests, 2,000 source-paid physical trials per baseline/challenger; first activation 1 and 4 observed, NOT wins)",
           "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / Actions 39702982106 exact-head PASS, 27 tests, four 100-card physical variants x 2000 paired seeds x two land policies, additional preregistered Otawara reserve sensitivity and Lost Spawn fetch triggers)",
           "data/grixis/m6/phase_b_plans/abaddon_ignus_birgi_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md (PR #518; exact-head CI 39704767840 PASS; 16 physical/frozen-source and finite Birgi/Grinning Ignus mana/Abaddon cascade rule tests; no gameplay)",
-          "data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md (PR #520; CI 39706655376 success; 17 tests and 20,000 fixed-policy source-paid named-spell seed trajectories, 5 physical 100-card lists and two casting priorities)"
+          "data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md (PR #520; CI 39706655376 success; 17 tests and 20,000 fixed-policy source-paid named-spell seed trajectories, 5 physical 100-card lists and two casting priorities)",
+          "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522; exact-head CI 39708741461 success; 18 source-locked tests, 5 exact 100-card frozen physical variants x 2,000 paired seeds, 35 subthree nonland targets, legal first-hit cascade exiling and bottoming; still no effects or wins)"
         ],
-        "scope": "Abaddon bounded Phase B now includes PR #520 source-paid, physically held and colored-land-paid development of Nightscape Familiar, Birgi, commander, Boltwave/Flame Rift thresholds, Rakdos, Ignus and Assault slot casts: 17 adversarial tests; 5 frozen one-slot physical variants, 2 deterministic casting policies, 2,000 seeds each (20,000 trajectories). Engine-first turn10 had Ignus initial casts 333/2000 (-Rakdos), 326 (-Familiar), 313 (-Rite), with five additional paid recasts with Abaddon cascade 3, 1, 4 respectively. Burn-first five-cascade witnesses 2,1,4. No rocks, rituals, tutors, nonhand spells/cascade hit resolutions, Neheb/Loyal combats, actual opponents or victories. Separate PR #514 Assault activation is not directly comparable to PR #520 Assault 'cast'. Source-funded setup is NOT a full Phase B game or superiority proof; M6.6 PARTIAL and zero complete deck certificates."
+        "scope": "Abaddon M6.6 PARTIAL. PR #522 adds physical first-MV3-cascade hit resolution and conditional cast legality against a frozen 35 nonland subthree target pool (7 MV0, 15 MV1, 13 MV2). At turn10 with a HYPOTHETICAL trigger after fixed draw/fetch progression, approved and -Rakdos lists offered 1,822/2,000 safe-policy casts; -Nightscape 1,818, -Rite of Flame 1,821. No actual Ignus or opponent-loss setup in those snapshots, and spells from exile have their effects—including ramp, tutors, removal, card draw, storm and burn—UNRESOLVED. The Rule of Law, Drannith, Swan Song, Flusterstorm, self-target Pact and ineffective Pyroblast cases are narrow stack policy tests, not opponent frequencies. PR #520 separately counted genuinely paid Ignus assembly; cannot multiply independent samples into a game win rate. M6.6 no certified full-deck game and remains 0/62."
       },
       {
         "id": "M6.7",
@@ -172,9 +173,10 @@
           "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, CI 39700709249 PASS; confirms few conditional constructively paid activation traces, does not settle comparative cut)",
           "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / exact-head Actions 39702982106, corrected source costs and 7-fetch/nonhand Spawn role; Chaos Warp conditional answer-gap opportunity HOLD)",
           "data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json updated after PR #518 (fourth Grinning Ignus named agent judgment; 98 M5 screened rows, 63 distinct adds, approved baseline retained)",
-          "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md and Actions 39706655376 (PR #520; two-policy 100-card paid setup; Rakdos and Familiar discounts modeled; 0 M7 recommendation accepted)"
+          "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md and Actions 39706655376 (PR #520; two-policy 100-card paid setup; Rakdos and Familiar discounts modeled; 0 M7 recommendation accepted)",
+          "data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522 / exact-head CI 39708741461; 35 subthree physical payoff pool and targetability nuances, candidate cuts remain HOLD)"
         ],
-        "scope": "Four material same-model Abaddon judgments remain: Assault HOLD, Warp HOLD, Ruinous RETAIN, Ignus PRIORITY TEST/HOLD. PR #520 counts physically paid and temporally valid Ignus/Birgi cascades in ten-turn deliberately incomplete named-spell pilots; all three cuts surrender real incumbent role and low event observations don't prove actual deck consistency or strength. No new final 100-card decision-grade full-game tests across relevant table conditions and no owner approval. M6.7 PARTIAL, 0/62."
+        "scope": "Abaddon agent judgments include Assault HOLD, Warp HOLD, Ruinous RETAIN and Ignus PRIORITY/HOLD, now with PR #522 first cascade role pool. The existing library has genuine conditional mana rocks, rituals, tutors and free suspend targets, but most strategic effects have not been resolved and the alternate replacement slots surrender Ragdos/Familiar/Rite role strength. Conditional cascade offer rate alone is NOT a decision-grade net upgrade. Gate M6.7 PARTIAL and 0/62."
       },
       {
         "id": "M6.8",
@@ -448,6 +450,59 @@
         "superiority_proven": false,
         "real_opponent_response_probability": false,
         "canonical_changed": false
+      },
+      {
+        "deck_id": "Abaddon_the_Despoiler",
+        "kind": "PREREGISTERED_SOURCE_LOCKED_PHYSICAL_MV3_CASCADE_FIRST_HIT_AND_STACK_LEGALITY",
+        "topic": "ignus_conditional_cascade_physical_35_card_pool_and_free_cast_permission",
+        "merged_pr": 522,
+        "merge_commit": "c10bd2afecd2a71c70d9e0065177a6689bf53401",
+        "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39708741461",
+        "unit_tests": 18,
+        "physical_variants": 5,
+        "samples_per_variant": 2000,
+        "checkpoints": [
+          4,
+          6,
+          8,
+          10
+        ],
+        "preregistration": "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json",
+        "evidence": "data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md",
+        "physical_target_pool": {
+          "nonland_lt3": 35,
+          "mv0": 7,
+          "mv1": 15,
+          "mv2": 13
+        },
+        "conditional_turn10": {
+          "approved": {
+            "safe_policy_cast_offer": 1822,
+            "artifact_mana_hit": 530,
+            "tutor_hit": 329
+          },
+          "ignus_for_rakdos": {
+            "safe_policy_cast_offer": 1822,
+            "artifact_mana_hit": 530,
+            "tutor_hit": 329
+          },
+          "ignus_for_nightscape": {
+            "safe_policy_cast_offer": 1818,
+            "artifact_mana_hit": 554,
+            "tutor_hit": 336
+          },
+          "ignus_for_rite": {
+            "safe_policy_cast_offer": 1821,
+            "artifact_mana_hit": 542,
+            "tutor_hit": 340
+          }
+        },
+        "actual_engine_assembly_at_snapshot": false,
+        "effects_of_cascade_hits_resolved": false,
+        "full_multiplayer_gameplay": false,
+        "superiority_proven": false,
+        "real_opponent_response_probability": false,
+        "canonical_changed": false
       }
     ]
   },
@@ -537,7 +592,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "M6 5/10 COMPLETE (M6.5 substituted under owner waiver), 2 PARTIAL (M6.6/M6.7); Abaddon source-bound PR520 adds 17 tests + 20,000 named-spell and colored-source paid fixed-trajectory observations, still excludes real multiplayer/full cascade/card selection; 0/62 M6 certified and 0/62 M7 owner decisions, existing 62 canonical approved/locked unchanged."
+    "note": "M6 5/10 complete including narrowly waived M6.5, M6.6/7 partial. Abaddon PR #522 adds 18 verified conditional first-cascade-hit tests, frozen 35 potential MV<3 nonland effects and physically correct bottoming/optional casting; no modeled ramp/tutors effects or real full game. 0 M6 certificates and 0 M7 new approvals; 62/62 canonical locked, unchanged."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
