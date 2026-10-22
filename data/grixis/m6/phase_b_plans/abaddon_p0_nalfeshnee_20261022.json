@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "kind": "M6_ABADDON_P0_025_NALFESHNEE_NONHAND_COPY_PHYSICAL_PREREGISTRATION",
+  "date": "2026-10-22",
+  "preregistration_base_sha": "a34d5eae5ea985a1c57f6c9806436093b7d7fc97",
+  "approved_baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle_sources": [
+    "https://mtg.wtf/card/clb/678/Nalfeshnee",
+    "https://mtg.wtf/card/fdn/79/Boltwave",
+    "https://mtg.wtf/help/rules"
+  ],
+  "oracle_facts": {
+    "nalfeshnee_mana_cost": "{5}{R}",
+    "nalfeshnee_mana_value": 6,
+    "nalfeshnee_text": "Flying. Whenever you cast a spell from exile, copy it. You may choose new targets for the copy. If it's a permanent spell, the copy gains haste and 'At the beginning of the end step, sacrifice this permanent.'",
+    "physical_copy_policy": "Copies are objects on stack, NOT cast. A copy of permanent spell becomes token on resolving but is NOT a 'create a token' event, and token is sacrificed only at beginning of end step. A sorcery copy resolves before original, can choose targets independently. Nonhand actual cast gets Lost and Keeper; virtual copy gets neither, no storm or Abaddon cascade.",
+    "boltwave_text": "{R} sorcery, deals 3 damage to each opponent.",
+    "call_mana_value": 8,
+    "call_printed_cascade": 2
+  },
+  "fixture": {
+    "source": "Preferred complete staged 100 card challenger, 99 actual noncommander cards physically conserved in deck/hand/field/stack/exile/graveyard; virtual copy-token ledger separate",
+    "source_paid": "Call Forth the Tempest from hand after eight distinct physical untapped basic lands pay 5RRR; if opponents have previously lost 9 life from loyal, 3 independently stacked outer cascades; otherwise 2 printed cascades.",
+    "cascade_order": "Top of real deck rearranged to specific actual card names. Spell-copy trigger resolves before the original (ordering of trigger above spell) and subsequent outer cascades continue. No random draw or win probability is implied.",
+    "permanent_copy": "Original artifact and copied permanent token both enter the battlefield, but only original is a physical source-card. The copied token has haste, and scheduled end-step sacrifice applies only to the copy.",
+    "opponent_loss": "Boltwave copy and original each affect 3 real opponents for 3 life, explicitly conditional on no damage prevention; initial X checked at original hand cast, not retroactive."
+  },
+  "registered_cases": [
+    {
+      "id": "nalf_permanent_artifact_copy_eot_sac",
+      "expected": "First exile-cast Arcane Signet MV2 produces a Nalfeshnee spell copy -> haste token on resolution and normal source artifact; end-step sacrifice removes only copy. One cast produces one Lost Spawn and one Keeper trigger at MV2, no extra Abaddon cascade."
+    },
+    {
+      "id": "nalf_sorcery_boltwave_resolves_twice",
+      "expected": "One physically cast Boltwave MV1 from Call printed cascade produces exactly one virtual copy and one original resolution: 6 damage to EACH opponent in absence of prevention, but only one nonhand cast, Lost spawn, and Keeper target damage 1."
+    },
+    {
+      "id": "nalf_three_independent_cascade_hits_x9",
+      "expected": "Hand Call MV8 X9 provides 3 independently sourced cascade casts Arcane Signet MV2, Sol Ring MV1, Boltwave MV1. Each produces Nalf copy, but Call sweeper other cast MV=4 (not 8) and Lost Spawn=3."
+    },
+    {
+      "id": "nalf_no_retroactive_abaddon_from_boltwave",
+      "expected": "Hand Call X0 has only two printed cascades; first Boltwave copy + original creates opponent aggregate 18 loss after Call cast; never grants retroactive third cascade."
+    },
+    {
+      "id": "nalf_original_boltwave_countered_copy_survives",
+      "expected": "After physical exile Boltwave cast, opponent counters its original while Nalf spell-copy trigger/copy still resolves. Three damage each from copy, one actual cast, original ends in graveyard."
+    },
+    {
+      "id": "nalf_removed_after_first_cast",
+      "expected": "Nalfeshnee removed after first exile spell cast and its triggered copy ability placed on stack; first copy persists, later exiled physical casts do NOT copy."
+    },
+    {
+      "id": "nalf_drannith_rule_of_law",
+      "expected": "Drannith and Rule of Law in separate policies both deny cascade exile casts after hand Call; printed/Abaddon cascade abilities still resolve but generate no Nalf copies or Lost spawns."
+    },
+    {
+      "id": "nalf_entering_from_first_cascade_no_retro_copy",
+      "expected": "Nalfeshnee itself is first spell cast from exile and enters from first cascade, cannot copy its own cast; the later two exile-cast artifacts are copied once each."
+    },
+    {
+      "id": "nalf_wild_magic_nested_no_copy_recursion",
+      "expected": "With Wild-Magic on battlefield, first Arcane Signet cast from exile gains one extra cascade hitting physically sourced Sol Ring; both real casts get Nalf copies (not four casts), their spell copies cannot themselves gain or trigger cascade. Other printed Call hit proceeds independently."
+    }
+  ],
+  "stop_rule": "9 deterministic methods; no randomized games, no new deck changes or M6 certifications; preserve three original gap topics until exact-head CI passes P0-025.",
+  "budget": {
+    "new_methods": 9,
+    "random_trials": 0,
+    "physical_deck_variants": 1
+  },
+  "governance": {
+    "canonical_unchanged": true,
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_i": "BLOCKED",
+    "m6_j": "BLOCKED",
+    "owner_m7_approved": false
+  }
+}
