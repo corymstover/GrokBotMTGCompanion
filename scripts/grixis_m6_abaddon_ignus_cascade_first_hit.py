@@ -38,6 +38,21 @@ def inventory():
         raise ValueError("Frozen generated card-mana graph blob changed")
     graph=json.loads(raw)
     cards={x["name"]:x for x in graph["nodes"] if x.get("kind")=="card" and x.get("zone") in ("main","command")}
+    # The frozen card graph rightly contains only the approved list; two
+    # proposed additions have their OWN preregistered source-verified costs.
+    # Never classify a physical challenger from a guessed missing graph node.
+    ignus=json.loads((ROOT/"data/grixis/m6/phase_b_plans/abaddon_ignus_birgi_20261021.json").read_text())
+    byname={r["card"]:r for r in ignus["source_verification"]}
+    if byname["Grinning Ignus"]["cost"]!="{2}{R}":
+        raise ValueError("Grinning Ignus registered printed cost drift")
+    assault=json.loads((ROOT/"data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json").read_text())
+    if "Aggravated Assault" not in str(assault):
+        raise ValueError("Assault preresolved challenger role absent")
+    from grixis_m6_abaddon_assault_access import SPELL_COST
+    if SPELL_COST["Aggravated Assault"]!=(3,(0,0,1)):
+        raise ValueError("Aggravated Assault source cost changed")
+    cards["Grinning Ignus"]={"name":"Grinning Ignus","mv":3,"type_line":"Creature — Elemental","source":"PR518 source-verification"}
+    cards["Aggravated Assault"]={"name":"Aggravated Assault","mv":3,"type_line":"Enchantment","source":"PR514 frozen source-paid cost fixture"}
     if not all(name in cards for name in set(baseline)):
         raise ValueError("Source physical cards missing from graph")
     under=[name for name in baseline if not is_land(cards[name])
