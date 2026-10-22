@@ -75,6 +75,12 @@ This is heightened **analysis**, not a mandate for a large number of new simulat
 - **M8:** Verify all 62 owner-approved final lists and exports; no automatic certification from completed paperwork.
 - Recover each deck's actual GitHub decision record after chat limits. **Never reset the analysis, rerun all test plans, or conflate unrun tests with passed ones.**
 
+## Canonical source discipline across the full roster
+
+The engineering mirror contains **seven** individual `exports/grixis-archidekt/source-baseline/*.txt` files, not 62. For remaining decks, use each `data/grixis/registry.json` `canonical_project_list.path` and only that Markdown file's `Decklist (Archidekt import)` source block. **Do not use the top-level `exports/grixis-archidekt/<slug>.txt` as canonical**: those exports may contain Bot-refined or derived officially legal projections (notably substitutions in the approved Bjorna/Cecily exception deck). For every final M7 packet, also independently recheck the live source repository's exact approved hash and current legality; an archived mirror alone does not establish latest canonical authority.
+
+Exactly 100 cards include the commander(s); the authorized Bjorna/Cecily `Lutri, the Spellchaser` companion is **outside** that 100 and officially banned as a companion, while `Trade Secrets` and `Yawgmoth's Bargain` are preserved as project exceptions. Named card-text deckbuilding exceptions (e.g. up to nine `Nazgûl`, seven `Seven Dwarves`) differ from unrestricted permission to duplicate singleton nonbasic cards. Verify these Oracle exceptions rather than falsely failing compliant lists.
+
 ## Machine-enforced review contract
 
 Use `data/grixis/m7/decision_reviews/<deck_id>.json` with `data/grixis/schemas/m7_decisive_optimization.schema.json` and `scripts/grixis_m7_decision_gate.py`. The gate checks candidate decisions, exact swaps, nonempty substantive evidence/tradeoffs, decision-question and stop-rule controls for expensive tests, complete final-list audit status and a special low-swap audit. **Passing structural validation cannot replace a real strategic review, current Oracle lookup or the owner's approval.** A broken/absent packet cannot claim M7 readiness. Preserve separate milestone and governance statuses.
