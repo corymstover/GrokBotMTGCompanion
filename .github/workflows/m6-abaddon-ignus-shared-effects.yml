@@ -1,0 +1,61 @@
+name: M6 Abaddon physically joined Ignus cascade effects
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-ignus-shared-effects.yml
+      - scripts/grixis_m6_abaddon_ignus_shared_effects.py
+      - tests/test_m6_abaddon_ignus_shared_effects.py
+      - data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json
+      - data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  physically-paid-effects:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify source-locked actual hit effects, card conservation and stack cases
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_shared_effects.py' -v
+      - name: Physically run shared paid ignition and restricted cascade effects
+        run: python scripts/grixis_m6_abaddon_ignus_shared_effects.py --out abaddon_shared_effects_receipt.json
+      - name: Reject unsupported effect/win/approval assertions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json').read_text())
+          r=json.loads(Path('abaddon_shared_effects_receipt.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert r['canonical_approved_sha256']==p['source']['approved_raw_sha256']
+          assert r['samples_per_variant_policy']==2000
+          assert set(r['variants'])==set(p['policies'])
+          assert set(r['variants']['engine_first'])==set(p['variants'])
+          assert len(p['resolution_model']['supported_effects'])==12
+          assert p['sample']['max_ignus_recasts_per_main']==5
+          for policy in p['policies']:
+           for variant in p['variants']:
+            d=r['variants'][policy][variant]['checkpoints']['10']
+            assert d['actual_supported_effect_resolved']<=d['actual_ignus_cascade_trigger']<=d['paid_initial_ignus_cast']+d['five_cascade_recasts']*2000
+            assert d['unsupported_declined']>=0
+          for k,v in r['bounds'].items():
+           if k=='actual_game_win_rate': assert v is None
+           elif k in ('m6_certificates','m7_decks_approved'): assert v==0
+           elif k=='land_only_setup_except_cascade_created_mana': assert v is True
+           else: assert v is False, (k,v)
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          assert t['m6']['gates'][6]['status']=='PARTIAL'
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          print('PASS: source-limited real effects cannot confer M6 or M7 approval.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-ignus-shared-effect-paid-receipt
+          path: abaddon_shared_effects_receipt.json
+          retention-days: 30

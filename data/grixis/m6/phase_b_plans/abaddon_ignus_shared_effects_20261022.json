@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "local_date": "2026-10-22",
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M6_6_PREREGISTERED_SAME_STATE_PAID_IGNUS_CASCADE_EFFECTS_SUBSET",
+  "source": {
+    "engine_branch_base": "593e975beadac704d0bef0cce3ec38e04a5fa2e1",
+    "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "physical_baseline_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "predecessor_paids": "scripts/grixis_m6_abaddon_ignus_paid_chronology.py",
+    "predecessor_cascade": "scripts/grixis_m6_abaddon_ignus_cascade_first_hit.py",
+    "current_card_audit": "corymstover/grixis-commander-encyclopediaGPT/refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv"
+  },
+  "variants": [
+    "approved",
+    "ignus_for_rakdos",
+    "ignus_for_nightscape_familiar",
+    "ignus_for_rite_of_flame",
+    "assault_for_rakdos"
+  ],
+  "policies": [
+    "engine_first",
+    "burn_first"
+  ],
+  "sample": {
+    "seed": 621017,
+    "n_per_variant_policy": 2000,
+    "turns": 10,
+    "checkpoints": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "three_opponents": true,
+    "opening_cards": 7,
+    "own_turn_draw_each_turn": 1,
+    "one_land_play_per_turn": 1,
+    "max_ignus_recasts_per_main": 5
+  },
+  "resolution_model": {
+    "physical_zones": [
+      "library",
+      "hand",
+      "battlefield",
+      "graveyard",
+      "exile"
+    ],
+    "physical_library_mutates_after_draw_fetch_tutor_cascade": true,
+    "cascade_trigger_eligibility": "Only paid Grinning Ignus casts from hand during own turn with commander controlled and opponent aggregate turn loss >=3; printed MV3 irrespective of reductions. Other possible commander-granted cascade triggers from unrelated hand spells are deliberately omitted and flagged.",
+    "birgi": "If front face already controlled, one red added after cast-trigger resolution, before cascade trigger resolution; additional eligible free cast also generates Birgi red if controlled; casting Birgi itself does not trigger its own ability.",
+    "first_hit": "physically exile cards until first nonland MV < 3, choose optional cast only for source-verified supported subset with legal fixed targets, physically return all uncast exiles to library bottom in seeded shuffled order",
+    "supported_effects": {
+      "Dark Ritual": "Add BBB at resolution; spell goes to graveyard",
+      "Rite of Flame": "Add RR plus R per *other* Rite of Flame already in a graveyard; card resolves then moves to graveyard",
+      "Boltwave": "3 to each of 3 opponents (aggregate 9), no pilot damage",
+      "Flame Rift": "4 to each of 3 opponents (aggregate 12), 4 pilot damage, pilot tracked only for this effect",
+      "Ancestral Vision": "target self, draw up to three cards from current physical library into physical hand",
+      "Sol Ring": "artifact enters; once in its entry turn, tap to add CC into shared main-phase pool (tracked tapped)",
+      "Lotus Petal": "artifact enters; immediately tap and sacrifice for R, enters graveyard; fixed red-choice policy",
+      "Profane Tutor": "Search actual remaining library for highest-priority target from fixed list, move card to hand, seeded shuffle; if no candidate available select lexical first eligible nonland as fallback",
+      "Demonic Tutor": "Same actual physical library search and move to hand; no imagined copy",
+      "Vampiric Tutor": "Search actual library, seeded shuffle, place target card on TOP; pilot loses 2 (tracked)",
+      "Imperial Seal": "Same top-deck search and pilot 2 life loss (tracked); fixed sorcery timing bypassed only because cascade lets its sorcery spell be cast during cascade resolution",
+      "Gamble": "Search library, put physical target in hand, seeded shuffle, random one physical card discarded (including possibly tutored card) to graveyard; never assume tutored card survives"
+    },
+    "tutor_priority": [
+      "Boltwave",
+      "Flame Rift",
+      "Rite of Flame",
+      "Dark Ritual",
+      "Sol Ring",
+      "Lotus Petal",
+      "Nightscape Familiar",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty"
+    ],
+    "unsupported_or_declined": [
+      "Chrome Mox (imprint)",
+      "Lion's Eye Diamond (hand-discard activation)",
+      "Mana Vault (timed untap/draw damage)",
+      "Arcane Signet",
+      "Talisman of Creativity",
+      "Talisman of Dominance",
+      "Talisman of Indulgence",
+      "Inevitable Betrayal (opponent library unknown)",
+      "Mystical Tutor (instant/sorcery search with card text timing)",
+      "Other eligible unmodeled spells"
+    ],
+    "decline_policy": "If first eligible hit is unsupported or lacks permitted targets, do not cast, put it and other exiles to bottom. Cascade cannot skip this hit to find a later preferred spell.",
+    "token_or_other_trigger_effects": "NOT modeled: Storm-Kiln Artist, The Lost and the Damned, Prosper, Keeper of Secrets, Passionate Archaeologist or any alternate hand-cast cascade (must disclose)"
+  },
+  "adversarial_cases": [
+    "Dark Ritual adds exactly 3 black into same shared main-phase pool; no source invented",
+    "Rite of Flame adds exactly 2 red with no other Rite in graveyard, even if resolving original later moves to graveyard",
+    "Sol Ring enters battlefield and taps once for 2 colorless; its mana is not colored and is not reactivated in same turn",
+    "Lotus Petal single red choice costs its physical artifact; moves to graveyard once",
+    "Ancestral Vision draws three from real mutable library; next cascade encounters shifted top and cards are not duplicated",
+    "Profane Tutor physically searches and removes target to hand then reshuffles physical residual deck; target is not cast automatically",
+    "Vampiric/Imperial top-deck tutor changes next cascade outcome and causes 2 pilot life loss; not opponent threshold",
+    "Gamble discards exactly one randomly chosen physical card including possible tutored piece; zero guaranteed tutor retention",
+    "Ignus MV3 cascade no duplicate grant to spell cast from exile and no automatic self-cascade by cast hit",
+    "Rule of Law/Drannith remain isolated conditional exclusions (cannot treat as a noninteractive sampled frequency)",
+    "Any unsupported eligible hit is put back on library bottom, not magically resolved",
+    "At most five paid recasts per main, all sharing the single physically mutated deck, mana pool, land taps, hand and zone inventories",
+    "Rakdos, Familiar and Rite incumbent opportunity costs are not scored zero"
+  ],
+  "metrics": [
+    "paid_ignus_initial_cascade",
+    "paid_ignus_recast_cascade",
+    "actual_supported_hit_cast",
+    "actual_supported_hit_effect_resolved",
+    "unsupported_or_illegal_hit_declined",
+    "mana_units_generated_by_hit_by_color",
+    "cards_physically_drawn_by_hit",
+    "cards_physically_tutored_to_hand",
+    "cards_physically_tutored_to_top",
+    "opponent_life_loss_by_hit",
+    "source_paid_spell_access",
+    "physical_inventory_zone_conservation",
+    "conditional_ignored_other_hand_cascades"
+  ],
+  "limits": {
+    "all_nonland_99_effects_implemented": false,
+    "land_only_setup_except_cascade_created_mana": true,
+    "actual_opponent_interaction": false,
+    "combat_and_postcombat_effects": false,
+    "actual_game_win_rate": null,
+    "net_challenger_superiority_proved": false,
+    "m6_completed": false,
+    "m6_certificates": 0,
+    "m7_decks_approved": 0,
+    "canonical_changed": false
+  }
+}
