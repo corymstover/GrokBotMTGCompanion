@@ -1,0 +1,515 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical_baseline_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "canonical_baseline_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "commander_identity": {
+    "mechanical_plan": "During your turn, prior opponent life loss sets X; qualifying mana-value≤X real spells CAST FROM HAND gain cascade. Cascade exile-casts feed Warhammer Lost, Keeper and other distinct payoffs, not generic Grixis combo.",
+    "protected_core": [
+      "Boltwave",
+      "Flame Rift",
+      "Loyal Subordinate",
+      "The Lost and the Damned",
+      "The Ruinous Powers",
+      "Call Forth the Tempest",
+      "Keeper of Secrets",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Neheb, the Eternal",
+      "Underworld Breach",
+      "Brain Freeze",
+      "Lion's Eye Diamond",
+      "Nalfeshnee",
+      "Prosper, Tome-Bound",
+      "Passionate Archaeologist",
+      "Storm-Kiln Artist"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized: high-efficiency 40K threshold burn and cascade with a compact Breach backup, but requiring actual on-turn setup and resisting forced competitive turbo-homogenization.",
+    "anti_homogenization": "Preserve The Lost and the Damned, The Ruinous Powers, Keeper, Loyal, Neheb, printed double cascade, Nalfeshnee and hand-cast threshold as the central on-theme gameplay rather than an interchangeable Breach deck."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All baseline noncommander cards reviewed in the source deep audit: burn and life loss establish threshold; counterspells protect the stack; rituals/ramp and 34 lands support 5 MV commander; Storm-Kiln Magecraft handles casts AND virtual copies; 40K Lost/Keeper fuel cascaded nonhand spells.",
+    "mana_base_and_curve": "Thirty-four canonical lands retained, including 3 Islands, 3 Mountains, 3 Swamps, premium fetches/typed duals and rainbow sources. Cabal Ritual's black-only net boost departs; three noncreature spells are added as efficient answers, while Spark and Assault add four/three-mana resilient payoffs. Color availability and paid mana verified structurally and conditionally; no fabricated exact matchup casting probability.",
+    "interaction_resilience": "Chaos Warp supplies resolved nonland-permanent interaction beyond countermagic, Otawara and damage; still can reveal another threat. Drannith, Rule of Law and graveyard hate remain bounded adverse conditions, with source-paid P0 evidence covering cast denial and copies.",
+    "weakest_slots": [
+      {
+        "card": "Rakdos, Lord of Riots",
+        "weakness": "Demanding BBRR creature-only discount cannot consistently advance noncreature Abaddon hand-cascade chains.",
+        "alternative_named": "Grinning Ignus",
+        "reasoning": "Lose a big flying body to acquire repeatable payable hand cast events, subject to Birgi and threshold prerequisites."
+      },
+      {
+        "card": "Inevitable Betrayal",
+        "weakness": "Excellent MV0 cascade theft but poor normal hand cast and never removes a resolved restrictive enchantment.",
+        "alternative_named": "Chaos Warp",
+        "reasoning": "Trade creature-steal upside and low-MV cascade hit density for a direct answer to hostile resolved permanents."
+      },
+      {
+        "card": "Bituminous Blast",
+        "weakness": "Five mana and an enemy creature target are necessary; conditional extra printed cascade does not always fire.",
+        "alternative_named": "Spark Double",
+        "reasoning": "A second nonlegendary Abaddon grants extra cascade to every qualifying future hand spell; cost is printed cascade removal."
+      },
+      {
+        "card": "Cabal Ritual",
+        "weakness": "Black-only threshold-dependent ritual bursts are less reliably relevant than an inexpensive on-turn threshold source.",
+        "alternative_named": "Orcish Bowmasters",
+        "reasoning": "Exchange raw paid BBB/BBBBB acceleration for wheel-based immediate loss and flexible flash creature pressure."
+      },
+      {
+        "card": "Force of Negation",
+        "weakness": "Free counter condition applies only outside your own turn and can be an expensive awkward hand cascade hit.",
+        "alternative_named": "Cyclonic Rift",
+        "reasoning": "Lose an important opponent-turn free counter to address resolved nonland threats and overloaded reset under paid mana."
+      },
+      {
+        "card": "Exalted Flamer of Tzeentch",
+        "weakness": "Four-mana delayed and random recursion plus spell-cast ping can be too slow to convert the existing Neheb/Loyal combat board.",
+        "alternative_named": "Aggravated Assault",
+        "reasoning": "Trade Warhammer spell-burn resilience for an additional payable repetitive combat-phase victory path."
+      },
+      {
+        "card": "The Ruinous Powers",
+        "weakness": "Four mana and a next-upkeep random opponent spell create tempo and opponent-choice risk.",
+        "alternative_named": "Sheoldred, the Apocalypse",
+        "reasoning": "Retain: original 40K opponent-owned-card exile casting directly enables nonhand payoffs and owner life loss."
+      },
+      {
+        "card": "Profane Tutor",
+        "weakness": "Suspend delays normal access and no printed mana cost prevents regular hand casting.",
+        "alternative_named": "Dig Through Time",
+        "reasoning": "Retain: an actual cascade hit makes this unrestricted tutor free at zero MV, whereas delve may consume Breach fuel."
+      },
+      {
+        "card": "Pact of Negation",
+        "weakness": "A zero-MV cascade hit without a legal spell target is often dead and can leave an unpaid future debt.",
+        "alternative_named": "Cyclonic Rift",
+        "reasoning": "Retain: no-cost stack protection on a decisive combo turn is distinct from Rift's battlefield reset."
+      },
+      {
+        "card": "Xander's Lounge",
+        "weakness": "A tapped land loses immediate tempo in a five-mana three-color commander with burst mana needs.",
+        "alternative_named": "Reflecting Pool",
+        "reasoning": "Retain: fetchable three-color land types outweigh one-turn delay; Reflecting Pool needs other colored lands."
+      }
+    ],
+    "current_baseline_strength": "Original approved 100 preserves reliable zero-MV theft hit and Rakdos creature discounts, 40K theme, early burn, free-cascade payoffs and Breach loop; its prior approval remains untouched until explicit owner decision.",
+    "candidate_pool_scope": "12 different material candidate judgments plus ten named genuinely plausible incumbent opportunities, including missed off-ranking clone, wheel, overload and extra-combat synergies; three independent exact 100-card configurations with explicit cuts, reflecting the Oct22 owner directive.",
+    "off_ranked_search_conclusion": "Off-ranking Spark Double, Sakashima, Irenicus, Bowmasters, Sheoldred, Rift, Dig and Treasure all assessed against actual printed Oracle and role tradeoffs; previous five-candidate M7 packet rejected as insufficient rather than copied to KEEP."
+  },
+  "candidate_sources": [
+    "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md — all-100 baseline slot-and-role audit plus off-ranking research",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json — two SHA-pinned coherent complete 100-card alternatives",
+    "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md — authored SELECT/REJECT/RETAIN disposition and tradeoffs",
+    "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json — 95 actual named source-accounted mechanics cases",
+    "Off-ranking candidate scans and original 60 authored candidate decisions documented in the October 19 deep review",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+    "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39832798134",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39833569544",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39834064862"
+  ],
+  "material_candidates": [
+    {
+      "card": "Grinning Ignus",
+      "source": "M6 all-card off-ranking audit, M7 precise v2 portfolio and paid Ignus cascade cases.",
+      "role": "Repeatable real hand-cast mana-value-three source to convert same-turn life-loss threshold into additional Abaddon cascades.",
+      "named_cuts": [
+        "Rakdos, Lord of Riots"
+      ],
+      "incumbent_opportunity_cost": "Remove creature-only discount and a large conditional flying trample body with a demanding BBRR cost.",
+      "commander_synergy": "With Birgi and a legal mana-paid return/recast loop, each real hand cast at threshold X≥3 is independently eligible for Abaddon cascade and additional exile-cast 40K payoffs.",
+      "adversarial_downside": "Requires Ignus in hand, mana, battlefield Abaddon and early opponents’ life loss; removal, Rule of Law and Drannith can stop its intended sequence.",
+      "judgment": "SELECT_ADD",
+      "reason": "Most repeatable commander-first hand-cast engine versus the narrower expensive creature-discount role, preserving essential Birgi and 40K token/damage support.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md",
+        "tests/test_m6_abaddon_lost_keeper_effect.py",
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json"
+      ]
+    },
+    {
+      "card": "Chaos Warp",
+      "source": "October 19 role/answer audit, current Oracle tests and two complete M7 physical challengers.",
+      "role": "Instant-speed answer to resolved nonland permanents, including enchantments and artifacts that most current damage/counter spells miss.",
+      "named_cuts": [
+        "Inevitable Betrayal"
+      ],
+      "incumbent_opportunity_cost": "Lose MV0 free-cascade or Mind's Desire creature theft, whose best hits may decide a creature-rich combo table.",
+      "commander_synergy": "Answer stax and troublesome permanents that stop Abaddon’s hand-casts or Breach while still being a 2R hand spell that can qualify for cascade at X≥3.",
+      "adversarial_downside": "Chaos Warp shuffles target away then reveals replacement permanent; can replace the removed hate piece with another dangerous permanent.",
+      "judgment": "SELECT_ADD",
+      "reason": "Improves practical resolved-permanent defense without diluting 40K cascade/payoff core, in exchange for opponent-dependent high ceiling of zero-MV theft.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md",
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json"
+      ]
+    },
+    {
+      "card": "Stormfist Crusader",
+      "source": "M5 candidate pool and historical authored review of opponent-life-loss enablers in original Abaddon deep audit.",
+      "role": "Low-mana repeatable all-player upkeep draw and life-loss source that can help qualify Abaddon threshold.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Sacrifices generic blue/red spell discounts that support Ignus recast, counters and tempo.",
+      "commander_synergy": "Provides recurring opponent life-loss independent of damage while its additional draw could locate more hand spells.",
+      "adversarial_downside": "Draws cards for opponents, requires surviving a turn and does not guarantee an early cast-turn life-loss threshold; less mana efficient than one-red Boltwave.",
+      "judgment": "REJECT",
+      "reason": "Already strong same-turn burn exists; giving opponent cards and losing Familiar cost reduction is too high relative to the chosen hand-cast package.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md"
+      ]
+    },
+    {
+      "card": "Past in Flames",
+      "source": "M5 off-ranking pool and existing Breach/LED/Brain Freeze rules and complete deck role audit.",
+      "role": "Graveyard spell flashback recursion and fallback storm enabler outside the main threshold engine.",
+      "named_cuts": [
+        "Rite of Flame"
+      ],
+      "incumbent_opportunity_cost": "Removes a cheap immediate red ritual from explosive opening, Threshold X and Breach resource windows.",
+      "commander_synergy": "Recasting instant/sorceries from graveyard can create nonhand spell triggers and storm count, but does not itself create repeated hand-cast Abaddon cascade.",
+      "adversarial_downside": "MV4 red setup repeats a graveyard axis already anchored by compact Breach combo, becoming dead through graveyard hate or Rule of Law.",
+      "judgment": "REJECT",
+      "reason": "More redundant graveyard-centric combo than distinctive Abaddon life-loss-to-hand-cascade; the one-red ritual has better early role density.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md"
+      ]
+    },
+    {
+      "card": "Aggravated Assault",
+      "source": "M6 full deep review plus revised off-ranking six-swap portfolio",
+      "role": "Controlled Abaddon, Neheb and Loyal combat conversion into source-paid extra combats",
+      "named_cuts": [
+        "Exalted Flamer of Tzeentch"
+      ],
+      "incumbent_opportunity_cost": "Cuts 40K random upkeep recursion and each instant/sorcery spell's 1 damage to every opponent.",
+      "commander_synergy": "Every Loyal combat trigger adds three loss per opponent, and each subsequent Neheb postcombat main makes cumulatively more red to pay another Assault activation.",
+      "adversarial_downside": "Assault is low floor when Neheb/Loyal or commander is removed, and opponent responses break any conditional loop.",
+      "judgment": "SELECT_ADD",
+      "reason": "The on-list Neheb/Loyal package already supplies the difficult pieces; Assault adds a unique recurring combat victory path with correct cumulative life and payable red.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Spark Double",
+      "source": "Previously missed nonlegendary commander-copy interaction",
+      "role": "Nonlegendary duplicate of Abaddon doubling separate hand-cast cascade triggers",
+      "named_cuts": [
+        "Bituminous Blast"
+      ],
+      "incumbent_opportunity_cost": "Lose five-MV target-requiring instant creature removal and a printed cascade trigger.",
+      "commander_synergy": "Each qualifying own-turn spell cast from hand gets two distinct Abaddon-granted cascade instances; keeps physical 100 source and Warhammer core.",
+      "adversarial_downside": "Requires Abaddon present as Spark enters and four paid mana; both can be removed; not every exile-cast spell is from hand.",
+      "judgment": "SELECT_ADD",
+      "reason": "Highest commander-specific repeated cascade multiplier; replaces conditional expensive creature damage that has important but narrower printed-cascade value.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Orcish Bowmasters",
+      "source": "Live Scryfall plus overlooked wheel threshold alternative",
+      "role": "Flash ETB ping, amass body and opponent draw-triggered cumulative on-turn damage",
+      "named_cuts": [
+        "Cabal Ritual"
+      ],
+      "incumbent_opportunity_cost": "Lose powerful black-only ritual burst, potentially weakening an early Breach/tutor turn.",
+      "commander_synergy": "An own-turn Wheel of Fortune or Windfall causes separate opponent draw triggers (up to 21 at 3x7), yielding life loss and threshold only on resolution.",
+      "adversarial_downside": "Bowmasters removed before draws or targets protected; wheels absent means small baseline effect and excess draw is opponent-dependent.",
+      "judgment": "SELECT_ADD",
+      "reason": "At two mana improves both pre-commander interaction and own-turn wheel threshold with inexpensive flash flexibility, without abandoning Breach.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Cyclonic Rift",
+      "source": "Live Scryfall official overload Oracle/source mechanical proof",
+      "role": "Paid instant or overloaded nonland-permanent reset, printed MV2 for Abaddon cascade",
+      "named_cuts": [
+        "Force of Negation"
+      ],
+      "incumbent_opportunity_cost": "Lose free exile counter on opponent turns and a hard answer to an opposing stack spell.",
+      "commander_synergy": "An already resolved restrictive permanent can be bounced, and hand-cast overloaded Rift has printed MV2 and receives Abaddon cascade when X>=2.",
+      "adversarial_downside": "Seven mana for overload is substantial, opponent can recast bounced cards and combo stacks become harder to protect.",
+      "judgment": "SELECT_ADD",
+      "reason": "The original 100 had few clean answers to a resolved nonblue stax board; Rift complements Chaos Warp as scalable interaction.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "source": "Off-ranking opponent-draw multiplier in Wheel/Windfall baseline",
+      "role": "Repeated life-loss multiplier on opponents' card draws",
+      "named_cuts": [
+        "Cabal Ritual",
+        "Exalted Flamer of Tzeentch"
+      ],
+      "incumbent_opportunity_cost": "Displaces an already-efficient threshold role, loses either ritual acceleration or original 40K recursion.",
+      "commander_synergy": "Own-turn wheel could cause 2 loss for each opponent draw; powerful threshold X after resolution and lifegain on own draws.",
+      "adversarial_downside": "Four-mana black-intensive creature is slower to deploy than Bowmasters; large excess X above 8 offers diminishing cascade value.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Strong conditional ceiling, but Bowmasters offers earlier instant-speed interaction with enough actual wheel-turn X to unlock every printed Abaddon payoff.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Irenicus's Vile Duplication",
+      "source": "Off-ranking 3U creature clone spell directly copies Abaddon",
+      "role": "Creates nonlegendary flying token copy of commander",
+      "named_cuts": [
+        "Bituminous Blast"
+      ],
+      "incumbent_opportunity_cost": "Cut printed cascade answer for spell that requires an existing target and can be interacted with on stack.",
+      "commander_synergy": "A second Abaddon grants a second cascade ability just as Spark Double does while it survives.",
+      "adversarial_downside": "Sorcery targeted copy lacks Spark's flexible creature/planeswalker as-enters replacement and is more exposed to target removal.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Valid commander multiplier, loses to Spark's broader copy role and non-targeting entry.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Sakashima of a Thousand Faces",
+      "source": "Off-ranking legendary clone role checked against Oracle",
+      "role": "Copies controlled Abaddon and globally exempts legend-rule interactions",
+      "named_cuts": [
+        "Bituminous Blast"
+      ],
+      "incumbent_opportunity_cost": "Another four-mana setup creature; ability not strictly a stronger clone of Abaddon than Spark.",
+      "commander_synergy": "An Abaddon copy can grant second cascade; Sakashima's partner text does not make this list a two-commander deck.",
+      "adversarial_downside": "Its legend-rule exemption depends on that permanent, can expose other copied legends if removed, and no extra relevant permanent synergy established.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Sakashima would be best if the list intentionally exploited several other legends; Spark is simpler and more resilient to legend-rule timing.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Dig Through Time",
+      "source": "Off-ranking delve MV8 full source check",
+      "role": "Efficient instant selection from seven, with printed MV8 despite delve alternate payment",
+      "named_cuts": [
+        "Exalted Flamer of Tzeentch",
+        "Bituminous Blast"
+      ],
+      "incumbent_opportunity_cost": "Potentially removes a cascade/removal or thematic spell-recursion role without directly increasing opponent life loss.",
+      "commander_synergy": "High printed MV could receive Abaddon cascade after X>=8 while being paid with blue mana and grave cards.",
+      "adversarial_downside": "Delve competes for Underworld Breach escape fuel, UU is restrictive, and the deck already has strong draw/tutors.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Interesting payoff if card selection underperforms, but weaker than direct engine/interaction changes under current 99.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    },
+    {
+      "card": "Treasure Cruise",
+      "source": "Off-ranking delve payoff with weaker than Dig selectivity",
+      "role": "Printed MV8 but draws three at sorcery speed",
+      "named_cuts": [
+        "Exalted Flamer of Tzeentch"
+      ],
+      "incumbent_opportunity_cost": "Would replace a source-specific 40K spell payoff with another general draw effect.",
+      "commander_synergy": "Can be cheaply cast with delve while retaining MV8 if X threshold is available.",
+      "adversarial_downside": "Competes for graveyard fuel and lacks Dig's selection and instant-speed interaction windows.",
+      "judgment": "REJECT",
+      "reason": "The strongest access alternative is Dig; neither beats the source's existing wheels and tutor/cascade payoffs.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+        "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Grinning Ignus",
+      "Chaos Warp",
+      "Spark Double",
+      "Orcish Bowmasters",
+      "Cyclonic Rift",
+      "Aggravated Assault"
+    ],
+    "cuts": [
+      "Rakdos, Lord of Riots",
+      "Inevitable Betrayal",
+      "Bituminous Blast",
+      "Cabal Ritual",
+      "Force of Negation",
+      "Exalted Flamer of Tzeentch"
+    ],
+    "coherent_package_tradeoff": "The revised six-card portfolio adds independent Abaddon cascade multiplication, repeatable paid hand-casts, wheel-triggered threshold, resolved-stax answers and a Neheb/Loyal combat route. It loses one printed cascade remover, 40K delayed recursion, an opponent-turn free counter, black ritual burst and MV0 Betrayal theft; all losses are acknowledged and two exact competing five-swap portfolios are staged."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev2.txt",
+    "sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "card_count": 100,
+    "deckwide_reconciliation": "Independent current Scryfall full 100-name source audit across three complete Abaddon physical configurations and original approved source, 34 lands unchanged, singleton and Grixis identity pass, all protected 40K core except challenged Exalted Flamer retained in two complete alternatives. Fresh result Oracle-ID logical hash lh1:853567925301becc5b646c193795a18871c269abce1368690cca5d9bda73a0b7; old M6 I/J not yet rebound."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_decisive_research_20261022.md",
+      "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+      "tests/test_m6_abaddon_rev2_new_effects_p0.py",
+      "data/grixis/m6/phase_b_plans/abaddon_rev2_candidate_verification_gap_20261022.json",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39832798134",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39833569544",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39834064862"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Cascade",
+      "Exile Cast",
+      "40K Chaos"
+    ],
+    "known_hard_blockers": [
+      "Selected result physical SHA and Oracle-ID logical hash have not been substituted into a new candidate-bound strict M6 I local-optimum certificate; old two-swap source-bound PASS cannot be reused.",
+      "Final M6 J reproducibility bundle must be rebuilt or extended for this exact six-swap source including updated adjudication and CI receipts, prior to owner-final presentation."
+    ]
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+  "withdrawal_reason": "NEW SIX-SWAP PACKET IS RESEARCH-ONLY: although it passes comprehensive structural opportunity criteria and a dated live full-100 Scryfall audit, Cory has not approved the result, and the exact candidate requires a fresh strict M6 I/J evidence binder before a final presentation. Historical two-swap packet stays separately withdrawn and immutable.",
+  "low_swap_heightened_audit": {
+    "weakest_slot_challenge": [
+      {
+        "card": "Rakdos, Lord of Riots",
+        "weakness": "Demanding BBRR creature-only discount cannot consistently advance noncreature Abaddon hand-cascade chains.",
+        "alternative_named": "Grinning Ignus",
+        "reasoning": "Lose a big flying body to acquire repeatable payable hand cast events, subject to Birgi and threshold prerequisites."
+      },
+      {
+        "card": "Inevitable Betrayal",
+        "weakness": "Excellent MV0 cascade theft but poor normal hand cast and never removes a resolved restrictive enchantment.",
+        "alternative_named": "Chaos Warp",
+        "reasoning": "Trade creature-steal upside and low-MV cascade hit density for a direct answer to hostile resolved permanents."
+      },
+      {
+        "card": "Bituminous Blast",
+        "weakness": "Five mana and an enemy creature target are necessary; conditional extra printed cascade does not always fire.",
+        "alternative_named": "Spark Double",
+        "reasoning": "A second nonlegendary Abaddon grants extra cascade to every qualifying future hand spell; cost is printed cascade removal."
+      },
+      {
+        "card": "Cabal Ritual",
+        "weakness": "Black-only threshold-dependent ritual bursts are less reliably relevant than an inexpensive on-turn threshold source.",
+        "alternative_named": "Orcish Bowmasters",
+        "reasoning": "Exchange raw paid BBB/BBBBB acceleration for wheel-based immediate loss and flexible flash creature pressure."
+      },
+      {
+        "card": "Force of Negation",
+        "weakness": "Free counter condition applies only outside your own turn and can be an expensive awkward hand cascade hit.",
+        "alternative_named": "Cyclonic Rift",
+        "reasoning": "Lose an important opponent-turn free counter to address resolved nonland threats and overloaded reset under paid mana."
+      },
+      {
+        "card": "Exalted Flamer of Tzeentch",
+        "weakness": "Four-mana delayed and random recursion plus spell-cast ping can be too slow to convert the existing Neheb/Loyal combat board.",
+        "alternative_named": "Aggravated Assault",
+        "reasoning": "Trade Warhammer spell-burn resilience for an additional payable repetitive combat-phase victory path."
+      },
+      {
+        "card": "The Ruinous Powers",
+        "weakness": "Four mana and a next-upkeep random opponent spell create tempo and opponent-choice risk.",
+        "alternative_named": "Sheoldred, the Apocalypse",
+        "reasoning": "Retain: original 40K opponent-owned-card exile casting directly enables nonhand payoffs and owner life loss."
+      },
+      {
+        "card": "Profane Tutor",
+        "weakness": "Suspend delays normal access and no printed mana cost prevents regular hand casting.",
+        "alternative_named": "Dig Through Time",
+        "reasoning": "Retain: an actual cascade hit makes this unrestricted tutor free at zero MV, whereas delve may consume Breach fuel."
+      },
+      {
+        "card": "Pact of Negation",
+        "weakness": "A zero-MV cascade hit without a legal spell target is often dead and can leave an unpaid future debt.",
+        "alternative_named": "Cyclonic Rift",
+        "reasoning": "Retain: no-cost stack protection on a decisive combo turn is distinct from Rift's battlefield reset."
+      },
+      {
+        "card": "Xander's Lounge",
+        "weakness": "A tapped land loses immediate tempo in a five-mana three-color commander with burst mana needs.",
+        "alternative_named": "Reflecting Pool",
+        "reasoning": "Retain: fetchable three-color land types outweigh one-turn delay; Reflecting Pool needs other colored lands."
+      }
+    ],
+    "off_ranked_opportunities": "High-impact overlooked off-ranking candidates Spark Double, Irenicus's Vile Duplication, Sakashima, Bowmasters, Sheoldred, Cyclonic Rift, Dig Through Time and Treasure Cruise now independently source-audited; extra Neheb/Assault conditional victory revisited under a coherent package.",
+    "multi_slot_packages": [
+      {
+        "adds": [
+          "Grinning Ignus",
+          "Chaos Warp",
+          "Spark Double",
+          "Orcish Bowmasters",
+          "Cyclonic Rift"
+        ],
+        "cuts": [
+          "Rakdos, Lord of Riots",
+          "Inevitable Betrayal",
+          "Bituminous Blast",
+          "Cabal Ritual",
+          "Force of Negation"
+        ],
+        "result_and_rationale": "Clone-focused 100 retains Exalted Flamer of Tzeentch as additional on-theme spell pinger/recursion while multiplying actual Abaddon cascade, but omits the independent Neheb/Loyal extra-combat engine."
+      },
+      {
+        "adds": [
+          "Grinning Ignus",
+          "Chaos Warp",
+          "Aggravated Assault",
+          "Orcish Bowmasters",
+          "Cyclonic Rift"
+        ],
+        "cuts": [
+          "Rakdos, Lord of Riots",
+          "Inevitable Betrayal",
+          "Bituminous Blast",
+          "Cabal Ritual",
+          "Force of Negation"
+        ],
+        "result_and_rationale": "Combat-focused 100 retains original 40K Exalted Flamer recursion while converting Neheb/Loyal into repeatable life-loss combats, but omits the broad commander-copy cascade multiplier."
+      }
+    ],
+    "no_two_package_reason": null,
+    "alternate_cuts_for_prior_holds": "Aggravated Assault was previously considered versus Rakdos, losing to Ignus one-for-one; the revised package assigns the actual cut Exalted Flamer and preserves both Ignus and Neheb/Loyal. Spark replaces Bituminous, and Warp retains protected Keeper/Ruinous rather than sacrificing original 40K core. Sheoldred and Dig lose their own alternatives on cost/fuel tradeoffs.",
+    "strongest_argument_against_baseline": "The approved 100 already has premium Mox/ramp, tutors, wheels and multiple Warhammer exile payoffs; removing source-specific printed cascade, Exalted Flamer, a free counter and black ritual can reduce stable floors in high-disruption pods. Without Abaddon on battlefield or enough same-turn X, Spark and Ignus may do nothing and Assault may be stranded.",
+    "evidence_based_answer": "The deliberate retained core is still complete: thirty-four lands, original 40K Ruinous/Lost/Keeper/Noise/Call and Breach backup. The sixth upgrade adds a unique protected Neheb/Loyal conversion rather than a generic power card, while Spark duplicates the actual Abaddon static grant. Bowmasters and dual modes of Warp/Rift address distinct threshold/removal deficiencies. Honest uncertainty remains about incomplete multiplayer payoff models; final M6 I/J source binding is still blocked."
+  }
+}

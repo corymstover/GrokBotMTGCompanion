@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "stage": "M6_final_reproducibility_bundle",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "baseline_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "result_hash": "lh1:853567925301becc5b646c193795a18871c269abce1368690cca5d9bda73a0b7",
+  "snapshot": {
+    "birthday_id": "birthday-20261017-6e5c604e1459",
+    "oracle_ref": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+    "rules_ref": "data/grixis/m6/rules_snapshots/Abaddon_20261022_Rules_Sources.md",
+    "legality_ref": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
+  },
+  "inputs": [
+    {
+      "path": "data/grixis/birthday_m5/candidates/abaddon-the-despoiler.json.gz",
+      "sha256": "sha256:ad508f286096371040ae9f076eee7f7996bdf708ca6cbb625740487a7e000e6e"
+    },
+    {
+      "path": "data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz",
+      "sha256": "sha256:43c465356ce4b488f9975e5dc33cc0d8977d79592fac1bba07193f068b4378b3"
+    },
+    {
+      "path": "data/grixis/birthday_m5/evidence/abaddon-the-despoiler.json",
+      "sha256": "sha256:7433c3beb70450bb722a1feeecc1d375359fdf46b91f407d39129dd492047c91"
+    },
+    {
+      "path": "data/grixis/m6/optimizer/abaddon-the-despoiler.json",
+      "sha256": "sha256:a7b522843d7af0bf431013fd4f686f461ad7bbf3c484d50868ac5f93fdd04c48"
+    },
+    {
+      "path": "data/grixis/m6/review_packets/abaddon-the-despoiler.json",
+      "sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84"
+    },
+    {
+      "path": "data/grixis/m6/rules_snapshots/Abaddon_20261022_Rules_Sources.md",
+      "sha256": "sha256:83f52b095ca41c3b531865e88bcac92d611b7e104456ecf4364eed9c85855e8e"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+      "sha256": "sha256:5ed756a9ba0f11b3994f6436ecab31a248a5bf491154c4d7e916c49610ac7ce5"
+    },
+    {
+      "path": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev2.txt",
+      "sha256": "sha256:0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_six_swap_manifest.json",
+      "sha256": "sha256:9ab42a23ff8a5a740615a06d4f94aa37aab5a6af089288aa8be2accddc57b490"
+    }
+  ],
+  "sealed_passes": {
+    "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+    "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+    "a_output_ref": "data/grixis/m6/sealed/A/abaddon-the-despoiler.json",
+    "b_output_ref": "data/grixis/m6/sealed/B/abaddon-the-despoiler.json",
+    "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+  },
+  "pass_c": {
+    "reviewer": "ChatGPT/OpenAI GPT-6",
+    "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/final_disposition.md",
+    "judgment_receipt_sha256": "sha256:c92a9ecb9b6c66f26d67280c4b382b2f9244a7b0754febf84403645f92d9692a",
+    "conflicts_resolved": true,
+    "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "technically_independent": false,
+    "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+    "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/seal.json",
+    "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+    "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+    "stage_a_seal_sha256": "sha256:d5332bf12325ff07276efd0f62397fa9c67ffef0254d5fbf056f05e70ab1a271"
+  },
+  "phase_b": {
+    "complete": true,
+    "tests": [
+      {
+        "test_ref": "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json",
+        "source_sha256": "sha256:8146f935e15cc49fdcd8b0dd25f9f6451215dfc11658c5e3764ab129990a0d42",
+        "seed": 0,
+        "harness_version": "abaddon_p0_exact_head_replay_104",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "The registry maps 104 physical named methods that actually executed and passed in linked exact-head CI. It is a bounded rule-case inventory, not a complete standalone multiplayer gameplay engine."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_residual_p1.py",
+        "source_sha256": "sha256:c3625a004e0734c43d41712c3762563e7b39e5f7a4d42b047a6acce839a8c08b",
+        "seed": 0,
+        "harness_version": "abaddon_residual_source_paid_p1_7",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Actual exact physical source-paid finite scenarios for five residual card effects, no randomized win-rate or exhaustive table policy."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_remaining_p1.py",
+        "source_sha256": "sha256:ee50d7afce14155ae326139d7b4323bfc97df5f06270e76caee01c648a266b91",
+        "seed": 0,
+        "harness_version": "abaddon_remaining_source_paid_p1_7",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Actual physical source-paid Delayed, Nightscape, Jeska tests; individual spells and side cases not universal solver."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_rev2_new_effects_p0.py",
+        "source_sha256": "sha256:707d6ef2d23c242a76a4d90dcec164b8b46a46f05318a8f5ff1b6028efe026fd",
+        "seed": 0,
+        "harness_version": "abaddon_rev2_new_effects_source_bound_deterministic_12",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Actual 12 bounded Oracle-anchored game-state/mana/trigger assertions passed exact-head in GitHub Actions #39833569544; covers named revision effects and adversarial branches, not all opponent strategies or full win-rate modeling."
+        ]
+      }
+    ]
+  },
+  "red_team": {
+    "report_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_red_team_20261022.md",
+    "sha256": "sha256:8ccbdcc4e0c18a54af61b6ffa674c0eb9499e3360e0c244d00c0cec446bddf2f"
+  },
+  "mana_analysis": {
+    "report_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_mana_curve_20261022.md",
+    "sha256": "sha256:23320b9133408660011b719f3984b5458bec0cc2fee3a1e9f847f3180b82bc86"
+  },
+  "unresolved_material_questions": [],
+  "bundle_status": "complete_evidence_not_approval",
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_approve_or_lock": false
+  }
+}
