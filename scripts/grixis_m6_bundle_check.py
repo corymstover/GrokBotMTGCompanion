@@ -43,6 +43,83 @@ def bind(name, h):
         raise ValueError("SHA-256 drift: " + name)
 
 
+OWNER_EQUIVALENT = "FORMAL_PASS_C_OWNER_EQUIVALENT"
+OWNER_WAIVER = "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
+OWNER_PROGRESS = "data/grixis/m6/owner_pass_c_substitute/progress.json"
+
+
+def validate_pass_c(judgment, deck_id):
+    """Validate either original independent reviewer receipt or owner's exact waiver.
+
+    The waived mode is explicitly NON-INDEPENDENT, with the real owner decision,
+    the 62/62 progress ledger, this deck's sealed Stage A and final disposition
+    bound to immutable SHA-256 references. This never waives Phase B or M6 J.
+    """
+    bind(judgment["judgment_receipt_path"], judgment["judgment_receipt_sha256"])
+    if judgment.get("review_class") != OWNER_EQUIVALENT:
+        reviewer = load(safe_repo_file(judgment["judgment_receipt_path"]))
+        if reviewer.get("reviewer") != judgment["reviewer"] or reviewer.get("status") != "critical_review_complete":
+            raise ValueError("Pass C reviewer receipt not complete/identified")
+        if reviewer.get("can_approve_or_lock") is not False:
+            raise ValueError("Pass C reviewer attempted approval")
+        return True
+
+    directory = f"data/grixis/m6/owner_pass_c_substitute/{deck_id}"
+    expected = {
+        "judgment_receipt_path": f"{directory}/final_disposition.md",
+        "waiver_receipt_path": OWNER_WAIVER,
+        "progress_receipt_path": OWNER_PROGRESS,
+        "stage_a_seal_path": f"{directory}/seal.json",
+    }
+    for key, path in expected.items():
+        if judgment.get(key) != path:
+            raise ValueError("Wrong owner-equivalent Pass C source: " + key)
+    for key in ("waiver_receipt", "progress_receipt", "stage_a_seal"):
+        bind(judgment[key + "_path"], judgment[key + "_sha256"])
+    waiver = load(safe_repo_file(OWNER_WAIVER))
+    progress = load(safe_repo_file(OWNER_PROGRESS))
+    seal = load(safe_repo_file(expected["stage_a_seal_path"]))
+    if (judgment.get("technically_independent") is not False
+        or progress.get("technically_independent") is not False
+        or progress.get("genuinely_independent_third_model_reviews") != 0
+        or progress.get("review_class") != OWNER_EQUIVALENT
+        or progress.get("actual_model") != "ChatGPT/OpenAI GPT-6"
+        or judgment.get("reviewer") != progress["actual_model"]
+        or progress.get("formal_pass_c_owner_equivalent_completed") != 62
+        or progress.get("final_complete") != 62
+        or waiver.get("decision") != "AUTHORIZE_OWNER_EQUIVALENT_PASS_C_AS_REPLACEMENT_FOR_INDEPENDENT_THIRD_MODEL_REQUIREMENT_FOR_M6_GOVERNANCE"
+        or waiver.get("applies_to", {}).get("gate") != "M6.5"
+        or waiver.get("scope_and_effect", {}).get("m6_5_governance_condition_satisfied") is not True
+        or waiver.get("accepted_substitute", {}).get("technically_independent") is not False
+        or waiver.get("accepted_substitute", {}).get("genuinely_independent_third_model_reviews") != 0
+        or waiver.get("scope_and_effect", {}).get("other_m6_gates_remain_independently_required") is not True):
+        raise ValueError("Owner-equivalent Pass C provenance/waiver not valid")
+    rows = [x for x in progress.get("decks", []) if x.get("deck_id") == deck_id]
+    if len(rows) != 1:
+        raise ValueError("Missing or duplicated owner-equivalent deck review")
+    row = rows[0]
+    if (row.get("stage_status") != "FINAL_EVIDENCE_MERGED"
+        or not all(row.get(k) is True for k in ("stage_a_complete", "stage_b_complete", "final_complete", "canonical_unchanged"))
+        or row.get("owner_swap_approved") is not False
+        or row.get("final_evidence_path") != expected["judgment_receipt_path"]
+        or row.get("canonical_approved_sha256") != seal.get("canonical_input_sha256")
+        or row.get("first_stage_commit_sha") != seal.get("git_first_stage_commit_sha")
+        or seal.get("deck_id") != deck_id
+        or seal.get("review_class_after_final") != OWNER_EQUIVALENT
+        or seal.get("technically_independent") is not False
+        or seal.get("actual_evaluator") != progress["actual_model"]):
+        raise ValueError("Owner-equivalent deck/Stage A seal provenance mismatch")
+    for ext in ("md", "json"):
+        if content_hash(seal["stage_a_" + ext + "_path"]) != "sha256:" + seal["stage_a_" + ext + "_sha256"]:
+            raise ValueError("Stage A source diverged from separately sealed byte commitment")
+    final = safe_repo_file(judgment["judgment_receipt_path"]).read_text(encoding="utf-8")
+    if ("ChatGPT/OpenAI GPT-6" not in final
+        or "Technically independent third model" not in final
+        or row["final_disposition"] not in final):
+        raise ValueError("Owner-equivalent final review missing provenance/disposition")
+    return True
+
+
 def validate_bundle(b, registry, seals):
     errors = ga.validate_file(b, "m6_reproducibility_bundle.schema.json")
     if errors:
@@ -68,12 +145,7 @@ def validate_bundle(b, registry, seals):
         if sealed["pass"]["list_hash"] != b["baseline_hash"]:
             raise ValueError("sealed pass list hash mismatch")
     judgment = b["pass_c"]
-    bind(judgment["judgment_receipt_path"], judgment["judgment_receipt_sha256"])
-    reviewer = load(safe_repo_file(judgment["judgment_receipt_path"]))
-    if reviewer.get("reviewer") != judgment["reviewer"] or reviewer.get("status") != "critical_review_complete":
-        raise ValueError("Pass C reviewer receipt not complete/identified")
-    if reviewer.get("can_approve_or_lock") is not False:
-        raise ValueError("Pass C reviewer attempted approval")
+    validate_pass_c(judgment, b["deck_id"])
     for t in b["phase_b"]["tests"]:
         bind(t["test_ref"], t["source_sha256"])
         if t["supports_improvement_claim"] and (t["effect_coverage"] != "fully_modeled" or t["verdict"] != "pass"):
