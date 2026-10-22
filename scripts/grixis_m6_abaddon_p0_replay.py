@@ -2,7 +2,7 @@
 """Execute the *actual named* Abaddon P0 cases on an exact GitHub Actions head.
 
 A PASS here means ONLY the registered cases passed. No presently registered mandatory
-P0 cases remain unexecuted after 44 checks, but M6.6 and I/J are NOT certified.
+P0 cases remain unexecuted after explicitly named checks, but M6.6 and I/J are NOT certified.
 """
 from __future__ import annotations
 
@@ -34,7 +34,7 @@ def registry_check(doc: dict):
     ids = [x["id"] for x in items + remaining]
     if len(ids) != len(set(ids)):
         raise P0GateError("Duplicate P0 case IDs")
-    if len(items) != 95 or len(remaining) != 0:
+    if len(items) != 104 or len(remaining) != 0:
         raise P0GateError("Current inventory changed without a plan update")
     if not all(row["status"] == "REQUIRED_UNEXECUTED" for row in remaining):
         raise P0GateError("Unrun P0 case was marked completed")
@@ -58,7 +58,7 @@ def registry_check(doc: dict):
     if {x["test_method"].split(".", 1)[-1] for x in new} != {
             "test_" + n for n in expected_suffixes}:
         raise P0GateError("New P0 registry not identical to precommit plan")
-    if len(new) != 6 or len(items) - len(new) != 89:
+    if len(new) != 6 or len(items) - len(new) != 98:
         raise P0GateError("Replayed/new case count drift")
     # P0-021 is a parent topic with eight individually executed, preregistered
     # tests; no file-name substring count is accepted in lieu of real execution.
@@ -75,7 +75,7 @@ def registry_check(doc: dict):
     if {x["id"] for x in coverage["identified_unresolved"]} != {x["id"] for x in remaining}:
         raise P0GateError("P0 coverage source and registered gaps diverged")
     parent = doc.get("newly_covered_parent_topics", [])
-    if len(parent) != 9 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
+    if len(parent) != 10 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
         raise P0GateError("P0-021 grouping/parent receipt incomplete")
     if call_plan["candidate_sha256"] != "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd":
         raise P0GateError("P0-021 preferred whole-deck candidate drift")
@@ -114,7 +114,7 @@ def registry_check(doc: dict):
     if (wild_plan["cost_budget"]["new_registered_methods"]!=8 or
             wild_plan["cost_budget"]["randomized_game_trials"]!=0):
         raise P0GateError("P0-024 stop rule/cost budget changed")
-    if {x["id"] for x in coverage.get("newly_registered_tested_P0",[])} != {"P0-024","P0-025","P0-026","P0-027","P0-028","P0-029"}:
+    if {x["id"] for x in coverage.get("newly_registered_tested_P0",[])} != {"P0-024","P0-025","P0-026","P0-027","P0-028","P0-029","P0-030"}:
         raise P0GateError("97-name matrix does not disclose registered P0-024")
     nalf_plan_path = ROOT / "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
     nalf_plan = json.loads(nalf_plan_path.read_text(encoding="utf-8"))
@@ -178,6 +178,24 @@ def registry_check(doc: dict):
         raise P0GateError("P0-029 exact 100-card research challenger hash drift")
     if desire_plan["budget"]["new_methods"]!=7 or desire_plan["budget"]["random_trials"]!=0:
         raise P0GateError("P0-029 preregistered cost/stop rule changed")
+    threshold_path = ROOT / "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json"
+    threshold_plan = json.loads(threshold_path.read_text(encoding="utf-8"))
+    threshold_cases = [x for x in items if x["expected_execution"] == "NEW_THRESHOLD_DOUBLERS_THIS_PR_CI"]
+    if (len(threshold_cases) != 9 or
+        {x["test_method"].split(".", 1)[-1] for x in threshold_cases} !=
+        {"test_" + x["id"] for x in threshold_plan["cases"]}):
+        raise P0GateError("P0-030 nine methods diverge from explicit preregistration")
+    if (parent[9]["id"] != "P0-030" or
+        set(parent[9]["case_ids"]) != {r["id"] for r in threshold_cases} or
+        {x["registry_id"] for x in threshold_plan["cases"]} !=
+        {r["id"] for r in threshold_cases}):
+        raise P0GateError("P0-030 source-bound grouped parent and nine names mismatched")
+    if (threshold_plan["candidate_sha256"] !=
+        "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd"
+        or threshold_plan["budget"]["new_methods"] != 9 or
+        threshold_plan["budget"]["randomized_trials"] != 0 or
+        threshold_plan["boundaries"]["m6_6"] != "PARTIAL"):
+        raise P0GateError("P0-030 physical source/stop rule or M6 blocker changed")
     for row in items:
         path = Path(row["test_file"])
         if (path.is_absolute() or ".." in path.parts or
