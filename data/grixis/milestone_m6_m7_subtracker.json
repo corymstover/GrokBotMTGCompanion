@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_chronological_abaddon_phase_b_incomplete",
+  "snapshot": "2026-10-21_chaos_warp_stax_answer_sensitivity_receipt",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "0436c8e308651b15844819fec16e86a5f5ad9545",
+    "engineering_head": "7c343edf174c734c73c97206dc742c24f113c574",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
@@ -149,9 +149,10 @@
           "grixis/m6/abaddon_rakdos_opportunity_cost_20261021.md (PR #506; exact-head CI 39694322053 PASS; 11 deterministic Oracle-cost/inventory tests, not full-deck comparative gameplay)",
           "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511; exact-head CI 39697989020 PASS; 14 bounded rules tests, not real spell sequencing)",
           "data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512; exact-head CI 39698978884 PASS; 11 invariant tests; 2,000 matched physical draw-and-land-only snapshots per variant, full JSON Actions artifact, NOT comparative gameplay)",
-          "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, Actions 39700709249 PASS, 15 adversarial tests, 2,000 source-paid physical trials per baseline/challenger; first activation 1 and 4 observed, NOT wins)"
+          "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, Actions 39700709249 PASS, 15 adversarial tests, 2,000 source-paid physical trials per baseline/challenger; first activation 1 and 4 observed, NOT wins)",
+          "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / Actions 39702982106 exact-head PASS, 27 tests, four 100-card physical variants x 2000 paired seeds x two land policies, additional preregistered Otawara reserve sensitivity and Lost Spawn fetch triggers)"
         ],
-        "scope": "Abaddon conditional rules fixtures (PRs #504, #506, #511), physical colored-source availability (PR #512), and strictly restricted chronological source-spent 100-card casting with paid first postcombat Neheb/Assault activation (PR #514) now have exact-head CI evidence. PR #514: 2,000 matched trials per deck; first paid first activation 1/2000 Assault-for-Rakdos and 4/2000 Assault-for-Lost. Closed model excludes rocks, rituals, tutoring, other pingers/threshold enablers, card-advantage, cascade, interaction and real win conditions; low conditional Rakdos cast count is NOT a negative comparative metric, as opponent loss outside Loyal is excluded. Zero complete full-game Phase B certificates; M6.6 PARTIAL, 0/62 certified."
+        "scope": "Abaddon conditional rules/engine tests (#504, #506, #511), source-paid access and chronological Assault setup (#512, #514) and now resolved-stax answer windows and physical Chaos Warp/Otawara two-policy access (#516) have exact-head CI. Under reserve-Otawara policy baseline had 282/2000 payable channel answers at turn10; three Warp challenger lists had 557-584/2000 held-payable choices; reservation skipped 1297 aggregate modeled land drops per 2000 trials. Original land-first 0 channel-availability was policy artifact, not baseline failure. Lost MV3 generates Spawn from fetched-library land arrivals and nonhand spell casts; Ruinous MV4 owner-loss engine. No opponent stax prevalence, true full-deck strategic comparison, win rate or approved swap. M6.6 still PARTIAL; 0/62 full Phase B certificates."
       },
       {
         "id": "M6.7",
@@ -166,9 +167,10 @@
           "grixis/m6/abaddon_post_waiver_judgments_20261021.md (Ruinous Powers owner-life-loss rules correction and unresolved Assault/Rakdos/Chaos Warp tradeoffs)",
           "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511; Ruinous retain role corroborated, not final superiority)",
           "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md and 39698978884 CI artifact (PR #512; paired hypothetical source availability, not actual casting or winner)",
-          "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, CI 39700709249 PASS; confirms few conditional constructively paid activation traces, does not settle comparative cut)"
+          "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, CI 39700709249 PASS; confirms few conditional constructively paid activation traces, does not settle comparative cut)",
+          "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / exact-head Actions 39702982106, corrected source costs and 7-fetch/nonhand Spawn role; Chaos Warp conditional answer-gap opportunity HOLD)"
         ],
-        "scope": "Three authored Abaddon judgment reviews with bounded effect-aware and now physically sequential conditional paid tests. The Assault engine can legally be assembled and a first postcombat activation paid under the fixed policy but only a few of the restricted matched draws achieved this by turn ten. This is neither a realistic win likelihood nor a net performance difference versus Rakdos discount or Lost Spawn effects. Best cut and stax-answer slot unresolved, other 62 decision closures incomplete. M6.7 PARTIAL 0/62."
+        "scope": "Abaddon authored decision-class judgments now cover Assault, Chaos Warp, Ruinous and newly verified lower-cost Lost/Thermo identity roles. Warp closes a real resolved artifact/enchantment stax-answer gap relative to counters, but existing Otawara channel must be assessed from hand and not counted as unavailable just because a greedy policy plays it as a land; its bounce is temporary. Source-verified The Lost and the Damned MV3 creates Spawn from seven fetchlands' library-entering lands plus nonhand casts; The Ruinous Powers MV4 supplies same-turn owner-loss threshold. No demonstrated best cut or actual interactive win conversion. M6.7 PARTIAL 0/62."
       },
       {
         "id": "M6.8",
@@ -330,6 +332,38 @@
         "superiority_proven": false,
         "physical_tap_costs_paid": true,
         "true_game_win_rate": null
+      },
+      {
+        "deck_id": "Abaddon_the_Despoiler",
+        "kind": "PREREGISTERED_STAX_ANSWER_RULE_WINDOWS_AND_TWO_POLICY_PHYSICAL_ACCESS",
+        "topic": "chaos_warp_vs_retained_otawara_and_three_on_identity_incumbent_cuts",
+        "merged_pr": 516,
+        "merge_commit": "7c343edf174c734c73c97206dc742c24f113c574",
+        "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39702982106",
+        "unit_tests": 27,
+        "samples_per_variant_per_policy": 2000,
+        "physical_variants": 4,
+        "policies": 2,
+        "evidence": "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md",
+        "preregistration": "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json",
+        "reserve_policy_preregistration": "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_otawara_policy_20261021.json",
+        "lost_oracle_preregistration": "data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json",
+        "turn_10_reserved_channel_policy": {
+          "baseline_any_held_payable_answer": 282,
+          "warp_for_rakdos_any": 577,
+          "warp_for_lost_any": 584,
+          "warp_for_ruinous_any": 557,
+          "reserved_otawara_land_drops_skipped_across_2000_samples": 1297
+        },
+        "corrected_mana_values": {
+          "The Lost and the Damned": 3,
+          "The Ruinous Powers": 4
+        },
+        "verified_fetchlands_in_baseline": 7,
+        "full_multiplayer_gameplay": false,
+        "actual_stax_distribution_measured": false,
+        "net_superiority_proven": false,
+        "canonical_changed": false
       }
     ]
   },
@@ -419,7 +453,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "5/10 M6 governance sub-gates COMPLETE, including owner-waived M6.5; M6.6/7 remain PARTIAL with three exact-head Abaddon tests incl PR #514 chronological source-paid 2,000 paired trials per variant; 0/62 formal M6 certificates, 0/62 new M7 owner decisions, canonical 62/62 approved/locked. No real multiplayer win rate or swap superiority established."
+    "note": "5/10 governance gates complete including waived M6.5, M6.6/7 PARTIAL; Abaddon PR516 27 stax-answer tests plus two-policy 2,000x4 paired samples, source-verified Lost/Ruinous mana and fetch-synergy corrections; no full-game Phase B, zero M6 certificates or M7 user approvals, canonical 62 approved/locked unchanged."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
