@@ -1,0 +1,32 @@
+name: M6 Abaddon Birgi Ignus bounded audit
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - scripts/grixis_m6_abaddon_ignus_birgi.py
+      - tests/test_m6_abaddon_ignus_birgi.py
+      - data/grixis/m6/phase_b_plans/abaddon_ignus_birgi_20261021.json
+      - data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md
+      - .github/workflows/m6-abaddon-ignus-birgi.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  bounded-mana-trace:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify Abaddon Ignus source-and-mana invariants
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_birgi.py' -v
+      - name: Generate finite combo witness
+        run: python scripts/grixis_m6_abaddon_ignus_birgi.py --out abaddon_ignus_receipt.json
+      - name: Upload bounded evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-ignus-conditional-witness
+          path: abaddon_ignus_receipt.json
+          retention-days: 30
