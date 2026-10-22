@@ -28,6 +28,7 @@ on:
       - tests/test_m6_abaddon_prosper_p0.py
       - tests/test_m6_abaddon_storm_kiln_p0.py
       - tests/test_m6_abaddon_minds_desire_p0.py
+      - tests/test_m6_abaddon_final_choice.py
       - data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_storm_kiln_20261022.json
       - data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json
@@ -73,6 +74,8 @@ jobs:
         run: python -m pip install --disable-pip-version-check jsonschema
       - name: Exercise adversarial no-wasted-testing and final candidate guards
         run: python -m unittest discover -s tests -p 'test_m7_decisive_optimization_gate.py' -v
+      - name: Verify exact preferred Abaddon 100-card 2-swap against approved source and preserve M6 blockers
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_final_choice.py' -v
       - name: Validate Abaddon source-derived three-portfolio physical alternatives
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_research_challengers.py' -v
       - name: Enforce corrected Abaddon Oracle source facts and four exact v2 challengers
