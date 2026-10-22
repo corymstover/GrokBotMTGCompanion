@@ -83,6 +83,18 @@
       {
         "pr": 602,
         "merge_commit": "19a8e3c751192c82fef1eb6da17d83ff6d94ebe9"
+      },
+      {
+        "pr": 604,
+        "merge_commit": "221c18076b2122b5b84be7e575794b3a7a63b15b"
+      },
+      {
+        "pr": 605,
+        "merge_commit": "a18d03af035c6aa352be64ea7f055c3456eea938"
+      },
+      {
+        "pr": 606,
+        "merge_commit": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b"
       }
     ]
   },
@@ -373,7 +385,7 @@
         "War Cadence"
       ],
       "physical_receipt": "tests/test_m7_admiral_evasion_horizon_stage2.py",
-      "physical_test_status": "AWAIT_EXACT_HEAD_GITHUB_CI",
+      "physical_test_status": "COMPLETE_EXACT_HEAD_CI_SUCCESS_PHYSICAL_SOURCE_ONLY",
       "strategic_comparison": "QUALITATIVE_EVIDENCE_NOT_FINAL_SELECTION",
       "outstanding": [
         "Source-bound complete current Scryfall records and Commander legality for new names",
@@ -383,7 +395,27 @@
         "M6 I/J and candidate raw hash for any selected new final 100"
       ],
       "owner_approval": "WITHHELD",
-      "canonical_mutation": false
-    }
+      "canonical_mutation": false,
+      "git_receipt": {
+        "merged_pr": 606,
+        "merged_commit": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
+        "exact_pr_head": "3cd43995f7983f85b91f439e895b543220f91dab",
+        "exact_head_actions": [
+          {
+            "run": 39870632375,
+            "result": "SUCCESS"
+          },
+          {
+            "run": 39870632410,
+            "result": "SUCCESS"
+          }
+        ],
+        "note": "Proof of full 100-card source identities, commander, quantity, canonical D deltas and no hidden owner promotion; not full Oracle/M6 I/J strategic approval"
+      }
+    },
+    "current_verified_integration_head": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
+    "latest_complete_subtask": "Seven physically complete, 100-card, 6/7-swap hypotheses source-delta checked in PRs #605 and #606, no strategic winner yet.",
+    "next_exact_unfinished_requirement": "Refresh Scryfall source-bound current Oracle/Commander legality for Captain Storm, Shizo, Glaring Spotlight, Brotherhood Regalia, Cosmotronic Wave; create legal paid P0 same-player three-Pirate hit/Admiral endstep fixtures contrasting retained Bident, March, Path, Cannonade, then select strongest supported package and rebind M6 I/J to its new exact list. Do not owner-present until full M7 gate.",
+    "remaining_owner_decision": "None until a genuinely owner-ready exact proposal; Cory explicitly withheld approval of former D."
   }
 }
