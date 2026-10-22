@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-21_chaos_warp_stax_answer_sensitivity_receipt",
+  "snapshot": "2026-10-21_ignus_birgi_material_candidate_conditional_receipt",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "7c343edf174c734c73c97206dc742c24f113c574",
+    "engineering_head": "17b4bd3a452847fe187550c77a87bbdd533de91e",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
@@ -150,9 +150,10 @@
           "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511; exact-head CI 39697989020 PASS; 14 bounded rules tests, not real spell sequencing)",
           "data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512; exact-head CI 39698978884 PASS; 11 invariant tests; 2,000 matched physical draw-and-land-only snapshots per variant, full JSON Actions artifact, NOT comparative gameplay)",
           "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, Actions 39700709249 PASS, 15 adversarial tests, 2,000 source-paid physical trials per baseline/challenger; first activation 1 and 4 observed, NOT wins)",
-          "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / Actions 39702982106 exact-head PASS, 27 tests, four 100-card physical variants x 2000 paired seeds x two land policies, additional preregistered Otawara reserve sensitivity and Lost Spawn fetch triggers)"
+          "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / Actions 39702982106 exact-head PASS, 27 tests, four 100-card physical variants x 2000 paired seeds x two land policies, additional preregistered Otawara reserve sensitivity and Lost Spawn fetch triggers)",
+          "data/grixis/m6/phase_b_plans/abaddon_ignus_birgi_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md (PR #518; exact-head CI 39704767840 PASS; 16 physical/frozen-source and finite Birgi/Grinning Ignus mana/Abaddon cascade rule tests; no gameplay)"
         ],
-        "scope": "Abaddon conditional rules/engine tests (#504, #506, #511), source-paid access and chronological Assault setup (#512, #514) and now resolved-stax answer windows and physical Chaos Warp/Otawara two-policy access (#516) have exact-head CI. Under reserve-Otawara policy baseline had 282/2000 payable channel answers at turn10; three Warp challenger lists had 557-584/2000 held-payable choices; reservation skipped 1297 aggregate modeled land drops per 2000 trials. Original land-first 0 channel-availability was policy artifact, not baseline failure. Lost MV3 generates Spawn from fetched-library land arrivals and nonhand spell casts; Ruinous MV4 owner-loss engine. No opponent stax prevalence, true full-deck strategic comparison, win rate or approved swap. M6.6 still PARTIAL; 0/62 full Phase B certificates."
+        "scope": "Abaddon targeted rules and source-bound physical access work: Neheb/Assault/Loyal (#504), Rakdos discounts (#506), Ruinous Powers (#511), matched Assault payability (#512), chronological paid first Assault activation (#514), Chaos Warp/Otawara stax and seven-fetch Lost payoff (#516), and now finite source-locked Birgi/Grinning Ignus repeat cascade witnesses (#518). In PR #518 Birgi+Ignus casts are mana neutral and grant Abaddon cascade once per successful hand cast when opponents have lost >=3 that turn; no verified assembly probability, actual cascade spell-casts or multiplayer wins. Zero completed full-deck Phase B certificates. M6.6 PARTIAL 0/62."
       },
       {
         "id": "M6.7",
@@ -168,9 +169,10 @@
           "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511; Ruinous retain role corroborated, not final superiority)",
           "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md and 39698978884 CI artifact (PR #512; paired hypothetical source availability, not actual casting or winner)",
           "data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514, CI 39700709249 PASS; confirms few conditional constructively paid activation traces, does not settle comparative cut)",
-          "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / exact-head Actions 39702982106, corrected source costs and 7-fetch/nonhand Spawn role; Chaos Warp conditional answer-gap opportunity HOLD)"
+          "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516 / exact-head Actions 39702982106, corrected source costs and 7-fetch/nonhand Spawn role; Chaos Warp conditional answer-gap opportunity HOLD)",
+          "data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json updated after PR #518 (fourth Grinning Ignus named agent judgment; 98 M5 screened rows, 63 distinct adds, approved baseline retained)"
         ],
-        "scope": "Abaddon authored decision-class judgments now cover Assault, Chaos Warp, Ruinous and newly verified lower-cost Lost/Thermo identity roles. Warp closes a real resolved artifact/enchantment stax-answer gap relative to counters, but existing Otawara channel must be assessed from hand and not counted as unavailable just because a greedy policy plays it as a land; its bounce is temporary. Source-verified The Lost and the Damned MV3 creates Spawn from seven fetchlands' library-entering lands plus nonhand casts; The Ruinous Powers MV4 supplies same-turn owner-loss threshold. No demonstrated best cut or actual interactive win conversion. M6.7 PARTIAL 0/62."
+        "scope": "Four named Abaddon authored judgment_review candidates (Assault HOLD, Warp HOLD, Ruinous RETAIN, Ignus PRIORITY TEST/HOLD) now grounded in source-bound 100-card review and narrow ability tests. Grinning Ignus reuses existing Birgi to offer repeated MV3 hand-cast cascade if early opponent loss is established, but no full chronology, actual game payoff and net incumbent-cut value measured. Other pool coverage remains screening/whole-deck narrative, not 63 fully adjudicated test results. M6.7 PARTIAL 0/62."
       },
       {
         "id": "M6.8",
@@ -365,6 +367,31 @@
         "net_superiority_proven": false,
         "canonical_changed": false,
         "superiority_proven": false
+      },
+      {
+        "deck_id": "Abaddon_the_Despoiler",
+        "kind": "SOURCE_BOUND_IGNUS_BIRGI_RULES_AND_PHYSICAL_HOLD_REVIEW",
+        "topic": "birgi_ignus_repeat_hand_cast_with_abaddon_threshold_and_core_cut_costs",
+        "merged_pr": 518,
+        "merge_commit": "17b4bd3a452847fe187550c77a87bbdd533de91e",
+        "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39704767840",
+        "unit_tests": 16,
+        "source_m5_swap_records": 98,
+        "distinct_candidate_adds": 63,
+        "unapplied_100_card_variants": 4,
+        "pre_registration": "data/grixis/m6/phase_b_plans/abaddon_ignus_birgi_20261021.json",
+        "evidence": "data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md",
+        "conditional_finite_trace": {
+          "ignus_hand_casts": 5,
+          "cascade_triggers_with_birgi_and_abaddon_and_three_life_lost": 5,
+          "cascade_triggers_below_three_life_lost": 0,
+          "one_red_net_at_five_loops": 0,
+          "nightscape_colorless_added_over_five_loops": 5
+        },
+        "full_multiplayer_gameplay": false,
+        "superiority_proven": false,
+        "actual_cascade_library_casts_measured": false,
+        "canonical_changed": false
       }
     ]
   },
@@ -454,7 +481,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "5/10 governance gates complete including waived M6.5, M6.6/7 PARTIAL; Abaddon PR516 27 stax-answer tests plus two-policy 2,000x4 paired samples, source-verified Lost/Ruinous mana and fetch-synergy corrections; no full-game Phase B, zero M6 certificates or M7 user approvals, canonical 62 approved/locked unchanged."
+    "note": "M6 owner-waived Pass C complete under formal waiver 62/62; 5/10 gates COMPLETE, 2 PARTIAL (M6.6 and M6.7), 3 BLOCKED. Abaddon source-linked tests PR #518 have 16 conditions and reveal Birgi/Ignus/Abaddon threshold-cascade opportunity but no full game, win-rate, source-paid assembly or candidate win; no M6 certificate/M7 decision. 62/62 canonical approved/locked unchanged."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
