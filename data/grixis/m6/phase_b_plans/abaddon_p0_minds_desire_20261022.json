@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_M6_P0_029_MINDS_DESIRE_STORM_IMPULSE_SOURCE_PAID",
+  "date": "2026-10-22",
+  "baseline_merge_sha": "1286735bc51821e00d442350500e8a4eac6a4c6a",
+  "canonical_approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "physical_challenger_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "physical_challenger_raw_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle_sources": [
+    "https://magic.wizards.com/en/news/feature/strixhaven-school-mages-and-commander-2021-edition-release-notes-2021-04-16",
+    "https://mtg.wtf/card/scg/41/Minds-Desire"
+  ],
+  "oracle": {
+    "name": "Mind's Desire",
+    "mana_cost": "{4}{U}{U}",
+    "mana_value": 6,
+    "text": "Shuffle your library. Then exile the top card of your library. Until end of turn, you may play that card without paying its mana cost. Storm",
+    "meaning": "Every physically resolving original/virtual Mind's Desire spell exiles one real card on resolution, with a possible independent shuffle. Storm copies and Nalfeshnee copies are not cast, but they are spell-copy events for Storm-Kiln Artist Magecraft. Permissions to play may persist through turn; normal timing applies except alternative mana cost zero for spells. Land plays are still limited to ordinary land drop/timing."
+  },
+  "fixture": {
+    "exact_source": "99 physical source cards + Abaddon commander separate, across library/hand/field/stack/exile/graveyard, including temporary exile impulse cards",
+    "mana_payments": "For two prior hand one-mana spells, physically tap one Mountain and one Swamp (Rite of Flame/Dark Ritual) or two Mountains (Boltwave/Rite of Flame), then six distinct remaining lands pay 4UU for hand Mind's Desire. Spell-generated floating mana is left unused, not double spent.",
+    "copy_shuffles": "Rather than fake a known shuffled order, every test uses an explicitly attainable selected ordering of the remaining physical library for each resolving copy. These are conditional possible shuffle outcomes, not probability samples.",
+    "trigger_timing": "All storm and Nalfeshnee spell copies exist on the stack prior to resolving Mind's Desire original and their copy events independently trigger Storm-Kiln. No copy is a cast, so no additional storm count, Abaddon cascade or Lost/Keeper/Prosper cast effects."
+  },
+  "cases": [
+    {
+      "id": "desire_hand_two_paid_spells_storm2_magecraft",
+      "expected": "Two earlier actually paid hand instants Rite of Flame and Dark Ritual then 4UU Mind from hand -> exactly two virtual storm copies, three independent Mind resolutions each physically exiling a card; Storm-Kiln triggers 3 times for casts and twice for spell copies (5 total). No Nalf copies of hand Mind, no automatic exile plays."
+    },
+    {
+      "id": "desire_deferred_spells_land_prosper_and_lost",
+      "expected": "Three separate resolving Mind instances exile actual Boltwave MV1, Arcane Signet MV2 and Swamp; after stack empty legal same-turn main permits two free-cost exile-casts and one land play; Prosper gains three Treasures and Lost three Spawn, whereas Keeper/Archaeologist count only 3 total mana value damage, Nalf spell copies themselves add no Treasure/Spawn."
+    },
+    {
+      "id": "desire_no_automatic_play_and_permission_expiry",
+      "expected": "Mind resolutions may exile cards that remain physically exiled and generate no Treasure/Spawn merely by being exiled; land plays cannot occur with nonempty stack, on opponent turn, after land drop or after permission expires; after turn ends unplayed card remains exile."
+    },
+    {
+      "id": "desire_counter_original_storm_copies_survive",
+      "expected": "Counter original paid Mind after storm trigger, two pre-existing storm copies each resolve and exile one physical card; original doesn't resolve, so exactly two impulse permissions, and Magecraft copy triggers persist."
+    },
+    {
+      "id": "desire_x9_hand_abaddon_granted_independent",
+      "expected": "Prior hand-cast Boltwave creates X9 with three opponents, Rite of Flame second prior spell, then paid hand Mind MV6 qualifies for exactly one Abaddon cascade (e.g. real Arcane Signet exile cast), plus its two storm copies and original give three separate impulse permissions. Exile-cast Arcane does not itself gain Abaddon cascade."
+    },
+    {
+      "id": "desire_cast_from_call_exile_nalf_plus_storm",
+      "expected": "Paid hand Call MV8 X0 has two printed cascades; first hit actual Mind MV6 cast from exile creates one storm copy (Call prior cast) and one Nalf copy (same Mind is cast from exile), so Mind exiles three physical cards on original+2-copy resolution. Real Mind cast earns Prosper/Lost once and the subsequent printed Sol Ring exile cast once; copies do not."
+    },
+    {
+      "id": "desire_zero_cost_ancestral_vision_free_cast",
+      "expected": "One resolving Mind exile may offer physical Ancestral Vision MV0, which can be cast for no mana using Mind permission although it has no printed mana cost; on exile cast Prosper +1, Lost +1, Keeper/Archaeologist 0, and actual spell draws 3 physical library cards on resolution, preserving 99-source census."
+    }
+  ],
+  "budget": {
+    "new_methods": 7,
+    "random_trials": 0,
+    "physical_100_card_variants": 1
+  },
+  "gates": {
+    "M6_6": "PARTIAL",
+    "M6_7": "PARTIAL",
+    "M6_I": "BLOCKED",
+    "M6_J": "BLOCKED",
+    "M7_approved": false
+  },
+  "notes": [
+    "Exact-head CI execution required; registration alone is not PASS.",
+    "A selected shuffled top card is one possible physical outcome and makes no assertion about access probability.",
+    "In a Nalf copy of Mind's Desire, the copy's original Mind printed storm keyword does not trigger again because the copy was not cast.",
+    "This P0 addresses a concrete uncovered high-leverage card, not an exhaustive list of 75 residual cards."
+  ]
+}
