@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "generated_at": "2026-10-22T19:10:00Z",
+  "list_hash": "lh1:853567925301becc5b646c193795a18871c269abce1368690cca5d9bda73a0b7",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_six_swap_manifest.json",
+    "source_sha256": "sha256:9ab42a23ff8a5a740615a06d4f94aa37aab5a6af089288aa8be2accddc57b490",
+    "tested_pool_size": 4
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json",
+      "tests/test_m6_abaddon_residual_p1.py",
+      "tests/test_m6_abaddon_remaining_p1.py",
+      "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39821244835",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819765932",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819134570",
+      "tests/test_m6_abaddon_rev2_new_effects_p0.py",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39833569544"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_J_bundle_draft.json",
+    "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_red_team_20261022.md",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_rev2_mana_curve_20261022.md",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39834064862"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "This candidate-bound M6 I source dossier applies only to Abaddon six-swap physical sha256 0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790 and its date-bound 100-name Scryfall source. It does not accept M6.10, assert independent Pass C, approve or lock canonical, or itself promote M7 readiness. Final owner approval belongs to Cory."
+  }
+}
