@@ -126,7 +126,7 @@ def verify_prerequisites():
 
 def validate_runtime(oracle, p0):
     inventory=load(ROOT/INVENTORY)
-    if (len(inventory["replay_cases"])!=81
+    if (len(inventory["replay_cases"])!=88
         or {x["id"] for x in inventory["required_open"]}!=KNOWN_P0_GAPS
         or inventory["completion_claim"]):
         raise PreflightFailure("Current 44-P0 known-case inventory not closed")
@@ -135,13 +135,13 @@ def validate_runtime(oracle, p0):
 
     expected={row["id"]:row for row in inventory["replay_cases"]}
     receipts=p0.get("case_receipts")
-    if (p0.get("replayed_case_count")!=81 or p0.get("passed")!=81
+    if (p0.get("replayed_case_count")!=88 or p0.get("passed")!=88
         or p0.get("failed")!=0 or p0.get("open_required_count")!=0
         or {x["id"] for x in p0.get("open_required_p0_cases",[])}!=KNOWN_P0_GAPS
         or p0.get("M6_6_certified") is not False or p0.get("owner_approved") is not False
         or p0.get("canonical_pinned_raw_sha256")!=PINNED or
         p0.get("registry_sha256")!=sha(ROOT/INVENTORY) or
-        not isinstance(receipts,list) or len(receipts)!=81):
+        not isinstance(receipts,list) or len(receipts)!=88):
         raise PreflightFailure("Actual CI P0 report is missing/inconsistent")
     ids={row.get("id") for row in receipts}
     if ids!=set(expected):
@@ -211,6 +211,10 @@ def validate_runtime(oracle, p0):
             if (row["coverage_class"]!="SELECTED_INTERACTION_STAGED_P0" or
                 set(row["p0_direct_case_ids"])!={"P0-027"+chr(ord("a")+i) for i in range(10)}):
                 raise PreflightFailure("Prosper ten physical spell/land exile plays not bound to whole-list audit")
+        if row["name"]=="Storm-Kiln Artist":
+            if (row["coverage_class"]!="SELECTED_INTERACTION_STAGED_P0" or
+                set(row["p0_direct_case_ids"])!={"P0-028"+chr(ord("a")+i) for i in range(7)}):
+                raise PreflightFailure("Storm-Kiln seven real cast/copy magecraft tests not bound to whole-list audit")
     for name,c in data.items():
         oracle_text=c.get("oracle_text","")
         if (c.get("commander_legality")!="legal" or not set(c.get("color_identity",[])) <= {"B","R","U"}
@@ -218,7 +222,7 @@ def validate_runtime(oracle, p0):
            or hashlib.sha256(oracle_text.encode("utf-8")).hexdigest()!=c.get("oracle_text_sha256")):
             raise PreflightFailure("Oracle current legality/identity/text hash violation: "+name)
 
-    return {"phase_b_actual_named_P0_methods":81,"phase_b_pass":81,
+    return {"phase_b_actual_named_P0_methods":88,"phase_b_pass":88,
         "current_identified_open_P0":0,
         "current_oracle_unique_names":97,"full_physical_lists":5,
         "current_oracle_checked_at_utc":oracle["checked_at_utc"],
@@ -240,7 +244,7 @@ def build(oracle_path,p0_path):
         "source_integrity":static,"runtime_verification":dynamic,
         "quality_gates":{
            "M6_5":"PASS_OWNER_WAIVER_NONINDEPENDENT",
-           "M6_6":"81_CURRENTLY_IDENTIFIED_P0_ALL_PASS_FORMAL_WHOLE_DECK_COMPLETENESS_PENDING",
+           "M6_6":"88_REGISTERED_CASES_INCLUDING_NEW_STORM_KILN_COPY_P0_FORMAL_SUFFICIENCY_PENDING",
            "M6_7":"AUTHORED_CONFLICT_RECONCILED_FORMAL_JUDGMENT_GATE_PENDING",
            "M6_8_I":"BLOCKED_PLAUSIBLE_POSITIVE_SWAP_POOL_NOT_ZERO_IMPROVEMENT",
            "M6_9_J":"BLOCKED_NO_COMPLETE_EFFECT_AWARE_FINAL_BUNDLE",
@@ -248,7 +252,7 @@ def build(oracle_path,p0_path):
            "M7":"NO_NEW_OWNER_APPROVAL",
         },
         "remaining_material_dependencies":[
-           "M6.6: all 81 currently registered bounded P0 cases are expected to pass on current head, but no comprehensive all-99-card effect model, opponent strategy comparison, or formal certification is claimed.",
+           "M6.6: 81 historically passing P0 cases plus seven newly registered Storm-Kiln Magecraft copy cases; complete deckwide effect coverage and formal milestone certification remain unproven.",
            "M6.7 material contradiction with historical Pass C Assault proposal reconciled narratively, but comparative strength remains qualitative, not measured net-game superiority.",
            "M6 I cannot certify original baseline local optimum while a plausible two-swap challenger remains and exact tested pool is not declared closed for local optimum.",
            "M6 J complete schema requires durable rules/Oracle/legality snapshots, fully reconciled decision-grade Phase B effect coverage, mana/red-team stress and exact result logical hashes. Actions evidence artifacts expire.",
