@@ -120,6 +120,29 @@ class ChaosWarpStaxTests(unittest.TestCase):
         self.assertGreaterEqual(a[1],0)
         self.assertIn("chaos_warp_land_payable_as_first_spell",a[0][10])
 
+    def test_otawara_reserve_policy_keeps_channel_in_hand(self):
+        base=self.variants["baseline"]
+        reserve,_searches,_skips=trial(base,621017,[4,6,8,10],
+                                      "reserve_otawara_for_channel")
+        automatic,_searches2,_skips2=trial(base,621017,[4,6,8,10],
+                                            "land_first_as_original")
+        self.assertEqual(set(reserve),set(automatic))
+        # Never invent an extra physical answer; reserve policy is conditional.
+        self.assertFalse(reserve[10]["chaos_warp_held"])
+
+    def test_reserve_policy_is_preregistered_and_not_free_acceleration(self):
+        from scripts.grixis_m6_abaddon_chaos_warp_stax import SENSITIVITY_PLAN
+        import json
+        self.assertTrue(SENSITIVITY_PLAN.is_file())
+        plan=json.loads(SENSITIVITY_PLAN.read_text())
+        self.assertEqual(plan["policies"],["land_first_as_original","reserve_otawara_for_channel"])
+        self.assertEqual(plan["n_per_variant"],2000)
+        self.assertFalse(any(plan["authority"].values()))
+
+    def test_wrong_land_policy_rejected(self):
+        with self.assertRaises(ValueError):
+            trial(self.variants["baseline"],621017,[4,10],"add_free_land")
+
     def test_no_challenger_changed_canonical_permissions(self):
         self.assertFalse(any(self.plan["authority"].values()))
         self.assertEqual(self.plan["matched_draw_source_opportunity"]["n_per_variant"],2000)
