@@ -286,6 +286,117 @@
     "withdrawal_reason": {
       "$ref": "#/$defs/meaningful",
       "description": "Mandatory by semantic gate for withdrawn historical research-only packets; does not grant owner approval."
+    },
+    "open_ended_optimization_audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Prospective owner rule: five is an eligibility floor not an optimization target; test post-floor extra slots and credible higher-count exact 100-card portfolios, or defend nonexistence.",
+      "required": [
+        "floor_not_target",
+        "remaining_99_review",
+        "post_floor_challenges",
+        "larger_swap_packages",
+        "no_credible_larger_package_reason",
+        "quality_based_stop_reason"
+      ],
+      "properties": {
+        "floor_not_target": {
+          "const": true
+        },
+        "remaining_99_review": {
+          "type": "string",
+          "minLength": 100
+        },
+        "post_floor_challenges": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "incumbent",
+              "challenger",
+              "tradeoff",
+              "disposition"
+            ],
+            "properties": {
+              "incumbent": {
+                "$ref": "#/$defs/name"
+              },
+              "challenger": {
+                "$ref": "#/$defs/name"
+              },
+              "tradeoff": {
+                "$ref": "#/$defs/meaningful"
+              },
+              "disposition": {
+                "enum": [
+                  "REJECT",
+                  "RETAIN_ALTERNATIVE",
+                  "EXCLUDE_INVALID"
+                ]
+              }
+            }
+          }
+        },
+        "larger_swap_packages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "path",
+              "sha256",
+              "adds",
+              "cuts",
+              "case_for_extra_swaps",
+              "why_not_selected"
+            ],
+            "properties": {
+              "path": {
+                "type": "string",
+                "minLength": 20
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "adds": {
+                "type": "array",
+                "minItems": 2,
+                "uniqueItems": true,
+                "items": {
+                  "$ref": "#/$defs/name"
+                }
+              },
+              "cuts": {
+                "type": "array",
+                "minItems": 2,
+                "uniqueItems": true,
+                "items": {
+                  "$ref": "#/$defs/name"
+                }
+              },
+              "case_for_extra_swaps": {
+                "$ref": "#/$defs/meaningful"
+              },
+              "why_not_selected": {
+                "$ref": "#/$defs/meaningful"
+              }
+            }
+          }
+        },
+        "no_credible_larger_package_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "quality_based_stop_reason": {
+          "type": "string",
+          "minLength": 120
+        }
+      }
     }
   },
   "$defs": {

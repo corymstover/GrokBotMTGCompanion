@@ -3,8 +3,8 @@
   "deck_id": "Admiral_Beckett_Brass",
   "date": "2026-10-22",
   "overall_status": "PARTIAL",
-  "m7_status": "OWNER_APPROVAL REQUIRED",
-  "note": "Merged engineering PRs through #602, with a source-bound 100-card Admiral M7 owner-presentable packet. Current live state and owner decisions must be rechecked when resuming.",
+  "m7_status": "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
+  "note": "2026-10-22 owner clarification: five genuine swaps is ONLY a presentation floor. Admiral's five-swap candidate and all five-swap alternative packages were judged too floor-anchored for final approval. Preserve all executed M6 evidence and canonical authority; reopen M7 strategically, owner approval withheld.",
   "canonical_authority": {
     "repo": "corymstover/grixis-commander-encyclopediaGPT",
     "branch": "main",
@@ -133,7 +133,7 @@
     "material_candidate_judgments": 24,
     "challenged_incumbent_areas": 12,
     "decision_ledger": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_material_decisions_20261022.json",
-    "why_preferred": "Deck D preserves Merchant Raiders blocker lock, The Indomitable passive combat draw, and Open into Wonder guaranteed evasion/draw while adding 1-drop flying Pirate, 2-mana flyers, haste/menace and untapped UBR land. Preferred D is now gated and staged as an unapproved final M7 candidate in PR #602.",
+    "why_preferred": "Deck D preserves Merchant Raiders blocker lock, The Indomitable passive combat draw, and Open into Wonder guaranteed evasion/draw while adding 1-drop flying Pirate, 2-mana flyers, haste/menace and untapped UBR land. Preferred D is now gated and staged as an unapproved final M7 candidate in PR #602. Historical leading tested candidate only; owner held approval and reopened post-floor opportunity review.",
     "unresolved_tradeoff": "Forerunner pirate-tutor and repeat entry drain, Dire Fleet Poisoner flash/deathtouch, and larger Dire Fleet Captain body are genuine losses; verify D still maximal under adverse opponents.",
     "provisional_power_bracket": 4,
     "provisional_archidekt_tags": [
@@ -212,14 +212,16 @@
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Present the complete source-bound, exact-hash candidate D, five paired strategic replacements, Bracket 4 and tags; request Cory's explicit exact-list M7 approval using the mandated final question.",
-    "If Cory explicitly approves the exact candidate, reconfirm its raw SHA and only then update and lock the canonical list under the established authority workflow; record the owner receipt. Do not mislabel the reply as M6.10 certification acceptance.",
-    "Continue in authoritative commander order and execute genuine mandatory P0/P1, efficient commander-first M7 optimization, source-bound I/J and separate owner approvals; leave unrelated approved canonical decks intact."
+    "Re-audit every remaining source card without a five-swap anchor and challenge at least two previously uncut incumbents against credible alternatives.",
+    "Widen candidate research beyond the prior 24 source-bound choices, including off-ranking Pirate payoffs, alternative draw/protection and graveyard/recursion tradeoffs; independently verify any newly introduced Oracle/legality names.",
+    "Construct and compare complete 100-card six-, seven- and additional-swap options when strategically credible; do not force larger packages or weaken identity to manufacture more changes.",
+    "Determine final card count by comparative deck quality, not a numerical quota; preserve the former D hash and applicable tests, update changed-source Oracle and relevant P0/P1 and I/J only for material differences.",
+    "Only after unbounded audit, source-bound candidate-specific proof and exact-head CI, create a new numbered owner-ready packet. Never relabel withdrawn prior packet as ready."
   ],
-  "owner_decision_required_now": true,
-  "authority_caveat": "Historical 62 approved/locked canonical decks persist. Abaddon alone has a new exact M7 owner approval; Admiral D is structural owner-ready but not approved. Admiral M6.6-9 decision-scoped evidence is completed, aggregate 2/62; M6.10 formal owner acceptance 0/62, M8 not accepted. The former D packet is not evidence of multiplayer win rate or global optimality.",
+  "owner_decision_required_now": false,
+  "authority_caveat": "Cory explicitly withheld Admiral M7 approval and directed open-ended post-floor reassessment. Existing canonical Admiral remains approved/locked and unchanged. Admiral M6.6–9 completed bounded evidence remains source-bound to the historical D candidate, not automatically a new rev2. Aggregate 2/62, M6.10 0/62; only Abaddon new exact M7 approval 1/62; M8 pending.",
   "m7_decision_packet": {
-    "status": "OWNER_PRESENTABLE_CI_VERIFIED_NOT_APPROVED",
+    "status": "WITHDRAWN_RESEARCH_ONLY_OWNER_REOPENED",
     "path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass.json",
     "candidate_staging_path": "data/grixis/m7/candidate_lists/Admiral_Beckett_Brass.txt",
     "exact_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
@@ -231,11 +233,13 @@
     "structural_gate_pr": 602,
     "exact_head_sha": "089d355e7b59433c2527036f8546ec7c0b768e63",
     "exact_head_actions_run": 39863031245,
-    "exact_head_result": "success",
+    "exact_head_result": "historical success prior to owner-directed withdrawal; not current M7 owner readiness",
     "merge_commit": "19a8e3c751192c82fef1eb6da17d83ff6d94ebe9",
     "canonical_updated": false,
     "exact_owner_approved": false,
-    "exact_owner_approval_pending": true
+    "exact_owner_approval_pending": false,
+    "owner_withheld_approval_on": "2026-10-22",
+    "owner_reopen_reason": "No owner approval; 5-swap candidate and all three five-swap alternatives might reflect stopping at the eligibility floor. No finding that additional quality upgrades do not exist."
   },
   "m6_ij_current": {
     "m6_6": {
@@ -264,5 +268,21 @@
       "exact_head_ci": 39862032718,
       "notes": "Two of 62 valid strict J bundles at merge; M6.10 remains blocked."
     }
+  },
+  "open_ended_reopen": {
+    "status": "IN_PROGRESS_RESEARCH_ONLY",
+    "owner_instruction_date": "2026-10-22",
+    "owner_has_approved_prior_candidate": false,
+    "rule_location": "AGENTS.md and grixis/Commander-First Decisive Optimization and Test Economy Standard.md",
+    "historical_candidate_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+    "current_packet_path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass.json",
+    "next_revision_path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass_rev2.json",
+    "research_required": [
+      "Re-audit every remaining source card without a five-swap anchor and challenge at least two previously uncut incumbents against credible alternatives.",
+      "Widen candidate research beyond the prior 24 source-bound choices, including off-ranking Pirate payoffs, alternative draw/protection and graveyard/recursion tradeoffs; independently verify any newly introduced Oracle/legality names.",
+      "Construct and compare complete 100-card six-, seven- and additional-swap options when strategically credible; do not force larger packages or weaken identity to manufacture more changes.",
+      "Determine final card count by comparative deck quality, not a numerical quota; preserve the former D hash and applicable tests, update changed-source Oracle and relevant P0/P1 and I/J only for material differences.",
+      "Only after unbounded audit, source-bound candidate-specific proof and exact-head CI, create a new numbered owner-ready packet. Never relabel withdrawn prior packet as ready."
+    ]
   }
 }

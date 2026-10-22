@@ -300,6 +300,48 @@ class M7DecisionGateTests(unittest.TestCase):
         self.packet["readiness"] = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
         self.packet.pop("withdrawal_reason", None)
 
+    def prepare_unbounded_search_audit(self):
+        """A true six-swap source is tested and then rejected for role quality.
+
+        The owner-ready five-swap candidate is NOT justified merely by being five.
+        """
+        extended = self.candidate_file.read_text().replace(
+            "1x Thermo-Alchemist", "1x Spark Double")
+        alternative_path = "data/grixis/m7/research_challengers/Synthetic_Abaddon_six.txt"
+        alternative = self.root / alternative_path
+        alternative.parent.mkdir(parents=True, exist_ok=True)
+        alternative.write_text(extended)
+        self.packet["open_ended_optimization_audit"] = {
+            "floor_not_target": True,
+            "remaining_99_review": (
+                "After the initial five-card configuration, all unchanged roles, paid "
+                "mana sources, interaction, resilience, draw and engine dependencies "
+                "were challenged again without a numerical swap target."),
+            "post_floor_challenges": [
+                {"incumbent": BASE_NAMES[5], "challenger": CANDIDATE_NAMES[5],
+                 "tradeoff": "A sixth source-dependent clone line sacrifices an active burn creature and can collapse under removal.",
+                 "disposition": "REJECT"},
+                {"incumbent": BASE_NAMES[6], "challenger": CANDIDATE_NAMES[6],
+                 "tradeoff": "A seventh answer-oriented card loses the original cascading action and strains proactive density.",
+                 "disposition": "REJECT"}],
+            "larger_swap_packages": [{
+                "path": alternative_path,
+                "sha256": hashlib.sha256(alternative.read_bytes()).hexdigest(),
+                "adds": CANDIDATE_NAMES[:6],
+                "cuts": BASE_NAMES[:6],
+                "case_for_extra_swaps": (
+                    "One more modal clone effect could broaden threshold engine repeatability in fragile windows."),
+                "why_not_selected": (
+                    "The extra clone loses an independently useful damage source and costs extra mana, "
+                    "so the six-swap version is worse than the five-swap source-bound candidate.")}],
+            "no_credible_larger_package_reason": None,
+            "quality_based_stop_reason": (
+                "The stopping judgment comes from direct incumbent versus challenger "
+                "role quality, paid costs, fragile opponent-response windows, and "
+                "protected commander cascade identity; five is not used as the "
+                "optimization target, maximum or reason to stop.")
+        }
+
     def test_owner_ready_one_swap_hard_block_even_when_historical_packet_valid(self):
         self.packet["readiness"] = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
         self.packet.pop("withdrawal_reason")
@@ -336,10 +378,56 @@ class M7DecisionGateTests(unittest.TestCase):
             row=weak(BASE_NAMES[i], CANDIDATE_NAMES[i])
             self.packet["whole_deck_audit"]["weakest_slots"].append(row)
             self.packet["low_swap_heightened_audit"]["weakest_slot_challenge"].append(copy.deepcopy(row))
+        self.prepare_unbounded_search_audit()
         result=self.verify()
         self.assertEqual(result["new_swaps"], 5)
         self.assertTrue(result["owner_presentable"])
         self.assertEqual(result["material_candidates"], 10)
+
+    def test_reaching_five_without_open_ended_search_never_implies_owner_ready(self):
+        self.prepare_owner_ready_five_swap_fixture()
+        for i in range(5, 10):
+            self.packet["material_candidates"].append(
+                candidate(CANDIDATE_NAMES[i], BASE_NAMES[i % len(BASE_NAMES)], "REJECT"))
+        for i in range(5, 8):
+            row = weak(BASE_NAMES[i], CANDIDATE_NAMES[i])
+            self.packet["whole_deck_audit"]["weakest_slots"].append(row)
+            self.packet["low_swap_heightened_audit"]["weakest_slot_challenge"].append(copy.deepcopy(row))
+        with self.assertRaisesRegex(gate.DecisionGateError, "POST-FLOOR HARD BLOCK"):
+            self.verify()
+        self.prepare_unbounded_search_audit()
+        self.assertTrue(self.verify()["owner_presentable"])
+
+    def test_post_floor_stopping_rationale_is_not_a_checkbox(self):
+        self.prepare_owner_ready_five_swap_fixture()
+        for i in range(5, 10):
+            self.packet["material_candidates"].append(
+                candidate(CANDIDATE_NAMES[i], BASE_NAMES[i % len(BASE_NAMES)], "REJECT"))
+        for i in range(5, 8):
+            row = weak(BASE_NAMES[i], CANDIDATE_NAMES[i])
+            self.packet["whole_deck_audit"]["weakest_slots"].append(row)
+            self.packet["low_swap_heightened_audit"]["weakest_slot_challenge"].append(copy.deepcopy(row))
+        self.prepare_unbounded_search_audit()
+        audit = self.packet["open_ended_optimization_audit"]
+        audit["quality_based_stop_reason"] = "Five swaps met."
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
+        self.prepare_unbounded_search_audit()
+        audit = self.packet["open_ended_optimization_audit"]
+        audit["post_floor_challenges"][0]["incumbent"] = BASE_NAMES[0]
+        with self.assertRaisesRegex(gate.DecisionGateError, "already selected as a cut"):
+            self.verify()
+        self.prepare_unbounded_search_audit()
+        audit = self.packet["open_ended_optimization_audit"]
+        audit["larger_swap_packages"][0]["sha256"] = "f"*64
+        with self.assertRaisesRegex(gate.DecisionGateError, "source SHA mismatch"):
+            self.verify()
+        self.prepare_unbounded_search_audit()
+        audit = self.packet["open_ended_optimization_audit"]
+        audit["larger_swap_packages"] = []
+        audit["no_credible_larger_package_reason"] = "Five is the target."
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
 
     def test_no_fake_opportunity_audit_or_recycled_multiswap_packages(self):
         self.prepare_owner_ready_five_swap_fixture()

@@ -766,5 +766,6 @@
     "exact_candidate_owner_approved": false,
     "owner_approval_question": "This deck is complete. Do you approve it?"
   },
-  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+  "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+  "withdrawal_reason": "Cory explicitly withheld Admiral M7 approval on 2026-10-22 and directed an unconstrained strategic re-review: the exact-five-swap proposal and three exactly-five-swap alternatives may reflect minimum-quota anchoring. Retain this exact source/hash and mechanically valid bounded I/J evidence as historical research only; no final owner approval, canonical replacement, or M6.10 acceptance. Reopen the full deck and examine credible sixth, seventh and further beneficial swaps without padding; any next owner-ready proposal must be a separately verified numbered revision under the new post-floor audit."
 }
