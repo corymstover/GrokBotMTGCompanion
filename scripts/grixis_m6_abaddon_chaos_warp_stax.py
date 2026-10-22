@@ -87,7 +87,6 @@ def response_window(stax, answer, *,
         limited=bool(spell_limit_already_active)
     typ=STAX[stax]["zone_type"]
     kind=DISRUPTION_CLASSES[answer]["kind"]
-    can_cast_or_activate=bool(in_hand) and not (kind=="spell" and limited and spells_already_cast>=1)
     eligible=(target_zone=="battlefield" and (
         answer=="Chaos Warp"
         or answer=="Otawara, Soaring City" and typ in ("artifact","creature","enchantment")
@@ -96,8 +95,11 @@ def response_window(stax, answer, *,
         answer=="Swan Song" and typ=="enchantment"
         or answer=="Force of Negation" and typ!="creature"
     ))
-    # All registered stax permanents are white or colorless; Pyroblast would
-    # have no meaningful effect even if targetable via its conditional clause.
+    # Pyroblast's Oracle target restriction is broad, but these targets are
+    # all nonblue, so the conditional effect is ineffective even if castable.
+    legal_target=eligible or answer=="Pyroblast"
+    can_cast_or_activate=bool(in_hand) and legal_target and not (
+        kind=="spell" and limited and spells_already_cast>=1)
     effective=can_cast_or_activate and eligible
     if answer=="Chaos Warp" and effective and reveal=="same_stax":
         effective=False # A same-restrictor reveal is NOT a reliable out
