@@ -64,11 +64,35 @@
     "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
     "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
   ],
-  "next_engineering_action": "On this branch implement one narrowly scoped Abaddon source-paid adversarial regression test addressing an unresolved HOLD using existing simulator and immutable oracle fixtures; run its unit tests through exact-head GitHub Actions, then record bounded results without inferring wins or canonical swap approval.",
+  "next_engineering_action": "Integrate Abaddon's entire sourced Phase B record into a candidate-by-candidate decision-grade M6.7 disposition (Assault, Ignus, Chaos Warp, Ruinous Powers), preserving all incumbent role costs and unknown/unmodeled outcomes; enumerate exactly required residual effect tests before any M6.6/M6.7 closure or I/J certificate. Do not use 12 passing rule fixtures as evidence of deck superiority.",
   "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
   "separate_future_backlog": {
     "pr": 535,
     "scope": "61 other commanders, 882 test designs; not an Abaddon execution fixture",
     "planning_only": true
+  },
+  "last_verified_progress": {
+    "merged_pr": 536,
+    "merge_commit": "38cc814927c17d1cb3b6d3a3e45cb09322a6ba42",
+    "test_head_sha": "a8bf1bdfd7de8ed57709b67863fe20ebfadc8197",
+    "github_actions_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39727801845",
+    "result": "SUCCESS",
+    "executed_neheb_assault_unit_tests": 12,
+    "new_adversarial_cases": 2,
+    "new_case_results": [
+      {
+        "name": "test_remove_loyal_after_first_trigger_combat_loop_is_not_a_kill",
+        "outcome": "PASS",
+        "boundary": "Paid repeated combat is not opponent death after removal of Loyal Subordinate; cumulative loss remains nine in fixed fixture"
+      },
+      {
+        "name": "test_remove_neheb_after_paid_first_activation_blocks_repetition",
+        "outcome": "PASS",
+        "boundary": "Existing activation still yields extra combat; absent Neheb cannot pay subsequent activation in modeled mana"
+      }
+    ],
+    "phase_b_scope": "BOUNDED_DETERMINISTIC_RULES_FIXTURE_NOT_FULL_MULTIPLAYER_OR_COMPARATIVE_WIN_RATE",
+    "canonical_decks_modified": 0,
+    "certified_decks_added": 0
   }
 }
