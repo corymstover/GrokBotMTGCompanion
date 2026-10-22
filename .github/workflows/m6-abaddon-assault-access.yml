@@ -1,0 +1,49 @@
+name: M6 Abaddon Assault matched physical source access
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-assault-access.yml
+      - scripts/grixis_m6_abaddon_assault_access.py
+      - tests/test_m6_abaddon_assault_access.py
+      - data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json
+      - data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  abaddon-access:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout exact pull request head
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Run adversarial mana/source/physical-slot tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_assault_access.py' -v
+      - name: Execute frozen matched physical draw and source-access proxy
+        run: python scripts/grixis_m6_abaddon_assault_access.py --samples 2000 --out abaddon_access_receipt.json
+      - name: Upload reproducible bounded access measurements
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-matched-physical-access
+          path: abaddon_access_receipt.json
+          retention-days: 30
+      - name: No authority escalation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('abaddon_access_receipt.json').read_text())
+          tr=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert all(not v for k,v in x['limits'].items() if k not in ('multiplayer_win_rate','new_m6_certificates'))
+          assert x['limits']['multiplayer_win_rate'] is None
+          assert x['limits']['new_m6_certificates']==0
+          assert tr['m6']['gates'][5]['status']=='PARTIAL'
+          assert tr['m6']['formal_m6_certified_decks']==0
+          assert tr['m7']['formal_m7_review_decisions']==0
+          print('PASS: matched land-source proxies do not certify deck changes or win rates')
+          PY
