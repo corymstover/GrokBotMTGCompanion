@@ -5,7 +5,6 @@ EDHREC metrics, a game engine, M6 certification or owner-ready M7 list.
 """
 import json
 from pathlib import Path
-import re
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,7 +22,7 @@ class AdmiralEDHRECDiscoveryContract(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.d = json.loads(F.read_text(encoding="utf-8"))
-        cls.baseline = {re.sub(r"^\\d+x\\s+", "", line).replace(" [Commander]", "")
+        cls.baseline = {line.split("x ", 1)[1].replace(" [Commander]", "")
                         for line in BASE.read_text(encoding="utf-8").splitlines() if line.strip()}
 
     def test_newly_observed_six_genuinely_outside_canonical(self):
