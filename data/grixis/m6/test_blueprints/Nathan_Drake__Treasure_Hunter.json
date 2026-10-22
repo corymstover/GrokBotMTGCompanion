@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Nathan_Drake__Treasure_Hunter",
+  "order": 40,
+  "commanders": [
+    "Nathan Drake, Treasure Hunter"
+  ],
+  "strategy": {
+    "primary": "Accelerate and protect a three-mana commander and attack with Nathan every turn. Each attack exiles the top card of every library and lets you cast one of them; trigger multipliers and extra combats (Roaming Throne, Firebender Ascension, Karlach, Fire Lord Azula) turn that into a repeatable heist.",
+    "secondary": "A theft suite (Gonti, Thief of Sanity, Tinybones, Hostage Taker, Opposition Agent, Notion Thief, Laughing Jasper Flint) turns stolen resources into card advantage; payoffs like Don Andres and Nalfeshnee monetize casting cards you don't own."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Nathan Drake, Treasure Hunter",
+      "oracle_id": "ed69b907-272c-4a87-a943-06aaad976fb1",
+      "oracle_text": "First strike\nYou may spend mana as though it were mana of any color to cast spells you don't own or to activate abilities of permanents you control but don't own.\nWhenever Nathan Drake attacks, exile the top card of each player's library. You may cast a spell from among those cards.",
+      "oracle_sha256": "sha256:aaf5b9218d75a8c532c284a525fd8ffd6fbc858151cf2e8a9928c24243ee132a",
+      "type_line": "Legendary Creature — Human Rogue"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Nathan Drake, Treasure Hunter",
+      "why": "Attack-trigger heist engine.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Nathan Drake, Treasure Hunter"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "why": "Doubles the trigger.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L24"
+      ]
+    },
+    {
+      "card": "Karlach, Fury of Avernus",
+      "why": "Extra combat and untap.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L26"
+      ]
+    },
+    {
+      "card": "Fire Lord Azula",
+      "why": "Combat mana and spell copy.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L27"
+      ]
+    },
+    {
+      "card": "Firebender Ascension",
+      "why": "Copies attack triggers.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "source_archive:refinement/blueprints/Nathan_Drake_Treasure_Hunter_v1.md#L25"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/nathan-drake-treasure-hunter.json",
+    "blueprint_blob": "8f8661100dde510f8c88d3ee472fe611af802316",
+    "canonical_source_path": "refinement/decklists/Nathan_Drake_Treasure_Hunter_Approved_2026-10-15.txt",
+    "canonical_source_blob": "1cfc4be148d5a62f5e8345d6155c2dc4315e7b3a",
+    "canonical_approved_sha256": "a5d59afc3a78d7ff6454b1d011c82c2f732e11f4d4dd03256df1195a3abe9ba0",
+    "canonical_record_key": "Nathan_Drake__Treasure_Hunter",
+    "registry_raw_matches": true,
+    "source_card_lines": 97,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:nathan-drake-treasure-hunter#commanders.value[0]",
+      "scenario": "Nathan Drake, Treasure Hunter",
+      "expected_claim_to_verify": "First strike\nYou may spend mana as though it were mana of any color to cast spells you don't own or to activate abilities of permanents you control but don't own.\nWhenever Nathan Drake attacks, exile the top card of each player's library. You may cast a spell from among those cards.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:nathan-drake-treasure-hunter#key_interactions[0]",
+      "scenario": "attack-not-damage",
+      "expected_claim_to_verify": "Nathan triggers when he's declared as an attacker, not on damage; evasion only matters to keep him alive.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:nathan-drake-treasure-hunter#key_interactions[1]",
+      "scenario": "any-color-mana",
+      "expected_claim_to_verify": "Mana spends as any color only for spells you don't own and abilities of permanents you don't own.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:nathan-drake-treasure-hunter#key_interactions[2]",
+      "scenario": "firebending-window",
+      "expected_claim_to_verify": "Fire Nation Palace's firebending makes mana before Nathan's trigger resolves, paying for the stolen spell.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter",
+        "Fire Nation Palace"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter",
+        "Fire Nation Palace"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:nathan-drake-treasure-hunter#key_interactions[3]",
+      "scenario": "roaming-throne-rogue",
+      "expected_claim_to_verify": "Roaming Throne naming Rogue doubles Nathan's attack trigger.",
+      "cards": [
+        "Roaming Throne",
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "found_in_source_export": [
+        "Roaming Throne",
+        "Nathan Drake, Treasure Hunter"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:nathan-drake-treasure-hunter#key_interactions[4]",
+      "scenario": "dauthi-tinybones",
+      "expected_claim_to_verify": "M1 flag: Dauthi Voidwalker exiles opponents' discards and dying cards, starving Tinybones, the Pickpocket of graveyard targets.",
+      "cards": [
+        "Dauthi Voidwalker",
+        "Tinybones, the Pickpocket"
+      ],
+      "found_in_source_export": [
+        "Dauthi Voidwalker",
+        "Tinybones, the Pickpocket"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:nathan-drake-treasure-hunter#key_interactions[5]",
+      "scenario": "exile-and-unowned-payoffs",
+      "expected_claim_to_verify": "Cast-from-exile payoffs (Wild-Magic Sorcerer, Nalfeshnee, Passionate Archaeologist, Web Watch) and spells-you-don't-own payoffs (Gonti, Tasha, Vaan, Don Andres) both see Nathan's casts.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter",
+        "Wild-Magic Sorcerer",
+        "Nalfeshnee",
+        "Gonti, Night Minister",
+        "Don Andres, the Renegade"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter",
+        "Wild-Magic Sorcerer",
+        "Nalfeshnee",
+        "Gonti, Night Minister",
+        "Don Andres, the Renegade"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:nathan-drake-treasure-hunter#engines[0]",
+      "scenario": "nathan-heist",
+      "expected_claim_to_verify": "Nathan attacks with mana available for the stolen spell.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter",
+        "Roaming Throne",
+        "Firebender Ascension",
+        "Karlach, Fury of Avernus",
+        "Fire Lord Azula",
+        "Fire Nation Palace",
+        "Arena of Glory"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter",
+        "Roaming Throne",
+        "Firebender Ascension",
+        "Karlach, Fury of Avernus",
+        "Fire Lord Azula",
+        "Fire Nation Palace",
+        "Arena of Glory"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:nathan-drake-treasure-hunter#engines[1]",
+      "scenario": "theft-payoffs",
+      "expected_claim_to_verify": "Casting cards you don't own.",
+      "cards": [
+        "Don Andres, the Renegade",
+        "Passionate Archaeologist",
+        "Nalfeshnee",
+        "Prosper, Tome-Bound",
+        "Gonti, Night Minister",
+        "Thief of Sanity",
+        "Opposition Agent",
+        "Notion Thief"
+      ],
+      "found_in_source_export": [
+        "Don Andres, the Renegade",
+        "Passionate Archaeologist",
+        "Nalfeshnee",
+        "Prosper, Tome-Bound",
+        "Gonti, Night Minister",
+        "Thief of Sanity",
+        "Opposition Agent",
+        "Notion Thief"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:nathan-drake-treasure-hunter#win_conditions[0]",
+      "scenario": "advantage-combat",
+      "expected_claim_to_verify": "Out-value the table with stolen spells and win through combat with first strike, extra combats and stolen threats.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter",
+        "Karlach, Fury of Avernus",
+        "Fire Lord Azula",
+        "Etali, Primal Storm",
+        "Ragavan, Nimble Pilferer",
+        "Roaming Throne",
+        "Firebender Ascension"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter",
+        "Karlach, Fury of Avernus",
+        "Fire Lord Azula",
+        "Etali, Primal Storm",
+        "Ragavan, Nimble Pilferer",
+        "Roaming Throne",
+        "Firebender Ascension"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:nathan-drake-treasure-hunter#win_conditions[1]",
+      "scenario": "stolen-wincons",
+      "expected_claim_to_verify": "Whatever win condition the opponents' libraries provide; it can't be planned for.",
+      "cards": [
+        "Nathan Drake, Treasure Hunter",
+        "Gonti, Night Minister",
+        "Thief of Sanity",
+        "Tinybones, the Pickpocket"
+      ],
+      "found_in_source_export": [
+        "Nathan Drake, Treasure Hunter",
+        "Gonti, Night Minister",
+        "Thief of Sanity",
+        "Tinybones, the Pickpocket"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:nathan-drake-treasure-hunter#failure_modes[0]",
+      "scenario": "nathan-dies-in-combat",
+      "expected_claim_to_verify": "Nathan is a small attacker; blockers and removal shut off the engine.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: First strike; Protection",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:nathan-drake-treasure-hunter#failure_modes[1]",
+      "scenario": "no-compact-kill",
+      "expected_claim_to_verify": "No deterministic win, so long games against interaction-heavy tables.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Theft of opponents' finishers",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:nathan-drake-treasure-hunter#failure_modes[2]",
+      "scenario": "mana-in-combat",
+      "expected_claim_to_verify": "Stolen spells need mana during combat.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Firebending; Treasures",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
