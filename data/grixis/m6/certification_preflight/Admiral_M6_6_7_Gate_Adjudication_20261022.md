@@ -1,6 +1,6 @@
 # Admiral Beckett Brass M6.6 and M6.7 — exact candidate D gate adjudication
 
-**2026-10-22. Per-deck scope decision:** M6.6 `DECISION_SCOPED_PHASE_B_SUFFICIENT` and M6.7 `DECISIVE_AUTHORED_JUDGMENTS_COMPLETE` for **Admiral Beckett Brass candidate D only**. These are bounded *subordinate* engineering gates. M6.8 I remains **INCOMPLETE**, M6.9 J bundle **ABSENT**, M6.10 owner acceptance **NOT GIVEN**, and Admiral's new M7 deck approval **NOT GIVEN**. No changes to the canonical locked deck or its approval registry, no gameplay win-rate estimate, no global optimum claim, no independent third model claim.
+**2026-10-22. Per-deck scope decision:** M6.6 `DECISION_SCOPED_PHASE_B_SUFFICIENT` and M6.7 `DECISIVE_AUTHORED_JUDGMENTS_COMPLETE` for **Admiral Beckett Brass candidate D only**. These are bounded *subordinate* engineering gates. M6.8 I was **INCOMPLETE at this checkpoint**, but the subsequent `Admiral_M6_I_Tested_Pool_Closure_20261022.md` has now separately certified the strictly scoped five-list pool; M6.9 J bundle remains **ABSENT**, M6.10 owner acceptance **NOT GIVEN**, and Admiral's new M7 deck approval **NOT GIVEN**. No changes to the canonical locked deck or its approval registry, no gameplay win-rate estimate, no global optimum claim, no independent third model claim.
 
 ## Immutable source and executed evidence
 
@@ -43,6 +43,6 @@ A and B both remove Raiders and Indomitable, weakening repeated on-plan blocker 
 
 ## Strict remaining gates
 
-- **M6.8 I remains incomplete:** formal zero-improvement certificate tied to the four-configuration tested pool, with explicit no-global-optimality scope and final reconciliation of all actually executed finite comparisons. The existing `data/grixis/m6/ij/certificates/admiral-beckett-brass.json` correctly says `incomplete` until that adjudication is made; don't automatically flip fields to manufacture a pass.
+- **M6.8 I subsequent result:** The separate five-list (baseline plus A/B/C/D) local-best evidence and schema-bound PASS certificate are in `data/grixis/m6/certification_preflight/Admiral_M6_I_Tested_Pool_Closure_20261022.md` and `data/grixis/m6/ij/certificates/admiral-beckett-brass.json`. The certificate was incomplete at this original M6.6/7 checkpoint; it was advanced only after deliberate authorial reconciliation of the executed finite source cases. It is **not** a win-rate or global-optimality certification.
 - **M6.9 J remains missing:** exact D oracle/rules/legal, baseline/result hashes, separately sealed A/B technical projections (not independently executed), owner-equivalent (not independent) Pass C receipt and authorized waiver, decision-scoped Phase B executions, exact source hash for each, complete mana and red-team source and pass of `scripts/grixis_m6_bundle_check.py --check` must all be bound in a **new candidate-specific** bundle. No old Abaddon bundle can be transferred.
 - **M6.10 and M7:** Only Cory can accept M6.10 and approve the *exact* new Admiral 100-card candidate, respectively. The canonical deck remains locked and unchanged until explicit new authority. M8 likewise remains incomplete.
