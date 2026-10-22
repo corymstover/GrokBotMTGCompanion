@@ -10,7 +10,9 @@ import argparse
 from collections import Counter
 import json
 import random
+import sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from grixis_m6_abaddon_assault_access import (
     ROOT, SPELL_COST, frozen_source, libraries, land_colors, play_land,
 )
