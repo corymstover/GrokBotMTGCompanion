@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_M7_TARGETED_ORACLE_ERRATUM_FACTS",
+  "checked_date": "2026-10-22",
+  "sources_class": "PUBLIC_CARD_PAGES_PLUS_OFFICIAL_WOTC_COMMANDER_BANNED_LIST",
+  "official_commander_banned_list": "https://magic.wizards.com/en/banned-restricted-list",
+  "limitation": "Manual timestamped text and legality checks for listed cards; NOT independent live Scryfall 100-card refresh or an auto-fetch in CI. Public lookup data used for rules assessment. Canonical baseline 94 names have separate October-12 historical Scryfall audit only.",
+  "canonical_source_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "corrections": [
+    {
+      "card": "The Lost and the Damned",
+      "previous_incorrect_mv": 5,
+      "correct_mv": 3,
+      "mechanical_consequence": "Low-curve U/R Warhammer permanent producing Spawn from qualifying nonhand spell casts and land entries; retention is material and its cut is withdrawn."
+    },
+    {
+      "card": "Call Forth the Tempest",
+      "previous_incorrect_mv": 11,
+      "correct_mv": 8,
+      "mechanical_consequence": "Printed double cascade, no cost reduction printed. Abaddon's third cascade requires current-turn opponent life loss threshold at least eight; no mistaken 11-threshold."
+    }
+  ],
+  "cards": [
+    {
+      "card": "Abaddon the Despoiler",
+      "mana_cost": "{2}{U}{B}{R}",
+      "mana_value": 5,
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "oracle_source": "https://mtg.wtf/card/40k/178/Abaddon-the-Despoiler",
+      "oracle_signature": "During your turn, spells you cast from your hand with mana value X or less have cascade"
+    },
+    {
+      "card": "The Lost and the Damned",
+      "mana_cost": "{1}{U}{R}",
+      "mana_value": 3,
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "oracle_source": "https://www.mtg.wtf/card/40k/129/The-Lost-and-the-Damned",
+      "oracle_signature": "Whenever a land you control enters from anywhere other than your hand or you cast a spell from anywhere other than your hand, create a 3/3 red Spawn creature token."
+    },
+    {
+      "card": "Call Forth the Tempest",
+      "mana_cost": "{5}{R}{R}{R}",
+      "mana_value": 8,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_source": "https://mtg.wtf/card/ltc/509/Call-Forth-the-Tempest",
+      "oracle_signature": "Cascade, cascade"
+    },
+    {
+      "card": "Keeper of Secrets",
+      "mana_cost": "{5}{R}",
+      "mana_value": 6,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_source": "https://mtg.wtf/card/40k/78/Keeper-of-Secrets",
+      "oracle_signature": "Whenever you cast a spell from anywhere other than your hand"
+    },
+    {
+      "card": "The Ruinous Powers",
+      "mana_cost": "{2}{B}{R}",
+      "mana_value": 4,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_source": "https://mtg.wtf/card/40k/139/The-Ruinous-Powers",
+      "oracle_signature": "At the beginning of your upkeep, choose an opponent at random."
+    },
+    {
+      "card": "Grinning Ignus",
+      "mana_cost": "{2}{R}",
+      "mana_value": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_source": "https://www-.mtg.wtf/card/stx/104/Grinning-Ignus",
+      "oracle_signature": "Return this creature to its owner's hand: Add {C}{C}{R}."
+    },
+    {
+      "card": "Chaos Warp",
+      "mana_cost": "{2}{R}",
+      "mana_value": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_source": "https://mtg.wtf/card/msc/359/Chaos-Warp",
+      "oracle_signature": "The owner of target permanent shuffles it into their library"
+    },
+    {
+      "card": "Aggravated Assault",
+      "mana_cost": "{2}{R}",
+      "mana_value": 3,
+      "color_identity": [
+        "R"
+      ],
+      "oracle_source": "https://mtg.wtf/card/ons/185/Aggravated-Assault",
+      "oracle_signature": "After this main phase, there is an additional combat phase followed by an additional main phase."
+    },
+    {
+      "card": "Rakdos, Lord of Riots",
+      "mana_cost": "{B}{B}{R}{R}",
+      "mana_value": 4,
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "oracle_source": "https://mtg.wtf/card/cmr/532/Rakdos-Lord-of-Riots",
+      "oracle_signature": "Creature spells you cast cost {1} less"
+    },
+    {
+      "card": "Inevitable Betrayal",
+      "mana_cost": "",
+      "mana_value": 0,
+      "color_identity": [
+        "U"
+      ],
+      "oracle_source": "https://mtg.wtf/card/prm/91239/Inevitable-Betrayal",
+      "oracle_signature": "Suspend 3—{1}{U}{U}"
+    }
+  ],
+  "claim_complete_100_card_oracle": false,
+  "claim_m6_certified": false,
+  "claim_m7_ready": false
+}
