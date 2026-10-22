@@ -191,6 +191,29 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
 
+    def test_four_arm_joint_mana_and_cascade_evidence_cannot_approve_ignus(self):
+        c=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        x=c["factorial_hand_ramp_and_cascade_observation"]
+        self.assertEqual(x["arms"],["neither","hand_ramp_only","core_other_cascade_only","both"])
+        self.assertEqual(x["total_trajectories"],20000)
+        self.assertEqual(x["n_per_variant_policy_mode"],500)
+        self.assertTrue(x["actual_mana_and_cascades_joined_in_one_99"])
+        self.assertTrue(x["real_lotus_petal_mv0_cascade_churn"])
+        self.assertTrue(x["lotus_petal_mv0_eligible_even_at_opponent_loss_zero"])
+        self.assertFalse(x["each_zero_mv_cascade_free_spell_cast"])
+        self.assertEqual(x["turn10_engine_first_both_per500"]["approved"]["zero_mv_cascade"],19)
+        self.assertEqual(x["turn10_engine_first_both_per500"]["ignus_for_rakdos"]["paid_ignus"],77)
+        self.assertEqual(x["turn10_engine_first_both_per500"]["ignus_for_rakdos"]["any_supported_effect"],1)
+        self.assertEqual(x["turn10_engine_first_both_per500"]["ignus_for_rite_of_flame"]["any_supported_effect"],2)
+        self.assertFalse(x["full_99_spell_package_simulated"])
+        self.assertFalse(x["opponents_modeled"])
+        self.assertFalse(x["superiority_proven"])
+        self.assertFalse(x["approved_swap"])
+        self.assertIsNone(x["full_multiplayer_win_rate"])
+        self.assertEqual(c["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
+        self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))
