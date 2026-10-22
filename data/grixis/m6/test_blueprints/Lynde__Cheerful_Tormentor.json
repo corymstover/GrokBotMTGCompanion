@@ -1,0 +1,463 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "order": 32,
+  "commanders": [
+    "Lynde, Cheerful Tormentor"
+  ],
+  "strategy": {
+    "primary": "Curse recycling and control: land high-impact Curses on opponents, deliberately send your own Curses to the graveyard (Despotic Scepter, Claws of Gix, Braids, Perilous Research), let Lynde return them attached to you, then move one to an opponent each upkeep and draw two.",
+    "secondary": "Extra upkeeps (Paradox Haze, The Ninth Doctor, Obeka) multiply Lynde's draw-two and upkeep Curses; enchantment payoffs, Curse copies and premium Grixis interaction hold the table."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Lynde, Cheerful Tormentor",
+      "oracle_id": "dc386f6c-bd4a-462a-8d42-0e7a552a4f17",
+      "oracle_text": "Deathtouch\nWhenever a Curse is put into your graveyard from the battlefield, return it to the battlefield attached to you at the beginning of the next end step.\nAt the beginning of your upkeep, you may attach a Curse attached to you to one of your opponents. If you do, draw two cards.",
+      "oracle_sha256": "sha256:2cd5550ba8dda2d1070957bcd208fedfb9201358e992ef08d75e0873bc462ac5",
+      "type_line": "Legendary Creature — Human Warlock"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Lynde, Cheerful Tormentor",
+      "why": "Returns dead Curses to you and moves one each upkeep for two cards.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Lynde, Cheerful Tormentor"
+      ]
+    },
+    {
+      "card": "Paradox Haze",
+      "why": "Extra upkeep: another move and two more cards.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:lynde-cheerful-tormentor#lynde-04"
+      ]
+    },
+    {
+      "card": "Despotic Scepter",
+      "why": "One-mana repeatable Curse reset.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:lynde-cheerful-tormentor#lynde-03"
+      ]
+    },
+    {
+      "card": "Curse of Bloodletting",
+      "why": "Doubles damage to the cursed player.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:lynde-cheerful-tormentor#lynde-04"
+      ]
+    },
+    {
+      "card": "The Ninth Doctor",
+      "why": "Cheap extra-upkeep engine.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "interaction:lynde-cheerful-tormentor#lynde-04"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/lynde-cheerful-tormentor.json",
+    "blueprint_blob": "eae130bf5153cda9fb8d81728a351d5dce159416",
+    "canonical_source_path": "refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt",
+    "canonical_source_blob": "5731e68950886cd8efb655edd4c49416c86aa3d8",
+    "canonical_approved_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+    "canonical_record_key": "Lynde__Cheerful_Tormentor",
+    "registry_raw_matches": true,
+    "source_card_lines": 93,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:lynde-cheerful-tormentor#commanders.value[0]",
+      "scenario": "Lynde, Cheerful Tormentor",
+      "expected_claim_to_verify": "Deathtouch\nWhenever a Curse is put into your graveyard from the battlefield, return it to the battlefield attached to you at the beginning of the next end step.\nAt the beginning of your upkeep, you may attach a Curse attached to you to one of your opponents. If you do, draw two cards.",
+      "cards": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "found_in_source_export": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:lynde-cheerful-tormentor#key_interactions[0]",
+      "scenario": "return-window",
+      "expected_claim_to_verify": "Only battlefield-to-graveyard Curses return, attached to you at the next end step.",
+      "cards": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "found_in_source_export": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:lynde-cheerful-tormentor#key_interactions[1]",
+      "scenario": "upkeep-move",
+      "expected_claim_to_verify": "One Curse per upkeep moves without targeting (ignores hexproof) and draws two.",
+      "cards": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "found_in_source_export": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:lynde-cheerful-tormentor#key_interactions[2]",
+      "scenario": "misfortunes-order",
+      "expected_claim_to_verify": "Order Curse of Misfortunes before Lynde's move when it's on you.",
+      "cards": [
+        "Curse of Misfortunes",
+        "Lynde, Cheerful Tormentor"
+      ],
+      "found_in_source_export": [
+        "Curse of Misfortunes",
+        "Lynde, Cheerful Tormentor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:lynde-cheerful-tormentor#key_interactions[3]",
+      "scenario": "self-punish",
+      "expected_claim_to_verify": "Returned Curses hit you until Lynde moves them.",
+      "cards": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "found_in_source_export": [
+        "Lynde, Cheerful Tormentor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:lynde-cheerful-tormentor#key_interactions[4]",
+      "scenario": "harmless-on-you",
+      "expected_claim_to_verify": "Fool's Wisdom, Surveillance and Unbinding are harmless parked on you.",
+      "cards": [
+        "Curse of Fool's Wisdom",
+        "Curse of Surveillance",
+        "Curse of Unbinding"
+      ],
+      "found_in_source_export": [
+        "Curse of Fool's Wisdom",
+        "Curse of Surveillance",
+        "Curse of Unbinding"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:lynde-cheerful-tormentor#engines[0]",
+      "scenario": "curse-reset",
+      "expected_claim_to_verify": "A Curse you own goes from the battlefield to your graveyard.",
+      "cards": [
+        "Lynde, Cheerful Tormentor",
+        "Despotic Scepter",
+        "Claws of Gix",
+        "Braids, Arisen Nightmare",
+        "Demon of Fate's Design",
+        "Perilous Research"
+      ],
+      "found_in_source_export": [
+        "Lynde, Cheerful Tormentor",
+        "Despotic Scepter",
+        "Claws of Gix",
+        "Braids, Arisen Nightmare",
+        "Demon of Fate's Design",
+        "Perilous Research"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:lynde-cheerful-tormentor#engines[1]",
+      "scenario": "extra-upkeeps",
+      "expected_claim_to_verify": "A Curse attached to you at upkeep.",
+      "cards": [
+        "Lynde, Cheerful Tormentor",
+        "Paradox Haze",
+        "The Ninth Doctor",
+        "Obeka, Splitter of Seconds",
+        "Curse of Bloodletting"
+      ],
+      "found_in_source_export": [
+        "Lynde, Cheerful Tormentor",
+        "Paradox Haze",
+        "The Ninth Doctor",
+        "Obeka, Splitter of Seconds",
+        "Curse of Bloodletting"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:lynde-cheerful-tormentor#win_conditions[0]",
+      "scenario": "curse-attrition",
+      "expected_claim_to_verify": "Damage and drain Curses (Bloodletting doubling, Torment of Scarabs, Restless Dead, Vengeance, Thirst) recycled every upkeep grind the table out.",
+      "cards": [
+        "Curse of Bloodletting",
+        "Torment of Scarabs",
+        "Curse of the Restless Dead",
+        "Curse of Vengeance",
+        "Curse of Thirst",
+        "Curse of Death's Hold",
+        "Lynde, Cheerful Tormentor",
+        "Paradox Haze"
+      ],
+      "found_in_source_export": [
+        "Curse of Bloodletting",
+        "Torment of Scarabs",
+        "Curse of the Restless Dead",
+        "Curse of Vengeance",
+        "Curse of Thirst",
+        "Curse of Death's Hold",
+        "Lynde, Cheerful Tormentor",
+        "Paradox Haze"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:lynde-cheerful-tormentor#win_conditions[1]",
+      "scenario": "constellation-drain",
+      "expected_claim_to_verify": "Curses re-entering trigger constellation and enchantment payoffs (Doomwake Giant, Grim Guardian).",
+      "cards": [
+        "Doomwake Giant",
+        "Grim Guardian",
+        "Ashiok's Reaper",
+        "Lynde, Cheerful Tormentor"
+      ],
+      "found_in_source_export": [
+        "Doomwake Giant",
+        "Grim Guardian",
+        "Ashiok's Reaper",
+        "Lynde, Cheerful Tormentor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:lynde-cheerful-tormentor#failure_modes[0]",
+      "scenario": "enchantment-removal",
+      "expected_claim_to_verify": "Enchantment wipes remove the whole Curse board at once.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Lynde returns Curses that hit the graveyard; Counters",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:lynde-cheerful-tormentor#failure_modes[1]",
+      "scenario": "self-damage",
+      "expected_claim_to_verify": "Curses parked on you hurt you.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Move dangerous Curses first; Park harmless ones (lynde-07)",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:lynde-cheerful-tormentor#failure_modes[2]",
+      "scenario": "slow-clock",
+      "expected_claim_to_verify": "No compact win: a slow damage clock gives opponents time.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Extra upkeeps; Premium interaction",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 13,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
