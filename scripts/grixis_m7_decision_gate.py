@@ -70,7 +70,7 @@ def parse_list(path: Path, *, source_markdown=False):
         amount,raw_name=int(m.group(1)),m.group(2)
         if not 1<=amount<=100:
             raise DecisionGateError("Invalid positive quantity")
-        tag=re.search(r"\\s+\\[([^\\]]+)\\]$",raw_name)
+        tag=re.search(r"\s+\[([^\]]+)\]$",raw_name)
         role=(tag.group(1) if tag else "")
         name=(raw_name[:tag.start()] if tag else raw_name)
         if not name or "[" in name or "]" in name:
