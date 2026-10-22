@@ -59,8 +59,9 @@ def stage(*,life_source="loyal",previous_boltwave=False):
     move(s,LOST,"library","field")
     for l in START_LANDS:
         move(s,l,"library","field")
-        s["lands_tapped"].append(l)
-    assert Counter(s["lands_tapped"])==Counter(START_LANDS)
+    # All eight physical sources are on battlefield *untapped* before Call cast.
+    assert not s["lands_tapped"]
+    assert all(Counter(s["field"])[k]>=v for k,v in Counter(START_LANDS).items())
     if previous_boltwave:
         move(s,"Boltwave","library","graveyard")
         s["cast_history"].append(("Boltwave",1,"hand"))
@@ -99,9 +100,18 @@ def execute(s,original,*,drannith=False,rule_of_law=False,counter_source=False,c
     Abaddon checks X once when Call is cast. A later Keeper trigger cannot
     retrospectively create a third instance of cascade.
     """
-    if not (s["commander_controlled"] and
-            Counter(s["lands_tapped"])==Counter(START_LANDS)):
-        raise AssertionError("No 5 generic + 3 red physical sources")
+    if not s["commander_controlled"] or s["lands_tapped"]:
+        raise AssertionError("No available untapped 8-mana land sources")
+    for name, count in Counter(START_LANDS).items():
+        if Counter(s["field"])[name] < count:
+            raise AssertionError("Missing a physically owned basic land: "+name)
+    # TAP and consume three red from Mountains, plus UUU BB as five generic:
+    # no floating mana, no tapping a card twice, and no skipped actual cost.
+    produced={"R":3,"U":3,"B":2}
+    paid={"R":3,"generic":produced["U"]+produced["B"]}
+    if paid!={"R":3,"generic":5}:
+        raise AssertionError("Cannot pay printed {5}{R}{R}{R}")
+    s["lands_tapped"].extend(START_LANDS)
     if s["loss"]<0:
         raise AssertionError("Negative threshold")
     at_cast=s["loss"]
@@ -188,6 +198,7 @@ class AbaddonCallForthP0021(unittest.TestCase):
                          ["resolve_cascade"]*3)
         self.assertEqual(len([e for e in s["timeline"] if e[0]=="resolve_hit"]),3)
         self.assertEqual(s["library"][-1],"Swamp")
+        self.assertEqual(Counter(s["lands_tapped"]),Counter(START_LANDS))
 
     def test_call_x7_no_retroactive_grant(self):
         s,original=stage(life_source="keeper_plus_kessig")
