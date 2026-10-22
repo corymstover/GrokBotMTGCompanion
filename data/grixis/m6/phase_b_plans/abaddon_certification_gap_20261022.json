@@ -64,7 +64,7 @@
     "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
     "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
   ],
-  "next_engineering_action": "Run and verify exact-head CI for the four-candidate disposition synthesis; then identify the minimum concrete residual M6.6 coverage/Phase B and M6.7 tested-pool conflict obligations and start the replayable I/J package. Do not rerun all physical trajectories absent decision-critical changes; do not promote a no-upgrade-supported finding into a zero-improvement certificate.",
+  "next_engineering_action": "Reconcile the 70 remaining source-names without attached bounded P0 methods by DECISION relevance, not 70 automatic runs: identify commander threshold/damage/recursion interactions that need mandatory tests; re-use source-paid generic mana/counter/fetch fixtures; disposition relevant P1 individually. Then resolve M6.6 effect sufficiency and M6.7 certification criteria; produce I/J only if their truthful gates pass. Keep Abaddon active, owner-ready M7 delivery HELD, and all 62 approved lists unchanged.",
   "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
   "separate_future_backlog": {
     "pr": 535,
@@ -103,5 +103,42 @@
     "The_Ruinous_Powers": "RETAIN_ON_IDENTITY",
     "m6_7_gate_completed": false,
     "final_m7_list_selected": false
+  },
+  "latest_verified_progress": {
+    "as_of": "2026-10-22",
+    "supersedes_historical_last_verified_progress_pr": 536,
+    "merged_engineering_pr": 564,
+    "merged_integration_sha": "1a9de1b1a43124c4e14978027a1dc90837609f35",
+    "exact_head_sha": "029fdb9a8fdefe2ef81be09be6dc03cb54c59d30",
+    "exact_head_run_id": 39816637079,
+    "exact_head_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39816637079",
+    "exact_head_result": "SUCCESS",
+    "complete_candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+    "precise_swaps": {
+      "adds": [
+        "Grinning Ignus",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "Inevitable Betrayal"
+      ]
+    },
+    "selected_list_is_100_cards": true,
+    "approved_baseline_unmodified": true,
+    "bounded_named_p0_executed_passed": 104,
+    "threshold_doubler_new_methods": 9,
+    "current_oracle_name_coverage": 97,
+    "direct_p0_names": 27,
+    "remaining_oracle_only_or_previous_partial_model": 70,
+    "all_99_card_effects_proven": false,
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_i": "BLOCKED",
+    "m6_j": "BLOCKED",
+    "formal_m6_certified": false,
+    "owner_m7_approved": false,
+    "reviewer": "ChatGPT/OpenAI GPT-6",
+    "pass_c_technically_independent": false
   }
 }
