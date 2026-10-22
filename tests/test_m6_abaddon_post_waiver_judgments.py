@@ -33,9 +33,9 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.waiver["applies_to"]["gate"],"M6.5")
         self.assertFalse(self.waiver["accepted_substitute"]["technically_independent"])
 
-    def test_three_substantive_named_decision_class_reviews(self):
+    def test_four_substantive_named_decision_class_reviews(self):
         cases=self.data["candidates"]
-        self.assertEqual({x["card"] for x in cases},{"Aggravated Assault","Chaos Warp","The Ruinous Powers"})
+        self.assertEqual({x["card"] for x in cases},{"Aggravated Assault","Chaos Warp","The Ruinous Powers","Grinning Ignus"})
         for item in cases:
             with self.subTest(item=item["card"]):
                 j=item["judgment_review"]
@@ -66,6 +66,20 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertIn("the opponent whose library it came from",item["benefit"])
         self.assertIn("OWNER",item["benefit"])
         self.assertIn("warhammer-40000-commander-release-notes",str(item["judgment_review"]["evidence_items"]))
+
+    def test_grinning_ignus_source_bound_matters_but_not_approved(self):
+        item=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        self.assertEqual(item["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(item["source_inventory"]["m5_screened_swap_records"],98)
+        self.assertEqual(item["source_inventory"]["distinct_candidate_adds"],63)
+        r=item["rule_witness"]
+        self.assertEqual(r["recasts_with_birgi"],5)
+        self.assertEqual(r["cascade_triggers_if_opp_loss_at_least_three"],5)
+        self.assertEqual(r["cascade_triggers_if_opp_loss_under_three"],0)
+        self.assertEqual(r["recasts_with_rule_of_law"],1)
+        self.assertFalse(r["actual_wins_measured"])
+        self.assertFalse(item["approved_swap"])
+        self.assertFalse(ga.decision_review_problems(item))
 
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
