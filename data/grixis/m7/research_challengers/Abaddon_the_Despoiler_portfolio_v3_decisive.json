@@ -1,0 +1,155 @@
+{
+  "schema_version": 3,
+  "kind": "ABADDON_M7_DECISIVE_AUTHORED_CANDIDATE_DISPOSITION_BEFORE_M6_CERTIFICATION",
+  "date": "2026-10-22",
+  "author": "GPT-6",
+  "independent_critic": false,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_DECISIVE_STRATEGIC_RECOMMENDATION_NOT_OWNER_READY",
+  "canonical": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "ref": "main",
+    "approved_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "cards": 100,
+    "lands": 34,
+    "approval": "APPROVED_LOCKED_UNCHANGED",
+    "new_owner_approval": false
+  },
+  "source_evidence": {
+    "deep_review": "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md",
+    "owner_pass_c": "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/final_disposition.md",
+    "owner_waiver": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "m6_bounded": "data/grixis/m6/phase_b_bounded/abaddon_lost_keeper_effect_20261022.md",
+    "v2_oracle_erratum": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_oracle_erratum.json",
+    "v2_portfolio": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v2.json",
+    "scryfall_live_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39740268083",
+    "scryfall_head": "2e987dd61ae09f9f0240ffeca6c441904fe80d76",
+    "scryfall_artifact_id": 12407954955,
+    "scryfall_verified_unique_names": 97,
+    "scryfall_scope": "2026-10-22 live Scryfall card-name Oracle and legality across five exact 100-card lists, canonical exact byte SHA-pinned snapshot plus independently rechecked canonical repo main; not live direct CI cross-repository reads"
+  },
+  "proposed": {
+    "id": "engine_answer_betrayal",
+    "file": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+    "physical_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+    "adds": [
+      "Grinning Ignus",
+      "Chaos Warp"
+    ],
+    "cuts": [
+      "Rakdos, Lord of Riots",
+      "Inevitable Betrayal"
+    ],
+    "status": "PREFERRED_STRATEGIC_PORTFOLIO_PENDING_M6_CERTIFICATION_AND_OWNER_APPROVAL"
+  },
+  "competing": {
+    "id": "engine_answer_keeper",
+    "file": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_keeper.txt",
+    "physical_sha256": "3ceddb947b0e7aff9cae489a0c60704214a2e580b97bfb1aaee5bb254c71fdaa",
+    "adds": [
+      "Grinning Ignus",
+      "Chaos Warp"
+    ],
+    "cuts": [
+      "Rakdos, Lord of Riots",
+      "Keeper of Secrets"
+    ],
+    "status": "RETAIN_ALTERNATIVE_MORE_ZERO_MV_CASCADE_HITS_LESS_ENGINE_DAMAGE"
+  },
+  "selected_cut_reason": "Inevitable Betrayal is a potent MV0 free cascade hit that can steal the best opponent creature, but its effect depends on opponents' creature inventory and cannot be normally hardcast from hand. It offers neither same-turn hand-cast cascade itself nor guaranteed threshold damage. Keeping Keeper of Secrets instead preserves a first-strike haste Warhammer creature whose repeated triggered targeted damage equal to each nonhand spell's MV contributes new opponent life loss, feeding Abaddon's threshold and a supported creature-damage finish. The zero-MV hit lost is genuine; choosing this is a commander-first value and floor/ceiling judgment, not a measured match win-rate.",
+  "strongest_counterargument": "Inevitable Betrayal at MV0 can be hit off even MV1 cascade and can tutor a game-winning creature from an opponent's library at no mana payment. A six-mana 6/4 Keeper is a slow, removable setup permanent; it provides no trigger at all if removed or if nonhand casts are forbidden. Against a creature-rich combo pod with stacked creatures, the alternate Keeper cut may outperform the preferred Betrayal cut.",
+  "reversal_conditions": [
+    "A resolved card-specific Oracle/rules discrepancy invalidates the repeatable nonhand Keeper trigger or Grinning Ignus loop",
+    "An explicitly represented opposing creature-rich field turns the free MV0 theft into a uniquely decisive answer while Keeper is reliably disrupted",
+    "Actual qualified M6/P0 scenario establishes that keeping Keeper creates a mandatory combo/cast issue or full-list violation",
+    "Owner prefers the baseline's guaranteed cascade hit density over preserving Keeper's 40K damage synergy; that would be an approval-stage preference, not technical certification."
+  ],
+  "whole_deck_nonforced": {
+    "land_count_unchanged": 34,
+    "protected_core": [
+      "Abaddon the Despoiler",
+      "The Lost and the Damned",
+      "The Ruinous Powers",
+      "Call Forth the Tempest",
+      "Keeper of Secrets",
+      "Loyal Subordinate",
+      "Neheb, the Eternal",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Underworld Breach",
+      "Brain Freeze",
+      "Lion's Eye Diamond"
+    ],
+    "curve_effect": "Removes Rakdos MV4 with BBRR demand and no-cost suspend Betrayal MV0 in exchange for two MV3 red cards, improving cards castable from hand at X>=3 and adding instant interaction but reducing zero-MV suspend-hit density; no measured turn-4 acceleration claim.",
+    "role_effect": "Retains all 34 land sources, recurring Warhammer payoff, on-identity Spawn engine, printed cascade and the Breach/LED/Brain Freeze compact finish. Costs Rakdos's life-loss creature discounts and one special zero-MV theft hit.",
+    "resilience": "Chaos Warp resolves answer to problematic nonland permanents after stack counters failed; its replacement is uncertain and Rule of Law may still constrain cast timing.",
+    "bounded_compatibility": "Physical 100 and same commander verified in PR 543, 97 distinct Scryfall names in PR 545, Lost/Keeper mechanics in PR 544; not equal to full commander-P0 or certification."
+  },
+  "material_judgments": [
+    {
+      "card": "Grinning Ignus",
+      "disposition": "SELECT_ADD",
+      "exact_cut": "Rakdos, Lord of Riots",
+      "reason": "Repeatable legally hand-cast MV3 source-paid cascade when Birgi and Abaddon and X>=3 controlled; other than hand? No, itself hand cast, its cascade hit exile cast fuels Lost/Keeper. The incumbent Rakdos discounts creature spells with a restrictive BBRR cost and is not a spell-first engine. Its discount/body loss is explicit.",
+      "confidence": "MODERATE"
+    },
+    {
+      "card": "Chaos Warp",
+      "disposition": "SELECT_ADD",
+      "exact_cut": "Inevitable Betrayal",
+      "reason": "Instant answer to resolved nonblue or artifact/enchantment stax that otherwise survives baseline counterspells; actual physical replacement requires sacrificing a free MV0 conditional theft hit, but Keeper and Lost remain essential on-identity 40K finish and token generation. Warp can reveal a new problem permanent, so not deterministic hard lock removal.",
+      "confidence": "MODERATE"
+    },
+    {
+      "card": "Aggravated Assault",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "exact_cut": "Rakdos, Lord of Riots",
+      "reason": "Neheb postcombat red can pay Assault and Loyal Subordinate can give extra life-loss on combat beginnings, but needs an existing board/priority and often no immediate value through blockers; Ignus instead directly multiplies Abaddon's own hand-cast cascades and the turn's nonhand payoffs.",
+      "confidence": "MODERATE"
+    },
+    {
+      "card": "The Ruinous Powers",
+      "disposition": "RETAIN_BASELINE",
+      "exact_cut": null,
+      "reason": "Correct printed MV4 on-identity upkeep exile and owner life loss on spell cast maintains threshold and nonhand payoff; cutting it for generic removal would undermine Grixis Warhammer identity.",
+      "confidence": "HIGH"
+    },
+    {
+      "card": "Keeper of Secrets",
+      "disposition": "RETAIN_BASELINE",
+      "exact_cut": null,
+      "reason": "Six-mana nonhand-cast targeted MV damage creates genuine recursive same-turn life loss, Warhammer identity and an actual victory outlet for cascades; high floor cost but enables chosen package's threshold amplification.",
+      "confidence": "MODERATE"
+    },
+    {
+      "card": "Inevitable Betrayal",
+      "disposition": "SELECT_CUT",
+      "exact_cut": null,
+      "reason": "Opponent-dependent MV0 suspend/cascade theft sacrificed to retain repeatable Keeper 40K damage; not a bad card and live alternate package retains it, so cut is an authored tradeoff not functional dominance.",
+      "confidence": "MODERATE"
+    }
+  ],
+  "test_decision": {
+    "new_random_trials": 0,
+    "why_no_repeat": "Existing physical Ignus disruption, Neheb/Assault, Chaos Warp hate, and Lost/Keeper tests have already verified the relevant finite interactions; a new fixed-pilot goldfish cannot compare actual creature-theft target quality against conditional six-mana keeper threat. Make qualitative commander-first choice rather than repeat blind simulation.",
+    "incomplete_residual": [
+      "Qualified M6.6 required P0 case coverage and durable per-case ledger for Abaddon",
+      "M6.7 strategic judgment evidence is authored but M6.7 formal closure not asserted",
+      "M6 I exact declared tested-pool local-optimum certificate not produced",
+      "M6 J final reproducibility bundle not produced and independently integrity checked",
+      "Final M7 schema-valid packet, natural power bracket/tags and owner exact 100 approval not issued"
+    ]
+  },
+  "gates": {
+    "m6_5": "COMPLETE_OWNER_WAIVED_NONINDEPENDENT",
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL_WITH_DECISIVE_MATERIAL_JUDGMENTS",
+    "m6_8": "BLOCKED",
+    "m6_9": "BLOCKED",
+    "m6_10": "BLOCKED",
+    "m7_final_owner_ready": false,
+    "m7_new_approvals": 0
+  },
+  "no_canonical_changes": true,
+  "owner_approved": false,
+  "m6_certified": false
+}
