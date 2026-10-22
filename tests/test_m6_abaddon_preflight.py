@@ -41,7 +41,7 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
                     "oracle_id":"fixture-not-a-live-source"}
         cls.oracle={
             "physical_lists":cls.listings,"oracle_snapshot":cls.cards,
-            "approved_canonical_raw_sha256":PINN,
+            "approved_canonical_raw_sha256":PINNED,
             "card_identity_count":len(cls.cards),"owner_m7_approval":False,
             "formal_m6_certificate":False,"checked_at_utc":"2026-10-22T08:18:15Z",
             "canonical_authority_mode":"SHA_PINNED_CANONICAL_BYTES_NOT_LIVE_CROSS_REPO_READ"}
@@ -49,7 +49,7 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
             "replayed_case_count":44,"passed":44,"failed":0,
             "open_required_count":0,"open_required_p0_cases":[],
             "M6_6_certified":False,"owner_approved":False,
-            "canonical_pinned_raw_sha256":PINN,
+            "canonical_pinned_raw_sha256":PINNED,
             "registry_sha256":sha(ROOT/INVENTORY),
             "case_receipts":[{
                 "id":row["id"],"status":"PASS","executed":1,
@@ -62,7 +62,7 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
         self.assertEqual(len(self.inventory["replay_cases"]),44)
         self.assertEqual(self.inventory["required_open"],[])
         self.assertEqual(self.oracle["card_identity_count"],97)
-        self.assertEqual(verify_prerequisites()["approved_source_sha256"],PINN)
+        self.assertEqual(verify_prerequisites()["approved_source_sha256"],PINNED)
         ans=validate_runtime(self.oracle,self.p0)
         self.assertEqual(ans["phase_b_pass"],44)
         self.assertEqual(ans["current_oracle_unique_names"],97)
