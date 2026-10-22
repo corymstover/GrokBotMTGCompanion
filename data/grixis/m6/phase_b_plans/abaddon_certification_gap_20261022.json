@@ -64,7 +64,7 @@
     "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
     "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
   ],
-  "next_engineering_action": "Reconcile the 70 remaining source-names without attached bounded P0 methods by DECISION relevance, not 70 automatic runs: identify commander threshold/damage/recursion interactions that need mandatory tests; re-use source-paid generic mana/counter/fetch fixtures; disposition relevant P1 individually. Then resolve M6.6 effect sufficiency and M6.7 certification criteria; produce I/J only if their truthful gates pass. Keep Abaddon active, owner-ready M7 delivery HELD, and all 62 approved lists unchanged.",
+  "next_engineering_action": "Execute and verify seven new source-paid residual P1 fixtures on frozen exact PR head; implement only the three explicitly identified further decision-relevant cost/exile interactions, reconcile all 70 source-name relevance statuses, adjudicate M6.6/M6.7 and I/J without claiming a 99-card universal simulator or inventing full-game win evidence.",
   "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
   "separate_future_backlog": {
     "pr": 535,
@@ -140,5 +140,22 @@
     "owner_m7_approved": false,
     "reviewer": "ChatGPT/OpenAI GPT-6",
     "pass_c_technically_independent": false
+  },
+  "residual_source_name_reconciliation": {
+    "source": "data/grixis/m6/certification_preflight/abaddon_residual_70_decision_relevance_20261022.json",
+    "source_names_reviewed": 70,
+    "non_silent_p1_dispositions": true,
+    "seven_finite_tests": "tests/test_m6_abaddon_residual_p1.py",
+    "planned_test_count": 7,
+    "ci_execution": "PENDING_EXACT_PR_HEAD_DO_NOT_COUNT_PASS_YET",
+    "unverified_remaining": [
+      "Delayed Blast Fireball exile-cast damage and threshold",
+      "Jeska's Will conditional mana/impulse",
+      "Nightscape Familiar discount in payable Ignus/Abaddon cases"
+    ],
+    "unchanged_required_m6_6": "PARTIAL",
+    "unchanged_required_m6_7": "PARTIAL",
+    "unchanged_m6_i_j": "BLOCKED",
+    "canonical_approved_cardlist_modified": false
   }
 }
