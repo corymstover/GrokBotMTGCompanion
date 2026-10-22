@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "status": "SOURCED_ELEVEN_CARDS_ONLY_NOT_ALL_100_NOT_M7_READY",
+  "deck_id": "Admiral_Beckett_Brass",
+  "retrieved_at_utc": "2026-10-22T23:23:56.276Z",
+  "authority": "Live Scryfall cards/named exact, card Oracle IDs and Commander legality from record; project official legality exceptions: none for these cards",
+  "canonical_approved_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "verified_cards": [
+    {
+      "id": "02cbd397-3ef3-465f-84fe-765dd1444af8",
+      "name": "Admiral Beckett Brass",
+      "oracle_id": "43b5e462-d860-473d-828f-6c513fc7768a",
+      "mana_cost": "{1}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lcc/264/admiral-beckett-brass?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/02cbd397-3ef3-465f-84fe-765dd1444af8/rulings",
+      "raw_scryfall_payload_sha256": "55bfdb5695aa689d1d5bb4e1cbbeb2be182ffa5adacc0bbd2149f34d07d7bfd6",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Admiral%20Beckett%20Brass"
+    },
+    {
+      "id": "94751d5e-7693-44af-b1b5-e440677dc7a2",
+      "name": "Bident of Thassa",
+      "oracle_id": "e1afaef7-9fa3-4662-a95f-adfb0da9fd11",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Legendary Enchantment Artifact",
+      "oracle_text": "Whenever a creature you control deals combat damage to a player, you may draw a card.\n{1}{U}, {T}: Creatures your opponents control attack this turn if able.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lcc/146/bident-of-thassa?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/94751d5e-7693-44af-b1b5-e440677dc7a2/rulings",
+      "raw_scryfall_payload_sha256": "9eb005b9742c86ae9851f7ae9c5fb15e2f1cbf2e1326ffa88d71f4db474f59f7",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Bident%20of%20Thassa"
+    },
+    {
+      "id": "3dfb8ae9-c6ea-4fab-ac9e-b25c62c540c6",
+      "name": "March of the Drowned",
+      "oracle_id": "e9e55768-ed62-4998-9922-dbcdeab12aee",
+      "mana_cost": "{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "Choose one —\n• Return target creature card from your graveyard to your hand.\n• Return two target Pirate cards from your graveyard to your hand.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/xln/112/march-of-the-drowned?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/3dfb8ae9-c6ea-4fab-ac9e-b25c62c540c6/rulings",
+      "raw_scryfall_payload_sha256": "ba05f117e69f06ca4275ec5112c4ba8bb077a839b4b8818b73af09c961e33c9b",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=March%20of%20the%20Drowned"
+    },
+    {
+      "id": "b1aaa7b0-1cac-4a92-b880-7ef1ac00618f",
+      "name": "Path of Ancestry",
+      "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mbc/80/path-of-ancestry?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/b1aaa7b0-1cac-4a92-b880-7ef1ac00618f/rulings",
+      "raw_scryfall_payload_sha256": "a31f3b0854ce166aa15335e483ef81e5f1e0259831e19c7a146c2710a62cf3f7",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Path%20of%20Ancestry"
+    },
+    {
+      "id": "396f1cdf-712b-4518-a0e8-0039303dccdc",
+      "name": "Fiery Cannonade",
+      "oracle_id": "7e108b31-2ea3-4129-b324-a2d31c78bbe6",
+      "mana_cost": "{2}{R}",
+      "type_line": "Instant",
+      "oracle_text": "Fiery Cannonade deals 2 damage to each non-Pirate creature.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/178/fiery-cannonade?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/396f1cdf-712b-4518-a0e8-0039303dccdc/rulings",
+      "raw_scryfall_payload_sha256": "d1f24b726222c47af20175aa744655a704e0bdc46bc287ae78702e246d1db79e",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Fiery%20Cannonade"
+    },
+    {
+      "id": "a921ff16-2cd1-4080-80a9-dd73c4eda5c7",
+      "name": "Open into Wonder",
+      "oracle_id": "d9688f6e-7163-408b-b32b-b9645aed1f8c",
+      "mana_cost": "{X}{U}{U}",
+      "type_line": "Sorcery",
+      "oracle_text": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain \"Whenever this creature deals combat damage to a player, draw a card.\"",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/znc/34/open-into-wonder?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/a921ff16-2cd1-4080-80a9-dd73c4eda5c7/rulings",
+      "raw_scryfall_payload_sha256": "03d514a47848be6c7747202eafe17aa949f1677dfb9e41accab5a159641f0748",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Open%20into%20Wonder"
+    },
+    {
+      "id": "8a6439a6-288d-427e-b14b-a99e8ef8c5cd",
+      "name": "Brotherhood Regalia",
+      "oracle_id": "d169738e-af0b-4488-a399-3aa1d1933aa1",
+      "mana_cost": "{2}",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature has ward {2}, is an Assassin in addition to its other types, and can't be blocked.\nEquip legendary creature {1}\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/acr/71/brotherhood-regalia?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/8a6439a6-288d-427e-b14b-a99e8ef8c5cd/rulings",
+      "raw_scryfall_payload_sha256": "6a207c1977c07c2a2d0e87cd1d11eb16349881641c7bc24ca961a41d862db840",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Brotherhood%20Regalia"
+    },
+    {
+      "id": "14c65f5a-10bd-4f9b-b816-46c2240b11ff",
+      "name": "Captain Storm, Cosmium Raider",
+      "oracle_id": "431e85e3-15e6-471b-ba71-6058394c9a96",
+      "mana_cost": "{U}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "Whenever an artifact you control enters, put a +1/+1 counter on target Pirate you control.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/lci/227/captain-storm-cosmium-raider?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/14c65f5a-10bd-4f9b-b816-46c2240b11ff/rulings",
+      "raw_scryfall_payload_sha256": "9290a8c303f0cc88e0a0def33e8a5396db2488300a968e3d1d701bf3f280a8b8",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Captain%20Storm%2C%20Cosmium%20Raider"
+    },
+    {
+      "id": "099352e2-38c8-4fb4-a25f-6d928aa20f9e",
+      "name": "Shizo, Death's Storehouse",
+      "oracle_id": "008f2698-1721-45a3-8353-10f2f400dc8f",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "oracle_text": "{T}: Add {B}.\n{B}, {T}: Target legendary creature gains fear until end of turn. (It can't be blocked except by artifact creatures and/or black creatures.)",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/dmc/233/shizo-deaths-storehouse?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/099352e2-38c8-4fb4-a25f-6d928aa20f9e/rulings",
+      "raw_scryfall_payload_sha256": "35de0ed407f36bc3661d7d008d5f1ee6f664263bacdfbe967a74d19c7aa8d679",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Shizo%2C%20Death's%20Storehouse"
+    },
+    {
+      "id": "a6070239-54a7-49d4-bd3c-d5c4cda971db",
+      "name": "Glaring Spotlight",
+      "oracle_id": "21570481-190e-4cfa-a5fd-a0642e2af569",
+      "mana_cost": "{1}",
+      "type_line": "Artifact",
+      "oracle_text": "Creatures your opponents control with hexproof can be the targets of spells and abilities you control as though they didn't have hexproof.\n{3}, Sacrifice this artifact: Creatures you control gain hexproof until end of turn and can't be blocked this turn.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/gtc/229/glaring-spotlight?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/a6070239-54a7-49d4-bd3c-d5c4cda971db/rulings",
+      "raw_scryfall_payload_sha256": "0760f9c51bdfc61ba8671f6b9ac07f178c110b7514952df7572ea906d88d6e8b",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Glaring%20Spotlight"
+    },
+    {
+      "id": "ab898473-5e46-489c-97c7-94058f2f6b5d",
+      "name": "Cosmotronic Wave",
+      "oracle_id": "079ac521-9414-46c1-acd9-2ff2ff047d22",
+      "mana_cost": "{3}{R}",
+      "type_line": "Sorcery",
+      "oracle_text": "Cosmotronic Wave deals 1 damage to each creature your opponents control. Creatures your opponents control can't block this turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/clu/129/cosmotronic-wave?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/ab898473-5e46-489c-97c7-94058f2f6b5d/rulings",
+      "raw_scryfall_payload_sha256": "5174d1f0574b6905077bf0d3a7065b3e9d4b1900a51794b481b8d56d1eb9d07d",
+      "source_query_url": "https://api.scryfall.com/cards/named?exact=Cosmotronic%20Wave"
+    }
+  ]
+}
