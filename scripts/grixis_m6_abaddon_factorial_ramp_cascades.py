@@ -45,8 +45,6 @@ def verify():
         e["modes"]!=["neither","hand_ramp_only","core_other_cascade_only","both"] or
         e["checkpoint_own_turns"]!=old_h["sample"]["checkpoints"]):
         raise ValueError("Prerecorded four-arm physical pilot drift")
-    if e["registered_hand_accelerants"] if False else False:
-        raise AssertionError("unreachable")
     if p["registered_hand_accelerants"]!=list(ACTIVATIONS):
         raise ValueError("Frozen hand mana spell order drift")
     if e["physical_trials"]!=e["paired_seeds_per_variant_order_mode"]*len(e["modes"])*len(e["variants"])*len(e["casting_orders"]):
