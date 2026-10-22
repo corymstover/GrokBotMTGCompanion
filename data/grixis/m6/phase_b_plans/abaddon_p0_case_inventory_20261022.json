@@ -17,10 +17,11 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 28,
-    "required_unexecuted_cases": 2,
+    "registered_replay_cases": 35,
+    "required_unexecuted_cases": 1,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
-    "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI."
+    "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
+    "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -280,15 +281,72 @@
       "expected_execution": "NEW_CALL_FORTH_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_call_forth_20261022.json"
+    },
+    {
+      "id": "P0-022a",
+      "mechanic": "True physical suspend cost paid, three separate upkeeps 3→2→1→0, conditional optional cast from exile in upkeep not constrained by sorcery timing. Creatures put not cast; Lost token from Betrayal cast.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_paid_three_upkeeps",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    },
+    {
+      "id": "P0-022b",
+      "mechanic": "Search may deliberately or necessarily fail to find a creature; spell cast and Lost triggers, no creature moved to battlefield.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_no_creature_fail_to_find",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    },
+    {
+      "id": "P0-022c",
+      "mechanic": "Drannith disallows cast from exile after 3rd upkeep, card stays exiled with zero counters and cannot re-trigger on future upkeep.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_drannith_last_tick_stranded",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    },
+    {
+      "id": "P0-022d",
+      "mechanic": "A spell already cast on the final upkeep under Rule of Law prevents the suspend cast; card stranded in exile with zero counters.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_rule_of_law_prev_spell_blocks",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    },
+    {
+      "id": "P0-022e",
+      "mechanic": "Under 2024+ rules last-counter ability permits owner to decline casting; card remains exiled without counters, despite legal target.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_owner_declines_free_cast",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    },
+    {
+      "id": "P0-022f",
+      "mechanic": "Cast from exile generates Lost spawn; an opponent counters actual spell, it moves to graveyard, no creature enters.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_countered_after_cast",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
+    },
+    {
+      "id": "P0-022g",
+      "mechanic": "A card with no mana cost cannot be normally cast from hand; suspending is not spell cast and does not increase storm/cascade; a later upkeep free cast if legal is first spell of that turn and has MV0; Keeper trigger would deal zero damage if Keeper present.",
+      "test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "test_method": "AbaddonBetrayalSuspendP0022.test_suspend_not_hardcast_and_late_legal_first_spell",
+      "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
     }
   ],
   "required_open": [
-    {
-      "id": "P0-022",
-      "topic": "Suspend Inevitable Betrayal 1UU with three counters, final upkeep free exile cast, normal main-phase/target opponent and absence in preferred cut list",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "M6 tested pool includes alternative with Betrayal. Newly registered P0-015–019 cover cascade-from-exile, not its ordinary suspend timeline."
-    },
     {
       "id": "P0-023",
       "topic": "Breach + LED + Brain Freeze backup combo with exact priority, graveyard, escaping costs, storm and opponent interaction",
@@ -310,8 +368,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Run 28 exact named P0 cases on PR head, require eight Call Forth subcases passing; then implement P0-022 Inevitable Betrayal suspend and P0-023 Breach/LED/Brain Freeze; no M6 certification claimed.",
-  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_021",
+  "next_action": "Replay 35 actual P0 methods with new seven-case suspend source. P0-023 Breach/LED/Brain Freeze remains required; no M6 I/J acceptance until all obligations truly verified.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_022",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -327,6 +385,20 @@
         "P0-021f",
         "P0-021g",
         "P0-021h"
+      ]
+    },
+    {
+      "id": "P0-022",
+      "status": "REGISTERED_FOR_EXECUTION_NOT_YET_CERTIFIED",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json",
+      "case_ids": [
+        "P0-022a",
+        "P0-022b",
+        "P0-022c",
+        "P0-022d",
+        "P0-022e",
+        "P0-022f",
+        "P0-022g"
       ]
     }
   ]
