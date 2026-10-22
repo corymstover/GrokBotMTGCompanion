@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Davros__Dalek_Creator",
+  "canonical_key": "Davros__Dalek_Creator",
+  "commanders": [
+    "Davros, Dalek Creator"
+  ],
+  "slug": "davros-dalek-creator",
+  "source": {
+    "blueprint_path": "data/grixis/blueprints/davros-dalek-creator.json",
+    "blueprint_blob_sha": "fc10132b4fb1463ca3f12f710e5cc1dac76d21b1",
+    "oracle_snapshots": [
+      {
+        "name": "Davros, Dalek Creator",
+        "text": "Menace\nAt the beginning of your end step, create a 3/3 black Dalek artifact creature token with menace if an opponent lost 3 or more life this turn. Then each opponent who lost 3 or more life this turn faces a villainous choice — You draw a card, or that player discards a card.",
+        "sha": "sha256:9d5a2c56cd4fe50fd99045cee0c32c44f56df6d3ead6dd47633c3a354e9119fe"
+      }
+    ],
+    "canonical_source_txt": "refinement/decklists/Davros_Dalek_Creator_Approved_2026-10-14.txt",
+    "current_file_blob_sha": "ee80a621e088a42afe31f890247abee5220a6dd4",
+    "approved_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+    "registry_source_raw_hash": "sha256:aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
+    "recorded_raw_matches": true,
+    "canonical_id_alias": false,
+    "listed_card_lines": 95,
+    "baseline_count_requires_recheck": true,
+    "locked": true
+  },
+  "strategy": {
+    "primary": "Make every opponent lose 3+ life on your turn (Maestros Charm, Boltwave, Court of Ambition, Loyal Subordinate, Torment of Hailfire), so Davros's end-step trigger makes a 3/3 menace Dalek and forces a draw-or-discard villainous choice on each of them; multiply the trigger with Auton Soldier, Strionic Resonator, Scientist Supreme and The Valeyard.",
+    "secondary": "Punish the discard branch (Entropic Battlecruiser, Waste Not, Tinybones) and turn menace Daleks into a clock with Labyrinth Raptor and Dalek lords.",
+    "identity": [
+      {
+        "card": "Davros, Dalek Creator",
+        "why": "Dalek and villainous choice every end step.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Davros, Dalek Creator"
+        ]
+      },
+      {
+        "card": "Maestros Charm",
+        "why": "Instant 3 life from every opponent: turns Davros on for the full table.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Court of Ambition",
+        "why": "Upkeep 3-life-or-discard for each opponent; both branches feed Davros.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/decisions/Davros_Dalek_Creator_Current_Cycle_Decisions_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Entropic Battlecruiser",
+        "why": "Converts discard choices into 3-life losses.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:davros-dalek-creator#davros-06"
+        ]
+      },
+      {
+        "card": "The Valeyard",
+        "why": "Doubles every villainous choice.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "moderate",
+        "evidence": [
+          "interaction:davros-dalek-creator#davros-05"
+        ]
+      }
+    ],
+    "exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_ability",
+      "source_ref": "blueprint:davros-dalek-creator#commanders.value[0]",
+      "title": "Davros, Dalek Creator",
+      "oracle_or_blueprint_claim_pending_verification": "Menace\nAt the beginning of your end step, create a 3/3 black Dalek artifact creature token with menace if an opponent lost 3 or more life this turn. Then each opponent who lost 3 or more life this turn faces a villainous choice — You draw a card, or that player discards a card.",
+      "fixture_named_cards": [
+        "Davros, Dalek Creator"
+      ],
+      "source_list_cards": [
+        "Davros, Dalek Creator"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Compare commander in valid vs invalid zone/timing; payable activation/cast and true trigger/ability text; commander-first actual effect.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:davros-dalek-creator#key_interactions[0]",
+      "title": "check-on-resolution",
+      "oracle_or_blueprint_claim_pending_verification": "Always triggers; the 3-life check is on resolution, not an intervening if.",
+      "fixture_named_cards": [
+        "Davros, Dalek Creator"
+      ],
+      "source_list_cards": [
+        "Davros, Dalek Creator"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:davros-dalek-creator#key_interactions[1]",
+      "title": "order-drains",
+      "oracle_or_blueprint_claim_pending_verification": "Put Davros's trigger on the stack first so end-step drains resolve before it.",
+      "fixture_named_cards": [
+        "Davros, Dalek Creator"
+      ],
+      "source_list_cards": [
+        "Davros, Dalek Creator"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:davros-dalek-creator#key_interactions[2]",
+      "title": "valeyard",
+      "oracle_or_blueprint_claim_pending_verification": "The Valeyard doubles every villainous choice.",
+      "fixture_named_cards": [
+        "The Valeyard"
+      ],
+      "source_list_cards": [
+        "The Valeyard"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:davros-dalek-creator#key_interactions[3]",
+      "title": "battlecruiser",
+      "oracle_or_blueprint_claim_pending_verification": "Entropic Battlecruiser at station 1+ makes each discard cost 3 life.",
+      "fixture_named_cards": [
+        "Entropic Battlecruiser"
+      ],
+      "source_list_cards": [
+        "Entropic Battlecruiser"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K5",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:davros-dalek-creator#key_interactions[4]",
+      "title": "raptor",
+      "oracle_or_blueprint_claim_pending_verification": "Labyrinth Raptor punishes blocks on menace Daleks.",
+      "fixture_named_cards": [
+        "Labyrinth Raptor"
+      ],
+      "source_list_cards": [
+        "Labyrinth Raptor"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:davros-dalek-creator#engines[0]",
+      "title": "end-step-davros",
+      "oracle_or_blueprint_claim_pending_verification": "At least one opponent lost 3+ life this turn when the trigger resolves.",
+      "fixture_named_cards": [
+        "Davros, Dalek Creator",
+        "Auton Soldier",
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Roaming Throne",
+        "The Valeyard"
+      ],
+      "source_list_cards": [
+        "Davros, Dalek Creator",
+        "Auton Soldier",
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Roaming Throne",
+        "The Valeyard"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:davros-dalek-creator#engines[1]",
+      "title": "three-life-enablers",
+      "oracle_or_blueprint_claim_pending_verification": "Fixed 3-life loss to each opponent during your turn.",
+      "fixture_named_cards": [
+        "Maestros Charm",
+        "Boltwave",
+        "Court of Ambition",
+        "Loyal Subordinate",
+        "Sygg, River Cutthroat"
+      ],
+      "source_list_cards": [
+        "Maestros Charm",
+        "Boltwave",
+        "Court of Ambition",
+        "Loyal Subordinate",
+        "Sygg, River Cutthroat"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:davros-dalek-creator#win_conditions[0]",
+      "title": "dalek-army",
+      "oracle_or_blueprint_claim_pending_verification": "Menace Dalek tokens every turn, pumped and protected, with Labyrinth Raptor forcing bad blocks.",
+      "fixture_named_cards": [
+        "Davros, Dalek Creator",
+        "Labyrinth Raptor",
+        "The Dalek Emperor",
+        "Genesis of the Daleks",
+        "Dalek Squadron",
+        "Loyal Subordinate"
+      ],
+      "source_list_cards": [
+        "Davros, Dalek Creator",
+        "Labyrinth Raptor",
+        "The Dalek Emperor",
+        "Genesis of the Daleks",
+        "Dalek Squadron",
+        "Loyal Subordinate"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:davros-dalek-creator#win_conditions[1]",
+      "title": "drain-and-discard",
+      "oracle_or_blueprint_claim_pending_verification": "Entropic Battlecruiser and Court of Ambition make each discard cost 3 life; Torment of Hailfire and Exterminate! close.",
+      "fixture_named_cards": [
+        "Entropic Battlecruiser",
+        "Court of Ambition",
+        "Torment of Hailfire",
+        "Exterminate!",
+        "Wound Reflection",
+        "Geier Reach Sanitarium"
+      ],
+      "source_list_cards": [
+        "Entropic Battlecruiser",
+        "Court of Ambition",
+        "Torment of Hailfire",
+        "Exterminate!",
+        "Wound Reflection",
+        "Geier Reach Sanitarium"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team",
+      "source_ref": "blueprint:davros-dalek-creator#failure_modes[0]",
+      "title": "threshold-missed",
+      "oracle_or_blueprint_claim_pending_verification": "No opponent at 3 life lost this turn: the trigger does nothing.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Fixed 3-life enablers. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:davros-dalek-creator#failure_modes[1]",
+      "title": "opponents-choose",
+      "oracle_or_blueprint_claim_pending_verification": "Opponents pick the cheaper branch every time.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Discard punishers make both branches cost something. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:davros-dalek-creator#failure_modes[2]",
+      "title": "slow-clock",
+      "oracle_or_blueprint_claim_pending_verification": "Value without a kill: games go long.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Torment of Hailfire; Labyrinth Raptor. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    }
+  ],
+  "counts": {
+    "all": 13,
+    "P0": 5,
+    "P1": 8
+  },
+  "shared_components": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "required_next_steps": [
+    "fresh Oracle and legality",
+    "reconcile exact canonical 100-card source and intentional exceptions",
+    "implement effect mechanics and negative fixtures",
+    "source-paid actual CI when authorized"
+  ],
+  "execution": "NOT_RUN",
+  "m6_certified": false,
+  "owner_approval_affected": false
+}
