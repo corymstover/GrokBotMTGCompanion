@@ -224,5 +224,6 @@
     "exact_candidate_owner_approved": false,
     "owner_approval_question": "This deck is complete. Do you approve it?"
   },
-  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+  "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+  "withdrawal_reason": "Cory rejected the adequacy of the two-swap Abaddon final presentation on 2026-10-22. The M7 packet omitted materially commander-specific alternatives such as Spark Double, Orcish Bowmasters, Sheoldred, Cyclonic Rift and delve payoffs; see data/grixis/m7/research_challengers/Abaddon_the_Despoiler_opportunity_reopen_20261022.md. This remains an unapproved historical 100-card tested research candidate, not an owner-ready final."
 }
