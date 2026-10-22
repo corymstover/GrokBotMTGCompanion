@@ -38,6 +38,13 @@ MIN_OWNER_PRESENTABLE_CANDIDATES = 10
 MIN_OWNER_PRESENTABLE_WEAK_SLOTS = 8
 WITHDRAWN_RESEARCH_STATUS = "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE"
 READY_STATUS = "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+# Exception limited to exact 2026-10-22 owner-approved Abaddon M7 historical bytes.
+# Never grandfather a new revision or a deck merely because its name matches.
+LEGACY_OWNER_APPROVED_M7 = {
+    ("Abaddon_the_Despoiler", "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev2.txt",
+     "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"):
+    "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+}
 
 
 class DecisionGateError(ValueError):
@@ -136,6 +143,87 @@ def validate_companion(deck_id, companions):
 def check_text(x, label, min_length=30):
     if not isinstance(x, str) or len(x.strip()) < min_length:
         raise DecisionGateError(label + " requires substantive authored explanation")
+
+
+def already_owner_approved_legacy_packet(packet, root):
+    identity = (packet["deck_id"], packet["final_candidate"]["path"],
+                packet["final_candidate"]["sha256"])
+    receipt_path = LEGACY_OWNER_APPROVED_M7.get(identity)
+    if not receipt_path:
+        return False
+    file = root / receipt_path
+    if not file.is_file():
+        return False
+    approved = read(file)
+    return (
+        approved.get("owner_decision") == "APPROVE_EXACT_CANDIDATE"
+        and approved.get("approved_raw_sha256") == identity[2]
+        and approved.get("candidate_source") == identity[1]
+        and approved.get("candidate_decision_review") ==
+            "data/grixis/m7/decision_reviews/Abaddon_the_Despoiler_rev2.json"
+        and approved.get("canonical_verified") is True
+        and approved.get("canonical_approval_status") == "APPROVED"
+        and approved.get("canonical_lock_status") == "LOCKED"
+    )
+
+
+def verify_post_floor_search(packet, baseline, commanders, companions, material_ids, root):
+    """Prospective owner rule: five is presentation floor, not research target.
+
+    Check genuine additional role challenges and full-100 higher-swap evidence;
+    this cannot itself prove strategic optimum or multiplayer win rates.
+    """
+    audit = packet.get("open_ended_optimization_audit")
+    if not audit:
+        raise DecisionGateError(
+            "OWNER POST-FLOOR HARD BLOCK: missing open-ended optimization audit; five is not a target or stop rule")
+    if audit["floor_not_target"] is not True:
+        raise DecisionGateError("The five-swap minimum was used as an optimization target")
+    check_text(audit["remaining_99_review"], "Additional post-floor 99-card audit", 100)
+    check_text(audit["quality_based_stop_reason"], "Count-independent quality-based stop rationale", 120)
+    challenged = audit["post_floor_challenges"]
+    incumbents = [entry["incumbent"] for entry in challenged]
+    if len(set(incumbents)) < 2:
+        raise DecisionGateError("Post-floor review must challenge two additional distinct retained incumbents")
+    original = set(baseline)
+    cuts = set(packet["final_changes"]["cuts"])
+    selected = set(packet["final_changes"]["adds"])
+    judgments = {x["card"]: x["judgment"] for x in packet["material_candidates"]}
+    for entry in challenged:
+        if entry["incumbent"] not in original or entry["incumbent"] in cuts:
+            raise DecisionGateError("Extra incumbent challenge absent from baseline or already selected as a cut")
+        if entry["challenger"] not in material_ids or entry["challenger"] in selected:
+            raise DecisionGateError("Extra challenger unexamined or already among selected adds")
+        if judgments[entry["challenger"]] != entry["disposition"]:
+            raise DecisionGateError("Post-floor challenger verdict contradicts material judgment")
+        check_text(entry["tradeoff"], "Post-floor additional cut tradeoff", 50)
+    larger = audit["larger_swap_packages"]
+    if not larger:
+        check_text(audit.get("no_credible_larger_package_reason"),
+                   "No larger credible package must be justified with actual full-deck tradeoffs", 160)
+    else:
+        if audit.get("no_credible_larger_package_reason") is not None:
+            raise DecisionGateError("No-larger-package claim conflicts with supplied higher-count option")
+        for alt in larger:
+            path = alt["path"]
+            if not path.startswith("data/grixis/m7/") or not path.endswith(".txt"):
+                raise DecisionGateError("Larger option must be an actual staged M7 100-card TXT")
+            source = safe_file(root, path)
+            if hashlib.sha256(source.read_bytes()).hexdigest() != alt["sha256"]:
+                raise DecisionGateError("Larger 100-card option source SHA mismatch")
+            cards, cmds, comps = parse_list(source)
+            if cmds != commanders or comps != companions:
+                raise DecisionGateError("Larger configuration changes commander or companion")
+            adds = list((Counter(cards) - Counter(baseline)).elements())
+            cuts2 = list((Counter(baseline) - Counter(cards)).elements())
+            if Counter(adds) != Counter(alt["adds"]) or Counter(cuts2) != Counter(alt["cuts"]):
+                raise DecisionGateError("Higher-swap option card changes do not match physical source")
+            if len(adds) <= len(packet["final_changes"]["adds"]) or len(adds) != len(cuts2):
+                raise DecisionGateError("Higher-count alternative must have genuinely more substitutions")
+            if not set(adds) <= set(material_ids):
+                raise DecisionGateError("Higher-swap alternative includes unexamined candidates")
+            check_text(alt["case_for_extra_swaps"], "Case for genuinely larger swap package", 60)
+            check_text(alt["why_not_selected"], "Opportunity-cost comparison rejecting larger package", 70)
 
 
 def verify_packet(packet, *, root=ROOT, registry=None):
@@ -282,6 +370,9 @@ def verify_packet(packet, *, root=ROOT, registry=None):
                 raise DecisionGateError("Owner-ready alternative package lacks complete named adds/cuts")
         if not any("OFF" in x.upper() or "UNRANK" in x.upper() for x in packet["candidate_sources"]):
             raise DecisionGateError("Owner-ready packet lacks provenance of off-ranking/missed-synergy research")
+        if not already_owner_approved_legacy_packet(packet, root):
+            verify_post_floor_search(packet, baseline, commanders, companions,
+                                     set(ids), root)
     return {
         "deck_id":deck_id,
         "status": ("M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED"
