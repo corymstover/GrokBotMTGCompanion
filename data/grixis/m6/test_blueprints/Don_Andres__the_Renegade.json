@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Don_Andres__the_Renegade",
+  "canonical_key": "Don_Andres__the_Renegade",
+  "commanders": [
+    "Don Andres, the Renegade"
+  ],
+  "slug": "don-andres-the-renegade",
+  "source": {
+    "blueprint_path": "data/grixis/blueprints/don-andres-the-renegade.json",
+    "blueprint_blob_sha": "b0c4ec7725ac9c06dec3c23c1bc3ef02e3041b6c",
+    "oracle_snapshots": [
+      {
+        "name": "Don Andres, the Renegade",
+        "text": "Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types.\nWhenever you cast a noncreature spell you don't own, create two tapped Treasure tokens.",
+        "sha": "sha256:e93b7d5de3822f651162d1be8fd484051a3537c40e1c51b51033db64e7c919f8"
+      }
+    ],
+    "canonical_source_txt": "refinement/decklists/Don_Andres_the_Renegade_Approved_2026-10-14.txt",
+    "current_file_blob_sha": "1d20d4887565d2765f914ea0a9c33a14d9df03f2",
+    "approved_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+    "registry_source_raw_hash": "sha256:a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
+    "recorded_raw_matches": true,
+    "canonical_id_alias": false,
+    "listed_card_lines": 99,
+    "baseline_count_requires_recheck": true,
+    "locked": true
+  },
+  "strategy": {
+    "primary": "Play opponents' cards: steal creatures (they become +2/+2 menace deathtouch Pirates) and cast opponents' noncreature spells for two Treasures each, snowballing mana and board from Ragavan, Breeches, Grenzo, Thief of Sanity, Gonti, Hostage Taker and friends.",
+    "secondary": "Pirate payoffs for the stolen Pirates (Admiral Beckett Brass, Kindred Discovery, Malcolm, Coercive Recruiter) and Insurrection as the mass-theft finisher.",
+    "identity": [
+      {
+        "card": "Don Andres, the Renegade",
+        "why": "Turns stolen cards into Pirates and Treasure.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Don Andres, the Renegade"
+        ]
+      },
+      {
+        "card": "Thief of Sanity",
+        "why": "Repeatable access to opponents' best spells for Treasure.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Thieving Amalgam",
+        "why": "Every opponent's turn makes a Don-buffed manifest.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:don-andres-the-renegade#donandres-05"
+        ]
+      },
+      {
+        "card": "Insurrection",
+        "why": "The dedicated mass-theft finisher.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/blueprints/Don_Andres_the_Renegade_Current_Cycle_Blueprint_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Gonti, Night Minister",
+        "why": "Another cast-what-you-don't-own engine that stacks with Don.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "moderate",
+        "evidence": [
+          "interaction:don-andres-the-renegade#donandres-11"
+        ]
+      }
+    ],
+    "exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_ability",
+      "source_ref": "blueprint:don-andres-the-renegade#commanders.value[0]",
+      "title": "Don Andres, the Renegade",
+      "oracle_or_blueprint_claim_pending_verification": "Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types.\nWhenever you cast a noncreature spell you don't own, create two tapped Treasure tokens.",
+      "fixture_named_cards": [
+        "Don Andres, the Renegade"
+      ],
+      "source_list_cards": [
+        "Don Andres, the Renegade"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Compare commander in valid vs invalid zone/timing; payable activation/cast and true trigger/ability text; commander-first actual effect.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:don-andres-the-renegade#key_interactions[0]",
+      "title": "ownership",
+      "oracle_or_blueprint_claim_pending_verification": "Ownership, not control, decides both abilities.",
+      "fixture_named_cards": [
+        "Don Andres, the Renegade"
+      ],
+      "source_list_cards": [
+        "Don Andres, the Renegade"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:don-andres-the-renegade#key_interactions[1]",
+      "title": "copies-and-put",
+      "oracle_or_blueprint_claim_pending_verification": "Copies you make are spells you own; putting onto the battlefield isn't casting.",
+      "fixture_named_cards": [
+        "Arcane Heist",
+        "Jhoira, Weatherlight Corsair",
+        "Reanimate",
+        "Animate Dead"
+      ],
+      "source_list_cards": [
+        "Arcane Heist",
+        "Jhoira, Weatherlight Corsair",
+        "Reanimate",
+        "Animate Dead"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:don-andres-the-renegade#key_interactions[2]",
+      "title": "amalgam-manifests",
+      "oracle_or_blueprint_claim_pending_verification": "Thieving Amalgam manifests are 4/4 menace deathtouch with Don.",
+      "fixture_named_cards": [
+        "Thieving Amalgam"
+      ],
+      "source_list_cards": [
+        "Thieving Amalgam"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:don-andres-the-renegade#key_interactions[3]",
+      "title": "voidwalker-nonbo",
+      "oracle_or_blueprint_claim_pending_verification": "Dauthi Voidwalker turns off Thieving Amalgam's drain.",
+      "fixture_named_cards": [
+        "Dauthi Voidwalker",
+        "Thieving Amalgam"
+      ],
+      "source_list_cards": [
+        "Dauthi Voidwalker",
+        "Thieving Amalgam"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K5",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:don-andres-the-renegade#key_interactions[4]",
+      "title": "throne",
+      "oracle_or_blueprint_claim_pending_verification": "Roaming Throne (Pirate) doubles the Treasure trigger, not the static.",
+      "fixture_named_cards": [
+        "Roaming Throne"
+      ],
+      "source_list_cards": [
+        "Roaming Throne"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:don-andres-the-renegade#engines[0]",
+      "title": "stolen-spell-treasure",
+      "oracle_or_blueprint_claim_pending_verification": "Cast a noncreature spell you don't own.",
+      "fixture_named_cards": [
+        "Don Andres, the Renegade",
+        "Roaming Throne",
+        "Gonti, Night Minister",
+        "Tasha, the Witch Queen",
+        "Thief of Sanity",
+        "Grenzo, Havoc Raiser"
+      ],
+      "source_list_cards": [
+        "Don Andres, the Renegade",
+        "Roaming Throne",
+        "Gonti, Night Minister",
+        "Tasha, the Witch Queen",
+        "Thief of Sanity",
+        "Grenzo, Havoc Raiser"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:don-andres-the-renegade#engines[1]",
+      "title": "stolen-creature-buff",
+      "oracle_or_blueprint_claim_pending_verification": "Control a creature you don't own.",
+      "fixture_named_cards": [
+        "Don Andres, the Renegade",
+        "Thieving Amalgam",
+        "Hostage Taker",
+        "Gilded Drake"
+      ],
+      "source_list_cards": [
+        "Don Andres, the Renegade",
+        "Thieving Amalgam",
+        "Hostage Taker",
+        "Gilded Drake"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:don-andres-the-renegade#win_conditions[0]",
+      "title": "stolen-board",
+      "oracle_or_blueprint_claim_pending_verification": "A board of opponents' creatures as 2/2-bigger menace deathtouch Pirates.",
+      "fixture_named_cards": [
+        "Don Andres, the Renegade",
+        "Hostage Taker",
+        "Coercive Recruiter",
+        "Thieving Amalgam",
+        "Gonti, Night Minister",
+        "Roaming Throne",
+        "Kindred Discovery"
+      ],
+      "source_list_cards": [
+        "Don Andres, the Renegade",
+        "Hostage Taker",
+        "Coercive Recruiter",
+        "Thieving Amalgam",
+        "Gonti, Night Minister",
+        "Roaming Throne",
+        "Kindred Discovery"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:don-andres-the-renegade#win_conditions[1]",
+      "title": "insurrection",
+      "oracle_or_blueprint_claim_pending_verification": "Insurrection steals every creature for a lethal swing, all buffed by Don.",
+      "fixture_named_cards": [
+        "Insurrection",
+        "Don Andres, the Renegade"
+      ],
+      "source_list_cards": [
+        "Insurrection",
+        "Don Andres, the Renegade"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W3",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:don-andres-the-renegade#win_conditions[2]",
+      "title": "beckett-theft",
+      "oracle_or_blueprint_claim_pending_verification": "Admiral Beckett Brass counts Don-made Pirates and permanently steals each end step.",
+      "fixture_named_cards": [
+        "Admiral Beckett Brass",
+        "Don Andres, the Renegade"
+      ],
+      "source_list_cards": [
+        "Admiral Beckett Brass",
+        "Don Andres, the Renegade"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team",
+      "source_ref": "blueprint:don-andres-the-renegade#failure_modes[0]",
+      "title": "weak-opponent-cards",
+      "oracle_or_blueprint_claim_pending_verification": "Opponents' cards are weak or off-color for what you need.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Many theft angles. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:don-andres-the-renegade#failure_modes[1]",
+      "title": "don-removed",
+      "oracle_or_blueprint_claim_pending_verification": "Without Don stolen creatures shrink and Treasures stop.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Protection package. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:don-andres-the-renegade#failure_modes[2]",
+      "title": "owner-leaves",
+      "oracle_or_blueprint_claim_pending_verification": "Stolen permanents leave when their owner leaves the game.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: . No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    }
+  ],
+  "counts": {
+    "all": 14,
+    "P0": 5,
+    "P1": 9
+  },
+  "shared_components": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "required_next_steps": [
+    "fresh Oracle and legality",
+    "reconcile exact canonical 100-card source and intentional exceptions",
+    "implement effect mechanics and negative fixtures",
+    "source-paid actual CI when authorized"
+  ],
+  "execution": "NOT_RUN",
+  "m6_certified": false,
+  "owner_approval_affected": false
+}
