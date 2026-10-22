@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-21",
+  "stage": "M6_BOUNDED_CHRONOLOGICAL_SOURCE_PAID_PRECOMBAT_ENGINE_DEPLOYMENT",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "based_on": "data/grixis/m6/phase_b_plans/abaddon_assault_mana_access_20261021.json",
+  "preregistered_before_implementation": true,
+  "samples_per_variant": 2000,
+  "seed": 621017,
+  "turns": 10,
+  "variants": [
+    "baseline",
+    "assault_for_rakdos",
+    "assault_for_lost"
+  ],
+  "components": [
+    "Abaddon the Despoiler",
+    "Loyal Subordinate",
+    "Neheb, the Eternal",
+    "Aggravated Assault"
+  ],
+  "policy": {
+    "physical_cards": "Exact approved 1 commander + 99 library cards; two one-card challengers only; no card tutors/copies or virtual combo pieces.",
+    "draw": "No mulligan, initial seven, draw one each own turn including first. Stable seeded physical slot shuffle; real modeled fetch reshuffle.",
+    "land": "One land played per own turn with same fixed supported-land selection/fetch policy as PR #512; each land untaps at turn start; recognized on-color lands only, Exotic Orchard opponent-color unavailable; shocks paid untapped while safe. Pilot life from lands not modeled.",
+    "mana": "Record concrete tapped source indices, exact one mana ability per untapped land per turn and colored mana; Ancient Tomb two colorless or alternative single black with Urborg; unused precombat mana empties before combat; only Neheb generated R enters postcombat, which is separate; zero injected mana.",
+    "casting": "Fixed controller policy attempts commander once from command zone and then Loyal, Neheb, Assault (or Rakdos if retained). Each cast consumes paid mana, changes actual hand/zone; previously tapped lands unavailable; up to one of each named card. No opponent loss before normal combat in this closed fixture, so Abaddon grants no cascade for precombat hand spells.",
+    "combat": "At beginning of normal combat, Loyal only causes three life loss per opponent if both it and Abaddon are present. At beginning of postcombat main, Neheb generates red equal to total opponent loss this turn. If Assault present, 5 red in postcombat can be paid for exactly one activation as fixed policy. Any following extra-combat chain is not simulated here (PR #504 already provides bounded fixed-board conditional trace).",
+    "baseline": "A Rakdos spell requires an opponent to have lost life this turn; do not cast it before the first normal combat in the closed fixture. Optional postcombat payment may be measured only conditionally. Rakdos's creature reductions, body and Lost-and-the-Damned token generation are unmodeled and never scored as zero.",
+    "model_limits": "No opponents, removals, counterspells, attacks, actual cascade, tutors, card selection/draw, hand discard, mana rocks, rituals, Treasure, Commander cast tax after removal, changing turn order, repeated extra-combat damage/wins; greedy deterministic policy underestimates some lines and ignores many core enablers."
+  },
+  "test_obligations": [
+    "Exact source hash, 100/99 physical inventory and one-slot challenger compliance",
+    "Payment consumes actual unique land sources; source colors, Urborg/Ancient Tomb and floating mana tested against counterexamples",
+    "Cannot cast Rakdos without same-turn opponent loss; commander is cast from command exactly once without tax in no-removal fixture",
+    "Freshly cast Loyal can trigger (no tapping required); removing Abaddon before combat blocks life loss in fixed scenario",
+    "Neheb produces no mana without opponent loss and never produces mana before postcombat main",
+    "Assault cannot activate without five actual postcombat red, and extra combat is not a win without recurring payoff",
+    "Source-paid constructed feasible and infeasible deterministic turn sequences with tapped-land restrictions",
+    "2000 matched physical trials per configuration with every output source-bound, no reported game win rates"
+  ],
+  "authorities": {
+    "can_change_canonical": false,
+    "can_approve_swap": false,
+    "can_certify_m6": false,
+    "can_accept_m7": false
+  },
+  "expected_output": "CI generated JSON artifact, tests and source-bound interpretation. Keep M6.6/7 PARTIAL regardless of results."
+}
