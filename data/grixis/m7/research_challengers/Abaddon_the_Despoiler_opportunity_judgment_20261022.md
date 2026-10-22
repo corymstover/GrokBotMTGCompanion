@@ -1,3 +1,9 @@
+# IMPORTANT CORRECTION — ORIGINAL 2026-10-22 V1 RESEARCH SUPERSEDED
+
+The following historical candidate comparison contains material Oracle-cost errors: **The Lost and the Damned costs {1}{U}{R} (MV3), not five**, and **Call Forth the Tempest costs {5}{R}{R}{R} (MV8), not eleven; it has no printed cost reduction**. Do **not** use its recommendation to cut The Lost and the Damned or its high-MV tempo findings as current advice. See [superseding V2 source-bound analysis](Abaddon_the_Despoiler_v2_decision_and_rule_errata.md) and [current research manifest](Abaddon_the_Despoiler_portfolio_v2.json). This note preserves the original analysis text below solely for provenance.
+
+---
+
 # Abaddon the Despoiler — whole-99 opportunity audit and physical challenger comparison
 
 **Date:** 2026-10-22. **Reviewer:** GPT-6; same-model project reviewer, not an independent third model.  
