@@ -1,0 +1,56 @@
+name: M6 Abaddon Ignus physically paid chronology
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-ignus-paid-access.yml
+      - scripts/grixis_m6_abaddon_ignus_paid_chronology.py
+      - tests/test_m6_abaddon_ignus_paid_chronology.py
+      - data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json
+      - data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  abaddon-ignus-physical:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Adversarial printed-MV payment and cast timing tests
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_paid_chronology.py' -v
+      - name: Execute frozen paired 100-card paid-source cast policies
+        run: python scripts/grixis_m6_abaddon_ignus_paid_chronology.py --out abaddon_ignus_paid_receipt.json
+      - name: Prevent false multiplayer, canonical, and milestone conclusions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path('abaddon_ignus_paid_receipt.json').read_text())
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert r['canonical_raw_sha256']==p['authority']['approved_raw_sha256']
+          assert r['n_per_variant_per_policy']==2000
+          assert set(r['variants'])==set(p['policies'])
+          assert all(len(v)==5 for v in r['variants'].values())
+          limits=r['not_modeled']
+          for k,v in limits.items():
+            if k=='true_game_win_rate': assert v is None
+            elif k in ('m6_certificates','m7_approvals'): assert v==0
+            else: assert v is False, (k,v)
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          assert t['m6']['gates'][6]['status']=='PARTIAL'
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          assert not p['authority']['can_change_canonical']
+          print('PASS: targeted spell sequencing is not full deck gameplay.')
+          PY
+      - name: Preserve reproducible counted, bounded paid-setup receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-ignus-paid-setup
+          path: abaddon_ignus_paid_receipt.json
+          retention-days: 30

@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "local_date": "2026-10-21",
+  "stage": "M6_PREREGISTERED_IGNUS_CHRONOLOGICAL_LAND_ONLY_PAID_ACCESS_AND_OPPONENT_INTERRUPTION",
+  "deck_id": "Abaddon_the_Despoiler",
+  "authority": {
+    "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "canonical_branch": "main",
+    "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "engineering_source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "canonical_locked": true,
+    "can_change_canonical": false,
+    "can_issue_m6_certificate": false,
+    "can_approve_M7": false
+  },
+  "sources": [
+    "data/grixis/m6/phase_b_plans/abaddon_ignus_birgi_20261021.json",
+    "data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md",
+    "scripts/grixis_m6_abaddon_chronological_engine.py",
+    "scripts/grixis_m6_abaddon_assault_access.py"
+  ],
+  "source_bounded_card_costs": {
+    "Abaddon the Despoiler": {
+      "mv": 5,
+      "pips": [
+        1,
+        1,
+        1
+      ]
+    },
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty": {
+      "mv": 3,
+      "pips": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Grinning Ignus": {
+      "mv": 3,
+      "pips": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Boltwave": {
+      "mv": 1,
+      "pips": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Flame Rift": {
+      "mv": 2,
+      "pips": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Rakdos, Lord of Riots": {
+      "mv": 4,
+      "pips": [
+        0,
+        2,
+        2
+      ]
+    },
+    "Aggravated Assault": {
+      "mv": 3,
+      "pips": [
+        0,
+        0,
+        1
+      ]
+    },
+    "Nightscape Familiar": {
+      "mv": 2,
+      "pips": [
+        0,
+        1,
+        0
+      ]
+    }
+  },
+  "registered_variants": [
+    {
+      "id": "approved",
+      "cut": null,
+      "add": null
+    },
+    {
+      "id": "ignus_for_rakdos",
+      "cut": "Rakdos, Lord of Riots",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "ignus_for_nightscape_familiar",
+      "cut": "Nightscape Familiar",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "ignus_for_rite_of_flame",
+      "cut": "Rite of Flame",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "assault_for_rakdos",
+      "cut": "Rakdos, Lord of Riots",
+      "add": "Aggravated Assault"
+    }
+  ],
+  "policies": [
+    "engine_first",
+    "burn_first"
+  ],
+  "seed": 621017,
+  "samples_per_variant_policy": 2000,
+  "horizon_own_turns": 10,
+  "checkpoints": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "three_opponents": true,
+  "clock": {
+    "seven_opening_cards": true,
+    "own_first_turn_draw": true,
+    "one_land_drop_per_turn": true,
+    "fetches_search_physical_library_and_reshuffle": true,
+    "no_mulligan": true
+  },
+  "explicit_mechanics": [
+    "Only modeled main-phase casts: Birgi FRONT from hand, Abaddon from command, physically held Boltwave/Flame Rift as resolved unprevented red sorceries, Rakdos if some opponent life lost this turn, Grinning Ignus from hand, or Assault from hand. No other spells/tutors/rock sources are modeled.",
+    "Engine-first deterministic one-pass order Birgi, commander, burn spells, Rakdos, Ignus or Assault. Burn-first order burns, Birgi, commander, Rakdos, Ignus or Assault.",
+    "Each modeled cast pays exact land-sourced colored and generic mana, taps chosen lands physically, spends the mana pool, and can trigger Birgi if its front face was on the battlefield when the spell was cast. Birgi's red trigger is assumed uncountered and resolves after casting and before any next sorcery.",
+    "If Abaddon is present when a qualifying HAND spell is cast on our turn and all opponents' current-turn life lost >= that spell's mana value, record a cascade trigger only. Do not resolve/exile/cast a cascade hit.",
+    "Boltwave deals 3 to each of three opponents (aggregate loss 9). Flame Rift deals 4 to each player (aggregate opponent loss 12), also hurts pilot but pilot life and survival are not modeled.",
+    "Rakdos only casts when opponent life loss this turn >0, requiring {B}{B}{R}{R}; if Rakdos is controlled and loss >0, reduce only Ignus generic portion by up to current aggregate opponent loss. Does not reduce mana value or Abaddon required three-loss threshold, does not retroactively discount Rakdos's own cast.",
+    "After first Ignus cast, if Birgi front face and Ignus both resolved and a red is available in the same main-phase mana pool, perform at most five source-accounted bounce/recasts. Repeat only if cast legally and cost available. No assumption of cascade resolving into additional red, lost Spawn or win.",
+    "At turn boundaries all floating mana clears, including Birgi's current-turn mana. Already-cast permanents remain, no commander removal/tax in pure access baseline; opponent interruption is analyzed separately as a conditional counterfactual.",
+    "Opponent response cases: Rule of Law permits one spell per turn and blocks iterative hand recasts; removing commander after first Ignus cast does not remove existing cascade trigger but prevents grants on future casts; countering first Ignus does not erase previously triggered Birgi or Abaddon abilities; removing Birgi with its first trigger on stack leaves that trigger but prevents later Birgi mana.",
+    "Only count paired seeded physical accesses, named-source legal payments, and finite trigger *eligibility*, not real full games, win rates, or superiority.",
+    "Corrective registered before first CI: Nightscape Familiar already exists as {1}{B} and may be paid/cast from hand; once controlled, each blue OR red spell receives only ONE generic-mana reduction, even when multicolored. Its removal in Ignus-for-Familiar variant is a material modeled incumbent cost. Source: official Dominaria Remastered release notes."
+  ],
+  "measurement_keys": [
+    "commander_cast",
+    "birgi_front_cast",
+    "burn_resolved",
+    "opponent_loss_source",
+    "rakdos_paid_cast",
+    "ignus_paid_initial_cast",
+    "ignus_cascade_trigger_on_initial_cast",
+    "ignus_five_recasts_legal_with_existing_mana",
+    "assault_paid_cast",
+    "physical_fetch_searches",
+    "paid_ignus_loop_earliest_turn",
+    "commander_first_sequencing_delta_between_two_policies"
+  ],
+  "limitations": [
+    "No mana rocks/rituals, tutors, card selection, alternate land decisions, other life-loss cards, nonhand cast events, resolving cascade hits, combat, Loyal, Neheb postcombat mana or Assault activations; PR #514 separately bounds Assault first activation.",
+    "Adversarial response cases are isolated theoretical stack timing assertions, not opponent decision probabilities or any observed real response.",
+    "Partial named-spell gameplay might understate engine access while the no-removal assumption overstates survival; no net claim permitted.",
+    "A single-player four-player-table assumption with no prevention, no interaction in drawn-line trajectories, no life tracking beyond opponents' spells and no win conversion.",
+    "All outputs must retain M6.6/M6.7 PARTIAL, no I/J certificate, no M7 approved deck, no canonical modification."
+  ],
+  "additional_source": "https://media.wizards.com/2023/downloads/DMR_Release_Notes/EN_MTGDMR_ReleaseNotes_20221129.pdf"
+}
