@@ -1,0 +1,592 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "M7 decisive, full-deck, source-bound final owner-candidate review",
+  "description": "Pre-owner-approval strategic decision gate, not approval or official legality proof. All material candidates receive final authored decisions; expensive tests have a decision question and finite stop rule.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "stage",
+    "deck_id",
+    "canonical_baseline_sha256",
+    "canonical_baseline_logical_hash",
+    "commander_identity",
+    "whole_deck_audit",
+    "candidate_sources",
+    "material_candidates",
+    "expensive_experiments",
+    "final_changes",
+    "final_candidate",
+    "verification",
+    "owner_authority",
+    "readiness"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "stage": {
+      "const": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE"
+    },
+    "deck_id": {
+      "type": "string",
+      "minLength": 2
+    },
+    "canonical_baseline_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "canonical_baseline_logical_hash": {
+      "type": "string",
+      "pattern": "^lh1:[0-9a-f]{64}$"
+    },
+    "commander_identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mechanical_plan",
+        "protected_core",
+        "natural_ceiling",
+        "anti_homogenization"
+      ],
+      "properties": {
+        "mechanical_plan": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "protected_core": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/name"
+          },
+          "uniqueItems": true
+        },
+        "natural_ceiling": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "anti_homogenization": {
+          "$ref": "#/$defs/meaningful"
+        }
+      }
+    },
+    "whole_deck_audit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "all_noncommand_cards_reviewed",
+        "roles_and_overlaps",
+        "mana_base_and_curve",
+        "interaction_resilience",
+        "weakest_slots",
+        "current_baseline_strength",
+        "candidate_pool_scope",
+        "off_ranked_search_conclusion"
+      ],
+      "properties": {
+        "all_noncommand_cards_reviewed": {
+          "const": true
+        },
+        "roles_and_overlaps": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "mana_base_and_curve": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "interaction_resilience": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "weakest_slots": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/weak_slot"
+          }
+        },
+        "current_baseline_strength": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "candidate_pool_scope": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "off_ranked_search_conclusion": {
+          "$ref": "#/$defs/meaningful"
+        }
+      }
+    },
+    "candidate_sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/meaningful"
+      },
+      "uniqueItems": true
+    },
+    "material_candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/candidate"
+      }
+    },
+    "expensive_experiments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/experiment"
+      }
+    },
+    "final_changes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "adds",
+        "cuts",
+        "coherent_package_tradeoff"
+      ],
+      "properties": {
+        "adds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name"
+          },
+          "uniqueItems": true
+        },
+        "cuts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/name"
+          },
+          "uniqueItems": true
+        },
+        "coherent_package_tradeoff": {
+          "$ref": "#/$defs/meaningful"
+        }
+      }
+    },
+    "low_swap_heightened_audit": {
+      "$ref": "#/$defs/low_swap"
+    },
+    "final_candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256",
+        "card_count",
+        "deckwide_reconciliation"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "card_count": {
+          "const": 100
+        },
+        "deckwide_reconciliation": {
+          "$ref": "#/$defs/meaningful"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "quantity_singleton_verified",
+        "color_identity_verified",
+        "current_oracle_verified",
+        "official_legality_checked",
+        "project_exceptions_recorded",
+        "rules_and_combos_verified",
+        "source_evidence_paths",
+        "power_bracket",
+        "archidekt_tags",
+        "known_hard_blockers"
+      ],
+      "properties": {
+        "quantity_singleton_verified": {
+          "const": true
+        },
+        "color_identity_verified": {
+          "const": true
+        },
+        "current_oracle_verified": {
+          "const": true
+        },
+        "official_legality_checked": {
+          "const": true
+        },
+        "project_exceptions_recorded": {
+          "const": true
+        },
+        "rules_and_combos_verified": {
+          "const": true
+        },
+        "source_evidence_paths": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/meaningful"
+          }
+        },
+        "power_bracket": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "archidekt_tags": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "#/$defs/name"
+          }
+        },
+        "known_hard_blockers": {
+          "type": "array",
+          "maxItems": 0,
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "owner_authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "canonical_deck_changed",
+        "exact_candidate_owner_approved",
+        "owner_approval_question"
+      ],
+      "properties": {
+        "canonical_deck_changed": {
+          "const": false
+        },
+        "exact_candidate_owner_approved": {
+          "const": false
+        },
+        "owner_approval_question": {
+          "const": "This deck is complete. Do you approve it?"
+        }
+      }
+    },
+    "readiness": {
+      "const": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+    }
+  },
+  "$defs": {
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "meaningful": {
+      "type": "string",
+      "minLength": 30
+    },
+    "weak_slot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "card",
+        "weakness",
+        "alternative_named",
+        "reasoning"
+      ],
+      "properties": {
+        "card": {
+          "$ref": "#/$defs/name"
+        },
+        "weakness": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "alternative_named": {
+          "$ref": "#/$defs/name"
+        },
+        "reasoning": {
+          "$ref": "#/$defs/meaningful"
+        }
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "card",
+        "source",
+        "role",
+        "named_cuts",
+        "incumbent_opportunity_cost",
+        "commander_synergy",
+        "adversarial_downside",
+        "judgment",
+        "reason",
+        "confidence",
+        "evidence_refs"
+      ],
+      "properties": {
+        "card": {
+          "$ref": "#/$defs/name"
+        },
+        "source": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "role": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "named_cuts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/name"
+          },
+          "uniqueItems": true
+        },
+        "incumbent_opportunity_cost": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "commander_synergy": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "adversarial_downside": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "judgment": {
+          "enum": [
+            "SELECT_ADD",
+            "REJECT",
+            "RETAIN_ALTERNATIVE",
+            "EXCLUDE_INVALID"
+          ]
+        },
+        "reason": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "confidence": {
+          "enum": [
+            "HIGH",
+            "MODERATE",
+            "LOW_WITH_DISCLOSED_LIMITS"
+          ]
+        },
+        "evidence_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/name"
+          }
+        }
+      }
+    },
+    "experiment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cluster_id",
+        "test_kind",
+        "question",
+        "exact_challenger_adds",
+        "exact_challenger_cuts",
+        "incumbent_effects",
+        "relevant_challenger_effects",
+        "source_rules_fixture",
+        "primary_endpoint",
+        "tradeoff_endpoint",
+        "choice_reversal_threshold",
+        "adversarial_condition",
+        "limitations",
+        "why_existing_evidence_cannot_decide",
+        "precommitted_max_runs",
+        "stop_rule",
+        "fallback_choice_rule",
+        "executed",
+        "result_summary",
+        "execution_receipt",
+        "repeat_exception_reason"
+      ],
+      "properties": {
+        "cluster_id": {
+          "$ref": "#/$defs/name"
+        },
+        "test_kind": {
+          "enum": [
+            "BOUNDED_COMPARATIVE_EXPERIMENT",
+            "EXPENSIVE_RANDOMIZED_TRIAL"
+          ]
+        },
+        "question": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "exact_challenger_adds": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/name"
+          }
+        },
+        "exact_challenger_cuts": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/name"
+          }
+        },
+        "incumbent_effects": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "relevant_challenger_effects": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "source_rules_fixture": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "primary_endpoint": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "tradeoff_endpoint": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "choice_reversal_threshold": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "adversarial_condition": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "limitations": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "why_existing_evidence_cannot_decide": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "precommitted_max_runs": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "stop_rule": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "fallback_choice_rule": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "executed": {
+          "const": true
+        },
+        "result_summary": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "execution_receipt": {
+          "$ref": "#/$defs/name"
+        },
+        "repeat_exception_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "low_swap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "weakest_slot_challenge",
+        "off_ranked_opportunities",
+        "multi_slot_packages",
+        "no_two_package_reason",
+        "alternate_cuts_for_prior_holds",
+        "strongest_argument_against_baseline",
+        "evidence_based_answer"
+      ],
+      "properties": {
+        "weakest_slot_challenge": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/weak_slot"
+          }
+        },
+        "off_ranked_opportunities": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "multi_slot_packages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "adds",
+              "cuts",
+              "result_and_rationale"
+            ],
+            "properties": {
+              "adds": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "$ref": "#/$defs/name"
+                },
+                "uniqueItems": true
+              },
+              "cuts": {
+                "type": "array",
+                "minItems": 2,
+                "items": {
+                  "$ref": "#/$defs/name"
+                },
+                "uniqueItems": true
+              },
+              "result_and_rationale": {
+                "$ref": "#/$defs/meaningful"
+              }
+            }
+          }
+        },
+        "no_two_package_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alternate_cuts_for_prior_holds": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "strongest_argument_against_baseline": {
+          "$ref": "#/$defs/meaningful"
+        },
+        "evidence_based_answer": {
+          "$ref": "#/$defs/meaningful"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "final_changes": {
+            "properties": {
+              "adds": {
+                "maxItems": 1
+              }
+            },
+            "required": [
+              "adds"
+            ]
+          }
+        },
+        "required": [
+          "final_changes"
+        ]
+      },
+      "then": {
+        "required": [
+          "low_swap_heightened_audit"
+        ]
+      }
+    }
+  ]
+}
