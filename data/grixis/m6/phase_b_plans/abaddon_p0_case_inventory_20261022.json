@@ -1,0 +1,249 @@
+{
+  "schema_version": 1,
+  "kind": "M6_ABADDON_APPLICABLE_P0_FOCUSED_CASE_INVENTORY_EXECUTION_REGISTRY",
+  "date": "2026-10-22",
+  "deck_id": "Abaddon_the_Despoiler",
+  "source_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "engine_parent": "39c9407425fb5d210f9a5a8ba884dc91dde1bfe6",
+  "authority": {
+    "canonical_changed": false,
+    "formal_m6_certified": false,
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_8": "BLOCKED",
+    "m6_9": "BLOCKED",
+    "m6_10": "BLOCKED",
+    "owner_m7_approval": false
+  },
+  "test_boundedness": {
+    "randomized_trajectories_this_action": 0,
+    "registered_replay_cases": 20,
+    "required_unexecuted_cases": 3,
+    "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone."
+  },
+  "source_evidence": [
+    "grixis/Grixis M6 I-J Contract.md",
+    "data/grixis/m6/phase_b_plans/abaddon_m6_current_gate_20261022.md",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39741683804"
+  ],
+  "replay_cases": [
+    {
+      "id": "P0-001",
+      "mechanic": "Abaddon printed-target instant cascade and additional granted cascade at X>=5",
+      "test_file": "tests/test_m6_abaddon_blast_target_cascade.py",
+      "test_method": "PhysicalBlastTests.test_two_independent_cascades_threshold_at_cast",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-002",
+      "mechanic": "Illegal Blast target after spell cast, independent cascade trigger survives",
+      "test_file": "tests/test_m6_abaddon_blast_target_cascade.py",
+      "test_method": "PhysicalBlastTests.test_target_removed_after_cast_cascade_still_resolves",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-003",
+      "mechanic": "Ruinous owner life loss vs non-own opponent",
+      "test_file": "tests/test_m6_abaddon_ruinous.py",
+      "test_method": "RuinousCascadeFixtureTests.test_opponent_owner_only_loses_life",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-004",
+      "mechanic": "Ruinous cast from exile does not receive Abaddon cascade",
+      "test_file": "tests/test_m6_abaddon_ruinous.py",
+      "test_method": "RuinousCascadeFixtureTests.test_exile_cast_not_granted_cascade_even_after_loss",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-005",
+      "mechanic": "Ignus MV3 qualifying hand cast, Rule of Law blocks its cascade hit and recasts",
+      "test_file": "tests/test_m6_abaddon_ignus_stack_windows.py",
+      "test_method": "IgnusTrueManaAbilityWindows.test_rule_of_law_allows_first_ignus_but_not_free_cast_or_recast",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-006",
+      "mechanic": "Drannith prevents free nonhand cascade but not hand recasts",
+      "test_file": "tests/test_m6_abaddon_ignus_stack_windows.py",
+      "test_method": "IgnusTrueManaAbilityWindows.test_drannith_prohibits_exile_hit_but_not_hand_recasts",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-007",
+      "mechanic": "Chaos Warp can replace Rule of Law with same lock, not guaranteed permanent answer",
+      "test_file": "tests/test_m6_abaddon_chaos_warp_stax.py",
+      "test_method": "ChaosWarpStaxTests.test_warp_reveal_same_rule_of_law_is_not_a_guaranteed_out",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-008",
+      "mechanic": "Chaos Warp cascade hit denied by still-active Rule of Law",
+      "test_file": "tests/test_m6_abaddon_chaos_warp_stax.py",
+      "test_method": "ChaosWarpStaxTests.test_warp_cascade_hit_blocked_by_still_active_rule_of_law",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-009",
+      "mechanic": "From-exile actual cast yields Lost Spawn and Keeper damage with opponent hate",
+      "test_file": "tests/test_m6_abaddon_lost_keeper_effect.py",
+      "test_method": "AbaddonLostKeeperPayoff.test_legal_and_hate_policies_with_real_source_paid_ignus_and_first_hit",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-010",
+      "mechanic": "Zero-MV exile cast generates Spawn but Keeper zero damage",
+      "test_file": "tests/test_m6_abaddon_lost_keeper_effect.py",
+      "test_method": "AbaddonLostKeeperPayoff.test_zero_mv_nonhand_cast_makes_spawn_but_no_keeper_damage",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-011",
+      "mechanic": "Loyal removed during Assault combat loop prevents purported kill",
+      "test_file": "tests/test_m6_abaddon_neheb_assault.py",
+      "test_method": "NehebAssaultPhaseB.test_remove_loyal_after_first_trigger_combat_loop_is_not_a_kill",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-012",
+      "mechanic": "Neheb removed after first Assault activation stops further Neheb source",
+      "test_file": "tests/test_m6_abaddon_neheb_assault.py",
+      "test_method": "NehebAssaultPhaseB.test_remove_neheb_after_paid_first_activation_blocks_repetition",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-013",
+      "mechanic": "Physical Sol Ring free cascade cast does not gain Abaddon cascade and enters battlefield",
+      "test_file": "tests/test_m6_abaddon_exile_resolution.py",
+      "test_method": "ExileCastTests.test_ring_resolves_without_mana_and_no_hand_cascade",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-014",
+      "mechanic": "Tutor library reordering affects second cascade with real physical cards",
+      "test_file": "tests/test_m6_abaddon_tutor_state.py",
+      "test_method": "TutorTests.test_real_cascade_second_trigger_sees_new_top_card",
+      "expected_execution": "REPLAY_IN_EXACT_HEAD_PR_CI",
+      "prior_evidence": "REPORTED_EXECUTED_PREVIOUS_PR",
+      "source": "2026-10-22 live Scryfall run 39741683804 and existing case-scoped Oracle reviews"
+    },
+    {
+      "id": "P0-015",
+      "mechanic": "Betrayal real MV0 cascade hit, opponent library creature PUT not CAST",
+      "test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "test_method": "BetrayalKeeperP0.test_p0_betrayal_source_paid_hit",
+      "expected_execution": "NEW_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    },
+    {
+      "id": "P0-016",
+      "mechanic": "Betrayal casts but opponent library holds no creature",
+      "test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "test_method": "BetrayalKeeperP0.test_p0_betrayal_no_creatures",
+      "expected_execution": "NEW_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    },
+    {
+      "id": "P0-017",
+      "mechanic": "Countering Betrayal after cast does not untrigger Lost",
+      "test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "test_method": "BetrayalKeeperP0.test_p0_betrayal_countered",
+      "expected_execution": "NEW_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    },
+    {
+      "id": "P0-018",
+      "mechanic": "Drannith stops betrayal exile cast and its triggered payoffs",
+      "test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "test_method": "BetrayalKeeperP0.test_p0_betrayal_drannith",
+      "expected_execution": "NEW_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    },
+    {
+      "id": "P0-019",
+      "mechanic": "Rule of Law stops betrayal free cast after the hand Ignus spell",
+      "test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "test_method": "BetrayalKeeperP0.test_p0_betrayal_rule_of_law",
+      "expected_execution": "NEW_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    },
+    {
+      "id": "P0-020",
+      "mechanic": "Preferred Keeper plus actual MV1/MV0 low hit, 1/0 targeted damage",
+      "test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "test_method": "BetrayalKeeperP0.test_p0_keeper_mv1_and_mv0",
+      "expected_execution": "NEW_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_theft_keeper_diff_20261022.json"
+    }
+  ],
+  "required_open": [
+    {
+      "id": "P0-021",
+      "topic": "Call Forth the Tempest MV8 printed double cascade plus conditional third Abaddon-granted cascade under target legality/stack timing",
+      "status": "REQUIRED_UNEXECUTED",
+      "reason": "Corrected Oracle text verified but no exact physical fully-effect-aware three-cascade trace registered and replayed against the currently recommended 100."
+    },
+    {
+      "id": "P0-022",
+      "topic": "Suspend Inevitable Betrayal 1UU with three counters, final upkeep free exile cast, normal main-phase/target opponent and absence in preferred cut list",
+      "status": "REQUIRED_UNEXECUTED",
+      "reason": "M6 tested pool includes alternative with Betrayal. Newly registered P0-015–019 cover cascade-from-exile, not its ordinary suspend timeline."
+    },
+    {
+      "id": "P0-023",
+      "topic": "Breach + LED + Brain Freeze backup combo with exact priority, graveyard, escaping costs, storm and opponent interaction",
+      "status": "REQUIRED_UNEXECUTED",
+      "reason": "Old source includes the backup but neither the current 20-case replay nor published bounded snippets establishes a full rules-payable, graveyard-conserving finite trace of this win; avoid claiming it verified."
+    }
+  ],
+  "p1_deferred": [
+    {
+      "topic": "Empirical table/opponent creature-library distribution for Betrayal theft value",
+      "reason": "Metagame-specific not essential for legal mechanical P0 case; cannot infer from a deterministic fixture, so maintain qualitative tradeoff."
+    },
+    {
+      "topic": "Chaos Warp opponent-library random replacement frequency",
+      "reason": "No source opponent decks; actual shuffle/reveal outcomes explicitly conditional and cannot be scored without arbitrary decks."
+    },
+    {
+      "topic": "Whole-99 effects complete gameplay and full multiplayer win rate",
+      "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
+    }
+  ],
+  "next_action": "Run all exact named 20 cases in a single fail-closed GitHub CI job with durable receipt artifact. Then implement unresolved P0-021/022/023 if not already covered by additional source-linked execution; only when case counts reconcile may M6.6 change.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS",
+  "completion_claim": false
+}
