@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "date": "2026-10-22",
+  "kind": "M6_MECHANICAL_CERTIFICATION_GAP_AND_NEXT_ACTION",
+  "status": "OPEN_NOT_CERTIFIED",
+  "authoritative_engineering_branch": "chatgpt-cycle76-m6-refinement",
+  "canonical_approval": {
+    "status": "APPROVED_LOCKED_PRESERVED",
+    "no_changes_authorized": true
+  },
+  "pass_c": {
+    "owner_equivalent_reviews_complete": 62,
+    "technically_independent": false,
+    "waiver_receipt": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "m6_5": "COMPLETE"
+  },
+  "last_confirmed_m6_gates": {
+    "M6_6": "PARTIAL",
+    "M6_7": "PARTIAL",
+    "M6_8": "BLOCKED",
+    "M6_9": "BLOCKED",
+    "M6_10": "BLOCKED"
+  },
+  "existing_evidence": [
+    {
+      "path": "data/grixis/m6/phase_b_bounded/abaddon_factorial_ramp_cascades_20261022.md",
+      "finding": "20,000 restricted, ten-turn paired trajectories and 46 targeted/predecessor tests; source-paid hand accelerants, other hand cascades, MV0 Lotus Petal library churn; no complete multiplayer or wins"
+    },
+    {
+      "path": "data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md",
+      "finding": "Targeted priority/mana-window and predecessor tests, not a complete adversarial game"
+    },
+    {
+      "path": "data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json",
+      "finding": "Existing conditional judgments and holds; not final M6.7 certification"
+    }
+  ],
+  "unresolved_decisions": [
+    {
+      "card": "Grinning Ignus",
+      "state": "HOLD_PRIORITY",
+      "required": "Decision-grade comparative proof against incumbent role and paid Ignus/Birgi/cascade lines"
+    },
+    {
+      "card": "Aggravated Assault",
+      "state": "HOLD",
+      "required": "Payable combat/Neheb engine advantage versus actual cut opportunity cost under disruption"
+    },
+    {
+      "card": "Chaos Warp",
+      "state": "HOLD",
+      "required": "Answer-gap/removal-resilience comparison against actual alternative with adversarial threats"
+    },
+    {
+      "card": "The Ruinous Powers",
+      "state": "RETAIN_PENDING_FINAL",
+      "required": "Preserve current sourced cascading and mandatory-cast interpretation and verify impact on final decision"
+    }
+  ],
+  "missing_mechanics": [
+    "Full eligible 99-card hand spell and payoff resolution rather than the 12-supported-effect subset",
+    "Meaningful adversarial opponent removal, hate and priority with payable responses",
+    "Decision-grade baseline-vs-challenger comparison incorporating incumbent role loss, mana, resilience and reproducibility",
+    "Exact commander-specific mechanical test receipts, executed-case inventory, and artifact hashes suitable for M6 I/J"
+  ],
+  "next_engineering_action": "On this branch implement one narrowly scoped Abaddon source-paid adversarial regression test addressing an unresolved HOLD using existing simulator and immutable oracle fixtures; run its unit tests through exact-head GitHub Actions, then record bounded results without inferring wins or canonical swap approval.",
+  "certification_gates": "Fail closed: do not promote M6.6/M6.7/M6.8/M6.9/M6.10 or alter any canonical card/approval without exact evidence and owner authorization.",
+  "separate_future_backlog": {
+    "pr": 535,
+    "scope": "61 other commanders, 882 test designs; not an Abaddon execution fixture",
+    "planning_only": true
+  }
+}
