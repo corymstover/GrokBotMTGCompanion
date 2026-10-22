@@ -3,8 +3,8 @@
   "deck_id": "Admiral_Beckett_Brass",
   "date": "2026-10-22",
   "overall_status": "PARTIAL",
-  "m7_status": "RESEARCH_ONLY",
-  "note": "Durable handoff after merged engineering PRs #586-#594. Live GitHub must be rechecked when resuming.",
+  "m7_status": "OWNER_APPROVAL REQUIRED",
+  "note": "Merged engineering PRs through #602, with a source-bound 100-card Admiral M7 owner-presentable packet. Current live state and owner decisions must be rechecked when resuming.",
   "canonical_authority": {
     "repo": "corymstover/grixis-commander-encyclopediaGPT",
     "branch": "main",
@@ -18,7 +18,7 @@
   "engineering_authority": {
     "repo": "corymstover/GrokBotMTGCompanion",
     "branch": "chatgpt-cycle76-m6-refinement",
-    "last_verified_head_before_this_ledger": "82dc81f6cc057e357ed7245add8d8c354178eb97",
+    "last_verified_head_before_this_ledger": "19a8e3c751192c82fef1eb6da17d83ff6d94ebe9",
     "completed_prs": [
       {
         "pr": 586,
@@ -55,11 +55,39 @@
       {
         "pr": 594,
         "merge_commit": "82dc81f6cc057e357ed7245add8d8c354178eb97"
+      },
+      {
+        "pr": 596,
+        "merge_commit": "bd18d6d2a7a7d1dea35956dc1c92bf508847602a"
+      },
+      {
+        "pr": 597,
+        "merge_commit": "10c2b0124ec0bff2408300dc80c5c02f88b635dd"
+      },
+      {
+        "pr": 598,
+        "merge_commit": "560e6bd00514e6154f21ae50d540d43adef04088"
+      },
+      {
+        "pr": 599,
+        "merge_commit": "a624f8dabe7a54ef186f379be0206e71a83b4cc5"
+      },
+      {
+        "pr": 600,
+        "merge_commit": "858cc127196174541d45092204e7904537b9a460"
+      },
+      {
+        "pr": 601,
+        "merge_commit": "81024fa4082fae292b8a7fd77b77a25470bc05ed"
+      },
+      {
+        "pr": 602,
+        "merge_commit": "19a8e3c751192c82fef1eb6da17d83ff6d94ebe9"
       }
     ]
   },
   "m6_blueprint": {
-    "status": "BOUNDED_CASE_EXECUTION_COMPLETE_NOT_CERTIFICATION",
+    "status": "ORIGINAL_13_CASE_EXECUTED_PLUS_CANDIDATE_D_ADVERSE_AND_EFFECT_TESTS_NOT_CERTIFICATION",
     "source": "data/grixis/m6/test_blueprints/Admiral_Beckett_Brass.json",
     "designed_cases": 13,
     "p0_executed_passed": 5,
@@ -71,7 +99,7 @@
       "run": 39845586479,
       "status": "success"
     },
-    "limits": "Finite source-paid and adverse rule contracts; not a comprehensive competitive 4-player simulation or certified I/J candidate."
+    "limits": "Five P0 and eight P1 originally designed cases executed/passed; seven additional changed-effect and seven adverse fixtures plus source-paid finite four-package comparisons passed. These are bounded rules/mechanics tests, not true multiplayer win-rate or global optimality."
   },
   "m7_current_research": {
     "candidate": "D_evasive_pirate_density",
@@ -105,7 +133,7 @@
     "material_candidate_judgments": 24,
     "challenged_incumbent_areas": 12,
     "decision_ledger": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_material_decisions_20261022.json",
-    "why_preferred": "Deck D preserves Merchant Raiders blocker lock, The Indomitable passive combat draw, and Open into Wonder guaranteed evasion/draw while adding 1-drop flying Pirate, 2-mana flyers, haste/menace and untapped UBR land.",
+    "why_preferred": "Deck D preserves Merchant Raiders blocker lock, The Indomitable passive combat draw, and Open into Wonder guaranteed evasion/draw while adding 1-drop flying Pirate, 2-mana flyers, haste/menace and untapped UBR land. Preferred D is now gated and staged as an unapproved final M7 candidate in PR #602.",
     "unresolved_tradeoff": "Forerunner pirate-tutor and repeat entry drain, Dire Fleet Poisoner flash/deathtouch, and larger Dire Fleet Captain body are genuine losses; verify D still maximal under adverse opponents.",
     "provisional_power_bracket": 4,
     "provisional_archidekt_tags": [
@@ -174,22 +202,67 @@
     "comprehensive_reviews": "COMPLETE_62_OF_62",
     "owner_equivalent_pass_c": "COMPLETE_62_OF_62_NONINDEPENDENT_GPT6",
     "pass_c_waiver": "COMPLETE_M6_5_OWNER_DOCUMENTED_20261021",
-    "m6_6_effect_aware_phase_b": "PARTIAL_CANDIDATE_SPECIFIC_CLOSURE_NEEDED",
-    "m6_7_decision_grade_judgments": "PARTIAL_24_RESEARCH_DECISIONS_SOURCE_BOUND",
-    "m6_8_tested_pool_I": "BLOCKED_NO_FINAL_LOCAL_BEST_CERTIFICATE",
-    "m6_9_reproducibility_J": "BLOCKED_NO_FINAL_CANDIDATE_D_BUNDLE",
-    "m6_10_owner_acceptance": "BLOCKED_NOT_REQUESTED",
+    "m6_6_effect_aware_phase_b": "COMPLETE_ADMIRAL_DECISION_SCOPE_AGGREGATE_PARTIAL_2_OF_62",
+    "m6_7_decision_grade_judgments": "COMPLETE_ADMIRAL_DECISION_SCOPE_AGGREGATE_PARTIAL_2_OF_62",
+    "m6_8_tested_pool_I": "COMPLETE_ADMIRAL_LOCAL_TESTED_POOL_AGGREGATE_PARTIAL_2_OF_62",
+    "m6_9_reproducibility_J": "COMPLETE_ADMIRAL_BUNDLE_AGGREGATE_PARTIAL_2_OF_62",
+    "m6_10_owner_acceptance": "BLOCKED_NOT_OWNER_ACCEPTED_0_OF_62",
     "formal_m6_certifications": "0/62",
     "new_m7_final_owner_approvals": "1/62_ABADDON_ONLY",
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Reconcile exact D candidate's bounded changed-effect tests against M6.6 and Phase-B scope obligations; write an honestly limited effect-coverage decision report and reuse untouched canonical P0/P1.",
-    "Decision-grade adverse alternative-cut check: Broadside vs Forerunner, Skyship vs Poisoner and early Pirate evasion; no expensive simulation absent concrete decision-changing gap.",
-    "Build an exact candidate D tested-pool I local-best or truthful BLOCKED certificate with source-bound A/B/C/D limitations; do not equate qualitative leadership with empirical global optimality.",
-    "Build valid M6 J candidate-specific reproducibility bundle tied to raw D SHA, current 121 Oracle record, sealed A/B, owner-equivalent Pass C waiver, actual CI, mana/red-team reports and explicit limitations; exact-head validate.",
-    "Only if all M6/M7 hard gates close: present full 100-card D list, Bracket and tags with precise SHA and ask for Cory's exact M7 approval; canonical repo unchanged until then."
+    "Present the complete source-bound, exact-hash candidate D, five paired strategic replacements, Bracket 4 and tags; request Cory's explicit exact-list M7 approval using the mandated final question.",
+    "If Cory explicitly approves the exact candidate, reconfirm its raw SHA and only then update and lock the canonical list under the established authority workflow; record the owner receipt. Do not mislabel the reply as M6.10 certification acceptance.",
+    "Continue in authoritative commander order and execute genuine mandatory P0/P1, efficient commander-first M7 optimization, source-bound I/J and separate owner approvals; leave unrelated approved canonical decks intact."
   ],
-  "owner_decision_required_now": false,
-  "authority_caveat": "The complete 62-approved historical canonical list state persists. Only Abaddon has received a NEW final M7 approval. No Admiral M6.10 acceptance or M7 owner approval has been given. Never silently promote research-only state."
+  "owner_decision_required_now": true,
+  "authority_caveat": "Historical 62 approved/locked canonical decks persist. Abaddon alone has a new exact M7 owner approval; Admiral D is structural owner-ready but not approved. Admiral M6.6-9 decision-scoped evidence is completed, aggregate 2/62; M6.10 formal owner acceptance 0/62, M8 not accepted. The former D packet is not evidence of multiplayer win rate or global optimality.",
+  "m7_decision_packet": {
+    "status": "OWNER_PRESENTABLE_CI_VERIFIED_NOT_APPROVED",
+    "path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass.json",
+    "candidate_staging_path": "data/grixis/m7/candidate_lists/Admiral_Beckett_Brass.txt",
+    "exact_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+    "genuine_swaps": 5,
+    "material_candidate_judgments": 24,
+    "challenged_distinct_incumbents": 12,
+    "distinct_fully_specified_multislot_alternative_packages": 3,
+    "oracle_current_legality_resolved": "121/121 source-bound names with no unresolved legality or color identity",
+    "structural_gate_pr": 602,
+    "exact_head_sha": "089d355e7b59433c2527036f8546ec7c0b768e63",
+    "exact_head_actions_run": 39863031245,
+    "exact_head_result": "success",
+    "merge_commit": "19a8e3c751192c82fef1eb6da17d83ff6d94ebe9",
+    "canonical_updated": false,
+    "exact_owner_approved": false,
+    "exact_owner_approval_pending": true
+  },
+  "m6_ij_current": {
+    "m6_6": {
+      "status": "COMPLETE_DECISION_SCOPED_ONLY",
+      "evidence": "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md",
+      "pr": 599,
+      "exact_head_ci": 39859693010
+    },
+    "m6_7": {
+      "status": "COMPLETE_DECISION_SCOPED_ONLY",
+      "evidence": "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md",
+      "pr": 599,
+      "exact_head_ci": 39859693001
+    },
+    "m6_8": {
+      "status": "COMPLETE_TESTED_POOL_LOCAL_I_NOT_GLOBAL_OPTIMUM",
+      "evidence": "data/grixis/m6/ij/certificates/admiral-beckett-brass.json",
+      "pr": 600,
+      "exact_head_ci": 39860525716,
+      "scope": "Five exact 100-card configurations, canonical baseline and four A/B/C/D variants."
+    },
+    "m6_9": {
+      "status": "COMPLETE_REPRODUCIBILITY_J_NOT_OWNER_ACCEPTANCE",
+      "evidence": "data/grixis/m6/bundles/admiral-beckett-brass.json",
+      "pr": 601,
+      "exact_head_ci": 39862032718,
+      "notes": "Two of 62 valid strict J bundles at merge; M6.10 remains blocked."
+    }
+  }
 }

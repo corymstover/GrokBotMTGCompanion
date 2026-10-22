@@ -79,31 +79,53 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][4]["waiver_receipt"]==str(WAIVER.relative_to(ROOT))
  assert t["m6"]["gates"][4]["original_independent_requirement"]["technically_completed"]==0
  assert t["m6"]["gates"][4]["original_independent_requirement"]["waived_by_owner"] is True
- assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==1
+ assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==2
  for pos in (5,6):
   gate=t["m6"]["gates"][pos]
   scoped=gate.get("per_deck_completion",{}).get("Abaddon_the_Despoiler")
   assert scoped and scoped["status"]=="COMPLETE_DECISION_SCOPED_ONLY"
   assert not scoped["owner_m7_approved"] and not scoped["full_multiplayer_win_rate_proven"]
   assert (ROOT/scoped["source"]).is_file()
+  adm=gate.get("per_deck_completion",{}).get("Admiral_Beckett_Brass")
+  assert adm and adm["status"]=="COMPLETE_DECISION_SCOPED_ONLY"
+  assert not adm["owner_m7_approved"] and not adm["full_multiplayer_win_rate_proven"]
+  assert not adm["technical_pass_c_independent"]
+  assert adm["original_blueprint_cases_executed"]=={"p0":5,"p1":8}
+  assert adm["candidate_d_adverse_and_changed_effect_cases_executed"]==14
+  assert (ROOT/adm["source"]).is_file()
+  assert gate["completed"]==len(gate["per_deck_completion"])==2
  audit=json.loads((ROOT/"data/grixis/m6/certification_preflight/abaddon_residual_70_decision_relevance_20261022.json").read_text())
  assert len(audit["rows"])==70 and audit["residual_p1_executed_cases"]==14
  assert all("PENDING" not in row["disposition"] for row in audit["rows"])
  for pos in (7,8):
   gate=t["m6"]["gates"][pos]
-  assert gate["status"]=="PARTIAL" and gate["completed"]==1
+  assert gate["status"]=="PARTIAL" and gate["completed"]==2
   proof=gate.get("per_deck_completion",{}).get("Abaddon_the_Despoiler")
   assert proof and proof["status"]=="SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED"
   assert proof["selected_logical_hash"]=="lh1:4bb15eb5acc051871e7d818890f71705eb74f1281e933e73b0e77ff770be1efc"
   assert proof["owner_accepted"] is False and proof["canonical_modified"] is False
   assert (ROOT/proof["source"]).is_file() and (ROOT/proof["oracle_snapshot"]).is_file()
+  adm=gate.get("per_deck_completion",{}).get("Admiral_Beckett_Brass")
+  assert adm and adm["status"]=="SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED"
+  assert adm["selected_raw_sha256"]=="201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee"
+  assert adm["selected_logical_hash"]=="lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58"
+  assert adm["owner_accepted"] is False and adm["canonical_modified"] is False
+  assert not adm["full_multiplayer_gameplay"]
+  assert (ROOT/adm["source"]).is_file() and (ROOT/adm["oracle_snapshot"]).is_file()
+  assert gate["completed"]==len(gate["per_deck_completion"])==2
  assert t["m6"]["gates"][9]["status"]=="BLOCKED" and t["m6"]["gates"][9]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==12
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526,528,530,532}
- assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
+ assert len(t["m6"]["phase_b_additional_evidence"])==13
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"][:12]}=={511,512,514,516,518,520,522,524,526,528,530,532}
+ assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"][:12])
+ adm=t["m6"]["phase_b_additional_evidence"][12]
+ assert adm["deck_id"]=="Admiral_Beckett_Brass" and adm["merged_prs"]==[596,597,598,599,600,601,602]
+ assert not adm["full_multiplayer_gameplay"] and not adm["statistical_superiority_proven"]
+ assert not adm["owner_m6_10_accepted"] and not adm["owner_m7_exact_candidate_approved"]
+ assert (ROOT/adm["local_best_cert"]).is_file() and (ROOT/adm["reproducibility_bundle"]).is_file()
+ assert (ROOT/adm["unapproved_m7_packet"]).is_file()
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
- assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==1
+ assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==2
  assert t["update_contract"]["prefer_live_registry_and_evidence_over_this_snapshot"]
  assert t["update_contract"]["never_accept_a_milestone_or_modify_canonical_decks_from_tracker_update"]
  for milestone in ("m6","m7"):
@@ -196,7 +218,7 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertFalse(receipt["is_full_deck_paired_gameplay"])
   self.assertFalse(receipt["proves_swap_superiority"])
   self.assertEqual(receipt["deck_level_phase_b_certificates_issued"],0)
-  self.assertEqual((self.t["m6"]["gates"][5]["status"],self.t["m6"]["gates"][5]["completed"]),("PARTIAL",1))
+  self.assertEqual((self.t["m6"]["gates"][5]["status"],self.t["m6"]["gates"][5]["completed"]),("PARTIAL",2))
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
   self.assertTrue(any("Abaddon_M6_6_7_Gate_Adjudication_20261022.md" in x for x in self.t["m6"]["gates"][5]["evidence"]))
  def test_abaddon_agent_judgments_only_partially_advance_m6_7(self):
@@ -207,14 +229,14 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertTrue(all(not c["approved_swap"] for c in d["candidates"]))
   self.assertTrue(all(v is False for v in d["authority"].values()))
   gate=self.t["m6"]["gates"][6]
-  self.assertEqual((gate["status"],gate["completed"]),("PARTIAL",1))
+  self.assertEqual((gate["status"],gate["completed"]),("PARTIAL",2))
   self.assertEqual(gate["per_deck_completion"]["Abaddon_the_Despoiler"]["status"],"COMPLETE_DECISION_SCOPED_ONLY")
   self.assertTrue(any("abaddon_phase_b_decisions_20261021.json" in x for x in gate["evidence"]))
   self.assertEqual(self.t["display"]["m6_partial_gates"],4)
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_forged_abaddon_gate_progress_or_owner_approval_is_rejected(self):
   import copy
-  for slot,key,value in ((5,"completed",2),(6,"completed",62),(7,"completed",62),(8,"completed",62)):
+  for slot,key,value in ((5,"completed",3),(6,"completed",62),(7,"completed",62),(8,"completed",62)):
    d=copy.deepcopy(self.t)
    d["m6"]["gates"][slot][key]=value
    with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
@@ -229,7 +251,7 @@ class TestMilestoneSubtracker(unittest.TestCase):
   with self.assertRaises(AssertionError):validate(d,self.r,self.p,self.s)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a,chron,warp,ignus,paid,hit,shared,hand,stack,other,factor=records
+  r,a,chron,warp,ignus,paid,hit,shared,hand,stack,other,factor=records[:12]
   self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"],hit["merged_pr"],shared["merged_pr"],hand["merged_pr"],stack["merged_pr"],other["merged_pr"],factor["merged_pr"]),(511,512,514,516,518,520,522,524,526,528,530,532))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
