@@ -35,7 +35,8 @@
     "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524; Actions 39710471617; 12 source-verified physical same-state effects with 20 tests and 20,000 restricted paired trajectories)",
     "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 15 tests in 20,000 matched physical trajectories)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528; exact-head 39715733050 and 39715732876 success; 15 new and 20 source-locked effect tests; Wizards Grinning Ignus official mana-ability release notes)",
-    "data/grixis/m6/phase_b_plans/abaddon_other_hand_cascades_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_other_hand_cascades_20261022.md (merged PR #530 / exact-head Actions 39717296188, 39717296172, 39717296135; 16 new + 35 predecessor tests, 10,000 physical paired trajectories)"
+    "data/grixis/m6/phase_b_plans/abaddon_other_hand_cascades_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_other_hand_cascades_20261022.md (merged PR #530 / exact-head Actions 39717296188, 39717296172, 39717296135; 16 new + 35 predecessor tests, 10,000 physical paired trajectories)",
+    "data/grixis/m6/phase_b_plans/abaddon_factorial_hand_ramp_cascades_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_factorial_ramp_cascades_20261022.md (merged PR532; exact CI 39718634613 and 39718634521 PASS; 46 regression tests, 20k paired physical source trials)"
   ],
   "candidates": [
     {
@@ -343,6 +344,12 @@
             "class": "test_result",
             "confidence": "moderate",
             "source": "PR #530 / three exact-head Actions including 39717296188: 16 new tests + 20 shared effect and 15 priority tests, 10000 limited paired physical paid game-state trajectories; unrelated qualifying hand cascades now modeled in core action subset"
+          },
+          {
+            "id": "four_arm_joined_paid_hand_mana_and_abaddon_other_hand_cascades",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "Merged PR532 / exact-head GitHub Actions 39718634613 and 39718634521 both PASS; 15 new plus 31 predecessor tests and 20,000 limited four-arm paired physical trajectories"
           }
         ]
       },
@@ -369,9 +376,9 @@
         "actual_wins_measured": false
       },
       "unresolved": [
-        "Bounded eight-named-spell pilot now includes other paid hand-spell cascades, but still omits most of the 99 source deck's actual hand casts including fast mana, protection and tutors from hand",
-        "The experiment's MV0 full-library cascade was tested in isolated source-legal fixture only, NOT integrated into the actual hand-cast Sol Ring/Lotus Petal ramp policy; cannot infer real card-quality or deck churn",
-        "The fixed-policy 500-seed other-hand cascade event counts (0 or 1 per variant) are sparse and cannot prove full power or counterfactual superiority; protect incumbent Rakdos/Familiar/Rite role tradeoffs and add metagame interaction before proposals"
+        "The four-arm joint physically paid study now includes other hand-cast source acceleration cascades including Lotus Petal MV0 library churn, but does NOT represent how many full 99-card spells can actually be drawn/cast/cascade from hand",
+        "19/500 zero-MV full-library shuffles occur in fixed pilots while Abaddon controlled, yet yield no eligible card or value by themselves; don't call them payoff hits or wins",
+        "Complete list's tutors, protection, full mana fixing, commander's ability after opponent interactions, colored mana sequencing, and lost Rakdos/Familiar/Rite threats/discounts remain uncompared"
       ],
       "approved_swap": false,
       "paid_assembly_observation": {
@@ -619,6 +626,60 @@
         "measured_win_rate": null,
         "superiority_proven": false,
         "approved_swap": false
+      },
+      "factorial_hand_ramp_and_cascade_observation": {
+        "kind": "single_mutable_99_card_source_paid_4_arm_ablation",
+        "source": "PR #532 / Actions 39718634613 and 39718634521",
+        "arms": [
+          "neither",
+          "hand_ramp_only",
+          "core_other_cascade_only",
+          "both"
+        ],
+        "n_per_variant_policy_mode": 500,
+        "physical_variants": 5,
+        "policies": 2,
+        "total_trajectories": 20000,
+        "actual_mana_and_cascades_joined_in_one_99": true,
+        "real_lotus_petal_mv0_cascade_churn": true,
+        "lotus_petal_mv0_eligible_even_at_opponent_loss_zero": true,
+        "each_zero_mv_cascade_free_spell_cast": false,
+        "turn10_engine_first_both_per500": {
+          "approved": {
+            "paid_ignus": 0,
+            "any_other_hand_cascade": 20,
+            "zero_mv_cascade": 19,
+            "any_supported_effect": 0
+          },
+          "ignus_for_rakdos": {
+            "paid_ignus": 77,
+            "any_ignus_cascade": 2,
+            "any_other_hand_cascade": 19,
+            "zero_mv_cascade": 19,
+            "any_supported_effect": 1
+          },
+          "ignus_for_nightscape_familiar": {
+            "paid_ignus": 85,
+            "any_ignus_cascade": 2,
+            "any_other_hand_cascade": 20,
+            "zero_mv_cascade": 19,
+            "any_supported_effect": 0
+          },
+          "ignus_for_rite_of_flame": {
+            "paid_ignus": 70,
+            "any_ignus_cascade": 4,
+            "any_other_hand_cascade": 20,
+            "zero_mv_cascade": 19,
+            "any_supported_effect": 2
+          }
+        },
+        "predecessor_control_modes_unchanged": true,
+        "full_99_spell_package_simulated": false,
+        "opponents_modeled": false,
+        "optimized_mana_sequencing": false,
+        "full_multiplayer_win_rate": null,
+        "superiority_proven": false,
+        "approved_swap": false
       }
     }
   ],
@@ -666,5 +727,5 @@
     "Retain identified low-cost/identity 40K payoffs and robust early red acceleration; do not auto-apply any of the 98 screened M5 swap rows",
     "After M6.6/7 full completion, generate final replayable I/J evidence and independently verify proposed exact 100/Oracle/current legality before any owner M7 approval packet"
   ],
-  "summary": "Four Abaddon authored same-family judgments unchanged: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, Grinning Ignus PRIORITY/HOLD. PR #530 corrects an omission of other qualifying hand-cast cascade spells beyond Ignus, with strictly lower printed-MV hits resolved before original damage and zero-MV cascade's mandatory whole-library exile with no hit. Source-paid limited 100-card pilot (10,000 matched trajectories, 16+35 rules tests) found only 0-1 other-hand-cascade seed occurrences per 500 in the named core casting policy, not meaningful deck win-rate or evidence of replacement superiority. The full 99 effects, outside core hand spells, opponent disruption incidence and actual wins are unresolved. Canonical list unchanged, M6.6/7 PARTIAL and no M7 new approvals."
+  "summary": "Abaddon judgments remain Aggravated Assault HOLD, Chaos Warp HOLD, The Ruinous Powers RETAIN, Grinning Ignus PRIORITY/HOLD. PR532 uniquely joins six hand-paid accelerants and additional qualifying hand-cast Abaddon cascades in the same 99-card physical pilot, including 19/500 true zero-MV Lotus Petal cascade full-library churn incidents, with no free hit. Across five source 100-card variants x two policy orders x four arms x 500 paired seeds, engine-first BOTH Ignus/-Rakdos 2/500 trials with Ignus cascade and 1/500 with supported effect, Ignus/-Familiar 2 and 0, Ignus/-Rite 4 and 2. Still only partial source-supported effects, incomplete 99-card and opponent gameplay, no credible net win-rate or superiority, no owner-approved changes, M6.6/7 PARTIAL."
 }
