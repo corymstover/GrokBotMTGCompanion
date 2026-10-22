@@ -155,7 +155,7 @@
           "data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md (PR #520; CI 39706655376 success; 17 tests and 20,000 fixed-policy source-paid named-spell seed trajectories, 5 physical 100-card lists and two casting priorities)",
           "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522; exact-head CI 39708741461 success; 18 source-locked tests, 5 exact 100-card frozen physical variants x 2,000 paired seeds, 35 subthree nonland targets, legal first-hit cascade exiling and bottoming; still no effects or wins)",
           "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (merged PR #524, exact-head GitHub Actions run 39710471617 success; 20 rules/physical conservation tests and 20,000 paired paid physical state trajectories with 12 source-verified cascade hit effects)",
-          "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / exact-head GitHub Actions 39713059781 SUCCESS; six hand-paid mana spells with mana-pool/physical deck/grave, 16 adversarial tests, 20,000 same-seed paired 100-card trajectories, 1000 per variant/policy/mode)"
+          "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / exact-head GitHub Actions 39713059781 SUCCESS; six hand-paid mana spells with mana-pool/physical deck/grave, 15 adversarial tests, 20,000 same-seed paired 100-card trajectories, 1000 per variant/policy/mode)"
         ],
         "scope": "Abaddon M6.6 PARTIAL. PR #526 adds actual physically source-paid early casting of six held accelerants (Lotus Petal, Sol Ring, Mana Vault, Dark Ritual, Cabal Ritual, Rite of Flame) before the existing PR524 12-effect joined Ignus cascade subset. Frozen five 100-card variants, two fixed casting policies, two modes using 1000 matched seeds each (20,000 trajectories); exact no-hand-accel mode delegates to predecessor. Source-checked actual black/red/generic payments, graveyard threshold, mana pool and physical zones, Sol Ring untap vs Mana Vault persistent tap/draw damage. Under engine-first with -Rakdos, T10 no-hand mode 166/1000 paid Ignus,4/1000 actual Ignus cascade,0/1000 supported effect; with hand acceleration 168,5,1. -Familiar 159,4,2 versus 165,6,1; -Rite 155,7,3 versus 156,8,4. Fixed pre-main accelerant order, non-optimized colored source consumption, still omits most 99-card effects, alternative colored mana ramp, hand-cast cascade triggers, opponents, combat, wins; source paid six-ramp access NOT a complete Phase B or metagame win-rate claim. M6.6 remains partial, zero certificates."
       },
@@ -383,7 +383,7 @@
         "merged_pr": 518,
         "merge_commit": "17b4bd3a452847fe187550c77a87bbdd533de91e",
         "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39704767840",
-        "unit_tests": 16,
+        "unit_tests": 15,
         "source_m5_swap_records": 98,
         "distinct_candidate_adds": 63,
         "unapplied_100_card_variants": 4,
@@ -577,7 +577,7 @@
         "merged_pr": 526,
         "merge_commit": "699474ee6c6df04b13ff0d8ffe75d7c637cd46f1",
         "exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39713059781",
-        "unit_tests": 16,
+        "unit_tests": 15,
         "physical_variants": 5,
         "policies": 2,
         "control_modes": 2,
@@ -734,7 +734,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED: PR #526 introduced true source-paid hand acceleration on the already joined Ignus physical pilot (16 tests, 20,000 matched trajectories, six spell effects), but missing larger 99-card effects/other hand-cascades/opponent interaction and any win outcome. M6 certification 0/62, M7 new deck approvals 0/62; existing 62 APPROVED/LOCKED canonical unchanged."
+    "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED: PR #526 introduced true source-paid hand acceleration on the already joined Ignus physical pilot (15 tests, 20,000 matched trajectories, six spell effects), but missing larger 99-card effects/other hand-cascades/opponent interaction and any win outcome. M6 certification 0/62, M7 new deck approvals 0/62; existing 62 APPROVED/LOCKED canonical unchanged."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
