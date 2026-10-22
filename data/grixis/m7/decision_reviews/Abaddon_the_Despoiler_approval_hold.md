@@ -1,3 +1,7 @@
+> **2026-10-22 OWNER-OBJECTION SUPERSESSION — TWO-SWAP FINAL RECOMMENDATION WITHDRAWN PENDING NEW OPPORTUNITY AUDIT.** Cory objected to the two-add/two-cut proposal after extensive testing and rejected its adequacy as a comprehensive M7 recommendation. **No M7 deck change was approved.** Do not present this historical packet as currently final-owner-ready. The new source-bound investigation is `data/grixis/m7/research_challengers/Abaddon_the_Despoiler_opportunity_reopen_20261022.md`: it documents unexamined Spark Double/Sakashima/Irenicus, Orcish Bowmasters, Sheoldred, Cyclonic Rift, Dig Through Time/Treasure Cruise and a different Assault package. Existing M6 selected-pool I/J evidence remains valid strictly for the old physical candidate's test scope; it is **not** a certificate for any new proposal. 62 canonical approved/locked lists remain untouched. M6.10 and owner M7 approval remain pending.
+
+---
+
 # Abaddon — M6 technical I/J verified; exact M7 owner approval pending
 
 **Current owner-decision status (2026-10-22):** The complete proposed Abaddon 100-card M7 replacement is technically ready to present. This is **not** owner approval or formal M6.10 milestone acceptance. The canonical approved and locked list remains untouched (raw SHA-256 `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`).
