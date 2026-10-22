@@ -6,6 +6,7 @@ on:
     paths:
       - .github/workflows/m7-admiral-beckett-research-contract.yml
       - data/grixis/m6/authority_snapshots/Admiral_Beckett_Brass_Canonical_Approved_20261022.txt
+      - data/grixis/m6/phase_b_plans/admiral_beckett_candidate_D_effect_coverage_20261022.json
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.txt
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.json
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md
@@ -14,6 +15,7 @@ on:
       - tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py
       - tests/test_m6_admiral_beckett_candidate_d_changed_effects.py
       - tests/test_m7_admiral_beckett_material_decisions.py
+      - tests/test_m6_admiral_beckett_candidate_d_adversarial.py
   workflow_dispatch:
 
 jobs:
@@ -35,3 +37,5 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_candidate_d_changed_effects.py' -v
       - name: Verify all 24 researched strategic dispositions and exact five selected replacements
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_material_decisions.py' -v
+      - name: Verify candidate D versus actual incumbent losses and hostile blocker states
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_candidate_d_adversarial.py' -v
