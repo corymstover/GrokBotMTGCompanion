@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_RESEARCH_COMPARATIVE_NOT_OWNER_READY",
+  "baseline_source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_path": "refinement/decklists/Abaddon_the_Despoiler_Approved_2026-10-13.txt",
+  "canonical_baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "owner_approved": false,
+  "oracle_complete": false,
+  "m6_certified": false,
+  "bracket": 4,
+  "baseline_lands": 34,
+  "comparisons": [
+    {
+      "id": "engine_answer",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_engine_answer.txt",
+      "adds": [
+        "Grinning Ignus",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "The Lost and the Damned"
+      ],
+      "status": "PROVISIONAL_LEAD_NOT_FINAL"
+    },
+    {
+      "id": "combat_answer",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_combat_answer.txt",
+      "adds": [
+        "Aggravated Assault",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "The Lost and the Damned"
+      ],
+      "status": "VIABLE_COMPARATIVE_ALTERNATIVE"
+    },
+    {
+      "id": "triple_trial",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_triple_trial.txt",
+      "adds": [
+        "Grinning Ignus",
+        "Aggravated Assault",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "The Lost and the Damned",
+        "Inevitable Betrayal"
+      ],
+      "status": "LOWER_CONFIDENCE_NOT_RECOMMENDED"
+    }
+  ],
+  "validation_claim": "The companion structural tests check physical 100, singleton, identical commander and land counts, no extra unlisted differences. They do not fetch current Scryfall Oracle or certify M6, M7, legality, win rate, or owner approval."
+}
