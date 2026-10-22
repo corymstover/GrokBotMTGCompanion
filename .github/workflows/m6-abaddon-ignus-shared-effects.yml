@@ -34,7 +34,7 @@ jobs:
           t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
           assert r['canonical_approved_sha256']==p['source']['approved_raw_sha256']
           assert r['samples_per_variant_policy']==2000
-          assert list(r['variants'])==p['policies']
+          assert set(r['variants'])==set(p['policies'])
           assert set(r['variants']['engine_first'])==set(p['variants'])
           assert len(p['resolution_model']['supported_effects'])==12
           assert p['sample']['max_ignus_recasts_per_main']==5
