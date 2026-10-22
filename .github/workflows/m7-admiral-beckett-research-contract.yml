@@ -18,6 +18,7 @@ on:
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.txt
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.json
       - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md
+      - tests/test_m7_admiral_post_floor_oracle_paid_effects.py
       - tests/test_m7_admiral_beckett_research_packages.py
       - tests/test_m7_admiral_beckett_full_source_and_resilience.py
       - tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py
@@ -41,6 +42,8 @@ jobs:
           python-version: '3.12'
       - name: Verify 100-card alternatives, Oracle research, and fail-closed research status
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_research_packages.py' -v
+      - name: Verify new post-floor sourced Oracle cards and paid adversarial combat effects
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_post_floor_oracle_paid_effects.py' -v
       - name: Verify all 121 Oracle sources and resilient package combat assumptions
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_full_source_and_resilience.py' -v
       - name: Verify exact physical Pirate-density candidate four-turn mana and theft fixture
