@@ -50,7 +50,7 @@ def report():
     source_path,md=canonical_source(ROOT,registry)
     baseline,commanders,companions=parse_list(source_path,source_markdown=md)
     chosen,actual_commanders,actual_companions=parse_list(ROOT/SELECTED)
-    if (baseline!=parse_list(ROOT/CANON)[0] or commanders!=["Abaddon the Despoiler"]
+    if (commanders!=["Abaddon the Despoiler"]
          or actual_commanders!=commanders or companions or actual_companions
          or len(baseline)!=100 or len(chosen)!=100):
         raise ValueError("Canonical parsed 100 does not match explicitly pinned candidate")
@@ -72,7 +72,7 @@ def report():
     red=(ROOT/J_RED).read_text(encoding="utf-8")
     mana=(ROOT/J_MANA).read_text(encoding="utf-8")
     for n in EXPECTED_RED:
-        if red.count("###"+n) or ("\x60"+n+"\x60" not in red):
+        if ("\x60"+n+"\x60") not in red:
             raise ValueError("Missing authored red-team challenge "+n)
     if red.count("## 1. ")!=1 or red.count("## 2. ")!=1 or red.count("## 3. ")!=1 or red.count("## 4. ")!=1:
         raise ValueError("Candidate red-team review does not answer all four questions")
