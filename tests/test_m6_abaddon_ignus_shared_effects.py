@@ -5,7 +5,7 @@ from scripts.grixis_m6_abaddon_ignus_shared_effects import (
     ABADDON,BIRGI,IGNUS,INSTANT_SORCERY,SUPPORTED,
     ZERO,verify,physical_zones,assert_conserved,
     first_cascade,create_state,recast_ignus,one_trial,expected_physical,
-    effect_resolve,run,
+    effect_resolve,main_phase,run,
 )
 
 class SharedIgnusEffectCases(unittest.TestCase):
@@ -35,6 +35,20 @@ class SharedIgnusEffectCases(unittest.TestCase):
         snap,state=one_trial(library,621017,"engine_first",self.plan,self.cards)
         self.assertEqual(set(snap),{"4","6","8","10"})
         self.assertEqual(physical_zones(state),expected_physical(library))
+
+    def test_paid_hand_burn_goes_only_to_grave_not_battlefield(self):
+        for burn,lands,loss in (
+             ("Boltwave",[("Mountain",False)],9),
+             ("Flame Rift",[("Mountain",False),("Island",False)],12)):
+            with self.subTest(burn=burn):
+                state=self.state([],hand=[burn],field=())
+                state["lands"]=list(lands)
+                original=physical_zones(state)
+                main_phase(state,self.cards,self.plan,1701,3,"engine_first")
+                self.assertEqual(state["loss"],9+loss)
+                self.assertNotIn(burn,state["field"])
+                self.assertIn(burn,state["graveyard"])
+                self.assertEqual(physical_zones(state),original)
 
     def test_dark_ritual_adds_real_black_and_birgi_red_and_grave(self):
         state=self.state(["Dark Ritual","Island"],pool=(0,0,1,0))
