@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Obeka__Brute_Chronologist",
+  "order": 44,
+  "commanders": [
+    "Obeka, Brute Chronologist"
+  ],
+  "strategy": {
+    "primary": "Delayed-trigger abuse: on your own turn, let the 'at the beginning of the next end step' liability (lose the game, sacrifice, exile) go on the stack, then tap Obeka to end the turn and exile it. Risky extra turns become free extra turns, and temporary tokens, clones and reanimations become permanent.",
+    "secondary": "Kiki-Jiki/Twinflame clone infinites and Isochron Scepter + Final Fortune (+ Obeka or Sundial) infinite turns."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Obeka, Brute Chronologist",
+      "oracle_id": "21b76a94-d9f3-4c34-ab24-7e89321b04f0",
+      "oracle_text": "{T}: The player whose turn it is may end the turn. (Exile all spells and abilities from the stack. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+      "oracle_sha256": "sha256:aac7d30f0c9b94ae7d6fba7b052fcbc05ee98285fcfd127c0207aae111883651",
+      "type_line": "Legendary Creature — Ogre Wizard"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Obeka, Brute Chronologist",
+      "why": "Ends the turn to erase delayed liabilities.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Obeka, Brute Chronologist"
+      ]
+    },
+    {
+      "card": "Isochron Scepter",
+      "why": "Repeats Final Fortune each turn.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:126-1173-5261"
+      ]
+    },
+    {
+      "card": "Final Fortune",
+      "why": "Extra turn whose loss trigger Obeka erases.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:126-1173-5261"
+      ]
+    },
+    {
+      "card": "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+      "why": "Reflection copies kept permanently.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L39"
+      ]
+    },
+    {
+      "card": "Hellkite Courser",
+      "why": "Tax-free commander redeploy with haste.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Obeka_Brute_Chronologist_Commander_Blueprint_2026-10-15.md#L65"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/obeka-brute-chronologist.json",
+    "blueprint_blob": "b803fe3c9ab091bff9ce4cfb537227d43acaa593",
+    "canonical_source_path": "refinement/decklists/Obeka_Brute_Chronologist_Approved_2026-10-15.txt",
+    "canonical_source_blob": "af530761f649e2b40f1baecdbabb08d726fce1ae",
+    "canonical_approved_sha256": "31b6ff7f23effa78512c2a409a21440bccf457e6faece51d8db38b74102169a8",
+    "canonical_record_key": "Obeka__Brute_Chronologist",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:obeka-brute-chronologist#commanders.value[0]",
+      "scenario": "Obeka, Brute Chronologist",
+      "expected_claim_to_verify": "{T}: The player whose turn it is may end the turn. (Exile all spells and abilities from the stack. The player whose turn it is discards down to their maximum hand size. Damage wears off, and \"this turn\" and \"until end of turn\" effects end.)",
+      "cards": [
+        "Obeka, Brute Chronologist"
+      ],
+      "found_in_source_export": [
+        "Obeka, Brute Chronologist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:obeka-brute-chronologist#key_interactions[0]",
+      "scenario": "active-player-chooses",
+      "expected_claim_to_verify": "The player whose turn it is decides whether to end it; opponents can decline on their turns.",
+      "cards": [
+        "Obeka, Brute Chronologist"
+      ],
+      "found_in_source_export": [
+        "Obeka, Brute Chronologist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:obeka-brute-chronologist#key_interactions[1]",
+      "scenario": "respond-to-end-step-trigger",
+      "expected_claim_to_verify": "Let the next-end-step liability trigger in your own end step, then end the turn in response. Ending the turn earlier only pushes the trigger to the next player's end step.",
+      "cards": [
+        "Obeka, Brute Chronologist"
+      ],
+      "found_in_source_export": [
+        "Obeka, Brute Chronologist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:obeka-brute-chronologist#key_interactions[2]",
+      "scenario": "next-occurrence-only",
+      "expected_claim_to_verify": "A delayed trigger for the next end step doesn't trigger again once it has triggered and been exiled.",
+      "cards": [
+        "Obeka, Brute Chronologist"
+      ],
+      "found_in_source_export": [
+        "Obeka, Brute Chronologist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:obeka-brute-chronologist#key_interactions[3]",
+      "scenario": "courser-return",
+      "expected_claim_to_verify": "Hellkite Courser's return-to-command-zone delayed trigger can be erased, keeping the commander on the battlefield.",
+      "cards": [
+        "Hellkite Courser",
+        "Obeka, Brute Chronologist"
+      ],
+      "found_in_source_export": [
+        "Hellkite Courser",
+        "Obeka, Brute Chronologist"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:obeka-brute-chronologist#key_interactions[4]",
+      "scenario": "scepter-final-fortune",
+      "expected_claim_to_verify": "Isochron Scepter + Final Fortune + Obeka (or Sundial) is infinite turns: end the turn on the lose trigger.",
+      "cards": [
+        "Isochron Scepter",
+        "Final Fortune",
+        "Obeka, Brute Chronologist",
+        "Sundial of the Infinite"
+      ],
+      "found_in_source_export": [
+        "Isochron Scepter",
+        "Final Fortune",
+        "Obeka, Brute Chronologist",
+        "Sundial of the Infinite"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:obeka-brute-chronologist#key_interactions[5]",
+      "scenario": "hasty-token-loops",
+      "expected_claim_to_verify": "Kiki-Jiki + Delina and Dualcaster Mage + Twinflame make infinite hasty tokens.",
+      "cards": [
+        "Kiki-Jiki, Mirror Breaker",
+        "Delina, Wild Mage",
+        "Dualcaster Mage"
+      ],
+      "found_in_source_export": [
+        "Kiki-Jiki, Mirror Breaker",
+        "Delina, Wild Mage",
+        "Dualcaster Mage"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:obeka-brute-chronologist#engines[0]",
+      "scenario": "end-the-turn",
+      "expected_claim_to_verify": "Obeka untapped on your turn after the delayed trigger is on the stack.",
+      "cards": [
+        "Obeka, Brute Chronologist",
+        "Sundial of the Infinite"
+      ],
+      "found_in_source_export": [
+        "Obeka, Brute Chronologist",
+        "Sundial of the Infinite"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:obeka-brute-chronologist#engines[1]",
+      "scenario": "temporary-to-permanent",
+      "expected_claim_to_verify": "Obeka can end the turn before the end-step sacrifice/exile resolves.",
+      "cards": [
+        "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+        "Flameshadow Conjuring",
+        "Delina, Wild Mage",
+        "Jaxis, the Troublemaker",
+        "Rionya, Fire Dancer",
+        "Saheeli, the Sun's Brilliance",
+        "Hate Mirage",
+        "Venser, Fervent Forger",
+        "Identity Thief",
+        "Come Back Wrong",
+        "Apprentice Necromancer",
+        "Feldon of the Third Path",
+        "Puppeteer Clique",
+        "Sneak Attack"
+      ],
+      "found_in_source_export": [
+        "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+        "Flameshadow Conjuring",
+        "Delina, Wild Mage",
+        "Jaxis, the Troublemaker",
+        "Rionya, Fire Dancer",
+        "Saheeli, the Sun's Brilliance",
+        "Hate Mirage",
+        "Venser, Fervent Forger",
+        "Identity Thief",
+        "Come Back Wrong",
+        "Apprentice Necromancer",
+        "Feldon of the Third Path",
+        "Puppeteer Clique",
+        "Sneak Attack"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:obeka-brute-chronologist#win_conditions[0]",
+      "scenario": "scepter-fortune",
+      "expected_claim_to_verify": "Isochron Scepter imprinting Final Fortune + Obeka or Sundial of the Infinite: infinite turns.",
+      "cards": [
+        "Isochron Scepter",
+        "Final Fortune",
+        "Obeka, Brute Chronologist",
+        "Sundial of the Infinite"
+      ],
+      "found_in_source_export": [
+        "Isochron Scepter",
+        "Final Fortune",
+        "Obeka, Brute Chronologist",
+        "Sundial of the Infinite"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:obeka-brute-chronologist#win_conditions[1]",
+      "scenario": "clone-loops",
+      "expected_claim_to_verify": "Kiki-Jiki + Delina, Wild Mage; Dualcaster Mage + Twinflame: infinite hasty tokens.",
+      "cards": [
+        "Kiki-Jiki, Mirror Breaker",
+        "Delina, Wild Mage",
+        "Dualcaster Mage",
+        "Twinflame"
+      ],
+      "found_in_source_export": [
+        "Kiki-Jiki, Mirror Breaker",
+        "Delina, Wild Mage",
+        "Dualcaster Mage",
+        "Twinflame"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:obeka-brute-chronologist#win_conditions[2]",
+      "scenario": "risky-turns",
+      "expected_claim_to_verify": "Free extra turns from Last Chance/Warrior's Oath/Glorious End/Alchemist's Gambit, with permanent tokens beating down.",
+      "cards": [
+        "Obeka, Brute Chronologist",
+        "Final Fortune",
+        "Last Chance",
+        "Warrior's Oath",
+        "Alchemist's Gambit",
+        "Glorious End",
+        "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+        "Flameshadow Conjuring",
+        "Delina, Wild Mage",
+        "Jaxis, the Troublemaker"
+      ],
+      "found_in_source_export": [
+        "Obeka, Brute Chronologist",
+        "Final Fortune",
+        "Last Chance",
+        "Warrior's Oath",
+        "Alchemist's Gambit",
+        "Glorious End",
+        "Fable of the Mirror-Breaker // Reflection of Kiki-Jiki",
+        "Flameshadow Conjuring",
+        "Delina, Wild Mage",
+        "Jaxis, the Troublemaker"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:obeka-brute-chronologist#failure_modes[0]",
+      "scenario": "obeka-removed-with-liability",
+      "expected_claim_to_verify": "Losing Obeka with a Final Fortune trigger pending loses the game.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Sundial redundancy; Protection before going for it",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:obeka-brute-chronologist#failure_modes[1]",
+      "scenario": "sequencing-errors",
+      "expected_claim_to_verify": "Ending the turn too early pushes the liability into an opponent's end step.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Explicit sequencing",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:obeka-brute-chronologist#failure_modes[2]",
+      "scenario": "summoning-sick",
+      "expected_claim_to_verify": "The tap ability needs haste the turn she comes down.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Greaves; Boots; Thousand-Year Elixir",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
