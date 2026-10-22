@@ -99,8 +99,14 @@ def check(doc=None):
     t = load(TRACK)
     for gate_id in ("M6.6", "M6.7"):
         gate = next(x for x in t["m6"]["gates"] if x["id"] == gate_id)
-        if gate["completed"] != 1 or gate["status"] != "PARTIAL":
-            raise ICompletedEvidenceError("Premature or missing mechanical/judgment gate")
+        scoped = gate.get("per_deck_completion", {}).get("Abaddon_the_Despoiler")
+        if (gate["status"] != "PARTIAL"
+            or gate["completed"] != len(gate.get("per_deck_completion", {}))
+            or gate["completed"] < 1
+            or not scoped
+            or scoped.get("status") != "COMPLETE_DECISION_SCOPED_ONLY"
+            or scoped.get("owner_m7_approved") is not False):
+            raise ICompletedEvidenceError("Missing Abaddon mechanical/judgment evidence or false owner promotion")
     if (t["m6"]["formal_m6_certified_decks"] != 0
         or t["m7"]["formal_m7_review_decisions"] != 0):
         raise ICompletedEvidenceError("A tested-pool certificate is not an owner approval")
