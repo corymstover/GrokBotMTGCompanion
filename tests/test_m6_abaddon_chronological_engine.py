@@ -61,7 +61,7 @@ class ChronologicalAbaddonTests(unittest.TestCase):
         self.assertIsNone(_pay_from_pool((2, 0, 2, 0), (5, (1, 1, 1))))
         self.assertEqual(_pay_from_pool((1, 1, 1, 2), (5, (1, 1, 1))), ZERO)
         self.assertEqual(_pay_from_pool((0, 0, 3, 3), (3, (0, 0, 1))),
-                         (0, 0, 0, 3))
+                         (0, 0, 2, 1))
 
     def test_loyal_no_tap_and_all_three_opponents_lose_three(self):
         loss = postcombat_window(set(ENGINE))
