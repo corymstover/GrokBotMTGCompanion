@@ -26,7 +26,8 @@
     "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
     "refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv (canonical repository)",
     "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511 / exact-head Actions 39697989020)",
-    "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512 / exact-head Actions 39698978884)"
+    "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512 / exact-head Actions 39698978884)",
+    "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json; data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514; CI 39700709249)"
   ],
   "candidates": [
     {
@@ -74,6 +75,12 @@
             "class": "test_result",
             "confidence": "moderate",
             "source": "PR #512; Actions 39698978884; 2,000 matched physical seeds per variant"
+          },
+          {
+            "id": "pr514-source-paid-sequenced-first-assault-activation",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "PR #514 / Actions 39700709249; 15 bounded tests, 2000 source-paid 10-turn samples per physical variant"
           }
         ]
       },
@@ -81,10 +88,10 @@
       "benefit": "Three-mana cast with one red pip; existing Neheb postcombat mana can repeatedly pay its five-mana extra-combat activation, and Loyal Subordinate creates no-attack life loss at beginning of additional combats if Abaddon remains.",
       "incumbent_cut_cost": "Cutting Rakdos removes a four-mana BBRR flying/trampling creature and same-turn opponent-loss-scaled generic mana reduction for up to 17 potential creature spell identities including commander and Neheb; cutting The Lost and the Damned removes a Commander-specific nonhand-cast 3/3 Spawn engine.",
       "unresolved": [
-        "Actual chronological source-paid sequence for casting commander, Neheb, Loyal and Assault, including mana spent on other permanents and five-mana Assault activations",
-        "Tutors, cascade, additional draws, rocks, rituals and real hand-to-board conversions omitted from paired land-only snapshots",
-        "Opponent interaction/removal and Rule of Law during actual commander-first sequence",
-        "Net win conversion and identity-role opportunity cost versus retained Rakdos or Lost-and-the-Damned"
+        "Full commander-first multi-spell tempo with real rocks/rituals/tutors and additional threshold generation not modeled",
+        "Opponents, interaction and stax resilience absent from closed deterministic chronological fixture",
+        "Rakdos cost-reduction package and The Lost-and-the-Damned nonhand-cast Spawn value are unscored",
+        "Any actual win-conversion difference or identity upgrade beyond the bounded paid-first-activation trace"
       ],
       "approved_swap": false,
       "access_observation": {
@@ -110,6 +117,35 @@
         "verdict": "EASIER_ASSAULT_CAST_SOURCE_AVAILABILITY_OBSERVED_BUT_COMBO_VALUE_AND_BEST_CUT_UNPROVEN",
         "gameplay_win_rate": null,
         "approved_swap": false
+      },
+      "chronological_observation": {
+        "test_class": "strict named-card precombat chronological land-only paid spells and Neheb-funded first activation, not full Magic game",
+        "n_per_variant": 2000,
+        "turn_horizon": 10,
+        "baseline": {
+          "abaddon_cast": 1478,
+          "loyal_cast": 304,
+          "neheb_cast": 207,
+          "rakdos_conditional_cast": 27
+        },
+        "assault_for_rakdos": {
+          "assault_cast": 333,
+          "all_four_battlefield": 1,
+          "first_activation_paid": 1
+        },
+        "assault_for_lost": {
+          "assault_cast": 347,
+          "all_four_battlefield": 4,
+          "first_activation_paid": 4
+        },
+        "omits": [
+          "early Boltwave/Flame Rift and other life-loss sources",
+          "Rakdos creature cost discounts and Lost-and-the-Damned tokens",
+          "rocks/rituals, card advantage, tutors, cascade and real opponents"
+        ],
+        "actual_win_rate": null,
+        "superiority_proven": false,
+        "canonical_swap_authorized": false
       }
     },
     {
@@ -232,5 +268,5 @@
     "Resolve meaningful paid and chronological full-deck sequencing limitations or make conservative transparent HOLD determination without false win rates",
     "Complete M6.6/7 and I/J evidence before final M6 packet, verify official card legality/current Oracle and exact 100-card list before owner M7 request"
   ],
-  "summary": "Abaddon evidence includes conditionally legal Neheb/Assault/Loyal combo (PR #504), Rakdos discount opportunity cost (PR #506), Ruinous Powers owner-loss/cascade rules (PR #511), and 2,000-seed paired physical/colored-land access proxies (PR #512). Assault is easier to pay for at the slot level; a four-piece engine's chronological assembly/advantage is not demonstrated. Same-model HOLD/retain judgments, not M6 completion, owner approval, or canonical changes."
+  "summary": "Added PR #514 preregistered 2,000-seed-per-variant chronological source-spent commander/Loyal/Neheb/Assault casting evidence with 15 passing adversarial tests: physical Assault cast 333 and 347/2000, first Neheb-funded Assault activation 1 and 4/2000 under restricted closed policies, NOT actual combo rates or wins. Rakdos benefits and alternate threshold enablers unmodeled, so both Assault challengers remain HOLD. Canonical deck unchanged, no formal M6/7 promotion."
 }
