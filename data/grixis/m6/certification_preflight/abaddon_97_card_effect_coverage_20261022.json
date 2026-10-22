@@ -29,7 +29,7 @@
   "expected_unique_names": 97,
   "expected_baseline_names": 94,
   "expected_baseline_cards": 100,
-  "stage": "104_REGISTERED_P0_METHODS_NINE_BLOODLETTER_SOLPHIM_REPLACEMENT_CASES_AWAITING_EXACT_HEAD_M6_6_PARTIAL",
+  "stage": "104_ACTUALLY_EXECUTED_NAMED_P0_METHODS_27_OF_97_DIRECT_ASSOCIATIONS_M6_6_PARTIAL",
   "coverage_semantics": {
     "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
     "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
@@ -1552,7 +1552,7 @@
     "Previous P0-028 88 methods did not directly cover Mind's Desire storm copies' distinct physical exile permissions. Seven conditional source-paid methods added; 74 names still Oracle/prior partial model only.",
     "P0-030 explicitly covers conditional source-paid Bloodletter/Solphim damage-versus-life-loss doubling; no opponent-prevention frequency or full-game performance inferred. Four additional source card names receive direct P0 association; no whole-card universal modeling."
   ],
-  "next_action": "Execute and verify 104 actual source P0 fixtures plus live 97-name Oracle audit; continue prioritized decision-changing residual name coverage with M6.6 partial and I/J blocked.",
+  "next_action": "104/104 known P0 executed in PR #564 Actions run 39816637079. Assess the remaining 70 97-name Oracle-only/prior-partial effects for actual commander-decision relevance, linked shared fixtures and P1 disposition before M6.6 sufficiency; M6 I/J remain BLOCKED.",
   "newly_registered_tested_P0": [
     {
       "card": "Wild-Magic Sorcerer",
@@ -1680,7 +1680,7 @@
       "id": "P0-030",
       "card": "Bloodletter of Aclazotz / Solphim, Mayhem Dominus",
       "gap": "Distinguish source-controlled noncombat damage doubling from opponent life-loss doubling, track Abaddon cumulative X, prevention, off-turn exceptions and paid follow-up hand cascade.",
-      "status": "REGISTERED_FOR_EXACT_HEAD_CI_NOT_COMPLETE",
+      "status": "EXECUTED_PASSED_NAMED_METHODS_IN_GITHUB_ACTIONS",
       "test_methods": 9,
       "plan": "data/grixis/m6/phase_b_plans/abaddon_p0_threshold_doublers_20261022.json",
       "case_ids": [
@@ -1693,7 +1693,19 @@
         "P0-030g",
         "P0-030h",
         "P0-030i"
-      ]
+      ],
+      "actions_run_id": 39816637079
     }
-  ]
+  ],
+  "latest_verified_execution": {
+    "run_id": 39816637079,
+    "pr": 564,
+    "head_sha": "029fdb9a8fdefe2ef81be09be6dc03cb54c59d30",
+    "registered_and_passed": 104,
+    "explicit_case_scope": "BOUNDED_CONDITIONAL_ONLY",
+    "p0_direct_names": 27,
+    "named_oracle_only_or_old_partial": 70,
+    "complete_all_99_effects": false,
+    "formal_m6_certified": false
+  }
 }
