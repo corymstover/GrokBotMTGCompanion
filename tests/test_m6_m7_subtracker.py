@@ -82,8 +82,8 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==2
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512}
+ assert len(t["m6"]["phase_b_additional_evidence"])==3
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
  assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
@@ -194,10 +194,21 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a=records
-  self.assertEqual((r["merged_pr"],a["merged_pr"]),(511,512))
+  r,a,chron=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"]),(511,512,514))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
+  self.assertEqual(chron["unit_tests"],15)
+  self.assertEqual(chron["samples_per_variant"],2000)
+  self.assertFalse(chron["full_multiplayer_gameplay"])
+  self.assertFalse(chron["superiority_proven"])
+  self.assertFalse(chron["net_deck_performance_comparison"])
+  self.assertTrue(chron["physical_tap_costs_paid"])
+  self.assertIsNone(chron["true_game_win_rate"])
+  self.assertEqual(chron["turn_10"]["assault_for_rakdos"]["first_activation_paid"],1)
+  self.assertEqual(chron["turn_10"]["assault_for_lost"]["first_activation_paid"],4)
+  self.assertTrue((ROOT/chron["evidence"]).is_file())
+  self.assertTrue((ROOT/chron["preregistration"]).is_file())
   self.assertEqual(a["samples_per_variant"],2000)
   self.assertTrue((ROOT/r["evidence"]).is_file())
   self.assertTrue((ROOT/a["evidence"]).is_file())
@@ -215,6 +226,9 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertFalse(ab["approved_swap"])
   self.assertEqual(ab["access_observation"]["verdict"],"EASIER_ASSAULT_CAST_SOURCE_AVAILABILITY_OBSERVED_BUT_COMBO_VALUE_AND_BEST_CUT_UNPROVEN")
   self.assertIsNone(ab["access_observation"]["gameplay_win_rate"])
+  self.assertEqual(ab["chronological_observation"]["n_per_variant"],2000)
+  self.assertFalse(ab["chronological_observation"]["superiority_proven"])
+  self.assertFalse(ab["chronological_observation"]["canonical_swap_authorized"])
   self.assertEqual(self.t["m6"]["gates"][5]["status"],"PARTIAL")
   self.assertEqual(self.t["m6"]["gates"][6]["status"],"PARTIAL")
  def test_no_canonical_reapproval_claim(self):
