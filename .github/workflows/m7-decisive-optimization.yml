@@ -18,6 +18,11 @@ on:
       - scripts/grixis_m7_abaddon_live_oracle.py
       - scripts/grixis_m6_abaddon_oracle_capture.py
       - tests/test_m6_abaddon_saved_oracle_snapshot.py
+      - tests/test_m6_abaddon_final_ij.py
+      - scripts/grixis_m6_abaddon_i_final_check.py
+      - data/grixis/m6/bundles/**
+      - data/grixis/m6/ij/certificates/**
+      - data/grixis/m6/rules_snapshots/**
       - data/grixis/m6/oracle_snapshots/**
       - tests/test_m7_abaddon_live_oracle.py
       - tests/test_m7_abaddon_decisive_cut_disposition.py
@@ -108,6 +113,12 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_lost_keeper_effect.py' -v
       - name: Verify fail-closed Oracle/source guards offline
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_live_oracle.py' -v
+      - name: Enforce semantic zero-improvement I PASS contract beyond permissive generic schema branches
+        run: python -m scripts.grixis_m6_abaddon_i_final_check --check
+      - name: Validate chosen-source Abaddon final M6 I and J evidence against strict schemas and SHA bindings
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_final_ij.py' -v
+      - name: Verify all committed complete J bundles without implying owner approval
+        run: python scripts/grixis_m6_bundle_check.py --check
       - name: Verify permanent 97-name Oracle archive and exact research candidate logical hash
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_saved_oracle_snapshot.py' -v
       - name: Fetch current Scryfall Oracle and Commander legality for five complete Abaddon lists
