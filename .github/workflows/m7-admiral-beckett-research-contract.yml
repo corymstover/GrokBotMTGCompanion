@@ -1,0 +1,25 @@
+name: M7 Admiral Beckett Brass research-only package contract
+
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-admiral-beckett-research-contract.yml
+      - data/grixis/m6/authority_snapshots/Admiral_Beckett_Brass_Canonical_Approved_20261022.txt
+      - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.txt
+      - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.json
+      - data/grixis/m7/research_challengers/Admiral_Beckett_Brass_*.md
+      - tests/test_m7_admiral_beckett_research_packages.py
+  workflow_dispatch:
+
+jobs:
+  source_bound_research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify 100-card alternatives, Oracle research, and fail-closed research status
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_research_packages.py' -v
