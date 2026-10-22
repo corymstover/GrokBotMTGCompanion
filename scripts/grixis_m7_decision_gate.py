@@ -89,8 +89,9 @@ def parse_list(path: Path, *, source_markdown=False):
         raise DecisionGateError("First main card must be Commander")
     if not 1<=len(marked_commanders)<=2:
         raise DecisionGateError("Only one or two commanders supported")
-    if any(q>1 and n not in BASIC_LANDS for n,q in Counter(cards).items()):
-        raise DecisionGateError("Nonbasic card duplicated or singleton not preserved")
+    unexpected_repeats={n:q for n,q in Counter(cards).items() if q>1 and n not in BASIC_LANDS}
+    if unexpected_repeats:
+        raise DecisionGateError(f"Nonbasic singleton violation in {path}: {unexpected_repeats}")
     return cards,marked_commanders,companions
 
 
