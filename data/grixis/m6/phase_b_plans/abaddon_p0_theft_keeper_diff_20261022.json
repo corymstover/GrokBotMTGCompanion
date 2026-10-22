@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "kind": "M6_6_ABADDON_P0_CASE_INVENTORY_AND_MATERIAL_UNMODELED_THEFT_EFFECT",
+  "date": "2026-10-22",
+  "approved_source_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "engine_head_at_preregistration": "39c9407425fb5d210f9a5a8ba884dc91dde1bfe6",
+  "stage": "PREREGISTERED_NOT_CERTIFIED",
+  "source_version": "Live Scryfall run 39741683804 passed all five full lists on Oct 22; official 40K source audit 2026-10-12 and corrected errata Oct 22",
+  "study_problem": "Owner's current preferred 100 cuts MV0 Inevitable Betrayal; competing keeper-cut 100 retains it. Bounded previous effect models don't resolve physically real cascade-to-Betrayal nor represent what PUT an opponent creature means for Keeper and Lost triggers. Build the minimum direct differential cases, not a full game.",
+  "known_physical_variants": [
+    {
+      "id": "preferred",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+      "keeper": true,
+      "betrayal": false,
+      "sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd"
+    },
+    {
+      "id": "alternative",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_keeper.txt",
+      "keeper": false,
+      "betrayal": true,
+      "sha256": "3ceddb947b0e7aff9cae489a0c60704214a2e580b97bfb1aaee5bb254c71fdaa"
+    }
+  ],
+  "registered_cases": [
+    {
+      "id": "p0_betrayal_source_paid_hit",
+      "expected": "Paid hand MV3 Grinning Ignus, X=9, actual MV0 Inevitable Betrayal from physically sourced library cast for free; no Abaddon-granted cascade on it; Lost makes one Spawn; one enemy creature put (not cast) under our control; no Keeper damage from a creature put"
+    },
+    {
+      "id": "p0_betrayal_no_creatures",
+      "expected": "Actual cast still makes one Spawn; opponent library has no creature, so search finds none and no creature enters"
+    },
+    {
+      "id": "p0_betrayal_countered",
+      "expected": "Actual cast triggers Lost before opponent counters; countered spell goes to owner's graveyard; opponent creature not moved"
+    },
+    {
+      "id": "p0_betrayal_drannith",
+      "expected": "Physical MV0 spell exiled via cascade but cannot be cast from exile under Drannith; no Lost spawn and no opponent search"
+    },
+    {
+      "id": "p0_betrayal_rule_of_law",
+      "expected": "Hand Ignus is prior cast; Rule of Law denies subsequent free cascade hit; no Spawn/creature theft"
+    },
+    {
+      "id": "p0_keeper_mv1_and_mv0",
+      "expected": "Keeping Keeper and Lost while hitting physical MV1 Sol Ring yields Spawn and targeted 1 damage; physical MV0 Lotus Petal yields Spawn but zero Keeper damage; neither makes opponent creature enter"
+    }
+  ],
+  "fixture_rules": "Use shared exact 99 named source fixture, Abaddon+Birgi+Loyal and X=9, source-paid Ignus at postcombat main, one physically rearranged cascade hit (not a probability observation); explicit hypothetical opponent 3-card library separate from own physical 99 with exactly one named Baleful Strix creature and two lands, or no creatures. Conditional opponent counter/hate is an adversarial event; no opponent win simulation.",
+  "payability": "Ignus from hand costs 2R; pay from named Island/Swamp/Mountain in existing source model; spell is MV3 and commander grants cascade iff X >=3. Cascade eligible hit must be strictly MV <3; Inevitable Betrayal is MV0 with no hand mana cost, free cast legal only from exile if target opponent is legal; Sol Ring is MV1; Lotus Petal MV0.",
+  "targeted_endpoints": [
+    "physical library/hand/battlefield/graveyard conservation for own 99",
+    "opponent library creature moves from library to battlefield under your control only on spell resolution, no second spell cast",
+    "nonhand-cast count and Spawn trigger =1 when allowed and cast, zero when blocked",
+    "Keeper triggered targeted damage = hit mana value when on battlefield, 0 for MV0, and never off a merely put creature",
+    "counter-after-cast preserves triggered Spawn but not theft"
+  ],
+  "limitations": [
+    "Cannot establish incidence/value of stealing opponent creature, or empirical strength of preferred package",
+    "Cannot infer Keeper in battlefield from its deck inclusion; field is preregistered conditional only",
+    "External opponent library is conditional explicit fixture, not invented as an actual user's card",
+    "No all-99-card effect model, no stochastic trial, no decision reversal or M6 certification"
+  ],
+  "choice_reversal_threshold": "A tested interaction demonstrating Betrayal creates an additional Keeper trigger via putting a creature or returns reliably multiple cast triggers would directly undermine the present cut argument; otherwise leave preferred package a justified qualitative judgment. Source access cannot adjudicate creature-rich metagame.",
+  "stop_rule": "Six deterministic bounded cases plus independent reproduction of previously recorded P0 modules selected in the case registry, 0 randomized runs; if missing test ref or source model wrong, fail exact-head CI and preserve unresolved.",
+  "cost_budget": {
+    "randomized": 0,
+    "new_registered_cases": 6
+  },
+  "authority": {
+    "canonical_unchanged": true,
+    "owner_approval": false,
+    "m6_certified": false,
+    "m6_6_status": "PARTIAL",
+    "m6_7_status": "PARTIAL",
+    "m6_8_status": "BLOCKED",
+    "m6_9_status": "BLOCKED",
+    "m6_10_status": "BLOCKED"
+  }
+}
