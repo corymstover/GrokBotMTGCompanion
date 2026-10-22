@@ -62,7 +62,7 @@ class AbaddonAuthoredDecisiveComparison(unittest.TestCase):
                          "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf")
         self.assertEqual(self.v3["canonical"]["approved_sha256"], digest(CANONICAL))
         self.assertEqual(self.v3["canonical"]["approval"], "APPROVED_LOCKED_UNCHANGED")
-        self.assertFalse(self.v3["no_canonical_changes"] is False)
+        self.assertTrue(self.v3["no_canonical_changes"])
         self.assertFalse(self.v3["owner_approved"])
         self.assertFalse(self.v3["m6_certified"])
         self.assertFalse(self.v3["gates"]["m7_final_owner_ready"])
@@ -110,7 +110,7 @@ class AbaddonAuthoredDecisiveComparison(unittest.TestCase):
         self.assertEqual(self.v2["current_preliminary_choice"], "engine_answer_keeper")
         self.assertEqual(self.v3["proposed"]["id"], "engine_answer_betrayal")
         self.assertEqual(self.v3["competing"]["id"], "engine_answer_keeper")
-        self.assertIn("zero-MV", self.v3["strongest_counterargument"])
+        self.assertIn("MV0", self.v3["strongest_counterargument"])
 
     def test_explicit_oracle_evidence_coverage_and_not_a_certification(self):
         src = self.v3["source_evidence"]
