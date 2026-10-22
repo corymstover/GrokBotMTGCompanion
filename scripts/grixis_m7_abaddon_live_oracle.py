@@ -134,7 +134,12 @@ def collected_cards(names, *, fetch=get_json, sleeper=time.sleep):
         if offset:
             sleeper(0.65)
         chunk = names[offset:offset + IDENTIFIER_BATCH_SIZE]
-        raw = fetch(SCRYFALL, {"identifiers": [{"name": n} for n in chunk]})
+        # Scryfall collection name identifier matches a DFC by the front
+        # face, even when its canonical .name contains both face names.
+        queries = [n.split(" // ", 1)[0] for n in chunk]
+        if len(set(queries)) != len(chunk):
+            raise OracleGateError("Ambiguous double-face lookup identity")
+        raw = fetch(SCRYFALL, {"identifiers": [{"name": n} for n in queries]})
         try:
             data = json.loads(raw)
         except (TypeError, ValueError) as exc:
