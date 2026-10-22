@@ -75,6 +75,14 @@
         0,
         1
       ]
+    },
+    "Nightscape Familiar": {
+      "mv": 2,
+      "pips": [
+        0,
+        1,
+        0
+      ]
     }
   },
   "registered_variants": [
@@ -135,7 +143,8 @@
     "After first Ignus cast, if Birgi front face and Ignus both resolved and a red is available in the same main-phase mana pool, perform at most five source-accounted bounce/recasts. Repeat only if cast legally and cost available. No assumption of cascade resolving into additional red, lost Spawn or win.",
     "At turn boundaries all floating mana clears, including Birgi's current-turn mana. Already-cast permanents remain, no commander removal/tax in pure access baseline; opponent interruption is analyzed separately as a conditional counterfactual.",
     "Opponent response cases: Rule of Law permits one spell per turn and blocks iterative hand recasts; removing commander after first Ignus cast does not remove existing cascade trigger but prevents grants on future casts; countering first Ignus does not erase previously triggered Birgi or Abaddon abilities; removing Birgi with its first trigger on stack leaves that trigger but prevents later Birgi mana.",
-    "Only count paired seeded physical accesses, named-source legal payments, and finite trigger *eligibility*, not real full games, win rates, or superiority."
+    "Only count paired seeded physical accesses, named-source legal payments, and finite trigger *eligibility*, not real full games, win rates, or superiority.",
+    "Corrective registered before first CI: Nightscape Familiar already exists as {1}{B} and may be paid/cast from hand; once controlled, each blue OR red spell receives only ONE generic-mana reduction, even when multicolored. Its removal in Ignus-for-Familiar variant is a material modeled incumbent cost. Source: official Dominaria Remastered release notes."
   ],
   "measurement_keys": [
     "commander_cast",
@@ -157,5 +166,6 @@
     "Partial named-spell gameplay might understate engine access while the no-removal assumption overstates survival; no net claim permitted.",
     "A single-player four-player-table assumption with no prevention, no interaction in drawn-line trajectories, no life tracking beyond opponents' spells and no win conversion.",
     "All outputs must retain M6.6/M6.7 PARTIAL, no I/J certificate, no M7 approved deck, no canonical modification."
-  ]
+  ],
+  "additional_source": "https://media.wizards.com/2023/downloads/DMR_Release_Notes/EN_MTGDMR_ReleaseNotes_20221129.pdf"
 }
