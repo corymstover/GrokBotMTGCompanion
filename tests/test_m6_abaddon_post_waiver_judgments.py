@@ -21,6 +21,22 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         cls.progress=json.loads(MILESTONE.read_text(encoding="utf-8"))
         cls.waiver=json.loads(WAIVER.read_text(encoding="utf-8"))
 
+    def test_latest_abaddon_neheb_adversarial_receipt_is_not_certification(self):
+        ledger=json.loads((ROOT/"data/grixis/m6/phase_b_plans/abaddon_certification_gap_20261022.json").read_text(encoding="utf-8"))
+        progress=ledger["last_verified_progress"]
+        self.assertEqual(progress["merged_pr"],536)
+        self.assertEqual(progress["result"],"SUCCESS")
+        self.assertEqual(progress["executed_neheb_assault_unit_tests"],12)
+        self.assertEqual(progress["new_adversarial_cases"],2)
+        self.assertEqual(len(progress["new_case_results"]),2)
+        self.assertTrue(all(case["outcome"]=="PASS" for case in progress["new_case_results"]))
+        self.assertEqual(progress["certified_decks_added"],0)
+        self.assertEqual(progress["canonical_decks_modified"],0)
+        self.assertEqual(ledger["status"],"OPEN_NOT_CERTIFIED")
+        self.assertEqual(ledger["last_confirmed_m6_gates"]["M6_6"],"PARTIAL")
+        self.assertEqual(ledger["last_confirmed_m6_gates"]["M6_7"],"PARTIAL")
+        self.assertEqual(progress["test_head_sha"],"a8bf1bdfd7de8ed57709b67863fe20ebfadc8197")
+
     def test_exact_locked_baseline_and_review_provenance(self):
         d=self.data
         self.assertEqual(d["deck_id"],"Abaddon_the_Despoiler")
