@@ -41,8 +41,11 @@ def paid_cast(s, card, mana, *, noncreature=False, instant_sorcery=False):
         s["source_payments"].append((land, produces, card))
     base.move(s, card, "library", "hand")
     base.move(s, card, "hand", "stack")
+    before = base.x(s)
     s["cast_total"] += 1
-    s["cast_log"].append((card, "hand", base.x(s)))
+    s["cast_log"].append((card, "hand", before))
+    if card == IGNUS and s["commander_controlled"] and s["own_turn"] and before >= 3:
+        s["cascade_triggers"] += 1  # Abaddon grants one cascade to this MV3 hand cast.
     # Triggers are created on CAST and resolve independently of that spell.
     if noncreature:
         for source in (KESSIG, VIVI):
@@ -105,6 +108,7 @@ class AbaddonResidualP1SourcePaid(unittest.TestCase):
                       noncreature=False, instant_sorcery=False)
         base.move(s, IGNUS, "stack", "battlefield")
         self.assertEqual(base.x(s), 3)
+        self.assertEqual(s["cascade_triggers"], 1)
         base.conserved(s)
 
     def test_vivi_one_noncreature_cast_increases_power_and_mana_once(self):
