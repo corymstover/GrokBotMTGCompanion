@@ -5,6 +5,7 @@ on:
       - chatgpt-m6-single-deck-review-standard
       - chatgpt-cycle76-m6-refinement
       - 'chatgpt-m6-deep-review-*'
+      - 'chatgpt-abaddon-m6-coverage-*'
     paths:
       - AGENTS.md
       - 'grixis/M6 Commander-First Single-Deck Review Standard.md'
@@ -44,7 +45,14 @@ jobs:
           assert t['authority']['historical_m6_4_authored_source_reviews']==62
           assert s['m6']['gates'][3]['status']=='COMPLETE' and s['m6']['gates'][3]['completed']==62
           assert s['m6']['formal_m6_certified_decks']==0
-          assert s['m6']['gates'][4]['completed']==0
+          pass_c=s['m6']['gates'][4]
+          assert pass_c['id']=='M6.5'
+          assert pass_c['status']=='COMPLETE' and pass_c['completed']==62
+          assert pass_c['completion_basis']=='OWNER_AUTHORIZED_NONINDEPENDENT_PASS_C_SUBSTITUTE'
+          assert pass_c['original_independent_requirement']['technically_completed']==0
+          assert pass_c['original_independent_requirement']['waived_by_owner'] is True
+          assert s['m6']['owner_equivalent_pass_c']['technically_independent'] is False
+          assert s['m6']['owner_equivalent_pass_c']['completed']==62
           assert not t['authority']['canonical_deck_changes_allowed']
-          print("Deep-review progress is separate from 62 prior M6.4 authored cases; NO formal Pass C certified.")
+          print("Deep reviews 62/62 and owner-waived GPT-6 Pass C 62/62 are distinct; independent critic 0/62 and M6 certified 0/62.")
           PY
