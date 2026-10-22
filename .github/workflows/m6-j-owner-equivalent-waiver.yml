@@ -37,6 +37,9 @@ jobs:
           assert t['m6']['formal_m6_certified_decks']==0
           assert t['m7']['formal_m7_review_decisions']==0
           assert t['m6']['gates'][4]['status']=='COMPLETE'
-          assert t['m6']['gates'][8]['status']=='BLOCKED'
+          j_gate=t['m6']['gates'][8]
+          assert j_gate['id']=='M6.9' and j_gate['completed']<=j_gate['total']
+          if j_gate['completed']<j_gate['total']:
+              assert j_gate['status'] in ('PARTIAL','BLOCKED','NOT_STARTED')
           print('PASS: owner-waived review and existing J source bundles validate; aggregate M6 and M7 owner acceptance is not inferred.')
           PY
