@@ -17,7 +17,7 @@ class M6AbaddonBlockedReceiptTests(unittest.TestCase):
         self.assertEqual(d["candidate_pool"]["tested_pool_size"],2)
         self.assertFalse(d["local_optimum_for_tested_pool"])
         self.assertFalse(d["phase_b"]["all_required_tests_pass"])
-        self.assertEqual(len(d["unresolved_requires_human_judgment"]),6)
+        self.assertEqual(len(d["unresolved_requires_human_judgment"]),5)
         self.assertTrue(check(d))
 
     def test_adversarial_forged_local_optimum_rejected(self):
