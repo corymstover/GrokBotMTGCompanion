@@ -83,10 +83,9 @@ def source_cast(lands,pool,name, *, rakdos_controlled=False,
     generic=total-sum(pips)
     discount=int(familiar_controlled and name in
           (ABADDON,BIRGI,IGNUS,RAKDOS,ASSAULT,"Boltwave","Flame Rift"))
-    if name==IGNUS and rakdos_controlled and opponent_loss>0:
+    if rakdos_controlled and opponent_loss>0 and name in
+        (ABADDON,BIRGI,FAMILIAR,IGNUS,RAKDOS):
         discount+=opponent_loss
-    if name==RAKDOS and rakdos_controlled and opponent_loss>0:
-        discount+=opponent_loss # in practice 0 generic; no self-cast benefit
     new_total=sum(pips)+max(0,generic-discount)
     return pay_and_tap(lands,pool,name,source_cost_override=(new_total,pips))
 
