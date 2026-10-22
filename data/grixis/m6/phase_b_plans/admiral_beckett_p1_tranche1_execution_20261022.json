@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Admiral_Beckett_Brass",
   "date": "2026-10-22",
-  "status": "LOCAL_PASS_EXACT_PR_HEAD_CI_PENDING",
+  "status": "FOUR_P1_BOUNDED_CASES_EXACT_HEAD_CI_PASS",
   "workstream": "Economical mandatory-P1 tranche after five completed P0s",
   "canonical_state": "APPROVED_LOCKED_UNCHANGED",
   "canonical_approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
@@ -35,25 +35,29 @@
       "id": "K04",
       "local_status": "PASS_BOUNDED_FIXTURE_CI_PENDING",
       "summary": "Changeling Outcast has all creature types, is unblocked in the staged combat, contributes one DISTINCT Pirate source to same-player tally; dying or prevented damage cannot qualify.",
-      "limits": "No probability that three bodies will survive and connect in real multiplayer games."
+      "limits": "No probability that three bodies will survive and connect in real multiplayer games.",
+      "exact_head_ci_status": "PASS_20261022_PR_586"
     },
     {
       "id": "K05",
       "local_status": "PASS_BOUNDED_FIXTURE_CI_PENDING",
       "summary": "Fiery Cannonade hits every non-Pirate including our Monkey and saves opposing Pirates; Raise the Palisade chooses a type and returns ALL nonmatching creatures to owners, including our non-Pirates and a stolen creature.",
-      "limits": "Staged lethal-damage SBAs do not model continuous effects, protection, stack replacement effects, commander-zone choice or every possible battlefield."
+      "limits": "Staged lethal-damage SBAs do not model continuous effects, protection, stack replacement effects, commander-zone choice or every possible battlefield.",
+      "exact_head_ci_status": "PASS_20261022_PR_586"
     },
     {
       "id": "W02",
       "local_status": "PASS_BOUNDED_FIXTURE_CI_PENDING",
       "summary": "Port Razer damage adds another combat and untaps controlled creatures; one Port Razer cannot attack the same player twice that turn, while other distinct Pirates can contribute across combats.",
-      "limits": "Bounded combat trace is not a demonstrated multiplayer victory or optimized Port Razer win rate; planeswalker/battle combat is outside this fixture."
+      "limits": "Bounded combat trace is not a demonstrated multiplayer victory or optimized Port Razer win rate; planeswalker/battle combat is outside this fixture.",
+      "exact_head_ci_status": "PASS_20261022_PR_586"
     },
     {
       "id": "F03",
       "local_status": "PASS_BOUNDED_FIXTURE_CI_PENDING",
       "summary": "Removal before end-step prevents Beckett's triggered theft; removal after an already queued trigger does not erase it; legal targets are retested; free/paid Fierce and Swat, Stormtamer sacrifice, Greaves shroud/equip timing and commander tax have adversarial checks.",
-      "limits": "Finite response eligibility, not complete MTG stack and priority; not evidence that every removal spell is stoppable."
+      "limits": "Finite response eligibility, not complete MTG stack and priority; not evidence that every removal spell is stoppable.",
+      "exact_head_ci_status": "PASS_20261022_PR_586"
     }
   ],
   "remaining_p1": [
@@ -85,6 +89,25 @@
     "No fresh all-100 Oracle/legality source validation for an M7 proposed replacement list",
     "No exact new owner approval and no canonical list update"
   ],
-  "next_action": "Obtain exact-head CI for this four-case P1 tranche, merge if green, seal CI receipt in follow-up ledger; then implement E01/E02/W01/F02 efficiently before comprehensive Admiral M7 review.",
-  "claims_not_made": ["No measured win rates", "No full game engine", "No M6 milestone acceptance", "No M7 owner approval", "No change to 62 canonical approved decklists"]
+  "next_action": "Implement the four still-unexecuted E01, E02, W01 and F02 P1 blueprint cases with factual, source-paid fixtures; then complete Admiral M6.6-6.9 I/J and comprehensive M7 research. No owner-ready deck yet.",
+  "claims_not_made": [
+    "No measured win rates",
+    "No full game engine",
+    "No M6 milestone acceptance",
+    "No M7 owner approval",
+    "No change to 62 canonical approved decklists"
+  ],
+  "ci_receipt": {
+    "pr_number": 586,
+    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/586",
+    "exact_pr_head": "fdc1699183cb98a7d390c8a6c1734660be0238e5",
+    "dedicated_p1_workflow_run_id": 39843684036,
+    "dedicated_p1_workflow_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39843684036",
+    "dedicated_p1_conclusion": "success",
+    "dedicated_p1_steps": "Five prior P0 and ten P1 unittest methods executed successfully on exact PR head",
+    "m7_contract_workflow_run_id": 39843683820,
+    "m7_contract_workflow_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39843683820",
+    "m7_contract_conclusion": "success",
+    "merged_commit": "618f2079459bf0a60f55d7637d2a41bc2c5198e8"
+  }
 }
