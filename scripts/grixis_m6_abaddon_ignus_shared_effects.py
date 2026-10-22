@@ -160,8 +160,13 @@ def effect_resolve(name,state,seed,plan):
     return extra
 
 
-def first_cascade(state,cards,seed,plan):
-    """One cascade trigger for a paid Ignus on stack, before it resolves."""
+def first_cascade(state,cards,seed,plan,*,rule_of_law=False,drannith=False):
+    """One cascade trigger for paid Ignus; optional external casting limits.
+
+    Rule of Law assumes Ignus already consumed the turn's one spell.
+    Drannith stops exile cast, not cascade triggering or physical exiling.
+    Defaults reproduce PR524 exact no-hate source-state simulation.
+    """
     d=state["deck"]
     before=Counter(d)
     exile=[]
@@ -174,7 +179,7 @@ def first_cascade(state,cards,seed,plan):
         if not is_land(cards[name]) and cards[name]["mv"]<3:
             hit=name
             break
-    legal=(legality_of_hit(hit) if hit else
+    legal=(legality_of_hit(hit,rule_of_law=rule_of_law,drannith=drannith) if hit else
            {"legal_to_cast":False,"chosen_cast":False,"reason":"empty"})
     supported=hit in SUPPORTED
     chosen=bool(supported and legal["chosen_cast"])
