@@ -24,12 +24,14 @@ PLAN=ROOT/"data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.j
 BIRGI="Birgi, God of Storytelling // Harnfel, Horn of Bounty"
 ABADDON="Abaddon the Despoiler"
 IGNUS="Grinning Ignus"
+FAMILIAR="Nightscape Familiar"
 RAKDOS="Rakdos, Lord of Riots"
 ASSAULT="Aggravated Assault"
 BURNS=("Boltwave","Flame Rift")
 MV_AND_COLORS={
     ABADDON:(5,(1,1,1)),
     BIRGI:(3,(0,0,1)),
+    FAMILIAR:(2,(0,1,0)),
     IGNUS:(3,(0,0,1)),
     RAKDOS:(4,(0,2,2)),
     ASSAULT:(3,(0,0,1)),
@@ -67,14 +69,26 @@ def variants():
     return plan,decks
 
 
-def source_cast(lands,pool,name, *, rakdos_controlled=False,opponent_loss=0):
-    """Source-paid legal MV and colored-pip amount; never infer cascade from cost paid."""
+def source_cast(lands,pool,name, *, rakdos_controlled=False,
+                familiar_controlled=False,opponent_loss=0):
+    """Mana source paid, proper printed MV preserved for separate cascade.
+
+    Nightscape reduces generic cost exactly once for any U and/or R spell,
+    never colored pips. Rakdos reduces generic on a creature if opponents
+    lost life that turn. Reduction is additive but never below colored cost.
+    """
     total,pips=MV_AND_COLORS[name]
     if name==RAKDOS and opponent_loss<=0:
         return None
+    generic=total-sum(pips)
+    discount=int(familiar_controlled and name in
+          (ABADDON,BIRGI,IGNUS,RAKDOS,ASSAULT,"Boltwave","Flame Rift"))
     if name==IGNUS and rakdos_controlled and opponent_loss>0:
-        total=max(pips[2],total-min(total-sum(pips),opponent_loss))
-    return pay_and_tap(lands,pool,name,source_cost_override=(total,pips))
+        discount+=opponent_loss
+    if name==RAKDOS and rakdos_controlled and opponent_loss>0:
+        discount+=opponent_loss # in practice 0 generic; no self-cast benefit
+    new_total=sum(pips)+max(0,generic-discount)
+    return pay_and_tap(lands,pool,name,source_cost_override=(new_total,pips))
 
 
 def cast_spells_one_main(*,deck,hand,lands,pool,battlefield,policy,turn,first_cast_turn):
@@ -91,9 +105,9 @@ def cast_spells_one_main(*,deck,hand,lands,pool,battlefield,policy,turn,first_ca
     extra_recasts=0
     threshold_source=0
     if policy=="engine_first":
-        sequence=[BIRGI,ABADDON,*BURNS,RAKDOS,IGNUS,ASSAULT]
+        sequence=[FAMILIAR,BIRGI,ABADDON,*BURNS,RAKDOS,IGNUS,ASSAULT]
     elif policy=="burn_first":
-        sequence=[*BURNS,BIRGI,ABADDON,RAKDOS,IGNUS,ASSAULT]
+        sequence=[*BURNS,FAMILIAR,BIRGI,ABADDON,RAKDOS,IGNUS,ASSAULT]
     else:
         raise ValueError("Unknown preregistered pilot policy")
     for name in sequence:
@@ -101,6 +115,7 @@ def cast_spells_one_main(*,deck,hand,lands,pool,battlefield,policy,turn,first_ca
             continue
         cancascade=ABADDON in battlefield and loss>=MV_AND_COLORS[name][0]
         newpool=source_cast(lands,pool,name,rakdos_controlled=(RAKDOS in battlefield),
+                            familiar_controlled=(FAMILIAR in battlefield),
                             opponent_loss=loss)
         if newpool is None:
             continue
@@ -156,10 +171,6 @@ def finite_recasts(lands,pool,battlefield,loss,*,limit=5):
             raise AssertionError("Ignoring physical zone of Ignus")
         # If red cannot be supplied, don't return Ignus to hand: it is safer
         # to leave it on battlefield and cannot claim a cast.
-        if source_cast(lands,pool,IGNUS,opponent_loss=0) is None:
-            # Important: do NOT use source_cast for bounce, it needs {R}, not
-            # Ignus's {2}{R} printed creature cost.
-            pass
         bounce=pay_and_tap(lands,pool,IGNUS,source_cost_override=(1,(0,0,1)))
         if bounce is None:
             break
@@ -172,14 +183,13 @@ def finite_recasts(lands,pool,battlefield,loss,*,limit=5):
         # before recording any further taps, and never creates mana.
         recast=source_cast(trial_lands,newpool,IGNUS,
                             rakdos_controlled=RAKDOS in battlefield,
+                            familiar_controlled=FAMILIAR in battlefield,
                             opponent_loss=loss)
         if recast is None:
-            # The bounce has actually happened and returned Ignus to hand,
-            # so don't report it as a successful recast. This path should be
-            # impossible when Birgi loop has full printed cost, but when
-            # other mana is scarce, leave the permanent absent.
-            battlefield.remove(IGNUS)
-            break
+            # Ignus always generates two colorless plus one red when bounced,
+            # covering its full {2}{R} recast even with zero reduction. A
+            # failed payment here means a bug in the closed source subset.
+            raise AssertionError("Ignus bounce generated insufficient recast mana")
         lands[:]=trial_lands
         pool=recast
         # The new hand-cast Ignus has cascade ONLY if Abaddon was already
@@ -203,9 +213,9 @@ def one_trial(lib,seed,policy,checkpoints):
     field=set()
     lands=[]
     results={}
-    previous=set()
     first_paid_loop_turn=None
     all_paid_casts=[]
+    initial_ignus_cascade_seen=False
     for turn in range(1,max(checkpoints)+1):
         lands=[(name,False) for name,_ in lands]
         # All floating mana, including Birgi, is cleared between TURNS.
@@ -216,6 +226,7 @@ def one_trial(lib,seed,policy,checkpoints):
                              battlefield=field,policy=policy,turn=turn,
                              first_cast_turn=None)
         all_paid_casts.extend(r["cast_names"])
+        initial_ignus_cascade_seen|=bool(r["ignus_initial_cascade_triggers"])
         if (r["five_recasts_same_main"] and
                 r["ignus_additional_cascade_triggers"]>=5 and
                 first_paid_loop_turn is None):
@@ -224,10 +235,10 @@ def one_trial(lib,seed,policy,checkpoints):
             results[turn]={
                 "abaddon_cast":ABADDON in field,
                 "birgi_cast":BIRGI in field,
+                "familiar_cast":FAMILIAR in field,
                 "rakdos_cast":RAKDOS in field,
                 "ignus_initial_paid_cast":IGNUS in all_paid_casts,
-                "ignus_ever_granted_initial_cascade":any(
-                    x==IGNUS for x in all_paid_casts) and first_paid_loop_turn is not None,
+                "ignus_ever_granted_initial_cascade":initial_ignus_cascade_seen,
                 "paid_5_repeat_ignus_cascades":first_paid_loop_turn is not None,
                 "assault_cast":ASSAULT in field,
                 "burn_spells_paid_resolved_count":sum(x in BURNS for x in all_paid_casts),
