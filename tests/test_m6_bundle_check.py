@@ -35,5 +35,16 @@ class TestM6FinalBundle(unittest.TestCase):
         }, "m6_reproducibility_bundle.schema.json"))
 
 
+    def test_preserved_admiral_explicit_nonindependent_pass_c_provenance(self):
+        bundle = json.loads((ROOT / "data/grixis/m6/bundles/admiral-beckett-brass.json").read_text(encoding="utf-8"))
+        self.assertTrue(bc.validate_pass_c(bundle["pass_c"], "Admiral_Beckett_Brass"))
+
+    def test_fake_admiral_third_model_independence_is_still_rejected(self):
+        bundle = json.loads((ROOT / "data/grixis/m6/bundles/admiral-beckett-brass.json").read_text(encoding="utf-8"))
+        fraudulent = dict(bundle["pass_c"], technically_independent=True)
+        with self.assertRaises(ValueError):
+            bc.validate_pass_c(fraudulent, "Admiral_Beckett_Brass")
+
+
 if __name__ == "__main__":
     unittest.main()

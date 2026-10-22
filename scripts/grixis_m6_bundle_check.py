@@ -113,8 +113,14 @@ def validate_pass_c(judgment, deck_id):
         if content_hash(seal["stage_a_" + ext + "_path"]) != "sha256:" + seal["stage_a_" + ext + "_sha256"]:
             raise ValueError("Stage A source diverged from separately sealed byte commitment")
     final = safe_repo_file(judgment["judgment_receipt_path"]).read_text(encoding="utf-8")
+    # Historical owner-equivalent reviews used two explicit negative-independence labels.
+    # Accept the actual preserved wordings, never an absent or implied disclosure.
+    disclosed_nonindependence = (
+        "Technically independent third model" in final
+        or "**actual technical independence:** false" in final
+    )
     if ("ChatGPT/OpenAI GPT-6" not in final
-        or "Technically independent third model" not in final
+        or not disclosed_nonindependence
         or row["final_disposition"] not in final):
         raise ValueError("Owner-equivalent final review missing provenance/disposition")
     return True
