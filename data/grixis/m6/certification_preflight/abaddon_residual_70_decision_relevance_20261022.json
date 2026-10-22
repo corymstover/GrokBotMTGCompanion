@@ -1,0 +1,477 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_70_RESIDUAL_SOURCE_NAME_DECISION_RELEVANCE_AND_P1_REGISTER",
+  "date": "2026-10-22",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical_approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_raw_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "source_coverage_path": "data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json",
+  "prior_exact_head_p0_methods_passed": 104,
+  "prior_direct_p0_names": 27,
+  "residual_named_cards": 70,
+  "semantics": "Residual means no DIRECT named P0-case attachment. It does not mean untested effect or automatically demand 70 individual simulations. Classification is decision-relevance triage, not Oracle or M6 certification.",
+  "new_p1_preregistered": {
+    "path": "tests/test_m6_abaddon_residual_p1.py",
+    "planned_methods": [
+      "test_flame_rift_source_paid_hits_caster_not_threshold",
+      "test_flame_rift_solphim_bloodletter_only_on_opponents",
+      "test_kessig_casts_artifact_even_if_countered",
+      "test_exalted_only_cast_instant_or_sorcery_not_ignus",
+      "test_vivi_one_noncreature_cast_increases_power_and_mana_once",
+      "test_three_cast_pingers_produce_nine_opponent_loss",
+      "test_noise_marine_printed_cascade_even_at_x_zero_single_target"
+    ],
+    "source_full_100": true,
+    "same_payable_physical_cards": true,
+    "randomized_trials": 0,
+    "execution_status": "PENDING_EXACT_HEAD_GITHUB_CI",
+    "oracle_sources": [
+      "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19",
+      "https://media.wizards.com/2025/downloads/FIN_Release_Notes_3O87RLY5EO/EN_FIN_Release_Notes_2025_1_15.pdf",
+      "https://scryfall.com/card/vow/164/kessig-flamebreather",
+      "https://scryfall.com/card/40k/119/exalted-flamer-of-tzeentch",
+      "https://scryfall.com/card/40k/82/noise-marine",
+      "https://scryfall.com/search?q=%21%22Flame+Rift%22"
+    ]
+  },
+  "explicit_still_open": [
+    "Verify Delayed Blast Fireball exile-cast damage and its effect on Abaddon X in a finite physical fixture or point to source-paid equivalent.",
+    "Reconcile Jeska's Will conditional mana/impulse and Nightscape Familiar reductions against actual Ignus/cascade payable costs, without pretending each needs thousand-game simulation.",
+    "Review whether any other residual card materially changes the exact Rakdos/Betrayal cut judgment after the above, and declare M6.6 sufficiency only with evidence.",
+    "M6 I tested-pool zero-improvement and J complete reproducibility remain distinct gates. No owner approval, no formal M6 certification."
+  ],
+  "disposition_counts": {
+    "REUSE_EXISTING_EVIDENCE_AND_AUTHORED_JUDGMENT": 3,
+    "P1_DEFER_SHARED_CARD_ACCESS": 13,
+    "P1_DEFER_NO_UNIQUE_CASE": 28,
+    "P1_DEFER_SHARED_MANA": 9,
+    "P1_DEFER_SHARED_STACK_FIXTURES": 9,
+    "P1_RELEVANT_EXACT_FIXTURE_OPEN": 1,
+    "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI": 5,
+    "P1_RELEVANT_PAYABLE_COST_AUDIT_OPEN": 2
+  },
+  "rows": [
+    {
+      "name": "Aggravated Assault",
+      "importance": "MEDIUM",
+      "disposition": "REUSE_EXISTING_EVIDENCE_AND_AUTHORED_JUDGMENT",
+      "reason": "Existing paid Neheb/Loyal extra-combat/disruption P0 evidence and the whole-deck Assault challenger comparison; not a new action from this source-name count."
+    },
+    {
+      "name": "Ancestral Vision",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Ancient Tomb",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Arcane Signet",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Badlands",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Blasphemous Act",
+      "importance": "MEDIUM",
+      "disposition": "REUSE_EXISTING_EVIDENCE_AND_AUTHORED_JUDGMENT",
+      "reason": "Creature-board wipe affects own protected engine and opponents' board. Opponent creature distribution remains a contextual P1 scenario, not a valid fabricated full game result."
+    },
+    {
+      "name": "Blood Crypt",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Bloodstained Mire",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Brainstorm",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Cabal Ritual",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Chrome Mox",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "City of Brass",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Command Tower",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Dark Ritual",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Deadly Rollick",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Deflecting Swat",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Delayed Blast Fireball",
+      "importance": "HIGH",
+      "disposition": "P1_RELEVANT_EXACT_FIXTURE_OPEN",
+      "reason": "Its different damage when cast from exile and foretell permission are decision-relevant: require dedicated source-paid exile-cast fixture or existing exact equivalent before M6.6 closure."
+    },
+    {
+      "name": "Demonic Tutor",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Exalted Flamer of Tzeentch",
+      "importance": "HIGH",
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+    },
+    {
+      "name": "Exotic Orchard",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Fierce Guardianship",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Flame Rift",
+      "importance": "HIGH",
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+    },
+    {
+      "name": "Flooded Strand",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Flusterstorm",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Force of Negation",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Force of Will",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Gamble",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Imperial Seal",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Island",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Jeska's Will",
+      "importance": "HIGH",
+      "disposition": "P1_RELEVANT_PAYABLE_COST_AUDIT_OPEN",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Kessig Flamebreather",
+      "importance": "HIGH",
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+    },
+    {
+      "name": "Luxury Suite",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Mana Confluence",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Mana Vault",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Marsh Flats",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Misty Rainforest",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Morphic Pool",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Mountain",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Mystic Remora",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Mystical Tutor",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Nightscape Familiar",
+      "importance": "HIGH",
+      "disposition": "P1_RELEVANT_PAYABLE_COST_AUDIT_OPEN",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Noise Marine",
+      "importance": "HIGH",
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+    },
+    {
+      "name": "Otawara, Soaring City",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Pact of Negation",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Polluted Delta",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Ponder",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Profane Tutor",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Pyroblast",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Rakdos, Lord of Riots",
+      "importance": "MEDIUM",
+      "disposition": "REUSE_EXISTING_EVIDENCE_AND_AUTHORED_JUDGMENT",
+      "reason": "Actual selected cut. Comparative opportunity cost is creature-spell discount after life loss; earlier tests and M7 authored judgment cover role, but this P1 audit does not pretend full game-model coverage."
+    },
+    {
+      "name": "Rhystic Study",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Rite of Flame",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Scalding Tarn",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Steam Vents",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Swamp",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Swan Song",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_STACK_FIXTURES",
+      "reason": "Defensive cast/priority/response role; existing counter, removal, illegal target and paid interrupt cases exercise relevant timing boundaries, not this individual card's full alternate-cost options. No presently identified swap whose verdict hinges on this particular text."
+    },
+    {
+      "name": "Takenuma, Abandoned Mire",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Talisman of Creativity",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Talisman of Dominance",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_MANA",
+      "reason": "Mana/access contribution is retained in all live source 100s; correct payable colors and source conservation matter. Targeted exact source-paid fixture needed only where the card's conditional/additional rule changes the recommended cut or Ignus line."
+    },
+    {
+      "name": "Training Center",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Underground Sea",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Urborg, Tomb of Yawgmoth",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Vampiric Tutor",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Verdant Catacombs",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Vivi Ornitier",
+      "importance": "HIGH",
+      "disposition": "P1_PLANNED_EXECUTION_PENDING_EXACT_HEAD_CI",
+      "reason": "Source-paid bounded threshold/cast-event/cascade interaction has an explicit physical fixture; do not mark passed until CI."
+    },
+    {
+      "name": "Volcanic Island",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Watery Grave",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    },
+    {
+      "name": "Wheel of Fortune",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Windfall",
+      "importance": "MEDIUM",
+      "disposition": "P1_DEFER_SHARED_CARD_ACCESS",
+      "reason": "Retained card-search/draw/top-of-library class with no candidate-specific new interaction asserted; source paid access and physical library conservation are tracked for representative cases, not independently for every tutor."
+    },
+    {
+      "name": "Xander's Lounge",
+      "importance": "LOW",
+      "disposition": "P1_DEFER_NO_UNIQUE_CASE",
+      "reason": "Mana/fetch/color access assessed structurally in the approved 34-land source; no unique commander life-loss/cast-trigger mechanic requiring a bespoke P0 assertion. Access distribution is not claimed experimentally proven."
+    }
+  ],
+  "certification_status": "M6_6_PARTIAL_M6_7_PARTIAL_NO_M6_I_J",
+  "canonical_modified": false
+}
