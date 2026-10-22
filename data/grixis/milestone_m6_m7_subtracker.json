@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-22_abaddon_m6_i_j_exact_complete_owner_handoff_pending",
+  "snapshot": "2026-10-22_admiral_second_source_bound_m6_6_through_9_complete_m7_owner_decision_pending",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
@@ -133,7 +133,7 @@
         "id": "M6.6",
         "title": "Effect-aware Phase B paired tests, stress and red-team coverage",
         "status": "PARTIAL",
-        "completed": 1,
+        "completed": 2,
         "total": 62,
         "evidence": [
           "data/grixis/m6/phase_b_bounded/cycle118_paired_goldfish_interpretation_01.md",
@@ -159,13 +159,27 @@
           "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528; exact-head Actions 39715733050 + 39715732876 both PASS; 15 targeted mana ability/physical stack tests plus 20 predecessor effect tests and 8 conditional hate/removal windows)",
           "data/grixis/m6/phase_b_plans/abaddon_other_hand_cascades_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_other_hand_cascades_20261022.md (PR #530, three exact-head CI successes including Actions 39717296188; 16 new other-hand printed-MV/zero-MV tests and 20+15 predecessor shared-effect/priority tests, 10000 physically conserved limited paired trajectories)",
           "data/grixis/m6/phase_b_plans/abaddon_factorial_hand_ramp_cascades_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_factorial_ramp_cascades_20261022.md (merged PR #532, exact-head CI Actions 39718634613 and 39718634521 success, 46 adversarial/predecessor tests, 20000 four-arm physically conserved source-paid trajectories)",
-          "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md (Abaddon only, 104/104 actual named P0 + 14/14 residual P1 cases and 70 individually triaged residual source names; PR #566 exact-head Actions 39819134570 PASS, PR #567 exact-head Actions 39819765932 PASS; candidate reasoning bounded and non-owner-approved)"
+          "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md (Abaddon only, 104/104 actual named P0 + 14/14 residual P1 cases and 70 individually triaged residual source names; PR #566 exact-head Actions 39819134570 PASS, PR #567 exact-head Actions 39819765932 PASS; candidate reasoning bounded and non-owner-approved)",
+          "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md (Admiral decision-scoped M6.6 COMPLETE; PR #599 exact-head Actions 39859693010 SUCCESS; 5 P0 + 8 P1 original cases and bounded candidate D-specific tests; not gameplay win rates)"
         ],
-        "scope": "M6.6 PARTIAL. PR #532 combined physically paid six hand accelerants and Abaddon-granted cascades of BOTH those hand spells and named core hand spells in one truly shared 99-card deck/hand/land-tap/U-B-R-C-pool/graveyard. Actual source-paid Lotus Petal MV0 has mandatory full-remaining-library cascade with no eligible hit and physically changes later card order. Predecessor none, hand-only, core-other-only each delegates unchanged to their earlier exact source model; fourth BOTH resolves each card, Birgi triggers and 12-supported hit subset. Five physical variants x two core orders x four modes x 500 seeds = 20000 restricted 10-turn trajectories; 15 new + 15 hand-only + 16 core-other rule tests passed, two exact-head CI workflows success. Engine-first BOTH T10 per500 -Rakdos:77 paid Ignus,2 any Ignus cascade,19 any other hand cascade,19 any MV0 cascade,1 any supported effect; -Familiar 85/2/20/19/0; -Rite 70/4/20/19/2; approved 0/0/20/19/0; Assault/-Rakdos 0/0/19/19/0. This demonstrates actual zero-MV library churn but not full 99 effects, optimized pilot, opponent interaction or a win rate. M6.6 still partial 0/62. [2026-10-22 later scope-limited adjudication supersession: Abaddon is now 1/62 complete for this subordinate gate on source-paid bounded decision-relevant evidence; aggregate remains PARTIAL, with 61 commanders unfinished. Original 0/62 paragraph is an earlier checkpoint.]",
+        "scope": "M6.6 PARTIAL. PR #532 combined physically paid six hand accelerants and Abaddon-granted cascades of BOTH those hand spells and named core hand spells in one truly shared 99-card deck/hand/land-tap/U-B-R-C-pool/graveyard. Actual source-paid Lotus Petal MV0 has mandatory full-remaining-library cascade with no eligible hit and physically changes later card order. Predecessor none, hand-only, core-other-only each delegates unchanged to their earlier exact source model; fourth BOTH resolves each card, Birgi triggers and 12-supported hit subset. Five physical variants x two core orders x four modes x 500 seeds = 20000 restricted 10-turn trajectories; 15 new + 15 hand-only + 16 core-other rule tests passed, two exact-head CI workflows success. Engine-first BOTH T10 per500 -Rakdos:77 paid Ignus,2 any Ignus cascade,19 any other hand cascade,19 any MV0 cascade,1 any supported effect; -Familiar 85/2/20/19/0; -Rite 70/4/20/19/2; approved 0/0/20/19/0; Assault/-Rakdos 0/0/19/19/0. This demonstrates actual zero-MV library churn but not full 99 effects, optimized pilot, opponent interaction or a win rate. M6.6 still partial 0/62. [2026-10-22 later scope-limited adjudication supersession: Abaddon is now 1/62 complete for this subordinate gate on source-paid bounded decision-relevant evidence; aggregate remains PARTIAL, with 61 commanders unfinished. Original 0/62 paragraph is an earlier checkpoint.] [2026-10-22 Admiral supersession: decision-scoped gate 2/62; source-bound complete for Admiral, but aggregate PARTIAL, no owner certification.]",
         "per_deck_completion": {
           "Abaddon_the_Despoiler": {
             "status": "COMPLETE_DECISION_SCOPED_ONLY",
             "source": "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
+            "owner_m7_approved": false,
+            "full_multiplayer_win_rate_proven": false,
+            "technical_pass_c_independent": false
+          },
+          "Admiral_Beckett_Brass": {
+            "status": "COMPLETE_DECISION_SCOPED_ONLY",
+            "source": "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md",
+            "original_blueprint_cases_executed": {
+              "p0": 5,
+              "p1": 8
+            },
+            "candidate_d_adverse_and_changed_effect_cases_executed": 14,
+            "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39859693010",
             "owner_m7_approved": false,
             "full_multiplayer_win_rate_proven": false,
             "technical_pass_c_independent": false
@@ -176,7 +190,7 @@
         "id": "M6.7",
         "title": "Decision-grade judgment_review and conflicts resolved",
         "status": "PARTIAL",
-        "completed": 1,
+        "completed": 2,
         "total": 62,
         "evidence": [
           "data/grixis/m6/preflight.json",
@@ -195,13 +209,27 @@
           "data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528, official Wizards TSR Grinning Ignus release notes; eight source-paid physical disruption fixtures, no response to mana ability)",
           "data/grixis/m6/phase_b_bounded/abaddon_other_hand_cascades_20261022.md (PR #530, exact-head CI, 16 new adversarial rules tests; other qualifying hand-spell cascade effects source-verified but intentionally rare in restricted pilot)",
           "data/grixis/m6/phase_b_bounded/abaddon_factorial_ramp_cascades_20261022.md (PR #532; source-paid joint mana and other-hand cascade test corrects independent snapshots, still not candidate superiority)",
-          "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md (Abaddon only, 104/104 actual named P0 + 14/14 residual P1 cases and 70 individually triaged residual source names; PR #566 exact-head Actions 39819134570 PASS, PR #567 exact-head Actions 39819765932 PASS; candidate reasoning bounded and non-owner-approved)"
+          "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md (Abaddon only, 104/104 actual named P0 + 14/14 residual P1 cases and 70 individually triaged residual source names; PR #566 exact-head Actions 39819134570 PASS, PR #567 exact-head Actions 39819765932 PASS; candidate reasoning bounded and non-owner-approved)",
+          "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md (Admiral decision-scoped M6.7 COMPLETE; PR #599 exact-head Actions 39859693001 SUCCESS; 5 P0 + 8 P1 original cases and bounded candidate D-specific tests; not gameplay win rates)"
         ],
-        "scope": "M6.7 PARTIAL. Abaddon Assault HOLD, Chaos Warp HOLD, The Ruinous Powers RETAIN, Grinning Ignus PRIORITY/HOLD remain unchanged. PR #532 physically joins hand-ramp and Abaddon-granted other hand-cast cascades, including in-trajectory source-paid Lotus Petal MV0 whole-library exile/no free hit and additional Birgi red triggers. Fixed source-paid model engine-first T10 Ignus / -Rakdos 2/500 cascade-incident seeds and 1/500 supported effect; -Familiar 2/500 and 0; -Rite 4/500 and 2. The 19/500 or 20/500 other-hand cascade seeds arise mostly from zero-MV Lotus Petal library churn, not free value or wins. Does not model full opponent table, optimized sequencing, other 99-card package or lost incumbent roles, so cannot approve any card cut or certify deck. [2026-10-22 later scope-limited adjudication supersession: Abaddon is now 1/62 complete for this subordinate gate on source-paid bounded decision-relevant evidence; aggregate remains PARTIAL, with 61 commanders unfinished. Original 0/62 paragraph is an earlier checkpoint.]",
+        "scope": "M6.7 PARTIAL. Abaddon Assault HOLD, Chaos Warp HOLD, The Ruinous Powers RETAIN, Grinning Ignus PRIORITY/HOLD remain unchanged. PR #532 physically joins hand-ramp and Abaddon-granted other hand-cast cascades, including in-trajectory source-paid Lotus Petal MV0 whole-library exile/no free hit and additional Birgi red triggers. Fixed source-paid model engine-first T10 Ignus / -Rakdos 2/500 cascade-incident seeds and 1/500 supported effect; -Familiar 2/500 and 0; -Rite 4/500 and 2. The 19/500 or 20/500 other-hand cascade seeds arise mostly from zero-MV Lotus Petal library churn, not free value or wins. Does not model full opponent table, optimized sequencing, other 99-card package or lost incumbent roles, so cannot approve any card cut or certify deck. [2026-10-22 later scope-limited adjudication supersession: Abaddon is now 1/62 complete for this subordinate gate on source-paid bounded decision-relevant evidence; aggregate remains PARTIAL, with 61 commanders unfinished. Original 0/62 paragraph is an earlier checkpoint.] [2026-10-22 Admiral supersession: decision-scoped gate 2/62; source-bound complete for Admiral, but aggregate PARTIAL, no owner certification.]",
         "per_deck_completion": {
           "Abaddon_the_Despoiler": {
             "status": "COMPLETE_DECISION_SCOPED_ONLY",
             "source": "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
+            "owner_m7_approved": false,
+            "full_multiplayer_win_rate_proven": false,
+            "technical_pass_c_independent": false
+          },
+          "Admiral_Beckett_Brass": {
+            "status": "COMPLETE_DECISION_SCOPED_ONLY",
+            "source": "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md",
+            "original_blueprint_cases_executed": {
+              "p0": 5,
+              "p1": 8
+            },
+            "candidate_d_adverse_and_changed_effect_cases_executed": 14,
+            "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39859693001",
             "owner_m7_approved": false,
             "full_multiplayer_win_rate_proven": false,
             "technical_pass_c_independent": false
@@ -212,14 +240,15 @@
         "id": "M6.8",
         "title": "I: tested-pool local zero-improvement certificates",
         "status": "PARTIAL",
-        "completed": 1,
+        "completed": 2,
         "total": 62,
         "evidence": [
           "grixis/Grixis M6 I-J Contract.md",
           "data/grixis/schemas/zero_improvement_certificate.schema.json",
-          "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json (selected candidate scope; strict exact-head CI run https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 SUCCESS; PR #573 merged as b493300c8a94fcb7ad45242fa464cda530a94dbc; 97-name committed Oracle text, 104+14 limited mechanics, no owner approval)"
+          "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json (selected candidate scope; strict exact-head CI run https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 SUCCESS; PR #573 merged as b493300c8a94fcb7ad45242fa464cda530a94dbc; 97-name committed Oracle text, 104+14 limited mechanics, no owner approval)",
+          "data/grixis/m6/ij/certificates/admiral-beckett-brass.json (Admiral exact candidate D; PR #600, strict exact-head Actions 39860525716 SUCCESS; bounded source-bound tested-pool five physical decks, local-best only, no M6.10 acceptance)"
         ],
-        "scope": "No valid tested-pool local-optimum certificate can issue before decision-grade judgments and required Phase B; M6.5's original independent-critic requirement is formally owner-waived, without reducing I/J obligations. [2026-10-22 supersession: Abaddon selected research result exact-source certificate verified, 1/62 completed for this subordinate gate. Global gate PARTIAL, M6.10 owner acceptance and formal certification still blocked.]",
+        "scope": "No valid tested-pool local-optimum certificate can issue before decision-grade judgments and required Phase B; M6.5's original independent-critic requirement is formally owner-waived, without reducing I/J obligations. [2026-10-22 supersession: Abaddon selected research result exact-source certificate verified, 1/62 completed for this subordinate gate. Global gate PARTIAL, M6.10 owner acceptance and formal certification still blocked.] [2026-10-22 Admiral supersession: source-bound five-configuration local I PASS; 2/62 complete, aggregate PARTIAL, 0/62 formal M6.10 owner certifications.]",
         "per_deck_completion": {
           "Abaddon_the_Despoiler": {
             "status": "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED",
@@ -230,6 +259,18 @@
             "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094",
             "owner_accepted": false,
             "canonical_modified": false
+          },
+          "Admiral_Beckett_Brass": {
+            "status": "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED",
+            "source": "data/grixis/m6/ij/certificates/admiral-beckett-brass.json",
+            "oracle_snapshot": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+            "selected_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+            "selected_logical_hash": "lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58",
+            "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39860525716",
+            "owner_accepted": false,
+            "canonical_modified": false,
+            "tested_pool_local_only": true,
+            "full_multiplayer_gameplay": false
           }
         }
       },
@@ -237,14 +278,15 @@
         "id": "M6.9",
         "title": "J: final reproducibility and evidence bundles",
         "status": "PARTIAL",
-        "completed": 1,
+        "completed": 2,
         "total": 62,
         "evidence": [
           "grixis/Grixis M6 I-J Contract.md",
           "data/grixis/schemas/m6_reproducibility_bundle.schema.json",
-          "data/grixis/m6/bundles/abaddon-the-despoiler.json (selected candidate scope; strict exact-head CI run https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 SUCCESS; PR #573 merged as b493300c8a94fcb7ad45242fa464cda530a94dbc; 97-name committed Oracle text, 104+14 limited mechanics, no owner approval)"
+          "data/grixis/m6/bundles/abaddon-the-despoiler.json (selected candidate scope; strict exact-head CI run https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 SUCCESS; PR #573 merged as b493300c8a94fcb7ad45242fa464cda530a94dbc; 97-name committed Oracle text, 104+14 limited mechanics, no owner approval)",
+          "data/grixis/m6/bundles/admiral-beckett-brass.json (Admiral exact candidate D; PR #601, strict exact-head Actions 39862032718 SUCCESS; bounded source-bound reproducibility bundle with non-independent reviewer waiver, no M6.10 acceptance)"
         ],
-        "scope": "62 preliminary I/J input receipts exist, but 0 final complete reproducibility bundles are certified. [2026-10-22 supersession: Abaddon selected research result exact-source certificate verified, 1/62 completed for this subordinate gate. Global gate PARTIAL, M6.10 owner acceptance and formal certification still blocked.]",
+        "scope": "62 preliminary I/J input receipts exist, but 0 final complete reproducibility bundles are certified. [2026-10-22 supersession: Abaddon selected research result exact-source certificate verified, 1/62 completed for this subordinate gate. Global gate PARTIAL, M6.10 owner acceptance and formal certification still blocked.] [2026-10-22 Admiral supersession: second actual validated complete source-bound J bundle; 2/62 complete, aggregate PARTIAL, 0/62 formal M6.10 owner certifications.]",
         "per_deck_completion": {
           "Abaddon_the_Despoiler": {
             "status": "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED",
@@ -255,6 +297,18 @@
             "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094",
             "owner_accepted": false,
             "canonical_modified": false
+          },
+          "Admiral_Beckett_Brass": {
+            "status": "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED",
+            "source": "data/grixis/m6/bundles/admiral-beckett-brass.json",
+            "oracle_snapshot": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+            "selected_raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+            "selected_logical_hash": "lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58",
+            "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39862032718",
+            "owner_accepted": false,
+            "canonical_modified": false,
+            "tested_pool_local_only": false,
+            "full_multiplayer_gameplay": false
           }
         }
       },
@@ -839,6 +893,37 @@
         "measured_win_rate": null,
         "canonical_changed": false,
         "full_multiplayer_gameplay": false
+      },
+      {
+        "deck_id": "Admiral_Beckett_Brass",
+        "kind": "SOURCE_BOUND_EXECUTED_FINITE_P0_P1_AND_FOUR_EXACT_100_CARD_EFFECT_AWARE_COMPARISON",
+        "topic": "pirate_density_candidate_D_five_real_swaps_vs_baseline_ABC_options",
+        "merged_prs": [
+          596,
+          597,
+          598,
+          599,
+          600,
+          601,
+          602
+        ],
+        "exact_head_ci_runs": [
+          39857260951,
+          39859047626,
+          39859693010,
+          39860525716,
+          39862032718,
+          39863031245
+        ],
+        "rules_and_adverse_tests": "13 original blueprint P0/P1 and 14 D candidate changed-effect/adverse cases with six exact full-100 A/B/C/D comparative fixtures",
+        "local_best_cert": "data/grixis/m6/ij/certificates/admiral-beckett-brass.json",
+        "reproducibility_bundle": "data/grixis/m6/bundles/admiral-beckett-brass.json",
+        "unapproved_m7_packet": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass.json",
+        "full_multiplayer_gameplay": false,
+        "statistical_superiority_proven": false,
+        "canonical_changed": false,
+        "owner_m6_10_accepted": false,
+        "owner_m7_exact_candidate_approved": false
       }
     ]
   },
@@ -938,7 +1023,7 @@
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
     "m7_prospective_owner_approved_fraction": "1/62",
-    "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED after PR532 joined physically source-paid hand fast mana with OTHER hand-cast Abaddon cascades (20,000 four-arm matched traces, 46 rule/predecessor tests), showing actual MV0 Lotus library churn; no full 99-card games or wins. 0/62 certified M6, 0/62 new M7 approvals; all 62 canonical APPROVED/LOCKED untouched. Latest Abaddon follow-up: M6.6=1/62 and M6.7=1/62 decision-scoped subordinate completions after 104 P0 plus 14 P1 actual tests, 70 explicit relevance dispositions; M6 I/J/acceptance and M7 owner approval stay blocked. [2026-10-22 current: Abaddon M6.8 I and M6.9 J exact chosen 100/97 current Oracle source are VALID and 1/62 each after merged PR #573; M6.10 remains blocked on Cory acceptance; formally M6 certified=0/62, M7 owner approved=0/62. Source evidence complete for owner handoff, not automatic milestone approval.]"
+    "note": "2026-10-22: M6.1–M6.5 remain 62/62 COMPLETE; decision-scoped M6.6/M6.7 and source-bound M6.8 local I/M6.9 reproducibility J each 2/62 (Abaddon and Admiral), aggregate PARTIAL. Admiral's exact 100-card five-swap candidate M7 source-bound hard gate passed PR #602 (Actions 39863031245); 24 judgments, 12 incumbent challenges, 3 complete alternatives. No Admiral owner approval. Formal M6.10 owner certification remains 0/62; formal M7 review decisions 0/62 under milestone dependency; new prospective exact M7 owner approvals 1/62 (Abaddon only); M8 not accepted. No gameplay win rates/global optimum inferred."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
