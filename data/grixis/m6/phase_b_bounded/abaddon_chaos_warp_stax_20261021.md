@@ -8,6 +8,14 @@ The original Abaddon authored whole-deck assessment and later bounded mana-acces
 
 Sources: https://mtg.wtf/card/40k/129/The-Lost-and-the-Damned ; https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19 .
 
+## Additional Commander-first hook: Spawn from fetchlands and nonhand casts
+
+**Critical source-derived synergy:** The Lost and the Damned does **not** just reward spell casts through Abaddon's cascade. Its Oracle text also triggers when **a land you control enters from anywhere other than your hand**. Abaddon's approved frozen 99 contains **seven fetchlands**: the fetchland played from hand does **not** itself trigger Lost, but the land found and put onto the battlefield **from the library** triggers Lost (if the enchantment is already controlled). Casting Abaddon from the command zone also qualifies as **casting a spell from outside your hand**. Nonhand cascade hits cast from exile, The Ruinous Powers' stolen exile spells, and escaped graveyard spells from Underworld Breach also meet the Oracle condition. Each qualifying single event generates **one trigger for one 3/3 Spawn**, with resolution/opponent interaction not modeled.
+
+These conditions were separately preregistered before testing at `data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json` (commit `e950ddddea099972408b6c390ef9659369fabd27`). The bounded fixture verifies zone/event cases and physical seven-fetch inventory, **not actual Spawn counts** or a measured full-game token expectation. This expands the real protected value of this inexpensive MV3 incumbent and materially weakens **Chaos Warp for The Lost and the Damned** as a default substitution.
+
+Sources: https://mtg.wtf/card/40k/129/The-Lost-and-the-Damned ; canonical frozen physical 99-card Abaddon list.
+
 ## Actual defense roles
 
 The approved 99 has **Otawara, Soaring City** (Channel `{3}{U}`, discount `{1}` for each legendary creature you control) as an ability-based **temporary bounce** for an already-resolved artifact/creature/enchantment/planeswalker; it requires Otawara **in hand, not already deployed as a land**, and unlike a spell it can be activated after a player has reached the Rule-of-Law spell quota. This is a real existing answer, but its bounce lets opponents recast the problem permanent. The fixed-source draw test conservatively assumes **zero legendary creatures** when costing the channel and no alternative action for deployed Otawara.
@@ -47,7 +55,7 @@ Reservation assumes the stax threat is already present/known from the first mode
 | Unapplied cut | What would be lost |
 | --- | --- |
 | Rakdos, Lord of Riots | Potential same-turn opponent-loss creature generic discounts for 17 other creature identities (including Abaddon recasts); BBRR casting obstacle, real 6/6 evasive threat. Note Assault competes for this same slot. |
-| The Lost and the Damned | **{1}{U}{R}, MV3** nonhand spell cast to 3/3 Spawn triggers, central cascade/exile identity. |
+| The Lost and the Damned | **{1}{U}{R}, MV3** 3/3 Spawn triggers from BOTH nonhand casts (including commander/cascade/Breach) AND lands fetched from the library via seven approved fetchlands. Central engine identity. |
 | The Ruinous Powers | **{2}{B}{R}, MV4** repeatable stolen casts, owner-life-loss threshold generation and exile payoff support. |
 
 No source-grounded match rate of problematic enchantments/artifacts or reliable valuation of lost Rakdos discount, spawned board, and Ruinous engine has yet proved a positive net change. *Conditional availability* of Warp and its ability to address one stax effect are not a 100-card win-rate improvement. If the identified local playgroup actually has high sustained resolved-stax density, revisit the weakest genuine engine slot in that specific environment; avoid replacing fast threshold pingers, crucial commander protection or the low-cost Lost enchantment on generalized staples logic. Phase B still PARTIAL; M6/J/I certification and M7 exact-card owner approvals all pending.
