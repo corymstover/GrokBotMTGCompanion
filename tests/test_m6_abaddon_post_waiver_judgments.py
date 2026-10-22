@@ -173,6 +173,24 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
 
+    def test_other_hand_abaddon_cascades_are_real_but_not_full_game(self):
+        item=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        x=item["other_hand_cascade_observation"]
+        self.assertTrue(x["actual_source_paid_other_hand_cascades_modeled"])
+        self.assertEqual(x["engine_first_turn10_other_hand_cascade_seed_counts_per500"]["approved"],1)
+        self.assertEqual(x["engine_first_turn10_other_hand_cascade_seed_counts_per500"]["ignus_for_rakdos"],0)
+        self.assertEqual(x["engine_first_turn10_other_hand_cascade_seed_counts_per500"]["ignus_for_nightscape_familiar"],1)
+        self.assertTrue(x["zero_mana_value_library_exile_adversarial_only"])
+        self.assertFalse(x["full_99_spell_play"])
+        self.assertFalse(x["real_opponent_behavior"])
+        self.assertFalse(x["full_multiplayer_games"])
+        self.assertFalse(x["superiority_proven"])
+        self.assertFalse(x["approved_swap"])
+        self.assertIsNone(x["measured_win_rate"])
+        self.assertEqual(item["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
+        self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))

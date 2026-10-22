@@ -34,7 +34,8 @@
     "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522 / Actions 39708741461; conditional physical first-hit legal offers, no actual spell-effect execution)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524; Actions 39710471617; 12 source-verified physical same-state effects with 20 tests and 20,000 restricted paired trajectories)",
     "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 15 tests in 20,000 matched physical trajectories)",
-    "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528; exact-head 39715733050 and 39715732876 success; 15 new and 20 source-locked effect tests; Wizards Grinning Ignus official mana-ability release notes)"
+    "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528; exact-head 39715733050 and 39715732876 success; 15 new and 20 source-locked effect tests; Wizards Grinning Ignus official mana-ability release notes)",
+    "data/grixis/m6/phase_b_plans/abaddon_other_hand_cascades_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_other_hand_cascades_20261022.md (merged PR #530 / exact-head Actions 39717296188, 39717296172, 39717296135; 16 new + 35 predecessor tests, 10,000 physical paired trajectories)"
   ],
   "candidates": [
     {
@@ -336,6 +337,12 @@
             "class": "test_result",
             "confidence": "moderate",
             "source": "Official Wizards Time Spiral Remastered Grinning Ignus release notes; PR #528, exact-head Actions 39715733050 and 39715732876 PASS; 15 targeted and 20 predecessor tests; exact mana ability text established by Wizards official release notes (high rules confidence), conditional physical fixture not empirical opponent frequency"
+          },
+          {
+            "id": "other_named_hand_spell_printed_mv_and_zero_mv_cascade_source_receipt",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "PR #530 / three exact-head Actions including 39717296188: 16 new tests + 20 shared effect and 15 priority tests, 10000 limited paired physical paid game-state trajectories; unrelated qualifying hand cascades now modeled in core action subset"
           }
         ]
       },
@@ -362,9 +369,9 @@
         "actual_wins_measured": false
       },
       "unresolved": [
-        "Countermagic on original Ignus and removal at actual earlier priority windows matter, but do NOT model false opponent 'response to Ignus bounce activation'—it is a mana ability",
-        "Prearranged physical conditional fixtures do not establish how frequently Abaddon, Birgi, Loyal, Ignus, Rule of Law or Drannith are together in real four-player tables",
-        "Need commander-first study of actual legal interaction, source-paid additional cascade triggers, incidental table effects and lost Rakdos/Familiar/Rite roles before any full optimized deck proposal"
+        "Bounded eight-named-spell pilot now includes other paid hand-spell cascades, but still omits most of the 99 source deck's actual hand casts including fast mana, protection and tutors from hand",
+        "The experiment's MV0 full-library cascade was tested in isolated source-legal fixture only, NOT integrated into the actual hand-cast Sol Ring/Lotus Petal ramp policy; cannot infer real card-quality or deck churn",
+        "The fixed-policy 500-seed other-hand cascade event counts (0 or 1 per variant) are sparse and cannot prove full power or counterfactual superiority; protect incumbent Rakdos/Familiar/Rite role tradeoffs and add metagame interaction before proposals"
       ],
       "approved_swap": false,
       "paid_assembly_observation": {
@@ -586,6 +593,32 @@
         "win_rate": null,
         "swap_superiority_proven": false,
         "canonical_changed": false
+      },
+      "other_hand_cascade_observation": {
+        "kind": "real_other_qualified_source_paid_hand_spells_gain_Abaddon_cascade",
+        "verified_rules": [
+          "Abaddon grants cascade to other qualifying hand-cast spells, not only Ignus",
+          "Threshold checks opponent aggregate same-turn life lost before source cast; original Boltwave/Flame Rift damage only after original source spell resolves",
+          "Cascade hit strictly lower than source's printed mana value, even after discounts",
+          "Zero-mana-value spell can itself have cascade but no eligible negative-MV card, so mandatory exile and bottom of whole remaining library; no free spell",
+          "Free exiled cast does not get Abaddon hand-only cascade"
+        ],
+        "model_scope": "5 frozen physical 100-card lists, 2 fixed core spell policies, 2 modes, 500 paired seeds per variant/policy/mode = 10000 restricted trajectories; original Ignus-only predecessor unchanged",
+        "engine_first_turn10_other_hand_cascade_seed_counts_per500": {
+          "approved": 1,
+          "ignus_for_rakdos": 0,
+          "ignus_for_nightscape_familiar": 1,
+          "ignus_for_rite_of_flame": 1,
+          "assault_for_rakdos": 0
+        },
+        "actual_source_paid_other_hand_cascades_modeled": true,
+        "zero_mana_value_library_exile_adversarial_only": true,
+        "full_99_spell_play": false,
+        "real_opponent_behavior": false,
+        "full_multiplayer_games": false,
+        "measured_win_rate": null,
+        "superiority_proven": false,
+        "approved_swap": false
       }
     }
   ],
@@ -633,5 +666,5 @@
     "Retain identified low-cost/identity 40K payoffs and robust early red acceleration; do not auto-apply any of the 98 screened M5 swap rows",
     "After M6.6/7 full completion, generate final replayable I/J evidence and independently verify proposed exact 100/Oracle/current legality before any owner M7 approval packet"
   ],
-  "summary": "Four authored Abaddon judgments unchanged: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, Ignus PRIORITY/HOLD. PR #528 materially corrects the priority window: Grinning Ignus's sorcery-timed {R} bounce is a true mana ability, not a responseable effect on the stack. On a quiet main with priority after creature resolution it can bounce before opponent spot removal gets priority; countering creature spell, separate genuine ETB windows, Rule of Law/Drannith remain serious interactions. 8 frozen-source physical prearranged cases, 15 new and 20 predecessor tests, but no empirical opponent incidence, full 99-card interaction model or game win-rate. Canonical unaffected, M6.6/7 PARTIAL, no new M7 owner approval."
+  "summary": "Four Abaddon authored same-family judgments unchanged: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, Grinning Ignus PRIORITY/HOLD. PR #530 corrects an omission of other qualifying hand-cast cascade spells beyond Ignus, with strictly lower printed-MV hits resolved before original damage and zero-MV cascade's mandatory whole-library exile with no hit. Source-paid limited 100-card pilot (10,000 matched trajectories, 16+35 rules tests) found only 0-1 other-hand-cascade seed occurrences per 500 in the named core casting policy, not meaningful deck win-rate or evidence of replacement superiority. The full 99 effects, outside core hand spells, opponent disruption incidence and actual wins are unresolved. Canonical list unchanged, M6.6/7 PARTIAL and no M7 new approvals."
 }

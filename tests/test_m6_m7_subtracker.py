@@ -82,8 +82,8 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==10
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526,528}
+ assert len(t["m6"]["phase_b_additional_evidence"])==11
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522,524,526,528,530}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
  assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
@@ -194,8 +194,8 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a,chron,warp,ignus,paid,hit,shared,hand,stack=records
-  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"],hit["merged_pr"],shared["merged_pr"],hand["merged_pr"],stack["merged_pr"]),(511,512,514,516,518,520,522,524,526,528))
+  r,a,chron,warp,ignus,paid,hit,shared,hand,stack,other=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"],hit["merged_pr"],shared["merged_pr"],hand["merged_pr"],stack["merged_pr"],other["merged_pr"]),(511,512,514,516,518,520,522,524,526,528,530))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
   self.assertEqual(chron["unit_tests"],15)
@@ -209,6 +209,30 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(chron["turn_10"]["assault_for_lost"]["first_assault_activation_paid"],4)
   self.assertTrue((ROOT/chron["evidence"]).is_file())
   self.assertTrue((ROOT/chron["preregistration"]).is_file())
+  self.assertEqual(other["new_unit_tests"],16)
+  self.assertEqual(other["predecessor_effect_tests"],20)
+  self.assertEqual(other["predecessor_priority_tests"],15)
+  self.assertEqual(other["physical_variants"],5)
+  self.assertEqual(other["policies"],2)
+  self.assertEqual(other["control_modes"],2)
+  self.assertEqual(other["samples_per_variant_policy_mode"],500)
+  self.assertEqual(other["total_trajectories"],10000)
+  self.assertEqual(other["turn10_engine_first_other_hand_seed_counts_per500"],
+                   {"approved":1,"ignus_for_rakdos":0,
+                    "ignus_for_nightscape_familiar":1,
+                    "ignus_for_rite_of_flame":1,"assault_for_rakdos":0})
+  self.assertTrue(other["zero_mv_cascade_exiles_entire_library_without_eligible_hit"])
+  self.assertTrue(other["other_hand_source_spell_must_precede_its_burn_effect"])
+  self.assertTrue(other["printed_mv_not_reduced_by_mana_discount"])
+  self.assertTrue(other["actual_supported_hit_effects_limited_to12"])
+  self.assertFalse(other["full_99_card_effects"])
+  self.assertFalse(other["actual_opponent_policy"])
+  self.assertFalse(other["full_multiplayer_gameplay"])
+  self.assertFalse(other["superiority_proven"])
+  self.assertIsNone(other["measured_win_rate"])
+  self.assertFalse(other["canonical_changed"])
+  for key in ("preregistration","evidence"):
+   self.assertTrue((ROOT/other[key]).is_file())
   self.assertEqual(stack["new_unit_tests"],15)
   self.assertEqual(stack["predecessor_regression_tests"],20)
   self.assertEqual(stack["conditional_opponent_windows"],8)
@@ -363,6 +387,14 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(ignus_case["cascade_first_hit_observation"]["t10_per2000"]["approved_safe_cast_offers"],1822)
   self.assertFalse(ignus_case["cascade_first_hit_observation"]["ramp_or_tutor_effects_resolved"])
   self.assertFalse(ignus_case["cascade_first_hit_observation"]["net_superiority_proven"])
+  extras=ignus_case["other_hand_cascade_observation"]
+  self.assertTrue(extras["actual_source_paid_other_hand_cascades_modeled"])
+  self.assertEqual(extras["engine_first_turn10_other_hand_cascade_seed_counts_per500"]["approved"],1)
+  self.assertEqual(extras["engine_first_turn10_other_hand_cascade_seed_counts_per500"]["ignus_for_rakdos"],0)
+  self.assertTrue(extras["zero_mana_value_library_exile_adversarial_only"])
+  self.assertFalse(extras["full_99_spell_play"])
+  self.assertFalse(extras["superiority_proven"])
+  self.assertIsNone(extras["measured_win_rate"])
   o=ignus_case["disruption_oracle_correction"]
   self.assertEqual(o["registered_windows"],8)
   self.assertEqual(o["tests_targeted"],15)
