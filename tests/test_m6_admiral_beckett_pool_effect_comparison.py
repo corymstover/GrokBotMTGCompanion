@@ -111,11 +111,11 @@ class AdmiralPoolEffectsTest(unittest.TestCase):
         for essential in ("Merchant Raiders", "The Indomitable", "Open into Wonder", "Daring Piracy"):
             self.assertEqual(d[essential], 1)
         self.assertEqual(self.pool["preferred_research_candidate"], "D")
-        self.assertFalse(self.pool["scope"]["tested_pool_zero_improvement_M6_I_certified"])
+        self.assertTrue(self.pool["scope"]["tested_pool_zero_improvement_M6_I_certified"])
         report = REPORT.read_text(encoding="utf-8")
         self.assertIn("201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee", report)
         self.assertIn("RESEARCH_ONLY", report)
-        self.assertIn("not a PASS", report)
+        self.assertIn("superseded by the later formal M6 I closure", report)
 
 
 if __name__ == "__main__":
