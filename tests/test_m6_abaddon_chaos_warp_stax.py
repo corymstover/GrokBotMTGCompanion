@@ -27,7 +27,7 @@ class ChaosWarpStaxTests(unittest.TestCase):
         self.assertEqual(x["The Lost and the Damned"]["mana_value"],3)
         self.assertEqual(x["The Ruinous Powers"]["mana_value"],4)
         self.assertEqual(x["Chaos Warp"]["mana_cost"],"{2}{R}")
-        self.assertIn("Commander",x["Chaos Warp"]["legality"])
+        self.assertEqual(x["Chaos Warp"]["legality"],"commander_legal")
 
     def test_rule_of_law_warp_first_spell_can_answer(self):
         r=response_window("Rule of Law","Chaos Warp")
