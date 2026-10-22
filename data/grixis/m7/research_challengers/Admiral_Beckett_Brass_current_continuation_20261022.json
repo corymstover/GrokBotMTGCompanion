@@ -283,6 +283,37 @@
       "Construct and compare complete 100-card six-, seven- and additional-swap options when strategically credible; do not force larger packages or weaken identity to manufacture more changes.",
       "Determine final card count by comparative deck quality, not a numerical quota; preserve the former D hash and applicable tests, update changed-source Oracle and relevant P0/P1 and I/J only for material differences.",
       "Only after unbounded audit, source-bound candidate-specific proof and exact-head CI, create a new numbered owner-ready packet. Never relabel withdrawn prior packet as ready."
-    ]
+    ],
+    "stage1": {
+      "status": "RESEARCH_ONLY_PHYSICAL_CONFIGURATIONS_NOT_YET_ORACLE_AND_M6_REVALIDATED",
+      "governing_floor_not_target_merge_pr": 604,
+      "governing_floor_not_target_merge_sha": "221c18076b2122b5b84be7e575794b3a7a63b15b",
+      "full_deck_comparison_document": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_open_ended_stage1_20261022.md",
+      "candidate_packages": [
+        {
+          "name": "SIX_CAPTAIN_STORM",
+          "replacement_count": 6,
+          "list": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Captain_Storm_20261022.txt",
+          "incremental_swap": "Captain Storm, Cosmium Raider IN; March of the Drowned OUT"
+        },
+        {
+          "name": "SIX_SHIZO",
+          "replacement_count": 6,
+          "list": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Shizo_20261022.txt",
+          "incremental_swap": "Shizo, Death's Storehouse IN; Path of Ancestry OUT"
+        },
+        {
+          "name": "SEVEN_STORM_SHIZO",
+          "replacement_count": 7,
+          "list": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_seven_Storm_Shizo_20261022.txt",
+          "incremental_swaps": "Both Captain Storm and Shizo packages combined"
+        }
+      ],
+      "source_bound_mechanical_verification": "PENDING_NEW_CARD_ORACLE_LEGALITY_MANA_AND_M6_CHANGED_EVIDENCE",
+      "quality_comparison": "UNRESOLVED_THREE_PACKAGES_ARE_HYPOTHESES_NOT_JUDGMENTS",
+      "owner_approval": "WITHHELD",
+      "canonical_mutation": false,
+      "source_test": "tests/test_m7_admiral_unbounded_stage1.py"
+    }
   }
 }
