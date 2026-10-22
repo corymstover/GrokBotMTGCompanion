@@ -186,8 +186,12 @@ def assess(cards, all_lists):
         colors = card.get("color_identity")
         if not isinstance(colors, list) or not set(colors) <= ALLOWED:
             raise OracleGateError("Illegal Grixis color identity for " + name + ": " + str(colors))
-        if "paper" not in card.get("games", []):
-            raise OracleGateError("Non-paper card in official Commander deck: " + name)
+        # Scryfall's collection resolves a *printing*, sometimes digital-only
+        # (e.g. VMA Badlands) for an otherwise paper-printed, legal card name.
+        # Do not conflate chosen printing.games with card-name legality; our
+        # pinned source supplies separate paper-printing provenance.
+        if not isinstance(card.get("games"), list) or not card["games"]:
+            raise OracleGateError("Incomplete Scryfall printing games field: " + name)
         if not card.get("oracle_id") or not card.get("scryfall_uri"):
             raise OracleGateError("Card provenance missing: " + name)
         oracle_text = text_and_faces(card)
@@ -199,7 +203,7 @@ def assess(cards, all_lists):
             "mana_cost": card.get("mana_cost", ""),
             "color_identity": sorted(colors),
             "commander_legality": legality,
-            "games": card["games"],
+            "selected_printing_games": card["games"],
             "oracle_text": oracle_text,
             "oracle_text_sha256": sha256_bytes(oracle_text.encode("utf-8")),
             "layout": card.get("layout"),
@@ -279,7 +283,8 @@ def audit(*, fetch=get_json, sleeper=time.sleep):
             "Canonical raw bytes were copied using the authorized GitHub connector and SHA-pinned; CI does not have direct live read access to canonical main.",
             "Oracle evidence and legality are current only as of checked_at_utc, not permanent assurances.",
             "Card choice/cut superiority, M6 tested-pool I, M6 J final bundle, M7 final candidate and owner approval remain separate.",
-            "Scryfall default sample printing can have a future release date even when the card name is already Commander-legal.",
+            "Scryfall default sample printing can be digital-only or have a future release date even when another printing of the name is already paper Commander-legal.",
+            "Current Commander legality and color identity are checked by name, while historical exact-set paper printings remain grounded in the canonical approved Oct 12 audit; a live print-by-print paper release audit is not claimed.",
         ],
     }
 
