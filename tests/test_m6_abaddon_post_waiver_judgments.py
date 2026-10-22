@@ -81,6 +81,21 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertFalse(item["approved_swap"])
         self.assertFalse(ga.decision_review_problems(item))
 
+    def test_paid_ignus_access_is_genuine_but_not_net_improvement(self):
+        item=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        r=item["paid_assembly_observation"]
+        self.assertIn("physical",r["method"])
+        self.assertEqual(r["engine_first_turn10"]["ignus_for_rakdos"]["ignus_cast"],333)
+        self.assertEqual(r["engine_first_turn10"]["ignus_for_rakdos"]["five_paid_granted_cascades"],3)
+        self.assertEqual(r["engine_first_turn10"]["ignus_for_nightscape"]["five_paid_granted_cascades"],1)
+        self.assertEqual(r["engine_first_turn10"]["ignus_for_rite"]["five_paid_granted_cascades"],4)
+        self.assertFalse(r["proves_challenger_superiority"])
+        self.assertFalse(r["approved_swap"])
+        self.assertIsNone(r["true_game_win_rate"])
+        self.assertEqual(item["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
+        self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))

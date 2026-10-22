@@ -29,7 +29,8 @@
     "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512 / exact-head Actions 39698978884)",
     "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json; data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514; CI 39700709249)",
     "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516; CI 39702982106; role-cost errata and matched two-policy source access)",
-    "data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md (PR #518 / exact-head Actions 39704767840; 16 physical/rule tests and finite conditional five-recast trace)"
+    "data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md (PR #518 / exact-head Actions 39704767840; 16 physical/rule tests and finite conditional five-recast trace)",
+    "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md; data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json (PR #520, exact-head CI 39706655376; 17 tests, 20,000 bounded physical paid trajectories)"
   ],
   "candidates": [
     {
@@ -301,6 +302,12 @@
             "class": "strategic_judgment",
             "confidence": "moderate",
             "source": "Comprehensive 100-card deep review; same-deck Rakdos, Familiar and Rite-of-Flame roles, with PR #518 limited cost witnesses"
+          },
+          {
+            "id": "ignus-physical-colored-source-paid-matched-setup",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "PR #520 / Actions 39706655376; 17 adversarial tests, 20000 named-spell-source-only fixed policy trajectories; no actual cascade hits or wins"
           }
         ]
       },
@@ -327,11 +334,58 @@
         "actual_wins_measured": false
       },
       "unresolved": [
-        "Preregistered physical source-paid sequential acquisition of Ignus/Birgi/Abaddon and opponent life loss, including actual cascade hit casts and interaction",
-        "Best defensible on-identity cut with competing Assault and Chaos Warp for Rakdos role",
-        "Actual game win-conversion and stax/counterspell exposure for repeat Ignus recasts"
+        "Actual whole-deck interaction including fast mana/rituals, tutors and cascade hit casts with source permissions and real draw spells",
+        "Need credible metagame/removal model to weigh soft Birgi/Abaddon creature setup against current Rakdos/Familiar/Rite cost",
+        "No deck-strength conversion or global optimality demonstrated; 20,000 named-spell trajectories are intentionally incomplete and can bias both ways"
       ],
-      "approved_swap": false
+      "approved_swap": false,
+      "paid_assembly_observation": {
+        "method": "fixed named-spell source-paid 99-card library, five physical lists, 2 policies, 2000 paired seeds per candidate/policy, 10 own turns; no rocks rituals tutors card advantage combat or interaction in sampled trajectories",
+        "engine_first_turn10": {
+          "approved_abaddon_cast": 1525,
+          "ignus_for_rakdos": {
+            "ignus_cast": 333,
+            "five_paid_granted_cascades": 3,
+            "initial_granted_cascade_seen": 2
+          },
+          "ignus_for_nightscape": {
+            "ignus_cast": 326,
+            "five_paid_granted_cascades": 1,
+            "abaddon_cast": 1478
+          },
+          "ignus_for_rite": {
+            "ignus_cast": 313,
+            "five_paid_granted_cascades": 4
+          },
+          "assault_for_rakdos_cast_only": 333
+        },
+        "burn_first_turn10": {
+          "ignus_for_rakdos": {
+            "ignus_cast": 332,
+            "five_paid_granted_cascades": 2
+          },
+          "ignus_for_nightscape": {
+            "ignus_cast": 326,
+            "five_paid_granted_cascades": 1
+          },
+          "ignus_for_rite": {
+            "ignus_cast": 313,
+            "five_paid_granted_cascades": 4
+          }
+        },
+        "incumbent_side_effects_included": [
+          "Nightscape Familiar front cast for {1}{B} and generic cost reduction one even for multicolor U+R",
+          "Rakdos may be cast only following life loss and reduces generic on modeled creature spells",
+          "Boltwave, Flame Rift pay real colored mana and generate same-turn opponent life loss if unprevented",
+          "Birgi's triggered red resolves after cast with unopposed stack"
+        ],
+        "omits": [
+          "mana rocks/rituals, all tutors/extra draws, actual cascade exiled card selection/casts, Neheb/Loyal postcombat, other pingers, opponent responses, most 99 library card effects"
+        ],
+        "true_game_win_rate": null,
+        "proves_challenger_superiority": false,
+        "approved_swap": false
+      }
     }
   ],
   "other_pool_resolution": {
@@ -378,5 +432,5 @@
     "Retain identified low-cost/identity 40K payoffs and robust early red acceleration; do not auto-apply any of the 98 screened M5 swap rows",
     "After M6.6/7 full completion, generate final replayable I/J evidence and independently verify proposed exact 100/Oracle/current legality before any owner M7 approval packet"
   ],
-  "summary": "Four substantive candidate judgments now documented: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, and Grinning Ignus PRIORITY TEST/HOLD following PR #518 16 passing source-locked rules tests. With Birgi front face and X>=3 Abaddon can grant cascade on repeated Ignus hand casts, but physical mana/access, actual exile casts and game outcome unknown. M5 had 98 swap rows/63 distinct additions. None authorizes a canonical change, independent review assertion, M6 certificate or M7 approval."
+  "summary": "Four material authored same-model judgments persist: Assault HOLD, Warp HOLD, Ruinous RETAIN, Ignus HOLD/PRIORITY. PR #520 provides physically source-paid limited development of existing Birgi, Nightscape, Rakdos, Boltwave/Flame Rift and hypothetical Ignus over two fixed casting policies: 20,000 physically drawn trajectories, 17 passing tests, 3/2000 and 1/2000 and 4/2000 five-recast Ignus-with-Abaddon-cascade opportunities by T10 for -Rakdos/-Familiar/-Rite (engine-first). This is NOT actual game win rate, not real cascade resolution, not a net upgrade; existing canonical unchanged, M6.6/7 partial and 0 M7 owner decisions."
 }
