@@ -82,8 +82,8 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==4
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516}
+ assert len(t["m6"]["phase_b_additional_evidence"])==5
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
  assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
@@ -184,7 +184,7 @@ class TestMilestoneSubtracker(unittest.TestCase):
   path=ROOT/"data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json"
   d=json.loads(path.read_text())
   self.assertEqual(d["deck_id"],"Abaddon_the_Despoiler")
-  self.assertEqual(len(d["candidates"]),3)
+  self.assertEqual(len(d["candidates"]),4)
   self.assertTrue(all(not c["approved_swap"] for c in d["candidates"]))
   self.assertTrue(all(v is False for v in d["authority"].values()))
   gate=self.t["m6"]["gates"][6]
@@ -194,8 +194,8 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a,chron,warp=records
-  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"]),(511,512,514,516))
+  r,a,chron,warp,ignus=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"]),(511,512,514,516,518))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
   self.assertEqual(chron["unit_tests"],15)
@@ -209,6 +209,18 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(chron["turn_10"]["assault_for_lost"]["first_assault_activation_paid"],4)
   self.assertTrue((ROOT/chron["evidence"]).is_file())
   self.assertTrue((ROOT/chron["preregistration"]).is_file())
+  self.assertEqual(ignus["unit_tests"],16)
+  self.assertEqual(ignus["source_m5_swap_records"],98)
+  self.assertEqual(ignus["distinct_candidate_adds"],63)
+  self.assertEqual(ignus["unapplied_100_card_variants"],4)
+  self.assertEqual(ignus["conditional_finite_trace"]["cascade_triggers_with_birgi_and_abaddon_and_three_life_lost"],5)
+  self.assertEqual(ignus["conditional_finite_trace"]["cascade_triggers_below_three_life_lost"],0)
+  self.assertFalse(ignus["full_multiplayer_gameplay"])
+  self.assertFalse(ignus["superiority_proven"])
+  self.assertFalse(ignus["actual_cascade_library_casts_measured"])
+  self.assertFalse(ignus["canonical_changed"])
+  for key in ("evidence","pre_registration"):
+   self.assertTrue((ROOT/ignus[key]).is_file())
   self.assertEqual(warp["unit_tests"],27)
   self.assertEqual(warp["samples_per_variant_per_policy"],2000)
   self.assertEqual(warp["physical_variants"],4)
@@ -246,6 +258,10 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(ab["chronological_observation"]["n_per_variant"],2000)
   self.assertFalse(ab["chronological_observation"]["superiority_proven"])
   self.assertFalse(ab["chronological_observation"]["canonical_swap_authorized"])
+  ignus_case=next(x for x in d["candidates"] if x["card"]=="Grinning Ignus")
+  self.assertEqual(ignus_case["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+  self.assertEqual(ignus_case["rule_witness"]["recasts_with_birgi"],5)
+  self.assertFalse(ignus_case["approved_swap"])
   chaos=next(x for x in d["candidates"] if x["card"]=="Chaos Warp")
   self.assertFalse(chaos["approved_swap"])
   self.assertEqual(chaos["stax_answer_observation"]["turn_10_reserve_policy"]["approved_baseline_otawara_payable"],282)
