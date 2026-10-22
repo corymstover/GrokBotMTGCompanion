@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-21",
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M6_6_BOUNDED_RESOLVED_STAX_ANSWERS_AND_PHYSICAL_DRAW_SOURCE_OPPORTUNITY",
+  "status": "preregistered_before_implementation",
+  "source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "reason": "Resolve Chaos Warp's actual unique coverage versus already-present Otawara channel, creature removal and stack counters, and avoid loss of source-verified inexpensive Warhammer commander identity cards.",
+  "physical_variants": [
+    {
+      "id": "baseline",
+      "cut": null,
+      "add": null
+    },
+    {
+      "id": "warp_for_rakdos",
+      "cut": "Rakdos, Lord of Riots",
+      "add": "Chaos Warp"
+    },
+    {
+      "id": "warp_for_lost",
+      "cut": "The Lost and the Damned",
+      "add": "Chaos Warp"
+    },
+    {
+      "id": "warp_for_ruinous",
+      "cut": "The Ruinous Powers",
+      "add": "Chaos Warp"
+    }
+  ],
+  "role_fixed_oracle": [
+    {
+      "card": "Chaos Warp",
+      "mana_cost": "{2}{R}",
+      "type": "Instant",
+      "legality": "commander_legal",
+      "oracle": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+      "source": "https://mtg.wtf/card/40k/205/Chaos-Warp"
+    },
+    {
+      "card": "Otawara, Soaring City",
+      "channel": "{3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less for each legendary creature you control.",
+      "source": "https://mtg.wtf/card/neo/271/Otawara-Soaring-City"
+    },
+    {
+      "card": "The Lost and the Damned",
+      "mana_cost": "{1}{U}{R}",
+      "mana_value": 3,
+      "oracle": "Whenever a land you control enters from anywhere other than your hand or you cast a spell from anywhere other than your hand, create a 3/3 red Spawn creature token.",
+      "source": "https://mtg.wtf/card/40k/129/The-Lost-and-the-Damned"
+    },
+    {
+      "card": "The Ruinous Powers",
+      "mana_cost": "{2}{B}{R}",
+      "mana_value": 4,
+      "source": "https://magic.wizards.com/en/news/feature/warhammer-40000-commander-release-notes-2022-09-19"
+    }
+  ],
+  "bounded_rules_cases": [
+    "Rule of Law and Arcane Laboratory resolved: opponent-end-step instant spell answer versus zero-spell channel alternative; no second hand spell while effect remains",
+    "Rule of Law: already cast one spell this turn prevents Chaos Warp cast, but does NOT prevent Otawara's channel activation; channel available only from hand",
+    "Chaos Warp targeting Rule of Law while Abaddon cascade threshold active cannot cast the cascade hit during the trigger under restriction; Warp resolves after the cascade trigger",
+    "Chaos Warp may put new permanent (even original restraining permanent) on battlefield, so resolution has randomized unknown substitute, not guaranteed permanent removal",
+    "Otawara bounces but opponent can replay stax; distinction of repeatability and recurrence from shuffled original",
+    "Rest in Peace graveyard fuel previously exiled is not restored by removing Rest in Peace",
+    "Drannith Magistrate creature: existing Deadly Rollick handles resolved Magistrate; different from enchantment / colorless artifact",
+    "Swan Song and Force of Negation can intercept some spells on stack, cannot answer already-resolved enchantments as counterspells",
+    "Pyroblast cannot effectively destroy white enchantments/colorless artifacts; situational blue protection stays relevant"
+  ],
+  "matched_draw_source_opportunity": {
+    "seed": 621017,
+    "n_per_variant": 2000,
+    "turns": 10,
+    "checkpoints": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "draw_policy": "no mulligan, 7 opening cards + 1 own-turn draw, 1 fixed-land-policy land drop, actual supported fetch target search and deterministic reshuffle",
+    "mana": "land-only fixed support, source-paid hypothetical independent activation/cast snapshots (not chronological gameplay)",
+    "conditions": "a problematic permanent hypothetically already resolved; quantify access to Chaos Warp or Otawara channel from HAND with 3R or 3U and hand ability available, no opponent colors assumed for Exotic Orchard, zero legendary creature discount for channel"
+  },
+  "limits": [
+    "No opponent chance of drawing or resolving stax, no real stax frequency, deck wins, opponent interaction, spell chains or strategic win rate",
+    "No fast mana, rituals, rocks, tutors, card draw beyond turn draw, new spell copy/cascade effects or channel cost reduction from legends",
+    "Stax case table is scripted deterministic legal windows, not multiplayer match simulations",
+    "No actual candidate swap authorization, no final superiority determination, 0 M6 full certificates and 0 M7 approvals"
+  ],
+  "authority": {
+    "can_change_canonical": false,
+    "can_approve_swap": false,
+    "can_certify_m6": false,
+    "can_accept_m7": false
+  }
+}

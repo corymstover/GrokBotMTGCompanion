@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "stage": "M6_SOURCE_VERIFIED_LOST_AND_DAMNED_TRIGGER_DISCOVERY_BEFORE_TARGETED_FIXTURE",
+  "date_local": "2026-10-21",
+  "deck_id": "Abaddon_the_Despoiler",
+  "source_oracle": "https://mtg.wtf/card/40k/129/The-Lost-and-the-Damned",
+  "oracle_text": "Whenever a land you control enters from anywhere other than your hand or you cast a spell from anywhere other than your hand, create a 3/3 red Spawn creature token.",
+  "mana_cost": "{1}{U}{R}",
+  "mana_value": 3,
+  "trigger_cases": [
+    {
+      "event": "land_enters",
+      "origin": "hand",
+      "spawn": false
+    },
+    {
+      "event": "land_enters",
+      "origin": "library",
+      "spawn": true
+    },
+    {
+      "event": "spell_cast",
+      "origin": "hand",
+      "spawn": false
+    },
+    {
+      "event": "spell_cast",
+      "origin": "command",
+      "spawn": true
+    },
+    {
+      "event": "spell_cast",
+      "origin": "exile",
+      "spawn": true
+    },
+    {
+      "event": "spell_cast",
+      "origin": "graveyard",
+      "spawn": true
+    }
+  ],
+  "examples_from_frozen_99": [
+    "Fetch land play from hand itself does not trigger; its searched typed land enters from library and triggers if Lost enchantment is already on battlefield",
+    "Abaddon commander cast from command zone triggers, provided Lost controlled then; recasts also qualify",
+    "Abaddon-granted or printed cascade nonhand exile cast triggers; Underworld Breach escaped spell from graveyard triggers",
+    "The Ruinous Powers lets pilot cast opponent spell from exile, triggering Lost and Ruinous owner-life loss separately"
+  ],
+  "frozen_fetch_count": 7,
+  "limitations": [
+    "Oracle-condition fixture, NOT observed 3/3 token counts or cast event probabilities",
+    "No claim all seven fetches resolve after Lost, or all stolen exiled spells can be cast",
+    "No comparison of real-game value of Lost versus Chaos Warp"
+  ],
+  "authority": {
+    "approved_swap": false,
+    "canonical_changed": false,
+    "m6_certified": false,
+    "m7_decision": false
+  }
+}

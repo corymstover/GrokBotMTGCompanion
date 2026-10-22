@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-21",
+  "stage": "PR516_CONDITIONAL_POLICY_SENSITIVITY_PREREG_AFTER_FIRST_RUN_BEFORE_SECOND_POLICY_IMPLEMENTATION",
+  "deck_id": "Abaddon_the_Despoiler",
+  "parent_preregistration": "data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json",
+  "original_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39702315949",
+  "observation": "Original fixed land-first policy always played Otawara as a land on turn ≤10 when first seen and eligible, producing 0 held channel opportunities at turn 10 under that policy. This is not evidence the card fails as stax answer.",
+  "policies": [
+    "land_first_as_original",
+    "reserve_otawara_for_channel"
+  ],
+  "reserve_definition": "Conditionally assume an already-resolved nonblue permanent stax threat is known and persists. If Otawara is in hand, never choose it for a land drop; play next best supported land instead if present, otherwise forfeit that turn's land drop. Do not give extra land plays, cards, mana or discounts. Keep existing fetch target and shock assumptions.",
+  "matched_physical_seed": 621017,
+  "n_per_variant": 2000,
+  "turns": 10,
+  "checkpoints": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "outputs": [
+    "per-policy slot Warp held and land-payable as first spell",
+    "per-policy Otawara held and land-payable via 3U channel, hand only",
+    "per-policy union of held-payable answers",
+    "per-policy forfeited land drop due to Otawara reservation",
+    "baseline and three Warp challenger variants all physical 100 cards"
+  ],
+  "limitations": [
+    "Two extreme fixed policies; an actual player may adapt dynamically and also preserve source development",
+    "Holding Otawara from turn one presumes preidentified permanent stax since turn one; never interpret as ordinary metagame probability",
+    "No real Rule of Law opponent chance, no extra ramp/card draw, no access to rule effects, actual game wins or all interaction",
+    "This corrects an experiment bias; original result remains recorded, not erased, and neither new policy certifies M6 or a deck swap"
+  ],
+  "authority": {
+    "can_change_canonical": false,
+    "can_approve_swap": false,
+    "can_certify_M6": false,
+    "can_accept_M7": false
+  }
+}

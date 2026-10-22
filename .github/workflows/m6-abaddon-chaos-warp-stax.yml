@@ -1,0 +1,69 @@
+name: M6 Abaddon Chaos Warp resolved-stax access
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-chaos-warp-stax.yml
+      - scripts/grixis_m6_abaddon_chaos_warp_stax.py
+      - tests/test_m6_abaddon_chaos_warp_stax.py
+      - data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json
+      - data/grixis/m6/phase_b_plans/abaddon_chaos_warp_otawara_policy_20261021.json
+      - data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json
+      - data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  abaddon-chaos-warp:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Checkout pull request
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify stax windows and physical deck scope
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_chaos_warp_stax.py' -v
+      - name: Compute reproducible matched physical answer-access receipt
+        run: python scripts/grixis_m6_abaddon_chaos_warp_stax.py --out abaddon_chaos_warp_receipt.json
+      - name: Reject authority escalation or false mana assumptions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json').read_text())
+          r=json.loads(Path('abaddon_chaos_warp_receipt.json').read_text())
+          m=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          assert r['approved_raw_sha256']==p['approved_raw_sha256']
+          assert r['n_per_variant']==2000
+          assert len(r['physical_variants'])==4
+          assert set(r['policy_sensitivity'])=={'land_first_as_original','reserve_otawara_for_channel'}
+          assert r['policy_sensitivity']['land_first_as_original']['baseline']['10']['otawara_channel_held']==0
+          assert r['policy_sensitivity']['reserve_otawara_for_channel']['baseline']['10']['otawara_channel_held']>0
+          assert r['reserved_land_drops_skipped']['land_first_as_original']['baseline']==0
+          assert 'reserve_otawara_for_channel' in r['reserved_land_drops_skipped']
+          assert all(not v for v in p['authority'].values())
+          assert r['source_verified_errata']['The Lost and the Damned']['mana_value']==3
+          assert r['lost_trigger_frozen_fetchland_count']==7
+          assert len(r['lost_trigger_rule_cases'])==6
+          assert not any(json.loads(Path(r['lost_trigger_preregistration']).read_text())['authority'].values())
+          assert r['source_verified_errata']['The Ruinous Powers']['mana_value']==4
+          assert r['scenario_outcomes']['rol_warp_while_abaddon_cascade_enabled']['cascade_triggered_on_chaos_warp']
+          assert not r['scenario_outcomes']['rol_warp_while_abaddon_cascade_enabled']['cascade_exiled_spell_cast_legal_before_warp_resolves']
+          for k,v in r['limitations'].items():
+              if k=='actual_multiplayer_win_rate': assert v is None
+              elif k in ('M6_certificates','M7_approved_decks'): assert v==0
+              else: assert v is False, (k,v)
+          assert m['m6']['gates'][5]['status']=='PARTIAL'
+          assert m['m6']['formal_m6_certified_decks']==0
+          assert m['m7']['formal_m7_review_decisions']==0
+          print('PASS: strictly bounded Chaos Warp data cannot decide or certify 100-card changes.')
+          PY
+      - name: Attach reproducible answer-access evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-chaos-warp-stax-receipt
+          path: abaddon_chaos_warp_receipt.json
+          retention-days: 30
