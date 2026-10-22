@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-22_abaddon_source_paid_hand_acceleration_pairing",
+  "snapshot": "2026-10-22_abaddon_ignus_oracle_correct_no_stack_mana_ability_and_eight_interruption_windows",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
-    "engineering_head": "699474ee6c6df04b13ff0d8ffe75d7c637cd46f1",
+    "engineering_head": "b3878e66a12407af65a41bff0bb5b72e0ca35eb1",
     "source_registry_blob_sha": "2518c45ba3e181d8abc67a0eab8a94303dfa2ffb",
     "canonical_repository": "corymstover/grixis-commander-encyclopediaGPT",
     "canonical_head": "856716a307c0277bb069f2d8f67e28018d4fd596",
@@ -155,9 +155,10 @@
           "data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md (PR #520; CI 39706655376 success; 17 tests and 20,000 fixed-policy source-paid named-spell seed trajectories, 5 physical 100-card lists and two casting priorities)",
           "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522; exact-head CI 39708741461 success; 18 source-locked tests, 5 exact 100-card frozen physical variants x 2,000 paired seeds, 35 subthree nonland targets, legal first-hit cascade exiling and bottoming; still no effects or wins)",
           "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (merged PR #524, exact-head GitHub Actions run 39710471617 success; 20 rules/physical conservation tests and 20,000 paired paid physical state trajectories with 12 source-verified cascade hit effects)",
-          "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / exact-head GitHub Actions 39713059781 SUCCESS; six hand-paid mana spells with mana-pool/physical deck/grave, 15 adversarial tests, 20,000 same-seed paired 100-card trajectories, 1000 per variant/policy/mode)"
+          "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / exact-head GitHub Actions 39713059781 SUCCESS; six hand-paid mana spells with mana-pool/physical deck/grave, 15 adversarial tests, 20,000 same-seed paired 100-card trajectories, 1000 per variant/policy/mode)",
+          "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json and data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528; exact-head Actions 39715733050 + 39715732876 both PASS; 15 targeted mana ability/physical stack tests plus 20 predecessor effect tests and 8 conditional hate/removal windows)"
         ],
-        "scope": "Abaddon M6.6 PARTIAL. PR #526 adds actual physically source-paid early casting of six held accelerants (Lotus Petal, Sol Ring, Mana Vault, Dark Ritual, Cabal Ritual, Rite of Flame) before the existing PR524 12-effect joined Ignus cascade subset. Frozen five 100-card variants, two fixed casting policies, two modes using 1000 matched seeds each (20,000 trajectories); exact no-hand-accel mode delegates to predecessor. Source-checked actual black/red/generic payments, graveyard threshold, mana pool and physical zones, Sol Ring untap vs Mana Vault persistent tap/draw damage. Under engine-first with -Rakdos, T10 no-hand mode 166/1000 paid Ignus,4/1000 actual Ignus cascade,0/1000 supported effect; with hand acceleration 168,5,1. -Familiar 159,4,2 versus 165,6,1; -Rite 155,7,3 versus 156,8,4. Fixed pre-main accelerant order, non-optimized colored source consumption, still omits most 99-card effects, alternative colored mana ramp, hand-cast cascade triggers, opponents, combat, wins; source paid six-ramp access NOT a complete Phase B or metagame win-rate claim. M6.6 remains partial, zero certificates."
+        "scope": "Abaddon M6.6 PARTIAL. PR #528 fixes a critical Oracle timing assumption: Grinning Ignus's {R} return is a sorcery-timed *mana ability*—it uses NO STACK and opponents cannot respond to the activation. On a quiet main phase when Ignus resolves, active player can activate immediately with priority; opponent removal is possible on the original creature spell stack or other genuine priority windows but not in response to the return. Eight physically conserved, deliberately prearranged paid Abaddon/Birgi/Ignus states test Rule of Law (initial second spell forbidden, first Ignus cascade hit forbidden), Drannith (exile cast forbidden but physical hand recasts possible), countered original Ignus (cast-trigger cascade and Birgi persist), commander/Birgi removal prior to a subsequent cast, quiet-board/no-hate; 15 new + 20 original tests PASS. Opponent cards/frequency, full competitive gameplay, 99-card interactions and actual win performance NOT sampled; original 20,000-trajectory outcomes unchanged under default no-hate mode. Zero deck certificates."
       },
       {
         "id": "M6.7",
@@ -178,9 +179,10 @@
           "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md and Actions 39706655376 (PR #520; two-policy 100-card paid setup; Rakdos and Familiar discounts modeled; 0 M7 recommendation accepted)",
           "data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522 / exact-head CI 39708741461; 35 subthree physical payoff pool and targetability nuances, candidate cuts remain HOLD)",
           "data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524, Actions 39710471617; genuine but intentionally limited same-state paid cascade effect execution supports Ignus HOLD)",
-          "data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (merged PR #526; exact-head CI 39713059781; fixed pilot six acceleration decreases some selected outcomes despite more nominal mana, further supports Ignus HOLD)"
+          "data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (merged PR #526; exact-head CI 39713059781; fixed pilot six acceleration decreases some selected outcomes despite more nominal mana, further supports Ignus HOLD)",
+          "data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md (PR #528, official Wizards TSR Grinning Ignus release notes; eight source-paid physical disruption fixtures, no response to mana ability)"
         ],
-        "scope": "Four authored same-model Abaddon judgments remain Assault HOLD, Warp HOLD, Ruinous RETAIN, Ignus PRIORITY/HOLD. PR #526 source-pays real hand mana in a paired PR524 same-state restricted pilot, but the fixed early casting and land-source optimizer can waste red/black and starve ignition, and some measures do not improve monotonically. The -Familiar Ignus branch had 2/1000 source-verified effects without hand ramp and only 1/1000 with hand ramp, despite more cascade accesses; not proof of negative or positive real game strength. Model omits true multiplayer interaction, large other-hand spell cascades and payoff/role opportunity costs. M6.7 PARTIAL, M7 0/62."
+        "scope": "Abaddon four authored same-model judgments remain Assault HOLD, Warp HOLD, Ruinous RETAIN and Ignus PRIORITY/HOLD. PR #528 improves rule fidelity materially: a returned Ignus mana-ability activation cannot be interrupted, although source Ignus cast may be countered and Rule of Law/Drannith can restrict future casts or exile casts. A prearranged on-board engine with Loyal Subordinate threshold can produce 5 paid repeats and 5 actual conditional cascade triggers, but has no deck access or opponent interruption probability, nor all 99 effects or win conversions. The previous generic claim that an opponent can simply respond to Ignus's *bounce activation* is now explicitly rejected. No superiority proven, M6.7 PARTIAL, no M7 approvals."
       },
       {
         "id": "M6.8",
@@ -645,6 +647,42 @@
         "superiority_proven": false,
         "measured_win_rate": null,
         "canonical_changed": false
+      },
+      {
+        "deck_id": "Abaddon_the_Despoiler",
+        "kind": "OFFICIAL_WIZARDS_MANA_ABILITY_PRIORITY_AND_EIGHT_PHYSICAL_SOURCE_PAID_DISRUPTION_CASES",
+        "topic": "ignus_mana_ability_no_stack_rulings_law_drannith_birgi_abaddon_counterspell_source_paid",
+        "merged_pr": 528,
+        "merge_commit": "b3878e66a12407af65a41bff0bb5b72e0ca35eb1",
+        "exact_head_ci_runs": [
+          "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39715733050",
+          "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39715732876"
+        ],
+        "new_unit_tests": 15,
+        "predecessor_regression_tests": 20,
+        "conditional_opponent_windows": 8,
+        "preregistration": "data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json",
+        "evidence": "data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md",
+        "witnesses": {
+          "quiet_board_ignus_return_is_no_stack_mana_ability": true,
+          "can_respond_to_ignus_bounce_activation": false,
+          "uncontested_paid_recasts": 5,
+          "uncontested_abaddon_cascades": 5,
+          "rule_of_law_after_prior_spell_initial_cast": false,
+          "rule_of_law_first_ignus_free_cascade_cast": false,
+          "drannith_ignus_paid_hand_recasts": 5,
+          "drannith_free_cascade_cast": false,
+          "abaddon_removed_next_cascades": 0,
+          "birgi_removed_next_recasts": 1,
+          "countered_initial_ignus_cascade_persists": true,
+          "countered_original_ignus_does_not_enter": true
+        },
+        "prearranged_board_not_empirical_probability": true,
+        "actual_opp_spell_simulation": false,
+        "full_multiplayer_gameplay": false,
+        "superiority_proven": false,
+        "measured_win_rate": null,
+        "canonical_changed": false
       }
     ]
   },
@@ -734,7 +772,7 @@
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED: PR #526 introduced true source-paid hand acceleration on the already joined Ignus physical pilot (15 tests, 20,000 matched trajectories, six spell effects), but missing larger 99-card effects/other hand-cascades/opponent interaction and any win outcome. M6 certification 0/62, M7 new deck approvals 0/62; existing 62 APPROVED/LOCKED canonical unchanged."
+    "note": "M6 gate completion unchanged: 5/10 complete, M6.6 and M6.7 partial, final 3 blocked. PR528 official timing correction + 8 physical opponent counterfactuals, 15 tests and 20 original shared effects tests; no empirical disruption probability, complete 99-card game or win rate. 0/62 formal M6 certificates, 0/62 new M7 approvals; 62/62 canonical approved/locked untouched."
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,
