@@ -13,6 +13,7 @@ on:
       - tests/test_m7_admiral_beckett_full_source_and_resilience.py
       - tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py
       - tests/test_m6_admiral_beckett_candidate_d_changed_effects.py
+      - tests/test_m7_admiral_beckett_material_decisions.py
   workflow_dispatch:
 
 jobs:
@@ -32,3 +33,5 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_pirate_density_candidate_turn4.py' -v
       - name: Check changed Pirate effects, Malcolm counters, and paid Broadside boast
         run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_candidate_d_changed_effects.py' -v
+      - name: Verify all 24 researched strategic dispositions and exact five selected replacements
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_material_decisions.py' -v
