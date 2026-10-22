@@ -34,7 +34,7 @@ def registry_check(doc: dict):
     ids = [x["id"] for x in items + remaining]
     if len(ids) != len(set(ids)):
         raise P0GateError("Duplicate P0 case IDs")
-    if len(items) != 52 or len(remaining) != 3:
+    if len(items) != 61 or len(remaining) != 2:
         raise P0GateError("Current inventory changed without a plan update")
     if not all(row["status"] == "REQUIRED_UNEXECUTED" for row in remaining):
         raise P0GateError("Unrun P0 case was marked completed")
@@ -58,7 +58,7 @@ def registry_check(doc: dict):
     if {x["test_method"].split(".", 1)[-1] for x in new} != {
             "test_" + n for n in expected_suffixes}:
         raise P0GateError("New P0 registry not identical to precommit plan")
-    if len(new) != 6 or len(items) - len(new) != 46:
+    if len(new) != 6 or len(items) - len(new) != 55:
         raise P0GateError("Replayed/new case count drift")
     # P0-021 is a parent topic with eight individually executed, preregistered
     # tests; no file-name substring count is accepted in lieu of real execution.
@@ -68,14 +68,14 @@ def registry_check(doc: dict):
     expected_call = {"test_" + row["id"] for row in call_plan["cases"]}
     if len(new_call) != 8 or {r["test_method"].split(".", 1)[-1] for r in new_call} != expected_call:
         raise P0GateError("P0-021 test set differs from preregistration")
-    if {x["id"] for x in remaining} != {"P0-025","P0-026","P0-027"}:
+    if {x["id"] for x in remaining} != {"P0-026","P0-027"}:
         raise P0GateError("Three newly discovered P0 obligations must remain explicitly open")
     coverage_path = ROOT / "data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json"
     coverage = json.loads(coverage_path.read_text(encoding="utf-8"))
     if {x["id"] for x in coverage["identified_unresolved"]} != {x["id"] for x in remaining}:
         raise P0GateError("P0 coverage source and registered gaps diverged")
     parent = doc.get("newly_covered_parent_topics", [])
-    if len(parent) != 4 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
+    if len(parent) != 5 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
         raise P0GateError("P0-021 grouping/parent receipt incomplete")
     if call_plan["candidate_sha256"] != "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd":
         raise P0GateError("P0-021 preferred whole-deck candidate drift")
@@ -114,8 +114,20 @@ def registry_check(doc: dict):
     if (wild_plan["cost_budget"]["new_registered_methods"]!=8 or
             wild_plan["cost_budget"]["randomized_game_trials"]!=0):
         raise P0GateError("P0-024 stop rule/cost budget changed")
-    if {x["id"] for x in coverage.get("newly_registered_tested_P0",[])} != {"P0-024"}:
+    if {x["id"] for x in coverage.get("newly_registered_tested_P0",[])} != {"P0-024","P0-025"}:
         raise P0GateError("97-name matrix does not disclose registered P0-024")
+    nalf_plan_path = ROOT / "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    nalf_plan = json.loads(nalf_plan_path.read_text(encoding="utf-8"))
+    nalf_cases = [x for x in items if x["expected_execution"] == "NEW_NALFESHNEE_THIS_PR_CI"]
+    if len(nalf_cases) != 9 or {x["test_method"].split(".",1)[-1] for x in nalf_cases} != {
+            "test_" + x["id"] for x in nalf_plan["registered_cases"]}:
+        raise P0GateError("P0-025 test methods do not match preregistration")
+    if parent[4]["id"] != "P0-025" or set(parent[4]["case_ids"]) != {x["id"] for x in nalf_cases}:
+        raise P0GateError("P0-025 parent case IDs missing or fabricated")
+    if nalf_plan["candidate_sha256"] != "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd":
+        raise P0GateError("P0-025 chosen whole-deck physical source hash drift")
+    if nalf_plan["budget"]["new_methods"] != 9 or nalf_plan["budget"]["random_trials"] != 0:
+        raise P0GateError("P0-025 preregistered test budget mismatch")
     for row in items:
         path = Path(row["test_file"])
         if (path.is_absolute() or ".." in path.parts or
