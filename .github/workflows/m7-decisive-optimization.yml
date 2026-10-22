@@ -17,6 +17,7 @@ on:
       - scripts/grixis_m7_decision_gate.py
       - tests/test_m7_decisive_optimization_gate.py
       - tests/test_m7_abaddon_research_challengers.py
+      - tests/test_m7_abaddon_oracle_erratum_v2.py
   workflow_dispatch:
 
 permissions:
@@ -39,6 +40,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_decisive_optimization_gate.py' -v
       - name: Validate Abaddon source-derived three-portfolio physical alternatives
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_research_challengers.py' -v
+      - name: Enforce corrected Abaddon Oracle source facts and four exact v2 challengers
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_oracle_erratum_v2.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval

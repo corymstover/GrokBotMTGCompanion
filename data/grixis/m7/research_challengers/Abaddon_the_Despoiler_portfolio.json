@@ -54,5 +54,8 @@
       "status": "LOWER_CONFIDENCE_NOT_RECOMMENDED"
     }
   ],
-  "validation_claim": "The companion structural tests check physical 100, singleton, identical commander and land counts, no extra unlisted differences. They do not fetch current Scryfall Oracle or certify M6, M7, legality, win rate, or owner approval."
+  "validation_claim": "The companion structural tests check physical 100, singleton, identical commander and land counts, no extra unlisted differences. They do not fetch current Scryfall Oracle or certify M6, M7, legality, win rate, or owner approval.",
+  "superseded_as_current_recommendation": true,
+  "superseded_by": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v2.json",
+  "supersession_reason": "Published cost-error erratum: The Lost and the Damned is MV3 not MV5; Call Forth the Tempest is MV8 not MV11 and does not have cost reduction. Historical variants retained as test evidence, not recommended."
 }

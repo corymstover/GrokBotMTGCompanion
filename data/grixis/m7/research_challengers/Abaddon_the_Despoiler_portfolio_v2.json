@@ -1,0 +1,78 @@
+{
+  "schema_version": 2,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_SOURCE_CORRECTED_RESEARCH_NOT_OWNER_READY",
+  "supersedes": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio.json",
+  "correction_receipt": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_oracle_erratum.json",
+  "canonical_baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "baseline_source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "reason": "Prior PR #542 cut The Lost and the Damned on incorrect five-mana premise; original card costs only {1}{U}{R} and produces 3/3 tokens from nonhand casts and nonhand land entries. Call Forth the Tempest was incorrectly assessed as eleven mana and cost-reduced; it costs {5}{R}{R}{R}, MV 8, with double printed cascade. This changes the commander-first package opportunity cost.",
+  "protected_corrected_identity_cards": [
+    "The Lost and the Damned",
+    "Call Forth the Tempest",
+    "The Ruinous Powers"
+  ],
+  "candidate_variants": [
+    {
+      "id": "engine_only",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_only.txt",
+      "adds": [
+        "Grinning Ignus"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots"
+      ],
+      "status": "NO_ANSWER_GAP_REPAIR_REQUIRES_HEIGHTENED_LOW_SWAP_AUDIT"
+    },
+    {
+      "id": "engine_answer_keeper",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_keeper.txt",
+      "adds": [
+        "Grinning Ignus",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "Keeper of Secrets"
+      ],
+      "status": "PROVISIONAL_LEAD_LOSES_NONHAND_DAMAGE_FINISHER"
+    },
+    {
+      "id": "engine_answer_betrayal",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+      "adds": [
+        "Grinning Ignus",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "Inevitable Betrayal"
+      ],
+      "status": "ALTERNATIVE_LOSES_MV0_CASCADE_HIT"
+    },
+    {
+      "id": "combat_answer_keeper",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_combat_answer_keeper.txt",
+      "adds": [
+        "Aggravated Assault",
+        "Chaos Warp"
+      ],
+      "cuts": [
+        "Rakdos, Lord of Riots",
+        "Keeper of Secrets"
+      ],
+      "status": "ALTERNATIVE_REQUIRE_NEHEB_COMBAT_ENGINE"
+    }
+  ],
+  "current_preliminary_choice": "engine_answer_keeper",
+  "preliminary_reason": "Retaining the efficient three-MV Warhammer Spawn engine and MV8 double-cascade board interaction is essential. Replacing Rakdos and six-MV Keeper instead is a plausible commander-first engine-plus-answer package, but loss of Keeper's nonhand-cast damage finish remains a material cost; Inevitable Betrayal's MV0 cascade utility is a live alternative cut. Neither package yet qualifies for owner approval.",
+  "history_policy": "V1 whole-deck analysis and its three files remain retained as historical, explicitly superseded evidence, not deleted or silently rewritten.",
+  "verified_baseline_physical_100_only": true,
+  "oracle_scope": "Targeted 10-card manual timestamped Oracle/Commander checks; full latest 100-card Oracle identity and legality not independently refreshed",
+  "new_effect_simulations_executed": 0,
+  "new_full_list_owner_approvals": 0,
+  "formal_m6_certifications": 0,
+  "canonical_decks_modified": 0,
+  "owner_approved": false,
+  "stage_m7_final_packet_created": false
+}
