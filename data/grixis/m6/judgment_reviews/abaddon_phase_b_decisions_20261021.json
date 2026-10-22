@@ -28,7 +28,8 @@
     "data/grixis/m6/phase_b_bounded/abaddon_ruinous_cascade_20261021.md (PR #511 / exact-head Actions 39697989020)",
     "data/grixis/m6/phase_b_bounded/abaddon_assault_mana_access_20261021.md (PR #512 / exact-head Actions 39698978884)",
     "data/grixis/m6/phase_b_plans/abaddon_chronological_engine_20261021.json; data/grixis/m6/phase_b_bounded/abaddon_chronological_engine_20261021.md (PR #514; CI 39700709249)",
-    "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516; CI 39702982106; role-cost errata and matched two-policy source access)"
+    "data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md (PR #516; CI 39702982106; role-cost errata and matched two-policy source access)",
+    "data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md (PR #518 / exact-head Actions 39704767840; 16 physical/rule tests and finite conditional five-recast trace)"
   ],
   "candidates": [
     {
@@ -264,6 +265,73 @@
         "Conditional upkeep survival and actual cast access compared with other five-mana payoffs"
       ],
       "approved_swap": false
+    },
+    {
+      "card": "Grinning Ignus",
+      "candidate_swap_ids": [
+        "Abaddon-Ignus-for-Rakdos",
+        "Abaddon-Ignus-for-Nightscape-Familiar",
+        "Abaddon-Ignus-for-Rite-of-Flame"
+      ],
+      "judgment_review": {
+        "kind": "judgment_review",
+        "method": "agent_judgment",
+        "by": "ChatGPT/OpenAI GPT-6 (same-family authored M6 judge, not independent)",
+        "date": "2026-10-21",
+        "swaps": [
+          "Abaddon-Ignus-for-Rakdos",
+          "Abaddon-Ignus-for-Nightscape-Familiar",
+          "Abaddon-Ignus-for-Rite-of-Flame"
+        ],
+        "evidence_items": [
+          {
+            "id": "verified-ignus-birgi-activation-and-commander-hand-only-cascade",
+            "class": "fact",
+            "confidence": "verified",
+            "source": "Official Strixhaven and Kaldheim release notes and Abaddon 40K Oracle, linked in data/grixis/m6/phase_b_bounded/abaddon_ignus_birgi_20261021.md"
+          },
+          {
+            "id": "ignus-16-physical-and-conditional-rules-tests",
+            "class": "test_result",
+            "confidence": "moderate",
+            "source": "PR #518 / GitHub Actions 39704767840; 16 tests, not real game engine access"
+          },
+          {
+            "id": "owner-equivalent-cut-opportunity-cost",
+            "class": "strategic_judgment",
+            "confidence": "moderate",
+            "source": "Comprehensive 100-card deep review; same-deck Rakdos, Familiar and Rite-of-Flame roles, with PR #518 limited cost witnesses"
+          }
+        ]
+      },
+      "interim_decision": "HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP",
+      "benefit": "Existing Birgi front face makes Ignus repeatable hand casts {2}{R} with a {R} activated bounce that adds {C}{C}{R}, mana-neutral; with Abaddon controlled on own turn after >=3 aggregate opponent life lost, EACH successful Ignus hand cast receives an Abaddon-granted cascade trigger. These are conditional trigger opportunities; cascade hits and actual cast outcomes not simulated.",
+      "incumbent_cut_cost": "For Rakdos lose creature generic discounts and evasive 6/6 threat; for Nightscape Familiar lose generic U/R spell reduction and a loop-enhancing +1 colorless per iteration with Birgi; for Rite of Flame lose immediate one-mana red ramp. Strong core payout/protection cards are not available as arbitrary cuts.",
+      "source_inventory": {
+        "m5_screened_swap_records": 98,
+        "distinct_candidate_adds": 63,
+        "approved_physical_total": 100,
+        "library_cards": 99,
+        "lands": 34,
+        "source_verified_birgi_present": true
+      },
+      "rule_witness": {
+        "n_finite_recasts": 5,
+        "recasts_with_birgi": 5,
+        "cascade_triggers_if_opp_loss_at_least_three": 5,
+        "cascade_triggers_if_opp_loss_under_three": 0,
+        "recasts_without_birgi_under_fixed_start": 1,
+        "recasts_with_rule_of_law": 1,
+        "net_red_from_five_loops": 0,
+        "extra_colorless_with_nightscape_after_five_loops": 5,
+        "actual_wins_measured": false
+      },
+      "unresolved": [
+        "Preregistered physical source-paid sequential acquisition of Ignus/Birgi/Abaddon and opponent life loss, including actual cascade hit casts and interaction",
+        "Best defensible on-identity cut with competing Assault and Chaos Warp for Rakdos role",
+        "Actual game win-conversion and stax/counterspell exposure for repeat Ignus recasts"
+      ],
+      "approved_swap": false
     }
   ],
   "other_pool_resolution": {
@@ -294,7 +362,8 @@
         "trigger": "opponent whose exiled library spell you cast loses its mana value in life",
         "default_cut_recommendation": "RETAIN"
       }
-    }
+    },
+    "additional_priority": "PR #518: Grinning Ignus/Birgi repeated hand-cast cascade materially raises candidate priority above raw M5 rankings, but proves only bounded rules. Stormfist Crusader generates 3 total opponent loss at 3-opponent upkeep but gives all three opponents a card; do not cut Wheel of Fortune for it without true table evidence."
   },
   "authority": {
     "can_change_canonical": false,
@@ -305,9 +374,9 @@
     "full_effect_aware_gameplay_measured": false
   },
   "next_required_work": [
-    "Determine strongest realistic identity-first cut (if any) after actual tutor/cascade/tempo/opponent-response role review; no arbitrary change quota",
-    "Resolve meaningful paid and chronological full-deck sequencing limitations or make conservative transparent HOLD determination without false win rates",
-    "Complete M6.6/7 and I/J evidence before final M6 packet, verify official card legality/current Oracle and exact 100-card list before owner M7 request"
+    "Compare materially meaningful Ignus/Birgi conditional cascade against Assault/Chaos Warp and canonical incumbent role costs under actual paid-game constraints, if the simulator can cover relevant effects; otherwise document testing limitation",
+    "Retain identified low-cost/identity 40K payoffs and robust early red acceleration; do not auto-apply any of the 98 screened M5 swap rows",
+    "After M6.6/7 full completion, generate final replayable I/J evidence and independently verify proposed exact 100/Oracle/current legality before any owner M7 approval packet"
   ],
-  "summary": "Abaddon current interim engine/interaction decision after PR #516: Chaos Warp provides a real conditional resolved-stax answer, but no justified net-stronger cut. Corrected source costs Lost MV3 and Ruinous MV4; Lost additionally makes a Spawn from each fetched land put from library via seven canonical fetchlands, commander-zone cast and exile/graveyard casts. Otawara's channel must remain in hand; land-first zero availability was a biased policy artifact, so the registered reserve-channel policy reports 282/2000 approved baseline answer opportunities at T10 with 1297 aggregate land-drop forfeitures, vs 557-584/2000 for Warp challenger lists. This is neither stax frequency nor game performance. All candidates HOLD except retain Ruinous, no deck mutation or M6/7 certification."
+  "summary": "Four substantive candidate judgments now documented: Assault HOLD, Chaos Warp HOLD, Ruinous RETAIN, and Grinning Ignus PRIORITY TEST/HOLD following PR #518 16 passing source-locked rules tests. With Birgi front face and X>=3 Abaddon can grant cascade on repeated Ignus hand casts, but physical mana/access, actual exile casts and game outcome unknown. M5 had 98 swap rows/63 distinct additions. None authorizes a canonical change, independent review assertion, M6 certificate or M7 approval."
 }
