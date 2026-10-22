@@ -46,8 +46,8 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
             "formal_m6_certificate":False,"checked_at_utc":"2026-10-22T08:18:15Z",
             "canonical_authority_mode":"SHA_PINNED_CANONICAL_BYTES_NOT_LIVE_CROSS_REPO_READ"}
         cls.p0={
-            "replayed_case_count":61,"passed":61,"failed":0,
-            "open_required_count":2,"open_required_p0_cases":cls.inventory["required_open"],
+            "replayed_case_count":71,"passed":71,"failed":0,
+            "open_required_count":1,"open_required_p0_cases":cls.inventory["required_open"],
             "M6_6_certified":False,"owner_approved":False,
             "canonical_pinned_raw_sha256":PINNED,
             "registry_sha256":sha(ROOT/INVENTORY),
@@ -59,13 +59,13 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
 
     def test_expected_structural_state_unapproved_and_exact_five(self):
         self.assertEqual(len(self.cards),97)
-        self.assertEqual(len(self.inventory["replay_cases"]),61)
-        self.assertEqual({x["id"] for x in self.inventory["required_open"]},{"P0-026","P0-027"})
+        self.assertEqual(len(self.inventory["replay_cases"]),71)
+        self.assertEqual({x["id"] for x in self.inventory["required_open"]},{"P0-027"})
         self.assertEqual(self.oracle["card_identity_count"],97)
         self.assertEqual(verify_prerequisites()["approved_source_sha256"],PINNED)
         ans=validate_runtime(self.oracle,self.p0)
-        self.assertEqual(ans["phase_b_pass"],61)
-        self.assertEqual(ans["current_identified_open_P0"],2)
+        self.assertEqual(ans["phase_b_pass"],71)
+        self.assertEqual(ans["current_identified_open_P0"],1)
         self.assertEqual(ans["current_oracle_unique_names"],97)
         self.assertFalse(ans["all_99_game_effects_modeled"])
 
@@ -96,7 +96,7 @@ class AbaddonM6StrictPreflight(unittest.TestCase):
                 with self.assertRaises(PreflightFailure):
                     validate_runtime(oracle,self.p0)
 
-    def test_no_autocertification_with_two_other_open_ids(self):
+    def test_no_autocertification_with_prosper_open(self):
         pre=verify_prerequisites()
         self.assertIn("OWNER_EQUIVALENT_GPT6_NONINDEPENDENT_M6_5_ONLY",pre["pass_c_provenance"])
         self.assertFalse(json.loads((ROOT/DECISION).read_text())["owner_approved"])
