@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "kind": "ADMIRAL_BECKETT_BRASS_FAST_BOUNDED_P0_AND_CITY_COMPARISON",
+  "date": "2026-10-22",
+  "tracker_position": 2,
+  "deck_id": "Admiral_Beckett_Brass",
+  "canonical_authority": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "source_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+    "approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+    "approved_and_locked": true,
+    "approved_snapshot": "data/grixis/m6/next_commander/Admiral_Beckett_Brass_approved_source_snapshot.txt"
+  },
+  "unapproved_challenger": {
+    "path": "data/grixis/m6/next_commander/Admiral_Beckett_Brass_city_challenger.txt",
+    "adds": [
+      "City of Brass"
+    ],
+    "cuts": [
+      "Crumbling Necropolis"
+    ],
+    "review_status": "UNAPPROVED_QUALIFIED_PROPOSED_UPGRADE",
+    "origin": "data/grixis/m6/owner_pass_c_substitute/Admiral_Beckett_Brass/final_disposition.md"
+  },
+  "official_references": [
+    "https://magic.wizards.com/en/news/feature/ixalan-release-notes",
+    "https://magic.wizards.com/en/news/feature/the-lost-caverns-of-ixalan-release-notes",
+    "https://www.mtg.wtf/card/aer/87/Kari-Zev-Skyship-Raider",
+    "https://scryfall.com/card/5ed/389/city-of-brass"
+  ],
+  "preregistered_p0": [
+    {
+      "id": "C01",
+      "method": "test_C01_commander_anthem_qualified_trigger",
+      "assertion": "Other Pirate +1/+1 anthem but no self anthem, own end-step trigger after three distinct Pirates connect to one player, commander before end step, one legal target, permanent control change."
+    },
+    {
+      "id": "K01",
+      "method": "test_K01_distinct_damage_sources_per_opponent",
+      "assertion": "Three different Pirates combat-hit same opponent; double-strike not second unique Pirate; damage across two opponents cannot aggregate; controller not relevant at original damage time, and single trigger can steal one target only."
+    },
+    {
+      "id": "K02",
+      "method": "test_K02_roaming_throne_double_separate_targets",
+      "assertion": "Roaming Throne chosen Pirate makes Beckett triggered theft fire twice with separate legal targets, not two casts or duplicate a single stolen object; if no second target, remaining one resolves."
+    },
+    {
+      "id": "K03",
+      "method": "test_K03_kari_ragavan_monkey_not_pirate",
+      "assertion": "Kari Zev is a Pirate; her Ragavan Monkey token is not without a type-changing effect, is exiled at end of combat, and does not count as third Pirate to theft."
+    },
+    {
+      "id": "F01",
+      "method": "test_F01_fog_blockers_and_commander_removal",
+      "assertion": "A Fog or blocker prevents third qualifying source; removing Beckett before own end step prevents trigger, after trigger does not erase it; opponent removes legal target before trigger resolution, original ability fizzles unless alternate triggered instance legally targets distinct object."
+    }
+  ],
+  "preregistered_additional": [
+    {
+      "id": "CITY-T1",
+      "method": "test_city_turn_one_pirate_and_tapped_necropolis",
+      "assertion": "With physically present City of Brass T1 can tap for one black mana and cast Changeling Outcast, at one triggered self damage; freshly played Crumbling Necropolis always tapped and cannot cast."
+    },
+    {
+      "id": "CITY-T4",
+      "method": "test_city_turn_four_exact_pip_commander_access",
+      "assertion": "With physical Island, Swamp and Mountain, physically played fourth land City can pay {1}{U}{B}{R} turn4 while Necropolis cannot untap that turn; City tap causes one self damage."
+    },
+    {
+      "id": "CITY-COST",
+      "method": "test_city_damage_tradeoff_when_no_tempo_gain",
+      "assertion": "City damages controller on mana taps, Necropolis does not; when not using land on turn one, Necropolis untaps by next turn and can provide same colored pip without life damage. Not a proven win rate."
+    }
+  ],
+  "execution_contract": {
+    "source_paid": "Use source 100, 99 noncommander physical cards in exactly one zone, commander moved from own command zone to battlefield only after showing four untapped physical mana sources where relevant; other participants' permanents separate from player's 99.",
+    "opponent_scenarios": "Deterministic conditional external opponent permanent references and damage/fog assumptions, not genuine opponent sample probability.",
+    "no_large_study": true,
+    "unit_test_class": "AdmiralBeckettFastP0",
+    "unit_test_path": "tests/test_m6_admiral_beckett_fast_p0.py",
+    "new_tests": 8,
+    "ci_required": true
+  },
+  "limits": [
+    "P0 cases are bounded Oracle-backed rules interactions, not a complete actual game engine or all 13 P0+P1 inventory tests.",
+    "Five case IDs exactly match design-only authoritative 61 deck blueprint; 8 P1 remain designed/unexecuted and require individual relevance decisions.",
+    "City tempo cases show legal conditional opportunity, not deck-wide net superiority or measured win rate.",
+    "Engineering challenger is NOT an owner-approved list, no M6 I/J certification or M7 approval."
+  ]
+}
