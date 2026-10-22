@@ -31,6 +31,8 @@ SEALS="data/grixis/m6/sealed/reconciliation_manifest.json"
 PASS_C_DIR="data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler"
 SOURCE_MIRROR="exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt"
 BUNDLE="data/grixis/m6/bundles/abaddon-the-despoiler.json"
+COVERAGE="data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json"
+KNOWN_P0_GAPS={"P0-024","P0-025","P0-026","P0-027"}
 GATES=["M6.6","M6.7","M6.8","M6.9","M6.10"]
 
 
@@ -124,7 +126,9 @@ def verify_prerequisites():
 
 def validate_runtime(oracle, p0):
     inventory=load(ROOT/INVENTORY)
-    if len(inventory["replay_cases"])!=44 or inventory["required_open"] or inventory["completion_claim"]:
+    if (len(inventory["replay_cases"])!=44
+        or {x["id"] for x in inventory["required_open"]}!=KNOWN_P0_GAPS
+        or inventory["completion_claim"]):
         raise PreflightFailure("Current 44-P0 known-case inventory not closed")
     if inventory["authority"]["formal_m6_certified"] or inventory["authority"]["m6_6"]!="PARTIAL":
         raise PreflightFailure("P0 inventory claims premature milestone certification")
@@ -132,8 +136,8 @@ def validate_runtime(oracle, p0):
     expected={row["id"]:row for row in inventory["replay_cases"]}
     receipts=p0.get("case_receipts")
     if (p0.get("replayed_case_count")!=44 or p0.get("passed")!=44
-        or p0.get("failed")!=0 or p0.get("open_required_count")!=0
-        or p0.get("open_required_p0_cases")!=[]
+        or p0.get("failed")!=0 or p0.get("open_required_count")!=4
+        or {x["id"] for x in p0.get("open_required_p0_cases",[])}!=KNOWN_P0_GAPS
         or p0.get("M6_6_certified") is not False or p0.get("owner_approved") is not False
         or p0.get("canonical_pinned_raw_sha256")!=PINNED or
         p0.get("registry_sha256")!=sha(ROOT/INVENTORY) or
@@ -175,6 +179,23 @@ def validate_runtime(oracle, p0):
         combined.update(names)
     if combined!=set(data):
         raise PreflightFailure("Oracle 97-name coverage not exactly the full five lists")
+    coverage=load(ROOT/COVERAGE)
+    rows=coverage["names"]
+    if (coverage.get("expected_unique_names")!=97
+        or len(rows)!=97 or len({x["name"] for x in rows})!=97
+        or {x["name"] for x in rows}!=combined
+        or len([x for x in rows if x["baseline"]])!=94
+        or {x["id"] for x in coverage["identified_unresolved"]}!=KNOWN_P0_GAPS):
+        raise PreflightFailure("Every live Oracle card must have exactly one coverage row and four declared new P0")
+    baseline=set(parse_list(ROOT/SOURCE_MIRROR)[0])
+    for row in rows:
+        if row["baseline"]!=(row["name"] in baseline):
+            raise PreflightFailure("Coverage baseline card membership falsely classified: "+row["name"])
+        expected={"P0-024":"Wild-Magic Sorcerer","P0-025":"Nalfeshnee",
+                  "P0-026":"Passionate Archaeologist","P0-027":"Prosper, Tome-Bound"}
+        if row["name"] in expected.values():
+            if row.get("new_gap_id")!=next(k for k,v in expected.items() if v==row["name"]) or row["coverage_class"]!="IDENTIFIED_MATERIAL_P0_GAP":
+                raise PreflightFailure("False mandatory card gap classification")
     for name,c in data.items():
         oracle_text=c.get("oracle_text","")
         if (c.get("commander_legality")!="legal" or not set(c.get("color_identity",[])) <= {"B","R","U"}
@@ -183,7 +204,7 @@ def validate_runtime(oracle, p0):
             raise PreflightFailure("Oracle current legality/identity/text hash violation: "+name)
 
     return {"phase_b_actual_named_P0_methods":44,"phase_b_pass":44,
-        "current_identified_open_P0":0,
+        "current_identified_open_P0":4,
         "current_oracle_unique_names":97,"full_physical_lists":5,
         "current_oracle_checked_at_utc":oracle["checked_at_utc"],
         "oracle_input_sha256":None, "p0_input_sha256":None,
@@ -204,7 +225,7 @@ def build(oracle_path,p0_path):
         "source_integrity":static,"runtime_verification":dynamic,
         "quality_gates":{
            "M6_5":"PASS_OWNER_WAIVER_NONINDEPENDENT",
-           "M6_6":"P0_REGISTERED_CASE_REPLAY_COMPLETE_FORMAL_COMPLETENESS_PENDING",
+           "M6_6":"44_HISTORICAL_P0_PASS_FOUR_NEW_COMMANDER_CORE_P0_PENDING_FORMAL_COMPLETENESS_PENDING",
            "M6_7":"AUTHORED_CONFLICT_RECONCILED_FORMAL_JUDGMENT_GATE_PENDING",
            "M6_8_I":"BLOCKED_PLAUSIBLE_POSITIVE_SWAP_POOL_NOT_ZERO_IMPROVEMENT",
            "M6_9_J":"BLOCKED_NO_COMPLETE_EFFECT_AWARE_FINAL_BUNDLE",
@@ -212,7 +233,7 @@ def build(oracle_path,p0_path):
            "M7":"NO_NEW_OWNER_APPROVAL",
         },
         "remaining_material_dependencies":[
-           "M6.6 completeness audit: 44 conditional source-paid P0 cases do not model all 99 card effects or adversarial multiplayer game states.",
+           "M6.6: four new unexecuted critical exile-trigger mechanic groups (Wild-Magic, Nalfeshnee, Passionate Archaeologist, Prosper); previous 44 cases remain passing.",
            "M6.7 material contradiction with historical Pass C Assault proposal reconciled narratively, but comparative strength remains qualitative, not measured net-game superiority.",
            "M6 I cannot certify original baseline local optimum while a plausible two-swap challenger remains and exact tested pool is not declared closed for local optimum.",
            "M6 J complete schema requires durable rules/Oracle/legality snapshots, fully reconciled decision-grade Phase B effect coverage, mana/red-team stress and exact result logical hashes. Actions evidence artifacts expire.",
@@ -232,6 +253,7 @@ def main():
     args.out.write_text(json.dumps(report,sort_keys=True,indent=2)+"\n",encoding="utf-8")
     print("ABADDON_M6_PREFLIGHT_PASS",json.dumps({
         "P0_verified":report["runtime_verification"]["phase_b_pass"],
+        "P0_open_new":report["runtime_verification"]["current_identified_open_P0"],
         "oracles":report["runtime_verification"]["current_oracle_unique_names"],
         "complete_decks":report["runtime_verification"]["full_physical_lists"],
         "M6_certified":False,"M6_I_pass":False,"M6_J_complete":False,

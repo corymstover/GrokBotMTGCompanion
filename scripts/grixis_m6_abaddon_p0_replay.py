@@ -34,7 +34,7 @@ def registry_check(doc: dict):
     ids = [x["id"] for x in items + remaining]
     if len(ids) != len(set(ids)):
         raise P0GateError("Duplicate P0 case IDs")
-    if len(items) != 44 or len(remaining) != 0:
+    if len(items) != 44 or len(remaining) != 4:
         raise P0GateError("Current inventory changed without a plan update")
     if not all(row["status"] == "REQUIRED_UNEXECUTED" for row in remaining):
         raise P0GateError("Unrun P0 case was marked completed")
@@ -68,8 +68,12 @@ def registry_check(doc: dict):
     expected_call = {"test_" + row["id"] for row in call_plan["cases"]}
     if len(new_call) != 8 or {r["test_method"].split(".", 1)[-1] for r in new_call} != expected_call:
         raise P0GateError("P0-021 test set differs from preregistration")
-    if remaining:
-        raise P0GateError("Known open P0 obligations missing")
+    if {x["id"] for x in remaining} != {"P0-024","P0-025","P0-026","P0-027"}:
+        raise P0GateError("Four newly discovered P0 obligations must remain explicitly open")
+    coverage_path = ROOT / "data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json"
+    coverage = json.loads(coverage_path.read_text(encoding="utf-8"))
+    if {x["id"] for x in coverage["identified_unresolved"]} != {x["id"] for x in remaining}:
+        raise P0GateError("P0 coverage source and registered gaps diverged")
     parent = doc.get("newly_covered_parent_topics", [])
     if len(parent) != 3 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
         raise P0GateError("P0-021 grouping/parent receipt incomplete")

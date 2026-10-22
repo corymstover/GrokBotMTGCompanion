@@ -32,3 +32,18 @@ Input receipts for all 62 from M5 exist and the sealed A/B commit provenance and
 ## Next action, with no further simulation treadmill
 
 Review this exactly bounded P0 inventory for any missing **decision-changing** official rules cases; explicitly scope full-99 and opposing-deck simulation as non-modeled. Repair real omissions if found. Bind the actual fresh CI Oracle/P0 bytes (SHA-256 and source SHAs) in the new runnable `grixis_m6_abaddon_preflight.py` receipt, validate owner waiver/A-B seals, and retain the positive-swap M6 I block. Then prepare a proper final M6 packet **only if** effect-aware evidence, judgment, versioned rules snapshot, and source integrity satisfy the complete J contract. No user approval solicited at this preflight stage.
+
+## Subsequent 97-card effect coverage audit — supersedes historical *zero open* inventory
+
+A post-PR #551 named-card sweep now enumerates the **complete union of 97 physical card names** across the approved and four staged 100-card lists at `data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json`. The earlier 44/44 exact-head PASS results remain correct and unmodified, but the previous **0 identified open cases** was *only true of the then-registered* P0 inventory, **not** the wider deck. The whole-list audit exposes these previously unregistered material core mechanics:
+
+- `P0-024` — **Wild-Magic Sorcerer** grants cascade to the first spell actually cast from exile in a turn. That nested spell/cascade stack is potentially decision-changing when an Abaddon-granted hand spell cascades into a card from exile. Official original Commander ruling: https://media.wizards.com/2021/downloads/AFR_Release_Notes/EN_MTGAFR_ReleaseNotes_07042021.pdf
+- `P0-025` — **Nalfeshnee** copies exile-cast spells; spell copies (including copies of permanents) are **not additional casts** and should not independently create extra cascade/Lost/Keeper triggers. For copied permanents the end-step sacrifice clause is real. Oracle https://mtg.wtf/card/clb/678/Nalfeshnee
+- `P0-026` — **Passionate Archaeologist** grants the controlled commander creature targeted damage based on a spell cast from exile. It does not fire from spell copies and requires the appropriate owned commander in play. Oracle https://mtg.wtf/card/sld/2220/Passionate-Archaeologist
+- `P0-027` — **Prosper, Tome-Bound** makes Treasures on *playing* from exile, including spells cast via cascade and lands played via permission. Land plays are not spell casts. Oracle https://mtg.wtf/card/afc/2/Prosper-Tome-Bound
+
+**Updated status: 44 already-executed P0 cases PASS, FOUR distinct mandatory new P0 classes OPEN, M6.6 PARTIAL.** The source-audited 97-card classification groups 17 cards with explicitly linked limited P0 case coverage, 76 names with verified Oracle/legality (and some older partial modeling), and four identified specific high-priority gaps. Such counts are evidence taxonomy, not a percentage of fully modeled cards. Future testing must explicitly preregister and execute the four missing mechanics, then repeat an honest completeness audit.
+
+**M6 I explicitly blocked:** `scripts/grixis_m6_abaddon_i_blocked.py` independently validates a schema-valid `blocked` negative receipt, binding two genuine full-100 contenders, the correct canonical M5 logical hash, live source portfolio SHA, currently open four P0 obligations and the unfinished comparative strategic decision. It prohibits treating either 44 mechanical PASSes or a non-result in an incomplete performance simulator as a certificate of tested-pool local optimum. M6 J remains blocked; no new owner approval is inferred.
+
+Historical sections above record the state **before** this discovery, not the final current P0 count.
