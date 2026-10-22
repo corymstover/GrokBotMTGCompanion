@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Marchesa__the_Black_Rose",
+  "order": 36,
+  "commanders": [
+    "Marchesa, the Black Rose"
+  ],
+  "strategy": {
+    "primary": "+1/+1-counter aristocrats: put counters on creatures (dethrone, Thran Vigil, Metallic Mimic, Forge of Heroes), sacrifice them for mana, cards and damage, let Marchesa return countered creatures at end step, and use counters to reset persist creatures into sacrifice loops.",
+    "secondary": "Drain payoffs (Blood Artist, Mayhem Devil, Gray Merchant, Syr Konrad, Grave Pact) and Sneak Attack/Imperial Recruiter to find loop pieces."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Marchesa, the Black Rose",
+      "oracle_id": "17a59d3d-9e01-48cd-bb4a-3eaaa077751c",
+      "oracle_text": "Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)\nOther creatures you control have dethrone.\nWhenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.",
+      "oracle_sha256": "sha256:c6813ffd0f6e5425c49f2051870355d21fec546fcaca710f0024a124def81496",
+      "type_line": "Legendary Creature — Human Wizard"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Marchesa, the Black Rose",
+      "why": "Team dethrone and end-step return for countered creatures.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Marchesa, the Black Rose"
+      ]
+    },
+    {
+      "card": "Thran Vigil",
+      "why": "Counter source that turns persist creatures into loops.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:2131-2292--5"
+      ]
+    },
+    {
+      "card": "Murderous Redcap",
+      "why": "Persist damage creature at the centre of the kills.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:1657-5805"
+      ]
+    },
+    {
+      "card": "Mikaeus, the Unhallowed",
+      "why": "Undying for the team.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:628-2034--5"
+      ]
+    },
+    {
+      "card": "Phyrexian Altar",
+      "why": "Free outlet that makes mana.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "source_archive:refinement/decisions/Marchesa_the_Black_Rose_Current_Cycle_Decisions_2026-10-15.md"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/marchesa-the-black-rose.json",
+    "blueprint_blob": "c1608d40ebe32e1885b2dacaf6e6ae2a5060301c",
+    "canonical_source_path": "refinement/decklists/Marchesa_the_Black_Rose_Approved_2026-10-15.txt",
+    "canonical_source_blob": "e21039369a86dc2160dcf92155a5fbe0fa847bef",
+    "canonical_approved_sha256": "627b07f6466c0a48f16daea58ee9c01bba02c2b7fb4de76a37b14a7f75ad7f9b",
+    "canonical_record_key": "Marchesa__the_Black_Rose",
+    "registry_raw_matches": true,
+    "source_card_lines": 98,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:marchesa-the-black-rose#commanders.value[0]",
+      "scenario": "Marchesa, the Black Rose",
+      "expected_claim_to_verify": "Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)\nOther creatures you control have dethrone.\nWhenever a creature you control with a +1/+1 counter on it dies, return that card to the battlefield under your control at the beginning of the next end step.",
+      "cards": [
+        "Marchesa, the Black Rose"
+      ],
+      "found_in_source_export": [
+        "Marchesa, the Black Rose"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[0]",
+      "scenario": "counter-return",
+      "expected_claim_to_verify": "Only creatures with a +1/+1 counter return, at the next end step, under your control.",
+      "cards": [
+        "Marchesa, the Black Rose"
+      ],
+      "found_in_source_export": [
+        "Marchesa, the Black Rose"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[1]",
+      "scenario": "dethrone-team",
+      "expected_claim_to_verify": "Dethrone on the team only triggers attacking the player with the most life.",
+      "cards": [
+        "Marchesa, the Black Rose"
+      ],
+      "found_in_source_export": [
+        "Marchesa, the Black Rose"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[2]",
+      "scenario": "persist-reset",
+      "expected_claim_to_verify": "A +1/+1 counter cancels a -1/-1 counter, so persist can trigger again.",
+      "cards": [
+        "Thran Vigil",
+        "Metallic Mimic",
+        "Murderous Redcap"
+      ],
+      "found_in_source_export": [
+        "Thran Vigil",
+        "Metallic Mimic",
+        "Murderous Redcap"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[3]",
+      "scenario": "yawgmoth-gary",
+      "expected_claim_to_verify": "Mikaeus + Yawgmoth + Gray Merchant is an infinite drain.",
+      "cards": [
+        "Mikaeus, the Unhallowed",
+        "Gray Merchant of Asphodel"
+      ],
+      "found_in_source_export": [
+        "Mikaeus, the Unhallowed",
+        "Gray Merchant of Asphodel"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[4]",
+      "scenario": "redcap-no-outlet",
+      "expected_claim_to_verify": "Murderous Redcap + Gev/Metallic Mimic (Goblin)/Uncivil Unrest loops with no outlet needed.",
+      "cards": [
+        "Murderous Redcap",
+        "Gev, Scaled Scorch",
+        "Metallic Mimic",
+        "Uncivil Unrest"
+      ],
+      "found_in_source_export": [
+        "Murderous Redcap",
+        "Gev, Scaled Scorch",
+        "Metallic Mimic",
+        "Uncivil Unrest"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[5]",
+      "scenario": "sneak-attack-return",
+      "expected_claim_to_verify": "A creature sacrificed by Sneak Attack at end step returns a turn later, permanently, if it has a +1/+1 counter.",
+      "cards": [
+        "Sneak Attack",
+        "Marchesa, the Black Rose"
+      ],
+      "found_in_source_export": [
+        "Sneak Attack",
+        "Marchesa, the Black Rose"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K7",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:marchesa-the-black-rose#key_interactions[6]",
+      "scenario": "flare-pitch",
+      "expected_claim_to_verify": "Flare of Denial can sacrifice a countered blue creature that Marchesa returns.",
+      "cards": [
+        "Flare of Denial",
+        "Glen Elendra Archmage",
+        "River Kelpie"
+      ],
+      "found_in_source_export": [
+        "Flare of Denial",
+        "Glen Elendra Archmage",
+        "River Kelpie"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:marchesa-the-black-rose#engines[0]",
+      "scenario": "dethrone-return",
+      "expected_claim_to_verify": "Countered creatures dying with Marchesa in play.",
+      "cards": [
+        "Marchesa, the Black Rose",
+        "Thran Vigil",
+        "Metallic Mimic",
+        "Forge of Heroes",
+        "The Ozolith"
+      ],
+      "found_in_source_export": [
+        "Marchesa, the Black Rose",
+        "Thran Vigil",
+        "Metallic Mimic",
+        "Forge of Heroes",
+        "The Ozolith"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:marchesa-the-black-rose#engines[1]",
+      "scenario": "sac-value",
+      "expected_claim_to_verify": "Sacrifice outlet and fodder.",
+      "cards": [
+        "Phyrexian Altar",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Viscera Seer",
+        "Carrion Feeder",
+        "Altar of Dementia",
+        "Skullclamp",
+        "Pitiless Plunderer",
+        "Grim Haruspex"
+      ],
+      "found_in_source_export": [
+        "Phyrexian Altar",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Viscera Seer",
+        "Carrion Feeder",
+        "Altar of Dementia",
+        "Skullclamp",
+        "Pitiless Plunderer",
+        "Grim Haruspex"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:marchesa-the-black-rose#win_conditions[0]",
+      "scenario": "persist-reset-loops",
+      "expected_claim_to_verify": "A persist creature plus a counter source (Thran Vigil, Metallic Mimic, Gev, Uncivil Unrest) and a sacrifice outlet loops for unbounded death triggers; Murderous Redcap or Goblin Bombardment kills.",
+      "cards": [
+        "Thran Vigil",
+        "Metallic Mimic",
+        "Gev, Scaled Scorch",
+        "Uncivil Unrest",
+        "Murderous Redcap",
+        "Viscera Seer",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Carrion Feeder",
+        "Altar of Dementia"
+      ],
+      "found_in_source_export": [
+        "Thran Vigil",
+        "Metallic Mimic",
+        "Gev, Scaled Scorch",
+        "Uncivil Unrest",
+        "Murderous Redcap",
+        "Viscera Seer",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Carrion Feeder",
+        "Altar of Dementia"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:marchesa-the-black-rose#win_conditions[1]",
+      "scenario": "mikaeus-loops",
+      "expected_claim_to_verify": "Mikaeus, the Unhallowed with a sacrifice outlet loops undying creatures; with Blood Artist/Warren Soultrader, Sage of Fables or Yawgmoth + Gray Merchant.",
+      "cards": [
+        "Mikaeus, the Unhallowed",
+        "Ashnod's Altar",
+        "Viscera Seer",
+        "Goblin Bombardment",
+        "Blood Artist",
+        "Warren Soultrader",
+        "Sage of Fables",
+        "Gray Merchant of Asphodel"
+      ],
+      "found_in_source_export": [
+        "Mikaeus, the Unhallowed",
+        "Ashnod's Altar",
+        "Viscera Seer",
+        "Goblin Bombardment",
+        "Blood Artist",
+        "Warren Soultrader",
+        "Sage of Fables",
+        "Gray Merchant of Asphodel"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:marchesa-the-black-rose#win_conditions[2]",
+      "scenario": "spark-double-loops",
+      "expected_claim_to_verify": "Spark Double copies of persist creatures, or Flayer of the Hatebound + Sage of Fables, with an Altar.",
+      "cards": [
+        "Spark Double",
+        "Murderous Redcap",
+        "Glen Elendra Archmage",
+        "River Kelpie",
+        "Puppeteer Clique",
+        "Flayer of the Hatebound",
+        "Sage of Fables",
+        "Ashnod's Altar",
+        "Altar of Dementia"
+      ],
+      "found_in_source_export": [
+        "Spark Double",
+        "Murderous Redcap",
+        "Glen Elendra Archmage",
+        "River Kelpie",
+        "Puppeteer Clique",
+        "Flayer of the Hatebound",
+        "Sage of Fables",
+        "Ashnod's Altar",
+        "Altar of Dementia"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:marchesa-the-black-rose#failure_modes[0]",
+      "scenario": "graveyard-exile",
+      "expected_claim_to_verify": "Exile removal and graveyard hate stop persist and Marchesa returns.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Many redundant loops",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:marchesa-the-black-rose#failure_modes[1]",
+      "scenario": "marchesa-removed",
+      "expected_claim_to_verify": "Losing Marchesa removes dethrone and recursion.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Commander-free loops",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:marchesa-the-black-rose#failure_modes[2]",
+      "scenario": "counter-hate",
+      "expected_claim_to_verify": "Counter removal or -1/-1 effects disrupt the resets.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Multiple counter sources",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 16,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
