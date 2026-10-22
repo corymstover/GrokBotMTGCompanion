@@ -29,7 +29,7 @@
   "expected_unique_names": 97,
   "expected_baseline_names": 94,
   "expected_baseline_cards": 100,
-  "stage": "88_CURRENT_NAMED_P0_REGISTERED_AND_SEVEN_COPY_AWARE_STORM_KILN_CASES_UNEXECUTED_IN_CI_M6_6_PARTIAL",
+  "stage": "95_REGISTERED_P0_METHODS_ONE_MIND_DESIRE_STORM_COPY_IMPULSE_GROUP_AWAITING_CI_M6_6_PARTIAL",
   "coverage_semantics": {
     "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
     "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
@@ -763,8 +763,16 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL"
+      "p0_direct_case_ids": [
+        "P0-029a",
+        "P0-029b",
+        "P0-029c",
+        "P0-029d",
+        "P0-029e",
+        "P0-029f",
+        "P0-029g"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Misty Rainforest",
@@ -1502,9 +1510,10 @@
     "Every P0 association is a case illustration, not a per-card comprehensive ability correctness proof.",
     "No empirical multiplayer policy or win-rate estimates.",
     "Historical 81-case known-P0 closure did not encompass Storm-Kiln Magecraft spell-copy trigger; newly 7 registered methods target this material omission.",
-    "Only 22 of 97 names have direct selected bounded P0 rule scenarios, 75 names remain Oracle/legality only or old partial models; not full source-effect simulation."
+    "Only 22 of 97 names have direct selected bounded P0 rule scenarios, 75 names remain Oracle/legality only or old partial models; not full source-effect simulation.",
+    "Previous P0-028 88 methods did not directly cover Mind's Desire storm copies' distinct physical exile permissions. Seven conditional source-paid methods added; 74 names still Oracle/prior partial model only."
   ],
-  "next_action": "Require actual exact-head 88-case replay and 97-name Oracle/coverage checks, then finish critical nonmodeled role audit before formal M6.6 sufficiency.",
+  "next_action": "Run actual 95 named source cases, live 97 Oracle; source-level unmodeled effects remain and do not claim formal M6.6/7 certification.",
   "newly_registered_tested_P0": [
     {
       "card": "Wild-Magic Sorcerer",
@@ -1609,6 +1618,23 @@
         "P0-028e",
         "P0-028f",
         "P0-028g"
+      ]
+    },
+    {
+      "id": "P0-029",
+      "card": "Mind's Desire",
+      "gap": "Printed storm and copies exile separate physically shuffled library cards, grant delayed free-cost play permissions, and trigger Storm-Kiln Magecraft; no retroactive Abaddon cascade or extra on-cast triggers from virtual copies.",
+      "status": "REGISTERED_FOR_EXACT_HEAD_CI_NOT_COMPLETE",
+      "test_methods": 7,
+      "plan": "data/grixis/m6/phase_b_plans/abaddon_p0_minds_desire_20261022.json",
+      "case_ids": [
+        "P0-029a",
+        "P0-029b",
+        "P0-029c",
+        "P0-029d",
+        "P0-029e",
+        "P0-029f",
+        "P0-029g"
       ]
     }
   ]
