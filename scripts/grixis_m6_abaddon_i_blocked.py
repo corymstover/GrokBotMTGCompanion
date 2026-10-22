@@ -30,9 +30,9 @@ def build():
     inv=load(ROOT/INVENTORY)
     p=load(ROOT/DECISION)
     audit=load(ROOT/COVERAGE)
-    if (len(inv["replay_cases"])!=71 or
-        {x["id"] for x in inv["required_open"]}!={"P0-027"} or
-        len(audit["identified_unresolved"])!=1 or inv["authority"]["formal_m6_certified"]):
+    if (len(inv["replay_cases"])!=81 or
+        {x["id"] for x in inv["required_open"]}!=set() or
+        len(audit["identified_unresolved"])!=0 or inv["authority"]["formal_m6_certified"]):
         raise BlockedCertificateFailure("Source completeness inventory must remain truthful")
     if sha(ROOT/SNAPSHOT)!=PINNED or p["canonical"]["approved_sha256"]!=PINNED:
         raise BlockedCertificateFailure("Canonical 100 deck SHA drift")
@@ -72,7 +72,7 @@ def build():
       "local_optimum_for_tested_pool":False,
       "certificate_status":"blocked",
       "blockers":[
-         "One source-identifiable exile-play payoff (Prosper, Tome-Bound) remains unexecuted; 61 earlier methods and ten Archaeologist cases do not establish a complete game or tested-pool local optimum.",
+         "All 81 currently registered bounded P0 case methods can pass without full 99-card effect coverage or evidence that the original baseline is a tested-pool local optimum.",
          "Two plausible exact 100-card challenger packages are not a closed effect-aware matched-game pool. The improving-substitution field is FALSE meaning not *proven*, not a proved absence of an improvement.",
          "Current baseline already has an authored plausible commander-first upgrade, so declaring zero improvement on it would be premature.",
          "Owner approval not given for current M7 proposed exact 100; do not conflate M6 evidence with M7 authority.",
@@ -98,7 +98,7 @@ def check(d):
         d["candidate_pool"]["source_sha256"]!="sha256:"+sha(ROOT/DECISION) or
         d["candidate_pool"]["tested_pool_size"]!=2 or
         set(d["phase_b"]["test_refs"])!={x["test_file"] for x in inv["replay_cases"]} or
-        len(d["unresolved_requires_human_judgment"])!=3 or
+        len(d["unresolved_requires_human_judgment"])!=2 or
         any(x["id"] not in "\n".join(d["unresolved_requires_human_judgment"]) for x in inv["required_open"]) or
         current["owner_approved"]):
         raise BlockedCertificateFailure("M6 I blocked receipt violates fixed source/authority gates")
@@ -114,7 +114,7 @@ def main():
     args.out.write_text(json.dumps(receipt,indent=2,ensure_ascii=False,sort_keys=True)+"\n",encoding="utf-8")
     check(load(args.out))
     print("ABADDON_M6_I_BLOCKED_SCHEMA_PASS",json.dumps({
-        "status":receipt["certificate_status"],"open_mechanics":1,
+        "status":receipt["certificate_status"],"open_mechanics":0,
         "tested_pool_size":2,"m6_i_certified":False,
         "file_sha256":sha(args.out),"path":str(args.out)},sort_keys=True))
 
