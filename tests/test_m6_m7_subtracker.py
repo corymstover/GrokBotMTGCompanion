@@ -82,6 +82,11 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
+ assert len(t["m6"]["phase_b_additional_evidence"])==2
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512}
+ assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
+ assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
+ assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
  assert t["update_contract"]["prefer_live_registry_and_evidence_over_this_snapshot"]
  assert t["update_contract"]["never_accept_a_milestone_or_modify_canonical_decks_from_tracker_update"]
  for milestone in ("m6","m7"):
@@ -187,6 +192,31 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertTrue(any("abaddon_phase_b_decisions_20261021.json" in x for x in gate["evidence"]))
   self.assertEqual(self.t["display"]["m6_partial_gates"],2)
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
+ def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
+  records=self.t["m6"]["phase_b_additional_evidence"]
+  r,a=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"]),(511,512))
+  self.assertEqual(r["deterministic_tests"],14)
+  self.assertEqual(a["unit_tests"],11)
+  self.assertEqual(a["samples_per_variant"],2000)
+  self.assertTrue((ROOT/r["evidence"]).is_file())
+  self.assertTrue((ROOT/a["evidence"]).is_file())
+  self.assertTrue((ROOT/a["preregistration"]).is_file())
+  self.assertFalse(r["full_multiplayer_gameplay"])
+  self.assertFalse(a["real_combo_casting"])
+  self.assertFalse(a["superiority_proven"])
+  self.assertEqual(a["turn_10"]["baseline_rakdos"]["individual_land_payable"],254)
+  self.assertEqual(a["turn_10"]["assault_for_rakdos"]["individual_land_payable"],336)
+  self.assertEqual(a["turn_10"]["assault_for_lost"]["individual_land_payable"],348)
+  self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
+  self.assertEqual(self.t["m7"]["formal_m7_review_decisions"],0)
+  d=json.loads((ROOT/"data/grixis/m6/judgment_reviews/abaddon_phase_b_decisions_20261021.json").read_text())
+  ab=next(x for x in d["candidates"] if x["card"]=="Aggravated Assault")
+  self.assertFalse(ab["approved_swap"])
+  self.assertEqual(ab["access_observation"]["verdict"],"EASIER_ASSAULT_CAST_SOURCE_AVAILABILITY_OBSERVED_BUT_COMBO_VALUE_AND_BEST_CUT_UNPROVEN")
+  self.assertIsNone(ab["access_observation"]["gameplay_win_rate"])
+  self.assertEqual(self.t["m6"]["gates"][5]["status"],"PARTIAL")
+  self.assertEqual(self.t["m6"]["gates"][6]["status"],"PARTIAL")
  def test_no_canonical_reapproval_claim(self):
   self.assertIn("do not count",self.t["accounting"]["warning"].lower())
   self.assertEqual(self.t["accounting"]["canonical_approved_locked"],62)

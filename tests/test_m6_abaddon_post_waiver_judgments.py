@@ -73,7 +73,7 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertEqual(self.progress["m6"]["gates"][4]["status"],"COMPLETE")
         self.assertEqual(self.progress["m6"]["gates"][4]["completion_basis"],"OWNER_AUTHORIZED_NONINDEPENDENT_PASS_C_SUBSTITUTE")
         self.assertEqual(self.progress["m6"]["gates"][5]["status"],"PARTIAL")
-        self.assertEqual(self.progress["m6"]["gates"][6]["status"],"BLOCKED")
+        self.assertEqual(self.progress["m6"]["gates"][6]["status"],"PARTIAL")
         self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
         self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
         self.assertEqual(self.progress["accounting"]["canonical_approved_locked"],62)
