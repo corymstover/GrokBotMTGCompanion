@@ -276,7 +276,16 @@
       }
     },
     "readiness": {
-      "const": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+      "type": "string",
+      "enum": [
+        "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+        "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE"
+      ],
+      "description": "Only READY packets may be presented for exact owner approval; low-swap or owner-objected historical records must be explicitly withdrawn."
+    },
+    "withdrawal_reason": {
+      "$ref": "#/$defs/meaningful",
+      "description": "Mandatory by semantic gate for withdrawn historical research-only packets; does not grant owner approval."
     }
   },
   "$defs": {
