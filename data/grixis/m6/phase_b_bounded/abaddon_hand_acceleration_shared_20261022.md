@@ -1,0 +1,25 @@
+# Abaddon M6.6 — hand-paid acceleration joined to Ignus/12-effect physical cascade subset
+
+**Preregistered:** `data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json`, first written at Git commit `bec03340d476bd65063410dfad0df081c36bf423` **before simulation implementation**. Pre-CI correction `4c3476f7dcb906cf04d376fcd6a53a29329abf4d`: remove apparent per-turn commander presence from control measurements because predecessor only exposes its end-state field, which otherwise backdates a cast.
+
+**Authority:** frozen Abaddon 100 (commander + 99) SHA-256 `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`; frozen physical source SHA-256 `5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff`. The canonical approval cannot be overwritten by this exploratory study. M6.6 and M6.7 remain PARTIAL.
+
+## Test design
+
+This experiment takes PR #524's **already merged, proven-physical, source-paid** Abaddon/Birgi/Grinning-Ignus/MV3-cascade pilot and adds a conservative paid **hand acceleration** phase before the existing engine-first or burn-first named-spell casts. The experiment is **paired against an unmodified execution of the actual PR #524 predecessor**, not an independent or recomputed approximation. Both policies use identical deterministic 99-card randomized opening hands and turns, one registered land drop/turn, actual Grixis land payment and fetched/physical library, and ten own turns. Five proposed single-slot physical deck configurations (including the approved baseline) are held constant across each paired mode. A complete 12-card cascade-hit effects subset remains inherited from PR #524.
+
+New hand-held physical mana spell subset:
+- `Lotus Petal` `{0}`: enters, immediately taps/sacrifices for **one red** under declared fixed pilot choice, moves to graveyard, never remains as phantom untapped source.
+- `Sol Ring` `{1}`: actually pay generic, enter and tap **once** for `{C}{C}`. On later own turns, it untaps and adds two colorless under fixed pilot auto-tap policy. Its mana never pays a missing U/B/R pip.
+- `Mana Vault` `{1}`: pay generic, enter and tap **once** for `{C}{C}{C}`. It **does not untap normally**, and the optional upkeep `{4}` untap is deliberately *not simulated*. While tapped, each later modeled draw step causes **one pilot damage**, tracked separately.
+- `Dark Ritual` `{B}`: pay black, resolve exactly three black to same main-phase mana pool, card physically into graveyard.
+- `Cabal Ritual` `{1}{B}`: pay cost from real sources; resolve three black or five black only if own graveyard **already** has seven cards before resolving it. No imagined threshold.
+- `Rite of Flame` `{R}`: pay red, resolve two red plus one per OTHER Rite of Flame already in tracked graveyards, then card to graveyard. Singleton and unknown opponents' graveyards mean normal modeled output is two red.
+
+Birgi adds one red on each hand-cast accelerant if **Birgi was already controlled when it was cast**. This mana remains in the same physical pool as the subsequent Abaddon, burn, Rakdos and proposed Ignus casts; no untapped source is paid twice. The same deck/mana zones and first-eligible-card cascade exiling from PR #524 remain operative. Physical identity conservation is checked after each turn.
+
+**Expected biases:** The six spells are cast at the beginning of the main phase in the fixed order Petal, Ring, Vault, Dark Ritual, Cabal Ritual, Rite. This can spend early red/black or generic mana inefficiently and intentionally does not implement optimal strategic sequencing, future tutor destinations or holding rituals until burn has resolved. The source-payment solver chooses minimal land taps, then lower modeled source-life loss/land indices; it has no comprehensive lookahead to preserve colored land availability for Abaddon. The model still omits Chrome Mox imprint, Lion's Eye Diamond hand discard, Arcane Signet and Talisman hand accelerants, other hand-cast Abaddon cascade triggers, Neheb/Loyal/postcombat Assault, stack interaction, protection, cast timing at opponent turns, mulligans, death, and all unmodeled 99-card spells. The pilot survives by assumption, not an actual life-total/40-point opponent win game.
+
+**No outcome claims:** Even a positive gain in paid Ignus cascades measures only these exact deterministic paid-cost pilot policies. It does NOT estimate multiplayer win probability, does NOT prove Grinning Ignus superior to Rakdos/Nightscape Familiar/Rite, and does NOT authorize any M7 deck swap. The approved baseline remains 62/62 locked across the project. The owner-equivalent Pass C formal waiver is only for nonindependent reviewer substitution; it does not waive Phase B accuracy or owner final deck signoff.
+
+**Oracle basis:** Frozen canonical `refinement/tests/Abaddon_Current_Card_Audit_2026-10-13.csv` (Dark Ritual, Cabal Ritual, Rite of Flame, Sol Ring, Mana Vault, Lotus Petal); GitHub M6 physical source graph `data/grixis/graph/abaddon-the-despoiler.json`; source/paid access and actual 12-effect predecessors.
