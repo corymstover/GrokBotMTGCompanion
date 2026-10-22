@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "date_local": "2026-10-21",
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M6_6_PRECOMMITTED_BOUNDED_IGNUS_BIRGI_COMMANDER_REVIEW",
+  "canonical_approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "frozen_source_path": "exports/grixis-archidekt/source-baseline/abaddon-the-despoiler.txt",
+  "frozen_source_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+  "candidate_packet": "data/grixis/m6/review_packets/abaddon-the-despoiler.json",
+  "packet_expected": {
+    "swap_records": 98,
+    "unique_candidate_cards": 63
+  },
+  "existing_support": [
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Abaddon the Despoiler",
+    "The Lost and the Damned",
+    "Prosper, Tome-Bound",
+    "Keeper of Secrets",
+    "Passionate Archaeologist",
+    "Nightscape Familiar",
+    "Brain Freeze"
+  ],
+  "physical_variants": [
+    {
+      "id": "approved",
+      "cut": null,
+      "add": null
+    },
+    {
+      "id": "ignus_for_rakdos",
+      "cut": "Rakdos, Lord of Riots",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "ignus_for_nightscape_familiar",
+      "cut": "Nightscape Familiar",
+      "add": "Grinning Ignus"
+    },
+    {
+      "id": "ignus_for_rite_of_flame",
+      "cut": "Rite of Flame",
+      "add": "Grinning Ignus"
+    }
+  ],
+  "source_verification": [
+    {
+      "card": "Grinning Ignus",
+      "cost": "{2}{R}",
+      "oracle": "{R}, Return Grinning Ignus to its owner's hand: Add {C}{C}{R}. Activate only as a sorcery.",
+      "ref": "https://media.wizards.com/2021/downloads/STX_Release_Notes/EN_MTGSTX_FAQ_04122021.pdf"
+    },
+    {
+      "card": "Birgi, God of Storytelling",
+      "cost": "{2}{R}",
+      "oracle": "Whenever you cast a spell, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
+      "ref": "https://media.wizards.com/2021/downloads/KHM_Release_Notes/EN_MTGKHM_ReleaseNotes_20210113.pdf"
+    },
+    {
+      "card": "Abaddon the Despoiler",
+      "cost": "{2}{U}{B}{R}",
+      "oracle": "During your turn, spells you cast from your hand with mana value X or less have cascade, where X is the total amount of life your opponents have lost this turn.",
+      "ref": "https://mtg.wtf/card/40k/171/Abaddon-the-Despoiler"
+    },
+    {
+      "card": "Stormfist Crusader",
+      "cost": "{B}{R}",
+      "oracle": "At the beginning of your upkeep, each player draws a card and loses 1 life.",
+      "ref": "https://mtg.wtf/card/eld/203/Stormfist-Crusader"
+    }
+  ],
+  "registered_cases": [
+    "Birgi front face and Ignus loop with a paid initial R and no cost reducers: R is spent on bounce, {C}{C}{R} pays 2R recast, Birgi replenishes R; repeating the cast/bounce action is mana neutral, not infinite floating red or colorless",
+    "No Birgi = no free mana-neutral indefinite loop; Harnfel backside does not have Birgi cast trigger",
+    "Abaddon absent or cumulative life loss below three = no Abaddon-granted cascade to MV3 Ignus",
+    "Abaddon present, X>=3, Ignus repeatedly cast from HAND = one Abaddon-granted cascade trigger per cast (plus any other printed abilities)",
+    "Ignus cast from exile or graveyard cannot receive Abaddon hand-only cascade though Birgi still triggers",
+    "With Rule of Law already in effect and one Ignus spell already cast, further Ignus casts prohibited until a new turn; activated bounce itself is allowed",
+    "The Lost and the Damned does not trigger on Ignus HAND casts; an independently cast cascade hit from EXILE can make a Spawn",
+    "Stormfist Crusader own-upkeep makes each of three opponents lose one = threshold three and each opponent draws one; opponent benefit cannot be zeroed",
+    "Nightscape Familiar reduces Ignus' generic cost by one as red creature; when Birgi+Ignus already present, Familiar can generate extra generic per loop; its own opportunity cost cannot be ignored",
+    "Physical replacements exactly 100 including commander, 34 lands, singleton except three Grixis basics; Birgi retained in all variants"
+  ],
+  "limits": [
+    "Do not infer how often the exact Birgi/Ignus/commander/life-loss setup assembles, survives removal or wins",
+    "Loop can create arbitrarily large finite storm count but finite deck and cascade stack/spell targeting choices not simulated",
+    "Actual mana spells, nonhand cast payoffs, cascade hit choices and real board states not modeled",
+    "Physical swap/Commander bracket optimality not determined; no M6 certification or M7 owner approval"
+  ],
+  "authority": {
+    "can_change_canonical": false,
+    "can_approve_swap": false,
+    "can_certify_m6": false,
+    "can_accept_m7": false
+  },
+  "reference_correction": "Source URL precision corrected after initial plan commit; model scenarios, swap roster, hashes and conclusions unchanged."
+}
