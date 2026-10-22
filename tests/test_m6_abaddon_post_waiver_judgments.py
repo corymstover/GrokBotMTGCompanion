@@ -110,6 +110,26 @@ class AbaddonJudgmentEvidence(unittest.TestCase):
         self.assertFalse(evidence["canonical_swap_approved"])
         self.assertIsNone(evidence["game_win_rate"])
 
+    def test_joined_paid_ignus_cascade_effects_are_real_but_incomplete(self):
+        candidate=next(x for x in self.data["candidates"] if x["card"]=="Grinning Ignus")
+        e=candidate["shared_paid_effects_observation"]
+        self.assertTrue(e["actual_paid_shared_cascade_effects"])
+        self.assertEqual(e["engine_first_turn10_per2000"]["ignus_for_rakdos"]["paid_initial_ignus_cast_trajectories"],333)
+        self.assertEqual(e["engine_first_turn10_per2000"]["ignus_for_rakdos"]["any_actual_ignus_cascade"],12)
+        self.assertEqual(e["engine_first_turn10_per2000"]["ignus_for_rakdos"]["any_source_verified_hit_effect_resolved"],7)
+        self.assertEqual(e["engine_first_turn10_per2000"]["ignus_for_rakdos"]["actual_cards_drawn_from_hits"],3)
+        self.assertEqual(e["engine_first_turn10_per2000"]["ignus_for_rakdos"]["actual_tutors_to_hand_or_top"],8)
+        self.assertFalse(e["all_99_effects_modeled"])
+        self.assertFalse(e["other_qualifying_hand_cascades_modeled"])
+        self.assertFalse(e["opponent_interaction_modeled"])
+        self.assertFalse(e["full_multiplayer_gameplay"])
+        self.assertFalse(e["swap_superiority_proven"])
+        self.assertFalse(e["approved_swap"])
+        self.assertIsNone(e["measured_multiplayer_win_rate"])
+        self.assertEqual(candidate["interim_decision"],"HOLD_PRIORITY_TEST_CHALLENGER_NO_APPROVED_SWAP")
+        self.assertEqual(self.progress["m6"]["formal_m6_certified_decks"],0)
+        self.assertEqual(self.progress["m7"]["formal_m7_review_decisions"],0)
+
     def test_no_false_m6_m7_or_canonical_promotion(self):
         d=self.data
         self.assertTrue(all(value is False for value in d["authority"].values()))
