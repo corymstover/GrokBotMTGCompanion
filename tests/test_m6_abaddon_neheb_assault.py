@@ -140,6 +140,55 @@ class NehebAssaultPhaseB(unittest.TestCase):
         s.resolve_top()
         with self.assertRaises(ValueError):s.activate_assault() # one per postcombat policy
 
+    def test_remove_loyal_after_first_trigger_combat_loop_is_not_a_kill(self):
+        # First Loyal Subordinate trigger and Neheb payment are legitimate,
+        # but an opponent removes Loyal before any extra combat begins.
+        # Neheb may keep paying for combats using cumulative life lost;
+        # those extra combats themselves do not prove a win.
+        s=AssaultCombatTrace()
+        s.begin_combat()
+        s.resolve_top()
+        s.begin_postcombat_main()
+        s.resolve_top()
+        self.assertEqual((s.life_lost,s.red),(9,9))
+        s.remove("loyal")
+        for _ in range(3):
+            s.activate_assault()
+            s.resolve_top()
+            s.begin_combat(extra=True)
+            self.assertEqual(s.stack,[])  # no further Loyal trigger
+            s.begin_postcombat_main()
+            s.resolve_top()
+            self.assertEqual(s.red,9)
+        self.assertEqual(s.combats,4)
+        self.assertEqual(s.activations,3)
+        self.assertEqual(s.life_lost,9)
+        self.assertEqual(s.opponents,[37,37,37])
+        self.assertFalse(s.over)
+
+    def test_remove_neheb_after_paid_first_activation_blocks_repetition(self):
+        # Once the first Assault ability resolves, an opponent can remove
+        # Neheb before the extra-combat postcombat main; the initial extra
+        # combat still happens but cannot generate the next 5 red.
+        s=AssaultCombatTrace()
+        s.begin_combat()
+        s.resolve_top()
+        s.begin_postcombat_main()
+        s.resolve_top()
+        s.activate_assault()
+        s.resolve_top()
+        s.remove("neheb")
+        s.begin_combat(extra=True)
+        s.resolve_top()
+        self.assertEqual((s.life_lost,s.opponents),(18,[34,34,34]))
+        s.begin_postcombat_main()
+        self.assertEqual(s.stack,[])
+        self.assertEqual(s.red,0)
+        with self.assertRaises(ValueError):
+            s.activate_assault()
+        self.assertEqual(s.activations,1)
+        self.assertFalse(s.over)
+
     def test_damage_fog_does_not_prevent_nondamage_life_loss(self):
         s=AssaultCombatTrace(damage_prevented=True)
         s.begin_combat()
