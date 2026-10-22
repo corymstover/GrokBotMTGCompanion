@@ -5,7 +5,11 @@ on:
     paths:
       - .github/workflows/m7-decisive-optimization.yml
       - AGENTS.md
+      - grixis/M6 Commander-First Single-Deck Review Standard.md
       - grixis/Commander-First Decisive Optimization and Test Economy Standard.md
+      - data/grixis/registry.json
+      - grixis/decks/**
+      - exports/grixis-archidekt/source-baseline/**
       - data/grixis/schemas/m7_decisive_optimization.schema.json
       - data/grixis/m7/decision_reviews/**
       - data/grixis/m7/candidate_lists/**
