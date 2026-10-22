@@ -82,8 +82,8 @@ def validate(t,r,p,s,w=None):
  assert t["m6"]["gates"][5]["status"]=="PARTIAL" and t["m6"]["gates"][5]["completed"]==0
  assert t["m6"]["gates"][7]["completed"]==0 and t["m6"]["gates"][8]["completed"]==0
  assert t["m7"]["gates"][1]["completed"]==0
- assert len(t["m6"]["phase_b_additional_evidence"])==6
- assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520}
+ assert len(t["m6"]["phase_b_additional_evidence"])==7
+ assert {x["merged_pr"] for x in t["m6"]["phase_b_additional_evidence"]}=={511,512,514,516,518,520,522}
  assert all(x["deck_id"]=="Abaddon_the_Despoiler" and not x["full_multiplayer_gameplay"] and not x["superiority_proven"] for x in t["m6"]["phase_b_additional_evidence"])
  assert t["m6"]["phase_b_additional_evidence"][1]["turn_10"]["assault_for_rakdos"]["individually_payable_snapshots"]==2
  assert t["m6"]["gates"][6]["status"]=="PARTIAL" and t["m6"]["gates"][6]["completed"]==0
@@ -194,8 +194,8 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(self.t["m6"]["formal_m6_certified_decks"],0)
  def test_new_ruinous_and_assault_land_only_receipts_remain_bounded(self):
   records=self.t["m6"]["phase_b_additional_evidence"]
-  r,a,chron,warp,ignus,paid=records
-  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"]),(511,512,514,516,518,520))
+  r,a,chron,warp,ignus,paid,hit=records
+  self.assertEqual((r["merged_pr"],a["merged_pr"],chron["merged_pr"],warp["merged_pr"],ignus["merged_pr"],paid["merged_pr"],hit["merged_pr"]),(511,512,514,516,518,520,522))
   self.assertEqual(r["deterministic_tests"],14)
   self.assertEqual(a["unit_tests"],11)
   self.assertEqual(chron["unit_tests"],15)
@@ -209,6 +209,22 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(chron["turn_10"]["assault_for_lost"]["first_assault_activation_paid"],4)
   self.assertTrue((ROOT/chron["evidence"]).is_file())
   self.assertTrue((ROOT/chron["preregistration"]).is_file())
+  self.assertEqual(hit["unit_tests"],18)
+  self.assertEqual(hit["physical_variants"],5)
+  self.assertEqual(hit["samples_per_variant"],2000)
+  self.assertEqual(hit["physical_target_pool"],{"nonland_lt3":35,"mv0":7,"mv1":15,"mv2":13})
+  self.assertEqual(hit["conditional_turn10"]["approved"]["safe_policy_cast_offer"],1822)
+  self.assertEqual(hit["conditional_turn10"]["approved"]["artifact_mana_hit"],530)
+  self.assertEqual(hit["conditional_turn10"]["approved"]["tutor_hit"],329)
+  self.assertEqual(hit["conditional_turn10"]["ignus_for_nightscape"]["safe_policy_cast_offer"],1818)
+  self.assertEqual(hit["conditional_turn10"]["ignus_for_rite"]["safe_policy_cast_offer"],1821)
+  self.assertFalse(hit["actual_engine_assembly_at_snapshot"])
+  self.assertFalse(hit["effects_of_cascade_hits_resolved"])
+  self.assertFalse(hit["full_multiplayer_gameplay"])
+  self.assertFalse(hit["superiority_proven"])
+  self.assertFalse(hit["canonical_changed"])
+  for key in ("preregistration","evidence"):
+   self.assertTrue((ROOT/hit[key]).is_file())
   self.assertEqual(paid["unit_tests"],17)
   self.assertEqual(paid["physical_variants"],5)
   self.assertEqual(paid["policies"],2)
@@ -282,6 +298,10 @@ class TestMilestoneSubtracker(unittest.TestCase):
   self.assertEqual(ignus_case["paid_assembly_observation"]["engine_first_turn10"]["ignus_for_rakdos"]["five_paid_granted_cascades"],3)
   self.assertEqual(ignus_case["paid_assembly_observation"]["engine_first_turn10"]["ignus_for_nightscape"]["abaddon_cast"],1478)
   self.assertFalse(ignus_case["paid_assembly_observation"]["proves_challenger_superiority"])
+  self.assertEqual(ignus_case["cascade_first_hit_observation"]["subthree_pool"]["total"],35)
+  self.assertEqual(ignus_case["cascade_first_hit_observation"]["t10_per2000"]["approved_safe_cast_offers"],1822)
+  self.assertFalse(ignus_case["cascade_first_hit_observation"]["ramp_or_tutor_effects_resolved"])
+  self.assertFalse(ignus_case["cascade_first_hit_observation"]["net_superiority_proven"])
   self.assertIsNone(ignus_case["paid_assembly_observation"]["true_game_win_rate"])
   self.assertFalse(ignus_case["approved_swap"])
   chaos=next(x for x in d["candidates"] if x["card"]=="Chaos Warp")
