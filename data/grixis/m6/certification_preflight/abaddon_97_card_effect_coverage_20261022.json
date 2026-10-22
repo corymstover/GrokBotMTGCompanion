@@ -29,21 +29,13 @@
   "expected_unique_names": 97,
   "expected_baseline_names": 94,
   "expected_baseline_cards": 100,
-  "stage": "TWO_NEW_EXILE_ENGINES_REGISTERED_AND_TWO_MANDATORY_OPEN",
+  "stage": "THREE_COMMANDER_EXILE_ENGINES_REGISTERED_ONE_MANDATORY_PROSPER_OPEN",
   "coverage_semantics": {
     "SELECTED_INTERACTION_STAGED_P0": "At least one explicitly named bounded rule-case uses the card. Not full standalone card-effect modeling.",
     "FULL_NAME_ORACLE_LEGALITY_ONLY_OR_PRIOR_PARTIAL_MODEL": "In live 97-name Scryfall legality/Oracle sweep; no one of 44 named P0 cases directly attached here. Earlier partial simulator may have modeled some subset; not independently credited.",
     "IDENTIFIED_MATERIAL_P0_GAP": "Card present in at least one 100-card version, Oracle legality checked, but additional high-value decision-relevant rules interaction not in existing P0 registry."
   },
   "identified_unresolved": [
-    {
-      "card": "Passionate Archaeologist",
-      "id": "P0-026",
-      "gap": "Gives commander creature cast-from-exile targeted damage, only if commander creature owned/controlled; copied spells do not cause extra damage triggers.",
-      "priority": "P0",
-      "oracle": "https://mtg.wtf/card/sld/2220/Passionate-Archaeologist",
-      "status": "REQUIRED_UNEXECUTED"
-    },
     {
       "card": "Prosper, Tome-Bound",
       "id": "P0-027",
@@ -961,9 +953,19 @@
         "combat_answer_keeper"
       ],
       "copies_in_baseline": 1,
-      "p0_direct_case_ids": [],
-      "coverage_class": "IDENTIFIED_MATERIAL_P0_GAP",
-      "new_gap_id": "P0-026"
+      "p0_direct_case_ids": [
+        "P0-026a",
+        "P0-026b",
+        "P0-026c",
+        "P0-026d",
+        "P0-026e",
+        "P0-026f",
+        "P0-026g",
+        "P0-026h",
+        "P0-026i",
+        "P0-026j"
+      ],
+      "coverage_class": "SELECTED_INTERACTION_STAGED_P0"
     },
     {
       "name": "Polluted Delta",
@@ -1492,7 +1494,7 @@
     "Every P0 association is a case illustration, not a per-card comprehensive ability correctness proof.",
     "No empirical multiplayer policy or win-rate estimates."
   ],
-  "next_action": "Run 61 actual named P0 methods, then P0-026 Passionate Archaeologist and P0-027 Prosper; no all-99-effect or owner-approval claim.",
+  "next_action": "Run 71 named P0 tests, then source-paid P0-027 Prosper. Completion of known P0 scope is not all-99-card comprehensive rules coverage.",
   "newly_registered_tested_P0": [
     {
       "card": "Wild-Magic Sorcerer",
@@ -1533,6 +1535,28 @@
         "P0-025g",
         "P0-025h",
         "P0-025i"
+      ]
+    },
+    {
+      "card": "Passionate Archaeologist",
+      "id": "P0-026",
+      "gap": "Gives commander creature cast-from-exile targeted damage, only if commander creature owned/controlled; copied spells do not cause extra damage triggers.",
+      "priority": "P0",
+      "oracle": "https://mtg.wtf/card/sld/2220/Passionate-Archaeologist",
+      "status": "REGISTERED_FOR_EXACT_HEAD_EXECUTION_PENDING",
+      "test_methods": 10,
+      "plan": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json",
+      "case_ids": [
+        "P0-026a",
+        "P0-026b",
+        "P0-026c",
+        "P0-026d",
+        "P0-026e",
+        "P0-026f",
+        "P0-026g",
+        "P0-026h",
+        "P0-026i",
+        "P0-026j"
       ]
     }
   ]
