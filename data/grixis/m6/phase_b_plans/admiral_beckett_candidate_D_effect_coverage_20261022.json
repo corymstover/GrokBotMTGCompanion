@@ -35,7 +35,7 @@
     }
   ],
   "new_adversarial_test_path": "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
-  "new_adversarial_ci": "PENDING_NEW_EXACT_HEAD_PR",
+  "new_adversarial_ci": "PASS_PR_596_HEAD_6df80bbf93126146b497f35e57dff702927ca1d4_ACTIONS_39857260951",
   "effect_coverage_cases": [
     {
       "id": "AB-D-01",
@@ -138,16 +138,26 @@
     "reason_for_no_large_simulation": "One falsifiable cost/timing blocker issue per cluster is resolved by the existing source-paid and finite adverse fixtures. No effect-complete matched multiplayer model or precommitted decision-changing endpoint presently justifies another costly simulation; a generic proxy would be biased toward flyers and ignore Forerunner token drain and Poisoner trade.",
     "what_could_reverse_choice": "Evidence that Forerunner's surviving multi-turn tutor/drain materially wins more games than Broadside's conditional third-connection haste; a local meta dominated by reach/flyers/Spirit blockers or creature aggro could favor poisoner/other evasion packages. Report as matchup-dependent, not a proven replacement superiority."
   },
-  "m6_6_status": "PARTIAL",
-  "m6_7_status": "PARTIAL",
+  "phase_b_scope_adjudication": {
+    "status": "DECISION_SCOPED_BOUNDED_SUFFICIENT",
+    "gate_report": "data/grixis/m6/certification_preflight/Admiral_M6_6_7_Gate_Adjudication_20261022.md",
+    "all_original_blueprint_cases_executed_bounded": 13,
+    "changed_role_source_bound_effect_cases": 8,
+    "complete_physical_pool_alternatives": 4,
+    "pool_effect_comparison_suite": "tests/test_m6_admiral_beckett_pool_effect_comparison.py",
+    "pool_effect_comparison_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39859047626",
+    "full_multiplayer_effect_engine_executed": false,
+    "measured_candidate_superiority_proven": false,
+    "owner_certification_or_deck_approval": false
+  },
+  "m6_6_status": "COMPLETE_DECISION_SCOPED_BOUNDED",
+  "m6_7_status": "COMPLETE_AUTHORED_SOURCE_BOUND_JUDGMENTS",
   "m6_i_local_best_certified": false,
   "m6_j_bundle_complete": false,
   "owner_m6_10_accepted": false,
   "owner_m7_approved": false,
   "blocking_requirements": [
-    "New adverse suite must execute with successful exact PR head GitHub Actions receipt; current artifact contains a pending CI marker, not a fabricated success.",
-    "Reconcile the complete required Phase B scope for exact candidate D and decide whether all mandatory modeled interactions are adequate despite bounded limits before asserting M6.6 completion.",
-    "Independently support tested-pool M6.8 I local-best claim or record honestly incomplete and source-bound A/B/C/D pool; analytic preference is not an empirical local-best certificate.",
+    "Adjudicate the now bounded-executed A/B/C/D four-configuration pool for a source-bound M6.8 I local-best conclusion; the current incomplete receipt is intentionally not PASS and cannot claim global optimality.",
     "Construct and validate exact D M6.9 J reproducibility bundle with sealed A/B, owner-equivalent waiver, current hashes, mana/red-team reports, actual CI; no copy-forward from Abaddon or historical M5.",
     "Obtain owner M6.10 acceptance and exact M7 decklist approval separately, without touching canonical list before explicit authority."
   ]
