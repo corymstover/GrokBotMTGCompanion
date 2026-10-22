@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Sol_kanar_the_Tainted",
+  "order": 53,
+  "commanders": [
+    "Sol'Kanar the Tainted"
+  ],
+  "strategy": {
+    "primary": "Political control with cursed gifts: take value from Demonic Pact, Greed's Gambit or Illusions of Grandeur, then give the liability to an opponent with Donate-style effects; Demonic Pact + a donate effect is the compact kill.",
+    "secondary": "Recycle Sol'Kanar's once-per-object end-step modes (draw, drain 2, 3 damage, give him away) by blinking him with Thassa, Conjurer's Closet or Planar Incision; Homeward Path and Coveted Falcon recover ownership."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Sol'Kanar the Tainted",
+      "oracle_id": "4efcdefc-e49d-4bce-8581-69037bb48c0a",
+      "oracle_text": "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control.",
+      "oracle_sha256": "sha256:b0f48f5efdc08d93cf7905276a38a1c9732b1356d703f5275e33ef14df69d6c7",
+      "type_line": "Legendary Creature — Elemental Demon"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Sol'Kanar the Tainted",
+      "why": "Four once-per-object end-step modes.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Sol'Kanar the Tainted"
+      ]
+    },
+    {
+      "card": "Demonic Pact",
+      "why": "Main cursed gift.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:2770-6676"
+      ]
+    },
+    {
+      "card": "Harmless Offering",
+      "why": "Transfers the Pact.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:3090-6676"
+      ]
+    },
+    {
+      "card": "Thassa, Deep-Dwelling",
+      "why": "Resets Sol'Kanar every end step.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Solkanar_the_Tainted_Commander_Blueprint_2026-10-15.md#L13"
+      ]
+    },
+    {
+      "card": "Immortal Coil",
+      "why": "Second giftable kill.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Solkanar_the_Tainted_Candidate_Decisions_2026-10-15.md#L18"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/solkanar-the-tainted.json",
+    "blueprint_blob": "87c22057d433d422fea134a6f6c427ca4c0904de",
+    "canonical_source_path": "refinement/decklists/Solkanar_the_Tainted_Approved_2026-10-15.txt",
+    "canonical_source_blob": "7ba29f9e4a855a446914566e29d2a67e93840ba0",
+    "canonical_approved_sha256": "72a3b14e93d884d98397e000fe45df430beb538a106097a69dfc2491da8d7a58",
+    "canonical_record_key": "Sol_kanar_the_Tainted",
+    "registry_raw_matches": true,
+    "source_card_lines": 93,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:solkanar-the-tainted#commanders.value[0]",
+      "scenario": "Sol'Kanar the Tainted",
+      "expected_claim_to_verify": "At the beginning of your end step, choose one that hasn't been chosen —\n• Draw a card.\n• Each opponent loses 2 life and you gain 2 life.\n• Sol'Kanar deals 3 damage to up to one other target creature or planeswalker.\n• Exile Sol'Kanar, then return it to the battlefield under an opponent's control.",
+      "cards": [
+        "Sol'Kanar the Tainted"
+      ],
+      "found_in_source_export": [
+        "Sol'Kanar the Tainted"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-tainted#key_interactions[0]",
+      "scenario": "object-modes",
+      "expected_claim_to_verify": "Mode history belongs to the battlefield object; blinking creates a new object and resets it.",
+      "cards": [
+        "Sol'Kanar the Tainted"
+      ],
+      "found_in_source_export": [
+        "Sol'Kanar the Tainted"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-tainted#key_interactions[1]",
+      "scenario": "stack-before-blink",
+      "expected_claim_to_verify": "Order Thassa/Closet with the end-step trigger so a mode resolves before the reset.",
+      "cards": [
+        "Thassa, Deep-Dwelling",
+        "Conjurer's Closet",
+        "Sol'Kanar the Tainted"
+      ],
+      "found_in_source_export": [
+        "Thassa, Deep-Dwelling",
+        "Conjurer's Closet",
+        "Sol'Kanar the Tainted"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-tainted#key_interactions[2]",
+      "scenario": "incision-owner",
+      "expected_claim_to_verify": "Planar Incision returns Sol'Kanar under its owner's control.",
+      "cards": [
+        "Planar Incision",
+        "Sol'Kanar the Tainted"
+      ],
+      "found_in_source_export": [
+        "Planar Incision",
+        "Sol'Kanar the Tainted"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-tainted#key_interactions[3]",
+      "scenario": "pact-modes-follow",
+      "expected_claim_to_verify": "Demonic Pact's chosen modes stay with the permanent through control changes.",
+      "cards": [
+        "Demonic Pact"
+      ],
+      "found_in_source_export": [
+        "Demonic Pact"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-tainted#key_interactions[4]",
+      "scenario": "coil-controller",
+      "expected_claim_to_verify": "Immortal Coil's empty-graveyard loss applies to its current controller.",
+      "cards": [
+        "Immortal Coil"
+      ],
+      "found_in_source_export": [
+        "Immortal Coil"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:solkanar-the-tainted#key_interactions[5]",
+      "scenario": "no-greaves",
+      "expected_claim_to_verify": "Lightning Greaves was cut because shroud blocks the blink targets.",
+      "cards": [
+        "Deflecting Swat"
+      ],
+      "found_in_source_export": [
+        "Deflecting Swat"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:solkanar-the-tainted#engines[0]",
+      "scenario": "mode-reset",
+      "expected_claim_to_verify": "Sol'Kanar plus a blink effect.",
+      "cards": [
+        "Sol'Kanar the Tainted",
+        "Thassa, Deep-Dwelling",
+        "Conjurer's Closet",
+        "Planar Incision"
+      ],
+      "found_in_source_export": [
+        "Sol'Kanar the Tainted",
+        "Thassa, Deep-Dwelling",
+        "Conjurer's Closet",
+        "Planar Incision"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:solkanar-the-tainted#engines[1]",
+      "scenario": "cursed-gift",
+      "expected_claim_to_verify": "A liability permanent plus a transfer effect.",
+      "cards": [
+        "Donate",
+        "Harmless Offering",
+        "Bazaar Trader",
+        "Blim, Comedic Genius",
+        "Coveted Falcon",
+        "Role Reversal",
+        "Shifting Grift",
+        "Puca's Mischief",
+        "Fateful Handoff",
+        "Sudden Substitution",
+        "Demonic Pact",
+        "Archfiend of the Dross",
+        "Greed's Gambit",
+        "Illusions of Grandeur",
+        "Plague Reaver",
+        "Immortal Coil",
+        "Captive Audience"
+      ],
+      "found_in_source_export": [
+        "Donate",
+        "Harmless Offering",
+        "Bazaar Trader",
+        "Blim, Comedic Genius",
+        "Coveted Falcon",
+        "Role Reversal",
+        "Shifting Grift",
+        "Puca's Mischief",
+        "Fateful Handoff",
+        "Sudden Substitution",
+        "Demonic Pact",
+        "Archfiend of the Dross",
+        "Greed's Gambit",
+        "Illusions of Grandeur",
+        "Plague Reaver",
+        "Immortal Coil",
+        "Captive Audience"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:solkanar-the-tainted#win_conditions[0]",
+      "scenario": "pact-donate",
+      "expected_claim_to_verify": "After safe Demonic Pact modes, transfer it; the recipient loses on the lose-the-game mode.",
+      "cards": [
+        "Demonic Pact",
+        "Donate",
+        "Harmless Offering",
+        "Blim, Comedic Genius",
+        "Coveted Falcon",
+        "Demonic Tutor",
+        "Vampiric Tutor"
+      ],
+      "found_in_source_export": [
+        "Demonic Pact",
+        "Donate",
+        "Harmless Offering",
+        "Blim, Comedic Genius",
+        "Coveted Falcon",
+        "Demonic Tutor",
+        "Vampiric Tutor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:solkanar-the-tainted#win_conditions[1]",
+      "scenario": "coil-bog",
+      "expected_claim_to_verify": "Give Immortal Coil away, then empty that player's graveyard with Bojuka Bog or Rakdos Charm.",
+      "cards": [
+        "Immortal Coil",
+        "Bojuka Bog",
+        "Rakdos Charm",
+        "Donate",
+        "Harmless Offering",
+        "Bazaar Trader"
+      ],
+      "found_in_source_export": [
+        "Immortal Coil",
+        "Bojuka Bog",
+        "Rakdos Charm",
+        "Donate",
+        "Harmless Offering",
+        "Bazaar Trader"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:solkanar-the-tainted#win_conditions[2]",
+      "scenario": "audience-and-drain",
+      "expected_claim_to_verify": "Captive Audience enters under an opponent's control; Sol'Kanar drains and Goblin Bombardment finishes.",
+      "cards": [
+        "Captive Audience",
+        "Sol'Kanar the Tainted",
+        "Goblin Bombardment"
+      ],
+      "found_in_source_export": [
+        "Captive Audience",
+        "Sol'Kanar the Tainted",
+        "Goblin Bombardment"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:solkanar-the-tainted#failure_modes[0]",
+      "scenario": "slow-board",
+      "expected_claim_to_verify": "Sequence-dependent; fast combo outpaces it.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Force of Will; Fierce Guardianship",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:solkanar-the-tainted#failure_modes[1]",
+      "scenario": "pact-removed",
+      "expected_claim_to_verify": "Opponents remove a gifted Demonic Pact or Coil before it kills.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Redundant curses; Tutors",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:solkanar-the-tainted#failure_modes[2]",
+      "scenario": "mode-four-loss",
+      "expected_claim_to_verify": "Mode four gives Sol'Kanar away.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Homeward Path; Planar Incision; Coveted Falcon",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

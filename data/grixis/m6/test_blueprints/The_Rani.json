@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "The_Rani",
+  "order": 57,
+  "commanders": [
+    "The Rani"
+  ],
+  "strategy": {
+    "primary": "Forced combat into Clues: each Rani ETB or attack puts Mark of the Rani (+2/+2 and goaded) on a creature, goaded creatures hitting opponents investigate, and the goad Aura suite makes more goaded attackers. Academy Manufactor and Erdwal Illuminator multiply the Clues.",
+    "secondary": "Blink The Rani for more Marks (Thassa, Displacer Kitten), turn artifact tokens into mana, damage and extra turns (Urza, Bjorna, Time Sieve), and use mass goad (Disrupt Decorum, Kardur, Spectacular Showdown)."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "The Rani",
+      "oracle_id": "ac9b0bdf-caf8-4dba-a900-e59de35e77d7",
+      "oracle_text": "Whenever The Rani enters or attacks, create a red Aura enchantment token named Mark of the Rani attached to another target creature. That token has enchant creature and \"Enchanted creature gets +2/+2 and is goaded.\"\nWhenever a goaded creature deals combat damage to one of your opponents, investigate.",
+      "oracle_sha256": "sha256:dde981b31f1b99461b37624786d3d6e5662a4ce23c8e2ce4090bc5c413c3f948",
+      "type_line": "Legendary Creature — Time Lord Scientist"
+    }
+  ],
+  "identity": [
+    {
+      "card": "The Rani",
+      "why": "Mark of the Rani and goad-damage Clues.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:The Rani"
+      ]
+    },
+    {
+      "card": "Academy Manufactor",
+      "why": "Each Clue becomes three tokens.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L45"
+      ]
+    },
+    {
+      "card": "Erdwal Illuminator",
+      "why": "Extra investigate each turn.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L46"
+      ]
+    },
+    {
+      "card": "Thassa, Deep-Dwelling",
+      "why": "Repeat ETB Marks.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L29"
+      ]
+    },
+    {
+      "card": "The Master, Mesmerist",
+      "why": "Targeted goad with skulk.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/The_Rani_Candidate_Decisions_2026-10-15.md#L28"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/the-rani.json",
+    "blueprint_blob": "87bf391f08bcf2fdce3b5ab5910d2d41ef41b66a",
+    "canonical_source_path": "refinement/decklists/The_Rani_Approved_2026-10-15.txt",
+    "canonical_source_blob": "f65ef47b52e1f110952bd32eb4b3d98356fbf318",
+    "canonical_approved_sha256": "7220937ed5817b4ef9cacd2463a3434b98ae58690ffa1d7ef440881ba97d729c",
+    "canonical_record_key": "The_Rani",
+    "registry_raw_matches": true,
+    "source_card_lines": 94,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:the-rani#commanders.value[0]",
+      "scenario": "The Rani",
+      "expected_claim_to_verify": "Whenever The Rani enters or attacks, create a red Aura enchantment token named Mark of the Rani attached to another target creature. That token has enchant creature and \"Enchanted creature gets +2/+2 and is goaded.\"\nWhenever a goaded creature deals combat damage to one of your opponents, investigate.",
+      "cards": [
+        "The Rani"
+      ],
+      "found_in_source_export": [
+        "The Rani"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:the-rani#key_interactions[0]",
+      "scenario": "manufactor-illuminator",
+      "expected_claim_to_verify": "Manufactor + Illuminator: the first investigate each turn makes six artifact tokens.",
+      "cards": [
+        "Academy Manufactor",
+        "Erdwal Illuminator"
+      ],
+      "found_in_source_export": [
+        "Academy Manufactor",
+        "Erdwal Illuminator"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:the-rani#key_interactions[1]",
+      "scenario": "thassa-new-object",
+      "expected_claim_to_verify": "Thassa returns The Rani as a new object, so her ETB makes another Mark.",
+      "cards": [
+        "Thassa, Deep-Dwelling",
+        "The Rani"
+      ],
+      "found_in_source_export": [
+        "Thassa, Deep-Dwelling",
+        "The Rani"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:the-rani#key_interactions[2]",
+      "scenario": "baeloth-mark",
+      "expected_claim_to_verify": "A Mark on Baeloth makes him 4/7, so he goads more opposing creatures.",
+      "cards": [
+        "Baeloth Barrityl, Entertainer"
+      ],
+      "found_in_source_export": [
+        "Baeloth Barrityl, Entertainer"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:the-rani#key_interactions[3]",
+      "scenario": "sieve-not-infinite",
+      "expected_claim_to_verify": "Time Sieve is a payoff, not a deterministic infinite.",
+      "cards": [
+        "Time Sieve"
+      ],
+      "found_in_source_export": [
+        "Time Sieve"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:the-rani#key_interactions[4]",
+      "scenario": "goad-investigate",
+      "expected_claim_to_verify": "Goaded creatures must attack; damage to opponents investigates.",
+      "cards": [
+        "The Rani"
+      ],
+      "found_in_source_export": [
+        "The Rani"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:the-rani#engines[0]",
+      "scenario": "mark-and-investigate",
+      "expected_claim_to_verify": "The Rani enters or attacks; goaded creatures deal combat damage to opponents.",
+      "cards": [
+        "The Rani"
+      ],
+      "found_in_source_export": [
+        "The Rani"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:the-rani#engines[1]",
+      "scenario": "token-multiplier",
+      "expected_claim_to_verify": "Any investigate.",
+      "cards": [
+        "Academy Manufactor",
+        "Erdwal Illuminator"
+      ],
+      "found_in_source_export": [
+        "Academy Manufactor",
+        "Erdwal Illuminator"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E3",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:the-rani#engines[2]",
+      "scenario": "rani-blink",
+      "expected_claim_to_verify": "The Rani on the battlefield.",
+      "cards": [
+        "Thassa, Deep-Dwelling",
+        "Displacer Kitten",
+        "The Rani"
+      ],
+      "found_in_source_export": [
+        "Thassa, Deep-Dwelling",
+        "Displacer Kitten",
+        "The Rani"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:the-rani#win_conditions[0]",
+      "scenario": "forced-combat",
+      "expected_claim_to_verify": "Goaded opponents attack each other while Clues build up; Kardur, Karazikar and Firkraag add pressure.",
+      "cards": [
+        "The Rani",
+        "Ghoulish Impetus",
+        "Psychic Impetus",
+        "Shiny Impetus",
+        "Coercive Impetus",
+        "Incriminating Impetus",
+        "Eye of Nidhogg",
+        "Disrupt Decorum",
+        "Kardur, Doomscourge"
+      ],
+      "found_in_source_export": [
+        "The Rani",
+        "Ghoulish Impetus",
+        "Psychic Impetus",
+        "Shiny Impetus",
+        "Coercive Impetus",
+        "Incriminating Impetus",
+        "Eye of Nidhogg",
+        "Disrupt Decorum",
+        "Kardur, Doomscourge"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:the-rani#win_conditions[1]",
+      "scenario": "artifact-payoffs",
+      "expected_claim_to_verify": "Bjorna turns artifacts into damage; Time Sieve converts tokens into extra turns.",
+      "cards": [
+        "Bjorna, Nightfall Alchemist",
+        "Time Sieve",
+        "Academy Manufactor",
+        "Erdwal Illuminator"
+      ],
+      "found_in_source_export": [
+        "Bjorna, Nightfall Alchemist",
+        "Time Sieve",
+        "Academy Manufactor",
+        "Erdwal Illuminator"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:the-rani#failure_modes[0]",
+      "scenario": "no-creatures",
+      "expected_claim_to_verify": "Creature-light combo opponents give no goad targets.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Counterspells; Own pressure",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:the-rani#failure_modes[1]",
+      "scenario": "no-compact-win",
+      "expected_claim_to_verify": "No compact kill.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Time Sieve; Bjorna",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:the-rani#failure_modes[2]",
+      "scenario": "colored-mana",
+      "expected_claim_to_verify": "Needs U/B/R; Mana Vault and Chrome Mox were rejected.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Signets; Talismans",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

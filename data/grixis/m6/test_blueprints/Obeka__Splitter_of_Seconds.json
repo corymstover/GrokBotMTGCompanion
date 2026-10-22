@@ -1,0 +1,533 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Obeka__Splitter_of_Seconds",
+  "order": 45,
+  "commanders": [
+    "Obeka, Splitter of Seconds"
+  ],
+  "strategy": {
+    "primary": "Connect with Obeka (menace, evasion, protection), increase her damage or double her trigger, and turn the extra upkeep steps into cards, Treasures, Clues, tokens and counters through upkeep engines.",
+    "secondary": "Time Sieve plus upkeep-made artifacts gives repeatable extra turns; Darksteel Reactor and Mechanized Production give alternate wins."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Obeka, Splitter of Seconds",
+      "oracle_id": "1d15a06f-5471-48f2-8c4a-9b0886bef5af",
+      "oracle_text": "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.",
+      "oracle_sha256": "sha256:f5a85df1607b911e93cfa0a3a0f0e96fec5a33d7712798dec486d2dacd7c078d",
+      "type_line": "Legendary Creature — Ogre Warlock"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Obeka, Splitter of Seconds",
+      "why": "Extra upkeeps from combat damage.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Obeka, Splitter of Seconds"
+      ]
+    },
+    {
+      "card": "Time Sieve",
+      "why": "Turns upkeep artifacts into extra turns.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:1558-5085-5471"
+      ]
+    },
+    {
+      "card": "Mjölnir, Hammer of Thor",
+      "why": "Doubles her damage.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L26"
+      ]
+    },
+    {
+      "card": "Smaug the Magnificent",
+      "why": "Treasure each upkeep, and a combo piece.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L35"
+      ]
+    },
+    {
+      "card": "Super Intelligence",
+      "why": "One mana: a card each upkeep.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Obeka_Splitter_of_Seconds_Commander_Blueprint_2026-10-15.md#L34"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/obeka-splitter-of-seconds.json",
+    "blueprint_blob": "f214986c420fa33fe34e6858a097815ca592c5fd",
+    "canonical_source_path": "refinement/decklists/Obeka_Splitter_of_Seconds_Approved_2026-10-15.txt",
+    "canonical_source_blob": "3744ef1e8d127a6262abbfd8e064c475b8ee0654",
+    "canonical_approved_sha256": "c7e855e69d6538d05eec2e4b3da98b0a5bdb057b19e2c672294b9ba3a60a4f63",
+    "canonical_record_key": "Obeka__Splitter_of_Seconds",
+    "registry_raw_matches": true,
+    "source_card_lines": 96,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:obeka-splitter-of-seconds#commanders.value[0]",
+      "scenario": "Obeka, Splitter of Seconds",
+      "expected_claim_to_verify": "Menace\nWhenever Obeka deals combat damage to a player, you get that many additional upkeep steps after this phase.",
+      "cards": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "found_in_source_export": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:obeka-splitter-of-seconds#key_interactions[0]",
+      "scenario": "upkeep-phases",
+      "expected_claim_to_verify": "The additional upkeeps come in extra beginning phases whose untap and draw steps are skipped.",
+      "cards": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "found_in_source_export": [
+        "Obeka, Splitter of Seconds"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:obeka-splitter-of-seconds#key_interactions[1]",
+      "scenario": "mjolnir-worthy",
+      "expected_claim_to_verify": "Mjölnir doubles Obeka's damage, and she's worthy, so equip costs {1}.",
+      "cards": [
+        "Mjölnir, Hammer of Thor",
+        "Obeka, Splitter of Seconds"
+      ],
+      "found_in_source_export": [
+        "Mjölnir, Hammer of Thor",
+        "Obeka, Splitter of Seconds"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:obeka-splitter-of-seconds#key_interactions[2]",
+      "scenario": "staff-not-wizard",
+      "expected_claim_to_verify": "Wizard's Staff doubles her triggers, but she's a Warlock, so equip is the normal {3}.",
+      "cards": [
+        "Wizard's Staff",
+        "Obeka, Splitter of Seconds"
+      ],
+      "found_in_source_export": [
+        "Wizard's Staff",
+        "Obeka, Splitter of Seconds"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:obeka-splitter-of-seconds#key_interactions[3]",
+      "scenario": "throne-ogre",
+      "expected_claim_to_verify": "Roaming Throne naming Ogre or Warlock doubles the trigger.",
+      "cards": [
+        "Roaming Throne",
+        "Obeka, Splitter of Seconds"
+      ],
+      "found_in_source_export": [
+        "Roaming Throne",
+        "Obeka, Splitter of Seconds"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:obeka-splitter-of-seconds#key_interactions[4]",
+      "scenario": "sieve-upkeep-artifacts",
+      "expected_claim_to_verify": "Time Sieve fed by upkeep artifact makers (Thopter Spy Network, Smaug, Court of Vantress) is the extra-turn engine.",
+      "cards": [
+        "Time Sieve",
+        "Thopter Spy Network",
+        "Smaug the Magnificent"
+      ],
+      "found_in_source_export": [
+        "Time Sieve",
+        "Thopter Spy Network",
+        "Smaug the Magnificent"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:obeka-splitter-of-seconds#key_interactions[5]",
+      "scenario": "upkeep-wincons",
+      "expected_claim_to_verify": "Mechanized Production and Darksteel Reactor count upkeeps as wins.",
+      "cards": [
+        "Mechanized Production",
+        "Darksteel Reactor"
+      ],
+      "found_in_source_export": [
+        "Mechanized Production",
+        "Darksteel Reactor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:obeka-splitter-of-seconds#engines[0]",
+      "scenario": "extra-upkeeps",
+      "expected_claim_to_verify": "Obeka deals combat damage to a player.",
+      "cards": [
+        "Obeka, Splitter of Seconds",
+        "Super Intelligence",
+        "Smaug the Magnificent",
+        "Tamiyo's Journal",
+        "Darksteel Reactor",
+        "Court of Ambition",
+        "Court of Cunning"
+      ],
+      "found_in_source_export": [
+        "Obeka, Splitter of Seconds",
+        "Super Intelligence",
+        "Smaug the Magnificent",
+        "Tamiyo's Journal",
+        "Darksteel Reactor",
+        "Court of Ambition",
+        "Court of Cunning"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:obeka-splitter-of-seconds#engines[1]",
+      "scenario": "damage-multiplication",
+      "expected_claim_to_verify": "Obeka equipped or pumped before damage.",
+      "cards": [
+        "Mjölnir, Hammer of Thor",
+        "Dragonfire Blade",
+        "Hatred",
+        "Roaming Throne",
+        "Wizard's Staff",
+        "Combat Research",
+        "Embercleave",
+        "Sword of Feast and Famine"
+      ],
+      "found_in_source_export": [
+        "Mjölnir, Hammer of Thor",
+        "Dragonfire Blade",
+        "Hatred",
+        "Roaming Throne",
+        "Wizard's Staff",
+        "Combat Research",
+        "Embercleave",
+        "Sword of Feast and Famine"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:obeka-splitter-of-seconds#win_conditions[0]",
+      "scenario": "time-sieve-turns",
+      "expected_claim_to_verify": "Obeka + Time Sieve + an upkeep artifact maker (Court of Vantress, Thopter Spy Network, Replicating Ring, Smaug): infinite turns.",
+      "cards": [
+        "Obeka, Splitter of Seconds",
+        "Time Sieve",
+        "Court of Vantress",
+        "Thopter Spy Network",
+        "Replicating Ring",
+        "Smaug the Magnificent",
+        "Mjölnir, Hammer of Thor",
+        "Roaming Throne"
+      ],
+      "found_in_source_export": [
+        "Obeka, Splitter of Seconds",
+        "Time Sieve",
+        "Court of Vantress",
+        "Thopter Spy Network",
+        "Replicating Ring",
+        "Smaug the Magnificent",
+        "Mjölnir, Hammer of Thor",
+        "Roaming Throne"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:obeka-splitter-of-seconds#win_conditions[1]",
+      "scenario": "alt-wins",
+      "expected_claim_to_verify": "Mechanized Production (eight same-name artifacts) or Darksteel Reactor (20 counters), both reached through extra upkeeps.",
+      "cards": [
+        "Obeka, Splitter of Seconds",
+        "Mechanized Production",
+        "Darksteel Reactor"
+      ],
+      "found_in_source_export": [
+        "Obeka, Splitter of Seconds",
+        "Mechanized Production",
+        "Darksteel Reactor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:obeka-splitter-of-seconds#win_conditions[2]",
+      "scenario": "advantage-combat",
+      "expected_claim_to_verify": "Out-value the table with extra-upkeep engines and win with combat or Smaug's Treasure damage.",
+      "cards": [
+        "Obeka, Splitter of Seconds",
+        "Smaug the Magnificent",
+        "Super Intelligence",
+        "Tamiyo's Journal",
+        "Darksteel Reactor"
+      ],
+      "found_in_source_export": [
+        "Obeka, Splitter of Seconds",
+        "Smaug the Magnificent",
+        "Super Intelligence",
+        "Tamiyo's Journal",
+        "Darksteel Reactor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:obeka-splitter-of-seconds#failure_modes[0]",
+      "scenario": "no-connection",
+      "expected_claim_to_verify": "Blockers, fogs and removal stop the engine.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Menace; Evasion package",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:obeka-splitter-of-seconds#failure_modes[1]",
+      "scenario": "artifact-hate",
+      "expected_claim_to_verify": "Artifact removal answers Time Sieve.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Upkeep value even without the combo",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:obeka-splitter-of-seconds#failure_modes[2]",
+      "scenario": "four-to-six-drops",
+      "expected_claim_to_verify": "Many upkeep engines cost four to six mana.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: 35 lands",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

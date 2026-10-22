@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "kind": "PENDING_COMMANDER_SPECIFIC_EFFECT_TEST_CONTRACTS",
+  "deck_id": "Admiral_Brass__Unsinkable",
+  "slug": "admiral-brass-unsinkable",
+  "commander_names": [
+    "Admiral Brass, Unsinkable"
+  ],
+  "tracker_order": 3,
+  "source_provenance": {
+    "engineering_branch": "chatgpt-cycle76-m6-refinement",
+    "blueprint_path": "data/grixis/blueprints/admiral-brass-unsinkable.json",
+    "blueprint_blob_sha": "7ba9fd52ceb0bdb49d129e01758d1be93e2973d5",
+    "blueprint_oracle_ids": [
+      "4df179b4-7c6b-4e63-9d7d-62f4df377989"
+    ],
+    "blueprint_oracle_hashes": [
+      "sha256:e95eac909452278c4b27f28f9f78fabab01ea5b9d661e624f47bc9cddadd98c6"
+    ],
+    "canonical_deck_path": "refinement/decklists/Admiral_Brass_Unsinkable_Whole_List_Approval_Candidate_2026-10-13.txt",
+    "canonical_deck_blob_sha": "5aabc4ba5ebca60a5a3476b73d8d2ae8f4638b6e",
+    "registered_approved_sha256": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "list_line_items": 97,
+    "source_blueprint_status": "seeded"
+  },
+  "commander_identity": {
+    "primary": "Pirate reanimator: fill the graveyard with high-impact Pirates (ETB mill, Entomb, Buried Alive, looting), return one each beginning of combat as a hasty 4/4 with a finality counter, and attack with ETB/attack value.",
+    "secondary": "Tribal mass reanimation (Living Death, Patriarch's Bidding, Victimize) as recovery and finish; finality-counter removal (Power Conduit) to make reanimation repeatable.",
+    "role": {
+      "level": "central",
+      "advances_plan": "Brass's combat trigger is a free Pirate reanimation every turn; the self-mill and Pirate-ETB choices exist for it.",
+      "honest_note": "Finality counters exile the returned Pirate when it would die, so each card is usually a one-shot unless Power Conduit removes the counter; the engine slowly consumes the graveyard."
+    },
+    "exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "test_id": "C01",
+      "priority": "P0",
+      "kind": "commander_oracle",
+      "title": "Admiral Brass, Unsinkable direct ability and permission",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#commanders.value[0]",
+      "source_derived_claim_to_verify": "When Admiral Brass enters, mill four cards.\nAt the beginning of combat on your turn, you may return target Pirate creature card from your graveyard to the battlefield with a finality counter on it. It has base power and toughness 4/4. It gains haste until end of turn. (If a creature with a finality counter on it would die, exile it instead.)",
+      "associated_cards": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "graveyard_recursion",
+        "end_step_upkeep",
+        "counters_transform"
+      ],
+      "fixture_contract": {
+        "starting_zones": [
+          "command",
+          "battlefield"
+        ],
+        "actions": [
+          "Stage legal cast or alternative zone if ability applies there",
+          "Pay real source-specific cost, choose legal targets/modes, then resolve relevant ability"
+        ],
+        "assertions": [
+          "Correct ability trigger/activation and effect according to quoted snapshot",
+          "No effect when any actual Oracle condition is missing",
+          "Exact priority/timing/triggered-vs-activated classification",
+          "No duplicate physical cards, illegal target or unpayable source"
+        ],
+        "negative_case": "commander removed / source not controlled / qualifying requirement absent (use only legally applicable case)",
+        "oracle_sha256": "sha256:e95eac909452278c4b27f28f9f78fabab01ea5b9d661e624f47bc9cddadd98c6"
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K01",
+      "priority": "P0",
+      "kind": "exact_interaction",
+      "title": "combat-trigger: Beginning of combat: return a Pirate creature card with a finality counter; base 4/4, haste.",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#key_interactions[0]",
+      "source_derived_claim_to_verify": "Beginning of combat: return a Pirate creature card with a finality counter; base 4/4, haste.",
+      "associated_cards": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Brass, Unsinkable"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "counters_transform",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-brass-unsinkable#brass-01"
+        ],
+        "m1_refs": [
+          "brass-01"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K02",
+      "priority": "P0",
+      "kind": "exact_interaction",
+      "title": "finality-exile: Finality creatures are exiled instead of dying: no death triggers or Plunderer Treasure.",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#key_interactions[1]",
+      "source_derived_claim_to_verify": "Finality creatures are exiled instead of dying: no death triggers or Plunderer Treasure.",
+      "associated_cards": [
+        "Pitiless Plunderer"
+      ],
+      "present_in_approved_baseline": [
+        "Pitiless Plunderer"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "artifact_tokens",
+        "sacrifice_death",
+        "counters_transform"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-brass-unsinkable#brass-02"
+        ],
+        "m1_refs": [
+          "brass-02"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K03",
+      "priority": "P0",
+      "kind": "exact_interaction",
+      "title": "power-conduit: Power Conduit removes the finality counter; the base 4/4 stays.",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#key_interactions[2]",
+      "source_derived_claim_to_verify": "Power Conduit removes the finality counter; the base 4/4 stays.",
+      "associated_cards": [
+        "Power Conduit"
+      ],
+      "present_in_approved_baseline": [
+        "Power Conduit"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "counters_transform"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-brass-unsinkable#brass-03"
+        ],
+        "m1_refs": [
+          "brass-03"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K04",
+      "priority": "P1",
+      "kind": "exact_interaction",
+      "title": "changeling-and-wonder: Changeling cards are Pirate creature cards in the graveyard; Wonder in the graveyard gives flying.",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#key_interactions[3]",
+      "source_derived_claim_to_verify": "Changeling cards are Pirate creature cards in the graveyard; Wonder in the graveyard gives flying.",
+      "associated_cards": [
+        "Changeling Outcast",
+        "Wonder"
+      ],
+      "present_in_approved_baseline": [
+        "Changeling Outcast",
+        "Wonder"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "graveyard_recursion",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-brass-unsinkable#brass-05",
+          "interaction:admiral-brass-unsinkable#brass-09"
+        ],
+        "m1_refs": [
+          "brass-05",
+          "brass-09"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K05",
+      "priority": "P1",
+      "kind": "exact_interaction",
+      "title": "symmetric-mass-reanimation: Living Death and Patriarch's Bidding are symmetric; check opponents' graveyards first.",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#key_interactions[4]",
+      "source_derived_claim_to_verify": "Living Death and Patriarch's Bidding are symmetric; check opponents' graveyards first.",
+      "associated_cards": [
+        "Living Death",
+        "Patriarch's Bidding"
+      ],
+      "present_in_approved_baseline": [
+        "Living Death",
+        "Patriarch's Bidding"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "graveyard_recursion",
+        "sacrifice_death"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-brass-unsinkable#brass-10"
+        ],
+        "m1_refs": [
+          "brass-10"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "E01",
+      "priority": "P1",
+      "kind": "engine_payability",
+      "title": "Engine combat-reanimation",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#engines[0]",
+      "source_derived_claim_to_verify": "A Pirate creature card in your graveyard at your beginning of combat.",
+      "associated_cards": [
+        "Admiral Brass, Unsinkable",
+        "Roaming Throne"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Brass, Unsinkable",
+        "Roaming Throne"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "graveyard_recursion",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Assemble registered named engine from physical cards; start from a legal 100-card state with commander zone/timing checked.",
+        "action": "Pay the setup costs and exercise the engine once, then attempt an additional activation/turn cycle.",
+        "assertions": [
+          "Engine cannot generate resources, tokens, new cards or triggers without legal setup",
+          "Record exactly paid mana/taps/targets and cumulative produced events",
+          "Verify ordering and graveyard/battlefield/exile ownership after each iteration"
+        ],
+        "negative_case": "Remove a required engine component or suppress the condition, then show the claimed output fails",
+        "evidence": [
+          "interaction:admiral-brass-unsinkable#brass-01"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "E02",
+      "priority": "P1",
+      "kind": "engine_payability",
+      "title": "Engine pirate-etb-value",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#engines[1]",
+      "source_derived_claim_to_verify": "Pirates entering (reanimated or cast).",
+      "associated_cards": [
+        "Skeleton Crew",
+        "Gemcutter Buccaneer",
+        "Coercive Recruiter",
+        "Hostage Taker",
+        "Zara, Renegade Recruiter"
+      ],
+      "present_in_approved_baseline": [
+        "Skeleton Crew",
+        "Gemcutter Buccaneer",
+        "Coercive Recruiter",
+        "Hostage Taker",
+        "Zara, Renegade Recruiter"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "graveyard_recursion",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Assemble registered named engine from physical cards; start from a legal 100-card state with commander zone/timing checked.",
+        "action": "Pay the setup costs and exercise the engine once, then attempt an additional activation/turn cycle.",
+        "assertions": [
+          "Engine cannot generate resources, tokens, new cards or triggers without legal setup",
+          "Record exactly paid mana/taps/targets and cumulative produced events",
+          "Verify ordering and graveyard/battlefield/exile ownership after each iteration"
+        ],
+        "negative_case": "Remove a required engine component or suppress the condition, then show the claimed output fails",
+        "evidence": [
+          "interaction:admiral-brass-unsinkable#brass-07",
+          "interaction:admiral-brass-unsinkable#brass-13"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "W01",
+      "priority": "P1",
+      "kind": "win_condition_trace",
+      "title": "natural finish: reanimated-pirate-beats",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#win_conditions[0]",
+      "source_derived_claim_to_verify": "A new hasty 4/4 Pirate with ETB value every combat, pumped by Shared Animosity and lords, plus Port Razer combats.",
+      "associated_cards": [
+        "Admiral Brass, Unsinkable",
+        "Shared Animosity",
+        "Port Razer",
+        "Angrath's Marauders",
+        "Entomb",
+        "Buried Alive"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Brass, Unsinkable",
+        "Shared Animosity",
+        "Port Razer",
+        "Angrath's Marauders",
+        "Entomb",
+        "Buried Alive"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "graveyard_recursion",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Source-lock required pieces; stage exact preconditions, actual lands/mana, life totals, spell/ability timing and opposing interaction window.",
+        "action": "Resolve a bounded turn-by-turn path for the named win condition; if unbounded, require a repeatable state proof and finite conversion to an explicit actual win.",
+        "assertions": [
+          "Demonstrate legal paid spells, legal stack priority, physical object-zone conservation and valid targets",
+          "Record opponent life or actual victory state instead of counting raw triggers as wins",
+          "Flag dependencies not present in approved deck or relying on hypotheticals"
+        ],
+        "negative_case": "Remove one named enabler or introduce a documented stax/response window, then show line feasibility changes",
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Brass_Unsinkable_v1.md"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "W02",
+      "priority": "P1",
+      "kind": "win_condition_trace",
+      "title": "natural finish: mass-reanimation",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#win_conditions[1]",
+      "source_derived_claim_to_verify": "Living Death or Patriarch's Bidding returns a whole Pirate board for a lethal swing.",
+      "associated_cards": [
+        "Living Death",
+        "Patriarch's Bidding",
+        "Faithless Looting"
+      ],
+      "present_in_approved_baseline": [
+        "Living Death",
+        "Patriarch's Bidding",
+        "Faithless Looting"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "sacrifice_death",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Source-lock required pieces; stage exact preconditions, actual lands/mana, life totals, spell/ability timing and opposing interaction window.",
+        "action": "Resolve a bounded turn-by-turn path for the named win condition; if unbounded, require a repeatable state proof and finite conversion to an explicit actual win.",
+        "assertions": [
+          "Demonstrate legal paid spells, legal stack priority, physical object-zone conservation and valid targets",
+          "Record opponent life or actual victory state instead of counting raw triggers as wins",
+          "Flag dependencies not present in approved deck or relying on hypotheticals"
+        ],
+        "negative_case": "Remove one named enabler or introduce a documented stax/response window, then show line feasibility changes",
+        "evidence": [
+          "interaction:admiral-brass-unsinkable#brass-10",
+          "interaction:admiral-brass-unsinkable#brass-12"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "F01",
+      "priority": "P0",
+      "kind": "adversarial_failure",
+      "title": "graveyard-hate: adversarial commander failure",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#failure_modes[0]",
+      "source_derived_claim_to_verify": "Graveyard exile (Bojuka Bog, Rest in Peace) shuts off the commander and mass reanimation.",
+      "associated_cards": [],
+      "present_in_approved_baseline": [],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "graveyard_recursion"
+      ],
+      "fixture_contract": {
+        "setup": "Construct legal deck-specific board showing the recorded commander failure mode. This is a conditional red-team fixture, not an assumed opponent frequency.",
+        "action": "Apply precisely the disruption described; separately test documented mitigations.",
+        "assertions": [
+          "Compare a baseline against disruption with same board and random seed",
+          "Verify mitigation needs payable mana/target/priority and is not assumed available",
+          "Do not infer multiplayer win percentage from a staged failure"
+        ],
+        "mitigations": [
+          "Hard-cast Pirates still work",
+          "Hold reanimation until needed"
+        ],
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Brass_Unsinkable_v1.md"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "F02",
+      "priority": "P1",
+      "kind": "adversarial_failure",
+      "title": "one-shot-reanimation: adversarial commander failure",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#failure_modes[1]",
+      "source_derived_claim_to_verify": "Finality counters mean each reanimated Pirate is usually exiled the next time it would die.",
+      "associated_cards": [],
+      "present_in_approved_baseline": [],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "graveyard_recursion",
+        "counters_transform",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Construct legal deck-specific board showing the recorded commander failure mode. This is a conditional red-team fixture, not an assumed opponent frequency.",
+        "action": "Apply precisely the disruption described; separately test documented mitigations.",
+        "assertions": [
+          "Compare a baseline against disruption with same board and random seed",
+          "Verify mitigation needs payable mana/target/priority and is not assumed available",
+          "Do not infer multiplayer win percentage from a staged failure"
+        ],
+        "mitigations": [
+          "Power Conduit"
+        ],
+        "evidence": [
+          "interaction:admiral-brass-unsinkable#brass-02"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "F03",
+      "priority": "P1",
+      "kind": "adversarial_failure",
+      "title": "bad-mill: adversarial commander failure",
+      "source_anchor": "blueprint:admiral-brass-unsinkable#failure_modes[2]",
+      "source_derived_claim_to_verify": "Commander ETB mill and self-mill may hit lands or non-Pirates.",
+      "associated_cards": [],
+      "present_in_approved_baseline": [],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Construct legal deck-specific board showing the recorded commander failure mode. This is a conditional red-team fixture, not an assumed opponent frequency.",
+        "action": "Apply precisely the disruption described; separately test documented mitigations.",
+        "assertions": [
+          "Compare a baseline against disruption with same board and random seed",
+          "Verify mitigation needs payable mana/target/priority and is not assumed available",
+          "Do not infer multiplayer win percentage from a staged failure"
+        ],
+        "mitigations": [
+          "Entomb/Buried Alive choose the card"
+        ],
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Brass_Unsinkable_v1.md"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    }
+  ],
+  "priority_counts": {
+    "P0": 5,
+    "P1": 8
+  },
+  "shared_reuse_guidance": {
+    "recommended_mechanic_families": [
+      "combat_damage_theft",
+      "graveyard_recursion",
+      "end_step_upkeep",
+      "counters_transform",
+      "tribal_type",
+      "artifact_tokens",
+      "sacrifice_death"
+    ],
+    "foundation_suites": [
+      "physical-zones",
+      "transactional-stack",
+      "model-coverage"
+    ],
+    "implemented_adapters": [],
+    "all_custom_effect_adapters_pending": true
+  },
+  "quality_gates": {
+    "complete_live_oracle_refresh_required": true,
+    "physical_baseline_and_approved_sha_reverification_required": true,
+    "official_vs_project_exception_audit_required": true,
+    "candidate_off_baseline_not_assumed_available": true,
+    "unit_test_implementation_required": true,
+    "adversarial_fixture_implementation_required": true,
+    "decision_grade_phase_b_not_satisfied": true,
+    "owner_final_approval_not_affected": true
+  },
+  "overall_status": "DESIGNED_ONLY_NEVER_EXECUTED",
+  "counted_as_passed_tests": 0
+}

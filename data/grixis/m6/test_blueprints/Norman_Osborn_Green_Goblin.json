@@ -1,0 +1,558 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Norman_Osborn_Green_Goblin",
+  "order": 21,
+  "commanders": [
+    "Norman Osborn // Green Goblin"
+  ],
+  "strategy": {
+    "primary": "Turbo combo: fast mana and tutors race to Thassa's Oracle + Demonic Consultation/Tainted Pact or Underworld Breach lines (LED + Brain Freeze, Wheel of Fortune + Jeska's Will, Grinding Station + Mox Amber).",
+    "secondary": "Commander-native mayhem: Norman connives unblockably, then Green Goblin makes every nonland card discarded this turn castable from the graveyard for {2} less, turning loot and discard outlets into card advantage."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Norman Osborn // Green Goblin",
+      "oracle_id": "aa5b06a4-90c3-45e7-ab83-cb5c96ded21d",
+      "oracle_text": "Norman Osborn can't be blocked.\nWhenever Norman Osborn deals combat damage to a player, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)\n{1}{U}{B}{R}: Transform Norman Osborn. Activate only as a sorcery.\nFlying, menace\nSpells you cast from your graveyard cost {2} less to cast.\nGoblin Formula — Each nonland card in your graveyard has mayhem. The mayhem cost is equal to its mana cost. (You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply.)",
+      "oracle_sha256": "sha256:8037862f2af14ed46f91c3b75b1ed0609d585036ae39ced016e070a57c720c51",
+      "type_line": "Legendary Creature — Human Scientist Villain // Legendary Creature — Goblin Human Villain"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Norman Osborn // Green Goblin",
+      "why": "Unblockable connive, then mayhem and cost reduction.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Norman Osborn // Green Goblin"
+      ]
+    },
+    {
+      "card": "Faithless Looting",
+      "why": "Cheap discard into mayhem.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L22"
+      ]
+    },
+    {
+      "card": "Borne Upon a Wind",
+      "why": "Flash for mayhem casts.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Norman_Osborn_Green_Goblin_Commander_Blueprint_2026-10-15.md#L24"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/norman-osborn.json",
+    "blueprint_blob": "ba7bad9fc4c4f5fcd0181ae070473902300070f7",
+    "canonical_source_path": "refinement/decklists/Norman_Osborn_Green_Goblin_Approved_2026-10-15.txt",
+    "canonical_source_blob": "42e2e0af30286f3d2dcacebfd76e60eee763b965",
+    "canonical_approved_sha256": "23168e59b7d359ecf24ed95065a5a4b50c978a8f441208d593207e2feacbdea2",
+    "canonical_record_key": "Goben__Gene_Splice_Savant",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": true
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:norman-osborn#commanders.value[0]",
+      "scenario": "Norman Osborn // Green Goblin",
+      "expected_claim_to_verify": "Norman Osborn can't be blocked.\nWhenever Norman Osborn deals combat damage to a player, he connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)\n{1}{U}{B}{R}: Transform Norman Osborn. Activate only as a sorcery.\nFlying, menace\nSpells you cast from your graveyard cost {2} less to cast.\nGoblin Formula — Each nonland card in your graveyard has mayhem. The mayhem cost is equal to its mana cost. (You may cast a card from your graveyard for its mayhem cost if you discarded it this turn. Timing rules still apply.)",
+      "cards": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "found_in_source_export": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Build commander in legal and illegal zones; test trigger/activated/static condition, casting, summoning/timing, exact physical effects.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[0]",
+      "scenario": "generic-only-reduction",
+      "expected_claim_to_verify": "Green Goblin's {2} reduction only reduces generic mana.",
+      "cards": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "found_in_source_export": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[1]",
+      "scenario": "mayhem-timing",
+      "expected_claim_to_verify": "Mayhem needs the card discarded this turn and follows normal timing rules; Borne Upon a Wind/Valley Floodcaller add flash.",
+      "cards": [
+        "Norman Osborn // Green Goblin",
+        "Borne Upon a Wind",
+        "Valley Floodcaller"
+      ],
+      "found_in_source_export": [
+        "Norman Osborn // Green Goblin",
+        "Borne Upon a Wind",
+        "Valley Floodcaller"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[2]",
+      "scenario": "no-necropotence",
+      "expected_claim_to_verify": "Necropotence exiles discarded cards, which conflicts with mayhem, so it's deliberately excluded.",
+      "cards": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "found_in_source_export": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[3]",
+      "scenario": "mox-amber-norman",
+      "expected_claim_to_verify": "Norman is a blue legendary creature, so Mox Amber makes blue mana.",
+      "cards": [
+        "Mox Amber",
+        "Norman Osborn // Green Goblin"
+      ],
+      "found_in_source_export": [
+        "Mox Amber",
+        "Norman Osborn // Green Goblin"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[4]",
+      "scenario": "connive",
+      "expected_claim_to_verify": "Connive: draw, discard; a nonland discard adds a +1/+1 counter.",
+      "cards": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "found_in_source_export": [
+        "Norman Osborn // Green Goblin"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[5]",
+      "scenario": "cavern-human",
+      "expected_claim_to_verify": "Cavern of Souls naming Human protects only the Norman face's cast.",
+      "cards": [
+        "Cavern of Souls",
+        "Norman Osborn // Green Goblin"
+      ],
+      "found_in_source_export": [
+        "Cavern of Souls",
+        "Norman Osborn // Green Goblin"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K7",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:norman-osborn#key_interactions[6]",
+      "scenario": "generic-kills",
+      "expected_claim_to_verify": "The Oracle and Breach kills are verified and need no commander.",
+      "cards": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze"
+      ],
+      "found_in_source_export": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:norman-osborn#engines[0]",
+      "scenario": "mayhem",
+      "expected_claim_to_verify": "Green Goblin transformed ({1}{U}{B}{R}, sorcery speed) and a discard outlet.",
+      "cards": [
+        "Norman Osborn // Green Goblin",
+        "Careful Study",
+        "Faithless Looting",
+        "Frantic Search",
+        "Psychic Frog",
+        "Shadow of the Goblin",
+        "Unstable Experiment",
+        "Big Score",
+        "Dark Deal"
+      ],
+      "found_in_source_export": [
+        "Norman Osborn // Green Goblin",
+        "Careful Study",
+        "Faithless Looting",
+        "Frantic Search",
+        "Psychic Frog",
+        "Shadow of the Goblin",
+        "Unstable Experiment",
+        "Big Score",
+        "Dark Deal"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:norman-osborn#engines[1]",
+      "scenario": "fast-mana",
+      "expected_claim_to_verify": "Opening hand.",
+      "cards": [
+        "Mana Vault",
+        "Grim Monolith",
+        "Chrome Mox",
+        "Mox Diamond",
+        "Mox Opal",
+        "Mox Amber",
+        "Lotus Petal",
+        "Dark Ritual",
+        "Cabal Ritual",
+        "Rite of Flame",
+        "Simian Spirit Guide",
+        "City of Traitors",
+        "Gemstone Caverns",
+        "Ancient Tomb"
+      ],
+      "found_in_source_export": [
+        "Mana Vault",
+        "Grim Monolith",
+        "Chrome Mox",
+        "Mox Diamond",
+        "Mox Opal",
+        "Mox Amber",
+        "Lotus Petal",
+        "Dark Ritual",
+        "Cabal Ritual",
+        "Rite of Flame",
+        "Simian Spirit Guide",
+        "City of Traitors",
+        "Gemstone Caverns",
+        "Ancient Tomb"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:norman-osborn#win_conditions[0]",
+      "scenario": "oracle",
+      "expected_claim_to_verify": "Thassa's Oracle + Demonic Consultation or Tainted Pact.",
+      "cards": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact"
+      ],
+      "found_in_source_export": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:norman-osborn#win_conditions[1]",
+      "scenario": "breach",
+      "expected_claim_to_verify": "Underworld Breach + LED/Lotus Petal + Brain Freeze, or + Wheel of Fortune (+ LED or Jeska's Will).",
+      "cards": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Jeska's Will"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Jeska's Will"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:norman-osborn#win_conditions[2]",
+      "scenario": "breach-station",
+      "expected_claim_to_verify": "Underworld Breach + Grinding Station + Mox Amber: self-mill, storm and mana. With Norman out, Mox Amber makes blue.",
+      "cards": [
+        "Underworld Breach",
+        "Grinding Station",
+        "Mox Amber",
+        "Norman Osborn // Green Goblin",
+        "Brain Freeze",
+        "Thassa's Oracle"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Grinding Station",
+        "Mox Amber",
+        "Norman Osborn // Green Goblin",
+        "Brain Freeze",
+        "Thassa's Oracle"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:norman-osborn#failure_modes[0]",
+      "scenario": "graveyard-hate",
+      "expected_claim_to_verify": "Graveyard hate stops Breach and mayhem.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Oracle lines; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:norman-osborn#failure_modes[1]",
+      "scenario": "slow-transform",
+      "expected_claim_to_verify": "Green Goblin needs a four-mana sorcery-speed transform.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Generic combo without him; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:norman-osborn#failure_modes[2]",
+      "scenario": "23-lands",
+      "expected_claim_to_verify": "A 23-land turbo build can stumble without fast mana.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Loot density; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 16,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

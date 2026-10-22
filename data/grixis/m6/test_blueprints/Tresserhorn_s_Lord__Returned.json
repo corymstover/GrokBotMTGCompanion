@@ -1,0 +1,553 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Tresserhorn_s_Lord__Returned",
+  "order": 60,
+  "commanders": [
+    "Tresserhorn's Lord, Returned"
+  ],
+  "strategy": {
+    "primary": "Sacrifice card-draw aristocrats: build cheap repeatable fodder, resolve Tresserhorn while paying his three-creature ETB (three draw triggers), then turn every sacrifice into a card and close with drain payoffs or loops (The Locust God + a free outlet, Gravecrawler + Phyrexian Altar or Plunderer).",
+    "secondary": "The 10/4 trample, indestructible commander as a combat threat with Infantry Shield, Wand of Orcus, My Precious and Chandra's Ignition."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Tresserhorn's Lord, Returned",
+      "oracle_id": "11cc638c-b1c5-4b73-8eac-00cac6ae32b6",
+      "oracle_text": "Trample, indestructible\nWhen Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards.\nWhenever you sacrifice a creature, draw a card.",
+      "oracle_sha256": "sha256:e6798911d6eeff8cabcd95b563bd9f442cd411c25e237e0def5b5840d53ccd11",
+      "type_line": "Legendary Creature — Zombie Noble"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Tresserhorn's Lord, Returned",
+      "why": "Draws on every sacrifice.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Tresserhorn's Lord, Returned"
+      ]
+    },
+    {
+      "card": "The Locust God",
+      "why": "Loops with Tresserhorn.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:1339-2292-7920"
+      ]
+    },
+    {
+      "card": "Gravecrawler",
+      "why": "Recursive Zombie loop body.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:2577-4050"
+      ]
+    },
+    {
+      "card": "Plumb the Forbidden",
+      "why": "Burst sacrifice draw.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/verification/Tresserhorn_s_Lord_Returned_Approval_Ready_Verification_2026-10-15.md#L55"
+      ]
+    },
+    {
+      "card": "Weaponcraft Enthusiast",
+      "why": "Three bodies for the ETB.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Tresserhorn_s_Lord_Returned_Candidate_Decisions_2026-10-15.md#L50"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ],
+    "future_release": [
+      {
+        "card": "Tresserhorn's Lord, Returned",
+        "legal_from": "2026-11-13",
+        "official_commander_legality": "not legal until 2026-11-13 (Wizards: new-to-Magic MBC cards are legal from 2026-11-13)",
+        "project_authorization": "AUTHORIZED_FUTURE_RELEASE",
+        "registry_state": "PENDING_RELEASE",
+        "ref": "registry:data/grixis/exceptions.json#exc:tresserhorns-lord-returned:tresserhorn-s-lord-returned"
+      }
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/tresserhorns-lord-returned.json",
+    "blueprint_blob": "0b565fce0e241380f7e8cefd487343ac5fcaf50c",
+    "canonical_source_path": "refinement/decklists/Tresserhorn_s_Lord_Returned_Approved_2026-10-15.txt",
+    "canonical_source_blob": "767089b633d45e9d677f9ba447331589e71bd51c",
+    "canonical_approved_sha256": "8c802586a4742156fb96246f4f23331eb51d1a77d6717da63ceed2446e98adf8",
+    "canonical_record_key": "Tresserhorn_s_Lord__Returned",
+    "registry_raw_matches": true,
+    "source_card_lines": 93,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:tresserhorns-lord-returned#commanders.value[0]",
+      "scenario": "Tresserhorn's Lord, Returned",
+      "expected_claim_to_verify": "Trample, indestructible\nWhen Tresserhorn's Lord enters, sacrifice him unless you sacrifice three creatures, pay 3 life, and have target opponent draw three cards.\nWhenever you sacrifice a creature, draw a card.",
+      "cards": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tresserhorns-lord-returned#key_interactions[0]",
+      "scenario": "etb-three-draws",
+      "expected_claim_to_verify": "Paying the ETB by sacrificing three creatures gives three draws while Tresserhorn is on the battlefield; he also triggers for his own sacrifice.",
+      "cards": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tresserhorns-lord-returned#key_interactions[1]",
+      "scenario": "plumb-math",
+      "expected_claim_to_verify": "Plumb the Forbidden with N creatures draws 2N+1.",
+      "cards": [
+        "Plumb the Forbidden",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Plumb the Forbidden",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tresserhorns-lord-returned#key_interactions[2]",
+      "scenario": "familiar-generic-only",
+      "expected_claim_to_verify": "Nightscape Familiar reduces only the generic part: {1}{U}{B}{R}, no lower.",
+      "cards": [
+        "Nightscape Familiar",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Nightscape Familiar",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tresserhorns-lord-returned#key_interactions[3]",
+      "scenario": "not-of-this-world",
+      "expected_claim_to_verify": "Not of This World is free only against things targeting him, not sweepers or edicts.",
+      "cards": [
+        "Not of This World",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Not of This World",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tresserhorns-lord-returned#key_interactions[4]",
+      "scenario": "edict-indestructible",
+      "expected_claim_to_verify": "Blasphemous Edict gets around indestructible; keep Tresserhorn out of the chosen set.",
+      "cards": [
+        "Blasphemous Edict",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Blasphemous Edict",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tresserhorns-lord-returned#key_interactions[5]",
+      "scenario": "no-etb-hosers",
+      "expected_claim_to_verify": "Torpor Orb and Karn, Argent Defender were rejected: they shut off his ETB.",
+      "cards": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tresserhorns-lord-returned#engines[0]",
+      "scenario": "sacrifice-draw",
+      "expected_claim_to_verify": "Tresserhorn on the battlefield.",
+      "cards": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tresserhorns-lord-returned#engines[1]",
+      "scenario": "fodder",
+      "expected_claim_to_verify": "Cheap repeatable bodies.",
+      "cards": [
+        "Bitterblossom",
+        "Bitterbloom Bearer",
+        "Chittering Witch",
+        "Mogg War Marshal",
+        "Weaponcraft Enthusiast",
+        "Endrek Sahr, Master Breeder",
+        "Jadar, Ghoulcaller of Nephalia",
+        "Lagomos, Hand of Hatred",
+        "Ophiomancer",
+        "Marionette Apprentice",
+        "Tempt with Vengeance",
+        "Chasm Skulker",
+        "Woe Strider",
+        "Bloodghast"
+      ],
+      "found_in_source_export": [
+        "Bitterblossom",
+        "Bitterbloom Bearer",
+        "Chittering Witch",
+        "Mogg War Marshal",
+        "Weaponcraft Enthusiast",
+        "Endrek Sahr, Master Breeder",
+        "Jadar, Ghoulcaller of Nephalia",
+        "Lagomos, Hand of Hatred",
+        "Ophiomancer",
+        "Marionette Apprentice",
+        "Tempt with Vengeance",
+        "Chasm Skulker",
+        "Woe Strider",
+        "Bloodghast"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tresserhorns-lord-returned#win_conditions[0]",
+      "scenario": "locust-loop",
+      "expected_claim_to_verify": "The Locust God + Tresserhorn + a free outlet: each draw makes an Insect, and sacrificing it draws again; Goblin Bombardment or a drain payoff kills.",
+      "cards": [
+        "The Locust God",
+        "Tresserhorn's Lord, Returned",
+        "Viscera Seer",
+        "Carrion Feeder",
+        "Phyrexian Altar",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Diabolic Intent",
+        "Demonic Tutor",
+        "Vampiric Tutor"
+      ],
+      "found_in_source_export": [
+        "The Locust God",
+        "Tresserhorn's Lord, Returned",
+        "Viscera Seer",
+        "Carrion Feeder",
+        "Phyrexian Altar",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Diabolic Intent",
+        "Demonic Tutor",
+        "Vampiric Tutor"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tresserhorns-lord-returned#win_conditions[1]",
+      "scenario": "gravecrawler-loops",
+      "expected_claim_to_verify": "Gravecrawler with Phyrexian Altar, Pitiless Plunderer + outlet, or Warren Soultrader + Blood Artist / Zulaport / Bastion.",
+      "cards": [
+        "Gravecrawler",
+        "Phyrexian Altar",
+        "Pitiless Plunderer",
+        "Warren Soultrader",
+        "Blood Artist",
+        "Zulaport Cutthroat",
+        "Bastion of Remembrance",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "found_in_source_export": [
+        "Gravecrawler",
+        "Phyrexian Altar",
+        "Pitiless Plunderer",
+        "Warren Soultrader",
+        "Blood Artist",
+        "Zulaport Cutthroat",
+        "Bastion of Remembrance",
+        "Tresserhorn's Lord, Returned"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tresserhorns-lord-returned#win_conditions[2]",
+      "scenario": "commander-combat",
+      "expected_claim_to_verify": "10-power trample, indestructible Tresserhorn with Infantry Shield or Wand of Orcus.",
+      "cards": [
+        "Tresserhorn's Lord, Returned",
+        "Infantry Shield",
+        "Wand of Orcus",
+        "My Precious // Allure of Power",
+        "Lightning Greaves"
+      ],
+      "found_in_source_export": [
+        "Tresserhorn's Lord, Returned",
+        "Infantry Shield",
+        "Wand of Orcus",
+        "My Precious // Allure of Power",
+        "Lightning Greaves"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:tresserhorns-lord-returned#failure_modes[0]",
+      "scenario": "etb-cost",
+      "expected_claim_to_verify": "The ETB needs three creatures, 3 life and gives an opponent three cards; without fodder he is sacrificed.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Fodder density; Draw triggers",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:tresserhorns-lord-returned#failure_modes[1]",
+      "scenario": "edicts-exile",
+      "expected_claim_to_verify": "Edicts, exile and bounce get around indestructible.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Not of This World; Fodder",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:tresserhorns-lord-returned#failure_modes[2]",
+      "scenario": "self-deck",
+      "expected_claim_to_verify": "Optional loops can deck you; stop before it happens.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Drain outlet first",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

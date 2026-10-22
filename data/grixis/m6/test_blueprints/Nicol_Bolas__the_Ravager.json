@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Nicol_Bolas__the_Ravager",
+  "order": 43,
+  "commanders": [
+    "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+  ],
+  "strategy": {
+    "primary": "Bolas superfriends: cast Ravager for ETB discard, transform him into the Arisen (Training Grounds helps), then proliferate, copy and repeat loyalty abilities across Bolas and other planeswalkers.",
+    "secondary": "Chain Veil infrastructure with Teferi gives deterministic loops; the Arisen's -4 reanimates discarded creatures and planeswalkers."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "oracle_id": "55e4b27e-5447-4fc2-8cae-a03e344600c6",
+      "oracle_text": "Flying\nWhen Nicol Bolas enters, each opponent discards a card.\n{4}{U}{B}{R}: Exile Nicol Bolas, then return him to the battlefield transformed under his owner's control. Activate only as a sorcery.\n+2: Draw two cards.\n−3: Nicol Bolas deals 10 damage to target creature or planeswalker.\n−4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control.\n−12: Exile all but the bottom card of target player's library.",
+      "oracle_sha256": "sha256:500ecb8f9a1c5f4b06a2c42f2acde6ce6d843994d80df82b8a1be7156e5c384a",
+      "type_line": "Legendary Creature — Elder Dragon // Legendary Planeswalker — Bolas"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "why": "ETB discard and the Arisen planeswalker.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ]
+    },
+    {
+      "card": "Training Grounds",
+      "why": "Cheaper transform.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Nicol_Bolas_the_Ravager_Commander_First_Blueprint_2026-10-15.md#L49"
+      ]
+    },
+    {
+      "card": "The Chain Veil",
+      "why": "Extra loyalty activations and the combo.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:787-1124"
+      ]
+    },
+    {
+      "card": "Ichormoon Gauntlet",
+      "why": "Loyalty multiplier and combo piece.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:1124-1543-2247"
+      ]
+    },
+    {
+      "card": "Nicol Bolas, Planeswalker",
+      "why": "High-synergy Bolas walker re-added after review.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Nicol_Bolas_the_Ravager_Commander_First_Blueprint_2026-10-15.md#L51"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/nicol-bolas-the-ravager.json",
+    "blueprint_blob": "597131b37ea8bf9099937af1e357e20208570eb6",
+    "canonical_source_path": "refinement/decklists/Nicol_Bolas_the_Ravager_Approved_2026-10-15.txt",
+    "canonical_source_blob": "6b507ab9ca156e4c6214899a10a7ed3a0b862a2f",
+    "canonical_approved_sha256": "5a5fff7dcea61a8e1e0b5ea6da41f6158033bbd899088d7e6abbe6b7c52fb63e",
+    "canonical_record_key": "Nicol_Bolas__the_Ravager",
+    "registry_raw_matches": true,
+    "source_card_lines": 98,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:nicol-bolas-the-ravager#commanders.value[0]",
+      "scenario": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+      "expected_claim_to_verify": "Flying\nWhen Nicol Bolas enters, each opponent discards a card.\n{4}{U}{B}{R}: Exile Nicol Bolas, then return him to the battlefield transformed under his owner's control. Activate only as a sorcery.\n+2: Draw two cards.\n−3: Nicol Bolas deals 10 damage to target creature or planeswalker.\n−4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control.\n−12: Exile all but the bottom card of target player's library.",
+      "cards": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "found_in_source_export": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:nicol-bolas-the-ravager#key_interactions[0]",
+      "scenario": "transform-exile-return",
+      "expected_claim_to_verify": "Ravager's ability exiles him and returns him transformed: a new object with summoning sickness that doesn't matter for loyalty abilities.",
+      "cards": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "found_in_source_export": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:nicol-bolas-the-ravager#key_interactions[1]",
+      "scenario": "one-loyalty-activation",
+      "expected_claim_to_verify": "Normally one loyalty activation per planeswalker per turn; Chain Veil, Gauntlet and Rings break this.",
+      "cards": [
+        "The Chain Veil",
+        "Ichormoon Gauntlet",
+        "Rings of Brighthearth"
+      ],
+      "found_in_source_export": [
+        "The Chain Veil",
+        "Ichormoon Gauntlet",
+        "Rings of Brighthearth"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:nicol-bolas-the-ravager#key_interactions[2]",
+      "scenario": "proliferate",
+      "expected_claim_to_verify": "Proliferate adds loyalty to every chosen planeswalker.",
+      "cards": [
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus"
+      ],
+      "found_in_source_export": [
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:nicol-bolas-the-ravager#key_interactions[3]",
+      "scenario": "kitten-reset",
+      "expected_claim_to_verify": "Displacer Kitten flickers Ravager for repeated ETB discard. Flickering the Arisen returns the front face and strips Talents attached to him.",
+      "cards": [
+        "Displacer Kitten",
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "found_in_source_export": [
+        "Displacer Kitten",
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:nicol-bolas-the-ravager#key_interactions[4]",
+      "scenario": "bolas-walker-checks",
+      "expected_claim_to_verify": "Deliver Unto Evil sees the Bolas planeswalkers; Dark Intimations' Bolas clause doesn't apply here.",
+      "cards": [
+        "Deliver Unto Evil",
+        "Dark Intimations"
+      ],
+      "found_in_source_export": [
+        "Deliver Unto Evil",
+        "Dark Intimations"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:nicol-bolas-the-ravager#key_interactions[5]",
+      "scenario": "spark-dragon-god",
+      "expected_claim_to_verify": "Spark Double copies the Arisen; Nicol Bolas, Dragon-God borrows every planeswalker's loyalty abilities.",
+      "cards": [
+        "Spark Double",
+        "Nicol Bolas, Dragon-God",
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "found_in_source_export": [
+        "Spark Double",
+        "Nicol Bolas, Dragon-God",
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:nicol-bolas-the-ravager#engines[0]",
+      "scenario": "transform",
+      "expected_claim_to_verify": "Seven mana at sorcery speed (less with Training Grounds).",
+      "cards": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+        "Training Grounds"
+      ],
+      "found_in_source_export": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+        "Training Grounds"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:nicol-bolas-the-ravager#engines[1]",
+      "scenario": "loyalty-multiplication",
+      "expected_claim_to_verify": "Planeswalkers in play.",
+      "cards": [
+        "The Chain Veil",
+        "Ichormoon Gauntlet",
+        "Rings of Brighthearth",
+        "Sanctum Lurker",
+        "Spark Double",
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus"
+      ],
+      "found_in_source_export": [
+        "The Chain Veil",
+        "Ichormoon Gauntlet",
+        "Rings of Brighthearth",
+        "Sanctum Lurker",
+        "Spark Double",
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:nicol-bolas-the-ravager#win_conditions[0]",
+      "scenario": "teferi-veil",
+      "expected_claim_to_verify": "Teferi, Temporal Archmage + The Chain Veil; Teferi, Master of Time + Ichormoon Gauntlet + The Chain Veil or Rowan's Talent: infinite loyalty activations.",
+      "cards": [
+        "Teferi, Temporal Archmage",
+        "Teferi, Master of Time",
+        "The Chain Veil",
+        "Ichormoon Gauntlet",
+        "Rowan's Talent"
+      ],
+      "found_in_source_export": [
+        "Teferi, Temporal Archmage",
+        "Teferi, Master of Time",
+        "The Chain Veil",
+        "Ichormoon Gauntlet",
+        "Rowan's Talent"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:nicol-bolas-the-ravager#win_conditions[1]",
+      "scenario": "arisen-ultimate",
+      "expected_claim_to_verify": "The Arisen's -12 exiles all but one card of a library; extra activations and proliferate get there quickly.",
+      "cards": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+        "Rings of Brighthearth",
+        "Spark Double",
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus",
+        "Karn's Bastion"
+      ],
+      "found_in_source_export": [
+        "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+        "Rings of Brighthearth",
+        "Spark Double",
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus",
+        "Karn's Bastion"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:nicol-bolas-the-ravager#win_conditions[2]",
+      "scenario": "superfriends-value",
+      "expected_claim_to_verify": "Planeswalker advantage and ultimates.",
+      "cards": [
+        "Nicol Bolas, Dragon-God",
+        "Nicol Bolas, God-Pharaoh",
+        "Nicol Bolas, Planeswalker",
+        "Liliana, Dreadhorde General",
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus",
+        "Karn's Bastion",
+        "Inexorable Tide",
+        "Ripples of Potential",
+        "Dreamtide Whale",
+        "Tezzeret's Gambit"
+      ],
+      "found_in_source_export": [
+        "Nicol Bolas, Dragon-God",
+        "Nicol Bolas, God-Pharaoh",
+        "Nicol Bolas, Planeswalker",
+        "Liliana, Dreadhorde General",
+        "Deepglow Skate",
+        "Flux Channeler",
+        "Tekuthal, Inquiry Dominus",
+        "Karn's Bastion",
+        "Inexorable Tide",
+        "Ripples of Potential",
+        "Dreamtide Whale",
+        "Tezzeret's Gambit"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:nicol-bolas-the-ravager#failure_modes[0]",
+      "scenario": "sorcery-transform",
+      "expected_claim_to_verify": "The transform is slow and telegraphed.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Training Grounds",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:nicol-bolas-the-ravager#failure_modes[1]",
+      "scenario": "walker-pressure",
+      "expected_claim_to_verify": "Combat pressure and walker removal punish a superfriends board.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Sweepers; Vraska/-3 removal",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:nicol-bolas-the-ravager#failure_modes[2]",
+      "scenario": "veil-hate",
+      "expected_claim_to_verify": "Artifact removal answers the Veil/Gauntlet.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Redundant loyalty multipliers",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

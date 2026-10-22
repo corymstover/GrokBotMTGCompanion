@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Lord_Xander__the_Collector",
+  "order": 30,
+  "commanders": [
+    "Lord Xander, the Collector"
+  ],
+  "strategy": {
+    "primary": "Xander trigger multiplication: reanimate or cheat out a seven-mana commander (Entomb + Reanimate/Animate Dead/Persist/Feign Death), copy him (Phantasmal Image, Spark Double, Sakashima, Blade of Selves, Helm of the Host, Hall of Echoes, Auton Soldier) and stack his discard-half, mill-half and sacrifice-half triggers.",
+    "secondary": "Finish the mill with Bruvac, Riverchurn Monument, Fraying Sanity or Maddening Cacophony; compact backups are Duskmantle Guildmage + Mindcrank, Sword of Feast and Famine + Aggravated Assault, and Breach lines."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Lord Xander, the Collector",
+      "oracle_id": "d17bfa94-5046-46ae-80af-be5d1d35af13",
+      "oracle_text": "When Lord Xander enters, target opponent discards half the cards in their hand, rounded down.\nWhenever Lord Xander attacks, defending player mills half their library, rounded down.\nWhen Lord Xander dies, target opponent sacrifices half the nonland permanents they control of their choice, rounded down.",
+      "oracle_sha256": "sha256:3248acaf70b0cecf0789b9ca16ee550f2f82722191b974696a60b2ba75cc65b5",
+      "type_line": "Legendary Creature — Vampire Demon Noble"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Lord Xander, the Collector",
+      "why": "Discard half, mill half, sacrifice half.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Lord Xander, the Collector"
+      ]
+    },
+    {
+      "card": "Bruvac the Grandiloquent",
+      "why": "Doubles Xander's mill into a full library.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:lord-xander-the-collector#xander-05"
+      ]
+    },
+    {
+      "card": "Phantasmal Image",
+      "why": "Two-mana Xander copy: ETB plus a legend-rule death.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:lord-xander-the-collector#xander-02"
+      ]
+    },
+    {
+      "card": "Blade of Selves",
+      "why": "Myriad Xander tokens: enter and dies triggers per opponent.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:lord-xander-the-collector#xander-03"
+      ]
+    },
+    {
+      "card": "Cruel Calculations",
+      "why": "Draws off the cards Xander milled.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "interaction:lord-xander-the-collector#xander-06"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/lord-xander-the-collector.json",
+    "blueprint_blob": "6a7a3125981b459e9187fa5c13b3274665392113",
+    "canonical_source_path": "refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt",
+    "canonical_source_blob": "025aa2849f7818a986cae66a3f0be9ef4876a988",
+    "canonical_approved_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+    "canonical_record_key": "Lord_Xander__the_Collector",
+    "registry_raw_matches": true,
+    "source_card_lines": 97,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:lord-xander-the-collector#commanders.value[0]",
+      "scenario": "Lord Xander, the Collector",
+      "expected_claim_to_verify": "When Lord Xander enters, target opponent discards half the cards in their hand, rounded down.\nWhenever Lord Xander attacks, defending player mills half their library, rounded down.\nWhen Lord Xander dies, target opponent sacrifices half the nonland permanents they control of their choice, rounded down.",
+      "cards": [
+        "Lord Xander, the Collector"
+      ],
+      "found_in_source_export": [
+        "Lord Xander, the Collector"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:lord-xander-the-collector#key_interactions[0]",
+      "scenario": "three-triggers",
+      "expected_claim_to_verify": "Enter: discard half; attack: mill half; dies: sacrifice half (all rounded down).",
+      "cards": [
+        "Lord Xander, the Collector"
+      ],
+      "found_in_source_export": [
+        "Lord Xander, the Collector"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:lord-xander-the-collector#key_interactions[1]",
+      "scenario": "legend-rule-deaths",
+      "expected_claim_to_verify": "Each legendary Xander copy gives an enter trigger and a dies trigger via the legend rule.",
+      "cards": [
+        "Phantasmal Image",
+        "Molten Duplication",
+        "Saw in Half"
+      ],
+      "found_in_source_export": [
+        "Phantasmal Image",
+        "Molten Duplication",
+        "Saw in Half"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:lord-xander-the-collector#key_interactions[2]",
+      "scenario": "blade-vs-auton",
+      "expected_claim_to_verify": "Blade of Selves tokens give ETB + dies; Auton Soldier tokens only ETB.",
+      "cards": [
+        "Blade of Selves",
+        "Auton Soldier"
+      ],
+      "found_in_source_export": [
+        "Blade of Selves",
+        "Auton Soldier"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:lord-xander-the-collector#key_interactions[3]",
+      "scenario": "feign-death",
+      "expected_claim_to_verify": "Feign Death only works if Xander stays in the graveyard.",
+      "cards": [
+        "Feign Death",
+        "Lord Xander, the Collector"
+      ],
+      "found_in_source_export": [
+        "Feign Death",
+        "Lord Xander, the Collector"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:lord-xander-the-collector#key_interactions[4]",
+      "scenario": "tergrid",
+      "expected_claim_to_verify": "Tergrid steals Xander's discarded and sacrificed permanents.",
+      "cards": [
+        "Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "found_in_source_export": [
+        "Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:lord-xander-the-collector#engines[0]",
+      "scenario": "xander-copies",
+      "expected_claim_to_verify": "Xander in play or a copy target available.",
+      "cards": [
+        "Phantasmal Image",
+        "Spark Double",
+        "Sakashima of a Thousand Faces",
+        "Molten Duplication",
+        "Saw in Half",
+        "Blade of Selves",
+        "Helm of the Host",
+        "Hall of Echoes",
+        "Auton Soldier",
+        "Roaming Throne",
+        "Strionic Resonator"
+      ],
+      "found_in_source_export": [
+        "Phantasmal Image",
+        "Spark Double",
+        "Sakashima of a Thousand Faces",
+        "Molten Duplication",
+        "Saw in Half",
+        "Blade of Selves",
+        "Helm of the Host",
+        "Hall of Echoes",
+        "Auton Soldier",
+        "Roaming Throne",
+        "Strionic Resonator"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:lord-xander-the-collector#engines[1]",
+      "scenario": "reanimation",
+      "expected_claim_to_verify": "Xander in the graveyard.",
+      "cards": [
+        "Entomb",
+        "Reanimate",
+        "Animate Dead",
+        "Persist",
+        "Feign Death"
+      ],
+      "found_in_source_export": [
+        "Entomb",
+        "Reanimate",
+        "Animate Dead",
+        "Persist",
+        "Feign Death"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:lord-xander-the-collector#win_conditions[0]",
+      "scenario": "xander-mill",
+      "expected_claim_to_verify": "Xander's half-library mill with Bruvac or Riverchurn Monument (or Fraying Sanity) mills a player out.",
+      "cards": [
+        "Lord Xander, the Collector",
+        "Bruvac the Grandiloquent",
+        "Riverchurn Monument",
+        "Fraying Sanity",
+        "Hall of Echoes",
+        "Roaming Throne"
+      ],
+      "found_in_source_export": [
+        "Lord Xander, the Collector",
+        "Bruvac the Grandiloquent",
+        "Riverchurn Monument",
+        "Fraying Sanity",
+        "Hall of Echoes",
+        "Roaming Throne"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:lord-xander-the-collector#win_conditions[1]",
+      "scenario": "mill-combos",
+      "expected_claim_to_verify": "Duskmantle Guildmage + Mindcrank or Maddening Cacophony; Monument/Bruvac + Cacophony.",
+      "cards": [
+        "Duskmantle Guildmage",
+        "Mindcrank",
+        "Maddening Cacophony",
+        "Riverchurn Monument",
+        "Bruvac the Grandiloquent"
+      ],
+      "found_in_source_export": [
+        "Duskmantle Guildmage",
+        "Mindcrank",
+        "Maddening Cacophony",
+        "Riverchurn Monument",
+        "Bruvac the Grandiloquent"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:lord-xander-the-collector#win_conditions[2]",
+      "scenario": "assault-breach",
+      "expected_claim_to_verify": "Sword of Feast and Famine + Aggravated Assault (each combat another Xander mill), or Breach lines.",
+      "cards": [
+        "Sword of Feast and Famine",
+        "Aggravated Assault",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Lord Xander, the Collector"
+      ],
+      "found_in_source_export": [
+        "Sword of Feast and Famine",
+        "Aggravated Assault",
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Lord Xander, the Collector"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:lord-xander-the-collector#failure_modes[0]",
+      "scenario": "graveyard-hate",
+      "expected_claim_to_verify": "Graveyard hate stops the reanimation route to a seven-mana commander.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Clones; Fast mana hard-cast",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:lord-xander-the-collector#failure_modes[1]",
+      "scenario": "odd-library",
+      "expected_claim_to_verify": "Rounding down can leave a card in a library.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Bruvac/Monument; Second mill source",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:lord-xander-the-collector#failure_modes[2]",
+      "scenario": "xander-removed",
+      "expected_claim_to_verify": "Removal before attacking costs the mill trigger (though the dies trigger still hurts).",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Copies; Protection",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

@@ -1,0 +1,451 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Loki__the_Deceiver",
+  "order": 29,
+  "commanders": [
+    "Loki, the Deceiver"
+  ],
+  "strategy": {
+    "primary": "Villain-copy combat value: Loki attacks safely, copies the best Villain for the combat (enters, static and combat-damage text, not attack triggers), and connecting Villains draw cards.",
+    "secondary": "Keep the temporary copies (The Master, Multiplied; Sundial of the Infinite), double Loki's trigger (Roaming Throne, Hall of Echoes, Titan of Littjara), and grind with Villain tribal draw (Kindred Discovery) and premium Grixis interaction."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Loki, the Deceiver",
+      "oracle_id": "17e45fd8-c924-4b42-87ad-189469a8dd18",
+      "oracle_text": "Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step.\nWhenever one or more Villains you control deal combat damage to a player, draw a card.",
+      "oracle_sha256": "sha256:457ae3d6b4cf341be9a067ee84936d9e29d8057893c8923e86279d21e02a724b",
+      "type_line": "Legendary Creature — God Sorcerer Villain"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Loki, the Deceiver",
+      "why": "Attack-time Villain copy plus Villain combat draw.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Loki, the Deceiver"
+      ]
+    },
+    {
+      "card": "The Master, Multiplied",
+      "why": "Keeps Loki's temporary copies.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:loki-the-deceiver#loki-05"
+      ]
+    },
+    {
+      "card": "Roaming Throne",
+      "why": "Doubles Loki's attack trigger.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:loki-the-deceiver#loki-03"
+      ]
+    },
+    {
+      "card": "Hall of Echoes",
+      "why": "Becomes a second Loki without the legend rule.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:loki-the-deceiver#loki-04"
+      ]
+    },
+    {
+      "card": "Red Ghost, Intangible Genius",
+      "why": "Unblockable warded Villain that makes hasty Apes.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "source_archive:refinement/decisions/Loki_the_Deceiver_Current_Cycle_Decisions_2026-10-14.md"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/loki-the-deceiver.json",
+    "blueprint_blob": "3890cd64b3ac713ac4f03c361b26f145da675ce7",
+    "canonical_source_path": "refinement/decklists/Loki_the_Deceiver_Approved_2026-10-14.txt",
+    "canonical_source_blob": "456d62d45e6e5ffb283a97b5603997a4d1d74c3e",
+    "canonical_approved_sha256": "5079291c08c5af212b3d90d63ac5b01849d45c7700b1d64100ef57fb13458062",
+    "canonical_record_key": "Loki__the_Deceiver",
+    "registry_raw_matches": true,
+    "source_card_lines": 95,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:loki-the-deceiver#commanders.value[0]",
+      "scenario": "Loki, the Deceiver",
+      "expected_claim_to_verify": "Whenever Loki attacks, create a tapped and attacking token that's a copy of another target Villain you control, except it isn't legendary and it's an Illusion in addition to its other types. Sacrifice that token at the beginning of the next end step.\nWhenever one or more Villains you control deal combat damage to a player, draw a card.",
+      "cards": [
+        "Loki, the Deceiver"
+      ],
+      "found_in_source_export": [
+        "Loki, the Deceiver"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:loki-the-deceiver#key_interactions[0]",
+      "scenario": "enters-attacking",
+      "expected_claim_to_verify": "The copy enters attacking: no attack triggers, but ETB, statics and combat-damage triggers work.",
+      "cards": [
+        "Loki, the Deceiver"
+      ],
+      "found_in_source_export": [
+        "Loki, the Deceiver"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:loki-the-deceiver#key_interactions[1]",
+      "scenario": "batch-draw",
+      "expected_claim_to_verify": "Villain combat damage draws once per batch.",
+      "cards": [
+        "Loki, the Deceiver"
+      ],
+      "found_in_source_export": [
+        "Loki, the Deceiver"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:loki-the-deceiver#key_interactions[2]",
+      "scenario": "throne-villain",
+      "expected_claim_to_verify": "Roaming Throne naming Villain doubles Loki's attack trigger.",
+      "cards": [
+        "Roaming Throne",
+        "Titan of Littjara"
+      ],
+      "found_in_source_export": [
+        "Roaming Throne",
+        "Titan of Littjara"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:loki-the-deceiver#key_interactions[3]",
+      "scenario": "keep-token",
+      "expected_claim_to_verify": "The Master stops the sacrifice; Sundial only with the trigger on the stack.",
+      "cards": [
+        "The Master, Multiplied",
+        "Sundial of the Infinite"
+      ],
+      "found_in_source_export": [
+        "The Master, Multiplied",
+        "Sundial of the Infinite"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:loki-the-deceiver#key_interactions[4]",
+      "scenario": "scepter",
+      "expected_claim_to_verify": "Loki's Scepter's temporary Villain type doesn't carry onto Loki's copy.",
+      "cards": [
+        "Loki's Scepter"
+      ],
+      "found_in_source_export": [
+        "Loki's Scepter"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:loki-the-deceiver#engines[0]",
+      "scenario": "attack-copy",
+      "expected_claim_to_verify": "Loki attacks with another Villain in play.",
+      "cards": [
+        "Loki, the Deceiver",
+        "Roaming Throne",
+        "Hall of Echoes",
+        "Titan of Littjara",
+        "Spark Double"
+      ],
+      "found_in_source_export": [
+        "Loki, the Deceiver",
+        "Roaming Throne",
+        "Hall of Echoes",
+        "Titan of Littjara",
+        "Spark Double"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:loki-the-deceiver#engines[1]",
+      "scenario": "keep-copies",
+      "expected_claim_to_verify": "A Loki token in play before end step.",
+      "cards": [
+        "The Master, Multiplied",
+        "Sundial of the Infinite",
+        "Doctor Octopus, Master Planner"
+      ],
+      "found_in_source_export": [
+        "The Master, Multiplied",
+        "Sundial of the Infinite",
+        "Doctor Octopus, Master Planner"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:loki-the-deceiver#win_conditions[0]",
+      "scenario": "villain-combat",
+      "expected_claim_to_verify": "A wide, anthem-boosted Villain board with copied bodies attacks every turn while Loki draws.",
+      "cards": [
+        "Avengers: Under Siege",
+        "Doctor Octopus, Master Planner",
+        "Red Ghost, Intangible Genius",
+        "Titan of Littjara",
+        "The Master, Multiplied",
+        "Loki, the Deceiver"
+      ],
+      "found_in_source_export": [
+        "Avengers: Under Siege",
+        "Doctor Octopus, Master Planner",
+        "Red Ghost, Intangible Genius",
+        "Titan of Littjara",
+        "The Master, Multiplied",
+        "Loki, the Deceiver"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:loki-the-deceiver#win_conditions[1]",
+      "scenario": "card-advantage-grind",
+      "expected_claim_to_verify": "Villain card draw (Loki, Kindred Discovery, Rhystic Study) out-grinds the table behind counters and wipes.",
+      "cards": [
+        "Kindred Discovery",
+        "Rhystic Study",
+        "Black Market Connections",
+        "Loki, the Deceiver"
+      ],
+      "found_in_source_export": [
+        "Kindred Discovery",
+        "Rhystic Study",
+        "Black Market Connections",
+        "Loki, the Deceiver"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:loki-the-deceiver#failure_modes[0]",
+      "scenario": "no-combo",
+      "expected_claim_to_verify": "No compact win; the deck has to win through combat.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Card advantage; Interaction suite",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:loki-the-deceiver#failure_modes[1]",
+      "scenario": "attack-trigger-targets",
+      "expected_claim_to_verify": "Attack-trigger Villains are poor copy targets.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Source cut most of them",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:loki-the-deceiver#failure_modes[2]",
+      "scenario": "loki-removed",
+      "expected_claim_to_verify": "Loki removed or unable to attack safely.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Boots, Greaves; Copy redundancy",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 13,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

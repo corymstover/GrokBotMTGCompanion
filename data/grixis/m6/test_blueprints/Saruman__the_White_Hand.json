@@ -1,0 +1,614 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Saruman__the_White_Hand",
+  "order": 48,
+  "commanders": [
+    "Saruman, the White Hand"
+  ],
+  "strategy": {
+    "primary": "Spellslinger amass: each noncreature spell amasses Orcs equal to its mana value. Cost reducers, delve, alternate and free costs don't lower mana value, so cheap high-MV spells (Blasphemous Act, Dig Through Time, Blood for the Blood God!, Volcanic Salvo, Treasure Cruise, free spells) grow a huge Orc Army.",
+    "secondary": "Trigger multipliers (Harmonic Prodigy, Wizard's Staff, Veyran), Mauhúr and The Ozolith, and payoffs that turn the Army or its counters into damage (The Great Goblin, Soul's Fire, Chandra's Ignition, Widespread Brutality, Fall of Cair Andros)."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Saruman, the White Hand",
+      "oracle_id": "2bade11e-04e0-42a2-8861-9257c99a7c08",
+      "oracle_text": "Whenever you cast a noncreature spell, amass Orcs X, where X is that spell's mana value. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)\nGoblins and Orcs you control have ward {2}.",
+      "oracle_sha256": "sha256:393ec5a85c8f3108faeb5d5196b6972ed36c08d0ea326367a0c9c2317b47a3be",
+      "type_line": "Legendary Creature — Avatar Wizard"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Saruman, the White Hand",
+      "why": "Amass by mana value on every noncreature spell.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Saruman, the White Hand"
+      ]
+    },
+    {
+      "card": "Blasphemous Act",
+      "why": "MV 9 for one mana.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L27"
+      ]
+    },
+    {
+      "card": "Volcanic Salvo",
+      "why": "MV 12 with a power-based reduction.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L31"
+      ]
+    },
+    {
+      "card": "Soul's Fire",
+      "why": "Fires the grown Army without sacrificing it.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L42"
+      ]
+    },
+    {
+      "card": "Mauhúr, Uruk-hai Captain",
+      "why": "An extra counter per placement event.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Saruman_the_White_Hand_Commander_Blueprint_2026-10-15.md#L40"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/saruman-the-white-hand.json",
+    "blueprint_blob": "df5f7eac523fb2616140f8b2a6da0ad6ebff154b",
+    "canonical_source_path": "refinement/decklists/Saruman_the_White_Hand_Approved_2026-10-15.txt",
+    "canonical_source_blob": "64b58455b8fb05f8c68e32ea0481333f8e47afd9",
+    "canonical_approved_sha256": "4981499230898c8b36c6f46b0f60a5277630d92abe477d48ed77091e2203ffe2",
+    "canonical_record_key": "Saruman__the_White_Hand",
+    "registry_raw_matches": true,
+    "source_card_lines": 97,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:saruman-the-white-hand#commanders.value[0]",
+      "scenario": "Saruman, the White Hand",
+      "expected_claim_to_verify": "Whenever you cast a noncreature spell, amass Orcs X, where X is that spell's mana value. (Put X +1/+1 counters on an Army you control. It's also an Orc. If you don't control an Army, create a 0/0 black Orc Army creature token first.)\nGoblins and Orcs you control have ward {2}.",
+      "cards": [
+        "Saruman, the White Hand"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[0]",
+      "scenario": "alt-cost-keeps-mv",
+      "expected_claim_to_verify": "Alternative costs, delve and cost reductions don't change mana value, so a pitched Force of Will still amasses 5.",
+      "cards": [
+        "Saruman, the White Hand",
+        "Force of Will",
+        "Dig Through Time",
+        "Treasure Cruise"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand",
+        "Force of Will",
+        "Dig Through Time",
+        "Treasure Cruise"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[1]",
+      "scenario": "x-on-stack",
+      "expected_claim_to_verify": "On the stack, an X spell's mana value includes the chosen X.",
+      "cards": [
+        "Saruman, the White Hand",
+        "Shatterskull Smashing // Shatterskull, the Hammer Pass"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand",
+        "Shatterskull Smashing // Shatterskull, the Hammer Pass"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[2]",
+      "scenario": "fling-rejected",
+      "expected_claim_to_verify": "Sacrificing the Army as an additional cost (Fling) happens before Saruman's trigger resolves; Soul's Fire keeps the Army.",
+      "cards": [
+        "Soul's Fire",
+        "Saruman, the White Hand"
+      ],
+      "found_in_source_export": [
+        "Soul's Fire",
+        "Saruman, the White Hand"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[3]",
+      "scenario": "copies-not-cast",
+      "expected_claim_to_verify": "Copied spells aren't cast, so they don't trigger Saruman (why Storm of Saruman was cut).",
+      "cards": [
+        "Saruman, the White Hand"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[4]",
+      "scenario": "mdfc-land-face",
+      "expected_claim_to_verify": "Playing an MDFC's land face doesn't trigger Saruman; casting the spell face does.",
+      "cards": [
+        "Saruman, the White Hand",
+        "Kazuul's Fury // Kazuul's Cliffs"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand",
+        "Kazuul's Fury // Kazuul's Cliffs"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[5]",
+      "scenario": "saruman-doublers",
+      "expected_claim_to_verify": "Saruman is an Avatar Wizard: Harmonic Prodigy, Wizard's Staff and Veyran double his trigger.",
+      "cards": [
+        "Harmonic Prodigy",
+        "Wizard's Staff",
+        "Veyran, Voice of Duality"
+      ],
+      "found_in_source_export": [
+        "Harmonic Prodigy",
+        "Wizard's Staff",
+        "Veyran, Voice of Duality"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K7",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[6]",
+      "scenario": "counter-events",
+      "expected_claim_to_verify": "Mauhúr adds one per counter event; The Great Goblin and All Will Be One work per event.",
+      "cards": [
+        "Mauhúr, Uruk-hai Captain",
+        "The Great Goblin",
+        "All Will Be One"
+      ],
+      "found_in_source_export": [
+        "Mauhúr, Uruk-hai Captain",
+        "The Great Goblin",
+        "All Will Be One"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K8",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[7]",
+      "scenario": "cair-andros-act",
+      "expected_claim_to_verify": "Fall of Cair Andros + Blasphemous Act amasses off every damaged creature (the Spellbook combo).",
+      "cards": [
+        "Fall of Cair Andros",
+        "Blasphemous Act"
+      ],
+      "found_in_source_export": [
+        "Fall of Cair Andros",
+        "Blasphemous Act"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K9",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[8]",
+      "scenario": "mizzix-casts",
+      "expected_claim_to_verify": "Mizzix's Mastery casts copies, so those copies do trigger Saruman (unlike stack copies).",
+      "cards": [
+        "Mizzix's Mastery"
+      ],
+      "found_in_source_export": [
+        "Mizzix's Mastery"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K10",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:saruman-the-white-hand#key_interactions[9]",
+      "scenario": "black-gate-wording",
+      "expected_claim_to_verify": "M1 documentation flag: The Black Gate targets only the creature and chooses the player; the source attestation says it targets both. Text fix only.",
+      "cards": [
+        "The Black Gate"
+      ],
+      "found_in_source_export": [
+        "The Black Gate"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:saruman-the-white-hand#engines[0]",
+      "scenario": "mv-amass",
+      "expected_claim_to_verify": "Saruman in play; noncreature spells cast (copies don't trigger).",
+      "cards": [
+        "Saruman, the White Hand",
+        "Blasphemous Act",
+        "Dig Through Time",
+        "Blood for the Blood God!",
+        "Deadly Rollick",
+        "Fierce Guardianship",
+        "Deflecting Swat",
+        "Volcanic Salvo",
+        "Treasure Cruise",
+        "Force of Will"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand",
+        "Blasphemous Act",
+        "Dig Through Time",
+        "Blood for the Blood God!",
+        "Deadly Rollick",
+        "Fierce Guardianship",
+        "Deflecting Swat",
+        "Volcanic Salvo",
+        "Treasure Cruise",
+        "Force of Will"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:saruman-the-white-hand#engines[1]",
+      "scenario": "trigger-and-counter-multipliers",
+      "expected_claim_to_verify": "Saruman in play.",
+      "cards": [
+        "Harmonic Prodigy",
+        "Wizard's Staff",
+        "Veyran, Voice of Duality",
+        "Mauhúr, Uruk-hai Captain",
+        "The Ozolith"
+      ],
+      "found_in_source_export": [
+        "Harmonic Prodigy",
+        "Wizard's Staff",
+        "Veyran, Voice of Duality",
+        "Mauhúr, Uruk-hai Captain",
+        "The Ozolith"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:saruman-the-white-hand#win_conditions[0]",
+      "scenario": "cair-andros-act",
+      "expected_claim_to_verify": "Fall of Cair Andros + Blasphemous Act: excess damage amasses, which triggers more.",
+      "cards": [
+        "Fall of Cair Andros",
+        "Blasphemous Act",
+        "Saruman, the White Hand"
+      ],
+      "found_in_source_export": [
+        "Fall of Cair Andros",
+        "Blasphemous Act",
+        "Saruman, the White Hand"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:saruman-the-white-hand#win_conditions[1]",
+      "scenario": "army-damage",
+      "expected_claim_to_verify": "A huge Orc Army attacks or is fired through Soul's Fire/Chandra's Ignition; The Great Goblin and All Will Be One ping per counter event.",
+      "cards": [
+        "Saruman, the White Hand",
+        "Soul's Fire",
+        "Chandra's Ignition",
+        "The Great Goblin",
+        "All Will Be One",
+        "Widespread Brutality",
+        "Mauhúr, Uruk-hai Captain",
+        "Harmonic Prodigy",
+        "Wizard's Staff",
+        "Veyran, Voice of Duality"
+      ],
+      "found_in_source_export": [
+        "Saruman, the White Hand",
+        "Soul's Fire",
+        "Chandra's Ignition",
+        "The Great Goblin",
+        "All Will Be One",
+        "Widespread Brutality",
+        "Mauhúr, Uruk-hai Captain",
+        "Harmonic Prodigy",
+        "Wizard's Staff",
+        "Veyran, Voice of Duality"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:saruman-the-white-hand#failure_modes[0]",
+      "scenario": "no-compact-win",
+      "expected_claim_to_verify": "No compact win; the deck needs several spells after Saruman lands.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Card draw and cost reduction",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:saruman-the-white-hand#failure_modes[1]",
+      "scenario": "army-removal",
+      "expected_claim_to_verify": "One removal spell on the Army resets most of the board.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Ward {2}; The Ozolith",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:saruman-the-white-hand#failure_modes[2]",
+      "scenario": "saruman-removed",
+      "expected_claim_to_verify": "Without Saruman the high-MV discount plan is just card quality.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Fierce Guardianship; Deflecting Swat",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 18,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

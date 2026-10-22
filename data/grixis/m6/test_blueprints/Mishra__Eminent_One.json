@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Mishra__Eminent_One",
+  "order": 38,
+  "commanders": [
+    "Mishra, Eminent One"
+  ],
+  "strategy": {
+    "primary": "Warform copies: at each combat Mishra copies a noncreature artifact as a hasty 4/4 token, which repeats ETB/LTB value (Ichor Wellspring, Cryogen Relic, Prized Statue, Lich's Relic, The Mightstone and Weakstone), feeds sacrifice and transmute effects, and closes with commander-native infinite turns or tokens.",
+    "secondary": "Secondary artifact combos (Top + Mystic Forge, KCI + Scrap Trawler + Myr Retriever) and Mindslaver control loops."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Mishra, Eminent One",
+      "oracle_id": "d3438037-3efd-4ce0-88ec-6d48ab521992",
+      "oracle_text": "At the beginning of combat on your turn, create a token that's a copy of target noncreature artifact you control, except its name is Mishra's Warform and it's a 4/4 Construct artifact creature in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+      "oracle_sha256": "sha256:5e5d0dbc6591b03f3531a136ce50a0917416e316f299ce36bf778a0e003ae6fb",
+      "type_line": "Legendary Creature — Human Artificer"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Mishra, Eminent One",
+      "why": "Warform copy engine.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Mishra, Eminent One"
+      ]
+    },
+    {
+      "card": "Gonti's Aether Heart",
+      "why": "Infinite-turn hub.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:2751-4636-5159"
+      ]
+    },
+    {
+      "card": "Strionic Resonator",
+      "why": "Copies triggers for the turn loop.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:2751-4636-5159"
+      ]
+    },
+    {
+      "card": "Lithoform Engine",
+      "why": "Redundant copier.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:3094-4636-5159"
+      ]
+    },
+    {
+      "card": "Ichor Wellspring",
+      "why": "Card draw on Warform ETB and death.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Mishra_Eminent_One_Current_Cycle_Decisions_2026-10-15.md#L46"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/mishra-eminent-one.json",
+    "blueprint_blob": "d24c61c549ded1d6c8e52151ba8b0b2d8684025f",
+    "canonical_source_path": "refinement/decklists/Mishra_Eminent_One_Approved_2026-10-15.txt",
+    "canonical_source_blob": "8126661064866bef95ca521a6aee34e1bd8ba5b2",
+    "canonical_approved_sha256": "ca94785fa43094a0053aac5c87e517c9cfaafb34c3baf9b3eccb067a167dd1a0",
+    "canonical_record_key": "Mishra__Eminent_One",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:mishra-eminent-one#commanders.value[0]",
+      "scenario": "Mishra, Eminent One",
+      "expected_claim_to_verify": "At the beginning of combat on your turn, create a token that's a copy of target noncreature artifact you control, except its name is Mishra's Warform and it's a 4/4 Construct artifact creature in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+      "cards": [
+        "Mishra, Eminent One"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:mishra-eminent-one#key_interactions[0]",
+      "scenario": "iteration-ordering",
+      "expected_claim_to_verify": "Order the beginning-of-combat triggers so Mishra resolves first; Determined Iteration can then populate the new Warform.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Determined Iteration"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Determined Iteration"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:mishra-eminent-one#key_interactions[1]",
+      "scenario": "warform-mv",
+      "expected_claim_to_verify": "The Warform keeps the copied artifact's mana value and survives until the end step, so Repurposing Bay or Transmute effects can cash it in first.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Repurposing Bay",
+        "Transmute Artifact"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Repurposing Bay",
+        "Transmute Artifact"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:mishra-eminent-one#key_interactions[2]",
+      "scenario": "copiable-values",
+      "expected_claim_to_verify": "Copying an Effigy-modified artifact keeps its copiable modifications (decisions L45).",
+      "cards": [
+        "Mishra, Eminent One",
+        "Machine God's Effigy"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Machine God's Effigy"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:mishra-eminent-one#key_interactions[3]",
+      "scenario": "slaver-control",
+      "expected_claim_to_verify": "Mindslaver + Resonator or Lithoform with Mishra is a repeatable opponent-turn control structure, not a win.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Mindslaver",
+        "Strionic Resonator",
+        "Lithoform Engine"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Mindslaver",
+        "Strionic Resonator",
+        "Lithoform Engine"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:mishra-eminent-one#key_interactions[4]",
+      "scenario": "warform-basics",
+      "expected_claim_to_verify": "The Warform is a hasty 4/4 copy of a noncreature artifact, sacrificed at the next end step.",
+      "cards": [
+        "Mishra, Eminent One"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:mishra-eminent-one#key_interactions[5]",
+      "scenario": "helm-urza",
+      "expected_claim_to_verify": "Worldwalker Helm + Urza + Thousand-Year Elixir: infinite Warforms, Maps and {U}.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Worldwalker Helm",
+        "Urza, Lord High Artificer",
+        "Thousand-Year Elixir"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Worldwalker Helm",
+        "Urza, Lord High Artificer",
+        "Thousand-Year Elixir"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:mishra-eminent-one#engines[0]",
+      "scenario": "warform-value",
+      "expected_claim_to_verify": "Mishra survives to combat with a good noncreature artifact.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Ichor Wellspring",
+        "Cryogen Relic",
+        "Prized Statue",
+        "Lich's Relic",
+        "The Mightstone and Weakstone",
+        "Coveted Jewel"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Ichor Wellspring",
+        "Cryogen Relic",
+        "Prized Statue",
+        "Lich's Relic",
+        "The Mightstone and Weakstone",
+        "Coveted Jewel"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:mishra-eminent-one#engines[1]",
+      "scenario": "warform-conversion",
+      "expected_claim_to_verify": "Temporary Warforms are turned into real artifacts or mana.",
+      "cards": [
+        "Master Transmuter",
+        "Transmute Artifact",
+        "Repurposing Bay",
+        "Krark-Clan Ironworks",
+        "Smelting Vat"
+      ],
+      "found_in_source_export": [
+        "Master Transmuter",
+        "Transmute Artifact",
+        "Repurposing Bay",
+        "Krark-Clan Ironworks",
+        "Smelting Vat"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:mishra-eminent-one#win_conditions[0]",
+      "scenario": "aether-heart-turns",
+      "expected_claim_to_verify": "Mishra + Gonti's Aether Heart + Strionic Resonator, Lithoform Engine, Determined Iteration, Brudiclad or Worldwalker Helm: infinite turns.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Gonti's Aether Heart",
+        "Strionic Resonator",
+        "Lithoform Engine",
+        "Determined Iteration",
+        "Brudiclad, Telchor Engineer",
+        "Worldwalker Helm"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Gonti's Aether Heart",
+        "Strionic Resonator",
+        "Lithoform Engine",
+        "Determined Iteration",
+        "Brudiclad, Telchor Engineer",
+        "Worldwalker Helm"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:mishra-eminent-one#win_conditions[1]",
+      "scenario": "urza-helm",
+      "expected_claim_to_verify": "Mishra + Urza, Lord High Artificer + Worldwalker Helm + Thousand-Year Elixir: infinite tokens and blue mana.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Urza, Lord High Artificer",
+        "Worldwalker Helm",
+        "Thousand-Year Elixir"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Urza, Lord High Artificer",
+        "Worldwalker Helm",
+        "Thousand-Year Elixir"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:mishra-eminent-one#win_conditions[2]",
+      "scenario": "reservoir-kci",
+      "expected_claim_to_verify": "Mishra + Aetherflux Reservoir; Mishra + KCI + Strionic Resonator or Lithoform Engine.",
+      "cards": [
+        "Mishra, Eminent One",
+        "Aetherflux Reservoir",
+        "Krark-Clan Ironworks",
+        "Strionic Resonator",
+        "Lithoform Engine"
+      ],
+      "found_in_source_export": [
+        "Mishra, Eminent One",
+        "Aetherflux Reservoir",
+        "Krark-Clan Ironworks",
+        "Strionic Resonator",
+        "Lithoform Engine"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:mishra-eminent-one#failure_modes[0]",
+      "scenario": "mishra-removed",
+      "expected_claim_to_verify": "Mishra must survive to your own combat; sorcery-speed removal or a board wipe resets the engine.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Fierce Guardianship; Deflecting Swat",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:mishra-eminent-one#failure_modes[1]",
+      "scenario": "artifact-hate",
+      "expected_claim_to_verify": "Artifact hate stops copy targets and combos.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Recursion",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:mishra-eminent-one#failure_modes[2]",
+      "scenario": "speed",
+      "expected_claim_to_verify": "A five-mana commander that triggers at combat is slow against cEDH tables.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Fast artifact mana",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

@@ -1,0 +1,486 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Goro_Goro_and_Satoru",
+  "order": 22,
+  "commanders": [
+    "Goro-Goro and Satoru"
+  ],
+  "strategy": {
+    "primary": "Fresh attackers every turn (hasty creatures, ninjutsu/sneak, attack-token makers) connect across several opponents so Goro-Goro makes a 5/5 flying Dragon per damaged player; the Dragon army wins in the air.",
+    "secondary": "Breath of Fury extra-combat loops (with Goro-Goro, Urabrask's Forge, Daring Piracy, Determined Iteration or Loyal Apprentice), extra combats (Karlach, Great Train Heist, Aggravated Assault) and Dragon damage (Terror of the Peaks, Dragon Tempest)."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Goro-Goro and Satoru",
+      "oracle_id": "854bdd4a-d549-41d5-af43-0e2154ed017e",
+      "oracle_text": "Whenever one or more creatures you control that entered this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying.\n{1}{R}: Creatures you control gain haste until end of turn.",
+      "oracle_sha256": "sha256:8ab01a7ea3ef39a9ff972f1e7a1dddd748c8a2c0e4266b1965eb0c70492ef4a8",
+      "type_line": "Legendary Creature — Goblin Human"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Goro-Goro and Satoru",
+      "why": "5/5 Dragon whenever fresh creatures connect; team haste.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Goro-Goro and Satoru"
+      ]
+    },
+    {
+      "card": "Breath of Fury",
+      "why": "Extra-combat engine with the commander's Dragons.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:goro-goro-and-satoru#goro-05"
+      ]
+    },
+    {
+      "card": "Samut, Hazoret's Champion",
+      "why": "Continuous haste for Dragons made mid-loop.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Goro_Goro_and_Satoru_Current_Cycle_Decisions_2026-10-14.md"
+      ]
+    },
+    {
+      "card": "Raphael, the Nightwatcher",
+      "why": "Double strike doubles the triggers.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:goro-goro-and-satoru#goro-04"
+      ]
+    },
+    {
+      "card": "Terror of the Peaks",
+      "why": "Each Dragon deals 5 on entry.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "interaction:goro-goro-and-satoru#goro-08"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/goro-goro-and-satoru.json",
+    "blueprint_blob": "f2309897d107b6aba2e86caeb435494cc9406639",
+    "canonical_source_path": "refinement/decklists/Goro_Goro_and_Satoru_Approved_2026-10-14.txt",
+    "canonical_source_blob": "9d9e1b7be5f40e881e997b0712fa4af47ea35139",
+    "canonical_approved_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
+    "canonical_record_key": "Goro_Goro_and_Satoru",
+    "registry_raw_matches": true,
+    "source_card_lines": 99,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:goro-goro-and-satoru#commanders.value[0]",
+      "scenario": "Goro-Goro and Satoru",
+      "expected_claim_to_verify": "Whenever one or more creatures you control that entered this turn deal combat damage to a player, create a 5/5 red Dragon Spirit creature token with flying.\n{1}{R}: Creatures you control gain haste until end of turn.",
+      "cards": [
+        "Goro-Goro and Satoru"
+      ],
+      "found_in_source_export": [
+        "Goro-Goro and Satoru"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:goro-goro-and-satoru#key_interactions[0]",
+      "scenario": "one-per-player",
+      "expected_claim_to_verify": "One Dragon per damaged player per combat-damage step.",
+      "cards": [
+        "Goro-Goro and Satoru"
+      ],
+      "found_in_source_export": [
+        "Goro-Goro and Satoru"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:goro-goro-and-satoru#key_interactions[1]",
+      "scenario": "haste-snapshot",
+      "expected_claim_to_verify": "The {1}{R} haste covers only creatures you control on resolution.",
+      "cards": [
+        "Goro-Goro and Satoru",
+        "Samut, Hazoret's Champion"
+      ],
+      "found_in_source_export": [
+        "Goro-Goro and Satoru",
+        "Samut, Hazoret's Champion"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:goro-goro-and-satoru#key_interactions[2]",
+      "scenario": "raphael-double",
+      "expected_claim_to_verify": "Sneaked Raphael gives double strike: two triggers per player.",
+      "cards": [
+        "Raphael, the Nightwatcher"
+      ],
+      "found_in_source_export": [
+        "Raphael, the Nightwatcher"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:goro-goro-and-satoru#key_interactions[3]",
+      "scenario": "breath-order",
+      "expected_claim_to_verify": "Put Goro-Goro's trigger on top so the Dragon exists for Breath of Fury.",
+      "cards": [
+        "Breath of Fury",
+        "Goro-Goro and Satoru"
+      ],
+      "found_in_source_export": [
+        "Breath of Fury",
+        "Goro-Goro and Satoru"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:goro-goro-and-satoru#key_interactions[4]",
+      "scenario": "still-fresh",
+      "expected_claim_to_verify": "Creatures that entered this turn stay fresh in later combats.",
+      "cards": [
+        "Goro-Goro and Satoru"
+      ],
+      "found_in_source_export": [
+        "Goro-Goro and Satoru"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:goro-goro-and-satoru#engines[0]",
+      "scenario": "fresh-attackers",
+      "expected_claim_to_verify": "Creatures that entered this turn connect.",
+      "cards": [
+        "Goro-Goro and Satoru",
+        "Ninja of the Deep Hours",
+        "Mistblade Shinobi",
+        "Fallen Shinobi",
+        "Yuriko, the Tiger's Shadow",
+        "Satoru Umezawa",
+        "Raphael, the Nightwatcher",
+        "Phoenix Chick"
+      ],
+      "found_in_source_export": [
+        "Goro-Goro and Satoru",
+        "Ninja of the Deep Hours",
+        "Mistblade Shinobi",
+        "Fallen Shinobi",
+        "Yuriko, the Tiger's Shadow",
+        "Satoru Umezawa",
+        "Raphael, the Nightwatcher",
+        "Phoenix Chick"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:goro-goro-and-satoru#engines[1]",
+      "scenario": "dragon-payoffs",
+      "expected_claim_to_verify": "Dragons entering or creatures connecting.",
+      "cards": [
+        "Terror of the Peaks",
+        "Dragon Tempest",
+        "Waterbender Ascension",
+        "Enduring Curiosity"
+      ],
+      "found_in_source_export": [
+        "Terror of the Peaks",
+        "Dragon Tempest",
+        "Waterbender Ascension",
+        "Enduring Curiosity"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:goro-goro-and-satoru#win_conditions[0]",
+      "scenario": "dragon-army",
+      "expected_claim_to_verify": "Repeated 5/5 flying Dragons plus Terror of the Peaks/Dragon Tempest damage.",
+      "cards": [
+        "Terror of the Peaks",
+        "Dragon Tempest",
+        "Samut, Hazoret's Champion",
+        "Goro-Goro and Satoru"
+      ],
+      "found_in_source_export": [
+        "Terror of the Peaks",
+        "Dragon Tempest",
+        "Samut, Hazoret's Champion",
+        "Goro-Goro and Satoru"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:goro-goro-and-satoru#win_conditions[1]",
+      "scenario": "goro-breath",
+      "expected_claim_to_verify": "Goro-Goro + Breath of Fury: each new Dragon takes the Aura for another combat.",
+      "cards": [
+        "Goro-Goro and Satoru",
+        "Breath of Fury",
+        "Samut, Hazoret's Champion"
+      ],
+      "found_in_source_export": [
+        "Goro-Goro and Satoru",
+        "Breath of Fury",
+        "Samut, Hazoret's Champion"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:goro-goro-and-satoru#win_conditions[2]",
+      "scenario": "breath-token-makers",
+      "expected_claim_to_verify": "Breath of Fury with a beginning-of-combat token maker loops combats without the commander.",
+      "cards": [
+        "Breath of Fury",
+        "Urabrask's Forge",
+        "Daring Piracy",
+        "Determined Iteration",
+        "Loyal Apprentice"
+      ],
+      "found_in_source_export": [
+        "Breath of Fury",
+        "Urabrask's Forge",
+        "Daring Piracy",
+        "Determined Iteration",
+        "Loyal Apprentice"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:goro-goro-and-satoru#failure_modes[0]",
+      "scenario": "blocked",
+      "expected_claim_to_verify": "Flying blockers, fogs or wipes stop fresh creatures connecting.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Evasive Ninjas; Rogue's Passage",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:goro-goro-and-satoru#failure_modes[1]",
+      "scenario": "haste-gap",
+      "expected_claim_to_verify": "New Dragons lack haste in later combats without Samut/Tempest or another activation.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Samut, Hazoret's Champion; Dragon Tempest",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:goro-goro-and-satoru#failure_modes[2]",
+      "scenario": "commander-removed",
+      "expected_claim_to_verify": "Without Goro-Goro, no Dragons.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Commander-free Breath loops",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

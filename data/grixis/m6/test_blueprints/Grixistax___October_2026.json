@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Grixistax___October_2026",
+  "order": 23,
+  "commanders": [
+    "Kraum, Ludevic's Opus",
+    "Tevesh Szat, Doom of Fools"
+  ],
+  "strategy": {
+    "primary": "Grixis stax: constrict mana, untaps, searches and graveyards (Winter Orb, Static Orb, Blood Moon, Back to Basics, Contamination, Tangle Wire, Trinisphere) while artifact mana and Tevesh's Thrulls break parity, then win with Helm of Obedience + Leyline of the Void/Dauthi Voidwalker or an Underworld Breach finish.",
+    "secondary": "Taxes over hard one-spell caps keep Kraum's second-spell draw live; Necropotence, Rhystic Study and Mystic Remora refill under the lock."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Kraum, Ludevic's Opus",
+      "oracle_id": "5f694f2d-9349-4988-b2b4-788136d4293e",
+      "oracle_text": "Flying, haste\nWhenever an opponent casts their second spell each turn, draw a card.\nPartner (You can have two commanders if both have partner.)",
+      "oracle_sha256": "sha256:577110bb03b24fcd7f236116988d3e1e602a480bc935b3a81383e8792d3d60be",
+      "type_line": "Legendary Creature — Zombie Horror"
+    },
+    {
+      "name": "Tevesh Szat, Doom of Fools",
+      "oracle_id": "79a1783f-ea7e-4cdf-95f5-53b383d38c66",
+      "oracle_text": "+2: Create two 0/1 black Thrull creature tokens.\n+1: You may sacrifice another creature or planeswalker. If you do, draw two cards, then draw another card if the sacrificed permanent was a commander.\n−10: Gain control of all commanders. Put all commanders from the command zone onto the battlefield under your control.\nTevesh Szat, Doom of Fools can be your commander.\nPartner",
+      "oracle_sha256": "sha256:b4b4a9233bdeab87519d248136c614fde04621c477aece5867f58d9c94e9e1cd",
+      "type_line": "Legendary Planeswalker — Szat"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Tevesh Szat, Doom of Fools",
+      "why": "Thrulls and card draw that break the deck's own parity.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Tevesh Szat, Doom of Fools"
+      ]
+    },
+    {
+      "card": "Kraum, Ludevic's Opus",
+      "why": "Hasty flier and a draw when opponents cast a second spell.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Kraum, Ludevic's Opus"
+      ]
+    },
+    {
+      "card": "Contamination",
+      "why": "Thrull-fed lock that turns lands into black mana only.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:grixistax-october-2026#grixistax-03"
+      ]
+    },
+    {
+      "card": "Helm of Obedience",
+      "why": "Compact win with Leyline or Dauthi.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:grixistax-october-2026#grixistax-09"
+      ]
+    },
+    {
+      "card": "Winter Orb",
+      "why": "Core untap lock broken by artifact mana.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Grixistax_October_2026_Current_Cycle_Decisions_2026-10-14.md"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/grixistax-october-2026.json",
+    "blueprint_blob": "25d1761b4943ed1a3033422f1687c2e8dcbf6b6d",
+    "canonical_source_path": "refinement/decklists/Grixistax_October_2026_Approved_2026-10-14.txt",
+    "canonical_source_blob": "86b8d18aeb44ab74a720b60e08d661d272fa98c9",
+    "canonical_approved_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
+    "canonical_record_key": "Grixistax___October_2026",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:grixistax-october-2026#commanders.value[0]",
+      "scenario": "Kraum, Ludevic's Opus",
+      "expected_claim_to_verify": "Flying, haste\nWhenever an opponent casts their second spell each turn, draw a card.\nPartner (You can have two commanders if both have partner.)",
+      "cards": [
+        "Kraum, Ludevic's Opus"
+      ],
+      "found_in_source_export": [
+        "Kraum, Ludevic's Opus"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "C2",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:grixistax-october-2026#commanders.value[1]",
+      "scenario": "Tevesh Szat, Doom of Fools",
+      "expected_claim_to_verify": "+2: Create two 0/1 black Thrull creature tokens.\n+1: You may sacrifice another creature or planeswalker. If you do, draw two cards, then draw another card if the sacrificed permanent was a commander.\n−10: Gain control of all commanders. Put all commanders from the command zone onto the battlefield under your control.\nTevesh Szat, Doom of Fools can be your commander.\nPartner",
+      "cards": [
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "found_in_source_export": [
+        "Tevesh Szat, Doom of Fools"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:grixistax-october-2026#key_interactions[0]",
+      "scenario": "kraum-trigger",
+      "expected_claim_to_verify": "Kraum draws once per opponent per turn, still under Damping Sphere.",
+      "cards": [
+        "Kraum, Ludevic's Opus",
+        "Damping Sphere"
+      ],
+      "found_in_source_export": [
+        "Kraum, Ludevic's Opus",
+        "Damping Sphere"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:grixistax-october-2026#key_interactions[1]",
+      "scenario": "blood-moon-self",
+      "expected_claim_to_verify": "Blood Moon turns your own Phyrexian Tower into a Mountain.",
+      "cards": [
+        "Blood Moon",
+        "Phyrexian Tower",
+        "Back to Basics"
+      ],
+      "found_in_source_export": [
+        "Blood Moon",
+        "Phyrexian Tower",
+        "Back to Basics"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:grixistax-october-2026#key_interactions[2]",
+      "scenario": "self-tax",
+      "expected_claim_to_verify": "Trinisphere and Chalice tax your own free spells and fast mana.",
+      "cards": [
+        "Trinisphere",
+        "Chalice of the Void"
+      ],
+      "found_in_source_export": [
+        "Trinisphere",
+        "Chalice of the Void"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:grixistax-october-2026#key_interactions[3]",
+      "scenario": "karn-wishclaw",
+      "expected_claim_to_verify": "Karn turns off the Wishclaw you hand an opponent.",
+      "cards": [
+        "Karn, the Great Creator",
+        "Wishclaw Talisman"
+      ],
+      "found_in_source_export": [
+        "Karn, the Great Creator",
+        "Wishclaw Talisman"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:grixistax-october-2026#key_interactions[4]",
+      "scenario": "breach-needs-clear",
+      "expected_claim_to_verify": "The Breach finish needs your own prison pieces gone.",
+      "cards": [
+        "Underworld Breach",
+        "Damping Sphere"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Damping Sphere"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:grixistax-october-2026#engines[0]",
+      "scenario": "thrull-parity",
+      "expected_claim_to_verify": "Tevesh in play making Thrulls.",
+      "cards": [
+        "Tevesh Szat, Doom of Fools",
+        "Contamination",
+        "Skullclamp",
+        "Phyrexian Tower",
+        "Culling the Weak",
+        "Diabolic Intent",
+        "Tangle Wire",
+        "Overburden"
+      ],
+      "found_in_source_export": [
+        "Tevesh Szat, Doom of Fools",
+        "Contamination",
+        "Skullclamp",
+        "Phyrexian Tower",
+        "Culling the Weak",
+        "Diabolic Intent",
+        "Tangle Wire",
+        "Overburden"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:grixistax-october-2026#engines[1]",
+      "scenario": "mana-lock",
+      "expected_claim_to_verify": "Artifact mana and Thrulls deployed before the lock.",
+      "cards": [
+        "Winter Orb",
+        "Static Orb",
+        "Blood Moon",
+        "Magus of the Moon",
+        "Back to Basics",
+        "Contamination",
+        "Damping Sphere",
+        "Trinisphere",
+        "Chalice of the Void"
+      ],
+      "found_in_source_export": [
+        "Winter Orb",
+        "Static Orb",
+        "Blood Moon",
+        "Magus of the Moon",
+        "Back to Basics",
+        "Contamination",
+        "Damping Sphere",
+        "Trinisphere",
+        "Chalice of the Void"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:grixistax-october-2026#win_conditions[0]",
+      "scenario": "helm-leyline",
+      "expected_claim_to_verify": "Helm of Obedience with Leyline of the Void or Dauthi Voidwalker exiles an opponent's whole library for {1}.",
+      "cards": [
+        "Helm of Obedience",
+        "Leyline of the Void",
+        "Dauthi Voidwalker"
+      ],
+      "found_in_source_export": [
+        "Helm of Obedience",
+        "Leyline of the Void",
+        "Dauthi Voidwalker"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:grixistax-october-2026#win_conditions[1]",
+      "scenario": "breach",
+      "expected_claim_to_verify": "Underworld Breach with LED/Petal + Brain Freeze or Wheel of Fortune + Jeska's Will/LED; needs your own prison pieces out of the way.",
+      "cards": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Jeska's Will"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Jeska's Will"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:grixistax-october-2026#win_conditions[2]",
+      "scenario": "lock-beatdown",
+      "expected_claim_to_verify": "Under a full lock, Kraum, Sheoldred and Ragavan attack opponents who can't develop.",
+      "cards": [
+        "Sheoldred, the Apocalypse",
+        "Ragavan, Nimble Pilferer",
+        "Kraum, Ludevic's Opus"
+      ],
+      "found_in_source_export": [
+        "Sheoldred, the Apocalypse",
+        "Ragavan, Nimble Pilferer",
+        "Kraum, Ludevic's Opus"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:grixistax-october-2026#failure_modes[0]",
+      "scenario": "self-lock",
+      "expected_claim_to_verify": "The prison suite taxes your own mana, spells and utility lands.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Sequence artifact mana first; Thrulls for Contamination",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:grixistax-october-2026#failure_modes[1]",
+      "scenario": "artifact-removal",
+      "expected_claim_to_verify": "Artifact wipes break parity against you.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Counters; Land-based enchantment locks",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:grixistax-october-2026#failure_modes[2]",
+      "scenario": "breach-blocked",
+      "expected_claim_to_verify": "Your own Damping Sphere/Trinisphere stop the Breach finish.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Helm win; Remove own pieces first",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 15,
+  "P0": 6,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

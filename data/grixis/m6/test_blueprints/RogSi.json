@@ -1,0 +1,567 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "RogSi",
+  "order": 47,
+  "commanders": [
+    "Rograkh, Son of Rohgahh",
+    "Silas Renn, Seeker Adept"
+  ],
+  "strategy": {
+    "primary": "RogSi turbo-naus: a zero-mana commander plus Moxen, rituals and zero-mana artifacts make early mana, then Ad Nauseam, Necropotence, Necrodominance or a wheel reloads the hand. Protection (Defense Grid, Hexing Squelcher, Samut, Vexing Bauble) pushes through a compact win.",
+    "secondary": "Final Fortune and Warrior's Oath turn an end-step reload or an unsafe window into an extra turn to finish. Mnemonic Betrayal and Yawgmoth's Will recover resources."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Rograkh, Son of Rohgahh",
+      "oracle_id": "584cee10-f18c-4633-95cc-f2e7a11841ac",
+      "oracle_text": "First strike, menace, trample\nPartner (You can have two commanders if both have partner.)",
+      "oracle_sha256": "sha256:729d25fef283b3165f711ae69e25b961ba1347a10559fe6d9009ae5c9fd67d2e",
+      "type_line": "Legendary Creature — Kobold Warrior"
+    },
+    {
+      "name": "Silas Renn, Seeker Adept",
+      "oracle_id": "0dc78b1e-581e-4f28-bf35-e2082553d6a9",
+      "oracle_text": "Deathtouch\nWhenever Silas Renn deals combat damage to a player, choose target artifact card in your graveyard. You may cast that card this turn.\nPartner (You can have two commanders if both have partner.)",
+      "oracle_sha256": "sha256:40be9320ea7a2b0f7cfb163e49b45c8df322cb2510a7626bbb73bfead8f5c81d",
+      "type_line": "Legendary Artifact Creature — Human"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Rograkh, Son of Rohgahh",
+      "why": "Free creature commander that turns on the free-spell and Mox suite.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Rograkh, Son of Rohgahh"
+      ]
+    },
+    {
+      "card": "Mox Amber",
+      "why": "Zero-mana mana with Rograkh out.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L35"
+      ]
+    },
+    {
+      "card": "Culling the Weak",
+      "why": "Sacrifices Rograkh for BBBB.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/RogSi_Commander_Blueprint_2026-10-15.md#L34"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/rograkh-son-of-rohgahh-silas-renn.json",
+    "blueprint_blob": "dffc7497f8c6ddbcf2dd195e31e7bfadd0e96377",
+    "canonical_source_path": "refinement/decklists/RogSi_Approved_2026-10-15.txt",
+    "canonical_source_blob": "6b7827592ff0f2eaca004b4b02a9867ed49a0879",
+    "canonical_approved_sha256": "06c9e22b5afc46bd58bbbfdef5c42a796d2a986a2972456107c29aee1b5f905c",
+    "canonical_record_key": "RogSi",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#commanders.value[0]",
+      "scenario": "Rograkh, Son of Rohgahh",
+      "expected_claim_to_verify": "First strike, menace, trample\nPartner (You can have two commanders if both have partner.)",
+      "cards": [
+        "Rograkh, Son of Rohgahh"
+      ],
+      "found_in_source_export": [
+        "Rograkh, Son of Rohgahh"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "C2",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#commanders.value[1]",
+      "scenario": "Silas Renn, Seeker Adept",
+      "expected_claim_to_verify": "Deathtouch\nWhenever Silas Renn deals combat damage to a player, choose target artifact card in your graveyard. You may cast that card this turn.\nPartner (You can have two commanders if both have partner.)",
+      "cards": [
+        "Silas Renn, Seeker Adept"
+      ],
+      "found_in_source_export": [
+        "Silas Renn, Seeker Adept"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[0]",
+      "scenario": "silas-permission",
+      "expected_claim_to_verify": "Silas's combat-damage trigger lets you cast the targeted artifact that turn; normal timing still applies.",
+      "cards": [
+        "Silas Renn, Seeker Adept"
+      ],
+      "found_in_source_export": [
+        "Silas Renn, Seeker Adept"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[1]",
+      "scenario": "bauble-symmetry",
+      "expected_claim_to_verify": "Vexing Bauble also counters your own no-mana spells; sequence or sacrifice it first. Hexing Squelcher makes your spells uncounterable.",
+      "cards": [
+        "Vexing Bauble",
+        "Hexing Squelcher"
+      ],
+      "found_in_source_export": [
+        "Vexing Bauble",
+        "Hexing Squelcher"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[2]",
+      "scenario": "samut-split-second",
+      "expected_claim_to_verify": "Samut gives your instants and sorceries split second; triggered abilities like Vexing Bauble still happen.",
+      "cards": [
+        "Samut, Tyrant of Naktamun",
+        "Vexing Bauble"
+      ],
+      "found_in_source_export": [
+        "Samut, Tyrant of Naktamun",
+        "Vexing Bauble"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[3]",
+      "scenario": "extra-turn-loss",
+      "expected_claim_to_verify": "Final Fortune and Warrior's Oath each create a lose-the-game trigger at that extra turn's end step.",
+      "cards": [
+        "Final Fortune",
+        "Warrior's Oath"
+      ],
+      "found_in_source_export": [
+        "Final Fortune",
+        "Warrior's Oath"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[4]",
+      "scenario": "demonic-counsel",
+      "expected_claim_to_verify": "Before delirium, Demonic Counsel can only find a Demon card.",
+      "cards": [
+        "Demonic Counsel"
+      ],
+      "found_in_source_export": [
+        "Demonic Counsel"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[5]",
+      "scenario": "bauble-m1-flag",
+      "expected_claim_to_verify": "M1 dependency-risk flag: Vexing Bauble counters the deck's own free spells and {0} escapes; have Hexing Squelcher out or sacrifice Bauble first.",
+      "cards": [
+        "Vexing Bauble",
+        "Hexing Squelcher"
+      ],
+      "found_in_source_export": [
+        "Vexing Bauble",
+        "Hexing Squelcher"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K7",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#key_interactions[6]",
+      "scenario": "partner-tax",
+      "expected_claim_to_verify": "Rograkh and Silas have separate commander tax; Rograkh is a free red legendary body.",
+      "cards": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "found_in_source_export": [
+        "Rograkh, Son of Rohgahh",
+        "Silas Renn, Seeker Adept"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#engines[0]",
+      "scenario": "zero-mana-commander",
+      "expected_claim_to_verify": "Rograkh cast for {0} from the command zone.",
+      "cards": [
+        "Rograkh, Son of Rohgahh",
+        "Mox Amber",
+        "Springleaf Drum",
+        "Paradise Mantle",
+        "Culling the Weak",
+        "Infernal Plunge",
+        "Diabolic Intent"
+      ],
+      "found_in_source_export": [
+        "Rograkh, Son of Rohgahh",
+        "Mox Amber",
+        "Springleaf Drum",
+        "Paradise Mantle",
+        "Culling the Weak",
+        "Infernal Plunge",
+        "Diabolic Intent"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#engines[1]",
+      "scenario": "reloads",
+      "expected_claim_to_verify": "Mana from the fast-mana spine.",
+      "cards": [
+        "Ad Nauseam",
+        "Necropotence",
+        "Necrodominance",
+        "Rhystic Study",
+        "Mystic Remora",
+        "Wheel of Fortune",
+        "Windfall"
+      ],
+      "found_in_source_export": [
+        "Ad Nauseam",
+        "Necropotence",
+        "Necrodominance",
+        "Rhystic Study",
+        "Mystic Remora",
+        "Wheel of Fortune",
+        "Windfall"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#win_conditions[0]",
+      "scenario": "oracle",
+      "expected_claim_to_verify": "Thassa's Oracle + Demonic Consultation or Tainted Pact.",
+      "cards": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact"
+      ],
+      "found_in_source_export": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#win_conditions[1]",
+      "scenario": "breach",
+      "expected_claim_to_verify": "Underworld Breach + LED/Lotus Petal + Brain Freeze, + Wheel of Fortune (LED or Jeska's Will), or + Grinding Station with a zero-mana artifact.",
+      "cards": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Jeska's Will",
+        "Grinding Station",
+        "Mox Amber"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze",
+        "Wheel of Fortune",
+        "Jeska's Will",
+        "Grinding Station",
+        "Mox Amber"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#win_conditions[2]",
+      "scenario": "extra-turn-finish",
+      "expected_claim_to_verify": "Final Fortune / Warrior's Oath: an extra turn to finish after a reload; the delayed loss trigger must be beaten.",
+      "cards": [
+        "Final Fortune",
+        "Warrior's Oath",
+        "Ad Nauseam",
+        "Necrodominance"
+      ],
+      "found_in_source_export": [
+        "Final Fortune",
+        "Warrior's Oath",
+        "Ad Nauseam",
+        "Necrodominance"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#failure_modes[0]",
+      "scenario": "graveyard-hate",
+      "expected_claim_to_verify": "Graveyard hate stops Breach and Mnemonic Betrayal.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Oracle lines",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#failure_modes[1]",
+      "scenario": "self-bauble",
+      "expected_claim_to_verify": "Vexing Bauble can counter your own free spells.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Sequencing; Hexing Squelcher",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:rograkh-son-of-rohgahh-silas-renn#failure_modes[2]",
+      "scenario": "naus-life",
+      "expected_claim_to_verify": "Ad Nauseam and Necropotence cost a lot of life against fast tables.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Low curve",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 17,
+  "P0": 6,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

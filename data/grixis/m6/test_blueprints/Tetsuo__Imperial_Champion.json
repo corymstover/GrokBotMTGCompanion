@@ -1,0 +1,492 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Tetsuo__Imperial_Champion",
+  "order": 55,
+  "commanders": [
+    "Tetsuo, Imperial Champion"
+  ],
+  "strategy": {
+    "primary": "Equipment free-cast: keep high-mana-value Equipment on Tetsuo, then each equipped attack either deals damage equal to the highest Equipment MV or casts an instant/sorcery from hand for free, ideally an extra combat (Savage Beating, World at War) or a suspend card (Ancestral Vision, Profane Tutor, Wheel of Fate).",
+    "secondary": "Voltron damage as a real second win, with the extra-combat package (Genji Glove, Hexplate Wallbreaker, Akki Battle Squad, Godo, Aggravated Assault + Sword of Feast and Famine)."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Tetsuo, Imperial Champion",
+      "oracle_id": "1111e042-0bce-4819-ab42-9912aed4d930",
+      "oracle_text": "Whenever Tetsuo attacks, if it's equipped, choose one —\n• Tetsuo deals damage equal to the greatest mana value among Equipment attached to it to any target.\n• You may cast an instant or sorcery spell from your hand with mana value less than or equal to the greatest mana value among Equipment attached to Tetsuo without paying its mana cost.",
+      "oracle_sha256": "sha256:141239032083d8c61f4164859934df0269cfa06d114bbcc92ca07a4b09d138f0",
+      "type_line": "Legendary Creature — Human Samurai"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Tetsuo, Imperial Champion",
+      "why": "Equipped attack: burn or free spell.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Tetsuo, Imperial Champion"
+      ]
+    },
+    {
+      "card": "Aggravated Assault",
+      "why": "Infinite-combat outlet.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:900-3750"
+      ]
+    },
+    {
+      "card": "Sword of Feast and Famine",
+      "why": "Untaps lands for Assault.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "spellbook:900-3750"
+      ]
+    },
+    {
+      "card": "Excalibur, Sword of Eden",
+      "why": "Very high MV for the trigger.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L25"
+      ]
+    },
+    {
+      "card": "Brass Squire",
+      "why": "Free attaching.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/blueprints/Tetsuo_Imperial_Champion_Commander_Blueprint_2026-10-15.md#L26"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/tetsuo-imperial-champion.json",
+    "blueprint_blob": "bd6f9dd7614dedada6db398716dc657c830197a6",
+    "canonical_source_path": "refinement/decklists/Tetsuo_Imperial_Champion_Approved_2026-10-15.txt",
+    "canonical_source_blob": "1049ea399013f9633c0aeae998139f8218ce75a2",
+    "canonical_approved_sha256": "d6d7561f00cb56cfb86cd79024975130d718ddc7f3a1bddf0c62f61dc422822e",
+    "canonical_record_key": "Tetsuo__Imperial_Champion",
+    "registry_raw_matches": true,
+    "source_card_lines": 91,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:tetsuo-imperial-champion#commanders.value[0]",
+      "scenario": "Tetsuo, Imperial Champion",
+      "expected_claim_to_verify": "Whenever Tetsuo attacks, if it's equipped, choose one —\n• Tetsuo deals damage equal to the greatest mana value among Equipment attached to it to any target.\n• You may cast an instant or sorcery spell from your hand with mana value less than or equal to the greatest mana value among Equipment attached to Tetsuo without paying its mana cost.",
+      "cards": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "found_in_source_export": [
+        "Tetsuo, Imperial Champion"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tetsuo-imperial-champion#key_interactions[0]",
+      "scenario": "main-phase-only",
+      "expected_claim_to_verify": "Relentless Assault / Seize the Day only add combats if cast in a main phase; Tetsuo casts in combat, so they were cut.",
+      "cards": [
+        "Savage Beating",
+        "World at War"
+      ],
+      "found_in_source_export": [
+        "Savage Beating",
+        "World at War"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tetsuo-imperial-champion#key_interactions[1]",
+      "scenario": "savage-beating",
+      "expected_claim_to_verify": "Savage Beating works at combat timing when the Equipment ceiling is at least five.",
+      "cards": [
+        "Savage Beating"
+      ],
+      "found_in_source_export": [
+        "Savage Beating"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:tetsuo-imperial-champion#key_interactions[2]",
+      "scenario": "world-at-war-rebound",
+      "expected_claim_to_verify": "World at War cast in combat still adds a later combat, and rebound works because it was cast from hand.",
+      "cards": [
+        "World at War"
+      ],
+      "found_in_source_export": [
+        "World at War"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tetsuo-imperial-champion#key_interactions[3]",
+      "scenario": "suspend-free-cast",
+      "expected_claim_to_verify": "Suspend cards with no mana cost can be cast through Tetsuo because his ability supplies the alternative cost.",
+      "cards": [
+        "Ancestral Vision",
+        "Profane Tutor",
+        "Wheel of Fate"
+      ],
+      "found_in_source_export": [
+        "Ancestral Vision",
+        "Profane Tutor",
+        "Wheel of Fate"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tetsuo-imperial-champion#key_interactions[4]",
+      "scenario": "collar-damage",
+      "expected_claim_to_verify": "Tetsuo deals the trigger damage himself, so Basilisk Collar gives it deathtouch and lifelink.",
+      "cards": [
+        "Basilisk Collar"
+      ],
+      "found_in_source_export": [
+        "Basilisk Collar"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K6",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:tetsuo-imperial-champion#key_interactions[5]",
+      "scenario": "no-wealth-power",
+      "expected_claim_to_verify": "Sword of Wealth and Power was rejected: protection from instants/sorceries blocks Tetsuo's own targeted spells.",
+      "cards": [
+        "Chandra's Ignition"
+      ],
+      "found_in_source_export": [
+        "Chandra's Ignition"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tetsuo-imperial-champion#engines[0]",
+      "scenario": "attack-trigger",
+      "expected_claim_to_verify": "Tetsuo attacks while equipped.",
+      "cards": [
+        "Tetsuo, Imperial Champion",
+        "Excalibur, Sword of Eden",
+        "Kaldra Compleat",
+        "Argentum Armor",
+        "Embercleave",
+        "Genji Glove",
+        "Hexplate Wallbreaker"
+      ],
+      "found_in_source_export": [
+        "Tetsuo, Imperial Champion",
+        "Excalibur, Sword of Eden",
+        "Kaldra Compleat",
+        "Argentum Armor",
+        "Embercleave",
+        "Genji Glove",
+        "Hexplate Wallbreaker"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:tetsuo-imperial-champion#engines[1]",
+      "scenario": "attach-cheat",
+      "expected_claim_to_verify": "Equipment in play or hand.",
+      "cards": [
+        "Brass Squire",
+        "Hammer of Nazahn",
+        "Blacksmith's Talent",
+        "Dalakos, Crafter of Wonders",
+        "Fabricate",
+        "Sword of the Animist",
+        "Enthusiastic Mechanaut"
+      ],
+      "found_in_source_export": [
+        "Brass Squire",
+        "Hammer of Nazahn",
+        "Blacksmith's Talent",
+        "Dalakos, Crafter of Wonders",
+        "Fabricate",
+        "Sword of the Animist",
+        "Enthusiastic Mechanaut"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tetsuo-imperial-champion#win_conditions[0]",
+      "scenario": "assault-loop",
+      "expected_claim_to_verify": "Aggravated Assault with Sword of Feast and Famine's untap or The Reaver Cleaver's Treasure for infinite combats.",
+      "cards": [
+        "Aggravated Assault",
+        "Sword of Feast and Famine",
+        "The Reaver Cleaver",
+        "Tetsuo, Imperial Champion"
+      ],
+      "found_in_source_export": [
+        "Aggravated Assault",
+        "Sword of Feast and Famine",
+        "The Reaver Cleaver",
+        "Tetsuo, Imperial Champion"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:tetsuo-imperial-champion#win_conditions[1]",
+      "scenario": "voltron",
+      "expected_claim_to_verify": "Equipped Tetsuo with double strike/extra combats, plus trigger damage at any target.",
+      "cards": [
+        "Tetsuo, Imperial Champion",
+        "Embercleave",
+        "Leyline Axe",
+        "Kaldra Compleat",
+        "Basilisk Collar",
+        "Savage Beating",
+        "World at War"
+      ],
+      "found_in_source_export": [
+        "Tetsuo, Imperial Champion",
+        "Embercleave",
+        "Leyline Axe",
+        "Kaldra Compleat",
+        "Basilisk Collar",
+        "Savage Beating",
+        "World at War"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:tetsuo-imperial-champion#failure_modes[0]",
+      "scenario": "equipment-hate",
+      "expected_claim_to_verify": "Artifact removal or an unequipped Tetsuo turns the trigger off.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Equipment density; Academy Ruins",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:tetsuo-imperial-champion#failure_modes[1]",
+      "scenario": "blockers-and-removal",
+      "expected_claim_to_verify": "Tetsuo has to attack and survive.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Boots; Oathkeeper; Winged Boots",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:tetsuo-imperial-champion#failure_modes[2]",
+      "scenario": "empty-hand",
+      "expected_claim_to_verify": "The free-cast mode needs a good spell in hand.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Rhystic Study; Mystic Remora; Wheel of Fate",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

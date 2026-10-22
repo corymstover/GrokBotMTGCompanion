@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Cult_of_Skaro",
+  "canonical_key": "Cult_of_Skaro",
+  "commanders": [
+    "Cult of Skaro"
+  ],
+  "slug": "cult-of-skaro",
+  "source": {
+    "blueprint_path": "data/grixis/blueprints/cult-of-skaro.json",
+    "blueprint_blob_sha": "815f015167d8909fdd77705db2459224be95a329",
+    "oracle_snapshots": [
+      {
+        "name": "Cult of Skaro",
+        "text": "Whenever Cult of Skaro attacks, choose one at random —\n• Thay — Put a +1/+1 counter on each artifact creature you control.\n• Caan — Draw two cards.\n• Sec — Create a 3/3 black Dalek artifact creature token with menace.\n• Jast — Each opponent loses 4 life.",
+        "sha": "sha256:41aeb7e199981f3fa91c8c5a37182ccbdf43af839f4cd97c3d3bd9a10a8b84cf"
+      }
+    ],
+    "canonical_source_txt": "refinement/decklists/Cult_of_Skaro_Approval_Candidate_2026-10-14.txt",
+    "current_file_blob_sha": "bcb22f01d0a26b0b08280844db5b709e3452c721",
+    "approved_sha256": "4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+    "registry_source_raw_hash": "sha256:4c221e5be0439338823ef621cd91706da8d405129cf6f5a41de36a83b875ef3b",
+    "recorded_raw_matches": true,
+    "canonical_id_alias": false,
+    "listed_card_lines": 94,
+    "baseline_count_requires_recheck": true,
+    "locked": true
+  },
+  "strategy": {
+    "primary": "Attack-trigger artifact army: protect Cult of Skaro and attack every turn for a random but always useful mode (counters on artifact creatures, two cards, a 3/3 Dalek, or 4 life from each opponent); multiply attacks and triggers with Helm of the Host, extra combats and Strionic Resonator/Scientist Supreme.",
+    "secondary": "Wide artifact-creature board scaled by Steel Overseer, Master of Etherium and The Cyber-Controller; Sword of Feast and Famine + Aggravated Assault infinite combats.",
+    "identity": [
+      {
+        "card": "Cult of Skaro",
+        "why": "Attack trigger with four random payoffs.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Cult of Skaro"
+        ]
+      },
+      {
+        "card": "Helm of the Host",
+        "why": "A hasty nonlegendary Cult every combat, each rolling its own trigger.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "Aggravated Assault",
+        "why": "With Sword it is infinite combats; alone it is a repeatable extra attack.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:cult-of-skaro#skaro-05"
+        ]
+      },
+      {
+        "card": "Scientist Supreme of A.I.M.",
+        "why": "Two-mana copier for Cult's artifact-source trigger.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/decisions/Cult_of_Skaro_Current_Cycle_Decisions_2026-10-14.md"
+        ]
+      },
+      {
+        "card": "The Cyber-Controller",
+        "why": "Doctor Who artifact payoff that scales the counter mode.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "moderate",
+        "evidence": [
+          "source_archive:refinement/blueprints/Cult_of_Skaro_v1.md"
+        ]
+      }
+    ],
+    "exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_ability",
+      "source_ref": "blueprint:cult-of-skaro#commanders.value[0]",
+      "title": "Cult of Skaro",
+      "oracle_or_blueprint_claim_pending_verification": "Whenever Cult of Skaro attacks, choose one at random —\n• Thay — Put a +1/+1 counter on each artifact creature you control.\n• Caan — Draw two cards.\n• Sec — Create a 3/3 black Dalek artifact creature token with menace.\n• Jast — Each opponent loses 4 life.",
+      "fixture_named_cards": [
+        "Cult of Skaro"
+      ],
+      "source_list_cards": [
+        "Cult of Skaro"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Compare commander in valid vs invalid zone/timing; payable activation/cast and true trigger/ability text; commander-first actual effect.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:cult-of-skaro#key_interactions[0]",
+      "title": "random-on-stack",
+      "oracle_or_blueprint_claim_pending_verification": "The mode is chosen at random as the trigger is put on the stack.",
+      "fixture_named_cards": [
+        "Cult of Skaro"
+      ],
+      "source_list_cards": [
+        "Cult of Skaro"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:cult-of-skaro#key_interactions[1]",
+      "title": "copies-vs-triggers",
+      "oracle_or_blueprint_claim_pending_verification": "Resonator/Scientist copies repeat the rolled mode; Roaming Throne extra triggers re-roll.",
+      "fixture_named_cards": [
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Roaming Throne"
+      ],
+      "source_list_cards": [
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Roaming Throne"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:cult-of-skaro#key_interactions[2]",
+      "title": "helm-copies",
+      "oracle_or_blueprint_claim_pending_verification": "Helm of the Host, Spark Double, Sakashima and Auton Soldier make Cult copies that attack.",
+      "fixture_named_cards": [
+        "Helm of the Host",
+        "Spark Double",
+        "Sakashima of a Thousand Faces",
+        "Auton Soldier"
+      ],
+      "source_list_cards": [
+        "Helm of the Host",
+        "Spark Double",
+        "Sakashima of a Thousand Faces",
+        "Auton Soldier"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "specific_rules",
+      "source_ref": "blueprint:cult-of-skaro#key_interactions[3]",
+      "title": "exterminate",
+      "oracle_or_blueprint_claim_pending_verification": "Exterminate! replicates by tapping Daleks.",
+      "fixture_named_cards": [
+        "Exterminate!"
+      ],
+      "source_list_cards": [
+        "Exterminate!"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage named cards under the described trigger/copy/target/control/counter condition. Assert source summary if independent Oracle verification confirms it; adversarially negate exact condition.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:cult-of-skaro#engines[0]",
+      "title": "cult-attack",
+      "oracle_or_blueprint_claim_pending_verification": "Cult (or a Cult copy) attacks.",
+      "fixture_named_cards": [
+        "Cult of Skaro",
+        "Helm of the Host",
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Roaming Throne"
+      ],
+      "source_list_cards": [
+        "Cult of Skaro",
+        "Helm of the Host",
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Roaming Throne"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:cult-of-skaro#engines[1]",
+      "title": "extra-combats",
+      "oracle_or_blueprint_claim_pending_verification": "Mana for extra combat costs.",
+      "fixture_named_cards": [
+        "Full Throttle",
+        "Great Train Heist",
+        "Aggravated Assault"
+      ],
+      "source_list_cards": [
+        "Full Throttle",
+        "Great Train Heist",
+        "Aggravated Assault"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Pay real engine setup costs and resolve 1 and 2 iterations. Stop if lost a source/timing/target; preserve object IDs and resources.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:cult-of-skaro#win_conditions[0]",
+      "title": "sword-assault",
+      "oracle_or_blueprint_claim_pending_verification": "Sword of Feast and Famine + Aggravated Assault: infinite combats, each one a new Cult trigger.",
+      "fixture_named_cards": [
+        "Sword of Feast and Famine",
+        "Aggravated Assault",
+        "Cult of Skaro"
+      ],
+      "source_list_cards": [
+        "Sword of Feast and Famine",
+        "Aggravated Assault",
+        "Cult of Skaro"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:cult-of-skaro#win_conditions[1]",
+      "title": "multiplied-attacks",
+      "oracle_or_blueprint_claim_pending_verification": "Helm of the Host Cult copies, extra combats (Full Throttle, Great Train Heist) and trigger copiers stack drain (Jast) and Dalek tokens.",
+      "fixture_named_cards": [
+        "Helm of the Host",
+        "Full Throttle",
+        "Great Train Heist",
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Lightning Greaves",
+        "Swiftfoot Boots"
+      ],
+      "source_list_cards": [
+        "Helm of the Host",
+        "Full Throttle",
+        "Great Train Heist",
+        "Strionic Resonator",
+        "Scientist Supreme of A.I.M.",
+        "Lightning Greaves",
+        "Swiftfoot Boots"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "W3",
+      "priority": "P1",
+      "kind": "win_trace",
+      "source_ref": "blueprint:cult-of-skaro#win_conditions[2]",
+      "title": "artifact-swarm",
+      "oracle_or_blueprint_claim_pending_verification": "Wide artifact army pumped by lords and the counter mode.",
+      "fixture_named_cards": [
+        "Steel Overseer",
+        "Master of Etherium",
+        "The Cyber-Controller",
+        "Genesis of the Daleks",
+        "Dalek Squadron"
+      ],
+      "source_list_cards": [
+        "Steel Overseer",
+        "Master of Etherium",
+        "The Cyber-Controller",
+        "Genesis of the Daleks",
+        "Dalek Squadron"
+      ],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Construct legal finite stack/action trace with paid costs and opponent life state; require repeating-state proof for unbounded result, plus a failure fixture.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team",
+      "source_ref": "blueprint:cult-of-skaro#failure_modes[0]",
+      "title": "bad-rolls",
+      "oracle_or_blueprint_claim_pending_verification": "Random modes miss what the board needs.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: More triggers average out the variance. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:cult-of-skaro#failure_modes[1]",
+      "title": "cult-removed",
+      "oracle_or_blueprint_claim_pending_verification": "Cult dies attacking or to removal.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Haste/protection package; Helm copies. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team",
+      "source_ref": "blueprint:cult-of-skaro#failure_modes[2]",
+      "title": "artifact-wipe",
+      "oracle_or_blueprint_claim_pending_verification": "Artifact wipes reset the army.",
+      "fixture_named_cards": [],
+      "source_list_cards": [],
+      "off_list_or_unconfirmed_cards": [],
+      "fixture_blueprint": "Stage documented failure and mitigations: Academy Ruins; Counters. No guessed opponent prevalence.",
+      "mandatory_checks": [
+        "current Oracle and relevant ruling",
+        "legal turn/priority/payment/target",
+        "normal and failed-prerequisite adversarial execution",
+        "real physical card zones and ownership",
+        "no win-rate inference from conditional states"
+      ],
+      "implementation_status": "UNIMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "outcome": null
+    }
+  ],
+  "counts": {
+    "all": 13,
+    "P0": 5,
+    "P1": 8
+  },
+  "shared_components": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "required_next_steps": [
+    "fresh Oracle and legality",
+    "reconcile exact canonical 100-card source and intentional exceptions",
+    "implement effect mechanics and negative fixtures",
+    "source-paid actual CI when authorized"
+  ],
+  "execution": "NOT_RUN",
+  "m6_certified": false,
+  "owner_approval_affected": false
+}

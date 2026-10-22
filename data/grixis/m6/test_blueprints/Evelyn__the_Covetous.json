@@ -1,0 +1,500 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Evelyn__the_Covetous",
+  "order": 18,
+  "commanders": [
+    "Evelyn, the Covetous"
+  ],
+  "strategy": {
+    "primary": "cEDH turbo/midrange: fast mana, tutors and dense free interaction toward Worldgorger Dragon + a reanimation Aura (unbounded mana, repeated Evelyn exile triggers), Thassa's Oracle + Consultation/Tainted Pact, or Underworld Breach + LED/Petal + Brain Freeze.",
+    "secondary": "Evelyn as a flash value engine: each entry exiles the top card of every library and she plays one per turn, with Leyline of Anticipation and Valley Floodcaller letting her work on opponents' turns."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Evelyn, the Covetous",
+      "oracle_id": "4ab6f615-1f04-4ed2-88b2-49faa8356dd0",
+      "oracle_text": "Flash\nWhenever Evelyn or another Vampire you control enters, exile the top card of each player's library with a collection counter on it.\nOnce each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were mana of any color to cast it.",
+      "oracle_sha256": "sha256:2896e8dee37527bcaf0735d8076df963c98220be38de203120b8d2c46503a16a",
+      "type_line": "Legendary Creature — Vampire Rogue"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Evelyn, the Covetous",
+      "why": "Flash exile engine with one play per turn.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Evelyn, the Covetous"
+      ]
+    },
+    {
+      "card": "Worldgorger Dragon",
+      "why": "The commander-flavoured combo: loops re-trigger Evelyn.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:evelyn-the-covetous#evelyn-03"
+      ]
+    },
+    {
+      "card": "Leyline of Anticipation",
+      "why": "Flash for everything, so Evelyn plays on opponents' turns.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:evelyn-the-covetous#evelyn-02"
+      ]
+    },
+    {
+      "card": "Saw in Half",
+      "why": "Kills Evelyn into two token copies and four triggers.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:evelyn-the-covetous#evelyn-09"
+      ]
+    },
+    {
+      "card": "Party Thrasher",
+      "why": "Gives Evelyn's casts convoke and loots.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "interaction:evelyn-the-covetous#evelyn-10"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/evelyn-the-covetous.json",
+    "blueprint_blob": "1492775d5a373e2cd80aa43f9cabd794838f7c83",
+    "canonical_source_path": "refinement/decklists/Evelyn_the_Covetous_Approved_2026-10-14.txt",
+    "canonical_source_blob": "035741406c905379833ed4b11cbbb172bcce6bc4",
+    "canonical_approved_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+    "canonical_record_key": "Evelyn__the_Covetous",
+    "registry_raw_matches": true,
+    "source_card_lines": 100,
+    "source_baseline_count_needs_reconciliation": false,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:evelyn-the-covetous#commanders.value[0]",
+      "scenario": "Evelyn, the Covetous",
+      "expected_claim_to_verify": "Flash\nWhenever Evelyn or another Vampire you control enters, exile the top card of each player's library with a collection counter on it.\nOnce each turn, you may play a card from exile with a collection counter on it if it was exiled by an ability you controlled, and you may spend mana as though it were mana of any color to cast it.",
+      "cards": [
+        "Evelyn, the Covetous"
+      ],
+      "found_in_source_export": [
+        "Evelyn, the Covetous"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Build commander in legal and illegal zones; test trigger/activated/static condition, casting, summoning/timing, exact physical effects.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:evelyn-the-covetous#key_interactions[0]",
+      "scenario": "one-play",
+      "expected_claim_to_verify": "One collection-counter play per turn across all Evelyns.",
+      "cards": [
+        "Evelyn, the Covetous"
+      ],
+      "found_in_source_export": [
+        "Evelyn, the Covetous"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:evelyn-the-covetous#key_interactions[1]",
+      "scenario": "mandatory-loop",
+      "expected_claim_to_verify": "The Worldgorger loop is mandatory: without an exit it's a draw.",
+      "cards": [
+        "Worldgorger Dragon"
+      ],
+      "found_in_source_export": [
+        "Worldgorger Dragon"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:evelyn-the-covetous#key_interactions[2]",
+      "scenario": "evelyn-oracle",
+      "expected_claim_to_verify": "Worldgorger + Evelyn into Thassa's Oracle from exile is plausible but rated uncertain.",
+      "cards": [
+        "Worldgorger Dragon",
+        "Evelyn, the Covetous",
+        "Thassa's Oracle"
+      ],
+      "found_in_source_export": [
+        "Worldgorger Dragon",
+        "Evelyn, the Covetous",
+        "Thassa's Oracle"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:evelyn-the-covetous#key_interactions[3]",
+      "scenario": "bauble-self",
+      "expected_claim_to_verify": "Vexing Bauble also counters your own free LED/Petal escapes.",
+      "cards": [
+        "Vexing Bauble",
+        "Lion's Eye Diamond"
+      ],
+      "found_in_source_export": [
+        "Vexing Bauble",
+        "Lion's Eye Diamond"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:evelyn-the-covetous#key_interactions[4]",
+      "scenario": "saw-commander",
+      "expected_claim_to_verify": "Saw in Half on Evelyn: she dies, you get two token copies and their triggers.",
+      "cards": [
+        "Saw in Half",
+        "Evelyn, the Covetous"
+      ],
+      "found_in_source_export": [
+        "Saw in Half",
+        "Evelyn, the Covetous"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:evelyn-the-covetous#engines[0]",
+      "scenario": "collection-exile",
+      "expected_claim_to_verify": "Evelyn enters; one play from exile each turn.",
+      "cards": [
+        "Evelyn, the Covetous",
+        "Leyline of Anticipation",
+        "Valley Floodcaller",
+        "Party Thrasher"
+      ],
+      "found_in_source_export": [
+        "Evelyn, the Covetous",
+        "Leyline of Anticipation",
+        "Valley Floodcaller",
+        "Party Thrasher"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:evelyn-the-covetous#engines[1]",
+      "scenario": "fast-mana-tutors",
+      "expected_claim_to_verify": "Opening hand.",
+      "cards": [
+        "Mana Vault",
+        "Chrome Mox",
+        "Mox Diamond",
+        "Lotus Petal",
+        "Dark Ritual",
+        "Demonic Tutor",
+        "Vampiric Tutor",
+        "Imperial Seal",
+        "Necropotence",
+        "Ad Nauseam"
+      ],
+      "found_in_source_export": [
+        "Mana Vault",
+        "Chrome Mox",
+        "Mox Diamond",
+        "Lotus Petal",
+        "Dark Ritual",
+        "Demonic Tutor",
+        "Vampiric Tutor",
+        "Imperial Seal",
+        "Necropotence",
+        "Ad Nauseam"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:evelyn-the-covetous#win_conditions[0]",
+      "scenario": "worldgorger",
+      "expected_claim_to_verify": "Worldgorger Dragon + Animate Dead/Dance of the Dead/Necromancy: unbounded mana, with a creature in a graveyard as the exit into a win.",
+      "cards": [
+        "Worldgorger Dragon",
+        "Animate Dead",
+        "Dance of the Dead",
+        "Necromancy",
+        "Entomb",
+        "Unmarked Grave",
+        "Faithless Looting",
+        "Evelyn, the Covetous"
+      ],
+      "found_in_source_export": [
+        "Worldgorger Dragon",
+        "Animate Dead",
+        "Dance of the Dead",
+        "Necromancy",
+        "Entomb",
+        "Unmarked Grave",
+        "Faithless Looting",
+        "Evelyn, the Covetous"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:evelyn-the-covetous#win_conditions[1]",
+      "scenario": "oracle",
+      "expected_claim_to_verify": "Thassa's Oracle with Demonic Consultation or Tainted Pact.",
+      "cards": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact"
+      ],
+      "found_in_source_export": [
+        "Thassa's Oracle",
+        "Demonic Consultation",
+        "Tainted Pact"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:evelyn-the-covetous#win_conditions[2]",
+      "scenario": "breach-brain-freeze",
+      "expected_claim_to_verify": "Underworld Breach with Lion's Eye Diamond or Lotus Petal loops Brain Freeze to mill the table.",
+      "cards": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Lotus Petal",
+        "Brain Freeze"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:evelyn-the-covetous#failure_modes[0]",
+      "scenario": "no-exit",
+      "expected_claim_to_verify": "Worldgorger loop with no creature to break it is a forced draw.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Keep a second creature in the yard; Thassa's Oracle exit; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:evelyn-the-covetous#failure_modes[1]",
+      "scenario": "graveyard-hate",
+      "expected_claim_to_verify": "Graveyard hate stops Worldgorger and Breach.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Thassa's Oracle + Consultation; Bounce/remove hate; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:evelyn-the-covetous#failure_modes[2]",
+      "scenario": "own-bauble",
+      "expected_claim_to_verify": "Your own Vexing Bauble blocks free combo spells.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Crack it first; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

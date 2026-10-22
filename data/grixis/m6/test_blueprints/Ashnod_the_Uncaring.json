@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Ashnod_the_Uncaring",
+  "canonical_approval_key": "Ashnod_the_Uncaring",
+  "commander_names": [
+    "Ashnod the Uncaring"
+  ],
+  "tracker_order": 6,
+  "source_basis": {
+    "engineering_blueprint": "data/grixis/blueprints/ashnod-the-uncaring.json",
+    "blueprint_git_blob": "31ad859e29dd61c20813e1bf1e89d0890994873c",
+    "blueprint_date": "2026-10-16",
+    "commander_oracle_snapshots": [
+      {
+        "card": "Ashnod the Uncaring",
+        "oracle_text": "Deathtouch\nWhenever you activate an ability of an artifact or creature that isn't a mana ability, if one or more permanents were sacrificed to activate it, you may copy that ability. You may choose new targets for the copy. (Sacrificing an artifact for mana to activate an ability doesn't count.)",
+        "oracle_sha256": "sha256:6a5cd1f35b18b31ea10e1f374d1d91572cf66ae1995c3b5bbab5badf6389b49b"
+      }
+    ],
+    "canonical_deck_path": "refinement/decklists/Ashnod_the_Uncaring_Approved_2026-10-13.txt",
+    "current_file_blob": "f9e4e2031510cc3a3b722b022523c8ac86cef5e9",
+    "canonical_approved_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+    "registry_raw_sha": "sha256:f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+    "registry_recorded_matches_raw": true,
+    "registered_name_alias": null,
+    "source_baseline_line_count": 95,
+    "known_approval_project_exceptions": "Explicit user approval of the three current-cycle swaps and exact 100-card approved list; fresh retrospective Oracle/rules gate completed 2026-10-14 with stale Ashnod rules wording corrected separately."
+  },
+  "strategy": {
+    "primary": "Artifact-sacrifice engine: activate abilities whose costs sacrifice artifacts or creatures (Spellbombs, Station effects, Trading Post, Time Sieve, altars-as-costs) and copy every one of them with Ashnod, recurring the fodder with Trawler/Retriever/Welder loops.",
+    "secondary": "Spellbook infinites around Myr Retriever + Scrap Trawler + altar/KCI + cost reducer, Nim Deathmantle loops and Dross Scorpion + Retrofitter Foundry, with drain payoffs (Disciple, Mayhem Devil, Reckless Fireweaver).",
+    "role": {
+      "level": "central",
+      "advances_plan": "Ashnod doubles every non-mana ability that sacrificed something to activate: copied Time Sieve is two extra turns, copied Trading Post is two cards or two artifacts back.",
+      "honest_note": "The source blueprint describes an older 'once each turn, nontoken' Ashnod; current Oracle has no turn limit and tokens count (M1 ashnod-01). The deck is stronger than the source text implies, and its infinites run without Ashnod."
+    },
+    "identity_core": [
+      {
+        "card": "Ashnod the Uncaring",
+        "why": "Copies every sacrifice-cost ability; nothing else in the deck doubles activations.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Ashnod the Uncaring"
+        ]
+      },
+      {
+        "card": "Trading Post",
+        "why": "Approved swap: four sacrifice modes, each doubled by Ashnod.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/approvals/Ashnod_the_Uncaring_Approved_2026-10-13.md"
+        ]
+      },
+      {
+        "card": "Time Sieve",
+        "why": "Copied, it is two extra turns per activation.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:ashnod-the-uncaring#ashnod-04"
+        ]
+      },
+      {
+        "card": "Scrap Trawler",
+        "why": "Recursion hub of the Retriever loop.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:ashnod-the-uncaring#ashnod-08"
+        ]
+      },
+      {
+        "card": "Rings of Brighthearth",
+        "why": "A second copy layer on the same activation.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "moderate",
+        "evidence": [
+          "interaction:ashnod-the-uncaring#ashnod-06"
+        ]
+      }
+    ],
+    "project_exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_oracle",
+      "source_ref": "blueprint:ashnod-the-uncaring#commanders.value[0]",
+      "scenario": "Ashnod the Uncaring: commander ability",
+      "source_predicate_to_verify": "Deathtouch\nWhenever you activate an ability of an artifact or creature that isn't a mana ability, if one or more permanents were sacrificed to activate it, you may copy that ability. You may choose new targets for the copy. (Sacrificing an artifact for mana to activate an ability doesn't count.)",
+      "fixture_named_cards": [
+        "Ashnod the Uncaring"
+      ],
+      "cards_verified_in_current_export": [
+        "Ashnod the Uncaring"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "activated_costs",
+        "artifact",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Actual commander zone, casting cost, battlefield/command-zone permission and all timing windows per printed source Oracle; compare ability present vs absent.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:ashnod-the-uncaring#key_interactions[0]",
+      "scenario": "current-oracle",
+      "source_predicate_to_verify": "No once-per-turn limit; tokens count; copies every qualifying ability.",
+      "fixture_named_cards": [
+        "Ashnod the Uncaring"
+      ],
+      "cards_verified_in_current_export": [
+        "Ashnod the Uncaring"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:ashnod-the-uncaring#key_interactions[1]",
+      "scenario": "mana-abilities-excluded",
+      "source_predicate_to_verify": "Mana abilities and resolution-time sacrifices don't count.",
+      "fixture_named_cards": [
+        "Ashnod's Altar",
+        "Krark-Clan Ironworks"
+      ],
+      "cards_verified_in_current_export": [
+        "Ashnod's Altar",
+        "Krark-Clan Ironworks"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:ashnod-the-uncaring#key_interactions[2]",
+      "scenario": "time-sieve",
+      "source_predicate_to_verify": "Copied Time Sieve: two extra turns.",
+      "fixture_named_cards": [
+        "Time Sieve"
+      ],
+      "cards_verified_in_current_export": [
+        "Time Sieve"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:ashnod-the-uncaring#key_interactions[3]",
+      "scenario": "rings-and-ashnod",
+      "source_predicate_to_verify": "Rings of Brighthearth and Ashnod both copy the same activation.",
+      "fixture_named_cards": [
+        "Rings of Brighthearth"
+      ],
+      "cards_verified_in_current_export": [
+        "Rings of Brighthearth"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "activated_costs"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K5",
+      "priority": "P1",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:ashnod-the-uncaring#key_interactions[4]",
+      "scenario": "copy-lki",
+      "source_predicate_to_verify": "Copies use the original's sacrificed-object information.",
+      "fixture_named_cards": [
+        "Altar of Dementia",
+        "Blasting Station"
+      ],
+      "cards_verified_in_current_export": [
+        "Altar of Dementia",
+        "Blasting Station"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:ashnod-the-uncaring#engines[0]",
+      "scenario": "copy-sac-abilities",
+      "source_predicate_to_verify": "Ashnod in play; a non-mana activated ability with a sacrifice in its cost.",
+      "fixture_named_cards": [
+        "Ashnod the Uncaring",
+        "Rings of Brighthearth",
+        "Trading Post",
+        "Pyrite Spellbomb",
+        "Executioner's Capsule",
+        "Mishra's Bauble",
+        "Wayfarer's Bauble"
+      ],
+      "cards_verified_in_current_export": [
+        "Ashnod the Uncaring",
+        "Rings of Brighthearth",
+        "Trading Post",
+        "Pyrite Spellbomb",
+        "Executioner's Capsule",
+        "Mishra's Bauble",
+        "Wayfarer's Bauble"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "activated_costs",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Resolve actual setup costs and the engine's first iteration, then a second iteration or turn; assert resources and permitted frequency are conserved.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:ashnod-the-uncaring#engines[1]",
+      "scenario": "leave-play-payoffs",
+      "source_predicate_to_verify": "Artifacts/permanents being sacrificed.",
+      "fixture_named_cards": [
+        "Disciple of the Vault",
+        "Mayhem Devil",
+        "Reckless Fireweaver",
+        "Marionette Apprentice"
+      ],
+      "cards_verified_in_current_export": [
+        "Disciple of the Vault",
+        "Mayhem Devil",
+        "Reckless Fireweaver",
+        "Marionette Apprentice"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "artifact",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Resolve actual setup costs and the engine's first iteration, then a second iteration or turn; assert resources and permitted frequency are conserved.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:ashnod-the-uncaring#win_conditions[0]",
+      "scenario": "trawler-retriever-loop",
+      "source_predicate_to_verify": "Scrap Trawler + Myr Retriever + Ashnod's Altar or KCI + a cost reducer (Etherium Sculptor, Foundry Inspector, Enthusiastic Mechanaut): infinite death/ETB triggers for Disciple/Mayhem Devil drain.",
+      "fixture_named_cards": [
+        "Scrap Trawler",
+        "Myr Retriever",
+        "Ashnod's Altar",
+        "Krark-Clan Ironworks",
+        "Etherium Sculptor",
+        "Disciple of the Vault",
+        "Mayhem Devil"
+      ],
+      "cards_verified_in_current_export": [
+        "Scrap Trawler",
+        "Myr Retriever",
+        "Ashnod's Altar",
+        "Krark-Clan Ironworks",
+        "Etherium Sculptor",
+        "Disciple of the Vault",
+        "Mayhem Devil"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:ashnod-the-uncaring#win_conditions[1]",
+      "scenario": "deathmantle-loop",
+      "source_predicate_to_verify": "Nim Deathmantle + Ashnod's Altar or KCI with Marionette Apprentice, Urza or Farid.",
+      "fixture_named_cards": [
+        "Nim Deathmantle",
+        "Ashnod's Altar",
+        "Marionette Apprentice",
+        "Urza, Lord High Artificer",
+        "Farid, Enterprising Salvager"
+      ],
+      "cards_verified_in_current_export": [
+        "Nim Deathmantle",
+        "Ashnod's Altar",
+        "Marionette Apprentice",
+        "Urza, Lord High Artificer",
+        "Farid, Enterprising Salvager"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W3",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:ashnod-the-uncaring#win_conditions[2]",
+      "scenario": "scorpion-foundry",
+      "source_predicate_to_verify": "Dross Scorpion + Retrofitter Foundry + Ashnod's Altar or KCI.",
+      "fixture_named_cards": [
+        "Dross Scorpion",
+        "Retrofitter Foundry",
+        "Ashnod's Altar",
+        "Mayhem Devil"
+      ],
+      "cards_verified_in_current_export": [
+        "Dross Scorpion",
+        "Retrofitter Foundry",
+        "Ashnod's Altar",
+        "Mayhem Devil"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:ashnod-the-uncaring#failure_modes[0]",
+      "scenario": "artifact-hate",
+      "source_predicate_to_verify": "Vandalblast-style wipes or Stony Silence-type locks shut off the engine.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "artifact"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Vandalblast-style wipes or Stony Silence-type locks shut off the engine.. Independently stage mitigations: Recursion package; Counters. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:ashnod-the-uncaring#failure_modes[1]",
+      "scenario": "slow-commander",
+      "source_predicate_to_verify": "Five-mana commander; 33 lands is lean.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Five-mana commander; 33 lands is lean.. Independently stage mitigations: Artifact fast mana. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:ashnod-the-uncaring#failure_modes[2]",
+      "scenario": "citadel-needs-board",
+      "source_predicate_to_verify": "Bolas's Citadel and Time Sieve need a big board to fire.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Bolas's Citadel and Time Sieve need a big board to fire.. Independently stage mitigations: Token makers (Sai, Urza's Saga). Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    }
+  ],
+  "summary": {
+    "designed_cases": 14,
+    "P0": 5,
+    "P1": 9,
+    "mechanic_families": [
+      "stack_copy_cascade",
+      "activated_costs",
+      "artifact",
+      "death_sacrifice",
+      "unique_commander_effect"
+    ],
+    "not_run": 14
+  },
+  "strict_execution_gate": {
+    "status": "BLOCKED_UNTIL_INDIVIDUAL_MECHANIC_IMPLEMENTATION_AND_FRESH_ORACLE",
+    "cannot_count_as_phase_b": true,
+    "oracle_revision_may_invalidate_blueprint": true,
+    "legal_exception_source_must_be_preserved": true,
+    "baseline_card_presence_must_be_reconciled": true,
+    "owner_approval_not_granted": true
+  },
+  "status": "DESIGNED_NOT_EXECUTED"
+}

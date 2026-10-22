@@ -1,0 +1,504 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Edea__Possessed_Sorceress",
+  "order": 16,
+  "commanders": [
+    "Edea, Possessed Sorceress"
+  ],
+  "strategy": {
+    "primary": "Borrow an opponent's best creature every combat, swing with it, then sacrifice it before cleanup: Edea returns it to its owner and draws you a card while your sacrifice payoffs (Goblin Bombardment, Mayhem Devil, Grave Pact) fire.",
+    "secondary": "Multiply the theft (Mass Mutiny, Insurrection, Captivating Crew, extra combats, Edea copies) and convert temporary theft into permanent value (Thassa, Nightmare Shepherd, Black Crystal, Saw in Half, Impostor Syndrome)."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Edea, Possessed Sorceress",
+      "oracle_id": "7beb7505-b765-486d-a205-78325922a10f",
+      "oracle_text": "Ward {2}\nAt the beginning of combat on your turn, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.\nWhenever a creature you control but don't own dies, return it to the battlefield under its owner's control and you draw a card.",
+      "oracle_sha256": "sha256:203cb7e1db52cad722d9d186d8bff776175866b8d14321e1b8a90d05677fb33e",
+      "type_line": "Legendary Creature — Human Warlock"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Edea, Possessed Sorceress",
+      "why": "Free combat theft plus a card whenever the borrowed creature dies.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Edea, Possessed Sorceress"
+      ]
+    },
+    {
+      "card": "Thassa, Deep-Dwelling",
+      "why": "Turns a one-turn steal into a permanent one.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:edea-possessed-sorceress#edea-06"
+      ]
+    },
+    {
+      "card": "Goblin Bombardment",
+      "why": "Free outlet that also turns each borrowed body into damage.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "source_archive:refinement/decisions/Edea_Possessed_Sorceress_Current_Cycle_Decisions_2026-10-14.md"
+      ]
+    },
+    {
+      "card": "Mass Mutiny",
+      "why": "Steals one creature from every opponent at once.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:edea-possessed-sorceress#edea-10"
+      ]
+    },
+    {
+      "card": "Chaos Shrine's Black Crystal",
+      "why": "Keeps the stolen creature's card for later.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "interaction:edea-possessed-sorceress#edea-07"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/edea-possessed-sorceress.json",
+    "blueprint_blob": "fc5ddf3c72b28e56eb3b9d08bd2df7645a7cb94b",
+    "canonical_source_path": "refinement/decklists/Edea_Possessed_Sorceress_Approved_2026-10-14.txt",
+    "canonical_source_blob": "e365106085b367bb82f7765ff6d94ff26e659d5e",
+    "canonical_approved_sha256": "fd560a9b0777088b3ad1684ded030566c894faa206ddf6763b74d95d82c532e4",
+    "canonical_record_key": "Edea__Possessed_Sorceress",
+    "registry_raw_matches": true,
+    "source_card_lines": 94,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:edea-possessed-sorceress#commanders.value[0]",
+      "scenario": "Edea, Possessed Sorceress",
+      "expected_claim_to_verify": "Ward {2}\nAt the beginning of combat on your turn, gain control of target creature an opponent controls until end of turn. Untap that creature. It gains haste until end of turn.\nWhenever a creature you control but don't own dies, return it to the battlefield under its owner's control and you draw a card.",
+      "cards": [
+        "Edea, Possessed Sorceress"
+      ],
+      "found_in_source_export": [
+        "Edea, Possessed Sorceress"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Build commander in legal and illegal zones; test trigger/activated/static condition, casting, summoning/timing, exact physical effects.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:edea-possessed-sorceress#key_interactions[0]",
+      "scenario": "targeted-steal",
+      "expected_claim_to_verify": "The steal targets; Arcane Lighthouse answers hexproof/shroud.",
+      "cards": [
+        "Edea, Possessed Sorceress",
+        "Arcane Lighthouse"
+      ],
+      "found_in_source_export": [
+        "Edea, Possessed Sorceress",
+        "Arcane Lighthouse"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:edea-possessed-sorceress#key_interactions[1]",
+      "scenario": "return-and-draw",
+      "expected_claim_to_verify": "A borrowed creature dying returns to its owner and you draw; the owner gets its enter triggers.",
+      "cards": [
+        "Edea, Possessed Sorceress"
+      ],
+      "found_in_source_export": [
+        "Edea, Possessed Sorceress"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:edea-possessed-sorceress#key_interactions[2]",
+      "scenario": "extra-triggers-draw",
+      "expected_claim_to_verify": "Extra Edea death triggers only draw; just one return happens.",
+      "cards": [
+        "Spark Double",
+        "Sakashima of a Thousand Faces"
+      ],
+      "found_in_source_export": [
+        "Spark Double",
+        "Sakashima of a Thousand Faces"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:edea-possessed-sorceress#key_interactions[3]",
+      "scenario": "thassa-keep",
+      "expected_claim_to_verify": "Thassa's end-step blink returns the borrowed creature under your control permanently.",
+      "cards": [
+        "Thassa, Deep-Dwelling"
+      ],
+      "found_in_source_export": [
+        "Thassa, Deep-Dwelling"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:edea-possessed-sorceress#key_interactions[4]",
+      "scenario": "black-crystal-order",
+      "expected_claim_to_verify": "Order Black Crystal's trigger first to keep the stolen card; Edea still draws.",
+      "cards": [
+        "Chaos Shrine's Black Crystal",
+        "Edea, Possessed Sorceress"
+      ],
+      "found_in_source_export": [
+        "Chaos Shrine's Black Crystal",
+        "Edea, Possessed Sorceress"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Arrange named physical cards and precisely the Oracle condition described; compare resolved stack/effect to a false-condition or counter-window case.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:edea-possessed-sorceress#engines[0]",
+      "scenario": "borrow-and-sacrifice",
+      "expected_claim_to_verify": "Edea in play with an opposing creature to borrow and a sacrifice outlet.",
+      "cards": [
+        "Edea, Possessed Sorceress",
+        "Viscera Seer",
+        "Phyrexian Altar",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Phyrexian Tower"
+      ],
+      "found_in_source_export": [
+        "Edea, Possessed Sorceress",
+        "Viscera Seer",
+        "Phyrexian Altar",
+        "Ashnod's Altar",
+        "Goblin Bombardment",
+        "Phyrexian Tower"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:edea-possessed-sorceress#engines[1]",
+      "scenario": "extra-steals",
+      "expected_claim_to_verify": "A copy of Edea, an extra combat, or a beginning-of-combat trigger copier.",
+      "cards": [
+        "Spark Double",
+        "Sakashima of a Thousand Faces",
+        "Irma, Part-Time Mutant",
+        "Karlach, Fury of Avernus",
+        "Full Throttle",
+        "Roaming Throne",
+        "Strionic Resonator"
+      ],
+      "found_in_source_export": [
+        "Spark Double",
+        "Sakashima of a Thousand Faces",
+        "Irma, Part-Time Mutant",
+        "Karlach, Fury of Avernus",
+        "Full Throttle",
+        "Roaming Throne",
+        "Strionic Resonator"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E3",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:edea-possessed-sorceress#engines[2]",
+      "scenario": "keep-the-steal",
+      "expected_claim_to_verify": "A borrowed creature in play when the retention effect resolves.",
+      "cards": [
+        "Thassa, Deep-Dwelling",
+        "Chaos Shrine's Black Crystal",
+        "Nightmare Shepherd",
+        "Saw in Half",
+        "Impostor Syndrome"
+      ],
+      "found_in_source_export": [
+        "Thassa, Deep-Dwelling",
+        "Chaos Shrine's Black Crystal",
+        "Nightmare Shepherd",
+        "Saw in Half",
+        "Impostor Syndrome"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay complete engine setup; measure finite iteration, once-per-turn/tap usage, and deny an illegal additional loop.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:edea-possessed-sorceress#win_conditions[0]",
+      "scenario": "sac-drain",
+      "expected_claim_to_verify": "Sacrifice outlets plus damage payoffs turn every borrowed body, token and Treasure into damage while Edea refills.",
+      "cards": [
+        "Goblin Bombardment",
+        "Mayhem Devil",
+        "Grave Pact",
+        "Pitiless Plunderer",
+        "Edea, Possessed Sorceress",
+        "Viscera Seer",
+        "Phyrexian Altar",
+        "Ashnod's Altar"
+      ],
+      "found_in_source_export": [
+        "Goblin Bombardment",
+        "Mayhem Devil",
+        "Grave Pact",
+        "Pitiless Plunderer",
+        "Edea, Possessed Sorceress",
+        "Viscera Seer",
+        "Phyrexian Altar",
+        "Ashnod's Altar"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:edea-possessed-sorceress#win_conditions[1]",
+      "scenario": "mass-theft-swing",
+      "expected_claim_to_verify": "Mass theft (Insurrection, Mass Mutiny, Mob Rule) swings opposing boards at their owners, then everything is sacrificed for value.",
+      "cards": [
+        "Insurrection",
+        "Mass Mutiny",
+        "Mob Rule",
+        "Seize the Spotlight",
+        "Goblin Bombardment",
+        "Ashnod's Altar"
+      ],
+      "found_in_source_export": [
+        "Insurrection",
+        "Mass Mutiny",
+        "Mob Rule",
+        "Seize the Spotlight",
+        "Goblin Bombardment",
+        "Ashnod's Altar"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Resolve real paid finite line and opponent life/object state; if unbounded prove repeating state then actual conversion; remove an enabler adversarially.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:edea-possessed-sorceress#failure_modes[0]",
+      "scenario": "no-targets",
+      "expected_claim_to_verify": "Creature-light opponents leave nothing worth stealing.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Treasure/token sacrifice still feeds payoffs; Seize the Spotlight; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:edea-possessed-sorceress#failure_modes[1]",
+      "scenario": "edea-removed",
+      "expected_claim_to_verify": "Five-mana commander removed: theft and draw stop.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Ward {2}; Greaves; Counters; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:edea-possessed-sorceress#failure_modes[2]",
+      "scenario": "gift-etb",
+      "expected_claim_to_verify": "Returning the creature gives its owner its enter triggers again.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Conditionally apply adversarial failure; stage source-documented mitigations: Choose targets without strong ETBs; Thassa/Black Crystal to keep instead; no opponent-frequency inference.",
+      "required_checks": [
+        "Refresh current Oracle and project exception interpretation",
+        "Pay true costs and follow real stack/turn/priority, legal targets and owner/controller",
+        "Demonstrate documented effect only under qualifying condition",
+        "Test negative counterexample or response window",
+        "Conserve physical 100-card zones"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}

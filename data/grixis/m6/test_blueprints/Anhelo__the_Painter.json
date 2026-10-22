@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "kind": "COMMANDER_EFFECT_TEST_DESIGN_ONLY",
+  "deck_id": "Anhelo__the_Painter",
+  "canonical_approval_key": "Anhelo_the_Painter",
+  "commander_names": [
+    "Anhelo, the Painter"
+  ],
+  "tracker_order": 4,
+  "source_basis": {
+    "engineering_blueprint": "data/grixis/blueprints/anhelo-the-painter.json",
+    "blueprint_git_blob": "5878863c4654c90632288968c1107cf8a1a1d103",
+    "blueprint_date": "2026-10-16",
+    "commander_oracle_snapshots": [
+      {
+        "card": "Anhelo, the Painter",
+        "oracle_text": "Deathtouch\nThe first instant or sorcery spell you cast each turn has casualty 2. (As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.)",
+        "oracle_sha256": "sha256:710d81609c7ac0630a3b45d72cf61bdbdba7aa7affb470efd83933e0cd78786b"
+      }
+    ],
+    "canonical_deck_path": "refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt",
+    "current_file_blob": "0f5f55ea91f46ebded18aaff756b1f1e9d1d1ce5",
+    "canonical_approved_sha256": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+    "registry_raw_sha": "sha256:8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972",
+    "registry_recorded_matches_raw": false,
+    "registered_name_alias": "ALIAS_BY_EXACT_APPROVED_SHA__RECHECK_BEFORE_EXECUTION",
+    "source_baseline_line_count": 94,
+    "known_approval_project_exceptions": "Explicit user approval after full 99-slot audit, rules/combo verification, candidate exhaustion, red-team review, and zero-new-material-improvement closure."
+  },
+  "strategy": {
+    "primary": "Spell-copy spellslinger: keep cheap power-2+ bodies around to pay casualty 2 on the first instant or sorcery each turn (on every player's turn), copying tutors, removal, extra turns and finishers.",
+    "secondary": "Commander-independent spell-copy infinites (Twinning Staff or Reiterate + Narset's Reversal, Dualcaster Mage + Twinflame, Reiterate + Mana Geyser/Jeska's Will, Primal Wellspring + Frantic Search).",
+    "role": {
+      "level": "significant",
+      "advances_plan": "Anhelo turns one spell per turn into two and makes token makers double as copy fuel; his deathtouch body also blocks.",
+      "honest_note": "The deck's kills are mostly two-card spell-copy infinites that do not need Anhelo; he is a value engine (one casualty per turn), not the win condition. Calling him 'central' would overstate it."
+    },
+    "identity_core": [
+      {
+        "card": "Anhelo, the Painter",
+        "why": "Grants casualty 2 every turn: the one effect no other card in the deck provides.",
+        "evidence_class": "fact",
+        "confidence": "verified",
+        "evidence": [
+          "oracle:Anhelo, the Painter"
+        ]
+      },
+      {
+        "card": "Twinning Staff",
+        "why": "Adds a copy to every casualty copy and loops Narset's Reversal.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:anhelo-the-painter#anhelo-06"
+        ]
+      },
+      {
+        "card": "Ghoulish Procession",
+        "why": "Steady supply of sacrificial bodies that turns the casualty cost into value.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "source_archive:refinement/verification/Anhelo_the_Painter_99_Slot_Audit_Working_2026-10-13.md"
+        ]
+      },
+      {
+        "card": "Narset's Reversal",
+        "why": "Cheap interaction that is also the core copy-loop piece.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "high",
+        "evidence": [
+          "interaction:anhelo-the-painter#anhelo-07"
+        ]
+      },
+      {
+        "card": "Archmage Emeritus",
+        "why": "Magecraft draws on copies, so every casualty copy cantrips.",
+        "evidence_class": "strategic_judgment",
+        "confidence": "moderate",
+        "evidence": [
+          "interaction:anhelo-the-painter#anhelo-04"
+        ]
+      }
+    ],
+    "project_exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "case_id": "C1",
+      "priority": "P0",
+      "kind": "commander_oracle",
+      "source_ref": "blueprint:anhelo-the-painter#commanders.value[0]",
+      "scenario": "Anhelo, the Painter: commander ability",
+      "source_predicate_to_verify": "Deathtouch\nThe first instant or sorcery spell you cast each turn has casualty 2. (As you cast that spell, you may sacrifice a creature with power 2 or greater. When you do, copy the spell and you may choose new targets for the copy.)",
+      "fixture_named_cards": [
+        "Anhelo, the Painter"
+      ],
+      "cards_verified_in_current_export": [
+        "Anhelo, the Painter"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Actual commander zone, casting cost, battlefield/command-zone permission and all timing windows per printed source Oracle; compare ability present vs absent.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K1",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:anhelo-the-painter#key_interactions[0]",
+      "scenario": "casualty-2",
+      "source_predicate_to_verify": "First instant/sorcery each turn: optionally sacrifice a power-2+ creature to copy it.",
+      "fixture_named_cards": [
+        "Anhelo, the Painter"
+      ],
+      "cards_verified_in_current_export": [
+        "Anhelo, the Painter"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K2",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:anhelo-the-painter#key_interactions[1]",
+      "scenario": "first-spell-tracking",
+      "source_predicate_to_verify": "Spells cast before Anhelo arrived still count as the turn's first.",
+      "fixture_named_cards": [
+        "Anhelo, the Painter"
+      ],
+      "cards_verified_in_current_export": [
+        "Anhelo, the Painter"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K3",
+      "priority": "P0",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:anhelo-the-painter#key_interactions[2]",
+      "scenario": "copy-vs-cast",
+      "source_predicate_to_verify": "Copies trigger magecraft (cast or copy) but not 'whenever you cast' payoffs.",
+      "fixture_named_cards": [
+        "Archmage Emeritus",
+        "Storm-Kiln Artist",
+        "Talrand, Sky Summoner"
+      ],
+      "cards_verified_in_current_export": [
+        "Archmage Emeritus",
+        "Storm-Kiln Artist",
+        "Talrand, Sky Summoner"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K4",
+      "priority": "P1",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:anhelo-the-painter#key_interactions[3]",
+      "scenario": "twinning-staff",
+      "source_predicate_to_verify": "Twinning Staff adds one to every copy event, including casualty.",
+      "fixture_named_cards": [
+        "Twinning Staff"
+      ],
+      "cards_verified_in_current_export": [
+        "Twinning Staff"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "K5",
+      "priority": "P1",
+      "kind": "commander_specific_rules",
+      "source_ref": "blueprint:anhelo-the-painter#key_interactions[4]",
+      "scenario": "double-casualty",
+      "source_predicate_to_verify": "Granted casualty stacks with A Little Chat's own casualty.",
+      "fixture_named_cards": [
+        "A Little Chat"
+      ],
+      "cards_verified_in_current_export": [
+        "A Little Chat"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "unique_commander_effect"
+      ],
+      "initial_state_requirements": "Source-named cards in actual legal hand/board/grave/exile zones; stage the precise trigger, targeting, timing, control and mana requirements described in this interaction.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "E1",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:anhelo-the-painter#engines[0]",
+      "scenario": "casualty-copy",
+      "source_predicate_to_verify": "A creature with power 2+ to sacrifice when casting the first instant/sorcery of a turn.",
+      "fixture_named_cards": [
+        "Anhelo, the Painter",
+        "Archmage Emeritus",
+        "Talrand, Sky Summoner",
+        "Veyran, Voice of Duality",
+        "Storm-Kiln Artist"
+      ],
+      "cards_verified_in_current_export": [
+        "Anhelo, the Painter",
+        "Archmage Emeritus",
+        "Talrand, Sky Summoner",
+        "Veyran, Voice of Duality",
+        "Storm-Kiln Artist"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Resolve actual setup costs and the engine's first iteration, then a second iteration or turn; assert resources and permitted frequency are conserved.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "E2",
+      "priority": "P1",
+      "kind": "engine_repetition",
+      "source_ref": "blueprint:anhelo-the-painter#engines[1]",
+      "scenario": "spell-recursion",
+      "source_predicate_to_verify": "Key spells in the graveyard.",
+      "fixture_named_cards": [
+        "Kess, Dissident Mage",
+        "Maestros Ascendancy",
+        "Underworld Breach",
+        "Snapcaster Mage"
+      ],
+      "cards_verified_in_current_export": [
+        "Kess, Dissident Mage",
+        "Maestros Ascendancy",
+        "Underworld Breach",
+        "Snapcaster Mage"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "graveyard_recursion"
+      ],
+      "initial_state_requirements": "Resolve actual setup costs and the engine's first iteration, then a second iteration or turn; assert resources and permitted frequency are conserved.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W1",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:anhelo-the-painter#win_conditions[0]",
+      "scenario": "narset-reversal-loop",
+      "source_predicate_to_verify": "Narset's Reversal copying itself with Twinning Staff or Reiterate: arbitrary copies of the target spell (storm/magecraft payoffs or copied Crackle/Torment).",
+      "fixture_named_cards": [
+        "Narset's Reversal",
+        "Twinning Staff",
+        "Reiterate",
+        "Archmage Emeritus",
+        "Talrand, Sky Summoner"
+      ],
+      "cards_verified_in_current_export": [
+        "Narset's Reversal",
+        "Twinning Staff",
+        "Reiterate",
+        "Archmage Emeritus",
+        "Talrand, Sky Summoner"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "tribal_creature_types"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W2",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:anhelo-the-painter#win_conditions[1]",
+      "scenario": "dualcaster-twinflame",
+      "source_predicate_to_verify": "Dualcaster Mage + Twinflame: arbitrarily many hasty Dualcaster tokens.",
+      "fixture_named_cards": [
+        "Dualcaster Mage",
+        "Twinflame"
+      ],
+      "cards_verified_in_current_export": [
+        "Dualcaster Mage",
+        "Twinflame"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "W3",
+      "priority": "P1",
+      "kind": "finite_win_trace",
+      "source_ref": "blueprint:anhelo-the-painter#win_conditions[2]",
+      "scenario": "reiterate-mana",
+      "source_predicate_to_verify": "Reiterate with buyback on Mana Geyser or Jeska's Will for infinite mana into a big X spell.",
+      "fixture_named_cards": [
+        "Reiterate",
+        "Mana Geyser",
+        "Jeska's Will",
+        "Crackle with Power",
+        "Torment of Hailfire"
+      ],
+      "cards_verified_in_current_export": [
+        "Reiterate",
+        "Mana Geyser",
+        "Jeska's Will",
+        "Crackle with Power",
+        "Torment of Hailfire"
+      ],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "tribal_creature_types"
+      ],
+      "initial_state_requirements": "Stage legal paid line using actual named cards, opponent life/board and explicit costs; for an unbounded claim prove a repeating state and finite conversion.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F1",
+      "priority": "P0",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:anhelo-the-painter#failure_modes[0]",
+      "scenario": "no-fodder",
+      "source_predicate_to_verify": "No power-2+ creature when the important spell is cast: no copy.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: No power-2+ creature when the important spell is cast: no copy.. Independently stage mitigations: Token makers; Bloodghast recursion. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F2",
+      "priority": "P1",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:anhelo-the-painter#failure_modes[1]",
+      "scenario": "fodder-is-engine",
+      "source_predicate_to_verify": "Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "death_sacrifice"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Sacrificing an engine creature (Talrand, Archmage) to casualty trades away the value engine.. Independently stage mitigations: Prioritize token fodder. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    },
+    {
+      "case_id": "F3",
+      "priority": "P1",
+      "kind": "red_team_failure",
+      "source_ref": "blueprint:anhelo-the-painter#failure_modes[2]",
+      "scenario": "combo-disrupted",
+      "source_predicate_to_verify": "Graveyard hate and stack interaction stop the copy loops.",
+      "fixture_named_cards": [],
+      "cards_verified_in_current_export": [],
+      "cards_not_verified_in_current_export": [],
+      "preferred_shared_adapters": [
+        "stack_copy_cascade",
+        "graveyard_recursion"
+      ],
+      "initial_state_requirements": "Conditional opponent disruption: Graveyard hate and stack interaction stop the copy loops.. Independently stage mitigations: Multiple distinct infinites; Free counters. Do not assign a frequency.",
+      "assertion_contract": [
+        "Check current Oracle and relevant comprehensive rules before asserting source claim",
+        "Model legal priority/stack; pay actual mana/additional costs and targets",
+        "Verify expected effect and a counterexample with prerequisite absent or wrong timing",
+        "Conserve original physical cards/owners/zones; distinguish casts from copies and triggers",
+        "Never infer measured multiplayer win probability from a conditional fixture"
+      ],
+      "implementation": "AWAITING_EFFECT_ADAPTER",
+      "execution": "NOT_RUN",
+      "result": null
+    }
+  ],
+  "summary": {
+    "designed_cases": 14,
+    "P0": 5,
+    "P1": 9,
+    "mechanic_families": [
+      "stack_copy_cascade",
+      "death_sacrifice",
+      "unique_commander_effect",
+      "graveyard_recursion",
+      "tribal_creature_types"
+    ],
+    "not_run": 14
+  },
+  "strict_execution_gate": {
+    "status": "BLOCKED_UNTIL_INDIVIDUAL_MECHANIC_IMPLEMENTATION_AND_FRESH_ORACLE",
+    "cannot_count_as_phase_b": true,
+    "oracle_revision_may_invalidate_blueprint": true,
+    "legal_exception_source_must_be_preserved": true,
+    "baseline_card_presence_must_be_reconciled": true,
+    "owner_approval_not_granted": true
+  },
+  "status": "DESIGNED_NOT_EXECUTED"
+}
