@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+  "deck_id": "Abaddon_the_Despoiler",
+  "canonical_baseline_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "canonical_baseline_logical_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "commander_identity": {
+    "mechanical_plan": "During your turn, prior opponent life loss sets X; qualifying mana-value≤X real spells CAST FROM HAND gain cascade. Cascade exile-casts feed Warhammer Lost, Keeper and other distinct payoffs, not generic Grixis combo.",
+    "protected_core": [
+      "Boltwave",
+      "Flame Rift",
+      "Loyal Subordinate",
+      "The Lost and the Damned",
+      "The Ruinous Powers",
+      "Call Forth the Tempest",
+      "Keeper of Secrets",
+      "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "Neheb, the Eternal",
+      "Underworld Breach",
+      "Brain Freeze",
+      "Lion's Eye Diamond",
+      "Nalfeshnee",
+      "Prosper, Tome-Bound",
+      "Passionate Archaeologist",
+      "Storm-Kiln Artist"
+    ],
+    "natural_ceiling": "Bracket 4 — Optimized: high-efficiency 40K threshold burn and cascade with a compact Breach backup, but requiring actual on-turn setup and resisting forced competitive turbo-homogenization.",
+    "anti_homogenization": "Preserve The Lost and the Damned, The Ruinous Powers, Keeper, Loyal, Neheb, printed double cascade, Nalfeshnee and hand-cast threshold as the central on-theme gameplay rather than an interchangeable Breach deck."
+  },
+  "whole_deck_audit": {
+    "all_noncommand_cards_reviewed": true,
+    "roles_and_overlaps": "All baseline noncommander cards reviewed in the source deep audit: burn and life loss establish threshold; counterspells protect the stack; rituals/ramp and 34 lands support 5 MV commander; Storm-Kiln Magecraft handles casts AND virtual copies; 40K Lost/Keeper fuel cascaded nonhand spells.",
+    "mana_base_and_curve": "Thirty-four sources kept identical, including 3 Island / 3 Mountain / 3 Swamp, fetches, duals, fast lands and Command Tower. Replace BBRR Rakdos MV4 + MV0 suspend theft with two 2R MV3 red cards; retains expensive MV8 Call and actual hand-paid cascade thresholds.",
+    "interaction_resilience": "Chaos Warp supplies resolved nonland-permanent interaction beyond countermagic, Otawara and damage; still can reveal another threat. Drannith, Rule of Law and graveyard hate remain bounded adverse conditions, with source-paid P0 evidence covering cast denial and copies.",
+    "weakest_slots": [
+      {
+        "card": "Rakdos, Lord of Riots",
+        "weakness": "Mana-intensive BBRR creature discount does not directly accelerate the commander’s noncreature cascade/exile cast engine.",
+        "alternative_named": "Grinning Ignus",
+        "reasoning": "The flying trampler and subsequent creature-discount ceiling matter in creature-heavy draws, but Ignus repeatedly supplies fresh hand-casts at MV3 for commander cascade after X≥3."
+      },
+      {
+        "card": "Inevitable Betrayal",
+        "weakness": "No printed mana cost and opponent creature-library dependence make the strong MV0 theft outcome conditional.",
+        "alternative_named": "Chaos Warp",
+        "reasoning": "Suspending it for 1UU or cascading/Mind's Desire into it is legal and has a high ceiling; flexible resolved nonland-permanent interaction addresses more opponent boards."
+      },
+      {
+        "card": "Keeper of Secrets",
+        "weakness": "Six-mana removal-vulnerable creature payoff can remain stranded before nonhand spells or be stopped by Rule of Law.",
+        "alternative_named": "Grinning Ignus",
+        "reasoning": "Retain despite the cost: targeted damage from each real nonhand spell cast is both Warhammer identity and threshold feedback that the Keeper-cut alternative loses."
+      },
+      {
+        "card": "Nightscape Familiar",
+        "weakness": "Two-mana 1/1 cost reducer has limited combat relevance and does not pay for actual red pips on hand casts.",
+        "alternative_named": "Aggravated Assault",
+        "reasoning": "Retain its blue/red generic spell discounts as fuel for repeated Ignus casts and other interaction; swapping it for the narrower combat engine loses early mana flexibility."
+      },
+      {
+        "card": "The Ruinous Powers",
+        "weakness": "Four-mana setup relies on an opponent having a desirable top card and may be disrupted before casting it.",
+        "alternative_named": "Chaos Warp",
+        "reasoning": "Keep this uniquely thematic upkeep-exile and opposing-owner life-loss spell-cast engine; an extra instant answer cannot replace the distinctive commander strategy."
+      },
+      {
+        "card": "Rite of Flame",
+        "weakness": "A one-shot red ritual is weak without immediate follow-up and provides no persistent mana source.",
+        "alternative_named": "Past in Flames",
+        "reasoning": "Keep as low-cost early threshold/cascade-eligible accelerant and Breach-friendly ritual; recurring graveyard spells is more redundant and mana intensive."
+      }
+    ],
+    "current_baseline_strength": "Original approved 100 preserves reliable zero-MV theft hit and Rakdos creature discounts, 40K theme, early burn, free-cascade payoffs and Breach loop; its prior approval remains untouched until explicit owner decision.",
+    "candidate_pool_scope": "Original M5 candidate and 60 individual decisions plus 97 live Oracle card names over five full-100 variants; choose one coherent two-slot package with no forced additions from popularity ranks.",
+    "off_ranked_search_conclusion": "Grinning Ignus was an off-standard cast-loop discovery and Aggravated Assault a distinct Neheb/Loyal line; after source-paid bounded verification and explicit replacement costs, Ignus plus Warp is chosen, not every ranked suggestion."
+  },
+  "candidate_sources": [
+    "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md — all-100 baseline slot-and-role audit plus off-ranking research",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json — two SHA-pinned coherent complete 100-card alternatives",
+    "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md — authored SELECT/REJECT/RETAIN disposition and tradeoffs",
+    "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json — 95 actual named source-accounted mechanics cases",
+    "Off-ranking candidate scans and original 60 authored candidate decisions documented in the October 19 deep review"
+  ],
+  "material_candidates": [
+    {
+      "card": "Grinning Ignus",
+      "source": "M6 all-card off-ranking audit, M7 precise v2 portfolio and paid Ignus cascade cases.",
+      "role": "Repeatable real hand-cast mana-value-three source to convert same-turn life-loss threshold into additional Abaddon cascades.",
+      "named_cuts": [
+        "Rakdos, Lord of Riots"
+      ],
+      "incumbent_opportunity_cost": "Remove creature-only discount and a large conditional flying trample body with a demanding BBRR cost.",
+      "commander_synergy": "With Birgi and a legal mana-paid return/recast loop, each real hand cast at threshold X≥3 is independently eligible for Abaddon cascade and additional exile-cast 40K payoffs.",
+      "adversarial_downside": "Requires Ignus in hand, mana, battlefield Abaddon and early opponents’ life loss; removal, Rule of Law and Drannith can stop its intended sequence.",
+      "judgment": "SELECT_ADD",
+      "reason": "Most repeatable commander-first hand-cast engine versus the narrower expensive creature-discount role, preserving essential Birgi and 40K token/damage support.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md",
+        "tests/test_m6_abaddon_lost_keeper_effect.py",
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json"
+      ]
+    },
+    {
+      "card": "Chaos Warp",
+      "source": "October 19 role/answer audit, current Oracle tests and two complete M7 physical challengers.",
+      "role": "Instant-speed answer to resolved nonland permanents, including enchantments and artifacts that most current damage/counter spells miss.",
+      "named_cuts": [
+        "Inevitable Betrayal"
+      ],
+      "incumbent_opportunity_cost": "Lose MV0 free-cascade or Mind's Desire creature theft, whose best hits may decide a creature-rich combo table.",
+      "commander_synergy": "Answer stax and troublesome permanents that stop Abaddon’s hand-casts or Breach while still being a 2R hand spell that can qualify for cascade at X≥3.",
+      "adversarial_downside": "Chaos Warp shuffles target away then reveals replacement permanent; can replace the removed hate piece with another dangerous permanent.",
+      "judgment": "SELECT_ADD",
+      "reason": "Improves practical resolved-permanent defense without diluting 40K cascade/payoff core, in exchange for opponent-dependent high ceiling of zero-MV theft.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md",
+        "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_portfolio_v3_decisive.json"
+      ]
+    },
+    {
+      "card": "Aggravated Assault",
+      "source": "Source-paid Neheb, Loyal Subordinate and postcombat extra-combat scenarios from M6 deep review.",
+      "role": "Conditional extra-combat engine converting Neheb-generated postcombat mana into further Loyal Subordinate life-loss triggers.",
+      "named_cuts": [
+        "Rakdos, Lord of Riots",
+        "Keeper of Secrets"
+      ],
+      "incumbent_opportunity_cost": "Its exact full-100 package drops repeat Keeper of Secrets nonhand targeted damage plus Rakdos creature discounts.",
+      "commander_synergy": "Neheb’s postcombat red mana can pay a main-phase 3RR activation, with additional combats turning on Loyal Subordinate when the commander remains controlled.",
+      "adversarial_downside": "The line needs several preexisting permanents and opponent loss; removal before the next combat, competing activation mana and board dependence lower resilience.",
+      "judgment": "RETAIN_ALTERNATIVE",
+      "reason": "Real legal and commander-relevant line, but the staged Ignus package more directly increases Abaddon’s defining hand-cast cascades without dropping Keeper.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Sufficiency_20261022.md",
+        "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md"
+      ]
+    },
+    {
+      "card": "Stormfist Crusader",
+      "source": "M5 candidate pool and historical authored review of opponent-life-loss enablers in original Abaddon deep audit.",
+      "role": "Low-mana repeatable all-player upkeep draw and life-loss source that can help qualify Abaddon threshold.",
+      "named_cuts": [
+        "Nightscape Familiar"
+      ],
+      "incumbent_opportunity_cost": "Sacrifices generic blue/red spell discounts that support Ignus recast, counters and tempo.",
+      "commander_synergy": "Provides recurring opponent life-loss independent of damage while its additional draw could locate more hand spells.",
+      "adversarial_downside": "Draws cards for opponents, requires surviving a turn and does not guarantee an early cast-turn life-loss threshold; less mana efficient than one-red Boltwave.",
+      "judgment": "REJECT",
+      "reason": "Already strong same-turn burn exists; giving opponent cards and losing Familiar cost reduction is too high relative to the chosen hand-cast package.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md"
+      ]
+    },
+    {
+      "card": "Past in Flames",
+      "source": "M5 off-ranking pool and existing Breach/LED/Brain Freeze rules and complete deck role audit.",
+      "role": "Graveyard spell flashback recursion and fallback storm enabler outside the main threshold engine.",
+      "named_cuts": [
+        "Rite of Flame"
+      ],
+      "incumbent_opportunity_cost": "Removes a cheap immediate red ritual from explosive opening, Threshold X and Breach resource windows.",
+      "commander_synergy": "Recasting instant/sorceries from graveyard can create nonhand spell triggers and storm count, but does not itself create repeated hand-cast Abaddon cascade.",
+      "adversarial_downside": "MV4 red setup repeats a graveyard axis already anchored by compact Breach combo, becoming dead through graveyard hate or Rule of Law.",
+      "judgment": "REJECT",
+      "reason": "More redundant graveyard-centric combo than distinctive Abaddon life-loss-to-hand-cascade; the one-red ritual has better early role density.",
+      "confidence": "MODERATE",
+      "evidence_refs": [
+        "data/grixis/m6/deep_reviews/Abaddon_the_Despoiler.md"
+      ]
+    }
+  ],
+  "expensive_experiments": [],
+  "final_changes": {
+    "adds": [
+      "Grinning Ignus",
+      "Chaos Warp"
+    ],
+    "cuts": [
+      "Rakdos, Lord of Riots",
+      "Inevitable Betrayal"
+    ],
+    "coherent_package_tradeoff": "Two red MV3 hand spells replace restrictive BBRR creature-only discount and strong but opponent-dependent MV0 theft. Improves real X≥3 hand-cascade repeatability and resolved stax interaction, while preserving keeper 40K damage and exact unchanged 34 lands."
+  },
+  "final_candidate": {
+    "path": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler.txt",
+    "sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+    "card_count": 100,
+    "deckwide_reconciliation": "The entire source is 100 including Abaddon first, all nonbasics singleton, commander Grixis, unchanged land base, Birgi/Warhammer/printed cascade engine and Breach backup retained. Two precise additions/cuts source-accounted, alternate Keeper cut separately verified."
+  },
+  "verification": {
+    "quantity_singleton_verified": true,
+    "color_identity_verified": true,
+    "current_oracle_verified": true,
+    "official_legality_checked": true,
+    "project_exceptions_recorded": true,
+    "rules_and_combos_verified": true,
+    "source_evidence_paths": [
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39759093533 — source-bound fresh Oracle, 95 named P0 cases and partial evidence receipt",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39809402502 — exact chosen 100 source delta, 97 live identities and 95-case replay",
+      "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md",
+      "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Sufficiency_20261022.md",
+      "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json"
+    ],
+    "power_bracket": 4,
+    "archidekt_tags": [
+      "Cascade",
+      "Exile Cast",
+      "40K Chaos"
+    ],
+    "known_hard_blockers": []
+  },
+  "owner_authority": {
+    "canonical_deck_changed": false,
+    "exact_candidate_owner_approved": false,
+    "owner_approval_question": "This deck is complete. Do you approve it?"
+  },
+  "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED"
+}
