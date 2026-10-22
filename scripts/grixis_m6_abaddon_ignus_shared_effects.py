@@ -220,7 +220,11 @@ def create_state(library,seed):
     return s
 
 
-def recast_ignus(state,cards,plan,seed,turn):
+def recast_ignus(state,cards,plan,seed,turn,*,rule_of_law=False,drannith=False):
+    # Fixed conservative choice: don't pay bounce cost if Rule of Law
+    # already prevents casting another hand spell this turn.
+    if rule_of_law:
+        return 0
     count=0
     for i in range(plan["sample"]["max_ignus_recasts_per_main"]):
         if IGNUS not in state["field"]:
@@ -243,7 +247,8 @@ def recast_ignus(state,cards,plan,seed,turn):
         if BIRGI in state["field"]:
             state["pool"]=effect_add(state["pool"],r=1)
         if ABADDON in state["field"] and state["loss"]>=3:
-            receipt=first_cascade(state,cards,seed^(turn*1301)^(i*53),plan)
+            receipt=first_cascade(state,cards,seed^(turn*1301)^(i*53),plan,
+                                  drannith=drannith)
             state["metrics"]["additional_cascade_from_paid_recast"]+=1
             if len(state["examples"])<3:
                 state["examples"].append({"turn":turn,"recast":i+1,**receipt})
