@@ -17,15 +17,16 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 61,
-    "required_unexecuted_cases": 2,
+    "registered_replay_cases": 71,
+    "required_unexecuted_cases": 1,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
     "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS.",
     "note_p0_023": "Last currently known mandatory P0 topic promoted to nine individually executable bounded tests, only CI actual pass can close known-case replay. No M6.6 formal certificate yet.",
     "note_whole_deck": "2026-10-22 full 97-name source inventory exposed P0-024 through P0-027. Previous 44 successes continue to pass; zero open result from PR #550 was accurate only for previous inventory.",
     "note_p0_024": "Eight source-paid Wild-Magic Sorcerer scenarios registered after source-audited rules review; their execution requires exact-head Actions CI, not metadata.",
-    "note_p0_025": "Nine preregistered source-paid Nalfeshnee permanent-copy, sorcery-copy and Wild-Magic cascade cases added for exact-head CI; registration alone is not test PASS."
+    "note_p0_025": "Nine preregistered source-paid Nalfeshnee permanent-copy, sorcery-copy and Wild-Magic cascade cases added for exact-head CI; registration alone is not test PASS.",
+    "note_p0_026": "Ten preregistered source-paid Passionate Archaeologist cases attached to exact 100 list; registration is not test PASS until exact-head CI."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -583,16 +584,99 @@
       "expected_execution": "NEW_NALFESHNEE_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
+    },
+    {
+      "id": "P0-026a",
+      "mechanic": "X9 paid Call triggers 3 independent cascade casts Arcane Signet MV2, Sol Ring MV1, Boltwave MV1; exactly 3 commander-granted Archaeologist triggers and 4 targetable damage split A3/B1, not 4 damage to each; Call own hand cast contributes no Archaeologist trigger; 99 conserved.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_x9_three_cascades_target_split",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026b",
+      "mechanic": "X0 original Call gets only 2 printed cascades; first exile Boltwave MV1 + its original effect makes three opponents each lose 3 and Archaeologist makes a separate targeted 1, but no retroactive third Abaddon cascade; second hit Arcane Signet MV2 yields 2 targeted damage.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_x0_boltwave_no_retro_third",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026c",
+      "mechanic": "MV0 Lotus Petal from cascade creates one Archaeologist damage trigger with a chosen target opponent and deals 0, while Lost spawns one token; target selection exists despite damage zero.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_mv0_trigger_deals_zero",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026d",
+      "mechanic": "Countering physical exile-cast Arcane Signet after cast does not stop commander-granted 2-damage trigger or Lost/ Keeper cast triggers; artifact never resolves, ends in graveyard.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_original_exile_spell_countered",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026e",
+      "mechanic": "Abaddon still owned in command zone, Archaeologist on battlefield; no commander creature on battlefield to host granted ability, and two printed Call cascades fire without Archaeologist triggers; no stolen/conjured source.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_commander_not_battlefield",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026f",
+      "mechanic": "Destroy physically present Archaeologist after first cast ability triggered; the existing commander-trigger ability still resolves for MV2 damage while later exile-casts do not get any new grant.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_background_removed_after_trigger",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026g",
+      "mechanic": "Drannith and Rule of Law separately disallow exile cascade hits after hand Call; the original Call has two or three cascade triggers but causes no Archaeologist, Lost, or Keeper nonhand cast events.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_drannith_and_rule_of_law",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026h",
+      "mechanic": "Preexisting Nalfeshnee copies each actual exile-cast and virtual copies (including a Boltwave sorcery copy) are not cast; exactly one Archaeologist trigger per actual exile spell despite two corresponding resolutions; Boltwave 6 per opponent is NOT Archaeologist damage.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_nalf_virtual_spell_copies_no_extra",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026i",
+      "mechanic": "Preexisting Wild-Magic Sorcerer grants nested cascade to first physical exile-cast Arcane Signet, hitting actual Sol Ring, then printed Call follows with Boltwave; three actual exile casts yield Archaeologist targeted damage sum4 and Nalf copies (if any) yield no extra trigger.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_wild_nested_separate_real_casts",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
+    },
+    {
+      "id": "P0-026j",
+      "mechanic": "Actual cast still recorded when specified opponent protected; Archaeologist targets a different legal opponent if one exists; if no legal opposing target, triggering ability is not put on stack and deals zero. No automatically distributed damage or artificial target opponent.",
+      "test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "test_method": "AbaddonPassionateArchaeologistP0026.test_arch_invalid_target_or_all_protected",
+      "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
     }
   ],
   "required_open": [
-    {
-      "id": "P0-026",
-      "topic": "Passionate Archaeologist — Gives commander creature cast-from-exile targeted damage, only if commander creature owned/controlled; copied spells do not cause extra damage triggers.",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "New whole-deck 97-name coverage audit located material commander-critical effect not demonstrated by the previous 44 named cases.",
-      "source": "https://mtg.wtf/card/sld/2220/Passionate-Archaeologist"
-    },
     {
       "id": "P0-027",
       "topic": "Prosper, Tome-Bound — Creating Treasure by *playing* from exile, including casting from cascade; distinction cast v play and land permissions (end step exiled card) and one trigger per played card.",
@@ -615,8 +699,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Run 61 exact named physical test methods including 9 Nalfeshnee cases; P0-026 Passionate Archaeologist and P0-027 Prosper remain required; M6.6 partial I/J blocked.",
-  "test_receipt_status": "AWAITING_EXACT_HEAD_CI_P0_025",
+  "next_action": "Run 71 exact P0 case methods including 10 Archaeologist tests. P0-027 Prosper remains required; M6.6/7 partial, M6 I/J blocked.",
+  "test_receipt_status": "AWAITING_EXACT_HEAD_CI_P0_026",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -693,6 +777,23 @@
         "P0-025g",
         "P0-025h",
         "P0-025i"
+      ]
+    },
+    {
+      "id": "P0-026",
+      "status": "REGISTERED_FOR_EXECUTION_NOT_FORMAL_CERTIFICATION",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json",
+      "case_ids": [
+        "P0-026a",
+        "P0-026b",
+        "P0-026c",
+        "P0-026d",
+        "P0-026e",
+        "P0-026f",
+        "P0-026g",
+        "P0-026h",
+        "P0-026i",
+        "P0-026j"
       ]
     }
   ],
