@@ -283,12 +283,14 @@ def main_phase(state,cards,plan,seed,turn,policy):
                 state["metrics"]["first_ignus_cascade"]+=1
                 if len(state["examples"])<3:
                     state["examples"].append({"turn":turn,"first_cast":True,**receipt})
-        state["field"].add(name)
         if name in BURNS:
+            # Instants/sorceries resolve into the graveyard, never on board.
             state["loss"]+=9 if name=="Boltwave" else 12
             state["graveyard"].append(name)
             if name=="Flame Rift":
                 state["pilot_life_damage"]+=4
+        else:
+            state["field"].add(name)
         if name==IGNUS:
             recast_ignus(state,cards,plan,seed,turn)
     if IGNUS in state["field"] and not ignus_cast_this_turn:
