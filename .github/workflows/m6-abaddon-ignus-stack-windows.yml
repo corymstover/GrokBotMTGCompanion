@@ -1,0 +1,67 @@
+name: M6 Abaddon Ignus oracle priority and disruption windows
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-abaddon-ignus-stack-windows.yml
+      - data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json
+      - data/grixis/m6/phase_b_bounded/abaddon_ignus_stack_windows_20261022.md
+      - scripts/grixis_m6_abaddon_ignus_shared_effects.py
+      - scripts/grixis_m6_abaddon_ignus_stack_windows.py
+      - tests/test_m6_abaddon_ignus_stack_windows.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  oracle-physical-priority:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Prove true Ignus mana ability, source-paid real-zone interruption and immutable no-hate behavior
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_stack_windows.py' -v
+      - name: Regression prior shared physical cascade effects
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_ignus_shared_effects.py' -v
+      - name: Run frozen eight physically conserved prearranged opponent cases
+        run: python scripts/grixis_m6_abaddon_ignus_stack_windows.py --out abaddon_ignus_stack_windows_receipt.json
+      - name: Fail closed on wrong mana-ability stack, deck authority and fabricated win rates
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=json.loads(Path('data/grixis/m6/phase_b_plans/abaddon_ignus_stack_windows_20261022.json').read_text())
+          x=json.loads(Path('abaddon_ignus_stack_windows_receipt.json').read_text())
+          t=json.loads(Path('data/grixis/milestone_m6_m7_subtracker.json').read_text())
+          c=x['cases']
+          assert x['canonical_sha256']==p['baseline']['canonical_raw_sha256']
+          assert set(c)==set(i['id'] for i in p['registered_states'])
+          assert len(c)==8
+          assert not c['ignus_entered_quiet_board']['mana_ability_uses_stack']
+          assert not c['ignus_entered_quiet_board']['ordinary_removal_can_respond_to_activation']
+          assert c['uncontested']['additional_ignus_cascades']==5
+          assert not c['rule_of_law_boltwave_was_cast']['initial_hand_cast']
+          assert not c['rule_of_law_first_ignus']['cascade_free_cast']
+          assert not c['drannith']['cascade_free_cast']
+          assert c['drannith']['additional_recasts']==5
+          assert not c['ignus_countered_after_cast']['original_ignus_on_battlefield']
+          assert c['ignus_countered_after_cast']['trigger']
+          assert all(v['physical_zone_conservation'] for v in c.values())
+          assert x['bounds']['game_win_rate'] is None
+          assert not x['bounds']['swap_superiority_proved']
+          assert not x['bounds']['canonical_changed']
+          assert x['bounds']['m6_certificates']==0
+          assert x['bounds']['m7_owner_approvals']==0
+          assert t['m6']['gates'][5]['status']=='PARTIAL'
+          assert t['m6']['gates'][6]['status']=='PARTIAL'
+          assert t['m6']['formal_m6_certified_decks']==0
+          assert t['m7']['formal_m7_review_decisions']==0
+          print('PASS: eight prearranged physical priority cases; no guessed opponent rates.')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-ignus-priority-windows-receipt
+          path: abaddon_ignus_stack_windows_receipt.json
+          retention-days: 30
