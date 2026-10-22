@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "stage": "PRE_REGISTERED_FACTORIAL_SHARED_PHYSICAL_HAND_ACCELERANTS_X_OTHER_HAND_CASCADES",
+  "deck": "Abaddon_the_Despoiler",
+  "authority": {
+    "engineering_head": "98cff4cce06fa50084f217083013e68640d9b91b",
+    "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+    "physical_99_sha256": "5448d76193923a3f9e3d4c41a327eaeaa9c6326d484d8e5a9abaf3852db2efff",
+    "canonical_writable": false
+  },
+  "predecessor_scripts": [
+    "scripts/grixis_m6_abaddon_hand_acceleration_shared.py",
+    "scripts/grixis_m6_abaddon_other_hand_cascades.py",
+    "scripts/grixis_m6_abaddon_ignus_shared_effects.py"
+  ],
+  "experimental_design": {
+    "variants": [
+      "approved",
+      "ignus_for_rakdos",
+      "ignus_for_nightscape_familiar",
+      "ignus_for_rite_of_flame",
+      "assault_for_rakdos"
+    ],
+    "casting_orders": [
+      "engine_first",
+      "burn_first"
+    ],
+    "modes": [
+      "neither",
+      "hand_ramp_only",
+      "core_other_cascade_only",
+      "both"
+    ],
+    "paired_seeds_per_variant_order_mode": 500,
+    "seed": 621017,
+    "seed_step": 104729,
+    "checkpoint_own_turns": [
+      4,
+      6,
+      8,
+      10
+    ],
+    "opening_hand": 7,
+    "one_draw_per_own_turn": true,
+    "one_land_drop_per_own_turn": true,
+    "max_paid_ignus_recasts_each_main": 5,
+    "three_opponents": true,
+    "physical_trials": 20000,
+    "control_delegation": {
+      "neither": "Use unchanged PR524 exact one_trial via previous PR532 other pilot baseline",
+      "hand_ramp_only": "Use unchanged PR526 hand_acceleration_shared.one_trial mode hand_acceleration",
+      "core_other_cascade_only": "Use unchanged PR530 other_hand_cascades.one_trial mode plus_other_qualified_hand_casts",
+      "both": "New shared state invokes existing paid_accelerants_from_hand with opt-in cascade then original main_phase other_hand_cascades=True"
+    }
+  },
+  "registered_hand_accelerants": [
+    "Lotus Petal",
+    "Sol Ring",
+    "Mana Vault",
+    "Dark Ritual",
+    "Cabal Ritual",
+    "Rite of Flame"
+  ],
+  "registered_core_hand_sources": [
+    "Nightscape Familiar",
+    "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+    "Boltwave",
+    "Flame Rift",
+    "Rakdos, Lord of Riots",
+    "Aggravated Assault",
+    "Grinning Ignus"
+  ],
+  "cascade_order": "Source spell must be physically held and mana-paid. Abaddon controlled at hand casting. X opponent total life lost already this turn; source printed MV <= X. Birgi already controlled cast trigger then cascade first eligible strictly lower printed MV from same physically mutable 99. Resolve supported subset before ORIGINAL hand spell resolves. Source is not yet in grave or battlefield while cascade resolves.",
+  "zero_mana_value": "Lotus Petal qualifies for cascade when Abaddon controlled regardless of X, including X=0. It exiles all remaining library cards and puts them at bottom in random order; no negative-mana-value hit/cast. Unlike prior PR530 isolated test, in BOTH arm this happens on an actual source-paid 0-mana hand cast in the same pilot.",
+  "mana_and_ramp": "Mana Vault stays tapped and deals 1 pilot damage per later modeled draw step; Sol Ring tap once and retap later; Dark/Cabal/Rite resolve after optional cascade so graveyard threshold and timing are real; Lotus Petal sacrifices to red only after any cascade trigger resolves.",
+  "snapshot_contract": [
+    "paid_initial_ignus_cast_seed",
+    "actual_ignus_cascade_seed",
+    "actual_other_hand_cascade_seed",
+    "actual_supported_effect_seed",
+    "actual_zero_mv_cascade_seed",
+    "hand_accelerant_cast_event_count",
+    "actual_ignus_cascade_event_count",
+    "actual_other_hand_cascade_event_count",
+    "physical_first_hits_supported_effect_event_count",
+    "opponent_life_loss_from_hit_events",
+    "actual_draws_from_hit_events",
+    "tutor_moves_from_hit_events",
+    "red_black_colorless_mana_from_hand_spells_and_hits",
+    "mana_vault_draw_step_self_damage"
+  ],
+  "comparisons": "Compare only per-seed incidences common to all 4 modes. Event counts require real event counters and are omitted for predecessor branches that only expose 0/1 seed indicators at checkpoints. BOTH arm uses physical metrics for count.",
+  "adversarial_case_requirements": [
+    "Hand-cast Lotus Petal with Abaddon and X=0 creates a cascade event, physically full-library exiling, then Petal supplies only R and dies",
+    "A cast Dark Ritual with Abaddon and X>=1 resolves its physical cascade first, then gains BBB, not before",
+    "A hand-cast Rite of Flame with X>=1 cascades first, then its red is produced",
+    "Sorcery MV and Abaddon life-loss threshold based on already lost opponent life, not source's prospective damage",
+    "Second Birgi cast from exile yields red if Birgi controlled, not Abaddon hand cascade",
+    "The identical 99-card one-slot variants and controls are exercised; no own-card duplication across library/hand/lands/battlefield/grave",
+    "Mode BOTH differs from each single axis with actual shared state, not sum of independent simulations"
+  ],
+  "limits": {
+    "full_99_card_spell_effects": false,
+    "other_hand_spells_outside_fixed_core_and_six_ramp": false,
+    "real_opponent_interaction": false,
+    "actual_multiplayer_wins": null,
+    "optimized_sequencing": false,
+    "combat_neheb_assault_resolved": false,
+    "candidate_superiority_proven": false,
+    "canonical_changed": false,
+    "m6_certificates": 0,
+    "m7_approval_records": 0
+  }
+}
