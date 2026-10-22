@@ -152,12 +152,13 @@
   },
   "m6_6_status": "COMPLETE_DECISION_SCOPED_BOUNDED",
   "m6_7_status": "COMPLETE_AUTHORED_SOURCE_BOUND_JUDGMENTS",
-  "m6_i_local_best_certified": false,
+  "m6_i_local_best_certified": true,
+  "m6_i_scoped_certificate_ref": "data/grixis/m6/ij/certificates/admiral-beckett-brass.json",
+  "m6_i_scoped_adjudication_ref": "data/grixis/m6/certification_preflight/Admiral_M6_I_Tested_Pool_Closure_20261022.md",
   "m6_j_bundle_complete": false,
   "owner_m6_10_accepted": false,
   "owner_m7_approved": false,
   "blocking_requirements": [
-    "Adjudicate the now bounded-executed A/B/C/D four-configuration pool for a source-bound M6.8 I local-best conclusion; the current incomplete receipt is intentionally not PASS and cannot claim global optimality.",
     "Construct and validate exact D M6.9 J reproducibility bundle with sealed A/B, owner-equivalent waiver, current hashes, mana/red-team reports, actual CI; no copy-forward from Abaddon or historical M5.",
     "Obtain owner M6.10 acceptance and exact M7 decklist approval separately, without touching canonical list before explicit authority."
   ]
