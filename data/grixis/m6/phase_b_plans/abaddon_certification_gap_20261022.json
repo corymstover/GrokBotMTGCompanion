@@ -179,12 +179,22 @@
     "source": "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Gate_Adjudication_20261022.md",
     "m6_6": "COMPLETE_DECISION_SCOPED_ABADDON_ONLY",
     "m6_7": "COMPLETE_DECISION_SCOPED_ABADDON_ONLY",
-    "m6_i": "BLOCKED",
-    "m6_j": "BLOCKED",
+    "m6_i": "COMPLETE_SELECTED_100_FIVE_CONFIGURATION_TESTED_POOL_SCOPE_ABADDON_ONLY",
+    "m6_j": "COMPLETE_SOURCE_HASHED_REPRODUCIBILITY_BUNDLE_ABADDON_ONLY",
     "formal_m6_certified": false,
     "new_m7_owner_approved": false,
     "canonical_approved_unchanged": true,
     "all_99_effects_proven": false,
-    "nonindependent_pass_c_provenance": true
+    "nonindependent_pass_c_provenance": true,
+    "source_m6_i": "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json",
+    "source_m6_j": "data/grixis/m6/bundles/abaddon-the-despoiler.json",
+    "immutable_oracle_snapshot": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json",
+    "strict_adversarial_validator": "scripts/grixis_m6_abaddon_i_final_check.py",
+    "strict_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094",
+    "m6_10": "OWNER_ACCEPTANCE_REQUIRED_NO_FORMAL_CERTIFICATION",
+    "m7": "EXACT_100_OWNER_APPROVAL_REQUIRED_CANDIDATE_HASH_1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+    "research_evidence_scope": "104 source-named P0 and 14 focused P1 physical executable tests; deterministic scoped findings, no invented win-rate proof or global optimum",
+    "next_action": "Present exact Abaddon 100-card M7 owner packet; do not change canonical authority or accept M6.10 without explicit owner authorization.",
+    "supersedes_earlier_ledgers": "Earlier progress snapshots and residual 'BLOCKED' statuses are dated historical observations, superseded by the strict M6 I/J completion receipt."
   }
 }
