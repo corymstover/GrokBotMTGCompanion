@@ -1,0 +1,629 @@
+{
+  "schema_version": 1,
+  "kind": "PENDING_COMMANDER_SPECIFIC_EFFECT_TEST_CONTRACTS",
+  "deck_id": "Admiral_Beckett_Brass",
+  "slug": "admiral-beckett-brass",
+  "commander_names": [
+    "Admiral Beckett Brass"
+  ],
+  "tracker_order": 2,
+  "source_provenance": {
+    "engineering_branch": "chatgpt-cycle76-m6-refinement",
+    "blueprint_path": "data/grixis/blueprints/admiral-beckett-brass.json",
+    "blueprint_blob_sha": "bfca8e5a60d43ee620b25d45911d0725df972f83",
+    "blueprint_oracle_ids": [
+      "43b5e462-d860-473d-828f-6c513fc7768a"
+    ],
+    "blueprint_oracle_hashes": [
+      "sha256:f5b422781279a6140605a6a53aa2080dd3b1e1e2dd7fe5548bc7b3110903c132"
+    ],
+    "canonical_deck_path": "refinement/decklists/Admiral_Beckett_Brass_Approval_Ready_2026-10-13.txt",
+    "canonical_deck_blob_sha": "4144e301c1964d19af3754f2ab4498e134b0f577",
+    "registered_approved_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+    "approval_status": "APPROVED",
+    "lock_status": "LOCKED",
+    "list_line_items": 97,
+    "source_blueprint_status": "seeded"
+  },
+  "commander_identity": {
+    "primary": "Pirate aggro: develop several evasive Pirates and token makers, connect with three different Pirates against one opponent, and steal their best nonland permanent at every end step while Beckett's anthem grows the team.",
+    "secondary": "Combat-damage card draw and Treasure ramp (Malcolm, Breeches, Coastal-style draw) plus a creature-theft package (Hostage Taker, Coercive Recruiter, Don Andres) that turns stolen creatures into Pirates.",
+    "role": {
+      "level": "central",
+      "advances_plan": "Beckett is both the anthem and the theft engine; the deck's evasion, token and Pirate-density choices exist to meet his three-Pirate condition.",
+      "honest_note": "The three-different-Pirates-to-the-same-player condition is genuinely hard to meet through blockers, and the payoff is one steal per end step (two with Roaming Throne). Without evasion the deck is ordinary tribal aggro."
+    },
+    "exceptions": {
+      "value": [],
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "registry:data/grixis/exceptions.json"
+      ]
+    }
+  },
+  "tests": [
+    {
+      "test_id": "C01",
+      "priority": "P0",
+      "kind": "commander_oracle",
+      "title": "Admiral Beckett Brass direct ability and permission",
+      "source_anchor": "blueprint:admiral-beckett-brass#commanders.value[0]",
+      "source_derived_claim_to_verify": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+      "associated_cards": [
+        "Admiral Beckett Brass"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Beckett Brass"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "end_step_upkeep",
+        "lifeloss_damage",
+        "spells_targets"
+      ],
+      "fixture_contract": {
+        "starting_zones": [
+          "command",
+          "battlefield"
+        ],
+        "actions": [
+          "Stage legal cast or alternative zone if ability applies there",
+          "Pay real source-specific cost, choose legal targets/modes, then resolve relevant ability"
+        ],
+        "assertions": [
+          "Correct ability trigger/activation and effect according to quoted snapshot",
+          "No effect when any actual Oracle condition is missing",
+          "Exact priority/timing/triggered-vs-activated classification",
+          "No duplicate physical cards, illegal target or unpayable source"
+        ],
+        "negative_case": "commander removed / source not controlled / qualifying requirement absent (use only legally applicable case)",
+        "oracle_sha256": "sha256:f5b422781279a6140605a6a53aa2080dd3b1e1e2dd7fe5548bc7b3110903c132"
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K01",
+      "priority": "P0",
+      "kind": "exact_interaction",
+      "title": "three-pirates: Three different Pirates must deal combat damage to the same player this turn; theft is permanent.",
+      "source_anchor": "blueprint:admiral-beckett-brass#key_interactions[0]",
+      "source_derived_claim_to_verify": "Three different Pirates must deal combat damage to the same player this turn; theft is permanent.",
+      "associated_cards": [
+        "Admiral Beckett Brass"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Beckett Brass"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "lifeloss_damage",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-beckett-brass#beckett-01"
+        ],
+        "m1_refs": [
+          "beckett-01"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K02",
+      "priority": "P0",
+      "kind": "exact_interaction",
+      "title": "throne-doubles: Roaming Throne naming Pirate doubles Beckett's end-step steal (separate targets).",
+      "source_anchor": "blueprint:admiral-beckett-brass#key_interactions[1]",
+      "source_derived_claim_to_verify": "Roaming Throne naming Pirate doubles Beckett's end-step steal (separate targets).",
+      "associated_cards": [
+        "Roaming Throne",
+        "Admiral Beckett Brass"
+      ],
+      "present_in_approved_baseline": [
+        "Roaming Throne",
+        "Admiral Beckett Brass"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "spells_targets",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-beckett-brass#beckett-02",
+          "interaction:admiral-beckett-brass#beckett-09"
+        ],
+        "m1_refs": [
+          "beckett-02",
+          "beckett-09"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K03",
+      "priority": "P0",
+      "kind": "exact_interaction",
+      "title": "kari-monkey: Kari Zev's Ragavan token is a Monkey, not a Pirate: it doesn't count.",
+      "source_anchor": "blueprint:admiral-beckett-brass#key_interactions[2]",
+      "source_derived_claim_to_verify": "Kari Zev's Ragavan token is a Monkey, not a Pirate: it doesn't count.",
+      "associated_cards": [
+        "Kari Zev, Skyship Raider"
+      ],
+      "present_in_approved_baseline": [
+        "Kari Zev, Skyship Raider"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "tribal_type",
+        "token_copy"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-beckett-brass#beckett-03"
+        ],
+        "m1_refs": [
+          "beckett-03"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K04",
+      "priority": "P1",
+      "kind": "exact_interaction",
+      "title": "changelings: Changelings count as Pirates.",
+      "source_anchor": "blueprint:admiral-beckett-brass#key_interactions[3]",
+      "source_derived_claim_to_verify": "Changelings count as Pirates.",
+      "associated_cards": [
+        "Changeling Outcast"
+      ],
+      "present_in_approved_baseline": [
+        "Changeling Outcast"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-beckett-brass#beckett-06"
+        ],
+        "m1_refs": [
+          "beckett-06"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "K05",
+      "priority": "P1",
+      "kind": "exact_interaction",
+      "title": "one-sided-sweepers: Fiery Cannonade spares Pirates; Raise the Palisade spares the chosen type.",
+      "source_anchor": "blueprint:admiral-beckett-brass#key_interactions[4]",
+      "source_derived_claim_to_verify": "Fiery Cannonade spares Pirates; Raise the Palisade spares the chosen type.",
+      "associated_cards": [
+        "Fiery Cannonade",
+        "Raise the Palisade"
+      ],
+      "present_in_approved_baseline": [
+        "Fiery Cannonade",
+        "Raise the Palisade"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Place exactly the named physical cards in legal zones and stage the source trigger/activation window described by this interaction; derive zones and payable costs from current Oracle, not from an assumed shortcut.",
+        "action": "Execute the specific recorded interaction in the quoted source claim, tracking each spell/trigger/copy/target.",
+        "assertions": [
+          "Compare final zones, resources, controller, turn markers and stack against the source-derived rule claim",
+          "Distinguish triggers from casts, costs from mana value, and card owner from controller where applicable",
+          "Fail closed if source rules conflict with current Oracle/rulings"
+        ],
+        "adversarial": "Repeat after withholding the named enabling condition or changing response timing; record legal vs illegal change",
+        "existing_evidence": [
+          "interaction:admiral-beckett-brass#beckett-07"
+        ],
+        "m1_refs": [
+          "beckett-07"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "E01",
+      "priority": "P1",
+      "kind": "engine_payability",
+      "title": "Engine end-step-theft",
+      "source_anchor": "blueprint:admiral-beckett-brass#engines[0]",
+      "source_derived_claim_to_verify": "Three or more different Pirates dealt combat damage to one player this turn.",
+      "associated_cards": [
+        "Admiral Beckett Brass",
+        "Roaming Throne"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Beckett Brass",
+        "Roaming Throne"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "end_step_upkeep",
+        "lifeloss_damage",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Assemble registered named engine from physical cards; start from a legal 100-card state with commander zone/timing checked.",
+        "action": "Pay the setup costs and exercise the engine once, then attempt an additional activation/turn cycle.",
+        "assertions": [
+          "Engine cannot generate resources, tokens, new cards or triggers without legal setup",
+          "Record exactly paid mana/taps/targets and cumulative produced events",
+          "Verify ordering and graveyard/battlefield/exile ownership after each iteration"
+        ],
+        "negative_case": "Remove a required engine component or suppress the condition, then show the claimed output fails",
+        "evidence": [
+          "interaction:admiral-beckett-brass#beckett-01",
+          "interaction:admiral-beckett-brass#beckett-02"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "E02",
+      "priority": "P1",
+      "kind": "engine_payability",
+      "title": "Engine combat-draw-and-treasure",
+      "source_anchor": "blueprint:admiral-beckett-brass#engines[1]",
+      "source_derived_claim_to_verify": "Pirates connect.",
+      "associated_cards": [
+        "Bident of Thassa",
+        "Kindred Discovery",
+        "Malcolm, Keen-Eyed Navigator",
+        "Breeches, Brazen Plunderer",
+        "Ramirez DePietro, Pillager",
+        "Captain Lannery Storm"
+      ],
+      "present_in_approved_baseline": [
+        "Bident of Thassa",
+        "Kindred Discovery",
+        "Malcolm, Keen-Eyed Navigator",
+        "Breeches, Brazen Plunderer",
+        "Ramirez DePietro, Pillager",
+        "Captain Lannery Storm"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "artifact_tokens",
+        "discard_wheel",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Assemble registered named engine from physical cards; start from a legal 100-card state with commander zone/timing checked.",
+        "action": "Pay the setup costs and exercise the engine once, then attempt an additional activation/turn cycle.",
+        "assertions": [
+          "Engine cannot generate resources, tokens, new cards or triggers without legal setup",
+          "Record exactly paid mana/taps/targets and cumulative produced events",
+          "Verify ordering and graveyard/battlefield/exile ownership after each iteration"
+        ],
+        "negative_case": "Remove a required engine component or suppress the condition, then show the claimed output fails",
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "W01",
+      "priority": "P1",
+      "kind": "win_condition_trace",
+      "title": "natural finish: pirate-beats-and-theft",
+      "source_anchor": "blueprint:admiral-beckett-brass#win_conditions[0]",
+      "source_derived_claim_to_verify": "Wide evasive Pirate attacks pumped by lords and Beckett, stealing a blocker, rock or threat each end step until the table falls behind.",
+      "associated_cards": [
+        "Admiral Beckett Brass",
+        "Fathom Fleet Captain",
+        "Dire Fleet Captain",
+        "Corsair Captain",
+        "Port Razer",
+        "Cover of Darkness",
+        "Open into Wonder",
+        "Siren Stormtamer"
+      ],
+      "present_in_approved_baseline": [
+        "Admiral Beckett Brass",
+        "Fathom Fleet Captain",
+        "Dire Fleet Captain",
+        "Corsair Captain",
+        "Port Razer",
+        "Cover of Darkness",
+        "Open into Wonder",
+        "Siren Stormtamer"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "end_step_upkeep",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Source-lock required pieces; stage exact preconditions, actual lands/mana, life totals, spell/ability timing and opposing interaction window.",
+        "action": "Resolve a bounded turn-by-turn path for the named win condition; if unbounded, require a repeatable state proof and finite conversion to an explicit actual win.",
+        "assertions": [
+          "Demonstrate legal paid spells, legal stack priority, physical object-zone conservation and valid targets",
+          "Record opponent life or actual victory state instead of counting raw triggers as wins",
+          "Flag dependencies not present in approved deck or relying on hypotheticals"
+        ],
+        "negative_case": "Remove one named enabler or introduce a documented stax/response window, then show line feasibility changes",
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+          "interaction:admiral-beckett-brass#beckett-01"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "W02",
+      "priority": "P1",
+      "kind": "win_condition_trace",
+      "title": "natural finish: port-razer-combats",
+      "source_anchor": "blueprint:admiral-beckett-brass#win_conditions[1]",
+      "source_derived_claim_to_verify": "Port Razer's extra combats let the same Pirates connect again; Beckett's tally counts damage across all combats this turn.",
+      "associated_cards": [
+        "Port Razer",
+        "Lightning Greaves"
+      ],
+      "present_in_approved_baseline": [
+        "Port Razer",
+        "Lightning Greaves"
+      ],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "lifeloss_damage",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Source-lock required pieces; stage exact preconditions, actual lands/mana, life totals, spell/ability timing and opposing interaction window.",
+        "action": "Resolve a bounded turn-by-turn path for the named win condition; if unbounded, require a repeatable state proof and finite conversion to an explicit actual win.",
+        "assertions": [
+          "Demonstrate legal paid spells, legal stack priority, physical object-zone conservation and valid targets",
+          "Record opponent life or actual victory state instead of counting raw triggers as wins",
+          "Flag dependencies not present in approved deck or relying on hypotheticals"
+        ],
+        "negative_case": "Remove one named enabler or introduce a documented stax/response window, then show line feasibility changes",
+        "evidence": [
+          "interaction:admiral-beckett-brass#beckett-10"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "F01",
+      "priority": "P0",
+      "kind": "adversarial_failure",
+      "title": "blocked-out: adversarial commander failure",
+      "source_anchor": "blueprint:admiral-beckett-brass#failure_modes[0]",
+      "source_derived_claim_to_verify": "Blockers or fog effects stop the third Pirate from connecting, so no steal.",
+      "associated_cards": [],
+      "present_in_approved_baseline": [],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Construct legal deck-specific board showing the recorded commander failure mode. This is a conditional red-team fixture, not an assumed opponent frequency.",
+        "action": "Apply precisely the disruption described; separately test documented mitigations.",
+        "assertions": [
+          "Compare a baseline against disruption with same board and random seed",
+          "Verify mitigation needs payable mana/target/priority and is not assumed available",
+          "Do not infer multiplayer win percentage from a staged failure"
+        ],
+        "mitigations": [
+          "Evasion package",
+          "Open into Wonder",
+          "Cyclonic Rift on a key turn"
+        ],
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md",
+          "interaction:admiral-beckett-brass#beckett-01"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "F02",
+      "priority": "P1",
+      "kind": "adversarial_failure",
+      "title": "sweeper-reset: adversarial commander failure",
+      "source_anchor": "blueprint:admiral-beckett-brass#failure_modes[1]",
+      "source_derived_claim_to_verify": "A board wipe removes the Pirate density the condition needs.",
+      "associated_cards": [],
+      "present_in_approved_baseline": [],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft",
+        "tribal_type"
+      ],
+      "fixture_contract": {
+        "setup": "Construct legal deck-specific board showing the recorded commander failure mode. This is a conditional red-team fixture, not an assumed opponent frequency.",
+        "action": "Apply precisely the disruption described; separately test documented mitigations.",
+        "assertions": [
+          "Compare a baseline against disruption with same board and random seed",
+          "Verify mitigation needs payable mana/target/priority and is not assumed available",
+          "Do not infer multiplayer win percentage from a staged failure"
+        ],
+        "mitigations": [
+          "Token makers",
+          "Raise the Palisade/Cannonade are one-sided",
+          "Admiral Brass reanimates Pirates"
+        ],
+        "evidence": [
+          "source_archive:refinement/blueprints/Admiral_Beckett_Brass_v1.md"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    },
+    {
+      "test_id": "F03",
+      "priority": "P1",
+      "kind": "adversarial_failure",
+      "title": "commander-removal: adversarial commander failure",
+      "source_anchor": "blueprint:admiral-beckett-brass#failure_modes[2]",
+      "source_derived_claim_to_verify": "Beckett removed repeatedly: the theft engine and anthem are gone.",
+      "associated_cards": [],
+      "present_in_approved_baseline": [],
+      "not_identified_in_approved_baseline": [],
+      "candidate_or_off_baseline_requires_separate_fixture": false,
+      "mechanic_families": [
+        "combat_damage_theft"
+      ],
+      "fixture_contract": {
+        "setup": "Construct legal deck-specific board showing the recorded commander failure mode. This is a conditional red-team fixture, not an assumed opponent frequency.",
+        "action": "Apply precisely the disruption described; separately test documented mitigations.",
+        "assertions": [
+          "Compare a baseline against disruption with same board and random seed",
+          "Verify mitigation needs payable mana/target/priority and is not assumed available",
+          "Do not infer multiplayer win percentage from a staged failure"
+        ],
+        "mitigations": [
+          "Lightning Greaves",
+          "Free protection"
+        ],
+        "evidence": [
+          "interaction:admiral-beckett-brass#beckett-15"
+        ]
+      },
+      "expected_result_status": "SOURCE_CLAIM_PENDING_INDEPENDENT_ORACLE_AND_EXECUTION",
+      "implementation_status": "SPECIFIED_NOT_IMPLEMENTED",
+      "execution_status": "NOT_RUN",
+      "pass_result": null
+    }
+  ],
+  "priority_counts": {
+    "P0": 5,
+    "P1": 8
+  },
+  "shared_reuse_guidance": {
+    "recommended_mechanic_families": [
+      "combat_damage_theft",
+      "end_step_upkeep",
+      "lifeloss_damage",
+      "spells_targets",
+      "tribal_type",
+      "token_copy",
+      "artifact_tokens",
+      "discard_wheel"
+    ],
+    "foundation_suites": [
+      "physical-zones",
+      "transactional-stack",
+      "model-coverage"
+    ],
+    "implemented_adapters": [],
+    "all_custom_effect_adapters_pending": true
+  },
+  "quality_gates": {
+    "complete_live_oracle_refresh_required": true,
+    "physical_baseline_and_approved_sha_reverification_required": true,
+    "official_vs_project_exception_audit_required": true,
+    "candidate_off_baseline_not_assumed_available": true,
+    "unit_test_implementation_required": true,
+    "adversarial_fixture_implementation_required": true,
+    "decision_grade_phase_b_not_satisfied": true,
+    "owner_final_approval_not_affected": true
+  },
+  "overall_status": "DESIGNED_ONLY_NEVER_EXECUTED",
+  "counted_as_passed_tests": 0
+}
