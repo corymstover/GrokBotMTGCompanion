@@ -33,7 +33,7 @@
     "data/grixis/m6/phase_b_bounded/abaddon_ignus_paid_chronology_20261021.md; data/grixis/m6/phase_b_plans/abaddon_ignus_paid_chronology_20261021.json (PR #520, exact-head CI 39706655376; 17 tests, 20,000 bounded physical paid trajectories)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_cascade_first_hit_20261021.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_cascade_first_hit_20261021.md (PR #522 / Actions 39708741461; conditional physical first-hit legal offers, no actual spell-effect execution)",
     "data/grixis/m6/phase_b_plans/abaddon_ignus_shared_effects_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_ignus_shared_effects_20261022.md (PR #524; Actions 39710471617; 12 source-verified physical same-state effects with 20 tests and 20,000 restricted paired trajectories)",
-    "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 16 tests in 20,000 matched physical trajectories)"
+    "data/grixis/m6/phase_b_plans/abaddon_hand_acceleration_shared_20261022.json + data/grixis/m6/phase_b_bounded/abaddon_hand_acceleration_shared_20261022.md (PR #526 / CI 39713059781 success; six paid hand-mana effects and 15 tests in 20,000 matched physical trajectories)"
   ],
   "candidates": [
     {
@@ -298,7 +298,7 @@
             "id": "ignus-16-physical-and-conditional-rules-tests",
             "class": "test_result",
             "confidence": "moderate",
-            "source": "PR #518 / GitHub Actions 39704767840; 16 tests, not real game engine access"
+            "source": "PR #518 / GitHub Actions 39704767840; 15 tests, not real game engine access"
           },
           {
             "id": "owner-equivalent-cut-opportunity-cost",
@@ -328,7 +328,7 @@
             "id": "paired-six-hand-ramp-versus-predecessor-source-paid-engine",
             "class": "test_result",
             "confidence": "moderate",
-            "source": "PR #526 exact-head GitHub Actions 39713059781 success; 16 hand-spell mana/grave and predecessor-control tests, 20,000 paired source-paid accelerated or unchanged physical trajectories; six hand accelerants, no complete 99-card game"
+            "source": "PR #526 exact-head GitHub Actions 39713059781 success; 15 hand-spell mana/grave and predecessor-control tests, 20,000 paired source-paid accelerated or unchanged physical trajectories; six hand accelerants, no complete 99-card game"
           }
         ]
       },
