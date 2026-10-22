@@ -34,7 +34,7 @@ def registry_check(doc: dict):
     ids = [x["id"] for x in items + remaining]
     if len(ids) != len(set(ids)):
         raise P0GateError("Duplicate P0 case IDs")
-    if len(items) != 71 or len(remaining) != 1:
+    if len(items) != 81 or len(remaining) != 0:
         raise P0GateError("Current inventory changed without a plan update")
     if not all(row["status"] == "REQUIRED_UNEXECUTED" for row in remaining):
         raise P0GateError("Unrun P0 case was marked completed")
@@ -58,7 +58,7 @@ def registry_check(doc: dict):
     if {x["test_method"].split(".", 1)[-1] for x in new} != {
             "test_" + n for n in expected_suffixes}:
         raise P0GateError("New P0 registry not identical to precommit plan")
-    if len(new) != 6 or len(items) - len(new) != 65:
+    if len(new) != 6 or len(items) - len(new) != 75:
         raise P0GateError("Replayed/new case count drift")
     # P0-021 is a parent topic with eight individually executed, preregistered
     # tests; no file-name substring count is accepted in lieu of real execution.
@@ -68,14 +68,14 @@ def registry_check(doc: dict):
     expected_call = {"test_" + row["id"] for row in call_plan["cases"]}
     if len(new_call) != 8 or {r["test_method"].split(".", 1)[-1] for r in new_call} != expected_call:
         raise P0GateError("P0-021 test set differs from preregistration")
-    if {x["id"] for x in remaining} != {"P0-027"}:
+    if remaining:
         raise P0GateError("Three newly discovered P0 obligations must remain explicitly open")
     coverage_path = ROOT / "data/grixis/m6/certification_preflight/abaddon_97_card_effect_coverage_20261022.json"
     coverage = json.loads(coverage_path.read_text(encoding="utf-8"))
     if {x["id"] for x in coverage["identified_unresolved"]} != {x["id"] for x in remaining}:
         raise P0GateError("P0 coverage source and registered gaps diverged")
     parent = doc.get("newly_covered_parent_topics", [])
-    if len(parent) != 6 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
+    if len(parent) != 7 or parent[0]["id"] != "P0-021" or set(parent[0]["case_ids"]) != {r["id"] for r in new_call}:
         raise P0GateError("P0-021 grouping/parent receipt incomplete")
     if call_plan["candidate_sha256"] != "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd":
         raise P0GateError("P0-021 preferred whole-deck candidate drift")
@@ -114,7 +114,7 @@ def registry_check(doc: dict):
     if (wild_plan["cost_budget"]["new_registered_methods"]!=8 or
             wild_plan["cost_budget"]["randomized_game_trials"]!=0):
         raise P0GateError("P0-024 stop rule/cost budget changed")
-    if {x["id"] for x in coverage.get("newly_registered_tested_P0",[])} != {"P0-024","P0-025","P0-026"}:
+    if {x["id"] for x in coverage.get("newly_registered_tested_P0",[])} != {"P0-024","P0-025","P0-026","P0-027"}:
         raise P0GateError("97-name matrix does not disclose registered P0-024")
     nalf_plan_path = ROOT / "data/grixis/m6/phase_b_plans/abaddon_p0_nalfeshnee_20261022.json"
     nalf_plan = json.loads(nalf_plan_path.read_text(encoding="utf-8"))
@@ -141,6 +141,20 @@ def registry_check(doc: dict):
     if (arch_plan["cost_budget"]["new_registered_methods"] != 10 or
             arch_plan["cost_budget"]["randomized_trials"] != 0):
         raise P0GateError("P0-026 preregistration scope/cost drift")
+    prosper_plan_path = ROOT / "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    prosper_plan = json.loads(prosper_plan_path.read_text(encoding="utf-8"))
+    prosper_cases = [x for x in items if x["expected_execution"] == "NEW_PROSPER_THIS_PR_CI"]
+    if len(prosper_cases) != 10 or {x["test_method"].split(".",1)[-1] for x in prosper_cases} != {
+            "test_" + x["id"] for x in prosper_plan["registered_cases"]}:
+        raise P0GateError("P0-027 actual Prosper methods diverged from preregistration")
+    if parent[6]["id"] != "P0-027" or set(parent[6]["case_ids"]) != {x["id"] for x in prosper_cases}:
+        raise P0GateError("P0-027 grouped source-bound case receipt incomplete")
+    if prosper_plan["candidate_sha256"] != "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd":
+        raise P0GateError("P0-027 whole-deck physical source hash drift")
+    if prosper_plan["budget"]["registered_methods"] != 10 or prosper_plan["budget"]["random_game_trials"] != 0:
+        raise P0GateError("P0-027 preregistered workload changed")
+    if len(coverage.get("identified_unresolved",[])) != 0:
+        raise P0GateError("Mismatched full 97-name existing P0 audit scope")
     for row in items:
         path = Path(row["test_file"])
         if (path.is_absolute() or ".." in path.parts or

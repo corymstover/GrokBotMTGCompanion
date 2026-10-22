@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_027_PROSPER_EXILE_PLAY_AND_MYSTIC_ARCANUM_PHYSICAL_PREREGISTRATION",
+  "date": "2026-10-22",
+  "parent_integration_head": "5cbe90871828997fbd2c796e8393deb01ea50763",
+  "approved_baseline_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle_sources": {
+    "prosper": "https://mtg.wtf/card/afc/2/Prosper-Tome-Bound",
+    "wizards": "https://media.wizards.com/2021/downloads/AFR_Release_Notes/EN_MTGAFR_ReleaseNotes_07042021.pdf",
+    "lost": "https://mtg.wtf/card/40k/129/The-Lost-and-the-Damned"
+  },
+  "oracle_facts": {
+    "prosper": "{2}{B}{R} deathtouch; at beginning of your end step exile top card of library; until end of your next turn you may PLAY that card; whenever you PLAY a card from exile create a Treasure token.",
+    "important": "PLAY includes actual casting spell from exile and playing land from exile, no extra trigger for spell copies or copies of permanents, and no trigger solely for exiling card. Must obey normal land timing and available land play and pay costs. Card from other exile abilities counts too.",
+    "other": "The Lost and the Damned triggers on actual nonhand SPELL CAST or actual land ETB not from hand; not on playing artifact token or casting copies. Abaddon's hand-only cascade doesn't grant to exile-cast Prosper hit."
+  },
+  "physical": {
+    "whole_source": "99 real physical library/hand/field/exile/graveyard/stack cards + 1 Abaddon commander, 94 distinct names; Treasure token ledger virtual",
+    "call_payment": "3 real Mountain, 3 real Island, 2 real Swamp untapped before {5}{R}{R}{R} hand Call cast; X9 from Loyal prior combat, X0 conditional absence.",
+    "turn_model": "Current active turn T: main phase Call hand cast and cascade; at beginning of this turn's end step Prosper exiles top actual card with permission until end of T+1. Land plays allowed only active-player main phase with stack empty and available land plays; permitted spell cast requires usual card timing/cost."
+  },
+  "registered_cases": [
+    {
+      "id": "prosper_x9_three_cascade_casts",
+      "expected": "With already-controlled Prosper, X9 paid hand Call Forth yields three distinct actual exiled casts Arcane Signet MV2, Sol Ring MV1 and Boltwave MV1; Treasure+3 and Lost+3, no Treasure for source Call hand cast, and exactly three real casts."
+    },
+    {
+      "id": "prosper_boltwave_nalf_virtual_copy",
+      "expected": "Nalfeshnee spell copy of the one real Boltwave exile cast deals additional 3 each opponent, but ONLY one Prosper Treasure for physical Boltwave cast; virtual copies never trigger Pact Boon."
+    },
+    {
+      "id": "prosper_wild_nested_independent_casts",
+      "expected": "Wild-Magic Sorcerer gives first exile-cast Arcane Signet extra cascade hitting Sol Ring, then second printed Call hits Boltwave; two printed + one nested actual casts yield THREE Treasures despite only two outer cascades."
+    },
+    {
+      "id": "prosper_entering_from_first_cascade",
+      "expected": "Prosper itself is the first spell cast from exile; no self-Pact-Boon Treasure from this cast (not on battlefield yet); subsequent Sol Ring from another printed cascade triggers one Treasure."
+    },
+    {
+      "id": "prosper_removed_after_first_cast",
+      "expected": "First exiled Arcane Signet cast triggers Prosper Treasure, opponent removes Prosper before resolving trigger, first Treasure still created; next exiled Boltwave cast yields no Prosper trigger."
+    },
+    {
+      "id": "prosper_drannith_or_rule_of_law",
+      "expected": "After Call hand cast, Drannith Magistrate or Rule of Law prevents exiled cascade spells; printed and granted triggers still reveal physically, but no treasure and no nonhand cast."
+    },
+    {
+      "id": "prosper_end_step_exile_land_then_next_main_play",
+      "expected": "Mystic Arcanum physically exiles top Swamp at end step of T, cannot play a land during this end step. Next own main phase with unused land drop, physically play from exile: Prosper Treasure1, Lost Spawn1, no spell cast, no Archaeologist/Nalf/Keeper; card remains real battlefield land."
+    },
+    {
+      "id": "prosper_end_step_exile_sorcery_paid_next_main",
+      "expected": "Mystic exiles physical Boltwave at end step T; cannot cast as sorcery in end step. Next own main, pay {R} from real untapped Mountain, cast from exile: Prosper Treasure1, Lost Spawn1 and (commander+Background if present) a targeted Archaeologist MV1 trigger; no extra Abaddon hand cascade."
+    },
+    {
+      "id": "prosper_expired_permission_unplayed",
+      "expected": "Exiled card from Mystic remains physically in exile when not played through the end of next turn; granted permission expires, and this effect cannot play card after T+1. No Treasure merely on exile/expiration."
+    },
+    {
+      "id": "prosper_land_timing_and_land_drop_restrictions",
+      "expected": "A physically Mystic-exiled Swamp cannot be played from exile on opponent turn, during current end step, with pending stack objects, or after land drop consumed, even while permission active; zero Treasures and no Lost token."
+    }
+  ],
+  "budget": {
+    "registered_methods": 10,
+    "random_game_trials": 0,
+    "full_decks": 1
+  },
+  "limitations": [
+    "Prearranged actual library top sequence demonstrates conditional legal card access, not hit probability or win rate.",
+    "Treasure/Spawn tokens are virtual objects not physical original 99 cards; creating them does not cast/play cards.",
+    "This closes the currently named P0 inventory ONLY after exact-head CI, not complete independent 99-card effect proof or M6 I/J certification.",
+    "Historical GPT-6 Pass C remains owner-waived nonindependent; current M7 proposed deck is still unapproved and canonical 62 locked lists unchanged."
+  ],
+  "authority": {
+    "m6_6": "PARTIAL",
+    "m6_7": "PARTIAL",
+    "m6_I": "BLOCKED",
+    "m6_J": "BLOCKED",
+    "m7_new_approvals": 0
+  }
+}

@@ -17,8 +17,8 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 71,
-    "required_unexecuted_cases": 1,
+    "registered_replay_cases": 81,
+    "required_unexecuted_cases": 0,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
     "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS.",
@@ -26,7 +26,8 @@
     "note_whole_deck": "2026-10-22 full 97-name source inventory exposed P0-024 through P0-027. Previous 44 successes continue to pass; zero open result from PR #550 was accurate only for previous inventory.",
     "note_p0_024": "Eight source-paid Wild-Magic Sorcerer scenarios registered after source-audited rules review; their execution requires exact-head Actions CI, not metadata.",
     "note_p0_025": "Nine preregistered source-paid Nalfeshnee permanent-copy, sorcery-copy and Wild-Magic cascade cases added for exact-head CI; registration alone is not test PASS.",
-    "note_p0_026": "Ten preregistered source-paid Passionate Archaeologist cases attached to exact 100 list; registration is not test PASS until exact-head CI."
+    "note_p0_026": "Ten preregistered source-paid Passionate Archaeologist cases attached to exact 100 list; registration is not test PASS until exact-head CI.",
+    "note_p0_027": "P0-027 final currently known mandatory P0 class moved to TEN preregistered actual methods. Zero open means the 97-name explicitly scoped audit inventory, not exhaustive Magic gameplay verification. M6.6 still PARTIAL."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -674,17 +675,99 @@
       "expected_execution": "NEW_ARCHAEOLOGIST_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_archaeologist_20261022.json"
-    }
-  ],
-  "required_open": [
+    },
     {
-      "id": "P0-027",
-      "topic": "Prosper, Tome-Bound — Creating Treasure by *playing* from exile, including casting from cascade; distinction cast v play and land permissions (end step exiled card) and one trigger per played card.",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "New whole-deck 97-name coverage audit located material commander-critical effect not demonstrated by the previous 44 named cases.",
-      "source": "https://mtg.wtf/card/afc/2/Prosper-Tome-Bound"
+      "id": "P0-027a",
+      "mechanic": "With already-controlled Prosper, X9 paid hand Call Forth yields three distinct actual exiled casts Arcane Signet MV2, Sol Ring MV1 and Boltwave MV1; Treasure+3 and Lost+3, no Treasure for source Call hand cast, and exactly three real casts.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_x9_three_cascade_casts",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027b",
+      "mechanic": "Nalfeshnee spell copy of the one real Boltwave exile cast deals additional 3 each opponent, but ONLY one Prosper Treasure for physical Boltwave cast; virtual copies never trigger Pact Boon.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_boltwave_nalf_virtual_copy",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027c",
+      "mechanic": "Wild-Magic Sorcerer gives first exile-cast Arcane Signet extra cascade hitting Sol Ring, then second printed Call hits Boltwave; two printed + one nested actual casts yield THREE Treasures despite only two outer cascades.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_wild_nested_independent_casts",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027d",
+      "mechanic": "Prosper itself is the first spell cast from exile; no self-Pact-Boon Treasure from this cast (not on battlefield yet); subsequent Sol Ring from another printed cascade triggers one Treasure.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_entering_from_first_cascade",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027e",
+      "mechanic": "First exiled Arcane Signet cast triggers Prosper Treasure, opponent removes Prosper before resolving trigger, first Treasure still created; next exiled Boltwave cast yields no Prosper trigger.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_removed_after_first_cast",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027f",
+      "mechanic": "After Call hand cast, Drannith Magistrate or Rule of Law prevents exiled cascade spells; printed and granted triggers still reveal physically, but no treasure and no nonhand cast.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_drannith_or_rule_of_law",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027g",
+      "mechanic": "Mystic Arcanum physically exiles top Swamp at end step of T, cannot play a land during this end step. Next own main phase with unused land drop, physically play from exile: Prosper Treasure1, Lost Spawn1, no spell cast, no Archaeologist/Nalf/Keeper; card remains real battlefield land.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_end_step_exile_land_then_next_main_play",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027h",
+      "mechanic": "Mystic exiles physical Boltwave at end step T; cannot cast as sorcery in end step. Next own main, pay {R} from real untapped Mountain, cast from exile: Prosper Treasure1, Lost Spawn1 and (commander+Background if present) a targeted Archaeologist MV1 trigger; no extra Abaddon hand cascade.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_end_step_exile_sorcery_paid_next_main",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027i",
+      "mechanic": "Exiled card from Mystic remains physically in exile when not played through the end of next turn; granted permission expires, and this effect cannot play card after T+1. No Treasure merely on exile/expiration.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_expired_permission_unplayed",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
+    },
+    {
+      "id": "P0-027j",
+      "mechanic": "A physically Mystic-exiled Swamp cannot be played from exile on opponent turn, during current end step, with pending stack objects, or after land drop consumed, even while permission active; zero Treasures and no Lost token.",
+      "test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "test_method": "AbaddonProsperP0027.test_prosper_land_timing_and_land_drop_restrictions",
+      "expected_execution": "NEW_PROSPER_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json"
     }
   ],
+  "required_open": [],
   "p1_deferred": [
     {
       "topic": "Empirical table/opponent creature-library distribution for Betrayal theft value",
@@ -699,8 +782,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Run 71 exact P0 case methods including 10 Archaeologist tests. P0-027 Prosper remains required; M6.6/7 partial, M6 I/J blocked.",
-  "test_receipt_status": "AWAITING_EXACT_HEAD_CI_P0_026",
+  "next_action": "Execute 81 exact named source-bound P0 methods on final PR head; then independent 97-name effect-coverage completeness reassessment and M6.7 comparative judgment; do not claim automatic M6.6, I/J certification or M7 approval.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_81_CASES_CI_P0_027",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -795,7 +878,24 @@
         "P0-026i",
         "P0-026j"
       ]
+    },
+    {
+      "id": "P0-027",
+      "status": "REGISTERED_FOR_EXACT_HEAD_CI_NOT_CERTIFIED",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_prosper_20261022.json",
+      "case_ids": [
+        "P0-027a",
+        "P0-027b",
+        "P0-027c",
+        "P0-027d",
+        "P0-027e",
+        "P0-027f",
+        "P0-027g",
+        "P0-027h",
+        "P0-027i",
+        "P0-027j"
+      ]
     }
   ],
-  "known_p0_inventory_replay_ready": false
+  "known_p0_inventory_replay_ready": true
 }
