@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "type": "COMMANDER_EFFECT_PREIMPLEMENTATION_CASES",
+  "deck_id": "Gwendlyn_Di_Corci",
+  "order": 24,
+  "commanders": [
+    "Gwendlyn Di Corci"
+  ],
+  "strategy": {
+    "primary": "Make Gwendlyn a repeatable random-discard engine: haste her, then untap her (Pemmin's Aura, Minamo, Magewright's Stone, Patriar's Seal) and copy her ability (Illusionist's Bracers) to strip hands while discard punishers (Waste Not, Liliana's Caress, Geth's Grimoire, Tinybones) pay off.",
+    "secondary": "Wheels refill opposing hands to strip again and punish draws (Sheoldred, Bowmasters, Underworld Dreams); Chains, Notion Thief and Opposition Agent deny resources; Breach + LED + Wheel of Fortune as a compact finish."
+  },
+  "commander_oracle_snapshots": [
+    {
+      "name": "Gwendlyn Di Corci",
+      "oracle_id": "de44e7c8-01f9-44f9-9716-9e8a5b82b1ff",
+      "oracle_text": "{T}: Target player discards a card at random. Activate only during your turn.",
+      "oracle_sha256": "sha256:a6cb43974d127c10c33d19d96022fd3a7953044bd3302d279e4926c478b83611",
+      "type_line": "Legendary Creature — Human Rogue"
+    }
+  ],
+  "identity": [
+    {
+      "card": "Gwendlyn Di Corci",
+      "why": "Repeatable random discard on your turn.",
+      "evidence_class": "fact",
+      "confidence": "verified",
+      "evidence": [
+        "oracle:Gwendlyn Di Corci"
+      ]
+    },
+    {
+      "card": "Illusionist's Bracers",
+      "why": "Copies each activation: two discards per tap.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:gwendlyn-di-corci#gwendlyn-02"
+      ]
+    },
+    {
+      "card": "Pemmin's Aura",
+      "why": "Untap per blue mana, plus shroud.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:gwendlyn-di-corci#gwendlyn-03"
+      ]
+    },
+    {
+      "card": "Waste Not",
+      "why": "Turns every discard into mana, Zombies or cards.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "high",
+      "evidence": [
+        "interaction:gwendlyn-di-corci#gwendlyn-05"
+      ]
+    },
+    {
+      "card": "Mind Twist",
+      "why": "Scalable random discard that mirrors the commander.",
+      "evidence_class": "strategic_judgment",
+      "confidence": "moderate",
+      "evidence": [
+        "source_archive:refinement/decisions/Gwendlyn_Di_Corci_Current_Cycle_Decisions_2026-10-14.md"
+      ]
+    }
+  ],
+  "exceptions": {
+    "value": [],
+    "evidence_class": "fact",
+    "confidence": "verified",
+    "evidence": [
+      "registry:data/grixis/exceptions.json"
+    ]
+  },
+  "source_provenance": {
+    "blueprint": "data/grixis/blueprints/gwendlyn-di-corci.json",
+    "blueprint_blob": "dd708e3e734f8af87657b3d329d0ffdc1694ef62",
+    "canonical_source_path": "refinement/decklists/Gwendlyn_Di_Corci_Approved_2026-10-14.txt",
+    "canonical_source_blob": "4ef2c267314322be9793a1e5490613b98520a24e",
+    "canonical_approved_sha256": "9a393cb7edf40f9bfb388d37dd657839cad851dc6a021440c7d1b239c1fd20a9",
+    "canonical_record_key": "Gwendlyn_Di_Corci",
+    "registry_raw_matches": true,
+    "source_card_lines": 94,
+    "source_baseline_count_needs_reconciliation": true,
+    "alias_differs": false
+  },
+  "cases": [
+    {
+      "id": "C1",
+      "priority": "P0",
+      "contract": "C",
+      "source": "blueprint:gwendlyn-di-corci#commanders.value[0]",
+      "scenario": "Gwendlyn Di Corci",
+      "expected_claim_to_verify": "{T}: Target player discards a card at random. Activate only during your turn.",
+      "cards": [
+        "Gwendlyn Di Corci"
+      ],
+      "found_in_source_export": [
+        "Gwendlyn Di Corci"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Commander in legal and invalid zone/timing; actual cost, ability frequency, triggers and control.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K1",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:gwendlyn-di-corci#key_interactions[0]",
+      "scenario": "your-turn-sick",
+      "expected_claim_to_verify": "Her tap ability is your turn only and needs haste the turn she lands.",
+      "cards": [
+        "Gwendlyn Di Corci",
+        "Lightning Greaves",
+        "Thousand-Year Elixir"
+      ],
+      "found_in_source_export": [
+        "Gwendlyn Di Corci",
+        "Lightning Greaves",
+        "Thousand-Year Elixir"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K2",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:gwendlyn-di-corci#key_interactions[1]",
+      "scenario": "shroud-untappers",
+      "expected_claim_to_verify": "Shroud on Gwendlyn blocks Minamo, Stone, Seal and Bracers' equip, but not Pemmin's own untap.",
+      "cards": [
+        "Lightning Greaves",
+        "Pemmin's Aura",
+        "Minamo, School at Water's Edge"
+      ],
+      "found_in_source_export": [
+        "Lightning Greaves",
+        "Pemmin's Aura",
+        "Minamo, School at Water's Edge"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K3",
+      "priority": "P0",
+      "contract": "K",
+      "source": "blueprint:gwendlyn-di-corci#key_interactions[2]",
+      "scenario": "per-card-vs-event",
+      "expected_claim_to_verify": "Caress and Grimoire trigger per card; Tinybones once per discard event.",
+      "cards": [
+        "Liliana's Caress",
+        "Geth's Grimoire",
+        "Tinybones, Pocket Nuisance"
+      ],
+      "found_in_source_export": [
+        "Liliana's Caress",
+        "Geth's Grimoire",
+        "Tinybones, Pocket Nuisance"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K4",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:gwendlyn-di-corci#key_interactions[3]",
+      "scenario": "chains-wheels",
+      "expected_claim_to_verify": "Chains turns wheel draws after an empty hand into mills, for you too.",
+      "cards": [
+        "Chains of Mephistopheles",
+        "Wheel of Fortune"
+      ],
+      "found_in_source_export": [
+        "Chains of Mephistopheles",
+        "Wheel of Fortune"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "K5",
+      "priority": "P1",
+      "contract": "K",
+      "source": "blueprint:gwendlyn-di-corci#key_interactions[4]",
+      "scenario": "no-mindcrank",
+      "expected_claim_to_verify": "Bloodchief Ascension has no Mindcrank loop in this list.",
+      "cards": [
+        "Bloodchief Ascension"
+      ],
+      "found_in_source_export": [
+        "Bloodchief Ascension"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Stage named source cards, trigger/resolution and source condition; adversarially remove prerequisite or response window.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E1",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:gwendlyn-di-corci#engines[0]",
+      "scenario": "untap-discard",
+      "expected_claim_to_verify": "Gwendlyn untapped, not summoning sick, on your turn.",
+      "cards": [
+        "Gwendlyn Di Corci",
+        "Illusionist's Bracers",
+        "Pemmin's Aura",
+        "Minamo, School at Water's Edge",
+        "Magewright's Stone",
+        "Patriar's Seal",
+        "Thousand-Year Elixir"
+      ],
+      "found_in_source_export": [
+        "Gwendlyn Di Corci",
+        "Illusionist's Bracers",
+        "Pemmin's Aura",
+        "Minamo, School at Water's Edge",
+        "Magewright's Stone",
+        "Patriar's Seal",
+        "Thousand-Year Elixir"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "E2",
+      "priority": "P1",
+      "contract": "E",
+      "source": "blueprint:gwendlyn-di-corci#engines[1]",
+      "scenario": "discard-payoffs",
+      "expected_claim_to_verify": "Opponents discard.",
+      "cards": [
+        "Waste Not",
+        "Liliana's Caress",
+        "Geth's Grimoire",
+        "Tinybones, Pocket Nuisance",
+        "Tinybones, Bauble Burglar",
+        "Tinybones, Trinket Thief",
+        "Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "found_in_source_export": [
+        "Waste Not",
+        "Liliana's Caress",
+        "Geth's Grimoire",
+        "Tinybones, Pocket Nuisance",
+        "Tinybones, Bauble Burglar",
+        "Tinybones, Trinket Thief",
+        "Tergrid, God of Fright // Tergrid's Lantern"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Pay setup costs and trace first and second repetition; reject illegal reuse or phantom resource.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W1",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:gwendlyn-di-corci#win_conditions[0]",
+      "scenario": "punisher-wheels",
+      "expected_claim_to_verify": "Wheels and repeated discards trigger Waste Not, Caress, Tinybones, Sheoldred, Bowmasters and Underworld Dreams.",
+      "cards": [
+        "Wheel of Fortune",
+        "Windfall",
+        "Timetwister",
+        "Waste Not",
+        "Liliana's Caress",
+        "Sheoldred, the Apocalypse",
+        "Underworld Dreams",
+        "Tinybones, Bauble Burglar",
+        "Gwendlyn Di Corci"
+      ],
+      "found_in_source_export": [
+        "Wheel of Fortune",
+        "Windfall",
+        "Timetwister",
+        "Waste Not",
+        "Liliana's Caress",
+        "Sheoldred, the Apocalypse",
+        "Underworld Dreams",
+        "Tinybones, Bauble Burglar",
+        "Gwendlyn Di Corci"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W2",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:gwendlyn-di-corci#win_conditions[1]",
+      "scenario": "breach-led-wheel",
+      "expected_claim_to_verify": "Underworld Breach + Lion's Eye Diamond + Wheel of Fortune.",
+      "cards": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Wheel of Fortune"
+      ],
+      "found_in_source_export": [
+        "Underworld Breach",
+        "Lion's Eye Diamond",
+        "Wheel of Fortune"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "W3",
+      "priority": "P1",
+      "contract": "W",
+      "source": "blueprint:gwendlyn-di-corci#win_conditions[2]",
+      "scenario": "empty-hand-lock",
+      "expected_claim_to_verify": "Hellbent opponents locked by Oppression, Bottomless Pit and Chains lose to any pressure.",
+      "cards": [
+        "Oppression",
+        "Bottomless Pit",
+        "Chains of Mephistopheles",
+        "Notion Thief",
+        "Gwendlyn Di Corci"
+      ],
+      "found_in_source_export": [
+        "Oppression",
+        "Bottomless Pit",
+        "Chains of Mephistopheles",
+        "Notion Thief",
+        "Gwendlyn Di Corci"
+      ],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Produce finite action/stack trace and actual life/board result; prove loop if claimed infinite, then negate one component.",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F1",
+      "priority": "P0",
+      "contract": "F",
+      "source": "blueprint:gwendlyn-di-corci#failure_modes[0]",
+      "scenario": "slow-engine",
+      "expected_claim_to_verify": "One random discard per tap is slow without untappers.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Untap package; Wheels and punishers",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F2",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:gwendlyn-di-corci#failure_modes[1]",
+      "scenario": "chains-self",
+      "expected_claim_to_verify": "Chains mills you on your own wheels.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Sequence wheels with Chains off",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    },
+    {
+      "id": "F3",
+      "priority": "P1",
+      "contract": "F",
+      "source": "blueprint:gwendlyn-di-corci#failure_modes[2]",
+      "scenario": "empty-hands",
+      "expected_claim_to_verify": "Opponents empty their hands fast, leaving Gwendlyn nothing to hit.",
+      "cards": [],
+      "found_in_source_export": [],
+      "not_proven_in_source_export": [],
+      "fixture_preparation": "Construct conditional enemy disruption, then actually test mitigation: Wheels refill; Oppression/Bottomless Pit lock",
+      "required_checks": [
+        "Fresh current Oracle + specific project exception",
+        "Source-paid costs, valid priority stack targets and controllers",
+        "Normal outcome plus adversarial negated precondition",
+        "Conserved card-object identities and zones",
+        "No unsupported wins or power uplift"
+      ],
+      "status": "DESIGN_ONLY_UNIMPLEMENTED_NOT_RUN",
+      "result": null
+    }
+  ],
+  "total_cases": 14,
+  "P0": 5,
+  "shared_foundations": [
+    "physical-zones",
+    "transactional-stack",
+    "model-coverage"
+  ],
+  "must_not_claim": {
+    "execution": false,
+    "test_passes": 0,
+    "effect_adapter_implemented": false,
+    "deck_certified": false,
+    "owner_approved_new_swaps": false
+  },
+  "status": "SPECS_ONLY_NEVER_EXECUTED"
+}
