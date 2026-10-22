@@ -17,13 +17,14 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 44,
-    "required_unexecuted_cases": 4,
+    "registered_replay_cases": 52,
+    "required_unexecuted_cases": 3,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
     "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS.",
     "note_p0_023": "Last currently known mandatory P0 topic promoted to nine individually executable bounded tests, only CI actual pass can close known-case replay. No M6.6 formal certificate yet.",
-    "note_whole_deck": "2026-10-22 full 97-name source inventory exposed P0-024 through P0-027. Previous 44 successes continue to pass; zero open result from PR #550 was accurate only for previous inventory."
+    "note_whole_deck": "2026-10-22 full 97-name source inventory exposed P0-024 through P0-027. Previous 44 successes continue to pass; zero open result from PR #550 was accurate only for previous inventory.",
+    "note_p0_024": "Eight source-paid Wild-Magic Sorcerer scenarios registered after source-audited rules review; their execution requires exact-head Actions CI, not metadata."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -428,16 +429,81 @@
       "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-024a",
+      "mechanic": "X9 hand Call has 3 outer cascade triggers; first actual exile-cast Arcane Signet MV2 gets Wild cascade, physically hit Sol Ring MV1; later Talisman MV2 and Lotus Petal MV0 are casts without extra Wild cascades. Four exiled spells actually cast, four Lost Spawns, Call sweeper total MV5.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_x9_first_nested_three_printed",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024b",
+      "mechanic": "X0 hand Call has only two printed cascades, first exile-cast Arcane Signet gets nested Sol Ring, second printed gets Talisman, no third Abaddon trigger. Three exile casts and 3 Lost Spawns, Call sweep MV5.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_x0_printed_nested_only",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024c",
+      "mechanic": "First exile-cast Lotus Petal MV0 legally gains cascade but nested ability has no eligible lower-MV nonland; physical full remaining library is moved to exile then bottomed in a legally possible permutation, not a fabricated second cast.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_first_mv0_zero_eligible",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024d",
+      "mechanic": "Wild-Magic Sorcerer itself first cast from exile with no sorcerer yet controlled, enters, then next actual exile-cast Arcane Signet DOES NOT gain cascade retroactively; two printed Call casts only.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_arrives_after_first_exile_cast",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024e",
+      "mechanic": "Opponent removes Wild-Magic Sorcerer after first exile spell cast and its new cascade has triggered; pending nested cascade still resolves and later exile-casts do not gain Wild cascade.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_removed_after_granted_cascade",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024f",
+      "mechanic": "Opponent counters original hand-cast Call after its on-cast triggers exist; independent printed/granted and nested cascade triggers resolve; Call does not sweep opposing creatures.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_countered_original_call",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024g",
+      "mechanic": "In separate subfixtures, Drannith or Rule of Law prevents all free exile casts from a source-paid Call; printed and granted cascade abilities still exile/bottom cards; none acquires or triggers a Wild cascade and Lost stays at zero.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_drannith_and_rule_of_law",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
+    },
+    {
+      "id": "P0-024h",
+      "mechanic": "Opponent counters first Arcane Signet exile-cast after its granted cascade has triggered but before nested resolves; nested Sol Ring still cast, later printed hits allowed, physical Arcane moves graveyard.",
+      "test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "test_method": "AbaddonWildMagicP0024.test_wild_countered_first_exile_spell",
+      "expected_execution": "NEW_WILD_MAGIC_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json"
     }
   ],
   "required_open": [
-    {
-      "id": "P0-024",
-      "topic": "Wild-Magic Sorcerer — First exile-cast spell each turn gains cascade, including nested cascade; later exile casts and post-cast control changes must not retroactively add it.",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "New whole-deck 97-name coverage audit located material commander-critical effect not demonstrated by the previous 44 named cases.",
-      "source": "https://media.wizards.com/2021/downloads/AFR_Release_Notes/EN_MTGAFR_ReleaseNotes_07042021.pdf"
-    },
     {
       "id": "P0-025",
       "topic": "Nalfeshnee — Nonhand spell cast creates a virtual copy (permanent or nonpermanent), which is not itself cast; ordering with cascade and triggers and end-step sacrifice for permanent copy.",
@@ -474,8 +540,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Preregister source-paid physical stack cases for Wild-Magic Sorcerer, Nalfeshnee, Passionate Archaeologist and Prosper, then execute; do not claim M6.6 mechanical completeness or M6 I/J.",
-  "test_receipt_status": "44_REGISTERED_REPLAY_PASSES_WHILE_FOUR_NEW_P0_PENDING",
+  "next_action": "Execute 52 specifically identified P0 test methods with eight Wild-Magic cases; then preregister P0-025 Nalfeshnee, P0-026 Passionate Archaeologist and P0-027 Prosper. M6.6 PARTIAL; M6 I/J blocked.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_024",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -521,6 +587,21 @@
         "P0-023g",
         "P0-023h",
         "P0-023i"
+      ]
+    },
+    {
+      "id": "P0-024",
+      "status": "REGISTERED_FOR_EXECUTION_NOT_FORMAL_CERTIFICATION",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_wild_magic_20261022.json",
+      "case_ids": [
+        "P0-024a",
+        "P0-024b",
+        "P0-024c",
+        "P0-024d",
+        "P0-024e",
+        "P0-024f",
+        "P0-024g",
+        "P0-024h"
       ]
     }
   ],
