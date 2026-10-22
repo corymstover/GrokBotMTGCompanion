@@ -17,11 +17,12 @@
   },
   "test_boundedness": {
     "randomized_trajectories_this_action": 0,
-    "registered_replay_cases": 35,
-    "required_unexecuted_cases": 1,
+    "registered_replay_cases": 44,
+    "required_unexecuted_cases": 0,
     "coverage_definition": "Finite Abaddon-specific P0 cases known to be mechanically decision-relevant; exhaustive 99-card effect model NOT claimed. Tests map to exact names and are reexecuted by CI, not accepted on metadata alone.",
     "note_p0_021": "P0-021 promoted to 8 registered executable subcases; not treated as PASS until all eight execute in exact-head CI.",
-    "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS."
+    "note_p0_022": "P0-022 promoted to seven executable exact-card suspend cases. CI must execute them; preregistration alone is not PASS.",
+    "note_p0_023": "Last currently known mandatory P0 topic promoted to nine individually executable bounded tests, only CI actual pass can close known-case replay. No M6.6 formal certificate yet."
   },
   "source_evidence": [
     "grixis/Grixis M6 I-J Contract.md",
@@ -344,16 +345,90 @@
       "expected_execution": "NEW_BETRAYAL_SUSPEND_THIS_PR_CI",
       "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
       "source": "data/grixis/m6/phase_b_plans/abaddon_p0_betrayal_suspend_20261022.json"
-    }
-  ],
-  "required_open": [
+    },
     {
-      "id": "P0-023",
-      "topic": "Breach + LED + Brain Freeze backup combo with exact priority, graveyard, escaping costs, storm and opponent interaction",
-      "status": "REQUIRED_UNEXECUTED",
-      "reason": "Old source includes the backup but neither the current 20-case replay nor published bounded snippets establishes a full rules-payable, graveyard-conserving finite trace of this win; avoid claiming it verified."
+      "id": "P0-023a",
+      "mechanic": "Paid Breach plus two genuinely escaped LED/Brain Freeze iterations: 5 casts, storm 2 then 4 copies, self-mill physical 6 cards, opponent requested mill 18, 12 exact physical escape-fodder cards exiled, mana pool net +2 U and actual 99 names conserved; conditional not unbounded.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_two_cycles_source_paid",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023b",
+      "mechanic": "After four escape casts exactly 12 OTHER physical cards exiled, never the escaped card itself, LED/Brain Freeze remain graveyard after their respective resolution, valid self-milled cards may become later fodder.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_exile_three_other_each_cast",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023c",
+      "mechanic": "LED cannot legally escape with fewer than three OTHER graveyard cards even when its mana cost is 0; do not conjure cards or implicitly pay later.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_insufficient_escape_fodder",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023d",
+      "mechanic": "LED activation discards every physically sourced hand card, creates UUU as mana ability (no stack), and cannot be used retroactively to pay the already performed Breach-from-hand casting cost.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_led_discards_hand_on_activation",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023e",
+      "mechanic": "If LED adds RRR and no separate U is available, Brain Freeze escape fails its {1}{U} mana portion despite adequate graveyard fodder.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_no_blue_mana_cannot_cast_freeze",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023f",
+      "mechanic": "With Rule of Law, Breach cast from hand is spell one; no further escaped LED/Brain Freeze spell cast allowed this turn.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_rule_of_law_after_breach",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023g",
+      "mechanic": "Opponent-controlled Drannith Magistrate prevents casting escape spells from graveyard, even with Breach present and mana/fodder.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_drannith_graveyard_cast_forbidden",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023h",
+      "mechanic": "LED activation grants UUU immediately (no stack), but opponent removing Breach before next spell cast revokes escape permission; mana remains floating until used/phase ends. No automatic response to LED mana ability itself.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_removal_response_window",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
+    },
+    {
+      "id": "P0-023i",
+      "mechanic": "Countering original escaped Brain Freeze after storm trigger has resolved does not counter already-created spell copies; their separately targeted mill still resolves, original remains in graveyard, copied spells are not cast.",
+      "test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "test_method": "AbaddonBreachLEDFreezeP0023.test_breach_countered_brain_freeze_storm_survives",
+      "expected_execution": "NEW_BREACH_LED_FREEZE_THIS_PR_CI",
+      "prior_evidence": "PREREGISTERED_NOT_PREVIOUSLY_EXECUTED",
+      "source": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json"
     }
   ],
+  "required_open": [],
   "p1_deferred": [
     {
       "topic": "Empirical table/opponent creature-library distribution for Betrayal theft value",
@@ -368,8 +443,8 @@
       "reason": "Not a mandatory source-supported P0 contract; existing bounded traces cannot imply all abilities or wins."
     }
   ],
-  "next_action": "Replay 35 actual P0 methods with new seven-case suspend source. P0-023 Breach/LED/Brain Freeze remains required; no M6 I/J acceptance until all obligations truly verified.",
-  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_022",
+  "next_action": "Execute actual 44 named cases in final-head CI; then audit completeness of M6.6 P0 inventory against standard, identify any gaps, and prepare M6 I/J only if eligible; do not infer formal certification from 0 listed open.",
+  "test_receipt_status": "WAITING_FOR_EXACT_HEAD_GITHUB_ACTIONS_P0_023",
   "completion_claim": false,
   "newly_covered_parent_topics": [
     {
@@ -400,6 +475,23 @@
         "P0-022f",
         "P0-022g"
       ]
+    },
+    {
+      "id": "P0-023",
+      "status": "REGISTERED_FOR_EXECUTION_NOT_YET_FORMALLY_CERTIFIED",
+      "plan_path": "data/grixis/m6/phase_b_plans/abaddon_p0_breach_led_freeze_20261022.json",
+      "case_ids": [
+        "P0-023a",
+        "P0-023b",
+        "P0-023c",
+        "P0-023d",
+        "P0-023e",
+        "P0-023f",
+        "P0-023g",
+        "P0-023h",
+        "P0-023i"
+      ]
     }
-  ]
+  ],
+  "known_p0_inventory_replay_ready": true
 }

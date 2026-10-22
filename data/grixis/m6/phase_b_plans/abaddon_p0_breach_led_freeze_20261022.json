@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "kind": "ABADDON_P0_023_BREACH_LED_BRAIN_FREEZE_PHYSICAL_PREREGISTRATION",
+  "date": "2026-10-22",
+  "parent_integration_sha": "92666691a2896062c1571e38262cbf3adcabd770",
+  "deck_id": "Abaddon_the_Despoiler",
+  "approved_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "candidate_source": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+  "candidate_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+  "oracle_sources": {
+    "Underworld Breach": "https://mtg.wtf/card/spg/9/Underworld-Breach",
+    "Lion's Eye Diamond": "https://mtg.wtf/card/mir/307/Lions-Eye-Diamond",
+    "Brain Freeze": "https://mtg.wtf/card/scg/29/Brain-Freeze",
+    "Official LED-like mana ability": "https://media.wizards.com/2021/downloads/MH2_Release_Notes/EN_MTGMH2_FAQ_06022021.pdf"
+  },
+  "verified_card_facts": {
+    "breach": "{1}{R}, each nonland card in graveyard has escape with its mana cost + exile three OTHER graveyard cards; end-step sacrifice",
+    "led": "{0} artifact; activate only any time you could cast instant, discard your hand and sacrifice to add 3 of one chosen color; mana ability no stack; CANNOT use LED while in process of casting Breach from hand",
+    "brain_freeze": "{1}{U} instant, target player mills 3; storm copies for EACH spell previously CAST this turn, copies are not cast and do not add new storm count"
+  },
+  "physical_preconditions": {
+    "source": "99 actual card-name physical library, commander excluded, no invented own cards",
+    "setup": "Source-pay Breach from hand using existing named Mountain for red and Island for one generic in same main phase; count that cast toward storm. Breach remains on battlefield. LED and Brain Freeze are physically located in graveyard, with 12 distinct additional actual nonland spells in graveyard; two actual cards in hand for LED to discard. Conditional prepared state is NOT representative of random draw access.",
+    "payment": "Each escaped LED costs {0} + 3 OTHER cards exiled; resolving LED is sacrificed as no-stack mana ability to add {U}{U}{U} and discard hand; escaped Brain Freeze costs {1}{U} (two U from pool) + 3 OTHER cards exiled, leaving one additional U per cycle",
+    "storm": "Breach cast first, then LED, then Brain Freeze; first Brain Freeze has two previous actual casts (Breach and LED), hence 2 storm copies + original. Next LED and Brain Freeze makes 4 previous casts, hence 4 copies + original. Targets may be divided between self and opponent; copies are NOT new casts.",
+    "zones": "Source 99-card multiset conserved across library/hand/field/graveyard/stack/exile; activated LED and nonpermanent Brain Freeze return to graveyard, exiled escape fodder stays exiled, tokens/copies are virtual not 99 cards."
+  },
+  "registered_cases": [
+    {
+      "id": "breach_two_cycles_source_paid",
+      "expected": "Paid Breach plus two genuinely escaped LED/Brain Freeze iterations: 5 casts, storm 2 then 4 copies, self-mill physical 6 cards, opponent requested mill 18, 12 exact physical escape-fodder cards exiled, mana pool net +2 U and actual 99 names conserved; conditional not unbounded."
+    },
+    {
+      "id": "breach_exile_three_other_each_cast",
+      "expected": "After four escape casts exactly 12 OTHER physical cards exiled, never the escaped card itself, LED/Brain Freeze remain graveyard after their respective resolution, valid self-milled cards may become later fodder."
+    },
+    {
+      "id": "breach_insufficient_escape_fodder",
+      "expected": "LED cannot legally escape with fewer than three OTHER graveyard cards even when its mana cost is 0; do not conjure cards or implicitly pay later."
+    },
+    {
+      "id": "breach_led_discards_hand_on_activation",
+      "expected": "LED activation discards every physically sourced hand card, creates UUU as mana ability (no stack), and cannot be used retroactively to pay the already performed Breach-from-hand casting cost."
+    },
+    {
+      "id": "breach_no_blue_mana_cannot_cast_freeze",
+      "expected": "If LED adds RRR and no separate U is available, Brain Freeze escape fails its {1}{U} mana portion despite adequate graveyard fodder."
+    },
+    {
+      "id": "breach_rule_of_law_after_breach",
+      "expected": "With Rule of Law, Breach cast from hand is spell one; no further escaped LED/Brain Freeze spell cast allowed this turn."
+    },
+    {
+      "id": "breach_drannith_graveyard_cast_forbidden",
+      "expected": "Opponent-controlled Drannith Magistrate prevents casting escape spells from graveyard, even with Breach present and mana/fodder."
+    },
+    {
+      "id": "breach_removal_response_window",
+      "expected": "LED activation grants UUU immediately (no stack), but opponent removing Breach before next spell cast revokes escape permission; mana remains floating until used/phase ends. No automatic response to LED mana ability itself."
+    },
+    {
+      "id": "breach_countered_brain_freeze_storm_survives",
+      "expected": "Countering original escaped Brain Freeze after storm trigger has resolved does not counter already-created spell copies; their separately targeted mill still resolves, original remains in graveyard, copied spells are not cast."
+    }
+  ],
+  "cost_budget": {
+    "registered_tests": 9,
+    "randomized_gameplay_trajectories": 0,
+    "physical_decks": 1,
+    "cycles_in_success_case": 2
+  },
+  "truth_limits": [
+    "A fixed physical source/hand/graveyard is an attainable conditional setup, not a measured opening frequency.",
+    "Two cycles prove bounded mana/escape/storm mechanics, NOT an infinite loop or mill-the-table win.",
+    "Opponent library names and counters not simulated; mill amounts are REQUESTED, actual cards milled capped by opponent library.",
+    "Do not claim unrestricted escape without source-graveyard fodder or legal priority.",
+    "M6.6 inventory can have zero identified P0 remaining after 9 pass, but formal M6 completion and I/J require a separate comprehensive evidence and certification review."
+  ],
+  "authority": {
+    "canonical_deck_mutated": false,
+    "owner_approved": false,
+    "formal_m6_6_certified": false,
+    "formal_m6_8_9_certified": false
+  }
+}
