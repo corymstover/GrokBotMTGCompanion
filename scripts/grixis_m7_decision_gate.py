@@ -336,16 +336,24 @@ def main():
     for item in files:
         data=read(item)
         result=verify_packet(data, root=ROOT, registry=registry)
-        if item.stem != result["deck_id"] or result["deck_id"] in seen:
-            raise DecisionGateError("Packet path or duplicate ID mismatch")
-        seen.add(result["deck_id"])
+        # An earlier, expressly withdrawn owner candidate is historical evidence.
+        # Preserve that exact deck_id.json and allow a new numbered revision;
+        # never permit a second simultaneously owner-ready variant.
+        if not (item.stem == result["deck_id"] or
+                re.fullmatch(re.escape(result["deck_id"]) + r"_rev[1-9][0-9]*", item.stem)):
+            raise DecisionGateError("Packet filename does not match deck ID or numbered revision")
+        if item.stem in seen:
+            raise DecisionGateError("Duplicate packet path")
+        seen.add(item.stem)
         if result["owner_presentable"]:
+            if result["deck_id"] in owner_presentable:
+                raise DecisionGateError("Two live owner-presentable M7 revisions of the same deck")
             owner_presentable.add(result["deck_id"])
         print(json.dumps(result, sort_keys=True))
     if args.require_complete and (len(owner_presentable) != 62 or owner_presentable != set(registry["decks"])):
         raise SystemExit("M7 owner-presentable coverage incomplete: "
                          + str(len(owner_presentable)) + "/62. Withdrawn research records do not count.")
-    print(f"M7 packet historical/structural coverage {len(seen)}/62, "
+    print(f"M7 packet historical/structural revisions {len(seen)}, "
           f"owner-presentable packets {len(owner_presentable)}/62; "
           "no owner approvals, current Oracle verification, or M6 certification inferred.")
 
