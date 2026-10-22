@@ -3,7 +3,7 @@ import random
 import unittest
 from scripts.grixis_m6_abaddon_chaos_warp_stax import (
     COSTS, STAX, available_hand_answer, frozen_variants,
-    response_window, trial,
+    response_window, trial, lost_spawn_trigger,
 )
 
 
@@ -142,6 +142,30 @@ class ChaosWarpStaxTests(unittest.TestCase):
     def test_wrong_land_policy_rejected(self):
         with self.assertRaises(ValueError):
             trial(self.variants["baseline"],621017,[4,10],"add_free_land")
+
+    def test_fetched_land_from_library_triggers_lost_but_fetch_play_does_not(self):
+        self.assertFalse(lost_spawn_trigger("land_enters","hand"))
+        self.assertTrue(lost_spawn_trigger("land_enters","library"))
+        self.assertTrue(lost_spawn_trigger("land_enters","exile"))
+        self.assertFalse(lost_spawn_trigger("land_enters","library",
+                                            enchantment_present=False))
+
+    def test_commander_and_cascade_nonhand_spells_trigger_lost(self):
+        self.assertTrue(lost_spawn_trigger("spell_cast","command"))
+        self.assertTrue(lost_spawn_trigger("spell_cast","exile"))
+        self.assertTrue(lost_spawn_trigger("spell_cast","graveyard"))
+        self.assertFalse(lost_spawn_trigger("spell_cast","hand"))
+        with self.assertRaises(ValueError):
+            lost_spawn_trigger("copy_spell","exile")
+
+    def test_exact_seven_fetches_in_frozen_baseline(self):
+        from scripts.grixis_m6_fetch_city_tomb import FETCHES
+        self.assertEqual(sum(n in FETCHES for n in self.variants["baseline"]),7)
+        from scripts.grixis_m6_abaddon_chaos_warp_stax import ROOT
+        import json
+        p=json.loads((ROOT/"data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json").read_text())
+        self.assertEqual(p["frozen_fetch_count"],7)
+        self.assertFalse(any(p["authority"].values()))
 
     def test_no_challenger_changed_canonical_permissions(self):
         self.assertFalse(any(self.plan["authority"].values()))
