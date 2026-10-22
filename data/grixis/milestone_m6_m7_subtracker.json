@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "name": "Grixis Commander Encyclopedia — M6/M7 Secondary Completion Sub-Tracker",
-  "snapshot": "2026-10-22_abaddon_m6_6_7_scoped_adjudication_1_of_62",
+  "snapshot": "2026-10-22_abaddon_m6_i_j_exact_complete_owner_handoff_pending",
   "based_on": {
     "engineering_repository": "corymstover/GrokBotMTGCompanion",
     "active_integration_branch": "chatgpt-cycle76-m6-refinement",
@@ -211,26 +211,52 @@
       {
         "id": "M6.8",
         "title": "I: tested-pool local zero-improvement certificates",
-        "status": "BLOCKED",
-        "completed": 0,
+        "status": "PARTIAL",
+        "completed": 1,
         "total": 62,
         "evidence": [
           "grixis/Grixis M6 I-J Contract.md",
-          "data/grixis/schemas/zero_improvement_certificate.schema.json"
+          "data/grixis/schemas/zero_improvement_certificate.schema.json",
+          "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json (selected candidate scope; strict exact-head CI run https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 SUCCESS; PR #573 merged as b493300c8a94fcb7ad45242fa464cda530a94dbc; 97-name committed Oracle text, 104+14 limited mechanics, no owner approval)"
         ],
-        "scope": "No valid tested-pool local-optimum certificate can issue before decision-grade judgments and required Phase B; M6.5's original independent-critic requirement is formally owner-waived, without reducing I/J obligations."
+        "scope": "No valid tested-pool local-optimum certificate can issue before decision-grade judgments and required Phase B; M6.5's original independent-critic requirement is formally owner-waived, without reducing I/J obligations. [2026-10-22 supersession: Abaddon selected research result exact-source certificate verified, 1/62 completed for this subordinate gate. Global gate PARTIAL, M6.10 owner acceptance and formal certification still blocked.]",
+        "per_deck_completion": {
+          "Abaddon_the_Despoiler": {
+            "status": "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED",
+            "source": "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json",
+            "oracle_snapshot": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json",
+            "selected_raw_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+            "selected_logical_hash": "lh1:4bb15eb5acc051871e7d818890f71705eb74f1281e933e73b0e77ff770be1efc",
+            "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094",
+            "owner_accepted": false,
+            "canonical_modified": false
+          }
+        }
       },
       {
         "id": "M6.9",
         "title": "J: final reproducibility and evidence bundles",
-        "status": "BLOCKED",
-        "completed": 0,
+        "status": "PARTIAL",
+        "completed": 1,
         "total": 62,
         "evidence": [
           "grixis/Grixis M6 I-J Contract.md",
-          "data/grixis/schemas/m6_reproducibility_bundle.schema.json"
+          "data/grixis/schemas/m6_reproducibility_bundle.schema.json",
+          "data/grixis/m6/bundles/abaddon-the-despoiler.json (selected candidate scope; strict exact-head CI run https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 SUCCESS; PR #573 merged as b493300c8a94fcb7ad45242fa464cda530a94dbc; 97-name committed Oracle text, 104+14 limited mechanics, no owner approval)"
         ],
-        "scope": "62 preliminary I/J input receipts exist, but 0 final complete reproducibility bundles are certified."
+        "scope": "62 preliminary I/J input receipts exist, but 0 final complete reproducibility bundles are certified. [2026-10-22 supersession: Abaddon selected research result exact-source certificate verified, 1/62 completed for this subordinate gate. Global gate PARTIAL, M6.10 owner acceptance and formal certification still blocked.]",
+        "per_deck_completion": {
+          "Abaddon_the_Despoiler": {
+            "status": "SOURCE_BOUND_COMPLETE_EVIDENCE_NOT_OWNER_ACCEPTED",
+            "source": "data/grixis/m6/bundles/abaddon-the-despoiler.json",
+            "oracle_snapshot": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json",
+            "selected_raw_sha256": "1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd",
+            "selected_logical_hash": "lh1:4bb15eb5acc051871e7d818890f71705eb74f1281e933e73b0e77ff770be1efc",
+            "exact_head_ci": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094",
+            "owner_accepted": false,
+            "canonical_modified": false
+          }
+        }
       },
       {
         "id": "M6.10",
@@ -895,14 +921,14 @@
     "m6_completed_gates": 5,
     "m6_total_gates": 10,
     "m6_gate_completion_percent": 50,
-    "m6_partial_gates": 2,
+    "m6_partial_gates": 4,
     "m6_unfulfilled_gates": 5,
     "m7_completed_gates": 0,
     "m7_total_gates": 6,
     "m7_gate_completion_percent": 0,
     "m6_certified_deck_fraction": "0/62",
     "m7_reviewed_deck_fraction": "0/62",
-    "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED after PR532 joined physically source-paid hand fast mana with OTHER hand-cast Abaddon cascades (20,000 four-arm matched traces, 46 rule/predecessor tests), showing actual MV0 Lotus library churn; no full 99-card games or wins. 0/62 certified M6, 0/62 new M7 approvals; all 62 canonical APPROVED/LOCKED untouched. Latest Abaddon follow-up: M6.6=1/62 and M6.7=1/62 decision-scoped subordinate completions after 104 P0 plus 14 P1 actual tests, 70 explicit relevance dispositions; M6 I/J/acceptance and M7 owner approval stay blocked."
+    "note": "M6 5/10 COMPLETE, 2 PARTIAL, 3 BLOCKED after PR532 joined physically source-paid hand fast mana with OTHER hand-cast Abaddon cascades (20,000 four-arm matched traces, 46 rule/predecessor tests), showing actual MV0 Lotus library churn; no full 99-card games or wins. 0/62 certified M6, 0/62 new M7 approvals; all 62 canonical APPROVED/LOCKED untouched. Latest Abaddon follow-up: M6.6=1/62 and M6.7=1/62 decision-scoped subordinate completions after 104 P0 plus 14 P1 actual tests, 70 explicit relevance dispositions; M6 I/J/acceptance and M7 owner approval stay blocked. [2026-10-22 current: Abaddon M6.8 I and M6.9 J exact chosen 100/97 current Oracle source are VALID and 1/62 each after merged PR #573; M6.10 remains blocked on Cory acceptance; formally M6 certified=0/62, M7 owner approved=0/62. Source evidence complete for owner handoff, not automatic milestone approval.]"
   },
   "update_contract": {
     "refresh_each_project_progress_answer": true,

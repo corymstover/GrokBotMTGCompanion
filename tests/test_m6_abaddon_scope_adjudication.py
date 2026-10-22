@@ -70,8 +70,12 @@ class AbaddonScopedM66M67(unittest.TestCase):
             self.assertEqual(gate["completed"], 1)
             self.assertEqual(gate["total"], 62)
             self.assertFalse(gate["per_deck_completion"]["Abaddon_the_Despoiler"]["owner_m7_approved"])
-        for gate_id in ("M6.8", "M6.9", "M6.10"):
-            self.assertEqual(next(g for g in tracker["m6"]["gates"] if g["id"] == gate_id)["status"], "BLOCKED")
+        for gate_id in ("M6.8", "M6.9"):
+            proof = next(g for g in tracker["m6"]["gates"] if g["id"] == gate_id)
+            self.assertEqual((proof["status"], proof["completed"]), ("PARTIAL", 1))
+            self.assertFalse(proof["per_deck_completion"]["Abaddon_the_Despoiler"]["owner_accepted"])
+        gate = next(g for g in tracker["m6"]["gates"] if g["id"] == "M6.10")
+        self.assertEqual((gate["status"], gate["completed"]), ("BLOCKED", 0))
         ledger = read_json(LEDGER)
         self.assertFalse(ledger["latest_gate_adjudication"]["formal_m6_certified"])
         self.assertFalse(ledger["latest_gate_adjudication"]["new_m7_owner_approved"])

@@ -1,16 +1,30 @@
-# Abaddon — Exact-100 M7 candidate ready for structural review, M6 certification still on hold
+# Abaddon — M6 technical I/J verified; exact M7 owner approval pending
 
-**Date:** 2026-10-22. **Source authority:** `corymstover/grixis-commander-encyclopediaGPT/main` retains the approved/locked list SHA-256 `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`.
+**Current owner-decision status (2026-10-22):** The complete proposed Abaddon 100-card M7 replacement is technically ready to present. This is **not** owner approval or formal M6.10 milestone acceptance. The canonical approved and locked list remains untouched (raw SHA-256 `2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf`).
 
-This file explicitly distinguishes two levels of **ready** that must never be confused:
+## Exact decision offered to Cory
 
-1. **M7 packet structural readiness:** `data/grixis/m7/decision_reviews/Abaddon_the_Despoiler.json` (machine contract), with candidate `data/grixis/m7/candidate_lists/Abaddon_the_Despoiler.txt`, SHA-256 `1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd`. Source-bound 100-card and two-swap audit, candidate decisions, 34-land invariance, Oracle/legality evidence and three tags must pass exact-head GitHub CI. The packet's contract-required `READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED` describes **structural packet readiness only**; it does not override prerequisite M6 milestone gates or grant user approval.
-2. **Project final verification/owner handoff:** still **HELD** pending formal M6.6 effect sufficiency, M6.7 certification reconciliation, M6 I tested-pool local-optimum certification for the **chosen final candidate**, and M6 J complete reproducibility bundle. The 95 case tests, 97 live Scryfall identities across five complete lists, owner-waived nonindependent Pass C (62/62) and authored qualitative selection are real evidence, **but not full fulfillment of these four gates**.
+- Adds: **Grinning Ignus**, **Chaos Warp**
+- Cuts: **Rakdos, Lord of Riots**, **Inevitable Betrayal**
+- Complete staged 100: `data/grixis/m7/candidate_lists/Abaddon_the_Despoiler.txt`
+- Exact raw SHA-256: `1fabe1251a7868838365144bf0cb1ee903d394ed90ac146b2dd9cdd45683b7dd`
+- 34 lands; Power Bracket **4 — Optimized**; Archidekt tags: **Cascade**, **Exile Cast**, **40K Chaos**
+- Existing canonical list remains approved/locked with no mutations. Abaddon has no project-specific legality exception.
 
-**Chosen package:** +Grinning Ignus +Chaos Warp / -Rakdos, Lord of Riots -Inevitable Betrayal. Opponent-creature-rich alternative cuts Keeper instead, losing a 40K repeated exile-cast damage payoff. No card change is made in this PR. Bracket 4 — Optimized, candidate tags `Cascade`, `Exile Cast`, `40K Chaos`.
+## Verified executable evidence
 
-**Priority finalization path:** (a) use exact-head CI to freeze the M7 candidate/packet under immutable hash; (b) evaluate M6.6 sufficiency and the P1/gameplay limitations **for the specific chosen candidate**, not automatic 74-card new P0 runs; (c) if defensible, complete honest selected-pool local-optimum I and full source-hashed J bundle, otherwise keep them BLOCKED and document exact cause; (d) only after all required gates, present the exact 100 and standard owner question `This deck is complete. Do you approve it?`. Upon explicit approval, write approved/locked canonical record and **only then** proceed to commander #2.
+- M6.6 and M6.7: per-deck COMPLETE with scoped deterministic adjudication (PR #569). Global gates remain PARTIAL across 62 decks.
+- Mandatory targeted mechanics: **104 executable named P0** and **14 P1** test cases, plus a source-bound classification of the 70 remaining names. PR #566 exact-head SUCCESS: [Actions #39819134570](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819134570). PR #567 exact-head SUCCESS: [Actions #39819765932](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819765932).
+- Permanent source-bound **97-name current Scryfall Oracle snapshot**: `data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json` (PR #571); no invented rules proof or official legality exception.
+- **M6 I**: `data/grixis/m6/ij/certificates/abaddon-the-despoiler.json`: strictly validated PASS *only* for the selected full 100 within the five explicitly evaluated full 100-card configurations, not a claim of global optimum, simulated win rate, or owner acceptance.
+- **M6 J**: `data/grixis/m6/bundles/abaddon-the-despoiler.json`: finalized seven-input hash-bound reproducibility bundle with Pass A/B evidence, correctly labeled *non-independent* GPT-6 owner-waived Pass C, physical test results, Oracle snapshot, authoritative source hashes and chosen candidate.
+- Strict I semantic and J bundle checks, adversarial tests: [PR #573 exact-head Actions #39824160094](https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094) **SUCCESS**.
+- Schema-valid candidate recommendation remains distinct from final owner authorization: `data/grixis/m7/decision_reviews/Abaddon_the_Despoiler.json`.
 
-**Anti-homogenization:** retain 40K threshold hand-cast cascade, Lost/ Keeper/ Ruinous Powers, Abaddon-specific early damage, printed double cascade, and Breach backup. Do not fill missing certification with generic turbo-Grixis proxies.
+## Owner authority boundary
 
-**Formal statuses:** M6.5 owner waiver COMPLETE; M6.6 PARTIAL; M6.7 PARTIAL; M6.8/I BLOCKED; M6.9/J BLOCKED; M6.10 BLOCKED; revised M7 approvals 0/62; M8 not complete. Neither the structural schema validator nor current replay supersedes these statuses.
+1. Cory alone may approve the **exact candidate** (and authorize canonical replacement after the SHA is reverified). No canonical approval is inferred from engineering CI.
+2. M6.10 **formal certification / milestone acceptance remains owner-held**. M6.8 and M6.9 are per-deck adjudications, not 62/62 milestone completion. Never report formal M6 certification or global encyclopedia completion without the required separate acceptance and remaining-deck work.
+3. If candidate is approved, preserve exact 100 and signed hashes in canonical workflow; move to the next commander in tracker order. If rejected, revise the staging list without touching canonical.
+
+**Decision prompt for the complete owner deck presentation:** `This deck is complete. Do you approve it?`
