@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "study_id": "abaddon_lost_keeper_source_paid_finite_20261022",
+  "stage": "M6_6_PHASE_B_PREREGISTRATION",
+  "deck_id": "Abaddon_the_Despoiler",
+  "baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "effective_rules_source": "https://magic.wizards.com/en/rules",
+  "current_card_sources": {
+    "The Lost and the Damned": "https://cardgames.social/magic/cards/22e70ad0-1a9c-4d9e-8cc1-ebea485282ca",
+    "Keeper of Secrets": "https://mtg.wtf/card/40k/78/Keeper-of-Secrets",
+    "Grinning Ignus": "https://magic.wizards.com/en/news/feature/time-spiral-remastered-release-notes-2021-03-23",
+    "Call Forth the Tempest": "https://spellrack.com/cards/0623c51a-e829-413f-a3a0-817c0902821e"
+  },
+  "question": "On exact 100-card V2 physical Ignus/Warp challenger libraries, how many current-turn Spawn triggers and targeted damage events come from a single source-paid hand Ignus with a supported legal MV1 cascade hit, under stax, countered-hit and nonhand-fetch cases; what relevant Keeper damage is relinquished in the provisional lead?",
+  "variants": [
+    {
+      "id": "engine_answer_keeper",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_keeper.txt",
+      "keeper": false
+    },
+    {
+      "id": "engine_answer_betrayal",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_v2_engine_answer_betrayal.txt",
+      "keeper": true
+    }
+  ],
+  "registered_cases": [
+    {
+      "id": "legal_cast_supported_hit",
+      "expect_nonhand_cast": true,
+      "expect_spawn": 1,
+      "expect_keeper_damage_mv1": "keeper-dependent"
+    },
+    {
+      "id": "drannith_bars_exile_cast",
+      "expect_nonhand_cast": false,
+      "expect_spawn": 0,
+      "expect_keeper_damage_mv1": 0
+    },
+    {
+      "id": "rule_of_law_bars_exile_cast",
+      "expect_nonhand_cast": false,
+      "expect_spawn": 0,
+      "expect_keeper_damage_mv1": 0
+    },
+    {
+      "id": "countered_nonhand_spell_still_triggers",
+      "expect_nonhand_cast": true,
+      "expect_spawn": 1,
+      "expect_keeper_damage_mv1": "keeper-dependent",
+      "note": "Conditional opponent counter after spell cast; trigger remains even if spell does not resolve"
+    },
+    {
+      "id": "hand_cast_ignus_only",
+      "expect_nonhand_cast": false,
+      "expect_spawn": 0,
+      "expect_keeper_damage_mv1": 0
+    },
+    {
+      "id": "nonhand_fetchland_entry",
+      "expect_nonhand_cast": false,
+      "expect_spawn": 1,
+      "expect_keeper_damage_mv1": 0
+    },
+    {
+      "id": "hand_land_entry_no_spawn",
+      "expect_nonhand_cast": false,
+      "expect_spawn": 0,
+      "expect_keeper_damage_mv1": 0
+    }
+  ],
+  "adversarial_condition": "Rule of Law or Drannith prevents casting supported cascade hit; Keeper's targeted ability and Lost's Spawn only trigger on actual exile cast, not cascade alone. A successfully cast nonhand spell that is subsequently countered still triggered both.",
+  "primary_endpoint": "actual cast-from-exile event and Lost Spawn creation, assessed with physical source and actual supported first cascade hit, not a generic cascade trigger count",
+  "opportunity_cost_endpoint": "Keeper of Secrets causes targeted opponent damage equal to that cast spell's MV (1 for Sol Ring) when present, while Lost creates one Spawn; Keeper is absent from lead but present in comparable betrayal-cut portfolio",
+  "stop_rule": "Execute seven predefined deterministic cases for both exact variants, with bounded existing physical zone fixtures; no Monte Carlo trials or broader opponent-policy simulation. If a case fails or a rules assumption is invalidated, stop and report rather than declare strategic superiority.",
+  "cost_budget": {
+    "randomized_trajectories": 0,
+    "physical_variants": 2,
+    "registered_cases": 7
+  },
+  "coverage_limitations": [
+    "Only one physical first-hit Sol Ring is forced to library top for an adversarial conditional setup; not a randomly observed cascade-hit frequency.",
+    "Keeper targeted damage to one opponent from the resolved cast trigger, not damage per opponent; cannot claim aggregate three times mana value.",
+    "Lost trigger creates a virtual token tally; original library card-zone multiset is conserved and token is not an additional deck card.",
+    "Countered hit is an explicit post-cast opponent-response event, not executed as a full stack/combat simulator.",
+    "No whole-list current Oracle refresh, improved win rate or certified final deck."
+  ],
+  "fallback_decision": "Retain both Keeper-cut and zero-MV-Betrayal-cut as live alternatives unless comparative effects and source access justify choosing; never upgrade stage to owner-ready based on this fixture alone.",
+  "canonical_list_changes_allowed": false,
+  "formal_m6_certification_allowed": false,
+  "owner_approval_allowed": false
+}
