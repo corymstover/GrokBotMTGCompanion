@@ -1,0 +1,33 @@
+{
+  "deck_id": "Admiral_Beckett_Brass",
+  "date": "2026-10-22",
+  "workstream": "M6 mandatory effect-aware P0 mechanical cases, finite adversarial model",
+  "baseline_approval": "APPROVED_LOCKED_UNCHANGED",
+  "canonical_baseline_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+  "canonical_baseline_git_blob": "4144e301c1964d19af3754f2ab4498e134b0f577",
+  "plan": "data/grixis/m6/test_blueprints/Admiral_Beckett_Brass.json",
+  "oracle_evidence": "data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_P0_Scryfall_20261022.json",
+  "test_implementation": "tests/test_m6_admiral_beckett_brass_p0.py",
+  "execution_command": "python -m unittest discover -s tests -p test_m6_admiral_beckett_brass_p0.py -v",
+  "designed_cases": 13,
+  "p0_cases": ["C01", "K01", "K02", "K03", "F01"],
+  "p1_cases": ["K04", "K05", "E01", "E02", "W01", "W02", "F02", "F03"],
+  "p0_implementation_status": "IMPLEMENTED_REQUIRES_EXACT_HEAD_CI_CONFIRMATION",
+  "p0_execution_status": "LOCAL_PASS_CI_PENDING",
+  "p1_execution_status": "NOT_RUN_NEEDS_INDIVIDUAL_RELEVANCE_DISPOSITION",
+  "formal_m6_certified": false,
+  "formal_m7_candidate_ready": false,
+  "prospective_owner_approval": false,
+  "limitations": [
+    "The bounded event fixtures exercise explicit Oracle predicates, physical source ID uniqueness, target legality and paid-mana guards. They do not simulate full Magic priority or opponent strategic choice.",
+    "An extra Roaming Throne trigger still requires its own legal chosen target; the source's damage history is not dynamically recomputed from the current battlefield.",
+    "F01's Fog and blocking scenarios are staged opponent interference, not estimates of matchup frequency or win percentage.",
+    "Current Oracle and legalities were checked live only for the cards in the P0 model. Full proposed M7 source verification, P1 reconciliation and formal M6 I/J certification remain outstanding."
+  ],
+  "next_actions": [
+    "Validate this five-P0 fixture on the exact GitHub PR head and add an immutable CI run receipt.",
+    "Reconcile all eight P1 case requirements with pre-existing tests, execute decision-relevant cases and explicitly defer nonmaterial ones with limitations.",
+    "Run exhaustive commander-first M7 opportunity audit of all 99 noncommander source cards, 10+ meaningful candidate judgments and two independent full-100 package variants; do not present fewer than five genuine strategic replacements.",
+    "Recheck complete candidate Oracle/legality, Commander rules and exact physical card list before any owner-ready request."
+  ]
+}

@@ -1,0 +1,30 @@
+name: M6 Admiral Beckett Brass finite P0 rules fixtures
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-admiral-beckett-p0.yml
+      - tests/test_m6_admiral_beckett_brass_p0.py
+      - data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_P0_Scryfall_20261022.json
+      - data/grixis/m6/phase_b_plans/admiral_beckett_p0_execution_20261022.json
+  push:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m6-admiral-beckett-p0.yml
+      - tests/test_m6_admiral_beckett_brass_p0.py
+      - data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_P0_Scryfall_20261022.json
+      - data/grixis/m6/phase_b_plans/admiral_beckett_p0_execution_20261022.json
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-bound-p0:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Verify all five blueprint P0 rules cases with staged counterexamples
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_beckett_brass_p0.py' -v
