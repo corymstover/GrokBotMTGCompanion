@@ -8,6 +8,7 @@ on:
       - tests/test_m6_abaddon_chaos_warp_stax.py
       - data/grixis/m6/phase_b_plans/abaddon_chaos_warp_stax_20261021.json
       - data/grixis/m6/phase_b_plans/abaddon_chaos_warp_otawara_policy_20261021.json
+      - data/grixis/m6/phase_b_plans/abaddon_lost_spawn_trigger_20261021.json
       - data/grixis/m6/phase_b_bounded/abaddon_chaos_warp_stax_20261021.md
   workflow_dispatch:
 permissions:
@@ -45,6 +46,9 @@ jobs:
           assert 'reserve_otawara_for_channel' in r['reserved_land_drops_skipped']
           assert all(not v for v in p['authority'].values())
           assert r['source_verified_errata']['The Lost and the Damned']['mana_value']==3
+          assert r['lost_trigger_frozen_fetchland_count']==7
+          assert len(r['lost_trigger_rule_cases'])==6
+          assert not any(json.loads(Path(r['lost_trigger_preregistration']).read_text())['authority'].values())
           assert r['source_verified_errata']['The Ruinous Powers']['mana_value']==4
           assert r['scenario_outcomes']['rol_warp_while_abaddon_cascade_enabled']['cascade_triggered_on_chaos_warp']
           assert not r['scenario_outcomes']['rol_warp_while_abaddon_cascade_enabled']['cascade_exiled_spell_cast_legal_before_warp_resolves']
