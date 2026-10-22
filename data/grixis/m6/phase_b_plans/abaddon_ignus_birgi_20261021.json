@@ -48,13 +48,13 @@
       "card": "Grinning Ignus",
       "cost": "{2}{R}",
       "oracle": "{R}, Return Grinning Ignus to its owner's hand: Add {C}{C}{R}. Activate only as a sorcery.",
-      "ref": "https://mtg.wtf/card/tsr/172/Grinning-Ignus"
+      "ref": "https://media.wizards.com/2021/downloads/STX_Release_Notes/EN_MTGSTX_FAQ_04122021.pdf"
     },
     {
       "card": "Birgi, God of Storytelling",
       "cost": "{2}{R}",
       "oracle": "Whenever you cast a spell, add {R}. Until end of turn, you don't lose this mana as steps and phases end.",
-      "ref": "https://magic.wizards.com/en/news/feature/kaldheim-release-notes-2021-01-22"
+      "ref": "https://media.wizards.com/2021/downloads/KHM_Release_Notes/EN_MTGKHM_ReleaseNotes_20210113.pdf"
     },
     {
       "card": "Abaddon the Despoiler",
@@ -92,5 +92,6 @@
     "can_approve_swap": false,
     "can_certify_m6": false,
     "can_accept_m7": false
-  }
+  },
+  "reference_correction": "Source URL precision corrected after initial plan commit; model scenarios, swap roster, hashes and conclusions unchanged."
 }
