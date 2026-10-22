@@ -203,7 +203,13 @@
       "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39809402502 — exact chosen 100 source delta, 97 live identities and 95-case replay",
       "data/grixis/m6/certification_preflight/Abaddon_M6_7_decisive_commander_choice_20261022.md",
       "data/grixis/m6/certification_preflight/Abaddon_M6_6_7_Sufficiency_20261022.md",
-      "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json"
+      "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json",
+      "data/grixis/m6/ij/certificates/abaddon-the-despoiler.json — selected-full-100 five-pool decision-scoped M6 I, independently semantic-checked",
+      "data/grixis/m6/bundles/abaddon-the-despoiler.json — sealed SHA-reconciled M6 J reproducibility",
+      "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json — immutable 97-name current Oracle snapshot",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819134570 — 104 P0 and 7 P1 source-named mechanics",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39819765932 — seven remaining decision-scoped P1 fixtures",
+      "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39824160094 — exact-head strict I/J and adversarial validation"
     ],
     "power_bracket": 4,
     "archidekt_tags": [
