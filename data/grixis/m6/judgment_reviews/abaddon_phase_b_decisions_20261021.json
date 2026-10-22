@@ -258,7 +258,7 @@
         ]
       },
       "interim_decision": "RETAIN_AS_MEANINGFUL_COMMANDER_FIRST_PAYOFF",
-      "benefit": "The Ruinous Powers costs {2}{B}{R}, mana value FOUR (not five). At upkeep exiles opponent's top card and permits playing it. When you cast their spell from exile, its owner loses life equal to spell's mana value, raising Abaddon's life-loss threshold. A qualifying cast from exile also triggers The Lost and the Damned's Spawn engine if both enchantments are present.",
+      "benefit": "The Ruinous Powers costs {2}{B}{R}, mana value FOUR (not five). At upkeep it exiles an opponent's top card and permits playing it. On an exile cast, its OWNER—the opponent whose library it came from—loses life equal to the spell's mana value, raising Abaddon's same-turn life-loss threshold. A qualifying cast from exile also triggers The Lost and the Damned's Spawn engine if both enchantments are present.",
       "incumbent_cut_cost": "Removing this MV4 card loses repeatable on-turn opponent life loss, exile-cast payoffs and Lost Spawn production. Upkeep survival and random reveal mean imperfect access, but an older five-mana characterization was inaccurate.",
       "unresolved": [
         "Conditional upkeep survival and actual cast access compared with other five-mana payoffs"
