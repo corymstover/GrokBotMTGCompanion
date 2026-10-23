@@ -954,7 +954,7 @@
    "current_candidate_sha": "f4136ea0028ee787dddad379e12a7e34ccdaa6578a52d1c63ae953734e5806f2",
    "branch": "grokbot-deck19-fire-lord-azula-m7-20261023",
    "working_branch": "grokbot-deck19-fire-lord-azula-m7-20261023",
-   "last_pushed_commit": "0afb21e9deb66955d217df9f883cc19fae0abc46",
+   "last_pushed_commit": "e2ef67c056cb66ab2ef1ca54b1d5c9a690d797a0",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/667",
    "swap_count": 5,
    "ci_runs": [],
@@ -964,7 +964,8 @@
     "baseline_provenance (canonical main 9b26aa28; raw b6ef3966 == overrides == tracker == registry; 100 physical/100 rows); shared infra copied from #666 8150b968; draft PR #667 2026-10-23T10:50:00-05:00",
     "research snapshot (EDHREC 4 pages + stats.cedh.events, live Scryfall, Spellbook 9->10, bounded Pass C tests) + provisional 5-swap candidate and 7 staged alternatives; pushed 90ebfaa2 2026-10-23T11:00:32-0500",
     "oracle snapshot (205 names, 0 diffs vs frozen), rules snapshot, tested pool (10 configs); pushed f1bacba3 2026-10-23T11:03:57-0500",
-    "decision packet (gate passes, 23 material candidates); pushed 0afb21e9 2026-10-23T11:09:19-0500"
+    "decision packet (gate passes, 23 material candidates); pushed 0afb21e9 2026-10-23T11:09:19-0500",
+    "I/J memos, certificate + J revision bundle (checker valid), adversarial packet, candidate/mechanics/IJ tests 10/14/8, focused workflow; pushed e2ef67c0 2026-10-23T11:19:36-0500"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
