@@ -13,3 +13,10 @@
 - Owner direction (10-14 approval): removed opponent-discard punishers (Liliana's Caress, Geth's Grimoire, Waste Not) and Dark Deal; do not re-add without flag.
 - Shared infra copied byte-identically from PR #660 head bb3be7d3 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C bounded measured tests, candidate judgments.
+
+## Checkpoint 2 (2026-10-23 07:47 CDT) — research + provisional candidate
+- Live Scryfall (/cards/collection): 100 baseline + 135 evaluated names, all commander-legal; every list card within U/B/R.
+- EDHREC general/upgraded/optimized discovery snapshot and Commander Spellbook lookup committed (1 included combo in baseline and candidate: Surly Badgersaur + Tectonic Reformation + Dakmor Salvage, library-bounded, not infinite).
+- Provisional candidate (six swaps): +Lightning Axe -Feed the Swarm; +Magmakin Artillerist -Change of Fortune; +Red Ghost, Intangible Genius -Loki, the Deceiver; +Coastal Peak -Shipwreck Marsh; +Swiftfoot Boots -Fellwar Stone; +Mox Diamond -Talisman of Creativity.
+- Staged alternatives: five keeping Talisman of Creativity; Withering Torment instead of Lightning Axe; Pass C Glint-Horn over Revenant; Glint-Horn instead of Artillerist; Ledger Shredder over Iron Monger; Putrid Imp over Demand Answers.
+- Next: mechanics tests incl. bounded Pass C tests, oracle/rules snapshots, pool, decision review, memos, certificate, bundle, workflow.

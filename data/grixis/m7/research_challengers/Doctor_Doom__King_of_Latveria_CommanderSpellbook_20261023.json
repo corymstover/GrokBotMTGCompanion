@@ -1,0 +1,375 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "779-2546-4467",
+    "uses": [
+     "Surly Badgersaur",
+     "Tectonic Reformation",
+     "Dakmor Salvage"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite self-discard triggers"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 16,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "618-3908",
+    "uses": [
+     "Kiki-Jiki, Mirror Breaker",
+     "Spark Double"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite tapped creature tokens until end of turn"
+    ]
+   },
+   {
+    "id": "5779-7688",
+    "uses": [
+     "Maha, Its Feathers Night",
+     "M.O.D.O.K."
+    ],
+    "produces": [
+     "Creatures opponents control die upon entering",
+     "Lock",
+     "Reduce the toughness of creatures opponents control to 0"
+    ]
+   },
+   {
+    "id": "2034-7766-7767",
+    "uses": [
+     "Ultron, Unlimited",
+     "Prowler, Clawed Thief",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Near-infinite artifact tokens",
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite +1/+1 counters on a creature",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite colorless mana",
+     "Near-infinite death triggers",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite creature tokens"
+    ]
+   },
+   {
+    "id": "3591-7792",
+    "uses": [
+     "Necropotence",
+     "Cool but Rude"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Near-infinite self-discard triggers"
+    ]
+   },
+   {
+    "id": "513-5636-6896",
+    "uses": [
+     "Norman Osborn // Green Goblin",
+     "Hullbreaker Horror",
+     "Psychic Frog"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite self-discard triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4659-7766-7767",
+    "uses": [
+     "Ultron, Unlimited",
+     "Prowler, Clawed Thief",
+     "Krark-Clan Ironworks"
+    ],
+    "produces": [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Near-infinite artifact tokens",
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite +1/+1 counters on a creature",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite colorless mana",
+     "Near-infinite death triggers",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite creature tokens"
+    ]
+   },
+   {
+    "id": "2084-3908",
+    "uses": [
+     "Mirror-Mad Phantasm",
+     "Spark Double"
+    ],
+    "produces": [
+     "Infinite self-mill"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "779-2546-4467",
+    "uses": [
+     "Surly Badgersaur",
+     "Tectonic Reformation",
+     "Dakmor Salvage"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite self-discard triggers"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 20,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "6428-6574",
+    "uses": [
+     "Magmakin Artillerist",
+     "Kefka, Court Mage // Kefka, Ruler of Ruin"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Infinite self-discard triggers",
+     "Infinite draw triggers",
+     "Infinite rummaging"
+    ]
+   },
+   {
+    "id": "1089-6428",
+    "uses": [
+     "Magmakin Artillerist",
+     "Curiosity"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Infinite self-discard triggers",
+     "Infinite draw triggers",
+     "Infinite rummaging"
+    ]
+   },
+   {
+    "id": "2396-6428",
+    "uses": [
+     "Magmakin Artillerist",
+     "Ophidian Eye"
+    ],
+    "produces": [
+     "Near-infinite damage",
+     "Infinite self-discard triggers",
+     "Infinite draw triggers",
+     "Infinite rummaging"
+    ]
+   },
+   {
+    "id": "406-6428",
+    "uses": [
+     "Magmakin Artillerist",
+     "Tandem Lookout"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "618-3908",
+    "uses": [
+     "Kiki-Jiki, Mirror Breaker",
+     "Spark Double"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite tapped creature tokens until end of turn"
+    ]
+   },
+   {
+    "id": "5779-7688",
+    "uses": [
+     "Maha, Its Feathers Night",
+     "M.O.D.O.K."
+    ],
+    "produces": [
+     "Creatures opponents control die upon entering",
+     "Lock",
+     "Reduce the toughness of creatures opponents control to 0"
+    ]
+   },
+   {
+    "id": "2034-7766-7767",
+    "uses": [
+     "Ultron, Unlimited",
+     "Prowler, Clawed Thief",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Near-infinite artifact tokens",
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite +1/+1 counters on a creature",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite colorless mana",
+     "Near-infinite death triggers",
+     "Near-infinite creature sacrifice triggers",
+     "Near-infinite creature tokens"
+    ]
+   }
+  ]
+ }
+}
