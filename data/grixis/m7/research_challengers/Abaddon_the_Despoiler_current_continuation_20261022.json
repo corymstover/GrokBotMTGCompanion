@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-22",
-  "status": "RESEARCH_ONLY_REOPENED_POST_ADMIRAL_OWNER_APPROVAL",
+  "status": "RESEARCH_ONLY_UNBOUNDED_M7_STRATEGY_100_CARD_COMPARISON_ACTIVE",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -45,23 +45,48 @@
         "swaps": 2
       }
     ],
-    "executed_mechanical_tests_this_reopen": 0,
+    "executed_mechanical_tests_this_reopen": 9,
     "source_bound_full_new_candidate_oracle_clearances": 0,
     "confirmed_new_strategic_improvements": 0,
-    "status": "PARTIAL_RESEARCH_ONLY"
+    "status": "PARTIAL_RESEARCH_ONLY_CI_PENDING_STAGE4",
+    "executed_rules_only_test_cases": 9,
+    "executed_source_guard_tests": 1,
+    "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
+    "last_merged_research_pr": 620,
+    "last_merged_research_sha": "989bea04ff8f9389f097107f0bf4799df934e9db",
+    "verified_distinct_source_candidate_oracle_metadata": 51,
+    "source_snapshot_39": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json",
+    "source_snapshot_13": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_13_source_cards_20261022.json",
+    "stage4_qualitative_audit": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_qualitative_100_comparison_20261022.json",
+    "stage4_material_judgments": 30,
+    "stage4_challenged_weak_slots": 10,
+    "stage4_full_physical_package_count": 2,
+    "stage4_full_physical_packages": [
+      {
+        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_threshold_exile_six_research_20261022.txt",
+        "sha256": "f46ef714213a5385eef77430926b98d5cd36b5cd17c6e1ab50ab403b64914e92",
+        "swaps": 6,
+        "status": "RESEARCH_ONLY"
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stacked_cascade_eight_research_20261022.txt",
+        "sha256": "7632cdf40c53d713e70634c8a2586b0e7b0e1bd7df862680b15af5142dd1199f",
+        "swaps": 8,
+        "status": "RESEARCH_ONLY"
+      }
+    ],
+    "strong_offranking_synergy": "Harmonic Prodigy doubles sourced current Shaman/Wizard triggered abilities from Kessig Flamebreather, Thermo-Alchemist, Vivi Ornitier, Storm-Kiln Artist; NOT Abaddon-granted cascade nor Vivi mana activation."
   },
   "mandatory_next_deterministic_checks": [
-    "Cryptolith Fragment tapped mana ability life-loss timing during cast and whether it can change Abaddon cascade eligibility before cast completes.",
-    "Aurora Phoenix graveyard return trigger for spells granted cascade by Abaddon, including source zone and independent cast trigger timing.",
-    "Electrostatic Field cast triggers for cascade hit spells from exile versus storm spell copies that are not cast.",
-    "Blood for the Blood God! {11} printed mana value, creature death cost reductions, existing life-loss threshold at casting versus eight damage dealt only on resolution."
+    "Run Stage4 source/physical package count SHA/legality tests on exact PR head and verify CI outcomes.",
+    "Establish payable anti-stax adversarial case before sacrificing Pact of Negation and Pyroblast; confirm real opportunity-cost impact.",
+    "Compare Harmonic Prodigy, Fiery Confluence, Price of Progress and Ob Nixilis across full roles rather than targeting five swaps."
   ],
   "strategic_next": [
-    "Fully source verify 12 EDHREC-discovered non-incumbents; prioritize plausible Abaddon engines rather than arbitrary high-lift numbers.",
-    "Challenge all 99 slots; compare real opportunity costs and protected 40K/exile identity.",
-    "Qualitatively choose stronger coherent 100-card package after payability and resilience review; only experiment when a decision-changing gap remains.",
-    "Do not mechanically anchor to five swaps. New final owner presentation must have at least five genuinely justified new replacements vs current approved Abaddon rev2, ten substantial judgments, eight challenged slots, two complete alternative packages, source-bound Oracle and specific M6 I/J evidence.",
-    "No automatic M6.10 acceptance, no new Abaddon approval from previous exact rev2 receipt and no advancement to deck #3 before owner's new exact-deck approval."
+    "Choose strongest coherent full 100 while preserving commander, source-paid cascade identity and enough free/cheap protection; comparison variants are exploratory and may all lose.",
+    "Do not count 6/8 staged changes as justified upgrades; assess card access, colored mana and self-life loss under opponent interference.",
+    "For best candidate, source/legality verify ALL 100 including replacement cards and run only invalidated applicable M6 P0/P1 and candidate-specific I/J, compute fresh SHA.",
+    "Only after complete M7 gates present list for Cory's explicit exact approval. Do NOT advance deck #3 beforehand."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
@@ -69,6 +94,7 @@
     "EDHREC percentages change and optimized-expensive sample of ~16 lists is not representative proof.",
     "Trial package counts and exact SHA are physical-list checks, not legality or strategic strength certification.",
     "Abaddon existing owner approval stays immutable until new owner decision.",
-    "The evidence gathered at this point is a reopened research first-pass, not a completed M7 final."
+    "The evidence gathered at this point is a reopened research first-pass, not a completed M7 final.",
+    "Stage4's six- and eight-swap research packets are valid candidate configurations for comparison, not proofs of strategic superiority, and do not authorize replacing the locked 0d9f6d... list."
   ]
 }
