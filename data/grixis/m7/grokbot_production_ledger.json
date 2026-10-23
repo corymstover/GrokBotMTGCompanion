@@ -1227,22 +1227,23 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
    "working_branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
-   "last_pushed_commit": "cdf7c05ea1b17bb5194d42beb37b5d9545f811d1",
+   "last_pushed_commit": "edbfaae5f51ca4470c44eb7b6f29467c2088d0db",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/671",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw 81333ac7 == overrides == tracker == registry; blob 204b8096 from approval commit afb35c06; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #670 head 7483728a; draft PR #671"
+    "baseline_provenance (canonical main 9b26aa28; raw 81333ac7 == overrides == tracker == registry; blob 204b8096 from approval commit afb35c06; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #670 head 7483728a; draft PR #671",
+    "research (live Scryfall 100+108, EDHREC 4 pages incl. 817 cEDH decks, Commander Spellbook baseline/candidate/6 alternatives) and Pass C bounded tests (exact castability, tutor reach, combo delta); interim 0 genuine admissible swaps"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Research: Scryfall live, EDHREC, Spellbook, off-ranking Wizards; Pass C bounded test (Kefka vs Dualcaster/Micromancer, Trainer vs Snapcaster)",
-   "next_step": "Research: Scryfall live, EDHREC, Spellbook, off-ranking Wizards; Pass C bounded test",
-   "updated_at": "2026-10-23T13:05:19-0500",
-   "last_checkpoint_at": "2026-10-23T13:05:19-0500"
+   "next_action": "Snapshots, tested pool, decision review, memos, tests, workflow; full suite; mark PR ready",
+   "next_step": "Generate certification artifacts",
+   "updated_at": "2026-10-23T13:13:49-0500",
+   "last_checkpoint_at": "2026-10-23T13:13:49-0500"
   },
   {
    "tracker_number": 24,
