@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import sys
 
@@ -46,6 +47,20 @@ def bind(name, h):
 OWNER_EQUIVALENT = "FORMAL_PASS_C_OWNER_EQUIVALENT"
 OWNER_WAIVER = "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
 OWNER_PROGRESS = "data/grixis/m6/owner_pass_c_substitute/progress.json"
+
+# Strict Pass C non-independence disclosure (added for PR #653, Ashad): "technical(ly) independen(ce|t)"
+# followed only by markdown/colon punctuation and then an explicit FALSE, or a NO that ends the clause
+# (so "no longer ..." never matches). Any explicit TRUE/YES statement anywhere vetoes this path.
+# The four legacy substrings below are kept unchanged so every receipt accepted before stays accepted.
+_PASS_C_EXPLICIT_FALSE = re.compile(
+    r"\btechnical(?:ly)?\s+independen(?:ce|t)[\s*:_`]*(?:false\b|no(?=[\s*_`]*(?:[.,;)]|$)))", re.I | re.M)
+_PASS_C_EXPLICIT_TRUE = re.compile(r"\btechnical(?:ly)?\s+independen(?:ce|t)[\s*:_`]*(?:true|yes)\b", re.I)
+
+
+def pass_c_explicit_false_disclosure(text):
+    """Fail closed: True only for an explicit FALSE/NO technical-independence statement with no
+    explicit TRUE/YES statement anywhere in the receipt. Absent or ambiguous wording returns False."""
+    return bool(_PASS_C_EXPLICIT_FALSE.search(text)) and not _PASS_C_EXPLICIT_TRUE.search(text)
 
 
 def _bare(h):
@@ -143,6 +158,7 @@ def validate_pass_c(judgment, deck_id):
         or "**actual technical independence:** false" in final
         or "**Technically independent:** NO." in final
         or "**Technically independent:** FALSE." in final  # Anhelo__the_Painter preserved wording
+        or pass_c_explicit_false_disclosure(final)  # strict pattern, e.g. Ashad__the_Lone_Cyberman
     )
     if ("ChatGPT/OpenAI GPT-6" not in final
         or not disclosed_nonindependence

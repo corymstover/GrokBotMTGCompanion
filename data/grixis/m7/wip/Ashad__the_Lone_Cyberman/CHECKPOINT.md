@@ -10,4 +10,8 @@ NOT OWNER APPROVED. Work in progress; this file is removed at finish.
 - Gate infra copied byte-identically from PR #652 head a6798cf2 (schema, M7 gate, gate test, bundle_check before narrow Pass C fix).
 - Discovery snapshots: EDHREC (1793 decks) and live Scryfall /cards/collection (95 baseline + 171 pool), 2026-10-23.
 - Completed: baseline provenance, discovery, candidate TXT dfd1158c… (5 swaps) + 4 staged alternatives, Spellbook check. Decision packet (gate PASS), oracle/rules snapshots, I/J memos, candidate+mechanics tests (14 pass).
-- Next: Pass C bundle_check fix, M6 I tested pool + certificate, J bundle, IJ test, workflow, review packet.
+**Next:** full suite base vs HEAD, PR body, mark ready, CI watch, ledger REVIEW_READY.
+
+## Phase 4 (2026-10-23): Pass C narrow fix + M6 I/J + workflow + review packet
+- bundle_check: strict explicit-FALSE/NO pattern with TRUE/YES veto; legacy substrings retained; 62/62 receipts surveyed, 0 regressions; #652 tests pass with the patched checker.
+- Tested pool (6), certificate, J bundle (validate_bundle True), IJ test (9), workflow, adversarial review packet.
