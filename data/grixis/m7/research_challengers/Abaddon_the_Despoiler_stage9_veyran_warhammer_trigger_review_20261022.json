@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE9_VEYRAN_WIDER_CAST_COPY_TRIGGERS",
+  "status": "RESEARCH_ONLY",
+  "date": "2026-10-22_America_Chicago",
+  "owner_ready": false,
+  "canonical_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "canonical_approved_locked_unchanged": true,
+  "m6_new_certificate": false,
+  "deck3_hold": true,
+  "source_path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_roaming_throne_Scryfall_20261022.json",
+  "verdict": "Veyran {1}{U}{R} can double triggered abilities of PERMANENTS caused by casting or copying instants/sorceries. Ten CURRENT Abaddon permanent abilities can benefit in the specified conditions, versus Harmonic {1}{R} doubling four current Shaman/Wizard engines on broader noncreature casts. Neither doubles Abaddon's static cascade grant or the cascade triggered ability on a spell. Potential synergy is broad but is NOT a win-rate or final selection claim.",
+  "trigger_crosswalk": [
+    {
+      "permanent": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "qualifying_event": "instant/sorcery CAST",
+      "veyran_effect": "two red mana from separate Birgi triggers; not copies",
+      "harmonic_comparison": "Harmonic no (God)"
+    },
+    {
+      "permanent": "Kessig Flamebreather",
+      "qualifying_event": "instant/sorcery CAST",
+      "veyran_effect": "two 1-each-opponent pings",
+      "harmonic_comparison": "Harmonic also doubles any noncreature cast"
+    },
+    {
+      "permanent": "Thermo-Alchemist",
+      "qualifying_event": "instant/sorcery CAST",
+      "veyran_effect": "two untap triggers, real tap-priority required",
+      "harmonic_comparison": "Harmonic also doubles (Shaman)"
+    },
+    {
+      "permanent": "Vivi Ornitier",
+      "qualifying_event": "instant/sorcery CAST",
+      "veyran_effect": "two counters and one-damage grouped opponent pings; no doubling of activated mana",
+      "harmonic_comparison": "Harmonic also doubles any noncreature cast (Wizard)"
+    },
+    {
+      "permanent": "Storm-Kiln Artist",
+      "qualifying_event": "instant/sorcery CAST OR COPY",
+      "veyran_effect": "two Treasures per Magecraft event, copied instants count",
+      "harmonic_comparison": "Harmonic also doubles (Shaman)"
+    },
+    {
+      "permanent": "The Lost and the Damned",
+      "qualifying_event": "instant/sorcery CAST FROM NONHAND",
+      "veyran_effect": "two red 3/3 Spawn tokens from Warhammer enchantment",
+      "harmonic_comparison": "Harmonic does not"
+    },
+    {
+      "permanent": "Keeper of Secrets",
+      "qualifying_event": "instant/sorcery CAST FROM NONHAND",
+      "veyran_effect": "two printed-mana-value damage triggers from Warhammer creature",
+      "harmonic_comparison": "Harmonic does not"
+    },
+    {
+      "permanent": "Nalfeshnee",
+      "qualifying_event": "instant/sorcery CAST FROM EXILE",
+      "veyran_effect": "two copy-spell triggers; copies not cast so do not recursively trigger Nalfeshnee",
+      "harmonic_comparison": "Harmonic does not"
+    },
+    {
+      "permanent": "Prosper, Tome-Bound",
+      "qualifying_event": "instant/sorcery CAST FROM EXILE",
+      "veyran_effect": "two Pact Boon Treasure tokens from a real exile cast",
+      "harmonic_comparison": "Harmonic does not (Warlock)"
+    },
+    {
+      "permanent": "Abaddon the Despoiler + Passionate Archaeologist",
+      "qualifying_event": "instant/sorcery CAST FROM EXILE",
+      "veyran_effect": "two damage triggers on Abaddon with background granted ability",
+      "harmonic_comparison": "Harmonic does not (Astartes Warrior)"
+    }
+  ],
+  "source_negative_rules": [
+    "Veyran does NOT double Abaddon's static cascade grant or cascade triggers on a spell.",
+    "Veyran does NOT double Wild-Magic Sorcerer's first exiled spell cascade grant; the triggered cascade lives on a spell, not the creature.",
+    "An instant/sorcery spell COPY is not a CAST. Birgi, Kessig, Thermo, Vivi, Keeper, Lost, Prosper, Passionate, Nalfeshnee do NOT trigger only from a COPY event; Storm-Kiln and Veyran Magecraft DO.",
+    "Veyran does not double Ignus CREATURE-cast loop, Impact Tremors' ordinary ETB trigger, Prosper's end-step exile, or cast events for non-instant/sorcery card types.",
+    "Veyran's three mana including blue/red and survival on board may be worse than two-mana Harmonic or preserved Nightscape Familiar discount in adverse short games."
+  ],
+  "finite_cast_from_exile_scenario": {
+    "condition": "Actual one-mana Brainstorm from EXILE, with Veyran, Birgi, Keeper, Lost, Nalfeshnee, Prosper, Storm-Kiln, Abaddon and Passionate Archaeologist already controlled. This is an optimistic very-many-permanents scenario, not an opening-hand claim. No opponent interferes in trace.",
+    "deterministic_events": [
+      "Birgi produces two separate {R} triggers on the real cast.",
+      "Keeper deals Brainstorm MV1 damage twice; Abaddon's Passionate-granted damage triggers twice.",
+      "Lost creates two Spawn tokens; Prosper makes two Treasures (both source-triggered by the real exile cast).",
+      "Nalfeshnee generates two Brainstorm copies; those are COPIES and not additional casts.",
+      "Storm-Kiln triggers twice on the original Brainstorm cast and twice on EACH of two Brainstorm copies = six Storm-Kiln Treasures, plus two Prosper Treasures if all resolve.",
+      "Copies do not trigger more Nalfeshnee/Prosper/Keeper/Birgi/Lost; priority, card draw, targets and opponent reactions still control actual turn results."
+    ]
+  },
+  "research_alternatives": [
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_nightscape_one_research_20261022.txt",
+      "raw_sha256": "dfe84ac89968c1e9a5f04a7a4a30b9172910828466ecf9c6dff39383bb22bc41",
+      "adds": [
+        "Veyran, Voice of Duality"
+      ],
+      "cuts": [
+        "Nightscape Familiar"
+      ],
+      "swaps": 1,
+      "physical_cards": 100,
+      "status": "RESEARCH_ONLY_BELOW_OWNER_MINIMUM"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_impact_ponder_two_research_20261022.txt",
+      "raw_sha256": "d21444a3d434d49091c35066ff77ecc38c5e30d8fea8b7bbcd8e0303151a33eb",
+      "adds": [
+        "Veyran, Voice of Duality",
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "Nightscape Familiar",
+        "Ponder"
+      ],
+      "swaps": 2,
+      "physical_cards": 100,
+      "status": "RESEARCH_ONLY_BELOW_OWNER_MINIMUM"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_impact_ruinous_two_research_20261022.txt",
+      "raw_sha256": "68d4094f0b09bd322b924e39c492c1cdcfc7838e392ee21f149b01482b764af5",
+      "adds": [
+        "Veyran, Voice of Duality",
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "Nightscape Familiar",
+        "The Ruinous Powers"
+      ],
+      "swaps": 2,
+      "physical_cards": 100,
+      "status": "RESEARCH_ONLY_BELOW_OWNER_MINIMUM"
+    }
+  ],
+  "cut_opportunity_costs": [
+    {
+      "incumbent": "Nightscape Familiar",
+      "cost": "Blue/red spell generic discount including UBR commander and red/blue recursion; replacement Veyran is one more paid mana than Harmonic."
+    },
+    {
+      "incumbent": "Ponder",
+      "cost": "One-mana early blue card selection and MV1 cascade target; removed to add Impact while preserving protected identity."
+    },
+    {
+      "incumbent": "The Ruinous Powers",
+      "cost": "Four-mana protected 40K opponent-library card theft, flexible spent mana and life loss on cast; deletion is a real thematic sacrifice."
+    }
+  ],
+  "material_judgments": [
+    {
+      "card": "Veyran, Voice of Duality",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Ten specific existing permanent triggers on instant/sorc cast/copy, including four on-theme Warhammer/exile engines; paying 1UR and survival required."
+    },
+    {
+      "card": "Roaming Throne",
+      "disposition": "REJECT",
+      "reason": "Choose one creature type and pay four; cannot amplify the suite's enchantment and different creature types, nor Abaddon static cascade."
+    },
+    {
+      "card": "Harmonic Prodigy",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Cheaper and less event-restricted for four current Shaman/Wizard engines; no doubling of the other six non-Wizard/Shaman permanent triggers."
+    },
+    {
+      "card": "Impact Tremors",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Impact converts existing Ignus/Birgi repeat cast to all-opponent ETB damage; must justify actual cut."
+    }
+  ],
+  "owner_gate": {
+    "not_owner_ready": true,
+    "subfive_source_comparison_is_not_owner_presentable": true,
+    "five_is_minimum_not_default": true,
+    "no_forced_swaps": true,
+    "new_changed_list_M6_I_J_unverified": true,
+    "required_next": [
+      "Compare Veyran and Impact physical 100 against approved list under payable turn and instant-speed opponent interference, preserving Call Forth and stack protection.",
+      "Explore compelling independent replacements from new source candidates without forcing an arbitrary fifth card; Ponder vs Warhammer Ruinous vs Nightscape cut opportunity is unresolved.",
+      "Reverify exact final 100 card Oracle/legality, invalidated M6 P0/I/J evidence, power bracket and final SHA, CI, then request Cory's exact-list approval."
+    ]
+  }
+}

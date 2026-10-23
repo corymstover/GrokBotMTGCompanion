@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE9_NEW_WIDER_PERMANENT_TRIGGER_DOUBLER",
+  "retrieved_at_utc": "2026-10-23T03:39:03.254Z",
+  "source_api": "https://api.scryfall.com/cards/collection",
+  "not_found": [],
+  "candidate_count": 2,
+  "all_commander_legal": true,
+  "all_within_ubr": true,
+  "oracle_cards": {
+    "Veyran, Voice of Duality": {
+      "name": "Veyran, Voice of Duality",
+      "id": "1cb06c70-7ff2-4c88-9931-1bfe8a3226d9",
+      "oracle_id": "d57a6b19-bd06-4b07-8ee1-0b45612ba9e4",
+      "mana_cost": "{1}{U}{R}",
+      "cmc": 3,
+      "oracle_text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran gets +1/+1 until end of turn.\nIf you casting or copying an instant or sorcery spell causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Legendary Creature — Efreet Wizard",
+      "scryfall_uri": "https://scryfall.com/card/soc/337/veyran-voice-of-duality?utm_source=api"
+    },
+    "Roaming Throne": {
+      "name": "Roaming Throne",
+      "id": "32fd8b7c-baf3-4d3d-be6f-044a917b11a0",
+      "oracle_id": "3640c29b-1534-4952-b297-619ade948431",
+      "mana_cost": "{4}",
+      "cmc": 4,
+      "oracle_text": "Ward {2}\nAs this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "type_line": "Artifact Creature — Golem",
+      "scryfall_uri": "https://scryfall.com/card/lci/258/roaming-throne?utm_source=api"
+    }
+  },
+  "caveat": "Oracle card-level facts only; does not verify strategic superiority, exact changed 100, rules interaction if requisite permanent not present, M6 or final approval."
+}
