@@ -24,6 +24,12 @@ on:
       - tests/test_m6_admiral_rev2_candidate_source_bind.py
       - tests/test_m6_admiral_rev2_seven_configuration_pool.py
       - tests/test_m6_admiral_rev2_i_local_best.py
+      - tests/test_m6_admiral_rev2_j_bundle.py
+      - data/grixis/m6/ij/revision_bundles/admiral-beckett-brass-rev2.json
+      - data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_rev2_97_Scryfall_20261022.json
+      - data/grixis/m6/rules_snapshots/Admiral_Beckett_Brass_rev2_Wave_Palisade_20261022.md
+      - data/grixis/m6/certification_preflight/Admiral_M6_J_rev2_mana_20261022.md
+      - data/grixis/m6/certification_preflight/Admiral_M6_J_rev2_red_team_20261022.md
       - data/grixis/m6/ij/certificates/admiral-beckett-brass-rev2.json
       - data/grixis/m6/certification_preflight/Admiral_M6_I_rev2_seven_config_local_best_20261022.md
       - data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json
@@ -52,8 +58,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install schema validator for candidate-specific M6 J checks
+        run: python -m pip install --disable-pip-version-check jsonschema
       - name: Verify 100-card alternatives, Oracle research, and fail-closed research status
         run: python -m unittest discover -s tests -p 'test_m7_admiral_beckett_research_packages.py' -v
+      - name: Strict J schema and committed-byte validate Admiral exact rev2 sources, tests and waived Pass C
+        run: python -m unittest discover -s tests -p 'test_m6_admiral_rev2_j_bundle.py' -v
       - name: Verify Admiral revised seven-pool I local-best PASS is honestly scoped and byte-reconciled
         run: python -m unittest discover -s tests -p 'test_m6_admiral_rev2_i_local_best.py' -v
       - name: Validate Admiral seven exact physical and Oracle-source opponent pool variants without issuing I/J

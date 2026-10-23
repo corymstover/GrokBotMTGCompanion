@@ -1,0 +1,1189 @@
+{
+  "schema_version": 1,
+  "deck_id": "Admiral_Beckett_Brass",
+  "status": "EXACT_CANDIDATE_BOUND_SAVED_SCRYFALL_ORACLE_20261022_NOT_A_LIVE_API_REFRESH",
+  "as_of_date": "2026-10-22",
+  "candidate_path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+  "candidate_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+  "candidate_logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+  "sources": [
+    "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+    "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+  ],
+  "unique_names": 97,
+  "all_commander_legal": true,
+  "grixis_identity_all": true,
+  "project_exceptions": [],
+  "cards": [
+    {
+      "name": "Admiral Beckett Brass",
+      "oracle_id": "43b5e462-d860-473d-828f-6c513fc7768a",
+      "mana_cost": "{1}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Admiral Brass, Unsinkable",
+      "oracle_id": "4df179b4-7c6b-4e63-9d7d-62f4df377989",
+      "mana_cost": "{2}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "When Admiral Brass enters, mill four cards.\nAt the beginning of combat on your turn, you may return target Pirate creature card from your graveyard to the battlefield with a finality counter on it. It has base power and toughness 4/4. It gains haste until end of turn. (If a creature with a finality counter on it would die, exile it instead.)",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Ancient Tomb",
+      "oracle_id": "23467047-6dba-4498-b783-1ebc4f74b8c2",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add {C}{C}. This land deals 2 damage to you.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Arcane Signet",
+      "oracle_id": "0bc7f093-bef0-4f1a-852c-4b75ebf54838",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Badlands",
+      "oracle_id": "13ff3222-91cb-4796-a34e-899ed817694c",
+      "mana_cost": "",
+      "type_line": "Land — Swamp Mountain",
+      "oracle_text": "({T}: Add {B} or {R}.)",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Bident of Thassa",
+      "oracle_id": "e1afaef7-9fa3-4662-a95f-adfb0da9fd11",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Legendary Enchantment Artifact",
+      "oracle_text": "Whenever a creature you control deals combat damage to a player, you may draw a card.\n{1}{U}, {T}: Creatures your opponents control attack this turn if able.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Black Market Connections",
+      "oracle_id": "d2664f28-49e1-46f8-a863-b217e961a57c",
+      "mana_cost": "{2}{B}",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of your first main phase, choose one or more —\n• Sell Contraband — Create a Treasure token. You lose 1 life.\n• Buy Information — Draw a card. You lose 2 life.\n• Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life. (It is every creature type.)",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Blood Crypt",
+      "oracle_id": "43985bbc-a0f6-4812-984e-392bc8562633",
+      "mana_cost": "",
+      "type_line": "Land — Swamp Mountain",
+      "oracle_text": "({T}: Add {B} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Bloodstained Mire",
+      "oracle_id": "fc0707c7-d504-4ccf-a0d2-3eb6e26e7a57",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Breeches, Brazen Plunderer",
+      "oracle_id": "eb77f7dc-e9e4-44ef-8616-9f4e737e8ca5",
+      "mana_cost": "{3}{R}",
+      "type_line": "Legendary Creature — Goblin Pirate",
+      "oracle_text": "Menace\nWhenever one or more Pirates you control deal damage to your opponents, exile the top card of each of those opponents' libraries. You may play those cards this turn, and you may spend mana as though it were mana of any color to cast those spells.\nPartner (You can have two commanders if both have partner.)",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Breeches, Eager Pillager",
+      "oracle_id": "15361770-c6dc-4db7-b745-aa03e4b866ea",
+      "mana_cost": "{2}{R}",
+      "type_line": "Legendary Creature — Goblin Pirate",
+      "oracle_text": "First strike\nWhenever a Pirate you control attacks, choose one that hasn't been chosen this turn —\n• Create a Treasure token.\n• Target creature can't block this turn.\n• Exile the top card of your library. You may play it this turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Broadside Bombardiers",
+      "oracle_id": "e0c00a74-bdf8-4fee-8042-42c5878e9e3c",
+      "mana_cost": "{2}{R}",
+      "type_line": "Creature — Goblin Pirate",
+      "oracle_text": "Menace, haste\nBoast — Sacrifice another creature or artifact: This creature deals damage equal to 2 plus the sacrificed permanent's mana value to any target. (Activate only if this creature attacked this turn and only once each turn.)",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Captain Lannery Storm",
+      "oracle_id": "235bf0ba-658c-463f-b112-7478ba27bd7b",
+      "mana_cost": "{2}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "Haste\nWhenever Captain Lannery Storm attacks, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nWhenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Cavern of Souls",
+      "oracle_id": "89ca686a-7c72-4d8f-9290-e89635624a83",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type, and that spell can't be countered.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Changeling Outcast",
+      "oracle_id": "a61ef0cc-1da9-49f9-b0dc-01cf9f6205be",
+      "mana_cost": "{B}",
+      "type_line": "Creature — Shapeshifter",
+      "oracle_text": "Changeling (This card is every creature type.)\nThis creature can't block and can't be blocked.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Chaos Warp",
+      "oracle_id": "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8",
+      "mana_cost": "{2}{R}",
+      "type_line": "Instant",
+      "oracle_text": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "City of Brass",
+      "oracle_id": "f25351e3-539b-4bbc-b92d-6480acf4d722",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "Whenever this land becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Cloud Pirates",
+      "oracle_id": "d334aa85-3470-4f5d-9cbc-b88bf991a5af",
+      "mana_cost": "{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nThis creature can block only creatures with flying.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Coercive Recruiter",
+      "oracle_id": "ad33530c-a8df-4c1c-a863-501e583290b6",
+      "mana_cost": "{4}{R}",
+      "type_line": "Creature — Orc Pirate",
+      "oracle_text": "Whenever this creature or another Pirate you control enters, gain control of target creature until end of turn. Untap that creature. Until end of turn, it gains haste and becomes a Pirate in addition to its other types.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Command Tower",
+      "oracle_id": "0895c9b7-ae7d-4bb3-af17-3b75deb50a25",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Corsair Captain",
+      "oracle_id": "a7ec13c6-7ade-433a-b5a2-047854eef486",
+      "mana_cost": "{2}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "When this creature enters, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nOther Pirates you control get +1/+1.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Cosmotronic Wave",
+      "oracle_id": "079ac521-9414-46c1-acd9-2ff2ff047d22",
+      "mana_cost": "{3}{R}",
+      "type_line": "Sorcery",
+      "oracle_text": "Cosmotronic Wave deals 1 damage to each creature your opponents control. Creatures your opponents control can't block this turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Counterspell",
+      "oracle_id": "cc187110-1148-4090-bbb8-e205694a39f5",
+      "mana_cost": "{U}{U}",
+      "type_line": "Instant",
+      "oracle_text": "Counter target spell.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Cover of Darkness",
+      "oracle_id": "d78654fc-7d90-40ce-9c36-a211424d1a88",
+      "mana_cost": "{1}{B}",
+      "type_line": "Enchantment",
+      "oracle_text": "As this enchantment enters, choose a creature type.\nCreatures of the chosen type have fear. (They can't be blocked except by artifact creatures and/or black creatures.)",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Cyclonic Rift",
+      "oracle_id": "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b",
+      "mana_cost": "{1}{U}",
+      "type_line": "Instant",
+      "oracle_text": "Return target nonland permanent you don't control to its owner's hand.\nOverload {6}{U} (You may cast this spell for its overload cost. If you do, change \"target\" in its text to \"each.\")",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Daring Piracy",
+      "oracle_id": "ae74efc6-4649-4783-a3a5-7a34d4667f64",
+      "mana_cost": "{2}{R}",
+      "type_line": "Enchantment",
+      "oracle_text": "At the beginning of combat on your turn, create a 1/1 red Pirate creature token with menace and haste. Exile it at the beginning of the next end step.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Deflecting Swat",
+      "oracle_id": "ae120613-97d6-4393-b39d-c3e6c076f5d6",
+      "mana_cost": "{2}{R}",
+      "type_line": "Instant",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nYou may choose new targets for target spell or ability.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Demonic Tutor",
+      "oracle_id": "82004860-e589-4e38-8d61-8c0210e4ea39",
+      "mana_cost": "{1}{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Departed Deckhand",
+      "oracle_id": "a620a765-97ba-4687-acfd-4dec7da75d9f",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Spirit Pirate",
+      "oracle_text": "When this creature becomes the target of a spell, sacrifice it.\nThis creature can't be blocked except by Spirits.\n{3}{U}: Another target creature you control can't be blocked this turn except by Spirits.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Dimir Signet",
+      "oracle_id": "7d881c57-0bd9-4c57-aa4a-b10808b86143",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{1}, {T}: Add {U}{B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Don Andres, the Renegade",
+      "oracle_id": "060ef981-db05-436b-b1c1-f55071375344",
+      "mana_cost": "{1}{U}{B}{R}",
+      "type_line": "Legendary Creature — Vampire Pirate",
+      "oracle_text": "Each creature you control but don't own gets +2/+2, has menace and deathtouch, and is a Pirate in addition to its other types.\nWhenever you cast a noncreature spell you don't own, create two tapped Treasure tokens.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Double Down",
+      "oracle_id": "60dd4233-ee50-42b8-88f5-ac5d105d83cd",
+      "mana_cost": "{3}{U}",
+      "type_line": "Enchantment",
+      "oracle_text": "Whenever you cast an outlaw spell, copy that spell. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws. Copies of permanent spells become tokens.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Drowned Catacomb",
+      "oracle_id": "819fc966-434e-470f-91e9-a38df974ad17",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Edward Kenway",
+      "oracle_id": "b2fe6d17-d045-45c6-9ca2-21e73d2e38d2",
+      "mana_cost": "{2}{U}{B}{R}",
+      "type_line": "Legendary Creature — Human Assassin Pirate",
+      "oracle_text": "At the beginning of your end step, create a Treasure token for each tapped Assassin, Pirate, and/or Vehicle you control.\nWhenever a Vehicle you control deals combat damage to a player, look at the top card of that player's library, then exile it face down. You may play that card for as long as it remains exiled.",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Exotic Orchard",
+      "oracle_id": "27b047e3-0d41-45e2-98e9-9391d7923a1e",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Fathom Fleet Captain",
+      "oracle_id": "7bcf3090-95c6-4384-a857-9fe571e6da85",
+      "mana_cost": "{1}{B}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Menace\nWhenever this creature attacks, if you control another nontoken Pirate, you may pay {2}. If you do, create a 2/2 black Pirate creature token with menace.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Feed the Swarm",
+      "oracle_id": "5825997b-10d7-4a36-972c-a80ddd90b8ed",
+      "mana_cost": "{1}{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "Destroy target creature or enchantment an opponent controls. You lose life equal to that permanent's mana value.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Fierce Guardianship",
+      "oracle_id": "d09c9cba-fdd2-479b-ad5d-d05181c3e3f9",
+      "mana_cost": "{2}{U}",
+      "type_line": "Instant",
+      "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Fiery Cannonade",
+      "oracle_id": "7e108b31-2ea3-4129-b324-a2d31c78bbe6",
+      "mana_cost": "{2}{R}",
+      "type_line": "Instant",
+      "oracle_text": "Fiery Cannonade deals 2 damage to each non-Pirate creature.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Francisco, Fowl Marauder",
+      "oracle_id": "1dbe4eb4-8313-459a-89ce-982442cd0cd0",
+      "mana_cost": "{1}{B}",
+      "type_line": "Legendary Creature — Bird Pirate",
+      "oracle_text": "Flying\nFrancisco can't block.\nWhenever one or more Pirates you control deal damage to a player, Francisco explores.\nPartner (You can have two commanders if both have partner.)",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Hostage Taker",
+      "oracle_id": "c5c2d209-e3ef-4b0d-85f5-e7402dcf09eb",
+      "mana_cost": "{2}{U}{B}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "When this creature enters, exile another target creature or artifact until this creature leaves the battlefield. You may cast that card for as long as it remains exiled, and mana of any type can be spent to cast that spell.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Island",
+      "oracle_id": "b2c6aa39-2d2a-459c-a555-fb48ba993373",
+      "mana_cost": "",
+      "type_line": "Basic Land — Island",
+      "oracle_text": "({T}: Add {U}.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Izzet Signet",
+      "oracle_id": "2fda4fe7-8b0c-489c-a000-6d358e614e34",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{1}, {T}: Add {U}{R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Jeska's Will",
+      "oracle_id": "0fd114c4-092b-4e28-b0dc-ef529f3bc73e",
+      "mana_cost": "{2}{R}",
+      "type_line": "Sorcery",
+      "oracle_text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.\n• Add {R} for each card in target opponent's hand.\n• Exile the top three cards of your library. You may play them this turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Kari Zev, Skyship Raider",
+      "oracle_id": "786baa29-afd4-40f0-95c8-920a972b9175",
+      "mana_cost": "{1}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "First strike, menace\nWhenever Kari Zev attacks, create Ragavan, a legendary 2/1 red Monkey creature token. Ragavan enters tapped and attacking. Exile that token at end of combat.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Kindred Discovery",
+      "oracle_id": "005ee549-1bf5-478f-bc3f-3e791bd7eecf",
+      "mana_cost": "{3}{U}{U}",
+      "type_line": "Enchantment",
+      "oracle_text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Kitesail Freebooter",
+      "oracle_id": "8aa1bbc9-b047-4d68-93f4-728e40dafc5e",
+      "mana_cost": "{1}{B}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nWhen this creature enters, target opponent reveals their hand. You choose a noncreature, nonland card from it. Exile that card until this creature leaves the battlefield.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Kitesail Larcenist",
+      "oracle_id": "2452be47-cc23-47f7-a3a1-fec900bb0119",
+      "mana_cost": "{2}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying, ward {1}\nWhen this creature enters, for each player, choose up to one other target artifact or creature that player controls. For as long as this creature remains on the battlefield, the chosen permanents become Treasure artifacts with \"{T}, Sacrifice this artifact: Add one mana of any color\" and lose all other abilities.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Lightning Greaves",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "mana_cost": "{2}",
+      "type_line": "Artifact — Equipment",
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Luxury Suite",
+      "oracle_id": "819e1765-8325-4e6f-89c1-63ea86de369f",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {R}.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Malcolm, Alluring Scoundrel",
+      "oracle_id": "3bba3b36-f8d7-4fd6-892a-797226210b6e",
+      "mana_cost": "{1}{U}",
+      "type_line": "Legendary Creature — Siren Pirate",
+      "oracle_text": "Flash\nFlying\nWhenever Malcolm deals combat damage to a player, put a chorus counter on it. Draw a card, then discard a card. If there are four or more chorus counters on Malcolm, you may cast the discarded card without paying its mana cost.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Malcolm, Keen-Eyed Navigator",
+      "oracle_id": "a66f8b44-0163-4456-b152-4acefab896a4",
+      "mana_cost": "{2}{U}",
+      "type_line": "Legendary Creature — Siren Pirate",
+      "oracle_text": "Flying\nWhenever one or more Pirates you control deal damage to your opponents, you create a Treasure token for each opponent dealt damage. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")\nPartner (You can have two commanders if both have partner.)",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Mana Confluence",
+      "oracle_id": "d0ee5bdc-2b69-4b73-9a20-ffcc18783b29",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life: Add one mana of any color.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Mana Drain",
+      "oracle_id": "74d3277a-38e5-4732-afed-084a56148f20",
+      "mana_cost": "{U}{U}",
+      "type_line": "Instant",
+      "oracle_text": "Counter target spell. At the beginning of your next main phase, add an amount of {C} equal to that spell's mana value.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "March of the Drowned",
+      "oracle_id": "e9e55768-ed62-4998-9922-dbcdeab12aee",
+      "mana_cost": "{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "Choose one —\n• Return target creature card from your graveyard to your hand.\n• Return two target Pirate cards from your graveyard to your hand.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Merchant Raiders",
+      "oracle_id": "8b388331-eaa7-41aa-99de-4451e51cb221",
+      "mana_cost": "{3}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Whenever this creature or another Pirate you control enters, tap up to one target creature. That creature doesn't untap during its controller's untap step for as long as you control this creature.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Morphic Pool",
+      "oracle_id": "bd004c9d-771e-4e63-a97d-a2259c096af8",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Mountain",
+      "oracle_id": "a3fb7228-e76b-4e96-a40e-20b5fed75685",
+      "mana_cost": "",
+      "type_line": "Basic Land — Mountain",
+      "oracle_text": "({T}: Add {R}.)",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Open into Wonder",
+      "oracle_id": "d9688f6e-7163-408b-b32b-b9645aed1f8c",
+      "mana_cost": "{X}{U}{U}",
+      "type_line": "Sorcery",
+      "oracle_text": "X target creatures can't be blocked this turn. Until end of turn, those creatures gain \"Whenever this creature deals combat damage to a player, draw a card.\"",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Otawara, Soaring City",
+      "oracle_id": "e9b6a394-691c-425a-9307-76d8edc7375e",
+      "mana_cost": "",
+      "type_line": "Legendary Land",
+      "oracle_text": "{T}: Add {U}.\nChannel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Path of Ancestry",
+      "oracle_id": "b473e293-59e3-4e04-acf2-622604aeb25f",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json"
+    },
+    {
+      "name": "Polluted Delta",
+      "oracle_id": "ef86989d-ce80-4e55-aece-7d11710eeffa",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Swamp card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Port Razer",
+      "oracle_id": "653e4b68-3184-4352-ac91-127f7e6d7c12",
+      "mana_cost": "{3}{R}{R}",
+      "type_line": "Creature — Orc Pirate",
+      "oracle_text": "Whenever this creature deals combat damage to a player, untap each creature you control. After this phase, there is an additional combat phase.\nThis creature can't attack a player it has already attacked this turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Ragavan, Nimble Pilferer",
+      "oracle_id": "37108cd4-bbab-4ce3-9ed6-f60e8422e703",
+      "mana_cost": "{R}",
+      "type_line": "Legendary Creature — Monkey Pirate",
+      "oracle_text": "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card.\nDash {1}{R} (You may cast this spell for its dash cost. If you do, it gains haste, and it's returned from the battlefield to its owner's hand at the beginning of the next end step.)",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Rakdos Signet",
+      "oracle_id": "3adb7681-977f-4a32-9ec8-51481b958268",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{1}, {T}: Add {B}{R}.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Ramirez DePietro, Pillager",
+      "oracle_id": "a3b8690e-ac47-444f-924e-ab2a12a85431",
+      "mana_cost": "{2}{U}{B}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "When Ramirez DePietro enters, you lose 2 life and create two Treasure tokens.\nWhenever one or more Pirates you control deal combat damage to a player, exile the top card of that player's library. You may cast that card for as long as it remains exiled.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Roaming Throne",
+      "oracle_id": "3640c29b-1534-4952-b297-619ade948431",
+      "mana_cost": "{4}",
+      "type_line": "Artifact Creature — Golem",
+      "oracle_text": "Ward {2}\nAs this creature enters, choose a creature type.\nThis creature is the chosen type in addition to its other types.\nIf a triggered ability of another creature you control of the chosen type triggers, it triggers an additional time.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Scalding Tarn",
+      "oracle_id": "cb027150-848c-4a66-88ad-e20222304dd8",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Secluded Courtyard",
+      "oracle_id": "79ba18fd-f184-43c1-86df-56ee18ce806c",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "As this land enters, choose a creature type.\n{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature source of the chosen type.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Shipwreck Marsh",
+      "oracle_id": "5f42b67f-87fd-4f98-a0e8-0c8313f4bbc8",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Shivan Reef",
+      "oracle_id": "0fe16212-66c3-4e45-a641-7391e9b2e304",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This land deals 1 damage to you.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Siren Stormtamer",
+      "oracle_id": "59c7496b-19a2-478b-b28f-6f153c2458ae",
+      "mana_cost": "{U}",
+      "type_line": "Creature — Siren Pirate Wizard",
+      "oracle_text": "Flying\n{U}, Sacrifice this creature: Counter target spell or ability that targets you or a creature you control.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Skyship Plunderer",
+      "oracle_id": "c5e47644-c72c-40f9-b65f-57fcea075466",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nWhenever this creature deals combat damage to a player, for each kind of counter on target permanent or player, give that permanent or player another counter of that kind.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Smoldering Marsh",
+      "oracle_id": "390f1b56-264e-4336-83be-dc1fe79bfdcf",
+      "mana_cost": "",
+      "type_line": "Land — Swamp Mountain",
+      "oracle_text": "({T}: Add {B} or {R}.)\nThis land enters tapped unless you control two or more basic lands.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Sol Ring",
+      "oracle_id": "6ad8011d-3471-4369-9d68-b264cc027487",
+      "mana_cost": "{1}",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}{C}.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Spectral Sailor",
+      "oracle_id": "a8fdbcdf-479d-4582-9ad5-9fbd4c740c29",
+      "mana_cost": "{U}",
+      "type_line": "Creature — Spirit Pirate",
+      "oracle_text": "Flash (You may cast this spell any time you could cast an instant.)\nFlying\n{3}{U}: Draw a card.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Spyglass Siren",
+      "oracle_id": "4ec9d9eb-14e2-47ea-88a2-d2394e363784",
+      "mana_cost": "{U}",
+      "type_line": "Creature — Siren Pirate",
+      "oracle_text": "Flying\nWhen this creature enters, create a Map token. (It's an artifact with \"{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.\")",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Steam Vents",
+      "oracle_id": "17039058-822d-409f-938c-b727a366ba63",
+      "mana_cost": "",
+      "type_line": "Land — Island Mountain",
+      "oracle_text": "({T}: Add {U} or {R}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Storm Fleet Sprinter",
+      "oracle_id": "8d244f4a-1d62-4697-81c7-fbc4de874add",
+      "mana_cost": "{1}{U}{R}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Haste\nThis creature can't be blocked.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Stormcarved Coast",
+      "oracle_id": "4722105b-0085-4bb8-bca1-9de0d3eb5600",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Sulfur Falls",
+      "oracle_id": "6a6c5e17-6465-4a1f-9d63-8a3ce2edc522",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you control an Island or a Mountain.\n{T}: Add {U} or {R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Swamp",
+      "oracle_id": "56719f6a-1a6c-4c0a-8d21-18f7d7350b68",
+      "mana_cost": "",
+      "type_line": "Basic Land — Swamp",
+      "oracle_text": "({T}: Add {B}.)",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Talisman of Creativity",
+      "oracle_id": "14d2979d-5728-42d7-a027-0eb1f754655d",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {R}. This artifact deals 1 damage to you.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Talisman of Dominance",
+      "oracle_id": "4c0a0448-b9d6-43a0-8549-64066dac63f0",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Talisman of Indulgence",
+      "oracle_id": "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c",
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {B} or {R}. This artifact deals 1 damage to you.",
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "The Indomitable",
+      "oracle_id": "276dc5c8-c8cf-4b9c-ad75-31876e6e040a",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Legendary Artifact — Vehicle",
+      "oracle_text": "Trample\nWhenever a creature you control deals combat damage to a player, draw a card.\nCrew 3\nYou may cast this card from your graveyard as long as you control three or more tapped Pirates and/or Vehicles.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Toxic Deluge",
+      "oracle_id": "afaef788-34d1-460b-b884-9d7ae6ddeb18",
+      "mana_cost": "{2}{B}",
+      "type_line": "Sorcery",
+      "oracle_text": "As an additional cost to cast this spell, pay X life.\nAll creatures get -X/-X until end of turn.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Training Center",
+      "oracle_id": "e3570ac7-c593-40e3-bbd6-ec3da6d8158d",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {U} or {R}.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Underground River",
+      "oracle_id": "857febd9-cdd7-4f8e-a852-d88084b0cfbc",
+      "mana_cost": "",
+      "type_line": "Land",
+      "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Underground Sea",
+      "oracle_id": "4b22be3a-8ce1-47d1-b82e-6c3ccfb0548b",
+      "mana_cost": "",
+      "type_line": "Land — Island Swamp",
+      "oracle_text": "({T}: Add {U} or {B}.)",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Vampiric Tutor",
+      "oracle_id": "ededbdae-d9dc-4206-9335-d7158f2d7700",
+      "mana_cost": "{B}",
+      "type_line": "Instant",
+      "oracle_text": "Search your library for a card, then shuffle and put that card on top. You lose 2 life.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Volcanic Island",
+      "oracle_id": "c718911c-c955-4eb9-9e16-be4bd49a4e4e",
+      "mana_cost": "",
+      "type_line": "Land — Island Mountain",
+      "oracle_text": "({T}: Add {U} or {R}.)",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Warkite Marauder",
+      "oracle_id": "8b566757-e5e4-4d47-b5ef-80ed7d853679",
+      "mana_cost": "{1}{U}",
+      "type_line": "Creature — Human Pirate",
+      "oracle_text": "Flying\nWhenever this creature attacks, target creature defending player controls loses all abilities and has base power and toughness 0/1 until end of turn.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Watery Grave",
+      "oracle_id": "fc9ec820-4245-4a96-b009-5308a818ca58",
+      "mana_cost": "",
+      "type_line": "Land — Island Swamp",
+      "oracle_text": "({T}: Add {U} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+      "color_identity": [
+        "B",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Xander's Lounge",
+      "oracle_id": "8291543f-d086-48aa-b2b7-5481ca8c9198",
+      "mana_cost": "",
+      "type_line": "Land — Island Swamp Mountain",
+      "oracle_text": "({T}: Add {U}, {B}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+      "color_identity": [
+        "B",
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Zara, Renegade Recruiter",
+      "oracle_id": "cd2720c2-522c-4fdc-9cef-9c5ce250fe7b",
+      "mana_cost": "{3}{U}{R}",
+      "type_line": "Legendary Creature — Human Pirate",
+      "oracle_text": "Flying\nWhenever Zara attacks, look at defending player's hand. You may put a creature card from it onto the battlefield under your control tapped and attacking that player or a planeswalker they control. Return that creature to its owner's hand at the beginning of the next end step.",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    },
+    {
+      "name": "Zephyr Singer",
+      "oracle_id": "1800ae74-0b54-4547-ab8f-ea61418d73e8",
+      "mana_cost": "{2}{U}{U}",
+      "type_line": "Creature — Siren Pirate",
+      "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nFlying, vigilance\nWhen this creature enters, put a flying counter on each creature that convoked it.",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "source_ref": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json"
+    }
+  ]
+}
