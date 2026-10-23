@@ -1,0 +1,33 @@
+name: M7 Deck 3 Admiral Brass ChatGPT Rev3 independent verification
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-admiral-brass-unsinkable-chatgpt-rev3.yml
+      - data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable_ChatGPT_Rev3.txt
+      - data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_ChatGPT_Rev3_new_card_oracle.json
+      - data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable_ChatGPT_Rev3_independent_review.md
+      - data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_rev2_Scryfall_20261023.json
+      - tests/test_m7_admiral_brass_unsinkable_chatgpt_rev3.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact-rev3:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Install Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install test runner
+        run: python -m pip install --disable-pip-version-check pytest
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: Verify independently proposed 100-card Rev3, Oracle and interactions
+        run: python -m pytest -v tests/test_m7_admiral_brass_unsinkable_chatgpt_rev3.py
