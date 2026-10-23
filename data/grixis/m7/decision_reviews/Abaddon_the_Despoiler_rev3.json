@@ -560,7 +560,7 @@
       },
       {
         "card": "Pact of Negation",
-        "weakness": "Delayed upkeep payment risk.",
+        "weakness": "Pact can hit off a cascade without a legal target and, when cast defensively, carries a steep next-upkeep {3}{U}{U} payment that punishes unfinished wins.",
         "alternative_named": "Lightning Greaves",
         "reasoning": "Free decisive-turn protection retained despite risk."
       },
