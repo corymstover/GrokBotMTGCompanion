@@ -1,0 +1,834 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Ashnod_the_Uncaring",
+ "canonical_baseline_sha256": "f574e4fad4749603294f53d2fe5536a159f884a8f1a8a7b6b1a22b3a637cf1cf",
+ "canonical_baseline_logical_hash": "lh1:539266aa61af39231d96add462ceffc7796d537c70d6e56bd64bc435e5579ecd",
+ "commander_identity": {
+  "mechanical_plan": "Ashnod ({2}{U}{B}{R} 1/4 deathtouch) copies every non-mana activated ability of an artifact or creature whose cost sacrificed a permanent, with new targets and no once-per-turn limit (the tracker's 'once-per-turn' note is stale versus current Oracle). The deck is built from cheap sacrifice-cost artifacts (Spellbombs, Skullbomb, Baubles, Mind Stone, Mnemonic Sphere), sacrifice engines (Trading Post, Repurposing Bay, Kuldotha Forgemaster, Time Sieve, Bolas's Citadel, Treasure Vault, Retrofitter Foundry, Goblin Engineer, Scrap Welder), recursion (Scrap Trawler, Myr Retriever, Academy Ruins, Emry) and death payoffs (Disciple, Marionette Apprentice, Mayhem Devil), plus independent combos (Trawler/Retriever/KCI or Altar + reducer, Nim Deathmantle lines, Dross Scorpion + Retrofitter).",
+  "protected_core": [
+   "Ashnod the Uncaring",
+   "Clan Crafter",
+   "Bolas's Citadel",
+   "Time Sieve",
+   "Kuldotha Forgemaster",
+   "Repurposing Bay",
+   "Trading Post",
+   "Goblin Engineer",
+   "Scrap Welder",
+   "Retrofitter Foundry",
+   "Scrap Trawler",
+   "Myr Retriever",
+   "Krark-Clan Ironworks",
+   "Ashnod's Altar",
+   "Crime Novelist",
+   "Disciple of the Vault",
+   "Marionette Apprentice",
+   "Mayhem Devil",
+   "Nim Deathmantle",
+   "Urza, Lord High Artificer",
+   "Lotus Petal"
+  ],
+  "natural_ceiling": "Power Bracket 4 - Optimized: six Game Changers (Ancient Tomb, Bolas's Citadel, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Vampiric Tutor), multiple infinite combos already in the baseline; not cEDH-tuned (no Mana Crypt/Dockside/Thassa's Oracle package; five-mana commander).",
+  "anti_homogenization": "Every add has a sacrifice-cost ability Ashnod copies or is a Spellbook-verified Ashnod combo piece; two adds (Corridor Monitor, Thopter Squadron) are off-ranking. Generic artifact goodstuff with non-sacrifice abilities (Skullclamp, Keys, Walking Ballista) was rejected or cut."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 reviewed by quantity (95 source rows, 100 physical cards): 33 lands (25 nonbasic incl. Urza's Saga, four artifact lands and Treasure Vault; Island x3, Mountain x2, Swamp x3), 9 static rocks, 43 artifacts, 25 creatures, Clan Crafter (Background). Overlaps: three artifact cost reducers (Inspector/Sculptor/Mechanaut), nine rocks, and several cards whose abilities have no sacrifice cost (Walking Ballista, Fellwar, Talismans, Foundry Inspector) and so ignore the commander.",
+  "mana_base_and_curve": "Baseline 33 lands + 9 rocks; nonland curve 0:4 1:13 2:24 3:18 4:5 5:1 6:1. Candidate 33 lands + 7 rocks (Sol Ring, Arcane Signet, Mind Stone, Talisman of Creativity, Talisman of Dominance, Mox Opal, Lotus Petal) plus Ancient Tomb, Treasure Vault and Crime Novelist/KCI/Altar mana; nonland curve 0:3 1:14 2:24 3:17 4:5 5:2 6:1 (average +0.05). Artifact count 43 -> 41, creature count 25 -> 27. Coloured pips added: Corridor Monitor {1}{U}, Audacious Reshapers {2}{R}, Priest {1}{B} (Spellbomb and Squadron are colourless; the bounce mode costs {U}); all five cuts were colourless, so colour requirements rise slightly while 33 lands supply each colour.",
+  "interaction_resilience": "Stack: Mana Drain, Fierce Guardianship, An Offer You Can't Refuse, Deflecting Swat; removal: Executioner's Capsule, Chaos Warp, Cyclonic Rift, Vandalblast, Toxic Deluge, Pyrite Spellbomb, Krark-Clan Shaman, Otawara, Blasting Station; candidate adds Aether Spellbomb bounce (doubled) and Priest's doubled edicts, loses Walking Ballista pings. Recursion vs artifact wipes: Academy Ruins, Emry, Trawler, Retriever, Engineer, Welder, Trading Post.",
+  "weakest_slots": [
+   {
+    "card": "Foundry Inspector",
+    "weakness": "Third artifact cost reducer at 3 MV with no sacrifice ability for Ashnod to copy",
+    "alternative_named": "Corridor Monitor",
+    "reasoning": "Etherium Sculptor and Enthusiastic Mechanaut keep every Trawler/Retriever reducer combo; Monitor adds an Ashnod infinite."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Opponent-dependent rock; ninth mana rock in a 33-land list",
+    "alternative_named": "Aether Spellbomb",
+    "reasoning": "Rocks 9->7 is still ample; Spellbomb is a copied two-mode artifact and Saga target."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Third Talisman; B/R is covered by lands, Signet, Opal and Petal",
+    "alternative_named": "Audacious Reshapers",
+    "reasoning": "Reshapers turns fodder into two free artifacts with the commander."
+   },
+   {
+    "card": "Walking Ballista",
+    "weakness": "Generic outlet whose abilities Ashnod never copies; infinite-mana outlet duplicated by aristocrat payoffs",
+    "alternative_named": "Priest of Forgotten Gods",
+    "reasoning": "Priest's sacrifice cost is copied into double edict/drain/ramp/draw."
+   },
+   {
+    "card": "Esoteric Duplicator",
+    "weakness": "Slow, mana-hungry value; not a combo piece",
+    "alternative_named": "Thopter Squadron",
+    "reasoning": "Squadron is an Ashnod-only infinite with Crime Novelist + Altar/KCI and is three fodder bodies alone."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Any-colour land whose colours depend on opponents' lands",
+    "alternative_named": "Spire of Industry",
+    "reasoning": "Sidegrade only; staged as six-swap alternative, not selected."
+   },
+   {
+    "card": "Jhoira, Weatherlight Captain",
+    "weakness": "4-mana draw engine with no sacrifice ability",
+    "alternative_named": "Sage of Lat-Nam",
+    "reasoning": "Sage is better with Ashnod but Jhoira works without the commander; staged as alternative."
+   },
+   {
+    "card": "Krark-Clan Shaman",
+    "weakness": "Symmetric sweeper that also hits our own ground fodder",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Pass C defended Shaman as the cheap Ashnod-doubled sweeper; retained."
+   },
+   {
+    "card": "Talisman of Dominance",
+    "weakness": "Two-mana rock that is now at the deck's mana floor",
+    "alternative_named": "Marionette Master",
+    "reasoning": "Seven rocks is the floor for a 5-MV commander and BBB Citadel; retained."
+   },
+   {
+    "card": "Mishra's Bauble",
+    "weakness": "Free fodder artifact with a tiny delayed-draw effect",
+    "alternative_named": "Voltaic Key",
+    "reasoning": "Bauble's sacrifice is copied (two draws) and it is free Saga/affinity/metalcraft fodder; Key is narrow."
+   },
+   {
+    "card": "Wayfarer's Bauble",
+    "weakness": "1-mana ramp to one basic in an 8-basic deck",
+    "alternative_named": "Burnished Hart",
+    "reasoning": "Hart's doubled basic search is unreliable with 8 basics; retained."
+   },
+   {
+    "card": "Dross Skullbomb",
+    "weakness": "Small one-mana cantrip artifact whose effect is minor alone",
+    "alternative_named": "Skullclamp",
+    "reasoning": "Skullbomb's sacrifice abilities are copied; Skullclamp's equip is not."
+   },
+   {
+    "card": "Dockside Chef",
+    "weakness": "One-mana repeatable sacrifice-draw outlet body that dies to everything",
+    "alternative_named": "Fain, the Broker",
+    "reasoning": "Chef is cheaper and repeatable at instant speed; retained."
+   }
+  ],
+  "current_baseline_strength": "The approved list is already a strong Bracket 4 artifact-sacrifice combo deck with 15 Commander Spellbook combos, none of which needs Ashnod; its improvable gap is that several slots do nothing the commander can copy and no line uses Ashnod's copy as a combo piece.",
+  "candidate_pool_scope": "EDHREC Ashnod commander JSON (3205 decks, all card lists), Commander Spellbook find-my-combos included/almost-included for baseline and candidate, Pass C Stage A surfaced options (Thopter Assembly, Ichor Wellspring, Servo Schematic, Mirkwood Bats), and off-ranking Oracle searches of 214 in-colour off-baseline cards for sacrifice-cost and untap effects; live Scryfall /cards/collection (316 names) for legality.",
+  "off_ranked_search_conclusion": "OFF-RANKING: Corridor Monitor and Thopter Squadron (neither on the Ashnod EDHREC page) were found through Spellbook almost-included Ashnod combos and selected; Fain, the Broker and Paradox Engine (banned) were examined and rejected/excluded."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Ashnod approved source (read-only, registry commit 1836b97): data/grixis/m7/baseline_sources/Ashnod_the_Uncaring_approved_source_2026-10-13.txt",
+  "EDHREC commander page JSON retrieved 2026-10-23: data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (316 names): data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos for baseline and candidate, 2026-10-23: data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search through Spellbook almost-included Ashnod combos and Oracle text of 214 off-baseline in-colour cards (Corridor Monitor, Thopter Squadron, Fain)",
+  "Pass C owner-equivalent review (KEEP disposition, considered and disclosed): data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/final_disposition.md",
+  "Comprehensive Rules 2026-09-25 (frozen cache) for activated abilities, costs, mana abilities and copies: data/grixis/m6/rules_snapshots/Ashnod_the_Uncaring_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Corridor Monitor",
+   "source": "OFF-RANKING: not on the Ashnod EDHREC page (3205 decks); found via Commander Spellbook almost-included combo 1414-1649-2068-4404 and an untap-effect Oracle search; live Scryfall Oracle",
+   "role": "2-mana artifact creature whose ETB untaps an artifact or creature; combo piece and engine re-use",
+   "named_cuts": [
+    "Foundry Inspector"
+   ],
+   "incumbent_opportunity_cost": "Loses the third artifact cost reducer; Etherium Sculptor and Enthusiastic Mechanaut stay, so every Trawler/Retriever reducer line still exists (two of 15 Spellbook variants disappear, none of the underlying lines).",
+   "commander_synergy": "New Ashnod-only infinite: with a non-summoning-sick Goblin Engineer and Lotus Petal in the graveyard, activate Engineer (R from Petal, sacrifice Monitor) targeting Petal; Ashnod copies the ability and the copy targets Monitor; Monitor returns and untaps Engineer, then Petal returns; repeat for infinite artifact sacrifices/ETBs/deaths (Disciple, Marionette Apprentice, Mayhem Devil, Reckless Fireweaver, Crime Novelist mana). Outside the loop it untaps Time Sieve, Kuldotha Forgemaster, Bolas's Citadel, Blasting Station or Engineer/Welder after Trawler/Retriever/Engineer/Welder return it.",
+   "adversarial_downside": "Loop needs Engineer to have been under control since turn start and Petal in the graveyard; a 1/1 body alone; graveyard hate (Rest in Peace) breaks the loop.",
+   "judgment": "SELECT_ADD",
+   "reason": "Commander-specific infinite with pieces already in the 99 plus flexible untap value; best replacement for a redundant reducer.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Aether Spellbomb",
+   "source": "EDHREC Ashnod page (1992/3205 decks, 62%); live Scryfall Oracle",
+   "role": "1-mana artifact with two sacrifice abilities: bounce a creature or cycle",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses the opponent-dependent ninth rock; 33 lands + 7 rocks + Treasure Vault/Offer Treasures remain.",
+   "commander_synergy": "Both abilities sacrifice the Spellbomb as a cost, so Ashnod copies them: {U} bounces two creatures (opposing blockers/hatebears, or our own Corridor Monitor/Myr Retriever for re-use) and {1} draws two cards. Cheap Urza's Saga target (MV1), Goblin Engineer/Scrap Trawler recursion fodder.",
+   "adversarial_downside": "Bounce is tempo, not removal; small effect without Ashnod in play.",
+   "judgment": "SELECT_ADD",
+   "reason": "A cheap artifact that becomes two cards or two bounces whenever the commander is out; better use of the slot than a conditional rock.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Audacious Reshapers",
+   "source": "EDHREC Ashnod page (1141/3205, 36%); live Scryfall Oracle",
+   "role": "3-mana creature: tap, sacrifice an artifact: put the next artifact from the library onto the battlefield",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Loses the third Talisman (B/R also from Talisman of Creativity/Dominance colours, Arcane Signet, Mox Opal, Lotus Petal and 33 lands).",
+   "commander_synergy": "Sacrifice is part of the cost, so Ashnod copies it: one Treasure/Servo/Bauble becomes two random artifacts from a library that is ~41% artifacts, including free Bolas's Citadel, Kuldotha Forgemaster, KCI, Thopter Squadron.",
+   "adversarial_downside": "Damage to us equals cards revealed (about 2-3 per reveal, doubled with the copy); random hits; tap ability is summoning-sick.",
+   "judgment": "SELECT_ADD",
+   "reason": "Card advantage and tempo directly multiplied by the commander; acceptable self-damage in a deck with Trading Post/Inventors' Fair life gain.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Priest of Forgotten Gods",
+   "source": "EDHREC Ashnod page (672/3205, 21%); live Scryfall Oracle",
+   "role": "2-mana sacrifice engine: drain, edict, BB and a card",
+   "named_cuts": [
+    "Walking Ballista"
+   ],
+   "incumbent_opportunity_cost": "Loses Walking Ballista: an X-mana sink/outlet for infinite colorless mana and an x/1 pinger; Ballista's abilities never sacrifice, so Ashnod never copies them.",
+   "commander_synergy": "Sacrificing two creatures is the cost, so Ashnod copies: each targeted opponent loses 4 life and sacrifices two creatures, and we add BBBB and draw two. Fodder is plentiful (Servos, Thopters, Scrap, Constructs, Myr Retriever, Corridor Monitor, Scrap Trawler).",
+   "adversarial_downside": "Needs two other creatures; instant-speed only; tapped ability so one use per turn without untaps; infinite-mana lines now rely on Disciple/Apprentice/Devil/Blasting Station instead of Ballista.",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts the deck's token fodder into an Ashnod-doubled edict/drain/ramp/draw engine; Ballista is generic and unexploited by the commander.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Thopter Squadron",
+   "source": "OFF-RANKING: not on the Ashnod EDHREC page; found via Commander Spellbook almost-included combos 2034-2068-2762-5346 and 2068-2762-4659-5346; live Scryfall Oracle",
+   "role": "5-mana artifact creature: makes Thopters from counters and eats Thopters for counters",
+   "named_cuts": [
+    "Esoteric Duplicator"
+   ],
+   "incumbent_opportunity_cost": "Loses Esoteric Duplicator (43% EDHREC): its {2}-sac draw is also copied by Ashnod and its pay-{2} copy tokens are slow value, but it is not a combo piece.",
+   "commander_synergy": "Second Ashnod-only infinite: Squadron's '{1}, sacrifice another Thopter: +1/+1 counter' is copied, so each Thopter returns two counters. With Crime Novelist (R per artifact sacrifice) and Ashnod's Altar or KCI, a cycle of two Thopters nets +1 mana and keeps counters level (sorcery speed): infinite colourless/red mana, Thopter ETB/LTB and death triggers. Without the combo, it is three flying Thopters of fodder; Repurposing Bay (from a 4-MV artifact) and Kuldotha Forgemaster can fetch it.",
+   "adversarial_downside": "Five mana; abilities are sorcery speed; needs Novelist + Altar/KCI for the infinite.",
+   "judgment": "SELECT_ADD",
+   "reason": "Commander-specific combo using two pieces already in the 99 and solid fodder otherwise; Duplicator is value without a ceiling.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+    "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Sage of Lat-Nam",
+   "source": "EDHREC Ashnod page (519/3205, 16%); live Scryfall Oracle",
+   "role": "2-mana creature: tap, sacrifice an artifact: draw",
+   "named_cuts": [
+    "Jhoira, Weatherlight Captain"
+   ],
+   "incumbent_opportunity_cost": "Would cut Jhoira's per-historic-spell draw engine.",
+   "commander_synergy": "Copied by Ashnod, every activation draws two for zero mana; Corridor Monitor can untap it.",
+   "adversarial_downside": "Tap-limited; summoning sick; Jhoira draws on casts without Ashnod.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Strong with Ashnod; staged as a six-swap full-100 but Jhoira works even when the commander is answered.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Spire of Industry",
+   "source": "EDHREC Ashnod page (855/3205, 27%); live Scryfall Oracle",
+   "role": "Land: any colour for 1 life with an artifact",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Would replace the opponent-dependent any-colour land.",
+   "commander_synergy": "No direct commander interaction; artifact condition almost always met.",
+   "adversarial_downside": "Pain per coloured activation; marginal upgrade; Orchard is free of life cost.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Sidegrade with no Ashnod synergy; staged as a six-swap full-100 to keep the comparison honest.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Marionette Master",
+   "source": "EDHREC Ashnod page (1439/3205, 45%); live Scryfall Oracle",
+   "role": "6-mana artifact-death drain payoff",
+   "named_cuts": [
+    "Talisman of Dominance"
+   ],
+   "incumbent_opportunity_cost": "Would cut a seventh rock, leaving six for a five-mana commander and BBB Citadel.",
+   "commander_synergy": "Every artifact death drains for its power; with combo loops it is another win condition.",
+   "adversarial_downside": "Six mana; redundant with Disciple/Apprentice/Mayhem Devil which are cheaper; no sacrifice ability for Ashnod to copy.",
+   "judgment": "REJECT",
+   "reason": "Payoff redundancy at high cost versus mana floor.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Voltaic Key",
+   "source": "Commander Spellbook almost-included 617-2068-2173 (Ashnod + Bolas's Citadel + Voltaic Key); live Scryfall Oracle",
+   "role": "One-mana artifact untapper for a single artifact",
+   "named_cuts": [
+    "Mishra's Bauble"
+   ],
+   "incumbent_opportunity_cost": "Would cut a free fodder cantrip.",
+   "commander_synergy": "With Citadel's 'sacrifice ten nonland permanents' copied, each Citadel activation is a 20-life loss per opponent; Key untaps Citadel for another (Spellbook: near-infinite damage).",
+   "adversarial_downside": "Needs 10 nonland permanents per activation (20 with untap) and Citadel in play, which already ends games when copied once; no-sacrifice ability so Ashnod does not copy the Key.",
+   "judgment": "REJECT",
+   "reason": "The Citadel copy alone already drains 20 per opponent; Key adds little outside that.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Manifold Key",
+   "source": "Commander Spellbook almost-included 2068-2173-4993; live Scryfall Oracle",
+   "role": "One-mana artifact untapper that can also grant unblockability",
+   "named_cuts": [
+    "Mishra's Bauble"
+   ],
+   "incumbent_opportunity_cost": "Would cut Mishra's Bauble, a free copied cantrip and fodder artifact.",
+   "commander_synergy": "Same Ashnod + Bolas's Citadel untap line as Voltaic Key (Spellbook 2068-2173-4993).",
+   "adversarial_downside": "Narrow outside Citadel; its untap ability has no sacrifice cost, so Ashnod never copies it.",
+   "judgment": "REJECT",
+   "reason": "Same reasoning as Voltaic Key; Corridor Monitor already supplies untaps for Citadel/Sieve.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Burnished Hart",
+   "source": "EDHREC Ashnod page (1775/3205, 55%); live Scryfall Oracle",
+   "role": "3-mana ramp creature: sacrifice for two basics",
+   "named_cuts": [
+    "Wayfarer's Bauble"
+   ],
+   "incumbent_opportunity_cost": "Would replace a 1-mana fetch-a-basic.",
+   "commander_synergy": "Sacrifice is a cost, so the copy fetches two more basics (four).",
+   "adversarial_downside": "Only 8 basics in the 99; becomes a ramp sink of 6 mana for 4 tapped basics; Wayfarer is cheaper.",
+   "judgment": "REJECT",
+   "reason": "Basic density too low to make the copy reliable.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Skullclamp",
+   "source": "EDHREC Ashnod page (283/3205, 9%); live Scryfall Oracle",
+   "role": "One-mana equipment draw engine for 1-toughness tokens",
+   "named_cuts": [
+    "Dross Skullbomb"
+   ],
+   "incumbent_opportunity_cost": "Would cut a 1-mana sacrifice cantrip/recursion artifact.",
+   "commander_synergy": "Kills 1-toughness tokens for two cards each.",
+   "adversarial_downside": "Equip is not a sacrifice ability, so Ashnod never copies it; Skullbomb's sacrifice abilities are copied (two cards, or two creature recursions).",
+   "judgment": "REJECT",
+   "reason": "Generic token-deck card; the incumbent is better with the commander.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Courier's Capsule",
+   "source": "EDHREC Ashnod page (410/3205, 13%); live Scryfall Oracle",
+   "role": "2-mana sacrifice-draw-two artifact",
+   "named_cuts": [
+    "Talisman of Creativity"
+   ],
+   "incumbent_opportunity_cost": "Would cut the U/R Talisman, the deck's best colour fixer among rocks.",
+   "commander_synergy": "Its sacrifice is a cost, so with Ashnod one activation draws four cards.",
+   "adversarial_downside": "Mana floor already reduced to seven rocks; Mnemonic Sphere and Mind Stone fill the role.",
+   "judgment": "REJECT",
+   "reason": "Card draw already copious; mana is now the binding constraint.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Commander's Sphere",
+   "source": "Owner's recent source change (Commander's Sphere -> Trading Post); EDHREC 58%",
+   "role": "3-mana rock with sacrifice cantrip",
+   "named_cuts": [
+    "Trading Post"
+   ],
+   "incumbent_opportunity_cost": "Would reverse the owner's latest change.",
+   "commander_synergy": "Sacrifice-draw is copied (two cards).",
+   "adversarial_downside": "Owner explicitly replaced it with Trading Post; Trading Post makes fodder and recurs artifacts with copied sacrifice modes.",
+   "judgment": "REJECT",
+   "reason": "Respect the current approved change; Trading Post is stronger with Ashnod.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mirkwood Bats",
+   "source": "Pass C Stage A surfaced unranked option; live Scryfall Oracle",
+   "role": "Four-mana flying drain payoff for token creation and sacrifice",
+   "named_cuts": [
+    "Krark-Clan Shaman"
+   ],
+   "incumbent_opportunity_cost": "Would cut the one-mana Ashnod-doubled sweeper Pass C defended.",
+   "commander_synergy": "Each token sacrifice drains each opponent 1.",
+   "adversarial_downside": "Duplicates Disciple/Apprentice/Devil at a worse rate; KCS answers go-wide boards.",
+   "judgment": "REJECT",
+   "reason": "Redundant payoff; Shaman is the deck's cheap repeatable sweeper.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m6/owner_pass_c_substitute/Ashnod_the_Uncaring/final_disposition.md",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Fain, the Broker",
+   "source": "Off-ranking sacrifice-outlet search; live Scryfall Oracle",
+   "role": "Three-mana legendary creature with three tapped sacrifice/counter outlets",
+   "named_cuts": [
+    "Dockside Chef"
+   ],
+   "incumbent_opportunity_cost": "Would cut the 1-mana repeatable sacrifice-draw outlet.",
+   "commander_synergy": "Its two sacrifice modes are copied (four counters or two Inklings).",
+   "adversarial_downside": "Tapped abilities need {3}{B} untaps; slower than Chef's untapped repeatable draw.",
+   "judgment": "REJECT",
+   "reason": "Chef is cheaper and repeatable; Fain is a sidegrade.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mindslaver",
+   "source": "EDHREC Ashnod page (717/3205, 22%); live Scryfall Oracle",
+   "role": "6-mana artifact: control target player's next turn",
+   "named_cuts": [
+    "Kuldotha Forgemaster"
+   ],
+   "incumbent_opportunity_cost": "Would cut the 5-mana artifact tutor-to-battlefield.",
+   "commander_synergy": "Sacrifice is a cost, so the copy controls a second opponent's next turn; Academy Ruins can loop it.",
+   "adversarial_downside": "Ten mana for one activation; Forgemaster finds combo pieces (Citadel, KCI, Squadron) directly.",
+   "judgment": "REJECT",
+   "reason": "Too expensive; Forgemaster is the better high-end card.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Paradox Engine",
+   "source": "Untap-engine search; live Scryfall legality",
+   "role": "Untap all nonland permanents on cast",
+   "named_cuts": [
+    "Krark-Clan Ironworks"
+   ],
+   "incumbent_opportunity_cost": "None: it cannot legally replace any card in a Commander deck.",
+   "commander_synergy": "Would untap Engineer/Welder/Sieve.",
+   "adversarial_downside": "Banned in Commander per live Scryfall legality; cannot be played.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Not Commander-legal (live Scryfall legality: banned).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Corridor Monitor",
+   "Aether Spellbomb",
+   "Audacious Reshapers",
+   "Priest of Forgotten Gods",
+   "Thopter Squadron"
+  ],
+  "cuts": [
+   "Foundry Inspector",
+   "Fellwar Stone",
+   "Talisman of Indulgence",
+   "Walking Ballista",
+   "Esoteric Duplicator"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps replace slots the commander cannot copy (a third reducer, two rocks, Walking Ballista, a slow Clue) with sacrifice-cost cards Ashnod doubles and two Ashnod-only infinite combos (Engineer + Monitor + Petal; Squadron + Novelist + Altar/KCI). Costs: rocks 9 -> 7, artifacts 43 -> 41, Walking Ballista's flexible sink/pings and Esoteric Duplicator's value leave, two Spellbook variants that used Foundry Inspector disappear (the lines survive via Sculptor/Mechanaut), Reshapers costs life. Gains: the commander becomes a combo piece and every add is doubled by it. Bracket stays 4 (the baseline already had infinite combos; new lines are 3-4 cards including the commander)."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Foundry Inspector",
+    "weakness": "Third artifact cost reducer at 3 MV with no sacrifice ability for Ashnod to copy",
+    "alternative_named": "Corridor Monitor",
+    "reasoning": "Etherium Sculptor and Enthusiastic Mechanaut keep every Trawler/Retriever reducer combo; Monitor adds an Ashnod infinite."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Opponent-dependent rock; ninth mana rock in a 33-land list",
+    "alternative_named": "Aether Spellbomb",
+    "reasoning": "Rocks 9->7 is still ample; Spellbomb is a copied two-mode artifact and Saga target."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Third Talisman; B/R is covered by lands, Signet, Opal and Petal",
+    "alternative_named": "Audacious Reshapers",
+    "reasoning": "Reshapers turns fodder into two free artifacts with the commander."
+   },
+   {
+    "card": "Walking Ballista",
+    "weakness": "Generic outlet whose abilities Ashnod never copies; infinite-mana outlet duplicated by aristocrat payoffs",
+    "alternative_named": "Priest of Forgotten Gods",
+    "reasoning": "Priest's sacrifice cost is copied into double edict/drain/ramp/draw."
+   },
+   {
+    "card": "Esoteric Duplicator",
+    "weakness": "Slow, mana-hungry value; not a combo piece",
+    "alternative_named": "Thopter Squadron",
+    "reasoning": "Squadron is an Ashnod-only infinite with Crime Novelist + Altar/KCI and is three fodder bodies alone."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Any-colour land whose colours depend on opponents' lands",
+    "alternative_named": "Spire of Industry",
+    "reasoning": "Sidegrade only; staged as six-swap alternative, not selected."
+   },
+   {
+    "card": "Jhoira, Weatherlight Captain",
+    "weakness": "4-mana draw engine with no sacrifice ability",
+    "alternative_named": "Sage of Lat-Nam",
+    "reasoning": "Sage is better with Ashnod but Jhoira works without the commander; staged as alternative."
+   },
+   {
+    "card": "Krark-Clan Shaman",
+    "weakness": "Symmetric sweeper that also hits our own ground fodder",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Pass C defended Shaman as the cheap Ashnod-doubled sweeper; retained."
+   },
+   {
+    "card": "Talisman of Dominance",
+    "weakness": "Two-mana rock that is now at the deck's mana floor",
+    "alternative_named": "Marionette Master",
+    "reasoning": "Seven rocks is the floor for a 5-MV commander and BBB Citadel; retained."
+   },
+   {
+    "card": "Mishra's Bauble",
+    "weakness": "Free fodder artifact with a tiny delayed-draw effect",
+    "alternative_named": "Voltaic Key",
+    "reasoning": "Bauble's sacrifice is copied (two draws) and it is free Saga/affinity/metalcraft fodder; Key is narrow."
+   },
+   {
+    "card": "Wayfarer's Bauble",
+    "weakness": "1-mana ramp to one basic in an 8-basic deck",
+    "alternative_named": "Burnished Hart",
+    "reasoning": "Hart's doubled basic search is unreliable with 8 basics; retained."
+   },
+   {
+    "card": "Dross Skullbomb",
+    "weakness": "Small one-mana cantrip artifact whose effect is minor alone",
+    "alternative_named": "Skullclamp",
+    "reasoning": "Skullbomb's sacrifice abilities are copied; Skullclamp's equip is not."
+   },
+   {
+    "card": "Dockside Chef",
+    "weakness": "One-mana repeatable sacrifice-draw outlet body that dies to everything",
+    "alternative_named": "Fain, the Broker",
+    "reasoning": "Chef is cheaper and repeatable at instant speed; retained."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Corridor Monitor and Thopter Squadron (selected); Fain, the Broker (rejected); Paradox Engine (banned, excluded); Voltaic/Manifold Key Citadel lines (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Walking Ballista",
+     "Esoteric Duplicator"
+    ],
+    "result_and_rationale": "Selected five-swap package: commander-copied adds and two new Ashnod combos replace slots the commander cannot use."
+   },
+   {
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Krark-Clan Shaman",
+     "Esoteric Duplicator"
+    ],
+    "result_and_rationale": "Five-swap alternative staged as full 100 (data/grixis/m7/research_challengers/Ashnod_the_Uncaring_five_alt_Priest_over_KrarkClanShaman_20261023.txt): Priest over Krark-Clan Shaman, keeping Walking Ballista; rejected because Pass C defended Shaman as the cheap Ashnod-doubled sweeper and Ballista is the weaker commander fit."
+   },
+   {
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron",
+     "Sage of Lat-Nam"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Walking Ballista",
+     "Esoteric Duplicator",
+     "Jhoira, Weatherlight Captain"
+    ],
+    "result_and_rationale": "Six-swap alternative staged as full 100; retained as alternative, not clearly better."
+   },
+   {
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron",
+     "Sage of Lat-Nam",
+     "Spire of Industry"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Walking Ballista",
+     "Esoteric Duplicator",
+     "Jhoira, Weatherlight Captain",
+     "Exotic Orchard"
+    ],
+    "result_and_rationale": "Seven-swap alternative staged as full 100; both extra swaps are sidegrades."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Priest of Forgotten Gods was also tested over Krark-Clan Shaman (five-swap alternative data/grixis/m7/research_challengers/Ashnod_the_Uncaring_five_alt_Priest_over_KrarkClanShaman_20261023.txt, sha256 d1b79b0515ca956ff152fb8343df6d5f8ba1de512286d8e8388a373593614680); rejected in favour of cutting Walking Ballista because Pass C's KEEP specifically valued Shaman and Ballista's abilities are never copied.",
+  "strongest_argument_against_baseline": "None of the baseline's 15 Spellbook combos uses Ashnod, and several slots (third reducer, opponent-dependent rock, third Talisman, Walking Ballista, Esoteric Duplicator) do nothing the commander can copy; the commander is a value engine rather than a combo piece.",
+  "evidence_based_answer": "Swap five commander-blind slots for sacrifice-cost cards and two Spellbook-verified Ashnod-only combo pieces whose other pieces are already in the 99."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Ashnod_the_Uncaring.txt",
+  "sha256": "b1078f084c2fa53426910edb66f0a036978e06bd9c9a2061f460af397503143d",
+  "card_count": 100,
+  "deckwide_reconciliation": "Exact copy of the physical canonical source order with five in-place substitutions; 33 lands, 7 rocks, 41 artifacts, 27 creatures, 100 physical cards verified by quantity."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Ashnod_the_Uncaring_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Ashnod_the_Uncaring_M7_20261023.md",
+   "data/grixis/m7/baseline_sources/Ashnod_the_Uncaring_approved_source_2026-10-13.txt",
+   "tests/test_m6_ashnod_the_uncaring_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Ability Copy",
+   "Artifact Sacrifice",
+   "Artifact Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five, the remaining slots were re-challenged: engines (Citadel, Time Sieve, Forgemaster, Repurposing Bay, Trading Post, Retrofitter) and combo core (Trawler, Retriever, KCI, Altar, Novelist, Nim, Urza, Petal, Engineer) protected; payoffs (Disciple, Apprentice, Devil, Fireweaver, Anvil) kept; draw (Jhoira, Mnemonic Sphere, Dockside Chef, Skullbomb, Baubles) challenged with Sage, Fain, Skullclamp, Voltaic/Manifold Key; mana (Talismans, Exotic Orchard, Wayfarer's Bauble) challenged with Spire, Burnished Hart, Marionette Master; interaction (Krark-Clan Shaman, Toxic Deluge, Capsule) and top end (Forgemaster vs Mindslaver) rechecked.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Jhoira, Weatherlight Captain",
+    "challenger": "Sage of Lat-Nam",
+    "tradeoff": "Sage doubles with Ashnod for free draws, but Jhoira draws on every artifact cast without needing the commander; kept Jhoira and staged a six-swap full 100.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Exotic Orchard",
+    "challenger": "Spire of Industry",
+    "tradeoff": "Spire is reliable any-colour with an artifact out but costs life and has no commander interaction; marginal, staged as six-swap full 100.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Krark-Clan Shaman",
+    "challenger": "Mirkwood Bats",
+    "tradeoff": "Bats is a fourth drain payoff at four mana; Shaman is the one-mana repeatable sweeper that Ashnod doubles and Pass C defended.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Talisman of Dominance",
+    "challenger": "Marionette Master",
+    "tradeoff": "Cutting a seventh rock for a six-drop payoff would drop the mana floor below what a five-mana commander and BBB Citadel need.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Mishra's Bauble",
+    "challenger": "Voltaic Key",
+    "tradeoff": "Key only matters with Citadel already in play, where one copied activation already drains 20 per opponent; Bauble is free copied card draw and fodder.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Wayfarer's Bauble",
+    "challenger": "Burnished Hart",
+    "tradeoff": "Hart's copied search wants four basics from a list with only eight; Wayfarer costs one mana.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Dross Skullbomb",
+    "challenger": "Skullclamp",
+    "tradeoff": "Skullclamp's equip is never copied by Ashnod while Skullbomb's two sacrifice modes are; incumbent fits the commander better.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Dockside Chef",
+    "challenger": "Fain, the Broker",
+    "tradeoff": "Fain's modes are copied but each needs a tap and a {3}{B} untap; Chef is one mana and repeatable.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Kuldotha Forgemaster",
+    "challenger": "Mindslaver",
+    "tradeoff": "Mindslaver copy controls two turns but costs ten mana; Forgemaster puts Citadel/KCI/Squadron onto the battlefield.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Trading Post",
+    "challenger": "Commander's Sphere",
+    "tradeoff": "Reversing the owner's most recent change is unjustified: Trading Post's copied sacrifice modes make goats into recursion and artifacts into cards.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_six_SageOfLatNam_over_Jhoira_20261023.txt",
+    "sha256": "42bed41c323407cdc9d4686e745159e7e273333634a723db4eb11cc52b0f51e4",
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron",
+     "Sage of Lat-Nam"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Walking Ballista",
+     "Esoteric Duplicator",
+     "Jhoira, Weatherlight Captain"
+    ],
+    "case_for_extra_swaps": "Sage draws two for zero mana per artifact with Ashnod and is a cheap creature for Priest/Altar; it lowers the curve by two.",
+    "why_not_selected": "Jhoira draws on every artifact cast even when Ashnod is removed or not yet cast; with Ashnod absent Sage is a weak 1-for-1 outlet. Not clearly better."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_six_SpireOfIndustry_over_ExoticOrchard_20261023.txt",
+    "sha256": "ebdd77b1e79d433c52d688034ae26d9d6944528b784affebe66d9f6426f91ed4",
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron",
+     "Spire of Industry"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Walking Ballista",
+     "Esoteric Duplicator",
+     "Exotic Orchard"
+    ],
+    "case_for_extra_swaps": "Spire gives any colour as long as we control an artifact, independent of opponents' lands.",
+    "why_not_selected": "No commander interaction; costs life every coloured activation; a marginal sidegrade that does not justify a sixth change."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Ashnod_the_Uncaring_seven_Sage_Spire_20261023.txt",
+    "sha256": "e87f7d2473ffda084dcc1fc0ca9474038f3f7008f2c000b48277a92d48349a8a",
+    "adds": [
+     "Corridor Monitor",
+     "Aether Spellbomb",
+     "Audacious Reshapers",
+     "Priest of Forgotten Gods",
+     "Thopter Squadron",
+     "Sage of Lat-Nam",
+     "Spire of Industry"
+    ],
+    "cuts": [
+     "Foundry Inspector",
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Walking Ballista",
+     "Esoteric Duplicator",
+     "Jhoira, Weatherlight Captain",
+     "Exotic Orchard"
+    ],
+    "case_for_extra_swaps": "Combines both staged improvements: more Ashnod-doubled draw and slightly steadier fixing.",
+    "why_not_selected": "Both component swaps are sidegrades on their own; stacking them adds change cost without a clear quality gain."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five because every further challenger examined either needed the commander to beat an incumbent that works without it (Sage vs Jhoira), was a commander-blind sidegrade (Spire, Skullclamp), cut into the mana floor (Marionette Master, Courier's Capsule), was too narrow or expensive (Keys, Mindslaver, Burnished Hart) or reversed the owner's latest change (Commander's Sphere); none was clearly better than its incumbent."
+ }
+}
