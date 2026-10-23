@@ -326,6 +326,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage17_oracle_stitch.py' -v
       - name: Check Abaddon protected-six mana and red-team J source-bound preliminary evidence
         run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage18_j_prerequisite_reports.py' -v
+      - name: Validate new Abaddon candidate-specific M6 I tested-pool and J SHA-bound reproducibility
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage20_candidate_ij.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval

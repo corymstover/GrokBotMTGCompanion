@@ -1,0 +1,218 @@
+{
+  "schema_version": 1,
+  "stage": "M6_final_reproducibility_bundle",
+  "deck_id": "Abaddon_the_Despoiler",
+  "slug": "abaddon-the-despoiler",
+  "baseline_hash": "lh1:5a1e5e5bb86ba35d7dbf712fbc3a7d29c3e05a17569c05e8a11976321699b793",
+  "result_hash": "lh1:965f298aa71b9a3f28d805ee99b2d2576913ca8ba78a0824e9aa205cc8133ceb",
+  "snapshot": {
+    "birthday_id": "birthday-20261017-6e5c604e1459",
+    "oracle_ref": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
+    "rules_ref": "data/grixis/m6/rules_snapshots/Abaddon_20261022_Rules_Sources.md",
+    "legality_ref": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json"
+  },
+  "inputs": [
+    {
+      "path": "data/grixis/birthday_m5/candidates/abaddon-the-despoiler.json.gz",
+      "sha256": "sha256:ad508f286096371040ae9f076eee7f7996bdf708ca6cbb625740487a7e000e6e"
+    },
+    {
+      "path": "data/grixis/birthday_m5/regen/abaddon-the-despoiler.json.gz",
+      "sha256": "sha256:43c465356ce4b488f9975e5dc33cc0d8977d79592fac1bba07193f068b4378b3"
+    },
+    {
+      "path": "data/grixis/birthday_m5/evidence/abaddon-the-despoiler.json",
+      "sha256": "sha256:7433c3beb70450bb722a1feeecc1d375359fdf46b91f407d39129dd492047c91"
+    },
+    {
+      "path": "data/grixis/m6/optimizer/abaddon-the-despoiler.json",
+      "sha256": "sha256:a7b522843d7af0bf431013fd4f686f461ad7bbf3c484d50868ac5f93fdd04c48"
+    },
+    {
+      "path": "data/grixis/m6/review_packets/abaddon-the-despoiler.json",
+      "sha256": "sha256:9806693fca1b50ef5415ab65f48e27766e1a5c9feb0f3f47de5099ea9a50cc84"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Scryfall_20261022.json",
+      "sha256": "sha256:aca8f725044715ed34bc6f4a9b28828c827799c33af8c1e81888a7e991bdc9a6"
+    },
+    {
+      "path": "data/grixis/m6/rules_snapshots/Abaddon_20261022_Rules_Sources.md",
+      "sha256": "sha256:83f52b095ca41c3b531865e88bcac92d611b7e104456ecf4364eed9c85855e8e"
+    },
+    {
+      "path": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev2.txt",
+      "sha256": "sha256:0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+      "sha256": "sha256:5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage14_provisional_protected_wheel_six_20261023.json",
+      "sha256": "sha256:a096f13dd4acca08e3236d48fa9aadc664f559b87a018eaf8cc020203e3163ab"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_new_EDHREC_protected_engine_decisions_20261023.json",
+      "sha256": "sha256:3932cc7e296ac63bee02757c6f600f8f2634752f4ae58f39706e52a90079008f"
+    },
+    {
+      "path": "data/grixis/m6/phase_b_plans/Abaddon_stage15_new_six_changed_effects_20261023.json",
+      "sha256": "sha256:7e3ac8ebadb62e6099821d4ffb37e805d2097087e9c941e9b1e0c58c41e2a6d7"
+    },
+    {
+      "path": "data/grixis/m6/phase_b_plans/Abaddon_stage16_legacy_candidate_transfer_20261023.json",
+      "sha256": "sha256:1f82b964965f1c45afe68a43064438e9776750e750bb63b3180941191bac6064"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
+      "sha256": "sha256:c91e13c19bc08629efb9adfa01700126435e8c48559854cdcb57d6ec9341daa1"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_mana_20261023.md",
+      "sha256": "sha256:4151ad12642d6b2eda5dc0cd35feff8ea61354d64d0abad7423f5cb404aa0099"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_red_team_20261023.md",
+      "sha256": "sha256:af903b92a028f295b95f70330c5149f6119d88a70ae2e7d5ba850a9900e053eb"
+    },
+    {
+      "path": "tests/test_m6_abaddon_stage15_changed_candidate_p0.py",
+      "sha256": "sha256:bf74c0577b26cec203e80881f57fee0dad695603738fabb46435187efb627fa7"
+    },
+    {
+      "path": "data/grixis/m6/ij/adjudications/Abaddon_protected_six_stage20_20261023.json",
+      "sha256": "sha256:19962a0212aea5e6afef7528a5bf7a8ff2e035c42a1227272adc99bdeae70d9e"
+    },
+    {
+      "path": "data/grixis/m6/ij/candidate_certificates/Abaddon_protected_six_stage20_20261023.json",
+      "sha256": "sha256:8bbd2cfd264a5e0bbf0ade62b2052691b7745f64a5715611aead0039c8b7ab16"
+    }
+  ],
+  "sealed_passes": {
+    "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+    "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+    "a_output_ref": "data/grixis/m6/sealed/A/abaddon-the-despoiler.json",
+    "b_output_ref": "data/grixis/m6/sealed/B/abaddon-the-despoiler.json",
+    "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+  },
+  "pass_c": {
+    "reviewer": "ChatGPT/OpenAI GPT-6",
+    "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/final_disposition.md",
+    "judgment_receipt_sha256": "sha256:c92a9ecb9b6c66f26d67280c4b382b2f9244a7b0754febf84403645f92d9692a",
+    "conflicts_resolved": true,
+    "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "technically_independent": false,
+    "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+    "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Abaddon_the_Despoiler/seal.json",
+    "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+    "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+    "stage_a_seal_sha256": "sha256:d5332bf12325ff07276efd0f62397fa9c67ffef0254d5fbf056f05e70ab1a271"
+  },
+  "phase_b": {
+    "complete": true,
+    "tests": [
+      {
+        "test_ref": "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json",
+        "source_sha256": "sha256:8146f935e15cc49fdcd8b0dd25f9f6451215dfc11658c5e3764ab129990a0d42",
+        "seed": 0,
+        "harness_version": "abaddon_p0_exact_head_replay_104",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "The registry maps 104 physical named methods that actually executed and passed in linked exact-head CI. It is a bounded rule-case inventory, not a complete standalone multiplayer gameplay engine."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_residual_p1.py",
+        "source_sha256": "sha256:c3625a004e0734c43d41712c3762563e7b39e5f7a4d42b047a6acce839a8c08b",
+        "seed": 0,
+        "harness_version": "abaddon_residual_source_paid_p1_7",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Actual exact physical source-paid finite scenarios for five residual card effects, no randomized win-rate or exhaustive table policy."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_remaining_p1.py",
+        "source_sha256": "sha256:ee50d7afce14155ae326139d7b4323bfc97df5f06270e76caee01c648a266b91",
+        "seed": 0,
+        "harness_version": "abaddon_remaining_source_paid_p1_7",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Actual physical source-paid Delayed, Nightscape, Jeska tests; individual spells and side cases not universal solver."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_stage15_changed_candidate_p0.py",
+        "source_sha256": "sha256:bf74c0577b26cec203e80881f57fee0dad695603738fabb46435187efb627fa7",
+        "seed": 0,
+        "harness_version": "abaddon_stage15_changed_p0_14",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "14 source-paid discrete cost and stack/phase cases passed on exact-head CI; not a multiplayer win-rate or full stack engine.",
+          "Stage15 case source has separate exact-head run receipt 39906969961."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_stage16_transfer_integrity.py",
+        "source_sha256": "sha256:05cf8c1956322d370ee9b894532244720dd13de50c59f6f4668af4bdef2f9543",
+        "seed": 0,
+        "harness_version": "abaddon_stage16_historical_transfer_guard",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Classifies 27 irrelevant old P0 vs 77 conditionally reusable mechanic facts; not a full physical reexecution of 77 old cases."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_stage17_oracle_stitch.py",
+        "source_sha256": "sha256:d664bb2f1f22beebdfd828179ea6d39cc675fd9f3f66c4e8d07eb69f5bf6cf9c",
+        "seed": 0,
+        "harness_version": "abaddon_stage17_full95_source_legality",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Validates 95 distinct Oracle names in exact physical 100 against preserved direct Scryfall snapshots; no gameplay comparison."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_abaddon_stage18_j_prerequisite_reports.py",
+        "source_sha256": "sha256:600227021b4bd7b287e7d7b5dfe9a3ed201a6fa4c4095c2ee86a03fc1d045b72",
+        "seed": 0,
+        "harness_version": "abaddon_stage18_candidate_j_review_preflight",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Checks authored mana and adverse-scenario source bindings; does not prove turn-four BB cast probability or gameplay outcomes."
+        ]
+      }
+    ]
+  },
+  "red_team": {
+    "report_path": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_red_team_20261023.md",
+    "sha256": "sha256:af903b92a028f295b95f70330c5149f6119d88a70ae2e7d5ba850a9900e053eb"
+  },
+  "mana_analysis": {
+    "report_path": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_mana_20261023.md",
+    "sha256": "sha256:4151ad12642d6b2eda5dc0cd35feff8ea61354d64d0abad7423f5cb404aa0099"
+  },
+  "unresolved_material_questions": [],
+  "bundle_status": "complete_evidence_not_approval",
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_approve_or_lock": false
+  }
+}
