@@ -1,0 +1,520 @@
+{
+ "deck_id": "Loki__the_Deceiver",
+ "purpose": "Bounded finite measured tests requested by M6 Pass C (+Strionic Resonator -Swiftfoot Boots; +Seize the Day -Black Market Connections; Loki present/absent, valid/invalid Villain target, haste/protection, combat-two payability, response windows, delayed token sacrifice) plus deployment cost of the selected swaps. Seeded goldfish deployment model and an exhaustive rules-encoded scenario grid; not a game simulation, not a source-bound game-engine receipt and not a win rate.",
+ "scripts": {
+  "meas": "\"\"\"Bounded finite Pass C tests for Loki__the_Deceiver (Deck 28). Part A: seeded finite Monte Carlo goldfish of\ndeployment (seed 28, fixed N, on the play, no mulligans, no opponent). Part B: exhaustive finite rules-encoded\nscenario grid (deterministic, enumerated). Neither part is a win-rate simulation.\"\"\"\nimport json,re,random,itertools,collections\nW='/workspace/d28w/'\nSC=json.load(open(W+'scry_live.json')); ALL={x['name']:x for x in SC['cards']}; ALL.update({x['name']:x for x in SC['baseline_cards']})\ndef load(p):\n    out=[]\n    for l in open(p):\n        m=re.match(r'(\\d+)x (.+?)( \\[Commander\\])?$',l.strip())\n        if m and not m.group(3): out+=[m.group(2)]*int(m.group(1))\n    return out\nbase=load(W+'base.txt'); assert len(base)==99\ndef swap(d,pairs):\n    d=d[:]\n    for a,c in pairs: d.remove(c); d.append(a)\n    return d\nULT=(\"Ultimo, Civilization's End\",\"Crimson Cowl, Master of Evil\"); ELE=(\"Elektra, Daughter of the Hand\",\"Killmonger, Ruthless Usurper\")\nSTR=(\"Strionic Resonator\",\"Swiftfoot Boots\"); SEI=(\"Seize the Day\",\"Black Market Connections\")\nCFG={\"baseline\":base,\"plus_Strionic_Resonator_minus_Swiftfoot_Boots\":swap(base,[STR]),\n     \"plus_Seize_the_Day_minus_Black_Market_Connections\":swap(base,[SEI]),\n     \"plus_Ultimo_minus_Crimson_Cowl\":swap(base,[ULT]),\"plus_Elektra_minus_Killmonger\":swap(base,[ELE]),\n     \"candidate_Ultimo_and_Elektra\":swap(base,[ULT,ELE]),\n     \"candidate_plus_Secluded_Courtyard_minus_Path_of_Ancestry\":swap(base,[ULT,ELE,(\"Secluded Courtyard\",\"Path of Ancestry\")]),\n     \"candidate_plus_Strionic_Resonator_minus_Swiftfoot_Boots\":swap(base,[ULT,ELE,STR])}\n# ---- mana model\nU,B,R='U','B','R'\nLAND={\"Island\":(U,0),\"Swamp\":(B,0),\"Mountain\":(R,0),\"Badlands\":(\"BR\",0),\"Blood Crypt\":(\"BR\",0),\"Steam Vents\":(\"UR\",0),\"Watery Grave\":(\"UB\",0),\n \"Underground Sea\":(\"UB\",0),\"Volcanic Island\":(\"UR\",0),\"Bloodstained Mire\":(\"BR\",0),\"Polluted Delta\":(\"UB\",0),\"Scalding Tarn\":(\"UR\",0),\n \"Command Tower\":(\"UBR\",0),\"Mana Confluence\":(\"UBR\",0),\"Exotic Orchard\":(\"UBR\",0),\"Luxury Suite\":(\"BR\",0),\"Morphic Pool\":(\"UB\",0),\"Training Center\":(\"UR\",0),\n \"Dragonskull Summit\":(\"BR\",\"check\"),\"Drowned Catacomb\":(\"UB\",\"check\"),\"Sulfur Falls\":(\"UR\",\"check\"),\n \"Oscorp Industries\":(\"UBR\",1),\"Path of Ancestry\":(\"UBR\",1),\"Xander's Lounge\":(\"UBR\",1),\n \"Otawara, Soaring City\":(U,0),\"Urborg, Tomb of Yawgmoth\":(\"B\",0),\"Hall of Echoes\":(\"C\",0),\n \"Cavern of Souls\":(\"V\",0),\"Villainous Hideout\":(\"V\",0),\"Secluded Courtyard\":(\"V\",0)}\nROCK={\"Sol Ring\":\"CC\",\"Arcane Signet\":\"UBR\",\"Talisman of Creativity\":\"UR\",\"Talisman of Dominance\":\"UB\",\"Talisman of Indulgence\":\"BR\",\"The Soul Stone\":\"B\",\"Patchwork Banner\":\"UBR\",\"Loki's Scepter\":\"UBR\"}\ndef cost(n):\n    mc=ALL[n].get('mana_cost') or ALL[n]['card_faces'][0]['mana_cost']\n    pips=re.findall(r'\\{(.)\\}',mc.split(' // ')[0]); g=sum(int(p) for p in pips if p.isdigit()); col=[p for p in pips if p in 'UBR']\n    return g,col\ndef isvill(n): return 'Villain' in ALL[n]['type_line'].split(' // ')[0] and 'Creature' in ALL[n]['type_line'].split(' // ')[0]\ndef pay(srcs,g,col,villain):\n    \"\"\"srcs: list of color-strings; 'V' = any colour for Villain creature spells else C; 'C' colourless. DFS assignment.\"\"\"\n    s=[(\"UBR\" if (x==\"V\" and villain) else (\"C\" if x==\"V\" else x)) for x in srcs]\n    if len(s)<g+len(col): return None\n    col=sorted(col)\n    def dfs(i,used):\n        if i==len(col): return used\n        for j,x in enumerate(s):\n            if j not in used and col[i] in x:\n                r=dfs(i+1,used|{j})\n                if r is not None: return r\n        return None\n    used=dfs(0,frozenset())\n    if used is None: return None\n    rest=[j for j in range(len(s)) if j not in used]\n    return set(used)|set(rest[:g])\ndef game(deck,rnd,T=7):\n    d=deck[:]; rnd.shuffle(d); hand=d[:7]; lib=d[7:]\n    lands=[]; rocks=[]; bf=set(); loki_turn=None; recs=[]\n    for t in range(1,T+1):\n        if t>1: hand.append(lib.pop(0))\n        lh=[c for c in hand if c in LAND]; newtapped=False\n        if lh:\n            def untapped(c):\n                k=LAND[c][1]\n                if k==\"check\":\n                    types={\"Dragonskull Summit\":\"BR\",\"Drowned Catacomb\":\"UB\",\"Sulfur Falls\":\"UR\"}[c]\n                    return any((x in(\"Island\",\"Swamp\",\"Mountain\",\"Badlands\",\"Blood Crypt\",\"Steam Vents\",\"Watery Grave\",\"Underground Sea\",\"Volcanic Island\",\"Bloodstained Mire\",\"Polluted Delta\",\"Scalding Tarn\",\"Xander's Lounge\") and set(LAND[x][0])&set(types)) or x==\"Urborg, Tomb of Yawgmoth\" for x in lands) or \"Urborg, Tomb of Yawgmoth\" in lands\n                return k==0\n            # play a tapped land early (t<=2) else prefer untapped\n            pref=sorted(lh,key=lambda c:((0 if not untapped(c) else 1) if t<=2 else (0 if untapped(c) else 1), c in(\"Hall of Echoes\",)))\n            L=pref[0]; hand.remove(L); newtapped=not untapped(L); lands.append(L)\n        srcs=[(\"UBR\" if \"Urborg, Tomb of Yawgmoth\" in lands and LAND[x][0] not in(\"V\",\"C\") else LAND[x][0]) if not (i==len(lands)-1 and newtapped) else None for i,x in enumerate(lands)]\n        srcs=[x for x in srcs if x]\n        for r in rocks: srcs+= [\"C\",\"C\"] if ROCK[r]==\"CC\" else [ROCK[r]]\n        avail=srcs[:]\n        def spend(n,villain):\n            nonlocal avail\n            g,col=cost(n)\n            if villain: g=max(0,g-sum(x in bf for x in(\"Baron Strucker, HYDRA Overlord\",\"Tombstone, Career Criminal\")))\n            u=pay(avail,g,col,villain)\n            if u is None: return False\n            avail=[x for j,x in enumerate(avail) if j not in u]; return True\n        # Loki first if possible\n        cast=[]\n        if loki_turn is None and spend(\"Loki, the Deceiver\",True): loki_turn=t; cast.append(\"Loki\")\n        # rocks cheapest first\n        for r in sorted([c for c in hand if c in ROCK],key=lambda c:sum(cost(c)[0:1])+len(cost(c)[1])):\n            if spend(r,False): hand.remove(r); rocks.append(r); avail+= [\"C\",\"C\"] if ROCK[r]==\"CC\" else [ROCK[r]]\n        if loki_turn is None and spend(\"Loki, the Deceiver\",True): loki_turn=t; cast.append(\"Loki\")\n        # Villains cheapest first\n        for v in sorted([c for c in hand if c in ALL and isvill(c)],key=lambda c:sum([cost(c)[0],len(cost(c)[1])])):\n            if spend(v,True): hand.remove(v); bf.add(v); cast.append(v)\n        eq=[c for c in hand if c in(\"Lightning Greaves\",\"Swiftfoot Boots\",\"Strionic Resonator\")]\n        for e in eq:\n            if spend(e,False): hand.remove(e); bf.add(e)\n        haste=(\"Lightning Greaves\" in bf) or (\"Swiftfoot Boots\" in bf and len(avail)>=1)\n        loki_can_attack= loki_turn is not None and (loki_turn<t or haste)\n        target= any(isvill(x) for x in bf if x!=\"Loki, the Deceiver\")\n        attack= loki_can_attack and target\n        strionic= attack and \"Strionic Resonator\" in bf and len(avail)-(1 if (\"Swiftfoot Boots\" in bf and loki_turn==t and \"Lightning Greaves\" not in bf) else 0)>=2\n        seize= attack and \"Seize the Day\" in hand and pay(avail,3,[R],False) is not None\n        recs.append(dict(loki=loki_turn is not None,attack=attack,strionic=strionic,seize=seize,\n                         cheapV=any(isvill(x) and sum([cost(x)[0],len(cost(x)[1])])<=3 for x in bf),nV=len([x for x in bf if isvill(x)])))\n    return recs\ndef run(deck,seed=28,N=20000,T=7):\n    rnd=random.Random(seed); acc=collections.defaultdict(lambda: collections.Counter())\n    for _ in range(N):\n        for t,o in enumerate(game(deck,rnd,T),1):\n            for k,v in o.items(): acc[t][k]+=v\n    return {f\"turn {t}\":{\"P_Loki_on_battlefield\":round(a['loki']/N,4),\"P_Loki_attacks_with_valid_other_Villain_target\":round(a['attack']/N,4),\n            \"P_Strionic_activation_payable_on_attack\":round(a['strionic']/N,4),\"P_Seize_the_Day_castable_postcombat_on_attack\":round(a['seize']/N,4),\n            \"P_cheap_Villain_MV3_or_less_deployed\":round(a['cheapV']/N,4),\"mean_nontoken_Villains_deployed\":round(a['nV']/N,3)} for t,a in acc.items()}\nA={k:run(d) for k,d in CFG.items()}\n# ---- Part B exhaustive grid (rules-encoded, deterministic)\ndef scen(cfg,loki,vill,prot,removal,mana,master):\n    \"\"\"returns dict of outcomes for one turn. loki: absent|sick|ready; vill: none|valid|target_removed_in_response;\n    prot: none|Greaves|Boots (Boots absent in Strionic cfg); removal: none|before_attacks|after_combat1; mana: spare mana after main1.\"\"\"\n    if prot==\"Boots\" and cfg==\"strionic\": return None\n    if cfg!=\"strionic\" and False: pass\n    o=dict(copies=0,combats=0,loki_draws=0,bmc_draws=0,token_kept=0)\n    o['bmc_draws']=1 if cfg in(\"baseline\",\"strionic\") else 0\n    m=mana\n    if loki==\"absent\": return o\n    hasty = prot in(\"Greaves\",\"Boots\")\n    if prot==\"Boots\": m-=1\n    if m<0: return None\n    if loki==\"sick\" and not hasty: return o\n    shielded = prot in(\"Greaves\",\"Boots\")\n    if removal==\"before_attacks\" and not shielded: return o\n    combats=1\n    o['combats']=1\n    def one_combat(m):\n        c=0\n        if vill==\"none\": return c,m\n        if vill==\"target_removed_in_response\": return c,m   # trigger fizzles (illegal target)\n        c=1\n        if cfg==\"strionic\" and m>=2: c+=1; m-=2\n        return c,m\n    c,m=one_combat(m); o['copies']+=c; o['loki_draws']+=1  # Loki (4/4) connects with evasion assumed\n    if cfg==\"seize\" and m>=4 and not (removal==\"after_combat1\" and not shielded):\n        m-=4; o['combats']=2; c2,m=one_combat(m); o['copies']+=c2; o['loki_draws']+=1\n    o['token_kept']=o['copies'] if master else 0\n    return o\nGRID=dict(loki=[\"absent\",\"sick\",\"ready\"],vill=[\"none\",\"valid\",\"target_removed_in_response\"],prot=[\"none\",\"Greaves\",\"Boots\"],\n          removal=[\"none\",\"before_attacks\",\"after_combat1\"],mana=[0,1,2,3,4,5,6],master=[False,True])\nBres={}\nfor cfg in(\"baseline\",\"strionic\",\"seize\"):\n    tot=collections.Counter(); n=0\n    for combo in itertools.product(*GRID.values()):\n        r=scen(cfg,*combo)\n        if r is None: continue\n        n+=1\n        for k,v in r.items(): tot[k]+=v\n    Bres[cfg]={\"cells\":n,**{f\"mean_{k}\":round(v/n,4) for k,v in tot.items()}}\n# paired cells (same factors, Boots cells excluded so all three configs share them)\npair=collections.Counter(); np_=0\nfor combo in itertools.product(*GRID.values()):\n    if combo[2]==\"Boots\": continue\n    a,b,c=(scen(x,*combo) for x in(\"baseline\",\"strionic\",\"seize\")); np_+=1\n    pair['strionic_more_copies']+=b['copies']>a['copies']; pair['seize_more_copies']+=c['copies']>a['copies']\n    pair['seize_more_draws_incl_BMC']+=(c['loki_draws']+c['bmc_draws'])>(a['loki_draws']+a['bmc_draws'])\n    pair['seize_fewer_draws_incl_BMC']+=(c['loki_draws']+c['bmc_draws'])<(a['loki_draws']+a['bmc_draws'])\nbo=collections.Counter()\nfor combo in itertools.product(*GRID.values()):\n    if combo[2]!=\"Boots\": continue\n    wb=scen(\"baseline\",*combo); nb=scen(\"baseline\",combo[0],combo[1],\"none\",*combo[3:])\n    if wb is None: continue\n    bo['cells']+=1; bo['Boots_adds_a_combat_vs_no_equipment']+=wb['combats']>nb['combats']; bo['Boots_adds_copies_vs_no_equipment']+=wb['copies']>nb['copies']\nout={\"deck\":\"Loki__the_Deceiver\",\"seed\":28,\"games_per_config\":20000,\"turns\":7,\"on\":\"the play, no mulligans\",\n \"partA_method\":\"Seeded finite Monte Carlo goldfish of deployment only. One land per turn (tapped lands preferred on turns 1-2, untapped afterwards; check-lands untapped if a qualifying typed land or Urborg is already in play; fetches resolved to an on-colour typed dual; Exotic Orchard treated as any colour; Cavern of Souls / Villainous Hideout / Secluded Courtyard give any colour only to Villain creature spells). Loki cast as soon as payable, then mana rocks cheapest first, then Villain creatures cheapest first with Baron Strucker / Tombstone discounts, then Lightning Greaves / Swiftfoot Boots / Strionic Resonator. Loki attacks on a turn if it was cast on an earlier turn or has Greaves / Boots (equip 1 paid), and another nontoken Villain is on the battlefield. No opponent, no blockers, no removal, no tutors, no Dark Ritual / Jeska's Will / Treasure / Urza's Incubator (conservative). Strionic payable = Strionic on the battlefield and 2 spare mana after deployment; Seize castable = Seize the Day in hand and {2}{R}+1 spare after deployment (cast in postcombat main).\",\n \"partA_results\":A,\n \"partB_method\":\"Exhaustive finite rules-encoded grid over Loki absent/summoning-sick/ready x other Villain none/valid/target removed in response x protection none/Lightning Greaves/Swiftfoot Boots x opposing targeted removal none/before attacks/after combat one x spare mana 0..6 x The Master, Multiplied absent/present. Rules encoded: Loki trigger needs another target Villain (fizzles if removed in response); Strionic copies the Loki attack trigger for {2} (one activation, it taps); Seize the Day must be cast postcombat for {3}{R} and Loki must survive combat one; Loki's draw counted once per combat in which Villains connect (Loki assumed to connect); the token is sacrificed at the next end step unless The Master is present; Black Market Connections counted as one draw (Buy Information) in the baseline and Strionic configs. Boots cells are excluded for the Strionic config (it removes Boots). These are manually encoded rules branches, not source-bound game-engine receipts and not win rates.\",\n \"partB_results\":Bres,\"partB_paired_cells_excluding_Boots\":dict(cells=np_,**pair),\"partB_Boots_marginal_cells_baseline_with_no_other_equipment\":dict(bo)}\njson.dump(out,open(W+'meas28.json','w'),indent=1)\nfor k,v in A.items():\n    print(k.ljust(50),{t:(r['P_Loki_attacks_with_valid_other_Villain_target'],r['P_Strionic_activation_payable_on_attack'],r['P_Seize_the_Day_castable_postcombat_on_attack'],r['P_cheap_Villain_MV3_or_less_deployed'],r['mean_nontoken_Villains_deployed']) for t,r in v.items() if t in('turn 3','turn 4','turn 5','turn 6')})\nprint(json.dumps(Bres,indent=0)); print(out['partB_paired_cells_excluding_Boots'],dict(bo))\n"
+ },
+ "results": {
+  "deck": "Loki__the_Deceiver",
+  "seed": 28,
+  "games_per_config": 20000,
+  "turns": 7,
+  "on": "the play, no mulligans",
+  "partA_method": "Seeded finite Monte Carlo goldfish of deployment only. One land per turn (tapped lands preferred on turns 1-2, untapped afterwards; check-lands untapped if a qualifying typed land or Urborg is already in play; fetches resolved to an on-colour typed dual; Exotic Orchard treated as any colour; Cavern of Souls / Villainous Hideout / Secluded Courtyard give any colour only to Villain creature spells). Loki cast as soon as payable, then mana rocks cheapest first, then Villain creatures cheapest first with Baron Strucker / Tombstone discounts, then Lightning Greaves / Swiftfoot Boots / Strionic Resonator. Loki attacks on a turn if it was cast on an earlier turn or has Greaves / Boots (equip 1 paid), and another nontoken Villain is on the battlefield. No opponent, no blockers, no removal, no tutors, no Dark Ritual / Jeska's Will / Treasure / Urza's Incubator (conservative). Strionic payable = Strionic on the battlefield and 2 spare mana after deployment; Seize castable = Seize the Day in hand and {2}{R}+1 spare after deployment (cast in postcombat main).",
+  "partA_results": {
+   "baseline": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0054,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0863,
+     "mean_nontoken_Villains_deployed": 0.092
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2079,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0057,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.3005,
+     "mean_nontoken_Villains_deployed": 0.341
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6242,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1803,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.4433,
+     "mean_nontoken_Villains_deployed": 0.602
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7254,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5849,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5825,
+     "mean_nontoken_Villains_deployed": 1.196
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8027,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7069,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6514,
+     "mean_nontoken_Villains_deployed": 1.78
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.861,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7916,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.7049,
+     "mean_nontoken_Villains_deployed": 2.321
+    }
+   },
+   "plus_Strionic_Resonator_minus_Swiftfoot_Boots": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0056,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0855,
+     "mean_nontoken_Villains_deployed": 0.091
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2072,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0054,
+     "P_Strionic_activation_payable_on_attack": 0.0001,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.2993,
+     "mean_nontoken_Villains_deployed": 0.339
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6249,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1801,
+     "P_Strionic_activation_payable_on_attack": 0.0012,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.4451,
+     "mean_nontoken_Villains_deployed": 0.602
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7275,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5867,
+     "P_Strionic_activation_payable_on_attack": 0.0164,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.584,
+     "mean_nontoken_Villains_deployed": 1.195
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8067,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7082,
+     "P_Strionic_activation_payable_on_attack": 0.0393,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6509,
+     "mean_nontoken_Villains_deployed": 1.78
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8619,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.793,
+     "P_Strionic_activation_payable_on_attack": 0.0599,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.7047,
+     "mean_nontoken_Villains_deployed": 2.322
+    }
+   },
+   "plus_Seize_the_Day_minus_Black_Market_Connections": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0059,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0866,
+     "mean_nontoken_Villains_deployed": 0.092
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2035,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.006,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.3023,
+     "mean_nontoken_Villains_deployed": 0.343
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6177,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1772,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0006,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.4449,
+     "mean_nontoken_Villains_deployed": 0.601
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.722,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5764,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0066,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5859,
+     "mean_nontoken_Villains_deployed": 1.191
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8001,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7044,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0219,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6543,
+     "mean_nontoken_Villains_deployed": 1.774
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8589,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7895,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0394,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.7091,
+     "mean_nontoken_Villains_deployed": 2.316
+    }
+   },
+   "plus_Ultimo_minus_Crimson_Cowl": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0056,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0846,
+     "mean_nontoken_Villains_deployed": 0.09
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.204,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0061,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.2834,
+     "mean_nontoken_Villains_deployed": 0.323
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6185,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1746,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.4178,
+     "mean_nontoken_Villains_deployed": 0.57
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7232,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5746,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5516,
+     "mean_nontoken_Villains_deployed": 1.147
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.7998,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7036,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.62,
+     "mean_nontoken_Villains_deployed": 1.725
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8582,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7884,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6756,
+     "mean_nontoken_Villains_deployed": 2.269
+    }
+   },
+   "plus_Elektra_minus_Killmonger": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0054,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0833,
+     "mean_nontoken_Villains_deployed": 0.089
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2043,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0059,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.2805,
+     "mean_nontoken_Villains_deployed": 0.319
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6192,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1763,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.4143,
+     "mean_nontoken_Villains_deployed": 0.569
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7227,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5786,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5494,
+     "mean_nontoken_Villains_deployed": 1.155
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8015,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7047,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6177,
+     "mean_nontoken_Villains_deployed": 1.737
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8588,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7902,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6737,
+     "mean_nontoken_Villains_deployed": 2.284
+    }
+   },
+   "candidate_Ultimo_and_Elektra": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0059,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0791,
+     "mean_nontoken_Villains_deployed": 0.086
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2026,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0053,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.2567,
+     "mean_nontoken_Villains_deployed": 0.295
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6195,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1682,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.3754,
+     "mean_nontoken_Villains_deployed": 0.526
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7226,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5696,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5,
+     "mean_nontoken_Villains_deployed": 1.098
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8007,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7003,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5667,
+     "mean_nontoken_Villains_deployed": 1.677
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8593,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7877,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.618,
+     "mean_nontoken_Villains_deployed": 2.217
+    }
+   },
+   "candidate_plus_Secluded_Courtyard_minus_Path_of_Ancestry": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0061,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0862,
+     "mean_nontoken_Villains_deployed": 0.093
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2124,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0064,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.2585,
+     "mean_nontoken_Villains_deployed": 0.297
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.629,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1767,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.3832,
+     "mean_nontoken_Villains_deployed": 0.539
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7304,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5803,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5089,
+     "mean_nontoken_Villains_deployed": 1.12
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8062,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7075,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5753,
+     "mean_nontoken_Villains_deployed": 1.703
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8639,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.7938,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6287,
+     "mean_nontoken_Villains_deployed": 2.251
+    }
+   },
+   "candidate_plus_Strionic_Resonator_minus_Swiftfoot_Boots": {
+    "turn 1": {
+     "P_Loki_on_battlefield": 0.0,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0,
+     "mean_nontoken_Villains_deployed": 0.0
+    },
+    "turn 2": {
+     "P_Loki_on_battlefield": 0.0063,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.0818,
+     "mean_nontoken_Villains_deployed": 0.088
+    },
+    "turn 3": {
+     "P_Loki_on_battlefield": 0.2067,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.0057,
+     "P_Strionic_activation_payable_on_attack": 0.0,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.2572,
+     "mean_nontoken_Villains_deployed": 0.294
+    },
+    "turn 4": {
+     "P_Loki_on_battlefield": 0.6228,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.1706,
+     "P_Strionic_activation_payable_on_attack": 0.0014,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.3818,
+     "mean_nontoken_Villains_deployed": 0.532
+    },
+    "turn 5": {
+     "P_Loki_on_battlefield": 0.7243,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.5717,
+     "P_Strionic_activation_payable_on_attack": 0.0175,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5078,
+     "mean_nontoken_Villains_deployed": 1.107
+    },
+    "turn 6": {
+     "P_Loki_on_battlefield": 0.8033,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.6987,
+     "P_Strionic_activation_payable_on_attack": 0.0379,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.5746,
+     "mean_nontoken_Villains_deployed": 1.687
+    },
+    "turn 7": {
+     "P_Loki_on_battlefield": 0.8626,
+     "P_Loki_attacks_with_valid_other_Villain_target": 0.79,
+     "P_Strionic_activation_payable_on_attack": 0.0595,
+     "P_Seize_the_Day_castable_postcombat_on_attack": 0.0,
+     "P_cheap_Villain_MV3_or_less_deployed": 0.6281,
+     "mean_nontoken_Villains_deployed": 2.234
+    }
+   }
+  },
+  "partB_method": "Exhaustive finite rules-encoded grid over Loki absent/summoning-sick/ready x other Villain none/valid/target removed in response x protection none/Lightning Greaves/Swiftfoot Boots x opposing targeted removal none/before attacks/after combat one x spare mana 0..6 x The Master, Multiplied absent/present. Rules encoded: Loki trigger needs another target Villain (fizzles if removed in response); Strionic copies the Loki attack trigger for {2} (one activation, it taps); Seize the Day must be cast postcombat for {3}{R} and Loki must survive combat one; Loki's draw counted once per combat in which Villains connect (Loki assumed to connect); the token is sacrificed at the next end step unless The Master is present; Black Market Connections counted as one draw (Buy Information) in the baseline and Strionic configs. Boots cells are excluded for the Strionic config (it removes Boots). These are manually encoded rules branches, not source-bound game-engine receipts and not win rates.",
+  "partB_results": {
+   "baseline": {
+    "cells": 1098,
+    "mean_copies": 0.1676,
+    "mean_combats": 0.5027,
+    "mean_loki_draws": 0.5027,
+    "mean_bmc_draws": 1.0,
+    "mean_token_kept": 0.0838
+   },
+   "strionic": {
+    "cells": 756,
+    "mean_copies": 0.254,
+    "mean_combats": 0.4444,
+    "mean_loki_draws": 0.4444,
+    "mean_bmc_draws": 1.0,
+    "mean_token_kept": 0.127
+   },
+   "seize": {
+    "cells": 1098,
+    "mean_copies": 0.2277,
+    "mean_combats": 0.6831,
+    "mean_loki_draws": 0.6831,
+    "mean_bmc_draws": 0.0,
+    "mean_token_kept": 0.1138
+   }
+  },
+  "partB_paired_cells_excluding_Boots": {
+   "cells": 756,
+   "strionic_more_copies": 80,
+   "seize_more_copies": 42,
+   "seize_more_draws_incl_BMC": 0,
+   "seize_fewer_draws_incl_BMC": 630
+  },
+  "partB_Boots_marginal_cells_baseline_with_no_other_equipment": {
+   "cells": 342,
+   "Boots_adds_a_combat_vs_no_equipment": 144,
+   "Boots_adds_copies_vs_no_equipment": 48
+  }
+ }
+}
