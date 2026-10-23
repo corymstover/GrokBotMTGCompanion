@@ -268,6 +268,10 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_admiral_unbounded_stage1.py' -v
       - name: Validate Admiral rev2 exact 100, I-J scope, owner presentation post-floor gate
         run: python -m unittest discover -s tests -p 'test_m7_admiral_rev2_owner_ready.py' -v
+      - name: Reconcile Admiral exact M7 later owner approval without formal milestone acceptance
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_owner_approval_receipt.py' -v
+      - name: Validate Abaddon post-Admiral EDHREC discovery and two research-only exact 100s
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_post_admiral_edhrec_reopen.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
