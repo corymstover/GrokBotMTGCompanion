@@ -12,6 +12,7 @@ on:
       - scripts/grixis_m6_bundle_check.py
       - scripts/grixis_m7_decision_gate.py
       - tests/test_m7_admiral_brass_unsinkable_candidate.py
+      - tests/test_m7_admiral_brass_unsinkable_chatgpt_rev3.py
       - tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py
       - tests/test_m6_admiral_brass_unsinkable_m7_ij.py
   workflow_dispatch:
@@ -42,5 +43,7 @@ jobs:
         run: python -m pytest -v tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py
       - name: Deck 3 candidate-specific I/J hash binding and J checker
         run: python -m pytest -v tests/test_m6_admiral_brass_unsinkable_m7_ij.py
+      - name: Independent ChatGPT Rev3 exact 100, legality and rules regression
+        run: python -m pytest -v tests/test_m7_admiral_brass_unsinkable_chatgpt_rev3.py
       - name: All M7 packets structural gate with sources
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
