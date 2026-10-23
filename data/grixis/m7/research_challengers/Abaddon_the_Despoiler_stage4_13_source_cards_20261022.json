@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "status": "SOURCE_CAPTURE_NOT_OWNER_FINAL",
+  "retrieved_at_utc": "2026-10-23T02:51:20.992Z",
+  "source_api": "https://api.scryfall.com/cards/collection",
+  "canonical_approved_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "queried_name_count": 13,
+  "not_found": [],
+  "all_official_commander_legal": true,
+  "all_grixis_color_identity": true,
+  "oracle_cards": {
+    "Sakashima of a Thousand Faces": {
+      "name": "Sakashima of a Thousand Faces",
+      "id": "714c3a1f-7b30-4ed8-8f38-6176758741fb",
+      "oracle_id": "8ecdaf4b-4442-42da-9714-4257a83faf50",
+      "cmc": 4,
+      "mana_cost": "{3}{U}",
+      "type_line": "Legendary Creature — Human Rogue",
+      "color_identity": [
+        "U"
+      ],
+      "oracle_text": "You may have Sakashima enter as a copy of another creature you control, except it has Sakashima's other abilities.\nThe \"legend rule\" doesn't apply to permanents you control.\nPartner (You can have two commanders if both have partner.)",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cmr/89/sakashima-of-a-thousand-faces?utm_source=api",
+      "released_at": "2020-11-20"
+    },
+    "Irenicus's Vile Duplication": {
+      "name": "Irenicus's Vile Duplication",
+      "id": "40a791df-2483-406d-90b0-a8d402d615d6",
+      "oracle_id": "a3faf698-1dac-45ef-9c43-c8cead489ffc",
+      "cmc": 4,
+      "mana_cost": "{3}{U}",
+      "type_line": "Sorcery",
+      "color_identity": [
+        "U"
+      ],
+      "oracle_text": "Create a token that's a copy of target creature you control, except the token has flying and it isn't legendary.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/clb/78/irenicuss-vile-duplication?utm_source=api",
+      "released_at": "2022-06-10"
+    },
+    "Strionic Resonator": {
+      "name": "Strionic Resonator",
+      "id": "b9edb215-f967-4968-905e-d1dc3b5d3424",
+      "oracle_id": "cf751552-156f-4f81-ac94-9814dce099f9",
+      "cmc": 2,
+      "mana_cost": "{2}",
+      "type_line": "Artifact",
+      "color_identity": [],
+      "oracle_text": "{2}, {T}: Copy target triggered ability you control. You may choose new targets for the copy. (A triggered ability uses the words \"when,\" \"whenever,\" or \"at.\")",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/moc/384/strionic-resonator?utm_source=api",
+      "released_at": "2023-04-21"
+    },
+    "Fiery Inscription": {
+      "name": "Fiery Inscription",
+      "id": "8c321159-43e5-40fc-9f0c-4ecc4f6cfd20",
+      "oracle_id": "111889d4-bcca-4b1f-ad48-3077e2f5136f",
+      "cmc": 3,
+      "mana_cost": "{2}{R}",
+      "type_line": "Enchantment",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "When this enchantment enters, the Ring tempts you.\nWhenever you cast an instant or sorcery spell, this enchantment deals 2 damage to each opponent.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/ltr/126/fiery-inscription?utm_source=api",
+      "released_at": "2023-06-23"
+    },
+    "Simian Spirit Guide": {
+      "name": "Simian Spirit Guide",
+      "id": "0e57335d-4066-4d73-83cd-67a215e01a4e",
+      "oracle_id": "44e0ffa3-8915-4c1f-8f1a-4aeea1365f07",
+      "cmc": 3,
+      "mana_cost": "{2}{R}",
+      "type_line": "Creature — Ape Spirit",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Exile this card from your hand: Add {R}.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/tsr/190/simian-spirit-guide?utm_source=api",
+      "released_at": "2021-03-19"
+    },
+    "Treasonous Ogre": {
+      "name": "Treasonous Ogre",
+      "id": "ae48c31d-6fd9-457f-adb8-37f367724ba1",
+      "oracle_id": "826d4279-1576-4898-a1c2-26fd547fb0d0",
+      "cmc": 4,
+      "mana_cost": "{3}{R}",
+      "type_line": "Creature — Ogre Shaman",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Dethrone (Whenever this creature attacks the player with the most life or tied for most life, put a +1/+1 counter on it.)\nPay 3 life: Add {R}.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/cns/36/treasonous-ogre?utm_source=api",
+      "released_at": "2014-06-06"
+    },
+    "Fiendish Duo": {
+      "name": "Fiendish Duo",
+      "id": "ebb44595-56f6-4be5-80bb-618ddd320f4a",
+      "oracle_id": "ab0dfae5-b9d4-417b-8a0d-2525ae3a73b9",
+      "cmc": 6,
+      "mana_cost": "{4}{R}{R}",
+      "type_line": "Creature — Devil",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "First strike (This creature deals combat damage before creatures without first strike.)\nIf a source would deal damage to an opponent, it deals double that damage to that player instead.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/mkc/153/fiendish-duo?utm_source=api",
+      "released_at": "2024-02-09"
+    },
+    "Professional Face-Breaker": {
+      "name": "Professional Face-Breaker",
+      "id": "42acbf52-b137-44f0-a815-2817fe8d2da2",
+      "oracle_id": "04152e7a-969c-4858-841b-0a569a9fc1bf",
+      "cmc": 3,
+      "mana_cost": "{2}{R}",
+      "type_line": "Creature — Human Warrior",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Menace\nWhenever one or more creatures you control deal combat damage to a player, create a Treasure token.\nSacrifice a Treasure: Exile the top card of your library. You may play that card this turn.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/snc/116/professional-face-breaker?utm_source=api",
+      "released_at": "2022-04-29"
+    },
+    "Kessig Flamebreather": {
+      "name": "Kessig Flamebreather",
+      "id": "303ad78a-b02a-44dc-afe6-7f95781a5062",
+      "oracle_id": "eadd9559-6dcb-4b96-8c95-58abddd0e120",
+      "cmc": 2,
+      "mana_cost": "{1}{R}",
+      "type_line": "Creature — Human Shaman",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/vow/164/kessig-flamebreather?utm_source=api",
+      "released_at": "2021-11-19"
+    },
+    "Thermo-Alchemist": {
+      "name": "Thermo-Alchemist",
+      "id": "78b194b3-108a-4152-bd37-52c302e25ad6",
+      "oracle_id": "228fbae1-423e-461d-b8c3-55786938a3cb",
+      "cmc": 2,
+      "mana_cost": "{1}{R}",
+      "type_line": "Creature — Human Shaman",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Defender\n{T}: This creature deals 1 damage to each opponent.\nWhenever you cast an instant or sorcery spell, untap this creature.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/inr/174/thermo-alchemist?utm_source=api",
+      "released_at": "2025-01-24"
+    },
+    "Vivi Ornitier": {
+      "name": "Vivi Ornitier",
+      "id": "ecc1027a-8c07-44a0-bdde-fa2844cff694",
+      "oracle_id": "0452be2a-e97a-4269-a9e3-b616265ecb2e",
+      "cmc": 3,
+      "mana_cost": "{1}{U}{R}",
+      "type_line": "Legendary Creature — Wizard",
+      "color_identity": [
+        "R",
+        "U"
+      ],
+      "oracle_text": "{0}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power. Activate only during your turn and only once each turn.\nWhenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/fin/248/vivi-ornitier?utm_source=api",
+      "released_at": "2025-06-13"
+    },
+    "Storm-Kiln Artist": {
+      "name": "Storm-Kiln Artist",
+      "id": "da7ae8e0-cb6b-4386-8a30-9527d1af9be5",
+      "oracle_id": "a145ff8c-5812-4bcb-bd16-9839dc25121d",
+      "cmc": 4,
+      "mana_cost": "{3}{R}",
+      "type_line": "Creature — Dwarf Shaman",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "This creature gets +1/+0 for each artifact you control.\nMagecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/soc/255/storm-kiln-artist?utm_source=api",
+      "released_at": "2026-04-24"
+    },
+    "Harmonic Prodigy": {
+      "name": "Harmonic Prodigy",
+      "id": "63a565e3-d7a8-469d-898f-49fef634c107",
+      "oracle_id": "2e2ace5b-4018-43af-8e72-ebafec1a7739",
+      "cmc": 2,
+      "mana_cost": "{1}{R}",
+      "type_line": "Creature — Human Wizard",
+      "color_identity": [
+        "R"
+      ],
+      "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time.",
+      "commander_legality": "legal",
+      "scryfall_uri": "https://scryfall.com/card/soc/123/harmonic-prodigy?utm_source=api",
+      "released_at": "2026-04-24"
+    }
+  },
+  "limits": [
+    "Current Scryfall source verification and creature-type text only; no new 100-card list is approved.",
+    "Harmonic Prodigy doubles triggered abilities of Shamans and OTHER Wizards; it does not copy Abaddon's static ability, its granted cascade trigger, or Vivi's activated mana ability.",
+    "Printed mana values are independent of alternate costs; a card's legality is not strategic proof."
+  ]
+}
