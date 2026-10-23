@@ -17,3 +17,8 @@
   +Mirkwood Bats / -Fellwar Stone; +Spectral Sailor / -Lotus Petal; +Malcolm, the Eyes / -Captain Lannery Storm. No explicit owner keep cut.
 - Pass C bounded test (Bats vs Fateful, Bats vs Adrestia) computed; staged alternatives committed.
 - Next: decision packet, I/J memos, certificate, bundle, snapshots, tests, workflow.
+
+## Checkpoint 2026-10-23 10:07 CDT (snapshots and decision packet)
+- Oracle snapshot (250 cards, frozen-cache diff empty), rules snapshot, bounded measured-tests JSON committed.
+- Decision packet data/grixis/m7/decision_reviews/Edward_Kenway.json: 25 candidate judgments, 14 weak slots, 8 post-floor challenges, 1 larger (six-swap) package; verify_packet passes locally.
+- Next: tested pool, I/J memos, adversarial packet, tests, workflow, certificate and bundle.

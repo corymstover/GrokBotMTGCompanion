@@ -1,0 +1,923 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Edward_Kenway",
+ "canonical_baseline_sha256": "a08d3bc9c283415f1579c493eccb3febd7d10dea3777bf3dc50cfbc0dbed4019",
+ "canonical_baseline_logical_hash": "lh1:fe8bb5317dbf183c3b20d6c5582ac4f2243f0e7c890e4687161c1725a1dc936c",
+ "commander_identity": {
+  "mechanical_plan": "Edward Kenway ({2}{U}{B}{R} 5/5 legendary Human Assassin Pirate; Assassin's Creed acr, released 2024-07-05; commander-legal, not a Game Changer, no project exception). At our end step he makes a Treasure for each tapped Assassin, Pirate and/or Vehicle we control (each permanent counted once). Whenever a Vehicle we control deals combat damage to a player, he exiles that player's top card face down and we may play it for as long as it stays exiled. Plan: attack with evasive Pirates and Vehicles (crewing taps more bodies, over-crew is legal), collect Treasures each end step, keep the stolen cards, and convert artifacts into cards (Fateful Discovery, Academy Manufactor), extra turns (Time Sieve) or drain (Mirkwood Bats).",
+  "protected_core": [
+   "Edward Kenway",
+   "Academy Manufactor",
+   "Time Sieve",
+   "Luxurious Locomotive",
+   "Roaming Throne",
+   "Malcolm, Keen-Eyed Navigator",
+   "Glint-Horn Buccaneer",
+   "Ramirez DePietro, Pillager",
+   "Smuggler's Copter",
+   "The Indomitable",
+   "Skysovereign, Consul Flagship",
+   "Fateful Discovery",
+   "Adéwalé, Breaker of Chains",
+   "Don Andres, the Renegade",
+   "Port Razer"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized). Game Changers: 10 in baseline and candidate (Ancient Tomb, Chrome Mox, Cyclonic Rift, Fierce Guardianship, Force of Will, Imperial Seal, Jeska's Will, Mana Vault, Mox Diamond, Vampiric Tutor). Commander Spellbook find-my-combos: 5 complete combos in both lists (Malcolm, Keen-Eyed Navigator + Glint-Horn Buccaneer, and Time Sieve lines), almost-included 43 -> 45. No new combo and no unconditional infinite is claimed: Malcolm + Glint-Horn is a near-infinite that needs at least two opponents; the Sieve lines need five artifacts every turn.",
+  "anti_homogenization": "Commander-first to Edward's Oracle: Mu Yanling and Brotherhood Vertibird make Vehicles connect for his theft; Spectral Sailor and Malcolm, the Eyes are evasive Pirates that are tapped at end step; Mirkwood Bats turns his Treasures into a drain. Distinctness (nonbasic names shared with the most similar approved Grixis pirate decks, baseline -> candidate): Admiral Beckett Brass 50 -> 49; Admiral Brass, Unsinkable 48 -> 46 (logical representative: canonical Archidekt export 03_Admiral_Brass_Unsinkable.txt, because no file matched its approved hash e66e3a59); Don Andres, the Renegade 49 -> 47; Nathan Drake, Treasure Hunter 47 -> 45. Of the five adds only Spectral Sailor appears in another pirate deck (Beckett Brass). The shared core is the mana base, fast mana, free interaction and the strongest Pirates; separation is commander-first: every add serves Edward's tapped count or his Vehicle combat-damage theft. Owner-removed or rejected cards and classes (Sulfur Falls, Revel in Riches, Setzer, Mechanized Production; Magmatic Galleon, Admiral Beckett Brass, Fell Flagship, Corsair Captain, Lifecraft Engine, Malcolm, Alluring Scoundrel, Blood Money, Back in Town, Pitiless Plunderer, Storm the Vault, Xorn, Rain of Riches, Treasure Map, Mech Hangar and tribal taplands, Mobilizer Mech, Reckoner Bankbuster, Cargo Ship, Careening Mine Cart, The Thanos-Copter, Overpowering Attack, Unstoppable Plan, Shao Jun, Coercive Recruiter, Forerunner of the Coalition, Great Gilded Boat, Unwinding Clock, Weatherlight) are not re-added. No explicit owner keep is cut: all five cuts were plain RETAIN lines in the owner's 2026-10-14 ledger; Fateful Discovery (explicit keep) stays, and the Pass C swap that would cut it is staged."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (97 library rows; Island and Swamp 2x each, everything else 1x).\nRoles:\n- 35 lands, including Ancient Tomb, Cavern of Souls, Urza's Saga, Otawara, Training Center, Exotic Orchard and nine fetchlands.\n- Rocks and fast mana: Sol Ring, Arcane Signet, Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, three Talismans; Fellwar Stone and Lotus Petal are cut.\n- Vehicles (13 -> 13): Smuggler's Copter, Jackdaw, Adrestia, Deluxe Dragster, Skysovereign, The Indomitable, The Belligerent, Subterranean Schooner, Nautiloid Ship, Luxurious Locomotive, Hoard Hauler, RMS Titanic; Imposter Mech is cut; Brotherhood Vertibird and Mu Yanling's token are new.\n- Pirates and Assassins (21 -> 21 including Edward): Breeches, Brazen Plunderer and Captain Lannery Storm are cut; Spectral Sailor and Malcolm, the Eyes are new.\n- Treasure and card engines: Academy Manufactor, Fateful Discovery, Coastal Piracy, Black Market Connections, Ramirez, Vaan, Don Andres, Malcolm, Keen-Eyed Navigator; Mirkwood Bats is new.\n- Finishers: Time Sieve, Port Razer, Glint-Horn Buccaneer, Roaming Throne.\n- Interaction: Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat, Captain Storm, Cyclonic Rift, Deadly Rollick, An Offer You Can't Refuse, Toxic Deluge, Hostage Taker, Kitesail Larcenist, Siren Stormtamer.",
+  "mana_base_and_curve": "Baseline and candidate: 35 lands (5 basics: 2 Island, 2 Swamp, 1 Mountain), coloured sources unchanged. Durable rocks 7 -> 6 (Fellwar cut) and Lotus Petal cut. Exact multivariate-hypergeometric test (strict: lands plus durable rocks, U, B and R, at least five sources by turn 5): with Petal counted 0.5538/0.6544 -> 0.5025/0.6038 (play/draw); with Petal excluded 0.5283/0.6295 -> 0.5025/0.6038. Moxen, Ancient Tomb's extra mana and Treasure makers are excluded, so these are floors. Average nonland MV 2.797 -> 2.844; creatures 24 -> 26 (including Edward).",
+  "interaction_resilience": "Stack: Force of Will, Fierce Guardianship, Mana Drain, Swan Song, Deflecting Swat. Removal: Cyclonic Rift, Deadly Rollick, An Offer You Can't Refuse, Hostage Taker, Kitesail Larcenist, Skysovereign. Wipe: Toxic Deluge (Vehicles that are not crewed survive it). Protection: Siren Stormtamer, Otawara, Cavern of Souls. Weak points: a five-mana commander; artifact wipes hit Vehicles, Treasures and Vertibird; Mu's flying grant ends if she dies; Bats is a removable 2/3.",
+  "weakest_slots": [
+   {
+    "card": "Breeches, Brazen Plunderer",
+    "weakness": "Its theft is this-turn only and overlaps Edward, Ramirez and Vaan.",
+    "alternative_named": "Mu Yanling, Wind Rider",
+    "reasoning": "Cut: Mu makes Edward's permanent theft reliable."
+   },
+   {
+    "card": "Imposter Mech",
+    "weakness": "Value depends on the opponents' creatures; crew 3.",
+    "alternative_named": "Brotherhood Vertibird",
+    "reasoning": "Cut: an evasive Vehicle that scales with our artifacts."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "The weakest rock: its colour depends on the opponents' lands.",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Cut: measured castability cost disclosed (0.5283 -> 0.5025 on the play)."
+   },
+   {
+    "card": "Lotus Petal",
+    "weakness": "One-shot mana that is gone after a single use.",
+    "alternative_named": "Spectral Sailor",
+    "reasoning": "Cut: a permanent Pirate qualifier and mana sink."
+   },
+   {
+    "card": "Captain Lannery Storm",
+    "weakness": "A ground 2/2 that is often blocked.",
+    "alternative_named": "Malcolm, the Eyes",
+    "reasoning": "Cut: flying and haste Pirate that connects."
+   },
+   {
+    "card": "Fateful Discovery",
+    "weakness": "5 MV; compulsory draws can deck us; strong only with Manufactor (P both seen in 12 cards 0.0136).",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Kept: explicit owner keep; the Pass C exact swap is staged as an alternative."
+   },
+   {
+    "card": "Adrestia",
+    "weakness": "Draws only if an Assassin crewed it; islandwalk is matchup dependent.",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Kept: a Vehicle that connects for Edward theft; Pass C secondary swap staged."
+   },
+   {
+    "card": "Imperial Seal",
+    "weakness": "A card-disadvantage tutor that puts a card on top of the library.",
+    "alternative_named": "Eagle Vision",
+    "reasoning": "Kept: finds Sieve, Locomotive or Manufactor for one mana; the six-swap is staged."
+   },
+   {
+    "card": "Vaan, Street Thief",
+    "weakness": "Not a Pirate, Assassin or Vehicle, so Edward does not count it.",
+    "alternative_named": "Kitesail Freebooter",
+    "reasoning": "Kept: named in the owner's theft group; converts stolen cards into value."
+   },
+   {
+    "card": "Coastal Piracy",
+    "weakness": "4 MV enchantment that overlaps The Indomitable.",
+    "alternative_named": "Kindred Discovery",
+    "reasoning": "Kept: it draws on every connecting creature, Vehicles included."
+   },
+   {
+    "card": "Subterranean Schooner",
+    "weakness": "A ground Vehicle that is often blocked unless Mu is out.",
+    "alternative_named": "Boosted Sloop",
+    "reasoning": "Kept: Mu Yanling now makes it fly, so it connects for Edward."
+   },
+   {
+    "card": "Xander's Lounge",
+    "weakness": "Always enters tapped (cycling {3} is its upside).",
+    "alternative_named": "Mutavault",
+    "reasoning": "Kept: the only tri-colour land that also cycles; colourless lands rejected."
+   },
+   {
+    "card": "Hostage Taker",
+    "weakness": "Four mana and removable before its theft resolves.",
+    "alternative_named": "Possession Engine",
+    "reasoning": "Kept: an immediate theft on a Pirate body."
+   },
+   {
+    "card": "Smuggler's Copter",
+    "weakness": "A small 3/3 body that trades poorly in combat.",
+    "alternative_named": "Phoenix Fleet Airship",
+    "reasoning": "Kept: 2 MV evasive looter Vehicle."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Edward list (2026-10-14) built on Pirate and Vehicle attacks, Treasure, theft and Time Sieve. M6 Pass C (#17) is NEEDS TESTING (owner-equivalent substitute, NOT independent; 0 measured playtests). Its first-priority hypothesis was +Mirkwood Bats / -Fateful Discovery, with +Bats / -Adrestia as a secondary stress test. Weakest five plain-retained slots: Breeches, Brazen Plunderer (temporary theft), Imposter Mech (board-dependent), Fellwar Stone (opponent-dependent rock), Lotus Petal (one-shot) and Captain Lannery Storm (ground 2/2).",
+  "candidate_pool_scope": "EDHREC Edward general (13036 decks), upgraded (1112) and optimized (294) pages JSON; live Scryfall /cards/collection batch (98 baseline rows plus 160 evaluated names) and OFF-RANKING searches for evasive Pirates, Vehicle anthems and Treasure payoffs in UBR; Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition and the GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found (absent from all Edward pages): Goldspan Dragon, Kitesail Freebooter, Cosima // The Omenkeel, Mutavault, Changeling Outcast, Universal Automaton. All rejected; the selected adds are ranked cards whose text serves Edward directly."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Edward approved source refinement/decklists/Edward_Kenway_Approved_2026-10-14.txt (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob 46df00ee, frozen by canonical commit 1e0b2e94; registry source commit 1836b97 carries the same bytes; vendored in data/grixis/m7/baseline_sources/Edward_Kenway_approved_source_2026-10-14.txt)",
+  "EDHREC Edward commander pages JSON (general, upgraded, optimized) retrieved 2026-10-23 09:52 America/Chicago, discovery only: data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 09:53 America/Chicago: data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Edward_Kenway_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for evasive Pirates, Vehicle anthems, changelings and Treasure payoffs (Goldspan Dragon, Kitesail Freebooter, Cosima // The Omenkeel, Mutavault, Changeling Outcast, Universal Automaton)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Edward_Kenway/final_disposition.md",
+  "GrokBot advisory first pass: data/grixis/m6/grokbot_pass_c_advisory/Edward_Kenway.md",
+  "Owner 2026-10-14 current-cycle decisions (removals, rejections and retain reasons): canonical refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 702.122a-c, 301.7a/b, 702.9b, 111.10a, 701.16a, 603.2d, 704.5j; frozen rulings for Edward, Vertibird, Time Sieve and Malcolm, the Eyes: data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C request (exact castability of Bats vs Fateful by cards seen; exact P(payoff and Manufactor both seen); deterministic end-step engine table; exact mana test with and without Lotus Petal): data/grixis/m7/research_challengers/Edward_Kenway_bounded_measured_tests_20261023.json and tests/test_m6_edward_kenway_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Mu Yanling, Wind Rider",
+   "source": "EDHREC Edward general 2000/13036, upgraded 174/1112, optimized 53/294; live Scryfall batch",
+   "role": "{2}{U}{U} 2/4 legendary Human Wizard Pilot: when it enters, create a 3/2 colourless Vehicle artifact token with crew 1; Vehicles we control have flying; whenever one or more of our flying creatures deal combat damage to a player, draw a card.",
+   "named_cuts": [
+    "Breeches, Brazen Plunderer"
+   ],
+   "incumbent_opportunity_cost": "Loses Breeches, Brazen Plunderer, a 4-MV menace Pirate whose damage trigger exiles each damaged opponent's top card, playable THIS TURN only. It is plainly retained in the owner's 2026-10-14 ledger (no stated reason), not an explicit keep. Notable: 50% of EDHREC Edward decks.",
+   "commander_synergy": "Edward's second ability needs a Vehicle to deal combat damage to a player. Mu gives all 13 Vehicles flying (702.9b); only 5 in the candidate fly on their own (4 in the baseline). So each Vehicle attack is far more likely to connect and steal a card for as long as it stays exiled. The token is a Vehicle (counts tapped at end step) and crew 1 can be paid by Mu herself. Card draw on the same connection.",
+   "adversarial_downside": "A 4-MV creature that dies to everything; the flying grant disappears with her. Losing Breeches removes a Pirate body (Pirate count 21 is kept by Spectral Sailor and Malcolm).",
+   "judgment": "SELECT_ADD",
+   "reason": "Turns Edward's own combat-damage text from 'if unblocked' into 'usually'; Breeches' theft is temporary and duplicates Edward, Ramirez and Vaan.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Brotherhood Vertibird",
+   "source": "EDHREC Edward general 3331/13036, upgraded 245/1112, optimized 61/294; live Scryfall batch",
+   "role": "{3} artifact Vehicle, flying, power equal to the number of artifacts we control, toughness 4, crew 2.",
+   "named_cuts": [
+    "Imposter Mech"
+   ],
+   "incumbent_opportunity_cost": "Loses Imposter Mech, a 2-MV Vehicle that copies an opponent's creature (as a crew-3 Vehicle); its value depends entirely on the opponents' boards. Plain owner RETAIN, not an explicit keep.",
+   "commander_synergy": "A flying Vehicle that connects for Edward's theft trigger without Mu. Edward's Treasures, Manufactor's Clues/Foods and the rocks all grow it (ruling: it counts itself). Tapped after attacking, it is one more Edward Treasure.",
+   "adversarial_downside": "Small early (power 1-3 with few artifacts); artifact wipes shrink it; crew 2 taps bodies that might attack.",
+   "judgment": "SELECT_ADD",
+   "reason": "Deck-native evasive Vehicle instead of a board-dependent copy; Vehicle count stays 13.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Mirkwood Bats",
+   "source": "EDHREC Edward general 1375/13036, upgraded 183/1112, optimized 48/294; live Scryfall batch",
+   "role": "{3}{B} 2/3 flying Bat: whenever we create or sacrifice a token, each opponent loses 1 life.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses Fellwar Stone, the weakest durable rock: its colour depends on the opponents' lands. Measured cost: strict turn-5 Edward castability from lands plus durable rocks 0.5283/0.6295 -> 0.5025/0.6038 (play/draw, Lotus Petal excluded). Plain owner RETAIN, not an explicit keep.",
+   "commander_synergy": "Pass C's first-priority hypothesis card. Edward's end-step Treasures, Treasure spending, Manufactor's 3-for-1 tokens and Time Sieve's five sacrifices all drain the table. Bounded engine table: with Manufactor and 2 tapped qualifiers, 6 per opponent at end step (11 with a Sieve activation).",
+   "adversarial_downside": "A 2/3 creature that is easy to remove; off-type (not a Pirate, Assassin or Vehicle).",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts the deck's main resource (tokens) into a clock that ignores blockers. It is placed over the weakest rock rather than over the owner-kept Fateful Discovery; the exact Pass C swap is staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Edward_Kenway_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Edward_Kenway/final_disposition.md",
+    "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_FatefulDiscovery_keep_Fellwar_20261023.txt"
+   ]
+  },
+  {
+   "card": "Spectral Sailor",
+   "source": "EDHREC Edward general 2879/13036, upgraded 276/1112, optimized 60/294; live Scryfall batch",
+   "role": "{U} 1/1 Spirit Pirate, flash, flying; {3}{U}: draw a card.",
+   "named_cuts": [
+    "Lotus Petal"
+   ],
+   "incumbent_opportunity_cost": "Loses Lotus Petal, a one-shot 0-MV mana source (it does not count as a durable rock in the castability model). Plain owner RETAIN.",
+   "commander_synergy": "A 1-mana evasive Pirate: attacks safely, so it is tapped at end step for Edward's Treasure, and it crews Vehicles. A Treasure mana sink late. It also connects for Malcolm, Keen-Eyed Navigator and Ramirez.",
+   "adversarial_downside": "1/1 body; drawing costs four mana per card.",
+   "judgment": "SELECT_ADD",
+   "reason": "A permanent Edward qualifier and mana sink beats a one-shot mana card in a deck that makes Treasure every turn.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Malcolm, the Eyes",
+   "source": "EDHREC Edward general 1213/13036, upgraded 125/1112, optimized absent; live Scryfall batch",
+   "role": "{U}{R} 2/2 legendary Siren Pirate, flying, haste: whenever we cast our second spell each turn, investigate.",
+   "named_cuts": [
+    "Captain Lannery Storm"
+   ],
+   "incumbent_opportunity_cost": "Loses Captain Lannery Storm, a 3-MV haste ground Pirate that makes a Treasure on attack. Notable: 66% of EDHREC Edward decks. Plain owner RETAIN, not an explicit keep.",
+   "commander_synergy": "Cheaper, and it flies with haste, so it attacks the turn it lands and is tapped for Edward that end step. It connects for Malcolm, Keen-Eyed Navigator (Treasure per opponent) and Ramirez. Its Clues are artifacts for Fateful Discovery, Vertibird, Bats and Time Sieve. NOTE: this is not Malcolm, Alluring Scoundrel, which the owner rejected.",
+   "adversarial_downside": "Clues need two spells a turn; Lannery's attack Treasure is more direct ramp.",
+   "judgment": "SELECT_ADD",
+   "reason": "Evasion and haste mean it actually connects and taps for Edward each turn; Lannery's ground 2/2 is often blocked.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Chandra, Spark Hunter",
+   "source": "EDHREC Edward general 1879/13036, upgraded 186/1112, optimized 52/294; live Scryfall batch",
+   "role": "{3}{R} planeswalker: at the beginning of combat, a target Vehicle becomes an artifact creature with haste; +2 loot; 0: 3/2 crew-1 Vehicle token; -7 emblem.",
+   "named_cuts": [
+    "Breeches, Brazen Plunderer"
+   ],
+   "incumbent_opportunity_cost": "Would replace Mu Yanling in the same slot (Breeches cut).",
+   "commander_synergy": "Animates a Vehicle each combat without crew (so crew bodies can attack too and are tapped for Edward) and makes a Vehicle token every turn.",
+   "adversarial_downside": "A planeswalker the table can attack; no evasion, so it does not help Edward's combat-damage theft.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a complete five-swap 100 instead of Mu; Mu's evasion serves Edward's theft trigger more directly.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_five_ChandraSparkHunter_instead_of_MuYanling_20261023.txt"
+   ]
+  },
+  {
+   "card": "Eagle Vision",
+   "source": "EDHREC Edward general 1856/13036, upgraded 135/1112, optimized 29/294; live Scryfall batch",
+   "role": "{4}{U} sorcery, freerunning {1}{U} (if an Assassin or our commander dealt combat damage this turn): draw three.",
+   "named_cuts": [
+    "Imperial Seal"
+   ],
+   "incumbent_opportunity_cost": "Would cut Imperial Seal, a Game Changer tutor.",
+   "commander_synergy": "Edward is an Assassin and our commander, so after he connects it is a 2-mana draw three.",
+   "adversarial_downside": "Five mana otherwise; it needs Edward to connect (he is a 5/5 without evasion).",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a six-swap; Imperial Seal finds Time Sieve, Locomotive or Manufactor at sorcery speed for one mana, and the owner kept it.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_six_EagleVision_over_ImperialSeal_20261023.txt"
+   ]
+  },
+  {
+   "card": "Goldspan Dragon",
+   "source": "EDHREC Edward general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING (absent from all three Edward pages)",
+   "role": "{3}{R}{R} 4/4 flying haste Dragon that makes Treasures when it attacks or is targeted; Treasures tap for two.",
+   "named_cuts": [
+    "Captain Lannery Storm"
+   ],
+   "incumbent_opportunity_cost": "Would cut Captain Lannery Storm in the same slot.",
+   "commander_synergy": "Treasures for Edward's deck, double mana.",
+   "adversarial_downside": "Not a Pirate, Assassin or Vehicle, so it is not tapped for Edward; 5 MV.",
+   "judgment": "REJECT",
+   "reason": "A generic Treasure dragon that does not use Edward's text.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Jhoira, Weatherlight Corsair",
+   "source": "EDHREC Edward general 163/13036, upgraded 20/1112, optimized 6/294; live Scryfall batch",
+   "role": "{4}{B}{B} 4/5 legendary Human Pirate: when it enters or attacks, an opponent reveals until a historic permanent card, which we put onto the battlefield (losing life equal to its MV).",
+   "named_cuts": [
+    "Imposter Mech"
+   ],
+   "incumbent_opportunity_cost": "Would cut Imposter Mech in the same slot.",
+   "commander_synergy": "A Pirate qualifier with repeatable theft, in Edward's theme.",
+   "adversarial_downside": "Six mana with no evasion; the life loss from big historic hits adds up.",
+   "judgment": "REJECT",
+   "reason": "Six mana in a curve built around a five-mana commander; theft costs life.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Reckless Fireweaver",
+   "source": "EDHREC Edward general absent, upgraded absent, optimized 33/294; live Scryfall batch",
+   "role": "{1}{R} creature: whenever an artifact enters under our control, it deals 1 damage to each opponent.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone in the same slot.",
+   "commander_synergy": "Pings each opponent per artifact token, like Bats.",
+   "adversarial_downside": "Only on artifacts entering, not on sacrifice; a 1/3 ground body; Bats drains on both create and sacrifice.",
+   "judgment": "REJECT",
+   "reason": "Bats is strictly the better fit for Treasure plus Sieve sacrifices.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lydia Frye",
+   "source": "EDHREC Edward general 1255/13036, upgraded 79/1112, optimized 17/294; live Scryfall batch",
+   "role": "{2}{U/B} 3/2 legendary Human Assassin: can't be blocked by power 3 or greater; end step surveil X for tapped Assassins.",
+   "named_cuts": [
+    "Imposter Mech"
+   ],
+   "incumbent_opportunity_cost": "Would cut Imposter Mech in the same slot.",
+   "commander_synergy": "An Assassin body for Edward's tapped count.",
+   "adversarial_downside": "The deck has only a handful of Assassins, so the surveil is small; Arno Dorian and the other Assassin payoffs share this problem.",
+   "judgment": "REJECT",
+   "reason": "Too few Assassins to support Assassin payoffs.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Double Down",
+   "source": "EDHREC Edward general 4745/13036, upgraded 371/1112, optimized 90/294; live Scryfall batch",
+   "role": "{3}{U} enchantment: whenever we cast an outlaw spell, copy it (permanent copies become tokens).",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut a mana rock (Fellwar Stone).",
+   "commander_synergy": "Copies Pirates and Assassins, each an extra Edward qualifier.",
+   "adversarial_downside": "Legendary copies die to the legend rule (704.5j) and many of the Pirates are legendary; four mana for no immediate board effect.",
+   "judgment": "REJECT",
+   "reason": "Legend-rule problems with this list's legendary Pirates.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Timestream Navigator",
+   "source": "EDHREC Edward general 2387/13036, upgraded 249/1112, optimized 77/294; live Scryfall batch",
+   "role": "{1}{U} Pirate with ascend: {2}{U}{U}, put on the bottom: extra turn, once.",
+   "named_cuts": [
+    "Port Razer"
+   ],
+   "incumbent_opportunity_cost": "Would cut Port Razer in the same slot.",
+   "commander_synergy": "A cheap Pirate body that Edward counts when tapped.",
+   "adversarial_downside": "Its extra turn needs the city's blessing (ten permanents) and then it leaves; one-shot.",
+   "judgment": "REJECT",
+   "reason": "One-shot; Port Razer gives repeatable extra combats on a Pirate.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kitesail Freebooter",
+   "source": "EDHREC Edward general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING",
+   "role": "{1}{B} 1/2 flying Pirate that takes a noncreature, nonland card from hand until it leaves.",
+   "named_cuts": [
+    "Vaan, Street Thief"
+   ],
+   "incumbent_opportunity_cost": "Would cut Vaan, Street Thief in the same slot.",
+   "commander_synergy": "An evasive Pirate with disruption.",
+   "adversarial_downside": "The disruption is temporary and small; Vaan is named in the owner's theft group.",
+   "judgment": "REJECT",
+   "reason": "Marginal versus incumbents; the disruption ends when it dies.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Warkite Marauder",
+   "source": "EDHREC Edward general 2520/13036, upgraded 239/1112, optimized 40/294; live Scryfall batch",
+   "role": "{1}{U} 2/1 flying Pirate: on attack, target defending creature loses abilities and becomes 0/1.",
+   "named_cuts": [
+    "Captain Storm, Cosmium Raider"
+   ],
+   "incumbent_opportunity_cost": "Would cut Captain Storm, Cosmium Raider.",
+   "commander_synergy": "Evasive Pirate that removes a blocker for the Vehicles.",
+   "adversarial_downside": "Captain Storm grows Pirates whenever an artifact enters (every Treasure), a stronger fit for Edward's Treasure output.",
+   "judgment": "REJECT",
+   "reason": "Marginal; Malcolm, the Eyes already fills the cheap evasive Pirate slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Boosted Sloop",
+   "source": "EDHREC Edward general 1985/13036, upgraded 173/1112, optimized 32/294; live Scryfall batch",
+   "role": "{1}{U}{R} 3/3 menace Vehicle, crew 1: whenever we attack, loot.",
+   "named_cuts": [
+    "Subterranean Schooner"
+   ],
+   "incumbent_opportunity_cost": "Would cut Subterranean Schooner in the same slot.",
+   "commander_synergy": "Another cheap Vehicle that loots every attack.",
+   "adversarial_downside": "Menace is weaker evasion than Mu's flying grant, which already upgrades Schooner; a sidegrade.",
+   "judgment": "REJECT",
+   "reason": "Redundant once Mu is in the deck.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Cosima, God of the Voyage // The Omenkeel",
+   "source": "EDHREC Edward general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING",
+   "role": "Modal double-faced God / legendary Vehicle (The Omenkeel exiles cards from the library when Vehicles connect).",
+   "named_cuts": [
+    "Coastal Piracy"
+   ],
+   "incumbent_opportunity_cost": "Would cut Coastal Piracy in the same slot.",
+   "commander_synergy": "The Omenkeel face rewards Vehicle connections like Edward.",
+   "adversarial_downside": "The Omenkeel's exiled cards are only lands we may play; Coastal Piracy draws on every connecting creature.",
+   "judgment": "REJECT",
+   "reason": "Lower payoff than the incumbent draw engine.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Possession Engine",
+   "source": "EDHREC Edward general 749/13036, upgraded 72/1112, optimized absent; live Scryfall batch",
+   "role": "{3}{U}{U} 5/5 Vehicle, crew 3: when it enters, gain control of an opponent's creature (which can't attack or block) while we control the Vehicle.",
+   "named_cuts": [
+    "Hostage Taker"
+   ],
+   "incumbent_opportunity_cost": "Would cut Hostage Taker in the same slot.",
+   "commander_synergy": "Theft on a Vehicle, so it is both a qualifier and removal.",
+   "adversarial_downside": "Five mana, crew 3, and the stolen creature can't attack or block; Hostage Taker is a 4-mana Pirate that can steal an artifact too.",
+   "judgment": "REJECT",
+   "reason": "Hostage Taker is cheaper and more flexible.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Phoenix Fleet Airship",
+   "source": "EDHREC Edward general 1768/13036, upgraded 193/1112, optimized 38/294; live Scryfall batch",
+   "role": "{2}{B}{B} 4/4 flying Vehicle, crew 1: at our end step, if we sacrificed a permanent this turn, create a token copy of it.",
+   "named_cuts": [
+    "Smuggler's Copter"
+   ],
+   "incumbent_opportunity_cost": "Would cut Smuggler's Copter in the same slot.",
+   "commander_synergy": "Evasive Vehicle for Edward theft; Treasure sacrifices make copies.",
+   "adversarial_downside": "BB in a three-colour deck, and each copy still needs crew to attack; close call.",
+   "judgment": "REJECT",
+   "reason": "Copter is cheaper at 2 MV; Airship was a close call, not staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Golden Argosy",
+   "source": "EDHREC Edward general 1214/13036, upgraded 88/1112, optimized 26/294; live Scryfall batch",
+   "role": "{4} 3/6 legendary Vehicle, crew 1: when it attacks, exile its crew; they return tapped at the next end step.",
+   "named_cuts": [
+    "Jackdaw"
+   ],
+   "incumbent_opportunity_cost": "Would cut Jackdaw in the same slot.",
+   "commander_synergy": "Crew returns tapped at end step, which can be ordered before Edward's trigger.",
+   "adversarial_downside": "No evasion, so it rarely triggers Edward's theft; Jackdaw is cheaper and refills the hand on damage.",
+   "judgment": "REJECT",
+   "reason": "Lower value than Jackdaw in Edward's list.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mutavault",
+   "source": "EDHREC Edward general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING",
+   "role": "Colourless land that becomes a 2/2 with every creature type (a Pirate and an Assassin).",
+   "named_cuts": [
+    "Xander's Lounge"
+   ],
+   "incumbent_opportunity_cost": "Would replace a coloured land (Xander's Lounge).",
+   "commander_synergy": "An Edward qualifier in a land slot.",
+   "adversarial_downside": "Colourless in a three-colour deck around a {2}{U}{B}{R} commander; Rogue's Passage and Three Tree City fail for the same reason.",
+   "judgment": "REJECT",
+   "reason": "Colour requirements beat a tapped-count of one.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Path of Ancestry",
+   "source": "EDHREC Edward general 8258/13036, upgraded 698/1112, optimized 144/294; live Scryfall batch",
+   "role": "Tapped command-tower land that scries on a creature type.",
+   "named_cuts": [
+    "Xander's Lounge"
+   ],
+   "incumbent_opportunity_cost": "Would replace Xander's Lounge.",
+   "commander_synergy": "A tri-colour source that enters tapped.",
+   "adversarial_downside": "OWNER-REJECTED in the 2026-10-14 current-cycle decisions (not re-added): tribal taplands were rejected as a class.",
+   "judgment": "REJECT",
+   "reason": "Owner-rejected class; not re-added.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Edward_Kenway_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Changeling Outcast",
+   "source": "EDHREC Edward general absent, upgraded absent, optimized absent; live Scryfall batch; OFF-RANKING",
+   "role": "{B} 1/1 changeling (all creature types), can't block, unblockable.",
+   "named_cuts": [
+    "Captain Lannery Storm"
+   ],
+   "incumbent_opportunity_cost": "Would be the replacement for Lannery.",
+   "commander_synergy": "Unblockable Pirate and Assassin body.",
+   "adversarial_downside": "A 1/1 that only adds one tapped qualifier; Universal Automaton (colourless changeling) is weaker still.",
+   "judgment": "REJECT",
+   "reason": "Malcolm, the Eyes does the same job with flying, haste and Clues.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Kindred Discovery",
+   "source": "EDHREC Edward general 1886/13036, upgraded 212/1112, optimized 58/294; live Scryfall batch",
+   "role": "{3}{U}{U} enchantment: name Pirate; draw when one enters or attacks.",
+   "named_cuts": [
+    "Coastal Piracy"
+   ],
+   "incumbent_opportunity_cost": "Would cut Coastal Piracy in the same slot.",
+   "commander_synergy": "Pirate draw engine on enter or attack.",
+   "adversarial_downside": "Five mana and it does not count Vehicles; Coastal Piracy counts all creatures that connect.",
+   "judgment": "REJECT",
+   "reason": "Too expensive and misses Vehicles.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Dragon's Smile",
+   "source": "EDHREC Edward general 56/13036, upgraded absent, optimized absent; live Scryfall batch",
+   "role": "{5}{R}{R} legendary flying Vehicle (set mbc, released 2026-10-19) whose combat damage exiles cards we may play this turn; a discovery name on the Edward page.",
+   "named_cuts": [
+    "Imposter Mech"
+   ],
+   "incumbent_opportunity_cost": "Not applicable: the card is excluded as not legal.",
+   "commander_synergy": "Not applicable: the card is excluded as not legal.",
+   "adversarial_downside": "Live Scryfall reads commander_legality not_legal on 2026-10-23; no project exception applies.",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Not Commander-legal as of 2026-10-23.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Mu Yanling, Wind Rider",
+   "Brotherhood Vertibird",
+   "Mirkwood Bats",
+   "Spectral Sailor",
+   "Malcolm, the Eyes"
+  ],
+  "cuts": [
+   "Breeches, Brazen Plunderer",
+   "Imposter Mech",
+   "Fellwar Stone",
+   "Lotus Petal",
+   "Captain Lannery Storm"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps for evasion, tapped qualifiers and a token drain (Mu Yanling, Brotherhood Vertibird, Spectral Sailor, Malcolm, the Eyes, Mirkwood Bats). Losses: Breeches' temporary theft (50% EDHREC), Imposter Mech, Fellwar Stone and Lotus Petal (turn-5 castability 0.5283 -> 0.5025 on the play with Petal excluded), and Captain Lannery Storm (notable: 66% EDHREC). No explicit owner keep is cut."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Breeches, Brazen Plunderer",
+    "weakness": "Its theft is this-turn only and overlaps Edward, Ramirez and Vaan.",
+    "alternative_named": "Mu Yanling, Wind Rider",
+    "reasoning": "Cut: Mu makes Edward's permanent theft reliable."
+   },
+   {
+    "card": "Imposter Mech",
+    "weakness": "Value depends on the opponents' creatures; crew 3.",
+    "alternative_named": "Brotherhood Vertibird",
+    "reasoning": "Cut: an evasive Vehicle that scales with our artifacts."
+   },
+   {
+    "card": "Fellwar Stone",
+    "weakness": "The weakest rock: its colour depends on the opponents' lands.",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Cut: measured castability cost disclosed (0.5283 -> 0.5025 on the play)."
+   },
+   {
+    "card": "Lotus Petal",
+    "weakness": "One-shot mana that is gone after a single use.",
+    "alternative_named": "Spectral Sailor",
+    "reasoning": "Cut: a permanent Pirate qualifier and mana sink."
+   },
+   {
+    "card": "Captain Lannery Storm",
+    "weakness": "A ground 2/2 that is often blocked.",
+    "alternative_named": "Malcolm, the Eyes",
+    "reasoning": "Cut: flying and haste Pirate that connects."
+   },
+   {
+    "card": "Fateful Discovery",
+    "weakness": "5 MV; compulsory draws can deck us; strong only with Manufactor (P both seen in 12 cards 0.0136).",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Kept: explicit owner keep; the Pass C exact swap is staged as an alternative."
+   },
+   {
+    "card": "Adrestia",
+    "weakness": "Draws only if an Assassin crewed it; islandwalk is matchup dependent.",
+    "alternative_named": "Mirkwood Bats",
+    "reasoning": "Kept: a Vehicle that connects for Edward theft; Pass C secondary swap staged."
+   },
+   {
+    "card": "Imperial Seal",
+    "weakness": "A card-disadvantage tutor that puts a card on top of the library.",
+    "alternative_named": "Eagle Vision",
+    "reasoning": "Kept: finds Sieve, Locomotive or Manufactor for one mana; the six-swap is staged."
+   },
+   {
+    "card": "Vaan, Street Thief",
+    "weakness": "Not a Pirate, Assassin or Vehicle, so Edward does not count it.",
+    "alternative_named": "Kitesail Freebooter",
+    "reasoning": "Kept: named in the owner's theft group; converts stolen cards into value."
+   },
+   {
+    "card": "Coastal Piracy",
+    "weakness": "4 MV enchantment that overlaps The Indomitable.",
+    "alternative_named": "Kindred Discovery",
+    "reasoning": "Kept: it draws on every connecting creature, Vehicles included."
+   },
+   {
+    "card": "Subterranean Schooner",
+    "weakness": "A ground Vehicle that is often blocked unless Mu is out.",
+    "alternative_named": "Boosted Sloop",
+    "reasoning": "Kept: Mu Yanling now makes it fly, so it connects for Edward."
+   },
+   {
+    "card": "Xander's Lounge",
+    "weakness": "Always enters tapped (cycling {3} is its upside).",
+    "alternative_named": "Mutavault",
+    "reasoning": "Kept: the only tri-colour land that also cycles; colourless lands rejected."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Goldspan Dragon, Kitesail Freebooter, Cosima // The Omenkeel, Mutavault, Changeling Outcast, Universal Automaton (all rejected on Edward-specific grounds).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Mu Yanling, Wind Rider",
+     "Brotherhood Vertibird",
+     "Mirkwood Bats",
+     "Spectral Sailor",
+     "Malcolm, the Eyes"
+    ],
+    "cuts": [
+     "Breeches, Brazen Plunderer",
+     "Imposter Mech",
+     "Fateful Discovery",
+     "Lotus Petal",
+     "Captain Lannery Storm"
+    ],
+    "result_and_rationale": "Staged Pass C exact swap (Bats over Fateful Discovery) inside a complete five-swap, keeping Fellwar Stone; overrides the explicit owner keep of Fateful Discovery, so not the primary."
+   },
+   {
+    "adds": [
+     "Mu Yanling, Wind Rider",
+     "Brotherhood Vertibird",
+     "Mirkwood Bats",
+     "Spectral Sailor",
+     "Malcolm, the Eyes"
+    ],
+    "cuts": [
+     "Breeches, Brazen Plunderer",
+     "Imposter Mech",
+     "Adrestia",
+     "Lotus Petal",
+     "Captain Lannery Storm"
+    ],
+    "result_and_rationale": "Staged Pass C secondary swap (Bats over Adrestia), keeping Fellwar; weaker on identity because it loses a Vehicle."
+   },
+   {
+    "adds": [
+     "Mu Yanling, Wind Rider",
+     "Brotherhood Vertibird",
+     "Spectral Sailor",
+     "Malcolm, the Eyes"
+    ],
+    "cuts": [
+     "Breeches, Brazen Plunderer",
+     "Imposter Mech",
+     "Lotus Petal",
+     "Captain Lannery Storm"
+    ],
+    "result_and_rationale": "Staged four-swap without Bats, keeping Fellwar Stone; below the five-swap floor."
+   },
+   {
+    "adds": [
+     "Chandra, Spark Hunter",
+     "Brotherhood Vertibird",
+     "Mirkwood Bats",
+     "Spectral Sailor",
+     "Malcolm, the Eyes"
+    ],
+    "cuts": [
+     "Breeches, Brazen Plunderer",
+     "Imposter Mech",
+     "Fellwar Stone",
+     "Lotus Petal",
+     "Captain Lannery Storm"
+    ],
+    "result_and_rationale": "Staged five-swap with Chandra, Spark Hunter instead of Mu Yanling."
+   },
+   {
+    "adds": [
+     "Mu Yanling, Wind Rider",
+     "Brotherhood Vertibird",
+     "Mirkwood Bats",
+     "Spectral Sailor",
+     "Malcolm, the Eyes",
+     "Eagle Vision"
+    ],
+    "cuts": [
+     "Breeches, Brazen Plunderer",
+     "Imposter Mech",
+     "Fellwar Stone",
+     "Lotus Petal",
+     "Captain Lannery Storm",
+     "Imperial Seal"
+    ],
+    "result_and_rationale": "Staged six-swap with Eagle Vision over Imperial Seal."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C's exact hypothesis (+Mirkwood Bats / -Fateful Discovery) was run as a bounded finite test. Bats is castable more often (0.836 vs 0.631 with 12 cards seen) and drains 6 per opponent where Fateful draws 6 in the Manufactor/2-qualifier state. But Fateful is an explicit owner keep and its explosive mode is real, so the primary places Bats over Fellwar Stone instead. The exact Pass C swap and the Adrestia variant are staged as complete 100s.",
+  "strongest_argument_against_baseline": "Edward's theft text only fires when a Vehicle deals combat damage to a player, yet 9 of the baseline's 13 Vehicles had no evasion and nothing granted it. Four slots were also spent on temporary or board-dependent effects (Breeches' this-turn theft, Imposter Mech) and one-shot or opponent-dependent mana (Petal, Fellwar).",
+  "evidence_based_answer": "Five swaps: Mu Yanling gives every Vehicle flying (and a crew-1 Vehicle token), Brotherhood Vertibird is a flying Vehicle that scales with Treasure, Spectral Sailor and Malcolm, the Eyes are evasive Pirates tapped for Edward each end step, and Mirkwood Bats turns tokens into a drain. Measured cost disclosed: turn-5 strict castability 0.5283 -> 0.5025 on the play (Petal excluded). Spellbook combos unchanged (5 -> 5)."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Edward_Kenway.txt",
+  "sha256": "f3aad8e7da61996f27f423b6f0a2c7b33ea68acd9afbd57fb5e8a368b4a88aad",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; 2x Island, 2x Swamp, everything else 1x. Five substitutions against the canonical source. 35 lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Edward_Kenway_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Edward_Kenway_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Edward_Kenway_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Edward_Kenway_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Edward_Kenway_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Edward_Kenway_M7_20261023.md",
+   "tests/test_m6_edward_kenway_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Edward_Kenway/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Vehicles",
+   "Pirates",
+   "Treasure"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "The five-swap floor was reached with five swaps that each stand on their own; the floor was not a target and no sixth swap cleared the bar. Every remaining incumbent was re-read against the candidate pool: eight post-floor challenges were recorded on Edward-specific grounds, and a six-swap package (Eagle Vision over Imperial Seal) is staged as a complete 100.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Imperial Seal",
+    "challenger": "Eagle Vision",
+    "tradeoff": "Eagle Vision draws three for two mana after Edward connects, but Seal finds the specific engine piece (Time Sieve, Locomotive, Manufactor) at one mana; the owner retained it among the tutors.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Vaan, Street Thief",
+    "challenger": "Kitesail Freebooter",
+    "tradeoff": "Freebooter is an evasive Pirate, but its card is only taken temporarily; Vaan turns stolen cards into more value and is in the owner's theft group.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Coastal Piracy",
+    "challenger": "Kindred Discovery",
+    "tradeoff": "Kindred Discovery costs five and ignores Vehicles; Coastal Piracy draws on every connecting creature, crewed Vehicles included.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Subterranean Schooner",
+    "challenger": "Boosted Sloop",
+    "tradeoff": "With Mu Yanling every Vehicle flies, so Schooner's ground weakness is reduced; Sloop is a sidegrade at the same cost.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Xander's Lounge",
+    "challenger": "Mutavault",
+    "tradeoff": "Mutavault is a tapped qualifier for one Treasure but is colourless; the deck needs U, B and R for a five-mana commander.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Hostage Taker",
+    "challenger": "Possession Engine",
+    "tradeoff": "Possession Engine is a Vehicle but costs five and is slow; Hostage Taker steals at once and is a Pirate.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Smuggler's Copter",
+    "challenger": "Phoenix Fleet Airship",
+    "tradeoff": "Airship copies itself after Treasure sacrifices, but costs four with BB; Copter flies and loots at two.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Port Razer",
+    "challenger": "Timestream Navigator",
+    "tradeoff": "Navigator's extra turn needs ten permanents and is one-shot; Port Razer's extra combats repeat on a Pirate body.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Edward_Kenway_six_EagleVision_over_ImperialSeal_20261023.txt",
+    "sha256": "cad57a1f9b8b156f4fe9d7223bf78bf5fcb785a1a3c9b0bdc534eba8dc6c76c7",
+    "adds": [
+     "Mu Yanling, Wind Rider",
+     "Brotherhood Vertibird",
+     "Mirkwood Bats",
+     "Spectral Sailor",
+     "Malcolm, the Eyes",
+     "Eagle Vision"
+    ],
+    "cuts": [
+     "Breeches, Brazen Plunderer",
+     "Imposter Mech",
+     "Fellwar Stone",
+     "Lotus Petal",
+     "Captain Lannery Storm",
+     "Imperial Seal"
+    ],
+    "case_for_extra_swaps": "Edward is an Assassin and our commander, so Eagle Vision's freerunning makes it a 2-mana draw three after he connects.",
+    "why_not_selected": "Imperial Seal tutors the deck's key engine (Time Sieve, Locomotive, Manufactor) for one mana; Eagle Vision needs Edward himself to connect and costs five otherwise. The owner retained Seal among the tutors."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five. Each remaining weak-looking slot beats its best challenger on Edward-specific grounds: Imperial Seal finds the engine for one mana (Eagle Vision staged); Fateful Discovery is an explicit owner keep (the Pass C swap is staged); Vaan, Coastal Piracy, Schooner, Xander's Lounge, Hostage Taker, Copter and Port Razer beat their challengers. Cutting more mana would push turn-5 castability further below 0.50."
+ }
+}

@@ -1,0 +1,511 @@
+{
+ "schema_version": 1,
+ "deck_id": "Edward_Kenway",
+ "retrieved_or_computed": "2026-10-23 (America/Chicago), seed-free exact computation, no RNG",
+ "status": "BOUNDED_FINITE_MEASURED_TESTS_NOT_GAME_SIMULATION_NOT_APPROVAL",
+ "pass_c_bounded_test": {
+  "method": "Bounded, finite Pass C test for Edward_Kenway: +Mirkwood Bats vs Fateful Discovery (and vs Adrestia).\nNo sampling, no RNG. Three parts:\n (1) exact multivariate-hypergeometric castability of Bats {3}{B} vs Fateful {3}{U}{U} by turn T (lands + durable rocks only,\n     Treasure makers/moxen excluded; a source counts toward a colour if it can make that colour);\n (2) exact P(payoff AND Academy Manufactor both seen by turn T) - identical for Bats and Fateful (1 copy each), reported for context;\n (3) deterministic end-step engine table (3 opponents at 40 life): for k tapped qualifiers, with/without Manufactor, with/without a\n     Time Sieve activation (sacrificing 5 tokens), count compulsory Fateful draws, Bats life loss per opponent, and the library size at\n     which Fateful's compulsory draws (+1 normal draw next turn) would deck the controller. Rules: Edward makes one Treasure per tapped\n     Assassin/Pirate/Vehicle (once per permanent); Manufactor replaces each Treasure creation with Clue+Food+Treasure (3 artifact tokens);\n     Fateful draws once per artifact entering (compulsory); Bats drains each opponent 1 per token created and 1 per token sacrificed.",
+  "castability": {
+   "BASELINE (data/grixis/m7/baseline_sources/Edward_Kenway_approved_source_2026-10-14.txt)": [
+    {
+     "cards_seen": 10,
+     "P_bats_castable": 0.6839,
+     "P_fateful_castable": 0.4191
+    },
+    {
+     "cards_seen": 11,
+     "P_bats_castable": 0.7694,
+     "P_fateful_castable": 0.5296
+    },
+    {
+     "cards_seen": 12,
+     "P_bats_castable": 0.8364,
+     "P_fateful_castable": 0.6307
+    }
+   ],
+   "PREFERRED_FIVE (data/grixis/m7/candidate_lists/Edward_Kenway.txt)": [
+    {
+     "cards_seen": 10,
+     "P_bats_castable": 0.6597,
+     "P_fateful_castable": 0.3937
+    },
+    {
+     "cards_seen": 11,
+     "P_bats_castable": 0.7477,
+     "P_fateful_castable": 0.5024
+    },
+    {
+     "cards_seen": 12,
+     "P_bats_castable": 0.8179,
+     "P_fateful_castable": 0.6037
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_FatefulDiscovery_keep_Fellwar_20261023.txt": [
+    {
+     "cards_seen": 10,
+     "P_bats_castable": 0.6839,
+     "P_fateful_castable": 0.4191
+    },
+    {
+     "cards_seen": 11,
+     "P_bats_castable": 0.7694,
+     "P_fateful_castable": 0.5296
+    },
+    {
+     "cards_seen": 12,
+     "P_bats_castable": 0.8364,
+     "P_fateful_castable": 0.6307
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_Adrestia_keep_Fellwar_20261023.txt": [
+    {
+     "cards_seen": 10,
+     "P_bats_castable": 0.6839,
+     "P_fateful_castable": 0.4191
+    },
+    {
+     "cards_seen": 11,
+     "P_bats_castable": 0.7694,
+     "P_fateful_castable": 0.5296
+    },
+    {
+     "cards_seen": 12,
+     "P_bats_castable": 0.8364,
+     "P_fateful_castable": 0.6307
+    }
+   ]
+  },
+  "both_with_manufactor_seen": {
+   "cards_seen_10": 0.0093,
+   "cards_seen_11": 0.0113,
+   "cards_seen_12": 0.0136,
+   "cards_seen_15": 0.0216
+  },
+  "engine": [
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 1,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 1,
+    "fateful_compulsory_draws": 1,
+    "fateful_loses_if_library_smaller_than": 1,
+    "bats_life_loss_each_opponent": 1,
+    "bats_total_life_loss_3_opponents": 3,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 40
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 1,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 1,
+    "fateful_compulsory_draws": 1,
+    "fateful_loses_if_library_smaller_than": 1,
+    "bats_life_loss_each_opponent": 1,
+    "bats_total_life_loss_3_opponents": 3,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 40
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 2,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 2,
+    "fateful_compulsory_draws": 2,
+    "fateful_loses_if_library_smaller_than": 2,
+    "bats_life_loss_each_opponent": 2,
+    "bats_total_life_loss_3_opponents": 6,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 20
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 2,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 2,
+    "fateful_compulsory_draws": 2,
+    "fateful_loses_if_library_smaller_than": 2,
+    "bats_life_loss_each_opponent": 2,
+    "bats_total_life_loss_3_opponents": 6,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 20
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 3,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 3,
+    "fateful_compulsory_draws": 3,
+    "fateful_loses_if_library_smaller_than": 3,
+    "bats_life_loss_each_opponent": 3,
+    "bats_total_life_loss_3_opponents": 9,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 14
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 3,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 3,
+    "fateful_compulsory_draws": 3,
+    "fateful_loses_if_library_smaller_than": 3,
+    "bats_life_loss_each_opponent": 3,
+    "bats_total_life_loss_3_opponents": 9,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 14
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 4,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 4,
+    "fateful_compulsory_draws": 4,
+    "fateful_loses_if_library_smaller_than": 4,
+    "bats_life_loss_each_opponent": 4,
+    "bats_total_life_loss_3_opponents": 12,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 10
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 4,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 4,
+    "fateful_compulsory_draws": 4,
+    "fateful_loses_if_library_smaller_than": 4,
+    "bats_life_loss_each_opponent": 4,
+    "bats_total_life_loss_3_opponents": 12,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 10
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 5,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 5,
+    "fateful_compulsory_draws": 5,
+    "fateful_loses_if_library_smaller_than": 5,
+    "bats_life_loss_each_opponent": 5,
+    "bats_total_life_loss_3_opponents": 15,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 8
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 5,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 5,
+    "fateful_compulsory_draws": 5,
+    "fateful_loses_if_library_smaller_than": 5,
+    "bats_life_loss_each_opponent": 10,
+    "bats_total_life_loss_3_opponents": 30,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 4
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 6,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 6,
+    "fateful_compulsory_draws": 6,
+    "fateful_loses_if_library_smaller_than": 6,
+    "bats_life_loss_each_opponent": 6,
+    "bats_total_life_loss_3_opponents": 18,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 7
+   },
+   {
+    "manufactor": false,
+    "tapped_qualifiers": 6,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 6,
+    "fateful_compulsory_draws": 6,
+    "fateful_loses_if_library_smaller_than": 6,
+    "bats_life_loss_each_opponent": 11,
+    "bats_total_life_loss_3_opponents": 33,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 4
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 1,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 3,
+    "fateful_compulsory_draws": 3,
+    "fateful_loses_if_library_smaller_than": 3,
+    "bats_life_loss_each_opponent": 3,
+    "bats_total_life_loss_3_opponents": 9,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 14
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 1,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 3,
+    "fateful_compulsory_draws": 3,
+    "fateful_loses_if_library_smaller_than": 3,
+    "bats_life_loss_each_opponent": 3,
+    "bats_total_life_loss_3_opponents": 9,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 14
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 2,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 6,
+    "fateful_compulsory_draws": 6,
+    "fateful_loses_if_library_smaller_than": 6,
+    "bats_life_loss_each_opponent": 6,
+    "bats_total_life_loss_3_opponents": 18,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 7
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 2,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 6,
+    "fateful_compulsory_draws": 6,
+    "fateful_loses_if_library_smaller_than": 6,
+    "bats_life_loss_each_opponent": 11,
+    "bats_total_life_loss_3_opponents": 33,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 4
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 3,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 9,
+    "fateful_compulsory_draws": 9,
+    "fateful_loses_if_library_smaller_than": 9,
+    "bats_life_loss_each_opponent": 9,
+    "bats_total_life_loss_3_opponents": 27,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 5
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 3,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 9,
+    "fateful_compulsory_draws": 9,
+    "fateful_loses_if_library_smaller_than": 9,
+    "bats_life_loss_each_opponent": 14,
+    "bats_total_life_loss_3_opponents": 42,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 3
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 4,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 12,
+    "fateful_compulsory_draws": 12,
+    "fateful_loses_if_library_smaller_than": 12,
+    "bats_life_loss_each_opponent": 12,
+    "bats_total_life_loss_3_opponents": 36,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 4
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 4,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 12,
+    "fateful_compulsory_draws": 12,
+    "fateful_loses_if_library_smaller_than": 12,
+    "bats_life_loss_each_opponent": 17,
+    "bats_total_life_loss_3_opponents": 51,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 3
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 5,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 15,
+    "fateful_compulsory_draws": 15,
+    "fateful_loses_if_library_smaller_than": 15,
+    "bats_life_loss_each_opponent": 15,
+    "bats_total_life_loss_3_opponents": 45,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 3
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 5,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 15,
+    "fateful_compulsory_draws": 15,
+    "fateful_loses_if_library_smaller_than": 15,
+    "bats_life_loss_each_opponent": 20,
+    "bats_total_life_loss_3_opponents": 60,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 2
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 6,
+    "time_sieve_sacrifices_5_tokens": false,
+    "tokens_created": 18,
+    "fateful_compulsory_draws": 18,
+    "fateful_loses_if_library_smaller_than": 18,
+    "bats_life_loss_each_opponent": 18,
+    "bats_total_life_loss_3_opponents": 54,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 3
+   },
+   {
+    "manufactor": true,
+    "tapped_qualifiers": 6,
+    "time_sieve_sacrifices_5_tokens": true,
+    "tokens_created": 18,
+    "fateful_compulsory_draws": 18,
+    "fateful_loses_if_library_smaller_than": 18,
+    "bats_life_loss_each_opponent": 23,
+    "bats_total_life_loss_3_opponents": 69,
+    "end_steps_of_bats_alone_to_kill_3_opponents_from_40": 2
+   }
+  ],
+  "notes": [
+   "fateful_loses_if_library_smaller_than: Fateful draws are compulsory; with library size L < tokens created the controller draws from an empty library and loses at the next state-based check (L == tokens empties the library and loses at the next draw step unless the game ends first).",
+   "Bats loss excludes Treasures later sacrificed for mana (each would add 1 more per opponent) and excludes combat; it is a floor.",
+   "Fateful draws are card advantage the Bats line does not give; Bats gives an uncounterable-by-blockers clock Fateful does not. Neither is a win-rate measurement; no full game simulation was run (no validated Edward game model exists in this repo)."
+  ]
+ },
+ "mana_test_petal_counted_as_rock": {
+  "method": "Exact multivariate hypergeometric: P(at least 5 mana sources including U, B and R among lands plus durable rocks: Sol Ring, Arcane Signet, Fellwar Stone, Mana Vault, three Talismans; Lotus Petal counted as a UBR source) with 11 cards seen (turn 5 on the play) and 12 (turn 5 on the draw); fetchlands counted as UBR because each reaches a typed dual or Xander's Lounge. Moxen, Ancient Tomb's second mana and Treasure makers excluded (conservative).",
+  "results": {
+   "BASELINE (data/grixis/m7/baseline_sources/Edward_Kenway_approved_source_2026-10-14.txt)": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5538
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6544
+    }
+   ],
+   "PREFERRED_FIVE (data/grixis/m7/candidate_lists/Edward_Kenway.txt)": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5025
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6038
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_FatefulDiscovery_keep_Fellwar_20261023.txt": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5283
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6295
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_PassC_MirkwoodBats_over_Adrestia_keep_Fellwar_20261023.txt": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5283
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6295
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_four_no_MirkwoodBats_keep_Fellwar_20261023.txt": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5283
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6295
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_five_ChandraSparkHunter_instead_of_MuYanling_20261023.txt": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5025
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6038
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_six_EagleVision_over_ImperialSeal_20261023.txt": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5025
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6038
+    }
+   ]
+  }
+ },
+ "mana_test_petal_excluded": {
+  "method": "Same model with Lotus Petal NOT counted (it is one-shot), so baseline and candidate are compared on durable sources only.",
+  "results": {
+   "BASELINE (data/grixis/m7/baseline_sources/Edward_Kenway_approved_source_2026-10-14.txt)": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5283
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6295
+    }
+   ],
+   "PREFERRED_FIVE (data/grixis/m7/candidate_lists/Edward_Kenway.txt)": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5025
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6038
+    }
+   ],
+   "data/grixis/m7/research_challengers/Edward_Kenway_four_no_MirkwoodBats_keep_Fellwar_20261023.txt": [
+    {
+     "lands": 35,
+     "N": 11,
+     "P_5_lands": 0.3342,
+     "P_castable_T5_lands_plus_rocks": 0.5283
+    },
+    {
+     "lands": 35,
+     "N": 12,
+     "P_5_lands": 0.4251,
+     "P_castable_T5_lands_plus_rocks": 0.6295
+    }
+   ]
+  }
+ },
+ "limitations": [
+  "Not a game engine or win-rate simulation: no validated Edward game model exists in this repository, so no full simulation was run.",
+  "Opponent interaction, blockers, removal and sequencing are not modelled.",
+  "Engine table assumes the permanents survive to the end step."
+ ]
+}
