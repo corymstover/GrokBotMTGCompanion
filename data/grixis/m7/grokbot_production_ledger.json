@@ -157,15 +157,36 @@
    "current_candidate_sha": "b1078f084c2fa53426910edb66f0a036978e06bd9c9a2061f460af397503143d",
    "branch": "grokbot-deck06-ashnod-the-uncaring-m7-20261023",
    "working_branch": "grokbot-deck06-ashnod-the-uncaring-m7-20261023",
-   "last_pushed_commit": "1b426ce52eaa428595e1bc00b51ab352707ce52f",
+   "last_pushed_commit": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/654",
    "swap_count": 5,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 6 Ashnod the Uncaring candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39935715329",
+     "head_sha": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b",
+     "conclusion": "success"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39935715532",
+     "head_sha": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b",
+     "conclusion": "success"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39935715303",
+     "head_sha": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
    "unresolved_issues": [
-    "Overrides approval_basis says three current-cycle swaps; tracker note says only Commander Sphere -> Trading Post (approved raw hash authoritative)",
+    "Overrides approval_basis says three current-cycle swaps; tracker says only Commander Sphere -> Trading Post (raw hash authoritative)",
     "Tracker once-per-turn note on Ashnod is stale vs current Oracle",
-    "Shared scripts/grixis_m6_bundle_check.py changed narrowly after #653 (parenthetical Pass C wording + legacy A_SEAL field names); merge order #651->#652->#653->#654"
+    "Shared grixis_m6_bundle_check.py changed narrowly after #653 (parenthetical Pass C wording + legacy A_SEAL field names); merge order #651->#652->#653->#654",
+    "Post-merge: #653 Ashad J bundle pins checker sha 4fb8e8b1...; needs one-hash rebind to cd0be27a... after #654 merges (simulated stack: only new failure)",
+    "Deck #7 Be_lakor also has nonstandard seal + Pass C wording"
    ],
    "completed_stages": [
     "baseline_provenance",
@@ -178,15 +199,24 @@
     "TESTS",
     "WORKFLOW",
     "NARROW_BUNDLE_CHECK_FIXES",
-    "ADVERSARIAL_PACKET"
+    "ADVERSARIAL_PACKET",
+    "WIP_REMOVED",
+    "PR_READY",
+    "EXACT_HEAD_CI_SUCCESS"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING_CHATGPT",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Full suite base vs head; PR finish",
-   "next_step": "Full suite base vs head; PR finish",
-   "head_commit": "1b426ce52eaa428595e1bc00b51ab352707ce52f",
-   "last_checkpoint": "2026-10-23T04:55-05:00"
+   "next_action": "Await ChatGPT adversarial review and owner decision; next deck #7 Be_lakor__the_Dark_Master",
+   "next_step": "Await ChatGPT adversarial review and owner decision; next deck #7 Be_lakor__the_Dark_Master",
+   "head_commit": "cb670d59c6dd5c9a62b68197a6f3274aaef8422b",
+   "last_checkpoint": "2026-10-23T04:59-05:00",
+   "pr_status": "REVIEW_READY_NOT_OWNER_APPROVED",
+   "full_suite": {
+    "base_b6b40ac8": "24F/86E/1465P/18S",
+    "head": "24F/86E/1527P/18S",
+    "regressions": 0
+   }
   },
   {
    "tracker_number": 7,
