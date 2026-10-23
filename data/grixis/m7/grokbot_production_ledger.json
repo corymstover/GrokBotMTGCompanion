@@ -168,13 +168,17 @@
    "completed_stages": [
     "baseline_provenance",
     "gate_infra_copied_from_653",
-    "draft_pr_opened"
+    "draft_pr_opened",
+    "DISCOVERY_SNAPSHOTS",
+    "TENTATIVE_CANDIDATE"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Discovery snapshots + 99-slot audit + candidate judgments",
-   "next_step": "Discovery snapshots + 99-slot audit + candidate judgments"
+   "next_action": "Decision packet + gate, I/J artifacts, tests, workflow",
+   "next_step": "Decision packet + gate, I/J artifacts, tests, workflow",
+   "head_commit": "5a6cf8fadc93eac6adfe158d567f8ddc020dd3fa",
+   "last_checkpoint": "2026-10-23T04:45-05:00"
   },
   {
    "tracker_number": 7,
