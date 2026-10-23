@@ -21,6 +21,7 @@ on:
       - tests/test_m6_admiral_rev2_candidate_source_bind.py
       - tests/test_m6_admiral_rev2_seven_configuration_pool.py
       - tests/test_m6_admiral_rev2_i_local_best.py
+      - tests/test_m7_admiral_rev2_owner_ready.py
       - tests/test_m6_admiral_rev2_j_bundle.py
       - data/grixis/m6/ij/revision_bundles/**
       - data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json
@@ -265,6 +266,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_admiral_evasion_horizon_stage2.py' -v
       - name: Validate Admiral open-ended six- and seven-swap physical research fixtures
         run: python -m unittest discover -s tests -p 'test_m7_admiral_unbounded_stage1.py' -v
+      - name: Validate Admiral rev2 exact 100, I-J scope, owner presentation post-floor gate
+        run: python -m unittest discover -s tests -p 'test_m7_admiral_rev2_owner_ready.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval

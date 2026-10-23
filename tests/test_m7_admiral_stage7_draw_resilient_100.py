@@ -61,7 +61,21 @@ class AdmiralStage7(unittest.TestCase):
         self.assertEqual(len(self.base),100)
         ledger=json.loads((R/"Admiral_Beckett_Brass_current_continuation_20261022.json").read_text())
         self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
-        self.assertEqual(ledger["m7_status"],"RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD")
+        # The historical stage7 package remains research-only, even after a
+        # SEPARATE rev2 owner-ready candidate passes the decisive gate. Do not
+        # force the ledger to retain its obsolete interim status forever.
+        self.assertIn(ledger["m7_status"], {
+            "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
+            "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
+            "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
+        })
+        self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
+        if ledger["m7_status"].startswith("REVISED_M7_"):
+            revised=ledger["m7_rev2_decision_packet"]
+            self.assertFalse(revised["owner_approval"])
+            self.assertFalse(revised["canonical_changed"])
+            self.assertNotEqual(revised["raw_sha256"],D_HASH)
+            self.assertEqual(revised["genuine_swaps"],6)
 
     def test_four_complete_distinct_alternative_100_card_systems(self):
         for title,(file,replacements,swap_count) in VARIANTS.items():

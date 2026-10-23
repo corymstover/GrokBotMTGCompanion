@@ -70,7 +70,20 @@ class AdmiralEDHRECDiscoveryContract(unittest.TestCase):
         self.assertIn("Mandatory EDHREC inclusion and high-lift discovery", agents)
         ledger = json.loads(LEDGER.read_text(encoding="utf-8"))
         self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
-        self.assertEqual(ledger["m7_status"], "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD")
+        # The captured EDHREC discovery remains research provenance, while
+        # a separately verified revised M7 candidate may advance to owner
+        # presentation without changing the canonical approved deck.
+        self.assertIn(ledger["m7_status"], {
+            "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
+            "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
+            "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
+        })
+        if ledger["m7_status"].startswith("REVISED_M7_"):
+            rev2 = ledger["m7_rev2_decision_packet"]
+            self.assertFalse(rev2["owner_approval"])
+            self.assertFalse(rev2["canonical_changed"])
+            self.assertTrue(rev2["edhrec_inclusion_and_high_lift"])
+            self.assertEqual(rev2["genuine_swaps"], 6)
 
 if __name__ == "__main__":
     unittest.main()
