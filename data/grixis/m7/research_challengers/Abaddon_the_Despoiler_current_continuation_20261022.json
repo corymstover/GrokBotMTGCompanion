@@ -48,7 +48,7 @@
     "executed_mechanical_tests_this_reopen": 9,
     "source_bound_full_new_candidate_oracle_clearances": 0,
     "confirmed_new_strategic_improvements": 0,
-    "status": "PARTIAL_RESEARCH_ONLY_CI_PENDING_STAGE4",
+    "status": "RESEARCH_ONLY_STAGE5_SOURCE_PAID_CI_PENDING",
     "executed_rules_only_test_cases": 9,
     "executed_source_guard_tests": 1,
     "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
@@ -75,7 +75,17 @@
         "status": "RESEARCH_ONLY"
       }
     ],
-    "strong_offranking_synergy": "Harmonic Prodigy doubles sourced current Shaman/Wizard triggered abilities from Kessig Flamebreather, Thermo-Alchemist, Vivi Ornitier, Storm-Kiln Artist; NOT Abaddon-granted cascade nor Vivi mana activation."
+    "strong_offranking_synergy": "Harmonic Prodigy doubles sourced current Shaman/Wizard triggered abilities from Kessig Flamebreather, Thermo-Alchemist, Vivi Ornitier, Storm-Kiln Artist; NOT Abaddon-granted cascade nor Vivi mana activation.",
+    "last_merged_stage4_pr": 621,
+    "last_merged_stage4_sha": "5dd152d979d743d9f18326f955bcce35dff4a8d9",
+    "stage4_exact_head_ci_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39892125519",
+    "stage4_exact_head_ci_status": "SUCCESS",
+    "stage5_harmonic_review": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage5_harmonic_payable_review_20261022.json",
+    "stage5_harmonic_research_candidate": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_harmonic_engine_six_research_20261022.txt",
+    "stage5_harmonic_raw_sha256": "d743803d79ffd146ec4fe7318863d0e38e33001d28bb28987cca7c2a54eaa567",
+    "stage5_100_card_swap_count": 6,
+    "stage5_harmonic_rules_suite": "tests/test_m7_abaddon_harmonic_source_paid.py",
+    "stage5_physical_suite": "tests/test_m7_abaddon_harmonic_full_100_research.py"
   },
   "mandatory_next_deterministic_checks": [
     "Run Stage4 source/physical package count SHA/legality tests on exact PR head and verify CI outcomes.",
@@ -83,10 +93,11 @@
     "Compare Harmonic Prodigy, Fiery Confluence, Price of Progress and Ob Nixilis across full roles rather than targeting five swaps."
   ],
   "strategic_next": [
-    "Choose strongest coherent full 100 while preserving commander, source-paid cascade identity and enough free/cheap protection; comparison variants are exploratory and may all lose.",
-    "Do not count 6/8 staged changes as justified upgrades; assess card access, colored mana and self-life loss under opponent interference.",
-    "For best candidate, source/legality verify ALL 100 including replacement cards and run only invalidated applicable M6 P0/P1 and candidate-specific I/J, compute fresh SHA.",
-    "Only after complete M7 gates present list for Cory's explicit exact approval. Do NOT advance deck #3 beforehand."
+    "Execute Stage5 Harmonic source-paid finite case and physical exact 100 with exact-head CI; never declare it final from counts alone.",
+    "Evaluate explicit Bloodletter vs Harmonic, Ruinous vs Ob, Call Forth vs Blood, Pact/Pyro protection, colored mana and graveyard/game-state fragility relative to current approved 0d9f... source.",
+    "Qualitatively adjudicate off-ranking Fiery Confluence and Price of Progress as genuine further changes beyond the first six, not as padding; compare to existing Boltwave/Flame Rift.",
+    "Complete chosen candidate's full 100-card live Oracle/legality verification, affected mandatory M6/I/J work, bracket/tags and exact SHA before presenting to owner.",
+    "Do not advance deck3 until Cory approves Abaddon's exact new replacement list."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
