@@ -86,13 +86,17 @@
    "current_candidate_sha": "dfd1158c79668c2dcd85137219bd00bdc75cd855697cf31dfb9b5ff93552597d",
    "branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
    "working_branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
-   "last_pushed_commit": "73f1c36af63ac89954933e3cde7b4ba56414645b",
+   "last_pushed_commit": "fee682f356c5b7aebe4b4094137bf198215bf875",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/653",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [
-    "Pass C bundle_check wording fix pending"
+    "Merge order #651 -> #652 -> #653 (shared bundle_check/gate files)",
+    "Pass C strict wording pattern needs ChatGPT/Cory review; legacy permissive substring Technically independent third model pre-existing, unchanged",
+    "Conditional 3-card Razorlash+Plunderer+Altar loop (4050-4871-6429) bracket disclosure",
+    "Marionette Master drain loss; rocks 9->8",
+    "Not owner approved"
    ],
    "completed_stages": [
     "baseline_provenance",
@@ -109,13 +113,17 @@
     "m6_J_bundle",
     "ij_test",
     "workflow",
-    "review_packet"
+    "review_packet",
+    "full_suite_base_vs_head_0_regressions",
+    "wip_removed",
+    "pr_ready",
+    "exact_head_ci_success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Full suite base vs HEAD, PR body, mark ready, CI watch",
-   "next_step": "Full suite base vs HEAD, PR body, mark ready, CI watch"
+   "next_action": "ChatGPT adversarial second pass on PR #653; then Deck #6 Ashnod_the_Uncaring (index 5)",
+   "next_step": "ChatGPT adversarial second pass on PR #653; then Deck #6 Ashnod_the_Uncaring (index 5)"
   },
   {
    "tracker_number": 6,
