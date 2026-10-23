@@ -1,0 +1,1702 @@
+{
+ "deck_id": "Mai_and_Zuko",
+ "purpose": "Bounded finite measured tests for Mai and Zuko: seeded goldfish of commander deployment and mana development for the baseline, the candidate, each single swap, the larger six-swap package and staged alternatives (paired common random numbers), plus exhaustive rules-encoded grids: Basalt/Grim Monolith with Rings of Brighthearth loop accounting, Spire of Industry versus Path of Ancestry on the turn played, Pact of Negation upkeep feasibility, Jeska's Will with and without the commander, and opponent-turn flash mana from Grim Monolith versus Fellwar Stone under Unwinding Clock. Not a game simulation, not a source-bound game-engine receipt and not a win rate.",
+ "scripts": {
+  "meas": "\"\"\"Bounded finite measured tests for Mai_and_Zuko (Deck 32). Part A: seeded finite Monte Carlo goldfish of mana development and\ncommander deployment (seed 32, N=20000, 6 turns, on the play, 4-player pod so bond lands enter untapped, no mulligans, no\nopponents' interaction, no tutors, no draw spells; paired common random numbers: each add takes the cut card's library position).\nPart B: exhaustive finite rules-encoded grids. Neither part is a win-rate simulation.\"\"\"\nimport json,re,random,itertools,collections,sys\nW='/workspace/d32w/'\ndef load(p):\n    out=[]\n    for l in open(p):\n        m=re.match(r'(\\d+)x (.+?)( \\[Commander\\])?$',l.strip())\n        if m and not m.group(3): out+=[m.group(2)]*int(m.group(1))\n    return out\nbase=load(W+'base.txt'); assert len(base)==99\ndef swap(d,pairs):\n    d=d[:]\n    for a,c in pairs: d[d.index(c)]=a\n    return d\nGRIM=(\"Grim Monolith\",\"Fellwar Stone\"); SPIRE=(\"Spire of Industry\",\"Path of Ancestry\")\nSINK=(\"Sink into Stupor // Soporific Springs\",\"Xander's Lounge\"); JESKA=(\"Jeska's Will\",\"Chaos Warp\"); PACT=(\"Pact of Negation\",\"Lightning Greaves\")\nVERD=(\"Verdant Catacombs\",\"Sulfurous Springs\")\nFINAL=[VERD,SPIRE,SINK,JESKA,PACT]\nCFG={\"baseline\":base,\"candidate\":swap(base,FINAL)}\nfor a,c in FINAL: CFG[f\"single_plus_{a.split(' //')[0]}_minus_{c}\".replace(' ','_').replace(\"'\",'').replace(',','')]=swap(base,[(a,c)])\nCFG[\"single_plus_Grim_Monolith_minus_Fellwar_Stone\"]=swap(base,[GRIM])\nCFG[\"six_candidate_plus_Grim_Monolith_minus_Fellwar_Stone\"]=swap(base,FINAL+[GRIM])\nCFG[\"alt_Arid_Mesa_instead_of_Verdant_Catacombs\"]=swap(base,[(\"Arid Mesa\",\"Sulfurous Springs\"),SPIRE,SINK,JESKA,PACT])\nCFG[\"alt_Verdant_Catacombs_minus_Bojuka_Bog\"]=swap(base,[(\"Verdant Catacombs\",\"Bojuka Bog\"),SPIRE,SINK,JESKA,PACT])\nCFG[\"alt_Seat_of_the_Synod_instead_of_Sink\"]=swap(base,[VERD,SPIRE,(\"Seat of the Synod\",\"Xander's Lounge\"),JESKA,PACT])\nCFG[\"alt_Pact_minus_Talisman_of_Creativity_keeps_Lightning_Greaves\"]=swap(base,[VERD,SPIRE,SINK,JESKA,(\"Pact of Negation\",\"Talisman of Creativity\")])\nCFG[\"rejected_plus_Mox_Amber_minus_Talisman_of_Indulgence_on_candidate\"]=swap(CFG[\"candidate\"],[(\"Mox Amber\",\"Talisman of Indulgence\")])\nA=\"UBR\"\n# land: (colours, enters_tapped)\nLAND={\"Badlands\":(\"BR\",0),\"Blood Crypt\":(\"BR\",0),\"Steam Vents\":(\"UR\",0),\"Watery Grave\":(\"UB\",0),\"Underground Sea\":(\"UB\",0),\"Volcanic Island\":(\"UR\",0),\n \"Bloodstained Mire\":(A,0),\"Polluted Delta\":(A,0),\"Scalding Tarn\":(A,0),\"Marsh Flats\":(A,0),\"Flooded Strand\":(A,0),\"Misty Rainforest\":(A,0),\n \"Command Tower\":(A,0),\"Mana Confluence\":(A,0),\"City of Brass\":(A,0),\"Luxury Suite\":(\"BR\",0),\"Morphic Pool\":(\"UB\",0),\"Training Center\":(\"UR\",0),\n \"Sulfurous Springs\":(\"BR\",0),\"Riverglide Pathway // Lavaglide Pathway\":(\"UR\",0),\"Clearwater Pathway // Murkwater Pathway\":(\"UB\",0),\n \"Blightstep Pathway // Searstep Pathway\":(\"BR\",0),\"Xander's Lounge\":(A,1),\"Path of Ancestry\":(A,1),\"Bojuka Bog\":(\"B\",1),\"Ancient Tomb\":(\"CC\",0),\n \"Ally Encampment\":(\"C\",0),\"Otawara, Soaring City\":(\"U\",0),\"Sokenzan, Crucible of Defiance\":(\"R\",0),\"Takenuma, Abandoned Mire\":(\"B\",0),\n \"Urza's Saga\":(\"C\",0),\"Spire of Industry\":(\"SPIRE\",0),\"Sink into Stupor // Soporific Springs\":(\"U\",0),\"Seat of the Synod\":(\"U\",0),\"Verdant Catacombs\":(A,0),\"Arid Mesa\":(A,0)}\n# note: fetchlands are counted as any colour (each finds a typed dual of two of the deck's colours); Soporific Springs is played paying 3 life (untapped)\n# rock: (cost generic, colour need, output list, kind) kind: 'tap' (every turn), 'once' (no untap without Unwinding Clock / payment)\nROCK={\"Sol Ring\":(1,\"\",[\"C\",\"C\"],\"tap\"),\"Arcane Signet\":(2,\"\",[A],\"tap\"),\"Talisman of Creativity\":(2,\"\",[\"UR\"],\"tap\"),\"Talisman of Dominance\":(2,\"\",[\"UB\"],\"tap\"),\n \"Talisman of Indulgence\":(2,\"\",[\"BR\"],\"tap\"),\"Fellwar Stone\":(2,\"\",[A],\"tap\"),\"Bender's Waterskin\":(3,\"\",[A],\"tap\"),\"Mana Vault\":(1,\"\",[\"C\",\"C\",\"C\"],\"once\"),\n \"Grim Monolith\":(2,\"\",[\"C\",\"C\",\"C\"],\"once\"),\"Basalt Monolith\":(3,\"\",[\"C\",\"C\",\"C\"],\"once\"),\"Chrome Mox\":(0,\"\",[A],\"tap\"),\"Mox Diamond\":(0,\"\",[A],\"tap\"),\n \"Mox Opal\":(0,\"\",[A],\"opal\"),\"Mox Amber\":(0,\"\",[A],\"amber\"),\"Lotus Petal\":(0,\"\",[A],\"petal\"),\"Unwinding Clock\":(4,\"\",[],\"tap\"),\n \"Etherium Sculptor\":(1,\"U\",[],\"tap\"),\"Foundry Inspector\":(3,\"\",[],\"tap\"),\"Enthusiastic Mechanaut\":(2,\"\",[],\"tap\")}\nREDUCER={\"Etherium Sculptor\",\"Foundry Inspector\",\"Enthusiastic Mechanaut\"}\nARTIFACT_OTHER={\"Sensei's Divining Top\",\"Lightning Greaves\",\"Wishclaw Talisman\",\"Lion's Eye Diamond\",\"Walking Ballista\",\"Thought Monitor\",\"Roaming Throne\",\n \"Phyrexian Metamorph\",\"Mystic Forge\",\"The One Ring\",\"Aetherflux Reservoir\",\"Rings of Brighthearth\",\"Bolas's Citadel\"}\ndef pay(srcs,need,g):\n    if len(srcs)<len(need)+g: return None\n    def dfs(i,used):\n        if i==len(need): return used\n        for j in sorted(range(len(srcs)),key=lambda j:len(srcs[j])):\n            if j not in used and need[i] in srcs[j]:\n                r=dfs(i+1,used|{j})\n                if r is not None: return r\n        return None\n    u=dfs(0,frozenset())\n    if u is None: return None\n    rest=sorted([j for j in range(len(srcs)) if j not in u],key=lambda j:(srcs[j]!=\"C\",len(srcs[j])))\n    if len(rest)<g: return None\n    return set(u)|set(rest[:g])\ndef game(deck,rnd,T=6):\n    d=deck[:]; rnd.shuffle(d); hand=d[:7]; lib=d[7:]\n    lands=[]; rocks=[]; used_once=set(); cmd=None; recs=[]; clock=False\n    for t in range(1,T+1):\n        if t>1: hand.append(lib.pop(0))\n        lh=[c for c in hand if c in LAND]; newt=False\n        if lh:\n            L=sorted(lh,key=lambda c:(LAND[c][1],c))[0] if t>1 or True else lh[0]\n            # play a tapped land on turn 1 only if nothing better; otherwise prefer untapped\n            hand.remove(L); lands.append(L); newt=LAND[L][1]!=0\n        nart=lambda: sum(1 for r in rocks if r in ROCK)+sum(1 for c in rocks if c in ARTIFACT_OTHER)\n        av=[]\n        for i,x in enumerate(lands):\n            if i==len(lands)-1 and newt: continue\n            v=LAND[x][0]\n            if v==\"SPIRE\": v=A if nart()>0 else \"C\"\n            av+=[\"C\",\"C\"] if v==\"CC\" else [v]\n        for r in rocks:\n            k=ROCK[r][3]\n            if k==\"once\" and r in used_once and not clock: continue\n            if k==\"opal\" and nart()<3: continue\n            if k==\"amber\" and cmd is None: continue\n            if k==\"petal\": continue\n            av+=ROCK[r][2]\n            if k==\"once\": used_once.add(r)\n        def take(need,g):\n            nonlocal av\n            u=pay(av,need,g)\n            if u is None: return False\n            av=[x for j,x in enumerate(av) if j not in u]; return True\n        red=sum(1 for r in rocks if r in REDUCER)\n        progress=True\n        while progress:\n            progress=False\n            for r in sorted([c for c in hand if c in ROCK],key=lambda c:ROCK[c][0]):\n                if r==\"Chrome Mox\" and not any(c not in LAND and c not in ROCK and c not in ARTIFACT_OTHER for c in hand if c!=r): continue\n                if r==\"Mox Diamond\" and sum(1 for c in hand if c in LAND)<1: continue\n                if r==\"Unwinding Clock\" and cmd is None and len(av)<8: continue\n                if r in REDUCER and cmd is None: continue\n                g=max(0,ROCK[r][0]-red); need=list(ROCK[r][1])\n                if take(need,g):\n                    hand.remove(r)\n                    if r==\"Chrome Mox\":\n                        hand.remove(next(c for c in hand if c not in LAND and c not in ROCK and c not in ARTIFACT_OTHER))\n                    if r==\"Mox Diamond\":\n                        hand.remove(next(c for c in hand if c in LAND))\n                    rocks.append(r)\n                    if r==\"Unwinding Clock\": clock=True\n                    k=ROCK[r][3]\n                    if k==\"tap\" or (k==\"opal\" and nart()>=3) or (k==\"amber\" and cmd is not None): av+=ROCK[r][2]\n                    elif k==\"once\": av+=ROCK[r][2]; used_once.add(r)\n                    red=sum(1 for x in rocks if x in REDUCER); progress=True; break\n        petals=[r for r in rocks if r==\"Lotus Petal\"]+[c for c in hand if c==\"Lotus Petal\"]\n        if cmd is None:\n            extra=[\"%s\"%A]*0\n            if take([\"U\",\"B\",\"R\"],1): cmd=t\n            elif \"Lotus Petal\" in hand or \"Lotus Petal\" in rocks:\n                av2=av+[A]\n                if pay(av2,[\"U\",\"B\",\"R\"],1) is not None:\n                    av=av2; take([\"U\",\"B\",\"R\"],1); cmd=t\n                    (hand if \"Lotus Petal\" in hand else rocks).remove(\"Lotus Petal\")\n        total=len(av)\n        opp_turn=0\n        if clock or True:\n            # mana available on each opponent's turn for flash Allies/artifacts (Mai and Zuko): untapped lands + 'tap' rocks untap in your\n            # untap step only; Bender's Waterskin untaps each other player's untap step; with Unwinding Clock every artifact untaps\n            # (including Grim/Basalt Monolith and Mana Vault). Counted for the first opponent's turn after this turn, all of it reserved.\n            lands_n=len(lands)\n            art=sum(len(ROCK[r][2]) for r in rocks if r in ROCK and (ROCK[r][3]==\"tap\" or (ROCK[r][3]==\"opal\" and nart()>=3) or (ROCK[r][3]==\"amber\" and cmd is not None)))\n            once=sum(3 for r in rocks if ROCK.get(r,(0,0,0,''))[3]==\"once\")\n            ws=1 if \"Bender's Waterskin\" in rocks else 0\n            opp_turn=lands_n+art+once if clock else ws\n        recs.append(dict(cmd=cmd is not None,mana_left=total,clock=clock,opp=opp_turn,\n            land_count=len(lands),tapped_land_played=newt))\n    return recs\ndef run(deck,seed=32,N=20000,T=6):\n    rnd=random.Random(seed); acc=collections.defaultdict(lambda: collections.defaultdict(float))\n    for _ in range(N):\n        for t,o in enumerate(game(deck,rnd,T),1):\n            a=acc[t]; a['cmd']+=o['cmd']; a['left']+=o['mana_left']; a['left5']+=o['mana_left']>=5; a['tapped']+=o['tapped_land_played']\n            a['clock']+=o['clock']; a['opp_ge3']+=o['opp']>=3\n    return {f\"turn {t}\":{\"P_commander_cast\":round(a['cmd']/N,4),\"mean_mana_left_after_deploying\":round(a['left']/N,3),\n        \"P_5plus_mana_left\":round(a['left5']/N,4),\"P_tapped_land_played_this_turn\":round(a['tapped']/N,4),\n        \"P_Unwinding_Clock_out\":round(a['clock']/N,4),\"P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin\":round(a['opp_ge3']/N,4)} for t,a in acc.items()}\n# ---------------- Part B\ndef gridB():\n    B={}\n    # B1 Monolith x Rings of Brighthearth loop accounting (per untap activation and copy)\n    rows=[]\n    for mono,prod,untap in ((\"Basalt Monolith\",3,3),(\"Grim Monolith\",3,4)):\n        for rings in (0,1):\n            for clock in (0,1):\n                # one activation of the untap ability (+ optional Rings copy paying 2): net colourless per loop\n                if rings:\n                    net=prod*2-(untap+2)   # tap, pay untap, Rings copy (2) resolves first untapping, tap again, original untap resolves\n                else:\n                    net=prod-untap\n                rows.append(dict(monolith=mono,rings_of_brighthearth=bool(rings),unwinding_clock=bool(clock),net_colourless_per_loop=net,\n                    infinite=net>0,note=(\"Rings copy resolves first: untap, tap for 3, then the original untap resolves: untap again; spent \"+str(untap)+\"+2\") if rings else \"untap cost versus production\"))\n    B[\"B1_monolith_rings_loop_accounting\"]=dict(cells=len(rows),rows=rows,\n        notes=\"Frozen-cache Oracle: Basalt Monolith {T}: add CCC, {3}: untap; Grim Monolith {T}: add CCC, {4}: untap; Rings of Brighthearth: whenever you activate a non-mana ability you may pay {2} to copy it. Basalt + Rings nets +1 colourless per loop (infinite colourless, the deck's existing owner-kept combo); Grim + Rings nets 0 (6 produced for 4+2 paid): NOT infinite. Grim Monolith adds no new combo. Unwinding Clock does not change loop accounting (it untaps only in other players' untap steps).\")\n    # B2 Spire of Industry versus Path of Ancestry on the turn played: coloured mana available\n    rows=[]; g=collections.Counter()\n    for land in (\"Spire of Industry\",\"Path of Ancestry\"):\n        for arts in (0,1,3):\n            for turn_played in (\"this_turn\",\"earlier\"):\n                if land==\"Path of Ancestry\":\n                    m=0 if turn_played==\"this_turn\" else 1; col=m; life=0\n                else:\n                    m=1; col=1 if arts>0 else 0; life=1 if arts>0 else 0\n                rows.append(dict(land=land,artifacts_you_control=arts,played=turn_played,mana=m,coloured=col,life_per_coloured_tap=life))\n                g[land.replace(' ','_')+\"_mana_total\"]+=m; g[land.replace(' ','_')+\"_coloured_total\"]+=col\n    B[\"B2_Spire_versus_Path_on_play\"]=dict(cells=len(rows),**g,rows=rows,notes=\"Path of Ancestry always enters tapped (gives 0 mana the turn played) and makes any commander colour; the scry needs a creature spell sharing Human, Noble or Ally. Spire of Industry is untapped: {C} always, any colour for 1 life with an artifact (the baseline runs 32 artifacts). Unweighted cells.\")\n    # B3 Pact of Negation upkeep payment feasibility: {3}{U}{U}\n    rows=[]; g=collections.Counter()\n    for lands in (2,3,4,5):\n        for blue in (0,1,2):\n            if blue>lands: continue\n            for rocks_c in (0,2,3,5):\n                for won in (0,1):\n                    mana=lands+rocks_c; ok=won or (mana>=5 and blue>=2)\n                    rows.append(dict(untapped_lands=lands,blue_sources_among_lands=blue,rock_mana=rocks_c,game_won_this_turn=bool(won),pact_upkeep_paid_or_moot=bool(ok)))\n                    g[\"cells\"]+=1; g[\"ok\"]+=ok; g[\"cells_not_won\"]+= not won; g[\"ok_not_won\"]+= (ok and not won)\n    B[\"B3_Pact_of_Negation_upkeep\"]=dict(**g,rows=rows,notes=\"Pact of Negation: {0} counter target spell; at your next upkeep pay {3}{U}{U} or lose. Used on the combo turn (Underworld Breach + Lion's Eye Diamond + Brain Freeze, Basalt Monolith + Rings of Brighthearth + Walking Ballista, Top + Mystic Forge + a reducer/Longshot) the upkeep never comes; used defensively it needs 5 mana with UU at your upkeep (rock mana from untapped rocks, Mana Vault/Grim/Basalt counted only if untapped). Unweighted cells.\")\n    # B4 Jeska's Will with and without the commander (mana and cards)\n    rows=[]\n    for cmd in (0,1):\n        for hand in (0,2,4,7):\n            m=hand if cmd else hand; cards=3 if cmd else 0\n            rows.append(dict(commander_in_play=bool(cmd),target_opponent_hand=hand,mode=(\"both\" if cmd else \"one (red mana or exile three)\"),\n                red_mana=hand,net_mana_after_cost=hand-3,cards_exiled_playable=3 if cmd else \"0 or 3 (choose)\",note=\"without the commander you choose one mode\"))\n    B[\"B4_Jeskas_Will\"]=dict(cells=len(rows),rows=rows,notes=\"Jeska's Will {2}{R} sorcery: if you control a commander as you cast it, choose both: add R for each card in target opponent's hand and exile the top three cards, play them this turn. With Mai and Zuko out (4-player, typical 4-7 cards in the fullest hand) it nets +1 to +4 mana and three cards. It is a sorcery: Mai and Zuko's flash covers only Ally and artifact spells.\")\n    # B5 Mai and Zuko flash and Unwinding Clock / Grim Monolith opponent-turn mana\n    rows=[]\n    for clock in (0,1):\n        for grim in (0,1):\n            for fellwar in (0,1):\n                if grim and fellwar: continue\n                opp=(3 if (grim and clock) else 0)+(1 if (fellwar and clock) else 0)\n                own=(3 if grim else 0)+(1 if fellwar else 0)\n                rows.append(dict(unwinding_clock=bool(clock),grim_monolith=bool(grim),fellwar_stone=bool(fellwar),own_turn_mana_from_rock=own,\n                    each_opponent_turn_mana_from_rock=opp,note=\"Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)\"))\n    B[\"B5_opponent_turn_flash_mana\"]=dict(cells=len(rows),rows=rows,notes=\"Mai and Zuko let you cast Ally and artifact spells as though they had flash. Unwinding Clock untaps all your artifacts in each other player's untap step: Grim Monolith then gives 3 per opponent turn (9 per round in a 4-player pod) versus Fellwar Stone's 1. Without Clock, Grim is a one-shot 3 (or {4} to untap), Fellwar 1 every turn. Fellwar's colour depends on opponents' lands.\")\n    return B\nif __name__==\"__main__\":\n    A_=({k:run(v) for k,v in CFG.items()})\n    B=gridB()\n    json.dump({\"part_A_goldfish\":A_,\"part_B_grids\":B},open(W+\"meas32.json\",\"w\"),indent=1)\n    for k,v in A_.items(): print(k,{t:(x['P_commander_cast'],x['mean_mana_left_after_deploying'],x['P_5plus_mana_left'],x['P_tapped_land_played_this_turn']) for t,x in v.items() if t in(\"turn 3\",\"turn 4\")})\n    print(B[\"B1_monolith_rings_loop_accounting\"][\"rows\"]); print({k:v for k,v in B[\"B3_Pact_of_Negation_upkeep\"].items() if k!='rows'})\n"
+ },
+ "results": {
+  "part_A_goldfish": {
+   "baseline": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.195,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0249,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0362,
+     "mean_mana_left_after_deploying": 1.759,
+     "P_5plus_mana_left": 0.0084,
+     "P_tapped_land_played_this_turn": 0.0549,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2328,
+     "mean_mana_left_after_deploying": 2.041,
+     "P_5plus_mana_left": 0.0369,
+     "P_tapped_land_played_this_turn": 0.0746,
+     "P_Unwinding_Clock_out": 0.0021,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0021
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5253,
+     "mean_mana_left_after_deploying": 2.275,
+     "P_5plus_mana_left": 0.1379,
+     "P_tapped_land_played_this_turn": 0.0673,
+     "P_Unwinding_Clock_out": 0.0175,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0175
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6658,
+     "mean_mana_left_after_deploying": 3.332,
+     "P_5plus_mana_left": 0.3282,
+     "P_tapped_land_played_this_turn": 0.0612,
+     "P_Unwinding_Clock_out": 0.0465,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0465
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7516,
+     "mean_mana_left_after_deploying": 4.18,
+     "P_5plus_mana_left": 0.494,
+     "P_tapped_land_played_this_turn": 0.0532,
+     "P_Unwinding_Clock_out": 0.0699,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0699
+    }
+   },
+   "candidate": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.214,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0075,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0379,
+     "mean_mana_left_after_deploying": 1.78,
+     "P_5plus_mana_left": 0.0086,
+     "P_tapped_land_played_this_turn": 0.0165,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2498,
+     "mean_mana_left_after_deploying": 2.043,
+     "P_5plus_mana_left": 0.0384,
+     "P_tapped_land_played_this_turn": 0.0251,
+     "P_Unwinding_Clock_out": 0.0022,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0022
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5449,
+     "mean_mana_left_after_deploying": 2.305,
+     "P_5plus_mana_left": 0.1492,
+     "P_tapped_land_played_this_turn": 0.0233,
+     "P_Unwinding_Clock_out": 0.0188,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0188
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6694,
+     "mean_mana_left_after_deploying": 3.436,
+     "P_5plus_mana_left": 0.3493,
+     "P_tapped_land_played_this_turn": 0.0214,
+     "P_Unwinding_Clock_out": 0.0483,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0483
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7539,
+     "mean_mana_left_after_deploying": 4.242,
+     "P_5plus_mana_left": 0.5043,
+     "P_tapped_land_played_this_turn": 0.0175,
+     "P_Unwinding_Clock_out": 0.0703,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0703
+    }
+   },
+   "single_plus_Verdant_Catacombs_minus_Sulfurous_Springs": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.195,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0249,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.036,
+     "mean_mana_left_after_deploying": 1.76,
+     "P_5plus_mana_left": 0.0084,
+     "P_tapped_land_played_this_turn": 0.0548,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2328,
+     "mean_mana_left_after_deploying": 2.041,
+     "P_5plus_mana_left": 0.0368,
+     "P_tapped_land_played_this_turn": 0.0746,
+     "P_Unwinding_Clock_out": 0.0021,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0021
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5256,
+     "mean_mana_left_after_deploying": 2.274,
+     "P_5plus_mana_left": 0.1378,
+     "P_tapped_land_played_this_turn": 0.0673,
+     "P_Unwinding_Clock_out": 0.0175,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0175
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6666,
+     "mean_mana_left_after_deploying": 3.33,
+     "P_5plus_mana_left": 0.3282,
+     "P_tapped_land_played_this_turn": 0.0612,
+     "P_Unwinding_Clock_out": 0.0464,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0464
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7522,
+     "mean_mana_left_after_deploying": 4.179,
+     "P_5plus_mana_left": 0.494,
+     "P_tapped_land_played_this_turn": 0.0532,
+     "P_Unwinding_Clock_out": 0.0699,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0699
+    }
+   },
+   "single_plus_Spire_of_Industry_minus_Path_of_Ancestry": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.205,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0159,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0373,
+     "mean_mana_left_after_deploying": 1.769,
+     "P_5plus_mana_left": 0.0083,
+     "P_tapped_land_played_this_turn": 0.0354,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2414,
+     "mean_mana_left_after_deploying": 2.042,
+     "P_5plus_mana_left": 0.0376,
+     "P_tapped_land_played_this_turn": 0.0496,
+     "P_Unwinding_Clock_out": 0.0022,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0022
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5333,
+     "mean_mana_left_after_deploying": 2.299,
+     "P_5plus_mana_left": 0.1442,
+     "P_tapped_land_played_this_turn": 0.045,
+     "P_Unwinding_Clock_out": 0.018,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.018
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6669,
+     "mean_mana_left_after_deploying": 3.379,
+     "P_5plus_mana_left": 0.3371,
+     "P_tapped_land_played_this_turn": 0.042,
+     "P_Unwinding_Clock_out": 0.0473,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0473
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7524,
+     "mean_mana_left_after_deploying": 4.209,
+     "P_5plus_mana_left": 0.4984,
+     "P_tapped_land_played_this_turn": 0.0356,
+     "P_Unwinding_Clock_out": 0.0699,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0699
+    }
+   },
+   "single_plus_Sink_into_Stupor_minus_Xanders_Lounge": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.205,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0157,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0369,
+     "mean_mana_left_after_deploying": 1.77,
+     "P_5plus_mana_left": 0.0086,
+     "P_tapped_land_played_this_turn": 0.0352,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.241,
+     "mean_mana_left_after_deploying": 2.044,
+     "P_5plus_mana_left": 0.0378,
+     "P_tapped_land_played_this_turn": 0.0494,
+     "P_Unwinding_Clock_out": 0.0021,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0021
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5374,
+     "mean_mana_left_after_deploying": 2.28,
+     "P_5plus_mana_left": 0.1426,
+     "P_tapped_land_played_this_turn": 0.0456,
+     "P_Unwinding_Clock_out": 0.0182,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0182
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6677,
+     "mean_mana_left_after_deploying": 3.391,
+     "P_5plus_mana_left": 0.3402,
+     "P_tapped_land_played_this_turn": 0.041,
+     "P_Unwinding_Clock_out": 0.0476,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0476
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7525,
+     "mean_mana_left_after_deploying": 4.213,
+     "P_5plus_mana_left": 0.4998,
+     "P_tapped_land_played_this_turn": 0.0355,
+     "P_Unwinding_Clock_out": 0.0703,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0703
+    }
+   },
+   "single_plus_Jeskas_Will_minus_Chaos_Warp": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.195,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0249,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0362,
+     "mean_mana_left_after_deploying": 1.759,
+     "P_5plus_mana_left": 0.0084,
+     "P_tapped_land_played_this_turn": 0.0549,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2328,
+     "mean_mana_left_after_deploying": 2.041,
+     "P_5plus_mana_left": 0.0369,
+     "P_tapped_land_played_this_turn": 0.0746,
+     "P_Unwinding_Clock_out": 0.0021,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0021
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5253,
+     "mean_mana_left_after_deploying": 2.275,
+     "P_5plus_mana_left": 0.1379,
+     "P_tapped_land_played_this_turn": 0.0673,
+     "P_Unwinding_Clock_out": 0.0175,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0175
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6658,
+     "mean_mana_left_after_deploying": 3.332,
+     "P_5plus_mana_left": 0.3282,
+     "P_tapped_land_played_this_turn": 0.0612,
+     "P_Unwinding_Clock_out": 0.0465,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0465
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7516,
+     "mean_mana_left_after_deploying": 4.18,
+     "P_5plus_mana_left": 0.494,
+     "P_tapped_land_played_this_turn": 0.0532,
+     "P_Unwinding_Clock_out": 0.0699,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0699
+    }
+   },
+   "single_plus_Pact_of_Negation_minus_Lightning_Greaves": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.195,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0249,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0362,
+     "mean_mana_left_after_deploying": 1.759,
+     "P_5plus_mana_left": 0.0084,
+     "P_tapped_land_played_this_turn": 0.0549,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2328,
+     "mean_mana_left_after_deploying": 2.041,
+     "P_5plus_mana_left": 0.0369,
+     "P_tapped_land_played_this_turn": 0.0746,
+     "P_Unwinding_Clock_out": 0.0021,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0021
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5253,
+     "mean_mana_left_after_deploying": 2.275,
+     "P_5plus_mana_left": 0.1379,
+     "P_tapped_land_played_this_turn": 0.0673,
+     "P_Unwinding_Clock_out": 0.0175,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0175
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6658,
+     "mean_mana_left_after_deploying": 3.332,
+     "P_5plus_mana_left": 0.3282,
+     "P_tapped_land_played_this_turn": 0.0612,
+     "P_Unwinding_Clock_out": 0.0465,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0465
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7516,
+     "mean_mana_left_after_deploying": 4.18,
+     "P_5plus_mana_left": 0.494,
+     "P_tapped_land_played_this_turn": 0.0532,
+     "P_Unwinding_Clock_out": 0.0699,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0699
+    }
+   },
+   "single_plus_Grim_Monolith_minus_Fellwar_Stone": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.221,
+     "P_5plus_mana_left": 0.0014,
+     "P_tapped_land_played_this_turn": 0.0249,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0323,
+     "mean_mana_left_after_deploying": 1.836,
+     "P_5plus_mana_left": 0.0093,
+     "P_tapped_land_played_this_turn": 0.0549,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2139,
+     "mean_mana_left_after_deploying": 2.104,
+     "P_5plus_mana_left": 0.0377,
+     "P_tapped_land_played_this_turn": 0.0746,
+     "P_Unwinding_Clock_out": 0.0019,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0019
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5043,
+     "mean_mana_left_after_deploying": 2.26,
+     "P_5plus_mana_left": 0.1315,
+     "P_tapped_land_played_this_turn": 0.0673,
+     "P_Unwinding_Clock_out": 0.0156,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0156
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6448,
+     "mean_mana_left_after_deploying": 3.277,
+     "P_5plus_mana_left": 0.3134,
+     "P_tapped_land_played_this_turn": 0.0612,
+     "P_Unwinding_Clock_out": 0.044,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.044
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7323,
+     "mean_mana_left_after_deploying": 4.11,
+     "P_5plus_mana_left": 0.4749,
+     "P_tapped_land_played_this_turn": 0.0532,
+     "P_Unwinding_Clock_out": 0.0673,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0673
+    }
+   },
+   "six_candidate_plus_Grim_Monolith_minus_Fellwar_Stone": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.24,
+     "P_5plus_mana_left": 0.0014,
+     "P_tapped_land_played_this_turn": 0.0075,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0338,
+     "mean_mana_left_after_deploying": 1.861,
+     "P_5plus_mana_left": 0.0096,
+     "P_tapped_land_played_this_turn": 0.0165,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2301,
+     "mean_mana_left_after_deploying": 2.106,
+     "P_5plus_mana_left": 0.0394,
+     "P_tapped_land_played_this_turn": 0.0251,
+     "P_Unwinding_Clock_out": 0.0019,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0019
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5242,
+     "mean_mana_left_after_deploying": 2.285,
+     "P_5plus_mana_left": 0.1428,
+     "P_tapped_land_played_this_turn": 0.0233,
+     "P_Unwinding_Clock_out": 0.0168,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0168
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6485,
+     "mean_mana_left_after_deploying": 3.38,
+     "P_5plus_mana_left": 0.3341,
+     "P_tapped_land_played_this_turn": 0.0214,
+     "P_Unwinding_Clock_out": 0.0459,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0459
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7347,
+     "mean_mana_left_after_deploying": 4.172,
+     "P_5plus_mana_left": 0.4853,
+     "P_tapped_land_played_this_turn": 0.0175,
+     "P_Unwinding_Clock_out": 0.0678,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0678
+    }
+   },
+   "alt_Arid_Mesa_instead_of_Verdant_Catacombs": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.214,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0075,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.038,
+     "mean_mana_left_after_deploying": 1.78,
+     "P_5plus_mana_left": 0.0086,
+     "P_tapped_land_played_this_turn": 0.0165,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2501,
+     "mean_mana_left_after_deploying": 2.042,
+     "P_5plus_mana_left": 0.0384,
+     "P_tapped_land_played_this_turn": 0.0251,
+     "P_Unwinding_Clock_out": 0.0022,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0022
+    },
+    "turn 4": {
+     "P_commander_cast": 0.546,
+     "mean_mana_left_after_deploying": 2.302,
+     "P_5plus_mana_left": 0.1492,
+     "P_tapped_land_played_this_turn": 0.0233,
+     "P_Unwinding_Clock_out": 0.0188,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0188
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6694,
+     "mean_mana_left_after_deploying": 3.439,
+     "P_5plus_mana_left": 0.3498,
+     "P_tapped_land_played_this_turn": 0.0214,
+     "P_Unwinding_Clock_out": 0.0485,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0485
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7539,
+     "mean_mana_left_after_deploying": 4.244,
+     "P_5plus_mana_left": 0.5048,
+     "P_tapped_land_played_this_turn": 0.0175,
+     "P_Unwinding_Clock_out": 0.0703,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0703
+    }
+   },
+   "alt_Verdant_Catacombs_minus_Bojuka_Bog": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.222,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0392,
+     "mean_mana_left_after_deploying": 1.788,
+     "P_5plus_mana_left": 0.0086,
+     "P_tapped_land_played_this_turn": 0.0,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2587,
+     "mean_mana_left_after_deploying": 2.043,
+     "P_5plus_mana_left": 0.0396,
+     "P_tapped_land_played_this_turn": 0.0,
+     "P_Unwinding_Clock_out": 0.0022,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0022
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5578,
+     "mean_mana_left_after_deploying": 2.313,
+     "P_5plus_mana_left": 0.1548,
+     "P_tapped_land_played_this_turn": 0.0,
+     "P_Unwinding_Clock_out": 0.0192,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0192
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6746,
+     "mean_mana_left_after_deploying": 3.483,
+     "P_5plus_mana_left": 0.3595,
+     "P_tapped_land_played_this_turn": 0.0,
+     "P_Unwinding_Clock_out": 0.0498,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0498
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7567,
+     "mean_mana_left_after_deploying": 4.277,
+     "P_5plus_mana_left": 0.51,
+     "P_tapped_land_played_this_turn": 0.0,
+     "P_Unwinding_Clock_out": 0.0713,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0713
+    }
+   },
+   "alt_Seat_of_the_Synod_instead_of_Sink": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.214,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0075,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0379,
+     "mean_mana_left_after_deploying": 1.78,
+     "P_5plus_mana_left": 0.0086,
+     "P_tapped_land_played_this_turn": 0.0165,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2498,
+     "mean_mana_left_after_deploying": 2.043,
+     "P_5plus_mana_left": 0.0384,
+     "P_tapped_land_played_this_turn": 0.0251,
+     "P_Unwinding_Clock_out": 0.0022,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0022
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5449,
+     "mean_mana_left_after_deploying": 2.305,
+     "P_5plus_mana_left": 0.1492,
+     "P_tapped_land_played_this_turn": 0.0233,
+     "P_Unwinding_Clock_out": 0.0188,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0188
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6694,
+     "mean_mana_left_after_deploying": 3.436,
+     "P_5plus_mana_left": 0.3493,
+     "P_tapped_land_played_this_turn": 0.0214,
+     "P_Unwinding_Clock_out": 0.0483,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0483
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7539,
+     "mean_mana_left_after_deploying": 4.242,
+     "P_5plus_mana_left": 0.5043,
+     "P_tapped_land_played_this_turn": 0.0175,
+     "P_Unwinding_Clock_out": 0.0703,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0703
+    }
+   },
+   "alt_Pact_minus_Talisman_of_Creativity_keeps_Lightning_Greaves": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.227,
+     "P_5plus_mana_left": 0.0006,
+     "P_tapped_land_played_this_turn": 0.0075,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0333,
+     "mean_mana_left_after_deploying": 1.823,
+     "P_5plus_mana_left": 0.0088,
+     "P_tapped_land_played_this_turn": 0.0165,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.2326,
+     "mean_mana_left_after_deploying": 2.069,
+     "P_5plus_mana_left": 0.0356,
+     "P_tapped_land_played_this_turn": 0.0251,
+     "P_Unwinding_Clock_out": 0.002,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.002
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5251,
+     "mean_mana_left_after_deploying": 2.268,
+     "P_5plus_mana_left": 0.1391,
+     "P_tapped_land_played_this_turn": 0.0233,
+     "P_Unwinding_Clock_out": 0.0176,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0176
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6487,
+     "mean_mana_left_after_deploying": 3.362,
+     "P_5plus_mana_left": 0.3311,
+     "P_tapped_land_played_this_turn": 0.0214,
+     "P_Unwinding_Clock_out": 0.0467,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0467
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7335,
+     "mean_mana_left_after_deploying": 4.149,
+     "P_5plus_mana_left": 0.4845,
+     "P_tapped_land_played_this_turn": 0.0175,
+     "P_Unwinding_Clock_out": 0.0677,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0677
+    }
+   },
+   "rejected_plus_Mox_Amber_minus_Talisman_of_Indulgence_on_candidate": {
+    "turn 1": {
+     "P_commander_cast": 0.0003,
+     "mean_mana_left_after_deploying": 1.228,
+     "P_5plus_mana_left": 0.0008,
+     "P_tapped_land_played_this_turn": 0.0075,
+     "P_Unwinding_Clock_out": 0.0,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0
+    },
+    "turn 2": {
+     "P_commander_cast": 0.0345,
+     "mean_mana_left_after_deploying": 1.82,
+     "P_5plus_mana_left": 0.0082,
+     "P_tapped_land_played_this_turn": 0.0165,
+     "P_Unwinding_Clock_out": 0.0001,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0001
+    },
+    "turn 3": {
+     "P_commander_cast": 0.232,
+     "mean_mana_left_after_deploying": 2.079,
+     "P_5plus_mana_left": 0.0369,
+     "P_tapped_land_played_this_turn": 0.0251,
+     "P_Unwinding_Clock_out": 0.0019,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0019
+    },
+    "turn 4": {
+     "P_commander_cast": 0.5266,
+     "mean_mana_left_after_deploying": 2.278,
+     "P_5plus_mana_left": 0.1438,
+     "P_tapped_land_played_this_turn": 0.0233,
+     "P_Unwinding_Clock_out": 0.0177,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0177
+    },
+    "turn 5": {
+     "P_commander_cast": 0.6514,
+     "mean_mana_left_after_deploying": 3.413,
+     "P_5plus_mana_left": 0.3427,
+     "P_tapped_land_played_this_turn": 0.0214,
+     "P_Unwinding_Clock_out": 0.0469,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0469
+    },
+    "turn 6": {
+     "P_commander_cast": 0.7363,
+     "mean_mana_left_after_deploying": 4.226,
+     "P_5plus_mana_left": 0.499,
+     "P_tapped_land_played_this_turn": 0.0175,
+     "P_Unwinding_Clock_out": 0.0683,
+     "P_3plus_mana_on_opponents_turn_via_Clock_or_Waterskin": 0.0683
+    }
+   }
+  },
+  "part_B_grids": {
+   "B1_monolith_rings_loop_accounting": {
+    "cells": 8,
+    "rows": [
+     {
+      "monolith": "Basalt Monolith",
+      "rings_of_brighthearth": false,
+      "unwinding_clock": false,
+      "net_colourless_per_loop": 0,
+      "infinite": false,
+      "note": "untap cost versus production"
+     },
+     {
+      "monolith": "Basalt Monolith",
+      "rings_of_brighthearth": false,
+      "unwinding_clock": true,
+      "net_colourless_per_loop": 0,
+      "infinite": false,
+      "note": "untap cost versus production"
+     },
+     {
+      "monolith": "Basalt Monolith",
+      "rings_of_brighthearth": true,
+      "unwinding_clock": false,
+      "net_colourless_per_loop": 1,
+      "infinite": true,
+      "note": "Rings copy resolves first: untap, tap for 3, then the original untap resolves: untap again; spent 3+2"
+     },
+     {
+      "monolith": "Basalt Monolith",
+      "rings_of_brighthearth": true,
+      "unwinding_clock": true,
+      "net_colourless_per_loop": 1,
+      "infinite": true,
+      "note": "Rings copy resolves first: untap, tap for 3, then the original untap resolves: untap again; spent 3+2"
+     },
+     {
+      "monolith": "Grim Monolith",
+      "rings_of_brighthearth": false,
+      "unwinding_clock": false,
+      "net_colourless_per_loop": -1,
+      "infinite": false,
+      "note": "untap cost versus production"
+     },
+     {
+      "monolith": "Grim Monolith",
+      "rings_of_brighthearth": false,
+      "unwinding_clock": true,
+      "net_colourless_per_loop": -1,
+      "infinite": false,
+      "note": "untap cost versus production"
+     },
+     {
+      "monolith": "Grim Monolith",
+      "rings_of_brighthearth": true,
+      "unwinding_clock": false,
+      "net_colourless_per_loop": 0,
+      "infinite": false,
+      "note": "Rings copy resolves first: untap, tap for 3, then the original untap resolves: untap again; spent 4+2"
+     },
+     {
+      "monolith": "Grim Monolith",
+      "rings_of_brighthearth": true,
+      "unwinding_clock": true,
+      "net_colourless_per_loop": 0,
+      "infinite": false,
+      "note": "Rings copy resolves first: untap, tap for 3, then the original untap resolves: untap again; spent 4+2"
+     }
+    ],
+    "notes": "Frozen-cache Oracle: Basalt Monolith {T}: add CCC, {3}: untap; Grim Monolith {T}: add CCC, {4}: untap; Rings of Brighthearth: whenever you activate a non-mana ability you may pay {2} to copy it. Basalt + Rings nets +1 colourless per loop (infinite colourless, the deck's existing owner-kept combo); Grim + Rings nets 0 (6 produced for 4+2 paid): NOT infinite. Grim Monolith adds no new combo. Unwinding Clock does not change loop accounting (it untaps only in other players' untap steps)."
+   },
+   "B2_Spire_versus_Path_on_play": {
+    "cells": 12,
+    "Spire_of_Industry_mana_total": 6,
+    "Spire_of_Industry_coloured_total": 4,
+    "Path_of_Ancestry_mana_total": 3,
+    "Path_of_Ancestry_coloured_total": 3,
+    "rows": [
+     {
+      "land": "Spire of Industry",
+      "artifacts_you_control": 0,
+      "played": "this_turn",
+      "mana": 1,
+      "coloured": 0,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Spire of Industry",
+      "artifacts_you_control": 0,
+      "played": "earlier",
+      "mana": 1,
+      "coloured": 0,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Spire of Industry",
+      "artifacts_you_control": 1,
+      "played": "this_turn",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 1
+     },
+     {
+      "land": "Spire of Industry",
+      "artifacts_you_control": 1,
+      "played": "earlier",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 1
+     },
+     {
+      "land": "Spire of Industry",
+      "artifacts_you_control": 3,
+      "played": "this_turn",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 1
+     },
+     {
+      "land": "Spire of Industry",
+      "artifacts_you_control": 3,
+      "played": "earlier",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 1
+     },
+     {
+      "land": "Path of Ancestry",
+      "artifacts_you_control": 0,
+      "played": "this_turn",
+      "mana": 0,
+      "coloured": 0,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Path of Ancestry",
+      "artifacts_you_control": 0,
+      "played": "earlier",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Path of Ancestry",
+      "artifacts_you_control": 1,
+      "played": "this_turn",
+      "mana": 0,
+      "coloured": 0,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Path of Ancestry",
+      "artifacts_you_control": 1,
+      "played": "earlier",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Path of Ancestry",
+      "artifacts_you_control": 3,
+      "played": "this_turn",
+      "mana": 0,
+      "coloured": 0,
+      "life_per_coloured_tap": 0
+     },
+     {
+      "land": "Path of Ancestry",
+      "artifacts_you_control": 3,
+      "played": "earlier",
+      "mana": 1,
+      "coloured": 1,
+      "life_per_coloured_tap": 0
+     }
+    ],
+    "notes": "Path of Ancestry always enters tapped (gives 0 mana the turn played) and makes any commander colour; the scry needs a creature spell sharing Human, Noble or Ally. Spire of Industry is untapped: {C} always, any colour for 1 life with an artifact (the baseline runs 32 artifacts). Unweighted cells."
+   },
+   "B3_Pact_of_Negation_upkeep": {
+    "cells": 96,
+    "ok": 60,
+    "cells_not_won": 48,
+    "ok_not_won": 12,
+    "rows": [
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 2,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 3,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 4,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 0,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": false
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 1,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 0,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 2,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 3,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": false,
+      "pact_upkeep_paid_or_moot": true
+     },
+     {
+      "untapped_lands": 5,
+      "blue_sources_among_lands": 2,
+      "rock_mana": 5,
+      "game_won_this_turn": true,
+      "pact_upkeep_paid_or_moot": true
+     }
+    ],
+    "notes": "Pact of Negation: {0} counter target spell; at your next upkeep pay {3}{U}{U} or lose. Used on the combo turn (Underworld Breach + Lion's Eye Diamond + Brain Freeze, Basalt Monolith + Rings of Brighthearth + Walking Ballista, Top + Mystic Forge + a reducer/Longshot) the upkeep never comes; used defensively it needs 5 mana with UU at your upkeep (rock mana from untapped rocks, Mana Vault/Grim/Basalt counted only if untapped). Unweighted cells."
+   },
+   "B4_Jeskas_Will": {
+    "cells": 8,
+    "rows": [
+     {
+      "commander_in_play": false,
+      "target_opponent_hand": 0,
+      "mode": "one (red mana or exile three)",
+      "red_mana": 0,
+      "net_mana_after_cost": -3,
+      "cards_exiled_playable": "0 or 3 (choose)",
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": false,
+      "target_opponent_hand": 2,
+      "mode": "one (red mana or exile three)",
+      "red_mana": 2,
+      "net_mana_after_cost": -1,
+      "cards_exiled_playable": "0 or 3 (choose)",
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": false,
+      "target_opponent_hand": 4,
+      "mode": "one (red mana or exile three)",
+      "red_mana": 4,
+      "net_mana_after_cost": 1,
+      "cards_exiled_playable": "0 or 3 (choose)",
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": false,
+      "target_opponent_hand": 7,
+      "mode": "one (red mana or exile three)",
+      "red_mana": 7,
+      "net_mana_after_cost": 4,
+      "cards_exiled_playable": "0 or 3 (choose)",
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": true,
+      "target_opponent_hand": 0,
+      "mode": "both",
+      "red_mana": 0,
+      "net_mana_after_cost": -3,
+      "cards_exiled_playable": 3,
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": true,
+      "target_opponent_hand": 2,
+      "mode": "both",
+      "red_mana": 2,
+      "net_mana_after_cost": -1,
+      "cards_exiled_playable": 3,
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": true,
+      "target_opponent_hand": 4,
+      "mode": "both",
+      "red_mana": 4,
+      "net_mana_after_cost": 1,
+      "cards_exiled_playable": 3,
+      "note": "without the commander you choose one mode"
+     },
+     {
+      "commander_in_play": true,
+      "target_opponent_hand": 7,
+      "mode": "both",
+      "red_mana": 7,
+      "net_mana_after_cost": 4,
+      "cards_exiled_playable": 3,
+      "note": "without the commander you choose one mode"
+     }
+    ],
+    "notes": "Jeska's Will {2}{R} sorcery: if you control a commander as you cast it, choose both: add R for each card in target opponent's hand and exile the top three cards, play them this turn. With Mai and Zuko out (4-player, typical 4-7 cards in the fullest hand) it nets +1 to +4 mana and three cards. It is a sorcery: Mai and Zuko's flash covers only Ally and artifact spells."
+   },
+   "B5_opponent_turn_flash_mana": {
+    "cells": 6,
+    "rows": [
+     {
+      "unwinding_clock": false,
+      "grim_monolith": false,
+      "fellwar_stone": false,
+      "own_turn_mana_from_rock": 0,
+      "each_opponent_turn_mana_from_rock": 0,
+      "note": "Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)"
+     },
+     {
+      "unwinding_clock": false,
+      "grim_monolith": false,
+      "fellwar_stone": true,
+      "own_turn_mana_from_rock": 1,
+      "each_opponent_turn_mana_from_rock": 0,
+      "note": "Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)"
+     },
+     {
+      "unwinding_clock": false,
+      "grim_monolith": true,
+      "fellwar_stone": false,
+      "own_turn_mana_from_rock": 3,
+      "each_opponent_turn_mana_from_rock": 0,
+      "note": "Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)"
+     },
+     {
+      "unwinding_clock": true,
+      "grim_monolith": false,
+      "fellwar_stone": false,
+      "own_turn_mana_from_rock": 0,
+      "each_opponent_turn_mana_from_rock": 0,
+      "note": "Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)"
+     },
+     {
+      "unwinding_clock": true,
+      "grim_monolith": false,
+      "fellwar_stone": true,
+      "own_turn_mana_from_rock": 1,
+      "each_opponent_turn_mana_from_rock": 1,
+      "note": "Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)"
+     },
+     {
+      "unwinding_clock": true,
+      "grim_monolith": true,
+      "fellwar_stone": false,
+      "own_turn_mana_from_rock": 3,
+      "each_opponent_turn_mana_from_rock": 3,
+      "note": "Grim untaps without paying {4} only via Unwinding Clock (each other player's untap step)"
+     }
+    ],
+    "notes": "Mai and Zuko let you cast Ally and artifact spells as though they had flash. Unwinding Clock untaps all your artifacts in each other player's untap step: Grim Monolith then gives 3 per opponent turn (9 per round in a 4-player pod) versus Fellwar Stone's 1. Without Clock, Grim is a one-shot 3 (or {4} to untap), Fellwar 1 every turn. Fellwar's colour depends on opponents' lands."
+   }
+  }
+ }
+}

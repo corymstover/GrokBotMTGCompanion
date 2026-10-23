@@ -1,0 +1,3444 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "777-985-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Foundry Inspector",
+     "Mystic Forge"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "4131-4235",
+    "uses": [
+     "Rings of Brighthearth",
+     "Basalt Monolith"
+    ],
+    "produces": [
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "2173-4740-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Aetherflux Reservoir",
+     "Bolas's Citadel"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "985-1976-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Etherium Sculptor"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "985-4908-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Enthusiastic Mechanaut"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "985-5078-7356",
+    "uses": [
+     "Sensei's Divining Top",
+     "Longshot, Rebel Bowman",
+     "Mystic Forge"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage",
+     "Near-infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 208,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4131-4547",
+    "uses": [
+     "Basalt Monolith",
+     "Forsaken Monument"
+    ],
+    "produces": [
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "3966-4740",
+    "uses": [
+     "Aetherflux Reservoir",
+     "Exquisite Blood"
+    ],
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "985-2146-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Cloud Key"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4740-6191",
+    "uses": [
+     "Aetherflux Reservoir",
+     "Bloodthirsty Conqueror"
+    ],
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1976-5078-5243",
+    "uses": [
+     "Sensei's Divining Top",
+     "Etherium Sculptor",
+     "The Reality Chip"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "4131-5390",
+    "uses": [
+     "Basalt Monolith",
+     "Forensic Gadgeteer"
+    ],
+    "produces": [
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "985-5078-5705",
+    "uses": [
+     "Sensei's Divining Top",
+     "Glaring Fleshraker",
+     "Mystic Forge"
+    ],
+    "produces": [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count",
+     "Near-infinite damage",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB",
+     "Near-infinite death triggers",
+     "Near-infinite creature sacrifice triggers"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "777-985-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Foundry Inspector",
+     "Mystic Forge"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "4131-4235",
+    "uses": [
+     "Rings of Brighthearth",
+     "Basalt Monolith"
+    ],
+    "produces": [
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "2173-4740-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Aetherflux Reservoir",
+     "Bolas's Citadel"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "985-1976-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Etherium Sculptor"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "985-4908-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Enthusiastic Mechanaut"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "985-5078-7356",
+    "uses": [
+     "Sensei's Divining Top",
+     "Longshot, Rebel Bowman",
+     "Mystic Forge"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage",
+     "Near-infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 205,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4131-4547",
+    "uses": [
+     "Basalt Monolith",
+     "Forsaken Monument"
+    ],
+    "produces": [
+     "Infinite colorless mana"
+    ]
+   },
+   {
+    "id": "3966-4740",
+    "uses": [
+     "Aetherflux Reservoir",
+     "Exquisite Blood"
+    ],
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "985-2146-5078",
+    "uses": [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Cloud Key"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "4740-6191",
+    "uses": [
+     "Aetherflux Reservoir",
+     "Bloodthirsty Conqueror"
+    ],
+    "produces": [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   },
+   {
+    "id": "1976-5078-5243",
+    "uses": [
+     "Sensei's Divining Top",
+     "Etherium Sculptor",
+     "The Reality Chip"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Mai_and_Zuko_alt_A_AridMesa_instead_of_VerdantCatacombs_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 205,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_alt_B_VerdantCatacombs_minus_BojukaBog_keeps_SulfurousSprings_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 205,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_alt_C_SeatOfTheSynod_instead_of_Sink_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 205,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_alt_D_Pact_minus_TalismanOfCreativity_keeps_LightningGreaves_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 210,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_larger_seven_plus_GrimMonolith_minus_FellwarStone_plus_WhirOfInvention_minus_WishclawTalisman_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 212,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_larger_six_plus_GrimMonolith_minus_FellwarStone_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 212,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_rejected_plus_CrystalSkull_minus_MysticRemora_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5741",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "Crystal Skull, Isu Spyglass"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "777-5078-5741",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Crystal Skull, Isu Spyglass"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "4908-5078-5741",
+     "uses": [
+      "Sensei's Divining Top",
+      "Enthusiastic Mechanaut",
+      "Crystal Skull, Isu Spyglass"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "5078-5741-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Crystal Skull, Isu Spyglass"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 227,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_rejected_plus_FireNationTurret_minus_TalismanOfDominance_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 206,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_rejected_plus_KappaCannoneer_minus_ToxicDeluge_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 206,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_rejected_plus_MoxAmber_minus_TalismanOfIndulgence_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 208,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "513-3682",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mox Amber"
+     ],
+     "produces": [
+      "Infinite creature ETB",
+      "Infinite creature LTB",
+      "Infinite colored mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    }
+   ]
+  },
+  "Mai_and_Zuko_rejected_plus_TezzeretCruelCaptain_minus_TalismanOfCreativity_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "777-985-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Foundry Inspector",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "2173-4740-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Aetherflux Reservoir",
+      "Bolas's Citadel"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-1976-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Etherium Sculptor"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "985-4908-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Enthusiastic Mechanaut"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "985-5078-7356",
+     "uses": [
+      "Sensei's Divining Top",
+      "Longshot, Rebel Bowman",
+      "Mystic Forge"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite damage",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 206,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "513-2364--47",
+     "uses": [
+      "Hullbreaker Horror",
+      "Mana Vault"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4131-4547",
+     "uses": [
+      "Basalt Monolith",
+      "Forsaken Monument"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "3966-4740",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Exquisite Blood"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "1878-3368",
+     "uses": [
+      "Reiterate",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite magecraft triggers",
+      "Infinite red mana",
+      "Infinite storm count",
+      "Exile your library with the ability to play the exiled cards until end of turn"
+     ]
+    },
+    {
+     "id": "985-2146-5078",
+     "uses": [
+      "Sensei's Divining Top",
+      "Mystic Forge",
+      "Cloud Key"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Near-infinite storm count",
+      "Infinite draw triggers"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "4740-6191",
+     "uses": [
+      "Aetherflux Reservoir",
+      "Bloodthirsty Conqueror"
+     ],
+     "produces": [
+      "Infinite damage",
+      "Infinite lifegain triggers"
+     ]
+    },
+    {
+     "id": "1976-5078-5243",
+     "uses": [
+      "Sensei's Divining Top",
+      "Etherium Sculptor",
+      "The Reality Chip"
+     ],
+     "produces": [
+      "Infinite card draw",
+      "Infinite draw triggers",
+      "Near-infinite storm count"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T18:17:23-0500"
+}
