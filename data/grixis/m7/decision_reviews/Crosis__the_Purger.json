@@ -372,7 +372,7 @@
    ],
    "incumbent_opportunity_cost": "Loses Xander's Lounge (Island Swamp Mountain, enters tapped, cycling {3}).",
    "commander_synergy": "An untapped black/red source for Crosis's {B}{R} pips and the {2}{B} trigger.",
-   "adversarial_downside": "Xander's Lounge is a three-typed land that every one of the seven fetches can find, and it makes all three Crosis colors.",
+   "adversarial_downside": "Xander's Lounge is a three-typed land that every one of the six fetches can find, and it makes all three Crosis colors.",
    "judgment": "REJECT",
    "reason": "The tapped tri-land is the best fetch target for Crosis's {U}{B}{R} pip set; the painland is a narrower dual.",
    "confidence": "HIGH",

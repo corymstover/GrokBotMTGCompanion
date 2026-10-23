@@ -1,0 +1,80 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Crosis__the_Purger",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Crosis__the_Purger_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Crosis__the_Purger_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Crosis__the_Purger_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 7,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Crosis__the_Purger_approved_source_2026-10-14.txt",
+   "raw_sha256": "a59150c323aa1e21cbda65291a3b172d08ecc3b83266b708768f4e14f0b07ec1",
+   "logical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw a59150c3…; logical hash = registry baseline_hash). 36 lands (1 always tapped: Xander's Lounge), 13 mana rocks, average nonland MV 2.286, 25 instants/sorceries. Commander Spellbook: 1 included combo (Notion Thief + Teferi's Puzzle Box lock). The registry's recorded digest equals the raw bytes, so there is no provenance exception."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/crosis-the-purger.txt",
+   "raw_sha256": "04784e892c930bb5e60f8551ffffa7e9527634359db38378fd1bd7e4c8e3647d",
+   "logical_hash": "lh1:0cbe60a05298b70d73e20acd46eb164cb081b76da9401c69fbce41cf3b871f09",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format, so the raw bytes differ. Logical hash = registry current_canonical_hash = baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Crosis__the_Purger.txt",
+   "raw_sha256": "244f19b9465e499c390bcac10eb96ad04d73f4b760a09cfef1d526f47be98347",
+   "logical_hash": "lh1:f856372319521a23d334f454dc68f1efca141f65ca7c1273c7b84b0eec2b1668",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Megrim +Rankle, Master of Pranks +Aggravated Assault +Raiders' Wake +Deadly Rollick / -Jet Medallion -Blizzard Specter -Dream Salvage -Oppression -Izzet Signet. 36 lands (unchanged), 11 mana rocks, average nonland MV 2.381, 25 instants/sorceries. Adds Spellbook 900-3750 (Sword of Feast and Famine + Aggravated Assault, conditional on connecting). Losses: black cost reduction, a Signet, Blizzard Specter's bounce mode, Dream Salvage's post-purge draw, Oppression's symmetric stax."
+  },
+  {
+   "id": "FOUR_KEEP_OPPRESSION",
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_four_keep_Oppression_20261023.txt",
+   "raw_sha256": "ac576d38a068bf65704c6957c65bb1a3579ffedfead19b3471082659897b8236",
+   "logical_hash": "lh1:d72ba174c3cbdc102a14f75d40c123d320829c57057cd65598fc4d1422385971",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (four-swap, staged). The preferred five without Raiders' Wake, keeping Oppression. Oppression taxes our own 25 instants/sorceries and empties opponents' hands before Crosis's purge; Raiders' Wake is asymmetric and adds 2 life loss per discarded card. MODERATE confidence."
+  },
+  {
+   "id": "FIVE_PASS_C_MEGRIM_OVER_SEDRAXIS",
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_five_PassC_Megrim_over_Sedraxis_20261023.txt",
+   "raw_sha256": "66c91591ad684ca4b44b79074bdc9f80d92d4440b393a2aee35235f571596c1a",
+   "logical_hash": "lh1:5bed8472e4c97e34ba88ab576c9985b68554de4ebb996eb760749b89043abaca",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (five-swap, staged). Pass C's reconciliation pairing: Megrim takes Sedraxis Specter's slot and Jet Medallion stays. Sedraxis is a three-mana recursive flyer (unearth) that feeds every punisher; Jet Medallion is the lowest-impact rock. HIGH confidence."
+  },
+  {
+   "id": "SIX_BLOODCHIEF_OVER_DARK_DEAL",
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_six_Bloodchief_over_DarkDeal_20261023.txt",
+   "raw_sha256": "d56ffa3e232f34bf726d9551262f958a101602e5ac92d5f175135c771e4a6651",
+   "logical_hash": "lh1:4ebd8e1cf219a5c2a18179d1c8160d29ca5f0eff858ba358e008936c89820fb9",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). The preferred five plus Bloodchief Ascension over Dark Deal. Once active it drains 2 per card put into an opponent's graveyard, but it needs three end steps to activate; Dark Deal is an immediate burst with Megrim, Caress and Wake. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_QUANDARY_OVER_BOTTOMLESS_PIT",
+   "path": "data/grixis/m7/research_challengers/Crosis__the_Purger_seven_Quandary_over_BottomlessPit_20261023.txt",
+   "raw_sha256": "e76d319f75b5f87d710f00d89bdf3c19590d9d37cc295607e2d8f87b8b4f437f",
+   "logical_hash": "lh1:fd4da661018aa186181598d094e1018658f707c07e002c0d53052a224dcd9970",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (seven-swap, staged). The six-swap Bloodchief list plus Painful Quandary over Bottomless Pit. Five mana and opponents choose life or discard; Pit is a three-mana every-upkeep discard. MODERATE confidence."
+  }
+ ]
+}
