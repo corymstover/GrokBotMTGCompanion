@@ -7,7 +7,8 @@
   "superseded_canonical_approval": {
     "approval_receipt_path": "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
     "source_bound_oracle_snapshot_path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
-    "canonical_live_git_blob_sha": "6ce148a6a291dd3dc349e10fe9dd1e1c29ea8aac"
+    "canonical_live_git_blob_sha": "6ce148a6a291dd3dc349e10fe9dd1e1c29ea8aac",
+    "approved_oracle_snapshot_path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json"
   },
   "commander_identity": {
     "mechanical_plan": "On Cory's own turn, opponents must have lost actual life before a spell cast FROM HAND gains Abaddon's cascade, and that spell's mana value must fit the greatest life lost this turn. Recurring paid hand casts, reliable all-opponent threshold sources, stacked copies of Abaddon, printed Warhammer cascade, nonhand payoff triggers, and a protected Neheb/Assault combat line define this list.",
