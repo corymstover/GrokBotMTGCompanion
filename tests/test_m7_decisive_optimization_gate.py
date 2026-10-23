@@ -471,3 +471,72 @@ class M7DecisionGateTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BaselineProvenanceExceptionTests(M7DecisionGateTests):
+    """Registry digest != physical raw bytes must fail closed unless source-bound."""
+
+    def setUp(self):
+        super().setUp()
+        self.raw = hashlib.sha256(self.baseline_text.encode()).hexdigest()
+        self.vendored = "data/grixis/m7/baseline_sources/synthetic_abaddon_source.txt"
+        v = self.root / self.vendored
+        v.parent.mkdir(parents=True)
+        v.write_text(self.baseline_text)
+        src = self.registry["decks"]["Abaddon_the_Despoiler"]["source"]
+        src.update({"recorded_sha256": "e"*64, "raw_sha256": "sha256:" + self.raw,
+                    "recorded_matches_raw": False, "repository": "example/canonical-repo",
+                    "path": "refinement/decklists/synthetic.txt"})
+        self.packet["canonical_baseline_sha256"] = self.raw
+        self.packet["baseline_provenance_exception"] = {
+            "historical_registry_digest": "e"*64, "physical_raw_sha256": self.raw,
+            "source_repository": "example/canonical-repo",
+            "source_path": "refinement/decklists/synthetic.txt",
+            "vendored_source_copy": self.vendored,
+            "discrepancy_explanation": "Synthetic fixture: the historical approval digest was never reproducible from the physical file bytes; both are bound separately.",
+            "evidence_refs": ["synthetic registry fixture recording recorded_matches_raw false"]}
+
+    def test_source_bound_exception_passes(self):
+        self.assertTrue(self.verify())
+
+    def test_historical_digest_as_baseline_is_rejected(self):
+        self.packet["canonical_baseline_sha256"] = "e"*64
+        with self.assertRaisesRegex(gate.DecisionGateError, "does not bind"):
+            self.verify()
+
+    def test_mismatched_registry_without_exception_is_rejected(self):
+        del self.packet["baseline_provenance_exception"]
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
+        self.packet["canonical_baseline_sha256"] = "e"*64
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
+
+    def test_vendored_bytes_must_equal_physical_raw(self):
+        (self.root / self.vendored).write_text(self.baseline_text + "\n")
+        with self.assertRaisesRegex(gate.DecisionGateError, "Vendored canonical source bytes"):
+            self.verify()
+
+    def test_vendored_inventory_must_equal_canonical_project_list(self):
+        altered = self.baseline_text.replace("1x Boltwave", "1x Sol Ring")
+        (self.root / self.vendored).write_text(altered)
+        raw = hashlib.sha256(altered.encode()).hexdigest()
+        self.registry["decks"]["Abaddon_the_Despoiler"]["source"]["raw_sha256"] = "sha256:" + raw
+        self.packet["canonical_baseline_sha256"] = raw
+        self.packet["baseline_provenance_exception"]["physical_raw_sha256"] = raw
+        with self.assertRaisesRegex(gate.DecisionGateError, "inventory differs"):
+            self.verify()
+
+    def test_exception_must_bind_registry_repository_and_path(self):
+        self.packet["baseline_provenance_exception"]["source_path"] = "refinement/decklists/other.txt"
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
+
+    def test_exception_forbidden_when_registry_digest_matches(self):
+        src = self.registry["decks"]["Abaddon_the_Despoiler"]["source"]
+        src["recorded_matches_raw"] = True
+        src["recorded_sha256"] = self.raw
+        with self.assertRaises(gate.DecisionGateError):
+            self.verify()
+        del self.packet["baseline_provenance_exception"]
+        self.assertTrue(self.verify())
