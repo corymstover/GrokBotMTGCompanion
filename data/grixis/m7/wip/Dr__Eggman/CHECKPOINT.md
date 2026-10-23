@@ -11,3 +11,11 @@
   31 vs 32/33 lands payable {2}{U}{B}{R} timing.
 - Shared infra copied byte-identically from PR #662 head bc4b9d53 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C bounded tests, candidate judgments.
+
+## Checkpoint 2026-10-23 08:49 CDT — research snapshots
+- Live Scryfall (discovery/legality only; frozen cache untouched): commander Dr. Eggman legal, released 2025-07-14 (sld Secret Lair), CI UBR, no exception.
+  Baseline Game Changers (live): Ancient Tomb, Cyclonic Rift, Fierce Guardianship (3). Off-ranking type search Construct/Robot/Vehicle UBR: 458 hits.
+- EDHREC general/upgraded/optimized frozen; Commander Spellbook: baseline 0 included / 36 almost; candidate 0 included / 30 almost.
+- Provisional core five: +Possession Engine/-Blasphemous Act, +Skysovereign/-Cybermen Squadron, +Interceptor Mechan/-Cryptothrall,
+  +Midnight Crusader Shuttle/-Unwinding Clock, +Behemoth of Vault 0/-Foundry Inspector. Five alternatives staged (Welder/Caress, Tergrid/Caress, 32 lands, keep Act, Su-Chi).
+- Next: mechanics tests (exact land DP, villainous-choice grid, Welder vs Caress), decision review, I/J, bundle, workflow, tests.
