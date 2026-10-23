@@ -1,0 +1,807 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Cormela__Glamour_Thief",
+ "canonical_baseline_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+ "canonical_baseline_logical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "commander_identity": {
+  "mechanical_plan": "Cormela, Glamour Thief ({1}{U}{B}{R}, 2/4 haste) taps for {U}{B}{R} usable only on instants and sorceries. When she dies, she returns an instant or sorcery from the graveyard. The deck uses that restricted mana for rituals, tutors and cantrips. It turns the mana unrestricted with converters (Dark Ritual, Cabal Ritual, Culling the Weak, Seething Song, Jeska's Will; the candidate adds Frantic Search). It loops her death trigger with Saw in Half, Molten Duplication (and now Twinflame), Demonic Gifts, Shallow Grave and Goryo's Vengeance, plus Ashnod's or Phyrexian Altar, into infinite storm for Tendrils or Brain Freeze. Thassa's Oracle with Demonic Consultation or Tainted Pact, and Underworld Breach + LED + Brain Freeze, are backup lines.",
+  "protected_core": [
+   "Cormela, Glamour Thief",
+   "Saw in Half",
+   "Molten Duplication",
+   "Demonic Gifts",
+   "Shallow Grave",
+   "Goryo's Vengeance",
+   "Ashnod's Altar",
+   "Phyrexian Altar",
+   "Dualcaster Mage",
+   "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+   "Dark Ritual",
+   "Cabal Ritual",
+   "Seething Song",
+   "Culling the Weak",
+   "Tendrils of Agony",
+   "Brain Freeze",
+   "Thassa's Oracle",
+   "Demonic Consultation",
+   "Tainted Pact",
+   "Underworld Breach",
+   "Lion's Eye Diamond"
+  ],
+  "natural_ceiling": "Power Bracket 5 (cEDH). 20 Game Changers, all unchanged; none of the five adds is a Game Changer. Infinite combos per Commander Spellbook: Cormela + Saw in Half + ritual; Cormela + Demonic Gifts/Goryo's/Shallow Grave + altar; Cormela + Birgi + Molten Duplication or Twinflame; Dualcaster + Molten Duplication/Twinflame/Saw in Half; Thassa's Oracle + Consultation/Pact; Breach + LED/Petal + Brain Freeze.",
+  "anti_homogenization": "Every add serves Cormela's restricted mana or her death trigger, or protects the turn she combos: a converter, a second copy loop, uncounterable lands and spells. Generic cEDH staples (Ragavan, The One Ring, Grim Monolith, Mana Drain, fetch eight) were rejected on Cormela-specific grounds. This keeps the deck distinct from the Anhelo and Cecily UBR spellslingers."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (99 rows, all 1x; Island, Mountain and Swamp x1 each).\nRoles:\n- 30 lands.\n- Fast mana: Sol Ring, Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, LED, Arcane Signet, three Talismans.\n- Rituals and converters (Dark Ritual, Cabal Ritual, Culling the Weak, Rite of Flame, Seething Song, Jeska's Will).\n- 7 tutors.\n- Death-loop pieces.\n- 10 counters, plus Pyroblast and REB.\n- Draw: Necropotence, Ad Nauseam, Rhystic Study, Mystic Remora, wheels and cantrips.\nOverlaps: REB/Pyroblast, three sorcery cantrips plus Gitaxian Probe, and two loot effects.",
+  "mana_base_and_curve": "Baseline: 30 lands; average nonland MV 1.841. Heuristic land sources: U 19, B 18, R 17 (fetches counted by their basic types only; all seven can reach U/B/R duals). Candidate: 30 lands; average nonland MV 1.899; sources U 19, B 17, R 16. One always-tapped land (Undercity Sewers) is replaced by Mistrise Village, which enters untapped with any of 5 Mountain-typed lands. Instant/sorcery count 46 -> 45; creatures 5 -> 6.",
+  "interaction_resilience": "Stack: Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mindbreak Trap, Flusterstorm, Swan Song, Mental Misstep, An Offer You Can't Refuse, Pyroblast and Deflecting Swat, plus Hexing Squelcher and Mistrise Village as proactive protection. Removal: Chain of Vapor, Otawara, Saw in Half, Orcish Bowmasters. Weak points: graveyard hate (Breach, reanimation, Cormela recursion), Stifle effects on death triggers, Cursed Totem against Cormela's mana ability, and artifact hate against the fast mana.",
+  "weakest_slots": [
+   {
+    "card": "Undercity Sewers",
+    "weakness": "The only land that always enters tapped (EDHREC cEDH 53/130).",
+    "alternative_named": "Mistrise Village",
+    "reasoning": "Untapped with a Mountain, and makes one key spell uncounterable."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Any color only when an opponent's land can make it (cEDH 65/130, synergy -0.07).",
+    "alternative_named": "Underground River",
+    "reasoning": "Guaranteed untapped U/B on every turn, with no dependence on opponents' lands."
+   },
+   {
+    "card": "Faithless Looting",
+    "weakness": "Card disadvantage at sorcery speed (cEDH 27/130).",
+    "alternative_named": "Frantic Search",
+    "reasoning": "Converts Cormela's restricted mana and is free with three lands."
+   },
+   {
+    "card": "Gitaxian Probe",
+    "weakness": "A free cantrip with no Cormela synergy (cEDH 47/130).",
+    "alternative_named": "Twinflame",
+    "reasoning": "Commander-centric loop piece (Spellbook 392-1235-4867, 147-1235)."
+   },
+   {
+    "card": "Red Elemental Blast",
+    "weakness": "Redundant with Pyroblast: a second narrow one-mana hoser against blue.",
+    "alternative_named": "Hexing Squelcher",
+    "reasoning": "Makes the whole combo turn uncounterable."
+   },
+   {
+    "card": "Preordain",
+    "weakness": "The least-played cantrip in the list (cEDH 10/130).",
+    "alternative_named": "Abrade",
+    "reasoning": "Retained alternative; staged as a six-swap list."
+   },
+   {
+    "card": "Windfall",
+    "weakness": "A symmetric wheel that also refuels opponents' hands.",
+    "alternative_named": "Burnt Offering",
+    "reasoning": "Retained alternative; staged as a seven-swap list."
+   },
+   {
+    "card": "Seething Song",
+    "weakness": "Three mana for a one-shot ritual (cEDH 31/130).",
+    "alternative_named": "Muddle the Mixture",
+    "reasoning": "Rejected: Song is a converter and a Spellbook combo piece."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "Narrow and gives an opponent a 2/2 flyer.",
+    "alternative_named": "Mana Drain",
+    "reasoning": "Rejected: UU is too costly to hold up."
+   },
+   {
+    "card": "Talisman of Creativity",
+    "weakness": "Two mana for one colored mana, with pain.",
+    "alternative_named": "Grim Monolith",
+    "reasoning": "Rejected: colorless only, and a Game Changer."
+   },
+   {
+    "card": "Lotus Petal",
+    "weakness": "One-shot mana: it is gone after one use and provides no card advantage.",
+    "alternative_named": "Mox Amber",
+    "reasoning": "Rejected: dead before Cormela is in play."
+   },
+   {
+    "card": "Mental Misstep",
+    "weakness": "Only counters spells with mana value 1, so it is narrow against bigger threats.",
+    "alternative_named": "Defense Grid",
+    "reasoning": "Rejected: symmetric, and taxes our off-turn counters."
+   }
+  ],
+  "current_baseline_strength": "A tuned Bracket 5 cEDH Cormela list (14 swaps accepted on 2026-10-14), with deterministic Cormela loops and Thassa's Oracle backups. M6 Pass C kept it unchanged; its challengers (Muddle the Mixture, Abrade) had no justified cut. Remaining weaknesses: one always-tapped land, one conditional land, card-disadvantage looting, a redundant second blue hoser, and a free cantrip with no commander synergy.",
+  "candidate_pool_scope": "EDHREC Cormela general page (3891 decks) and cEDH page (130 decks) JSON; live Scryfall /cards/collection batch for 69 candidates plus the 100-card baseline; Commander Spellbook find-my-combos for baseline and candidate; the M6 Pass C disposition; and OFF-RANKING searches for restricted-mana converters, copy-loop pieces, uncounterable effects and hate answers.",
+  "off_ranked_search_conclusion": "OFF-RANKING or low-inclusion cards found: Hexing Squelcher (33/52 cEDH; selected), Mistrise Village (28/100; selected), Frantic Search (35/130 cEDH; selected), Abrade (11/130; retained alternative), Burnt Offering (26/130; retained alternative), and Mox Amber, Defense Grid, Spellseeker, Galvanic Iteration and Muddle the Mixture (rejected)."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Cormela approved source refinement/decklists/Cormela_Glamour_Thief_Approved_2026-10-14.txt (read-only clone 9b26aa2; vendored in data/grixis/m7/baseline_sources)",
+  "EDHREC Cormela commander pages JSON (general and cEDH) retrieved 2026-10-23: data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (100 baseline cards + 69 candidates): data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for restricted-mana converters, copy-loop pieces, uncounterable effects and hate answers (Hexing Squelcher; Mistrise Village; Frantic Search; Burnt Offering; Abrade; Mox Amber; Defense Grid; Spellseeker)",
+  "M6 Pass C final disposition (owner-equivalent, NOT technically independent): data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/final_disposition.md",
+  "Comprehensive Rules (frozen cache) for restricted mana, the legend rule, commander death, ward, storm and 'can't': data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Mistrise Village",
+   "source": "EDHREC cEDH page 28/100 (Lands); live Scryfall batch",
+   "role": "Blue land that enters untapped with a Mountain; {U},{T}: the next spell we cast this turn can't be countered.",
+   "named_cuts": [
+    "Undercity Sewers"
+   ],
+   "incumbent_opportunity_cost": "Loses Undercity Sewers' U/B and its surveil 1. Sewers always enters tapped, and it is the only always-tapped land in the list.",
+   "commander_synergy": "Cormela's win turn hinges on one spell resolving (Ad Nauseam, Underworld Breach, Saw in Half on Cormela, Tendrils). Village makes that spell uncounterable without a card. Five Mountain-typed lands, all reachable by the seven fetches, let it enter untapped.",
+   "adversarial_downside": "Blue only, so the deck gives up a black source, and its uncounterable mode costs {U} plus the land's own mana.",
+   "judgment": "SELECT_ADD",
+   "reason": "Replaces the deck's only always-tapped land with an untapped land that protects the combo turn.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Underground River",
+   "source": "EDHREC cEDH page 40/130 (Lands); live Scryfall batch",
+   "role": "Untapped U/B painland that guarantees both of Cormela's heaviest colors.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Loses Exotic Orchard's any-color mana. Orchard depends on opponents' lands, which in cEDH are usually fetches and duals, but it can still miss early or against colorless or mono-color mana.",
+   "commander_synergy": "Cormela needs exactly {1}{U}{B}{R} on turn 2-3. A guaranteed U/B land keeps both of her heaviest colors available.",
+   "adversarial_downside": "Deals 1 damage on colored use, in a deck that already pays a lot of life (Necropotence, Ad Nauseam, Mana Confluence, the Talismans).",
+   "judgment": "SELECT_ADD",
+   "reason": "A guaranteed two-color land over a conditional one. It does not compete with the seven fetches for the remaining fetch targets.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Frantic Search",
+   "source": "EDHREC general page 2030/3891, cEDH page 35/130; live Scryfall batch",
+   "role": "Three-mana instant: draw two, discard two, untap up to three lands.",
+   "named_cuts": [
+    "Faithless Looting"
+   ],
+   "incumbent_opportunity_cost": "Loses Faithless Looting's one-mana loot and its flashback. Looting is card disadvantage (draw 2, discard 2, with nothing back) and sorcery-speed.",
+   "commander_synergy": "Cormela-specific converter. Cast with her restricted {U}{B}{R}, Frantic Search untaps three lands, so that restricted mana becomes unrestricted land mana for artifacts, creatures or her own {1} activation. With three lands it is free. Its discards fill the graveyard for Reanimate, Goryo's Vengeance, Shallow Grave, Underworld Breach and Cabal Ritual threshold. It is an instant that Cormela's death trigger can return.",
+   "adversarial_downside": "Three mana up front without Cormela or three untapped lands. It is not a loop converter in the Saw in Half line (it nets 0 mana where Dark Ritual nets +2), so it adds no infinite combo.",
+   "judgment": "SELECT_ADD",
+   "reason": "Turns the commander's restricted mana into unrestricted mana and loots at no net cost. Faithless Looting does neither.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md",
+    "tests/test_m6_cormela_glamour_thief_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Twinflame",
+   "source": "EDHREC cEDH page 64/130 (Sorceries); Commander Spellbook 147-1235 and 392-1235-4867; live Scryfall batch",
+   "role": "Two-mana sorcery: hasty token copy of a creature we control, exiled at end step.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Loses Gitaxian Probe's free cantrip, its peek at a hand and +1 storm count for 2 life.",
+   "commander_synergy": "Cast on Cormela, the legend rule kills the original. Her death trigger returns Twinflame, and the untapped hasty token taps for another {U}{B}{R} that recasts it. That is +1 storm and +1 death per loop at net 0 mana, and with Birgi it is infinite (Spellbook 392-1235-4867). With Dualcaster Mage it is a 2-card infinite of hasty tokens (147-1235). It is a second copy of the Molten Duplication plan that Cormela's restricted mana can pay for. On a tapped Cormela it is also +2 net restricted mana.",
+   "adversarial_downside": "A sorcery, so it can only be used on our own main phase. It needs a creature in play, so it is dead without Cormela, Dualcaster or Thassa's Oracle on board.",
+   "judgment": "SELECT_ADD",
+   "reason": "It adds two Spellbook combos built around the commander and backs up Molten Duplication. Probe's free cantrip is the most replaceable cheap spell in the list.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md",
+    "tests/test_m6_cormela_glamour_thief_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Hexing Squelcher",
+   "source": "EDHREC cEDH page 33/52 (synergy 0.52); live Scryfall batch",
+   "role": "Two-mana uncounterable creature: our spells can't be counted; our other creatures gain Ward—Pay 2 life.",
+   "named_cuts": [
+    "Red Elemental Blast"
+   ],
+   "incumbent_opportunity_cost": "Loses Red Elemental Blast, the second one-mana blue hoser. Pyroblast stays and does the same job more flexibly.",
+   "commander_synergy": "It makes the whole Cormela combo turn uncounterable: every Saw in Half, Twinflame, ritual and Tendrils copy-maker. It gives Cormela Ward—Pay 2 life against targeted removal. It is also sacrifice fodder for Culling the Weak (MV 2 -> {B}{B}{B}{B}), Diabolic Intent, Phyrexian Tower and the altars.",
+   "adversarial_downside": "Dies to removal and wipes. It does not stop Stifle effects on storm or death triggers, or 'can't cast' hatebears. It reduces REB/Pyro coverage against blue counter wars when we are not comboing.",
+   "judgment": "SELECT_ADD",
+   "reason": "A permanent answer to counterspells on our own turn beats a second one-shot blue hoser. The deck keeps ten free or cheap counters for defense.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md"
+   ]
+  },
+  {
+   "card": "Abrade",
+   "source": "EDHREC cEDH page 11/130; M6 Pass C side hypothesis; live Scryfall batch",
+   "role": "Two-mana instant: 3 damage to a creature or destroy an artifact.",
+   "named_cuts": [
+    "Preordain"
+   ],
+   "incumbent_opportunity_cost": "Loses Preordain, a one-mana sorcery cantrip that Cormela's restricted mana can cast.",
+   "commander_synergy": "Answers the hate pieces that stop the commander or the mana: Cursed Totem (stops Cormela's mana ability), Null Rod or Collector Ouphe (stops LED, Petal, altars and Talismans), Grafdigger's Cage, Drannith Magistrate and Grand Abolisher.",
+   "adversarial_downside": "Narrow against the rest of cEDH. Chain of Vapor, Otawara and Saw in Half already answer most of these at instant speed.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged as a six-swap list. Not selected: the bounce suite already covers those hate pieces for a turn, and cutting a cantrip lowers consistency. Pass C also found no justified cut for it.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/final_disposition.md",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_Abrade_over_Preordain_20261023.txt"
+   ]
+  },
+  {
+   "card": "Burnt Offering",
+   "source": "EDHREC cEDH page 26/130; live Scryfall batch",
+   "role": "One-mana instant: sacrifice a creature, add X B/R mana where X is its MV.",
+   "named_cuts": [
+    "Windfall"
+   ],
+   "incumbent_opportunity_cost": "Loses Windfall, a draw-seven that refuels after Ad Nauseam or LED, and that Orcish Bowmasters turns into damage.",
+   "commander_synergy": "Sacrificing Cormela gives four unrestricted mana plus her death trigger, which can return Burnt Offering itself or a tutor. Sacrificing Dualcaster or Birgi gives three.",
+   "adversarial_downside": "Sacrificing Cormela costs commander tax to recast her. It is redundant with Culling the Weak, Phyrexian Tower and the altars.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Staged in a seven-swap list (with Abrade). Not selected: Windfall's refuel plus Bowmasters damage is a unique effect, and the deck already has four sac outlets.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_seven_BurntOffering_over_Windfall_20261023.txt"
+   ]
+  },
+  {
+   "card": "Muddle the Mixture",
+   "source": "M6 Pass C challenger (rejected there); live Scryfall batch",
+   "role": "UU counter for an instant or sorcery; transmute for an MV-2 card.",
+   "named_cuts": [
+    "Seething Song"
+   ],
+   "incumbent_opportunity_cost": "Loses Seething Song, the converter that turns Cormela's restricted mana into five unrestricted red, and one of the Saw in Half infinite rituals (Spellbook 500-4036-4867).",
+   "commander_synergy": "Transmute finds Twinflame, Demonic Gifts, Molten Duplication or Underworld Breach.",
+   "adversarial_downside": "Cutting Song removes a Spellbook-listed infinite and a converter.",
+   "judgment": "REJECT",
+   "reason": "Pass C already rejected this. Re-checked with the new list and still rejected: Song is a commander-specific converter and a combo piece.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/final_disposition.md",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_PassC_Muddle_over_SeethingSong_20261023.txt"
+   ]
+  },
+  {
+   "card": "Verdant Catacombs",
+   "source": "EDHREC cEDH page 87/130; live Scryfall batch",
+   "role": "Swamp/Forest fetchland that finds U/B/R typed duals and adds a graveyard card.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Underground River.",
+   "commander_synergy": "An eighth fetch for Breach fuel and Cabal Ritual threshold.",
+   "adversarial_downside": "Cutting Undercity Sewers already removes one fetch target (Island Swamp). An eighth fetch would compete with seven for the remaining eight Island/Swamp/Mountain-typed targets.",
+   "judgment": "REJECT",
+   "reason": "Underground River adds a source without draining fetch targets.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Arid Mesa",
+   "source": "EDHREC cEDH page 83/130; live Scryfall batch",
+   "role": "Mountain/Plains fetchland that finds U/B/R typed duals and adds a graveyard card.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Underground River.",
+   "commander_synergy": "Finds Badlands, Volcanic, Steam Vents, Blood Crypt or Mountain, which also turns on Mistrise Village.",
+   "adversarial_downside": "Same fetch-target pressure as Verdant Catacombs.",
+   "judgment": "REJECT",
+   "reason": "Fetch saturation. Underground River is the cleaner source.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Lim-Dûl's Vault",
+   "source": "EDHREC cEDH page 46/130; live Scryfall batch",
+   "role": "Two-mana instant: set up the top five for life.",
+   "named_cuts": [
+    "Preordain"
+   ],
+   "incumbent_opportunity_cost": "Same slot as the Abrade alternative.",
+   "commander_synergy": "An instant that Cormela's mana can cast; sets up Ad Nauseam or Necropotence.",
+   "adversarial_downside": "Costs card advantage and life, and the deck already has seven tutors.",
+   "judgment": "REJECT",
+   "reason": "Preordain is cheaper. The tutors already find the key pieces.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Grim Monolith",
+   "source": "EDHREC cEDH page 63/130; live Scryfall Game Changer",
+   "role": "Two-mana artifact that adds {C}{C}{C}.",
+   "named_cuts": [
+    "Talisman of Creativity"
+   ],
+   "incumbent_opportunity_cost": "Loses a U/R Talisman, one of only three mana rocks that fix Cormela's colors.",
+   "commander_synergy": "Fast mana toward turn-2 Cormela.",
+   "adversarial_downside": "Colorless only, and Cormela needs U, B and R. It would also add a Game Changer.",
+   "judgment": "REJECT",
+   "reason": "Color fixing for a three-color commander outweighs one extra colorless mana.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mana Drain",
+   "source": "EDHREC cEDH page 24/130; live Scryfall batch",
+   "role": "UU counterspell that adds colorless mana next main phase.",
+   "named_cuts": [
+    "Swan Song"
+   ],
+   "incumbent_opportunity_cost": "Loses Swan Song's one-mana counter.",
+   "commander_synergy": "The countered spell's mana could pay for Cormela.",
+   "adversarial_downside": "UU is a lot to hold up in a three-color deck with only 19 U sources. Swan Song costs one.",
+   "judgment": "REJECT",
+   "reason": "The one-mana counter suite fits the turn-2 Cormela curve better.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mox Amber",
+   "source": "EDHREC cEDH page (low inclusion); live Scryfall batch",
+   "role": "Free mana rock that adds a color among our legendary creatures.",
+   "named_cuts": [
+    "Lotus Petal"
+   ],
+   "incumbent_opportunity_cost": "Loses Lotus Petal's one-shot any-color mana.",
+   "commander_synergy": "Taps for U, B or R with Cormela or Birgi on board.",
+   "adversarial_downside": "Does nothing before Cormela is on the battlefield, which is exactly when the deck needs fast mana.",
+   "judgment": "REJECT",
+   "reason": "Lotus Petal works on turn one and on the combo turn (Breach + Petal + Brain Freeze, Spellbook 1368-1414-4856).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json"
+   ]
+  },
+  {
+   "card": "Defense Grid",
+   "source": "EDHREC cEDH page (low inclusion); live Scryfall batch",
+   "role": "Artifact: spells cost {3} more except on their controller's turn.",
+   "named_cuts": [
+    "Mental Misstep"
+   ],
+   "incumbent_opportunity_cost": "Loses Mental Misstep's free answer to one-drops such as opposing Dark Ritual, Mystic Remora or Lotus Petal-fueled plays.",
+   "commander_synergy": "Protects the combo turn by taxing opponents' instant-speed counters by {3}.",
+   "adversarial_downside": "Symmetric: it taxes our own off-turn counters, and the deck runs ten.",
+   "judgment": "REJECT",
+   "reason": "Hexing Squelcher protects our turn without taxing our interaction.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Galvanic Iteration",
+   "source": "EDHREC general page; tracker note for the superseded 2026-10-13 list; live Scryfall batch",
+   "role": "U/R instant: copy the next instant or sorcery, with flashback.",
+   "named_cuts": [
+    "Preordain"
+   ],
+   "incumbent_opportunity_cost": "Same slot as the Abrade alternative.",
+   "commander_synergy": "Copies Tendrils or Brain Freeze with their storm count.",
+   "adversarial_downside": "Needs mana on the combo turn and is not a combo piece. The 2026-10-14 approval removed it.",
+   "judgment": "REJECT",
+   "reason": "Dualcaster Mage and the Twinflame/Molten Duplication loops already generate copies or storm.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Spellseeker",
+   "source": "EDHREC cEDH page (low inclusion); live Scryfall batch",
+   "role": "Three-mana creature that tutors an instant or sorcery with MV 2 or less.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Twinflame: it would replace Gitaxian Probe.",
+   "commander_synergy": "Finds Twinflame, Saw in Half or Demonic Gifts, and it is Twinflame or altar fodder.",
+   "adversarial_downside": "A three-mana creature, so Cormela's mana cannot pay for it.",
+   "judgment": "REJECT",
+   "reason": "Twinflame is the combo piece itself.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Ragavan, Nimble Pilferer",
+   "source": "EDHREC cEDH page 81/130; live Scryfall batch",
+   "role": "One-mana creature that steals cards and makes Treasure.",
+   "named_cuts": [
+    "Gitaxian Probe"
+   ],
+   "incumbent_opportunity_cost": "Same slot as Twinflame: it would replace Gitaxian Probe.",
+   "commander_synergy": "No synergy specific to Cormela; it is a generic beatdown and value card.",
+   "adversarial_downside": "A generic beatdown card; it is an anti-homogenization concern.",
+   "judgment": "REJECT",
+   "reason": "Generic staple with no Cormela synergy.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "The One Ring",
+   "source": "EDHREC cEDH page 76/130; live Scryfall Game Changer",
+   "role": "Four-mana draw engine and protection.",
+   "named_cuts": [
+    "Windfall"
+   ],
+   "incumbent_opportunity_cost": "Same slot as the Burnt Offering alternative.",
+   "commander_synergy": "None specific to Cormela, whose restricted mana cannot cast it.",
+   "adversarial_downside": "Four colorless mana, and it would add a Game Changer.",
+   "judgment": "REJECT",
+   "reason": "Generic and uncastable with Cormela's mana.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Culling Ritual",
+   "source": "Off-identity check; live Scryfall batch",
+   "role": "B/G sorcery ritual that nets mana when it destroys a cheap nonland permanent.",
+   "named_cuts": [
+    "Seething Song"
+   ],
+   "incumbent_opportunity_cost": "No incumbent is lost, because the card cannot legally be included.",
+   "commander_synergy": "No commander synergy can be assessed, because the card is outside the color identity.",
+   "adversarial_downside": "Color identity B/G is outside U/B/R.",
+   "judgment": "REJECT",
+   "reason": "Illegal for Cormela's color identity.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Mistrise Village",
+   "Underground River",
+   "Frantic Search",
+   "Twinflame",
+   "Hexing Squelcher"
+  ],
+  "cuts": [
+   "Undercity Sewers",
+   "Exotic Orchard",
+   "Faithless Looting",
+   "Gitaxian Probe",
+   "Red Elemental Blast"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps that turn Cormela's restricted mana into usable mana (Frantic Search), add a second loop built on her death trigger (Twinflame), protect the combo turn (Hexing Squelcher, Mistrise Village) and fix the mana (Underground River). Losses: Undercity Sewers' surveil, Orchard's any-color mana, Faithless Looting's flashback, Gitaxian Probe's free storm count and peek, and the second blue hoser."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Undercity Sewers",
+    "weakness": "The only land that always enters tapped (EDHREC cEDH 53/130).",
+    "alternative_named": "Mistrise Village",
+    "reasoning": "Untapped with a Mountain, and makes one key spell uncounterable."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Any color only when an opponent's land can make it (cEDH 65/130, synergy -0.07).",
+    "alternative_named": "Underground River",
+    "reasoning": "Guaranteed untapped U/B on every turn, with no dependence on opponents' lands."
+   },
+   {
+    "card": "Faithless Looting",
+    "weakness": "Card disadvantage at sorcery speed (cEDH 27/130).",
+    "alternative_named": "Frantic Search",
+    "reasoning": "Converts Cormela's restricted mana and is free with three lands."
+   },
+   {
+    "card": "Gitaxian Probe",
+    "weakness": "A free cantrip with no Cormela synergy (cEDH 47/130).",
+    "alternative_named": "Twinflame",
+    "reasoning": "Commander-centric loop piece (Spellbook 392-1235-4867, 147-1235)."
+   },
+   {
+    "card": "Red Elemental Blast",
+    "weakness": "Redundant with Pyroblast: a second narrow one-mana hoser against blue.",
+    "alternative_named": "Hexing Squelcher",
+    "reasoning": "Makes the whole combo turn uncounterable."
+   },
+   {
+    "card": "Preordain",
+    "weakness": "The least-played cantrip in the list (cEDH 10/130).",
+    "alternative_named": "Abrade",
+    "reasoning": "Retained alternative; staged as a six-swap list."
+   },
+   {
+    "card": "Windfall",
+    "weakness": "A symmetric wheel that also refuels opponents' hands.",
+    "alternative_named": "Burnt Offering",
+    "reasoning": "Retained alternative; staged as a seven-swap list."
+   },
+   {
+    "card": "Seething Song",
+    "weakness": "Three mana for a one-shot ritual (cEDH 31/130).",
+    "alternative_named": "Muddle the Mixture",
+    "reasoning": "Rejected: Song is a converter and a Spellbook combo piece."
+   },
+   {
+    "card": "Swan Song",
+    "weakness": "Narrow and gives an opponent a 2/2 flyer.",
+    "alternative_named": "Mana Drain",
+    "reasoning": "Rejected: UU is too costly to hold up."
+   },
+   {
+    "card": "Talisman of Creativity",
+    "weakness": "Two mana for one colored mana, with pain.",
+    "alternative_named": "Grim Monolith",
+    "reasoning": "Rejected: colorless only, and a Game Changer."
+   },
+   {
+    "card": "Lotus Petal",
+    "weakness": "One-shot mana: it is gone after one use and provides no card advantage.",
+    "alternative_named": "Mox Amber",
+    "reasoning": "Rejected: dead before Cormela is in play."
+   },
+   {
+    "card": "Mental Misstep",
+    "weakness": "Only counters spells with mana value 1, so it is narrow against bigger threats.",
+    "alternative_named": "Defense Grid",
+    "reasoning": "Rejected: symmetric, and taxes our off-turn counters."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING or low-inclusion: Hexing Squelcher, Mistrise Village and Frantic Search (selected); Abrade and Burnt Offering (retained alternatives); Mox Amber, Defense Grid, Spellseeker, Galvanic Iteration and Muddle the Mixture (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Mistrise Village",
+     "Underground River",
+     "Frantic Search",
+     "Twinflame",
+     "Hexing Squelcher"
+    ],
+    "cuts": [
+     "Undercity Sewers",
+     "Exotic Orchard",
+     "Faithless Looting",
+     "Gitaxian Probe",
+     "Red Elemental Blast"
+    ],
+    "result_and_rationale": "Selected five-swap package: an untapped protection land, a guaranteed U/B land, a restricted-mana converter, a second Cormela copy loop, and combo-turn counter protection. Lands stay at 30."
+   },
+   {
+    "adds": [
+     "Mistrise Village",
+     "Underground River",
+     "Frantic Search",
+     "Twinflame"
+    ],
+    "cuts": [
+     "Undercity Sewers",
+     "Exotic Orchard",
+     "Faithless Looting",
+     "Gitaxian Probe"
+    ],
+    "result_and_rationale": "Four-swap package without Hexing Squelcher (staged data/grixis/m7/research_challengers/Cormela__Glamour_Thief_four_without_HexingSquelcher_20261023.txt). Rejected: Red Elemental Blast is redundant with Pyroblast, while Squelcher protects every spell on the combo turn."
+   },
+   {
+    "adds": [
+     "Mistrise Village",
+     "Underground River",
+     "Frantic Search",
+     "Twinflame",
+     "Hexing Squelcher",
+     "Muddle the Mixture"
+    ],
+    "cuts": [
+     "Undercity Sewers",
+     "Exotic Orchard",
+     "Faithless Looting",
+     "Gitaxian Probe",
+     "Red Elemental Blast",
+     "Seething Song"
+    ],
+    "result_and_rationale": "Pass C variant: preferred five plus Muddle the Mixture over Seething Song (staged data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_PassC_Muddle_over_SeethingSong_20261023.txt). Rejected: it loses a converter and Spellbook 500-4036-4867."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C held Seething Song against Muddle the Mixture and found no cut for Abrade. Muddle over Song was re-staged and rejected again. Abrade is staged against Preordain, the lowest-inclusion cantrip, as a retained alternative.",
+  "strongest_argument_against_baseline": "Cormela's mana is restricted, yet the baseline had only one-shot rituals as converters. It ran one always-tapped and one conditional land, used card-disadvantage looting, and had a second blue hoser where a creature protecting every spell on the combo turn fits better.",
+  "evidence_based_answer": "Five swaps: two lands (untapped, protection; guaranteed U/B), a converter loot (Frantic Search), a second commander copy loop (Twinflame, two new Spellbook combos), and combo-turn protection (Hexing Squelcher). All 23 baseline Spellbook combos are kept."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Cormela__Glamour_Thief.txt",
+  "sha256": "1cb098f4d1089f6989dfdb79b4abcd149000dfa5f90b923bda72ffa36aa2c8b1",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then 1x lines alphabetically (basics Island, Mountain and Swamp x1 each). Five substitutions against the canonical source. 30 lands; 100 physical cards verified by quantity (99 library + 1 commander); 100 unique names (Tainted Pact unaffected)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md",
+   "tests/test_m6_cormela_glamour_thief_m7_mechanics.py"
+  ],
+  "power_bracket": 5,
+  "archidekt_tags": [
+   "Storm",
+   "Aristocrats",
+   "Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five swaps, every remaining incumbent was re-read against the candidate pool. Seven post-floor challenges were recorded: two retained alternatives staged as complete 100s (Abrade over Preordain; Burnt Offering over Windfall) and five rejected on Cormela-specific grounds.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Preordain",
+    "challenger": "Abrade",
+    "tradeoff": "Abrade kills Cursed Totem, Null Rod, Collector Ouphe, Grafdigger's Cage, Drannith Magistrate or Grand Abolisher, but Chain of Vapor and Otawara already bounce them, and Preordain is a one-mana sorcery that Cormela's mana can cast.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Windfall",
+    "challenger": "Burnt Offering",
+    "tradeoff": "Burnt Offering sacrifices Cormela for four unrestricted mana plus her death trigger, but Windfall's refuel and Bowmasters damage is unique, and the deck already has four sac outlets.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Seething Song",
+    "challenger": "Muddle the Mixture",
+    "tradeoff": "Muddle counters a spell and transmutes for Twinflame or Breach, but Song is a converter and a Spellbook-listed infinite with Saw in Half.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Swan Song",
+    "challenger": "Mana Drain",
+    "tradeoff": "Drain counters anything and makes mana, but UU is hard to hold with 19 U sources, and Swan Song costs one.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Talisman of Creativity",
+    "challenger": "Grim Monolith",
+    "tradeoff": "Monolith gives three colorless mana, but Cormela needs U, B and R, and Monolith adds a Game Changer.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Lotus Petal",
+    "challenger": "Mox Amber",
+    "tradeoff": "Amber is permanent mana, but only with a legend in play. Petal works on turn one and in the Breach + Brain Freeze combo.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Mental Misstep",
+    "challenger": "Defense Grid",
+    "tradeoff": "Grid protects our turn, but it taxes our own off-turn counters. Squelcher already protects the combo turn.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_Abrade_over_Preordain_20261023.txt",
+    "sha256": "96b69586f74c7b42c2097d61c933ba1b0cb160856886c031511e153c47b25260",
+    "adds": [
+     "Mistrise Village",
+     "Underground River",
+     "Frantic Search",
+     "Twinflame",
+     "Hexing Squelcher",
+     "Abrade"
+    ],
+    "cuts": [
+     "Undercity Sewers",
+     "Exotic Orchard",
+     "Faithless Looting",
+     "Gitaxian Probe",
+     "Red Elemental Blast",
+     "Preordain"
+    ],
+    "case_for_extra_swaps": "A main-deck answer to Cursed Totem, Null Rod, Collector Ouphe, Grafdigger's Cage and the creature hatebears, which shut off Cormela or the fast mana.",
+    "why_not_selected": "The bounce suite (Chain of Vapor, Otawara) and Saw in Half already cover those hate pieces, and Preordain keeps the cantrip density."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_seven_BurntOffering_over_Windfall_20261023.txt",
+    "sha256": "c1f1c992a14c4710c27a3acda8e4e425c1545779d433973f5a4c529098f26abd",
+    "adds": [
+     "Mistrise Village",
+     "Underground River",
+     "Frantic Search",
+     "Twinflame",
+     "Hexing Squelcher",
+     "Burnt Offering",
+     "Abrade"
+    ],
+    "cuts": [
+     "Undercity Sewers",
+     "Exotic Orchard",
+     "Faithless Looting",
+     "Gitaxian Probe",
+     "Red Elemental Blast",
+     "Windfall",
+     "Preordain"
+    ],
+    "case_for_extra_swaps": "Burnt Offering is a second Cormela sacrifice-for-mana instant, and Abrade answers hate.",
+    "why_not_selected": "Windfall's refuel plus Bowmasters damage is unique, the sac-outlet count is already four, and the Abrade half is unselected as above."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five; the five-swap floor was not used as a target. The remaining weak-looking slots each lose to their best challenger on deck-specific grounds: cantrip density castable with restricted mana (Preordain), unique refuel plus Bowmasters damage (Windfall), converter and combo piece (Seething Song), cheap holdable counters (Swan Song, Mental Misstep), color fixing (Talisman of Creativity), and turn-one fast mana (Lotus Petal)."
+ }
+}

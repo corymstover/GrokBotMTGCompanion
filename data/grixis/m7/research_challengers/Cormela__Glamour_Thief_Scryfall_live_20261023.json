@@ -2288,6 +2288,24 @@
    "type_line": "Legendary Artifact"
   },
   {
+   "cmc": 2.0,
+   "color_identity": [
+    "U"
+   ],
+   "commander_legality": "legal",
+   "game_changer": false,
+   "keywords": [
+    "Transmute"
+   ],
+   "mana_cost": "{U}{U}",
+   "name": "Muddle the Mixture",
+   "oracle_id": "0826cf7d-7ccc-459b-a92f-29dc169628f8",
+   "oracle_text": "Counter target instant or sorcery spell.\nTransmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
+   "power": null,
+   "toughness": null,
+   "type_line": "Instant"
+  },
+  {
    "cmc": 3.0,
    "color_identity": [
     "B"
