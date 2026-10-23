@@ -488,25 +488,38 @@
    "current_candidate_sha": "b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc",
    "branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
    "working_branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
-   "last_pushed_commit": "2c2734340ca47c9bb880cec6347e2903c92730f8",
+   "last_pushed_commit": "bb3be7d3acbd9422ea4291b3a0a9cc188ad9a0f1",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/660",
    "swap_count": 6,
-   "ci_runs": [],
+   "ci_runs": [
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39954471268",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39954471051",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39954471163"
+   ],
    "blockers": [],
-   "unresolved_issues": [],
+   "unresolved_issues": [
+    [
+     "Owner review: Tergrid adds a sixth Game Changer and is a punisher (owner removed Caress/Pit/Rack/Oppression on 10-14)",
+     "No matched-hand or multiplayer simulation (bounded finite Pass C tests only)"
+    ]
+   ],
    "completed_stages": [
     "baseline_provenance",
     "research_snapshots",
     "draft_candidate",
     "decision packet + mechanics tests (gate pass) 2026-10-23 07:28 CDT",
-    "I/J memos, adversarial packet, workflow, certificate/bundle (IJ 8/8, gate and bundle check pass) 2026-10-23 07:33 CDT"
+    "I/J memos, adversarial packet, workflow, certificate/bundle (IJ 8/8, gate and bundle check pass) 2026-10-23 07:33 CDT",
+    [
+     "WIP removed, full suite vs b6b40ac8 identical 110 pre-existing failures (0 regressions), PR #660 ready, exact-head CI success at bb3be7d3 2026-10-23 07:37 CDT"
+    ]
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING_CHATGPT",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Remove WIP, full suite vs b6b40ac8, mark PR #660 ready, exact-head CI",
-   "next_step": "Remove WIP, full suite vs b6b40ac8, mark PR #660 ready, exact-head CI",
-   "last_checkpoint_commit": "2c2734340ca47c9bb880cec6347e2903c92730f8"
+   "next_action": "ChatGPT adversarial review of PR #660; then owner decision. Next deck: #13 Doctor_Doom__King_of_Latveria (index 12)",
+   "next_step": "Deck #13 Doctor_Doom__King_of_Latveria (tracker index 12)",
+   "last_checkpoint_commit": "bb3be7d3acbd9422ea4291b3a0a9cc188ad9a0f1",
+   "engineering_head": "bb3be7d3"
   },
   {
    "tracker_number": 13,
