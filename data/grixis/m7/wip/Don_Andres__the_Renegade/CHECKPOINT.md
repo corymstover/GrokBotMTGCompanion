@@ -20,3 +20,8 @@
 - Staged candidate (5 swaps): +Gríma, Saruman's Footman / -Professional Face-Breaker; +Fallen Shinobi / -Seize the Spotlight; +Treachery / -Blasphemous Act; +Gloomlake Verge / -Shipwreck Marsh; +Blazemire Verge / -Smoldering Marsh. Candidate raw sha256 05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773.
 - Six alternatives staged under research_challengers (Pass C Mob Rule / Bribery variants, keep-Blasphemous-Act, Dazzling Sphinx, Nightveil Specter).
 - Next: bounded Pass C tests, decision review, snapshots, certificate/bundle, workflow.
+
+## Checkpoint 3 — Pass C bounded tests + snapshots (2026-10-23 08:22 CDT)
+- Oracle snapshot (249 legal U/B/R names) and rules snapshot committed. Baseline logical hash recomputed == registry baseline_hash lh1:012d9c8c…; candidate lh1:d387b103….
+- Mechanics test (16 tests, passing): Pass C (a) Mob Rule vs Insurrection grid 2 spells x 5 tables x 6/7/8 mana x Don present/absent: Insurrection uncastable below 8; at 8 it steals >= Mob Rule everywhere; Mob Rule keeps 115/144 of Insurrection's stolen power (equal on 2/5 tables); Don flips Mob Rule's best mode on one table. (b) Bribery vs Amalgam/Jhoira over densities 0/4/8/15/25: Bribery <= 1 permanent ever (0 at density 0); Amalgam 3 per round from the first opponent upkeep; Jhoira 1 on ETB + 1 per surviving attack. Tapped-Treasure chain check; exact colour access (candidate -0.34 pt with Verges' second colour off, identical when on).
+- Next: tested pool, decision review, I/J memos, adversarial packet, certificate/bundle, workflow, ij/candidate tests.
