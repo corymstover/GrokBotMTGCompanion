@@ -1,0 +1,80 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Cormela__Glamour_Thief",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+ "explicit_pool_size": 7,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Cormela__Glamour_Thief_approved_source_2026-10-14.txt",
+   "raw_sha256": "80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b",
+   "logical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 80f4bdef…; logical hash = registry baseline_hash). 30 lands (1 always tapped), 13 mana artifacts, average nonland MV 1.841, 46 instants/sorceries. Commander Spellbook: 23 included combos. The registry's recorded digest equals the raw bytes, so there is no provenance exception."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/cormela-glamour-thief.txt",
+   "raw_sha256": "29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578",
+   "logical_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format ('1 ' quantity prefix), so the raw bytes differ. Logical hash = registry current_canonical_hash = baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Cormela__Glamour_Thief.txt",
+   "raw_sha256": "1cb098f4d1089f6989dfdb79b4abcd149000dfa5f90b923bda72ffa36aa2c8b1",
+   "logical_hash": "lh1:ed41bb16fe9c22a42cc13f9084b0feb192cb5937878049e89417c155110219a7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Mistrise Village +Underground River +Frantic Search +Twinflame +Hexing Squelcher / -Undercity Sewers -Exotic Orchard -Faithless Looting -Gitaxian Probe -Red Elemental Blast. 30 lands (0 always tapped), 13 mana artifacts, average nonland MV 1.899, 45 instants/sorceries. Adds Spellbook 147-1235 and 392-1235-4867. Losses: surveil land, any-color land, Looting flashback, Probe, REB."
+  },
+  {
+   "id": "FOUR_WITHOUT_HEXING_SQUELCHER",
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_four_without_HexingSquelcher_20261023.txt",
+   "raw_sha256": "45b83aa241369b241ee5586eedbd64772984e81af54e6039fe51c22ee02c20b4",
+   "logical_hash": "lh1:8bcba59ec59ea2f0ed00dcb4ca007f70271993b0f1facb65a9e7fff6546e3af2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (four-swap, staged). The first four swaps, with Red Elemental Blast kept. REB duplicates Pyroblast; Squelcher makes every spell on the Cormela combo turn uncounterable and gives her ward. MODERATE confidence."
+  },
+  {
+   "id": "SIX_PASS_C_MUDDLE_OVER_SONG",
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_PassC_Muddle_over_SeethingSong_20261023.txt",
+   "raw_sha256": "226745b8b67c08ac0f2302b6a9f3cc96335bede48332df3ef90380775e808ff2",
+   "logical_hash": "lh1:7734f6b85c058cd13a28bdc0d06ce4c765258cc363172dbc4f8c5ba9b62f19a5",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (six-swap, staged). The preferred five plus Pass C's own challenger, Muddle the Mixture over Seething Song. Song is a restricted-to-unrestricted converter and Spellbook 500-4036-4867 with Saw in Half. HIGH confidence."
+  },
+  {
+   "id": "SIX_ABRADE_OVER_PREORDAIN",
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_Abrade_over_Preordain_20261023.txt",
+   "raw_sha256": "96b69586f74c7b42c2097d61c933ba1b0cb160856886c031511e153c47b25260",
+   "logical_hash": "lh1:7986b749b9935f309b6f40772f7b681bac052fded0057edd05b56a1ddd90e741",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged, not selected). The preferred five plus Abrade over Preordain: an answer to Cursed Totem, Null Rod, Collector Ouphe, Cage and hatebears. Chain of Vapor and Otawara already cover these, and Preordain is a 1-mana cantrip castable with Cormela's mana. MODERATE confidence."
+  },
+  {
+   "id": "SEVEN_BURNT_OFFERING_OVER_WINDFALL",
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_seven_BurntOffering_over_Windfall_20261023.txt",
+   "raw_sha256": "c1f1c992a14c4710c27a3acda8e4e425c1545779d433973f5a4c529098f26abd",
+   "logical_hash": "lh1:2047454409e63fa29abfc198fca81feb6de250c563cbcc9d1e177cbf879d2774",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (seven-swap, staged, not selected). The six-swap Abrade list plus Burnt Offering over Windfall. Sacrificing Cormela gives four unrestricted mana plus her death trigger, but Windfall's refuel and Bowmasters damage are unique and the deck already has four sacrifice outlets. MODERATE confidence."
+  }
+ ]
+}

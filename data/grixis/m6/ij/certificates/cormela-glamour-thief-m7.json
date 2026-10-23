@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Cormela__Glamour_Thief",
+  "slug": "cormela-glamour-thief",
+  "generated_at": "2026-10-23T06:22:00-05:00",
+  "list_hash": "lh1:ed41bb16fe9c22a42cc13f9084b0feb192cb5937878049e89417c155110219a7",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Cormela__Glamour_Thief_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:d536f73f293fda3af747a642c6c2c36c492ec8f27d2f0e0c91cc0b8c604b984e",
+    "tested_pool_size": 7
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_cormela_glamour_thief_m7_mechanics.py",
+      "tests/test_m7_cormela_glamour_thief_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_cormela_glamour_thief_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Cormela__Glamour_Thief_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Cormela__Glamour_Thief_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Cormela__Glamour_Thief.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 7 complete configurations in the pool (raw baseline, registry canonical export, preferred five, four-swap without Hexing Squelcher, Pass C's Muddle-over-Seething-Song six-swap, and the Abrade six-swap and Burnt Offering seven-swap alternatives) plus named single-card contenders. They were judged with finite current-Oracle rules cases, Commander Spellbook combo lookups and a quantity-counted mana comparison. Tests run locally and in .github/workflows/m7-cormela-glamour-thief.yml; run URLs are recorded in the PR body. There is no statistical multiplayer ranking. The A/B seals and the owner-equivalent Pass C (final disposition KEEP) are historical, baseline-scoped and not technically independent. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}
