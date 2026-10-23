@@ -405,7 +405,8 @@
       "required": [
         "approval_receipt_path",
         "source_bound_oracle_snapshot_path",
-        "canonical_live_git_blob_sha"
+        "canonical_live_git_blob_sha",
+        "approved_oracle_snapshot_path"
       ],
       "properties": {
         "approval_receipt_path": {
@@ -419,6 +420,10 @@
         "canonical_live_git_blob_sha": {
           "type": "string",
           "pattern": "^[a-f0-9]{40}$"
+        },
+        "approved_oracle_snapshot_path": {
+          "type": "string",
+          "pattern": "^data/grixis/m6/oracle_snapshots/[^/]+\\.json$"
         }
       }
     }
