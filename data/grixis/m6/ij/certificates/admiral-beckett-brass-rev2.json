@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "deck_id": "Admiral_Beckett_Brass",
+  "slug": "admiral-beckett-brass",
+  "generated_at": "2026-10-23T00:54:08.635Z",
+  "list_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json",
+    "source_sha256": "sha256:9be5f18c3290413638b7494a4963562d26a67dfb0718c2f9c0dc7e19eee03e5f",
+    "tested_pool_size": 7
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_admiral_beckett_brass_p0.py",
+      "tests/test_m6_admiral_beckett_brass_p1_tranche1.py",
+      "tests/test_m6_admiral_beckett_brass_p1_tranche2.py",
+      "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
+      "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+      "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+      "tests/test_m7_admiral_stage6_decision_bound.py",
+      "tests/test_m7_admiral_stage7_draw_resilient_100.py",
+      "tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py",
+      "tests/test_m6_admiral_rev2_candidate_source_bind.py",
+      "tests/test_m6_admiral_rev2_seven_configuration_pool.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Admiral_M6_I_rev2_seven_config_local_best_20261022.md",
+    "data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json",
+    "data/grixis/m6/certification_preflight/Admiral_M6_rev2_candidate_specific_hash_oracle_scope_20261022.json",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39878638269",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39879346963",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39879925217",
+    "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39880475909"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS is restricted to seven actual complete 100-card research sources and finite current-Oracle/paid-mechanics/qualitative whole-deck comparisons. A/B input seals and owner-equivalent Pass C waiver remain historical and accurately non-independent. No statistical multiplayer ranking, M6.9 J for rev2, M6.10 owner acceptance, new M7 approval, or canonical lock/change is inferred."
+  }
+}
