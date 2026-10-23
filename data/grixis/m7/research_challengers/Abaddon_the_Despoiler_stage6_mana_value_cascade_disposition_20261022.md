@@ -16,7 +16,7 @@ Cascade can exile and offer a spell only with strictly lesser mana value than th
 
 **Sources:** 
 - current Scryfall card identities, Oracle and Commander legality: `data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json` and `data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json`;
-- Scryfall: https://scryfall.com/card/40k/106/call-forth-the-tempest ; https://scryfall.com/card/40k/108/blood-for-the-blood-god%21 ; https://scryfall.com/card/cmm/207/blasphemous-act ; https://scryfall.com/card/tsr/79/minds-desire ;
+- Scryfall: https://scryfall.com/card/ltc/509/call-forth-the-tempest ; https://scryfall.com/card/40k/108/blood-for-the-blood-god%21 ; https://scryfall.com/card/msc/163/blasphemous-act ; https://scryfall.com/card/c21/123/minds-desire ;
 - Wizards Comprehensive Rules (2026-08-07 PDF): https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf
 
 ## Strategic consequence, not a forced inclusion
