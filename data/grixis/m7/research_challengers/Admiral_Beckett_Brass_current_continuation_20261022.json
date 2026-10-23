@@ -3,8 +3,8 @@
   "deck_id": "Admiral_Beckett_Brass",
   "date": "2026-10-22",
   "overall_status": "PARTIAL",
-  "m7_status": "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
-  "note": "2026-10-22 owner clarification: five genuine swaps is ONLY a presentation floor. Admiral's five-swap candidate and all five-swap alternative packages were judged too floor-anchored for final approval. Preserve all executed M6 evidence and canonical authority; reopen M7 strategically, owner approval withheld.",
+  "m7_status": "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
+  "note": "Owner-directed no-floor-anchoring and EDHREC top-inclusion/High Lift complete Admiral reevaluation: candidate-specific six-swap full 100, 28 judgments, 16 distinct existing weak roles, and coherent seven/nine replacement 100s. Prior D remains withdrawn, canonical approved/locked unchanged. 2026-10-22 Chicago-local date (GitHub may show October 23 UTC).",
   "canonical_authority": {
     "repo": "corymstover/grixis-commander-encyclopediaGPT",
     "branch": "main",
@@ -224,11 +224,11 @@
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Run focused and broad exact-head CI including real M6 J schema/byte verifier on new rev2 sidecar; correct any failures.",
-    "After merged J, author M7 rev2 decisive schema packet: full 99 audit, 10+ candidate dispositions, 8 challenged cuts, two+ whole 100 alternatives, EDHREC top-inclusion/high-lift, all source tests.",
-    "Run strict M7 owner-ready gate against exact candidate raw hash; do not stage old withdrawn D as ready.",
-    "Present exact final Admiral list for Cory's explicit decision; canonical remains approved/locked until approval.",
-    "After Admiral approval reopen Abaddon under both newer rules; no deck3 until both are approved."
+    "Complete both focused and decisive M7 revised owner-gate GitHub Actions checks at PR #616 latest exact head and correct actual failures.",
+    "Merge PR #616 only with both exact-head workflows SUCCESS; preserve historical D packet and canonical approved lock.",
+    "Present all 100 cards and complete six-swap strategic case, Bracket 4, three tags, verification scope and raw SHA; ask Cory exact approval only after gate PASS.",
+    "If owner approves exact list, reconfirm raw SHA and follow canonical approval/lock workflow; if not, record rejection and reopen actual strategic deficiency.",
+    "Only after Admiral final owner approval reopen canonically approved Abaddon under EDHREC top-inclusion/High Lift plus five-floor-not-target rules. Do not advance deck3 until both final owner approved."
   ],
   "owner_decision_required_now": false,
   "authority_caveat": "Cory explicitly withheld Admiral M7 approval and directed open-ended post-floor reassessment. Existing canonical Admiral remains approved/locked and unchanged. Admiral M6.6–9 completed bounded evidence remains source-bound to the historical D candidate, not automatically a new rev2. Aggregate 2/62, M6.10 0/62; only Abaddon new exact M7 approval 1/62; M8 pending.",
@@ -267,18 +267,24 @@
       "exact_head_ci": 39859693001
     },
     "m6_8": {
-      "status": "COMPLETE_TESTED_POOL_LOCAL_I_NOT_GLOBAL_OPTIMUM",
-      "evidence": "data/grixis/m6/ij/certificates/admiral-beckett-brass.json",
-      "pr": 600,
-      "exact_head_ci": 39860525716,
-      "scope": "Five exact 100-card configurations, canonical baseline and four A/B/C/D variants."
+      "status": "COMPLETE_REVISED_M6_I_SEVEN_COMPLETE_100_TESTED_POOL_LOCAL_BEST_PASS_NOT_GLOBAL",
+      "evidence": "data/grixis/m6/ij/certificates/admiral-beckett-brass-rev2.json",
+      "pr": 614,
+      "merge_commit": "73d0807cdcd19d41992c55c59eef53b9bc7c8295",
+      "focused_ci": 39881069811,
+      "broad_ci": 39881069865,
+      "source_logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+      "historical_D_certificate_preserved": true
     },
     "m6_9": {
-      "status": "COMPLETE_REPRODUCIBILITY_J_NOT_OWNER_ACCEPTANCE",
-      "evidence": "data/grixis/m6/bundles/admiral-beckett-brass.json",
-      "pr": 601,
-      "exact_head_ci": 39862032718,
-      "notes": "Two of 62 valid strict J bundles at merge; M6.10 remains blocked."
+      "status": "COMPLETE_REVISED_M6_J_CANDIDATE_BOUND_REPRODUCIBILITY_NOT_M6_10_OR_OWNER_APPROVAL",
+      "evidence": "data/grixis/m6/ij/revision_bundles/admiral-beckett-brass-rev2.json",
+      "pr": 615,
+      "merge_commit": "e698a5999bc62a4de6a714f5429e3b3271400235",
+      "focused_ci": 39881936915,
+      "broad_ci": 39881936930,
+      "source_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+      "historical_D_bundle_preserved": true
     }
   },
   "open_ended_reopen": {
@@ -657,7 +663,7 @@
       }
     },
     "stage12": {
-      "status": "REVISED_M6_J_CANDIDATE_BOUND_REPRODUCIBILITY_BUNDLE_AWAITING_EXACT_HEAD_CI",
+      "status": "COMPLETE_REVISED_M6_J_MERGED_SUCCESS_TWO_WORKFLOWS",
       "working_branch": "chatgpt-admiral-stage12-rev2_j_bundle-20261022",
       "sidecar_bundle": "data/grixis/m6/ij/revision_bundles/admiral-beckett-brass-rev2.json",
       "oracle_source": "data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_rev2_97_Scryfall_20261022.json",
@@ -671,7 +677,25 @@
       "prior_m6_j_preserved": true,
       "owner_approval": false,
       "canonical_mutated": false,
-      "exact_head_ci": "NOT_YET_EXECUTED"
+      "exact_head_ci": "SUCCESS",
+      "git_receipt": {
+        "merged_pr": 615,
+        "merged_commit": "e698a5999bc62a4de6a714f5429e3b3271400235",
+        "exact_pr_head": "0f976b74d5fd5a9fd886b3938b77ab10bcffca75",
+        "focused_actions_run": 39881936915,
+        "decisive_actions_run": 39881936930,
+        "both": "SUCCESS"
+      }
+    },
+    "stage13": {
+      "status": "DECISIVE_M7_OWNER_STAGED_PACKET_IN_PR616_AWAITING_FINAL_HEAD_CI",
+      "packet": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass_rev2.json",
+      "full_100": "data/grixis/m7/candidate_lists/Admiral_Beckett_Brass_rev2.txt",
+      "src_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+      "owner_approval": false,
+      "canonical_mutated": false,
+      "exact_head_preliminary_broad_success": 39883115185,
+      "final_head": "f9fd3f8d21e3d685558939901df786b37fc0685e"
     }
   },
   "owner_sequence_override": {
@@ -686,5 +710,28 @@
     "abaddon_reopening_status": "SCHEDULED_NOT_YET_REOPENED",
     "deck3_hold": true,
     "canonical_mutation_authorized_now": false
+  },
+  "m7_rev2_decision_packet": {
+    "status": "OWNER_CANDIDATE_STAGED_M7_STRICT_GATE_PENDING_LATEST_EXACT_HEAD_CI",
+    "pr": 616,
+    "branch": "chatgpt-admiral-stage13-m7_rev2_ownerready-20261022",
+    "path": "data/grixis/m7/decision_reviews/Admiral_Beckett_Brass_rev2.json",
+    "exact_100": "data/grixis/m7/candidate_lists/Admiral_Beckett_Brass_rev2.txt",
+    "raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+    "oracle_logical": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+    "genuine_swaps": 6,
+    "material_candidate_judgments": 28,
+    "challenged_incumbent_roles": 16,
+    "larger_source_bound_alternatives": [
+      7,
+      9
+    ],
+    "edhrec_inclusion_and_high_lift": true,
+    "owner_approval": false,
+    "canonical_changed": false,
+    "independent_M6_10_owner_acceptance": false,
+    "full_packet_gate_script": "scripts/grixis_m7_decision_gate.py",
+    "candidate_specific_test": "tests/test_m7_admiral_rev2_owner_ready.py",
+    "pending_ci_source_head": "f9fd3f8d21e3d685558939901df786b37fc0685e"
   }
 }
