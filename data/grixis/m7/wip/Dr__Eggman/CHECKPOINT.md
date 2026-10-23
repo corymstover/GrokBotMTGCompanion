@@ -19,3 +19,14 @@
 - Provisional core five: +Possession Engine/-Blasphemous Act, +Skysovereign/-Cybermen Squadron, +Interceptor Mechan/-Cryptothrall,
   +Midnight Crusader Shuttle/-Unwinding Clock, +Behemoth of Vault 0/-Foundry Inspector. Five alternatives staged (Welder/Caress, Tergrid/Caress, 32 lands, keep Act, Su-Chi).
 - Next: mechanics tests (exact land DP, villainous-choice grid, Welder vs Caress), decision review, I/J, bundle, workflow, tests.
+
+## Checkpoint 2026-10-23 08:55 CDT — candidate revised, Oracle/rules snapshots, mechanics test
+- Re-read the owner's 2026-10-14 closeout: Damocles Base (a Vehicle villainous choice) was rejected for combat dependency and permissive
+  choice outcomes; Midnight Crusader Shuttle shares that critique, so it is demoted to a staged alternative and Su-Chi Cave Guard
+  (8/8 vigilance ward 4 Construct) takes the slot over Unwinding Clock. Foundry Inspector and Blasphemous Act were named by the owner as
+  retained infrastructure/interaction; both cuts are flagged and a keep-Inspector and a keep-Act alternative are staged.
+- Preferred five: +Possession Engine/-Blasphemous Act, +Skysovereign, Consul Flagship/-Cybermen Squadron, +Interceptor Mechan/-Cryptothrall,
+  +Su-Chi Cave Guard/-Unwinding Clock, +Behemoth of Vault 0/-Foundry Inspector. Candidate raw SHA-256 85bcd5a2...; payloads 28 -> 31.
+- Six staged alternatives; Spellbook re-queried for the revised candidate (0 included in both lists).
+- tests/test_m6_dr_eggman_m7_mechanics.py: 12 finite cases pass locally (exact land DP 31/32/33, 64-cell villainous grid, 192-cell Welder vs Caress grid, trigger multipliers max 9).
+- Next: decision review, I/J memos, tested pool, certificate, bundle, workflow, candidate/IJ tests.

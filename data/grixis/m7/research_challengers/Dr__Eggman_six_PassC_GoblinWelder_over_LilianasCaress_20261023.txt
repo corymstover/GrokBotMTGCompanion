@@ -43,7 +43,6 @@
 1x Master Transmuter
 1x Mechan Assembler
 1x Metalwork Colossus
-1x Midnight Crusader Shuttle
 1x Morphic Pool
 2x Mountain
 1x Mox Opal
@@ -67,6 +66,7 @@
 1x Spire of Industry
 1x Steam Vents
 1x Strionic Resonator
+1x Su-Chi Cave Guard
 2x Swamp
 1x Talisman of Creativity
 1x Talisman of Dominance
