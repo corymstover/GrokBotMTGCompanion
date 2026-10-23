@@ -3,3 +3,4 @@
 - Discrepancy noted: tracker CSV notes text still describes the superseded 2026-10-13 "Grapeshot -> Galvanic Iteration" list (c8290ceb...); the bound hash 80f4bdef is the 14-swap 2026-10-14 approval candidate (no Galvanic Iteration, no Grapeshot). Hash binding wins; documented, not repaired.
 - Shared infra copied byte-identically from PR #656 head 14f33de8 (checker 2962a640...).
 - Next: research (live Scryfall, EDHREC, Spellbook), draft candidate, alternatives, gate packet, tests, I/J.
+- 06:40 CDT research checkpoint: live Scryfall (100 baseline + 68 candidates; all legal; baseline 20 Game Changers), EDHREC discovery, Commander Spellbook baseline 22 / candidate 24 included combos. Draft candidate (5 swaps) and 4 staged alternative 100s committed. Gate packet/tests/I-J pending.
