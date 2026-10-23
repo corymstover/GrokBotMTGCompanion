@@ -486,20 +486,22 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
+   "working_branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
+   "last_pushed_commit": "b41b5d3a38c03e6b2033c7007ae818710b59423e",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/660",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "completed_stages": [
+    "baseline_provenance"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660",
+   "next_step": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660"
   },
   {
    "tracker_number": 13,
