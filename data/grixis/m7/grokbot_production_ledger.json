@@ -28,27 +28,50 @@
    "current_candidate_sha": "2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58",
    "branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
    "working_branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
-   "last_pushed_commit": "f9b9e8940a065f5a5a1d9512345c9c51bd43046e",
-   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/652 (draft)",
+   "last_pushed_commit": "a6798cf2ae19d39f7fc45726d2bc23e5fcb05a3a",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/652",
    "swap_count": 5,
-   "ci_runs": [],
+   "ci_runs": [
+    {
+     "workflow": "M7 Deck 4 Anhelo, the Painter candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39929186046",
+     "conclusion": "success",
+     "head": "a6798cf2ae19d39f7fc45726d2bc23e5fcb05a3a"
+    },
+    {
+     "workflow": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39929186006",
+     "conclusion": "success",
+     "head": "a6798cf2ae19d39f7fc45726d2bc23e5fcb05a3a"
+    },
+    {
+     "workflow": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39929186161",
+     "conclusion": "success",
+     "head": "a6798cf2ae19d39f7fc45726d2bc23e5fcb05a3a"
+    }
+   ],
    "blockers": [],
    "unresolved_issues": [
-    "Registry historical digest d19d94b8... not reproducible from physical bytes 8d5f8a9b...; handled by baseline_provenance_exception",
-    "Closeout '31 lands' is a row count; physical lands 34"
+    "Mana thinner (43->39 static sources); same-count alternative keeps Talisman of Dominance",
+    "Shared checker line added for Anhelo Pass C wording FALSE.; most other decks use other wordings and will need similar reviewed change",
+    "Infra copied from unmerged PR #651; merge order matters",
+    "Historical digest d19d94b8 != raw 8d5f8a9b (documented, not repaired)"
    ],
    "completed_stages": [
     "baseline_provenance",
     "shared_gate_infra_copy_from_651",
     "discovery_edhrec_scryfall",
     "candidate_judgments_and_decision_packet",
-    "IJ_BUNDLE_COMPLETE"
+    "IJ_BUNDLE_COMPLETE",
+    "REVIEW_READY"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "adversarial packet, full suite, ready PR",
-   "next_step": "adversarial packet, full suite, ready PR"
+   "next_action": "ChatGPT adversarial second pass on PR #652; then owner decision. Next deck #5 Ashad__the_Lone_Cyberman (index 4)",
+   "next_step": "ChatGPT adversarial second pass on PR #652; then owner decision. Next deck #5 Ashad__the_Lone_Cyberman (index 4)",
+   "owner_approved": false
   },
   {
    "tracker_number": 5,
