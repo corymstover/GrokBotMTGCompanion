@@ -224,11 +224,11 @@
     "m8": "UNVERIFIED_NOT_ACCEPTED"
   },
   "next_actual_actions": [
-    "Execute/verify Stage8 two exact-head GitHub Actions workflows and merge only on success; preserve true limited scope.",
-    "Rebind the source/Oracle snapshot, card count/legality, paid changes, adverse response tests and exact SHA for selected six_Wave_Palisade 100-card configuration.",
-    "Update candidate-specific M6.6-9 I/J reproducibility bundle and run targeted exact-head validation rather than borrow historical D receipt.",
-    "Create owner-ready M7 rev2 only after whole-deck gate and M6 checks pass; present exact additions/cuts/full list/hash for explicit Admiral approval.",
-    "Reopen approved Abaddon under both new workflow rules after Admiral is completed; do not start deck3 before both are approved."
+    "Run exact-head CI for Stage9 candidate hash/oracle/legality source-binding and merge only on success.",
+    "Complete candidate-specific M6 required P0/P1 against genuine paid Wave/Palisade/Cannonade effects; document red-team/mana and local-best pool with no invented win-rate.",
+    "Issue and validate NEW exact sha-bound Admiral I/J receipt/bundle; historical D I/J cannot transfer.",
+    "Complete new M7 rev2 comprehensive owner gate and present exact 100-card proposal for Cory's explicit approval, keeping canon unchanged until then.",
+    "After Admiral final approval, reopen Abaddon under both newer rules; deck3 held until both owner-approved."
   ],
   "owner_decision_required_now": false,
   "authority_caveat": "Cory explicitly withheld Admiral M7 approval and directed open-ended post-floor reassessment. Existing canonical Admiral remains approved/locked and unchanged. Admiral M6.6–9 completed bounded evidence remains source-bound to the historical D candidate, not automatically a new rev2. Aggregate 2/62, M6.10 0/62; only Abaddon new exact M7 approval 1/62; M8 pending.",
@@ -415,7 +415,7 @@
     },
     "current_verified_integration_head": "ad73d47ff70d037bb555e0bc6c74fe74ad8ca58b",
     "latest_complete_subtask": "Source-bound eleven-card Challenger/incumbent Oracle snapshot and new EDHREC discovery crosswalk authored on working branch, exact-head CI and package adjudication pending.",
-    "next_exact_unfinished_requirement": "Verify stage8 exact PR-head nine paid-source finite fixtures and both workflows. If success, rebind provisional six_Wave_Palisade to current Oracle, M6 changed-effect P0/P1, exact physical candidate SHA and candidate-specific I/J bundle; final M7 must still satisfy all owner gates before presentation. Admiral canonical lock unchanged. After owner approves Admiral, reopen Abaddon with floor-not-target and EDHREC high-lift; deck3 held.",
+    "next_exact_unfinished_requirement": "Verify stage9 exact-head candidate raw/logical Oracle and legality regression; then actually execute changed-effect M6 P0/P1 and complete the candidate-specific revised tested-pool I/J reproducibility, M7 decision packet gate and owner presentation. All old D receipts remain historical. Admiral canonical unchanged; Abaddon held until Admiral approval, deck3 held until both.",
     "remaining_owner_decision": "None until a genuinely owner-ready exact proposal; Cory explicitly withheld approval of former D.",
     "stage3": {
       "status": "ORACLE_SOURCED_ELEVEN_PAID_MECHANICAL_FIXTURES_WRITTEN_AWAITING_EXACT_HEAD_CI",
@@ -564,10 +564,36 @@
         "Kari vs Aerialist: both Pirate cards; different evasion and Kari Monkey token value; Aerialist not automatically selected despite high EDHREC lift."
       ],
       "finite_fixture_methods_planned": 9,
-      "exact_head_ci": "NOT_YET_EXECUTED",
+      "exact_head_ci": "SUCCESS_TWO_WORKFLOWS_RESEARCH_ONLY",
       "owner_approval": "WITHHELD",
       "canonical_mutated": false,
-      "requires_m6_ij_rebinding": true
+      "requires_m6_ij_rebinding": true,
+      "git_receipt": {
+        "merged_pr": 611,
+        "merged_commit": "aa4eba2b1d5735a82fab7d14f39a9314f93c986b",
+        "exact_pr_head": "152c3add699797c65971f9842518503dc2de8e7f",
+        "focused_actions_run": 39879346963,
+        "decisive_actions_run": 39879346948,
+        "both": "SUCCESS",
+        "limited_to": "Nine finite source-paid board/mana fixtures and structural physical alternatives; no updated I/J certification."
+      }
+    },
+    "stage9": {
+      "status": "PARTIAL_CANDIDATE_SPECIFIC_RAW_LOGICAL_ORACLE_BINDING_PENDING_EXACT_HEAD_CI_M6_IJ_NOT_CERTIFIED",
+      "working_branch": "chatgpt-admiral-stage9-candidate_specific_m6_rebind-20261022",
+      "source_binding": "data/grixis/m6/certification_preflight/Admiral_M6_rev2_candidate_specific_hash_oracle_scope_20261022.json",
+      "test": "tests/test_m6_admiral_rev2_candidate_source_bind.py",
+      "provisionally_selected_six_swap_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+      "provisionally_selected_logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+      "source_list": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+      "oracle_names_expected": 97,
+      "commander_legal_expected": 97,
+      "official_exceptions": [],
+      "old_D_IJ_usable_for_new_hash": false,
+      "new_IJ_issued": false,
+      "new_owner_approval": false,
+      "exact_head_ci": "NOT_YET_EXECUTED",
+      "canonical_mutated": false
     }
   },
   "owner_sequence_override": {
