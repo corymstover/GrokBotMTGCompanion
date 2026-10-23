@@ -317,21 +317,22 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck09-cormela-glamour-thief-m7-20261023",
    "working_branch": "grokbot-deck09-cormela-glamour-thief-m7-20261023",
-   "last_pushed_commit": "cf51c5add596f72d5178d1d6be98e1b176ad03b2",
+   "last_pushed_commit": "65822403d6e995b2cf6b2dd4b994dd3d84984233",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/657",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical 9b26aa2; raw 80f4bdef == overrides == registry; 100 rows = 100 physical; tracker note text stale vs bound hash, documented); draft PR #657"
+    "baseline_provenance (canonical 9b26aa2; raw 80f4bdef == overrides == registry; 100 rows = 100 physical; tracker note text stale vs bound hash, documented); draft PR #657",
+    "research (live Scryfall 168 cards, EDHREC general+cEDH, Spellbook baseline 22/candidate 24), draft 5-swap candidate + 4 staged alternatives"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "research + draft candidate",
-   "next_step": "research + draft candidate",
-   "last_checkpoint": "2026-10-23 06:15 CDT baseline"
+   "next_step": "gate packet, snapshots, I/J, tests, workflow",
+   "last_checkpoint": "2026-10-23 06:11 CDT research (baseline checkpoint was ~06:05 CDT; earlier '06:15' label corrected)"
   },
   {
    "tracker_number": 10,
