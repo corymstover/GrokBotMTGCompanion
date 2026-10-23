@@ -97,7 +97,7 @@ class AbaddonCascadeMVReachability(unittest.TestCase):
         self.assertIn("RESEARCH_ONLY",s)
         self.assertIn("Mind's Desire",s)
         self.assertIn("not a",s.lower())
-        self.assertIn("keep Call Forth",s)
+        self.assertIn("retain Call Forth",s)
 
 
 if __name__=="__main__":
