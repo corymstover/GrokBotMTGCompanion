@@ -1,0 +1,135 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 13,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Lynde__Cheerful_Tormentor_approved_source_2026-10-14.txt",
+   "raw_sha256": "05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166",
+   "logical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 05d1c4ee..., read from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Lynde_Cheerful_Tormentor_Approved_2026-10-14.txt, blob 5731e689, introduced by canonical commit 7258398 on 2026-10-14; registry source_commit 1836b97 holds the same bytes; overrides APPROVED/LOCKED 2026-10-14). Disclosed discrepancies, not changed: tracker row 30 detailed-gate sub-fields still read PENDING, and the decisions doc header hashes e72576fb.../aa021e79... are the pre-change source values, not the approved list."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/lynde-cheerful-tormentor.txt",
+   "raw_sha256": "f1d4ed17411a4229260f39f4e79f6f014bffb29f3c601fedf3488d03676abf82",
+   "logical_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline (lh1:7359723b...). Current, not stale."
+  },
+  {
+   "id": "RESEARCH_TWO_SWAP",
+   "path": "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor.txt",
+   "raw_sha256": "435717e03dc60e874f638b0daf8ebc9ce2e898d00207985daebe789acf47fb77",
+   "logical_hash": "lh1:a125b99270e7e4fb1229344bcee482d06e96bc2adf797fc9e5a74528e3868408",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "LOCAL_BEST_IN_TESTED_POOL_RESEARCH_ONLY (two genuine swaps, below the five-swap floor; NOT owner-presentable; J bundle blocked by the existing Stage A seal mismatch): +Court of Vantress -Cruel Reality (Court copies an enchantment or artifact each upkeep while you are monarch; token Curse copies are attached to a player of your choice under CR 303.4f and can be attached to you for Lynde to move; Cruel Reality returned to you by Lynde costs a creature or planeswalker each upkeep: grid B1 Lynde herself is the only legal sacrifice in 42/96 Cruel Reality cells, removal grid B4 self-harm 6/12) and +Extravagant Replication -Curse of Death's Hold (Replication copies a nonland permanent each upkeep; Death's Hold returned to you shrinks your creatures and kills the X/1 Nightscape Familiar in 32/96 B1 cells). Neither cut is an explicit owner keep or owner add. Extra-upkeep supply grid B3: Lynde draws 82 -> 204 and Curse tokens 0 -> 102 per engine over 36 cells. Goldfish P(Lynde cast) turn 7 0.8681 unchanged; P(Lynde + copy engine) 0.1381 versus P(Lynde + the cut Curses) 0.1051. Costs: EDHREC adoption favours the cuts (Cruel Reality 5703/7774, Death's Hold 5548/7774 versus Court 1705/7774, Replication 2712/7774), Court's value stops when the monarchy is lost, and both adds are slower (5 and 6 mana) than an immediate symmetrical lock. Spellbook included combos 0 -> 0; Game Changers 8 -> 8; lands 35 -> 35; Bracket 4 unchanged. Confidence MODERATE."
+  },
+  {
+   "id": "ALT_A_COURT_ONLY",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_alt_A_CourtOnly_minus_CruelReality_20261023.txt",
+   "raw_sha256": "96af06563c0f5b4de90ac177a82fe39aba15be1fdee1664ec9a9b04a5914b49d",
+   "logical_hash": "lh1:396b88908f8d2c10b770028d9aa993f8695b97e768d979959aed655caaf9d520",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged; complete 100 that keeps every owner keep and owner add). Only +Court of Vantress -Cruel Reality; keeps Curse of Death's Hold. Goldfish P(Lynde + copy engine) turn 7 0.0858. Provided as the smaller step if the owner values Death's Hold as an anti-token lock."
+  },
+  {
+   "id": "ALT_B_REPLICATION_ONLY",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_alt_B_ReplicationOnly_minus_CurseOfDeathsHold_20261023.txt",
+   "raw_sha256": "a2444d3603bcac4c1a17b01068b462cfbfe639f8a7cae0250207469c4387db6b",
+   "logical_hash": "lh1:69b36ee6a5d55a124a237b3fa704dc100c22a43085ffa2d323f06f47ad853155",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged; complete 100 that keeps every owner keep and owner add). Only +Extravagant Replication -Curse of Death's Hold; keeps Cruel Reality. Goldfish P(Lynde + copy engine) turn 7 0.0568. Provided if the owner values Cruel Reality's lock more than its self-harm risk."
+  },
+  {
+   "id": "STAGED_STAFF_OF_COMPLEATION_OVER_NIGHTSCAPE",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_staged_plus_StaffOfCompleation_minus_NightscapeFamiliar_20261023.txt",
+   "raw_sha256": "1a87c017aa2e2bf1518c8cfae7053e0871911f83c63ae60b4c1c2e3931fb420d",
+   "logical_hash": "lh1:42c08c4b50b384364583a5c8a3604fefd502089e39922592698f795c205a79f0",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged; not counted). Staff of Compleation can destroy a permanent you own (a Curse attached to an opponent) for {1} and 1 life: goldfish P(Lynde + repeatable outlet) turn 7 0.2716 -> 0.3379, but losing Nightscape Familiar's cost reduction lowers P(Lynde cast) turn 4 0.629 -> 0.6179 and turn 7 0.8681 -> 0.8601. A trade, not a clear gain; owner choice."
+  },
+  {
+   "id": "PASS_C_CURSE_OF_CHAOS_OVER_ECHOES",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_CurseOfChaos_minus_CurseOfEchoes_20261023.txt",
+   "raw_sha256": "6c66998303e17c31aa9b5ac483482b9d196e4ba30cf901288730b88124bbf63e",
+   "logical_hash": "lh1:91568953ba18ef2f072c755cadb4007bc186f435e4c17277d2d14cd3d172f564",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (compare-only). Curse of Chaos was removed by the owner on 2026-10-14 (replaced by Curse of Hospitality) and Curse of Echoes is an explicit owner add, so re-adding Chaos would reverse an owner decision; no measured advantage (goldfish equals the candidate; the model does not score Curse text)."
+  },
+  {
+   "id": "PASS_C_STRIONIC_RESONATOR_OVER_NIGHTSCAPE",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_StrionicResonator_minus_NightscapeFamiliar_20261023.txt",
+   "raw_sha256": "bdf11bec962c4caf92887df291d49011baaf5639c9a6b8be86170009a878680b",
+   "logical_hash": "lh1:2aa9c4214fab2c97f8f3af902dcf091a0146a78f64c53acf314402fcbfc2e61a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (compare-only). Strionic Resonator was explicitly rejected by the owner on 2026-10-14 (repeated mana, does not beat direct engines). Copying Lynde's upkeep trigger only adds a draw-two when a second Curse is attached to you; it costs Nightscape's reduction (P(Lynde cast) turn 7 0.8601). Spellbook almost-included 22 -> 24, included 0 -> 0."
+  },
+  {
+   "id": "PASS_C_BESEECH_THE_MIRROR_OVER_RESTLESS_DEAD",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_BeseechTheMirror_minus_CurseOfTheRestlessDead_20261023.txt",
+   "raw_sha256": "d3fdbf11ecc59776d590a498889055f1fa17666ea6221c290316dc8912dd9dfa",
+   "logical_hash": "lh1:3f20feffd935759e9f7f8185e0d1448bb93f7c2eb4605981e923cbca552d049f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (compare-only). Beseech the Mirror was explicitly rejected by the owner on 2026-10-14 (no slot weaker enough); bargaining a Curse triggers Lynde, but the deck already has Curse of Misfortunes, Demonic/Vampiric Tutor and Imperial Seal, and Curse of the Restless Dead is a cheap three-mana Curse that makes a decayed Zombie whenever the cursed player's land enters (5901/7774)."
+  },
+  {
+   "id": "REJECT_DISTURBING_MIRTH_OVER_TRESPASSERS",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_DisturbingMirth_minus_TrespassersCurse_20261023.txt",
+   "raw_sha256": "5395abdfff7b3f9e5ddff8e80b1a6efdd447a026345d0b2aa5800f0e3ad8434f",
+   "logical_hash": "lh1:b21cb2551b575460174f6b13e33f66d481bc45830522f5abff85261ae495cef6",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Disturbing Mirth (118/7774 Lynde decks) is a real one-shot outlet: on entry you may sacrifice a Curse, draw two and have Lynde return it. But it is not repeatable, needs a Curse already on the battlefield, and the deck already has Perilous Research, Despotic Scepter, Claws of Gix, Braids and Demon of Fate's Design. Trespasser's Curse (7118/7774) is a premium Curse for Lynde to move around."
+  },
+  {
+   "id": "REJECT_TEFERIS_AGELESS_INSIGHT_OVER_UNBINDING",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_TeferisAgelessInsight_minus_CurseOfUnbinding_20261023.txt",
+   "raw_sha256": "036a5aa5e498d3e646ea4eea44484bb556dd4200f1d37aab114ba3988f7d3d2f",
+   "logical_hash": "lh1:d7383e41a7b80cfd8c32b89096d83b52ee0020048fa86d5a5ebd60e19981e458",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Teferi's Ageless Insight doubles Lynde's draws but is a 4-mana non-Curse card with no table impact and is absent from Lynde's general/upgraded/optimized pages (2 of 3 cEDH decks only); Curse of Unbinding is the deck's free-card upkeep engine (6845/7774). Spellbook almost-included 22 -> 23."
+  },
+  {
+   "id": "REJECT_THOUGHTRENDER_LAMIA_OVER_BITTERHEART",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_ThoughtrenderLamia_minus_BitterheartWitch_20261023.txt",
+   "raw_sha256": "bdc57857610cf0dbce196b5db732273776265db9562e252615b3a56bf9630f0a",
+   "logical_hash": "lh1:5dbe03bad17af6816a45b8ddb5ff19d7030f165470a039865cf942ce6eee4db9",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Thoughtrender Lamia is a 6-mana constellation discard payoff; Bitterheart Witch (6185/7774) tutors a Curse onto the battlefield when it dies and feeds the engine."
+  },
+  {
+   "id": "REJECT_CURSE_OF_THE_BLOODY_TOME_OVER_MADDENING_HEX",
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_CurseOfTheBloodyTome_minus_MaddeningHex_20261023.txt",
+   "raw_sha256": "57675170424fb8b3c6a060c4bd4c9b558c362b547c3f69e38eec9085e0fe476c",
+   "logical_hash": "lh1:8acf5d7b673c529db537634fc9a62fc1d59dee871b73b39b43062ccfccbac4a2",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Curse of the Bloody Tome is a weak mill Curse (the owner removed Fraying Sanity because the deck has no mill plan); Maddening Hex (6292/7774) deals repeated damage and moves itself."
+  }
+ ]
+}

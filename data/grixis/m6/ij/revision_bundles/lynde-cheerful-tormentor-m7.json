@@ -1,0 +1,237 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Lynde__Cheerful_Tormentor",
+ "slug": "lynde-cheerful-tormentor",
+ "baseline_hash": "lh1:7359723b249d034d4496f17f16bd6f061e7a14c9eb4ac6bb70ae7f058711a5d7",
+ "result_hash": "lh1:a125b99270e7e4fb1229344bcee482d06e96bc2adf797fc9e5a74528e3868408",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/lynde-cheerful-tormentor.json.gz",
+   "sha256": "sha256:b4a636b75a968a716f1aac02ab817d55b6de3e3020b738d5f31a33310979027e"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/lynde-cheerful-tormentor.json.gz",
+   "sha256": "sha256:36744cc2309860d9a7e1508e8672779c2e37a32a3df614d60173cbaccd7c7067"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/lynde-cheerful-tormentor.json",
+   "sha256": "sha256:65748944667a45e45552d7f2a22d818d19a139f7a7463bbdf82b4593a1c4a006"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/lynde-cheerful-tormentor.json",
+   "sha256": "sha256:0658482287ae714e5400848f3d76e694a02ab039f1636c9b13033c32fbab164d"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/lynde-cheerful-tormentor.json",
+   "sha256": "sha256:6dba2db8ddf9d5480b85d560e111d6a13c09a68e50767ec897a270a5610d9186"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor.json",
+   "sha256": "sha256:01bfa4dea307ea3e5ef1a3ed53a18062a76194932339002c203cd3baa223082a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:4b8370a6593d2db71cefaa5fc310e92673ea078fd72818c073dcc2fe1a75e982"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_Scryfall_live_20261023.json",
+   "sha256": "sha256:6e41a8e6bfa071fb186c9b5f1296d1d5c68b9c49dd80738945412a6172629633"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:759c4d5407643db3192fd81460d1ea46abfa042ac6926c7f0ec1760118dde15f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:0a2bcb5e2101ce18647c7dea291027d3ebee599fad0930de5632a9bbfc6df8b3"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Lynde__Cheerful_Tormentor_approved_source_2026-10-14.txt",
+   "sha256": "sha256:05d1c4eea023d25e4308f78b109e80b78e0a3f4d655c3df36743ba3afbf04166"
+  },
+  {
+   "path": "exports/grixis-archidekt/lynde-cheerful-tormentor.txt",
+   "sha256": "sha256:f1d4ed17411a4229260f39f4e79f6f014bffb29f3c601fedf3488d03676abf82"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Lynde__Cheerful_Tormentor.txt",
+   "sha256": "sha256:435717e03dc60e874f638b0daf8ebc9ce2e898d00207985daebe789acf47fb77"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_alt_A_CourtOnly_minus_CruelReality_20261023.txt",
+   "sha256": "sha256:96af06563c0f5b4de90ac177a82fe39aba15be1fdee1664ec9a9b04a5914b49d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_alt_B_ReplicationOnly_minus_CurseOfDeathsHold_20261023.txt",
+   "sha256": "sha256:a2444d3603bcac4c1a17b01068b462cfbfe639f8a7cae0250207469c4387db6b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_staged_plus_StaffOfCompleation_minus_NightscapeFamiliar_20261023.txt",
+   "sha256": "sha256:1a87c017aa2e2bf1518c8cfae7053e0871911f83c63ae60b4c1c2e3931fb420d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_CurseOfChaos_minus_CurseOfEchoes_20261023.txt",
+   "sha256": "sha256:6c66998303e17c31aa9b5ac483482b9d196e4ba30cf901288730b88124bbf63e"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_StrionicResonator_minus_NightscapeFamiliar_20261023.txt",
+   "sha256": "sha256:bdf11bec962c4caf92887df291d49011baaf5639c9a6b8be86170009a878680b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_PassC_plus_BeseechTheMirror_minus_CurseOfTheRestlessDead_20261023.txt",
+   "sha256": "sha256:d3fdbf11ecc59776d590a498889055f1fa17666ea6221c290316dc8912dd9dfa"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_DisturbingMirth_minus_TrespassersCurse_20261023.txt",
+   "sha256": "sha256:5395abdfff7b3f9e5ddff8e80b1a6efdd447a026345d0b2aa5800f0e3ad8434f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_TeferisAgelessInsight_minus_CurseOfUnbinding_20261023.txt",
+   "sha256": "sha256:036a5aa5e498d3e646ea4eea44484bb556dd4200f1d37aab114ba3988f7d3d2f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_ThoughtrenderLamia_minus_BitterheartWitch_20261023.txt",
+   "sha256": "sha256:bdc57857610cf0dbce196b5db732273776265db9562e252615b3a56bf9630f0a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_rejected_plus_CurseOfTheBloodyTome_minus_MaddeningHex_20261023.txt",
+   "sha256": "sha256:57675170424fb8b3c6a060c4bd4c9b558c362b547c3f69e38eec9085e0fe476c"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+   "sha256": "sha256:2d5ed1df227795266fe998f1a477d6be8943f194137f6752a6406ad7f2503a29"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+   "sha256": "sha256:00f3dedec411b3fc8251d368f96eddf4e282bd6e7fd520bb7e40e6dc6aaa461f"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/lynde-cheerful-tormentor-m7.json",
+   "sha256": "sha256:f477c64e1b482fc04ebd83f647e6bdc2d3e563409ea5e2dcb4ae87edfe7a85d5"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_I_local_best_20261023.md",
+   "sha256": "sha256:fd31fc18a14f0d71b85dbec91301ace41e4a528fefe2c5f45d4492533baf2028"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:641a20248bf94ee809041c9d385284099154c64d6c3edf633feadd4a6f5e542e"
+  },
+  {
+   "path": ".github/workflows/m7-lynde-cheerful-tormentor.yml",
+   "sha256": "sha256:78ffaac4e2357fb64bf543f8d24aa222a841b944eb350adf85c5fb65673f7037"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:f860c7759bcaeaeb0b75e2fbc822500f0a2916ecf0e8ad811581b403b45b2e55"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/lynde-cheerful-tormentor.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/lynde-cheerful-tormentor.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:72d8bfcd2d6fd7757de5c151f2781e04980fb90fd5fcc2aa5a63964c290284c1",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:ed5a1c20af6bdf0e999499fd1e07ad8652796051438ec59ec802b6f619e51a98"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_lynde_cheerful_tormentor_m7_mechanics.py",
+    "source_sha256": "sha256:cf3b6562e1c64756f0702bacd0697eaa58149590cb58078a5afcc96986a447eb",
+    "seed": 0,
+    "harness_version": "lynde_cheerful_tormentor_m7_finite_rules_and_bounded_pass_c_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Ten finite Oracle-anchored cases: Lynde, Cheerful Tormentor Oracle (deathtouch, Curse return at the next end step, upkeep move for two cards), legality and mic 2021-09-24 release, 99-card library with 35 lands and exactly two swaps, Game Changers 8, swap Oracle (Court of Vantress monarch copy, Extravagant Replication upkeep copy, Cruel Reality upkeep sacrifice, Curse of Death's Hold -1/-1), Pass C and staged card Oracle, recomputed Part B grids from the receipt's embedded script (B1 246 cells: Lynde lost 42/96 with Cruel Reality, X/1 killed 32/96 with Death's Hold; B2 12 rules cases; B3 180 cells: draws 82 to 204, tokens 0 to 102; B4 72 cells), pinned monotone seeded goldfish cells (P Lynde cast turn 4 0.629 and turn 7 0.8681 both; Lynde plus Court or Replication 0 to 0.1381), hypergeometric 0.7306, Commander Spellbook 0 included (almost-included 17 to 22) and rules-snapshot anchors. Bounded; not a game simulation or win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_lynde_cheerful_tormentor_candidate.py",
+    "source_sha256": "sha256:c9a17bd700282cf14d9fe4b3b7aeef4e80152527fb226b944d9052be7c221380",
+    "seed": 0,
+    "harness_version": "lynde_cheerful_tormentor_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Two-swap identity (+Court of Vantress -Cruel Reality; +Extravagant Replication -Curse of Death's Hold) against vendored and canonical sources, gate RESEARCH_ONLY status with the seal blocker in the withdrawal reason, registry hashes untouched, commander first, alphabetical, 100 physical cards with basics by quantity, distinctness, owner-removed and owner-rejected cards not re-added, every protected-core card kept, 21 judged candidates, 13 weakest slots, ten staged or rejected alternatives as complete 100s with exact deltas, Power Bracket 4 with tags Curses, Enchantress, Control, Game Changers 8, commander legality (mic 2021-09-24); structural only."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #678 head d2132bfb and PR #677 head e117a5ca (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_lynde_cheerful_tormentor_m7_ij.py",
+    "source_sha256": "sha256:579969d0da5c79560a5d043966f80305f7a8e721d99ea79222a64b0ee1cd44f7",
+    "seed": 0,
+    "harness_version": "lynde_cheerful_tormentor_m7_IJ_9_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes and exact per-configuration deltas for 13 configurations, asserts the blocked certificate, asserts that the unchanged J checker rejects this bundle on the Stage A seal mismatch (sealed 59f2dc10... vs actual 02adfb85...), proves the exact cause (the sealed value is the SHA-256 of stage_a.md without its final newline byte; the recorded git blob is the committed file) and that the seal is the only failure, pins the checker sha, leaves the seal bytes unchanged, and exercises the deck-bound preserved Pass C non-independence wording; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_J_red_team_20261023.md",
+  "sha256": "sha256:95ae71678b867b0a8b70afff1bdcca93d6e91942b1db125ba11c7e0c1cbf2057"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_J_mana_20261023.md",
+  "sha256": "sha256:5151e92ec29d9714a912dc170f310a25cabedee5d57bd627704c3c19c51ea5f0"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
