@@ -44,7 +44,7 @@ class AbaddonStage18JPrerequisites(unittest.TestCase):
         for condition in ("Rule of Law", "Drannith Magistrate", "opponent", "postcast",
                           "Keeper of Secrets", "Nalfeshnee", "Noise Marine"):
             if condition == "postcast":
-                self.assertIn("after the wheel was cast", r)
+                self.assertIn("21 triggers *after* the wheel was cast", r)
             else:
                 self.assertIn(condition, r)
         self.assertIn("Formal fresh M6 I tested-pool selection and M6 J", r)
