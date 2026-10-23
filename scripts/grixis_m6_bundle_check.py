@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from pathlib import Path
 import sys
 
@@ -46,6 +47,42 @@ def bind(name, h):
 OWNER_EQUIVALENT = "FORMAL_PASS_C_OWNER_EQUIVALENT"
 OWNER_WAIVER = "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json"
 OWNER_PROGRESS = "data/grixis/m6/owner_pass_c_substitute/progress.json"
+
+# Strict Pass C non-independence disclosure (added for PR #653, Ashad): "technical(ly) independen(ce|t)"
+# followed only by markdown/colon punctuation and then an explicit FALSE, or a NO that ends the clause
+# (so "no longer ..." never matches). Any explicit TRUE/YES statement anywhere vetoes this path.
+# The four legacy substrings below are kept unchanged so every receipt accepted before stays accepted.
+_PASS_C_EXPLICIT_FALSE = re.compile(
+    r"\btechnical(?:ly)?\s+independen(?:ce|t)[\s*:_`]*(?:false\b|no(?=[\s*_`]*(?:[.,;)]|$)))", re.I | re.M)
+_PASS_C_EXPLICIT_TRUE = re.compile(r"\btechnical(?:ly)?\s+independen(?:ce|t)[\s*:_`]*(?:true|yes)\b", re.I)
+
+
+def pass_c_explicit_false_disclosure(text):
+    """Fail closed: True only for an explicit FALSE/NO technical-independence statement with no
+    explicit TRUE/YES statement anywhere in the receipt. Absent or ambiguous wording returns False."""
+    return bool(_PASS_C_EXPLICIT_FALSE.search(text)) and not _PASS_C_EXPLICIT_TRUE.search(text)
+
+
+def _bare(h):
+    return (h or "").removeprefix("sha256:")
+
+
+def registry_bound_digest_discrepancy(row, seal, deck_id):
+    """Accept a progress-ledger/seal digest mismatch ONLY when it is the registry's own
+    recorded historical-digest vs physical-raw discrepancy for this deck.
+
+    Fail closed: the registry must say recorded_matches_raw is False, the ledger must
+    carry exactly the registry's recorded (historical) digest, the Stage A seal must
+    carry exactly the registry's physical raw SHA-256, and the two must differ. Nothing
+    is rewritten; the historical value is preserved and merely reconciled.
+    """
+    deck = load(REGISTRY)["decks"].get(deck_id) or {}
+    src = deck.get("source") or {}
+    recorded, physical = _bare(src.get("recorded_sha256")), _bare(src.get("raw_sha256"))
+    return (src.get("recorded_matches_raw") is False
+            and bool(recorded) and bool(physical) and recorded != physical
+            and _bare(row.get("canonical_approved_sha256")) == recorded
+            and _bare(seal.get("canonical_input_sha256")) == physical)
 
 
 def validate_pass_c(judgment, deck_id):
@@ -102,7 +139,8 @@ def validate_pass_c(judgment, deck_id):
         or not all(row.get(k) is True for k in ("stage_a_complete", "stage_b_complete", "final_complete", "canonical_unchanged"))
         or row.get("owner_swap_approved") is not False
         or row.get("final_evidence_path") != expected["judgment_receipt_path"]
-        or row.get("canonical_approved_sha256") != seal.get("canonical_input_sha256")
+        or not (row.get("canonical_approved_sha256") == seal.get("canonical_input_sha256")
+                or registry_bound_digest_discrepancy(row, seal, deck_id))
         or row.get("first_stage_commit_sha") != seal.get("git_first_stage_commit_sha")
         or seal.get("deck_id") != deck_id
         or seal.get("review_class_after_final") != OWNER_EQUIVALENT
@@ -118,6 +156,9 @@ def validate_pass_c(judgment, deck_id):
     disclosed_nonindependence = (
         "Technically independent third model" in final
         or "**actual technical independence:** false" in final
+        or "**Technically independent:** NO." in final
+        or "**Technically independent:** FALSE." in final  # Anhelo__the_Painter preserved wording
+        or pass_c_explicit_false_disclosure(final)  # strict pattern, e.g. Ashad__the_Lone_Cyberman
     )
     if ("ChatGPT/OpenAI GPT-6" not in final
         or not disclosed_nonindependence
