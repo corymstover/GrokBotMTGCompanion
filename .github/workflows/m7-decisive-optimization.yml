@@ -307,6 +307,17 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage12_openended_portfolios.py' -v
       - name: Verify Abaddon stage13 live EDHREC Oracle, Mage offspring cost, protected 5-7 swap exact 100s
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage13_offranking_protected_packages.py' -v
+      - name: Check Abaddon stage14 provisional exact six-source payable timing and offline fail-closed Oracle
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage14_candidate_preflight.py' -v
+      - name: Live audit all 100 new Abaddon stage14 source names without transposing older I-J
+        run: python -m scripts.grixis_m7_abaddon_stage14_live_oracle --out "${{ runner.temp }}/abaddon-stage14-provisional-oracle.json"
+      - name: Preserve current 100-card changed Abaddon Oracle candidate-only evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: abaddon-stage14-provisional-oracle-${{ github.event.pull_request.head.sha || github.sha }}
+          path: ${{ runner.temp }}/abaddon-stage14-provisional-oracle.json
+          if-no-files-found: error
+          retention-days: 60
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval
