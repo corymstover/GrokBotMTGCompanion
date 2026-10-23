@@ -1168,7 +1168,8 @@
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw 9a393cb7 == overrides == tracker == registry; 100 physical/94 rows, 2x Island 2x Mountain 5x Swamp; no terminal newline); shared infra copied from #669 3d550c79; draft PR #670 created 2026-10-23T12:31:16-0500 (GitHub createdAt 17:31:16Z)"
+    "baseline_provenance (canonical main 9b26aa28; raw 9a393cb7 == overrides == tracker == registry; 100 physical/94 rows, 2x Island 2x Mountain 5x Swamp; no terminal newline); shared infra copied from #669 3d550c79; draft PR #670 created 2026-10-23T12:31:16-0500 (GitHub createdAt 17:31:16Z)",
+    "research_discovery"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
@@ -1177,7 +1178,7 @@
    "next_step": "research: Scryfall live, EDHREC, Spellbook, bounded Pass C test, candidate judgments",
    "stage": "RESEARCH_IN_PROGRESS",
    "last_pushed_sha": "4ceabe6feb66dcba6312da85634e5aed77df7ca2",
-   "last_checkpoint_commit": "4ceabe6feb66dcba6312da85634e5aed77df7ca2",
+   "last_checkpoint_commit": "357c1b77fd9946774b1d132f2c51f2dcf255112f",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/670",
    "pr_is_draft": true,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 4ef2c267, introduced by 111f903e 2026-10-14; registry source_commit 1836b97 same bytes)",
