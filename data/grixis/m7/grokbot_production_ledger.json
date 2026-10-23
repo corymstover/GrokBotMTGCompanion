@@ -1290,28 +1290,29 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck24-jeleva-nephalias-scourge-m7-20261023",
    "working_branch": "grokbot-deck24-jeleva-nephalias-scourge-m7-20261023",
-   "last_pushed_commit": "2bb329d72d17beb41881136ea70191118834e8f1",
+   "last_pushed_commit": "db8d0df9588ddc837739e64a182e88180e4c8d6b",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/672",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw 00e3f521 == overrides == tracker == registry; blob 8cdc5b5a from approval commit d53789d1; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #671 head 1efba1a2; draft PR #672"
+    "baseline_provenance (canonical main 9b26aa28; raw 00e3f521 == overrides == tracker == registry; blob 8cdc5b5a from approval commit d53789d1; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #671 head 1efba1a2; draft PR #672",
+    "research (live Scryfall 100+109, EDHREC 4 pages incl. 30-deck cEDH sample, Commander Spellbook baseline 7 combos/candidate/8 alternatives) and Pass C bounded tests T1-T6 (stager access, hostile Intuition enumeration, Galvanic copy classification, enabler access, Mox Opal metalcraft, land sources); interim 0 genuine admissible swaps"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_REQUESTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "research: live Scryfall, EDHREC, Spellbook, off-ranking candidates, incumbent challenges",
-   "next_step": "research: live Scryfall, EDHREC, Spellbook, off-ranking candidates, incumbent challenges",
+   "next_action": "Snapshots, tested pool, decision review, memos, tests, workflow; full suite; mark PR ready",
+   "next_step": "Generate certification artifacts",
    "stage": "RESEARCH_IN_PROGRESS",
-   "last_pushed_sha": "2bb329d72d17beb41881136ea70191118834e8f1",
-   "last_checkpoint_commit": "2bb329d72d17beb41881136ea70191118834e8f1",
+   "last_pushed_sha": "db8d0df9588ddc837739e64a182e88180e4c8d6b",
+   "last_checkpoint_commit": "db8d0df9588ddc837739e64a182e88180e4c8d6b",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/672",
    "pr_is_draft": true,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 8cdc5b5a, introduced by d53789d1 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T13:31:36-0500",
-   "last_checkpoint_at": "2026-10-23T13:31:36-0500"
+   "updated_at": "2026-10-23T13:39:38-0500",
+   "last_checkpoint_at": "2026-10-23T13:39:38-0500"
   },
   {
    "tracker_number": 25,
