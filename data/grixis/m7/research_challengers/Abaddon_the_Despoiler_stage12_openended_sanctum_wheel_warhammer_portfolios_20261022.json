@@ -89,7 +89,7 @@
         "card": "Noise Marine",
         "context": "main 6756 deck sample; high lift",
         "inclusion_percent": 48,
-        "decks": 3220,
+        "decks": "3.22K (displayed; rounded)",
         "lift": "65x"
       }
     ],
