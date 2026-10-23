@@ -5,4 +5,4 @@ Completed: EDHREC / Scryfall-live / Commander Spellbook (baseline+candidate) dis
 Tentative five: +Corridor Monitor -Foundry Inspector; +Aether Spellbomb -Fellwar Stone; +Audacious Reshapers -Talisman of Indulgence; +Priest of Forgotten Gods -Walking Ballista; +Thopter Squadron -Esoteric Duplicator.
 Spellbook: baseline 15 included -> candidate 16 (+3 Ashnod lines, -2 Foundry Inspector variants).
 Baseline note: overrides say "three current-cycle swaps"; tracker says only Commander's Sphere -> Trading Post. Disclosed; raw hash authoritative.
-Next: decision packet + gate, I/J artifacts, tests, workflow.
+Completed: decision packet (gate --check --check-sources PASS, 18 candidates, 13 weak slots, 10 post-floor). Next: oracle/rules snapshots, I/J artifacts, tests, workflow.
