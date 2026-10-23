@@ -1,0 +1,281 @@
+{
+ "deck_id": "Jeleva__Nephalia_s_Scourge",
+ "purpose": "Bounded finite version of the M6 Pass C requested measured tests (Intuition vs Long-Term Plans and vs Scheming Symmetry; Galvanic Iteration vs Borne Upon a Wind) plus incumbent-challenge measurements; exact, no sampling, no simulator claims",
+ "not_run_and_why": "A full multiplayer game simulation of hostile opponent play, earliest attack turn under interaction and Breach-pile success rates was not run: no validated simulator exists in this repository, and an unvalidated one would manufacture precision. The bounded version measures stager/enabler access exactly, enumerates every hostile Intuition choice for the three relevant piles, and classifies every Galvanic Iteration copy target in the 99 by rules.",
+ "script": "exact hypergeometric (python math.comb) over the actual 99 of the approved list",
+ "method": "exact hypergeometric / exhaustive enumeration over the actual 99 (no sampling); n = cards seen (7 opening + draws)",
+ "T1_stagers": {
+  "cards": {
+   "Mystical Tutor": "top",
+   "Vampiric Tutor": "top",
+   "Imperial Seal": "top",
+   "Personal Tutor": "top (sorcery)",
+   "Scheming Symmetry": "top (also tutors a chosen opponent)",
+   "Long-Term Plans": "third from top (captured by any X>=3; Jeleva's minimum normal cast is X=4)",
+   "Lim-Dûl's Vault": "top five ordered",
+   "Brainstorm": "two from hand on top",
+   "Scroll Rack": "any number from hand on top",
+   "Sensei's Divining Top": "reorder top three",
+   "Ponder": "reorder top three"
+  },
+  "count_in_baseline": 11
+ },
+ "T1_rules": "Jeleva's ETB exiles the top X of each library, X = mana spent to cast her (CR 107.3/601.2f; commander tax increases X). A card put third from the top by Long-Term Plans is captured immediately by any X>=3, so the GrokBot advisory premise that Long-Term Plans 'waits two draws' is false for the Jeleva line. Intuition puts one card into hand and two into the graveyard; it never places a card in the library, so it is not a Jeleva stager and its cards are never 'exiled with Jeleva' (CR 607.2a linked abilities).",
+ "T1_stager_access_exact": {
+  "opening 7": {
+   "baseline_P_ge1_stager": 0.5736,
+   "minus_one_stager (Intuition replacing Long-Term Plans or Scheming Symmetry), direct stagers": 0.5372,
+   "minus_one_stager_plus_Intuition_as_indirect (stager count unchanged, but Intuition costs 3 and then the stager must still be cast)": 0.5736
+  },
+  "turn 1 on the draw / turn 2 on the play (8)": {
+   "baseline_P_ge1_stager": 0.6246,
+   "minus_one_stager (Intuition replacing Long-Term Plans or Scheming Symmetry), direct stagers": 0.5875,
+   "minus_one_stager_plus_Intuition_as_indirect (stager count unchanged, but Intuition costs 3 and then the stager must still be cast)": 0.6246
+  },
+  "turn 3 on the play (9)": {
+   "baseline_P_ge1_stager": 0.6699,
+   "minus_one_stager (Intuition replacing Long-Term Plans or Scheming Symmetry), direct stagers": 0.6328,
+   "minus_one_stager_plus_Intuition_as_indirect (stager count unchanged, but Intuition costs 3 and then the stager must still be cast)": 0.6699
+  },
+  "turn 3 on the draw / turn 4 on the play (10)": {
+   "baseline_P_ge1_stager": 0.7103,
+   "minus_one_stager (Intuition replacing Long-Term Plans or Scheming Symmetry), direct stagers": 0.6736,
+   "minus_one_stager_plus_Intuition_as_indirect (stager count unchanged, but Intuition costs 3 and then the stager must still be cast)": 0.7103
+  }
+ },
+ "T2_Intuition_hostile_enumeration": [
+  {
+   "pile": [
+    "Underworld Breach",
+    "Lion's Eye Diamond",
+    "Brain Freeze"
+   ],
+   "opponent_choice_outcomes": {
+    "Underworld Breach to hand": "Combo live only if graveyard holds >=6 other cards to pay two escape exiles of three (LED {0}+3, Brain Freeze {1}{U}+3); Intuition itself is one. Live later in the game, not on turns 1-3.",
+    "Lion's Eye Diamond to hand": "Underworld Breach is in the graveyard; nothing in the 99 casts an enchantment from the graveyard except Yawgmoth's Will (play cards from graveyard this turn) or Mnemonic Betrayal (opponents' graveyards only, so no). Line dead without Yawgmoth's Will.",
+    "Brain Freeze to hand": "Same as above: Breach stranded. Line dead without Yawgmoth's Will.",
+    "hostile_result": "Opponent gives LED or Brain Freeze; pile fails in 2 of 3 choices and the hostile opponent always picks one of them."
+   }
+  },
+  {
+   "pile": [
+    "Thassa's Oracle",
+    "Demonic Consultation",
+    "Tainted Pact"
+   ],
+   "opponent_choice_outcomes": {
+    "Thassa's Oracle to hand": "Both enablers in graveyard; no flashback/recursion in the 99 for instants except Yawgmoth's Will or Underworld Breach. Dead otherwise.",
+    "Demonic Consultation or Tainted Pact to hand": "Oracle in graveyard; no reanimation in the 99. Dead.",
+    "hostile_result": "Fails under any hostile choice unless Yawgmoth's Will/Breach is already available."
+   }
+  },
+  {
+   "pile": [
+    "Mystical Tutor",
+    "Vampiric Tutor",
+    "Personal Tutor"
+   ],
+   "opponent_choice_outcomes": {
+    "any": "Hand gets one stager; the hostile choice is Personal Tutor (sorcery-only, sorcery speed). Net: 3 mana + 1 more mana to stage, against Long-Term Plans' 3 mana at instant speed straight to position 3, or Scheming Symmetry's 1 mana straight to top.",
+    "hostile_result": "Always yields a stager, but strictly slower than either incumbent it would replace."
+   }
+  }
+ ],
+ "T2_conclusion": "Under hostile opponent choice Intuition never beats Long-Term Plans or Scheming Symmetry at the Jeleva top-stage job; its best pile is a slower stager. Breach and Oracle piles are dead under hostile choice in the early turns. Scheming Symmetry's cost is acknowledged: its two target players must be different players (CR 115.3), so one other player (normally an opponent) also tutors a card to the top of their library.",
+ "T3_Galvanic_vs_Borne": {
+  "instants_and_sorceries_in_99": 45,
+  "copy_outcomes": {
+   "Ad Nauseam": "second Ad Nauseam (life risk)",
+   "An Offer You Can't Refuse": "second counter (target must differ)",
+   "Borne Upon a Wind": "one card",
+   "Brain Freeze": "+3 cards milled per player targeted (copy not counted for storm)",
+   "Brainstorm": "second Brainstorm",
+   "Cabal Ritual": "+BBB or +BBBBB",
+   "Chain of Vapor": "second bounce",
+   "Dark Ritual": "+BBB",
+   "Deflecting Swat": "redirect a second target",
+   "Demonic Consultation": "harmful (exiles further)",
+   "Demonic Tutor": "second tutor",
+   "Doomsday": "harmful (second pile overwrites)",
+   "Fierce Guardianship": "second counter",
+   "Final Fortune": "no added value: each copy creates its own extra turn with its own lose trigger at that turn's end step, so you lose at the end of the first extra turn",
+   "Flusterstorm": "one more copy",
+   "Force of Negation": "second counter",
+   "Force of Will": "second counter",
+   "Gamble": "second tutor plus a second random discard",
+   "Gitaxian Probe": "one card",
+   "Imperial Seal": "second tutor",
+   "Into the Flood Maw": "second bounce",
+   "Jeska's Will": "second mana burst/exile three",
+   "Lim-Dûl's Vault": "second ordering",
+   "Long-Term Plans": "second tutor",
+   "Mental Misstep": "second counter",
+   "Mind's Desire": "extra Desire resolution (copy not cast, so it adds no storm trigger; CR 707.10, 702.40a)",
+   "Mindbreak Trap": "exiles more",
+   "Mnemonic Betrayal": "redundant (same graveyards)",
+   "Mystical Tutor": "second tutor to top",
+   "Pact of Negation": "second counter (no upkeep for the copy)",
+   "Peer into the Abyss": "harmful if self-targeted (draw half the remainder, lose half life again) unless retargeted to an opponent",
+   "Personal Tutor": "second tutor",
+   "Ponder": "second Ponder",
+   "Preordain": "second Preordain",
+   "Pyroblast": "second counter",
+   "Red Elemental Blast": "second counter",
+   "Rite of Flame": "+RR (copy is not a Rite cast in a graveyard count)",
+   "Scheming Symmetry": "another two tutors (opponents benefit too)",
+   "Swan Song": "second counter",
+   "Tainted Pact": "redundant",
+   "Toxic Deluge": "redundant",
+   "Vampiric Tutor": "second tutor to top (only one card stays on top)",
+   "Wheel of Fortune": "second wheel",
+   "Windfall": "second wheel",
+   "Yawgmoth's Will": "redundant (no added value)"
+  },
+  "copy_no_value_or_harmful": [
+   "Demonic Consultation",
+   "Doomsday",
+   "Final Fortune",
+   "Mnemonic Betrayal",
+   "Peer into the Abyss",
+   "Tainted Pact",
+   "Toxic Deluge",
+   "Yawgmoth's Will"
+  ],
+  "rules": "Galvanic Iteration copies the next instant or sorcery you cast this turn; a copy is not cast (CR 707.10), so it adds no storm count and no prowess/Harmonic Prodigy trigger; flashback {1}{U}{R} gives a second use. Borne Upon a Wind lets every spell you cast this turn have flash and draws a card: it lets Jeleva herself be cast at an opponent's end step so she has been under control since the start of your turn and attacks without a haste source (CR 302.6), and lets sorcery-speed Doomsday/Ad Nauseam/Wheel/Peer/Mind's Desire be cast in response or off-turn.",
+  "haste_or_flash_enablers_baseline": [
+   "Torch Courier",
+   "Lightning Greaves",
+   "Arena of Glory",
+   "Borne Upon a Wind"
+  ]
+ },
+ "T3_enabler_access_exact": {
+  "opening 7": {
+   "baseline (4 enablers)": 0.2577,
+   "Galvanic replacing Borne (3 enablers)": 0.1994
+  },
+  "turn 1 on the draw / turn 2 on the play (8)": {
+   "baseline (4 enablers)": 0.29,
+   "Galvanic replacing Borne (3 enablers)": 0.2255
+  },
+  "turn 3 on the play (9)": {
+   "baseline (4 enablers)": 0.3212,
+   "Galvanic replacing Borne (3 enablers)": 0.251
+  },
+  "turn 3 on the draw / turn 4 on the play (10)": {
+   "baseline (4 enablers)": 0.3514,
+   "Galvanic replacing Borne (3 enablers)": 0.276
+  }
+ },
+ "T4_Mox_Opal": {
+  "artifacts_in_99": [
+   "Arcane Signet",
+   "Chrome Mox",
+   "Fellwar Stone",
+   "Grim Monolith",
+   "Lightning Greaves",
+   "Lion's Eye Diamond",
+   "Lotus Petal",
+   "Mana Vault",
+   "Mox Diamond",
+   "Mox Opal",
+   "Scroll Rack",
+   "Sensei's Divining Top",
+   "Sol Ring",
+   "Talisman of Creativity",
+   "Talisman of Dominance",
+   "Wishclaw Talisman"
+  ],
+  "count": 16,
+  "all_other_artifacts_MV_le_2": true,
+  "P_ge2_other_artifacts_given_Opal_in_hand": {
+   "6 other cards": 0.2277,
+   "7 other cards": 0.2906,
+   "8 other cards": 0.3536,
+   "9 other cards": 0.4152
+  }
+ },
+ "T5_Spellseeker_reach": {
+  "MV_le_2_instants_sorceries": [
+   "An Offer You Can't Refuse",
+   "Borne Upon a Wind",
+   "Brain Freeze",
+   "Brainstorm",
+   "Cabal Ritual",
+   "Chain of Vapor",
+   "Dark Ritual",
+   "Demonic Consultation",
+   "Demonic Tutor",
+   "Final Fortune",
+   "Flusterstorm",
+   "Gamble",
+   "Gitaxian Probe",
+   "Imperial Seal",
+   "Into the Flood Maw",
+   "Lim-Dûl's Vault",
+   "Mental Misstep",
+   "Mystical Tutor",
+   "Pact of Negation",
+   "Personal Tutor",
+   "Ponder",
+   "Preordain",
+   "Pyroblast",
+   "Red Elemental Blast",
+   "Rite of Flame",
+   "Scheming Symmetry",
+   "Swan Song",
+   "Tainted Pact",
+   "Vampiric Tutor"
+  ],
+  "count": 29,
+  "note": "Spellseeker's ETB is a Wizard trigger, so Harmonic Prodigy doubles it (two tutors) only when Prodigy is already on the battlefield; it costs {2}{U} against Mental Misstep's free {U/P}."
+ },
+ "T6_land_colour_sources": {
+  "lands": 27,
+  "U_B_R": {
+   "U": 21,
+   "B": 20,
+   "R": 19
+  },
+  "per_land": {
+   "Ancient Tomb": "",
+   "Arena of Glory": "R",
+   "Arid Mesa": "BRU",
+   "Badlands": "BR",
+   "Blood Crypt": "BR",
+   "Bloodstained Mire": "BRU",
+   "City of Brass": "BRU",
+   "City of Traitors": "",
+   "Command Tower": "BRU",
+   "Exotic Orchard": "BRU",
+   "Flooded Strand": "BRU",
+   "Gemstone Caverns": "BRU",
+   "Island": "U",
+   "Mana Confluence": "BRU",
+   "Marsh Flats": "BRU",
+   "Misty Rainforest": "BRU",
+   "Morphic Pool": "BU",
+   "Otawara, Soaring City": "U",
+   "Polluted Delta": "BRU",
+   "Scalding Tarn": "BRU",
+   "Steam Vents": "RU",
+   "Swamp": "B",
+   "Underground Sea": "BU",
+   "Verdant Catacombs": "BRU",
+   "Volcanic Island": "RU",
+   "Watery Grave": "BU",
+   "Wooded Foothills": "BRU"
+  },
+  "note": "Gemstone Caverns counted as any colour only with a luck counter (not starting player and in opening hand); Exotic Orchard is opponent-dependent and produces nothing on turn 1 on the play.",
+  "Forbidden Orchard over Exotic Orchard": {
+   "U": 21,
+   "B": 20,
+   "R": 19
+  },
+  "Hanweir Battlements over Arena of Glory": {
+   "U": 21,
+   "B": 20,
+   "R": 18
+  }
+ }
+}
