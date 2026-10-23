@@ -1225,20 +1225,24 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
+   "working_branch": "grokbot-deck23-inalla-archmage-ritualist-m7-20261023",
+   "last_pushed_commit": "cdf7c05ea1b17bb5194d42beb37b5d9545f811d1",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/671",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "completed_stages": [
+    "baseline_provenance (canonical main 9b26aa28; raw 81333ac7 == overrides == tracker == registry; blob 204b8096 from approval commit afb35c06; 100 physical/100 rows/100 names, 27 lands; no terminal newline); shared infra copied from PR #670 head 7483728a; draft PR #671"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Research: Scryfall live, EDHREC, Spellbook, off-ranking Wizards; Pass C bounded test (Kefka vs Dualcaster/Micromancer, Trainer vs Snapcaster)",
+   "next_step": "Research: Scryfall live, EDHREC, Spellbook, off-ranking Wizards; Pass C bounded test",
+   "updated_at": "2026-10-23T13:05:19-0500",
+   "last_checkpoint_at": "2026-10-23T13:05:19-0500"
   },
   {
    "tracker_number": 24,
