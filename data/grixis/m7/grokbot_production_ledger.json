@@ -1480,30 +1480,66 @@
    "baseline_raw_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
    "registry_recorded_sha256": "f36346d4ba965db1e098b0aa92d27a968ee3a14c74a2b9401c1a5357f83c025c",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Grixistax___October_2026.txt",
+   "candidate_raw_sha256": "a04f16ba3a75bd53963866fd0b18c0390af54930b5526e6893ac6c6a6503b858",
+   "current_candidate_sha": "a04f16ba3a75bd53963866fd0b18c0390af54930b5526e6893ac6c6a6503b858",
    "branch": "grokbot-deck27-grixistax-october-2026-m7-20261023",
    "working_branch": "grokbot-deck27-grixistax-october-2026-m7-20261023",
-   "last_pushed_commit": "553ab98fa1e5e9fb3f6195d83dce6e68a3665880",
+   "last_pushed_commit": "3465b542cecca0164737e2cdedb85e9d171be665",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/675",
-   "swap_count": null,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "swap_count": 2,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 27 Grixistax October 2026 research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40020608195",
+     "conclusion": "success",
+     "head": "3465b542cecca0164737e2cdedb85e9d171be665"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40020608110",
+     "conclusion": "success",
+     "head": "3465b542cecca0164737e2cdedb85e9d171be665"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40020608150",
+     "conclusion": "success",
+     "head": "3465b542cecca0164737e2cdedb85e9d171be665"
+    }
+   ],
+   "blockers": [
+    "two genuine swaps (+Arcane Signet -Mox Amber, +Bitterblossom -Windfall, both MODERATE); five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 2, 20 material candidates, 17 incumbents challenged)"
+   ],
+   "unresolved_issues": [
+    "data caveat: Windfall in 53/81 Kraum+Tevesh cEDH lists; Bitterblossom 40/122 on Tevesh page, 2/19 on a smaller partner page, not listed on the 81-list page; case rests on measured token engine (T4 0.153->0.231) and deck fit, not adoption",
+    "staged owner decisions not counted: Opposition over Static Orb or Magus of the Moon; Bitterblossom over Cyclonic Rift or Magus of the Moon keeping Windfall",
+    "Pass C competing cut +Arcane Signet -Overburden rejected (Overburden owner explicit keep); baseline tension disclosed: own Torpor Orb stops Overburden and Orcish Bowmasters triggers",
+    "Pass C matched-hand games and win rates not run (no validated game engine or opponent model); bounded seeded/exact tests only",
+    "tracker row PENDING vs overrides APPROVED/LOCKED (disclosed, not changed)",
+    "after PR 674 merges the J checker counts 3/62 bundles; shared infra in this PR is byte-identical to PR 674 head b505d828"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw f36346d4 == overrides == registry == tracker == Pass C seal; blob 86b8d18a from approval commit cc7a938; byte copy; commanders = Partner pair Kraum, Ludevic's Opus + Tevesh Szat, Doom of Fools, deck ID is not a commander name)",
     "shared_infra_copied_byte_identical_from_PR674_b505d828",
     "draft_pr_675",
-    "research_checkpoint_553ab98f (live Scryfall 214 names, frozen 0 diffs; EDHREC partner+Tevesh; Spellbook 6->6; Pass C bounded tests seed 27; tested pool 12)"
+    "research_checkpoint_553ab98f (live Scryfall 214 names, frozen 0 diffs; EDHREC partner+Tevesh; Spellbook 6->6; Pass C bounded tests seed 27; tested pool 12)",
+    "package: decision review, I/J local-best, mana and red-team memos, adversarial packet, cert + bundle, 3 deck tests (28 methods), workflow; WIP checkpoint removed; pushed 3465b542cecca0164737e2cdedb85e9d171be665",
+    "full suite once at 3465b542cecca0164737e2cdedb85e9d171be665: 24F/1630P/18S/86E, failure and error IDs identical to base b6b40ac8; PR 675 marked ready (RESEARCH_ONLY); exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "I/J memos, decision review, certificate/bundle, tests, workflow; working candidate two swaps (RESEARCH_ONLY)",
-   "next_step": "Build artifacts for two-swap RESEARCH_ONLY candidate",
-   "updated_at": "2026-10-23T15:21:29-0500",
-   "last_checkpoint_at": "2026-10-23T15:21:29-0500"
+   "next_action": "owner decision on RESEARCH_ONLY two-swap candidate (staged Opposition and keep-Windfall alternatives); next deck #28 Loki__the_Deceiver",
+   "next_step": "owner decision on RESEARCH_ONLY two-swap candidate; next deck #28 Loki__the_Deceiver",
+   "updated_at": "2026-10-23T15:39:53-0500",
+   "last_checkpoint_at": "2026-10-23T15:39:53-0500",
+   "last_pushed_sha": "3465b542cecca0164737e2cdedb85e9d171be665",
+   "last_checkpoint_commit": "3465b542cecca0164737e2cdedb85e9d171be665",
+   "stage": "RESEARCH_ONLY_BLOCKED",
+   "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/675",
+   "pr_is_draft": false,
+   "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 86b8d18a, introduced by cc7a938 2026-10-14; registry source_commit 1836b97 same bytes)"
   },
   {
    "tracker_number": 28,
