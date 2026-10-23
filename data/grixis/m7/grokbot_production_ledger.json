@@ -846,8 +846,8 @@
    "pr_status": "DRAFT_WIP",
    "last_checkpoint_commit": "5f8dc442f429db18508af4fb6f75a31f97d2f48d",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 46df00ee, frozen by 1e0b2e94; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T10:00:00-05:00",
-   "updated_at": "2026-10-23T10:00:00-05:00"
+   "last_checkpoint_at": "2026-10-23T09:59:35-05:00",
+   "updated_at": "2026-10-23T09:59:43-05:00"
   },
   {
    "tracker_number": 18,
