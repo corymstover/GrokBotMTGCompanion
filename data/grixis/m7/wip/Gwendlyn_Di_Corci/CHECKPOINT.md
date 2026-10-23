@@ -9,6 +9,9 @@
   100 physical cards / 94 rows (2x Island, 2x Mountain, 5x Swamp); no terminal newline in the canonical bytes (copied exactly).
   Archidekt export exports/grixis-archidekt/gwendlyn-di-corci.txt has the same 94 names / 100 quantities.
 - Shared infra copied byte-identically from PR #669 head 3d550c79 (bundle checker SHA 2962a640...).
-- Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C requested test
-  (+Aphetto Alchemist / -Magewright's Stone), candidate judgments.
-- Checkpoint written: 2026-10-23T12:31:05-0500
+- Completed: baseline_provenance; research (live Scryfall 94 baseline + 115 candidates; EDHREC general/upgraded/optimized/cEDH;
+  Commander Spellbook baseline/candidate/alternatives); bounded Pass C test drafted (+Aphetto Alchemist / -Magewright's Stone).
+- Gwendlyn Di Corci: Legends (leg) 1994-06-01, reprint me3 2009-09-07; live Scryfall Commander legal; not a Game Changer. No exception needed.
+- Working finding: Spellbook 283-4091 shows Aphetto Alchemist + Illusionist's Bracers is a 2-card infinite untap/mana engine (owner decision, not a first-pass swap).
+- Working candidate: +Hymn to Tourach / -Dauthi Voidwalker (Dauthi's graveyard replacement disables owner-kept Tergrid, Bloodchief Ascension, Tinybones, Bauble Burglar). Expected RESEARCH_ONLY (under five genuine swaps).
+- Checkpoint written: 2026-10-23T12:40:04-0500

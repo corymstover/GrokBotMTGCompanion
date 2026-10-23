@@ -1,0 +1,1058 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 52,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "936-1290",
+    "uses": [
+     "Bloodchief Ascension",
+     "Mindcrank"
+    ],
+    "produces": [
+     "Infinite mill",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite lifeloss"
+    ]
+   },
+   {
+    "id": "1561-2498",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2720",
+    "uses": [
+     "Peer into the Abyss",
+     "Underworld Dreams"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1211-4603",
+    "uses": [
+     "Maralen of the Mornsong",
+     "Opposition Agent"
+    ],
+    "produces": [
+     "Lock",
+     "Players can't draw cards",
+     "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+    ]
+   },
+   {
+    "id": "2085-3525",
+    "uses": [
+     "Kelpie Guide",
+     "Pemmin's Aura"
+    ],
+    "produces": [
+     "Infinite mana permanents you control can produce"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "1368-2706-3518",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Wheel of Fortune"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite looting for opponents",
+     "Near-infinite storm count"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 50,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1414-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lotus Petal",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill"
+    ]
+   },
+   {
+    "id": "1368-3518-4856",
+    "uses": [
+     "Underworld Breach",
+     "Lion's Eye Diamond",
+     "Brain Freeze"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite colored mana",
+     "Near-infinite magecraft triggers",
+     "Near-infinite mill",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "1368-1878-2706",
+    "uses": [
+     "Underworld Breach",
+     "Wheel of Fortune",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite draw triggers for all players",
+     "Infinite looting for all players",
+     "Near-infinite magecraft triggers",
+     "Near-infinite storm count"
+    ]
+   },
+   {
+    "id": "936-1290",
+    "uses": [
+     "Bloodchief Ascension",
+     "Mindcrank"
+    ],
+    "produces": [
+     "Infinite mill",
+     "Near-infinite lifegain",
+     "Near-infinite lifegain triggers",
+     "Near-infinite lifeloss"
+    ]
+   },
+   {
+    "id": "1561-2498",
+    "uses": [
+     "Sheoldred, the Apocalypse",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Near-infinite card draw for target opponent",
+     "Near-infinite draw triggers for target opponent",
+     "Near-infinite lifeloss for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1561-3862",
+    "uses": [
+     "Orcish Bowmasters",
+     "Peer into the Abyss"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite card draw for target opponent",
+     "Near-infinite damage",
+     "Near-infinite draw triggers for target opponent",
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1368-3698--44",
+    "uses": [
+     "Underworld Breach",
+     "Grinding Station"
+    ],
+    "produces": [
+     "Infinite self-mill",
+     "Near-infinite storm count",
+     "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1561-2720",
+    "uses": [
+     "Peer into the Abyss",
+     "Underworld Dreams"
+    ],
+    "produces": [
+     "Target opponent loses the game"
+    ]
+   },
+   {
+    "id": "1211-4603",
+    "uses": [
+     "Maralen of the Mornsong",
+     "Opposition Agent"
+    ],
+    "produces": [
+     "Lock",
+     "Players can't draw cards",
+     "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+    ]
+   },
+   {
+    "id": "2085-3525",
+    "uses": [
+     "Kelpie Guide",
+     "Pemmin's Aura"
+    ],
+    "produces": [
+     "Infinite mana permanents you control can produce"
+    ]
+   }
+  ]
+ },
+ "alternatives": {
+  "Gwendlyn_Di_Corci_PassC_plus_AphettoAlchemist_minus_MagewrightsStone_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "283-4091",
+     "uses": [
+      "Illusionist's Bracers",
+      "Aphetto Alchemist"
+     ],
+     "produces": [
+      "Infinite mana artifacts you control can produce",
+      "Infinite mana creatures you control can produce",
+      "Infinite untap of artifacts you control",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 60,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1211-4603",
+     "uses": [
+      "Maralen of the Mornsong",
+      "Opposition Agent"
+     ],
+     "produces": [
+      "Lock",
+      "Players can't draw cards",
+      "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+     ]
+    },
+    {
+     "id": "2085-3525",
+     "uses": [
+      "Kelpie Guide",
+      "Pemmin's Aura"
+     ],
+     "produces": [
+      "Infinite mana permanents you control can produce"
+     ]
+    }
+   ]
+  },
+  "Gwendlyn_Di_Corci_PassC_plus_RingsOfBrighthearth_minus_MindTwist_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 54,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "4131-4235",
+     "uses": [
+      "Rings of Brighthearth",
+      "Basalt Monolith"
+     ],
+     "produces": [
+      "Infinite colorless mana"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1211-4603",
+     "uses": [
+      "Maralen of the Mornsong",
+      "Opposition Agent"
+     ],
+     "produces": [
+      "Lock",
+      "Players can't draw cards",
+      "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+     ]
+    }
+   ]
+  },
+  "Gwendlyn_Di_Corci_two_HymnToTourach_AphettoAlchemist_over_Dauthi_MagewrightsStone_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "283-4091",
+     "uses": [
+      "Illusionist's Bracers",
+      "Aphetto Alchemist"
+     ],
+     "produces": [
+      "Infinite mana artifacts you control can produce",
+      "Infinite mana creatures you control can produce",
+      "Infinite untap of artifacts you control",
+      "Infinite untap of creatures you control"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 58,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1211-4603",
+     "uses": [
+      "Maralen of the Mornsong",
+      "Opposition Agent"
+     ],
+     "produces": [
+      "Lock",
+      "Players can't draw cards",
+      "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+     ]
+    },
+    {
+     "id": "2085-3525",
+     "uses": [
+      "Kelpie Guide",
+      "Pemmin's Aura"
+     ],
+     "produces": [
+      "Infinite mana permanents you control can produce"
+     ]
+    }
+   ]
+  },
+  "Gwendlyn_Di_Corci_two_WhisperingMadness_over_ReforgeTheSoul_20261023.txt": {
+   "identity": "UBR",
+   "included": [
+    {
+     "id": "1368-2706-3518",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Wheel of Fortune"
+     ],
+     "produces": [
+      "Infinite draw triggers",
+      "Infinite looting",
+      "Infinite looting for opponents",
+      "Near-infinite storm count"
+     ]
+    }
+   ],
+   "included_with_commander": [],
+   "almost_included_count": 50,
+   "almost_included_sample": [
+    {
+     "id": "513-5034--46",
+     "uses": [
+      "Hullbreaker Horror",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1414-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lotus Petal",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill"
+     ]
+    },
+    {
+     "id": "1368-3518-4856",
+     "uses": [
+      "Underworld Breach",
+      "Lion's Eye Diamond",
+      "Brain Freeze"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite colored mana",
+      "Near-infinite magecraft triggers",
+      "Near-infinite mill",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "1368-1878-2706",
+     "uses": [
+      "Underworld Breach",
+      "Wheel of Fortune",
+      "Jeska's Will"
+     ],
+     "produces": [
+      "Infinite draw triggers for all players",
+      "Infinite looting for all players",
+      "Near-infinite magecraft triggers",
+      "Near-infinite storm count"
+     ]
+    },
+    {
+     "id": "936-1290",
+     "uses": [
+      "Bloodchief Ascension",
+      "Mindcrank"
+     ],
+     "produces": [
+      "Infinite mill",
+      "Near-infinite lifegain",
+      "Near-infinite lifegain triggers",
+      "Near-infinite lifeloss"
+     ]
+    },
+    {
+     "id": "1561-2498",
+     "uses": [
+      "Sheoldred, the Apocalypse",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Near-infinite card draw for target opponent",
+      "Near-infinite draw triggers for target opponent",
+      "Near-infinite lifeloss for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1561-3862",
+     "uses": [
+      "Orcish Bowmasters",
+      "Peer into the Abyss"
+     ],
+     "produces": [
+      "Infinite +1/+1 counters on a creature",
+      "Near-infinite card draw for target opponent",
+      "Near-infinite damage",
+      "Near-infinite draw triggers for target opponent",
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1368-3698--44",
+     "uses": [
+      "Underworld Breach",
+      "Grinding Station"
+     ],
+     "produces": [
+      "Infinite self-mill",
+      "Near-infinite storm count",
+      "Near-infinite mana among colors of legendary creatures and planeswalkers you control"
+     ]
+    },
+    {
+     "id": "542-5034",
+     "uses": [
+      "Tidespout Tyrant",
+      "Sol Ring"
+     ],
+     "produces": [
+      "Infinite colorless mana",
+      "Infinite storm count"
+     ]
+    },
+    {
+     "id": "1561-2720",
+     "uses": [
+      "Peer into the Abyss",
+      "Underworld Dreams"
+     ],
+     "produces": [
+      "Target opponent loses the game"
+     ]
+    },
+    {
+     "id": "1211-4603",
+     "uses": [
+      "Maralen of the Mornsong",
+      "Opposition Agent"
+     ],
+     "produces": [
+      "Lock",
+      "Players can't draw cards",
+      "Exile a card of your choice from an opponent's library on each opponent's turn and you may cast that card"
+     ]
+    },
+    {
+     "id": "2085-3525",
+     "uses": [
+      "Kelpie Guide",
+      "Pemmin's Aura"
+     ],
+     "produces": [
+      "Infinite mana permanents you control can produce"
+     ]
+    }
+   ]
+  }
+ },
+ "retrieved_at": "2026-10-23T12:39:22-0500"
+}
