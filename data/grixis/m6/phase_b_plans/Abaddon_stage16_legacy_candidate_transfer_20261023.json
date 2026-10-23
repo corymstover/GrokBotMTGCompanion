@@ -1,0 +1,1073 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M6_STAGE16_LEGACY_CASE_CANDIDATE_TRANSFER_RECONCILIATION",
+  "date": "2026-10-23_America_Chicago",
+  "status": "TRANSFER_RECONCILED_BY_TEXT_NOT_FORMALLY_CERTIFIED",
+  "canonical_baseline_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "provisional_new_candidate_raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+  "legacy_source_baseline_raw_sha256": "2d6203d274c25e67fb93acf5e6784dce4ee1e8999844a6ab032d9b15995acfbf",
+  "source_case_inventory": "data/grixis/m6/phase_b_plans/abaddon_p0_case_inventory_20261022.json",
+  "source_current_candidate": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+  "source_stage15_execution": "data/grixis/m6/phase_b_plans/Abaddon_stage15_new_six_changed_effects_20261023.json",
+  "source_stage15_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906969961",
+  "counts": {
+    "historical_p0": 104,
+    "historical_p0_card_cut_dependent": 20,
+    "historical_p0_without_named_cut": 84,
+    "historical_p1": 14,
+    "historical_p1_known_counterfactual": 3,
+    "new_stage15_source_bound_p0_pass": 14
+  },
+  "case_classes": {
+    "legacy_with_named_cut": "20 previous executions about absent Ruinous/Keeper/Kessig/Thermo or old pre-rev2 Betrayal have no direct current-candidate transfer. Keep them as historical counterfactual comparisons.",
+    "legacy_unmentioned": "84 prior executed P0 did not mention one of those cut cards by name. This is a necessary but not sufficient re-use screen; each fixture's embedded 100-card physical roster and replacement logic must be reconciled to the new candidate before certification.",
+    "legacy_p1": "11 P1 method titles concern still-current source roles, 3 concern cut Kessig or never-adopted Exalted/pinger cluster. Even 11 remain provisional until fixture and physical rosters are rebound.",
+    "new_candidate": "14 targeted source-paid cases executed and passed on exact head PR638; this is the only newly counted direct candidate-specific mechanical coverage here."
+  },
+  "old_p0_cases": [
+    {
+      "id": "P0-001",
+      "legacy_test_file": "tests/test_m6_abaddon_blast_target_cascade.py",
+      "topic": "Abaddon printed-target instant cascade and additional granted cascade at X>=5",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-002",
+      "legacy_test_file": "tests/test_m6_abaddon_blast_target_cascade.py",
+      "topic": "Illegal Blast target after spell cast, independent cascade trigger survives",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-003",
+      "legacy_test_file": "tests/test_m6_abaddon_ruinous.py",
+      "topic": "Ruinous owner life loss vs non-own opponent",
+      "cut_or_preexisting_absent_refs": [
+        "The Ruinous Powers"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-004",
+      "legacy_test_file": "tests/test_m6_abaddon_ruinous.py",
+      "topic": "Ruinous cast from exile does not receive Abaddon cascade",
+      "cut_or_preexisting_absent_refs": [
+        "The Ruinous Powers"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-005",
+      "legacy_test_file": "tests/test_m6_abaddon_ignus_stack_windows.py",
+      "topic": "Ignus MV3 qualifying hand cast, Rule of Law blocks its cascade hit and recasts",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-006",
+      "legacy_test_file": "tests/test_m6_abaddon_ignus_stack_windows.py",
+      "topic": "Drannith prevents free nonhand cascade but not hand recasts",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-007",
+      "legacy_test_file": "tests/test_m6_abaddon_chaos_warp_stax.py",
+      "topic": "Chaos Warp can replace Rule of Law with same lock, not guaranteed permanent answer",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-008",
+      "legacy_test_file": "tests/test_m6_abaddon_chaos_warp_stax.py",
+      "topic": "Chaos Warp cascade hit denied by still-active Rule of Law",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-009",
+      "legacy_test_file": "tests/test_m6_abaddon_lost_keeper_effect.py",
+      "topic": "From-exile actual cast yields Lost Spawn and Keeper damage with opponent hate",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-010",
+      "legacy_test_file": "tests/test_m6_abaddon_lost_keeper_effect.py",
+      "topic": "Zero-MV exile cast generates Spawn but Keeper zero damage",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-011",
+      "legacy_test_file": "tests/test_m6_abaddon_neheb_assault.py",
+      "topic": "Loyal removed during Assault combat loop prevents purported kill",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-012",
+      "legacy_test_file": "tests/test_m6_abaddon_neheb_assault.py",
+      "topic": "Neheb removed after first Assault activation stops further Neheb source",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-013",
+      "legacy_test_file": "tests/test_m6_abaddon_exile_resolution.py",
+      "topic": "Physical Sol Ring free cascade cast does not gain Abaddon cascade and enters battlefield",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-014",
+      "legacy_test_file": "tests/test_m6_abaddon_tutor_state.py",
+      "topic": "Tutor library reordering affects second cascade with real physical cards",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-015",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "topic": "Betrayal real MV0 cascade hit, opponent library creature PUT not CAST",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-016",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "topic": "Betrayal casts but opponent library holds no creature",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-017",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "topic": "Countering Betrayal after cast does not untrigger Lost",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-018",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "topic": "Drannith stops betrayal exile cast and its triggered payoffs",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-019",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "topic": "Rule of Law stops betrayal free cast after the hand Ignus spell",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-020",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_keeper_p0.py",
+      "topic": "Preferred Keeper plus actual MV1/MV0 low hit, 1/0 targeted damage",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021a",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Loyal Subordinate 3 each opponent before second main => X9 at hand cast, 2 printed plus 1 granted, three physical free casts MV1/2/2 => 5 damage to each opposing creature; three Lost tokens; one skipped physical Swamp returns to library bottom.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021b",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Preexisting Keeper (6) + Kessig Flamebreather (1) attack unblocked => X7; only two printed cascades at Call cast. Keeper trigger after Sol Ring resolves can raise X to 8, but no third cascade is retroactively added.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets",
+        "Kessig Flamebreather"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021c",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Preexisting Keeper (6) + Storm-Kiln Artist (2) attack unblocked => X8 at Call cast, three cascades. Physical source-paid MV8.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021d",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "No opponent lost life this turn => Abaddon does not grant; printed double cascade still occurs, damage3 across two actual free casts.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021e",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Abaddon granted at X9; three cascade abilities exile and bottom cards, but Drannith prevents any nonhand free cast; no Lost tokens or contribution from hits.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021f",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Call hand cast consumes Rule of Law's one spell; printed and granted cascade exiles cards yet cannot cast hits; source spell still deals zero to opponent creatures if no previous spell this turn.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021g",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Opponent counters the Call source spell before cascades resolve; pending three abilities still cascade-cast hits, but Call itself never resolves/deals creature damage.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-021h",
+      "legacy_test_file": "tests/test_m6_abaddon_call_forth_p0.py",
+      "topic": "Prior physically sourced and cast Boltwave MV1 caused 9 life loss; 3 actual physical cascade hits add 1+2+2; Call deals 6 damage to each opposing creature. Pure copy of spell (not cast) excluded.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022a",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "True physical suspend cost paid, three separate upkeeps 3→2→1→0, conditional optional cast from exile in upkeep not constrained by sorcery timing. Creatures put not cast; Lost token from Betrayal cast.",
+      "cut_or_preexisting_absent_refs": [
+        "Inevitable Betrayal"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022b",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "Search may deliberately or necessarily fail to find a creature; spell cast and Lost triggers, no creature moved to battlefield.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022c",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "Drannith disallows cast from exile after 3rd upkeep, card stays exiled with zero counters and cannot re-trigger on future upkeep.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022d",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "A spell already cast on the final upkeep under Rule of Law prevents the suspend cast; card stranded in exile with zero counters.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022e",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "Under 2024+ rules last-counter ability permits owner to decline casting; card remains exiled without counters, despite legal target.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022f",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "Cast from exile generates Lost spawn; an opponent counters actual spell, it moves to graveyard, no creature enters.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-022g",
+      "legacy_test_file": "tests/test_m6_abaddon_betrayal_suspend_p0.py",
+      "topic": "A card with no mana cost cannot be normally cast from hand; suspending is not spell cast and does not increase storm/cascade; a later upkeep free cast if legal is first spell of that turn and has MV0; Keeper trigger would deal zero damage if Keeper present.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023a",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "Paid Breach plus two genuinely escaped LED/Brain Freeze iterations: 5 casts, storm 2 then 4 copies, self-mill physical 6 cards, opponent requested mill 18, 12 exact physical escape-fodder cards exiled, mana pool net +2 U and actual 99 names conserved; conditional not unbounded.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023b",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "After four escape casts exactly 12 OTHER physical cards exiled, never the escaped card itself, LED/Brain Freeze remain graveyard after their respective resolution, valid self-milled cards may become later fodder.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023c",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "LED cannot legally escape with fewer than three OTHER graveyard cards even when its mana cost is 0; do not conjure cards or implicitly pay later.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023d",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "LED activation discards every physically sourced hand card, creates UUU as mana ability (no stack), and cannot be used retroactively to pay the already performed Breach-from-hand casting cost.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023e",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "If LED adds RRR and no separate U is available, Brain Freeze escape fails its {1}{U} mana portion despite adequate graveyard fodder.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023f",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "With Rule of Law, Breach cast from hand is spell one; no further escaped LED/Brain Freeze spell cast allowed this turn.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023g",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "Opponent-controlled Drannith Magistrate prevents casting escape spells from graveyard, even with Breach present and mana/fodder.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023h",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "LED activation grants UUU immediately (no stack), but opponent removing Breach before next spell cast revokes escape permission; mana remains floating until used/phase ends. No automatic response to LED mana ability itself.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-023i",
+      "legacy_test_file": "tests/test_m6_abaddon_breach_led_freeze_p0.py",
+      "topic": "Countering original escaped Brain Freeze after storm trigger has resolved does not counter already-created spell copies; their separately targeted mill still resolves, original remains in graveyard, copied spells are not cast.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024a",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "X9 hand Call has 3 outer cascade triggers; first actual exile-cast Arcane Signet MV2 gets Wild cascade, physically hit Sol Ring MV1; later Talisman MV2 and Lotus Petal MV0 are casts without extra Wild cascades. Four exiled spells actually cast, four Lost Spawns, Call sweeper total MV5.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024b",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "X0 hand Call has only two printed cascades, first exile-cast Arcane Signet gets nested Sol Ring, second printed gets Talisman, no third Abaddon trigger. Three exile casts and 3 Lost Spawns, Call sweep MV5.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024c",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "First exile-cast Lotus Petal MV0 legally gains cascade but nested ability has no eligible lower-MV nonland; physical full remaining library is moved to exile then bottomed in a legally possible permutation, not a fabricated second cast.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024d",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "Wild-Magic Sorcerer itself first cast from exile with no sorcerer yet controlled, enters, then next actual exile-cast Arcane Signet DOES NOT gain cascade retroactively; two printed Call casts only.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024e",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "Opponent removes Wild-Magic Sorcerer after first exile spell cast and its new cascade has triggered; pending nested cascade still resolves and later exile-casts do not gain Wild cascade.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024f",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "Opponent counters original hand-cast Call after its on-cast triggers exist; independent printed/granted and nested cascade triggers resolve; Call does not sweep opposing creatures.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024g",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "In separate subfixtures, Drannith or Rule of Law prevents all free exile casts from a source-paid Call; printed and granted cascade abilities still exile/bottom cards; none acquires or triggers a Wild cascade and Lost stays at zero.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-024h",
+      "legacy_test_file": "tests/test_m6_abaddon_wild_magic_p0.py",
+      "topic": "Opponent counters first Arcane Signet exile-cast after its granted cascade has triggered but before nested resolves; nested Sol Ring still cast, later printed hits allowed, physical Arcane moves graveyard.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025a",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "First exile-cast Arcane Signet MV2 produces a Nalfeshnee spell copy -> haste token on resolution and normal source artifact; end-step sacrifice removes only copy. One cast produces one Lost Spawn and one Keeper trigger at MV2, no extra Abaddon cascade.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025b",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "One physically cast Boltwave MV1 from Call printed cascade produces exactly one virtual copy and one original resolution: 6 damage to EACH opponent in absence of prevention, but only one nonhand cast, Lost spawn, and Keeper target damage 1.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025c",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "Hand Call MV8 X9 provides 3 independently sourced cascade casts Arcane Signet MV2, Sol Ring MV1, Boltwave MV1. Each produces Nalf copy, but Call sweeper other cast MV=4 (not 8) and Lost Spawn=3.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025d",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "Hand Call X0 has only two printed cascades; first Boltwave copy + original creates opponent aggregate 18 loss after Call cast; never grants retroactive third cascade.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025e",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "After physical exile Boltwave cast, opponent counters its original while Nalf spell-copy trigger/copy still resolves. Three damage each from copy, one actual cast, original ends in graveyard.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025f",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "Nalfeshnee removed after first exile spell cast and its triggered copy ability placed on stack; first copy persists, later exiled physical casts do NOT copy.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025g",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "Drannith and Rule of Law in separate policies both deny cascade exile casts after hand Call; printed/Abaddon cascade abilities still resolve but generate no Nalf copies or Lost spawns.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025h",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "Nalfeshnee itself is first spell cast from exile and enters from first cascade, cannot copy its own cast; the later two exile-cast artifacts are copied once each.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-025i",
+      "legacy_test_file": "tests/test_m6_abaddon_nalfeshnee_p0.py",
+      "topic": "With Wild-Magic on battlefield, first Arcane Signet cast from exile gains one extra cascade hitting physically sourced Sol Ring; both real casts get Nalf copies (not four casts), their spell copies cannot themselves gain or trigger cascade. Other printed Call hit proceeds independently.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026a",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "X9 paid Call triggers 3 independent cascade casts Arcane Signet MV2, Sol Ring MV1, Boltwave MV1; exactly 3 commander-granted Archaeologist triggers and 4 targetable damage split A3/B1, not 4 damage to each; Call own hand cast contributes no Archaeologist trigger; 99 conserved.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026b",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "X0 original Call gets only 2 printed cascades; first exile Boltwave MV1 + its original effect makes three opponents each lose 3 and Archaeologist makes a separate targeted 1, but no retroactive third Abaddon cascade; second hit Arcane Signet MV2 yields 2 targeted damage.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026c",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "MV0 Lotus Petal from cascade creates one Archaeologist damage trigger with a chosen target opponent and deals 0, while Lost spawns one token; target selection exists despite damage zero.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026d",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Countering physical exile-cast Arcane Signet after cast does not stop commander-granted 2-damage trigger or Lost/ Keeper cast triggers; artifact never resolves, ends in graveyard.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026e",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Abaddon still owned in command zone, Archaeologist on battlefield; no commander creature on battlefield to host granted ability, and two printed Call cascades fire without Archaeologist triggers; no stolen/conjured source.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026f",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Destroy physically present Archaeologist after first cast ability triggered; the existing commander-trigger ability still resolves for MV2 damage while later exile-casts do not get any new grant.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026g",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Drannith and Rule of Law separately disallow exile cascade hits after hand Call; the original Call has two or three cascade triggers but causes no Archaeologist, Lost, or Keeper nonhand cast events.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026h",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Preexisting Nalfeshnee copies each actual exile-cast and virtual copies (including a Boltwave sorcery copy) are not cast; exactly one Archaeologist trigger per actual exile spell despite two corresponding resolutions; Boltwave 6 per opponent is NOT Archaeologist damage.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026i",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Preexisting Wild-Magic Sorcerer grants nested cascade to first physical exile-cast Arcane Signet, hitting actual Sol Ring, then printed Call follows with Boltwave; three actual exile casts yield Archaeologist targeted damage sum4 and Nalf copies (if any) yield no extra trigger.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-026j",
+      "legacy_test_file": "tests/test_m6_abaddon_archaeologist_p0.py",
+      "topic": "Actual cast still recorded when specified opponent protected; Archaeologist targets a different legal opponent if one exists; if no legal opposing target, triggering ability is not put on stack and deals zero. No automatically distributed damage or artificial target opponent.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027a",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "With already-controlled Prosper, X9 paid hand Call Forth yields three distinct actual exiled casts Arcane Signet MV2, Sol Ring MV1 and Boltwave MV1; Treasure+3 and Lost+3, no Treasure for source Call hand cast, and exactly three real casts.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027b",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "Nalfeshnee spell copy of the one real Boltwave exile cast deals additional 3 each opponent, but ONLY one Prosper Treasure for physical Boltwave cast; virtual copies never trigger Pact Boon.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027c",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "Wild-Magic Sorcerer gives first exile-cast Arcane Signet extra cascade hitting Sol Ring, then second printed Call hits Boltwave; two printed + one nested actual casts yield THREE Treasures despite only two outer cascades.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027d",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "Prosper itself is the first spell cast from exile; no self-Pact-Boon Treasure from this cast (not on battlefield yet); subsequent Sol Ring from another printed cascade triggers one Treasure.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027e",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "First exiled Arcane Signet cast triggers Prosper Treasure, opponent removes Prosper before resolving trigger, first Treasure still created; next exiled Boltwave cast yields no Prosper trigger.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027f",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "After Call hand cast, Drannith Magistrate or Rule of Law prevents exiled cascade spells; printed and granted triggers still reveal physically, but no treasure and no nonhand cast.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027g",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "Mystic Arcanum physically exiles top Swamp at end step of T, cannot play a land during this end step. Next own main phase with unused land drop, physically play from exile: Prosper Treasure1, Lost Spawn1, no spell cast, no Archaeologist/Nalf/Keeper; card remains real battlefield land.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027h",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "Mystic exiles physical Boltwave at end step T; cannot cast as sorcery in end step. Next own main, pay {R} from real untapped Mountain, cast from exile: Prosper Treasure1, Lost Spawn1 and (commander+Background if present) a targeted Archaeologist MV1 trigger; no extra Abaddon hand cascade.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027i",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "Exiled card from Mystic remains physically in exile when not played through the end of next turn; granted permission expires, and this effect cannot play card after T+1. No Treasure merely on exile/expiration.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-027j",
+      "legacy_test_file": "tests/test_m6_abaddon_prosper_p0.py",
+      "topic": "A physically Mystic-exiled Swamp cannot be played from exile on opponent turn, during current end step, with pending stack objects, or after land drop consumed, even while permission active; zero Treasures and no Lost token.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028a",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "A physically paid hand Boltwave from a real untapped Mountain triggers Storm-Kiln once (1 virtual Treasure) but not Nalfeshnee or The Lost and the Damned (not an exile/nonhand cast); opponent life loss occurs on resolution.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028b",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "Physically paid {5}{R}{R}{R} Call from hand at X0 triggers Storm-Kiln once; first actual cascade-exiled Boltwave sorcery cast triggers Storm-Kiln a second time, then Nalfeshnee copies it and Storm-Kiln triggers a THIRD time; actual Boltwave and virtual copy each resolve, no extra Abaddon cascade, Lost only once.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028c",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "With X9, three Call cascades physically cast Arcane Signet, Sol Ring and Boltwave; Nalfeshnee copies each, but only instant/sorcery Boltwave cast and copied trigger Storm-Kiln. Call itself also triggered Storm-Kiln: total THREE Treasures, 3 Lost Spawns, one actual Boltwave cast.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028d",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "With physically sourced Breach hand-cast and LED from graveyard, escape-paid Brain Freeze instant has storm count 2 from actual Breach+LED casts. Its real cast triggers Storm-Kiln once and its two virtual storm copies trigger two more: three Magecraft Treasures, one real Brain Freeze cast, two virtual copies, physical 99 conserved.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028e",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "After actual exile Boltwave cast, opponent counters original before Nalfeshnee triggered copy resolves. Storm-Kiln still triggers once on real cast and again on the later actual spell COPY event; copy resolves and deals 3 to each opponent, original does not; plus source hand Call gives one separate Treasure.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028f",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "An actual Arcane Signet exile-cast and Nalfeshnee's permanent-spell copy do not trigger Storm-Kiln at all; physically paid hand Call sorcery generates one Storm-Kiln Treasure, Lost one Spawn, no cast from virtual permanent copy.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-028g",
+      "legacy_test_file": "tests/test_m6_abaddon_storm_kiln_p0.py",
+      "topic": "Prosper exiles and later plays an actual Swamp from exile on owner's main with normal land-drop access: one Prosper Treasure plus one Lost Spawn; NO Storm-Kiln Magecraft, no spell casts, original 99 cards conserved.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029a",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "Two earlier actually paid hand instants Rite of Flame and Dark Ritual then 4UU Mind from hand -> exactly two virtual storm copies, three independent Mind resolutions each physically exiling a card; Storm-Kiln triggers 3 times for casts and twice for spell copies (5 total). No Nalf copies of hand Mind, no automatic exile plays.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029b",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "Three separate resolving Mind instances exile actual Boltwave MV1, Arcane Signet MV2 and Swamp; after stack empty legal same-turn main permits two free-cost exile-casts and one land play; Prosper gains three Treasures and Lost three Spawn, whereas Keeper/Archaeologist count only 3 total mana value damage, Nalf spell copies themselves add no Treasure/Spawn.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029c",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "Mind resolutions may exile cards that remain physically exiled and generate no Treasure/Spawn merely by being exiled; land plays cannot occur with nonempty stack, on opponent turn, after land drop or after permission expires; after turn ends unplayed card remains exile.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029d",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "Counter original paid Mind after storm trigger, two pre-existing storm copies each resolve and exile one physical card; original doesn't resolve, so exactly two impulse permissions, and Magecraft copy triggers persist.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029e",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "Prior hand-cast Boltwave creates X9 with three opponents, Rite of Flame second prior spell, then paid hand Mind MV6 qualifies for exactly one Abaddon cascade (e.g. real Arcane Signet exile cast), plus its two storm copies and original give three separate impulse permissions. Exile-cast Arcane does not itself gain Abaddon cascade.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029f",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "Paid hand Call MV8 X0 has two printed cascades; first hit actual Mind MV6 cast from exile creates one storm copy (Call prior cast) and one Nalf copy (same Mind is cast from exile), so Mind exiles three physical cards on original+2-copy resolution. Real Mind cast earns Prosper/Lost once and the subsequent printed Sol Ring exile cast once; copies do not.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-029g",
+      "legacy_test_file": "tests/test_m6_abaddon_minds_desire_p0.py",
+      "topic": "One resolving Mind exile may offer physical Ancestral Vision MV0, which can be cast for no mana using Mind permission although it has no printed mana cost; on exile cast Prosper +1, Lost +1, Keeper/Archaeologist 0, and actual spell draws 3 physical library cards on resolution, preserving 99-source census.",
+      "cut_or_preexisting_absent_refs": [
+        "Keeper of Secrets"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030a",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "Physically spend {R} from an untapped Mountain for Boltwave: three opponents each take 3 noncombat damage/lose 3 life, total Abaddon X=9 without doublers.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030b",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "With source-present Solphim, each opponent receives 6 actual damage and loses 6 life, Abaddon X=18; Solphim is not a direct life-loss replacement.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030c",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "With source-present Bloodletter and no Solphim during controller turn, each opponent takes 3 damage but loses 6 life; X=18, damage remains 3.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030d",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "With both source-present distinct replacement effects during controller turn, Boltwave deals 6 damage and causes 12 life loss per opponent, X=36; each effect applies once.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030e",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "Loyal Subordinate combat-start loss 3 each with Abaddon controlled becomes 6 each with Bloodletter; Solphim cannot double non-damage direct loss.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030f",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "One opponent has a prevention shield for the entire Boltwave event, so despite both doublers this opponent loses 0; other opponents lose 12 each, total X=24.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030g",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "Paid Boltwave countered before resolution stays in graveyard but deals no damage and generates no opponent loss; Abaddon X remains zero.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030h",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "Existing Thermo-Alchemist may tap on an opponent's turn for source-controlled noncombat one damage each; Solphim makes 2 damage/loss each, Bloodletter off-turn does not replace, Abaddon grants no cascade.",
+      "cut_or_preexisting_absent_refs": [
+        "Thermo-Alchemist"
+      ],
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    },
+    {
+      "id": "P0-030i",
+      "legacy_test_file": "tests/test_m6_abaddon_threshold_doublers_p0.py",
+      "topic": "After fully resolving doubled paid Boltwave, source-paid {2}{R} Grinning Ignus hand cast with three different previously untapped physical lands earns one granted Abaddon cascade at recorded X36; subsequently removing Bloodletter cannot undo that cast trigger.",
+      "cut_or_preexisting_absent_refs": [],
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW",
+      "old_execution": "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION"
+    }
+  ],
+  "old_p1_methods": [
+    {
+      "method": "test_flame_rift_source_paid_hits_caster_not_threshold",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_flame_rift_solphim_bloodletter_only_on_opponents",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_kessig_casts_artifact_even_if_countered",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P1"
+    },
+    {
+      "method": "test_exalted_only_cast_instant_or_sorcery_not_ignus",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P1"
+    },
+    {
+      "method": "test_vivi_one_noncreature_cast_increases_power_and_mana_once",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_three_cast_pingers_produce_nine_opponent_loss",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P1"
+    },
+    {
+      "method": "test_noise_marine_printed_cascade_even_at_x_zero_single_target",
+      "test_file": "tests/test_m6_abaddon_residual_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_delayed_hand_cast_two_damage_three_opponents_x6",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_delayed_prosper_exile_paid_five_damage_not_hand_cascade",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_delayed_exile_bloodletter_solphim_doubles_opponents_not_creatures",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_nightscape_discount_ignus_paid_1r_keeps_mana_value_three",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_nightscape_blue_red_spell_receives_one_discount_not_two",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_jeska_both_modes_locked_at_cast_mana_uses_resolution_hand_size",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    },
+    {
+      "method": "test_jeska_without_commander_only_one_mode",
+      "test_file": "tests/test_m6_abaddon_remaining_p1.py",
+      "legacy_execution": "HISTORICAL_EXACT_HEAD_PASS",
+      "current_candidate_transfer": "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW"
+    }
+  ],
+  "new_stage15_cases": [
+    {
+      "case_id": "ABADDON_STAGE15_P0_01",
+      "method": "test_p0_01_source_payable_mage_offspring_normal_cast",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_02",
+      "method": "test_p0_02_offspring_not_free_when_mage_hit_by_cascade",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_03",
+      "method": "test_p0_03_later_cast_two_mage_triggers_not_own_cast_retroactive",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_04",
+      "method": "test_p0_04_offspring_survives_one_spot_removed_original",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_05",
+      "method": "test_p0_05_sakashima_new_grant_only_after_enter_resolution",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_06",
+      "method": "test_p0_06_abaddon_removed_before_sakashima_etb_reduces_copy_ceiling",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_07",
+      "method": "test_p0_07_sanctum_one_shrine_first_main_life_loss_vs_damage",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_08",
+      "method": "test_p0_08_sanctum_removed_in_response_current_shrine_count_zero",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_09",
+      "method": "test_p0_09_sheoldred_wheel_loss_only_after_cast",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_10",
+      "method": "test_p0_10_sheoldred_windfall_variable_and_bloodletter",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_11",
+      "method": "test_p0_11_mount_doom_paid_activation_and_noncombat_replacement",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_12",
+      "method": "test_p0_12_rule_of_law_cascade_spells_forbidden_land_damage_works",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_13",
+      "method": "test_p0_13_sole_mage_and_sol_bloodletter_multiplied_delayed_cast",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_14",
+      "method": "test_p0_14_signature_nonhand_40k_loss_explicit_in_selection",
+      "actual_result": "PASS_EXACT_HEAD_CI"
+    }
+  ],
+  "mechanic_reconciliation_gate": {
+    "transfer_done": false,
+    "all_required_m6_p0_and_p1_satisfied": false,
+    "m6_6_complete": false,
+    "m6_7_complete": false,
+    "m6_8_candidate_specific_complete": false,
+    "m6_9_candidate_specific_complete": false,
+    "m6_10_owner_accepted": false,
+    "owner_m7_ready": false
+  },
+  "owner_sequence": "Abaddon #1 before deck #3; Admiral #2 remains approved locked; canonical Abaddon locked revision untouched",
+  "next_action": "Check the 84 older cases and 11 old P1 against actual new source physical roster and resolve any materially mandatory changed mechanics; assemble fully source-bound candidate-specific M6 I tested-pool and J reproducibility only after coverage audit."
+}
