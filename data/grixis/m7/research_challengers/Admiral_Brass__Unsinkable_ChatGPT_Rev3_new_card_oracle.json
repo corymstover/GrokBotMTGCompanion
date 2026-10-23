@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "deck_id": "Admiral_Brass__Unsinkable",
+  "candidate": "data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable_ChatGPT_Rev3.txt",
+  "candidate_raw_sha256": "dfa192cce0d925621e1cfa3f6444fb9da04c995700ca886e95a75c7347d4c7f7",
+  "as_of_date": "2026-10-23",
+  "provenance": "Manual independent Oracle text and Commander legality cross-check from linked public Wizards/Scryfall card resources. NOT an Scryfall cards/collection API batch or CI approval.",
+  "cards": [
+    {
+      "name": "Thassa, Deep-Dwelling",
+      "mana_cost": "{3}{U}",
+      "type_line": "Legendary Enchantment Creature — God",
+      "color_identity": [
+        "U"
+      ],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "Indestructible\nAs long as your devotion to blue is less than five, Thassa isn't a creature.\nAt the beginning of your end step, exile up to one other target creature you control, then return that card to the battlefield under your control.\n{3}{U}: Tap another target creature.",
+      "oracle_source": "https://magic.wizards.com/en/news/feature/theros-beyond-death-release-notes-2020-01-10",
+      "legality_crosscheck": "https://scryfall.com/card/thb/71/thassa-deep-dwelling",
+      "rules_source": "https://magic.wizards.com/en/news/feature/theros-beyond-death-release-notes-2020-01-10"
+    },
+    {
+      "name": "City of Brass",
+      "mana_cost": null,
+      "type_line": "Land",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "game_changer": false,
+      "oracle_text": "Whenever City of Brass becomes tapped, it deals 1 damage to you.\n{T}: Add one mana of any color.",
+      "oracle_source": "https://scryfall.com/card/2x2/570/city-of-brass",
+      "legality_crosscheck": "https://scryfall.com/card/2x2/570/city-of-brass"
+    }
+  ]
+}
