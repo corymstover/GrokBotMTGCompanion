@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M6_STAGE20_CANDIDATE_SCOPED_I_J_BINDING_ADJUDICATION",
+  "date": "2026-10-23_America_Chicago",
+  "canonical_locked_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "proposed_raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+  "proposed_lh1": "lh1:965f298aa71b9a3f28d805ee99b2d2576913ca8ba78a0824e9aa205cc8133ceb",
+  "owner_m7_approval": false,
+  "formal_m6_10_owner_acceptance": false,
+  "canonical_writes": false,
+  "deck3_hold": true,
+  "decision_scope": "Five to seven actual replacements compared within current complete physical Stage13 four-case pool; additional Stage12/Stage4 exploratory portfolios inform qualitative ceiling but are NOT falsely counted as executed Stage13 pool.",
+  "tested_pool": [
+    {
+      "name": "protected_five",
+      "raw_sha256": "131b59af4a4ad413107bfa24012495d527a533eb91e6c5d10d9517342ac90d65",
+      "swaps": 5,
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Safer Ponder/low curve but forfeits new Sheoldred own-turn 42/84 Wheel range; less decisive threshold scaling."
+    },
+    {
+      "name": "warhammer_six",
+      "raw_sha256": "0de1d376595a3bc51cb31e6bbbf9b87593d629482bc335c83ff46b5aad25bd7d",
+      "swaps": 6,
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Exalted Flamer replay is high thematic grind option but slow upkeep randomness and new mana spend offer less immediate opponent loss than Sheoldred Wheel on resolving turn."
+    },
+    {
+      "name": "wheel_seven",
+      "raw_sha256": "eb150d6981e89a3e3bee46528108cdc4630a4b509ff8c07bf10f72e340762df3",
+      "swaps": 7,
+      "disposition": "REJECT",
+      "reason": "Deletes protected Noise Marine printed cascade and Sonic Blaster, sacrificing distinct 40K commander engine to add extra individual payoff; no evidence total 100 is superior despite larger swap count."
+    },
+    {
+      "name": "protected_wheel_six",
+      "raw_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+      "swaps": 6,
+      "disposition": "SELECT_ADD_PROVISIONAL_FOR_OWNER_PACKET",
+      "reason": "Balanced pre-main Shrine, source-paid Ignus Impact engine, doubled commander cascade, Sheoldred mass draw loss, real land activation and offspring without cutting Noise/Nalfeshnee/Call Forth; no manufactured seventh improvement."
+    }
+  ],
+  "selection_rationale": "This is a qualitative M6 I tested-pool local-best author judgment supported by source-limited, payable deterministic mechanics and exact 100-card portfolio tests, not statistical win-rate or global mathematical optimum. Original five-swap hard floor is necessary but not a target.",
+  "effect_coverage": {
+    "historical_named_p0_executed_success": 104,
+    "historical_p0_not_applicable_to_new_candidate": 27,
+    "historical_core_p0_reused_mechanic_facts": 77,
+    "new_candidate_changed_p0_actual_executed_success": 14,
+    "historical_named_p1_executed_success": 14,
+    "historical_p1_counterfactual": 3,
+    "historical_p1_reused_mechanic_facts": 11,
+    "legacy_core_reuse_justification": "All 77 remaining source-paid P0 scenario topics involve Abaddon's retained hand-cast grants; current retained Call Forth/Noise/Nalfeshnee/Prosper/Wild/Archaeologist/Lost; actual Breach/LED/Brain Freeze mana/zone; or retained Boltwave/Loyal/Neheb/Solphim/Bloodletter. These finite rules facts are invariant under the six card substitutions as described and retain their original CI provenance. Reusing conditional rule results does NOT assert old fixtures have been reexecuted on new physical source nor general win rate.",
+    "p1_reuse_justification": "Eleven P1 methods test retained Flame Rift, Vivi, Noise, Delayed Blast, Nightscape and Jeska paid/cast rules; three comparator methods involving absent Kessig or Exalted cannot be reused as current-deck evidence.",
+    "changed_source_replacement_coverage": "Fourteen Stage15 named 2026-10-23 cases actually executed on exact head for new Mage offspring, Impact synergy, Sakashima stacked grant, Sanctum trigger, Sheoldred Wheel, Mount Doom and adverse Rule of Law/spot removal; these are fresh, not historical rebranding.",
+    "status": "BOUNDED_DECISION_RELEVANT_COVERAGE_SUFFICIENT_FOR_SCOPED_LOCAL_TESTED_POOL_ONLY",
+    "unmodeled": "No randomized 4-player win rate, hidden opponent deck distributions, full cascade game engine, exact turn-four BB cast frequencies, universal stack search; independent third-model Pass C explicitly waived only for M6.5."
+  },
+  "source_bindings": {
+    "approved_canonical_snapshot": "data/grixis/m7/candidate_lists/Abaddon_the_Despoiler_rev2.txt",
+    "candidate": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt",
+    "stage13_decisions": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_new_EDHREC_protected_engine_decisions_20261023.json",
+    "stage14_choice": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage14_provisional_protected_wheel_six_20261023.json",
+    "stage15_cases": "data/grixis/m6/phase_b_plans/Abaddon_stage15_new_six_changed_effects_20261023.json",
+    "stage16_historical_transfer": "data/grixis/m6/phase_b_plans/Abaddon_stage16_legacy_candidate_transfer_20261023.json",
+    "stage17_oracle": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Stage17_95_Source_Reconciled_20261023.json",
+    "stage18_mana": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_mana_20261023.md",
+    "stage18_red_team": "data/grixis/m6/certification_preflight/Abaddon_stage18_protected_six_red_team_20261023.md",
+    "ci_stage15": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906969961",
+    "ci_stage17": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39908489986",
+    "ci_stage19": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39909415050"
+  },
+  "status": "SCOPED_TESTED_POOL_LOCAL_BEST_SUPPORTED_NOT_GLOBAL_OPTIMUM_NOT_OWNER_APPROVED",
+  "owner_action": "After full exact-head bundle validation and M7 decision gate, present complete candidate to Cory for new explicit approval; M6.10 owner acceptance remains distinct. Keep all original approvals intact until explicit replacement approval."
+}
