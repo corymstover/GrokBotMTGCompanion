@@ -1554,29 +1554,59 @@
    "current_candidate_sha": "ce64e22265467a7032cf7814bbbadb4c215f24e9c3a63f9217bcf2f4f47fcb5d",
    "branch": "grokbot-deck28-loki-the-deceiver-m7-20261023",
    "working_branch": "grokbot-deck28-loki-the-deceiver-m7-20261023",
-   "last_pushed_commit": "2f1872b473b0f2e9bdca6786dfa3fb0e4f8e4011",
+   "last_pushed_commit": "842f78d94d51770e05f6672e562eadb33eadbdd2",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/676",
    "swap_count": 2,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "ci_runs": [
+    {
+     "name": "M7 Deck 28 Loki the Deceiver research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40024917072",
+     "conclusion": "success",
+     "head": "842f78d94d51770e05f6672e562eadb33eadbdd2"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40024917059",
+     "conclusion": "success",
+     "head": "842f78d94d51770e05f6672e562eadb33eadbdd2"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/40024916999",
+     "conclusion": "success",
+     "head": "842f78d94d51770e05f6672e562eadb33eadbdd2"
+    }
+   ],
+   "blockers": [
+    "two genuine swaps (+Ultimo, Civilization's End -Crimson Cowl, Master of Evil; +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper, both MODERATE); five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 2, 21 material candidates, 14 weakest slots challenged)"
+   ],
+   "unresolved_issues": [
+    "data caveat: both adds have lower EDHREC adoption than the cuts (Ultimo absent from every Loki page, 131/2281 on its card page; Elektra 530/2355 vs Crimson Cowl 862/2281, Killmonger 796/2258); case rests on CR 508.4 copy behaviour and enters-trigger value",
+    "curve cost disclosed: P(MV<=3 Villain by T3) 0.3005 -> 0.2567; P(Loki attacks with valid other Villain target) T6 0.7069 -> 0.7003",
+    "staged alternatives not counted: Ultimo over Kang Prime keeping Crimson Cowl; Elektra over Iron Monger, Sadistic Tycoon keeping Killmonger; Victor Timely, Wily Tycoon over Kang Prime; Pass C Strionic Resonator over Swiftfoot Boots retained alternative (payable on attack 0.0393 by T6)",
+    "Pass C Seize the Day rejected (castable postcombat 0.0219 by T6; fewer draws in 630/756 paired cells)",
+    "Pass C matched-hand games and win rates not run (no validated game engine or opponent model); bounded seeded/exact tests only",
+    "tracker notes keep a stale 'current NOT STARTED state' sentence; GrokBot advisory labels B3 while counting 5 Game Changers (Bracket 4 used); disclosed, not changed",
+    "shared infra in this PR is byte-identical to PR 674 head b505d828; merge order #651 -> ... -> #674 -> #675 -> #676"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 5079291c == overrides == registry == tracker final_list_hash; blob 456d62d4 from d97bc2b; byte copy); shared infra copied byte-identical from PR 675 head 3465b542; draft PR 676",
-    "research checkpoint 2f1872b473b0f2e9bdca6786dfa3fb0e4f8e4011: live Scryfall 450-card snapshot (0 frozen diffs), EDHREC discovery, Spellbook 0 combos, bounded Pass C tests, 2 genuine swaps (+Ultimo, Civilization's End -Crimson Cowl, Master of Evil; +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper), 8 staged alternatives"
+    "research checkpoint 2f1872b473b0f2e9bdca6786dfa3fb0e4f8e4011: live Scryfall 450-card snapshot (0 frozen diffs), EDHREC discovery, Spellbook 0 combos, bounded Pass C tests, 2 genuine swaps (+Ultimo, Civilization's End -Crimson Cowl, Master of Evil; +Elektra, Daughter of the Hand -Killmonger, Ruthless Usurper), 8 staged alternatives",
+    "package: decision review, I/J local-best, mana and red-team memos, adversarial packet, cert + bundle, 3 deck tests (29 methods), workflow; WIP checkpoint removed; pushed 842f78d94d51770e05f6672e562eadb33eadbdd2; full suite once at 842f78d94d51770e05f6672e562eadb33eadbdd2: 24F/1631P/18S/86E, failure and error IDs identical to base b6b40ac8; PR 676 marked ready (RESEARCH_ONLY); exact-head CI 3/3 success"
    ],
-   "status": "RESEARCH_CHECKPOINT",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "build decision review, I/J memos, certificate, bundle, tests, workflow; gate check",
-   "next_step": "build decision review, I/J memos, certificate, bundle, tests, workflow; gate check",
-   "stage": "RESEARCH_CHECKPOINT",
+   "next_action": "owner decision on RESEARCH_ONLY two-swap candidate (staged Kang Prime / Iron Monger cut alternatives, Strionic Resonator); next deck #29 Lord_of_Tresserhorn",
+   "next_step": "owner decision on RESEARCH_ONLY two-swap candidate; next deck #29 Lord_of_Tresserhorn",
+   "stage": "RESEARCH_ONLY_BLOCKED",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/676",
-   "pr_is_draft": true,
-   "last_pushed_sha": "2f1872b473b0f2e9bdca6786dfa3fb0e4f8e4011",
-   "last_checkpoint_commit": "2f1872b473b0f2e9bdca6786dfa3fb0e4f8e4011",
+   "pr_is_draft": false,
+   "last_pushed_sha": "842f78d94d51770e05f6672e562eadb33eadbdd2",
+   "last_checkpoint_commit": "842f78d94d51770e05f6672e562eadb33eadbdd2",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 456d62d4, introduced by d97bc2b 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "updated_at": "2026-10-23T15:56:46-0500",
-   "last_checkpoint_at": "2026-10-23T15:56:46-0500"
+   "updated_at": "2026-10-23T16:13:56-0500",
+   "last_checkpoint_at": "2026-10-23T16:13:56-0500"
   },
   {
    "tracker_number": 29,
