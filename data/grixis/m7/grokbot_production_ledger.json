@@ -1086,34 +1086,67 @@
    "baseline_raw_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
    "registry_recorded_sha256": "2fd39e3b39afaeb1bf394a59b392d8a29f28645776fa0b13c5754df67ab85fdf",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Goro_Goro_and_Satoru.txt",
+   "candidate_raw_sha256": "38e02f9766783ad5194d569329f54603a47829a162d1bc3ea041898e1f4f5e5b",
+   "current_candidate_sha": "38e02f9766783ad5194d569329f54603a47829a162d1bc3ea041898e1f4f5e5b",
    "branch": "grokbot-deck21-goro-goro-and-satoru-m7-20261023",
    "working_branch": "grokbot-deck21-goro-goro-and-satoru-m7-20261023",
-   "last_pushed_commit": "bd3bc1d5d0b797bc091e9f14b43f4c8d7d2cc8cd",
+   "last_pushed_commit": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/669",
-   "swap_count": null,
-   "ci_runs": [],
-   "blockers": [],
-   "unresolved_issues": [],
+   "swap_count": 1,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 21 Goro-Goro and Satoru research candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39994894296",
+     "conclusion": "success",
+     "head": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39994894157",
+     "conclusion": "success",
+     "head": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39994894154",
+     "conclusion": "success",
+     "head": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a"
+    }
+   ],
+   "blockers": [
+    "only 1 genuine swap (+Bitterblossom -Mist-Syndicate Naga); five-swap floor not met without padding (gate M7_WITHDRAWN_RESEARCH_ONLY_NOT_OWNER_PRESENTABLE, new_swaps 1)"
+   ],
+   "unresolved_issues": [
+    "Pass C matched-hand games / win rates not run: no validated Goro game model (bounded 50-row scripted ledger + exact castability only)",
+    "Pass C alts (Bitterblossom over Bident of Thassa / Grazilaxx, Illithid Scholar / Frostcliff Siege) staged and rejected; Rapid Hybridization over Vandalblast RETAIN_ALTERNATIVE",
+    "U/B/R sources 25/21/21 counting fetches/rainbow for all colours vs repo static mana_base 24/20/20 (convention difference, not a list change)"
+   ],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw 2fd39e3b == overrides == tracker == registry; 100 physical/99 rows, 2x Island); shared infra copied from #668 909543a5; draft PR #669 created 2026-10-23T11:59:21-0500 (GitHub createdAt 16:59:21Z)",
-    "research: EDHREC (4 pages), Scryfall live (117 candidates), CommanderSpellbook (5 combos base and candidate), bounded Pass C test, exact castability; staged candidate +Bitterblossom -Mist-Syndicate Naga and 6 alternatives"
+    "research: EDHREC (4 pages), Scryfall live (117 candidates), CommanderSpellbook (5 combos base and candidate), bounded Pass C test, exact castability; staged candidate +Bitterblossom -Mist-Syndicate Naga and 6 alternatives",
+    "bounded_pass_c_test",
+    "candidate_and_alternatives_built",
+    "oracle/rules snapshots, tested pool (9 configs), decision packet (gate withdrawn RESEARCH_ONLY, 19 material candidates), I/J memos, certificate + J revision bundle (validate_bundle true), adversarial packet, mechanics/candidate/IJ tests 10/10/8, focused workflow; WIP removed in last content commit 3d550c79; full suite head 24F/1630P/18S/86E vs base b6b40ac8 24F/1465P/18S/86E, identical 110 failure/error IDs; PR #669 ready (RESEARCH_ONLY + blocker); exact-head CI 3/3 success; 2026-10-23T12:27:53-0500"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "RESEARCH_ONLY_BLOCKED",
+   "chatgpt_review_status": "NOT_REQUESTED_RESEARCH_ONLY",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "decision packet, adversarial review, I/J memos, bundle, tests, workflow",
-   "next_step": "decision packet, adversarial review, I/J memos, bundle, tests, workflow",
-   "stage": "RESEARCH_IN_PROGRESS",
-   "last_pushed_sha": "bd3bc1d5d0b797bc091e9f14b43f4c8d7d2cc8cd",
-   "last_checkpoint_commit": "bd3bc1d5d0b797bc091e9f14b43f4c8d7d2cc8cd",
+   "next_action": "owner decision on RESEARCH_ONLY one-swap candidate; next deck #22 Gwendlyn_Di_Corci",
+   "next_step": "owner decision on RESEARCH_ONLY one-swap candidate; next deck #22 Gwendlyn_Di_Corci",
+   "stage": "RESEARCH_ONLY_BLOCKED",
+   "last_pushed_sha": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a",
+   "last_checkpoint_commit": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/669",
-   "pr_is_draft": true,
+   "pr_is_draft": false,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 9d9e1b7b, introduced by 4aefbf3b 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T12:12:08-0500",
-   "updated_at": "2026-10-23T12:12:08-0500"
+   "last_checkpoint_at": "2026-10-23T12:27:53-0500",
+   "updated_at": "2026-10-23T12:27:53-0500",
+   "candidate_sha256": "38e02f9766783ad5194d569329f54603a47829a162d1bc3ea041898e1f4f5e5b",
+   "head_commit": "3d550c79d11e23b8eefc3bf8cd86705b28356c1a",
+   "pr_title": "M7 Deck 21 Goro-Goro and Satoru: RESEARCH_ONLY (1 genuine swap, below five-swap floor) — NOT owner approved",
+   "next_deck": "#22 Gwendlyn_Di_Corci",
+   "full_suite": "head 3d550c79: 24F/1630P/18S/86E vs base b6b40ac8: 24F/1465P/18S/86E; identical 110 failure/error IDs, no new failures"
   },
   {
    "tracker_number": 22,
