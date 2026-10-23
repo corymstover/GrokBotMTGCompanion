@@ -10,4 +10,9 @@
 - Pass C (#16, owner-equivalent, NOT independent): NEEDS TESTING, KEEP; requested tests: Conjurer's Closet vs Irma /
   Impostor Syndrome / Industrial Advancement; Combat Celebrant vs Grim Haruspex (DEFER); mana turns 3-7.
 - Shared infra copied byte-identically from PR #663 head 3b67994a (bundle checker SHA 2962a640...).
-- Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C bounded tests, candidate judgments.
+- Completed: baseline_provenance; research snapshots (Scryfall live 94 baseline + 178 evaluated names; EDHREC general/upgraded/optimized
+  4819/456/72; Commander Spellbook: 0 complete combos baseline and working candidate). Edea live: FIC, released, Commander-legal,
+  not a Game Changer, no project exception. Jabs, Mistress of Mockery reads not_legal (unreleased) -> excluded.
+- Working candidate direction (subject to change): +Aggravated Assault +Kaya's Ghostform +Hall of Echoes +Lithoform Engine
+  +Combat Celebrant / -Evereth -Zara -High Market -Ayara -Seize the Spotlight.
+- Next: Pass C bounded tests, oracle/rules snapshots, decision packet, I/J artifacts, tests, workflow.

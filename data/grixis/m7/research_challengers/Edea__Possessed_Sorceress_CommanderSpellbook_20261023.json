@@ -1,0 +1,339 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, 2026-10-23)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 126,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2577-4050",
+    "uses": [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-2034-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "1580-4050-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2034-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2292-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Viscera Seer"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "1775-2484",
+    "uses": [
+     "Toralf, God of Fury // Toralf's Hammer",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "1823-2484",
+    "uses": [
+     "Fall of Cair Andros",
+     "Blasphemous Act"
+    ],
+    "produces": [
+     "Infinite +1/+1 counters on a creature",
+     "Near-infinite damage to creatures"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [],
+  "included_with_commander": [],
+  "almost_included_count": 175,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2577-4050",
+    "uses": [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1580-2034-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1580-4050-4871",
+    "uses": [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    "produces": [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   },
+   {
+    "id": "2034-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "2484-4083",
+    "uses": [
+     "Blasphemous Act",
+     "Repercussion"
+    ],
+    "produces": [
+     "Near-infinite damage to all players"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "2292-2577-4871",
+    "uses": [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Viscera Seer"
+    ],
+    "produces": [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers",
+     "Infinite scry 1",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "147-500",
+    "uses": [
+     "Dualcaster Mage",
+     "Saw in Half"
+    ],
+    "produces": [
+     "Infinite creature tokens",
+     "Infinite creature ETB",
+     "Infinite magecraft triggers",
+     "Infinite creature LTB",
+     "Infinite death triggers"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   }
+  ]
+ },
+ "deck_id": "Edea__Possessed_Sorceress",
+ "note": "No included (complete) combos in baseline or candidate; almost-included counts 126 (baseline) vs 175 (candidate). Aggravated Assault adds opponent-dependent near-combos (e.g. with a stolen Ancient Copper Dragon / The Reaver Cleaver); none is completable from the 100 alone."
+}
