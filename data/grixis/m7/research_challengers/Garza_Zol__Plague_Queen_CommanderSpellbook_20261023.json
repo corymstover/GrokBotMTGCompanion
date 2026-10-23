@@ -1,0 +1,390 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, RETRIEVED)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "2822-3681",
+    "uses": [
+     "Kediss, Emberclaw Familiar",
+     "Grafted Exoskeleton"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 86,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1089-2353",
+    "uses": [
+     "Curiosity",
+     "Niv-Mizzet, Parun"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite card draw",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   },
+   {
+    "id": "1089-4971",
+    "uses": [
+     "Niv-Mizzet, the Firemind",
+     "Curiosity"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "3750-4945",
+    "uses": [
+     "Neheb, the Eternal",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases",
+     "Infinite red mana",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1089-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Curiosity"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "1228-3500",
+    "uses": [
+     "Goblin Sharpshooter",
+     "Basilisk Collar"
+    ],
+    "produces": [
+     "Lock",
+     "Destroy all creatures opponents control",
+     "From now on, destroy any creatures opponents control at instant speed"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3750-5988",
+    "uses": [
+     "Cavern-Hoard Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite combat damage to one opponent"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "2822-3681",
+    "uses": [
+     "Kediss, Emberclaw Familiar",
+     "Grafted Exoskeleton"
+    ],
+    "produces": [
+     "Each opponent loses the game"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 86,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "513-2364--47",
+    "uses": [
+     "Hullbreaker Horror",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "1089-2353",
+    "uses": [
+     "Curiosity",
+     "Niv-Mizzet, Parun"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite card draw",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   },
+   {
+    "id": "1089-4971",
+    "uses": [
+     "Niv-Mizzet, the Firemind",
+     "Curiosity"
+    ],
+    "produces": [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "3750-4945",
+    "uses": [
+     "Neheb, the Eternal",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases",
+     "Infinite red mana",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1089-4869",
+    "uses": [
+     "Glint-Horn Buccaneer",
+     "Curiosity"
+    ],
+    "produces": [
+     "Infinite draw triggers",
+     "Infinite rummaging",
+     "Infinite self-discard triggers",
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "1228-3500",
+    "uses": [
+     "Goblin Sharpshooter",
+     "Basilisk Collar"
+    ],
+    "produces": [
+     "Lock",
+     "Destroy all creatures opponents control",
+     "From now on, destroy any creatures opponents control at instant speed"
+    ]
+   },
+   {
+    "id": "542-2364",
+    "uses": [
+     "Tidespout Tyrant",
+     "Mana Vault"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3750-5988",
+    "uses": [
+     "Cavern-Hoard Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite combat damage to one opponent"
+    ]
+   }
+  ]
+ },
+ "retrieved": "2026-10-23T11:35:20-05:00"
+}

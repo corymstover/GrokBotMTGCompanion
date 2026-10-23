@@ -1,0 +1,225 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "slug": "garza-zol-plague-queen",
+ "baseline_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "result_hash": "lh1:cd76780100cbe9d1ada853684a2093d097a3cf3c8fdae459728fe618821ce4f5",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/garza-zol-plague-queen.json.gz",
+   "sha256": "sha256:cde9237fb9c7ae9759b1eba315787852655d674732cb03256731587d43a945c6"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/garza-zol-plague-queen.json.gz",
+   "sha256": "sha256:7b8386e598603c390441e37364f4d5638295c222a28de36398f6478641efc72c"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/garza-zol-plague-queen.json",
+   "sha256": "sha256:40c1f7b78694b93220bc116299999fee34387949b3464e89f7328fdc58672381"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/garza-zol-plague-queen.json",
+   "sha256": "sha256:8db96163110a74080f4478f8f4081585df78256a1d0f00fbe67e3165d8fd518e"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/garza-zol-plague-queen.json",
+   "sha256": "sha256:d25c5d39ba2dc2d570cab3ffcb6b059047495fa1ebe57be376b30ba52fe831a7"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Garza_Zol__Plague_Queen.json",
+   "sha256": "sha256:e3f2ea4fd42d5e46602cd4b1245cefe4e7a6a55a785f6c0176e1ff9e25ffe998"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:ea6937b4481fcb6dff1e9795ef0faff9953fdac8f8c5771a6ba1b76512b81b03"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+   "sha256": "sha256:019949a9533f63586279a115e69a1bb56732e2b8ec004bf6562fd0fb9883e811"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:3b6037a3f088db39d4ac8c7cd060291f629286b56a318fa609581001f77eb6eb"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:842fc3c3414fd604cfb6153b9cd4fa63570f55a03051c9bef63b86f97c1b35b2"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Garza_Zol__Plague_Queen_approved_source_2026-10-14.txt",
+   "sha256": "sha256:32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f"
+  },
+  {
+   "path": "exports/grixis-archidekt/garza-zol-plague-queen.txt",
+   "sha256": "sha256:b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Garza_Zol__Plague_Queen.txt",
+   "sha256": "sha256:48b6a7dbdb2dac5d591d93cb6f7f7efea634c0663acab9b6a1812661e559317f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_NibelheimAflame_over_NovaFlame_20261023.txt",
+   "sha256": "sha256:963b67800d0f65918a8d14e637e7eb21f6fc9cb0297f58fcf370c48ec4948a26"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_NibelheimAflame_over_ToxicDeluge_20261023.txt",
+   "sha256": "sha256:d3fd48e7a12d52b804fd12702328c115006a14f993aa4ca50c6d963db9a951d8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_FireWhip_over_Pongify_20261023.txt",
+   "sha256": "sha256:63b063724489ee7053a51c682f5f7efaae77300ec154f62fd7e1542fa4ec7fc3"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_HammerOfNazahn_over_TalismanOfIndulgence_20261023.txt",
+   "sha256": "sha256:73ee35d29f11ddd4ebf985f7d5fba05698eed3225eeeb568dfd925583c031631"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_Fireshrieker_instead_of_LizardBlades_20261023.txt",
+   "sha256": "sha256:2444f810ab6dbc5eeb82dfef221c5b284eee8e6bdf160e9bef8344deb6b2bf62"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_LizardBlades_cut_InquisitorsFlail_keep_FellwarStone_20261023.txt",
+   "sha256": "sha256:ae88c27a9e8f549f09af0cd7bb10357672407cf68df47b115961a4ed328e6912"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_PassC_baseline_plus_Fireshrieker_minus_InquisitorsFlail_20261023.txt",
+   "sha256": "sha256:b2cd7f028a5478e0ca5490b41c0d2b989c15ff1c8def7adc15125c111b25ad3c"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+   "sha256": "sha256:8788b83b8fb94b14b383c61ff86b9f5bdf8812d7e4e7926898cdd221c844f56d"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+   "sha256": "sha256:5e4e80a1b3c6eaaf16ce9d12ffc49d9340f9f890df902694ac484b7cf2255953"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/garza-zol-plague-queen-m7.json",
+   "sha256": "sha256:498b4b4471efc32903fcab5f445001aaf66973923b182a24c15687657d5970dc"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Garza_Zol__Plague_Queen_M6_I_local_best_20261023.md",
+   "sha256": "sha256:d5d4fc367700b364d7f5b003d54bf251f7d94c584d245eca97d9ff408470d946"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Garza_Zol__Plague_Queen_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:5593cfaf375b4350855e1823480b388cf39b102d40e96f008ef50fdc49a38dbe"
+  },
+  {
+   "path": ".github/workflows/m7-garza-zol-plague-queen.yml",
+   "sha256": "sha256:ad8c11e72ad2b8cef544c92b081188f7a57a3a08dd046789e061586b5d37d6ec"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Garza_Zol__Plague_Queen_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:da732378fdcb67520feb6838583c014b0cb042c421eed771b7ad64f183c81c6e"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/garza-zol-plague-queen.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/garza-zol-plague-queen.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Garza_Zol__Plague_Queen/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:978ee729922ed77d160d335cfbd961f292e3405018651592ab157fad3ad76374",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Garza_Zol__Plague_Queen/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:e7a7fbb5c01aa7bb62c52f699cd3e98bde918b6817d10a33bcb423962fe37ec1"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_garza_zol_plague_queen_m7_mechanics.py",
+    "source_sha256": "sha256:5da0c75e0ffd721752cb6b5b74b0c92d97066e2485850b4eec9e9ec905f410d0",
+    "seed": 0,
+    "harness_version": "garza_zol_m7_finite_rules_and_bounded_pass_c_11_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Eleven finite exact (no RNG) Oracle-anchored cases. Garza Oracle (5/5 flying haste; counter when a creature she damaged dies; may draw on combat damage to a player), add Oracle anchors (Lizard Blades double strike and reconfigure, Giantfall fight-style damage and artifact mode, both MDFC land faces with the 3-life choice), exact four swaps, singleton 100, legality and UBR identity, the same 9 Game Changers, 38 -> 36 lands plus 2 MDFCs, the same 3 Spellbook combos; bounded Pass C: all 120 combat rows (5 equipment states x 8 blockers x 3 configurations) and 35 special rows (Curiosity + Kediss, Quietus Spike, Grafted Exoskeleton infect, removal between strike steps, one-hit commander damage) recomputed from a hand-coded CR 510.4 / 702.4 / 702.2 model, and exact hypergeometric Garza castability by turns 4-6 recomputed for 9 lists with MDFC variants (colours assumed satisfied). No opponent model, matched opening hands or games; not a win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_garza_zol_plague_queen_candidate.py",
+    "source_sha256": "sha256:722b658b72bb4488854b0577ec16e540e38b6a0694c3b22ab386f0ef6d7382bd",
+    "seed": 0,
+    "harness_version": "garza_zol_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact four physical swaps against vendored and canonical sources, gate withdrawn RESEARCH_ONLY status (not owner-presentable), registry hashes untouched, single commander first, every row 1x, alphabetical and 100 physical, distinctness vs the closest Grixis decks disclosed, no owner keep or addition cut and owner-removed cards not re-added, staged alternatives as complete 100s, commander legality and release, Bracket 4, tags and combo disclosure; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #667 head 1946a316 (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_garza_zol_plague_queen_m7_ij.py",
+    "source_sha256": "sha256:a349e157d545474f9822a5dc5a136c6a1557b7bd8ea861613ecbc35497ceaf69",
+    "seed": 0,
+    "harness_version": "garza_zol_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 10 configurations, runs the J checker, pins the checker sha, checks the low-swap self-challenge, and exercises fail-closed Pass C explicit-false non-independence wording and Stage A seal cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Garza_Zol__Plague_Queen_M6_J_red_team_20261023.md",
+  "sha256": "sha256:7ff48e9c6104cc658cbd1fdc9230e5c63ca538bb613ed3b4b221b247eb108ff5"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Garza_Zol__Plague_Queen_M6_J_mana_20261023.md",
+  "sha256": "sha256:92ed138553023828547abb25f200d22f33f4fbfb3ac2408f96ce6c2ee836df4b"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
