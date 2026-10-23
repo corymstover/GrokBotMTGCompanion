@@ -35,7 +35,7 @@
  "whole_deck_audit": {
   "all_noncommand_cards_reviewed": true,
   "roles_and_overlaps": "All 99 library cards were reviewed by quantity (99 rows, all 1x; Island, Mountain and Swamp x1 each).\nRoles:\n- 30 lands.\n- Fast mana: Sol Ring, Mana Vault, Chrome Mox, Mox Diamond, Mox Opal, Lotus Petal, LED, Arcane Signet, three Talismans.\n- Rituals and converters (Dark Ritual, Cabal Ritual, Culling the Weak, Rite of Flame, Seething Song, Jeska's Will).\n- 7 tutors.\n- Death-loop pieces.\n- 10 counters, plus Pyroblast and REB.\n- Draw: Necropotence, Ad Nauseam, Rhystic Study, Mystic Remora, wheels and cantrips.\nOverlaps: REB/Pyroblast, three sorcery cantrips plus Gitaxian Probe, and two loot effects.",
-  "mana_base_and_curve": "Baseline: 30 lands; average nonland MV 1.841. Heuristic land sources: U 19, B 18, R 17 (fetches counted by their basic types only; all seven can reach U/B/R duals). Candidate: 30 lands; average nonland MV 1.899; sources U 19, B 17, R 16. One always-tapped land (Undercity Sewers) is replaced by Mistrise Village, which enters untapped with any of 5 Mountain-typed lands. Instant/sorcery count 46 -> 45; creatures 5 -> 6.",
+  "mana_base_and_curve": "Baseline: 30 lands; average nonland MV 1.841. Heuristic land sources: U 19, B 18, R 17 (fetches counted by their basic types only; all seven can reach U/B/R duals). Candidate: 30 lands; average nonland MV 1.899; sources U 19, B 17, R 16. One always-tapped land (Undercity Sewers) is replaced by Mistrise Village, which enters untapped with any of 5 Mountain-typed lands. Instant/sorcery count 46 -> 45; library creatures 5 -> 6 (7 counting Cormela).",
   "interaction_resilience": "Stack: Force of Will, Force of Negation, Fierce Guardianship, Pact of Negation, Mindbreak Trap, Flusterstorm, Swan Song, Mental Misstep, An Offer You Can't Refuse, Pyroblast and Deflecting Swat, plus Hexing Squelcher and Mistrise Village as proactive protection. Removal: Chain of Vapor, Otawara, Saw in Half, Orcish Bowmasters. Weak points: graveyard hate (Breach, reanimation, Cormela recursion), Stifle effects on death triggers, Cursed Totem against Cormela's mana ability, and artifact hate against the fast mana.",
   "weakest_slots": [
    {
@@ -167,15 +167,15 @@
   {
    "card": "Frantic Search",
    "source": "EDHREC general page 2030/3891, cEDH page 35/130; live Scryfall batch",
-   "role": "Three-mana instant: draw two, discard two, untap up to three lands.",
+   "role": "{2}{U} instant: draw two, discard two, untap up to three lands.",
    "named_cuts": [
     "Faithless Looting"
    ],
    "incumbent_opportunity_cost": "Loses Faithless Looting's one-mana loot and its flashback. Looting is card disadvantage (draw 2, discard 2, with nothing back) and sorcery-speed.",
-   "commander_synergy": "Cormela-specific converter. Cast with her restricted {U}{B}{R}, Frantic Search untaps three lands, so that restricted mana becomes unrestricted land mana for artifacts, creatures or her own {1} activation. With three lands it is free. Its discards fill the graveyard for Reanimate, Goryo's Vengeance, Shallow Grave, Underworld Breach and Cabal Ritual threshold. It is an instant that Cormela's death trigger can return.",
+   "commander_synergy": "A Cormela-specific converter. Her restricted {U}{B}{R} pays its whole {2}{U} cost. Untapping three lands then gives back three land mana, against the one land mana spent on her {1} activation. That nets +2 unrestricted land mana and a loot from mana that could only cast instants and sorceries. Without Cormela it is free with three tapped lands. Its discards fill the graveyard for Reanimate, Goryo's Vengeance, Shallow Grave, Underworld Breach and Cabal Ritual threshold. It is an instant that Cormela's death trigger can return.",
    "adversarial_downside": "Three mana up front without Cormela or three untapped lands. It is not a loop converter in the Saw in Half line (it nets 0 mana where Dark Ritual nets +2), so it adds no infinite combo.",
    "judgment": "SELECT_ADD",
-   "reason": "Turns the commander's restricted mana into unrestricted mana and loots at no net cost. Faithless Looting does neither.",
+   "reason": "Turns the commander's restricted mana into net unrestricted land mana (+2 per use) and loots at no net mana cost. Faithless Looting does neither.",
    "confidence": "HIGH",
    "evidence_refs": [
     "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
@@ -193,7 +193,7 @@
     "Gitaxian Probe"
    ],
    "incumbent_opportunity_cost": "Loses Gitaxian Probe's free cantrip, its peek at a hand and +1 storm count for 2 life.",
-   "commander_synergy": "Cast on Cormela, the legend rule kills the original. Her death trigger returns Twinflame, and the untapped hasty token taps for another {U}{B}{R} that recasts it. That is +1 storm and +1 death per loop at net 0 mana, and with Birgi it is infinite (Spellbook 392-1235-4867). With Dualcaster Mage it is a 2-card infinite of hasty tokens (147-1235). It is a second copy of the Molten Duplication plan that Cormela's restricted mana can pay for. On a tapped Cormela it is also +2 net restricted mana.",
+   "commander_synergy": "Cast on Cormela, the legend rule kills the original. Her death trigger returns Twinflame, and the untapped hasty token taps for another {U}{B}{R} that recasts it. That is +1 storm and +1 death per loop at net 0 mana, and with Birgi it is infinite (Spellbook 392-1235-4867). With Dualcaster Mage it is a 2-card infinite of hasty tokens (147-1235). It is a second copy of the Molten Duplication plan that Cormela's restricted mana can pay for. Each loop costs Cormela's {1} activation (unrestricted) and Twinflame's {1}{R}, paid from her {U}{B}{R}. The net per loop is -1 unrestricted and +1 restricted mana, so the loop only runs with outside unrestricted mana. Birgi's {R} per cast supplies it.",
    "adversarial_downside": "A sorcery, so it can only be used on our own main phase. It needs a creature in play, so it is dead without Cormela, Dualcaster or Thassa's Oracle on board.",
    "judgment": "SELECT_ADD",
    "reason": "It adds two Spellbook combos built around the commander and backs up Molten Duplication. Probe's free cantrip is the most replaceable cheap spell in the list.",
@@ -215,7 +215,7 @@
     "Red Elemental Blast"
    ],
    "incumbent_opportunity_cost": "Loses Red Elemental Blast, the second one-mana blue hoser. Pyroblast stays and does the same job more flexibly.",
-   "commander_synergy": "It makes the whole Cormela combo turn uncounterable: every Saw in Half, Twinflame, ritual and Tendrils copy-maker. It gives Cormela Ward—Pay 2 life against targeted removal. It is also sacrifice fodder for Culling the Weak (MV 2 -> {B}{B}{B}{B}), Diabolic Intent, Phyrexian Tower and the altars.",
+   "commander_synergy": "It makes the whole Cormela combo turn uncounterable: every Saw in Half, Twinflame, ritual and Tendrils copy-maker. It gives Cormela Ward—Pay 2 life against targeted removal. It is also sacrifice fodder for Culling the Weak (which always gives {B}{B}{B}{B}), Diabolic Intent, Phyrexian Tower and the altars.",
    "adversarial_downside": "Dies to removal and wipes. It does not stop Stifle effects on storm or death triggers, or 'can't cast' hatebears. It reduces REB/Pyro coverage against blue counter wars when we are not comboing.",
    "judgment": "SELECT_ADD",
    "reason": "A permanent answer to counterspells on our own turn beats a second one-shot blue hoser. The deck keeps ten free or cheap counters for defense.",

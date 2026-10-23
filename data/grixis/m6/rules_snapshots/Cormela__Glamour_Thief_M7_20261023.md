@@ -13,7 +13,7 @@ snapshot `data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_202
 - **605.1a**: Cormela's ability has no target and adds mana, so it is a mana ability. It can be activated while paying for a spell. Haste means it can be used the turn she (or a hasty token copy of her) enters.
 - **106.6**: the restriction stays with the mana. Cormela's {U}{B}{R} can pay only for instants and sorceries. It cannot pay for artifacts, creatures, activations or her own {1} activation cost.
   - That makes the deck's **converters** important. These are instants or sorceries that, cast with restricted mana, produce unrestricted mana: Dark Ritual, Cabal Ritual, Culling the Weak, Seething Song, Jeska's Will and Rite of Flame.
-  - The candidate adds **Frantic Search**, which untaps up to three lands. Cast with Cormela's three restricted mana, it turns them into up to three unrestricted land mana, and it loots two.
+  - The candidate adds **Frantic Search** ({2}{U} instant: draw two, discard two, untap up to three lands). Cormela's restricted {U}{B}{R} pays its whole cost. Untapping three lands then gives back three unrestricted land mana, against the one land mana spent on her {1} activation. That is a net +2 unrestricted mana plus a loot; without Cormela it is free with three tapped lands.
 - **700.4 / 704.5j / 903.9a**: the legend rule puts the extra copies into the graveyard, so each one "dies".
   - A token copy of Cormela that dies triggers its own copy of her death ability.
   - The commander Cormela also triggers when she dies, even if her owner then moves her to the command zone. That move is a state-based action taken after she dies.
@@ -21,13 +21,13 @@ snapshot `data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_202
   1. Cast it on Cormela. It makes a token copy with haste.
   2. Keep the untapped token. The original goes to the graveyard and dies (legend rule), and its trigger returns Twinflame to hand.
   3. The token taps for {U}{B}{R}, which recasts Twinflame on the token.
-  - Each loop nets 0 mana and adds 1 storm and 1 death trigger. It only becomes infinite with an outside +1, for example **Birgi** adding {R} per spell (Commander Spellbook 392-1235-4867).
+  - Each loop costs Cormela's {1} activation in unrestricted mana and Twinflame's {1}{R} paid from her {U}{B}{R}. The net per loop is −1 unrestricted and +1 restricted mana, with +1 storm and +1 death trigger. It is therefore finite on its own and becomes infinite only with an outside unrestricted source per cast, for example **Birgi** adding {R} per spell (Commander Spellbook 392-1235-4867).
   - **Dualcaster Mage + Twinflame** is a separate 2-card infinite of hasty tokens (Spellbook 147-1235).
   - Twinflame mirrors the incumbent Molten Duplication lines (Spellbook 147-5487, 392-4867-5487).
   - Twinflame + Cormela + an altar is **not** claimed as infinite. If you sacrifice the original in response, the death trigger cannot return Twinflame, because Twinflame is still on the stack. The copy then has no legal target.
 - **Saw in Half on Cormela**: she dies (trigger 1) and two half-size token copies are created. The legend rule then sends one token to the graveyard (trigger 2). That is two death triggers per Saw in Half.
   - Spellbook lists Cormela + Saw in Half + Dark Ritual, Cabal Ritual or Seething Song as infinite (500-2701-4867, 500-4867-4923, 500-4036-4867). The second trigger returns the ritual.
-  - **Frantic Search is not a converter there.** It nets 0 mana per loop where Dark Ritual nets +2, so the loop would net −1. No infinite is claimed for it.
+  - **Frantic Search is not a converter there.** In the Saw loop the token's {U}{B}{R} is already spent on Saw in Half, so Frantic Search must be paid with three other mana and gives back only three (net 0, where Dark Ritual nets +2). After the {1} activation, the loop nets −1. No infinite is claimed for it.
 - **Hexing Squelcher**: "Spells you control can't be countered." Per **101.2**, "can't" wins.
   - Opposing counterspells can still be cast at our spells, but they do not counter them.
   - Squelcher does **not** stop abilities from being countered: Stifle-type effects can still hit storm triggers, Cormela's death trigger or Breach escape. It also does not stop "can't cast" effects (Drannith Magistrate, Silence-type effects).

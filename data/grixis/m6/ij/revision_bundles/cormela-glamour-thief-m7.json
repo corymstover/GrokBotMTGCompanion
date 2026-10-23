@@ -1,0 +1,209 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Cormela__Glamour_Thief",
+ "slug": "cormela-glamour-thief",
+ "baseline_hash": "lh1:545b22caf5c71e44fe42483b7a737352e9e712db43d8289f03a82997269fa7b6",
+ "result_hash": "lh1:ed41bb16fe9c22a42cc13f9084b0feb192cb5937878049e89417c155110219a7",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/cormela-glamour-thief.json.gz",
+   "sha256": "sha256:0b4c929236a5c6adcc2ee04db90596f02d93c99797fa4d809d0ad30c55ae8162"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/cormela-glamour-thief.json.gz",
+   "sha256": "sha256:1d36589cf5b4e6accc27d9e31ff4ccacc1198cd43dc365c44402c791bfec1edf"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/cormela-glamour-thief.json",
+   "sha256": "sha256:a35864592cf4d2a9586d8dcc1359f5bf9ccb35500b473ce6ab922b8ccf896375"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/cormela-glamour-thief.json",
+   "sha256": "sha256:5bcf3a4bdac36e3d2e4c010e8075087851424660e2fa22a75347120636900fbd"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/cormela-glamour-thief.json",
+   "sha256": "sha256:fcf6d0914f9e22a3055e48f93729d98583a157ed7ac02db5a97ce71e1b81e11f"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Cormela__Glamour_Thief.json",
+   "sha256": "sha256:923f4caabe7ddf03ce86e197819e23e5e8e4004e4012ec1e13962c5f5f8cadc9"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:1e9e561b14d36e1338a5e34d8eecdb5770d531552c8422d668ef6e7384439187"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_Scryfall_live_20261023.json",
+   "sha256": "sha256:2bbaa76a7c07bceb7994e3f3619aceb2d54f35f3f689f6dfe16c9f8398528326"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:eea048b5aeb85718c9826c4418d810853d2d1a2ee9c3239affbb61ffce724e3e"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Cormela__Glamour_Thief_approved_source_2026-10-14.txt",
+   "sha256": "sha256:80f4bdef2b8b140aeae23775cfdf87fda81e7215038b8db9b1746c806f366e0b"
+  },
+  {
+   "path": "exports/grixis-archidekt/cormela-glamour-thief.txt",
+   "sha256": "sha256:29dad7ed42b4c5b81bb507f96d3638c6dbe8f509f6d8e8f935f25df484930578"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Cormela__Glamour_Thief.txt",
+   "sha256": "sha256:1cb098f4d1089f6989dfdb79b4abcd149000dfa5f90b923bda72ffa36aa2c8b1"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_four_without_HexingSquelcher_20261023.txt",
+   "sha256": "sha256:45b83aa241369b241ee5586eedbd64772984e81af54e6039fe51c22ee02c20b4"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_PassC_Muddle_over_SeethingSong_20261023.txt",
+   "sha256": "sha256:226745b8b67c08ac0f2302b6a9f3cc96335bede48332df3ef90380775e808ff2"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_six_Abrade_over_Preordain_20261023.txt",
+   "sha256": "sha256:96b69586f74c7b42c2097d61c933ba1b0cb160856886c031511e153c47b25260"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Cormela__Glamour_Thief_seven_BurntOffering_over_Windfall_20261023.txt",
+   "sha256": "sha256:c1f1c992a14c4710c27a3acda8e4e425c1545779d433973f5a4c529098f26abd"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Cormela__Glamour_Thief_M7_Scryfall_20261023.json",
+   "sha256": "sha256:c4f376fa42781ca7db4fbc189a5055f06c1f9b4e42868839ce3b39e79ccf2778"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Cormela__Glamour_Thief_M7_20261023.md",
+   "sha256": "sha256:27a85800192e34c7bfe5bc18ec9a7dfd3b2a83eab29bb323e184d2d7ca16cb76"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/cormela-glamour-thief-m7.json",
+   "sha256": "sha256:cc217c3b133a59a3488152a68850cd6d8bb3dac8f85d226eba5e7ac263c67592"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Cormela__Glamour_Thief_M6_I_local_best_20261023.md",
+   "sha256": "sha256:6e134917a88778032d2ed77843c6cce8c0a19198d1787a5b0be9609e96056a9e"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Cormela__Glamour_Thief_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:d536f73f293fda3af747a642c6c2c36c492ec8f27d2f0e0c91cc0b8c604b984e"
+  },
+  {
+   "path": ".github/workflows/m7-cormela-glamour-thief.yml",
+   "sha256": "sha256:beecc14ee0be8dad1ed5cab1ef5b023d6b3d50b4f62817cac5c30af5444feced"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Cormela__Glamour_Thief_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:ac435629218406b3291de5cb4488941bd1a75813824c33e2dec6156d0ae50502"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/cormela-glamour-thief.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/cormela-glamour-thief.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:dd8c26093ffec11fb11d209c6f29dc2cc2b36dd94c695d5a63f82dbdac6ad7f5",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Cormela__Glamour_Thief/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:9cdae4287ada8cd957a2c882a37e735d4c8a93d7a3db738508dc8d27f036065e"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_cormela_glamour_thief_m7_mechanics.py",
+    "source_sha256": "sha256:251d8fd3dbd891fa7913ec34f76423bd8feef0e90903ad7f91c5b435e63db966",
+    "seed": 0,
+    "harness_version": "cormela_m7_finite_rules_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Ten finite seed-0 Oracle-anchored cases: Cormela Oracle (restricted UBR, dies return); Frantic Search {2}{U} paid with Cormela mana nets +2 unrestricted; Saw in Half loop net per converter (Dark Ritual +1, Seething Song +1, Cabal Ritual threshold +2, Frantic -1 so not infinite); Twinflame loop -1 unrestricted/+1 restricted per iteration, finite alone, infinite only with Birgi; Hexing Squelcher/Mistrise Village protection text and cut rationale; Spellbook IDs baseline 23 -> candidate 25 (adds 147-1235, 392-1235-4867); exact swaps with core preserved; quantity-counted lands 30 with Mountain-typed enablers for Mistrise; legality, UBR identity, singleton, 20 Game Changers unchanged; Tainted Pact unique names and Breach finite escape. Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_cormela_glamour_thief_candidate.py",
+    "source_sha256": "sha256:4f699288cbf9d248f5299be62698ed571631248bb57a072a8d700a8d2b45a87c",
+    "seed": 0,
+    "harness_version": "cormela_m7_gate_candidate_5_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps against vendored and canonical sources, registry hashes untouched, single commander first and 100 physical, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #656 head 14f33de8 (from PR #651)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_cormela_glamour_thief_m7_ij.py",
+    "source_sha256": "sha256:5e2762551f877ef629c9053d97461d7c1d5cbb062aa821957bc18836bc50d23f",
+    "seed": 0,
+    "harness_version": "cormela_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas, runs the J checker, pins the checker sha, and exercises fail-closed Pass C non-independence wording and jlk_stage_a_seal_v1 seal mapping cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Cormela__Glamour_Thief_M6_J_red_team_20261023.md",
+  "sha256": "sha256:735ce0e00f2f27b846809d47957293ac6b1cef7ad57661d57143ab1407d1cd32"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Cormela__Glamour_Thief_M6_J_mana_20261023.md",
+  "sha256": "sha256:6a385395c979f4fb4686737a09660d65d128a89b4bc7e5689d7c8e835b6e2ba1"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
