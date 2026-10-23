@@ -18,6 +18,7 @@
 1x Chandra's Ignition
 1x Chaos Warp
 1x Command Tower
+1x Consign to Memory
 1x Deadly Rollick
 1x Deflecting Swat
 1x Demonic Tutor
@@ -26,7 +27,6 @@
 1x Distortion Strike
 1x Dress Down
 1x Exotic Orchard
-1x Feed the Swarm
 1x Fierce Guardianship
 1x Goblin Bombardment
 1x Gravecrawler
@@ -51,6 +51,7 @@
 1x Ophiomancer
 1x Ornithopter of Paradise
 1x Otawara, Soaring City
+1x Pain for All
 1x Phyresis
 1x Phyrexian Altar
 1x Phyrexian Tower
@@ -78,7 +79,6 @@
 1x Talisman of Creativity
 1x Talisman of Dominance
 1x Talisman of Indulgence
-1x Temur Battle Rage
 1x Terminate
 1x Torpor Orb
 1x Toxic Deluge

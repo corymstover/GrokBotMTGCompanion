@@ -7123,6 +7123,15 @@
    "card_num_decks_all_commanders": 674124,
    "lord_of_tresserhorn_top_commander_row": "absent from Top Commanders"
   },
+  "consign-to-memory": {
+   "url": "https://json.edhrec.com/pages/cards/consign-to-memory.json",
+   "card_num_decks_all_commanders": 20627,
+   "lord_of_tresserhorn_top_commander_row": [
+    "Lord of Tresserhorn",
+    214,
+    1215
+   ]
+  },
   "cover-of-darkness": {
    "url": "https://json.edhrec.com/pages/cards/cover-of-darkness.json",
    "card_num_decks_all_commanders": 110559,
@@ -7140,6 +7149,11 @@
   "embercleave": {
    "url": "https://json.edhrec.com/pages/cards/embercleave.json",
    "card_num_decks_all_commanders": 117591,
+   "lord_of_tresserhorn_top_commander_row": "absent from Top Commanders"
+  },
+  "feed-the-swarm": {
+   "url": "https://json.edhrec.com/pages/cards/feed-the-swarm.json",
+   "card_num_decks_all_commanders": 826703,
    "lord_of_tresserhorn_top_commander_row": "absent from Top Commanders"
   },
   "fellwar-stone": {

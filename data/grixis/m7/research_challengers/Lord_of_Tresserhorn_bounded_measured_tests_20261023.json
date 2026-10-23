@@ -2,7 +2,7 @@
  "deck_id": "Lord_of_Tresserhorn",
  "purpose": "Bounded finite measured tests requested by M6 Pass C (+Fierce Guardianship vs Sheoldred's Edict / Nightscape Familiar; +Soul's Fire vs Sheoldred's Edict / Muddle the Mixture; Dress Down + Kediss + Phyresis layer case; Distortion Strike vs Rogue's Passage) plus the deployment cost of the selected swaps. Seeded goldfish deployment model and exhaustive rules-encoded scenario grids; not a game simulation, not a source-bound game-engine receipt and not a win rate.",
  "scripts": {
-  "meas": "\"\"\"Bounded finite Pass C tests for Lord_of_Tresserhorn (Deck 29). Part A: seeded finite Monte Carlo goldfish of\ndeployment (seed 29, fixed N, on the play, no mulligans, no opponent). Part B: exhaustive finite rules-encoded\nscenario grids (deterministic, enumerated). Neither part is a win-rate simulation.\"\"\"\nimport json,re,random,itertools,collections,sys\nW='/workspace/d29w/'\nSC=json.load(open(W+'scry_live.json')); ALL={x['name']:x for x in SC['cards']}; ALL.update({x['name']:x for x in SC['baseline_cards']})\ndef load(p):\n    out=[]\n    for l in open(p):\n        m=re.match(r'(\\d+)x (.+?)( \\[Commander\\])?$',l.strip())\n        if m and not m.group(3): out+=[m.group(2)]*int(m.group(1))\n    return out\nbase=load(W+'base.txt'); assert len(base)==99\ndef swap(d,pairs):\n    d=d[:]\n    for a,c in pairs: d.remove(c); d.append(a)\n    return d\nFINAL=[(\"Fierce Guardianship\",\"Stubborn Denial\"),(\"Temur Battle Rage\",\"Pain for All\"),(\"Black Market Connections\",\"Cover of Darkness\"),(\"Ornithopter of Paradise\",\"Fellwar Stone\"),(\"Skullclamp\",\"Sheoldred's Edict\")]\ndef key(a,c): return f\"plus_{a}_minus_{c}\".replace(' ','_').replace(\"'\",'').replace(',','')\nCFG={\"baseline\":base}\nfor a,c in FINAL: CFG[\"single_\"+key(a,c)]=swap(base,[(a,c)])\nCFG[\"candidate\"]=swap(base,FINAL)\nPROBES=[(\"Fierce Guardianship\",\"Nightscape Familiar\"),(\"Fierce Guardianship\",\"Sheoldred's Edict\"),(\"Fierce Guardianship\",\"Muddle the Mixture\"),(\"Skullclamp\",\"Fellwar Stone\"),\n (\"Skullclamp\",\"Cover of Darkness\"),(\"Soul's Fire\",\"Sheoldred's Edict\"),(\"Aqueous Form\",\"Cover of Darkness\")]\nfor a,c in PROBES: CFG[\"probe_single_\"+key(a,c)]=swap(base,[(a,c)])\nF4=FINAL[:4]\nCFG[\"alt_A_four_swaps_keep_Sheoldreds_Edict_no_Skullclamp\"]=swap(base,F4)\nCFG[\"alt_B_Skullclamp_minus_Muddle_the_Mixture_keep_Edict\"]=swap(base,F4+[(\"Skullclamp\",\"Muddle the Mixture\")])\nCFG[\"alt_C_Skullclamp_minus_Nightscape_Familiar\"]=swap(base,F4+[(\"Skullclamp\",\"Nightscape Familiar\")])\nCFG[\"alt_D_candidate_plus_Aqueous_Form_minus_Muddle_the_Mixture\"]=swap(base,FINAL+[(\"Aqueous Form\",\"Muddle the Mixture\")])\nCFG[\"alt_E_candidate_plus_Distortion_Strike_minus_Rogues_Passage_34_lands\"]=swap(base,FINAL+[(\"Distortion Strike\",\"Rogue's Passage\")])\nCFG[\"alt_F_original_tentative_plan\"]=swap(base,[(\"Fierce Guardianship\",\"Nightscape Familiar\"),(\"Skullclamp\",\"Fellwar Stone\"),(\"Soul's Fire\",\"Sheoldred's Edict\"),(\"Temur Battle Rage\",\"Pain for All\"),(\"Aqueous Form\",\"Cover of Darkness\")])\nU,B,R='U','B','R'\nLAND={\"Island\":(\"U\",0),\"Swamp\":(\"B\",0),\"Mountain\":(\"R\",0),\"Badlands\":(\"BR\",0),\"Blood Crypt\":(\"BR\",0),\"Steam Vents\":(\"UR\",0),\"Watery Grave\":(\"UB\",0),\n \"Underground Sea\":(\"UB\",0),\"Volcanic Island\":(\"UR\",0),\"Bloodstained Mire\":(\"BR\",0),\"Polluted Delta\":(\"UB\",0),\"Scalding Tarn\":(\"UR\",0),\"Marsh Flats\":(\"UB\",0),\"Misty Rainforest\":(\"UB\",0),\n \"Command Tower\":(\"UBR\",0),\"Mana Confluence\":(\"UBR\",0),\"Exotic Orchard\":(\"UBR\",0),\"Luxury Suite\":(\"BR\",0),\"Morphic Pool\":(\"UB\",0),\"Training Center\":(\"UR\",0),\n \"Shivan Reef\":(\"UR\",0),\"Sulfurous Springs\":(\"BR\",0),\"Underground River\":(\"UB\",0),\"Xander's Lounge\":(\"UBR\",1),\"Bojuka Bog\":(\"B\",1),\n \"Arena of Glory\":(\"R\",\"mtn\"),\"Otawara, Soaring City\":(\"U\",0),\"Shizo, Death's Storehouse\":(\"B\",0),\"Takenuma, Abandoned Mire\":(\"B\",0),\n \"High Market\":(\"C\",0),\"Phyrexian Tower\":(\"C\",0),\"Rogue's Passage\":(\"C\",0),\"Cavern of Souls\":(\"Z\",0)}\nMTN={\"Mountain\",\"Badlands\",\"Blood Crypt\",\"Steam Vents\",\"Volcanic Island\",\"Bloodstained Mire\",\"Scalding Tarn\",\"Xander's Lounge\"}\nROCK={\"Sol Ring\":\"CC\",\"Arcane Signet\":\"UBR\",\"Fellwar Stone\":\"UBR\",\"Talisman of Creativity\":\"UR\",\"Talisman of Dominance\":\"UB\",\"Talisman of Indulgence\":\"BR\",\"Dimir Signet\":\"UB\",\"Rakdos Signet\":\"BR\"}\ndef cost(n):\n    mc=ALL[n].get('mana_cost') or ''\n    pips=re.findall(r'\\{(.)\\}',mc.split(' // ')[0]); g=sum(int(p) for p in pips if p.isdigit()); col=[p for p in pips if p in 'UBR']\n    return g,col\ndef is_creature(n): return 'Creature' in ALL[n]['type_line']\ndef zombie(n): return 'Zombie' in ALL[n]['type_line']\ndef tough(n):\n    t=ALL[n].get('toughness'); return int(t) if t and t.isdigit() else 9\ndef pay(srcs,g,col,zomb):\n    s=[(\"UBR\" if (x==\"Z\" and zomb) else (\"C\" if x==\"Z\" else x)) for x in srcs]\n    if len(s)<g+len(col): return None\n    col=sorted(col)\n    def dfs(i,used):\n        if i==len(col): return used\n        for j,x in enumerate(s):\n            if j not in used and col[i] in x:\n                r=dfs(i+1,used|{j})\n                if r is not None: return r\n        return None\n    used=dfs(0,frozenset())\n    if used is None: return None\n    rest=sorted([j for j in range(len(s)) if j not in used],key=lambda j:len(s[j]))\n    return set(used)|set(rest[:g])\nSUPP={\"Torpor Orb\",\"Karn, Argent Defender\"}\nFINISH={\"Phyresis\",\"Tainted Strike\",\"Uncaged Fury\",\"Temur Battle Rage\",\"Chandra's Ignition\",\"Pain for All\",\"Soul's Fire\",\"Kediss, Emberclaw Familiar\"}\nFREEPROT={\"Fierce Guardianship\",\"Deflecting Swat\",\"Not of This World\"}\ndef game(deck,rnd,T=7):\n    global orni_t\n    d=deck[:]; rnd.shuffle(d); hand=d[:7]; lib=d[7:]\n    lands=[]; rocks=[]; bf=[]; orni_t=99; lord_turn=None; lord_mode=None; tokens=0; seen=7; clamp_draws=0; recs=[]\n    for t in range(1,T+1):\n        if t>1: hand.append(lib.pop(0)); seen+=1\n        if \"Bitterblossom\" in bf and t>1: tokens+=1\n        if \"Black Market Connections\" in bf: tokens+=1; hand.append(lib.pop(0)); seen+=1\n        if \"Ophiomancer\" in bf and t>1: tokens+=0  # snake counted below as standing body\n        lh=[c for c in hand if c in LAND]; newtapped=False\n        if lh:\n            def untapped(c):\n                k=LAND[c][1]\n                if k==\"mtn\": return any(x in MTN for x in lands)\n                return k==0\n            pref=sorted(lh,key=lambda c:((0 if not untapped(c) else 1) if t<=2 else (0 if untapped(c) else 1)))\n            L=pref[0]; hand.remove(L); newtapped=not untapped(L); lands.append(L)\n        srcs=[LAND[x][0] for i,x in enumerate(lands) if not (i==len(lands)-1 and newtapped)]\n        for r in rocks: srcs+= [\"C\",\"C\"] if ROCK[r]==\"CC\" else [ROCK[r]]\n        avail=srcs[:]\n        def spend(n,extra_g=0):\n            nonlocal avail\n            g,col=cost(n); g+=extra_g\n            if n==\"Lord of Tresserhorn\" and \"Nightscape Familiar\" in bf: g=max(0,g-1)\n            u=pay(avail,g,col,zombie(n) if n in ALL else False)\n            if u is None: return False\n            avail=[x for j,x in enumerate(avail) if j not in u]; return True\n        def others(): return len([c for c in bf if is_creature(c)])+tokens+(1 if \"Ophiomancer\" in bf else 0)\n        def try_lord():\n            nonlocal lord_turn,lord_mode,avail\n            if lord_turn is not None: return\n            save=avail[:]\n            if any(s in bf for s in SUPP):\n                if spend(\"Lord of Tresserhorn\"): lord_turn=t; lord_mode=\"suppressed\"; return\n            if others()>=2:\n                if spend(\"Lord of Tresserhorn\"): lord_turn=t; lord_mode=\"paid_fodder\"; return\n            for st,(g,col) in ((\"Stifle\",(0,[U])),(\"Tale's End\",(1,[U])),(\"Dress Down\",(1,[U]))):\n                if st in hand:\n                    if spend(\"Lord of Tresserhorn\"):\n                        u=pay(avail,g,col,False)\n                        if u is not None:\n                            avail=[x for j,x in enumerate(avail) if j not in u]; hand.remove(st); lord_turn=t; lord_mode=\"answered_\"+st; return\n                        avail=save[:]\n        if \"Ornithopter of Paradise\" in bf and t>orni_t: avail.append(\"UBR\")\n        for s in [c for c in hand if c in SUPP]:\n            if spend(s): hand.remove(s); bf.append(s)\n        try_lord()\n        for r in sorted([c for c in hand if c in ROCK],key=lambda c:sum(cost(c)[0:1])+len(cost(c)[1])):\n            if spend(r): hand.remove(r); rocks.append(r); avail+= [\"C\",\"C\"] if ROCK[r]==\"CC\" else [ROCK[r]]\n        try_lord()\n        for v in sorted([c for c in hand if c in ALL and (is_creature(c) or c==\"Bitterblossom\") and c!=\"Lord of Tresserhorn\"],key=lambda c:sum([cost(c)[0],len(cost(c)[1])])):\n            if sum([cost(v)[0],len(cost(v)[1])])>3 and lord_turn is None and t>=3: continue\n            if spend(v):\n                hand.remove(v); bf.append(v)\n                if v==\"Ornithopter of Paradise\": orni_t=t\n        try_lord()\n        if \"Black Market Connections\" in hand and spend(\"Black Market Connections\"): hand.remove(\"Black Market Connections\"); bf.append(\"Black Market Connections\")\n        if \"Skullclamp\" in hand and spend(\"Skullclamp\"): hand.remove(\"Skullclamp\"); bf.append(\"Skullclamp\")\n        if \"Skullclamp\" in bf:\n            while len(avail)>=1:\n                need=0 if lord_turn is not None else 2\n                ones=[c for c in bf if is_creature(c) and tough(c)<=1 and c not in(\"Karn, Argent Defender\",)]\n                if others()-1<need: break\n                if tokens>0: tokens-=1\n                elif ones: bf.remove(ones[0])\n                else: break\n                avail.pop(); \n                for _ in range(2):\n                    if lib: hand.append(lib.pop(0)); seen+=1; clamp_draws+=1\n        lord=lord_turn is not None\n        recs.append(dict(lord=lord,lord_suppressed=lord and lord_mode in(\"suppressed\",\"answered_Stifle\",\"answered_Tale's End\",\"answered_Dress Down\"),\n            lord_attack_ready=lord and lord_turn<t, conv=lord and lord_turn<t and any(c in FINISH for c in hand+bf),\n            freeprot=lord and any(c in hand for c in FREEPROT), anyprot=lord and any(c in hand for c in FREEPROT|{\"Stubborn Denial\",\"Slip Out the Back\",\"Muddle the Mixture\",\"Tale's End\"}),\n            seen=seen,clamp=clamp_draws))\n    return recs\ndef run(deck,seed=29,N=20000,T=7):\n    rnd=random.Random(seed); acc=collections.defaultdict(lambda: collections.Counter())\n    for _ in range(N):\n        for t,o in enumerate(game(deck,rnd,T),1):\n            for k,v in o.items(): acc[t][k]+=v\n    return {f\"turn {t}\":{\"P_Lord_on_battlefield\":round(a['lord']/N,4),\"P_Lord_on_battlefield_without_paying_ETB\":round(a['lord_suppressed']/N,4),\n            \"P_Lord_attack_ready\":round(a['lord_attack_ready']/N,4),\"P_Lord_attack_ready_with_conversion_card\":round(a['conv']/N,4),\n            \"P_Lord_out_with_free_protection_in_hand\":round(a['freeprot']/N,4),\"P_Lord_out_with_any_counter_or_protection_in_hand\":round(a['anyprot']/N,4),\n            \"mean_cards_seen\":round(a['seen']/N,3),\"mean_Skullclamp_draws\":round(a['clamp']/N,3)} for t,a in acc.items()}\nA={k:run(d) for k,d in CFG.items()}\n# ---------------- Part B grids\nB={}\n# B1 evasion: Cover of Darkness (fear to Zombies) vs Aqueous Form (aura on Lord: unblockable)\nblk=[\"none\",\"nonblack_nonartifact\",\"black\",\"artifact\",\"flier_nonblack\",\"black_and_flier\"]\nlife=[\"Lord_on_battlefield_original\",\"Lord_recast_after_exile_or_bounce\"]\nshz=[\"Shizo_untapped_with_B\",\"no_Shizo\"]\ndef evade(card,b,l):\n    if card==\"none\": return b==\"none\"\n    if card==\"Cover of Darkness\": return b in(\"none\",\"nonblack_nonartifact\",\"flier_nonblack\")\n    if card==\"Aqueous Form\": return l==\"Lord_on_battlefield_original\"  # aura lost when Lord leaves; recast Lord unenchanted\n    raise\ng=collections.Counter(); cells=0\nfor b,l,z in itertools.product(blk,life,shz):\n    cells+=1; fear=b in(\"none\",\"nonblack_nonartifact\",\"flier_nonblack\") and z==\"Shizo_untapped_with_B\"\n    c=evade(\"Cover of Darkness\",b,l); a=evade(\"Aqueous Form\",b,l) or fear; n=evade(\"none\",b,l) or fear; c=c\n    g['Cover_adds_nothing_over_rest_of_deck']+= (c==n) or (fear)\n    g['Cover_connects']+=c; g['AqueousForm_connects']+=a; g['neither_card_connects']+=n\n    g['Aqueous_only']+=a and not c; g['Cover_only']+=c and not a\nB[\"B1_evasion_Cover_vs_Aqueous\"]=dict(cells=cells,**g,notes=\"Shizo, Death's Storehouse ({B},{T}: target legendary creature gains fear) duplicates Cover of Darkness for Lord when available. Lord is black, so fear (Cover of Darkness, also Shizo) is stopped by any black or artifact blocker; Aqueous Form is stopped only if the aura leaves with Lord (recast copies are unenchanted). Cover also gives fear to other Zombies (not counted: the kill plan is Lord).\")\n# B2 conversion: Pain for All vs Temur Battle Rage vs Soul's Fire (one card in hand) + Uncaged Fury absent\ndef kill(card,infect,blockers,plus1,mana,opp_life,resp):\n    \"\"\"Single opponent target. infect: none|Phyresis_attached|Tainted_Strike_in_hand. blockers: 0|1 chump (1/1)|2 chumps.\n    plus1: another +1 power source already on Lord (Shadowspear/Diregraf Captain/Skullclamp). mana: spare. resp: none|instant_removal_on_Lord_after_card_cast.\"\"\"\n    p=10+(1 if plus1 else 0); m=mana; inf=infect==\"Phyresis_attached\"\n    if infect==\"Tainted_Strike_in_hand\" and m>=1: inf=True; p+=1; m-=1  # cast in combat after blocks / or with Soul's Fire\n    if card==\"Pain for All\":\n        if m<3: return False\n        if resp!=\"none\": return False   # aura fizzles / Lord gone before a sorcery-speed aura\n        # ETB: Lord deals p damage to opponent (noncombat; precombat main so Tainted Strike also castable)\n        if inf and p>=10: return True\n        return p>=opp_life\n    if card==\"Soul's Fire\":\n        if m<3: return False\n        if resp==\"instant_removal_on_Lord_after_card_cast\": return False\n        # removal first: Soul's Fire is cast in response and resolves first (Lord still on the battlefield); Tainted Strike also instant\n        return (inf and p>=10) or p>=opp_life\n    if card==\"Temur Battle Rage\":\n        if m<2: return False\n        if resp!=\"none\": return False\n        # combat; trample from ferocious (Lord power>=4); chump 1/1 absorbs 1 per first-strike step only (dies first step)\n        dmg=2*p-blockers if blockers else 2*p\n        if blockers==2: dmg=2*p-2  # two 1/1 chumps: 2 lethal assigned in first strike step, both die\n        return (inf and dmg>=10) or dmg>=21 or dmg>=opp_life\n    if card==\"none\":\n        if resp!=\"none\": return False\n        dmg=p if blockers==0 else 0\n        return (inf and dmg>=10) or dmg>=opp_life\ng=collections.Counter(); cells=0\nGR=dict(infect=[\"none\",\"Phyresis_attached\",\"Tainted_Strike_in_hand\"],blockers=[0,1,2],plus1=[False,True],mana=[0,1,2,3,4,5],opp_life=[40,20,10],resp=[\"none\",\"instant_removal_on_Lord_after_card_cast\",\"instant_removal_on_Lord_before_card_with_your_mana_up\"])\nfor combo in itertools.product(*GR.values()):\n    cells+=1; r={c:kill(c,*combo) for c in(\"none\",\"Pain for All\",\"Temur Battle Rage\",\"Soul's Fire\")}\n    for c,v in r.items(): g[c.replace(' ','_').replace(\"'\",'')+'_kills']+=v\n    g['TBR_kills_Pain_does_not']+=r[\"Temur Battle Rage\"] and not r[\"Pain for All\"]; g['Pain_kills_TBR_does_not']+=r[\"Pain for All\"] and not r[\"Temur Battle Rage\"]\n    g['SoulsFire_kills_Pain_does_not']+=r[\"Soul's Fire\"] and not r[\"Pain for All\"]; g['Pain_kills_SoulsFire_does_not']+=r[\"Pain for All\"] and not r[\"Soul's Fire\"]\nB[\"B2_conversion_Pain_vs_TBR_vs_SoulsFire\"]=dict(cells=cells,**g,notes=\"One opponent; Pain for All modelled for its enters trigger (precombat, sorcery-speed aura); its later reflection clause (needs damage dealt to Lord, e.g. Blasphemous Act / Goblin Bombardment) is the disclosed loss and not in this grid. Soul's Fire is an instant (castable after blockers or in response); TBR trample assumes ferocious (Lord itself has power 10). Commander damage threshold 21; poison 10.\")\n# B3 interaction: what Sheoldred's Edict uniquely answers versus the rest of the kept removal suite (and versus rejected Soul's Fire)\ntg=[\"ordinary_creature\",\"hexproof_creature\",\"indestructible_creature\",\"planeswalker\",\"artifact_or_enchantment\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"]\nlp=[\"Lord_on_battlefield\",\"Lord_absent\"]\nSUITE={\"Terminate\":{\"ordinary_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Deadly Rollick\":{\"ordinary_creature\",\"indestructible_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Chaos Warp\":{\"ordinary_creature\",\"indestructible_creature\",\"planeswalker\",\"artifact_or_enchantment\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Feed the Swarm\":{\"ordinary_creature\",\"indestructible_creature\",\"artifact_or_enchantment\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Toxic Deluge\":{\"ordinary_creature\",\"hexproof_creature\",\"indestructible_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Blasphemous Act\":{\"ordinary_creature\",\"hexproof_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"}}\ndef edict(t,l): return t in(\"ordinary_creature\",\"hexproof_creature\",\"indestructible_creature\",\"planeswalker\",\"creature_token_among_nontoken\")\ndef soulsfire(t,l): return l==\"Lord_on_battlefield\" and t in(\"ordinary_creature\",\"planeswalker\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\")\ng=collections.Counter(); cells=0; rows=[]\nfor t,l in itertools.product(tg,lp):\n    cells+=1; e=edict(t,l); sf=soulsfire(t,l); spot=[n for n,v in SUITE.items() if t in v and n not in(\"Toxic Deluge\",\"Blasphemous Act\")]; sweep=[n for n,v in SUITE.items() if t in v and n in(\"Toxic Deluge\",\"Blasphemous Act\")]\n    g['Edict_answers']+=e; g['SoulsFire_answers']+=sf; g['Edict_only_vs_SoulsFire']+=e and not sf; g['SoulsFire_only_vs_Edict']+=sf and not e\n    g['Edict_answers_and_no_kept_spot_removal_does']+=e and not spot; g['Edict_answers_and_no_kept_removal_incl_sweepers_does']+=e and not spot and not sweep\n    rows.append(dict(target=t,lord=l,edict=e,souls_fire=sf,kept_spot_removal=spot,kept_sweepers=sweep))\nB[\"B3_interaction_Edict_vs_kept_suite_and_SoulsFire\"]=dict(cells=cells,**g,rows=rows,notes=\"Sheoldred's Edict modes: creature / nontoken creature / creature token / planeswalker (each opponent sacrifices; the opponent picks within the mode). Kept spot removal after the swap: Terminate, Deadly Rollick, Chaos Warp, Feed the Swarm; sweepers Toxic Deluge, Blasphemous Act. Soul's Fire (rejected challenger) needs Lord on the battlefield for 10 damage. Cells where Edict alone answers are the disclosed loss of +Skullclamp -Sheoldred's Edict.\")\n# B4 protection: Stubborn Denial vs Fierce Guardianship\nthr=[\"targeted_noncreature_removal_on_Lord\",\"noncreature_wrath\",\"creature_spell_threat\",\"counterspell_on_Lord_cast\",\"combo_or_tutor_spell_opponent_pays_1\"]\nmana=[0,1,2,3]; lordctl=[\"Lord_controlled\",\"Lord_not_controlled\"]\ng=collections.Counter(); cells=0\ndef fg(th,m,lc):\n    if th==\"creature_spell_threat\": return False\n    if th==\"counterspell_on_Lord_cast\": return m>=3          # Lord on the stack is not controlled: hard cast {2}{U}\n    if lc==\"Lord_controlled\": return True\n    return m>=3\ndef sd(th,m,lc):\n    if th==\"creature_spell_threat\" or m<1: return False\n    fero = lc==\"Lord_controlled\" and th!=\"counterspell_on_Lord_cast\"\n    if th==\"combo_or_tutor_spell_opponent_pays_1\": return fero\n    return fero    # without ferocious, a competent opponent pays {1}; counted as a miss\nfor th,m,lc in itertools.product(thr,mana,lordctl):\n    cells+=1; a=fg(th,m,lc); b=sd(th,m,lc); g['FG_answers']+=a; g['Denial_answers']+=b; g['FG_only']+=a and not b; g['Denial_only']+=b and not a\nB[\"B4_protection_StubbornDenial_vs_FierceGuardianship\"]=dict(cells=cells,**g,notes=\"Both counter only noncreature spells. Fierce Guardianship is free while you control a commander; Stubborn Denial costs {U} and is a hard counter only with ferocious (Lord itself, power 10). With no ferocious the opponent is assumed able to pay {1}. Lord on the stack does not count as controlled for either.\")\n# B5 Pass C layer-6 case: Dress Down timestamps (CR 613.7, 613.1f)\ncases=[]\nfor ph in [\"before_Dress_Down\",\"after_Dress_Down\",\"none\"]:\n  for hg in [\"Lightning_Greaves_equipped_before\",\"Greaves_reequipped_after_Dress_Down\",\"Anger_in_graveyard\",\"none\"]:\n    for ts in [\"Tainted_Strike_after_Dress_Down\",\"none\"]:\n        infect = ph==\"after_Dress_Down\" or ts!=\"none\"\n        haste = hg==\"Greaves_reequipped_after_Dress_Down\"\n        cases.append(dict(phyresis=ph,haste_source=hg,tainted=ts,Lord_has_infect=infect,Lord_has_haste=haste,Kediss_trigger_live=False,Lord_ETB_suppressed_if_Dress_Down_resolved_before_Lord_enters=True,regenerate_available=False))\nB[\"B5_Dress_Down_layer6_truth_table\"]=dict(cells=len(cases),rows=cases,notes=\"Dress Down: creatures lose all abilities (layer 6). Ability-granting effects with a later timestamp than Dress Down still apply (CR 613.7: an Aura/Equipment's timestamp is when it became attached; a resolved instant's effect gets its own timestamp). So Phyresis attached before Dress Down is overridden; Phyresis cast/attached after it or Tainted Strike after it grant infect. Anger's graveyard static haste and Greaves equipped earlier are overridden; re-equipping Greaves ({0}) after Dress Down restores haste. Kediss is itself a creature, so its trigger is gone while Dress Down is on the battlefield (Dress Down is sacrificed at the end step). Lord's own {B} regeneration is also gone that turn.\")\nout={\"deck\":\"Lord_of_Tresserhorn\",\"seed\":29,\"games_per_config\":20000,\"turns\":7,\"on\":\"the play, no mulligans\",\n \"partA_method\":\"Seeded finite Monte Carlo goldfish of deployment only. One land per turn (tapped lands preferred on turns 1-2, untapped afterwards; Arena of Glory untapped with a Mountain-typed land; fetches resolved to an on-colour typed dual; Exotic Orchard / Fellwar Stone treated as any colour; Cavern of Souls (Zombie) gives any colour only to Zombie creature spells, Lord included). Torpor Orb / Karn cast first; Lord of Tresserhorn cast only when safe: a suppressor on the battlefield, or at least two other creatures/tokens to sacrifice (Bitterblossom tokens, Ophiomancer snake), or Stifle / Tale's End / Dress Down held with its mana after paying Lord; Nightscape Familiar reduces Lord by one generic. Then rocks, then creatures cheapest first (MV>3 creatures held until Lord is out from turn 3). Skullclamp equips cost 1 and kill a toughness-1 body (keeping two bodies until Lord is out), drawing two. Conversion card = Phyresis, Tainted Strike, Uncaged Fury, Temur Battle Rage, Chandra's Ignition, Pain for All, Soul's Fire or Kediss in hand or on the battlefield. No opponent, no blockers, no removal, no tutors, no Treasures, no Mystic Remora draws (conservative).\",\n \"partA_results\":A,\n \"partB_method\":\"Exhaustive finite rules-encoded grids: B1 evasion (Cover of Darkness vs Aqueous Form over blocker types x Lord original/recast); B2 conversion (Pain for All vs Temur Battle Rage vs Soul's Fire over infect none/Phyresis/Tainted Strike x 0/1/2 chump blockers x +1 power source x spare mana 0..5 x opponent life 40/20/10 x instant removal on Lord in response); B3 interaction (Sheoldred's Edict vs Soul's Fire over target kinds x Lord present/absent); B4 protection (Nightscape Familiar vs Fierce Guardianship over threat kinds x mana); B5 Pass C Dress Down layer-6 truth table. Manually encoded rules branches, not source-bound game-engine receipts and not win rates.\",\n \"partB_results\":B}\njson.dump(out,open(W+'meas29.json','w'),indent=1)\nfor k,v in A.items():\n    print(k[:58].ljust(58),{t[5:]:(r['P_Lord_on_battlefield'],r['P_Lord_attack_ready_with_conversion_card'],r['P_Lord_out_with_free_protection_in_hand'],r['mean_cards_seen']) for t,r in v.items() if t in('turn 4','turn 5','turn 6')})\nfor k,v in B.items(): print(k,{a:b for a,b in v.items() if a not in('notes','rows')})\n"
+  "meas": "\"\"\"Bounded finite Pass C tests for Lord_of_Tresserhorn (Deck 29). Part A: seeded finite Monte Carlo goldfish of\ndeployment (seed 29, fixed N, on the play, no mulligans, no opponent). Part B: exhaustive finite rules-encoded\nscenario grids (deterministic, enumerated). Neither part is a win-rate simulation.\"\"\"\nimport json,re,random,itertools,collections,sys\nW='/workspace/d29w/'\nSC=json.load(open(W+'scry_live.json')); ALL={x['name']:x for x in SC['cards']}; ALL.update({x['name']:x for x in SC['baseline_cards']})\ndef load(p):\n    out=[]\n    for l in open(p):\n        m=re.match(r'(\\d+)x (.+?)( \\[Commander\\])?$',l.strip())\n        if m and not m.group(3): out+=[m.group(2)]*int(m.group(1))\n    return out\nbase=load(W+'base.txt'); assert len(base)==99\ndef swap(d,pairs):\n    d=d[:]\n    for a,c in pairs: d.remove(c); d.append(a)\n    return d\nimport os\nX5=os.environ.get(\"X5\",\"Feed the Swarm\")\nFINAL=[(\"Fierce Guardianship\",\"Stubborn Denial\"),(\"Consign to Memory\",X5),(\"Black Market Connections\",\"Cover of Darkness\"),(\"Ornithopter of Paradise\",\"Fellwar Stone\"),(\"Skullclamp\",\"Sheoldred's Edict\")]\ndef key(a,c): return f\"plus_{a}_minus_{c}\".replace(' ','_').replace(\"'\",'').replace(',','')\nCFG={\"baseline\":base}\nfor a,c in FINAL: CFG[\"single_\"+key(a,c)]=swap(base,[(a,c)])\nCFG[\"candidate\"]=swap(base,FINAL)\nPROBES=[(\"Fierce Guardianship\",\"Nightscape Familiar\"),(\"Fierce Guardianship\",\"Sheoldred's Edict\"),(\"Fierce Guardianship\",\"Muddle the Mixture\"),(\"Skullclamp\",\"Fellwar Stone\"),\n (\"Skullclamp\",\"Cover of Darkness\"),(\"Soul's Fire\",\"Sheoldred's Edict\"),(\"Aqueous Form\",\"Cover of Darkness\"),(\"Temur Battle Rage\",\"Pain for All\")]+[(\"Consign to Memory\",x) for x in (\"Stubborn Denial\",\"Feed the Swarm\",\"Diregraf Captain\",\"Pain for All\",\"Undead Augur\",\"Headless Rider\",\"Terminate\",\"Muddle the Mixture\")]\nfor a,c in PROBES: CFG[\"probe_single_\"+key(a,c)]=swap(base,[(a,c)])\nF4=FINAL[:4]\nCFG[\"alt_A_four_swaps_keep_Sheoldreds_Edict_no_Skullclamp\"]=swap(base,F4)\nCFG[\"alt_B_Skullclamp_minus_Muddle_the_Mixture_keep_Edict\"]=swap(base,F4+[(\"Skullclamp\",\"Muddle the Mixture\")])\nCFG[\"alt_C_Skullclamp_minus_Nightscape_Familiar\"]=swap(base,F4+[(\"Skullclamp\",\"Nightscape Familiar\")])\nCFG[\"alt_D_candidate_plus_Aqueous_Form_minus_Muddle_the_Mixture\"]=swap(base,FINAL+[(\"Aqueous Form\",\"Muddle the Mixture\")])\nCFG[\"alt_E_candidate_plus_Distortion_Strike_minus_Rogues_Passage_34_lands\"]=swap(base,FINAL+[(\"Distortion Strike\",\"Rogue's Passage\")])\nCFG[\"alt_G_prior_draft_TBR_minus_Pain_for_All_instead_of_Consign\"]=swap(base,[f for f in FINAL if f[0]!=\"Consign to Memory\"]+[(\"Temur Battle Rage\",\"Pain for All\")])\nCFG[\"alt_F_original_tentative_plan\"]=swap(base,[(\"Fierce Guardianship\",\"Nightscape Familiar\"),(\"Skullclamp\",\"Fellwar Stone\"),(\"Soul's Fire\",\"Sheoldred's Edict\"),(\"Temur Battle Rage\",\"Pain for All\"),(\"Aqueous Form\",\"Cover of Darkness\")])\nU,B,R='U','B','R'\nLAND={\"Island\":(\"U\",0),\"Swamp\":(\"B\",0),\"Mountain\":(\"R\",0),\"Badlands\":(\"BR\",0),\"Blood Crypt\":(\"BR\",0),\"Steam Vents\":(\"UR\",0),\"Watery Grave\":(\"UB\",0),\n \"Underground Sea\":(\"UB\",0),\"Volcanic Island\":(\"UR\",0),\"Bloodstained Mire\":(\"BR\",0),\"Polluted Delta\":(\"UB\",0),\"Scalding Tarn\":(\"UR\",0),\"Marsh Flats\":(\"UB\",0),\"Misty Rainforest\":(\"UB\",0),\n \"Command Tower\":(\"UBR\",0),\"Mana Confluence\":(\"UBR\",0),\"Exotic Orchard\":(\"UBR\",0),\"Luxury Suite\":(\"BR\",0),\"Morphic Pool\":(\"UB\",0),\"Training Center\":(\"UR\",0),\n \"Shivan Reef\":(\"UR\",0),\"Sulfurous Springs\":(\"BR\",0),\"Underground River\":(\"UB\",0),\"Xander's Lounge\":(\"UBR\",1),\"Bojuka Bog\":(\"B\",1),\n \"Arena of Glory\":(\"R\",\"mtn\"),\"Otawara, Soaring City\":(\"U\",0),\"Shizo, Death's Storehouse\":(\"B\",0),\"Takenuma, Abandoned Mire\":(\"B\",0),\n \"High Market\":(\"C\",0),\"Phyrexian Tower\":(\"C\",0),\"Rogue's Passage\":(\"C\",0),\"Cavern of Souls\":(\"Z\",0)}\nMTN={\"Mountain\",\"Badlands\",\"Blood Crypt\",\"Steam Vents\",\"Volcanic Island\",\"Bloodstained Mire\",\"Scalding Tarn\",\"Xander's Lounge\"}\nROCK={\"Sol Ring\":\"CC\",\"Arcane Signet\":\"UBR\",\"Fellwar Stone\":\"UBR\",\"Talisman of Creativity\":\"UR\",\"Talisman of Dominance\":\"UB\",\"Talisman of Indulgence\":\"BR\",\"Dimir Signet\":\"UB\",\"Rakdos Signet\":\"BR\"}\ndef cost(n):\n    mc=ALL[n].get('mana_cost') or ''\n    pips=re.findall(r'\\{(.)\\}',mc.split(' // ')[0]); g=sum(int(p) for p in pips if p.isdigit()); col=[p for p in pips if p in 'UBR']\n    return g,col\ndef is_creature(n): return 'Creature' in ALL[n]['type_line']\ndef zombie(n): return 'Zombie' in ALL[n]['type_line']\ndef tough(n):\n    t=ALL[n].get('toughness'); return int(t) if t and t.isdigit() else 9\ndef pay(srcs,g,col,zomb):\n    s=[(\"UBR\" if (x==\"Z\" and zomb) else (\"C\" if x==\"Z\" else x)) for x in srcs]\n    if len(s)<g+len(col): return None\n    col=sorted(col)\n    def dfs(i,used):\n        if i==len(col): return used\n        for j,x in enumerate(s):\n            if j not in used and col[i] in x:\n                r=dfs(i+1,used|{j})\n                if r is not None: return r\n        return None\n    used=dfs(0,frozenset())\n    if used is None: return None\n    rest=sorted([j for j in range(len(s)) if j not in used],key=lambda j:len(s[j]))\n    return set(used)|set(rest[:g])\nSUPP={\"Torpor Orb\",\"Karn, Argent Defender\"}\nFINISH={\"Phyresis\",\"Tainted Strike\",\"Uncaged Fury\",\"Temur Battle Rage\",\"Chandra's Ignition\",\"Pain for All\",\"Soul's Fire\",\"Kediss, Emberclaw Familiar\"}\nFREEPROT={\"Fierce Guardianship\",\"Deflecting Swat\",\"Not of This World\"}\ndef game(deck,rnd,T=7):\n    global orni_t\n    d=deck[:]; rnd.shuffle(d); hand=d[:7]; lib=d[7:]\n    lands=[]; rocks=[]; bf=[]; orni_t=99; lord_turn=None; lord_mode=None; tokens=0; seen=7; clamp_draws=0; recs=[]\n    for t in range(1,T+1):\n        if t>1: hand.append(lib.pop(0)); seen+=1\n        if \"Bitterblossom\" in bf and t>1: tokens+=1\n        if \"Black Market Connections\" in bf: tokens+=1; hand.append(lib.pop(0)); seen+=1\n        if \"Ophiomancer\" in bf and t>1: tokens+=0  # snake counted below as standing body\n        lh=[c for c in hand if c in LAND]; newtapped=False\n        if lh:\n            def untapped(c):\n                k=LAND[c][1]\n                if k==\"mtn\": return any(x in MTN for x in lands)\n                return k==0\n            pref=sorted(lh,key=lambda c:((0 if not untapped(c) else 1) if t<=2 else (0 if untapped(c) else 1)))\n            L=pref[0]; hand.remove(L); newtapped=not untapped(L); lands.append(L)\n        srcs=[LAND[x][0] for i,x in enumerate(lands) if not (i==len(lands)-1 and newtapped)]\n        for r in rocks: srcs+= [\"C\",\"C\"] if ROCK[r]==\"CC\" else [ROCK[r]]\n        avail=srcs[:]\n        def spend(n,extra_g=0):\n            nonlocal avail\n            g,col=cost(n); g+=extra_g\n            if n==\"Lord of Tresserhorn\" and \"Nightscape Familiar\" in bf: g=max(0,g-1)\n            u=pay(avail,g,col,zombie(n) if n in ALL else False)\n            if u is None: return False\n            avail=[x for j,x in enumerate(avail) if j not in u]; return True\n        def others(): return len([c for c in bf if is_creature(c)])+tokens+(1 if \"Ophiomancer\" in bf else 0)\n        def try_lord():\n            nonlocal lord_turn,lord_mode,avail\n            if lord_turn is not None: return\n            save=avail[:]\n            if any(s in bf for s in SUPP):\n                if spend(\"Lord of Tresserhorn\"): lord_turn=t; lord_mode=\"suppressed\"; return\n            if others()>=2:\n                if spend(\"Lord of Tresserhorn\"): lord_turn=t; lord_mode=\"paid_fodder\"; return\n            for st,(g,col) in ((\"Stifle\",(0,[U])),(\"Consign to Memory\",(0,[U])),(\"Tale's End\",(1,[U])),(\"Dress Down\",(1,[U]))):\n                if st in hand:\n                    if spend(\"Lord of Tresserhorn\"):\n                        u=pay(avail,g,col,False)\n                        if u is not None:\n                            avail=[x for j,x in enumerate(avail) if j not in u]; hand.remove(st); lord_turn=t; lord_mode=\"answered_\"+st; return\n                        avail=save[:]\n        if \"Ornithopter of Paradise\" in bf and t>orni_t: avail.append(\"UBR\")\n        for s in [c for c in hand if c in SUPP]:\n            if spend(s): hand.remove(s); bf.append(s)\n        try_lord()\n        for r in sorted([c for c in hand if c in ROCK],key=lambda c:sum(cost(c)[0:1])+len(cost(c)[1])):\n            if spend(r): hand.remove(r); rocks.append(r); avail+= [\"C\",\"C\"] if ROCK[r]==\"CC\" else [ROCK[r]]\n        try_lord()\n        for v in sorted([c for c in hand if c in ALL and (is_creature(c) or c==\"Bitterblossom\") and c!=\"Lord of Tresserhorn\"],key=lambda c:sum([cost(c)[0],len(cost(c)[1])])):\n            if sum([cost(v)[0],len(cost(v)[1])])>3 and lord_turn is None and t>=3: continue\n            if spend(v):\n                hand.remove(v); bf.append(v)\n                if v==\"Ornithopter of Paradise\": orni_t=t\n        try_lord()\n        if \"Black Market Connections\" in hand and spend(\"Black Market Connections\"): hand.remove(\"Black Market Connections\"); bf.append(\"Black Market Connections\")\n        if \"Skullclamp\" in hand and spend(\"Skullclamp\"): hand.remove(\"Skullclamp\"); bf.append(\"Skullclamp\")\n        if \"Skullclamp\" in bf:\n            while len(avail)>=1:\n                need=0 if lord_turn is not None else 2\n                ones=[c for c in bf if is_creature(c) and tough(c)<=1 and c not in(\"Karn, Argent Defender\",)]\n                if others()-1<need: break\n                if tokens>0: tokens-=1\n                elif ones: bf.remove(ones[0])\n                else: break\n                avail.pop(); \n                for _ in range(2):\n                    if lib: hand.append(lib.pop(0)); seen+=1; clamp_draws+=1\n        lord=lord_turn is not None\n        recs.append(dict(lord=lord,lord_suppressed=lord and lord_mode in(\"suppressed\",\"answered_Stifle\",\"answered_Consign to Memory\",\"answered_Tale's End\",\"answered_Dress Down\"),\n            lord_attack_ready=lord and lord_turn<t, conv=lord and lord_turn<t and any(c in FINISH for c in hand+bf),\n            freeprot=lord and any(c in hand for c in FREEPROT), anyprot=lord and any(c in hand for c in FREEPROT|{\"Stubborn Denial\",\"Slip Out the Back\",\"Muddle the Mixture\",\"Tale's End\"}),\n            seen=seen,clamp=clamp_draws))\n    return recs\ndef run(deck,seed=29,N=20000,T=7):\n    rnd=random.Random(seed); acc=collections.defaultdict(lambda: collections.Counter())\n    for _ in range(N):\n        for t,o in enumerate(game(deck,rnd,T),1):\n            for k,v in o.items(): acc[t][k]+=v\n    return {f\"turn {t}\":{\"P_Lord_on_battlefield\":round(a['lord']/N,4),\"P_Lord_on_battlefield_without_paying_ETB\":round(a['lord_suppressed']/N,4),\n            \"P_Lord_attack_ready\":round(a['lord_attack_ready']/N,4),\"P_Lord_attack_ready_with_conversion_card\":round(a['conv']/N,4),\n            \"P_Lord_out_with_free_protection_in_hand\":round(a['freeprot']/N,4),\"P_Lord_out_with_any_counter_or_protection_in_hand\":round(a['anyprot']/N,4),\n            \"mean_cards_seen\":round(a['seen']/N,3),\"mean_Skullclamp_draws\":round(a['clamp']/N,3)} for t,a in acc.items()}\nA={k:run(d) for k,d in CFG.items()}\n# ---------------- Part B grids\nB={}\n# B1 evasion: Cover of Darkness (fear to Zombies) vs Aqueous Form (aura on Lord: unblockable)\nblk=[\"none\",\"nonblack_nonartifact\",\"black\",\"artifact\",\"flier_nonblack\",\"black_and_flier\"]\nlife=[\"Lord_on_battlefield_original\",\"Lord_recast_after_exile_or_bounce\"]\nshz=[\"Shizo_untapped_with_B\",\"no_Shizo\"]\ndef evade(card,b,l):\n    if card==\"none\": return b==\"none\"\n    if card==\"Cover of Darkness\": return b in(\"none\",\"nonblack_nonartifact\",\"flier_nonblack\")\n    if card==\"Aqueous Form\": return l==\"Lord_on_battlefield_original\"  # aura lost when Lord leaves; recast Lord unenchanted\n    raise\ng=collections.Counter(); cells=0\nfor b,l,z in itertools.product(blk,life,shz):\n    cells+=1; fear=b in(\"none\",\"nonblack_nonartifact\",\"flier_nonblack\") and z==\"Shizo_untapped_with_B\"\n    c=evade(\"Cover of Darkness\",b,l); a=evade(\"Aqueous Form\",b,l) or fear; n=evade(\"none\",b,l) or fear; c=c\n    g['Cover_adds_nothing_over_rest_of_deck']+= (c==n) or (fear)\n    g['Cover_connects']+=c; g['AqueousForm_connects']+=a; g['neither_card_connects']+=n\n    g['Aqueous_only']+=a and not c; g['Cover_only']+=c and not a\nB[\"B1_evasion_Cover_vs_Aqueous\"]=dict(cells=cells,**g,notes=\"Shizo, Death's Storehouse ({B},{T}: target legendary creature gains fear) duplicates Cover of Darkness for Lord when available. Lord is black, so fear (Cover of Darkness, also Shizo) is stopped by any black or artifact blocker; Aqueous Form is stopped only if the aura leaves with Lord (recast copies are unenchanted). Cover also gives fear to other Zombies (not counted: the kill plan is Lord).\")\n# B2 conversion: Pain for All vs Temur Battle Rage vs Soul's Fire (one card in hand) + Uncaged Fury absent\ndef kill(card,infect,blockers,plus1,mana,opp_life,resp):\n    \"\"\"Single opponent target. infect: none|Phyresis_attached|Tainted_Strike_in_hand. blockers: 0|1 chump (1/1)|2 chumps.\n    plus1: another +1 power source already on Lord (Shadowspear/Diregraf Captain/Skullclamp). mana: spare. resp: none|instant_removal_on_Lord_after_card_cast.\"\"\"\n    p=10+(1 if plus1 else 0); m=mana; inf=infect==\"Phyresis_attached\"\n    if infect==\"Tainted_Strike_in_hand\" and m>=1: inf=True; p+=1; m-=1  # cast in combat after blocks / or with Soul's Fire\n    if card==\"Pain for All\":\n        if m<3: return False\n        if resp!=\"none\": return False   # aura fizzles / Lord gone before a sorcery-speed aura\n        # ETB: Lord deals p damage to opponent (noncombat; precombat main so Tainted Strike also castable)\n        if inf and p>=10: return True\n        return p>=opp_life\n    if card==\"Soul's Fire\":\n        if m<3: return False\n        if resp==\"instant_removal_on_Lord_after_card_cast\": return False\n        # removal first: Soul's Fire is cast in response and resolves first (Lord still on the battlefield); Tainted Strike also instant\n        return (inf and p>=10) or p>=opp_life\n    if card==\"Temur Battle Rage\":\n        if m<2: return False\n        if resp!=\"none\": return False\n        # combat; trample from ferocious (Lord power>=4); chump 1/1 absorbs 1 per first-strike step only (dies first step)\n        dmg=2*p-blockers if blockers else 2*p\n        if blockers==2: dmg=2*p-2  # two 1/1 chumps: 2 lethal assigned in first strike step, both die\n        return (inf and dmg>=10) or dmg>=21 or dmg>=opp_life\n    if card==\"none\":\n        if resp!=\"none\": return False\n        dmg=p if blockers==0 else 0\n        return (inf and dmg>=10) or dmg>=opp_life\ng=collections.Counter(); cells=0\nGR=dict(infect=[\"none\",\"Phyresis_attached\",\"Tainted_Strike_in_hand\"],blockers=[0,1,2],plus1=[False,True],mana=[0,1,2,3,4,5],opp_life=[40,20,10],resp=[\"none\",\"instant_removal_on_Lord_after_card_cast\",\"instant_removal_on_Lord_before_card_with_your_mana_up\"])\nfor combo in itertools.product(*GR.values()):\n    cells+=1; r={c:kill(c,*combo) for c in(\"none\",\"Pain for All\",\"Temur Battle Rage\",\"Soul's Fire\")}\n    for c,v in r.items(): g[c.replace(' ','_').replace(\"'\",'')+'_kills']+=v\n    g['TBR_kills_Pain_does_not']+=r[\"Temur Battle Rage\"] and not r[\"Pain for All\"]; g['Pain_kills_TBR_does_not']+=r[\"Pain for All\"] and not r[\"Temur Battle Rage\"]\n    g['SoulsFire_kills_Pain_does_not']+=r[\"Soul's Fire\"] and not r[\"Pain for All\"]; g['Pain_kills_SoulsFire_does_not']+=r[\"Pain for All\"] and not r[\"Soul's Fire\"]\nB[\"B2_conversion_Pain_vs_TBR_vs_SoulsFire\"]=dict(cells=cells,**g,notes=\"One opponent; Pain for All modelled for its enters trigger (precombat, sorcery-speed aura); its later reflection clause (needs damage dealt to Lord, e.g. Blasphemous Act / Goblin Bombardment) is the disclosed loss and not in this grid. Soul's Fire is an instant (castable after blockers or in response); TBR trample assumes ferocious (Lord itself has power 10). Commander damage threshold 21; poison 10.\")\n# B3 interaction: what Sheoldred's Edict uniquely answers versus the rest of the kept removal suite (and versus rejected Soul's Fire)\ntg=[\"ordinary_creature\",\"hexproof_creature\",\"indestructible_creature\",\"planeswalker\",\"artifact_or_enchantment\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"]\nlp=[\"Lord_on_battlefield\",\"Lord_absent\"]\nSUITE={\"Terminate\":{\"ordinary_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Deadly Rollick\":{\"ordinary_creature\",\"indestructible_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Chaos Warp\":{\"ordinary_creature\",\"indestructible_creature\",\"planeswalker\",\"artifact_or_enchantment\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Toxic Deluge\":{\"ordinary_creature\",\"hexproof_creature\",\"indestructible_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"},\n \"Blasphemous Act\":{\"ordinary_creature\",\"hexproof_creature\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\"}}\ndef edict(t,l): return t in(\"ordinary_creature\",\"hexproof_creature\",\"indestructible_creature\",\"planeswalker\",\"creature_token_among_nontoken\")\ndef soulsfire(t,l): return l==\"Lord_on_battlefield\" and t in(\"ordinary_creature\",\"planeswalker\",\"creature_token_among_nontoken\",\"opponent_chooses_among_several_creatures\")\ng=collections.Counter(); cells=0; rows=[]\nfor t,l in itertools.product(tg,lp):\n    cells+=1; e=edict(t,l); sf=soulsfire(t,l); spot=[n for n,v in SUITE.items() if t in v and n not in(\"Toxic Deluge\",\"Blasphemous Act\")]; sweep=[n for n,v in SUITE.items() if t in v and n in(\"Toxic Deluge\",\"Blasphemous Act\")]\n    g['Edict_answers']+=e; g['SoulsFire_answers']+=sf; g['Edict_only_vs_SoulsFire']+=e and not sf; g['SoulsFire_only_vs_Edict']+=sf and not e\n    g['Edict_answers_and_no_kept_spot_removal_does']+=e and not spot; g['Edict_answers_and_no_kept_removal_incl_sweepers_does']+=e and not spot and not sweep\n    rows.append(dict(target=t,lord=l,edict=e,souls_fire=sf,kept_spot_removal=spot,kept_sweepers=sweep))\nB[\"B3_interaction_Edict_vs_kept_suite_and_SoulsFire\"]=dict(cells=cells,**g,rows=rows,notes=\"Sheoldred's Edict modes: creature / nontoken creature / creature token / planeswalker (each opponent sacrifices; the opponent picks within the mode). Kept spot removal after the candidate swaps (Feed the Swarm is also cut, for Consign to Memory): Terminate, Deadly Rollick, Chaos Warp; sweepers Toxic Deluge, Blasphemous Act. Soul's Fire (rejected challenger) needs Lord on the battlefield for 10 damage. Cells where Edict alone answers are the disclosed loss of +Skullclamp -Sheoldred's Edict.\")\n# B4 protection: Stubborn Denial vs Fierce Guardianship\nthr=[\"targeted_noncreature_removal_on_Lord\",\"noncreature_wrath\",\"creature_spell_threat\",\"counterspell_on_Lord_cast\",\"combo_or_tutor_spell_opponent_pays_1\"]\nmana=[0,1,2,3]; lordctl=[\"Lord_controlled\",\"Lord_not_controlled\"]\ng=collections.Counter(); cells=0\ndef fg(th,m,lc):\n    if th==\"creature_spell_threat\": return False\n    if th==\"counterspell_on_Lord_cast\": return m>=3          # Lord on the stack is not controlled: hard cast {2}{U}\n    if lc==\"Lord_controlled\": return True\n    return m>=3\ndef sd(th,m,lc):\n    if th==\"creature_spell_threat\" or m<1: return False\n    fero = lc==\"Lord_controlled\" and th!=\"counterspell_on_Lord_cast\"\n    if th==\"combo_or_tutor_spell_opponent_pays_1\": return fero\n    return fero    # without ferocious, a competent opponent pays {1}; counted as a miss\nfor th,m,lc in itertools.product(thr,mana,lordctl):\n    cells+=1; a=fg(th,m,lc); b=sd(th,m,lc); g['FG_answers']+=a; g['Denial_answers']+=b; g['FG_only']+=a and not b; g['Denial_only']+=b and not a\nB[\"B4_protection_StubbornDenial_vs_FierceGuardianship\"]=dict(cells=cells,**g,notes=\"Both counter only noncreature spells. Fierce Guardianship is free while you control a commander; Stubborn Denial costs {U} and is a hard counter only with ferocious (Lord itself, power 10). With no ferocious the opponent is assumed able to pay {1}. Lord on the stack does not count as controlled for either.\")\n# B5 Pass C layer-6 case: Dress Down timestamps (CR 613.7, 613.1f)\ncases=[]\nfor ph in [\"before_Dress_Down\",\"after_Dress_Down\",\"none\"]:\n  for hg in [\"Lightning_Greaves_equipped_before\",\"Greaves_reequipped_after_Dress_Down\",\"Anger_in_graveyard\",\"none\"]:\n    for ts in [\"Tainted_Strike_after_Dress_Down\",\"none\"]:\n        infect = ph==\"after_Dress_Down\" or ts!=\"none\"\n        haste = hg==\"Greaves_reequipped_after_Dress_Down\"\n        cases.append(dict(phyresis=ph,haste_source=hg,tainted=ts,Lord_has_infect=infect,Lord_has_haste=haste,Kediss_trigger_live=False,Lord_ETB_suppressed_if_Dress_Down_resolved_before_Lord_enters=True,regenerate_available=False))\nB[\"B5_Dress_Down_layer6_truth_table\"]=dict(cells=len(cases),rows=cases,notes=\"Dress Down: creatures lose all abilities (layer 6). Ability-granting effects with a later timestamp than Dress Down still apply (CR 613.7: an Aura/Equipment's timestamp is when it became attached; a resolved instant's effect gets its own timestamp). So Phyresis attached before Dress Down is overridden; Phyresis cast/attached after it or Tainted Strike after it grant infect. Anger's graveyard static haste and Greaves equipped earlier are overridden; re-equipping Greaves ({0}) after Dress Down restores haste. Kediss is itself a creature, so its trigger is gone while Dress Down is on the battlefield (Dress Down is sacrificed at the end step). Lord's own {B} regeneration is also gone that turn.\")\n# B6 Consign to Memory vs Feed the Swarm (candidate swap 2) over threat kinds; kept answers listed per cell\nthr6={\"own_Lord_ETB_trigger_no_suppressor\":{\"Consign\":True,\"Feed\":False,\"kept\":[\"Torpor Orb (pre-placed)\",\"Karn, Argent Defender (pre-placed)\",\"Dress Down (before Lord)\",\"Stifle\",\"Tale's End\"]},\n \"opponent_ETB_or_attack_trigger\":{\"Consign\":True,\"Feed\":False,\"kept\":[\"Stifle\",\"Tale's End\"]},\n \"opponent_upkeep_or_tax_trigger_e_g_Rhystic_Study_Smothering_Tithe\":{\"Consign\":True,\"Feed\":False,\"kept\":[\"Stifle\",\"Tale's End\"]},\n \"opponent_colourless_artifact_spell\":{\"Consign\":True,\"Feed\":False,\"kept\":[\"Fierce Guardianship (noncreature)\",\"Muddle the Mixture\"]},\n \"opponent_colourless_Eldrazi_creature_spell\":{\"Consign\":True,\"Feed\":False,\"kept\":[\"Muddle the Mixture\"]},\n \"opponent_resolved_creature\":{\"Consign\":False,\"Feed\":True,\"kept\":[\"Terminate\",\"Deadly Rollick\",\"Chaos Warp\",\"Toxic Deluge\",\"Blasphemous Act\",\"Goblin Bombardment (own only)\"]},\n \"opponent_resolved_enchantment\":{\"Consign\":False,\"Feed\":True,\"kept\":[\"Chaos Warp\",\"Otawara, Soaring City (bounce)\"]},\n \"opponent_coloured_noncreature_spell\":{\"Consign\":False,\"Feed\":False,\"kept\":[\"Fierce Guardianship\",\"Muddle the Mixture\"]}}\ng=collections.Counter(); rows=[]\nfor th,v in thr6.items():\n    g['Consign_answers']+=v[\"Consign\"]; g['Feed_answers']+=v[\"Feed\"]\n    g['Consign_only']+=v[\"Consign\"] and not v[\"Feed\"]; g['Feed_only']+=v[\"Feed\"] and not v[\"Consign\"]\n    g['answered_by_cut_with_at_most_two_kept_answers']+=(v[\"Feed\"] and len(v[\"kept\"])<=2)\n    g['answered_by_add_with_at_most_two_kept_answers']+=(v[\"Consign\"] and len(v[\"kept\"])<=2)\n    rows.append(dict(threat=th,consign_to_memory=v[\"Consign\"],feed_the_swarm=v[\"Feed\"],kept_answers_after_candidate=v[\"kept\"]))\nB[\"B6_Consign_to_Memory_vs_Feed_the_Swarm\"]=dict(cells=len(thr6),**g,rows=rows,notes=\"Consign to Memory ({U} instant, replicate {1}): counter target triggered ability or colourless spell. Feed the Swarm ({1}{B} sorcery): destroy target creature or enchantment an opponent controls; lose life equal to its mana value. Kept answers listed are those remaining in the candidate 100. Not a frequency model: each cell is one threat kind, unweighted.\")\nout={\"deck\":\"Lord_of_Tresserhorn\",\"seed\":29,\"games_per_config\":20000,\"turns\":7,\"on\":\"the play, no mulligans\",\n \"partA_method\":\"Seeded finite Monte Carlo goldfish of deployment only. One land per turn (tapped lands preferred on turns 1-2, untapped afterwards; Arena of Glory untapped with a Mountain-typed land; fetches resolved to an on-colour typed dual; Exotic Orchard / Fellwar Stone treated as any colour; Cavern of Souls (Zombie) gives any colour only to Zombie creature spells, Lord included). Torpor Orb / Karn cast first; Lord of Tresserhorn cast only when safe: a suppressor on the battlefield, or at least two other creatures/tokens to sacrifice (Bitterblossom tokens, Ophiomancer snake), or Stifle / Consign to Memory / Tale's End / Dress Down held with its mana after paying Lord; Nightscape Familiar reduces Lord by one generic. Then rocks, then creatures cheapest first (MV>3 creatures held until Lord is out from turn 3). Skullclamp equips cost 1 and kill a toughness-1 body (keeping two bodies until Lord is out), drawing two. Conversion card = Phyresis, Tainted Strike, Uncaged Fury, Temur Battle Rage, Chandra's Ignition, Pain for All, Soul's Fire or Kediss in hand or on the battlefield. No opponent, no blockers, no removal, no tutors, no Treasures, no Mystic Remora draws (conservative).\",\n \"partA_results\":A,\n \"partB_method\":\"Exhaustive finite rules-encoded grids: B1 evasion (Cover of Darkness vs Aqueous Form over blocker types x Lord original/recast); B2 conversion (Pain for All vs Temur Battle Rage (owner-cut 2026-10-14; recorded for disclosure only) vs Soul's Fire over infect none/Phyresis/Tainted Strike x 0/1/2 chump blockers x +1 power source x spare mana 0..5 x opponent life 40/20/10 x instant removal on Lord in response); B3 interaction (Sheoldred's Edict vs Soul's Fire over target kinds x Lord present/absent); B4 protection (Nightscape Familiar vs Fierce Guardianship over threat kinds x mana); B5 Pass C Dress Down layer-6 truth table; B6 Consign to Memory vs Feed the Swarm over threat kinds with the kept answers per cell. Manually encoded rules branches, not source-bound game-engine receipts and not win rates.\",\n \"partB_results\":B}\njson.dump(out,open(W+'meas29.json','w'),indent=1)\nfor k,v in A.items():\n    print(k[:58].ljust(58),{t[5:]:(r['P_Lord_on_battlefield'],r['P_Lord_attack_ready_with_conversion_card'],r['P_Lord_out_with_free_protection_in_hand'],r['mean_cards_seen']) for t,r in v.items() if t in('turn 4','turn 5','turn 6')})\nfor k,v in B.items(): print(k,{a:b for a,b in v.items() if a not in('notes','rows')})\n"
  },
  "results": {
   "deck": "Lord_of_Tresserhorn",
@@ -10,7 +10,7 @@
   "games_per_config": 20000,
   "turns": 7,
   "on": "the play, no mulligans",
-  "partA_method": "Seeded finite Monte Carlo goldfish of deployment only. One land per turn (tapped lands preferred on turns 1-2, untapped afterwards; Arena of Glory untapped with a Mountain-typed land; fetches resolved to an on-colour typed dual; Exotic Orchard / Fellwar Stone treated as any colour; Cavern of Souls (Zombie) gives any colour only to Zombie creature spells, Lord included). Torpor Orb / Karn cast first; Lord of Tresserhorn cast only when safe: a suppressor on the battlefield, or at least two other creatures/tokens to sacrifice (Bitterblossom tokens, Ophiomancer snake), or Stifle / Tale's End / Dress Down held with its mana after paying Lord; Nightscape Familiar reduces Lord by one generic. Then rocks, then creatures cheapest first (MV>3 creatures held until Lord is out from turn 3). Skullclamp equips cost 1 and kill a toughness-1 body (keeping two bodies until Lord is out), drawing two. Conversion card = Phyresis, Tainted Strike, Uncaged Fury, Temur Battle Rage, Chandra's Ignition, Pain for All, Soul's Fire or Kediss in hand or on the battlefield. No opponent, no blockers, no removal, no tutors, no Treasures, no Mystic Remora draws (conservative).",
+  "partA_method": "Seeded finite Monte Carlo goldfish of deployment only. One land per turn (tapped lands preferred on turns 1-2, untapped afterwards; Arena of Glory untapped with a Mountain-typed land; fetches resolved to an on-colour typed dual; Exotic Orchard / Fellwar Stone treated as any colour; Cavern of Souls (Zombie) gives any colour only to Zombie creature spells, Lord included). Torpor Orb / Karn cast first; Lord of Tresserhorn cast only when safe: a suppressor on the battlefield, or at least two other creatures/tokens to sacrifice (Bitterblossom tokens, Ophiomancer snake), or Stifle / Consign to Memory / Tale's End / Dress Down held with its mana after paying Lord; Nightscape Familiar reduces Lord by one generic. Then rocks, then creatures cheapest first (MV>3 creatures held until Lord is out from turn 3). Skullclamp equips cost 1 and kill a toughness-1 body (keeping two bodies until Lord is out), drawing two. Conversion card = Phyresis, Tainted Strike, Uncaged Fury, Temur Battle Rage, Chandra's Ignition, Pain for All, Soul's Fire or Kediss in hand or on the battlefield. No opponent, no blockers, no removal, no tutors, no Treasures, no Mystic Remora draws (conservative).",
   "partA_results": {
    "baseline": {
     "turn 1": {
@@ -156,7 +156,7 @@
      "mean_Skullclamp_draws": 0.0
     }
    },
-   "single_plus_Temur_Battle_Rage_minus_Pain_for_All": {
+   "single_plus_Consign_to_Memory_minus_Feed_the_Swarm": {
     "turn 1": {
      "P_Lord_on_battlefield": 0.0,
      "P_Lord_on_battlefield_without_paying_ETB": 0.0,
@@ -178,52 +178,52 @@
      "mean_Skullclamp_draws": 0.0
     },
     "turn 3": {
-     "P_Lord_on_battlefield": 0.0126,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0049,
+     "P_Lord_on_battlefield": 0.0127,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0057,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0015,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0033,
+     "P_Lord_out_with_free_protection_in_hand": 0.0017,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0034,
      "mean_cards_seen": 9.0,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.2723,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1029,
-     "P_Lord_attack_ready": 0.0126,
-     "P_Lord_attack_ready_with_conversion_card": 0.005,
-     "P_Lord_out_with_free_protection_in_hand": 0.0375,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1013,
+     "P_Lord_on_battlefield": 0.2764,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1109,
+     "P_Lord_attack_ready": 0.0127,
+     "P_Lord_attack_ready_with_conversion_card": 0.0046,
+     "P_Lord_out_with_free_protection_in_hand": 0.0374,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1022,
      "mean_cards_seen": 10.0,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.4851,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.162,
-     "P_Lord_attack_ready": 0.2723,
-     "P_Lord_attack_ready_with_conversion_card": 0.1198,
-     "P_Lord_out_with_free_protection_in_hand": 0.0822,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2099,
+     "P_Lord_on_battlefield": 0.492,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1746,
+     "P_Lord_attack_ready": 0.2764,
+     "P_Lord_attack_ready_with_conversion_card": 0.1205,
+     "P_Lord_out_with_free_protection_in_hand": 0.0835,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2125,
      "mean_cards_seen": 11.0,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6129,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.2053,
-     "P_Lord_attack_ready": 0.4851,
-     "P_Lord_attack_ready_with_conversion_card": 0.2376,
-     "P_Lord_out_with_free_protection_in_hand": 0.1202,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2972,
+     "P_Lord_on_battlefield": 0.6228,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.222,
+     "P_Lord_attack_ready": 0.492,
+     "P_Lord_attack_ready_with_conversion_card": 0.2402,
+     "P_Lord_out_with_free_protection_in_hand": 0.1254,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3024,
      "mean_cards_seen": 12.0,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7051,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.2351,
-     "P_Lord_attack_ready": 0.6129,
-     "P_Lord_attack_ready_with_conversion_card": 0.3273,
-     "P_Lord_out_with_free_protection_in_hand": 0.155,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3701,
+     "P_Lord_on_battlefield": 0.7211,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2578,
+     "P_Lord_attack_ready": 0.6228,
+     "P_Lord_attack_ready_with_conversion_card": 0.3337,
+     "P_Lord_out_with_free_protection_in_hand": 0.163,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3837,
      "mean_cards_seen": 13.0,
      "mean_Skullclamp_draws": 0.0
     }
@@ -466,54 +466,54 @@
      "mean_Skullclamp_draws": 0.0
     },
     "turn 3": {
-     "P_Lord_on_battlefield": 0.0169,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0046,
+     "P_Lord_on_battlefield": 0.0173,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0052,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0022,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0047,
+     "P_Lord_out_with_free_protection_in_hand": 0.0032,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0053,
      "mean_cards_seen": 9.003,
-     "mean_Skullclamp_draws": 0.002
+     "mean_Skullclamp_draws": 0.001
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.2997,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0959,
-     "P_Lord_attack_ready": 0.0169,
-     "P_Lord_attack_ready_with_conversion_card": 0.0067,
-     "P_Lord_out_with_free_protection_in_hand": 0.0631,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1155,
+     "P_Lord_on_battlefield": 0.3068,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1053,
+     "P_Lord_attack_ready": 0.0173,
+     "P_Lord_attack_ready_with_conversion_card": 0.0062,
+     "P_Lord_out_with_free_protection_in_hand": 0.0626,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1177,
      "mean_cards_seen": 10.049,
-     "mean_Skullclamp_draws": 0.023
+     "mean_Skullclamp_draws": 0.025
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.5198,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1487,
-     "P_Lord_attack_ready": 0.2997,
-     "P_Lord_attack_ready_with_conversion_card": 0.1356,
-     "P_Lord_out_with_free_protection_in_hand": 0.1321,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2352,
+     "P_Lord_on_battlefield": 0.529,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.162,
+     "P_Lord_attack_ready": 0.3068,
+     "P_Lord_attack_ready_with_conversion_card": 0.1378,
+     "P_Lord_out_with_free_protection_in_hand": 0.1338,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2398,
      "mean_cards_seen": 11.181,
-     "mean_Skullclamp_draws": 0.115
+     "mean_Skullclamp_draws": 0.117
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6528,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1909,
-     "P_Lord_attack_ready": 0.5198,
-     "P_Lord_attack_ready_with_conversion_card": 0.2672,
-     "P_Lord_out_with_free_protection_in_hand": 0.1938,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3332,
-     "mean_cards_seen": 12.383,
-     "mean_Skullclamp_draws": 0.256
+     "P_Lord_on_battlefield": 0.6613,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2081,
+     "P_Lord_attack_ready": 0.529,
+     "P_Lord_attack_ready_with_conversion_card": 0.2683,
+     "P_Lord_out_with_free_protection_in_hand": 0.1969,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3407,
+     "mean_cards_seen": 12.386,
+     "mean_Skullclamp_draws": 0.26
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7494,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.22,
-     "P_Lord_attack_ready": 0.6528,
-     "P_Lord_attack_ready_with_conversion_card": 0.3699,
-     "P_Lord_out_with_free_protection_in_hand": 0.2539,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4242,
-     "mean_cards_seen": 13.643,
-     "mean_Skullclamp_draws": 0.432
+     "P_Lord_on_battlefield": 0.759,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2402,
+     "P_Lord_attack_ready": 0.6613,
+     "P_Lord_attack_ready_with_conversion_card": 0.3678,
+     "P_Lord_out_with_free_protection_in_hand": 0.2566,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4304,
+     "mean_cards_seen": 13.65,
+     "mean_Skullclamp_draws": 0.441
     }
    },
    "probe_single_plus_Fierce_Guardianship_minus_Nightscape_Familiar": {
@@ -1020,6 +1020,654 @@
      "mean_Skullclamp_draws": 0.0
     }
    },
+   "probe_single_plus_Temur_Battle_Rage_minus_Pain_for_All": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0126,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0049,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0015,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0033,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.2723,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1029,
+     "P_Lord_attack_ready": 0.0126,
+     "P_Lord_attack_ready_with_conversion_card": 0.005,
+     "P_Lord_out_with_free_protection_in_hand": 0.0375,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1013,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4851,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.162,
+     "P_Lord_attack_ready": 0.2723,
+     "P_Lord_attack_ready_with_conversion_card": 0.1198,
+     "P_Lord_out_with_free_protection_in_hand": 0.0822,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2099,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6129,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2053,
+     "P_Lord_attack_ready": 0.4851,
+     "P_Lord_attack_ready_with_conversion_card": 0.2376,
+     "P_Lord_out_with_free_protection_in_hand": 0.1202,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2972,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7051,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2351,
+     "P_Lord_attack_ready": 0.6129,
+     "P_Lord_attack_ready_with_conversion_card": 0.3273,
+     "P_Lord_out_with_free_protection_in_hand": 0.155,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3701,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Stubborn_Denial": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0132,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0048,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0014,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0036,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.2777,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1105,
+     "P_Lord_attack_ready": 0.0132,
+     "P_Lord_attack_ready_with_conversion_card": 0.005,
+     "P_Lord_out_with_free_protection_in_hand": 0.0384,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0904,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4899,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1733,
+     "P_Lord_attack_ready": 0.2777,
+     "P_Lord_attack_ready_with_conversion_card": 0.1208,
+     "P_Lord_out_with_free_protection_in_hand": 0.0832,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1848,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6227,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2225,
+     "P_Lord_attack_ready": 0.4899,
+     "P_Lord_attack_ready_with_conversion_card": 0.2391,
+     "P_Lord_out_with_free_protection_in_hand": 0.1213,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2633,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7235,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2597,
+     "P_Lord_attack_ready": 0.6227,
+     "P_Lord_attack_ready_with_conversion_card": 0.3319,
+     "P_Lord_out_with_free_protection_in_hand": 0.1598,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3367,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Feed_the_Swarm": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0127,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0057,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0017,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0034,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.2764,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1109,
+     "P_Lord_attack_ready": 0.0127,
+     "P_Lord_attack_ready_with_conversion_card": 0.0046,
+     "P_Lord_out_with_free_protection_in_hand": 0.0374,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1022,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.492,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1746,
+     "P_Lord_attack_ready": 0.2764,
+     "P_Lord_attack_ready_with_conversion_card": 0.1205,
+     "P_Lord_out_with_free_protection_in_hand": 0.0835,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2125,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6228,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.222,
+     "P_Lord_attack_ready": 0.492,
+     "P_Lord_attack_ready_with_conversion_card": 0.2402,
+     "P_Lord_out_with_free_protection_in_hand": 0.1254,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3024,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7211,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2578,
+     "P_Lord_attack_ready": 0.6228,
+     "P_Lord_attack_ready_with_conversion_card": 0.3337,
+     "P_Lord_out_with_free_protection_in_hand": 0.163,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3837,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Diregraf_Captain": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0127,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0058,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0019,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0034,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.272,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1111,
+     "P_Lord_attack_ready": 0.0127,
+     "P_Lord_attack_ready_with_conversion_card": 0.0044,
+     "P_Lord_out_with_free_protection_in_hand": 0.0374,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1015,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4773,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1777,
+     "P_Lord_attack_ready": 0.272,
+     "P_Lord_attack_ready_with_conversion_card": 0.1178,
+     "P_Lord_out_with_free_protection_in_hand": 0.0815,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2059,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6092,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2266,
+     "P_Lord_attack_ready": 0.4773,
+     "P_Lord_attack_ready_with_conversion_card": 0.2349,
+     "P_Lord_out_with_free_protection_in_hand": 0.1231,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2948,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7081,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2641,
+     "P_Lord_attack_ready": 0.6092,
+     "P_Lord_attack_ready_with_conversion_card": 0.3271,
+     "P_Lord_out_with_free_protection_in_hand": 0.1601,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3762,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Pain_for_All": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0129,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0053,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0015,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0033,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.2803,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1114,
+     "P_Lord_attack_ready": 0.0129,
+     "P_Lord_attack_ready_with_conversion_card": 0.0043,
+     "P_Lord_out_with_free_protection_in_hand": 0.0385,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1042,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4971,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1769,
+     "P_Lord_attack_ready": 0.2803,
+     "P_Lord_attack_ready_with_conversion_card": 0.1079,
+     "P_Lord_out_with_free_protection_in_hand": 0.0844,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2155,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.627,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2241,
+     "P_Lord_attack_ready": 0.4971,
+     "P_Lord_attack_ready_with_conversion_card": 0.2135,
+     "P_Lord_out_with_free_protection_in_hand": 0.1231,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3045,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7194,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2562,
+     "P_Lord_attack_ready": 0.627,
+     "P_Lord_attack_ready_with_conversion_card": 0.2944,
+     "P_Lord_out_with_free_protection_in_hand": 0.1586,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3782,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Undead_Augur": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0115,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0045,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0008,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0036,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.2707,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1098,
+     "P_Lord_attack_ready": 0.0115,
+     "P_Lord_attack_ready_with_conversion_card": 0.0042,
+     "P_Lord_out_with_free_protection_in_hand": 0.0386,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0984,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4755,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.174,
+     "P_Lord_attack_ready": 0.2707,
+     "P_Lord_attack_ready_with_conversion_card": 0.1181,
+     "P_Lord_out_with_free_protection_in_hand": 0.0807,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2049,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6091,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2251,
+     "P_Lord_attack_ready": 0.4755,
+     "P_Lord_attack_ready_with_conversion_card": 0.2333,
+     "P_Lord_out_with_free_protection_in_hand": 0.1207,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2955,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7114,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2622,
+     "P_Lord_attack_ready": 0.6091,
+     "P_Lord_attack_ready_with_conversion_card": 0.3245,
+     "P_Lord_out_with_free_protection_in_hand": 0.1586,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3787,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Headless_Rider": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0129,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0053,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0014,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0031,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.272,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.11,
+     "P_Lord_attack_ready": 0.0129,
+     "P_Lord_attack_ready_with_conversion_card": 0.005,
+     "P_Lord_out_with_free_protection_in_hand": 0.037,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1008,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4812,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1767,
+     "P_Lord_attack_ready": 0.272,
+     "P_Lord_attack_ready_with_conversion_card": 0.1193,
+     "P_Lord_out_with_free_protection_in_hand": 0.081,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2082,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6098,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2251,
+     "P_Lord_attack_ready": 0.4812,
+     "P_Lord_attack_ready_with_conversion_card": 0.2352,
+     "P_Lord_out_with_free_protection_in_hand": 0.1226,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2959,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7071,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2614,
+     "P_Lord_attack_ready": 0.6098,
+     "P_Lord_attack_ready_with_conversion_card": 0.3271,
+     "P_Lord_out_with_free_protection_in_hand": 0.16,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3755,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Terminate": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.012,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0043,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.001,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0036,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.2784,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1109,
+     "P_Lord_attack_ready": 0.012,
+     "P_Lord_attack_ready_with_conversion_card": 0.0044,
+     "P_Lord_out_with_free_protection_in_hand": 0.0396,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1031,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4918,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1762,
+     "P_Lord_attack_ready": 0.2784,
+     "P_Lord_attack_ready_with_conversion_card": 0.121,
+     "P_Lord_out_with_free_protection_in_hand": 0.084,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2136,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6252,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2248,
+     "P_Lord_attack_ready": 0.4918,
+     "P_Lord_attack_ready_with_conversion_card": 0.2397,
+     "P_Lord_out_with_free_protection_in_hand": 0.1243,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3045,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7267,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2616,
+     "P_Lord_attack_ready": 0.6252,
+     "P_Lord_attack_ready_with_conversion_card": 0.3351,
+     "P_Lord_out_with_free_protection_in_hand": 0.1619,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3872,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
+   "probe_single_plus_Consign_to_Memory_minus_Muddle_the_Mixture": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0134,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0054,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0014,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0029,
+     "mean_cards_seen": 9.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.281,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1116,
+     "P_Lord_attack_ready": 0.0134,
+     "P_Lord_attack_ready_with_conversion_card": 0.0053,
+     "P_Lord_out_with_free_protection_in_hand": 0.0406,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0911,
+     "mean_cards_seen": 10.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.4969,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1769,
+     "P_Lord_attack_ready": 0.281,
+     "P_Lord_attack_ready_with_conversion_card": 0.1242,
+     "P_Lord_out_with_free_protection_in_hand": 0.0848,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.187,
+     "mean_cards_seen": 11.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.6247,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2235,
+     "P_Lord_attack_ready": 0.4969,
+     "P_Lord_attack_ready_with_conversion_card": 0.2415,
+     "P_Lord_out_with_free_protection_in_hand": 0.1247,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2657,
+     "mean_cards_seen": 12.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7197,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2573,
+     "P_Lord_attack_ready": 0.6247,
+     "P_Lord_attack_ready_with_conversion_card": 0.3311,
+     "P_Lord_out_with_free_protection_in_hand": 0.1629,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3351,
+     "mean_cards_seen": 13.0,
+     "mean_Skullclamp_draws": 0.0
+    }
+   },
    "alt_A_four_swaps_keep_Sheoldreds_Edict_no_Skullclamp": {
     "turn 1": {
      "P_Lord_on_battlefield": 0.0,
@@ -1042,53 +1690,53 @@
      "mean_Skullclamp_draws": 0.0
     },
     "turn 3": {
-     "P_Lord_on_battlefield": 0.0155,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0041,
+     "P_Lord_on_battlefield": 0.0156,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0043,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0023,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0048,
+     "P_Lord_out_with_free_protection_in_hand": 0.0027,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0052,
      "mean_cards_seen": 9.002,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.2993,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0972,
-     "P_Lord_attack_ready": 0.0155,
-     "P_Lord_attack_ready_with_conversion_card": 0.006,
-     "P_Lord_out_with_free_protection_in_hand": 0.063,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1167,
-     "mean_cards_seen": 10.022,
+     "P_Lord_on_battlefield": 0.3008,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1032,
+     "P_Lord_attack_ready": 0.0156,
+     "P_Lord_attack_ready_with_conversion_card": 0.005,
+     "P_Lord_out_with_free_protection_in_hand": 0.0654,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1173,
+     "mean_cards_seen": 10.023,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.524,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1543,
-     "P_Lord_attack_ready": 0.2993,
-     "P_Lord_attack_ready_with_conversion_card": 0.1334,
-     "P_Lord_out_with_free_protection_in_hand": 0.1317,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2359,
+     "P_Lord_on_battlefield": 0.5284,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1657,
+     "P_Lord_attack_ready": 0.3008,
+     "P_Lord_attack_ready_with_conversion_card": 0.1338,
+     "P_Lord_out_with_free_protection_in_hand": 0.1338,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2357,
      "mean_cards_seen": 11.062,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6509,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1941,
-     "P_Lord_attack_ready": 0.524,
-     "P_Lord_attack_ready_with_conversion_card": 0.2621,
-     "P_Lord_out_with_free_protection_in_hand": 0.1892,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3276,
+     "P_Lord_on_battlefield": 0.6563,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2107,
+     "P_Lord_attack_ready": 0.5284,
+     "P_Lord_attack_ready_with_conversion_card": 0.2651,
+     "P_Lord_out_with_free_protection_in_hand": 0.1903,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3266,
      "mean_cards_seen": 12.12,
      "mean_Skullclamp_draws": 0.0
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7464,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.224,
-     "P_Lord_attack_ready": 0.6509,
-     "P_Lord_attack_ready_with_conversion_card": 0.3585,
-     "P_Lord_out_with_free_protection_in_hand": 0.243,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.412,
-     "mean_cards_seen": 13.2,
+     "P_Lord_on_battlefield": 0.7541,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.244,
+     "P_Lord_attack_ready": 0.6563,
+     "P_Lord_attack_ready_with_conversion_card": 0.3604,
+     "P_Lord_out_with_free_protection_in_hand": 0.2442,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4103,
+     "mean_cards_seen": 13.201,
      "mean_Skullclamp_draws": 0.0
     }
    },
@@ -1114,54 +1762,54 @@
      "mean_Skullclamp_draws": 0.0
     },
     "turn 3": {
-     "P_Lord_on_battlefield": 0.0179,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.005,
+     "P_Lord_on_battlefield": 0.0168,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0053,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0032,
+     "P_Lord_out_with_free_protection_in_hand": 0.0031,
      "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0046,
-     "mean_cards_seen": 9.004,
-     "mean_Skullclamp_draws": 0.003
+     "mean_cards_seen": 9.003,
+     "mean_Skullclamp_draws": 0.002
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.2984,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0961,
-     "P_Lord_attack_ready": 0.0179,
-     "P_Lord_attack_ready_with_conversion_card": 0.0072,
-     "P_Lord_out_with_free_protection_in_hand": 0.0644,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0995,
+     "P_Lord_on_battlefield": 0.3087,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1038,
+     "P_Lord_attack_ready": 0.0168,
+     "P_Lord_attack_ready_with_conversion_card": 0.0063,
+     "P_Lord_out_with_free_protection_in_hand": 0.0645,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1013,
      "mean_cards_seen": 10.048,
-     "mean_Skullclamp_draws": 0.023
+     "mean_Skullclamp_draws": 0.024
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.5251,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1488,
-     "P_Lord_attack_ready": 0.2984,
-     "P_Lord_attack_ready_with_conversion_card": 0.1349,
-     "P_Lord_out_with_free_protection_in_hand": 0.1365,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2089,
-     "mean_cards_seen": 11.176,
-     "mean_Skullclamp_draws": 0.111
+     "P_Lord_on_battlefield": 0.5338,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1607,
+     "P_Lord_attack_ready": 0.3087,
+     "P_Lord_attack_ready_with_conversion_card": 0.1383,
+     "P_Lord_out_with_free_protection_in_hand": 0.1385,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2128,
+     "mean_cards_seen": 11.18,
+     "mean_Skullclamp_draws": 0.117
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6559,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.192,
-     "P_Lord_attack_ready": 0.5251,
-     "P_Lord_attack_ready_with_conversion_card": 0.2697,
-     "P_Lord_out_with_free_protection_in_hand": 0.1984,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2967,
-     "mean_cards_seen": 12.371,
-     "mean_Skullclamp_draws": 0.245
+     "P_Lord_on_battlefield": 0.6672,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2092,
+     "P_Lord_attack_ready": 0.5338,
+     "P_Lord_attack_ready_with_conversion_card": 0.2691,
+     "P_Lord_out_with_free_protection_in_hand": 0.2023,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3028,
+     "mean_cards_seen": 12.382,
+     "mean_Skullclamp_draws": 0.258
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7517,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.2213,
-     "P_Lord_attack_ready": 0.6559,
-     "P_Lord_attack_ready_with_conversion_card": 0.3696,
-     "P_Lord_out_with_free_protection_in_hand": 0.2559,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3757,
-     "mean_cards_seen": 13.63,
-     "mean_Skullclamp_draws": 0.42
+     "P_Lord_on_battlefield": 0.7647,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2425,
+     "P_Lord_attack_ready": 0.6672,
+     "P_Lord_attack_ready_with_conversion_card": 0.3668,
+     "P_Lord_out_with_free_protection_in_hand": 0.2599,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3836,
+     "mean_cards_seen": 13.646,
+     "mean_Skullclamp_draws": 0.439
     }
    },
    "alt_C_Skullclamp_minus_Nightscape_Familiar": {
@@ -1187,53 +1835,53 @@
     },
     "turn 3": {
      "P_Lord_on_battlefield": 0.0157,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.005,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0054,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0026,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0044,
-     "mean_cards_seen": 9.004,
-     "mean_Skullclamp_draws": 0.003
+     "P_Lord_out_with_free_protection_in_hand": 0.0028,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.005,
+     "mean_cards_seen": 9.003,
+     "mean_Skullclamp_draws": 0.002
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.2793,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0951,
+     "P_Lord_on_battlefield": 0.2897,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1033,
      "P_Lord_attack_ready": 0.0157,
-     "P_Lord_attack_ready_with_conversion_card": 0.0062,
-     "P_Lord_out_with_free_protection_in_hand": 0.0597,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1073,
-     "mean_cards_seen": 10.046,
+     "P_Lord_attack_ready_with_conversion_card": 0.0058,
+     "P_Lord_out_with_free_protection_in_hand": 0.06,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1091,
+     "mean_cards_seen": 10.045,
      "mean_Skullclamp_draws": 0.02
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.5,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1475,
-     "P_Lord_attack_ready": 0.2793,
-     "P_Lord_attack_ready_with_conversion_card": 0.1256,
-     "P_Lord_out_with_free_protection_in_hand": 0.1293,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.228,
-     "mean_cards_seen": 11.169,
-     "mean_Skullclamp_draws": 0.1
+     "P_Lord_on_battlefield": 0.5099,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1607,
+     "P_Lord_attack_ready": 0.2897,
+     "P_Lord_attack_ready_with_conversion_card": 0.1297,
+     "P_Lord_out_with_free_protection_in_hand": 0.1318,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2311,
+     "mean_cards_seen": 11.172,
+     "mean_Skullclamp_draws": 0.105
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6321,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1924,
-     "P_Lord_attack_ready": 0.5,
-     "P_Lord_attack_ready_with_conversion_card": 0.2565,
-     "P_Lord_out_with_free_protection_in_hand": 0.1904,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3245,
-     "mean_cards_seen": 12.36,
-     "mean_Skullclamp_draws": 0.229
+     "P_Lord_on_battlefield": 0.6438,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2105,
+     "P_Lord_attack_ready": 0.5099,
+     "P_Lord_attack_ready_with_conversion_card": 0.2571,
+     "P_Lord_out_with_free_protection_in_hand": 0.1946,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3326,
+     "mean_cards_seen": 12.366,
+     "mean_Skullclamp_draws": 0.236
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7306,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.2235,
-     "P_Lord_attack_ready": 0.6321,
-     "P_Lord_attack_ready_with_conversion_card": 0.3559,
-     "P_Lord_out_with_free_protection_in_hand": 0.2483,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4141,
-     "mean_cards_seen": 13.607,
-     "mean_Skullclamp_draws": 0.392
+     "P_Lord_on_battlefield": 0.7452,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.246,
+     "P_Lord_attack_ready": 0.6438,
+     "P_Lord_attack_ready_with_conversion_card": 0.354,
+     "P_Lord_out_with_free_protection_in_hand": 0.252,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4221,
+     "mean_cards_seen": 13.617,
+     "mean_Skullclamp_draws": 0.402
     }
    },
    "alt_D_candidate_plus_Aqueous_Form_minus_Muddle_the_Mixture": {
@@ -1258,53 +1906,53 @@
      "mean_Skullclamp_draws": 0.0
     },
     "turn 3": {
-     "P_Lord_on_battlefield": 0.0166,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0044,
+     "P_Lord_on_battlefield": 0.0168,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0053,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0029,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0046,
-     "mean_cards_seen": 9.003,
-     "mean_Skullclamp_draws": 0.001
+     "P_Lord_out_with_free_protection_in_hand": 0.0026,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0043,
+     "mean_cards_seen": 9.004,
+     "mean_Skullclamp_draws": 0.002
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.2997,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1003,
-     "P_Lord_attack_ready": 0.0166,
-     "P_Lord_attack_ready_with_conversion_card": 0.0057,
-     "P_Lord_out_with_free_protection_in_hand": 0.063,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0993,
-     "mean_cards_seen": 10.045,
-     "mean_Skullclamp_draws": 0.022
+     "P_Lord_on_battlefield": 0.3099,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1114,
+     "P_Lord_attack_ready": 0.0168,
+     "P_Lord_attack_ready_with_conversion_card": 0.0065,
+     "P_Lord_out_with_free_protection_in_hand": 0.0654,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1035,
+     "mean_cards_seen": 10.049,
+     "mean_Skullclamp_draws": 0.025
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.5224,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.155,
-     "P_Lord_attack_ready": 0.2997,
-     "P_Lord_attack_ready_with_conversion_card": 0.1357,
-     "P_Lord_out_with_free_protection_in_hand": 0.1355,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2053,
-     "mean_cards_seen": 11.169,
-     "mean_Skullclamp_draws": 0.106
+     "P_Lord_on_battlefield": 0.5323,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1709,
+     "P_Lord_attack_ready": 0.3099,
+     "P_Lord_attack_ready_with_conversion_card": 0.1429,
+     "P_Lord_out_with_free_protection_in_hand": 0.1348,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2061,
+     "mean_cards_seen": 11.178,
+     "mean_Skullclamp_draws": 0.113
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6548,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1979,
-     "P_Lord_attack_ready": 0.5224,
-     "P_Lord_attack_ready_with_conversion_card": 0.2684,
-     "P_Lord_out_with_free_protection_in_hand": 0.1958,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2903,
+     "P_Lord_on_battlefield": 0.6637,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2156,
+     "P_Lord_attack_ready": 0.5323,
+     "P_Lord_attack_ready_with_conversion_card": 0.274,
+     "P_Lord_out_with_free_protection_in_hand": 0.1956,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2942,
      "mean_cards_seen": 12.37,
-     "mean_Skullclamp_draws": 0.245
+     "mean_Skullclamp_draws": 0.242
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7511,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.2281,
-     "P_Lord_attack_ready": 0.6548,
-     "P_Lord_attack_ready_with_conversion_card": 0.37,
-     "P_Lord_out_with_free_protection_in_hand": 0.2547,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3717,
-     "mean_cards_seen": 13.636,
+     "P_Lord_on_battlefield": 0.7605,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2478,
+     "P_Lord_attack_ready": 0.6637,
+     "P_Lord_attack_ready_with_conversion_card": 0.375,
+     "P_Lord_out_with_free_protection_in_hand": 0.2558,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3773,
+     "mean_cards_seen": 13.64,
      "mean_Skullclamp_draws": 0.425
     }
    },
@@ -1330,54 +1978,126 @@
      "mean_Skullclamp_draws": 0.0
     },
     "turn 3": {
-     "P_Lord_on_battlefield": 0.0165,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0044,
+     "P_Lord_on_battlefield": 0.0169,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0054,
      "P_Lord_attack_ready": 0.0,
      "P_Lord_attack_ready_with_conversion_card": 0.0,
-     "P_Lord_out_with_free_protection_in_hand": 0.0022,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.005,
+     "P_Lord_out_with_free_protection_in_hand": 0.0024,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0048,
      "mean_cards_seen": 9.003,
+     "mean_Skullclamp_draws": 0.002
+    },
+    "turn 4": {
+     "P_Lord_on_battlefield": 0.3016,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1073,
+     "P_Lord_attack_ready": 0.0169,
+     "P_Lord_attack_ready_with_conversion_card": 0.0057,
+     "P_Lord_out_with_free_protection_in_hand": 0.0607,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1124,
+     "mean_cards_seen": 10.045,
+     "mean_Skullclamp_draws": 0.022
+    },
+    "turn 5": {
+     "P_Lord_on_battlefield": 0.5204,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.166,
+     "P_Lord_attack_ready": 0.3016,
+     "P_Lord_attack_ready_with_conversion_card": 0.1371,
+     "P_Lord_out_with_free_protection_in_hand": 0.1319,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2329,
+     "mean_cards_seen": 11.167,
+     "mean_Skullclamp_draws": 0.104
+    },
+    "turn 6": {
+     "P_Lord_on_battlefield": 0.649,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2093,
+     "P_Lord_attack_ready": 0.5204,
+     "P_Lord_attack_ready_with_conversion_card": 0.2666,
+     "P_Lord_out_with_free_protection_in_hand": 0.1911,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3281,
+     "mean_cards_seen": 12.353,
+     "mean_Skullclamp_draws": 0.231
+    },
+    "turn 7": {
+     "P_Lord_on_battlefield": 0.7444,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2412,
+     "P_Lord_attack_ready": 0.649,
+     "P_Lord_attack_ready_with_conversion_card": 0.3668,
+     "P_Lord_out_with_free_protection_in_hand": 0.249,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4162,
+     "mean_cards_seen": 13.608,
+     "mean_Skullclamp_draws": 0.401
+    }
+   },
+   "alt_G_prior_draft_TBR_minus_Pain_for_All_instead_of_Consign": {
+    "turn 1": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 7.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 2": {
+     "P_Lord_on_battlefield": 0.0,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.0,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0,
+     "mean_cards_seen": 8.0,
+     "mean_Skullclamp_draws": 0.0
+    },
+    "turn 3": {
+     "P_Lord_on_battlefield": 0.0163,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0043,
+     "P_Lord_attack_ready": 0.0,
+     "P_Lord_attack_ready_with_conversion_card": 0.0,
+     "P_Lord_out_with_free_protection_in_hand": 0.002,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.0043,
+     "mean_cards_seen": 9.002,
      "mean_Skullclamp_draws": 0.001
     },
     "turn 4": {
-     "P_Lord_on_battlefield": 0.293,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.0984,
-     "P_Lord_attack_ready": 0.0165,
-     "P_Lord_attack_ready_with_conversion_card": 0.0056,
-     "P_Lord_out_with_free_protection_in_hand": 0.0607,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1122,
-     "mean_cards_seen": 10.046,
+     "P_Lord_on_battlefield": 0.2989,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.0961,
+     "P_Lord_attack_ready": 0.0163,
+     "P_Lord_attack_ready_with_conversion_card": 0.0063,
+     "P_Lord_out_with_free_protection_in_hand": 0.0602,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.1126,
+     "mean_cards_seen": 10.047,
      "mean_Skullclamp_draws": 0.023
     },
     "turn 5": {
-     "P_Lord_on_battlefield": 0.5093,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1504,
-     "P_Lord_attack_ready": 0.293,
-     "P_Lord_attack_ready_with_conversion_card": 0.1318,
-     "P_Lord_out_with_free_protection_in_hand": 0.1293,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2277,
-     "mean_cards_seen": 11.171,
-     "mean_Skullclamp_draws": 0.107
+     "P_Lord_on_battlefield": 0.5203,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.149,
+     "P_Lord_attack_ready": 0.2989,
+     "P_Lord_attack_ready_with_conversion_card": 0.1359,
+     "P_Lord_out_with_free_protection_in_hand": 0.1302,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.2329,
+     "mean_cards_seen": 11.176,
+     "mean_Skullclamp_draws": 0.108
     },
     "turn 6": {
-     "P_Lord_on_battlefield": 0.6361,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.1922,
-     "P_Lord_attack_ready": 0.5093,
-     "P_Lord_attack_ready_with_conversion_card": 0.2583,
-     "P_Lord_out_with_free_protection_in_hand": 0.1867,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3207,
-     "mean_cards_seen": 12.358,
-     "mean_Skullclamp_draws": 0.232
+     "P_Lord_on_battlefield": 0.6538,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.1923,
+     "P_Lord_attack_ready": 0.5203,
+     "P_Lord_attack_ready_with_conversion_card": 0.2646,
+     "P_Lord_out_with_free_protection_in_hand": 0.1943,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.3337,
+     "mean_cards_seen": 12.377,
+     "mean_Skullclamp_draws": 0.243
     },
     "turn 7": {
-     "P_Lord_on_battlefield": 0.7352,
-     "P_Lord_on_battlefield_without_paying_ETB": 0.2231,
-     "P_Lord_attack_ready": 0.6361,
-     "P_Lord_attack_ready_with_conversion_card": 0.3583,
-     "P_Lord_out_with_free_protection_in_hand": 0.2463,
-     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4124,
-     "mean_cards_seen": 13.611,
-     "mean_Skullclamp_draws": 0.4
+     "P_Lord_on_battlefield": 0.752,
+     "P_Lord_on_battlefield_without_paying_ETB": 0.2223,
+     "P_Lord_attack_ready": 0.6538,
+     "P_Lord_attack_ready_with_conversion_card": 0.3664,
+     "P_Lord_out_with_free_protection_in_hand": 0.2547,
+     "P_Lord_out_with_any_counter_or_protection_in_hand": 0.4248,
+     "mean_cards_seen": 13.656,
+     "mean_Skullclamp_draws": 0.433
     }
    },
    "alt_F_original_tentative_plan": {
@@ -1453,7 +2173,7 @@
     }
    }
   },
-  "partB_method": "Exhaustive finite rules-encoded grids: B1 evasion (Cover of Darkness vs Aqueous Form over blocker types x Lord original/recast); B2 conversion (Pain for All vs Temur Battle Rage vs Soul's Fire over infect none/Phyresis/Tainted Strike x 0/1/2 chump blockers x +1 power source x spare mana 0..5 x opponent life 40/20/10 x instant removal on Lord in response); B3 interaction (Sheoldred's Edict vs Soul's Fire over target kinds x Lord present/absent); B4 protection (Nightscape Familiar vs Fierce Guardianship over threat kinds x mana); B5 Pass C Dress Down layer-6 truth table. Manually encoded rules branches, not source-bound game-engine receipts and not win rates.",
+  "partB_method": "Exhaustive finite rules-encoded grids: B1 evasion (Cover of Darkness vs Aqueous Form over blocker types x Lord original/recast); B2 conversion (Pain for All vs Temur Battle Rage (owner-cut 2026-10-14; recorded for disclosure only) vs Soul's Fire over infect none/Phyresis/Tainted Strike x 0/1/2 chump blockers x +1 power source x spare mana 0..5 x opponent life 40/20/10 x instant removal on Lord in response); B3 interaction (Sheoldred's Edict vs Soul's Fire over target kinds x Lord present/absent); B4 protection (Nightscape Familiar vs Fierce Guardianship over threat kinds x mana); B5 Pass C Dress Down layer-6 truth table; B6 Consign to Memory vs Feed the Swarm over threat kinds with the kept answers per cell. Manually encoded rules branches, not source-bound game-engine receipts and not win rates.",
   "partB_results": {
    "B1_evasion_Cover_vs_Aqueous": {
     "cells": 24,
@@ -1494,8 +2214,7 @@
       "kept_spot_removal": [
        "Terminate",
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge",
@@ -1510,8 +2229,7 @@
       "kept_spot_removal": [
        "Terminate",
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge",
@@ -1547,8 +2265,7 @@
       "souls_fire": false,
       "kept_spot_removal": [
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge"
@@ -1561,8 +2278,7 @@
       "souls_fire": false,
       "kept_spot_removal": [
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge"
@@ -1594,8 +2310,7 @@
       "edict": false,
       "souls_fire": false,
       "kept_spot_removal": [
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": []
      },
@@ -1605,8 +2320,7 @@
       "edict": false,
       "souls_fire": false,
       "kept_spot_removal": [
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": []
      },
@@ -1618,8 +2332,7 @@
       "kept_spot_removal": [
        "Terminate",
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge",
@@ -1634,8 +2347,7 @@
       "kept_spot_removal": [
        "Terminate",
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge",
@@ -1650,8 +2362,7 @@
       "kept_spot_removal": [
        "Terminate",
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge",
@@ -1666,8 +2377,7 @@
       "kept_spot_removal": [
        "Terminate",
        "Deadly Rollick",
-       "Chaos Warp",
-       "Feed the Swarm"
+       "Chaos Warp"
       ],
       "kept_sweepers": [
        "Toxic Deluge",
@@ -1675,7 +2385,7 @@
       ]
      }
     ],
-    "notes": "Sheoldred's Edict modes: creature / nontoken creature / creature token / planeswalker (each opponent sacrifices; the opponent picks within the mode). Kept spot removal after the swap: Terminate, Deadly Rollick, Chaos Warp, Feed the Swarm; sweepers Toxic Deluge, Blasphemous Act. Soul's Fire (rejected challenger) needs Lord on the battlefield for 10 damage. Cells where Edict alone answers are the disclosed loss of +Skullclamp -Sheoldred's Edict."
+    "notes": "Sheoldred's Edict modes: creature / nontoken creature / creature token / planeswalker (each opponent sacrifices; the opponent picks within the mode). Kept spot removal after the candidate swaps (Feed the Swarm is also cut, for Consign to Memory): Terminate, Deadly Rollick, Chaos Warp; sweepers Toxic Deluge, Blasphemous Act. Soul's Fire (rejected challenger) needs Lord on the battlefield for 10 damage. Cells where Edict alone answers are the disclosed loss of +Skullclamp -Sheoldred's Edict."
    },
    "B4_protection_StubbornDenial_vs_FierceGuardianship": {
     "cells": 40,
@@ -1930,6 +2640,96 @@
      }
     ],
     "notes": "Dress Down: creatures lose all abilities (layer 6). Ability-granting effects with a later timestamp than Dress Down still apply (CR 613.7: an Aura/Equipment's timestamp is when it became attached; a resolved instant's effect gets its own timestamp). So Phyresis attached before Dress Down is overridden; Phyresis cast/attached after it or Tainted Strike after it grant infect. Anger's graveyard static haste and Greaves equipped earlier are overridden; re-equipping Greaves ({0}) after Dress Down restores haste. Kediss is itself a creature, so its trigger is gone while Dress Down is on the battlefield (Dress Down is sacrificed at the end step). Lord's own {B} regeneration is also gone that turn."
+   },
+   "B6_Consign_to_Memory_vs_Feed_the_Swarm": {
+    "cells": 8,
+    "Consign_answers": 5,
+    "Feed_answers": 2,
+    "Consign_only": 5,
+    "Feed_only": 2,
+    "answered_by_cut_with_at_most_two_kept_answers": 1,
+    "answered_by_add_with_at_most_two_kept_answers": 4,
+    "rows": [
+     {
+      "threat": "own_Lord_ETB_trigger_no_suppressor",
+      "consign_to_memory": true,
+      "feed_the_swarm": false,
+      "kept_answers_after_candidate": [
+       "Torpor Orb (pre-placed)",
+       "Karn, Argent Defender (pre-placed)",
+       "Dress Down (before Lord)",
+       "Stifle",
+       "Tale's End"
+      ]
+     },
+     {
+      "threat": "opponent_ETB_or_attack_trigger",
+      "consign_to_memory": true,
+      "feed_the_swarm": false,
+      "kept_answers_after_candidate": [
+       "Stifle",
+       "Tale's End"
+      ]
+     },
+     {
+      "threat": "opponent_upkeep_or_tax_trigger_e_g_Rhystic_Study_Smothering_Tithe",
+      "consign_to_memory": true,
+      "feed_the_swarm": false,
+      "kept_answers_after_candidate": [
+       "Stifle",
+       "Tale's End"
+      ]
+     },
+     {
+      "threat": "opponent_colourless_artifact_spell",
+      "consign_to_memory": true,
+      "feed_the_swarm": false,
+      "kept_answers_after_candidate": [
+       "Fierce Guardianship (noncreature)",
+       "Muddle the Mixture"
+      ]
+     },
+     {
+      "threat": "opponent_colourless_Eldrazi_creature_spell",
+      "consign_to_memory": true,
+      "feed_the_swarm": false,
+      "kept_answers_after_candidate": [
+       "Muddle the Mixture"
+      ]
+     },
+     {
+      "threat": "opponent_resolved_creature",
+      "consign_to_memory": false,
+      "feed_the_swarm": true,
+      "kept_answers_after_candidate": [
+       "Terminate",
+       "Deadly Rollick",
+       "Chaos Warp",
+       "Toxic Deluge",
+       "Blasphemous Act",
+       "Goblin Bombardment (own only)"
+      ]
+     },
+     {
+      "threat": "opponent_resolved_enchantment",
+      "consign_to_memory": false,
+      "feed_the_swarm": true,
+      "kept_answers_after_candidate": [
+       "Chaos Warp",
+       "Otawara, Soaring City (bounce)"
+      ]
+     },
+     {
+      "threat": "opponent_coloured_noncreature_spell",
+      "consign_to_memory": false,
+      "feed_the_swarm": false,
+      "kept_answers_after_candidate": [
+       "Fierce Guardianship",
+       "Muddle the Mixture"
+      ]
+     }
+    ],
+    "notes": "Consign to Memory ({U} instant, replicate {1}): counter target triggered ability or colourless spell. Feed the Swarm ({1}{B} sorcery): destroy target creature or enchantment an opponent controls; lose life equal to its mana value. Kept answers listed are those remaining in the candidate 100. Not a frequency model: each cell is one threat kind, unweighted."
    }
   }
  }
