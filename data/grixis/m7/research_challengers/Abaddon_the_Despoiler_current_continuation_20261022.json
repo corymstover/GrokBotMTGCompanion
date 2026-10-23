@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-22",
-  "status": "RESEARCH_ONLY_STAGE9_VEYRAN_IMPACT_WIDE_CAST_COPY_OPPORTUNITY_ACTIVE",
+  "status": "RESEARCH_ONLY_STAGE10_NIGHTSCAPE_MANA_REVEALED_AND_ADVERSARIAL_VERIFIED",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -196,19 +196,55 @@
       "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39896513008",
       "ci_conclusion": "SUCCESS",
       "receipt_comment_id": 6356865812
+    },
+    "stage10": {
+      "strategy": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage10_familiar_mana_and_adversarial_review_20261022.json",
+      "test": "tests/test_m7_abaddon_stage10_familiar_resource_discipline.py",
+      "discovery": "Existing Nightscape Familiar + front-face Birgi + Grinning Ignus generates +{C} net each sorcery-speed Ignus cycle, unlike removing Familiar for Veyran (net {C} zero). Impact Tremors + Ignus + Birgi still damages each opponent independently of Familiar. Neheb + Aggravated Assault with Abaddon-controlled Loyal Subordinate survives opposing Rule of Law when predeployed and X>=5, if permanents stay present.",
+      "source": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json plus stage8+stage9 live Scryfall candidates and Wizards Comprehensive Rules",
+      "exact_100_research_variants": [
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage10_impact_preserve_familiar_one_research_20261022.txt",
+          "raw_sha256": "c12b8798b2a97fc0e1b1fef30594b62b7f21fc01c352547ed23280480fbe75e2",
+          "swaps": 1,
+          "status": "RESEARCH_ONLY"
+        },
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage10_veyran_impact_preserve_familiar_two_research_20261022.txt",
+          "raw_sha256": "5c3b4ed0ce3aa92d29fe8e7ff658b276cef9ec164b127d7c3c748f029c507cc4",
+          "swaps": 2,
+          "status": "RESEARCH_ONLY"
+        },
+        {
+          "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_impact_ponder_two_research_20261022.txt",
+          "raw_sha256": "d21444a3d434d49091c35066ff77ecc38c5e30d8fea8b7bbcd8e0303151a33eb",
+          "swaps": 2,
+          "status": "RESEARCH_ONLY_ADVERSARIAL"
+        }
+      ],
+      "github_pr": 629,
+      "merged_sha": "c5ce820d359765706bb322d7e1e65e0e7d6c4f74",
+      "exact_ci_head": "e25938f9e7221302701dd3f40db675f2b76121e8",
+      "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39898820904",
+      "ci_conclusion": "SUCCESS",
+      "ci_steps_passed": 81,
+      "source_bound_full_changed_candidate_oracle_m6_ij": false,
+      "owner_ready": false
     }
   },
   "mandatory_next_deterministic_checks": [
-    "Stages6-9 finite trigger and exact physical-100 rules tests already executed with exact-head CI successes. Do not repeat them by default.",
-    "Compare the high-leverage Veyran/Impact opportunity against the approved rev2 exact 100, especially Ponder vs Ruinous vs Nightscape cut costs, through payable turn and at least one adverse interaction; test opponent Rule of Law, spot removal and counter response before claiming strategic superiority.",
-    "Continue unbounded role/EDHREC high-lift off-ranking discovery only for remaining concrete improvement opportunities; do not anchor at 5, require real multi-card synergy and no padding.",
-    "If final package of at least 5 genuinely better strategic replacements is defensible, update full candidate-specific 100 Oracle/legality, relevant M6 P0, I/J reproducibility and hash, CI before OWNER APPROVAL REQUIRED. If not, report an honest governance conflict, do not ask approval."
+    "Stage10 source-exact physical 100 and finite mana/resource/opponent-response tests executed; PR #629 exact-head 81-step GitHub Actions SUCCESS. Do not repeat these absent a relevant changed assumption.",
+    "Complete a genuine cross-role, multi-slot comparison of whole 99; challenge other plausible weak incumbents without losing Nightscape/Birgi/Ignus paid-colorless loop, Abaddon-colored four-mana discount, protected 40K exile engines, protection, or Neheb+Aggravated anti-Rule-of-Law route by accident.",
+    "Adjudicate Stage10 +Impact/-Ponder against fully preserved baseline and the 2-swap +Veyran+Impact/-Ponder/-Ruinous versus prior Stage9 Familiar-cut variant, using representative mana hands and targeted interaction. Evaluate the strongest >5 complete 100 package if credible; do not target five by construction.",
+    "Continue EDHREC Top and High Lift plus source-verified off-ranking role candidates only where they plausibly improve full 100; make SELECT_ADD/REJECT/RETAIN_ALTERNATIVE/EXCLUDE_INVALID judgments and state costs; prohibit generic repeat simulations.",
+    "If a truly better 5+ whole-100 candidate survives quality audit, rerun exact source/Oracle/legality, applicable changed-candidate M6 P0/P1/I/J/reproducibility and exact new hash, CI; owner presentation only after all blockers clear, exact owner approval before canonical write."
   ],
   "strategic_next": [
-    "Lead with Veyran's exact instant/sorc cast/copy permanent-trigger breadth (10 eligible current permanents) and Impact's Birgi/Ignus all-opponent combo; compare as source-verified, high-value additions, not assumed upgrades.",
-    "Challenge protection, mana reducers, cantrips, Ruinous 40K thematic engine and independent Neheb/Aggravated secondary combat loop as expensive real incumbent opportunities. Search alternatives to cutting protected cards.",
-    "Keep full physical 100 variants from stages4-9 as adversarial RESEARCH_ONLY. None is owner-ready under latest 5+ genuine swap floor and candidate-specific M6/CI gates.",
-    "Preserve canonical 0d9f6d... approved locked Abaddon; Admiral ff5f... locked; deck3 held pending Cory's new exact Abaddon M7 owner approval."
+    "Strongest new incumbent finding: do not treat Nightscape Familiar as a weak free Veyran cut. With Birgi and Grinning Ignus it creates one net {C} per sorcery-speed creature cast and reduces Abaddon by one generic, enabling a four-mana UBR cast with ready sources.",
+    "Impact Tremors remains high-leverage deterministic each-opponent creature-ETB win outlet; a one-slot Ponder trial retains Nightscape, The Ruinous Powers, Neheb/Assault and entire interaction. Ponder early selection and 1-MV cascade hit are a real cost.",
+    "Veyran's wider 10 contextual permanent-trigger benefits require existing instant/sorcery CAST/COPY induced triggers; Ignus creature casts and Impact ETB are not doubled. Its value versus 40K Ruinous or mana engine must be whole-deck weighed.",
+    "Opposing Rule of Law blocks repeat creature CAST but not already-board Assault activation or Loyal combat life-loss; Loyal + Abaddon + Neheb + Assault is a compelling protected independent route and no auto-cut.",
+    "All existing 5–8 swap alternatives remain RESEARCH_ONLY because their protection, threshold or color/Warhammer losses have not been overcome. Never pad to satisfy quota. Canonical Abaddon 0d9f... and Admiral ff5f... locked; deck3 held pending Cory explicit exact new Abaddon replacement approval."
   ],
   "owner_decision_required_now": false,
   "owner_ready": false,
