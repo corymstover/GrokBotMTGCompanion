@@ -1,0 +1,363 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "research_cycle": "POST_ADMIRAL_OWNER_REOPEN_2026-10-22",
+  "status": "RESEARCH_ONLY_NOT_OWNER_PRESENTABLE",
+  "owner_authority": "Cory approved Admiral rev2 and explicitly directed Abaddon reopening under never-anchor-at-five and EDHREC inclusion/high-lift workflow; no Abaddon replacement is approved by that instruction.",
+  "canonical_repo": "corymstover/grixis-commander-encyclopediaGPT",
+  "canonical_approved_list": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+  "canonical_approved_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "canonical_approval_status": "APPROVED_LOCKED_PRESERVE",
+  "canonical_approved_100": true,
+  "origin_owner_receipt": "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+  "dated": "2026-10-22_America_Chicago",
+  "source_capture": {
+    "edhrec_commander_url": "https://edhrec.com/commanders/abaddon-the-despoiler",
+    "edhrec_optimized_expensive_url": "https://edhrec.com/commanders/abaddon-the-despoiler/optimized/expensive",
+    "approximate_commander_decks_at_capture": 6750,
+    "optimized_expensive_sample_decks": 16,
+    "interpretation": "EDHREC inclusion is prevalence; High Lift is relative association, not a causal estimate of power or a mandatory inclusion. The optimized-expensive filter displayed only ~16 lists, so its percentage and Lift rankings are exploratory, not statistical proof. Captured web page readings may change."
+  },
+  "crosswalk": {
+    "top_cards": [
+      {
+        "card": "Brainstorm",
+        "inclusion_percent": 66,
+        "lift_multiplier": 3.9,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Blasphemous Act",
+        "inclusion_percent": 65,
+        "lift_multiplier": 1.4,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Dark Ritual",
+        "inclusion_percent": 64,
+        "lift_multiplier": 1.6,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Keeper of Secrets",
+        "inclusion_percent": 64,
+        "lift_multiplier": 34,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Chaos Warp",
+        "inclusion_percent": 63,
+        "lift_multiplier": 1.8,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Loyal Subordinate",
+        "inclusion_percent": 53,
+        "lift_multiplier": 32,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Ancestral Vision",
+        "inclusion_percent": 50,
+        "lift_multiplier": 18,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Blood for the Blood God!",
+        "inclusion_percent": 49,
+        "lift_multiplier": 22,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Profane Tutor",
+        "inclusion_percent": 49,
+        "lift_multiplier": 13,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "The Lost and the Damned",
+        "inclusion_percent": 48,
+        "lift_multiplier": 37,
+        "currently_in_approved_rev2": true
+      }
+    ],
+    "high_lift_cards": [
+      {
+        "card": "Aurora Phoenix",
+        "inclusion_percent": 17,
+        "lift_multiplier": 66,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Noise Marine",
+        "inclusion_percent": 48,
+        "lift_multiplier": 65,
+        "currently_in_approved_rev2": true
+      },
+      {
+        "card": "Spear Spewer",
+        "inclusion_percent": 18,
+        "lift_multiplier": 63,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Dark Apostle",
+        "inclusion_percent": 31,
+        "lift_multiplier": 60,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Cryptolith Fragment",
+        "inclusion_percent": 23,
+        "lift_multiplier": 55,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Knight Rampager",
+        "inclusion_percent": 13,
+        "lift_multiplier": 54,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Lucius the Eternal",
+        "inclusion_percent": 16,
+        "lift_multiplier": 53,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Mutalith Vortex Beast",
+        "inclusion_percent": 27,
+        "lift_multiplier": 52,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Poxwalkers",
+        "inclusion_percent": 31,
+        "lift_multiplier": 52,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Helbrute",
+        "inclusion_percent": 12,
+        "lift_multiplier": 52,
+        "currently_in_approved_rev2": false
+      }
+    ],
+    "optimized_expensive_high_lift_extra_challengers": [
+      {
+        "card": "Keen Duelist",
+        "inclusion_percent": 25,
+        "lift_multiplier": 58,
+        "currently_in_approved_rev2": false
+      },
+      {
+        "card": "Electrostatic Field",
+        "inclusion_percent": 25,
+        "lift_multiplier": 52,
+        "currently_in_approved_rev2": false
+      }
+    ],
+    "summary": {
+      "top_cards_present": 9,
+      "top_cards_examined": 10,
+      "high_lift_present": 1,
+      "high_lift_examined": 10,
+      "new_distinct_absent_cards_to_triage": [
+        "Blood for the Blood God!",
+        "Aurora Phoenix",
+        "Spear Spewer",
+        "Dark Apostle",
+        "Cryptolith Fragment",
+        "Knight Rampager",
+        "Lucius the Eternal",
+        "Mutalith Vortex Beast",
+        "Poxwalkers",
+        "Helbrute",
+        "Keen Duelist",
+        "Electrostatic Field"
+      ]
+    }
+  },
+  "preliminary_judgments": [
+    {
+      "card": "Spear Spewer",
+      "status": "ADVANCE_ORACLE_AND_EFFECT_TEST",
+      "potential_cut": "The Ruinous Powers",
+      "reason": "{R} 0/2 tap source: at three opponents one activation causes three total opposing life loss; this enables own-turn Abaddon cascade on hand spells printed MV0–2, but must survive summoning sickness and cannot replace same-turn Boltwave."
+    },
+    {
+      "card": "Electrostatic Field",
+      "status": "ADVANCE_ORACLE_AND_EFFECT_TEST",
+      "potential_cut": "Call Forth the Tempest",
+      "reason": "Cheap 0/4 repeatable all-opponent pings on cast instants/sorceries, including qualifying spells cast from exile; cascade copies are cast but copied storm spells are not. Challenging huge double-cascade top-end may reduce ceiling."
+    },
+    {
+      "card": "Cryptolith Fragment",
+      "status": "RULES_TIMING_ANALYTICALLY_CONFIRMED_STRATEGIC_DECISION_OPEN",
+      "potential_cut": "Talisman of Indulgence",
+      "reason": "Three-mana tapped rainbow rock with mana ability that simultaneously causes each opponent life loss: test exact cast/mana ability timing to determine whether activation paying for the very spell can raise Abaddon qualifying threshold. One-turn tempo slower than a two-mana Talisman, a real cost."
+    },
+    {
+      "card": "Aurora Phoenix",
+      "status": "ADVANCE_ORACLE_AND_ATTRITION_COMPARISON",
+      "potential_cut": "The Ruinous Powers",
+      "reason": "Cascade creature in graveyard returns to hand on casting spell that has cascade (including Abaddon granted), offering attrition, but five-mana repeat cast is clunky and cannot be assumed better than theme-identity random resource."
+    },
+    {
+      "card": "Blood for the Blood God!",
+      "status": "ADVANCE_PAID_COST_AND_DISCARD_TEST",
+      "potential_cut": "Call Forth the Tempest",
+      "reason": "Discounted on creature deaths; refill eight and deal eight to each opponent is powerful, but 11 printed MV requires X>11 to receive Abaddon cascade, and the eight damage only occurs after resolution, not retroactively for its own cast; discarding one's own hand and cost volatility are major risks."
+    },
+    {
+      "card": "Poxwalkers",
+      "status": "RETAIN_ALTERNATIVE_NEEDS_ROLE_CUT",
+      "potential_cut": null,
+      "reason": "Returns from graveyard to battlefield tapped on nonhand spell cast, of which Abaddon cascade produces many, but without sacrifices repeatedly it offers little compared with the 40K existing exile-spell token engine."
+    },
+    {
+      "card": "Dark Apostle",
+      "status": "REJECT_PRELIMINARY_UNLESS_DOUBLE_CASCADE_TIMING_REVEALS_BENEFIT",
+      "potential_cut": null,
+      "reason": "Four-mana creature plus three-mana tap activation adds a cascade grant to next noncreature spell; can stack with Abaddon but slower and narrower than already selected persistent Spark Double duplicate."
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "status": "RETAIN_HIGH_CEILING_WHEEL_ALTERNATIVE",
+      "potential_cut": null,
+      "reason": "Existing M7 judged redundant wheel threshold against Bowmasters; revisit wheel independence/resilience rather than dismiss solely due to X above eight. Four-mana double-black setup has opportunity cost."
+    },
+    {
+      "card": "Keen Duelist",
+      "status": "RETAIN_HIGH_VARIANCE_ALTERNATIVE",
+      "potential_cut": null,
+      "reason": "Two-mana upkeep symmetrical revealed mana values may cause opponent life loss before main phase, but only one target opponent, possible zero from lands, and user life loss from large printed spells; not proven better than pre-existing all-opponent sources."
+    },
+    {
+      "card": "Knight Rampager",
+      "status": "UNVERIFIED_ORACLE_AND_COST",
+      "potential_cut": null,
+      "reason": "High Lift 54x may reflect Warhammer identity and curated precon representation; do not invent mechanics or accept without exact source/slot comparison."
+    },
+    {
+      "card": "Lucius the Eternal",
+      "status": "UNVERIFIED_ORACLE_AND_COST",
+      "potential_cut": null,
+      "reason": "High Lift 53x alone cannot displace tuned cheap engines or payoffs; specific recursion and payable state to be verified."
+    },
+    {
+      "card": "Mutalith Vortex Beast",
+      "status": "LOW_PRIORITY_UNLESS_PAYABLE_COIN_LINE_STRONG",
+      "potential_cut": null,
+      "reason": "Six-mana 40K creature with opponent-dependent coin flips is high variance and competes with deterministic life-loss/cascade payoffs. Verify actual source before final exclusion."
+    },
+    {
+      "card": "Helbrute",
+      "status": "UNVERIFIED_ORACLE_AND_COST",
+      "potential_cut": null,
+      "reason": "High Lift 52x could represent precon association rather than power. No claimed final disposition without verified current text and meaningful incumbent challenge."
+    }
+  ],
+  "source_bound_rules_reviews": [
+    {
+      "card": "Spear Spewer",
+      "scryfall_url": "https://scryfall.com/card/rna/117/spear-spewer",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Poxwalkers",
+      "scryfall_url": "https://scryfall.com/card/40k/49/poxwalkers",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Aurora Phoenix",
+      "scryfall_url": "https://scryfall.com/card/clb/778/aurora-phoenix",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Blood for the Blood God!",
+      "scryfall_url": "https://scryfall.com/card/40k/108/blood-for-the-blood-god%21",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Dark Apostle",
+      "scryfall_url": "https://scryfall.com/card/40k/75/dark-apostle",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Electrostatic Field",
+      "scryfall_url": "https://scryfall.com/card/otc/164/electrostatic-field",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Keen Duelist",
+      "scryfall_url": "https://scryfall.com/card/soc/218/keen-duelist",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Sheoldred, the Apocalypse",
+      "scryfall_url": "https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse",
+      "status": "PAGE_TEXT_REVIEWED_RULES_FIXTURE_PENDING"
+    },
+    {
+      "card": "Cryptolith Fragment",
+      "scryfall_url": "https://scryfall.com/search?q=%21%22Cryptolith+Fragment%22",
+      "status": "CARD_TEXT_AND_2026_WIZARDS_601_605_ANALYTICALLY_VERIFIED_FULL_LEGALITY_AND_FIXTURE_PENDING"
+    },
+    {
+      "card": "Casting with Cryptolith Fragment",
+      "rules_source_url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf",
+      "rules": "601.2g; 601.2i; 605.1a; 605.3a-b",
+      "status": "ANALYTIC_CAST_TIMING_PASS_NOT_PHYSICAL_FIXTURE"
+    }
+  ],
+  "complete_100_research_variants": [
+    {
+      "name": "THRESHOLD_EARLY_TWO_SLOT_STRESS_TEST",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_admiral_threshold_early_trial_20261022.txt",
+      "raw_sha256": "9b7241e4679858e1db5505c938c6d9a0ae3b40d22012a3decae6a15c46c9273c",
+      "physical_cards": 100,
+      "adds": [
+        "Spear Spewer",
+        "Electrostatic Field"
+      ],
+      "cuts": [
+        "The Ruinous Powers",
+        "Call Forth the Tempest"
+      ],
+      "status": "RESEARCH_ONLY_OFFICIALLY_UNVERIFIED_NOT_OWNER_PRESENTABLE"
+    },
+    {
+      "name": "CASCADING_RESILIENCE_TWO_SLOT_STRESS_TEST",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_admiral_cascade_resilience_trial_20261022.txt",
+      "raw_sha256": "ab1bf331143152cd6e627ac4e4a385171e063b8b097650c58df6bd37190f9ef0",
+      "physical_cards": 100,
+      "adds": [
+        "Aurora Phoenix",
+        "Blood for the Blood God!"
+      ],
+      "cuts": [
+        "The Ruinous Powers",
+        "Call Forth the Tempest"
+      ],
+      "status": "RESEARCH_ONLY_OFFICIALLY_UNVERIFIED_NOT_OWNER_PRESENTABLE"
+    }
+  ],
+  "hard_gate": {
+    "genuine_improvements_not_yet_established": true,
+    "no_floor_target_or_padded_swaps": true,
+    "against_current_locked_baseline_new_swaps_in_each_trial": 2,
+    "owner_ready": false,
+    "current_legal_rules_mechanical_reverification": "UNVERIFIED",
+    "reason": "These are exactly two narrow challenger fixtures designed to discriminate card roles and expose opportunity costs. They are not M7 final packages, insufficient under owner minimum-five-presentation policy, and cannot replace the locked 100 until whole-deck audit, stronger open-ended comparisons, actual mechanical/Oracle gates and explicit new exact-list owner decision."
+  },
+  "next_actions": [
+    "Confirm full current Oracle/official Commander legality for all serious missing EDHREC findings and save source-bound new snapshot; do not infer from EDHREC inclusion.",
+    "Implement one deterministic mana-ability/cast threshold fixture for Cryptolith Fragment and cascade-granted Phoenix graveyard return on actual cast events; no multiplayer simulator.",
+    "Stress-test alternative early-pressure and high-MV refill packages as real 100s against approved 100 under payability/curve and disruption.",
+    "Challenge wider incumbent 99, not only the two trial slots; expand credible alternatives and genuinely strategic improvements beyond arbitrary five without padding.",
+    "If evidence supports five or more NEW changes relative to currently locked rev2, construct fully verified M7 replacement with 10+ judgments and 8+ incumbents, I/J source-bound, then ask exact owner approval. Otherwise keep research-only and record governor conflict.",
+    "Keep Abaddon approved 0d9f6df8... source intact; do not advance deck #3 until its new exact owner approval."
+  ],
+  "analytic_rules_followthrough": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_rules_timing_20261022.md"
+}

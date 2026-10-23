@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "date": "2026-10-22",
+  "status": "RESEARCH_ONLY_REOPENED_POST_ADMIRAL_OWNER_APPROVAL",
+  "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
+  "deck3_hold": true,
+  "canonical_authority": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "approved_list": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "approved_raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "owner_approval_receipt": "data/grixis/m7/owner_approvals/Abaddon_the_Despoiler_M7_20261022.json",
+    "status": "APPROVED_LOCKED_PRESERVED",
+    "authority_to_replace": false
+  },
+  "admiral_gate": {
+    "status": "EXACT_OWNER_APPROVED_CANONICAL_LOCKED",
+    "approved_raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+    "canonical_merge_pr": 47,
+    "engineering_receipt_merge_pr": 617
+  },
+  "prior_m7_evidence": {
+    "approved_rev2_decision": "data/grixis/m7/decision_reviews/Abaddon_the_Despoiler_rev2.json",
+    "thirteen_material_candidate_judgments": true,
+    "existing_two_complete_five_swap_alternatives": true,
+    "source_specific_m6_i_j_preserved": true,
+    "do_not_recount_as_new_oracle_pass": true
+  },
+  "new_work": {
+    "edhrec_crosswalk": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_EDHREC_20261022.json",
+    "top10_present": 9,
+    "high_lift10_present": 1,
+    "new_absent_discovery_cards": 12,
+    "optimized_filter_n": 16,
+    "exact_100_research_variants": [
+      {
+        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_admiral_threshold_early_trial_20261022.txt",
+        "sha256": "9b7241e4679858e1db5505c938c6d9a0ae3b40d22012a3decae6a15c46c9273c",
+        "swaps": 2
+      },
+      {
+        "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_admiral_cascade_resilience_trial_20261022.txt",
+        "sha256": "ab1bf331143152cd6e627ac4e4a385171e063b8b097650c58df6bd37190f9ef0",
+        "swaps": 2
+      }
+    ],
+    "executed_mechanical_tests_this_reopen": 0,
+    "source_bound_full_new_candidate_oracle_clearances": 0,
+    "confirmed_new_strategic_improvements": 0,
+    "status": "PARTIAL_RESEARCH_ONLY"
+  },
+  "mandatory_next_deterministic_checks": [
+    "Cryptolith Fragment tapped mana ability life-loss timing during cast and whether it can change Abaddon cascade eligibility before cast completes.",
+    "Aurora Phoenix graveyard return trigger for spells granted cascade by Abaddon, including source zone and independent cast trigger timing.",
+    "Electrostatic Field cast triggers for cascade hit spells from exile versus storm spell copies that are not cast.",
+    "Blood for the Blood God! {11} printed mana value, creature death cost reductions, existing life-loss threshold at casting versus eight damage dealt only on resolution."
+  ],
+  "strategic_next": [
+    "Fully source verify 12 EDHREC-discovered non-incumbents; prioritize plausible Abaddon engines rather than arbitrary high-lift numbers.",
+    "Challenge all 99 slots; compare real opportunity costs and protected 40K/exile identity.",
+    "Qualitatively choose stronger coherent 100-card package after payability and resilience review; only experiment when a decision-changing gap remains.",
+    "Do not mechanically anchor to five swaps. New final owner presentation must have at least five genuinely justified new replacements vs current approved Abaddon rev2, ten substantial judgments, eight challenged slots, two complete alternative packages, source-bound Oracle and specific M6 I/J evidence.",
+    "No automatic M6.10 acceptance, no new Abaddon approval from previous exact rev2 receipt and no advancement to deck #3 before owner's new exact-deck approval."
+  ],
+  "owner_decision_required_now": false,
+  "owner_ready": false,
+  "source_limitations": [
+    "EDHREC percentages change and optimized-expensive sample of ~16 lists is not representative proof.",
+    "Trial package counts and exact SHA are physical-list checks, not legality or strategic strength certification.",
+    "Abaddon existing owner approval stays immutable until new owner decision.",
+    "The evidence gathered at this point is a reopened research first-pass, not a completed M7 final."
+  ]
+}
