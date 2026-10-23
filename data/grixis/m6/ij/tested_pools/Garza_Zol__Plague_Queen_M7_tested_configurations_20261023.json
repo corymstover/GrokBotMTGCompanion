@@ -1,0 +1,108 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 10,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Garza_Zol__Plague_Queen_approved_source_2026-10-14.txt",
+   "raw_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
+   "logical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 32c0e804…, fetched from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, blob e3e43c53, introduced by canonical approval commit 3e2c89d998d17f709d54f40a4d52acfd6840ee11 on 2026-10-14; registry source_commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/garza-zol-plague-queen.txt",
+   "raw_sha256": "b0dfe1fc5ad19d3d8b3eeb350b1abc42f0de3e32526032a558b5717df32e5fda",
+   "logical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "RESEARCH_FOUR",
+   "path": "data/grixis/m7/candidate_lists/Garza_Zol__Plague_Queen.txt",
+   "raw_sha256": "48b6a7dbdb2dac5d591d93cb6f7f7efea634c0663acab9b6a1812661e559317f",
+   "logical_hash": "lh1:cd76780100cbe9d1ada853684a2093d097a3cf3c8fdae459728fe618821ce4f5",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RESEARCH_ONLY_LOCAL_BEST_IN_TESTED_POOL (four genuine swaps; below the five-swap owner-presentation floor, so NOT owner-presentable). +Lizard Blades +Giantfall +Sink into Stupor // Soporific Springs +Fell the Profane // Fell Mire / -Fellwar Stone -Rapid Hybridization -Exotic Orchard -Takenuma, Abandoned Mire. No owner keep or owner addition is cut. Lands 38 -> 36 plus two MDFC lands; U/B/R land sources 25/27/24 -> 25/26/23 (MDFC back faces counted); Spellbook complete combos 3 -> 3. Garza castable by turn 6 on the play 0.4724 -> 0.4451 with MDFCs played as lands (0.4073 if never played as lands). Game Changers 9 -> 9. MODERATE confidence; bounded combat ledger only, no matched games."
+  },
+  {
+   "id": "FIVE_NIBELHEIM_OVER_NOVA_FLAME",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_NibelheimAflame_over_NovaFlame_20261023.txt",
+   "raw_sha256": "963b67800d0f65918a8d14e637e7eb21f6fc9cb0297f58fcf370c48ec4948a26",
+   "logical_hash": "lh1:545d3d889e3a946d4f07a31905bf704c82e4dc13c4e0505237a17f52c533de5f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT_LARGER_PACKAGE (five-swap, staged for transparency only). The research four plus +Nibelheim Aflame/-Nova Flame. Rejected and NOT counted: Nova Flame is the owner's explicit addition (replacing Waltz of Rage because it 'can start at four mana, permanently grows Garza first'); Nibelheim's damage-sourced sweep does not put X permanent counters on Garza, so the evidence does not clearly beat the owner keep."
+  },
+  {
+   "id": "FIVE_NIBELHEIM_OVER_TOXIC_DELUGE",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_NibelheimAflame_over_ToxicDeluge_20261023.txt",
+   "raw_sha256": "d3fd48e7a12d52b804fd12702328c115006a14f993aa4ca50c6d963db9a951d8",
+   "logical_hash": "lh1:84fba5065d3dfdc9cd8b26e168b22ba194691ad9c8290e28bb75b6dc31d55dd7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT_LARGER_PACKAGE (five-swap, staged). +Nibelheim Aflame over Toxic Deluge. Rejected: Toxic Deluge is part of the owner-kept premium interaction shell, answers indestructible/protected boards Nibelheim cannot, and Nibelheim would make the deck's third Garza-sourced sweeper alongside Chandra's Ignition and Nova Flame."
+  },
+  {
+   "id": "FIVE_FIRE_WHIP_OVER_PONGIFY",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_FireWhip_over_Pongify_20261023.txt",
+   "raw_sha256": "63b063724489ee7053a51c682f5f7efaae77300ec154f62fd7e1542fa4ec7fc3",
+   "logical_hash": "lh1:67b533b61804e8cecc3c5b63eaa6d9585fca76942da6ae4cd4056350abed9bc7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT_LARGER_PACKAGE (five-swap, staged). +Fire Whip over Pongify. Rejected: the owner removed the pinger class (Viridian Longbow / Gorgon's Head), and Fire Whip's 1-damage ping only grows Garza against X/1s."
+  },
+  {
+   "id": "FIVE_HAMMER_OF_NAZAHN_OVER_TALISMAN_OF_INDULGENCE",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_HammerOfNazahn_over_TalismanOfIndulgence_20261023.txt",
+   "raw_sha256": "73ee35d29f11ddd4ebf985f7d5fba05698eed3225eeeb568dfd925583c031631",
+   "logical_hash": "lh1:17c20f19680aa14e87aa54d173b0e1ecbfc684abee0082353c142446cd117391",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT_LARGER_PACKAGE (five-swap, staged). +Hammer of Nazahn over Talisman of Indulgence. Rejected: Hammer is a 4-mana non-Garza threat-protection piece that free-attaches later Equipment, but cutting a 2-mana rock drops turn-6 Garza castability 0.4451 -> 0.4179 (MDFC as land); not clearly better."
+  },
+  {
+   "id": "FOUR_FIRESHRIEKER_INSTEAD_OF_LIZARD_BLADES",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_Fireshrieker_instead_of_LizardBlades_20261023.txt",
+   "raw_sha256": "2444f810ab6dbc5eeb82dfef221c5b284eee8e6bdf160e9bef8344deb6b2bf62",
+   "logical_hash": "lh1:de0b0aaf481ee3d0379112647065c9675cb071f00a0748508cd0bef3b2d3bd20",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged). Same package with Fireshrieker (Pass C's named double-strike piece) instead of Lizard Blades. Identical combat rows in the bounded test; Fireshrieker costs 5 setup mana vs 4 and is not a creature, so it dodges creature removal but cannot carry a Sword itself."
+  },
+  {
+   "id": "FOUR_LIZARD_BLADES_CUT_INQUISITORS_FLAIL_KEEP_FELLWAR",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_LizardBlades_cut_InquisitorsFlail_keep_FellwarStone_20261023.txt",
+   "raw_sha256": "ae88c27a9e8f549f09af0cd7bb10357672407cf68df47b115961a4ed328e6912",
+   "logical_hash": "lh1:3b1d88c9aaa975a4999ea9d6f8a5e5172f2acd35ee3d4750dfbcec9c000dbd79",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged). Cuts Inquisitor's Flail instead of Fellwar Stone for Lizard Blades. Keeps baseline castability (0.4724 by turn 6 with MDFCs as lands) but loses the Flail+Lizard Blades 4x hit (24 commander damage at power 6 in the bounded test)."
+  },
+  {
+   "id": "PASS_C_BASELINE_PLUS_FIRESHRIEKER_MINUS_INQUISITORS_FLAIL",
+   "path": "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_PassC_baseline_plus_Fireshrieker_minus_InquisitorsFlail_20261023.txt",
+   "raw_sha256": "b2cd7f028a5478e0ca5490b41c0d2b989c15ff1c8def7adc15125c111b25ad3c",
+   "logical_hash": "lh1:a18b9aaed912525f31d5443a85d2f18953034d35404331e7fa72e88c4ec433ec",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; the exact Pass C requested test on the baseline). Bounded result: Fireshrieker and Inquisitor's Flail give equal one-hit commander damage (10 at power 5), but double strike gives 2 Garza draws, 6 Curiosity draws with Kediss, Spike to 6 life (vs 15), and survives a non-first-strike 5/5 blocker, while Flail dies to it. Not primary: Lizard Blades is the cheaper double-strike piece and keeping Flail beside it gives the 4x hit."
+  }
+ ]
+}

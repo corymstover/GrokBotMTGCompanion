@@ -1,0 +1,820 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Garza_Zol__Plague_Queen",
+ "canonical_baseline_sha256": "32c0e8049a9c8a5d238048b4f774f0457908d724f23d4597b7da93a6cba0c16f",
+ "canonical_baseline_logical_hash": "lh1:f5190339a7e9ccc3e5331a401e13f79d1d8dbabed8c81bcb917f6f24d04c3b74",
+ "commander_identity": {
+  "mechanical_plan": "Garza Zol, Plague Queen ({4}{U}{B}{R} 5/5 legendary Vampire Noble, flying and haste; Coldsnap csp, released 2006-07-21; commander-legal, not a Game Changer, no project exception). Whenever a creature Garza dealt damage to this turn dies, she gets a +1/+1 counter; whenever she deals combat damage to a player we may draw. Plan: a Bracket 4 equipment Voltron (21 Equipment in the candidate) using deathtouch (Basilisk Collar, Quietus Spike), Garza-sourced removal and sweepers (Fall of the Hammer, Soul's Fire, Chandra's Ignition, Nova Flame, now Giantfall) to grow her, Kediss, Emberclaw Familiar and Curiosity to spread and draw, commander damage, Grafted Exoskeleton infect, and Sword of Feast and Famine or The Reaver Cleaver with Aggravated Assault for extra combats.",
+  "protected_core": [
+   "Garza Zol, Plague Queen",
+   "Basilisk Collar",
+   "Quietus Spike",
+   "Kediss, Emberclaw Familiar",
+   "Curiosity",
+   "Grafted Exoskeleton",
+   "Sword of Feast and Famine",
+   "Sword of Fire and Ice",
+   "Aggravated Assault",
+   "The Reaver Cleaver",
+   "Blade of the Bloodchief",
+   "Brotherhood Regalia",
+   "Chandra's Ignition",
+   "Nova Flame",
+   "Mask of Memory",
+   "Shadowspear",
+   "Swiftfoot Boots",
+   "Trailblazer's Boots",
+   "Rogue's Passage",
+   "Demonic Tutor",
+   "Vampiric Tutor",
+   "Fierce Guardianship",
+   "Cyclonic Rift",
+   "Toxic Deluge"
+  ],
+  "natural_ceiling": "Power Bracket 4 (Optimized), unchanged. Game Changers: 9 in baseline and candidate (Ancient Tomb, Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Grim Monolith, Jeska's Will, Mana Vault, Rhystic Study, Vampiric Tutor). Commander Spellbook find-my-combos: 3 -> 3 complete combos (3750-5039 The Reaver Cleaver + Aggravated Assault; 900-3750 Sword of Feast and Famine + Aggravated Assault, both need Garza to connect; 2822-3681 Kediss + Grafted Exoskeleton poisons each opponent); almost-included 86 -> 86. No compact two-card instant win; owner rejected compact combo.",
+  "anti_homogenization": "Commander-first to Garza's Oracle: Lizard Blades doubles her combat-draw and kill-counter triggers; Giantfall is Garza-sourced removal that grows her; the two MDFCs keep spell slots for Garza pieces. Distinctness (nonbasic names shared with the most similar approved Grixis decks, baseline -> candidate, canonical Archidekt exports): Nicol Bolas 61 -> 58; Lord of Tresserhorn 50 -> 47; Obeka, Brute Chronologist 48 -> 46; Nicol Bolas, the Ravager 46 -> 44; Edward Kenway 46 -> 44. None of the four adds appears in those five decks; the deck stays an equipment Voltron built on Garza's own damage-death counter and combat-draw text. Owner-removed or rejected cards and classes (Lightning Greaves, Embercleave, Bident of Thassa, Ophidian Eye, Frantic Search, Waltz of Rage, Go for the Throat, Soul Shatter, the Vampire tribal cards, Sword of Truth and Justice, the pinger class Viridian Longbow / Gorgon's Head, Unscythe, Vorpal Sword, extra fast mana and compact combo) are not re-added; Fire Whip appears only in a rejected staged list. No owner keep or owner addition is cut by the research four."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 library cards were reviewed by quantity (99 rows, all 1x).\nRoles:\n- 38 lands in the baseline: Ancient Tomb, Bojuka Bog, Cavern of Souls, City of Brass, Command Beacon, Command Tower, Exotic Orchard, Luxury Suite, Mana Confluence, Morphic Pool, Otawara, Soaring City, Plaza of Heroes, Rogue's Passage, Shizo, Death's Storehouse, Takenuma, Abandoned Mire, Training Center, Xander's Lounge, 4 original duals, 3 shocks, Shivan Reef, Sulfurous Springs, Underground River, 9 fetches and 1 each of Island, Mountain, Swamp; the candidate cuts Exotic Orchard and Takenuma and adds the Soporific Springs and Fell Mire MDFCs.\n- Mana: Sol Ring, Mana Vault, Grim Monolith, Arcane Signet, Fellwar Stone (cut), Dimir/Izzet/Rakdos Signets, three Talismans.\n- Equipment (20 -> 21): Basilisk Collar, Blackblade Reforged, Blade of the Bloodchief, Brotherhood Regalia, Commander's Plate, Grafted Exoskeleton, Inquisitor's Flail, Mask of Memory, Mithril Coat, Quietus Spike, Robe of the Archmagi, Scythe of the Wretched, Shadowspear, Swiftfoot Boots, Sword of Feast and Famine, Sword of Fire and Ice, Tarrian's Soulcleaver, The Reaver Cleaver, Thornbite Staff, Trailblazer's Boots; Lizard Blades is new.\n- Garza-sourced damage: Fall of the Hammer, Soul's Fire, Chandra's Ignition, Nova Flame; Giantfall is new.\n- Payoffs and draw: Kediss, Curiosity, Rhystic Study, Jeska, Thrice Reborn, Jeska's Will, The Ozolith, Aggravated Assault, Hatred, Psychotic Fury.\n- Interaction and protection: Counterspell, Mana Drain, Fierce Guardianship, Deflecting Swat, An Offer You Can't Refuse, Cyclonic Rift, Chaos Warp, Terminate, Pongify, Rapid Hybridization (cut), Feed the Swarm, Deadly Rollick, Sheoldred's Edict, Toxic Deluge, Slip Out the Back; Sink into Stupor and Fell the Profane are new.\n- Tutors: Demonic Tutor, Vampiric Tutor.",
+  "mana_base_and_curve": "Lands 38 -> 36 plus two MDFC lands (Soporific Springs U, Fell Mire B). U/B/R land sources (fetches and rainbow lands counted for each colour) 25/27/24 -> 25/26/23 with MDFC back faces counted. Exact hypergeometric Garza castability (lands, Ancient Tomb as 2, Sol Ring, Mana Vault/Grim Monolith, Signets/Talismans/Arcane Signet/Fellwar; colours assumed met): by turn 4/5/6 on the play 0.1876/0.3093/0.4724 -> 0.1769/0.2882/0.4451 with MDFCs played as lands (0.1649/0.2669/0.4073 if never). Average nonland MV 2.213 -> 2.270; creatures besides Garza 1 -> 2 (Kediss; Lizard Blades while unattached).",
+  "interaction_resilience": "Stack: Counterspell, Mana Drain, Fierce Guardianship, Deflecting Swat, Cavern of Souls; Sink into Stupor is new (also hits uncounterable spells). Removal: Terminate, Pongify, Feed the Swarm, Deadly Rollick, Sheoldred's Edict, Chaos Warp, An Offer You Can't Refuse, Fall of the Hammer, Soul's Fire, Cyclonic Rift, Toxic Deluge, Chandra's Ignition, Nova Flame; Giantfall and Fell the Profane are new; Rapid Hybridization is cut. Protection: Swiftfoot Boots, Mithril Coat, Commander's Plate, Shadowspear, Slip Out the Back, Plaza of Heroes. Weak points: a 7-mana commander with commander tax; edicts when Garza is the only creature; equipment hate; removal between strike steps.",
+  "weakest_slots": [
+   {
+    "card": "Fellwar Stone",
+    "weakness": "A 2-mana rock whose colours depend on opponents' lands.",
+    "alternative_named": "Lizard Blades",
+    "reasoning": "Cut: double strike doubles every Garza hit trigger; castability cost disclosed; keep-Fellwar alternative staged."
+   },
+   {
+    "card": "Rapid Hybridization",
+    "weakness": "Generic removal that leaves the opponent a 3/3.",
+    "alternative_named": "Giantfall",
+    "reasoning": "Cut: Garza-sourced removal (owner direction) plus an artifact mode."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on opponents' lands; EDHREC synergy -0.15.",
+    "alternative_named": "Sink into Stupor // Soporific Springs",
+    "reasoning": "Cut: a land that is also an answer."
+   },
+   {
+    "card": "Takenuma, Abandoned Mire",
+    "weakness": "Channel has few targets (Garza returns to the command zone).",
+    "alternative_named": "Fell the Profane // Fell Mire",
+    "reasoning": "Cut: a land that is also removal; flagged as generic removal."
+   },
+   {
+    "card": "Inquisitor's Flail",
+    "weakness": "Doubles damage dealt to Garza too; one draw per hit.",
+    "alternative_named": "Fireshrieker",
+    "reasoning": "Kept: 4x hit with Lizard Blades; Pass C test list staged."
+   },
+   {
+    "card": "Nova Flame",
+    "weakness": "Sorcery that needs X mana for full value.",
+    "alternative_named": "Nibelheim Aflame",
+    "reasoning": "Kept: explicit owner addition, permanently grows Garza."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Kills our own Kediss and unattached Lizard Blades.",
+    "alternative_named": "Nibelheim Aflame",
+    "reasoning": "Kept: answers indestructible/protected boards; owner premium shell."
+   },
+   {
+    "card": "Pongify",
+    "weakness": "One-mana creature removal that leaves the opponent a 3/3 Ape token.",
+    "alternative_named": "Fire Whip",
+    "reasoning": "Kept: pinger class owner-removed."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Makes only B or R coloured mana and deals 1 damage to us for coloured mana.",
+    "alternative_named": "Hammer of Nazahn",
+    "reasoning": "Kept: rocks cast a 7-drop sooner."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal that costs life equal to the target's mana value.",
+    "alternative_named": "Withering Torment",
+    "reasoning": "Kept: Withering Torment is only an instant-speed version, not clearly better."
+   },
+   {
+    "card": "Terminate",
+    "weakness": "Hits only creatures; no artifact or planeswalker mode.",
+    "alternative_named": "Bedevil",
+    "reasoning": "Kept: two mana instead of Bedevil's three, same core job."
+   },
+   {
+    "card": "Psychotic Fury",
+    "weakness": "A one-shot double strike that only lasts one turn.",
+    "alternative_named": "Temur Battle Rage",
+    "reasoning": "Kept: it draws a card, while Temur Battle Rage does not."
+   },
+   {
+    "card": "Fall of the Hammer",
+    "weakness": "Needs a creature we control to be on the battlefield.",
+    "alternative_named": "Pain for All",
+    "reasoning": "Kept: an instant-speed Garza-sourced bite that grows her."
+   },
+   {
+    "card": "Slip Out the Back",
+    "weakness": "Phasing out Garza on an opponent's turn removes her as a blocker until our untap step.",
+    "alternative_named": "Shore Up",
+    "reasoning": "Kept: answers sweepers and edicts."
+   }
+  ],
+  "current_baseline_strength": "An approved Bracket 4 Garza list (2026-10-14). M6 Pass C (owner-equivalent substitute, NOT independent) was NEEDS TESTING on +Fireshrieker / -Inquisitor's Flail; this M7 pass ran it as a bounded finite combat ledger. EDHREC general sample is 128 decks, mostly Vampire tribal (a class the owner removed); cEDH page has no card data.",
+  "candidate_pool_scope": "EDHREC Garza Zol general (128), upgraded (9), optimized (6) and cEDH (no data) pages JSON; live Scryfall /cards/collection batch (218 legal U/B/R names kept; off-identity and the banned Jeweled Lotus excluded); OFF-RANKING searches for double strike, Garza-sourced bite/fight removal, MDFC interaction lands and equipment support; Commander Spellbook find-my-combos baseline vs candidate; the M6 Pass C disposition, deep review and GrokBot advisory; the owner's 2026-10-14 current-cycle decisions.",
+  "off_ranked_search_conclusion": "OFF-RANKING cards found: Lizard Blades and Fireshrieker (absent from every Garza page), Giantfall, Rabid Gnaw, The Last Agni Kai, Pain for All, Cranial Plating, Hammer of Nazahn. Lizard Blades and Giantfall were selected; Fireshrieker is a staged alternative; the rest were rejected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Garza Zol, Plague Queen approved source (read-only canonical main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, file refinement/decklists/Garza_Zol_Plague_Queen_Approved_2026-10-14.txt, blob e3e43c53, introduced by 3e2c89d998d17f709d54f40a4d52acfd6840ee11 on 2026-10-14; registry source_commit 1836b97 same bytes; vendored in data/grixis/m7/baseline_sources/Garza_Zol__Plague_Queen_approved_source_2026-10-14.txt)",
+  "EDHREC Garza Zol commander pages JSON (general, upgraded, optimized, cEDH) retrieved 2026-10-23T11:27:08-0500, discovery only: data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 America/Chicago: data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+  "Commander Spellbook find-my-combos baseline vs candidate 2026-10-23: data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_CommanderSpellbook_20261023.json",
+  "OFF-RANKING search for double strike, Garza-sourced bite and fight removal, MDFC interaction lands and equipment support (Lizard Blades, Fireshrieker, Giantfall, Rabid Gnaw, The Last Agni Kai, Pain for All, Cranial Plating, Hammer of Nazahn)",
+  "M6 Pass C disposition (owner-equivalent substitute, NOT independent): data/grixis/m6/owner_pass_c_substitute/Garza_Zol__Plague_Queen/final_disposition.md",
+  "GrokBot advisory first pass and M6 deep review: data/grixis/m6/grokbot_pass_c_advisory/Garza_Zol__Plague_Queen.md; data/grixis/m6/deep_reviews/Garza_Zol__Plague_Queen.md",
+  "Owner 2026-10-14 current-cycle decisions (additions, removals and keep reasons): canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+  "Comprehensive Rules (frozen cache, 2026-09-25): 510.4, 702.2, 702.4, 702.12, 702.19, 702.90, 704.5g, 712; frozen rulings for Kediss, Inquisitor's Flail, Lizard Blades, Giantfall, Sink into Stupor, Fell the Profane, Nibelheim Aflame, Quietus Spike and Curiosity: data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+  "Bounded finite measured tests for the Pass C request (double strike vs Inquisitor's Flail combat ledger, removal between strike steps, deathtouch and first-strike blockers, Kediss/Curiosity/Quietus Spike/infect, exact Garza castability for every staged list): data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json and tests/test_m6_garza_zol_plague_queen_m7_mechanics.py"
+ ],
+ "material_candidates": [
+  {
+   "card": "Lizard Blades",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch; OFF-RANKING (absent from every Garza EDHREC page)",
+   "role": "{1}{R} 1/1 Artifact Creature — Equipment Lizard with double strike; equipped creature has double strike; reconfigure {2} (sorcery speed; not a creature while attached).",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses Fellwar Stone, a 2-mana rock (EDHREC 47/128, synergy 0.01). Plain owner RETAIN, not an explicit keep. Cost: Garza castable by turn 6 on the play 0.4724 -> 0.4451 in the candidate (MDFCs as lands), part of which is this rock.",
+   "commander_synergy": "The exact role Pass C asked to test (permanent double strike vs Inquisitor's Flail). Bounded test: double strike doubles every per-hit Garza trigger: 2 Garza draws, 6 Curiosity draws with Kediss at a 3-opponent table, Quietus Spike from 40 to 6 (vs 15 with Flail), Robe of the Archmagi and both Swords trigger twice. With the first-strike step Garza kills a 5/5 vanilla, a 3/3 deathtouch or a 4/4 double striker and survives, gaining a counter between steps; bare or Flail Garza dies to those blocks. Kept beside Flail it makes 24 commander damage at power 6 in one hit (lethal).",
+   "adversarial_downside": "A 1/1 double-strike creature while unattached dies to sweepers including our own Toxic Deluge; reconfigure is not an equip ability; removal between the two strike steps loses the second hit. Psychotic Fury already gives one-shot double strike.",
+   "judgment": "SELECT_ADD",
+   "reason": "Pass C's own NEEDS TESTING request was run as a finite ledger; double strike beat Flail on draws, Spike, survival and blocker kills, and Lizard Blades is the cheaper (2+2 vs 3+2) double-strike piece. The rock cut costs castability; the keep-Fellwar/cut-Flail and Fireshrieker alternatives are staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Garza_Zol__Plague_Queen/final_disposition.md",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_LizardBlades_cut_InquisitorsFlail_keep_FellwarStone_20261023.txt",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_Fireshrieker_instead_of_LizardBlades_20261023.txt"
+   ]
+  },
+  {
+   "card": "Giantfall",
+   "source": "EDHREC Garza Zol general 7/59 (synergy 0.117), upgraded 1/4 (synergy 0.249), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{1}{R} instant, modal: target creature we control deals damage equal to its power to target creature an opponent controls; or destroy target artifact.",
+   "named_cuts": [
+    "Rapid Hybridization"
+   ],
+   "incumbent_opportunity_cost": "Loses Rapid Hybridization ({U} destroy a creature; its controller gets a 3/3 Frog Lizard). Plain owner RETAIN (EDHREC 7/128, synergy 0.017).",
+   "commander_synergy": "Garza-sourced removal: the target is dealt damage by Garza, so it gives her a +1/+1 counter when it dies; with Basilisk Collar or Quietus Spike (deathtouch) it kills any creature. The owner trimmed Go for the Throat and Soul Shatter for exactly this kind of 'commander-sourced interaction that grows Garza' (2026-10-14). The artifact mode answers opposing equipment, rocks and combo artifacts, which Rapid Hybridization cannot.",
+   "adversarial_downside": "Needs a creature we control (Garza, Kediss or Lizard Blades unattached); if either target becomes illegal no damage is dealt (Giantfall ruling 2025-11-17). Rapid Hybridization costs one mana and works with no creature.",
+   "judgment": "SELECT_ADD",
+   "reason": "Matches the owner's stated Garza-first interaction direction, leaves no 3/3 for the opponent, adds an artifact answer.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Sink into Stupor // Soporific Springs",
+   "source": "EDHREC Garza Zol general 14/128 (synergy 0.01), upgraded 2/9 (synergy 0.123), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "MDFC: {1}{U}{U} instant returning a spell or nonland permanent an opponent controls to its owner's hand; or a U land that enters untapped if we pay 3 life.",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Loses Exotic Orchard (EDHREC 54/128, synergy -0.15, the lowest of the cuts): its colours depend on opponents' lands. Plain owner RETAIN.",
+   "commander_synergy": "A land slot that is also interaction: bounce a blocker before Garza attacks, an opposing equipment-hate permanent, or a removal spell aimed at Garza (a returned spell isn't countered, so it works on uncounterable spells; ruling 2024-06-07).",
+   "adversarial_downside": "3 life for an untapped land; U only; if held as a spell the land count drops 38 -> 37 (with Fell Mire also held, 36).",
+   "judgment": "SELECT_ADD",
+   "reason": "Converts a conditional rainbow land into a land that is also an answer.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json"
+   ]
+  },
+  {
+   "card": "Fell the Profane // Fell Mire",
+   "source": "EDHREC Garza Zol general 17/128 (synergy 0.052), upgraded 4/9 (synergy 0.363), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "MDFC: {2}{B}{B} instant destroying a creature or planeswalker; or a B land that enters untapped if we pay 3 life.",
+   "named_cuts": [
+    "Takenuma, Abandoned Mire"
+   ],
+   "incumbent_opportunity_cost": "Loses Takenuma, Abandoned Mire (EDHREC 8/128, synergy 0.011): an untapped B land whose channel returns a creature or planeswalker card; the deck has few such cards besides Garza (Kediss, Jeska, Thrice Reborn, and Lizard Blades in the candidate). Plain owner RETAIN.",
+   "commander_synergy": "A land slot that also kills a creature or planeswalker at instant speed, including indestructible-free blockers and planeswalkers that Garza's damage spells cannot always reach.",
+   "adversarial_downside": "FLAG: this is generic removal while the owner trimmed generic removal (Go for the Throat, Soul Shatter); justified only because it occupies a land slot, not a spell slot. Four mana as a spell; 3 life for an untapped land.",
+   "judgment": "SELECT_ADD",
+   "reason": "Adds removal without cutting a spell; the owner's trim reason (spell slots for Garza-sourced interaction) is not touched.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Fireshrieker",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch; OFF-RANKING; Pass C's named challenger",
+   "role": "{3} Equipment: equipped creature has double strike; equip {2}.",
+   "named_cuts": [
+    "Inquisitor's Flail",
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Pass C's exact test was +Fireshrieker / -Inquisitor's Flail on the baseline (staged). In the candidate it would replace Lizard Blades over Fellwar Stone (staged four-swap).",
+   "commander_synergy": "Same double-strike combat rows as Lizard Blades in the bounded test.",
+   "adversarial_downside": "5 setup mana (3+2) vs Lizard Blades' 4 (2+2); not a creature, so it dodges creature removal but cannot attack on its own.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Lizard Blades does the same job for one less mana; both Fireshrieker lists are staged.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json",
+    "data/grixis/m6/owner_pass_c_substitute/Garza_Zol__Plague_Queen/final_disposition.md",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_PassC_baseline_plus_Fireshrieker_minus_InquisitorsFlail_20261023.txt",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_four_Fireshrieker_instead_of_LizardBlades_20261023.txt"
+   ]
+  },
+  {
+   "card": "Nibelheim Aflame",
+   "source": "EDHREC Garza Zol general 21/94 (synergy 0.216), upgraded 4/5 (synergy 0.792), optimized 2/4 (synergy 0.492); cEDH page has no card data; live Scryfall batch",
+   "role": "{2}{R}{R} sorcery: target creature we control deals damage equal to its power to each other creature; flashback {5}{R}{R} discards our hand and draws four.",
+   "named_cuts": [
+    "Nova Flame",
+    "Toxic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would cut Nova Flame, an explicit OWNER ADDITION ('replaced Waltz of Rage... can start at four mana, permanently grows Garza first'), or Toxic Deluge (owner-kept premium interaction).",
+   "commander_synergy": "Garza-sourced one-sided sweep: Garza survives, gains a counter per creature that dies; flashback refills four cards. EDHREC 21/94, synergy 0.216.",
+   "adversarial_downside": "Puts no X counters on Garza (Nova Flame does, permanently); a third Garza-sourced sweeper beside Chandra's Ignition and Nova Flame; target removal blanks it (no damage if the target is illegal, ruling 2025-06-06).",
+   "judgment": "REJECT",
+   "reason": "Evidence does not clearly beat the owner's Nova Flame reason, and Toxic Deluge answers boards Garza's damage cannot. Both five-swap packages are staged and rejected; not counted as a swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_NibelheimAflame_over_NovaFlame_20261023.txt",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_NibelheimAflame_over_ToxicDeluge_20261023.txt"
+   ]
+  },
+  {
+   "card": "Fire Whip",
+   "source": "EDHREC Garza Zol general 7/128 (synergy 0.054), upgraded 1/9 (synergy 0.111), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{1}{R} Aura: enchanted creature we control has '{T}: 1 damage to any target'; sacrifice for 1 damage.",
+   "named_cuts": [
+    "Pongify"
+   ],
+   "incumbent_opportunity_cost": "Would cut Pongify ({U} creature removal).",
+   "commander_synergy": "Garza-sourced pings grow Garza when an X/1 dies; deathtouch makes each ping a kill.",
+   "adversarial_downside": "The owner removed the pinger class (Viridian Longbow, Gorgon's Head) on 2026-10-14; Thornbite Staff already fills the role; tapping Garza stops her attacking.",
+   "judgment": "REJECT",
+   "reason": "OWNER-REMOVED class in the 2026-10-14 current-cycle decisions; not re-added; staged only as a rejected five-swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_FireWhip_over_Pongify_20261023.txt"
+   ]
+  },
+  {
+   "card": "Hammer of Nazahn",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{4} legendary Equipment: +2/+0 and indestructible; whenever it or another Equipment enters, attach that Equipment for free; equip {4}.",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Would cut Talisman of Indulgence (a 2-mana B/R rock).",
+   "commander_synergy": "Free attaches for 21 Equipment; indestructible protects Garza from destroy effects and blocks.",
+   "adversarial_downside": "Four mana that does nothing until Garza is out; garza castability by turn 6 0.4451 -> 0.4179 (MDFC as lands); Mithril Coat already gives indestructible.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than the rock in a 7-mana-commander deck; staged and rejected.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_five_HammerOfNazahn_over_TalismanOfIndulgence_20261023.txt"
+   ]
+  },
+  {
+   "card": "Cranial Plating",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{2} Equipment: +1/+0 per artifact we control; {B}{B}: attach; equip {1}.",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Would cut a rock or interaction slot.",
+   "commander_synergy": "32 artifacts in the candidate: about +8 to +12 power mid-game, instant-speed {B}{B} attach.",
+   "adversarial_downside": "No Garza usage data; it adds damage, not Garza triggers; a rock cut lowers castability again.",
+   "judgment": "REJECT",
+   "reason": "Unproven in the deck and needs a rock or interaction cut.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sword of War and Peace",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{3} Equipment: +2/+2, protection from red and white; on combat damage to a player deals damage equal to cards in their hand.",
+   "named_cuts": [
+    "Sword of Fire and Ice"
+   ],
+   "incumbent_opportunity_cost": "Would cut Sword of Fire and Ice (owner keep: both Swords).",
+   "commander_synergy": "Extra damage per hit equal to the opponent's hand size.",
+   "adversarial_downside": "Owner explicitly keeps both current Swords; protection from red/white is narrower than Fire and Ice's blue/red.",
+   "judgment": "REJECT",
+   "reason": "Owner keep stands; no clear evidence.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Sword of Sinew and Steel",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{3} Equipment: +2/+2, protection from black and red; on combat damage destroys up to one planeswalker and up to one artifact.",
+   "named_cuts": [
+    "Sword of Feast and Famine"
+   ],
+   "incumbent_opportunity_cost": "Would cut Sword of Feast and Famine (owner keep; Spellbook combo 900-3750 with Aggravated Assault).",
+   "commander_synergy": "Repeatable artifact and planeswalker removal on each Garza hit.",
+   "adversarial_downside": "Loses the Aggravated Assault combo; owner keep.",
+   "judgment": "REJECT",
+   "reason": "Cuts a combo piece the owner kept.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_CommanderSpellbook_20261023.json",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Withering Torment",
+   "source": "EDHREC Garza Zol general 19/128 (synergy 0.016), upgraded 3/9 (synergy 0.2), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{2}{B} instant: destroy target creature or enchantment; lose 2 life.",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Would cut Feed the Swarm, a plain owner RETAIN.",
+   "commander_synergy": "Instant-speed version of Feed the Swarm.",
+   "adversarial_downside": "Generic removal; owner trimmed generic removal; marginal over Feed the Swarm.",
+   "judgment": "REJECT",
+   "reason": "No better than the incumbent; not a genuine swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Bedevil",
+   "source": "EDHREC Garza Zol general 21/128 (synergy 0.008), upgraded 3/9 (synergy 0.178), optimized 2/6 (synergy 0.178); cEDH page has no card data; live Scryfall batch",
+   "role": "{B}{B}{R} instant: destroy target artifact, creature or planeswalker.",
+   "named_cuts": [
+    "Terminate"
+   ],
+   "incumbent_opportunity_cost": "Would cut Terminate (owner-kept interaction shell).",
+   "commander_synergy": "Broader targets: artifacts and planeswalkers as well.",
+   "adversarial_downside": "Three mana vs two, and generic removal the owner trimmed.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than Terminate.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Temur Battle Rage",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{1}{R} instant: double strike; trample if we control power 4 or greater.",
+   "named_cuts": [
+    "Psychotic Fury"
+   ],
+   "incumbent_opportunity_cost": "Would cut Psychotic Fury, a cantrip double-strike instant.",
+   "commander_synergy": "Double strike plus trample on a 5/5 Garza through chump blockers.",
+   "adversarial_downside": "Psychotic Fury draws a card; Shadowspear already gives trample; one-shot like the incumbent.",
+   "judgment": "REJECT",
+   "reason": "No better than the incumbent it would replace; not a genuine swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mask of Riddles",
+   "source": "EDHREC Garza Zol general 21/128 (synergy 0.158), upgraded 2/9 (synergy 0.216), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{U}{B} Equipment: fear; draw on combat damage; equip {2}.",
+   "named_cuts": [
+    "Mask of Memory"
+   ],
+   "incumbent_opportunity_cost": "Would cut Mask of Memory (owner keep).",
+   "commander_synergy": "Fear evasion and a draw on each combat-damage hit.",
+   "adversarial_downside": "Garza already flies; owner keeps Mask of Memory.",
+   "judgment": "REJECT",
+   "reason": "The owner explicitly keeps Mask of Memory; evidence does not beat it.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Psionic Gift",
+   "source": "EDHREC Garza Zol general absent, upgraded 1/9 (synergy 0.111), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{1}{U} Aura: enchanted creature has '{T}: 1 damage to any target'.",
+   "named_cuts": [
+    "Pongify"
+   ],
+   "incumbent_opportunity_cost": "Would cut Pongify, one-mana creature removal.",
+   "commander_synergy": "Lets Garza ping creatures to trigger her counter text.",
+   "adversarial_downside": "Owner-removed pinger class; tapping Garza stops attacks.",
+   "judgment": "REJECT",
+   "reason": "OWNER-REMOVED class in the 2026-10-14 current-cycle decisions; not re-added.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+    "canonical refinement/decisions/Garza_Zol_Plague_Queen_Current_Cycle_Decisions_2026-10-14.md (read-only)"
+   ]
+  },
+  {
+   "card": "Rabid Gnaw",
+   "source": "EDHREC Garza Zol general 13/128 (synergy 0.1), upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{1}{R} instant: +1/+0, then our creature deals damage equal to its power to a creature we don't control.",
+   "named_cuts": [
+    "Rapid Hybridization"
+   ],
+   "incumbent_opportunity_cost": "Alternative to Giantfall for the same cut.",
+   "commander_synergy": "Same Garza-sourced bite plus +1 power.",
+   "adversarial_downside": "No artifact mode; Giantfall's artifact mode covers more threats.",
+   "judgment": "REJECT",
+   "reason": "Giantfall preferred for flexibility.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "The Last Agni Kai",
+   "source": "EDHREC Garza Zol general 7/74 (synergy 0.033), upgraded 1/5 (synergy 0.139), optimized 1/4 (synergy 0.189); cEDH page has no card data; live Scryfall batch",
+   "role": "{1}{R} instant: our creature fights an opponent's creature; excess damage adds red mana.",
+   "named_cuts": [
+    "Rapid Hybridization"
+   ],
+   "incumbent_opportunity_cost": "An alternative to Giantfall for the same Rapid Hybridization slot.",
+   "commander_synergy": "A Garza-sourced fight that can trigger her counter text.",
+   "adversarial_downside": "Fight means Garza takes damage back (deathtouch blockers kill her); Giantfall is one-sided.",
+   "judgment": "REJECT",
+   "reason": "One-sided bite is safer than a fight.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Pain for All",
+   "source": "EDHREC Garza Zol general 7/88 (synergy 0.075), upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{2}{R} Aura: on enter our creature deals damage equal to its power to any other target; when it is dealt damage it deals that much to each opponent.",
+   "named_cuts": [
+    "Fall of the Hammer"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fall of the Hammer, an instant Garza-sourced bite.",
+   "commander_synergy": "Garza-sourced damage on enter.",
+   "adversarial_downside": "Aura risk (two-for-one), sorcery speed; Fall of the Hammer is an instant.",
+   "judgment": "REJECT",
+   "reason": "No better than the incumbent it would replace; not a genuine swap.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mox Amber",
+   "source": "EDHREC Garza Zol general absent, upgraded 1/9 (synergy 0.054), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{0} legendary artifact: mana of a colour among our legendary creatures and planeswalkers.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone, a 2-mana mana rock.",
+   "commander_synergy": "A free artifact that taps for colour once Garza is out.",
+   "adversarial_downside": "Dead before Garza (the only legendary creature besides Kediss and Jeska); does not help cast a 7-drop.",
+   "judgment": "REJECT",
+   "reason": "Worse than a rock for a 7-mana commander.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Thran Dynamo",
+   "source": "EDHREC Garza Zol general 7/128 (synergy 0.011), upgraded 1/9 (synergy 0.067), optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{4} artifact that taps for three colourless mana.",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Would cut a 2-mana rock such as Talisman of Indulgence.",
+   "commander_synergy": "Turn 4 Dynamo into turn 5 Garza.",
+   "adversarial_downside": "Four mana; colourless; castability model treats it as worse early.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than a 2-mana rock.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Relic of Sauron",
+   "source": "EDHREC Garza Zol general 23/128 (synergy -0.011), upgraded 2/9 (synergy 0.031), optimized 3/6 (synergy 0.309); cEDH page has no card data; live Scryfall batch",
+   "role": "{4} artifact: add two mana in U/B/R combinations; {3},{T}: draw two, discard one.",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Would cut a 2-mana rock such as Talisman of Indulgence.",
+   "commander_synergy": "Coloured two-mana ramp toward a 7-mana Garza.",
+   "adversarial_downside": "Four mana; slower than a Talisman.",
+   "judgment": "REJECT",
+   "reason": "Not clearly better than a 2-mana Talisman for a 7-drop.",
+   "confidence": "LOW_WITH_DISCLOSED_LIMITS",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Shore Up",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{U} instant: +1/+1, hexproof, untap.",
+   "named_cuts": [
+    "Slip Out the Back"
+   ],
+   "incumbent_opportunity_cost": "Would cut Slip Out the Back, a one-mana phasing protection spell.",
+   "commander_synergy": "Protects Garza and keeps equipment attached.",
+   "adversarial_downside": "Hexproof does not stop sweepers or edicts; Slip Out the Back phases out against both, and gives a counter.",
+   "judgment": "REJECT",
+   "reason": "No better than the incumbent it would replace; not a genuine swap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Jeweled Lotus",
+   "source": "EDHREC Garza Zol general absent, upgraded absent, optimized absent; cEDH page has no card data; live Scryfall batch",
+   "role": "{0} artifact: sacrifice for three mana of one colour for commander spells.",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Would cut Fellwar Stone, a 2-mana mana rock.",
+   "commander_synergy": "Would cast Garza turns earlier via commander-only mana.",
+   "adversarial_downside": "BANNED in Commander (live Scryfall).",
+   "judgment": "EXCLUDE_INVALID",
+   "reason": "Banned in Commander per live Scryfall legality.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Lizard Blades",
+   "Giantfall",
+   "Sink into Stupor // Soporific Springs",
+   "Fell the Profane // Fell Mire"
+  ],
+  "cuts": [
+   "Fellwar Stone",
+   "Rapid Hybridization",
+   "Exotic Orchard",
+   "Takenuma, Abandoned Mire"
+  ],
+  "coherent_package_tradeoff": "Four one-for-one swaps: Lizard Blades for Fellwar Stone, Giantfall for Rapid Hybridization, Sink into Stupor // Soporific Springs for Exotic Orchard and Fell the Profane // Fell Mire for Takenuma, Abandoned Mire. Losses: one 2-mana rock (Garza castable by turn 6 on the play 0.4724 -> 0.4451 with MDFCs as lands), one-mana creature removal that works without a creature, Exotic Orchard's rainbow mana and Takenuma's channel recursion; B/R land sources 27/24 -> 26/23; two lands now cost 3 life to enter untapped. No owner keep or owner addition is cut."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Fellwar Stone",
+    "weakness": "A 2-mana rock whose colours depend on opponents' lands.",
+    "alternative_named": "Lizard Blades",
+    "reasoning": "Cut: double strike doubles every Garza hit trigger; castability cost disclosed; keep-Fellwar alternative staged."
+   },
+   {
+    "card": "Rapid Hybridization",
+    "weakness": "Generic removal that leaves the opponent a 3/3.",
+    "alternative_named": "Giantfall",
+    "reasoning": "Cut: Garza-sourced removal (owner direction) plus an artifact mode."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "Colours depend on opponents' lands; EDHREC synergy -0.15.",
+    "alternative_named": "Sink into Stupor // Soporific Springs",
+    "reasoning": "Cut: a land that is also an answer."
+   },
+   {
+    "card": "Takenuma, Abandoned Mire",
+    "weakness": "Channel has few targets (Garza returns to the command zone).",
+    "alternative_named": "Fell the Profane // Fell Mire",
+    "reasoning": "Cut: a land that is also removal; flagged as generic removal."
+   },
+   {
+    "card": "Inquisitor's Flail",
+    "weakness": "Doubles damage dealt to Garza too; one draw per hit.",
+    "alternative_named": "Fireshrieker",
+    "reasoning": "Kept: 4x hit with Lizard Blades; Pass C test list staged."
+   },
+   {
+    "card": "Nova Flame",
+    "weakness": "Sorcery that needs X mana for full value.",
+    "alternative_named": "Nibelheim Aflame",
+    "reasoning": "Kept: explicit owner addition, permanently grows Garza."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Kills our own Kediss and unattached Lizard Blades.",
+    "alternative_named": "Nibelheim Aflame",
+    "reasoning": "Kept: answers indestructible/protected boards; owner premium shell."
+   },
+   {
+    "card": "Pongify",
+    "weakness": "One-mana creature removal that leaves the opponent a 3/3 Ape token.",
+    "alternative_named": "Fire Whip",
+    "reasoning": "Kept: pinger class owner-removed."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Makes only B or R coloured mana and deals 1 damage to us for coloured mana.",
+    "alternative_named": "Hammer of Nazahn",
+    "reasoning": "Kept: rocks cast a 7-drop sooner."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal that costs life equal to the target's mana value.",
+    "alternative_named": "Withering Torment",
+    "reasoning": "Kept: Withering Torment is only an instant-speed version, not clearly better."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Lizard Blades and Giantfall (selected); Fireshrieker (staged alternative); Rabid Gnaw, The Last Agni Kai, Pain for All, Cranial Plating and Hammer of Nazahn (rejected).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Fireshrieker",
+     "Giantfall",
+     "Sink into Stupor // Soporific Springs",
+     "Fell the Profane // Fell Mire"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Rapid Hybridization",
+     "Exotic Orchard",
+     "Takenuma, Abandoned Mire"
+    ],
+    "result_and_rationale": "Staged four-swap with Fireshrieker instead of Lizard Blades: same combat rows, one more setup mana, not a creature."
+   },
+   {
+    "adds": [
+     "Lizard Blades",
+     "Giantfall",
+     "Sink into Stupor // Soporific Springs",
+     "Fell the Profane // Fell Mire"
+    ],
+    "cuts": [
+     "Inquisitor's Flail",
+     "Rapid Hybridization",
+     "Exotic Orchard",
+     "Takenuma, Abandoned Mire"
+    ],
+    "result_and_rationale": "Staged four-swap keeping Fellwar Stone and cutting Inquisitor's Flail: baseline castability, loses the 4x one-hit kill."
+   },
+   {
+    "adds": [
+     "Lizard Blades",
+     "Giantfall",
+     "Sink into Stupor // Soporific Springs",
+     "Fell the Profane // Fell Mire",
+     "Nibelheim Aflame"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Rapid Hybridization",
+     "Exotic Orchard",
+     "Takenuma, Abandoned Mire",
+     "Nova Flame"
+    ],
+    "result_and_rationale": "Staged five-swap over the owner-added Nova Flame: rejected, not counted."
+   },
+   {
+    "adds": [
+     "Lizard Blades",
+     "Giantfall",
+     "Sink into Stupor // Soporific Springs",
+     "Fell the Profane // Fell Mire",
+     "Hammer of Nazahn"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Rapid Hybridization",
+     "Exotic Orchard",
+     "Takenuma, Abandoned Mire",
+     "Talisman of Indulgence"
+    ],
+    "result_and_rationale": "Staged five-swap adding Hammer of Nazahn over a rock: rejected on castability."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Pass C NEEDS TESTING (+Fireshrieker / -Inquisitor's Flail) was run as a bounded finite combat ledger (no RNG): 5 equipment states x 8 blocker states x 3 configs, plus Kediss/Curiosity, Quietus Spike, infect, removal-between-steps and one-hit lethal rows. Double strike equals Flail's 10 damage unblocked, doubles draws and Spike, and survives non-first-strike 5/5, 3/3 deathtouch and 4/4 double-strike blockers that kill bare or Flail Garza; Flail alone wins only when removal lands between strike steps (10 vs 5 damage). The exact Pass C list is staged; the primary uses the cheaper Lizard Blades and keeps Flail. Pass C's other named cuts (Robe of the Archmagi, Quietus Spike) multiply with double strike and are not cut. Matched-game win rates were not run: no validated Garza game model exists.",
+  "strongest_argument_against_baseline": "The baseline's permanent damage doubler (Inquisitor's Flail) also doubles damage dealt to Garza and gives one trigger per hit, while the deck's payoffs (Garza's draw, Curiosity, Kediss, Quietus Spike, Robe, both Swords) are all per-hit. Several mana-base slots (Exotic Orchard, Takenuma) and one removal spell (Rapid Hybridization) do nothing Garza-specific.",
+  "evidence_based_answer": "Four genuine swaps: Lizard Blades for Fellwar Stone (permanent double strike), Giantfall for Rapid Hybridization (Garza-sourced removal plus artifact mode), Sink into Stupor // Soporific Springs for Exotic Orchard and Fell the Profane // Fell Mire for Takenuma, Abandoned Mire (lands that are also interaction). A fifth was not found without cutting an owner keep or addition on unclear evidence (Nibelheim Aflame over Nova Flame) or re-adding an owner-removed class (Fire Whip), so the deck is held as research only."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Garza_Zol__Plague_Queen.txt",
+  "sha256": "48b6a7dbdb2dac5d591d93cb6f7f7efea634c0663acab9b6a1812661e559317f",
+  "card_count": 100,
+  "deckwide_reconciliation": "Commander first, then lines alphabetically; every card 1x. Four substitutions against the canonical source. 36 lands plus two MDFC lands; 100 physical cards verified by quantity (99 library + 1 commander)."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_EDHREC_discovery_20261023.json",
+   "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_CommanderSpellbook_20261023.json",
+   "data/grixis/m7/research_challengers/Garza_Zol__Plague_Queen_bounded_measured_tests_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Garza_Zol__Plague_Queen_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Garza_Zol__Plague_Queen_M7_20261023.md",
+   "tests/test_m6_garza_zol_plague_queen_m7_mechanics.py",
+   "data/grixis/m6/owner_pass_c_substitute/Garza_Zol__Plague_Queen/final_disposition.md"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Voltron",
+   "Commander Damage",
+   "Deathtouch-Control"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "RESEARCH_ONLY_WITHDRAWN_NOT_OWNER_PRESENTABLE",
+ "withdrawal_reason": "RESEARCH_ONLY: only four genuine swaps were found (Lizard Blades over Fellwar Stone, Giantfall over Rapid Hybridization, Sink into Stupor // Soporific Springs over Exotic Orchard, Fell the Profane // Fell Mire over Takenuma, Abandoned Mire). The five-swap owner-presentation floor is not met without padding: the only fifth candidates either cut the owner's explicit Nova Flame addition on evidence that does not clearly beat the owner's stated reason (Nibelheim Aflame), cut an owner-kept interaction piece (Toxic Deluge), re-add an owner-removed pinger class (Fire Whip) or lower castability for an unclear gain (Hammer of Nazahn). This packet is NOT owner-presentable and NOT owner approved; the canonical Garza list is unchanged."
+}

@@ -53,9 +53,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -65,9 +66,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 5
+   "lifegain": 5,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -77,9 +79,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -161,9 +164,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -173,9 +177,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 5
+   "lifegain": 5,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -185,9 +190,10 @@
    "commander_damage": 2,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 1,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -245,9 +251,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 5
+   "lifegain": 5,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -269,9 +276,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -281,9 +289,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 5
+   "lifegain": 5,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "none",
@@ -293,9 +302,10 @@
    "commander_damage": 1,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 1,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -341,9 +351,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -353,9 +364,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 10
+   "lifegain": 10,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -365,9 +377,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -449,9 +462,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -461,9 +475,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 10
+   "lifegain": 10,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -473,9 +488,10 @@
    "commander_damage": 4,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 1,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -521,9 +537,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -533,9 +550,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 10
+   "lifegain": 10,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -545,9 +563,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail",
@@ -701,9 +720,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Fireshrieker",
@@ -713,9 +733,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 5
+   "lifegain": 5,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Fireshrieker",
@@ -725,9 +746,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Fireshrieker",
@@ -809,9 +831,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Fireshrieker",
@@ -833,9 +856,10 @@
    "commander_damage": 2,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 1,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Fireshrieker",
@@ -989,9 +1013,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Lizard Blades",
@@ -1001,9 +1026,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 5
+   "lifegain": 5,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Lizard Blades",
@@ -1013,9 +1039,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Lizard Blades",
@@ -1097,9 +1124,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Lizard Blades",
@@ -1121,9 +1149,10 @@
    "commander_damage": 2,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 1,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Lizard Blades",
@@ -1277,9 +1306,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail + Lizard Blades",
@@ -1289,9 +1319,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 10
+   "lifegain": 10,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail + Lizard Blades",
@@ -1301,9 +1332,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail + Lizard Blades",
@@ -1421,9 +1453,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail + Lizard Blades",
@@ -1433,9 +1466,10 @@
    "commander_damage": 0,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 0,
-   "lifegain": 10
+   "lifegain": 10,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   },
   {
    "equipment": "Inquisitor's Flail + Lizard Blades",
@@ -1445,9 +1479,10 @@
    "commander_damage": 2,
    "garza_dies": true,
    "blocker_dies": true,
-   "garza_counters": 1,
+   "garza_counters": 0,
    "draws_garza": 1,
-   "lifegain": 0
+   "lifegain": 0,
+   "note": "Garza dies to state-based actions with the blocker; the counter trigger resolves with Garza gone (no counter unless The Ozolith is out)."
   }
  ],
  "special_rows": [
@@ -1691,7 +1726,7 @@
   {
    "card": "Lizard Blades",
    "when_garza_removed": "becomes a 1/1 double-strike Equipment Lizard creature; reconfigure {2}",
-   "sweeper_exposure": "dies to creature sweepers/removal only while unattached; while attached it is not a creature, so our own Garza-sourced sweepers (Chandra's Ignition, Nibelheim Aflame) do not hit it"
+   "sweeper_exposure": "dies to creature sweepers/removal only while unattached; while attached it is not a creature, so our own Garza-sourced sweeper Chandra's Ignition does not hit it"
   }
  ],
  "pass_c_alternate_cuts": {
@@ -1700,6 +1735,8 @@
  "not_run": {
   "matched_game_winrate": "not run: no validated Garza game model exists in the repo; claiming a win-rate would be unsupported"
  },
+ "setup_mana_note": "Inquisitor's Flail + Fireshrieker resolves every combat row identically to Inquisitor's Flail + Lizard Blades (both give double strike) at 9 instead of 8 setup mana, so it is not listed separately. Garza herself costs 7 plus commander tax 2 per previous cast; setup mana is counted on top of her cast.",
+ "sba_fix": "Rows recomputed after correcting a first-draft timing error: Garza's lethal-damage check now uses her toughness before the same step's +1/+1 counter trigger resolves (CR 704.5g / 603.3), so a 5/5 Garza trading with a 5/5 blocker dies in that step.",
  "castability": {
   "base.txt": {
    "mdfc_as_nonland": {
@@ -1737,7 +1774,7 @@
     "6": 0.4724
    }
   },
-  "Garza_Zol__Plague_Queen_keep_NovaFlame_cut_ToxicDeluge_20261023.txt": {
+  "Garza_Zol__Plague_Queen_five_FireWhip_over_Pongify_20261023.txt": {
    "mdfc_as_nonland": {
     "4": 0.1649,
     "5": 0.2669,
@@ -1749,43 +1786,7 @@
     "6": 0.4451
    }
   },
-  "Garza_Zol__Plague_Queen_six_FireWhip_over_Pongify_20261023.txt": {
-   "mdfc_as_nonland": {
-    "4": 0.1649,
-    "5": 0.2669,
-    "6": 0.4073
-   },
-   "mdfc_as_land": {
-    "4": 0.1769,
-    "5": 0.2882,
-    "6": 0.4451
-   }
-  },
-  "Garza_Zol__Plague_Queen_five_LizardBlades_cut_InquisitorsFlail_keep_FellwarStone_20261023.txt": {
-   "mdfc_as_nonland": {
-    "4": 0.1751,
-    "5": 0.2865,
-    "6": 0.4328
-   },
-   "mdfc_as_land": {
-    "4": 0.1876,
-    "5": 0.3093,
-    "6": 0.4724
-   }
-  },
-  "Garza_Zol__Plague_Queen_four_keep_NovaFlame_no_Nibelheim_20261023.txt": {
-   "mdfc_as_nonland": {
-    "4": 0.1649,
-    "5": 0.2669,
-    "6": 0.4073
-   },
-   "mdfc_as_land": {
-    "4": 0.1769,
-    "5": 0.2882,
-    "6": 0.4451
-   }
-  },
-  "Garza_Zol__Plague_Queen_six_HammerOfNazahn_over_TalismanOfIndulgence_20261023.txt": {
+  "Garza_Zol__Plague_Queen_five_HammerOfNazahn_over_TalismanOfIndulgence_20261023.txt": {
    "mdfc_as_nonland": {
     "4": 0.1553,
     "5": 0.2483,
@@ -1797,7 +1798,7 @@
     "6": 0.4179
    }
   },
-  "Garza_Zol__Plague_Queen_five_Fireshrieker_instead_of_LizardBlades_20261023.txt": {
+  "Garza_Zol__Plague_Queen_five_NibelheimAflame_over_NovaFlame_20261023.txt": {
    "mdfc_as_nonland": {
     "4": 0.1649,
     "5": 0.2669,
@@ -1808,7 +1809,112 @@
     "5": 0.2882,
     "6": 0.4451
    }
+  },
+  "Garza_Zol__Plague_Queen_five_NibelheimAflame_over_ToxicDeluge_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  },
+  "Garza_Zol__Plague_Queen_four_Fireshrieker_instead_of_LizardBlades_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1649,
+    "5": 0.2669,
+    "6": 0.4073
+   },
+   "mdfc_as_land": {
+    "4": 0.1769,
+    "5": 0.2882,
+    "6": 0.4451
+   }
+  },
+  "Garza_Zol__Plague_Queen_four_LizardBlades_cut_InquisitorsFlail_keep_FellwarStone_20261023.txt": {
+   "mdfc_as_nonland": {
+    "4": 0.1751,
+    "5": 0.2865,
+    "6": 0.4328
+   },
+   "mdfc_as_land": {
+    "4": 0.1876,
+    "5": 0.3093,
+    "6": 0.4724
+   }
   }
  },
- "castability_method": "Exact hypergeometric castability of Garza Zol {4}{U}{B}{R} (7 mana) by turn T on the play.\nCategories: L=lands (Ancient Tomb counted as L worth 2), R1=1-mana-net rocks (Signets, Talismans, Arcane Signet, Fellwar Stone), R2=Sol Ring, R3=Mana Vault/Grim Monolith (+3 once).\nMana by turn T = min(lands,T) (+1 if Tomb among them) + value of up to T-1 rocks (best first). Colors assumed satisfied (35+ coloured sources). MDFC counted as nonland (conservative) or land."
+ "castability_method": "Exact hypergeometric castability of Garza Zol {4}{U}{B}{R} (7 mana) by turn T on the play.\nCategories: L=lands (Ancient Tomb counted as L worth 2), R1=1-mana-net rocks (Signets, Talismans, Arcane Signet, Fellwar Stone), R2=Sol Ring, R3=Mana Vault/Grim Monolith (+3 once).\nMana by turn T = min(lands,T) (+1 if Tomb among them) + value of up to T-1 rocks (best first). Colors assumed satisfied (35+ coloured sources). MDFC counted as nonland (conservative) or land.",
+ "deck_stats": {
+  "base.txt": {
+   "lands": 38,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 25,
+    "B": 27,
+    "R": 24
+   },
+   "nonland": 61,
+   "curve": {
+    "1": 14,
+    "2": 27,
+    "3": 15,
+    "4": 3,
+    "5": 2
+   },
+   "avg_nonland_mv": 2.213,
+   "creatures": 1,
+   "equipment": 20,
+   "artifacts": 32,
+   "game_changers": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Grim Monolith",
+    "Jeska's Will",
+    "Mana Vault",
+    "Rhystic Study",
+    "Vampiric Tutor"
+   ]
+  },
+  "cand.txt": {
+   "lands": 36,
+   "mdfc_lands": [
+    "Fell the Profane // Fell Mire",
+    "Sink into Stupor // Soporific Springs"
+   ],
+   "sources_UBR": {
+    "U": 25,
+    "B": 26,
+    "R": 23
+   },
+   "nonland": 63,
+   "curve": {
+    "1": 13,
+    "2": 28,
+    "3": 16,
+    "4": 4,
+    "5": 2
+   },
+   "avg_nonland_mv": 2.27,
+   "creatures": 2,
+   "equipment": 21,
+   "artifacts": 32,
+   "game_changers": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Grim Monolith",
+    "Jeska's Will",
+    "Mana Vault",
+    "Rhystic Study",
+    "Vampiric Tutor"
+   ]
+  }
+ }
 }

@@ -29,19 +29,19 @@
 1x Fall of the Hammer
 1x Feed the Swarm
 1x Fell the Profane // Fell Mire
+1x Fellwar Stone
 1x Fierce Guardianship
-1x Fireshrieker
 1x Flooded Strand
 1x Giantfall
 1x Grafted Exoskeleton
 1x Grim Monolith
 1x Hatred
-1x Inquisitor's Flail
 1x Island
 1x Izzet Signet
 1x Jeska's Will
 1x Jeska, Thrice Reborn
 1x Kediss, Emberclaw Familiar
+1x Lizard Blades
 1x Luxury Suite
 1x Mana Confluence
 1x Mana Drain
@@ -52,7 +52,7 @@
 1x Mithril Coat
 1x Morphic Pool
 1x Mountain
-1x Nibelheim Aflame
+1x Nova Flame
 1x Otawara, Soaring City
 1x Plaza of Heroes
 1x Polluted Delta
