@@ -17,11 +17,11 @@ LEGACY = PLAN / "abaddon_p0_case_inventory_20261022.json"
 STAGE15 = PLAN / "Abaddon_stage15_new_six_changed_effects_20261023.json"
 CAND = ROOT / "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_protected_wheel_six_research_20261023.txt"
 CUT_REFERENCES = {
-    "Ruinous": "The Ruinous Powers",
-    "Keeper": "Keeper of Secrets",
-    "Kessig": "Kessig Flamebreather",
-    "Thermo-Alchemist": "Thermo-Alchemist",
-    "Betrayal": "Inevitable Betrayal",
+    "ruinous": "The Ruinous Powers",
+    "keeper": "Keeper of Secrets",
+    "kessig": "Kessig Flamebreather",
+    "thermo-alchemist": "Thermo-Alchemist",
+    "betrayal": "Inevitable Betrayal",
 }
 
 
@@ -59,7 +59,12 @@ class AbaddonCandidateTransferIntegrity(unittest.TestCase):
             self.assertEqual(case["id"], row["id"])
             self.assertEqual(case["mechanic"], row["topic"])
             self.assertEqual(case["test_file"], row["legacy_test_file"])
-            refs = sorted({full for short, full in CUT_REFERENCES.items() if short in case["mechanic"]})
+            refs = {full for short, full in CUT_REFERENCES.items() if short in case["mechanic"].lower()}
+            # P0-022b..f omit the name but remain one historical Betrayal
+            # suspend/cast parent, absent from the new exact 100.
+            if case["id"].startswith("P0-022"):
+                refs.add("Inevitable Betrayal")
+            refs = sorted(refs)
             self.assertEqual(sorted(row["cut_or_preexisting_absent_refs"]), refs)
             flag = bool(refs)
             nontransfer += int(flag)
@@ -67,8 +72,8 @@ class AbaddonCandidateTransferIntegrity(unittest.TestCase):
                 "HISTORICAL_COUNTERFACTUAL_DO_NOT_COUNT_AS_CURRENT_APPLICABLE_P0"
                 if flag else "POTENTIALLY_REUSABLE_UNCHANGED_CORE_REQUIRES_SCOPE_REVIEW")
             self.assertEqual(row["old_execution"], "HISTORICAL_PASS_NOT_NEW_CANDIDATE_EXECUTION")
-        self.assertEqual(nontransfer, 20)
-        self.assertEqual(p["counts"]["historical_p0_without_named_cut"], 84)
+        self.assertEqual(nontransfer, 27)
+        self.assertEqual(p["counts"]["historical_p0_without_named_cut"], 77)
 
     def test_all_fourteen_new_executed_cases_have_exact_receipt(self):
         p = self.plan
