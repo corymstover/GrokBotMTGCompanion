@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-22",
+  "deck_id": "Admiral_Beckett_Brass",
+  "stage": "M6_6_TO_9_REV2_CANDIDATE_SOURCE_REBIND_PREFLIGHT",
+  "status": "PARTIAL_SOURCE_AND_FINITE_CHANGED_EFFECT_BOUND_I_J_CERTIFICATION_NOT_YET_REISSUED",
+  "authoritative_canonical": {
+    "repo": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "source": "state/current_deck_overrides.json",
+    "approved_locked_raw_sha256": "4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414",
+    "no_canonical_mutation": true
+  },
+  "candidate": {
+    "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+    "raw_sha256": "ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000",
+    "logical_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+    "physical_cards": 100,
+    "distinct_names": 97,
+    "land_cards": 35,
+    "creature_cards": 34,
+    "commander": "Admiral Beckett Brass",
+    "power_bracket_provisional": 4,
+    "archidekt_tags_provisional": [
+      "Pirates",
+      "Permanent Theft",
+      "Evasive Combat"
+    ],
+    "owner_approved": false
+  },
+  "baseline_D": {
+    "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_evasive_pirate_density_package.txt",
+    "raw_sha256": "201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee",
+    "logical_hash": "lh1:1f6ae6fa721c3bd7e8b888c4a216edca7cdb25c587d5ce812282662cb0118d58",
+    "historical_IJ_remains_bound_to_D": true
+  },
+  "exact_difference_from_D": {
+    "add": [
+      "Cosmotronic Wave"
+    ],
+    "cut": [
+      "Raise the Palisade"
+    ],
+    "strategic_effect": "One-turn blanket cannot-block and 1 damage at 3R replaces 4U sorcery choosing Pirate and bouncing non-Pirate creatures. Both Wave-for-Cannonade and this candidate have Wave, so the whole-package difference is retaining instant Fiery Cannonade vs long-term Palisade bounce."
+  },
+  "exact_difference_from_canonical": {
+    "add": [
+      "City of Brass",
+      "Departed Deckhand",
+      "Cloud Pirates",
+      "Skyship Plunderer",
+      "Broadside Bombardiers",
+      "Cosmotronic Wave"
+    ],
+    "cut": [
+      "Crumbling Necropolis",
+      "Daring Saboteur",
+      "Dire Fleet Captain",
+      "Dire Fleet Poisoner",
+      "Forerunner of the Coalition",
+      "Raise the Palisade"
+    ],
+    "genuine_replacements": 6
+  },
+  "oracle_and_legality": {
+    "canonical_and_D_source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_Full_Source_Oracle_20261022.json",
+    "wave_current_source": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_eleven_card_live_Scryfall_20261022.json",
+    "source_retrieved": "2026-10-22",
+    "expected_exact_deck_names_resolved": 97,
+    "expected_commander_legal": 97,
+    "expected_grixis_identity": 97,
+    "verified_by_exact_head_rebinding_test": "PENDING_STAGE9_CI",
+    "project_exceptions": []
+  },
+  "changed_effect_scope": {
+    "new_card": "Cosmotronic Wave",
+    "removed_card": "Raise the Palisade",
+    "retained_card": "Fiery Cannonade",
+    "stage8_source_paid_tests": "tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py",
+    "stage8_git_receipt": {
+      "merged_pr": 611,
+      "merged_commit": "aa4eba2b1d5735a82fab7d14f39a9314f93c986b",
+      "exact_pr_head": "152c3add699797c65971f9842518503dc2de8e7f",
+      "focused_actions_run": 39879346963,
+      "decisive_actions_run": 39879346948,
+      "both": "SUCCESS",
+      "scope": "Nine finite source-paid, card-count and opposite blocker states only; not M6 I/J or global measured performance."
+    },
+    "retained_old_fixture_reuse": "Historically tested D-only Pirate sources, Skyship/Malcolm counters and Broadside boast remain unchanged in candidate; reuse factual mechanical fixtures, not D's list-bound I/J certificate.",
+    "possible_new_P0": [
+      "All three preexisting Pirates connect if Wave resolves before blockers and Admiral survives endstep, with exact 3R real mana.",
+      "Opponent Pirate blocker types and 4+ toughness do not circumvent Wave's blanket cannot-block turn; response removal/Fog still matters.",
+      "Wave sorcery speed cannot protect versus opponent-turn small non-Pirate attackers; retained Cannonade instant can."
+    ],
+    "possible_new_P1": [
+      "When Wave is not drawn, loss of Palisade non-Pirate bounce/recast delay may reduce long-term recovery.",
+      "Preserve exact same-player 3 distinct Pirates / printed Kari Zev and Ragavan card vs token semantics.",
+      "Test any meaningful alternate cut for Wave and document broader opportunity/EDHREC lift counterfactual."
+    ]
+  },
+  "ij": {
+    "original_D_M6_I": "data/grixis/m6/ij/certificates/admiral-beckett-brass.json",
+    "original_D_M6_J": "data/grixis/m6/bundles/admiral-beckett-brass.json",
+    "reuse_original_certificate_for_new_hash": false,
+    "rev2_tested_pool_receipt": "NOT_YET_ISSUED",
+    "rev2_local_best_reconciliation": "QUALITATIVE_PROVISIONAL_NEEDS_BOUND_SCOPE_AND_FINAL_JUDGMENT",
+    "rev2_i_certificate": "NOT_YET_ISSUED",
+    "rev2_j_reproducibility_bundle": "NOT_YET_ISSUED",
+    "m6_10_owner_accepted": false
+  },
+  "outstanding_hard_gates": [
+    "Exact-head source/quantity/identity/cost validation for this candidate.",
+    "Finalize changed-effect mandatory P0/P1 and I tested-pool evidence scoped to exact candidate, including actual CI receipts.",
+    "Write immutable candidate-bound M6 I/J distinct from historical D and verify bundle hashes/reproducibility.",
+    "Complete M7 rev2 gate (whole-deck audit, 10+ dispositions, 8+ slots, at least two complete alternative packages, unbounded research, official legality, mechanical checks, exact CI).",
+    "Ask Cory explicit approval only for newly verified exact decklist and hash. Canonical lock maintained until authorized."
+  ],
+  "next_action": "Run source-binding preflight tests in exact-head CI; then close changed-effect M6 P0/P1 and issue new I/J only when evidence genuinely supports them. Preserve owner approval hold."
+}
