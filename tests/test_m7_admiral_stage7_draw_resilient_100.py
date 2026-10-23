@@ -67,6 +67,7 @@ class AdmiralStage7(unittest.TestCase):
         self.assertIn(ledger["m7_status"], {
             "RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD",
             "REVISED_M7_SIX_SWAP_OWNER_CANDIDATE_IN_PR616_AWAITING_LATEST_EXACT_HEAD_CI_NO_OWNER_APPROVAL",
+            "REVISED_M7_OWNER_APPROVAL_REQUIRED_STRICT_GATE_PASSED_NO_OWNER_APPROVAL",
         })
         self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
         if ledger["m7_status"].startswith("REVISED_M7_"):
