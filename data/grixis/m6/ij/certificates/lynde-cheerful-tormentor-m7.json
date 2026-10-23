@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "deck_id": "Lynde__Cheerful_Tormentor",
+  "slug": "lynde-cheerful-tormentor",
+  "generated_at": "2026-10-23T18:02:18-05:00",
+  "list_hash": "lh1:a125b99270e7e4fb1229344bcee482d06e96bc2adf797fc9e5a74528e3868408",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:641a20248bf94ee809041c9d385284099154c64d6c3edf633feadd4a6f5e542e",
+    "tested_pool_size": 13
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_lynde_cheerful_tormentor_m7_mechanics.py",
+      "tests/test_m7_lynde_cheerful_tormentor_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_lynde_cheerful_tormentor_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [
+    "Owner decision on the Pass C Stage A seal mismatch (re-seal under a new disclosed record or a documented hash-correction exception).",
+    "Optional owner choice between the two-swap candidate and the single-swap alternatives A (+Court of Vantress -Cruel Reality only) and B (+Extravagant Replication -Curse of Death's Hold only); no owner keep or owner add is cut in any of them."
+  ],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Lynde__Cheerful_Tormentor_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Lynde__Cheerful_Tormentor_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Lynde__Cheerful_Tormentor_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Lynde__Cheerful_Tormentor_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Lynde__Cheerful_Tormentor_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Lynde__Cheerful_Tormentor.json",
+    "data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/seal.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": false,
+  "certificate_status": "blocked",
+  "blockers": [
+    "Pass C Stage A seal mismatch: data/grixis/m6/owner_pass_c_substitute/Lynde__Cheerful_Tormentor/seal.json (added in commit c4c5fa5df5d55114c5f7e773d103d8490e60b67b) records stage_a.md SHA-256 59f2dc10eedec5797f3f5dcfdb0a206b380a037e9b17a29e740d6ca94829c12e, but the committed stage_a.md (git blob b253ed9c, Stage A commit b4c985688c4bee3db76d18bb0c3ada940ec79c98, 13276 bytes) hashes to 02adfb85db19aa42d5dfe36b96906874ea1abd232b6f8bfc3861c1108035b72a; the sealed value is the SHA-256 of the file without its final newline byte. scripts/grixis_m6_bundle_check.py rejects the J bundle ('Stage A source diverged from separately sealed byte commitment'). Sealed evidence and checker deliberately not edited; owner decision required.",
+    "Only two genuine swaps (below the five-swap owner-presentation floor); RESEARCH_ONLY, not padded."
+  ],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "BLOCKED, not PASS. Within the 13 complete configurations in the pool (raw baseline, registry canonical export, the research candidate with two genuine swaps: +Court of Vantress -Cruel Reality and +Extravagant Replication -Curse of Death's Hold; single-swap alternatives A (Court only) and B (Replication only); Staff of Compleation over Nightscape Familiar (staged trade); the Pass C requested Curse of Chaos over Curse of Echoes and the author's Strionic Resonator over Nightscape Familiar and Beseech the Mirror over Curse of the Restless Dead (all rejected: owner-removed or owner-rejected); and the rejected Disturbing Mirth, Teferi's Ageless Insight, Thoughtrender Lamia and Curse of the Bloody Tome probes) no configuration beats the research candidate on the bounded measures, but the certificate cannot pass because the J bundle is rejected on the Pass C Stage A seal mismatch and the candidate is RESEARCH_ONLY below the five-swap floor. Not owner approval, not owner-presentable; the canonical list is unchanged."
+  }
+}
