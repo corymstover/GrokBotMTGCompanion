@@ -483,31 +483,30 @@
    "baseline_raw_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
    "registry_recorded_sha256": "aa6d2d343c6c1f167de8d16b23951940f7d23810c6e7705a6fd0d539a7459adc",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Davros__Dalek_Creator.txt",
+   "candidate_raw_sha256": "b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc",
+   "current_candidate_sha": "b5c3af5f46b9f4d647b43f1eda93ee19e2704536d6d0e486d7c26302c21156bc",
    "branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
    "working_branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
-   "last_pushed_commit": "438980cb6d34f45c981ff3614ae5e2a4eaae6948",
+   "last_pushed_commit": "2c2734340ca47c9bb880cec6347e2903c92730f8",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/660",
-   "swap_count": null,
+   "swap_count": 6,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
     "baseline_provenance",
-    [
-     "research_snapshots",
-     "draft_candidate"
-    ],
-    "decision packet + mechanics tests (gate pass) 2026-10-23 07:28 CDT"
+    "research_snapshots",
+    "draft_candidate",
+    "decision packet + mechanics tests (gate pass) 2026-10-23 07:28 CDT",
+    "I/J memos, adversarial packet, workflow, certificate/bundle (IJ 8/8, gate and bundle check pass) 2026-10-23 07:33 CDT"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660",
-   "next_step": "Research (Scryfall/EDHREC/Spellbook), candidate judgments on draft PR #660",
-   "last_checkpoint_commit": "fd0446ac0ef7e240af6af6c350256a3153f05c53"
+   "next_action": "Remove WIP, full suite vs b6b40ac8, mark PR #660 ready, exact-head CI",
+   "next_step": "Remove WIP, full suite vs b6b40ac8, mark PR #660 ready, exact-head CI",
+   "last_checkpoint_commit": "2c2734340ca47c9bb880cec6347e2903c92730f8"
   },
   {
    "tracker_number": 13,
