@@ -1,0 +1,233 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Kefka__Court_Mage",
+ "slug": "kefka-court-mage",
+ "baseline_hash": "lh1:a858b67801ed8c4703527bd43954e7263653c7b64b1cd1953db9a945d55bbd2e",
+ "result_hash": "lh1:ba340792b7383533f17207ac48228ad283d13ad513b0b52d310e6f964f964b01",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/kefka-court-mage.json.gz",
+   "sha256": "sha256:97358cf72707c40cefb773b7fed4ba5d0a07209c4da22d9b8df4bca17fe9d5a6"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/kefka-court-mage.json.gz",
+   "sha256": "sha256:eced578346534c7af7d7f5ec6f1ceafc360e6d6b85d0cd04528a09f251b97367"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/kefka-court-mage.json",
+   "sha256": "sha256:bc22bd2e98c3e19cccf16e4226e6dc0f4abe316129a53aae3011abdc79c7e626"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/kefka-court-mage.json",
+   "sha256": "sha256:931427a390ad86061e59cfc099856faaf43d889341c4da6c91309cd1b68dcf74"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/kefka-court-mage.json",
+   "sha256": "sha256:6a9393109199b89df612292ad6379a54e95c39af081e5a22da72c588c62cfb23"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Kefka__Court_Mage.json",
+   "sha256": "sha256:3e6476cf407a656340b5611fb68010641d7d2dc8eb0c1de8ae8ca84c0a4f9451"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:966baab02a57ef3652d72ce0d2397ff91cfae1aa2aa431b7135b8a1c577c20fa"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_Scryfall_live_20261023.json",
+   "sha256": "sha256:6986ca0e6697e6aef686ced7c0e7b3237a2121b183fd233bb7b3c417e789755f"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:043a9f94f1bdcae908145bfee6af21eb8bb0d085a650e6dcd7358259b907a483"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:7a63befa427dafb3071675b842e4c1e1b066558523f80ceb31af37c1c709f806"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Kefka__Court_Mage_approved_source_2026-10-14.txt",
+   "sha256": "sha256:cd36192fedda7a4f54570fb8b8e4605147b40f9254e6985729097fc998f17b03"
+  },
+  {
+   "path": "exports/grixis-archidekt/source-baseline/kefka-court-mage.txt",
+   "sha256": "sha256:1bf9bb268230bdf1978b734b906a2d5ff44f0dd06ce8f400fc694f0f90348391"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Kefka__Court_Mage.txt",
+   "sha256": "sha256:4adf02f9a72586b541e980218257f296a3b42bd22318bc9b59dc3dac967d210c"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_Entomb_minus_DemonicCounsel_20261023.txt",
+   "sha256": "sha256:62e6cf7e7ff84800d3e7dcb6e0ff5c445a7396073add47c947cc86305994bdc5"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_Entomb_minus_BorneUponAWind_20261023.txt",
+   "sha256": "sha256:832748c5ffb15fc3bd1807572cdf3a0d9a3e1634ef3c4fac576ef42678fc28d9"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_DragonsRageChanneler_minus_TinybonesBaubleBurglar_20261023.txt",
+   "sha256": "sha256:56f385305960020d6fc50fab42589ec26c26c5ef1f40ef629451e7a9ca0dbba5"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_PassC_plus_TalismanOfIndulgence_minus_CullingTheWeak_20261023.txt",
+   "sha256": "sha256:7a09f862d1e7e6f7e80903c65f756c5bd9902db7f5c5b11ef16f7f69c93480f1"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_Mockingbird_over_MoltenDuplication_20261023.txt",
+   "sha256": "sha256:d438b8cd728d0bc34aa4a9611250d3dfa7045c06ac7cef4d085daf46ddc360c9"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_ViviOrnitier_over_TalismanOfCreativity_20261023.txt",
+   "sha256": "sha256:7f14b59049b0607e1bd0e862823d84e93300caec9f8e1504407a0b49fe16235a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_MistriseVillage_over_Island_20261023.txt",
+   "sha256": "sha256:85c153525d42b66c04f6c00d51259cdd07ff6b4b7ea71e85296279d3b0a65fad"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_DualcasterMage_over_DiabolicIntent_20261023.txt",
+   "sha256": "sha256:11c5f1e8839fdb98289850f5191b7068a11ecf30f72abf00eeb03c291104a926"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Kefka__Court_Mage_one_SparkDouble_over_GogoMysteriousMime_20261023.txt",
+   "sha256": "sha256:a6fb0df7ed8efe3e37da2c2d7c494e7c7a90aa4e17c7142ee56305d8f55b9b40"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Kefka__Court_Mage_M7_Scryfall_20261023.json",
+   "sha256": "sha256:37bcfb2afea2422ab6e8cd0a2433eee0c9ba65216cbdceecca6a78d2540b990b"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Kefka__Court_Mage_M7_20261023.md",
+   "sha256": "sha256:788945c81cffe041978a1e7dad9758514c942a67e9b30bfc380a2391b1813e38"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/kefka-court-mage-m7.json",
+   "sha256": "sha256:b57e652bb0fec748a17f6deb3b473efb2a35c449023aa2ba39a018e64f57c0b5"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Kefka__Court_Mage_M6_I_local_best_20261023.md",
+   "sha256": "sha256:1a90bbc71c4cbb0df8350e44fcbed57be329306197f6009fee05bd8f431dfbcc"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Kefka__Court_Mage_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:c3f2e1cd08421e25caafe741f9e0c90dad965bc8d3c4100df16d00f87b38d7d3"
+  },
+  {
+   "path": ".github/workflows/m7-kefka-court-mage.yml",
+   "sha256": "sha256:f1f9c3dedea52a0fa4e80fbb1bf0e19a48efdb15610d744ff991de2dcb31024e"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Kefka__Court_Mage_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:ab6474ad6dae9c3b8377c4917505238c2fc7727c9dba4ac4750a836f5e83ca72"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/kefka-court-mage.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/kefka-court-mage.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:61780b4792d15bebce009d585ca7f10090a4d3e37ffb6913bbe4968488a6cb96",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Kefka__Court_Mage/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:a1ef63e51adbcf3dd4a4ed7f3aaf31ad7991ec648621ec59108d031a2a99c414"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_kefka_court_mage_m7_mechanics.py",
+    "source_sha256": "sha256:fecdb706d65d6005a08d939f0fd8137f9c2cf9948e72850baf3dda8155ee3749",
+    "seed": 0,
+    "harness_version": "kefka_court_mage_m7_finite_rules_and_bounded_pass_c_12_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Twelve finite Oracle-anchored cases: Kefka Oracle (each player discards on enter or attack, draw per card type; {8} sorcery-speed transform; Harmonic Prodigy doubling), 99 singleton with 28 lands and exactly one swap, 13 Mountain-subtype sources (4 duals plus 9 fetches) with exact by-turn access 0.6391-0.8346, exact Anger haste window baseline vs plus Entomb (turn 5: 0.0863 vs 0.1642), no Demon in the 99 and the seeded (seed 25, N=200000) Demonic Counsel delirium proxy bounds, Dualcaster Mage copy rules (CR 707.10) with exact partner access 0.0123-0.0367, Culling the Weak early-creature access 0.4115-0.6075, Commander Spellbook delta 6 -> 9 (147-5487, 147-500, 147-4598), land colour sources U/B/R 21/20/20 unchanged, rules-snapshot anchors and banned/off-identity exclusions. Not a game simulation or win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_kefka_court_mage_candidate.py",
+    "source_sha256": "sha256:7b1d5b79bc068b25f3d45d46fd79700c27e1eda7bf68fef8705b97bd8db1690a",
+    "seed": 0,
+    "harness_version": "kefka_court_mage_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "One-swap identity (+Dualcaster Mage -Culling the Weak) against vendored and canonical sources, gate RESEARCH_ONLY status (not owner-presentable), registry hashes untouched, single commander first, alphabetical, 100 physical singleton (1x Island, no other basics), distinctness vs the Grixis cEDH cores (Kess, Jeleva, Inalla, Evelyn), owner-removed cards not re-added and owner keeps retained, data caveat and owner-direction flag recorded, nine staged alternatives as complete 100s with exact deltas, Game Changers 20, commander legality; structural only."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #668 head 909543a5 (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_kefka_court_mage_m7_ij.py",
+    "source_sha256": "sha256:fd2cae290ca9fbffb36472d237da892b20c1b2dc86464a5bad048c1118111110",
+    "seed": 0,
+    "harness_version": "kefka_court_mage_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 12 configurations, runs the J checker, pins the checker sha, checks the low-swap self-challenge, and exercises fail-closed Pass C explicit technical-independence-false wording and jlk-neutral-seal-1 Stage A seal alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Kefka__Court_Mage_M6_J_red_team_20261023.md",
+  "sha256": "sha256:770dd8dc9743190dfbd0b07532a7d569a4e3db62c257801b247f386d1d58eb57"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Kefka__Court_Mage_M6_J_mana_20261023.md",
+  "sha256": "sha256:2465f60d08d646a3e7de9a153d70248e048cefacc27079fb3fff3b2cd89933cc"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

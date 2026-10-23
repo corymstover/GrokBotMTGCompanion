@@ -1,0 +1,51 @@
+name: M7 Deck 25 Kefka, Court Mage research candidate (focused)
+on:
+  pull_request:
+    branches: [chatgpt-cycle76-m6-refinement]
+    paths:
+      - .github/workflows/m7-kefka-court-mage.yml
+      - data/grixis/registry.json
+      - data/grixis/schemas/**
+      - data/grixis/m7/**
+      - data/grixis/m6/**
+      - scripts/grixis_authority.py
+      - scripts/grixis_m6_bundle_check.py
+      - scripts/grixis_m7_decision_gate.py
+      - tests/test_m7_kefka_court_mage_candidate.py
+      - tests/test_m6_kefka_court_mage_m7_mechanics.py
+      - tests/test_m6_kefka_court_mage_m7_ij.py
+      - tests/test_m6_pass_c_corpus_stabilization.py
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kefka-court-mage-m7:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Check out exact pull request head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha || github.sha }}
+      - name: Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install offline validators
+        run: python -m pip install --disable-pip-version-check jsonschema pytest
+      - name: Record exact head
+        run: git rev-parse HEAD
+      - name: Deck 25 M7 gate research candidate (one swap, research only blocked, single commander, hashes, staged alternatives, no approval)
+        run: python -m pytest -v tests/test_m7_kefka_court_mage_candidate.py
+      - name: Deck 25 finite Oracle-anchored rules, bounded Pass C Mountain sources, Anger and Entomb haste window, Counsel delirium proxy, Dualcaster partner access, colour sources and combo delta
+        run: python -m pytest -v tests/test_m6_kefka_court_mage_m7_mechanics.py
+      - name: Deck 25 candidate-specific I/J hash binding, J checker and Pass C wording
+        run: python -m pytest -v tests/test_m6_kefka_court_mage_m7_ij.py
+      - name: Shared Pass C corpus stabilization (fail-closed, 60 of 62 pass, decks 30 and 31 rejected)
+        run: python -m pytest -v tests/test_m6_pass_c_corpus_stabilization.py
+      - name: All M7 packets structural gate with sources
+        run: python scripts/grixis_m7_decision_gate.py --check --check-sources
+      - name: M6 J standard bundle checker (stabilized Pass C corpus checker)
+        run: python scripts/grixis_m6_bundle_check.py --check
