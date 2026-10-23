@@ -1,0 +1,3691 @@
+{
+ "baseline": {
+  "included": [
+   [
+    "66-457-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Artificer Class"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ]
+  ],
+  "almostIncluded": [
+   [
+    "513-5034--46",
+    [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "2577-4050",
+    [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1580-2034-4871",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "777-985-5078",
+    [
+     "Sensei's Divining Top",
+     "Foundry Inspector",
+     "Mystic Forge"
+    ],
+    [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   ],
+   [
+    "1580-4050-4871",
+    [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "985-1976-5078",
+    [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Etherium Sculptor"
+    ],
+    [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   ],
+   [
+    "2034-2577-4871",
+    [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "542-5034",
+    [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "777-1020-2866-4659",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Foundry Inspector"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "11-2539",
+    [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    [
+     "Infinite magecraft triggers"
+    ]
+   ],
+   [
+    "777-1020-2034-2866",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Ashnod's Altar",
+     "Foundry Inspector"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "181-1571",
+    [
+     "Cybermen Squadron",
+     "Blightsteel Colossus"
+    ],
+    [
+     "Each opponent loses the game"
+    ]
+   ],
+   [
+    "542-4009",
+    [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    [
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "985-4908-5078",
+    [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ]
+   ],
+   [
+    "703-5291",
+    [
+     "Astral Dragon",
+     "Cursed Mirror"
+    ],
+    [
+     "Infinite copies of noncreature permanents you control",
+     "Infinite creature tokens with haste",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1020-1976-2866-4659",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Etherium Sculptor"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1678-7839",
+    [
+     "Smaug the Impenetrable",
+     "Mayhem Devil"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers"
+    ]
+   ],
+   [
+    "1263-2034-4871",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Bloodsoaked Champion"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-2047-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Mechanized Production"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "2734-4740",
+    [
+     "Aetherflux Reservoir",
+     "Cyberdrive Awakener"
+    ],
+    [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   ],
+   [
+    "1167-1384",
+    [
+     "Mindslaver",
+     "Academy Ruins"
+    ],
+    [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1167-1329",
+    [
+     "Emry, Lurker of the Loch",
+     "Mindslaver"
+    ],
+    [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1020-1976-2034-2866",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Ashnod's Altar",
+     "Etherium Sculptor"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1329-3363-4659",
+    [
+     "Emry, Lurker of the Loch",
+     "The One Ring",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Prevent all damage that would be dealt to you",
+     "You have protection from everything",
+     "Lock"
+    ]
+   ],
+   [
+    "598-4050",
+    [
+     "Liliana, Untouched by Death",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1263-4050-4871",
+    [
+     "Pitiless Plunderer",
+     "Bloodsoaked Champion",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-3121-5003",
+    [
+     "Nim Deathmantle",
+     "Ashnod's Altar",
+     "Marionette Master"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1461-2034-5003",
+    [
+     "Wurmcoil Engine",
+     "Nim Deathmantle",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2034-2946-4871",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Cult Conscript"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-2034-5003",
+    [
+     "Nim Deathmantle",
+     "Ashnod's Altar",
+     "Urza, Lord High Artificer"
+    ],
+    [
+     "Infinite blue mana",
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "1020-2866-4659-4908",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2178-4096",
+    [
+     "Goblin Welder",
+     "Thornbite Staff"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-4871-6291",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Stridehangar Automaton"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "2539-4821",
+    [
+     "Twinning Staff",
+     "Dramatic Reversal"
+    ],
+    [
+     "Infinite magecraft triggers",
+     "Infinite mana nonland permanents you control can produce"
+    ]
+   ],
+   [
+    "876-4944",
+    [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinitely large creature until end of turn"
+    ]
+   ],
+   [
+    "1461-4659-5003",
+    [
+     "Wurmcoil Engine",
+     "Nim Deathmantle",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "661-777-3685-4659",
+    [
+     "Krark-Clan Ironworks",
+     "Spine of Ish Sah",
+     "Sculpting Steel",
+     "Foundry Inspector"
+    ],
+    [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Destroy all permanents opponents control on each of your turns"
+    ]
+   ],
+   [
+    "457-5491-5726",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Three Steps Ahead"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "1020-2034-2866-4908",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Ashnod's Altar",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "181-1558",
+    [
+     "Time Sieve",
+     "Cybermen Squadron"
+    ],
+    [
+     "Infinite turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1329-3338-4659--31",
+    [
+     "Emry, Lurker of the Loch",
+     "Mirran Spy",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "2946-4050-4871",
+    [
+     "Pitiless Plunderer",
+     "Cult Conscript",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-4871-6115",
+    [
+     "Ozox, the Clattering King",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "2539-2655",
+    [
+     "Fury Storm",
+     "Twinning Staff"
+    ],
+    [
+     "Infinite copies of instant and sorcery spells on the stack",
+     "Infinite magecraft triggers"
+    ]
+   ],
+   [
+    "3054-4050-4871",
+    [
+     "Oathsworn Vampire",
+     "Phyrexian Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "4096-7340",
+    [
+     "Goblin Welder",
+     "Sewer-veillance Cam"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "4050-4871-6291",
+    [
+     "Pitiless Plunderer",
+     "Phyrexian Altar",
+     "Stridehangar Automaton"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "876-2904",
+    [
+     "Cephalid Illusionist",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "3362-5291",
+    [
+     "Bladewing the Risen",
+     "Cursed Mirror"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2034-4050-6115",
+    [
+     "Ozox, the Clattering King",
+     "Ashnod's Altar",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4050-4871-6115",
+    [
+     "Ozox, the Clattering King",
+     "Phyrexian Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "1678-4767",
+    [
+     "Silverclad Ferocidons",
+     "Mayhem Devil"
+    ],
+    [
+     "Each opponent sacrifices all permanents they control",
+     "Near-infinite damage",
+     "Mass Land Denial"
+    ]
+   ],
+   [
+    "1167-5483",
+    [
+     "Esoteric Duplicator",
+     "Mindslaver"
+    ],
+    [
+     "You control your opponents on each of their turns",
+     "Lock"
+    ]
+   ],
+   [
+    "2034-2738-4871",
+    [
+     "Tenacious Dead",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "4659-4871-6291",
+    [
+     "Pitiless Plunderer",
+     "Stridehangar Automaton",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "457-5129-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Mirrorworks"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "618-5361",
+    [
+     "Kiki-Jiki, Mirror Breaker",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1690-1976-2538-5034",
+    [
+     "Jhoira, Weatherlight Captain",
+     "Words of Wind",
+     "Etherium Sculptor",
+     "Sol Ring"
+    ],
+    [
+     "Infinite storm count",
+     "Return all permanents opponents control to their owner's hand",
+     "Infinite creature LTB",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2034-2143",
+    [
+     "Spawnsire of Ulamog",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2793-4659-5483",
+    [
+     "Ugin's Nexus",
+     "Esoteric Duplicator",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1690-2538-4908-5034",
+    [
+     "Jhoira, Weatherlight Captain",
+     "Words of Wind",
+     "Enthusiastic Mechanaut",
+     "Sol Ring"
+    ],
+    [
+     "Infinite storm count",
+     "Return all permanents opponents control to their owner's hand",
+     "Infinite creature LTB",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1329-4659-7340",
+    [
+     "Emry, Lurker of the Loch",
+     "Sewer-veillance Cam",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite colorless mana"
+    ]
+   ],
+   [
+    "777-1690-2538-5034",
+    [
+     "Jhoira, Weatherlight Captain",
+     "Words of Wind",
+     "Foundry Inspector",
+     "Sol Ring"
+    ],
+    [
+     "Infinite storm count",
+     "Return all permanents opponents control to their owner's hand",
+     "Infinite creature LTB",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2034-4871-6116",
+    [
+     "Haunt of the Dead Marshes",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "2034-2967-4871",
+    [
+     "Pashalik Mons",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2738-4050-4871",
+    [
+     "Tenacious Dead",
+     "Phyrexian Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "457-1409-4659",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "661-1976-3685-4659",
+    [
+     "Krark-Clan Ironworks",
+     "Spine of Ish Sah",
+     "Sculpting Steel",
+     "Etherium Sculptor"
+    ],
+    [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Destroy all permanents opponents control on each of your turns"
+    ]
+   ],
+   [
+    "1953-3259",
+    [
+     "Breath of Fury",
+     "Brudiclad, Telchor Engineer"
+    ],
+    [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "876-4871-7072",
+    [
+     "Joo Dee, One of Many",
+     "Pitiless Plunderer",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "4050-4871-5920",
+    [
+     "Undead Sprinter",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "457-1409-3121",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Marionette Master"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact tokens",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "3750-5340",
+    [
+     "Poetic Ingenuity",
+     "Aggravated Assault"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "1527-1678",
+    [
+     "Magmatic Galleon",
+     "Mayhem Devil"
+    ],
+    [
+     "Infinite colored mana"
+    ]
+   ],
+   [
+    "1636-4096",
+    [
+     "Goblin Welder",
+     "Intruder Alarm"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce"
+    ]
+   ],
+   [
+    "457-1329-4659-7340",
+    [
+     "Emry, Lurker of the Loch",
+     "Sewer-veillance Cam",
+     "Urza, Lord High Artificer",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "457-1409-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Worldwalker Helm"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite tapped creature tokens",
+     "Infinite tapped Map tokens"
+    ]
+   ],
+   [
+    "4694-4871",
+    [
+     "Pitiless Plunderer",
+     "March of the Machines"
+    ],
+    [
+     "Draw the game",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2034-3764-4871",
+    [
+     "Summoning Station",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-1409-2034",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "457-3490-3949",
+    [
+     "Urza, Lord High Artificer",
+     "Animation Module",
+     "Kappa Cannoneer"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite tapped creature tokens"
+    ]
+   ],
+   [
+    "457-5491-6618",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Relm's Sketching"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "2034-4871-5433",
+    [
+     "Krenko, Baron of Tin Street",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-1469-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Court of Vantress"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "661-2723",
+    [
+     "Blazing Sunsteel",
+     "Sculpting Steel"
+    ],
+    [
+     "Infinite damage"
+    ]
+   ],
+   [
+    "1461-2178-4096",
+    [
+     "Goblin Welder",
+     "Thornbite Staff",
+     "Wurmcoil Engine"
+    ],
+    [
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "4050-4871-6429",
+    [
+     "Razorlash Transmogrant",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4050-4871-5433",
+    [
+     "Krenko, Baron of Tin Street",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "661-3685-4659-4908",
+    [
+     "Krark-Clan Ironworks",
+     "Spine of Ish Sah",
+     "Sculpting Steel",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Destroy all permanents opponents control on each of your turns"
+    ]
+   ],
+   [
+    "2084-3734",
+    [
+     "Mirror-Mad Phantasm",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "4659-5747-7282",
+    [
+     "Chrome Dome",
+     "Simulacrum Synthesizer",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2143-4871",
+    [
+     "Spawnsire of Ulamog",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "3764-4050-4871",
+    [
+     "Summoning Station",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-4483-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Echo Storm"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite artifact ETB",
+     "Infinite blue mana",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "549-4096-4853",
+    [
+     "Goblin Welder",
+     "Dross Scorpion",
+     "Biotransference"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "2034-3490-3949",
+    [
+     "Kappa Cannoneer",
+     "Animation Module",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite +1/+1 counters on a creature",
+     "Infinite colorless mana",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "457-797-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Stolen Identity"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "3362-3734",
+    [
+     "Bladewing the Risen",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "457-5487-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Molten Duplication"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "2034-4640",
+    [
+     "Oathkeeper, Takeno's Daisho",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1329-2178-4659",
+    [
+     "Emry, Lurker of the Loch",
+     "Thornbite Staff",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2723-3734",
+    [
+     "Blazing Sunsteel",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite damage"
+    ]
+   ],
+   [
+    "457-964-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Replication Specialist"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "1329-2034-2178",
+    [
+     "Emry, Lurker of the Loch",
+     "Thornbite Staff",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "4659-5491-7282",
+    [
+     "Chrome Dome",
+     "Worldwalker Helm",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "876-2796",
+    [
+     "Cephalid Aristocrat",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "457-1409-4050",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "549-2034-3764",
+    [
+     "Summoning Station",
+     "Biotransference",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "224-2119-3281-4096",
+    [
+     "Goblin Welder",
+     "Retreat to Coralhelm",
+     "Seat of the Synod",
+     "Great Furnace"
+    ],
+    [
+     "Infinite blue mana",
+     "Infinite landfall triggers",
+     "Infinite red mana"
+    ]
+   ],
+   [
+    "2034-4871-8168",
+    [
+     "Pitiless Plunderer",
+     "Draconic Visitor",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1329-2816-4659-5034",
+    [
+     "Emry, Lurker of the Loch",
+     "Umbral Mantle",
+     "Sol Ring",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinitely large creature until end of turn",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "457-1025-5085",
+    [
+     "Stasis",
+     "Urza, Lord High Artificer",
+     "Thopter Spy Network"
+    ],
+    [
+     "Mass Land Denial",
+     "Players skip their untap steps",
+     "Lock"
+    ]
+   ],
+   [
+    "661-2456-3169-4659",
+    [
+     "Genesis Chamber",
+     "Tezzeret, Master of the Bridge",
+     "Sculpting Steel",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "549-3764-4050",
+    [
+     "Summoning Station",
+     "Biotransference",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "3734-4375-4659",
+    [
+     "Technomancer",
+     "Phyrexian Metamorph",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2-2456",
+    [
+     "Tezzeret, Master of the Bridge",
+     "Ancestral Statue"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "2034-3734-4375",
+    [
+     "Technomancer",
+     "Ashnod's Altar",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2084-5361",
+    [
+     "Mirror-Mad Phantasm",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "2084-5291",
+    [
+     "Mirror-Mad Phantasm",
+     "Cursed Mirror"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "3490-3949-4050",
+    [
+     "Kappa Cannoneer",
+     "Animation Module",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2034-4375-5361",
+    [
+     "Technomancer",
+     "Ashnod's Altar",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "985-2034-5220",
+    [
+     "Mortuary",
+     "Ashnod's Altar",
+     "Mystic Forge"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4050-4871-8168",
+    [
+     "Pitiless Plunderer",
+     "Draconic Visitor",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-4871-6214",
+    [
+     "Glitch Interpreter",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Near-infinite self-mill",
+     "Near-infinite creature ETB",
+     "Near-infinite death triggers",
+     "Near-infinite creature LTB"
+    ]
+   ],
+   [
+    "985-4050-5220",
+    [
+     "Mortuary",
+     "Mystic Forge",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "1461-2034-3008",
+    [
+     "Blade of Shared Souls",
+     "Ashnod's Altar",
+     "Wurmcoil Engine"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2762-4659-5491",
+    [
+     "Thopter Squadron",
+     "Krark-Clan Ironworks",
+     "Worldwalker Helm"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4375-4659-5361",
+    [
+     "Technomancer",
+     "Krark-Clan Ironworks",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "985-4659-5220",
+    [
+     "Mortuary",
+     "Krark-Clan Ironworks",
+     "Mystic Forge"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "3734-4050-4375",
+    [
+     "Technomancer",
+     "Phyrexian Metamorph",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "938-2034-4871",
+    [
+     "Marang River Prowler",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1461-3008-4659",
+    [
+     "Blade of Shared Souls",
+     "Krark-Clan Ironworks",
+     "Wurmcoil Engine"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "549-4050-5433",
+    [
+     "Krenko, Baron of Tin Street",
+     "Biotransference",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "4050-4375-5361",
+    [
+     "Technomancer",
+     "Phyrexian Altar",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ]
+  ]
+ },
+ "candidate": {
+  "included": [
+   [
+    "66-457-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Artificer Class"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "4050-4871-6429",
+    [
+     "Razorlash Transmogrant",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ]
+  ],
+  "almostIncluded": [
+   [
+    "513-5034--46",
+    [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "2577-4050",
+    [
+     "Gravecrawler",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1580-2034-4871",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Reassembling Skeleton"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "777-985-5078",
+    [
+     "Sensei's Divining Top",
+     "Foundry Inspector",
+     "Mystic Forge"
+    ],
+    [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   ],
+   [
+    "1580-4050-4871",
+    [
+     "Pitiless Plunderer",
+     "Reassembling Skeleton",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "985-1976-5078",
+    [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Etherium Sculptor"
+    ],
+    [
+     "Infinite card draw",
+     "Near-infinite storm count",
+     "Infinite draw triggers"
+    ]
+   ],
+   [
+    "2034-2577-4871",
+    [
+     "Gravecrawler",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "542-5034",
+    [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "777-1020-2866-4659",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Foundry Inspector"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "11-2539",
+    [
+     "Twinning Staff",
+     "Narset's Reversal"
+    ],
+    [
+     "Infinite magecraft triggers"
+    ]
+   ],
+   [
+    "777-1020-2034-2866",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Ashnod's Altar",
+     "Foundry Inspector"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "181-1571",
+    [
+     "Cybermen Squadron",
+     "Blightsteel Colossus"
+    ],
+    [
+     "Each opponent loses the game"
+    ]
+   ],
+   [
+    "542-4009",
+    [
+     "Tidespout Tyrant",
+     "Mox Opal"
+    ],
+    [
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "985-4908-5078",
+    [
+     "Sensei's Divining Top",
+     "Mystic Forge",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite storm count"
+    ]
+   ],
+   [
+    "703-5291",
+    [
+     "Astral Dragon",
+     "Cursed Mirror"
+    ],
+    [
+     "Infinite copies of noncreature permanents you control",
+     "Infinite creature tokens with haste",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1020-1976-2866-4659",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Etherium Sculptor"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1678-7839",
+    [
+     "Smaug the Impenetrable",
+     "Mayhem Devil"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers"
+    ]
+   ],
+   [
+    "1263-2034-4871",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Bloodsoaked Champion"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-2047-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Mechanized Production"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "2734-4740",
+    [
+     "Aetherflux Reservoir",
+     "Cyberdrive Awakener"
+    ],
+    [
+     "Infinite damage",
+     "Infinite lifegain triggers"
+    ]
+   ],
+   [
+    "1167-1384",
+    [
+     "Mindslaver",
+     "Academy Ruins"
+    ],
+    [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1167-1329",
+    [
+     "Emry, Lurker of the Loch",
+     "Mindslaver"
+    ],
+    [
+     "You control one opponent on each of their turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1020-1976-2034-2866",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Ashnod's Altar",
+     "Etherium Sculptor"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1329-3363-4659",
+    [
+     "Emry, Lurker of the Loch",
+     "The One Ring",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Prevent all damage that would be dealt to you",
+     "You have protection from everything",
+     "Lock"
+    ]
+   ],
+   [
+    "598-4050",
+    [
+     "Liliana, Untouched by Death",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1263-4050-4871",
+    [
+     "Pitiless Plunderer",
+     "Bloodsoaked Champion",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "228-1339-2034",
+    [
+     "The Locust God",
+     "Skullclamp",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite card draw",
+     "Near-infinite colorless mana",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite death triggers"
+    ]
+   ],
+   [
+    "1461-2034-5003",
+    [
+     "Wurmcoil Engine",
+     "Nim Deathmantle",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2034-2946-4871",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Cult Conscript"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-2034-5003",
+    [
+     "Nim Deathmantle",
+     "Ashnod's Altar",
+     "Urza, Lord High Artificer"
+    ],
+    [
+     "Infinite blue mana",
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "1020-2866-4659-4908",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Krark-Clan Ironworks",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2178-4096",
+    [
+     "Goblin Welder",
+     "Thornbite Staff"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-4871-6291",
+    [
+     "Pitiless Plunderer",
+     "Ashnod's Altar",
+     "Stridehangar Automaton"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "2539-4821",
+    [
+     "Twinning Staff",
+     "Dramatic Reversal"
+    ],
+    [
+     "Infinite magecraft triggers",
+     "Infinite mana nonland permanents you control can produce"
+    ]
+   ],
+   [
+    "876-4944",
+    [
+     "Crackdown Construct",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinitely large creature until end of turn"
+    ]
+   ],
+   [
+    "1461-4659-5003",
+    [
+     "Wurmcoil Engine",
+     "Nim Deathmantle",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "661-777-3685-4659",
+    [
+     "Krark-Clan Ironworks",
+     "Spine of Ish Sah",
+     "Sculpting Steel",
+     "Foundry Inspector"
+    ],
+    [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Destroy all permanents opponents control on each of your turns"
+    ]
+   ],
+   [
+    "457-5491-5726",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Three Steps Ahead"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "1020-2034-2866-4908",
+    [
+     "Scrap Trawler",
+     "Myr Retriever",
+     "Ashnod's Altar",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "181-1558",
+    [
+     "Time Sieve",
+     "Cybermen Squadron"
+    ],
+    [
+     "Infinite turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1329-3338-4659--31",
+    [
+     "Emry, Lurker of the Loch",
+     "Mirran Spy",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "2946-4050-4871",
+    [
+     "Pitiless Plunderer",
+     "Cult Conscript",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-4871-6115",
+    [
+     "Ozox, the Clattering King",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "2539-2655",
+    [
+     "Fury Storm",
+     "Twinning Staff"
+    ],
+    [
+     "Infinite copies of instant and sorcery spells on the stack",
+     "Infinite magecraft triggers"
+    ]
+   ],
+   [
+    "3054-4050-4871",
+    [
+     "Oathsworn Vampire",
+     "Phyrexian Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite death triggers",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "228-1339-4050",
+    [
+     "The Locust God",
+     "Skullclamp",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite card draw",
+     "Near-infinite death triggers",
+     "Near-infinite creature ETB",
+     "Near-infinite creature LTB"
+    ]
+   ],
+   [
+    "4096-7340",
+    [
+     "Goblin Welder",
+     "Sewer-veillance Cam"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "4050-4871-6291",
+    [
+     "Pitiless Plunderer",
+     "Phyrexian Altar",
+     "Stridehangar Automaton"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "876-2904",
+    [
+     "Cephalid Illusionist",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "3362-5291",
+    [
+     "Bladewing the Risen",
+     "Cursed Mirror"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2034-4050-6115",
+    [
+     "Ozox, the Clattering King",
+     "Ashnod's Altar",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4050-4871-6115",
+    [
+     "Ozox, the Clattering King",
+     "Phyrexian Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "2034-5003-8123",
+    [
+     "Nim Deathmantle",
+     "Ashnod's Altar",
+     "Royal Warden"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "1678-4767",
+    [
+     "Silverclad Ferocidons",
+     "Mayhem Devil"
+    ],
+    [
+     "Each opponent sacrifices all permanents they control",
+     "Near-infinite damage",
+     "Mass Land Denial"
+    ]
+   ],
+   [
+    "1167-5483",
+    [
+     "Esoteric Duplicator",
+     "Mindslaver"
+    ],
+    [
+     "You control your opponents on each of their turns",
+     "Lock"
+    ]
+   ],
+   [
+    "2034-2738-4871",
+    [
+     "Tenacious Dead",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "4659-4871-6291",
+    [
+     "Pitiless Plunderer",
+     "Stridehangar Automaton",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "457-5129-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Mirrorworks"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "618-5361",
+    [
+     "Kiki-Jiki, Mirror Breaker",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1690-1976-2538-5034",
+    [
+     "Jhoira, Weatherlight Captain",
+     "Words of Wind",
+     "Etherium Sculptor",
+     "Sol Ring"
+    ],
+    [
+     "Infinite storm count",
+     "Return all permanents opponents control to their owner's hand",
+     "Infinite creature LTB",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2034-2143",
+    [
+     "Spawnsire of Ulamog",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2793-4659-5483",
+    [
+     "Ugin's Nexus",
+     "Esoteric Duplicator",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite turns",
+     "Lock"
+    ]
+   ],
+   [
+    "1690-2538-4908-5034",
+    [
+     "Jhoira, Weatherlight Captain",
+     "Words of Wind",
+     "Enthusiastic Mechanaut",
+     "Sol Ring"
+    ],
+    [
+     "Infinite storm count",
+     "Return all permanents opponents control to their owner's hand",
+     "Infinite creature LTB",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1329-4659-7340",
+    [
+     "Emry, Lurker of the Loch",
+     "Sewer-veillance Cam",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite colorless mana"
+    ]
+   ],
+   [
+    "777-1690-2538-5034",
+    [
+     "Jhoira, Weatherlight Captain",
+     "Words of Wind",
+     "Foundry Inspector",
+     "Sol Ring"
+    ],
+    [
+     "Infinite storm count",
+     "Return all permanents opponents control to their owner's hand",
+     "Infinite creature LTB",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2034-4871-6116",
+    [
+     "Haunt of the Dead Marshes",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "2034-2967-4871",
+    [
+     "Pashalik Mons",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite damage",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "4659-5003-8123",
+    [
+     "Nim Deathmantle",
+     "Krark-Clan Ironworks",
+     "Royal Warden"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2738-4050-4871",
+    [
+     "Tenacious Dead",
+     "Phyrexian Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "457-1409-4659",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "661-1976-3685-4659",
+    [
+     "Krark-Clan Ironworks",
+     "Spine of Ish Sah",
+     "Sculpting Steel",
+     "Etherium Sculptor"
+    ],
+    [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Destroy all permanents opponents control on each of your turns"
+    ]
+   ],
+   [
+    "1953-3259",
+    [
+     "Breath of Fury",
+     "Brudiclad, Telchor Engineer"
+    ],
+    [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "876-4871-7072",
+    [
+     "Joo Dee, One of Many",
+     "Pitiless Plunderer",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "4050-4871-5920",
+    [
+     "Undead Sprinter",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "3750-5340",
+    [
+     "Poetic Ingenuity",
+     "Aggravated Assault"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens"
+    ]
+   ],
+   [
+    "1527-1678",
+    [
+     "Magmatic Galleon",
+     "Mayhem Devil"
+    ],
+    [
+     "Infinite colored mana"
+    ]
+   ],
+   [
+    "1636-4096",
+    [
+     "Goblin Welder",
+     "Intruder Alarm"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce"
+    ]
+   ],
+   [
+    "457-1329-4659-7340",
+    [
+     "Emry, Lurker of the Loch",
+     "Sewer-veillance Cam",
+     "Urza, Lord High Artificer",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "457-1409-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Worldwalker Helm"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite tapped creature tokens",
+     "Infinite tapped Map tokens"
+    ]
+   ],
+   [
+    "4694-4871",
+    [
+     "Pitiless Plunderer",
+     "March of the Machines"
+    ],
+    [
+     "Draw the game",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2034-3764-4871",
+    [
+     "Summoning Station",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-1409-2034",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "457-3490-3949",
+    [
+     "Urza, Lord High Artificer",
+     "Animation Module",
+     "Kappa Cannoneer"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite +1/+1 counters on a creature",
+     "Infinite creature ETB",
+     "Infinite tapped creature tokens"
+    ]
+   ],
+   [
+    "457-5491-6618",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Relm's Sketching"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "2034-4871-5433",
+    [
+     "Krenko, Baron of Tin Street",
+     "Pitiless Plunderer",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-1469-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Court of Vantress"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "661-2723",
+    [
+     "Blazing Sunsteel",
+     "Sculpting Steel"
+    ],
+    [
+     "Infinite damage"
+    ]
+   ],
+   [
+    "1461-2178-4096",
+    [
+     "Goblin Welder",
+     "Thornbite Staff",
+     "Wurmcoil Engine"
+    ],
+    [
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "4050-4871-5433",
+    [
+     "Krenko, Baron of Tin Street",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "661-3685-4659-4908",
+    [
+     "Krark-Clan Ironworks",
+     "Spine of Ish Sah",
+     "Sculpting Steel",
+     "Enthusiastic Mechanaut"
+    ],
+    [
+     "Near-infinite artifact ETB",
+     "Near-infinite artifact LTB",
+     "Near-infinite artifact sacrifice triggers",
+     "Destroy all permanents opponents control on each of your turns"
+    ]
+   ],
+   [
+    "2084-3734",
+    [
+     "Mirror-Mad Phantasm",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "4659-5747-7282",
+    [
+     "Chrome Dome",
+     "Simulacrum Synthesizer",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2143-4871",
+    [
+     "Spawnsire of Ulamog",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "3764-4050-4871",
+    [
+     "Summoning Station",
+     "Pitiless Plunderer",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "457-4483-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Echo Storm"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite artifact ETB",
+     "Infinite blue mana",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "549-4096-4853",
+    [
+     "Goblin Welder",
+     "Dross Scorpion",
+     "Biotransference"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "2034-3490-3949",
+    [
+     "Kappa Cannoneer",
+     "Animation Module",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite +1/+1 counters on a creature",
+     "Infinite colorless mana",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "228-594-2034",
+    [
+     "Scuttletide",
+     "Ashnod's Altar",
+     "Skullclamp"
+    ],
+    [
+     "Infinite draw triggers",
+     "Infinite looting",
+     "Infinite self-discard triggers",
+     "Near-infinite card draw"
+    ]
+   ],
+   [
+    "457-797-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Stolen Identity"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "3362-3734",
+    [
+     "Bladewing the Risen",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "457-5487-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Molten Duplication"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "2034-4640",
+    [
+     "Oathkeeper, Takeno's Daisho",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1329-2178-4659",
+    [
+     "Emry, Lurker of the Loch",
+     "Thornbite Staff",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "1303-4050-6429",
+    [
+     "Razorlash Transmogrant",
+     "Necroduality",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "2723-3734",
+    [
+     "Blazing Sunsteel",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite damage"
+    ]
+   ],
+   [
+    "228-1339-4871",
+    [
+     "The Locust God",
+     "Skullclamp",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite card draw",
+     "Infinite draw triggers",
+     "Near-infinite creature tokens with haste",
+     "Near-infinite death triggers"
+    ]
+   ],
+   [
+    "457-964-5491",
+    [
+     "Urza, Lord High Artificer",
+     "Worldwalker Helm",
+     "Replication Specialist"
+    ],
+    [
+     "Infinite artifact tokens",
+     "Infinite blue mana",
+     "Exile your library",
+     "Cast all spells in your library"
+    ]
+   ],
+   [
+    "1329-2034-2178",
+    [
+     "Emry, Lurker of the Loch",
+     "Thornbite Staff",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "4659-5491-7282",
+    [
+     "Chrome Dome",
+     "Worldwalker Helm",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "876-2796",
+    [
+     "Cephalid Aristocrat",
+     "Lightning Greaves"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "457-1409-4050",
+    [
+     "Urza, Lord High Artificer",
+     "Deadeye Navigator",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "549-2034-3764",
+    [
+     "Summoning Station",
+     "Biotransference",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "224-2119-3281-4096",
+    [
+     "Goblin Welder",
+     "Retreat to Coralhelm",
+     "Seat of the Synod",
+     "Great Furnace"
+    ],
+    [
+     "Infinite blue mana",
+     "Infinite landfall triggers",
+     "Infinite red mana"
+    ]
+   ],
+   [
+    "598-2034-6429",
+    [
+     "Liliana, Untouched by Death",
+     "Razorlash Transmogrant",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "2034-4871-8168",
+    [
+     "Pitiless Plunderer",
+     "Draconic Visitor",
+     "Ashnod's Altar"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1329-2816-4659-5034",
+    [
+     "Emry, Lurker of the Loch",
+     "Umbral Mantle",
+     "Sol Ring",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinitely large creature until end of turn",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "661-2456-3169-4659",
+    [
+     "Genesis Chamber",
+     "Tezzeret, Master of the Bridge",
+     "Sculpting Steel",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "549-3764-4050",
+    [
+     "Summoning Station",
+     "Biotransference",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "3734-4375-4659",
+    [
+     "Technomancer",
+     "Phyrexian Metamorph",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2-2456",
+    [
+     "Tezzeret, Master of the Bridge",
+     "Ancestral Statue"
+    ],
+    [
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite storm count"
+    ]
+   ],
+   [
+    "2034-3734-4375",
+    [
+     "Technomancer",
+     "Ashnod's Altar",
+     "Phyrexian Metamorph"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2084-5361",
+    [
+     "Mirror-Mad Phantasm",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "2084-5291",
+    [
+     "Mirror-Mad Phantasm",
+     "Cursed Mirror"
+    ],
+    [
+     "Infinite self-mill"
+    ]
+   ],
+   [
+    "3490-3949-4050",
+    [
+     "Kappa Cannoneer",
+     "Animation Module",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite +1/+1 counters on a creature",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "2034-4375-5361",
+    [
+     "Technomancer",
+     "Ashnod's Altar",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "985-2034-5220",
+    [
+     "Mortuary",
+     "Ashnod's Altar",
+     "Mystic Forge"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4050-4871-8168",
+    [
+     "Pitiless Plunderer",
+     "Draconic Visitor",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite colored mana",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "2034-4871-6214",
+    [
+     "Glitch Interpreter",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Near-infinite self-mill",
+     "Near-infinite creature ETB",
+     "Near-infinite death triggers",
+     "Near-infinite creature LTB"
+    ]
+   ],
+   [
+    "985-4050-5220",
+    [
+     "Mortuary",
+     "Mystic Forge",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "1461-2034-3008",
+    [
+     "Blade of Shared Souls",
+     "Ashnod's Altar",
+     "Wurmcoil Engine"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "2762-4659-5491",
+    [
+     "Thopter Squadron",
+     "Krark-Clan Ironworks",
+     "Worldwalker Helm"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "4375-4659-5361",
+    [
+     "Technomancer",
+     "Krark-Clan Ironworks",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "985-4659-5220",
+    [
+     "Mortuary",
+     "Krark-Clan Ironworks",
+     "Mystic Forge"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ],
+   [
+    "3734-4050-4375",
+    [
+     "Technomancer",
+     "Phyrexian Metamorph",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "938-2034-4871",
+    [
+     "Marang River Prowler",
+     "Ashnod's Altar",
+     "Pitiless Plunderer"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "1461-3008-4659",
+    [
+     "Blade of Shared Souls",
+     "Krark-Clan Ironworks",
+     "Wurmcoil Engine"
+    ],
+    [
+     "Infinite colorless mana",
+     "Infinite creature tokens",
+     "Infinite death triggers",
+     "Infinite creature ETB"
+    ]
+   ],
+   [
+    "549-4050-5433",
+    [
+     "Krenko, Baron of Tin Street",
+     "Biotransference",
+     "Phyrexian Altar"
+    ],
+    [
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite creature sacrifice triggers"
+    ]
+   ],
+   [
+    "4050-4375-5361",
+    [
+     "Technomancer",
+     "Phyrexian Altar",
+     "Auton Soldier"
+    ],
+    [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite creature LTB"
+    ]
+   ],
+   [
+    "598-4659-6429",
+    [
+     "Liliana, Untouched by Death",
+     "Razorlash Transmogrant",
+     "Krark-Clan Ironworks"
+    ],
+    [
+     "Infinite creature LTB",
+     "Infinite creature ETB",
+     "Infinite creature sacrifice triggers",
+     "Infinite death triggers"
+    ]
+   ]
+  ]
+ }
+}
