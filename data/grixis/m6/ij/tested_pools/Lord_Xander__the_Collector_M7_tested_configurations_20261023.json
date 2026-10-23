@@ -1,0 +1,117 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Lord_Xander__the_Collector",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 11,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Lord_Xander__the_Collector_approved_source_2026-10-14.txt",
+   "raw_sha256": "92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787",
+   "logical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 92cdc2f9..., read from canonical encyclopedia main 9b26aa28fc7e16f6652aaec292b4edf84e20db71, path refinement/decklists/Lord_Xander_the_Collector_Approved_2026-10-14.txt, blob 025aa284, introduced by canonical commit 214fd50 on 2026-10-14; registry source_commit 1836b97 holds the same bytes; overrides APPROVED/LOCKED 2026-10-14). Disclosed discrepancy, not changed: tracker row 29 sub-fields still read PENDING."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/lord-xander-the-collector.txt",
+   "raw_sha256": "26b1674fef88552f6e5f2eaff5c85bcefb05ac1a4afb90b728ae8218f24fab63",
+   "logical_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline (lh1:84233c91...). Current, not stale."
+  },
+  {
+   "id": "RESEARCH_THREE_SWAP",
+   "path": "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt",
+   "raw_sha256": "8dc209682c00608e1d903b41988ac7bcec540005624ef7938593ee520f1a28c8",
+   "logical_hash": "lh1:51caa7ea583ad70417bbdf4e1c896e2db3a87021e87fe0425d452bd911fe3620",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "LOCAL_BEST_IN_TESTED_POOL_RESEARCH_ONLY (three genuine swaps, below the five-swap floor; NOT owner-presentable; J bundle blocked by the existing Stage A seal mismatch): +Necromancy -Persist (FLAGGED override of an explicit owner keep: Persist targets only a nonlegendary creature card, so it can never return Lord Xander, the Collector; grid B1 Necromancy returns 12/36 versus Persist 4/36, 10 Necromancy-only, 2 Persist-only at exactly two mana; end-step Necromancy gives an extra dies trigger in 1 cell); +Swiftfoot Boots -Lightning Greaves (Greaves' shroud blocks the deck's own targeting: equips, Saw in Half, Molten Duplication, Feign Death, Malakir Rebirth; grid B2 Boots action OK 44/44 versus Greaves 30/44; cost: haste on the same turn only 22/44 cells with equip {1}; goldfish P(Xander attack trigger) turn 7 0.2978 -> 0.2897); +Malakir Rebirth // Malakir Mire -Bojuka Bog (weakest swap; grid B3 ties 6/16 each, 4 Malakir-only, 4 Bog-only; graveyard hate lost). Goldfish P(Xander cast) turn 7 0.3779 unchanged. Spellbook 11 -> 11 included combos; Game Changers 20 -> 20; lands 33 -> 33; Bracket 4 unchanged."
+  },
+  {
+   "id": "ALT_A_OWNER_KEEPS_NECROMANCY_OVER_KARLACH",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_alt_A_owner_keeps_Necromancy_minus_Karlach_20261023.txt",
+   "raw_sha256": "9567e107f45f9d46711fe217c131b3bc16ae2ea7683d5c2b872d6795ccd26c88",
+   "logical_hash": "lh1:c203df58bae31dcab8eb7f1304042f84f7ca6942542f350067d471c57c7316e6",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged; complete 100 keeping every owner keep and owner add, including Persist). +Necromancy -Karlach, Fury of Avernus plus the Boots and Malakir swaps. Goldfish equals the candidate (turn 7 0.3779 / 0.2897). Karlach is not an explicit owner keep; the cost is the extra-combat secondary close."
+  },
+  {
+   "id": "ALT_B_OWNER_KEEPS_NECROMANCY_OVER_AN_OFFER",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_alt_B_owner_keeps_Necromancy_minus_AnOfferYouCantRefuse_20261023.txt",
+   "raw_sha256": "9443695237c93b2bbaa1dba39ba4cfbddd59b29464e40b09ff85b3a730ce4c28",
+   "logical_hash": "lh1:4f7e6fb9385ccb8d4e99badd4ffe072cd91ed50d11b258b5d9832d764ad04144",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged; complete 100 keeping every owner keep and owner add). +Necromancy -An Offer You Can't Refuse plus the Boots and Malakir swaps. Goldfish equals the candidate. Costs one cheap counter (12 counters/free interaction remain)."
+  },
+  {
+   "id": "PASS_C_GORYOS_VENGEANCE_OVER_PERSIST",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_PassC_plus_GoryosVengeance_minus_Persist_20261023.txt",
+   "raw_sha256": "5a2aebbf5617cdcef0910c4dd06f0228f834f437521705cb2f5a8d1c61182893",
+   "logical_hash": "lh1:8cccf46d3430b1e58842fb11001f4edf07ddd61afa094ee55538c1d83e3c0130",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (Pass C requested comparison; not counted). Goryo's Vengeance returns only legendary creatures (8/36 cells, 4 where Necromancy does not; attack trigger the same turn in 2 cells) but exiles at end step, so no dies trigger and no lasting body; Necromancy returns 12/36. Goldfish equals baseline (the deployment model does not model recursion)."
+  },
+  {
+   "id": "PASS_C_SEIZE_THE_DAY_OVER_KARLACH",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_PassC_plus_SeizeTheDay_minus_Karlach_20261023.txt",
+   "raw_sha256": "c4963daed50033e70c62d6e3113eb16ca45400fbc3575efd816a6c2198e204f8",
+   "logical_hash": "lh1:c516ad5163e7e870f9b5ef15542bc055814eeef830dbce0c6300d787cceb5e10",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT (Pass C secondary item). Seize the Day gives one extra attack trigger for {3}{R} (flashback {2}{R}); Karlach already untaps attackers and adds a combat every turn it attacks. Goldfish equals the candidate."
+  },
+  {
+   "id": "STAGED_KIKI_JIKI_OVER_KARLACH",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_staged_plus_KikiJiki_minus_Karlach_20261023.txt",
+   "raw_sha256": "54c7e8a0400d6b0ea710e8b8af3c4cee67116dfe4da15e8eef6899e009898112",
+   "logical_hash": "lh1:3d16c56458fc8174d9840513d657a63f6124bc1a63c07f8aeae13b20b68f4202",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (staged; not counted). Kiki-Jiki, Mirror Breaker copies nonlegendary creatures for hasty token ETB/attack value, but costs RRR and adds three commander-independent infinite combos (Spellbook 618-1692 with Helm of the Host, 618-3908 with Spark Double, 618-5361 with Auton Soldier; 11 -> 14 included), against the owner's stated guard on generic infinites. Owner choice."
+  },
+  {
+   "id": "REJECT_GLASSPOOL_MIMIC_OVER_TRAINING_CENTER",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_GlasspoolMimic_minus_TrainingCenter_20261023.txt",
+   "raw_sha256": "466798ac0f0edd806b1467f2c44dd32cfd51a1485ad0374c1ae1f4c042576a8b",
+   "logical_hash": "lh1:a4240aa00ef9863d075176fb14cc4596e000a6ac13dc0d05dda57a36d86f3e09",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Glasspool Mimic // Glasspool Shore is a clone MDFC land, but the owner rejected further clones as redundant after the selected clone package (Phyrexian Metamorph, Irenicus's Vile Duplication, 2026-10-14), so it is that class; replacing Training Center (untapped U/R in multiplayer) with a tapped mono-U land also costs deployment (goldfish turn 7 cast 0.3749 versus 0.3779)."
+  },
+  {
+   "id": "REJECT_CHROME_MOX_OVER_TALISMAN",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_ChromeMox_minus_TalismanOfCreativity_20261023.txt",
+   "raw_sha256": "8b4a0e590ce7c36e3f8892a93e2b9d65fbd52ce8b228b60c5940c64a98618ecc",
+   "logical_hash": "lh1:9e27efd20d687269cbcdccb211ea7e4b69346cc4cc648eb50a81df0211980861",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Chrome Mox gains only +0.29 points of P(Xander cast) by turn 7 (0.3808 versus 0.3779, Monte Carlo noise level), costs a card, is generic acceleration and is a Game Changer (20 -> 21)."
+  },
+  {
+   "id": "REJECT_COMMAND_BEACON_OVER_XANDERS_LOUNGE",
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_CommandBeacon_minus_XandersLounge_20261023.txt",
+   "raw_sha256": "0d0b1c992b500164678b0479aebbaff67bcd65aba64a59374e6830920f8a89c1",
+   "logical_hash": "lh1:6a9fd23c393dd5e96e56dec233e829e0b408adb2dd71871df4c6eebc10602652",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "REJECT. Command Beacon is a colourless utility land replacing Xander's Lounge (a tapped U/B/R triome with cycling): goldfish turn 7 cast 0.3786 versus 0.3779 (untapped, inside noise), but three-colour access and cycling are lost, and commander-tax relief is marginal for a 7-drop that is rarely recast."
+  }
+ ]
+}
