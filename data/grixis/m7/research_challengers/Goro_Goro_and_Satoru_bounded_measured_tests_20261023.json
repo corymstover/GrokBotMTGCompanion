@@ -1,0 +1,776 @@
+{
+ "method": "Bounded, finite, deterministic Pass C test for Goro_Goro_and_Satoru (requested: exact approved baseline vs the two Bitterblossom\ncut alternatives, same source assumptions/opponents, paid turn-three UBR, turn 3-7 resource/card draw, blockers/flyers, commander removal,\nsweepers, one realistic extra-combat window). NOT a game simulation and NOT a win-rate: every cell is one fully scripted line resolved by\nhand-coded rules. Shared script (identical for every variant): on the play, mana available on turn t = t (land drop every turn, no rocks);\nT1 Slither Blade (1/2 unblockable); T3 Goro-Goro and Satoru paid {U}{B}{R}; Goro never attacks. Goro rules: one Dragon Spirit 5/5 flier\nper player dealt combat damage by >=1 creature that entered this turn (CR 603.2c one trigger per damage event per player); {1}{R} haste\naffects only creatures on the battlefield at resolution (CR 611.2c), so Dragons made in combat 1 need a second activation for combat 2.\nTested card X is the ONLY variable: Bitterblossom (cast T2), Bident of Thassa (cast T4), Grazilaxx, Illithid Scholar (cast T4),\nMist-Syndicate Naga (ninjutsu {2}{U} T4 returning Slither Blade, which is recast for {U} the next turn), Redoubled Stormsinger (cast T4,\nattacks from T5). Board profiles: lean (Slither Blade only) and engine (adds Daring Piracy already on board from T4: a fresh 1/1 menace\nhaste Pirate each combat). Opponent configs: open (no relevant blockers); flyer_wall (one untapped 2/2 flier that blocks the best\nnon-unblockable fresh attacker each combat); removal (Goro destroyed at start of T5, recast T6 with tax); sweeper (all creatures die at start\nof T6, Goro recast T7 with tax); extra (Great Train Heist {R} on T6: one additional combat; second haste activation paid if mana allows).\nFresh connecters are assumed to be spread across up to three opponents (Dragons = min(fresh connecters, 3)); non-fresh attackers go to one\nopponent. Bident draws per connecting creature; Grazilaxx draws per player dealt damage and returns a blocked attacker to hand.",
+ "per_card_rows": [
+  {
+   "profile": "lean",
+   "opponents": "open",
+   "card": "Bitterblossom",
+   "dragons_made": 4,
+   "dragons_on_board_end_T7": 4,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 9,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "open",
+   "card": "Bident of Thassa",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "open",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "open",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 2,
+   "dragons_on_board_end_T7": 2,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 2,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "open",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "flyer_wall",
+   "card": "Bitterblossom",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 1,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "flyer_wall",
+   "card": "Bident of Thassa",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "flyer_wall",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T5 Grazilaxx returns blocked Grazilaxx, Illithid Scholar"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "flyer_wall",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 2,
+   "dragons_on_board_end_T7": 2,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 2,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "flyer_wall",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "removal",
+   "card": "Bitterblossom",
+   "dragons_made": 2,
+   "dragons_on_board_end_T7": 2,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 7,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "removal",
+   "card": "Bident of Thassa",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "removal",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "removal",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 1,
+   "dragons_on_board_end_T7": 1,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 1,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "removal",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "sweeper",
+   "card": "Bitterblossom",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 1,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 3,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "sweeper",
+   "card": "Bident of Thassa",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 2,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "sweeper",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 2,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "sweeper",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 2,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "sweeper",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "lean",
+   "opponents": "extra",
+   "card": "Bitterblossom",
+   "dragons_made": 6,
+   "dragons_on_board_end_T7": 6,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 11,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "extra",
+   "card": "Bident of Thassa",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 5,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "extra",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 5,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "extra",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 3,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 3,
+   "notes": []
+  },
+  {
+   "profile": "lean",
+   "opponents": "extra",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "open",
+   "card": "Bitterblossom",
+   "dragons_made": 8,
+   "dragons_on_board_end_T7": 8,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 13,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "open",
+   "card": "Bident of Thassa",
+   "dragons_made": 4,
+   "dragons_on_board_end_T7": 4,
+   "cards_drawn_T3_T7": 14,
+   "life_end": 40,
+   "fliers_end": 4,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "open",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 4,
+   "dragons_on_board_end_T7": 4,
+   "cards_drawn_T3_T7": 8,
+   "life_end": 40,
+   "fliers_end": 4,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "open",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 6,
+   "dragons_on_board_end_T7": 6,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 6,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "open",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 7,
+   "dragons_on_board_end_T7": 7,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 7,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "flyer_wall",
+   "card": "Bitterblossom",
+   "dragons_made": 4,
+   "dragons_on_board_end_T7": 4,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 5,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "flyer_wall",
+   "card": "Bident of Thassa",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "flyer_wall",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 0,
+   "dragons_on_board_end_T7": 0,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 0,
+   "notes": [
+    "T4 Grazilaxx returns blocked Pirate",
+    "T5 Grazilaxx returns blocked Pirate",
+    "T6 Grazilaxx returns blocked Pirate",
+    "T7 Grazilaxx returns blocked Pirate"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "flyer_wall",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 2,
+   "dragons_on_board_end_T7": 2,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 2,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "flyer_wall",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 3,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 3,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "removal",
+   "card": "Bitterblossom",
+   "dragons_made": 5,
+   "dragons_on_board_end_T7": 5,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 10,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "removal",
+   "card": "Bident of Thassa",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 3,
+   "cards_drawn_T3_T7": 12,
+   "life_end": 40,
+   "fliers_end": 3,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "removal",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 3,
+   "cards_drawn_T3_T7": 8,
+   "life_end": 40,
+   "fliers_end": 3,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "removal",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 4,
+   "dragons_on_board_end_T7": 4,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 4,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "removal",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 5,
+   "dragons_on_board_end_T7": 5,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 5,
+   "notes": [
+    "T5 Goro destroyed"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "sweeper",
+   "card": "Bitterblossom",
+   "dragons_made": 6,
+   "dragons_on_board_end_T7": 2,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 4,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "sweeper",
+   "card": "Bident of Thassa",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 1,
+   "cards_drawn_T3_T7": 7,
+   "life_end": 40,
+   "fliers_end": 1,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "sweeper",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 3,
+   "dragons_on_board_end_T7": 1,
+   "cards_drawn_T3_T7": 4,
+   "life_end": 40,
+   "fliers_end": 1,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "sweeper",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 5,
+   "dragons_on_board_end_T7": 1,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 1,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "sweeper",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 4,
+   "dragons_on_board_end_T7": 1,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 1,
+   "notes": [
+    "T6 sweeper: all creatures die"
+   ]
+  },
+  {
+   "profile": "engine",
+   "opponents": "extra",
+   "card": "Bitterblossom",
+   "dragons_made": 11,
+   "dragons_on_board_end_T7": 11,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 35,
+   "fliers_end": 16,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "extra",
+   "card": "Bident of Thassa",
+   "dragons_made": 7,
+   "dragons_on_board_end_T7": 7,
+   "cards_drawn_T3_T7": 23,
+   "life_end": 40,
+   "fliers_end": 7,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "extra",
+   "card": "Grazilaxx, Illithid Scholar",
+   "dragons_made": 7,
+   "dragons_on_board_end_T7": 7,
+   "cards_drawn_T3_T7": 11,
+   "life_end": 40,
+   "fliers_end": 7,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "extra",
+   "card": "Mist-Syndicate Naga",
+   "dragons_made": 9,
+   "dragons_on_board_end_T7": 9,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 9,
+   "notes": []
+  },
+  {
+   "profile": "engine",
+   "opponents": "extra",
+   "card": "Redoubled Stormsinger",
+   "dragons_made": 10,
+   "dragons_on_board_end_T7": 10,
+   "cards_drawn_T3_T7": 0,
+   "life_end": 40,
+   "fliers_end": 10,
+   "notes": []
+  }
+ ],
+ "deck_note": "Cards are evaluated one at a time on the identical shared script (marginal contribution if drawn on schedule); a deck variant differs from baseline only by the removed card row vs the Bitterblossom row.",
+ "deck_variants": {
+  "baseline (Bident + Grazilaxx + Naga present)": [
+   "Bident of Thassa",
+   "Grazilaxx, Illithid Scholar",
+   "Mist-Syndicate Naga"
+  ],
+  "Pass C alt A: +Bitterblossom -Bident of Thassa": [
+   "Bitterblossom",
+   "Grazilaxx, Illithid Scholar",
+   "Mist-Syndicate Naga"
+  ],
+  "Pass C alt B: +Bitterblossom -Grazilaxx, Illithid Scholar": [
+   "Bident of Thassa",
+   "Bitterblossom",
+   "Mist-Syndicate Naga"
+  ],
+  "candidate: +Bitterblossom -Mist-Syndicate Naga": [
+   "Bident of Thassa",
+   "Grazilaxx, Illithid Scholar",
+   "Bitterblossom"
+  ]
+ },
+ "not_run": {
+  "matched_game_winrate": "not run: no validated Goro-Goro game model exists in the repo; claiming a win-rate would be unsupported"
+ },
+ "castability_method": "Exact (hypergeometric enumeration, no sampling) probability that Goro-Goro and Satoru can be cast for paid {U}{B}{R} on turn 3 on the\nplay (9 cards seen), and on turn 3/4 on the draw. Sources grouped by colour set from live Oracle text. Assumptions (stated, not hidden):\nfetchlands count as the two colours of their fetchable typed duals; Exotic Orchard and Fellwar Stone count as any colour (opponent\ndependent: optimistic); tapped lands are assumed sequenced on an earlier turn; a 2-mana rock is castable by turn 2 with 2 lands (two with\nSol Ring), Sol Ring adds colourless only; Ancient Tomb/Rogue's Passage are colourless. Only colour-coverage of the three pips is tested.",
+ "castability": {
+  "baseline": {
+   "categories": {
+    "X:": 60,
+    "L:": 2,
+    "R:UBR": 2,
+    "L:BR": 5,
+    "L:UBR": 7,
+    "L:UB": 7,
+    "L:U": 3,
+    "L:R": 1,
+    "L:UR": 7,
+    "S:": 1,
+    "L:B": 1,
+    "R:UR": 1,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.6668,
+   "draw_T3": 0.7456,
+   "play_T4": 0.7456
+  },
+  "candidate": {
+   "categories": {
+    "X:": 60,
+    "L:": 2,
+    "R:UBR": 2,
+    "L:BR": 5,
+    "L:UBR": 7,
+    "L:UB": 7,
+    "L:U": 3,
+    "L:R": 1,
+    "L:UR": 7,
+    "S:": 1,
+    "L:B": 1,
+    "R:UR": 1,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.6668,
+   "draw_T3": 0.7456,
+   "play_T4": 0.7456
+  },
+  "challenge_no_FellwarStone_placeholder_nonmana": {
+   "categories": {
+    "X:": 61,
+    "L:": 2,
+    "R:UBR": 1,
+    "L:BR": 5,
+    "L:UBR": 7,
+    "L:UB": 7,
+    "L:U": 3,
+    "L:R": 1,
+    "L:UR": 7,
+    "S:": 1,
+    "L:B": 1,
+    "R:UR": 1,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.6452,
+   "draw_T3": 0.7254,
+   "play_T4": 0.7254
+  },
+  "alt_two_DragonskullSummit_over_CrumblingNecropolis": {
+   "categories": {
+    "X:": 60,
+    "L:": 2,
+    "R:UBR": 2,
+    "L:BR": 6,
+    "L:UBR": 6,
+    "L:UB": 7,
+    "L:U": 3,
+    "L:R": 1,
+    "L:UR": 7,
+    "S:": 1,
+    "L:B": 1,
+    "R:UR": 1,
+    "R:UB": 1,
+    "R:BR": 1
+   },
+   "play_T3": 0.6654,
+   "draw_T3": 0.7443,
+   "play_T4": 0.7443
+  }
+ },
+ "castability_note": "Fellwar Stone challenge: replacing it with a non-mana placeholder lowers paid turn-3 UBR on the play 0.6668 -> 0.6452 and on the draw 0.7456 -> 0.7254, so Fellwar Stone is retained. Dragonskull Summit over Crumbling Necropolis: 0.6668 -> 0.6654 (loses blue; untapped-ness not modelled). The research candidate changes no mana source, so its castability equals baseline exactly.",
+ "deck_stats": {
+  "baseline": {
+   "lands": 33,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 25,
+    "B": 21,
+    "R": 21
+   },
+   "nonland": 66,
+   "curve": {
+    "1": 13,
+    "2": 21,
+    "3": 19,
+    "4": 10,
+    "5": 3
+   },
+   "avg_nonland_mv": 2.53,
+   "creatures": 31,
+   "equipment": 1,
+   "artifacts": 11,
+   "game_changers": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Jeska's Will",
+    "Vampiric Tutor"
+   ]
+  },
+  "candidate": {
+   "lands": 33,
+   "mdfc_lands": [],
+   "sources_UBR": {
+    "U": 25,
+    "B": 21,
+    "R": 21
+   },
+   "nonland": 66,
+   "curve": {
+    "1": 13,
+    "2": 22,
+    "3": 18,
+    "4": 10,
+    "5": 3
+   },
+   "avg_nonland_mv": 2.515,
+   "creatures": 30,
+   "equipment": 1,
+   "artifacts": 11,
+   "game_changers": [
+    "Ancient Tomb",
+    "Cyclonic Rift",
+    "Demonic Tutor",
+    "Fierce Guardianship",
+    "Jeska's Will",
+    "Vampiric Tutor"
+   ]
+  }
+ }
+}
