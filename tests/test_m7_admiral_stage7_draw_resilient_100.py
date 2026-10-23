@@ -21,6 +21,13 @@ VARIANTS={
   "Admiral_Beckett_Brass_seven_Aerialist_Wave_draw_resilient_20261022.txt",
   {"Kari Zev, Skyship Raider":"Storm Fleet Aerialist",
    "Fiery Cannonade":"Cosmotronic Wave"},7),
+ "six_Wave_Palisade":(
+  "Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+  {"Raise the Palisade":"Cosmotronic Wave"},6),
+ "seven_Aerialist_Wave_Palisade":(
+  "Admiral_Beckett_Brass_seven_Aerialist_Wave_Palisade_draw_resilient_20261022.txt",
+  {"Raise the Palisade":"Cosmotronic Wave",
+   "Kari Zev, Skyship Raider":"Storm Fleet Aerialist"},7),
 }
 BASE_HASH="4ba5c483eb67b5f2647d375450adf9c2b7e79a036d0ba1866e58de8441bf3414"
 D_HASH="201a1d5fc90e30d6aff9a565603fcf8caef69604dad2c07b4951be2b41cc92ee"
@@ -56,7 +63,7 @@ class AdmiralStage7(unittest.TestCase):
         self.assertFalse(ledger["canonical_authority"]["new_m7_owner_approval"])
         self.assertEqual(ledger["m7_status"],"RESEARCH_ONLY_REOPENED_OWNER_APPROVAL_WITHHELD")
 
-    def test_two_complete_distinct_alternative_100_card_systems(self):
+    def test_four_complete_distinct_alternative_100_card_systems(self):
         for title,(file,replacements,swap_count) in VARIANTS.items():
             with self.subTest(title=title):
                 names,quantities,sha=physical(R/file)
@@ -79,6 +86,10 @@ class AdmiralStage7(unittest.TestCase):
                     self.assertEqual(quantities[protected],1,(title,protected))
                 self.assertNotIn("Brotherhood Regalia",quantities)
                 self.assertNotIn("Shizo, Death's Storehouse",quantities)
+                if "Palisade" in title:
+                    self.assertEqual(quantities["Fiery Cannonade"],1)
+                    self.assertEqual(quantities["Cosmotronic Wave"],1)
+                    self.assertEqual(quantities["Raise the Palisade"],0)
 
     def test_Kari_Zev_is_pirate_but_attacking_monkey_is_not(self):
         kari=self.full["Kari Zev, Skyship Raider"]
@@ -114,6 +125,12 @@ class AdmiralStage7(unittest.TestCase):
         self.assertEqual(self.post["Bident of Thassa"]["mana_cost"],"{2}{U}{U}")
         self.assertEqual(self.post["March of the Drowned"]["mana_cost"],"{B}")
         self.assertEqual(self.post["Path of Ancestry"]["type_line"],"Land")
+        # The alternate Wave cut retains Cannonade's instant defense but
+        # exchanges Palisade's board bounce for one attack-window block ban.
+        palisade=self.full["Raise the Palisade"]
+        self.assertEqual((palisade["mana_cost"],palisade["type_line"]),("{4}{U}","Sorcery"))
+        self.assertIn("Return all creatures that aren't of the chosen type",palisade["oracle_text"])
+        self.assertNotIn("Return all creatures",wave["oracle_text"])
 
 if __name__=="__main__":
     unittest.main()
