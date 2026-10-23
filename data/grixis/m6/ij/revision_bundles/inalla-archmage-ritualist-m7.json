@@ -1,0 +1,221 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Inalla__Archmage_Ritualist",
+ "slug": "inalla-archmage-ritualist",
+ "baseline_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "result_hash": "lh1:c3f633472c2acd8e07b82551fc781d5cc5dd5a56f1b6388a728fa9ef0c855ccd",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/inalla-archmage-ritualist.json.gz",
+   "sha256": "sha256:1be91fd91e0a8e3570362c2509effeabecea95d7c19b49f8b290389a868eb074"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/inalla-archmage-ritualist.json.gz",
+   "sha256": "sha256:3b8f53cb541083b30d919c79e635e7005ec520a931f7a1766af779a5e1f0537e"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/inalla-archmage-ritualist.json",
+   "sha256": "sha256:eccfbc02ab9bca1a1dbfb5b9c13a546fa19219ecab78118d82abe082c9b2cc69"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/inalla-archmage-ritualist.json",
+   "sha256": "sha256:822e56198a51cf7fc880c87889d2402ff9eb344f4b22d6bb23172e14a696479a"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/inalla-archmage-ritualist.json",
+   "sha256": "sha256:b05f86f7a9b5f44545d353b6b122779418e728b3a3dcabc80c9f666eeb9dc436"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Inalla__Archmage_Ritualist.json",
+   "sha256": "sha256:83797c36ca51a4905c3b6612d3a0e214b3ac527df08fdca7516104debf57a6bf"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:1ebd3d993e7679d7077cd6b5be96d34b66325db3e23987350cb578e16f727a59"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_Scryfall_live_20261023.json",
+   "sha256": "sha256:f34f679bdeb6c8b6531584980e82bc8e8db296b1e9cac5b2de17228b740ba356"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:729d2f3c0f4ef82ad15d2d9f8eecfc0a73659621695f7ecdda262b69ea0c4b3b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:b2d57b8c38aa520301b3331e99ab55a2e0b675164af246167a91be7ed510fa42"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Inalla__Archmage_Ritualist_approved_source_2026-10-14.txt",
+   "sha256": "sha256:81333ac71d483b667af968bf2ab221e1fa0de6edd7c2395170d15786e5b15fa3"
+  },
+  {
+   "path": "exports/grixis-archidekt/inalla-archmage-ritualist.txt",
+   "sha256": "sha256:45924e0eabb7a253004d5cdf69c32f7ab82d1e0e7406938a033a8f8b39026598"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Inalla__Archmage_Ritualist.txt",
+   "sha256": "sha256:916e056ba387fc7e162a359069f11a1b59e91ffb358931742d2a0b912c6c4ed1"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_DualcasterMage_minus_Kefka_20261023.txt",
+   "sha256": "sha256:112ae3f0b715da6d93638299763a30c4f950ab4aed1cc597b4b424ff683d3c31"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_Micromancer_minus_Kefka_20261023.txt",
+   "sha256": "sha256:a6aceeabc80f66856f98883e4faeb9df59cd17d339cbbaf86cedeb3ce2a1193d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_PassC_plus_SnapcasterMage_minus_ThundertrapTrainer_20261023.txt",
+   "sha256": "sha256:5a8da1da839aebe6fd604cd04a638029264bc29c8813e0855b36309b2fcae68d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_PassC_Dualcaster_Snapcaster_over_Kefka_Trainer_20261023.txt",
+   "sha256": "sha256:e528842c91ab5cf0eaa6cc5db5c6fbff2074eaa54f8d350b4187863f192e7f79"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_two_DefenseGrid_GiftsUngiven_over_Kefka_BloodPet_20261023.txt",
+   "sha256": "sha256:31aba9876dfc206718c76553d69f30f0edfb2f750d0c5c86aa08fccab303cb35"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Inalla__Archmage_Ritualist_one_TishanasTidebinder_over_ThundertrapTrainer_20261023.txt",
+   "sha256": "sha256:db10efe2234a3e410cb05b1d3089b7c96648b5d71d2ed297d0e2607b1cc1653b"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Inalla__Archmage_Ritualist_M7_Scryfall_20261023.json",
+   "sha256": "sha256:46811deea04fbda208c576b580f50b1a315dc734f859413f91850383102fe9bb"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Inalla__Archmage_Ritualist_M7_20261023.md",
+   "sha256": "sha256:d2bb09a6d2e433131a653c567ccd3d99f3fa6f68ba6d0c2a45181573c02185da"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/inalla-archmage-ritualist-m7.json",
+   "sha256": "sha256:c40c019a71318b374090fb533a92352b7a12c072cc0e37355f8b3fa0a296096d"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Inalla__Archmage_Ritualist_M6_I_local_best_20261023.md",
+   "sha256": "sha256:1133d3bbfa819e348a241d9c16bf4f147f9539d393f46963322f27305e97b338"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Inalla__Archmage_Ritualist_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:43b6ccac60f274b87001c3c4e3ae2215416d9f231cdb353750dafdbbd1fee459"
+  },
+  {
+   "path": ".github/workflows/m7-inalla-archmage-ritualist.yml",
+   "sha256": "sha256:2a712c728cc45bb8937e44189a5d5fe3f8702174334a7803416aa1a45f9cffb2"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Inalla__Archmage_Ritualist_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:76b024c5156911c7092a4e11367d1e3c24e64fc5a7ab4a1e585ceb8b5106ef58"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/inalla-archmage-ritualist.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/inalla-archmage-ritualist.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:1456eb0ea43384d9ee55a87347dee5c094d3daa02d324447589950597b07ca0c",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Inalla__Archmage_Ritualist/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:2f01dc23bf853f01ee2363deb2a4550fb8be5ffc534bedb2c5c3ffe64a93797c"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_inalla_archmage_ritualist_m7_mechanics.py",
+    "source_sha256": "sha256:ac63b77a07675496cdd9a93c9a8e3f3d8ff89272af118115815cbc511b3e72bb",
+    "seed": 0,
+    "harness_version": "inalla_archmage_ritualist_m7_finite_rules_and_bounded_pass_c_9_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Nine finite exact (no RNG) Oracle-anchored cases: Inalla Oracle (Eminence intervening-if on nontoken Wizards; tap-five ability without {T}), exact lands-only castability of the Pass C Wizards (Dualcaster Mage 0.4605, Kefka 0.0958, Micromancer 0.2717, Snapcaster/Trainer 0.8045 at 10 cards), Spellseeker 33 vs Micromancer 20 reach, Thundertrap Trainer 0.973098/0.999442, Commander Spellbook delta (+147-500, +147-4598 only with Dualcaster), banned/off-identity exclusions and rules-snapshot anchors. Not a game simulation or win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_inalla_archmage_ritualist_candidate.py",
+    "source_sha256": "sha256:f97718d510e2282cb1bb990caba0773099421b490ad0816460a4fd204f5bcba5",
+    "seed": 0,
+    "harness_version": "inalla_archmage_ritualist_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Zero-swap identity against vendored and canonical sources, gate RESEARCH_ONLY status (not owner-presentable), registry hashes untouched, single commander first, alphabetical, 100 physical singleton (1x Island, 1x Swamp), distinctness vs the five most similar Grixis decks, owner-removed cards not re-added, staged alternatives as complete 100s, commander legality; structural only."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #668 head 909543a5 (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_inalla_archmage_ritualist_m7_ij.py",
+    "source_sha256": "sha256:ee373fb716194478a9f8e95e45bcf4c9c62334954171a04bd62752d13839cbfa",
+    "seed": 0,
+    "harness_version": "inalla_archmage_ritualist_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes (commander/main zones) and exact per-configuration deltas for 9 configurations, runs the J checker, pins the checker sha, checks the low-swap self-challenge, and exercises fail-closed Pass C deck-bound preserved non-independence wording and Stage A seal alias cases; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Inalla__Archmage_Ritualist_M6_J_red_team_20261023.md",
+  "sha256": "sha256:d0e8d4bd745ad2fc0ed8a6daf5e040139d5bd1b37edc94e59b3e9660b319073c"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Inalla__Archmage_Ritualist_M6_J_mana_20261023.md",
+  "sha256": "sha256:058e476e81772279ceef1cec50e9499e94977031adb6c149397af211bc49866e"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
