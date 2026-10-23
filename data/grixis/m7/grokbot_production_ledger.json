@@ -24,13 +24,13 @@
    "registry_recorded_sha256": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
    "registry_recorded_matches_raw": false,
    "candidate_path": "data/grixis/m7/candidate_lists/Anhelo__the_Painter.txt",
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_raw_sha256": "2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58",
+   "current_candidate_sha": "2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58",
    "branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
    "working_branch": "grokbot-deck04-anhelo-the-painter-m7-20261023",
-   "last_pushed_commit": "987152e132a65a96ecfe790fe1067c00a698913b",
+   "last_pushed_commit": "f9c6d47ceb945e0556f6bbe400a39337c317ec00",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/652 (draft)",
-   "swap_count": null,
+   "swap_count": 5,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [
@@ -40,13 +40,14 @@
    "completed_stages": [
     "baseline_provenance",
     "shared_gate_infra_copy_from_651",
-    "discovery_edhrec_scryfall"
+    "discovery_edhrec_scryfall",
+    "candidate_judgments_and_decision_packet"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Stage candidate/alternative lists, packet, tests, I/J, memos, CI",
-   "next_step": "Stage candidate/alternative lists, packet, tests, I/J, memos, CI"
+   "next_action": "Write tests, rules snapshot, I/J, memos, CI workflow",
+   "next_step": "Write tests, rules snapshot, I/J, memos, CI workflow"
   },
   {
    "tracker_number": 5,
