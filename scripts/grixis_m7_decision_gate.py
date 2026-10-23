@@ -203,8 +203,14 @@ def verified_superseding_owner_approved_source(packet, root):
             or git_blob != binding["canonical_live_git_blob_sha"]):
         raise DecisionGateError("Superseding approved source failed SHA256/live Git blob/receipt binding")
     oracle = read(safe_file(root, binding["source_bound_oracle_snapshot_path"]))
+    historical = read(safe_file(root, binding["approved_oracle_snapshot_path"]))
     inventory, marked_commanders, companions = parse_list(source)
-    known = oracle.get("oracle_cards", {})
+    known = historical.get("oracle_snapshot", {}).copy()
+    newer = oracle.get("oracle_cards", {})
+    for name, card in newer.items():
+        if name in known and known[name].get("oracle_id") != card.get("oracle_id"):
+            raise DecisionGateError("Current and historical Scryfall Oracle identity mismatch for " + name)
+    known.update(newer)
     if any(name not in known or not known[name].get("oracle_id") for name in inventory):
         raise DecisionGateError("Approved baseline lacks complete source-bound Oracle IDs")
     # The source-bound Oracle-ID hash is a *different* authority from raw bytes.
