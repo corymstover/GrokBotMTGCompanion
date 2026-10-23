@@ -1,0 +1,72 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "status": "FIVE_PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+ "historical_registry_digest_not_matching_raw": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+ "source_full": "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+ "explicit_pool_size": 5,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Admiral_Brass__Unsinkable_approved_source_2026-10-13.txt",
+   "raw_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+   "logical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "physical_cards": 100,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved list is unchanged and is the comparison anchor. Its weakest Pirates (Scallywag, Francisco, Fathom Fleet Captain, Changeling Outcast, Pitiless Plunderer) add little when Brass returns them as base 4/4 finality bodies. Historic approval does not depend on this pool."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable.txt",
+   "raw_sha256": "953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475",
+   "logical_hash": "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d",
+   "physical_cards": 100,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. Exact five in-place swaps: +Kitesail Larcenist +Timestream Navigator +Warkite Marauder +Ragavan +Jhoira / -Scallywag -Francisco -Fathom Fleet Captain -Changeling Outcast -Pitiless Plunderer. Same 31 lands + MDFC, same mana artifacts and same Pirate density. Every add has an ETB, attack or activated payoff that Brass recursion reuses."
+  },
+  {
+   "id": "SIX_NESTING_GROUNDS",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_six_NestingGrounds_20261023.txt",
+   "raw_sha256": "873ed9347db8cb3b0cc418844043c53f8e53f1d00e8f0fc1e4821a747a420022",
+   "logical_hash": "lh1:b69e752cd7a864194310cebc14ed85b65788453f60d689372eafa0b9da836fef",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE. Preferred five plus Nesting Grounds for Crumbling Necropolis. It can move finality off a returned Pirate, but only at sorcery speed (Power Conduit already does this at instant speed). It drops U/B/R land sources from 26/24/24 to 25/23/23 after the adds raised blue pips to 27."
+  },
+  {
+   "id": "SEVEN_NESTING_ALTAR",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_seven_NestingGrounds_AshnodsAltar_20261023.txt",
+   "raw_sha256": "94ac3d88434ed9131fd5a7b63fcb796a07809b7b8fa5f79af536aa49b467d88d",
+   "logical_hash": "lh1:ca5012d70ac21e0c2ffebedec0aa6bf03adac661af2fae96f546f7fdb9078c30",
+   "physical_cards": 100,
+   "judgment": "REJECT. The six-swap list plus Ashnod's Altar for Talisman of Indulgence. The Altar makes mana only by sacrificing creatures; finality exiles returned Pirates and Plunderer is cut. Losing the turn-2 B/R rock weakens the turn-4 Brass that the whole plan depends on."
+  },
+  {
+   "id": "EIGHT_RAVAGER_CREW_PIT",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_eight_Ravager_Crew_SpawningPit_20261023.txt",
+   "raw_sha256": "54feef8c62720674044893b7c3db80e550ca0baf73bf1979e7182b2c134d651f",
+   "logical_hash": "lh1:3aa4af1a6720fa22e307d2f5b67e36251f71e5110cc97772980c9aa9e3552af3",
+   "physical_cards": 100,
+   "judgment": "REJECT. Preferred five plus Dire Fleet Ravager, Captivating Crew and Spawning Pit for Corsair Captain, Edward Kenway and Rakdos Signet. Ravager's symmetric life loss taxes Ancient Tomb, Talisman pings and the tutors. Crew duplicates the free Coercive Recruiter threaten, and Spawning Pit is the weakest free outlet."
+  }
+ ],
+ "provisional_preferred": "PREFERRED_FIVE",
+ "provisional_preferred_raw_sha256": "953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475",
+ "provisional_preferred_logical_hash": "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d",
+ "single_card_contenders_outside_full_lists": "17 further single-card contenders are recorded with named cuts and judgments in data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable.json material_candidates. They were judged against their named incumbents but not built as separate 100-card files.",
+ "actual_mechanical_fixtures": [
+  "tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py",
+  "tests/test_m7_admiral_brass_unsinkable_candidate.py",
+  "tests/test_m6_admiral_brass_unsinkable_m7_ij.py"
+ ],
+ "still_required": [
+  "Owner (Cory) exact-list decision",
+  "GitHub CI run on the pushed branch (not yet run; push pending token workflow scope)",
+  "Optional ChatGPT adversarial critique of the G packet"
+ ],
+ "no_win_rate_or_global_claim": true,
+ "m6_I_pass_issued_scope": "tested_pool_local_only",
+ "owner_m7_approved": false,
+ "m6_10_accepted": false
+}

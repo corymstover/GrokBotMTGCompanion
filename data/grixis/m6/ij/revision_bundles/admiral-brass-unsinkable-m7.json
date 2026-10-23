@@ -1,0 +1,185 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "slug": "admiral-brass-unsinkable",
+ "baseline_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+ "result_hash": "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Admiral_Brass__Unsinkable_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/admiral-brass-unsinkable.json.gz",
+   "sha256": "sha256:8d39df81c5a006c52b47ae3bdee047095c6d0604c0b12bf0c556d79d56c1a9e5"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/admiral-brass-unsinkable.json.gz",
+   "sha256": "sha256:f9e43158969f8f2cbdfffe872a94a1bd1fd5c92398fa576ac32bad91151d580c"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/admiral-brass-unsinkable.json",
+   "sha256": "sha256:4d996bf6b92c385201ea0d1017de32aa14ce5d84285a091fcf9fe7bbca55e135"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/admiral-brass-unsinkable.json",
+   "sha256": "sha256:f3b0d29b9fe3c3e731ef99eef8e0714115ed63f3be2aaaf83f8096071446e625"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/admiral-brass-unsinkable.json",
+   "sha256": "sha256:5abd9aa56d32706cef8187599eea4b117f1f1bc5e79e3eed84453b438cd0c4e0"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable.json",
+   "sha256": "sha256:4d14f5d1f2c5f4aff874e2d367c52de85d1fe5d6aee36964b9ab7b255010fa3b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:0637d9e8a8dc9136e5a9c5dcab6c313156d3286869ece6a4c227e4873d18808a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_Scryfall_live_20261023.json",
+   "sha256": "sha256:6b2169e11bc2551007559dc79974e34f24202cb7b9e11cea8159d8e3789502b9"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Admiral_Brass__Unsinkable_approved_source_2026-10-13.txt",
+   "sha256": "sha256:056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable.txt",
+   "sha256": "sha256:953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_six_NestingGrounds_20261023.txt",
+   "sha256": "sha256:873ed9347db8cb3b0cc418844043c53f8e53f1d00e8f0fc1e4821a747a420022"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_seven_NestingGrounds_AshnodsAltar_20261023.txt",
+   "sha256": "sha256:94ac3d88434ed9131fd5a7b63fcb796a07809b7b8fa5f79af536aa49b467d88d"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_eight_Ravager_Crew_SpawningPit_20261023.txt",
+   "sha256": "sha256:54feef8c62720674044893b7c3db80e550ca0baf73bf1979e7182b2c134d651f"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json",
+   "sha256": "sha256:16e17f2f2bc08d1e85a8304ad4e38329bf997c284fc485aadefa41bdb1e94aea"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Admiral_Brass__Unsinkable_M7_20261023.md",
+   "sha256": "sha256:8109a63d8cd3d8e8467e77c76f874658ca4c37f689cd14e3adaed708f4fad01f"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/admiral-brass-unsinkable-m7.json",
+   "sha256": "sha256:e28fe326384f5121a5407118a7223414e5252a14bafa11b698a773a7320360df"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Admiral_Brass__Unsinkable_M6_I_local_best_20261023.md",
+   "sha256": "sha256:f21986692188cd26840d38712ad4e982a97af5f4c5281c2504979756998d2881"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Admiral_Brass__Unsinkable_M7_five_configurations_20261023.json",
+   "sha256": "sha256:222680d1c58b6d1629b19ed2bb63004720aef2053d087d2dff7f7af65961cb07"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/admiral-brass-unsinkable.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/admiral-brass-unsinkable.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Admiral_Brass__Unsinkable/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:21e36873f1e683cd53ba4e1bc15fb8e551f993071f3f3fec5ed53d33432f3621",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Admiral_Brass__Unsinkable/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:3cd48945559247160bd887f333966a30009075773800f736acf3e0830216d6fa"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py",
+    "source_sha256": "sha256:36388154fdcdd30f0af8a01a89fbd9539c68c88a2bd71e6dde67e037e0ea9ba7",
+    "seed": 0,
+    "harness_version": "brass_unsinkable_m7_finite_rules_7_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Seven finite, seed-0 source-anchored rules and mana cases (Throne targets, finality/Conduit, Navigator payability witness and counterexample, Jhoira life, swap/density/legality). Not a game engine or win-rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_admiral_brass_unsinkable_candidate.py",
+    "source_sha256": "sha256:7ef731e876736cd97b3819ddcef50f00ca7cf0ddeed6a150854aaf7c94420567",
+    "seed": 0,
+    "harness_version": "brass_unsinkable_m7_gate_candidate_4_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Exact five physical swaps, registry hashes untouched, gate owner-presentable structure; no gameplay performance."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_admiral_brass_unsinkable_m7_ij.py",
+    "source_sha256": "sha256:ec23550214bd36f0f37cbe6805a697269f03da90c91a8afafa26ba31e01a3928",
+    "seed": 0,
+    "harness_version": "brass_unsinkable_m7_IJ_5_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes and runs the J checker; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Admiral_Brass__Unsinkable_M6_J_red_team_20261023.md",
+  "sha256": "sha256:1d363d6e04859d1e46e37b1b214a771e2f784f916a8a726835ba6b4d5bb4df50"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Admiral_Brass__Unsinkable_M6_J_mana_20261023.md",
+  "sha256": "sha256:bc7e87c1f1b770184ad0a2769033d4ac31ea100027df6fe627097b55c598ba7f"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}

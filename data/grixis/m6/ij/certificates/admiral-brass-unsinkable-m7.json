@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "deck_id": "Admiral_Brass__Unsinkable",
+  "slug": "admiral-brass-unsinkable",
+  "generated_at": "2026-10-23T12:00:00-05:00",
+  "list_hash": "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Admiral_Brass__Unsinkable_M7_five_configurations_20261023.json",
+    "source_sha256": "sha256:222680d1c58b6d1629b19ed2bb63004720aef2053d087d2dff7f7af65961cb07",
+    "tested_pool_size": 5
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py",
+      "tests/test_m7_admiral_brass_unsinkable_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_admiral_brass_unsinkable_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Admiral_Brass__Unsinkable_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Admiral_Brass__Unsinkable_M7_five_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Admiral_Brass__Unsinkable_M7_20261023.md",
+    "data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only five actual complete 100-card configurations (baseline, preferred five, six/seven/eight-swap alternatives) plus 22 named single-card contenders, judged with finite current-Oracle rules cases and qualitative whole-deck comparison. Tests were run locally by GrokBot; no GitHub CI run exists yet. There is no statistical multiplayer ranking. A/B seals and the owner-equivalent Pass C are historical, baseline-scoped and not technically independent. Nothing here implies owner approval, M6 certification, M7 approval or a canonical change."
+  }
+}
