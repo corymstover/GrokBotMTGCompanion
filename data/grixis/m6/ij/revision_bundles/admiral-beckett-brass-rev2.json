@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "stage": "M6_final_reproducibility_bundle",
+  "deck_id": "Admiral_Beckett_Brass",
+  "slug": "admiral-beckett-brass",
+  "baseline_hash": "lh1:38598ad4616bb80278e5e8e24c313afdc8bcd555312bbac3fca33fe84d6e9e86",
+  "result_hash": "lh1:ea49d7981c9274e2ec51ca275312d2d01ab461490a853f049817c44bbdccfda9",
+  "snapshot": {
+    "birthday_id": "birthday-20261017-6e5c604e1459",
+    "oracle_ref": "data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_rev2_97_Scryfall_20261022.json",
+    "rules_ref": "data/grixis/m6/rules_snapshots/Admiral_Beckett_Brass_rev2_Wave_Palisade_20261022.md",
+    "legality_ref": "data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_rev2_97_Scryfall_20261022.json"
+  },
+  "inputs": [
+    {
+      "path": "data/grixis/birthday_m5/candidates/admiral-beckett-brass.json.gz",
+      "sha256": "sha256:86386cd876ac492e2f7041c897175eb1e00ee945f625e31a02a80e40802ad84f"
+    },
+    {
+      "path": "data/grixis/birthday_m5/regen/admiral-beckett-brass.json.gz",
+      "sha256": "sha256:0324416d747cd3c379352e517a8a41c67fc06b4e914add4af435d33ffe8ef951"
+    },
+    {
+      "path": "data/grixis/birthday_m5/evidence/admiral-beckett-brass.json",
+      "sha256": "sha256:5b56524a0f13f532e9d76d39e460f59fc209d4da4e50d108c65337ad184f6870"
+    },
+    {
+      "path": "data/grixis/m6/optimizer/admiral-beckett-brass.json",
+      "sha256": "sha256:d3623c6d9ca3301ec044aff5ee99c7b6652c28b1070b617369b88175a21be59e"
+    },
+    {
+      "path": "data/grixis/m6/review_packets/admiral-beckett-brass.json",
+      "sha256": "sha256:280a5255a3fa8d1d7f0c37df2a645b58404a1e24e976783ecdfbae3ebe040edb"
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Admiral_Beckett_Brass_six_Wave_Palisade_draw_resilient_20261022.txt",
+      "sha256": "sha256:ff5f54f9f608ab0facd62fd3b79df16a0255b4dbbc12d39154a127f27bb8c000"
+    },
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Admiral_Beckett_Brass_rev2_97_Scryfall_20261022.json",
+      "sha256": "sha256:15cc30e95a20e7e8965f99ed3392118099a9a8c3ae07b3e446478c054a0ebe98"
+    },
+    {
+      "path": "data/grixis/m6/rules_snapshots/Admiral_Beckett_Brass_rev2_Wave_Palisade_20261022.md",
+      "sha256": "sha256:5f4b889e804780f0e1189e85de5ef9dfc864ada65c21e522c8500d0e84621c01"
+    },
+    {
+      "path": "data/grixis/m6/ij/certificates/admiral-beckett-brass-rev2.json",
+      "sha256": "sha256:cff6ca4678fc2a88315d3eccb897d3637c6b907423fb9c933fc4fe5b1e6da9c6"
+    },
+    {
+      "path": "data/grixis/m6/certification_preflight/Admiral_M6_I_rev2_seven_config_local_best_20261022.md",
+      "sha256": "sha256:3817b3d6fff003ec533784d4885a34fc7aa5e44924c1007106cd9c00bf98ea18"
+    },
+    {
+      "path": "data/grixis/m6/ij/tested_pools/Admiral_Beckett_Brass_rev2_seven_configurations_20261022.json",
+      "sha256": "sha256:9be5f18c3290413638b7494a4963562d26a67dfb0718c2f9c0dc7e19eee03e5f"
+    }
+  ],
+  "sealed_passes": {
+    "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+    "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+    "a_output_ref": "data/grixis/m6/sealed/A/admiral-beckett-brass.json",
+    "b_output_ref": "data/grixis/m6/sealed/B/admiral-beckett-brass.json",
+    "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+  },
+  "pass_c": {
+    "reviewer": "ChatGPT/OpenAI GPT-6",
+    "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Admiral_Beckett_Brass/final_disposition.md",
+    "judgment_receipt_sha256": "sha256:156686c82b044a01339c7aeef5db0cec5f6824578ac9c53d4eab5c4db2641f40",
+    "conflicts_resolved": true,
+    "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+    "technically_independent": false,
+    "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+    "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+    "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Admiral_Beckett_Brass/seal.json",
+    "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+    "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+    "stage_a_seal_sha256": "sha256:fbe87eb472c4041cbeec58294be84c03af707d12283bcc62518c1ce28894fb37"
+  },
+  "phase_b": {
+    "complete": true,
+    "tests": [
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_brass_p0.py",
+        "source_sha256": "sha256:f51c1520590677be026d4e49775bd1b93d87f66dc57602e0d4f65fff2571762e",
+        "seed": 0,
+        "harness_version": "admiral_beckett_canonical_p0_5_cases",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Five original canonical commander-specific P0 finite source-paid rules cases, not a randomized physical game or candidate-D comparative win-rate; unchanged mechanics only legitimately reused."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_brass_p1_tranche1.py",
+        "source_sha256": "sha256:9b248101fe7e221a54f9a122bc6754f93f48a8ba8dc345797ae33f9a36cf995f",
+        "seed": 0,
+        "harness_version": "admiral_beckett_p1_tranche1_10_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Four P1 blueprint representative bounded rules states; source paid, but no claim of full four-player effects or statistically measured game outcomes."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_brass_p1_tranche2.py",
+        "source_sha256": "sha256:586448999548d02e57a67dddca2ab27440a3b3232970475722ecaaff89f9ad99",
+        "seed": 0,
+        "harness_version": "admiral_beckett_p1_tranche2_10_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Final four original P1 blueprint cases with adverse timing, wrath recovery and hit counterexamples; no universal multiplayer play policy."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_pirate_density_candidate_turn4.py",
+        "source_sha256": "sha256:76d007b5e2534eb5d0bb1540d3ddc1955532e395e9686857ccf44b9f442b41c3",
+        "seed": 0,
+        "harness_version": "admiral_D_exact_four_turn_paid_7_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "A valid specifically drawn three-early-Pirate/4-land witness, not its occurrence frequency; endstep theft still depends on no flyer/Spirit/removal/Fog and a legal target."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_candidate_d_changed_effects.py",
+        "source_sha256": "sha256:cb8379bfb5b2215069cd31e5cfbe085ff95a87be205280b1301a3aeeb08a7044",
+        "seed": 0,
+        "harness_version": "admiral_D_exact_changed_effects_7_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Malcolm/Skyship counter-order conditional, actual paid Broadside boast, Deckhand spell-target effect; no general response stack or card-value measurement."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_candidate_d_adversarial.py",
+        "source_sha256": "sha256:801355b00c29eff8e83753b0c75f8fafd94ef2d8d83646e63d56aaf0b6056327",
+        "seed": 0,
+        "harness_version": "admiral_D_flyer_reach_spirit_forerunner_8_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Finite blocker assignments and surviving Forerunner noncombat loss, not random opponent blocker density or full alternate-board win-rate."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_beckett_pool_effect_comparison.py",
+        "source_sha256": "sha256:b4b06a566430b04d32747bda55d175cead8a50ac43fa88d84accd87c5aeadab0",
+        "seed": 0,
+        "harness_version": "admiral_ABCD_exact_100_role_effects_6_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Physical competing 100-card lists, actual recurring lock/draw and overload/ascend constraints; authored local-best reasoning, no direct measured game-win ranking."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m7_admiral_stage8_wave_palisade_paid_combat.py",
+        "source_sha256": "sha256:92741756f263faa04637c0d32fa545a69af49084c31e4a691746f4de72b695a4",
+        "seed": 0,
+        "harness_version": "rev2_wave_palisade_source_paid_9_finite_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Nine actual concrete mana, blocker, persistent bounce and opponent-turn Cannonade cases; not full priority game engine."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_rev2_candidate_source_bind.py",
+        "source_sha256": "sha256:d8bcbe41049d783885cd54f5ce78850938349262362fb2bbc95d93fbba5b5a39",
+        "seed": 0,
+        "harness_version": "rev2_97_current_saved_oracle_raw_logical_candidate_6_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Exact 100 and legality/source/oracle SHA, not gameplay performance."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_rev2_seven_configuration_pool.py",
+        "source_sha256": "sha256:dd0ae2791d259e857eb763179c5a4fe64f2f3d2c28b3d8b3d988b3031b4a8123",
+        "seed": 0,
+        "harness_version": "rev2_seven_full_100_tested_pool_structural_5_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Seven actual physical source packages and qualitative comparisons; no full matched multiplayer effects."
+        ]
+      },
+      {
+        "test_ref": "tests/test_m6_admiral_rev2_i_local_best.py",
+        "source_sha256": "sha256:c46d4d4f4f0e0595830c759ee3ea03a9dc1440fa5510f3557953c4b1f369ea4b",
+        "seed": 0,
+        "harness_version": "rev2_I_seven_pool_scope_5_methods",
+        "verdict": "pass",
+        "effect_coverage": "bounded_partial",
+        "supports_improvement_claim": false,
+        "limitations": [
+          "Ensures source-bound I local-best provenance/limits, not mechanical game simulation."
+        ]
+      }
+    ]
+  },
+  "red_team": {
+    "report_path": "data/grixis/m6/certification_preflight/Admiral_M6_J_rev2_red_team_20261022.md",
+    "sha256": "sha256:36221c33f796bb6aaa06bd48b924776b27be81400108f55586c66d9a52c78211"
+  },
+  "mana_analysis": {
+    "report_path": "data/grixis/m6/certification_preflight/Admiral_M6_J_rev2_mana_20261022.md",
+    "sha256": "sha256:40123733130e49d2b70344eca907d0b9e395d50937010c8cc9d4fb8899aaa89d"
+  },
+  "unresolved_material_questions": [],
+  "bundle_status": "complete_evidence_not_approval",
+  "authority": {
+    "can_decide": false,
+    "can_apply_swap": false,
+    "can_approve_or_lock": false
+  }
+}
