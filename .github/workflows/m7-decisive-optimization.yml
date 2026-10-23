@@ -296,6 +296,8 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage8_ignus_birgi_impact_paid.py' -v
       - name: Verify stage9 Veyran Warhammer cast copy triggers and three 100-card research lists
         run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage9_veyran_permanent_triggers.py' -v
+      - name: Verify Abaddon stage10 Familiar Ignus paid mana, Rule of Law, and 100-card alternatives
+        run: python -m unittest discover -s tests -p 'test_m7_abaddon_stage10_familiar_resource_discipline.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval

@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE10_INCUMBENT_NIGHTSCAPE_BIRGI_IGNUS_MANA_AND_RULE_OF_LAW_ADVERSARIAL",
+  "dated": "2026-10-22_America_Chicago",
+  "status": "RESEARCH_ONLY_NEW_MATERIAL_INCUMBENT_SYNERGY",
+  "owner_ready": false,
+  "canonical_approved_locked_unchanged": true,
+  "deck3_hold": true,
+  "m6_changed_candidate_certified": false,
+  "canonical": {
+    "repository": "corymstover/grixis-commander-encyclopediaGPT",
+    "branch": "main",
+    "path": "refinement/decklists/Abaddon_the_Despoiler_M7_Approved_2026-10-22.txt",
+    "raw_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+    "cards": 100,
+    "lands": 34
+  },
+  "sources": [
+    {
+      "path": "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+      "cards": [
+        "Abaddon the Despoiler",
+        "Nightscape Familiar",
+        "Grinning Ignus",
+        "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+        "Neheb, the Eternal",
+        "Aggravated Assault",
+        "Loyal Subordinate",
+        "Ponder",
+        "The Ruinous Powers",
+        "The Lost and the Damned",
+        "Nalfeshnee"
+      ],
+      "reason": "Canonical source snapshot: printed mana, permanent abilities, official Commander legality; not a new changed-finalist full Oracle check."
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_nine_offranking_Scryfall_20261022.json",
+      "cards": [
+        "Impact Tremors"
+      ],
+      "reason": "Live Oracle/legality source already preserved at stage8."
+    },
+    {
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_roaming_throne_Scryfall_20261022.json",
+      "cards": [
+        "Veyran, Voice of Duality"
+      ],
+      "reason": "Live Oracle/legality source already preserved at stage9."
+    },
+    {
+      "url": "https://media.wizards.com/2026/downloads/MagicCompRules%2020260807.pdf",
+      "rules": [
+        "601.2f",
+        "601.2g",
+        "601.2i",
+        "602.5d",
+        "603",
+        "605",
+        "505.6"
+      ],
+      "reason": "Existing project WotC comprehensive rules reference for costs, timing, triggers and main phases; Rule of Law is an opponent-board condition, not a card in the deck."
+    },
+    {
+      "url": "https://media.wizards.com/2023/downloads/WOE_Release_Notes_9S5bvPQTjRwh/EN_MTGWOE_ReleaseNotes_20230518.pdf",
+      "reason": "WotC Aggravated Assault as-sorcery activation during own main phase."
+    },
+    {
+      "url": "https://scryfall.com/search?q=%21%22Rule+of+Law%22",
+      "oracle": "Each player can't cast more than one spell each turn.",
+      "reason": "Adverse opposing spell-limit enchantment, not being added to the deck."
+    }
+  ],
+  "decision_changing_new_fact": "Nightscape Familiar reduces Grinning Ignus's generic casting requirement {2}{R} to {1}{R} (once, not twice), while front-face Birgi produces {R} for EVERY Ignus creature cast. Existing three permanents therefore repeatedly generate one NET {C} per full sorcery-speed Ignus cycle while maintaining the same starting {R} float, even without Impact Tremors. Cutting Familiar for Veyran destroys that accumulated colorless-mana loop and loses a one-generic Abaddon commander discount; prior Stage9 Veyran-for-Familiar variants did not fully charge this opportunity cost.",
+  "mana_state_proof": {
+    "prerequisites": [
+      "Nightscape Familiar ({1}{B}) on battlefield as a static reducer",
+      "Birgi FRONT ({2}{R}) on battlefield as spell-cast red producer",
+      "Grinning Ignus ({2}{R}) on battlefield, main phase with empty stack and {R} float",
+      "No Rule of Law or opponent response; Ignus activation is as a sorcery but does NOT tap or require haste"
+    ],
+    "one_full_cycle_reducer_present": [
+      "Begin float {R}, 0 {C}.",
+      "Activate Ignus for {R}, RETURN it to its owner's hand as cost. Ignus's activated mana ability immediately adds {C}{C}{R} without using the stack; its 'Activate only as a sorcery' restriction still applies.",
+      "Cast Ignus for reduced {1}{R}: spend 1 {C}+1 {R}, retain 1 {C}; Birgi cast trigger resolves creating 1 {R}.",
+      "Ignus resolves and returns to battlefield. Clear pending ETB/cascade triggers before next sorcery-speed activation. Finish float {R}+{C}, net +{C}.",
+      "After N uncontested repetitions, float {R}+N {C}; arbitrary colorless/storm count, NOT arbitrary red. Every later qualifying Abaddon-granted cascade from hand is a separate stack event and only if X already high enough."
+    ],
+    "one_cycle_without_reducer": [
+      "Activate Ignus for {R}, add {C}{C}{R}.",
+      "Recast for full {2}{R} consuming all {C}{C}{R}, Birgi still produces {R}.",
+      "Finish with {R}, 0 net {C}; the creature-cast loop still exists but no infinite colorless-mana growth."
+    ],
+    "impact_payoff": "With Impact Tremors on battlefield, Ignus ETB after each cast deals 1 damage to each of three opponents, X+=3 each successful cycle (assuming no prevention or replacement). Familiar makes this loop additionally accumulate colorless; the full three-piece Birgi/Ignus/Tremors outlet does NOT strictly require Familiar.",
+    "commander_curve": "Abaddon {2}{U}{B}{R} costs {1}{U}{B}{R} with Nightscape, enabling a four-mana U/B/R-supported turn if Familiar was already deployed; without Familiar Abaddon costs five mana. Veyran {1}{U}{R} cannot substitute for that discount; it doubles only qualified permanent triggers on instant/sorcery cast/copy events, not Ignus's creature cast or Abaddon's static cascade.",
+    "not_inferred": [
+      "No claim that arbitrary {C} buys colored spell requirements, generates red automatically or guarantees a game win.",
+      "No claim that a life-loss trigger produced AFTER an Ignus cast retroactively adds cascade to that same cast.",
+      "No claim that Veyran doubles Impact Tremors ETBs directly; creature ETB is not instant/sorcery cast/copy event."
+    ]
+  },
+  "adversarial_cases": [
+    {
+      "name": "Rule of Law already on opposing battlefield",
+      "baseline": "If Loyal Subordinate, Abaddon, Neheb and Aggravated Assault are all already battlefield, a beginning-of-combat lieutenant trigger causes 3 life loss EACH of three opponents, X=9. At first postcombat main Neheb produces 9 {R}; spend {3}{R}{R} on Assault (activated ability, not a spell), schedule an extra combat plus postcombat main. Each extra combat with Loyal still active produces another 9 aggregate life lost; each following Neheb trigger independently counts CUMULATIVE this-turn opponent loss. Rule of Law restricts spells, not these abilities, so finite repetition can defeat opponents without combat damage if engine survives.",
+      "impact_variant": "Birgi/Ignus/Tremors cannot be iterated: after a single Ignus spell is cast in a turn, Rule of Law forbids its next cast; if another spell was already cast this turn, zero Ignus casts are permitted. Abaddon cascade hits also cannot be cast if original was the one spell.",
+      "verdict": "Preserve Neheb+Assault+Loyal as an independent, commander-supported anti-spell-stax combat route; do NOT cut Assault merely to fit Impact."
+    },
+    {
+      "name": "Spot removal on Impact trigger stack",
+      "baseline": "After an Ignus recast resolves and its Tremors ETB trigger goes on stack, each opponent receives priority before that trigger resolves. With a nonempty stack the active player may NOT activate Ignus's as-sorcery return ability.",
+      "impact_variant": "Opponent instant-speed removal can destroy Ignus at that window; even if Tremors damage resolves, additional cycles require recasting/recovering Ignus. A counterspell targeting the Ignus creature spell prevents the ETB and also breaks the cycle.",
+      "verdict": "Uncontested deterministic loop is vulnerable; not guaranteed win or empirical win-rate evidence."
+    },
+    {
+      "name": "Veyran qualifier versus creature Ignus",
+      "baseline": "Birgi still produces only one red for each Ignus CREATURE cast because Veyran's conditional trigger-doubling clause requires a CAST/COPY INSTANT OR SORCERY to cause the permanent trigger.",
+      "impact_variant": "Veyran amplifies selected 40K inst/sorc exile-cast triggers and Birgi on qualifying spells; it does not recover Familiar's generic reduction nor double Ignus/Impact creature ETB directly.",
+      "verdict": "A Veyran substitution must be justified through enough independent inst/sorc events to outweigh lost earlier command tempo and one net {C} per Ignus cycle."
+    },
+    {
+      "name": "Opponent removes Loyal or Neheb mid-combat chain",
+      "baseline": "If Neheb leaves before a subsequent postcombat main, no new red mana from its trigger; if Loyal leaves, repeating combat may continue with X already>=5 but is not lethal without another attack or noncombat source.",
+      "impact_variant": "The Tremors alternative survives some creature-combat restrictions but loses to Rule of Law and instant-speed interruption.",
+      "verdict": "Neither payoff package is disruption-proof; retain cross-axis redundancy."
+    }
+  ],
+  "full_100_research_alternatives": [
+    {
+      "name": "IMPACT_ONLY_PRESERVE_FAMILIAR_AND_WARHAMMER",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage10_impact_preserve_familiar_one_research_20261022.txt",
+      "raw_sha256": "c12b8798b2a97fc0e1b1fef30594b62b7f21fc01c352547ed23280480fbe75e2",
+      "adds": [
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "Ponder"
+      ],
+      "swaps": 1,
+      "physical_cards": 100,
+      "land_count": 34,
+      "merit": "Adds reliable commander-independent Birgi/Ignus damage sink, 40K Lost Spawn damage; preserves Nightscape discount+colorless loop, all 40K effects, Neheb+Assault, protection.",
+      "tradeoff": "Removes {U} cantrip smoothing and one-MV cascade hit; not owner-presentable below five, no full finalist verification."
+    },
+    {
+      "name": "VEYRAN_IMPACT_PRESERVE_FAMILIAR_LOSE_RUINOUS",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage10_veyran_impact_preserve_familiar_two_research_20261022.txt",
+      "raw_sha256": "5c3b4ed0ce3aa92d29fe8e7ff658b276cef9ec164b127d7c3c748f029c507cc4",
+      "adds": [
+        "Veyran, Voice of Duality",
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "Ponder",
+        "The Ruinous Powers"
+      ],
+      "swaps": 2,
+      "physical_cards": 100,
+      "land_count": 34,
+      "merit": "Retains discounted Abaddon and net-colorless Ignus loop while adding Veyran's broader spell-trigger doubling and Impact finisher; protects Neheb/Assault, counters, Call Forth double cascade, and Lost/Keeper/Nalfeshnee.",
+      "tradeoff": "Loses The Ruinous Powers {2}{B}{R} Warhammer upkeep opponent-deck access, nonhand spell/land feeding and life-loss on stolen spell cast; true identity loss, not free."
+    },
+    {
+      "name": "EXISTING_STAGE9_VEYRAN_IMPACT_PRESERVE_RUINOUS_LOSE_FAMILIAR",
+      "path": "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage9_veyran_impact_ponder_two_research_20261022.txt",
+      "raw_sha256": "d21444a3d434d49091c35066ff77ecc38c5e30d8fea8b7bbcd8e0303151a33eb",
+      "adds": [
+        "Veyran, Voice of Duality",
+        "Impact Tremors"
+      ],
+      "cuts": [
+        "Ponder",
+        "Nightscape Familiar"
+      ],
+      "swaps": 2,
+      "physical_cards": 100,
+      "land_count": 34,
+      "merit": "Preserves Ruinous 40K theft/exile access and improves selected spell-cast permanent triggers.",
+      "tradeoff": "Stops Familiar's net +{C} Ignus loop and increases Abaddon UBR cast requirement by one; only worth it for credible high-density Veyran benefits."
+    }
+  ],
+  "candidate_dispositions": [
+    {
+      "card": "Impact Tremors",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Stage8 sourced direct 3-opponent payable damage outlet, repeated Ignus casts and 40K Spawn ETB scaling. The Ponder substitution merits further role/cantrip vs finisher comparison; not yet a full-candidate SELECT_ADD."
+    },
+    {
+      "card": "Veyran, Voice of Duality",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Source-confirmed ten contextual existing permanent trigger beneficiaries but three-cost deployment, required U/R colors, dependency on inst/sorc cast events and real loss of a 40K engine or Nightscape. No automatic upgrade."
+    },
+    {
+      "card": "Nightscape Familiar",
+      "disposition": "REJECT",
+      "reason": "REJECT specifically its removal as a presumed free cut; incumbent stays favored in the Ignus/Birgi paid-mana and turn-four commander access scenarios. REJECT here is the proposed cut, not the card as inclusion."
+    },
+    {
+      "card": "Aggravated Assault",
+      "disposition": "REJECT",
+      "reason": "REJECT cut for Tremors: Rule-of-Law-tolerant repeatable activated combat phase with Neheb and Abaddon-supported Loyal that the pure creature-cast loop lacks."
+    },
+    {
+      "card": "Ponder",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Potential least protected cut for Tremors due card-quality role overlap, but cheap {U} selection and MV1 cascade hit are material, especially in low-land opening hands."
+    },
+    {
+      "card": "The Ruinous Powers",
+      "disposition": "RETAIN_ALTERNATIVE",
+      "reason": "Displaceable four-mana slow first value, but uniquely 40K random-opponent-library theft and nonhand cast identity. New Veyran+Impact/Familiar-preserving package must pay this real theme/power opportunity cost."
+    }
+  ],
+  "conservative_comparative_judgment": "NEW RESOURCE FACT INVALIDATES TREATING NIGHTSCAPE AS A LOW-COST Veyran CUT. The single Impact-over-Ponder research variant best retains baseline multi-axis resilience, and Veyran+Impact over Ponder/Ruinous offers a coherent competing two-slot physical 100. Neither is owner-ready and no >5 full finalist superiority is claimed; existing stage4–9 5–8 swap research packages remain adversarial comparators rather than quota-filling.",
+  "next_work": [
+    "Challenge at least two other incumbent weak slots and alternative package cuts without sacrificing Nightscape/Neheb/Loyal/Abaddon cascade mechanics; revisit early threshold/life loss vs 40K nonhand quality.",
+    "If a superior 5+ genuine-replacement integrated whole-100 emerges, independently run exact candidate-source Commander legality, color/curve/lands, all changed-candidate M6 P0/I/J and reproducibility; do not recycle baseline hash/certificate.",
+    "Verify tests and CI on exact PR head; merge engineering evidence, then checkpoint actual receipt and first unfinished strategic requirement. Canonical locked and deck3 hold until exact M7 owner approval."
+  ]
+}
