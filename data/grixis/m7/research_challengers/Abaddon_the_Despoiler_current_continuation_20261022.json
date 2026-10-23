@@ -2,7 +2,7 @@
   "schema_version": 1,
   "deck_id": "Abaddon_the_Despoiler",
   "date": "2026-10-23_America_Chicago",
-  "status": "RESEARCH_ONLY_STAGE14_PROTECTED_SIX_CURRENT_ORACLE_PASS_IJ_UNFINISHED",
+  "status": "RESEARCH_ONLY_STAGE15_TARGETED_P0_EXECUTED_14_PASS_IJ_NOT_REBOUND",
   "owner_sequence": "TRACKER_DECK_1_REOPEN_AFTER_DECK_2_FINAL_LOCK_BEFORE_DECK_3",
   "deck3_hold": true,
   "canonical_authority": {
@@ -45,11 +45,11 @@
         "swaps": 2
       }
     ],
-    "executed_mechanical_tests_this_reopen": 9,
-    "source_bound_full_new_candidate_oracle_clearances": 0,
+    "executed_mechanical_tests_this_reopen": 23,
+    "source_bound_full_new_candidate_oracle_clearances": 1,
     "confirmed_new_strategic_improvements": 0,
-    "status": "RESEARCH_ONLY_STAGE12_WHEEL_RECURSION_POSTFLOOR_TESTED_CI_SUCCESS",
-    "executed_rules_only_test_cases": 9,
+    "status": "RESEARCH_ONLY_STAGE15_SOURCE_BOUND_FULL100_ORACLE_AND_14_NEW_M6_P0_PASS_IJ_UNFINISHED",
+    "executed_rules_only_test_cases": 23,
     "executed_source_guard_tests": 1,
     "executed_exact_head_ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39891263262",
     "last_merged_research_pr": 620,
@@ -388,6 +388,21 @@
       "ci_run_url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906252605",
       "ci_conclusion": "SUCCESS",
       "ci_passed_steps": 87
+    },
+    "stage15": {
+      "test": "tests/test_m6_abaddon_stage15_changed_candidate_p0.py",
+      "ledger": "data/grixis/m6/phase_b_plans/Abaddon_stage15_new_six_changed_effects_20261023.json",
+      "status": "EXACT_HEAD_EXECUTED_PASS_14_OF_14",
+      "pr": 638,
+      "pr_head": "7d4c079d0f7420753608254ddb33f63e6b8a4fd5",
+      "merge_sha": "5e11bf027d505dab05681bcba44f227b78d70984",
+      "ci_run": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39906969961",
+      "successful_steps": 88,
+      "executed_case_count": 14,
+      "modeled_scope": "Source-based paid/timing rules, not full randomized gameplay",
+      "formal_m6_certified": false,
+      "new_m6_ij_candidate_sha_bound": false,
+      "owner_ready": false
     }
   },
   "mandatory_next_deterministic_checks": [
@@ -414,5 +429,6 @@
     "Stage4's six- and eight-swap research packets are valid candidate configurations for comparison, not proofs of strategic superiority, and do not authorize replacing the locked 0d9f6d... list.",
     "EDHREC Top inclusion / High Lift dynamically vary; actual filters and observed metrics recorded Stage13. Direct Scryfall fetched 10 new card records 2026-10-23 and exact changed 100 refreshed in PR #636 CI.",
     "Stage14 current Oracle checks are not a full effect-aware gameplay engine, mandatory M6 I/J tested-pool closure, or new owner approval. Proposed six remains research-only."
-  ]
+  ],
+  "next_action": "First unfinished: reconcile candidate-specific mandatory M6 P0/P1 case obligations (14 newly executed, 104 older suite potentially reusable when unchanged), write source-bound new complete M6 I tested-pool decision for SHA 5ab1..., then new J reproducibility candidate bundle and exact-head CI; only then consider full owner M7 packet. Preserve locked canonical, deck3 hold."
 }
