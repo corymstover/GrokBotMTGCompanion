@@ -605,48 +605,62 @@
    "baseline_raw_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
    "registry_recorded_sha256": "a6022fddd295d7c671690fbce5e25dc6fed47ca7fa77bf1d8a86ebadb2d927bb",
    "registry_recorded_matches_raw": true,
-   "candidate_path": null,
-   "candidate_raw_sha256": null,
-   "current_candidate_sha": null,
+   "candidate_path": "data/grixis/m7/candidate_lists/Don_Andres__the_Renegade.txt",
+   "candidate_raw_sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773",
+   "current_candidate_sha": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773",
    "branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
    "working_branch": "grokbot-deck14-don-andres-the-renegade-m7-20261023",
    "last_pushed_commit": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/662",
-   "swap_count": null,
-   "ci_runs": [],
+   "swap_count": 5,
+   "ci_runs": [
+    {
+     "name": "M7 Deck 14 Don Andres the Renegade candidate (focused)",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39962882068",
+     "head": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
+     "conclusion": "success"
+    },
+    {
+     "name": "M7 decisive commander-first optimization contract",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39962880480",
+     "head": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
+     "conclusion": "success"
+    },
+    {
+     "name": "M6 J owner-equivalent reviewer provenance guard",
+     "url": "https://github.com/corymstover/GrokBotMTGCompanion/actions/runs/39962880446",
+     "head": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
+     "conclusion": "success"
+    }
+   ],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
     "baseline_provenance (canonical main 9b26aa28; raw a6022fdd == overrides == tracker == registry; 100 physical/99 rows, Island x2); shared infra copied from #661 8bcc4c54; draft PR #662 2026-10-23 08:12 CDT",
     "research_live_scryfall_edhrec_csb_and_staged_candidate",
     "pass_c_bounded_tests_and_snapshots",
-    [
-     "pool_and_decision_review",
-     "memos_packet_certificate_bundle_workflow_tests"
-    ],
-    [
-     "wip_removed",
-     "full_suite_vs_base_0_regressions",
-     "pr_ready_exact_head_ci_success"
-    ],
-    [
-     "certificate_timestamp_corrected_exact_head_ci_success"
-    ]
+    "pool_and_decision_review",
+    "memos_packet_certificate_bundle_workflow_tests",
+    "wip_removed",
+    "full_suite_vs_base_0_regressions",
+    "pr_ready_exact_head_ci_success",
+    "certificate_timestamp_corrected_exact_head_ci_success"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
-   "chatgpt_review_status": "NOT_STARTED",
+   "status": "REVIEW_READY_AWAITING_CHATGPT",
+   "chatgpt_review_status": "AWAITING_CHATGPT",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Research snapshots + candidate",
-   "next_step": "Deck #15 Dr__Eggman (index 14)",
+   "next_action": "ChatGPT adversarial review of PR #662, then owner decision",
+   "next_step": "Await ChatGPT review (PR #662 ready, not draft, exact-head CI green)",
    "last_checkpoint_at": "2026-10-23T08:40:00-05:00",
-   "updated_at": "2026-10-23T08:18:00-05:00",
-   "pr_status": "DRAFT_WIP",
-   "pr_is_draft": true,
+   "updated_at": "2026-10-23T09:17:00-05:00",
+   "pr_status": "READY_FOR_REVIEW_REVIEW_READY_NOT_OWNER_APPROVED",
+   "pr_is_draft": false,
    "last_checkpoint_commit": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
-   "stage": "REVIEW_READY_AWAITING_CHATGPT",
+   "stage": "REVIEW_READY",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/662",
    "head": "bc4b9d53bd3afaf51f9c059fc55f8ba1ac7097c6",
-   "candidate_sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773"
+   "candidate_sha256": "05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773",
+   "consistency_fix": "2026-10-23T09:17:00-05:00 (Deck 16 executor): status/pr_status/pr_is_draft/next_action were stale (RESEARCH_IN_PROGRESS/DRAFT_WIP) while stage said REVIEW_READY; verified live PR #662 open, not draft, head bc4b9d53, 3 exact-head CI runs success; set REVIEW_READY_AWAITING_CHATGPT consistently. No PR/branch content changed."
   },
   {
    "tracker_number": 15,
