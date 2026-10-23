@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M7_STAGE13_LIVE_EDHREC_NEW_OPPORTUNITY_SCRYFALL_SOURCE",
+  "retrieved_at_utc": "2026-10-23T05:17:49.911Z",
+  "api_endpoint": "https://api.scryfall.com/cards/collection",
+  "identifiers": [
+    "Ojer Axonil, Deepest Might",
+    "Scrawling Crawler",
+    "Coruscation Mage",
+    "Aurora Phoenix",
+    "Dark Apostle",
+    "Cryptolith Fragment",
+    "Twilight Prophet",
+    "Firebrand Archer",
+    "Bloodthirster",
+    "Lightning Greaves"
+  ],
+  "not_found": [],
+  "official_legality_scope": "Card-level Scryfall Commander legality, not certification of a changed exact 100",
+  "oracle_cards": {
+    "Ojer Axonil, Deepest Might // Temple of Power": {
+      "name": "Ojer Axonil, Deepest Might // Temple of Power",
+      "id": "50f8e2b6-98c7-4f28-bb39-e1fbe841f1ee",
+      "oracle_id": "d3b7b541-6f05-46c1-8031-c848c4bd4635",
+      "mana_cost": null,
+      "cmc": 4,
+      "oracle_text": null,
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Legendary Creature — God // Land",
+      "scryfall_uri": "https://scryfall.com/card/lci/158/ojer-axonil-deepest-might-temple-of-power?utm_source=api",
+      "card_faces": [
+        {
+          "name": "Ojer Axonil, Deepest Might",
+          "mana_cost": "{2}{R}{R}",
+          "type_line": "Legendary Creature — God",
+          "oracle_text": "Trample\nIf a red source you control would deal an amount of noncombat damage less than Ojer Axonil's power to an opponent, that source deals damage equal to Ojer Axonil's power instead.\nWhen Ojer Axonil dies, return it to the battlefield tapped and transformed under its owner's control.",
+          "power": "4",
+          "toughness": "4"
+        },
+        {
+          "name": "Temple of Power",
+          "mana_cost": "",
+          "type_line": "Land",
+          "oracle_text": "(Transforms from Ojer Axonil, Deepest Might.)\n{T}: Add {R}.\n{2}{R}, {T}: Transform this land. Activate only if red sources you controlled dealt 4 or more noncombat damage this turn and only as a sorcery.",
+          "power": null,
+          "toughness": null
+        }
+      ]
+    },
+    "Scrawling Crawler": {
+      "name": "Scrawling Crawler",
+      "id": "a1176dcf-40ee-4342-aa74-791b8352e99a",
+      "oracle_id": "1d60c80d-9a95-4051-bbf7-02ca51ee1be2",
+      "mana_cost": "{3}",
+      "cmc": 3,
+      "oracle_text": "At the beginning of your upkeep, each player draws a card.\nWhenever an opponent draws a card, that player loses 1 life.",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "type_line": "Artifact Creature — Phyrexian Construct",
+      "scryfall_uri": "https://scryfall.com/card/fdn/132/scrawling-crawler?utm_source=api",
+      "card_faces": null
+    },
+    "Coruscation Mage": {
+      "name": "Coruscation Mage",
+      "id": "dc2c1de0-6233-469a-be72-a050b97d2c8f",
+      "oracle_id": "88bb91b5-2ccd-4ce9-8cd4-e54d63c12abf",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "oracle_text": "Offspring {2} (You may pay an additional {2} as you cast this spell. If you do, when this creature enters, create a 1/1 token copy of it.)\nWhenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Otter Wizard",
+      "scryfall_uri": "https://scryfall.com/card/blb/131/coruscation-mage?utm_source=api",
+      "card_faces": null
+    },
+    "Aurora Phoenix": {
+      "name": "Aurora Phoenix",
+      "id": "f9a9e74f-8090-4314-9361-97777fb7b63a",
+      "oracle_id": "a98cc4d0-a322-4142-aee0-83f39b137616",
+      "mana_cost": "{4}{R}{R}",
+      "cmc": 6,
+      "oracle_text": "Flying\nCascade (When you cast this spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)\nWhenever you cast a spell with cascade, return this card from your graveyard to your hand.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Phoenix",
+      "scryfall_uri": "https://scryfall.com/card/clb/778/aurora-phoenix?utm_source=api",
+      "card_faces": null
+    },
+    "Dark Apostle": {
+      "name": "Dark Apostle",
+      "id": "6e346481-c01c-4a93-876e-1130c5edd970",
+      "oracle_id": "8a446307-d9ff-4854-90e6-9cdff5b77aa6",
+      "mana_cost": "{3}{R}",
+      "cmc": 4,
+      "oracle_text": "Gift of Chaos — {3}, {T}: The next noncreature spell you cast this turn has cascade. (When you cast that spell, exile cards from the top of your library until you exile a nonland card that costs less. You may cast it without paying its mana cost. Put the exiled cards on the bottom in a random order.)",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Astartes Warlock",
+      "scryfall_uri": "https://scryfall.com/card/40k/75/dark-apostle?utm_source=api",
+      "card_faces": null
+    },
+    "Cryptolith Fragment // Aurora of Emrakul": {
+      "name": "Cryptolith Fragment // Aurora of Emrakul",
+      "id": "262b7b55-0b32-4c4f-a2ca-02f0b83fa7a2",
+      "oracle_id": "60c8a1d4-8d0a-4906-bcaf-d3a09d57c452",
+      "mana_cost": null,
+      "cmc": 3,
+      "oracle_text": null,
+      "color_identity": [],
+      "commander_legality": "legal",
+      "type_line": "Artifact // Creature — Eldrazi Reflection",
+      "scryfall_uri": "https://scryfall.com/card/inr/260/cryptolith-fragment-aurora-of-emrakul?utm_source=api",
+      "card_faces": [
+        {
+          "name": "Cryptolith Fragment",
+          "mana_cost": "{3}",
+          "type_line": "Artifact",
+          "oracle_text": "This artifact enters tapped.\n{T}: Add one mana of any color. Each player loses 1 life.\nAt the beginning of your upkeep, if each player has 10 or less life, transform this artifact.",
+          "power": null,
+          "toughness": null
+        },
+        {
+          "name": "Aurora of Emrakul",
+          "mana_cost": "",
+          "type_line": "Creature — Eldrazi Reflection",
+          "oracle_text": "Flying, deathtouch\nWhenever this creature attacks, each opponent loses 3 life.",
+          "power": "1",
+          "toughness": "4"
+        }
+      ]
+    },
+    "Twilight Prophet": {
+      "name": "Twilight Prophet",
+      "id": "050ca791-265a-4e7b-9640-4fd5a6d8cd3a",
+      "oracle_id": "a3afd8b9-d499-40f7-be41-f8fee6636a1d",
+      "mana_cost": "{2}{B}{B}",
+      "cmc": 4,
+      "oracle_text": "Flying\nAscend (If you control ten or more permanents, you get the city's blessing for the rest of the game.)\nAt the beginning of your upkeep, if you have the city's blessing, reveal the top card of your library and put it into your hand. Each opponent loses X life and you gain X life, where X is that card's mana value.",
+      "color_identity": [
+        "B"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Vampire Cleric",
+      "scryfall_uri": "https://scryfall.com/card/mkc/143/twilight-prophet?utm_source=api",
+      "card_faces": null
+    },
+    "Firebrand Archer": {
+      "name": "Firebrand Archer",
+      "id": "fe0312f1-4c98-4b7f-8a34-0059ea80edef",
+      "oracle_id": "2e9289d6-dbc6-456d-88cf-d1f534e731d6",
+      "mana_cost": "{1}{R}",
+      "cmc": 2,
+      "oracle_text": "Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Human Archer",
+      "scryfall_uri": "https://scryfall.com/card/fdn/196/firebrand-archer?utm_source=api",
+      "card_faces": null
+    },
+    "Bloodthirster": {
+      "name": "Bloodthirster",
+      "id": "ccbb3a6d-7e75-46c7-a91f-db4cf8d003af",
+      "oracle_id": "e971249a-64a3-4a9b-9a0c-e9d858ca8a55",
+      "mana_cost": "{5}{R}",
+      "cmc": 6,
+      "oracle_text": "Flying, trample\nWhenever this creature deals combat damage to a player, untap it. After this phase, there is an additional combat phase.\nThis creature can't attack a player it has already attacked this turn.",
+      "color_identity": [
+        "R"
+      ],
+      "commander_legality": "legal",
+      "type_line": "Creature — Demon",
+      "scryfall_uri": "https://scryfall.com/card/40k/73/bloodthirster?utm_source=api",
+      "card_faces": null
+    },
+    "Lightning Greaves": {
+      "name": "Lightning Greaves",
+      "id": "b61634ae-05be-4b56-8ebb-9d4ade902e42",
+      "oracle_id": "ca204b66-8d0c-431a-8d34-282f7c2d17da",
+      "mana_cost": "{2}",
+      "cmc": 2,
+      "oracle_text": "Equipped creature has haste and shroud. (It can't be the target of spells or abilities.)\nEquip {0}",
+      "color_identity": [],
+      "commander_legality": "legal",
+      "type_line": "Artifact — Equipment",
+      "scryfall_uri": "https://scryfall.com/card/msc/202/lightning-greaves?utm_source=api",
+      "card_faces": null
+    }
+  },
+  "source_caveat": "Source-bound current fetched fields, each MDFC oracle on card_faces; no strategic win proof or final approval."
+}
