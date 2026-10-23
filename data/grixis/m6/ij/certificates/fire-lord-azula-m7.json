@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "deck_id": "Fire_Lord_Azula",
+  "slug": "fire-lord-azula",
+  "generated_at": "2026-10-23T11:19:07-0500",
+  "list_hash": "lh1:c322775496765320d1e9ccef49784108965afe28500d98e56ba70e6eb0b1ee7a",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Fire_Lord_Azula_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:a936f25869ae1b2bbe17e7a4e2235ee734a4c138f7d80bbfcc9fd6a1d302c68e",
+    "tested_pool_size": 10
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_fire_lord_azula_m7_mechanics.py",
+      "tests/test_m7_fire_lord_azula_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_fire_lord_azula_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Fire_Lord_Azula_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Fire_Lord_Azula_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Fire_Lord_Azula_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Fire_Lord_Azula_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/research_challengers/Fire_Lord_Azula_bounded_measured_tests_20261023.json",
+    "data/grixis/m7/decision_reviews/Fire_Lord_Azula.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 10 complete configurations in the pool: raw baseline, registry canonical export, preferred five, the four-swap keeping Samut (no Turnabout), the four-swap keeping Swan Song (no Flashback), the five-swap keeping Gemstone Caverns and cutting Wooded Foothills, the six-swap adding Mox Amber over Fellwar Stone, and the three Pass C one-swaps on the baseline (Spellseeker over Samut, Storm-Kiln Artist over Big Score, Storm-Kiln Artist over Wan Shi Tong). Not owner approval; the canonical list is unchanged."
+  }
+}

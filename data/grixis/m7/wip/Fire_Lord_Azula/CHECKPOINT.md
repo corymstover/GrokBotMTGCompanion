@@ -13,5 +13,6 @@
 - Provisional swaps: +Turnabout/-Samut, Tyrant of Naktamun (FLAGGED override of owner addition); +Sink into Stupor // Soporific Springs/-Exotic Orchard; +Unexpected Windfall/-Vivi Ornitier; +Flashback/-Swan Song; +Mistrise Village/-Gemstone Caverns.
 - Completed: oracle snapshot (205 names, 0 diffs vs frozen), rules snapshot, tested pool (10 configurations).
 - Completed: decision packet (decision gate passes: M7_STRUCTURALLY_DECISION_READY_NOT_OWNER_APPROVED, 23 material candidates).
-- Next: I/J memos, bundle/certificate, adversarial packet, tests, workflow.
-- Checkpoint written: 2026-10-23T11:09:10-0500
+- Completed: I/J memos (I local-best, J mana, J red team), certificate and J revision bundle (J checker valid), ChatGPT adversarial review packet, candidate/mechanics/IJ tests (10/14/8 pass), focused workflow.
+- Next: remove this WIP file, run the full suite once, mark PR ready, wait for exact-head CI.
+- Checkpoint written: 2026-10-23T11:19:09-0500

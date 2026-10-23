@@ -631,7 +631,7 @@
     }
    }
   ],
-  "break_even": "One pre-combat Artist needs 2 instant/sorcery casts in the attack to repay its 4 mana and 4 casts to match Big Score's 4 Treasures, while drawing 0 cards; as a 2/2 (+1/+0 per artifact) creature it must survive to the attack. If Artist itself is cast during the attack under flash permission, Azula makes a token copy (two Artists, 4 Treasures per spell).",
+  "break_even": "One pre-combat Artist needs 2 instant/sorcery casts in the attack to repay its 4 mana, 3 to out-produce Big Score's net 0 mana and 4 to match Big Score's 4 gross Treasures, while drawing 0 cards; as a 2/2 (+1/+0 per artifact) creature it must survive to the attack. If Artist itself is cast during the attack under flash permission, Azula makes a token copy (two Artists, 4 Treasures per spell).",
   "combo_note": "Storm-Kiln Artist + Azula + Narset's Reversal is a listed CSB line (11-5195-7089); it is real but the Artist is an owner-removed card (2026-10-14), so it is reported, not re-added."
  },
  "azula_castable": {
@@ -834,5 +834,5 @@
    }
   }
  },
- "castability_model": "rocks counted 1 each (Sol Ring/Mana Vault/Grim Monolith colourless, Signet/Petal UBR, Talismans 2 colours); Fellwar Stone, Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, rituals, Simian Spirit Guide and Treasures excluded as conditional; Gemstone Caverns treated as colourless; at most T-1 rocks deployed by turn T; Sink into Stupor MDFC counted as a nonland (conservative) in azula_castable and as an untapped U land (Soporific Springs, 3 life) in azula_castable_mdfc_played_as_land."
+ "castability_model": "rocks counted 1 each (Sol Ring/Mana Vault/Grim Monolith/Fellwar Stone colourless, Signet/Petal UBR, Talismans 2 colours); Chrome Mox, Mox Diamond, Mox Opal, Mox Amber, rituals, Simian Spirit Guide and Treasures excluded as conditional; Gemstone Caverns treated as colourless; at most T-1 rocks deployed by turn T; Sink into Stupor MDFC counted as a nonland (conservative) in azula_castable and as an untapped U land (Soporific Springs, 3 life) in azula_castable_mdfc_played_as_land."
 }
