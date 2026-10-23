@@ -1,0 +1,482 @@
+{
+ "source": "https://backend.commanderspellbook.com/find-my-combos (POST, retrieved 2026-10-23T12:09:20-0500)",
+ "baseline": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "33-3259",
+    "uses": [
+     "Breath of Fury",
+     "Loyal Apprentice"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1347-3259",
+    "uses": [
+     "Breath of Fury",
+     "Urabrask's Forge"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control",
+     "Infinitely powerful creature until end of turn"
+    ]
+   },
+   {
+    "id": "2237-3259",
+    "uses": [
+     "Goro-Goro and Satoru",
+     "Breath of Fury"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "3259-3934",
+    "uses": [
+     "Breath of Fury",
+     "Determined Iteration"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1674-3259",
+    "uses": [
+     "Breath of Fury",
+     "Daring Piracy"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 142,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   },
+   {
+    "id": "3750-4945",
+    "uses": [
+     "Neheb, the Eternal",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases",
+     "Infinite red mana",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "1110-2136",
+    "uses": [
+     "Orthion, Hero of Lavabrink",
+     "Terror of the Peaks"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "3750-5988",
+    "uses": [
+     "Cavern-Hoard Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite combat damage to one opponent"
+    ]
+   },
+   {
+    "id": "1486-3750",
+    "uses": [
+     "Magda, Brazen Outlaw",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "1110-1908",
+    "uses": [
+     "Rionya, Fire Dancer",
+     "Terror of the Peaks"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   }
+  ]
+ },
+ "candidate": {
+  "identity": "UBR",
+  "included": [
+   {
+    "id": "33-3259",
+    "uses": [
+     "Breath of Fury",
+     "Loyal Apprentice"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1347-3259",
+    "uses": [
+     "Breath of Fury",
+     "Urabrask's Forge"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control",
+     "Infinitely powerful creature until end of turn"
+    ]
+   },
+   {
+    "id": "2237-3259",
+    "uses": [
+     "Goro-Goro and Satoru",
+     "Breath of Fury"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "3259-3934",
+    "uses": [
+     "Breath of Fury",
+     "Determined Iteration"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1674-3259",
+    "uses": [
+     "Breath of Fury",
+     "Daring Piracy"
+    ],
+    "produces": [
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite death triggers",
+     "Infinite creature ETB",
+     "Infinite creature LTB",
+     "Infinite mana creatures you control can produce",
+     "Infinite creature sacrifice triggers",
+     "Infinite untap of creatures you control"
+    ]
+   }
+  ],
+  "included_with_commander": [],
+  "almost_included_count": 138,
+  "almost_included_sample": [
+   {
+    "id": "513-5034--46",
+    "uses": [
+     "Hullbreaker Horror",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "3750-5039",
+    "uses": [
+     "The Reaver Cleaver",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite artifact ETB",
+     "Infinite artifact LTB",
+     "Infinite artifact sacrifice triggers",
+     "Infinite artifact tokens",
+     "Infinite colored mana",
+     "Infinite combat damage",
+     "Infinite combat phases",
+     "Infinite mana creatures you control can produce",
+     "Infinite Treasure tokens",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "1878-3368",
+    "uses": [
+     "Reiterate",
+     "Jeska's Will"
+    ],
+    "produces": [
+     "Infinite magecraft triggers",
+     "Infinite red mana",
+     "Infinite storm count",
+     "Exile your library with the ability to play the exiled cards until end of turn"
+    ]
+   },
+   {
+    "id": "542-5034",
+    "uses": [
+     "Tidespout Tyrant",
+     "Sol Ring"
+    ],
+    "produces": [
+     "Infinite colorless mana",
+     "Infinite storm count"
+    ]
+   },
+   {
+    "id": "900-3750",
+    "uses": [
+     "Sword of Feast and Famine",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "778-3750",
+    "uses": [
+     "Ancient Copper Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Near-infinite colored mana",
+     "Near-infinite combat damage",
+     "Near-infinite Treasure tokens",
+     "Near-infinite combat phases",
+     "Near-infinite untap of creatures you control",
+     "Near-infinite mana creatures you control can produce"
+    ]
+   },
+   {
+    "id": "3750-4945",
+    "uses": [
+     "Neheb, the Eternal",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases",
+     "Infinite red mana",
+     "Infinite mana creatures you control can produce",
+     "Infinite untap of creatures you control"
+    ]
+   },
+   {
+    "id": "2552-3263",
+    "uses": [
+     "Mycosynth Lattice",
+     "Vandalblast"
+    ],
+    "produces": [
+     "Destroy all permanents opponents control",
+     "Mass Land Denial"
+    ]
+   },
+   {
+    "id": "1110-2136",
+    "uses": [
+     "Orthion, Hero of Lavabrink",
+     "Terror of the Peaks"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   },
+   {
+    "id": "3750-5988",
+    "uses": [
+     "Cavern-Hoard Dragon",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Target opponent loses the game",
+     "Infinite combat damage to one opponent"
+    ]
+   },
+   {
+    "id": "1486-3750",
+    "uses": [
+     "Magda, Brazen Outlaw",
+     "Aggravated Assault"
+    ],
+    "produces": [
+     "Infinite combat phases"
+    ]
+   },
+   {
+    "id": "1110-1908",
+    "uses": [
+     "Rionya, Fire Dancer",
+     "Terror of the Peaks"
+    ],
+    "produces": [
+     "Near-infinite damage"
+    ]
+   }
+  ]
+ },
+ "retrieved_at": "2026-10-23T12:09:20-0500"
+}

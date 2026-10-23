@@ -9,5 +9,6 @@
   100 physical cards / 99 rows (2x Island; Mountain, Swamp 1 each). Vendored byte-exact copy committed. Archidekt export
   exports/grixis-archidekt/goro-goro-and-satoru.txt has the same 99 names / 100 quantities.
 - Shared infra copied byte-identically from PR #668 head 909543a5 (bundle checker SHA 2962a640...).
-- Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C requested test, candidate judgments.
-- Checkpoint written: 2026-10-23T11:59:13-0500
+- Completed: baseline_provenance; research (Scryfall live, EDHREC, Spellbook); bounded Pass C test + exact castability; candidate judgments.
+- Current finding: 1 genuine swap (+Bitterblossom -Mist-Syndicate Naga) -> RESEARCH_ONLY expected. Next: packet, I/J, bundle, tests, workflow.
+- Checkpoint written: 2026-10-23T12:11:58-0500
