@@ -86,18 +86,25 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
    "working_branch": "grokbot-deck05-ashad-the-lone-cyberman-m7-20261023",
-   "last_pushed_commit": "b6b40ac87a40977341853ac03573b10fcef25960",
-   "pr_url": null,
+   "last_pushed_commit": "265d182259bf44a202ccc99987de4b9ba12c8a19",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/653",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
-   "unresolved_issues": [],
-   "completed_stages": [],
+   "unresolved_issues": [
+    "Pass C bundle_check wording fix pending"
+   ],
+   "completed_stages": [
+    "baseline_provenance",
+    "gate_infra_copied_from_652",
+    "discovery_snapshots",
+    "draft_pr_opened"
+   ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Baseline provenance + shared gate infra copy from #652 + discovery",
-   "next_step": "Baseline provenance + shared gate infra copy from #652 + discovery"
+   "next_action": "99-slot judgment, candidate TXT, decision packet",
+   "next_step": "99-slot judgment, candidate TXT, decision packet"
   },
   {
    "tracker_number": 6,
