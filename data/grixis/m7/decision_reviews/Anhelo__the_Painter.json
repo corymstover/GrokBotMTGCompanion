@@ -1,0 +1,860 @@
+{
+ "schema_version": 1,
+ "stage": "M7_DECISIVE_OWNER_REVIEW_CANDIDATE",
+ "deck_id": "Anhelo__the_Painter",
+ "canonical_baseline_sha256": "8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972",
+ "canonical_baseline_logical_hash": "lh1:627cae661f5af180a2ecc851b83da60339952c4d78cee92e97c0c0bd4eba0132",
+ "baseline_provenance_exception": {
+  "historical_registry_digest": "d19d94b8a96fb27a760c7b7d9181221f74bd61642d1d1dd7644fc1c59c09839e",
+  "physical_raw_sha256": "8d5f8a9bd4fcdcd164aab63150c14dc69a814a4d9fd764876de3214d3adf9972",
+  "source_repository": "corymstover/grixis-commander-encyclopediaGPT",
+  "source_path": "refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt",
+  "vendored_source_copy": "data/grixis/m7/baseline_sources/Anhelo_the_Painter_approved_source_2026-10-13.txt",
+  "discrepancy_explanation": "The 2026-10-13 approval recorded approved_list_sha256 d19d94b8... in state/current_deck_overrides.json#Anhelo_the_Painter, but the canonical approval-ready source file hashes to 8d5f8a9b...; no LF/CRLF/trailing-newline/BOM variant of those bytes reproduces d19d94b8, so it is treated as a historical digest. The physical bytes are vendored unchanged and their logical hash equals the registry current_canonical_hash. No match is claimed.",
+  "evidence_refs": [
+   "canonical main 90e00446: state/current_deck_overrides.json#Anhelo_the_Painter (approved_list_sha256 d19d94b8...)",
+   "canonical refinement/decklists/Anhelo_the_Painter_Approval_Ready_2026-10-13.txt (raw 8d5f8a9b...)",
+   "canonical exports/archidekt_2026-10-15/manifest.csv row for Anhelo (raw 8d5f8a9b...)",
+   "data/grixis/m7/baseline_sources/Anhelo_the_Painter_approved_source_2026-10-13.txt"
+  ]
+ },
+ "commander_identity": {
+  "mechanical_plan": "Anhelo ({U}{B}{R} 1/3 deathtouch) gives the first instant or sorcery we cast in EVERY turn casualty 2: sacrifice a power-2+ creature to copy it. The deck chains cheap interaction, tutors, rituals and combo spells (Reiterate, Twinflame, Narset's Reversal, Jeska's Will, Mana Geyser, Time Warp) and needs a steady supply of power-2+ bodies; magecraft/cast payoffs (Storm-Kiln, Ral, Deekah, Talrand, Veyran, Archmage) turn copies into mana, damage and cards.",
+  "protected_core": [
+   "Anhelo, the Painter",
+   "Reiterate",
+   "Twinflame",
+   "Dualcaster Mage",
+   "Narset's Reversal",
+   "Twinning Staff",
+   "Mana Geyser",
+   "Jeska's Will",
+   "Storm-Kiln Artist",
+   "Ral, Storm Conduit",
+   "Ghoulish Procession",
+   "Jadar, Ghoulcaller of Nephalia",
+   "Poppet Stitcher // Poppet Factory",
+   "Kess, Dissident Mage",
+   "Maestros Ascendancy",
+   "Underworld Breach",
+   "Primal Amulet // Primal Wellspring",
+   "Thunderclap Drake"
+  ],
+  "natural_ceiling": "Power Bracket 4 - Optimized: seven Game Changers (Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Jeska's Will, Mystical Tutor, Underworld Breach, Vampiric Tutor), two-card infinite combos and Time Warp; not cEDH-tuned (no fast mana beyond Sol Ring/Dark Ritual).",
+  "anti_homogenization": "Every add is either casualty fodder that recurs from the graveyard or an instant that exploits opponent-turn casualty; generic spellslinger goodstuff and token-making instants that eat the casualty slot themselves were rejected."
+ },
+ "whole_deck_audit": {
+  "all_noncommand_cards_reviewed": true,
+  "roles_and_overlaps": "All 99 reviewed by quantity: 34 physical lands (25 nonbasic + 3 Island + 3 Mountain + 3 Swamp; closeout's '31 lands' was a row count), 9 static rocks, 20 instants, 11 sorceries, 17 noncommander creatures, 5 enchantments, Ral. Overlap: 43 static mana sources plus Dark Ritual, Cormela, Big Score, BMC and Storm-Kiln Treasures is excess for avg nonland MV 2.83; casualty fodder (power 2+) was thin and much of it came from instants (Startle) that consume the casualty slot.",
+  "mana_base_and_curve": "Baseline 34 lands + 9 rocks = 43 static sources. Candidate 33 lands + 6 rocks (Sol Ring, Arcane Signet, Dimir/Izzet/Rakdos Signet, Talisman of Creativity) = 39, plus Dark Ritual, Treasure makers and three reducers. Curve shifts toward 2-drop creatures (+4 two-drops, -3 two-mana rocks/-1 land). Pips U37 B23 R28 baseline; candidate adds B-heavy bodies (B+5 pips incl. Bedevil BB) and removes Feed the Swarm B; black land sources remain >= 18.",
+  "interaction_resilience": "Stack: Counterspell, Mana Drain, Fierce Guardianship, Deflecting Swat, An Offer You Can't Refuse, Narset's Reversal; removal: Bedevil (new, instant), Chaos Warp, Cyclonic Rift, Deadly Rollick, Crackle, Toxic Deluge, Otawara, Sinister Concierge (temporary); graveyard resilience improved by three graveyard-recastable bodies.",
+  "weakest_slots": [
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Ninth static rock; produces only colors opponents' lands could produce, unreliable for UBR.",
+    "alternative_named": "Skyclave Shade",
+    "reasoning": "Deck has 43 static mana sources for avg nonland MV 2.83; rocks do nothing for the commander's casualty need."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Eighth rock; duplicates Rakdos Signet's B/R.",
+    "alternative_named": "Sinister Concierge",
+    "reasoning": "Mana redundancy is the deck's clearest excess; fodder is its clearest shortage."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "34th land; depends on opponents' colors; colorless in some pods.",
+    "alternative_named": "Dogged Detective",
+    "reasoning": "33 lands + 6 rocks + rituals remains ample; Detective fills the graveyard for recursion engines."
+   },
+   {
+    "card": "Talisman of Dominance",
+    "weakness": "Third Talisman; U/B already covered by Dimir Signet and duals.",
+    "alternative_named": "Tenacious Underdog",
+    "reasoning": "Converting a rock into recursive card-drawing fodder raises the ceiling of the commander engine."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal with life loss; cannot be copied on opponents' turns by Anhelo.",
+    "alternative_named": "Bedevil",
+    "reasoning": "Instant upgrade covering artifacts and planeswalkers and using opponent-turn casualty."
+   },
+   {
+    "card": "Primal Amulet // Primal Wellspring",
+    "weakness": "Four-mana artifact needing four casts before it flips.",
+    "alternative_named": "Tenacious Underdog",
+    "reasoning": "Challenged: kept because Wellspring is a repeatable copy engine and Frantic Search combo; the third Talisman was the weaker slot (alternative staged)."
+   },
+   {
+    "card": "Thunderclap Drake",
+    "weakness": "Two-mana 2/1 reducer; small body.",
+    "alternative_named": "Wizards of Thay",
+    "reasoning": "Kept: cheaper, flies, is power-2 fodder itself and its sac copies scale with commander casts."
+   },
+   {
+    "card": "Training Center",
+    "weakness": "Untapped U/R dual only in multiplayer.",
+    "alternative_named": "Mystic Sanctuary",
+    "reasoning": "Kept: two colors untapped beats a conditionally-tapped mono-U recursion land."
+   },
+   {
+    "card": "Mana Geyser",
+    "weakness": "Five-mana ritual that is weak without many tapped opponent lands.",
+    "alternative_named": "Unexpected Windfall",
+    "reasoning": "Kept: Reiterate + Mana Geyser infinite mana combo piece."
+   },
+   {
+    "card": "Ral, Storm Conduit",
+    "weakness": "Four-mana planeswalker, weak alone.",
+    "alternative_named": "Sedgemoor Witch",
+    "reasoning": "Kept: cast-or-copy damage turns loops into a win."
+   },
+   {
+    "card": "Startle",
+    "weakness": "Instant-made fodder consumes the casualty slot itself.",
+    "alternative_named": "Rotten Reunion",
+    "reasoning": "Kept: cantrip, protects against attackers; replacement shares the same anti-synergy."
+   },
+   {
+    "card": "Galvanic Iteration",
+    "weakness": "Copy effect needing a second spell.",
+    "alternative_named": "Reverberate",
+    "reasoning": "Kept: flashback gives two uses through Kess/Breach."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Symmetric wipe kills our fodder.",
+    "alternative_named": "Make an Example",
+    "reasoning": "Kept: most reliable wipe; our recursive bodies come back."
+   },
+   {
+    "card": "Cormela, Glamour Thief",
+    "weakness": "Four-mana 2/4 haste body whose mana only casts spells.",
+    "alternative_named": "Cult Conscript",
+    "reasoning": "Kept: ritual mana for spells plus recursion on death; also casualty-legal."
+   },
+   {
+    "card": "Black Market Connections",
+    "weakness": "Costs life every turn for each mode chosen.",
+    "alternative_named": "Metallurgic Summonings",
+    "reasoning": "Kept: Treasure, cards, 3/2 changeling fodder every turn."
+   },
+   {
+    "card": "Crackle with Power",
+    "weakness": "Expensive X spell that is slow as removal.",
+    "alternative_named": "Exsanguinate",
+    "reasoning": "Kept: flexible removal-or-finisher, copyable."
+   }
+  ],
+  "current_baseline_strength": "The approved list is a strong, coherent Bracket 4 combo-spellslinger deck with multiple two-card lines; its weakness is mana redundancy at the expense of the fodder the commander needs every turn.",
+  "candidate_pool_scope": "EDHREC Anhelo page (6318 decks: high lift, creatures, instants, sorceries, enchantments, lands), canonical Proposed_Final history (Double Vision, Flawless Forgery, Fury Storm), off-ranking searches for recursive black/blue power-2+ creatures and instant removal; 115 names Oracle-checked live and against the frozen 2026-10-16 cache.",
+  "off_ranked_search_conclusion": "OFF-RANKING search found Tenacious Underdog (absent from the Anhelo EDHREC page) - selected - and examined Gravecrawler, Make an Example, Reverberate, Exsanguinate and Metallurgic Summonings - rejected."
+ },
+ "candidate_sources": [
+  "Canonical encyclopedia Anhelo approval-ready source, Proposed_Final history and closeout (read-only clone @90e00446)",
+  "EDHREC commander page JSON retrieved 2026-10-23: data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+  "Live Scryfall /cards/collection batch 2026-10-23 (115 names): data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+  "OFF-RANKING search for recursive power-2+ fodder and instant interaction not on the EDHREC page (Tenacious Underdog, Gravecrawler, Make an Example, Reverberate)",
+  "Comprehensive Rules 2026-09-25 (frozen cache) for casualty, blitz, suspend: data/grixis/m6/rules_snapshots/Anhelo__the_Painter_M7_20261023.md"
+ ],
+ "material_candidates": [
+  {
+   "card": "Skyclave Shade",
+   "source": "EDHREC High Lift top entry (1084 Anhelo decks); live Scryfall Oracle",
+   "role": "Recursive power-3 casualty fodder: 3/1 for {1}{B}, castable from the graveyard on your turn after a land enters",
+   "named_cuts": [
+    "Fellwar Stone"
+   ],
+   "incumbent_opportunity_cost": "Loses the ninth static rock (a colorless-or-opponent-colored Fellwar); 33 lands + 6 rocks remain plus Dark Ritual, Treasure makers and three cost reducers.",
+   "commander_synergy": "Anhelo's casualty 2 needs a power-2+ body every turn; Shade is a 3-power body that returns for {1}{B} on any of our turns with a land drop (3 fetches, Otawara and Morphic Pool are irrelevant; every land counts), so one card fuels many casualty copies. Its nontoken death also triggers Ghoulish Procession.",
+   "adversarial_downside": "Cannot block; only recastable on our own turn after landfall, so it does not refuel opponent-turn casualty if we lack a body; can be exiled by graveyard hate.",
+   "judgment": "SELECT_ADD",
+   "reason": "Best fodder-per-card available in color: repeatable, cheap, and power 3 (kicked 5/3 late).",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+    "tests/test_m6_anhelo_the_painter_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Sinister Concierge",
+   "source": "EDHREC creatures section (2426 Anhelo decks); live Scryfall Oracle",
+   "role": "Power-2 fodder that turns its own death into tempo removal and self-recursion via suspend",
+   "named_cuts": [
+    "Talisman of Indulgence"
+   ],
+   "incumbent_opportunity_cost": "Loses the B/R Talisman; Rakdos Signet, Arcane Signet and Command Tower/fixing lands still cover B/R.",
+   "commander_synergy": "When sacrificed to casualty, Concierge exiles itself with three time counters and exiles up to one opposing creature (blocker/combo piece) for three turns, then recasts itself free with haste: one card is casualty fodder twice plus removal.",
+   "adversarial_downside": "Exiled opposing creature returns with haste in three turns; the 2/1 body dies to everything; delayed value.",
+   "judgment": "SELECT_ADD",
+   "reason": "Fodder that also interacts; strictly more per sacrifice than a mana rock gives in this list.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+    "tests/test_m6_anhelo_the_painter_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Dogged Detective",
+   "source": "EDHREC High Lift (2218 Anhelo decks); live Scryfall Oracle",
+   "role": "Power-2 fodder with surveil 2 and repeatable return to hand",
+   "named_cuts": [
+    "Exotic Orchard"
+   ],
+   "incumbent_opportunity_cost": "Land count 34 -> 33 (Exotic Orchard is the land most dependent on opponents' colors); untapped U/B/R sources stay above 20 each.",
+   "commander_synergy": "Surveil 2 stocks the graveyard for Kess, Maestros Ascendancy, Snapcaster, Underworld Breach and Galvanic flashback; every opponent second draw per turn (common in multiplayer, and our own Jeska's Will/opponent wheels) returns it to hand for the next casualty.",
+   "adversarial_downside": "Return depends on opponents drawing a second card in a turn; 2/1 body; surveil is setup, not card advantage.",
+   "judgment": "SELECT_ADD",
+   "reason": "Recurring fodder plus graveyard setup; the 34th land is the lowest-value mana slot.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+    "tests/test_m6_anhelo_the_painter_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Tenacious Underdog",
+   "source": "OFF-RANKING: not shown on the Anhelo EDHREC page; found by searching black recursive power-2+ creatures; live Scryfall Oracle",
+   "role": "Recursive power-3 fodder: blitz from the graveyard for {2}{B}{B} + 2 life, draws a card when the blitzed creature dies",
+   "named_cuts": [
+    "Talisman of Dominance"
+   ],
+   "incumbent_opportunity_cost": "Loses the third Talisman (U/B already covered by Dimir Signet, Arcane Signet, Underground Sea, Watery Grave, etc.); 6 rocks remain.",
+   "commander_synergy": "Blitzed Underdog is a hasty 3/2 that we sacrifice to casualty before end step: copy the spell AND draw a card from its dies trigger, then repeat from the graveyard on a later turn. Nontoken death also triggers Ghoulish Procession.",
+   "adversarial_downside": "Blitz is sorcery-timing (our main phase only) and costs 2 life per loop; four mana per reuse.",
+   "judgment": "SELECT_ADD",
+   "reason": "Off-ranking find that turns fodder into card advantage every time; best value per sacrifice among examined bodies.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+    "tests/test_m6_anhelo_the_painter_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Bedevil",
+   "source": "Grixis removal staple; live Scryfall Oracle; examined as instant-speed upgrade",
+   "role": "Instant removal: destroy target artifact, creature or planeswalker",
+   "named_cuts": [
+    "Feed the Swarm"
+   ],
+   "incumbent_opportunity_cost": "Loses enchantment removal and sorcery-speed creature removal; Chaos Warp, Cyclonic Rift and Otawara still answer enchantments/any permanent.",
+   "commander_synergy": "As an instant it can be the first instant on an opponent's turn, so Anhelo's casualty copies it there (two removal hits for one card), which Feed the Swarm (sorcery) can only do on our turn; hits artifacts/planeswalkers that threaten us; no life loss.",
+   "adversarial_downside": "BBR pips in a three-colour deck; no enchantment hit.",
+   "judgment": "SELECT_ADD",
+   "reason": "Instant speed doubles the value of the commander's every-turn casualty window; broader permanent coverage matters more than enchantments here.",
+   "confidence": "HIGH",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+    "tests/test_m6_anhelo_the_painter_m7_mechanics.py"
+   ]
+  },
+  {
+   "card": "Wizards of Thay",
+   "source": "Spellslinger staple; live Scryfall Oracle",
+   "role": "Reducer + lets sorceries be cast at flash speed",
+   "named_cuts": [
+    "Thunderclap Drake"
+   ],
+   "incumbent_opportunity_cost": "Would replace a two-mana flying reducer with a four-mana body.",
+   "commander_synergy": "Flashing sorceries means Demonic Tutor, Time Warp, Army of the Damned or Twinflame can be the first spell on an opponent's turn with casualty; it is itself a 3-power body.",
+   "adversarial_downside": "Four-drop slot competes with Archmage Emeritus, Kess, Storm-Kiln Artist, Ral; raises curve; dies easily.",
+   "judgment": "RETAIN_ALTERNATIVE",
+   "reason": "Genuine commander synergy, staged as a six-swap full-100, but not clearly better than the cheaper Drake that also uses commander-cast copies.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Mystic Sanctuary",
+   "source": "Spellslinger land; live Scryfall Oracle",
+   "role": "Land that returns an instant/sorcery to the top of the library",
+   "named_cuts": [
+    "Training Center"
+   ],
+   "incumbent_opportunity_cost": "Would replace an untapped U/R dual with a mono-U land.",
+   "commander_synergy": "Rebuys a combo piece (Reiterate, Twinflame, Jeska's Will) once.",
+   "adversarial_downside": "Only 3 basic Islands plus typed duals (Underground Sea, Volcanic Island, Watery Grave, Steam Vents...) -- enters untapped only with three other Islands, worse early; loses red.",
+   "judgment": "REJECT",
+   "reason": "Mana quality loss outweighs a one-shot top-deck recursion; deck already has Kess, Ascendancy, Snapcaster, Breach.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Gravecrawler",
+   "source": "Recursive fodder search; live Scryfall Oracle",
+   "role": "1-mana 2/1 castable from graveyard while controlling a Zombie",
+   "named_cuts": [
+    "Talisman of Creativity",
+    "Galvanic Iteration"
+   ],
+   "incumbent_opportunity_cost": "Would cut either the last Talisman or a copy enabler.",
+   "commander_synergy": "Jadar, Ghoulish Procession, Poppet Stitcher and Startle make Zombie tokens, so it is often recastable.",
+   "adversarial_downside": "Requires a Zombie in play; decayed tokens are sacrificed after attacking; weaker than Shade/Underdog without that support.",
+   "judgment": "REJECT",
+   "reason": "Conditional recursion; the selected bodies are unconditional.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Unexpected Windfall",
+   "source": "Spellslinger card-draw staple; live Scryfall Oracle",
+   "role": "Instant: discard, draw two, two Treasures",
+   "named_cuts": [
+    "Mana Geyser"
+   ],
+   "incumbent_opportunity_cost": "Would remove the Reiterate + Mana Geyser infinite-mana line.",
+   "commander_synergy": "Instant at opponent end step with casualty copy = draw four, four Treasures.",
+   "adversarial_downside": "Mana Geyser is a combo piece (Reiterate buyback with 7+ opponent tapped lands); Big Score already fills the Windfall role.",
+   "judgment": "REJECT",
+   "reason": "Combo redundancy and Big Score overlap.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Cult Conscript",
+   "source": "EDHREC High Lift; live Scryfall Oracle",
+   "role": "1-mana 2/1 that returns from graveyard after a non-Skeleton died",
+   "named_cuts": [
+    "Cormela, Glamour Thief"
+   ],
+   "incumbent_opportunity_cost": "Would cut Cormela's instant mana and dies-recursion.",
+   "commander_synergy": "Returns cheaply after a casualty sacrifice of another creature.",
+   "adversarial_downside": "Enters tapped; needs another creature death the same turn; does not refuel when it is the only body.",
+   "judgment": "REJECT",
+   "reason": "Weaker than the selected bodies and Cormela gives ritual mana plus spell recursion.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Sedgemoor Witch",
+   "source": "Magecraft token maker; live Scryfall Oracle",
+   "role": "3-mana 3/2 menace ward; makes Pests on cast or copy",
+   "named_cuts": [
+    "Ral, Storm Conduit"
+   ],
+   "incumbent_opportunity_cost": "Would cut Ral, the deck's copy-count damage outlet.",
+   "commander_synergy": "Pests are only 1/1 (not casualty-legal); Witch herself is 3-power fodder.",
+   "adversarial_downside": "Pest tokens cannot pay casualty 2; Ral converts Narset/Reiterate loops into a win.",
+   "judgment": "REJECT",
+   "reason": "Ral is a combo kill outlet; Witch's tokens miss the commander's power threshold.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Rotten Reunion",
+   "source": "EDHREC High Lift; live Scryfall Oracle",
+   "role": "1-mana instant: graveyard hate + 2/2 decayed Zombie, flashback",
+   "named_cuts": [
+    "Startle"
+   ],
+   "incumbent_opportunity_cost": "Would replace Startle (draws a card).",
+   "commander_synergy": "Makes a power-2 decayed Zombie that is legal casualty fodder.",
+   "adversarial_downside": "As an instant it consumes the turn's first-spell casualty slot itself, so its token arrives too late for that turn's casualty; no card draw.",
+   "judgment": "REJECT",
+   "reason": "Commander-specific anti-synergy shared with Startle; Startle at least cantrips.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Waste Management",
+   "source": "EDHREC High Lift; live Scryfall Oracle",
+   "role": "Instant graveyard hate making 2/2 Rogues",
+   "named_cuts": [
+    "Toxic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would cut Toxic Deluge, the deck's only full board wipe.",
+   "commander_synergy": "Rogue tokens are casualty-legal.",
+   "adversarial_downside": "Spends the first-spell slot; token count depends on opposing graveyards.",
+   "judgment": "REJECT",
+   "reason": "Same first-spell anti-synergy; Deluge is irreplaceable interaction.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Talrand's Invocation",
+   "source": "EDHREC High Lift; previously cut in canonical refinement",
+   "role": "Sorcery: two 2/2 flying Drakes",
+   "named_cuts": [
+    "Galvanic Iteration"
+   ],
+   "incumbent_opportunity_cost": "Would cut Galvanic Iteration, a two-use copy enabler.",
+   "commander_synergy": "Two casualty-legal fliers; copied it makes four.",
+   "adversarial_downside": "Four-mana sorcery that uses the first-spell slot; canonical approval already removed it.",
+   "judgment": "REJECT",
+   "reason": "Lower value than permanent recursive bodies; consumes casualty slot.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Double Vision",
+   "source": "Proposed_Final history (canonical refinement)",
+   "role": "Enchantment: copy the first instant/sorcery each turn",
+   "named_cuts": [
+    "Galvanic Iteration"
+   ],
+   "incumbent_opportunity_cost": "Would cut Galvanic Iteration, a cheap two-use copy effect.",
+   "commander_synergy": "Stacks with the casualty copy for a third copy of the first spell.",
+   "adversarial_downside": "Six-mana do-nothing-alone enchantment; owner approval preferred the current list.",
+   "judgment": "REJECT",
+   "reason": "Too slow for Bracket 4: six mana that does nothing on its own.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Reverberate",
+   "source": "Copy-spell staple; live Scryfall Oracle",
+   "role": "RR instant: copy target instant or sorcery",
+   "named_cuts": [
+    "Galvanic Iteration"
+   ],
+   "incumbent_opportunity_cost": "Would cut Galvanic Iteration and its flashback second use.",
+   "commander_synergy": "Copies opponents' spells too; Narset's Reversal-style flexibility.",
+   "adversarial_downside": "Galvanic Iteration has flashback (two uses, Kess/Breach friendly) and a copy that is itself copied by casualty when Galvanic is the first spell; Reverberate is one-shot.",
+   "judgment": "REJECT",
+   "reason": "Sidegrade; flashback is the deciding value.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Make an Example",
+   "source": "Removal option; live Scryfall Oracle",
+   "role": "Sorcery: opponents sacrifice a chosen pile",
+   "named_cuts": [
+    "Toxic Deluge"
+   ],
+   "incumbent_opportunity_cost": "Would cut the reliable board wipe.",
+   "commander_synergy": "Copyable with casualty for two edicts each.",
+   "adversarial_downside": "Opponents choose piles; Deluge sweeps everything for 3 mana and does not hit our recursive bodies permanently.",
+   "judgment": "REJECT",
+   "reason": "Less reliable than the incumbent wipe.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Metallurgic Summonings",
+   "source": "Spellslinger token engine; live Scryfall Oracle",
+   "role": "Enchantment making X/X Constructs per spell",
+   "named_cuts": [
+    "Black Market Connections"
+   ],
+   "incumbent_opportunity_cost": "Would cut repeatable Treasure/cards/Shapeshifter fodder.",
+   "commander_synergy": "Constructs are casualty fodder.",
+   "adversarial_downside": "Five-mana UU enchantment; copies are not cast so casualty copies add nothing; BMC already makes a 3/2 body each turn.",
+   "judgment": "REJECT",
+   "reason": "Slower than BMC for the same fodder role.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  },
+  {
+   "card": "Exsanguinate",
+   "source": "Finisher option; live Scryfall Oracle",
+   "role": "X-cost drain finisher that gains life",
+   "named_cuts": [
+    "Crackle with Power"
+   ],
+   "incumbent_opportunity_cost": "Would cut Crackle with Power, a flexible removal/finisher.",
+   "commander_synergy": "Copyable by casualty for a doubled drain on our turn.",
+   "adversarial_downside": "Crackle hits creatures/planeswalkers as well and Torment of Hailfire is already an X sink.",
+   "judgment": "REJECT",
+   "reason": "Overlaps the existing X finishers with less flexibility.",
+   "confidence": "MODERATE",
+   "evidence_refs": [
+    "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json"
+   ]
+  }
+ ],
+ "expensive_experiments": [],
+ "final_changes": {
+  "adds": [
+   "Skyclave Shade",
+   "Sinister Concierge",
+   "Dogged Detective",
+   "Tenacious Underdog",
+   "Bedevil"
+  ],
+  "cuts": [
+   "Fellwar Stone",
+   "Talisman of Indulgence",
+   "Exotic Orchard",
+   "Talisman of Dominance",
+   "Feed the Swarm"
+  ],
+  "coherent_package_tradeoff": "Five one-for-one swaps: four excess mana slots (Fellwar Stone, two Talismans, Exotic Orchard) become recursive power-2+ casualty fodder (Skyclave Shade, Sinister Concierge, Dogged Detective, Tenacious Underdog) and sorcery Feed the Swarm becomes instant Bedevil. Costs: 34->33 lands and 9->6 rocks, slightly lower Storm-Kiln power, no enchantment hit from Feed the Swarm. Gains: the commander's every-turn copy is fed by bodies that come back, and removal can be copied on opponents' turns."
+ },
+ "low_swap_heightened_audit": {
+  "weakest_slot_challenge": [
+   {
+    "card": "Fellwar Stone",
+    "weakness": "Ninth static rock; produces only colors opponents' lands could produce, unreliable for UBR.",
+    "alternative_named": "Skyclave Shade",
+    "reasoning": "Deck has 43 static mana sources for avg nonland MV 2.83; rocks do nothing for the commander's casualty need."
+   },
+   {
+    "card": "Talisman of Indulgence",
+    "weakness": "Eighth rock; duplicates Rakdos Signet's B/R.",
+    "alternative_named": "Sinister Concierge",
+    "reasoning": "Mana redundancy is the deck's clearest excess; fodder is its clearest shortage."
+   },
+   {
+    "card": "Exotic Orchard",
+    "weakness": "34th land; depends on opponents' colors; colorless in some pods.",
+    "alternative_named": "Dogged Detective",
+    "reasoning": "33 lands + 6 rocks + rituals remains ample; Detective fills the graveyard for recursion engines."
+   },
+   {
+    "card": "Talisman of Dominance",
+    "weakness": "Third Talisman; U/B already covered by Dimir Signet and duals.",
+    "alternative_named": "Tenacious Underdog",
+    "reasoning": "Converting a rock into recursive card-drawing fodder raises the ceiling of the commander engine."
+   },
+   {
+    "card": "Feed the Swarm",
+    "weakness": "Sorcery-speed removal with life loss; cannot be copied on opponents' turns by Anhelo.",
+    "alternative_named": "Bedevil",
+    "reasoning": "Instant upgrade covering artifacts and planeswalkers and using opponent-turn casualty."
+   },
+   {
+    "card": "Primal Amulet // Primal Wellspring",
+    "weakness": "Four-mana artifact needing four casts before it flips.",
+    "alternative_named": "Tenacious Underdog",
+    "reasoning": "Challenged: kept because Wellspring is a repeatable copy engine and Frantic Search combo; the third Talisman was the weaker slot (alternative staged)."
+   },
+   {
+    "card": "Thunderclap Drake",
+    "weakness": "Two-mana 2/1 reducer; small body.",
+    "alternative_named": "Wizards of Thay",
+    "reasoning": "Kept: cheaper, flies, is power-2 fodder itself and its sac copies scale with commander casts."
+   },
+   {
+    "card": "Training Center",
+    "weakness": "Untapped U/R dual only in multiplayer.",
+    "alternative_named": "Mystic Sanctuary",
+    "reasoning": "Kept: two colors untapped beats a conditionally-tapped mono-U recursion land."
+   },
+   {
+    "card": "Mana Geyser",
+    "weakness": "Five-mana ritual that is weak without many tapped opponent lands.",
+    "alternative_named": "Unexpected Windfall",
+    "reasoning": "Kept: Reiterate + Mana Geyser infinite mana combo piece."
+   },
+   {
+    "card": "Ral, Storm Conduit",
+    "weakness": "Four-mana planeswalker, weak alone.",
+    "alternative_named": "Sedgemoor Witch",
+    "reasoning": "Kept: cast-or-copy damage turns loops into a win."
+   },
+   {
+    "card": "Startle",
+    "weakness": "Instant-made fodder consumes the casualty slot itself.",
+    "alternative_named": "Rotten Reunion",
+    "reasoning": "Kept: cantrip, protects against attackers; replacement shares the same anti-synergy."
+   },
+   {
+    "card": "Galvanic Iteration",
+    "weakness": "Copy effect needing a second spell.",
+    "alternative_named": "Reverberate",
+    "reasoning": "Kept: flashback gives two uses through Kess/Breach."
+   },
+   {
+    "card": "Toxic Deluge",
+    "weakness": "Symmetric wipe kills our fodder.",
+    "alternative_named": "Make an Example",
+    "reasoning": "Kept: most reliable wipe; our recursive bodies come back."
+   },
+   {
+    "card": "Cormela, Glamour Thief",
+    "weakness": "Four-mana 2/4 haste body whose mana only casts spells.",
+    "alternative_named": "Cult Conscript",
+    "reasoning": "Kept: ritual mana for spells plus recursion on death; also casualty-legal."
+   },
+   {
+    "card": "Black Market Connections",
+    "weakness": "Costs life every turn for each mode chosen.",
+    "alternative_named": "Metallurgic Summonings",
+    "reasoning": "Kept: Treasure, cards, 3/2 changeling fodder every turn."
+   },
+   {
+    "card": "Crackle with Power",
+    "weakness": "Expensive X spell that is slow as removal.",
+    "alternative_named": "Exsanguinate",
+    "reasoning": "Kept: flexible removal-or-finisher, copyable."
+   }
+  ],
+  "off_ranked_opportunities": "OFF-RANKING: Tenacious Underdog (selected); Gravecrawler, Reverberate, Make an Example, Exsanguinate, Metallurgic Summonings (rejected); Wizards of Thay (staged alternative).",
+  "multi_slot_packages": [
+   {
+    "adds": [
+     "Skyclave Shade",
+     "Sinister Concierge",
+     "Dogged Detective",
+     "Tenacious Underdog",
+     "Bedevil"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Exotic Orchard",
+     "Talisman of Dominance",
+     "Feed the Swarm"
+    ],
+    "result_and_rationale": "Selected five-swap package: mana excess converted into recursive fodder plus an instant removal upgrade."
+   },
+   {
+    "adds": [
+     "Skyclave Shade",
+     "Sinister Concierge",
+     "Dogged Detective",
+     "Tenacious Underdog",
+     "Bedevil",
+     "Wizards of Thay"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Exotic Orchard",
+     "Talisman of Dominance",
+     "Feed the Swarm",
+     "Thunderclap Drake"
+    ],
+    "result_and_rationale": "Six-swap alternative staged as full 100; retained as alternative, not clearly better."
+   },
+   {
+    "adds": [
+     "Skyclave Shade",
+     "Sinister Concierge",
+     "Dogged Detective",
+     "Tenacious Underdog",
+     "Bedevil",
+     "Unexpected Windfall",
+     "Gravecrawler"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Exotic Orchard",
+     "Talisman of Dominance",
+     "Feed the Swarm",
+     "Mana Geyser",
+     "Galvanic Iteration"
+    ],
+    "result_and_rationale": "Seven-swap alternative staged as full 100; rejected for breaking the Geyser combo and conditional recursion."
+   }
+  ],
+  "no_two_package_reason": null,
+  "alternate_cuts_for_prior_holds": "Tenacious Underdog was also tested over Primal Amulet (five-swap alternative, keeps Talisman of Dominance); rejected because Wellspring is a repeatable copy engine.",
+  "strongest_argument_against_baseline": "The commander copies one spell every turn only if we can sacrifice a power-2+ creature, yet the approved list spends nine slots on rocks and 34 on lands while much of its fodder comes from instants that use up the casualty slot themselves.",
+  "evidence_based_answer": "Trade four redundant mana slots for four creatures that recur from the graveyard or hand, and swap the sorcery removal for an instant that the commander can copy on opponents' turns."
+ },
+ "final_candidate": {
+  "path": "data/grixis/m7/candidate_lists/Anhelo__the_Painter.txt",
+  "sha256": "2c696db8013b90459b23495f8c6a94426ca86ba180a163a8a941d5c285950a58",
+  "card_count": 100,
+  "deckwide_reconciliation": "Exact copy of the physical canonical source order with five in-place substitutions; MDFC/transform lines keep the source's full ' // ' names; 33 lands, 6 rocks, 100 physical cards verified by quantity."
+ },
+ "verification": {
+  "quantity_singleton_verified": true,
+  "color_identity_verified": true,
+  "current_oracle_verified": true,
+  "official_legality_checked": true,
+  "project_exceptions_recorded": true,
+  "rules_and_combos_verified": true,
+  "source_evidence_paths": [
+   "data/grixis/m7/research_challengers/Anhelo__the_Painter_Scryfall_live_20261023.json",
+   "data/grixis/m7/research_challengers/Anhelo__the_Painter_EDHREC_discovery_20261023.json",
+   "data/grixis/m6/oracle_snapshots/Anhelo__the_Painter_M7_Scryfall_20261023.json",
+   "data/grixis/m6/rules_snapshots/Anhelo__the_Painter_M7_20261023.md",
+   "data/grixis/m7/baseline_sources/Anhelo_the_Painter_approved_source_2026-10-13.txt",
+   "tests/test_m6_anhelo_the_painter_m7_mechanics.py"
+  ],
+  "power_bracket": 4,
+  "archidekt_tags": [
+   "Spell Copy",
+   "Casualty Aristocrats",
+   "Spellslinger Combo"
+  ],
+  "known_hard_blockers": []
+ },
+ "owner_authority": {
+  "canonical_deck_changed": false,
+  "exact_candidate_owner_approved": false,
+  "owner_approval_question": "This deck is complete. Do you approve it?"
+ },
+ "readiness": "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED",
+ "open_ended_optimization_audit": {
+  "floor_not_target": true,
+  "remaining_99_review": "After the five, the remaining slots were re-challenged: combo core (Reiterate, Twinflame, Dualcaster, Narset's Reversal, Twinning Staff, Geyser, Jeska's Will) protected; payoffs (Ral, Storm-Kiln, Deekah, Talrand, Veyran, Archmage) kept; reducers (Drake, Electromancer, Amulet) kept; lands rechecked (Training Center, Morphic Pool, Otawara); interaction (Deluge, Rollick, Crackle) and fodder creatures (Cormela, Judith, Lagomos, Jadar) challenged with named replacements.",
+  "post_floor_challenges": [
+   {
+    "incumbent": "Thunderclap Drake",
+    "challenger": "Wizards of Thay",
+    "tradeoff": "Wizards adds sorcery-flash for opponent-turn casualty but costs four; Drake is a 2-mana flying reducer and casualty body whose sac copy scales with commander casts. Kept Drake; staged six-swap alternative.",
+    "disposition": "RETAIN_ALTERNATIVE"
+   },
+   {
+    "incumbent": "Training Center",
+    "challenger": "Mystic Sanctuary",
+    "tradeoff": "Sanctuary's one rebuy does not pay for losing an untapped U/R source with only three basic Islands in a 33-land list.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Mana Geyser",
+    "challenger": "Unexpected Windfall",
+    "tradeoff": "Windfall is better alone but Geyser is the Reiterate infinite-mana piece and Big Score already covers the Windfall role.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Ral, Storm Conduit",
+    "challenger": "Sedgemoor Witch",
+    "tradeoff": "Witch's 1/1 Pests cannot pay casualty 2; Ral is the damage outlet for Narset/Reiterate/Twinning loops.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Startle",
+    "challenger": "Rotten Reunion",
+    "tradeoff": "Both instants consume the first-spell casualty slot when they make the token; Startle draws a card, so it stays.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Galvanic Iteration",
+    "challenger": "Reverberate",
+    "tradeoff": "Flashback makes Galvanic two copy effects and it fuels Kess/Breach; Reverberate is a one-shot sidegrade.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Toxic Deluge",
+    "challenger": "Make an Example",
+    "tradeoff": "Opponent-chosen piles are unreliable versus a three-mana full wipe; our recursive fodder recovers from Deluge.",
+    "disposition": "REJECT"
+   },
+   {
+    "incumbent": "Cormela, Glamour Thief",
+    "challenger": "Cult Conscript",
+    "tradeoff": "Conscript enters tapped and needs another death; Cormela makes UBR for spells and rebuys a spell on death.",
+    "disposition": "REJECT"
+   }
+  ],
+  "larger_swap_packages": [
+   {
+    "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_six_WizardsOfThay_20261023.txt",
+    "sha256": "5e995f67e81d33b01e3bfc128e2a5b3666b0e0d99296a74c925e97e8654b7a4d",
+    "adds": [
+     "Skyclave Shade",
+     "Sinister Concierge",
+     "Dogged Detective",
+     "Tenacious Underdog",
+     "Bedevil",
+     "Wizards of Thay"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Exotic Orchard",
+     "Talisman of Dominance",
+     "Feed the Swarm",
+     "Thunderclap Drake"
+    ],
+    "case_for_extra_swaps": "Sorcery flash lets tutors, Time Warp, Twinflame and Army of the Damned be the first spell on opponents' turns for a casualty copy; Wizards is a 3-power body.",
+    "why_not_selected": "Raises the curve by two for a slot that already reduces costs, flies and copies via commander-cast count; marginal, not clearly better."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_six_MysticSanctuary_20261023.txt",
+    "sha256": "988e3764ac9161912b8eb5908a564e32e20c1a5613f57451c03d8d888ee446ce",
+    "adds": [
+     "Skyclave Shade",
+     "Sinister Concierge",
+     "Dogged Detective",
+     "Tenacious Underdog",
+     "Bedevil",
+     "Mystic Sanctuary"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Exotic Orchard",
+     "Talisman of Dominance",
+     "Feed the Swarm",
+     "Training Center"
+    ],
+    "case_for_extra_swaps": "One-shot top-of-library recursion of Reiterate/Twinflame/Jeska's Will from a land slot.",
+    "why_not_selected": "Mono-U, often tapped early with only three basic Islands; loses red; recursion is already abundant (Kess, Ascendancy, Snapcaster, Breach)."
+   },
+   {
+    "path": "data/grixis/m7/research_challengers/Anhelo__the_Painter_seven_Gravecrawler_Windfall_20261023.txt",
+    "sha256": "7e050aa20977f0c7d9dcff160b08aa35e91066f6bbcf07b80e756092151ff992",
+    "adds": [
+     "Skyclave Shade",
+     "Sinister Concierge",
+     "Dogged Detective",
+     "Tenacious Underdog",
+     "Bedevil",
+     "Unexpected Windfall",
+     "Gravecrawler"
+    ],
+    "cuts": [
+     "Fellwar Stone",
+     "Talisman of Indulgence",
+     "Exotic Orchard",
+     "Talisman of Dominance",
+     "Feed the Swarm",
+     "Mana Geyser",
+     "Galvanic Iteration"
+    ],
+    "case_for_extra_swaps": "More instant-speed card flow and Treasure plus another one-mana recursive body for casualty.",
+    "why_not_selected": "Breaks the Reiterate + Mana Geyser line, duplicates Big Score, and Gravecrawler's Zombie condition is weaker than the selected unconditional bodies."
+   }
+  ],
+  "no_credible_larger_package_reason": null,
+  "quality_based_stop_reason": "Stopped at five because every further challenger examined either broke a combo line (Windfall over Geyser), lowered mana quality (Mystic Sanctuary), shared the instant-token anti-synergy (Rotten Reunion, Waste Management), missed the power-2 threshold (Sedgemoor Witch Pests) or was only a sidegrade (Wizards of Thay, Reverberate); none was clearly better than its incumbent."
+ }
+}

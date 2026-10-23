@@ -22,5 +22,8 @@ Status: RESEARCH_IN_PROGRESS. Not owner approved. Not reviewed by ChatGPT. Nothi
 ## Staged (WIP)
 Candidate + 4 alternative full-100 lists and oracle snapshot staged; baseline logical hash equals registry lh1:627cae66.
 
+## Decision packet (WIP)
+data/grixis/m7/decision_reviews/Anhelo__the_Painter.json passes the gate (5 swaps, 19 candidate judgments, 16 weak slots).
+
 ## Next step
 Stage candidate + alternative 100s, write decision packet, tests, I/J, memos, focused CI workflow.
