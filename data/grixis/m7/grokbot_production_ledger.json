@@ -271,7 +271,7 @@
    "registry_recorded_sha256": "553838da88fe00974e74664633be5051c4f1a0879baa71de81ca9f880e5a6d28",
    "registry_recorded_matches_raw": true,
    "candidate_path": "data/grixis/m7/candidate_lists/Cecily__Bjorna__Lutri.txt",
-   "candidate_raw_sha256": null,
+   "candidate_raw_sha256": "2cc7227f954e728e0b37949b74f9575128b2c82250f53e211289aa60e4fa1717",
    "current_candidate_sha": "2cc7227f954e728e0b37949b74f9575128b2c82250f53e211289aa60e4fa1717",
    "branch": "grokbot-deck08-cecily-bjorna-lutri-m7-20261023",
    "working_branch": "grokbot-deck08-cecily-bjorna-lutri-m7-20261023",
@@ -283,16 +283,18 @@
    "unresolved_issues": [],
    "completed_stages": [
     "baseline_provenance (canonical 9b26aa28; raw==overrides; 99 rows=100 physical; Lutri companion outside 100)",
-    "research (live Scryfall, EDHREC pair page, Spellbook) + draft candidate 2cc7227f (6 swaps) + staged alternatives"
+    "research (live Scryfall, EDHREC pair page, Spellbook) + draft candidate 2cc7227f (6 swaps) + staged alternatives",
+    "I/J pool (7 configs), certificate, bundle, preflights, adversarial packet, focused tests (23) + workflow; gate + J checker pass; full suite 24F/86E/1625P/18S = base failure IDs; simulated stack #651-#655+#656 after 2-pin refresh 24F/86E/1744P/18S; WIP removed"
    ],
-   "status": "RESEARCH_IN_PROGRESS",
+   "status": "REVIEW_READY_CI_PENDING",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
    "next_action": "decision review, snapshots, I/J evidence, tests, gate",
    "next_step": "decision review, snapshots, I/J evidence, tests, gate",
-   "head_commit": "7e82f76e50393cd0bc2eee4413628e3cfc33130b",
+   "head_commit": "4e5aba8e6d654fab451a7cdb3231ec467394eb64",
    "stabilized_checker_sha256": "2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b",
-   "last_checkpoint": "2026-10-23 research+draft candidate"
+   "last_checkpoint": "2026-10-23 research+draft candidate",
+   "candidate_logical_hash": "lh1:514596aaf599116e15083596021e97a0dc24b1c03b2b51f341ed6f927576e5e3"
   },
   {
    "tracker_number": 9,
