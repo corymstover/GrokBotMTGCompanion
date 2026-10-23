@@ -15,13 +15,13 @@
 1x Buried Alive
 1x Captain Lannery Storm
 1x Cavern of Souls
-1x Ragavan, Nimble Pilferer
+1x Changeling Outcast
 1x Chaos Warp
 1x Coercive Recruiter
 1x Command Tower
 1x Corsair Captain
 1x Counterspell
-1x Crumbling Necropolis
+1x Siren's Ruse
 1x Cyclonic Rift
 1x Deadly Rollick
 1x Deflecting Swat
@@ -33,7 +33,7 @@
 1x Kitesail Larcenist
 1x Entomb
 1x Exotic Orchard
-1x Faithless Looting
+1x Ripples of Undeath
 1x Warkite Marauder
 1x Feed the Swarm
 1x Fierce Guardianship

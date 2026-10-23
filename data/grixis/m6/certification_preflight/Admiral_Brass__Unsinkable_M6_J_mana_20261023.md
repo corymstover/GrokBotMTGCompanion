@@ -1,11 +1,12 @@
-# Admiral Brass, Unsinkable: M7 candidate mana analysis (2026-10-23)
+# Admiral Brass, Unsinkable: M7 candidate mana analysis (REV2, 2026-10-23)
 
-These are Oracle-text heuristic counts from the committed snapshot. They are illustrative, not a hypergeometric certification.
+CORRECTED after ChatGPT's review of PR #651. The rev1 memo counted land rows, not quantities ("31 lands + MDFC", "26/24/24"). Those figures are withdrawn. Counts below are quantity-based, from the rev2 Oracle snapshot (the land quantity count is asserted in `tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py`).
 
-- Lands: 31 + Brass's Tunnel-Grinder // Tecutlan MDFC. Unchanged by all five swaps.
-- Mana artifacts: Sol Ring, Arcane Signet, Dimir/Izzet/Rakdos Signets, Talismans of Creativity/Dominance/Indulgence, all unchanged. That is 8 rocks. The heuristic counts 9 'Add' artifacts only because the MDFC's front face (Brass's Tunnel-Grinder, Legendary Artifact) mentions mana; its land back face is the 'MDFC' counted above.
-- U/B/R sources (lands + rocks): baseline 26/24/24 → preferred 26/24/24 (unchanged).
-- Colored pips (nonland): baseline U24/B26/R23 → preferred U27/B24/R23. Blue demand rises by 3: Navigator's {U}, Larcenist's {U}, Warkite's {U}, plus Navigator's {U}{U} activation. Black stays heavy because of Jhoira's {B}{B}.
-- Curve (nonland MV 1/2/3/4/5/6+): baseline 7/20/17/13/8/1 → preferred 7/19/18/12/8/2. Average 2.985 → 3.030.
-- Ramp change: Pitiless Plunderer (Treasure on death, switched off by finality exile) and Enterprising Scallywag (conditional Treasure) out. Ragavan (Treasure on combat damage) in. Net ramp is slightly lower; the turn-4 Brass plan still rests on the unchanged 8 rocks.
-- Risk: the six- and seven-swap alternatives drop sources to 25/23/23 and 25/22/22. That is the main reason they were not preferred.
+- **Lands:** baseline 34 physical lands in 31 rows (2x Island, 2x Mountain, 2x Swamp). Candidate 33 (Crumbling Necropolis cut for Siren's Ruse). Brass's Tunnel-Grinder // Tecutlan is a **front-face Legendary Artifact (MV 3)**. It is not a land in the opening hand or library, so it is not counted as a land. It becomes a land (Tecutlan, {T}: add {R}) only after transforming, which needs three end steps in which you descended (bore counters).
+- **Rocks:** 8 (Sol Ring, Arcane Signet, Dimir/Izzet/Rakdos Signets, Talismans of Creativity/Dominance/Indulgence), unchanged. Rock sources U/B/R 5/5/5.
+- **Colored land sources (unrestricted):** baseline 21/19/18 → candidate 20/18/17, with 3/3/3 more from Cavern of Souls (Pirate spells only), Exotic Orchard and Secluded Courtyard. Land+rock: baseline 26/24/23 → 25/23/22 (unrestricted).
+- **Colored pips (nonland, front face):** baseline 23/25/22 → candidate 27/25/20. Blue rises by 4 and red falls by 2.
+- **Curve (nonland MV 0/1/2/3/4/5/6+):** 0/7/20/17/13/7/1 → 0/6/21/18/12/7/2. Average 2.954 → 3.0; nonland cards 65 → 66.
+- **Hypergeometric (99-card library):** P(2–5 lands in opening 7) 0.758 → 0.741. P(≥4 lands in top 10, i.e. on the play by turn 4) 0.470 → 0.441. P(≥4 lands-or-rocks in top 10) 0.687 → 0.662. P(≥5 lands-or-rocks in top 11) 0.537 → 0.508. These ignore Treasure makers, Tunnel-Grinder and tutors, all of which add mana.
+- **Is 34 lands + 8 rocks too many?** For a 3.0-average nonland curve with a five-mana commander and many Treasure makers, 42 mana permanents is at the heavy end. Cutting one land costs about 2–3 points on each threshold above, in exchange for one more action card. A tapped tri-land is the weakest mana source: it is always tapped and can't be fetched, while Xander's Lounge is fetchable and cycles. The alternative that keeps 34 lands and cuts Talisman of Indulgence instead was built as a full 100 and rejected, because the rock is the turn-2 → turn-4 Brass accelerant. This is a judgment call (MODERATE confidence), not a solved optimum.
+- **Nesting Grounds (re-checked with corrected numbers):** it would take unrestricted land sources from 21/19/18 to 20/18/17 if it replaced a tri-land, and it is sorcery-speed only. The rev1 conclusion (not selected) stands.

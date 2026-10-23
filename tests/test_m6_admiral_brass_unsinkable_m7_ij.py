@@ -18,12 +18,13 @@ import grixis_m6_bundle_check as standard  # noqa: E402
 
 CERT = ROOT / "data/grixis/m6/ij/certificates/admiral-brass-unsinkable-m7.json"
 BUNDLE = ROOT / "data/grixis/m6/ij/revision_bundles/admiral-brass-unsinkable-m7.json"
-POOL = ROOT / "data/grixis/m6/ij/tested_pools/Admiral_Brass__Unsinkable_M7_five_configurations_20261023.json"
-SNAP = ROOT / "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json"
+POOL = ROOT / "data/grixis/m6/ij/tested_pools/Admiral_Brass__Unsinkable_M7_rev2_tested_configurations_20261023.json"
+SNAP = ROOT / "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_rev2_Scryfall_20261023.json"
 MEMO = ROOT / "data/grixis/m6/certification_preflight/Admiral_Brass__Unsinkable_M6_I_local_best_20261023.md"
 PACKET = ROOT / "data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable.json"
 CANON_RAW = "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc"
-CAND_RAW = "953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475"
+CAND_RAW = "baf0d451bc5fa1f66065d04fa7826610337d1ffa802eebf6c78ba282a784e967"
+PRIOR_RAW = "953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475"  # rev1 history
 
 
 def sha(p):
@@ -57,21 +58,24 @@ class AdmiralBrassUnsinkableM7IJ(unittest.TestCase):
         self.assertIs(self.c["authority"]["can_decide"], False)
         self.assertIs(self.c["authority"]["can_approve_or_lock"], False)
         self.assertIn("not a mathematical or global proof", self.c["scope_caveat"])
-        self.assertFalse(any("actions/runs" in r for r in self.c["receipt_refs"]))  # no CI claimed
+        self.assertFalse(any("actions/runs" in r for r in self.c["receipt_refs"]))  # CI run URLs live in the PR body, not in bound files
         for t in self.c["phase_b"]["test_refs"]:
             self.assertTrue((ROOT / t).is_file(), t)
 
     def test_pool_every_configuration_raw_and_logical_hash(self):
         self.assertEqual("sha256:" + sha(self.c["candidate_pool"]["source_ref"]), self.c["candidate_pool"]["source_sha256"])
-        self.assertEqual(self.c["candidate_pool"]["tested_pool_size"], 5)
+        self.assertEqual(self.c["candidate_pool"]["tested_pool_size"], 9)
         for cfg in self.pool["configurations"]:
             self.assertEqual(sha(cfg["path"]), cfg["raw_sha256"], cfg["id"])
             self.assertEqual(self.lh(cfg["path"]), cfg["logical_hash"], cfg["id"])
         ids = {x["id"]: x for x in self.pool["configurations"]}
         self.assertEqual(ids["BASELINE"]["raw_sha256"], CANON_RAW)
         self.assertEqual(ids["BASELINE"]["logical_hash"], self.reg["current_canonical_hash"])
-        self.assertEqual(ids["PREFERRED_FIVE"]["raw_sha256"], CAND_RAW)
-        self.assertEqual(self.c["list_hash"], ids["PREFERRED_FIVE"]["logical_hash"])
+        self.assertEqual(ids["PREFERRED_SIX_REV2"]["raw_sha256"], CAND_RAW)
+        self.assertEqual(self.c["list_hash"], ids["PREFERRED_SIX_REV2"]["logical_hash"])
+        self.assertEqual(ids["PRIOR_FIVE_REV1"]["raw_sha256"], PRIOR_RAW)
+        self.assertEqual(ids["PRIOR_FIVE_REV1"]["logical_hash"],
+                         "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d")
 
     def test_authoritative_j_checker_passes_and_binds_result(self):
         self.assertTrue(standard.validate_bundle(self.b, standard.load(standard.REGISTRY), standard.load(standard.SEALS)))
@@ -97,12 +101,14 @@ class AdmiralBrassUnsinkableM7IJ(unittest.TestCase):
         pk = json.loads(PACKET.read_text())
         stop = pk["open_ended_optimization_audit"]["quality_based_stop_reason"]
         self.assertIn("self-challenge", stop)
-        for n in ("Nesting Grounds", "Ashnod's Altar"):
+        for n in ("Nesting Grounds", "Ashnod's Altar", "Siren's Ruse", "Ripples of Undeath", "Prismari Command"):
             self.assertIn(n, stop)
         self.assertIn("Self-challenge", MEMO.read_text())
         chal = {x["challenger"]: x["disposition"] for x in pk["open_ended_optimization_audit"]["post_floor_challenges"]}
-        self.assertEqual(chal["Nesting Grounds"], "RETAIN_ALTERNATIVE")
+        self.assertEqual(chal["Ragavan, Nimble Pilferer"], "RETAIN_ALTERNATIVE")
+        self.assertEqual(chal["Prismari Command"], "REJECT")
         self.assertEqual(chal["Ashnod's Altar"], "REJECT")
+        self.assertNotIn("26/24/24", MEMO.read_text().split("withdrawn")[-1])
 
 
 class RegistryBoundDigestDiscrepancyFailsClosed(unittest.TestCase):

@@ -12,7 +12,7 @@ import re
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-SNAP = ROOT / "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json"
+SNAP = ROOT / "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_rev2_Scryfall_20261023.json"
 CAND = ROOT / "data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable.txt"
 BASE = ROOT / "data/grixis/m7/baseline_sources/Admiral_Brass__Unsinkable_approved_source_2026-10-13.txt"
 
@@ -51,6 +51,21 @@ def dies(creature):
     return "exile" if creature.get("finality", 0) > 0 else "graveyard"
 
 
+def sirens_ruse(creature, controller="me"):
+    """Exile target creature you control, return that card under its OWNER's control.
+
+    The result is a new object (CR 400.7): no counters, no Brass base-4/4 or haste
+    effect, summoning sick, ETB triggers again; draw 1 if it was a Pirate.
+    """
+    back = {"name": creature["name"], "base": None, "haste": False, "finality": 0,
+            "controller": creature.get("owner", controller), "etb_retriggered": True}
+    return back, (1 if creature.get("pirate", True) else 0)
+
+
+def turn_steps():
+    return ["untap", "upkeep", "draw", "precombat_main", "beginning_of_combat"]
+
+
 class AdmiralBrassUnsinkableM7Mechanics(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
@@ -76,6 +91,16 @@ class AdmiralBrassUnsinkableM7Mechanics(unittest.TestCase):
         self.assertIn("lose life equal to that permanent's mana value", self.txt("Jhoira, Weatherlight Corsair"))
         self.assertIn("loses all abilities and has base power and toughness 0/1", self.txt("Warkite Marauder"))
         self.assertIn("for each player, choose up to one other target artifact or creature", self.txt("Kitesail Larcenist"))
+        self.assertIn("Exile target creature you control, then return that card to the battlefield under its owner's control",
+                      self.txt("Siren's Ruse"))
+        self.assertIn("If a Pirate was exiled this way, draw a card", self.txt("Siren's Ruse"))
+        self.assertEqual(self.o["Siren's Ruse"]["type_line"], "Instant")
+        self.assertIn("At the beginning of your first main phase, mill three cards", self.txt("Ripples of Undeath"))
+        self.assertIn("pay {1} and 3 life", self.txt("Ripples of Undeath"))
+        self.assertIn("can't block and can't be blocked", self.txt("Changeling Outcast"))
+        self.assertIn("Changeling", self.txt("Changeling Outcast"))
+        self.assertEqual(self.o["Ragavan, Nimble Pilferer"]["type_line"], "Legendary Creature — Monkey Pirate")
+        self.assertIn("Whenever another creature you control dies", self.txt("Pitiless Plunderer"))
         for n in ("Kitesail Larcenist", "Timestream Navigator", "Warkite Marauder",
                   "Ragavan, Nimble Pilferer", "Jhoira, Weatherlight Corsair"):
             self.assertIn("Pirate", self.o[n]["type_line"], n)
@@ -90,8 +115,9 @@ class AdmiralBrassUnsinkableM7Mechanics(unittest.TestCase):
         r = brass_combat(["Warkite Marauder"], ["Warkite Marauder", "Warkite Marauder"], throne_on_pirate=True)
         self.assertEqual(len(r), 1)
         # graveyard hate in response
-        self.assertEqual(brass_combat(["Ragavan, Nimble Pilferer"], ["Ragavan, Nimble Pilferer"],
-                                      removed_in_response=["Ragavan, Nimble Pilferer"]), [])
+        self.assertIn("Changeling Outcast", self.cand)
+        self.assertEqual(brass_combat(["Changeling Outcast"], ["Changeling Outcast"],
+                                      removed_in_response=["Changeling Outcast"]), [])
 
     def test_finality_and_conduit_counter_removal(self):
         c = brass_combat(["Kitesail Larcenist"], ["Kitesail Larcenist"])[0]
@@ -102,6 +128,34 @@ class AdmiralBrassUnsinkableM7Mechanics(unittest.TestCase):
         self.assertEqual(dies(c), "graveyard")
         # Larcenist leaves -> its Treasure-conversion duration ends (ability text: 'For as long as')
         self.assertIn("For as long as this creature remains on the battlefield", self.txt("Kitesail Larcenist"))
+
+    def test_sirens_ruse_resets_finality_as_new_object_and_returns_stolen_to_owner(self):
+        c = brass_combat(["Kitesail Larcenist"], ["Kitesail Larcenist"])[0]
+        self.assertEqual(dies(c), "exile")
+        back, drawn = sirens_ruse(c)
+        self.assertEqual((back["finality"], back["haste"], back["base"]), (0, False, None))
+        self.assertTrue(back["etb_retriggered"])
+        self.assertEqual(drawn, 1)
+        self.assertEqual(dies(back), "graveyard")  # can die and be recurred by Brass again
+        stolen = {"name": "opponent creature", "owner": "opponent", "pirate": False}
+        back, drawn = sirens_ruse(stolen)
+        self.assertEqual((back["controller"], drawn), ("opponent", 0))
+
+    def test_ripples_mills_before_brass_combat_trigger_targets(self):
+        steps = turn_steps()
+        self.assertLess(steps.index("precombat_main"), steps.index("beginning_of_combat"))
+        gy = []
+        gy += ["Amphin Mutineer", "Island", "Feed the Swarm"]  # Ripples mill 3 in first main phase
+        self.assertEqual(len(brass_combat(gy, ["Amphin Mutineer"])), 1)
+        self.assertIn("Amphin Mutineer", self.cand)
+
+    def test_plunderer_still_fires_on_non_finality_deaths(self):
+        # Plunderer gets no Treasure from finality-exiled Brass returns, but natural deaths still count
+        returned = brass_combat(["Kitesail Larcenist"], ["Kitesail Larcenist"])[0]
+        others = [{"name": "token", "finality": 0}, {"name": "stolen", "finality": 0},
+                  dict(returned, finality=0)]  # Conduit-cleared
+        treasures = sum(1 for x in [returned] + others if dies(x) == "graveyard")
+        self.assertEqual(treasures, 3)
 
     def test_navigator_extra_turn_is_paid_only_with_blessing_and_four_spare_mana(self):
         # Turn N+1 witness: Brass already in play, Navigator milled by Brass ETB.
@@ -120,19 +174,26 @@ class AdmiralBrassUnsinkableM7Mechanics(unittest.TestCase):
         self.assertEqual(sum(reveals), 9)
         self.assertIn("{4}{B}{B}", self.o["Jhoira, Weatherlight Corsair"]["mana_cost"])
 
-    def test_exact_five_swaps_keep_pirate_density_and_size(self):
+    def test_exact_six_swaps_keep_pirate_density_and_count_lands_by_quantity(self):
         added = self.cand - self.base
         cut = self.base - self.cand
         self.assertEqual(set(added), {"Kitesail Larcenist", "Timestream Navigator", "Warkite Marauder",
-                                      "Ragavan, Nimble Pilferer", "Jhoira, Weatherlight Corsair"})
+                                      "Jhoira, Weatherlight Corsair", "Siren's Ruse", "Ripples of Undeath"})
         self.assertEqual(set(cut), {"Enterprising Scallywag", "Francisco, Fowl Marauder", "Fathom Fleet Captain",
-                                    "Changeling Outcast", "Pitiless Plunderer"})
+                                    "Pitiless Plunderer", "Crumbling Necropolis", "Faithless Looting"})
+        self.assertIn("Changeling Outcast", self.cand)
+        self.assertNotIn("Ragavan, Nimble Pilferer", self.cand)
         self.assertEqual(sum(self.cand.values()), 100)
-        pir = lambda d: sum(1 for n in d if "Pirate" in self.o[n]["type_line"]
+        pir = lambda d: sum(q for n, q in d.items() if "Pirate" in self.o[n]["type_line"]
                             or "Changeling" in (self.o[n]["oracle_text"] or ""))
         self.assertEqual(pir(self.cand), pir(self.base))
-        lands = lambda d: sum(1 for n in d if "Land" in self.o[n]["type_line"].split(" // ")[0])
-        self.assertEqual(lands(self.cand), lands(self.base))
+        self.assertEqual(pir(self.cand), 29)  # 28 in the 99 + the commander
+        land = lambda n: "Land" in self.o[n]["type_line"].split(" // ")[0]
+        self.assertFalse(land("Brass's Tunnel-Grinder"))  # front face is an artifact
+        lands = lambda d: sum(q for n, q in d.items() if land(n))
+        self.assertEqual(lands(self.base), 34)
+        self.assertEqual(sum(1 for n in self.base if land(n)), 31)  # rows, not cards
+        self.assertEqual(lands(self.cand), 33)
 
     def test_candidate_legal_identity_and_bracket_four_game_changers(self):
         for n in self.cand:

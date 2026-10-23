@@ -22,7 +22,7 @@ class AdmiralBrassUnsinkableM7Tests(unittest.TestCase):
     def test_gate_passes_as_review_candidate_not_approval(self):
         result = gate.verify_packet(self.packet, root=ROOT, registry=self.registry)
         self.assertTrue(result["owner_presentable"])
-        self.assertEqual(result["new_swaps"], 5)
+        self.assertEqual(result["new_swaps"], 6)
         self.assertEqual(self.packet["readiness"], "READY_FOR_EXACT_OWNER_APPROVAL_NOT_YET_APPROVED")
         self.assertFalse(self.packet["owner_authority"]["exact_candidate_owner_approved"])
         self.assertFalse(self.packet["owner_authority"]["canonical_deck_changed"])
@@ -36,7 +36,7 @@ class AdmiralBrassUnsinkableM7Tests(unittest.TestCase):
         exc = self.packet["baseline_provenance_exception"]
         self.assertEqual(hashlib.sha256((ROOT / exc["vendored_source_copy"]).read_bytes()).hexdigest(), RAW)
 
-    def test_exact_five_physical_swaps(self):
+    def test_exact_six_physical_swaps(self):
         base = Counter(n.split(" // ")[0] for n in gate.parse_list(
             ROOT / self.packet["baseline_provenance_exception"]["vendored_source_copy"])[0])
         cand = Counter(n.split(" // ")[0] for n in gate.parse_list(

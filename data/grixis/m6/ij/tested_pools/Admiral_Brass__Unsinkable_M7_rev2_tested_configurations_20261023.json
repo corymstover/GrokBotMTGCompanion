@@ -1,0 +1,112 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Admiral_Brass__Unsinkable",
+ "revision": "rev2 (response to ChatGPT review of PR #651)",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+ "historical_registry_digest_not_matching_raw": "e66e3a59719401f41830e9938997a87a45a1b0dcaa0663b0ec7b44e10077dd39",
+ "source_full": "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_rev2_Scryfall_20261023.json",
+ "source_full_rev1_history": "data/grixis/m6/oracle_snapshots/Admiral_Brass__Unsinkable_M7_109_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_EDHREC_discovery_20261023.json",
+ "explicit_pool_size": 9,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Admiral_Brass__Unsinkable_approved_source_2026-10-13.txt",
+   "raw_sha256": "056f0369bc4b11967365eef65d15a806b2d0f673ecf8097b028ffcdfd472f5cc",
+   "logical_hash": "lh1:3ff7f503d029554c0a6e878680064477a1d3cbbdd56a7b7ec3c1372cdc4f5c05",
+   "physical_cards": 100,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved list is unchanged and is the comparison anchor: 34 physical lands (31 rows), 8 rocks, 28 Pirates in the 99 by quantity (29 with the commander). Scallywag, Francisco and Fathom Fleet Captain add little as Brass returns. Pitiless Plunderer gets nothing from finality Pirates but still pays off on other deaths. Historic approval does not depend on this pool."
+  },
+  {
+   "id": "PREFERRED_SIX_REV2",
+   "path": "data/grixis/m7/candidate_lists/Admiral_Brass__Unsinkable.txt",
+   "raw_sha256": "baf0d451bc5fa1f66065d04fa7826610337d1ffa802eebf6c78ba282a784e967",
+   "logical_hash": "lh1:83da1314067759d3e6406907f06714ba225f62ece24f80bf9a4adeab4458f6c7",
+   "physical_cards": 100,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL (REV2, after ChatGPT review). Six in-place swaps: +Kitesail Larcenist +Timestream Navigator +Warkite Marauder +Jhoira +Siren's Ruse +Ripples of Undeath / -Scallywag -Francisco -Fathom Fleet Captain -Pitiless Plunderer -Crumbling Necropolis -Faithless Looting. 33 lands + 8 rocks (land sources U20/B18/R17 unrestricted), Pirate count unchanged at 28 in the 99, Changeling Outcast kept."
+  },
+  {
+   "id": "PRIOR_FIVE_REV1",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_prior_five_rev1_20261023.txt",
+   "raw_sha256": "953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475",
+   "logical_hash": "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d",
+   "physical_cards": 100,
+   "judgment": "SUPERSEDED_HISTORY. The rev1 preferred five (raw 953a1f8c...; lh1:39fd58ac...) with Ragavan over Changeling Outcast and 34 lands. Its mana memo miscounted lands as 31 (rows, not quantities). Superseded by REV2: the Ragavan swap is reverted, and Siren's Ruse and Ripples are added."
+  },
+  {
+   "id": "SEVEN_REV2_RAGAVAN_OVER_OUTCAST",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_rev2_seven_Ragavan_over_Outcast_20261023.txt",
+   "raw_sha256": "bbcac21230d06746b8e4eb65836b6d86c58964b078816dd6a39aca4a1c111419",
+   "logical_hash": "lh1:14a5e4df4060a4e63be730ec27d6683108b8489166fce53274b10d1b283bca37",
+   "physical_cards": 100,
+   "judgment": "RETAIN_ALTERNATIVE. REV2 plus Ragavan for Changeling Outcast. Ragavan (Monkey Pirate) has the better hard-cast turn 1. As a Brass return, Outcast's can't-be-blocked 4/4 haste connection reliably feeds Beckett's three-Pirate theft, Breeches, Ramirez and Shared Animosity, while Ragavan's Treasure and card depend on getting through blockers. Not clearly better."
+  },
+  {
+   "id": "SEVEN_REV2_PRISMARI",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_rev2_seven_PrismariCommand_20261023.txt",
+   "raw_sha256": "a5a027fe2bd4b395a250190c76757236b3788917a373f22b91b21ac2f02e45a6",
+   "logical_hash": "lh1:d20db7e2ef7efdd20fcdb73ddd10455c1bc9bbb08b7211d3500393af86f1a656",
+   "physical_cards": 100,
+   "judgment": "REJECT. REV2 plus Prismari Command for Feed the Swarm. Instant loot plus Treasure is good setup, but the list loses its cheap creature/enchantment answer, and Ripples already covers precombat setup."
+  },
+  {
+   "id": "SIX_REV2_KEEP34_MINUS_TALISMAN",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_rev2_six_keep34lands_minus_Talisman_20261023.txt",
+   "raw_sha256": "747d89d1b2c38150adcca21a4c829b3d80bbad82445f40078d151358968b8c15",
+   "logical_hash": "lh1:8f068800c783974c77c03e4773dfbc09ee174815a40a3029f8dc4ba746a25e80",
+   "physical_cards": 100,
+   "judgment": "REJECT. Same six adds, but Siren's Ruse replaces Talisman of Indulgence so 34 lands are kept. That keeps land-drop odds (P(>=4 lands in 10) 0.470 vs 0.441) at the cost of the turn-2 B/R rock that enables turn-4 Brass. A tapped tri-land is the cheaper mana source to give up. Total mana permanents are 41 either way."
+  },
+  {
+   "id": "REV1_SIX_NESTING_GROUNDS",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_six_NestingGrounds_20261023.txt",
+   "raw_sha256": "873ed9347db8cb3b0cc418844043c53f8e53f1d00e8f0fc1e4821a747a420022",
+   "logical_hash": "lh1:b69e752cd7a864194310cebc14ed85b65788453f60d689372eafa0b9da836fef",
+   "physical_cards": 100,
+   "judgment": "HISTORY / RETAIN_ALTERNATIVE (built on rev1 five). Nesting Grounds for Crumbling Necropolis: sorcery-speed finality relocation. Corrected numbers: unrestricted land sources 21/19/18 -> 20/18/17 (the rev1 26/24/24 -> 25/23/23 figures were miscounted). The conclusion holds: it costs one source of each color and duplicates instant-speed Power Conduit, and REV2's Siren's Ruse also fills the reset role."
+  },
+  {
+   "id": "REV1_SEVEN_NESTING_ALTAR",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_seven_NestingGrounds_AshnodsAltar_20261023.txt",
+   "raw_sha256": "94ac3d88434ed9131fd5a7b63fcb796a07809b7b8fa5f79af536aa49b467d88d",
+   "logical_hash": "lh1:ca5012d70ac21e0c2ffebedec0aa6bf03adac661af2fae96f546f7fdb9078c30",
+   "physical_cards": 100,
+   "judgment": "HISTORY / REJECT (built on rev1 five). Adds Ashnod's Altar for Talisman of Indulgence. The Altar makes mana only from sacrifices, and finality exiles returned Pirates unless they are reset first. Losing the turn-2 rock weakens turn-4 Brass."
+  },
+  {
+   "id": "REV1_EIGHT_RAVAGER_CREW_PIT",
+   "path": "data/grixis/m7/research_challengers/Admiral_Brass__Unsinkable_eight_Ravager_Crew_SpawningPit_20261023.txt",
+   "raw_sha256": "54feef8c62720674044893b7c3db80e550ca0baf73bf1979e7182b2c134d651f",
+   "logical_hash": "lh1:3aa4af1a6720fa22e307d2f5b67e36251f71e5110cc97772980c9aa9e3552af3",
+   "physical_cards": 100,
+   "judgment": "HISTORY / REJECT (built on rev1 five). Ravager's symmetric life loss taxes Ancient Tomb, Talisman pings and the tutors. Crew duplicates Coercive Recruiter, and Spawning Pit is the weakest free outlet."
+  }
+ ],
+ "provisional_preferred": "PREFERRED_SIX_REV2",
+ "provisional_preferred_raw_sha256": "baf0d451bc5fa1f66065d04fa7826610337d1ffa802eebf6c78ba282a784e967",
+ "provisional_preferred_logical_hash": "lh1:83da1314067759d3e6406907f06714ba225f62ece24f80bf9a4adeab4458f6c7",
+ "prior_preferred_history": {
+  "id": "PRIOR_FIVE_REV1",
+  "raw_sha256": "953a1f8c147239f450ec78704537a2f45c6dde3891d38e7c5f48d178780d2475",
+  "logical_hash": "lh1:39fd58ac40cb3729388c2e9717a37b9af006867b2b9803aa5123bf936d675b3d",
+  "commit": "73e077ededbeaf21a104909cf8e236d2aa92b438"
+ },
+ "single_card_contenders_outside_full_lists": "Further single-card contenders are recorded with named cuts and judgments in data/grixis/m7/decision_reviews/Admiral_Brass__Unsinkable.json material_candidates. They were judged against their named incumbents but not built as separate 100-card files.",
+ "actual_mechanical_fixtures": [
+  "tests/test_m6_admiral_brass_unsinkable_m7_mechanics.py",
+  "tests/test_m7_admiral_brass_unsinkable_candidate.py",
+  "tests/test_m6_admiral_brass_unsinkable_m7_ij.py"
+ ],
+ "ci": ".github/workflows/m7-admiral-brass-unsinkable.yml runs the three fixture files on pull requests; exact-head run URLs are recorded in the PR #651 body (not here, to avoid self-referential hashes)",
+ "still_required": [
+  "Owner (Cory) exact-list decision",
+  "ChatGPT re-critique of the rev2 response"
+ ],
+ "no_win_rate_or_global_claim": true,
+ "m6_I_pass_issued_scope": "tested_pool_local_only",
+ "owner_m7_approved": false,
+ "m6_10_accepted": false
+}
