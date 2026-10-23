@@ -41,7 +41,7 @@ Not done, stated plainly: Pass C asked for identical starting hands, shuffles an
 - **Four-swap keeping Evereth:** staged, RETAIN_ALTERNATIVE (below the floor).
 - **Five-swap with Lithoform Engine instead of Dihada:** staged, RETAIN_ALTERNATIVE.
 - **Three Closet six-swaps:** staged and rejected (items 1–3).
-- **Rejected singles:** Sephiroth, Bribery, Agent of Treachery, Treachery, Helm of the Host, Sakashima the Impostor, Nasty End, Rhystic Study, Cyclonic Rift, Dark Ritual, Jeska's Will, Nightscape Familiar, Relentless Assault, Hellkite Charger, Laughing Jasper Flint, Susur Secundi, Swiftfoot Boots. Jabs and Mistress of Mockery were EXCLUDE_INVALID.
+- **Rejected singles:** Sephiroth, Bribery, Agent of Treachery, Treachery, Helm of the Host, Sakashima the Impostor, Nasty End, Rhystic Study, Cyclonic Rift, Dark Ritual, Jeska's Will, Nightscape Familiar, Relentless Assault, Hellkite Charger, Laughing Jasper Flint, Susur Secundi, Swiftfoot Boots. Jabs, Mistress of Mockery was EXCLUDE_INVALID.
 - **Owner-removed classes:** none re-added. The delayed Marchesa-style return and Closet are not added.
 
 ## Limits

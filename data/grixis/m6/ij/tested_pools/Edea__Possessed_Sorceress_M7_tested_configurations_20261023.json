@@ -83,7 +83,7 @@
    "logical_hash": "lh1:f1f96ab2bf2cc9d1fdda89d57c49e7029aca4d1b906a94ce40afe10e7df931f4",
    "physical_cards": 100,
    "companion_outside_100": null,
-   "judgment": "REJECT (six-swap, staged; Pass C secondary test). Exact table: Advancement hits a creature 0.3623-0.8834 depending on stolen MV (0.7308 at MV5, 80 cards, 18 creatures) on top of Edea's draw. MODERATE confidence."
+   "judgment": "REJECT (six-swap, staged; Pass C secondary test). Exact table: Advancement hits a creature 0.4936-0.8834 depending on stolen MV (0.7308 at MV5, 80 cards, 18 creatures) on top of Edea's draw. MODERATE confidence."
   }
  ]
 }

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "deck_id": "Edea__Possessed_Sorceress",
+  "slug": "edea-possessed-sorceress",
+  "generated_at": "2026-10-23T09:43:01-05:00",
+  "list_hash": "lh1:60df43495ea457255e5e1f03cfbdd29975d420a6622bb9f38c4d92a704e685b2",
+  "candidate_pool": {
+    "source_ref": "data/grixis/m6/ij/tested_pools/Edea__Possessed_Sorceress_M7_tested_configurations_20261023.json",
+    "source_sha256": "sha256:b6163f70c3c42f60ec88f5fe12dff8020a878ab0d8ed613dc26eb3e9343db8ca",
+    "tested_pool_size": 8
+  },
+  "optimizer_pass_ref": "data/grixis/m6/sealed/reconciliation_manifest.json",
+  "reconciliation_complete": true,
+  "phase_b": {
+    "all_required_tests_pass": true,
+    "test_refs": [
+      "tests/test_m6_edea_possessed_sorceress_m7_mechanics.py",
+      "tests/test_m7_edea_possessed_sorceress_candidate.py",
+      "tests/test_m7_decisive_optimization_gate.py",
+      "tests/test_m6_edea_possessed_sorceress_m7_ij.py"
+    ]
+  },
+  "unresolved_requires_human_judgment": [],
+  "receipt_refs": [
+    "data/grixis/m6/certification_preflight/Edea__Possessed_Sorceress_M6_I_local_best_20261023.md",
+    "data/grixis/m6/ij/tested_pools/Edea__Possessed_Sorceress_M7_tested_configurations_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Edea__Possessed_Sorceress_M7_Scryfall_20261023.json",
+    "data/grixis/m6/rules_snapshots/Edea__Possessed_Sorceress_M7_20261023.md",
+    "data/grixis/m7/research_challengers/Edea__Possessed_Sorceress_CommanderSpellbook_20261023.json",
+    "data/grixis/m7/decision_reviews/Edea__Possessed_Sorceress.json"
+  ],
+  "improving_substitution_found": false,
+  "local_optimum_for_tested_pool": true,
+  "certificate_status": "pass",
+  "blockers": [],
+  "scope_caveat": "Local optimum over the explicitly tested candidate pool only; not a mathematical or global proof of optimality.",
+  "authority": {
+    "can_decide": false,
+    "can_approve_or_lock": false,
+    "note": "PASS covers only the 8 complete configurations in the pool: raw baseline, registry canonical export, preferred five, the four-swap keeping Evereth (Aggravated Assault over Seize the Spotlight, no Combat Celebrant), the five-swap with Lithoform Engine instead of Geyadrone Dihada, and the three Pass C six-swaps adding Conjurer's Closet over Irma, Impostor Syndrome or Industrial Advancement. Not owner approval; the canonical list is unchanged."
+  }
+}

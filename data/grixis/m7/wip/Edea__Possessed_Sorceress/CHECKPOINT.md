@@ -16,5 +16,7 @@
 - Candidate (raw e8680caf..., lh1:60df4349...; packet gate pass; mechanics test 14 pass): +Aggravated Assault +Kaya's Ghostform +Hall of Echoes +Geyadrone Dihada
   +Combat Celebrant / -Evereth -Zara -High Market -Ayara -Seize the Spotlight.
 - Also done: Pass C bounded tests (mechanics test), oracle/rules snapshots, decision packet, tested pool (8 configs), I/J memos.
-- Next: certificate + revision bundle, candidate/IJ tests, workflow, review packet, full suite, ready.
-- Checkpoint updated 2026-10-23 09:38 CDT (America/Chicago).
+- Also done: I certificate + J revision bundle (bundle checker ok, Edea valid), candidate test (10), I/J test, focused workflow
+  (step names without '#'), ChatGPT adversarial review packet. Last content commit.
+- Next: full suite once, remove this WIP file, mark PR ready, exact-head CI, ledger REVIEW_READY_AWAITING_CHATGPT.
+- Checkpoint updated 2026-10-23 09:43 CDT (America/Chicago).
