@@ -229,20 +229,28 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
+   "working_branch": "grokbot-deck07-belakor-the-dark-master-m7-20261023",
+   "last_pushed_commit": "9938707e4459ca33ef9aa783d8139f1dbc2dba5a",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/655",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
-   "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "unresolved_issues": [
+    "Overrides key Be_lakor_the_Dark_Master (single underscore) vs tracker deck_id Be_lakor__the_Dark_Master (double); IDs preserved exactly"
+   ],
+   "completed_stages": [
+    "baseline_provenance",
+    "gate_infra_copied_from_654",
+    "draft_pr_opened"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Comprehensive fail-closed checker stabilization (decks #7-#62), then EDHREC/Scryfall discovery + 99-slot audit",
+   "next_step": "Comprehensive fail-closed checker stabilization (decks #7-#62), then EDHREC/Scryfall discovery + 99-slot audit",
+   "head_commit": "9938707e4459ca33ef9aa783d8139f1dbc2dba5a",
+   "last_checkpoint": "2026-10-23T05:08-05:00"
   },
   {
    "tracker_number": 8,
