@@ -13,3 +13,10 @@
 - Pass C (#14, owner-equivalent, NOT independent): KEEP; requested measured tests: Mob Rule vs Insurrection (6/7/8 mana, mixed tables, Don survival); Bribery vs named theft cut (opponent density, turns-to-return).
 - Shared infra copied byte-identically from PR #661 head 8bcc4c54 (bundle checker SHA 2962a640...).
 - Completed: baseline_provenance. Next: research (Scryfall live, EDHREC, Spellbook), Pass C bounded tests, candidate judgments.
+
+## Checkpoint 2 — research (2026-10-23 08:18 CDT)
+- Live Scryfall /cards/collection: 99 baseline names + 155 evaluated names; frozen snap-20261016 oracle_id/text differences: zero (Mirror Universe Intrusion absent from frozen cache and not commander-legal; excluded). Baseline Game Changers (live): Ancient Tomb, Cyclonic Rift, Fierce Guardianship, Opposition Agent, Vampiric Tutor (5).
+- Commander Spellbook: baseline 0 included combos / 23 almost; candidate 0 / 19.
+- Staged candidate (5 swaps): +Gríma, Saruman's Footman / -Professional Face-Breaker; +Fallen Shinobi / -Seize the Spotlight; +Treachery / -Blasphemous Act; +Gloomlake Verge / -Shipwreck Marsh; +Blazemire Verge / -Smoldering Marsh. Candidate raw sha256 05e13311bac44898f2c299dca5a6b071133fb30a1c021d496e7de84e56049773.
+- Six alternatives staged under research_challengers (Pass C Mob Rule / Bribery variants, keep-Blasphemous-Act, Dazzling Sphinx, Nightveil Specter).
+- Next: bounded Pass C tests, decision review, snapshots, certificate/bundle, workflow.
