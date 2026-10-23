@@ -374,14 +374,15 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
    "working_branch": "grokbot-deck10-crosis-the-purger-m7-20261023",
-   "last_pushed_commit": "fe66bcfb484dd8a220574933f329a32116bebe86",
+   "last_pushed_commit": "e9621a9fef3b229bea0eaf13d056c5ead2328738",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/658",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical 9b26aa2; raw a59150c3 == overrides == registry; 100 physical / 92 rows; tracker note 'only change Regalia->Blizzard' stale: list contains both); draft PR #658"
+    "baseline_provenance (canonical 9b26aa2; raw a59150c3 == overrides == registry; 100 physical / 92 rows; tracker note 'only change Regalia->Blizzard' stale: list contains both); draft PR #658",
+    "research_snapshots_and_draft_candidate"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
@@ -390,7 +391,9 @@
    "next_step": "research",
    "head_commit": "fe66bcfb484dd8a220574933f329a32116bebe86",
    "last_checkpoint_at": "2026-10-23T06:28:06-05:00",
-   "last_checkpoint": "2026-10-23 06:28 CDT baseline + draft PR"
+   "last_checkpoint": "2026-10-23 06:28 CDT baseline + draft PR",
+   "stage": "research_snapshots_and_draft_candidate",
+   "updated_at": "2026-10-23T06:32:47-05:00"
   },
   {
    "tracker_number": 11,
