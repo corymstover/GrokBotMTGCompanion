@@ -318,6 +318,8 @@ jobs:
           path: ${{ runner.temp }}/abaddon-stage14-provisional-oracle.json
           if-no-files-found: error
           retention-days: 60
+      - name: Execute 14 Abaddon protected-six changed-source P0 cost, threshold, copy and counterplay fixtures
+        run: python -m unittest discover -s tests -p 'test_m6_abaddon_stage15_changed_candidate_p0.py' -v
       - name: Validate all submitted M7 decisions and staged exact 100-card decks
         run: python scripts/grixis_m7_decision_gate.py --check --check-sources
       - name: Verify authoritative 62-roster and no auto-approval

@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "deck_id": "Abaddon_the_Despoiler",
+  "stage": "M6_STAGE15_PROVISIONAL_CANDIDATE_CHANGED_MECHANICS_EXECUTION_PLAN",
+  "date": "2026-10-23_America_Chicago",
+  "status": "PENDING_EXACT_HEAD_TEST_RUN",
+  "canonical_baseline_sha256": "0d9f6df80cafc2a380199b7aec8112e4e54ccfec70024679607032cdf10f5790",
+  "changed_research_candidate_sha256": "5ab1a3628352016be52233917b27ce8cbb0a538916fe757a5384cd06ad3dee24",
+  "script": "tests/test_m6_abaddon_stage15_changed_candidate_p0.py",
+  "command": "python -m unittest discover -s tests -p 'test_m6_abaddon_stage15_changed_candidate_p0.py' -v",
+  "cases": [
+    {
+      "case_id": "ABADDON_STAGE15_P0_01",
+      "method": "test_p0_01_source_payable_mage_offspring_normal_cast",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_02",
+      "method": "test_p0_02_offspring_not_free_when_mage_hit_by_cascade",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_03",
+      "method": "test_p0_03_later_cast_two_mage_triggers_not_own_cast_retroactive",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_04",
+      "method": "test_p0_04_offspring_survives_one_spot_removed_original",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_05",
+      "method": "test_p0_05_sakashima_new_grant_only_after_enter_resolution",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_06",
+      "method": "test_p0_06_abaddon_removed_before_sakashima_etb_reduces_copy_ceiling",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_07",
+      "method": "test_p0_07_sanctum_one_shrine_first_main_life_loss_vs_damage",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_08",
+      "method": "test_p0_08_sanctum_removed_in_response_current_shrine_count_zero",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_09",
+      "method": "test_p0_09_sheoldred_wheel_loss_only_after_cast",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_10",
+      "method": "test_p0_10_sheoldred_windfall_variable_and_bloodletter",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_11",
+      "method": "test_p0_11_mount_doom_paid_activation_and_noncombat_replacement",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_12",
+      "method": "test_p0_12_rule_of_law_cascade_spells_forbidden_land_damage_works",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_13",
+      "method": "test_p0_13_sole_mage_and_sol_bloodletter_multiplied_delayed_cast",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    },
+    {
+      "case_id": "ABADDON_STAGE15_P0_14",
+      "method": "test_p0_14_signature_nonhand_40k_loss_explicit_in_selection",
+      "design_status": "IMPLEMENTED_AWAITING_EXACT_HEAD_CI",
+      "actual_result": "NOT_YET_CLAIMED"
+    }
+  ],
+  "known_covered_before": [
+    "104 named exact execution Abaddon core P0 from historical decision-scoped work",
+    "14 residual P1 from 2026-10-22 case-set",
+    "Current Abaddon approved rev2 M6 J evidence is distinct and cannot rebind unchanged automatically",
+    "Stage8 Ignus/Birgi/Impact paid interaction",
+    "Stage11 Sanctum first main",
+    "Stage12 Sheoldred/Mount Doom/Sakashima arithmetic and 100-card alternatives"
+  ],
+  "source_snapshots": [
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage13_ten_EDHREC_Scryfall_20261023.json",
+    "data/grixis/m6/oracle_snapshots/Abaddon_the_Despoiler_Rev2_Scryfall_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_post_Admiral_39_card_Scryfall_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage8_nine_offranking_Scryfall_20261022.json",
+    "data/grixis/m7/research_challengers/Abaddon_the_Despoiler_stage4_13_source_cards_20261022.json"
+  ],
+  "effect_coverage": "BounDED_TARGETED_ORACLE_PAID_EVENT_TRACE: card cast/entry, additional offspring cost, own-turn threshold, land activated cost/tap, 2-Abaddon static grant, Wheel/Sheoldred postcast triggers, red/nonred damage replacements, Rule of Law adverse; excludes deck search, random cascade outcome, full multiplayer opponent policy and win-rate",
+  "can_support_improvement_claim": false,
+  "formal_m6_certified": false,
+  "full_m6_ij_reproducibility_complete": false,
+  "owner_m7_approval": false,
+  "deck3_hold": true,
+  "needed_after_ci": "Record exact PR head, number of executed methods and actual conclusion; decide whether further P0/P1 effect coverage is truly required, then candidate-specific decision I/J with complete auditable provenance. Do not falsely count this plan as execution."
+}
