@@ -1,0 +1,90 @@
+{
+ "schema_version": 1,
+ "date": "2026-10-23",
+ "deck_id": "Evelyn__the_Covetous",
+ "status": "PHYSICAL_SOURCE_BOUND_FINITE_EFFECT_POOL_LOCAL_ONLY_NOT_OWNER_APPROVED",
+ "canonical_authority": "APPROVED_LOCKED_UNCHANGED",
+ "canonical_raw_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+ "registry_recorded_matches_raw": true,
+ "count_convention": "100 = 1 commander + 99 library; no companion",
+ "owner_m7_approved": false,
+ "source_full": "data/grixis/m6/oracle_snapshots/Evelyn__the_Covetous_M7_Scryfall_20261023.json",
+ "source_edhrec_new": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_EDHREC_discovery_20261023.json",
+ "source_combos": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_CommanderSpellbook_20261023.json",
+ "source_measured": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_bounded_measured_tests_20261023.json",
+ "explicit_pool_size": 8,
+ "configurations": [
+  {
+   "id": "BASELINE",
+   "path": "data/grixis/m7/baseline_sources/Evelyn__the_Covetous_approved_source_2026-10-14.txt",
+   "raw_sha256": "1d602b5d9b2a370d3448816f593198212b2b83da74e92ccc3232798641b2588a",
+   "logical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. The approved raw 100 is unchanged and is the byte anchor (raw 1d602b5d…, fetched from canonical encyclopedia main 9b26aa28, blob 03574140, frozen by canonical commit 43c0ceca; registry source commit 1836b97 carries the same bytes; logical hash = registry baseline_hash)."
+  },
+  {
+   "id": "CANONICAL_EXPORT",
+   "path": "exports/grixis-archidekt/evelyn-the-covetous.txt",
+   "raw_sha256": "e230c85b8254f533b0a8d6e2e5699e9eac000010f594a822892c3d74cd76390f",
+   "logical_hash": "lh1:94c3b2c4114887f0c86ca2fed5df17408e2068537c475839f9fe7b502668d4db",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_CANONICAL_AUTHORITY. Registry canonical project export: the same 100 in a different text format and order. Logical hash = registry baseline_hash."
+  },
+  {
+   "id": "PREFERRED_FIVE",
+   "path": "data/grixis/m7/candidate_lists/Evelyn__the_Covetous.txt",
+   "raw_sha256": "c3f6862c6f4498778069f45e7a5e5bc7efe92d70158b5e9b3f438c8c861b89ac",
+   "logical_hash": "lh1:7f36c397c95fb1f25c1477765b0ea27e3fdb80c476073d66146b02560eec075a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "PROVISIONAL_LOCAL_BEST_IN_TESTED_POOL. +Marsh Flats +Insolent Neonate +Brainstorm +Burnt Offering +Verdant Catacombs / -Thundering Falls -Spellskite -Redirect Lightning -Wan Shi Tong, Librarian -Blazemire Verge. 26 lands kept; U/B/R sources 19/19/19 -> 20/20/19; always-tapped lands 1 -> 0 (Mistrise conditional only); fetchlands 7 -> 9; Vampires 1 -> 2 (Evelyn + Neonate); average nonland MV 1.836 -> 1.808; Evelyn turn-4 castability on the play 0.1491 -> 0.1491 (conservative model). Spellbook 7 -> 7 complete combos. No explicit owner keep cut; Ripples of Undeath kept. MODERATE confidence; no measured playtests."
+  },
+  {
+   "id": "PASS_C_BRAINSTORM_OVER_RIPPLES",
+   "path": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_PassC_baseline_plus_Brainstorm_minus_RipplesOfUndeath_20261023.txt",
+   "raw_sha256": "d309eeeb20b97b16c5d5b652ea78653716dcad26dfb4ef02181cee3d3d0c7279",
+   "logical_hash": "lh1:6cf8e20384369b5f331fac7a9196f7435052c7fb8d40122c10bbcfac32cd731f",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (one-swap, staged; the exact Pass C provisional hypothesis on the baseline). Bounded test: Brainstorm has a U source on turn 1 0.8385/0.8771 (play/draw) vs Ripples castable on turn 2 0.7852/0.8414; Ripples bins Worldgorger only 0.0333/0.0671/0.1012 over 1/2/3 triggers (on the play, given WGD not drawn) at 3 life per take. Not primary: Ripples is an owner-defended Breach/WGD enabler; the primary adds Brainstorm over Redirect Lightning instead."
+  },
+  {
+   "id": "FOUR_KEEP_BLAZEMIRE_VERGE",
+   "path": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_four_keep_BlazemireVerge_20261023.txt",
+   "raw_sha256": "637b191e830ce617df07b33cdf7ff3348c127b282328dc5d9149b73448f0b30b",
+   "logical_hash": "lh1:e08db8c3e64d86312732721ce2830325a84a6d9e7b5959b8a37eca03838e67e7",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (four-swap, staged, below the floor). The primary without the closest call (+Verdant Catacombs / -Blazemire Verge); U sources 20 -> 19. Choose it if the owner prefers the untapped B/R dual over a ninth fetch."
+  },
+  {
+   "id": "FIVE_GRIM_MONOLITH_INSTEAD_OF_BURNT_OFFERING",
+   "path": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_five_GrimMonolith_instead_of_BurntOffering_20261023.txt",
+   "raw_sha256": "90fbfc19c5072c7acb573eb4d4f7bc87b1b9e50af7d8cfeb49a761e96dce49fb",
+   "logical_hash": "lh1:19d713f12d80ee978abd378d7300a91e927d1d6375f2f4b9a9b859cdfe95c7a9",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged). Grim Monolith (EDHREC cEDH 53%) is a durable fast-mana rock over Wan Shi Tong; it is a Game Changer (19 -> 20) and does not interact with Evelyn or the WGD loop, where Burnt Offering sacrifices Evelyn (5) or Worldgorger (6) at instant speed."
+  },
+  {
+   "id": "FIVE_KEEP_WAN_SHI_TONG_CUT_NOTION_THIEF",
+   "path": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_five_keep_WanShiTong_cut_NotionThief_20261023.txt",
+   "raw_sha256": "ef9d559fd54275414ff42606bdc5b66bedefb4dc858996cfcb805245c4e3c0c0",
+   "logical_hash": "lh1:eb97883a69e91ee54ad5c70b5900596773415a2b0117f4ba635a53fb28b9d96a",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (five-swap, staged). Keeps Wan Shi Tong, Librarian and cuts Notion Thief instead; flagged because Notion Thief is the Windfall pairing the owner defended when rejecting Wheel of Fortune. Notion Thief is a Game Changer (19 -> 18)."
+  },
+  {
+   "id": "SIX_SPELL_PIERCE_OVER_RIPPLES",
+   "path": "data/grixis/m7/research_challengers/Evelyn__the_Covetous_six_SpellPierce_over_RipplesOfUndeath_20261023.txt",
+   "raw_sha256": "e7eef96b9f49811d1434e2da2137cd60013d43fb84ce5b5845c973177a33d060",
+   "logical_hash": "lh1:be3a0cba6b673ecc2d84bf8f3dad8350241fd866c863d28ef7766c8ddc74b163",
+   "physical_cards": 100,
+   "companion_outside_100": null,
+   "judgment": "RETAIN_ALTERNATIVE (six-swap, staged). Adds Spell Pierce over Ripples of Undeath on top of the primary; flagged because it cuts the owner-defended Ripples. Instants/sorceries 37 -> 38; average nonland MV 1.808 -> 1.795."
+  }
+ ]
+}
