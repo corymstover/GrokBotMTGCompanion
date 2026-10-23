@@ -1,0 +1,229 @@
+{
+ "schema_version": 1,
+ "stage": "M6_final_reproducibility_bundle",
+ "deck_id": "Lord_Xander__the_Collector",
+ "slug": "lord-xander-the-collector",
+ "baseline_hash": "lh1:84233c9153b8b1c86c521ce4734dab8515e49f448776f66e6c2a450772db773a",
+ "result_hash": "lh1:51caa7ea583ad70417bbdf4e1c896e2db3a87021e87fe0425d452bd911fe3620",
+ "snapshot": {
+  "birthday_id": "birthday-20261017-6e5c604e1459",
+  "oracle_ref": "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+  "rules_ref": "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+  "legality_ref": "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json"
+ },
+ "inputs": [
+  {
+   "path": "data/grixis/birthday_m5/candidates/lord-xander-the-collector.json.gz",
+   "sha256": "sha256:1c8e971f90936146215dc1a833f81ca2c69b6719627a602203606eeb5a66ef03"
+  },
+  {
+   "path": "data/grixis/birthday_m5/regen/lord-xander-the-collector.json.gz",
+   "sha256": "sha256:10d7e8589540a422404be4a45031ed241b745dbb01020d210636035254efbf05"
+  },
+  {
+   "path": "data/grixis/birthday_m5/evidence/lord-xander-the-collector.json",
+   "sha256": "sha256:cd4e8fa07c30f1a4d880921089b9d5e4cfed270bdb809b639934c22e3627cf57"
+  },
+  {
+   "path": "data/grixis/m6/optimizer/lord-xander-the-collector.json",
+   "sha256": "sha256:bf0d75cbe736d9d1f45f93cf707ade1a5c20aa42e76e88c6098e5f97693116fa"
+  },
+  {
+   "path": "data/grixis/m6/review_packets/lord-xander-the-collector.json",
+   "sha256": "sha256:62ac285f4d525745aeda0e17db12868c527c16879780badb613b35f57c2dee78"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Lord_Xander__the_Collector.json",
+   "sha256": "sha256:0d5f00ef33491c04261a1643e9e8da1e36a604d377366de6b69251f7211fa393"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_EDHREC_discovery_20261023.json",
+   "sha256": "sha256:beb38c6c8bc6bb1007c036157948241b114a58586fc27441c455a1e0d7bcce9a"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_Scryfall_live_20261023.json",
+   "sha256": "sha256:fa0241769ff43f7bd0bae6d923cb781a3bdcb4df6a2dcb2dbd10e96773f040cf"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_CommanderSpellbook_20261023.json",
+   "sha256": "sha256:3d68d1333dbaef3938cc92260d659744221371a2c59e24916aaf2b42081c9b5b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_bounded_measured_tests_20261023.json",
+   "sha256": "sha256:d9bbbe18439d73c7d13cde33ce79b46d11d1d1a5e2e71a60c874ad7f2a4bcf03"
+  },
+  {
+   "path": "scripts/grixis_m7_decision_gate.py",
+   "sha256": "sha256:24d0fd23f6b65fd9729f150f340285ee59a4f2ebe50fe5bc9e099382f587950a"
+  },
+  {
+   "path": "data/grixis/schemas/m7_decisive_optimization.schema.json",
+   "sha256": "sha256:9ae2161f427051ec78d38198968ff7ff0880a4e6a91986356b86fee076ad9376"
+  },
+  {
+   "path": "scripts/grixis_m6_bundle_check.py",
+   "sha256": "sha256:2962a64053b6ea302924fd74dcc646c5fc6eb318016c0aa57026012ba9b3bf3b"
+  },
+  {
+   "path": "data/grixis/m7/baseline_sources/Lord_Xander__the_Collector_approved_source_2026-10-14.txt",
+   "sha256": "sha256:92cdc2f9c1a3583ccf6a311679db66bef825dac2902761859e929f268b6b4787"
+  },
+  {
+   "path": "exports/grixis-archidekt/lord-xander-the-collector.txt",
+   "sha256": "sha256:26b1674fef88552f6e5f2eaff5c85bcefb05ac1a4afb90b728ae8218f24fab63"
+  },
+  {
+   "path": "data/grixis/m7/candidate_lists/Lord_Xander__the_Collector.txt",
+   "sha256": "sha256:8dc209682c00608e1d903b41988ac7bcec540005624ef7938593ee520f1a28c8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_alt_A_owner_keeps_Necromancy_minus_Karlach_20261023.txt",
+   "sha256": "sha256:9567e107f45f9d46711fe217c131b3bc16ae2ea7683d5c2b872d6795ccd26c88"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_alt_B_owner_keeps_Necromancy_minus_AnOfferYouCantRefuse_20261023.txt",
+   "sha256": "sha256:9443695237c93b2bbaa1dba39ba4cfbddd59b29464e40b09ff85b3a730ce4c28"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_PassC_plus_GoryosVengeance_minus_Persist_20261023.txt",
+   "sha256": "sha256:5a2aebbf5617cdcef0910c4dd06f0228f834f437521705cb2f5a8d1c61182893"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_PassC_plus_SeizeTheDay_minus_Karlach_20261023.txt",
+   "sha256": "sha256:c4963daed50033e70c62d6e3113eb16ca45400fbc3575efd816a6c2198e204f8"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_staged_plus_KikiJiki_minus_Karlach_20261023.txt",
+   "sha256": "sha256:54c7e8a0400d6b0ea710e8b8af3c4cee67116dfe4da15e8eef6899e009898112"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_GlasspoolMimic_minus_TrainingCenter_20261023.txt",
+   "sha256": "sha256:466798ac0f0edd806b1467f2c44dd32cfd51a1485ad0374c1ae1f4c042576a8b"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_ChromeMox_minus_TalismanOfCreativity_20261023.txt",
+   "sha256": "sha256:8b4a0e590ce7c36e3f8892a93e2b9d65fbd52ce8b228b60c5940c64a98618ecc"
+  },
+  {
+   "path": "data/grixis/m7/research_challengers/Lord_Xander__the_Collector_rejected_plus_CommandBeacon_minus_XandersLounge_20261023.txt",
+   "sha256": "sha256:0d0b1c992b500164678b0479aebbaff67bcd65aba64a59374e6830920f8a89c1"
+  },
+  {
+   "path": "data/grixis/m6/oracle_snapshots/Lord_Xander__the_Collector_M7_Scryfall_20261023.json",
+   "sha256": "sha256:48ef4abc8f64814d55077d4dbb8aaaaa10fe85f855d80cbdea5756cd4d1d20b5"
+  },
+  {
+   "path": "data/grixis/m6/rules_snapshots/Lord_Xander__the_Collector_M7_20261023.md",
+   "sha256": "sha256:b499a0a41459d58c86215befd705cbfa04f16734b8912268dc6771743a50ea88"
+  },
+  {
+   "path": "data/grixis/m6/ij/certificates/lord-xander-the-collector-m7.json",
+   "sha256": "sha256:769955ab44d2a4bdc45b0adf156be84725de0da4dd9727886d0368aeaa8925cf"
+  },
+  {
+   "path": "data/grixis/m6/certification_preflight/Lord_Xander__the_Collector_M6_I_local_best_20261023.md",
+   "sha256": "sha256:f4979c3d2debfe69efb60de30b5b6a770d4785369edfc3378630cc25772e8820"
+  },
+  {
+   "path": "data/grixis/m6/ij/tested_pools/Lord_Xander__the_Collector_M7_tested_configurations_20261023.json",
+   "sha256": "sha256:bdaae5c35f1533c2034d9b5df6b9855e4a6baf320d92ee230bd28bcde7adfcc3"
+  },
+  {
+   "path": ".github/workflows/m7-lord-xander-the-collector.yml",
+   "sha256": "sha256:97ea8780867b277f734b2c79790bbbeebc2fc94a86dab0f135c52c5c126ac222"
+  },
+  {
+   "path": "data/grixis/m7/decision_reviews/Lord_Xander__the_Collector_chatgpt_adversarial_review_packet.md",
+   "sha256": "sha256:ee4b6b13d6ff7ecf400a984111153f3b7fe29c69c1b07357598dfdebdb55c727"
+  }
+ ],
+ "sealed_passes": {
+  "a_commit": "4fd295bf526354b2dfaa31c15ed8375946b8fe3d",
+  "b_commit": "9eb564cdab747e73e5fd19963e71e58e8229e979",
+  "a_output_ref": "data/grixis/m6/sealed/A/lord-xander-the-collector.json",
+  "b_output_ref": "data/grixis/m6/sealed/B/lord-xander-the-collector.json",
+  "reconciliation_manifest_sha256": "sha256:af9265a8bd56733ae20692369cec9a7f84827d5518adbbf4df4c9f49ebff01bd"
+ },
+ "pass_c": {
+  "reviewer": "ChatGPT/OpenAI GPT-6",
+  "judgment_receipt_path": "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/final_disposition.md",
+  "judgment_receipt_sha256": "sha256:e7ea6a8f5816e694482ee08bf61cbb7b7208d1bcf0260b0fa760d30560a122a8",
+  "conflicts_resolved": true,
+  "review_class": "FORMAL_PASS_C_OWNER_EQUIVALENT",
+  "technically_independent": false,
+  "waiver_receipt_path": "data/grixis/m6/governance/pass_c_owner_waiver_20261021.json",
+  "progress_receipt_path": "data/grixis/m6/owner_pass_c_substitute/progress.json",
+  "stage_a_seal_path": "data/grixis/m6/owner_pass_c_substitute/Lord_Xander__the_Collector/seal.json",
+  "waiver_receipt_sha256": "sha256:bea653b920925efb01c459a350485450191ebcf5eec0911b65ef062129d14c05",
+  "progress_receipt_sha256": "sha256:6c4ceb7b08c1888e25cb58b76806d7cc4e10f815c257a0929b7343ce858f2637",
+  "stage_a_seal_sha256": "sha256:1052e6b3032c1d5d018c3740222ce586b8ea30eaecfd6f86ad05a8d8e6837dd4"
+ },
+ "phase_b": {
+  "complete": true,
+  "tests": [
+   {
+    "test_ref": "tests/test_m6_lord_xander_the_collector_m7_mechanics.py",
+    "source_sha256": "sha256:9c0a5048ae247ea27da887df6a356dda10ea606181aa8d84daf4c1cf4da19ed1",
+    "seed": 0,
+    "harness_version": "lord_xander_the_collector_m7_finite_rules_and_bounded_pass_c_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Ten finite Oracle-anchored cases: Lord Xander, the Collector Oracle (enters discard half, attacks mill half, dies sacrifice half), legality and snc 2022-04-29 release, 99-card library with 33 land slots (32 lands plus the Malakir MDFC) and exactly three swaps, Game Changers 20, swap Oracle (Persist nonlegendary-only, Necromancy any graveyard with cleanup sacrifice, Greaves shroud vs Boots hexproof, Malakir dies-return vs Bog exile), recomputed Part B grids from the receipt's embedded script (B1 36 cells: Necromancy 12, Persist 4, Goryo's 8; B2 44 cells: Boots 44, Greaves 30; B3 16 cells: 6/6 tie), pinned monotone seeded goldfish cells (P Xander attack trigger turn 7 0.2978 baseline vs 0.2897 candidate; cast 0.3779 both), hypergeometric 0.7069, Commander Spellbook 11 included (Kiki-Jiki 14) and rules-snapshot anchors. Bounded; not a game simulation or win rate."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_lord_xander_the_collector_candidate.py",
+    "source_sha256": "sha256:93df9a48dee824c0f778e4841f91205b487030baa60acd4b4d1537ccd590b7af",
+    "seed": 0,
+    "harness_version": "lord_xander_the_collector_m7_gate_candidate_10_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Three-swap identity (+Necromancy -Persist; +Swiftfoot Boots -Lightning Greaves; +Malakir Rebirth // Malakir Mire -Bojuka Bog) against vendored and canonical sources, gate RESEARCH_ONLY status with the seal blocker in the withdrawal reason, registry hashes untouched, commander first, alphabetical, 100 physical cards with basics by quantity, distinctness, owner-removed and owner-rejected cards not re-added, owner additions retained and the single flagged owner-keep cut, 25 judged candidates, 13 weakest slots, eight staged or rejected alternatives as complete 100s with exact deltas, Power Bracket 4, Game Changers 20, commander legality (snc 2022-04-29); structural only."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m7_decisive_optimization_gate.py",
+    "source_sha256": "sha256:cc3ba9c782fa5ccbe6b33d553297894a334f1355e0c64895e62a105f2d5705fd",
+    "seed": 0,
+    "harness_version": "m7_gate_incl_baseline_provenance_exception_59_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Gate schema and fail-closed provenance-exception adversarial cases; structural, not gameplay. Byte-identical to PR #677 head e117a5ca (from the PR #651 chain)."
+    ]
+   },
+   {
+    "test_ref": "tests/test_m6_lord_xander_the_collector_m7_ij.py",
+    "source_sha256": "sha256:f6bf76f08de5d69959dd180dfa5937ec1271e3c9bbeba2b5806793730e06e751",
+    "seed": 0,
+    "harness_version": "lord_xander_the_collector_m7_IJ_8_methods",
+    "verdict": "pass",
+    "effect_coverage": "bounded_partial",
+    "supports_improvement_claim": false,
+    "limitations": [
+     "Recomputes pool raw/logical hashes and exact per-configuration deltas for 11 configurations, asserts the blocked certificate, asserts that the unchanged J checker rejects this bundle on the Stage A seal mismatch (sealed 89a78d80... vs actual 826f0770...) and that it is the only failure, pins the checker sha, leaves the seal bytes unchanged, and exercises the deck-bound preserved Pass C non-independence wording; provenance, not mechanical simulation."
+    ]
+   }
+  ]
+ },
+ "red_team": {
+  "report_path": "data/grixis/m6/certification_preflight/Lord_Xander__the_Collector_M6_J_red_team_20261023.md",
+  "sha256": "sha256:b69dbe36583893976938017be896d6fa46c8f9e38992059915eafb8b2818b29b"
+ },
+ "mana_analysis": {
+  "report_path": "data/grixis/m6/certification_preflight/Lord_Xander__the_Collector_M6_J_mana_20261023.md",
+  "sha256": "sha256:7a430a0f6160d51e3a897f8b50e5b60157a6ffae578bb2958a0ec7ca16f47dd0"
+ },
+ "unresolved_material_questions": [],
+ "bundle_status": "complete_evidence_not_approval",
+ "authority": {
+  "can_decide": false,
+  "can_apply_swap": false,
+  "can_approve_or_lock": false
+ }
+}
