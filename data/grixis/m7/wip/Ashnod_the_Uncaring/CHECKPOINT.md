@@ -1,8 +1,0 @@
-# WIP CHECKPOINT — Deck #6 Ashnod_the_Uncaring (tracker index 5) — INCOMPLETE, NOT OWNER APPROVED
-Status: RESEARCH_IN_PROGRESS
-Completed: branch from origin/chatgpt-cycle76-m6-refinement b6b40ac8; shared infra copied byte-identically from PR #653 head fee682f3; baseline vendored (raw f574e4fa…cf1cf == registry recorded).
-Completed: EDHREC / Scryfall-live / Commander Spellbook (baseline+candidate) discovery snapshots; tentative candidate list + 3 staged alternatives.
-Tentative five: +Corridor Monitor -Foundry Inspector; +Aether Spellbomb -Fellwar Stone; +Audacious Reshapers -Talisman of Indulgence; +Priest of Forgotten Gods -Walking Ballista; +Thopter Squadron -Esoteric Duplicator.
-Spellbook: baseline 15 included -> candidate 16 (+3 Ashnod lines, -2 Foundry Inspector variants).
-Baseline note: overrides say "three current-cycle swaps"; tracker says only Commander's Sphere -> Trading Post. Disclosed; raw hash authoritative.
-Completed: decision packet; oracle+rules snapshots; tests (candidate 4, mechanics 11, ij 14); I/J pool, certificate, bundle, preflight memos; workflow; narrow bundle_check fixes (parenthetical Pass C wording + legacy A_SEAL field names). Completed: adversarial review packet. Next: full-suite base vs head, PR finish.
