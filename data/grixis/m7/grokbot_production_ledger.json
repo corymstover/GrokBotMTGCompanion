@@ -1091,28 +1091,29 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck21-goro-goro-and-satoru-m7-20261023",
    "working_branch": "grokbot-deck21-goro-goro-and-satoru-m7-20261023",
-   "last_pushed_commit": "0d863c3ee9b9e4cacd48a41e92ccba0dd7572f3a",
+   "last_pushed_commit": "bd3bc1d5d0b797bc091e9f14b43f4c8d7d2cc8cd",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/669",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw 2fd39e3b == overrides == tracker == registry; 100 physical/99 rows, 2x Island); shared infra copied from #668 909543a5; draft PR #669 created 2026-10-23T11:59:21-0500 (GitHub createdAt 16:59:21Z)"
+    "baseline_provenance (canonical main 9b26aa28; raw 2fd39e3b == overrides == tracker == registry; 100 physical/99 rows, 2x Island); shared infra copied from #668 909543a5; draft PR #669 created 2026-10-23T11:59:21-0500 (GitHub createdAt 16:59:21Z)",
+    "research: EDHREC (4 pages), Scryfall live (117 candidates), CommanderSpellbook (5 combos base and candidate), bounded Pass C test, exact castability; staged candidate +Bitterblossom -Mist-Syndicate Naga and 6 alternatives"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "research: Scryfall live, EDHREC, Spellbook, Pass C requested test, candidate judgments",
-   "next_step": "research: Scryfall live, EDHREC, Spellbook, Pass C requested test, candidate judgments",
+   "next_action": "decision packet, adversarial review, I/J memos, bundle, tests, workflow",
+   "next_step": "decision packet, adversarial review, I/J memos, bundle, tests, workflow",
    "stage": "RESEARCH_IN_PROGRESS",
-   "last_pushed_sha": "0d863c3ee9b9e4cacd48a41e92ccba0dd7572f3a",
-   "last_checkpoint_commit": "0d863c3ee9b9e4cacd48a41e92ccba0dd7572f3a",
+   "last_pushed_sha": "bd3bc1d5d0b797bc091e9f14b43f4c8d7d2cc8cd",
+   "last_checkpoint_commit": "bd3bc1d5d0b797bc091e9f14b43f4c8d7d2cc8cd",
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/669",
    "pr_is_draft": true,
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 9d9e1b7b, introduced by 4aefbf3b 2026-10-14; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T11:59:32-0500",
-   "updated_at": "2026-10-23T11:59:32-0500"
+   "last_checkpoint_at": "2026-10-23T12:12:08-0500",
+   "updated_at": "2026-10-23T12:12:08-0500"
   },
   {
    "tracker_number": 22,
