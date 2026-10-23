@@ -825,14 +825,15 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck17-edward-kenway-m7-20261023",
    "working_branch": "grokbot-deck17-edward-kenway-m7-20261023",
-   "last_pushed_commit": "2fb3368300e50041960288ee5689b92e169316e1",
+   "last_pushed_commit": "5f8dc442f429db18508af4fb6f75a31f97d2f48d",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/665",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance (canonical main 9b26aa28; raw a08d3bc9 == overrides == tracker == registry; 100 physical/98 rows, Island/Swamp x2); shared infra copied from #664 cc2e6d45; draft PR #665 2026-10-23 09:50 CDT"
+    "baseline_provenance (canonical main 9b26aa28; raw a08d3bc9 == overrides == tracker == registry; 100 physical/98 rows, Island/Swamp x2); shared infra copied from #664 cc2e6d45; draft PR #665 2026-10-23 09:50 CDT",
+    "research_snapshots"
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
@@ -843,10 +844,10 @@
    "pr": "https://github.com/corymstover/GrokBotMTGCompanion/pull/665",
    "pr_is_draft": true,
    "pr_status": "DRAFT_WIP",
-   "last_checkpoint_commit": "2fb3368300e50041960288ee5689b92e169316e1",
+   "last_checkpoint_commit": "5f8dc442f429db18508af4fb6f75a31f97d2f48d",
    "canonical_baseline_commit": "9b26aa28fc7e16f6652aaec292b4edf84e20db71 (blob 46df00ee, frozen by 1e0b2e94; registry source_commit 1836b97 same bytes)",
-   "last_checkpoint_at": "2026-10-23T09:50:40-05:00",
-   "updated_at": "2026-10-23T09:50:40-05:00"
+   "last_checkpoint_at": "2026-10-23T10:00:00-05:00",
+   "updated_at": "2026-10-23T10:00:00-05:00"
   },
   {
    "tracker_number": 18,
