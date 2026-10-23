@@ -532,20 +532,22 @@
    "candidate_path": null,
    "candidate_raw_sha256": null,
    "current_candidate_sha": null,
-   "branch": null,
-   "working_branch": null,
-   "last_pushed_commit": null,
-   "pr_url": null,
+   "branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
+   "working_branch": "grokbot-deck13-doctor-doom-king-of-latveria-m7-20261023",
+   "last_pushed_commit": "0b620cd54698a3fc22531fcf0231ab3a35bcf835",
+   "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/661",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
-   "completed_stages": [],
-   "status": "NOT_STARTED",
+   "completed_stages": [
+    "baseline_provenance (canonical main 9b26aa28; raw c97bd448 == overrides == tracker == registry; 100 physical/100 rows; 38 lands); shared infra copied from #660 bb3be7d3; draft PR #661 2026-10-23 07:42 CDT"
+   ],
+   "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
    "owner_approval_status": "NOT_APPROVED",
-   "next_action": "Start M7 research per HANDOFF_t87u",
-   "next_step": "Start M7 research per HANDOFF_t87u"
+   "next_action": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments",
+   "next_step": "Research: live Scryfall, EDHREC, Spellbook, Pass C bounded tests, candidate judgments"
   },
   {
    "tracker_number": 14,
