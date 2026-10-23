@@ -488,14 +488,18 @@
    "current_candidate_sha": null,
    "branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
    "working_branch": "grokbot-deck12-davros-dalek-creator-m7-20261023",
-   "last_pushed_commit": "b41b5d3a38c03e6b2033c7007ae818710b59423e",
+   "last_pushed_commit": "438980cb6d34f45c981ff3614ae5e2a4eaae6948",
    "pr_url": "https://github.com/corymstover/GrokBotMTGCompanion/pull/660",
    "swap_count": null,
    "ci_runs": [],
    "blockers": [],
    "unresolved_issues": [],
    "completed_stages": [
-    "baseline_provenance"
+    "baseline_provenance",
+    [
+     "research_snapshots",
+     "draft_candidate"
+    ]
    ],
    "status": "RESEARCH_IN_PROGRESS",
    "chatgpt_review_status": "NOT_STARTED",
